@@ -1,1 +1,41 @@
-.edgeone/.token
+# OpenClaw workspace files
+.openclaw/
+.edgeone/
+.env
+
+# Workspace documentation
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
+USER.md
+
+# Skills directory (workspace files)
+skills/
+
+# Memory files (workspace files)
+memory/
+
+# Project config files
+.edgeone/project.json
+.edgeone/project-info.txt
+
+# Node modules
+node_modules/
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
