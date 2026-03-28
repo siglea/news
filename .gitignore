@@ -1,0 +1,28 @@
+# 编辑器/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 操作系统文件
+Thumbs.db
+desktop.ini
+
+# 本地配置（如需保留某些本地配置，可以注释下面几行）
+# .env
+# config.local.js
+
+# Gitee Pages 不需要忽略的文件
+# 如果使用了 Jekyll，可能需要：
+# _site/
+# .sass-cache/
+# .jekyll-metadata
