@@ -87,8 +87,33 @@ post 文件 h1 标题格式：
 ### 词汇标注规范
 
 - 被识别的英文单词使用 `<span class="word-block">` 包裹，包含单词和音标释义
-- **不要连续标注紧挨着的单词**，因为下方的解释部分会交叉覆盖，影响阅读体验
+- **严格禁止**：连续标注紧挨着的单词（如 "capital market"、"risk aversion" 等相邻词汇不能同时标注）
+- **只允许单个单词**：不要标注词组或短语，只选择最核心的那个单词进行标注
+- **间隔原则**：两个被标注的单词之间，必须有至少一个未标注的单词或标点符号隔开
 - 优先标注**核心动词、形容词、关键名词**，跳过专有名词（如 Steve Jobs、Android 等）
+
+#### 连续标注示例（❌ 错误）
+
+```html
+<!-- 错误：capital 和 market 紧挨着，解释会重叠 -->
+<span class="word-block"><span class="english-word">capital</span>...</span>
+<span class="word-block"><span class="english-word">market</span>...</span>
+
+<!-- 错误：stock 和 price 之间没有间隔 -->
+<span class="word-block"><span class="english-word">stock</span>...</span>
+<span class="word-block"><span class="english-word">price</span>...</span>
+```
+
+#### 正确示例（✅ 正确）
+
+```html
+<!-- 正确：只标注最核心的单词 market -->
+<span class="word-block"><span class="english-word">market</span><span class="word-info">[ˈmɑːkɪt] n. 市场</span></span>
+
+<!-- 正确：surged 和 evaporated 之间有其他内容隔开 -->
+<span class="word-block"><span class="english-word">surged</span><span class="word-info">[sɜːdʒd] v. 激增</span></span>近50倍...累计
+<span class="word-block"><span class="english-word">evaporated</span><span class="word-info">[ɪˈvæpəreɪtɪd] v. 蒸发</span></span>超过...
+```
 
 #### 技术实现约束
 
