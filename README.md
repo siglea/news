@@ -130,18 +130,18 @@ post 文件 h1 标题格式：
 ### 词汇标注规范
 
 - 被识别的英文单词使用 `<span class="word-block">` 包裹，包含单词和音标释义
-- **只允许单个单词**：不要标注词组或短语，只选择最核心的那个单词进行标注
+- **默认标单个英文词**；遇**报刊/行业固定搭配**时，可把整个搭配作为**一个**标注单位写入 `english-word`（允许空格或连字符，如 `on hold`、`dot plot`、`stop-loss`、`risk-free`），词汇表「词汇」列与正文**完全一致**。禁止的是把同一搭配**拆成两个紧挨的** `word-block`（见下「相邻 word-block」）。
 - 优先标注**核心动词、形容词、关键名词**，跳过专有名词（如 Steve Jobs、Android 等）
 
 #### 哪些词可以 / 不应被识别（选取原则）
 
 1. **不识别（须严格执行）**：非常简单的日常高频词（如 yes、good、big、get、make、close、drop、go、see、take 等），**不因「混排出现」而破例**。
-2. **不识别（须严格执行）**：中国普通高中英语课程标准范围内、无生僻义项的常见词（如 price、risk、trade、market、meeting、international、demand、flow、cancel、cost、gold、policy、chain、window、data、typical、emotion、giant、net、refuse、summit、domestic 等）。**宁可整段暂不标注，也不用上述词凑密度。**
+2. **不识别（须严格执行）**：中国普通高中英语课程标准范围内、无生僻义项的常见词（如 price、risk、trade、market、meeting、international、demand、flow、cancel、cost、gold、policy、chain、window、data、typical、emotion、giant、refuse、summit、domestic 等）。**宁可整段暂不标注，也不用上述词凑密度。**（若必须用英文承载「净额、净购」等义，优先改写句式或换用**机制词**如 `stockpile`、`gross`/`net` 结构上的替换词；避免单独为「常见义」标 `net` 凑数。）
 3. **优先识别**：涉及文章**关键信息、因果、立场、数据判断**的词（英或汉均可；见下条「替换规则」），如 warning、closure、hawkish、sanctions、valuation、hedge、materialize 等。
 4. **密度**：在**同一自然段内**，大致每 1～2 句至少 **1 处** `word-block`（以中文句读为准）。若句中只有第 1～2 类词或仅有品牌/专名，**可对句中某一成分做「中文 → 单个英文词」替换**（见下条）以满足密度；**不得**为此编造事实或改写论点。
 5. **优先识别**：考研英语阅读中**常见、重要的动词与名词**，以及财经/科技语篇**学科用语**（如 token、ETF、GPU、architecture、monetization、hyperscale 等）。
 
-**中文位置可译为英文替换（重要）**：当该中文在句中承载**观点、机制或数据判断**，且译成**单个英文单词**后与原文义一致时，可将该位置**直接替换为该英文词**，再对该词加 `word-block`。专名、整句英译、一词多义易歧义处不要硬换。
+**中文位置可译为英文替换（重要）**：当该中文在句中承载**观点、机制或数据判断**，且译成**单个英文单词**（或上条允许的**单一固定搭配**）后与原文义一致时，可将该位置**直接替换为该英文**，再对该片段加 `word-block`。专名、整句英译、一词多义易歧义处不要硬换。
 
 **词汇表**须与正文中的 `word-block` **一一对应**（同一词形在文中多次出现仍只列一行），只收录正文中实际标注的词。
 
@@ -152,7 +152,8 @@ post 文件 h1 标题格式：
 1. **句界与密度**：以 **`。` `？` `！` `；`** 为主划分「句」（英文导语里 **`;`** 可视作分句）。**同一自然段内，大致每 1～2 句至少 1 处** `word-block`。若连续两句都没有可标的英文，则对其中一句做**中文 → 单个合规英文词**替换（见上条），**不得**用第 1～2 类「不识别」词凑数。
 2. **替换词取向**：优先选用**考研书面语、国际新闻常见搭配、财经/科技机制词**（如 `forgo` `acquiescence` `leverage` `stagnation` `interdependence` `backlash` `ramp` 等），使语气与中英混排政经稿一致。
 3. **供应链表述**：涉及「供应链/物流」时，优先用 **logistics** 等**学科/行业上位词**承载语义；**不要**单独把 **chain**（高中常见）做成 `word-block`。
-4. **完稿检查**：① 篇末「重点词汇」表与正文标注**词形一致**；② 运行下文「相邻 word-block」自检，**零命中**。
+4. **完稿检查**：① 篇末「重点词汇」表与正文标注**词形一致**；② 表格须为合法 HTML：`</thead>` 后必须有 **`<tbody>`** 再写 `<tr>`，勿出现只有 `</tbody>` 而无开始标签的残缺表；③ 运行下文「相邻 word-block」自检，**零命中**。
+5. **双范文对照**：政经外交类以 G7 篇为主；**财经市场、利率与贵金属**等题材可同时对标 `posts/2026-03-29-gold-price-analysis.html`，复用其「固定搭配整块标、避免中英同义叠说、按段落功能补词」等做法（详见下节「案例补强」）。
 
 #### 「相邻 word-block」的严格定义（必读）
 
@@ -162,7 +163,15 @@ post 文件 h1 标题格式：
 - **合规**：`</span></span>问题，系统自动<span class="word-block"`（中间有中文）
 - **合规**：`capital <span class="word-block"`（前一个英文词未加标注，与标注块之间有空格——空格左侧是未标注的英文，不是第二个 word-block）
 
-**同一英文短语拆成两个标注**（如 gold price、safe haven、short position）一律按「相邻」处理，只能保留其中一个 `word-block`，另一个词保持纯文本。
+**同一英文短语拆成两个标注**（如 gold price、safe haven、short position）一律按「相邻」处理，只能保留其中一个 `word-block`，另一个词保持纯文本；若该搭配在业界习惯上**不可拆**（如 `dot plot`、`risk-free`），应**整段放进同一个** `word-block` 的 `english-word` 中，而不是拆成两个块。
+
+#### 案例补强（对标 `posts/2026-03-29-gold-price-analysis.html`）
+
+金价稿在对齐 G7 密度、相邻规则与词汇表的过程里，形成以下**可复用操作**，可与上节「落地标准」对照执行：
+
+1. **避免「英文 + 中文」同义叠说**：中文已说清楚动作时（如「暂停降息」），不要再在同一位置塞入与中文高度同义的单个英文词（易变成 `pause` + 暂停）；宜改用**固定搭配整体**（如 `on hold`）并加**极短补足语**（如「、未继续降息」），保持主叙事仍是中文流畅句。
+2. **按段落功能选词（财经叙事）**：导语可用 `headline`、`echo`；数据可用 `snapshot`、`tracked`；利率与持有成本用 `real`（实际利率）、`carry`；联储框架用 `decision`、`on hold`、`dot plot`；市场主线用 `narrative`、`Fed`；技术位与路径用 `breach`、`stop-loss`、`support`、`replicate`、`triple`；交易与仓位用 `trim`、`allocation`、`scale`、`sideline`、`unload`、`unwind`；行情节奏用 `choppy`、`pullback`、`correction`、`bounce`、`entry`；央行行为优先用 **`stockpile`** 等机制词，少用第2类「不识别」清单里的词硬凑。
+3. **正文中的英文碎片要「收口」**：混排里若出现 `risk-free` 等英文片段，须纳入 `word-block` 并进词汇表，避免「半标注、半原文」不统一。
 
 #### 提交前自检（命令）
 
