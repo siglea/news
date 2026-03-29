@@ -89,6 +89,27 @@ post 文件 h1 标题格式：
 - 标题必须分行显示：emoji+中文标题一行，英文副标题一行（使用 `<br>` 换行）
 - 英文副标题使用 `<small>` 标签，字号 16px，颜色 #888
 
+**链接样式规范（悬浮才出现）：**
+- 默认状态：标题颜色与普通文字一致（`var(--text-color)`），无下划线
+- 悬浮状态：标题变色为主题色（`var(--primary-color)`），可以添加下划线
+- 实现方式：使用 CSS 的 `:hover` 伪类控制样式变化
+
+```css
+.post-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.post-link .post-title {
+    color: var(--text-color);
+}
+
+.post-link:hover .post-title {
+    color: var(--primary-color);
+}
+```
+
 ### 标签规范
 
 文章 meta 信息格式：
