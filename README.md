@@ -130,10 +130,32 @@ post 文件 h1 标题格式：
 ### 词汇标注规范
 
 - 被识别的英文单词使用 `<span class="word-block">` 包裹，包含单词和音标释义
-- **严格禁止**：连续标注紧挨着的单词（如 "capital market"、"risk aversion" 等相邻词汇不能同时标注）
 - **只允许单个单词**：不要标注词组或短语，只选择最核心的那个单词进行标注
-- **间隔原则**：两个被标注的单词之间，必须有至少一个未标注的单词或标点符号隔开
 - 优先标注**核心动词、形容词、关键名词**，跳过专有名词（如 Steve Jobs、Android 等）
+
+#### 「相邻 word-block」的严格定义（必读）
+
+两个 `word-block` **视为相邻**，当且仅当：前一个 `word-block` 的结束标记 `</span></span>` 与后一个 `<span class="word-block"` 之间**只有空白**（空格、换行、制表符），**没有任何其他字符**（包括英文单词、中文、标点）。
+
+- **违规**：`</span></span> <span class="word-block"`（中间只有空格/换行）
+- **合规**：`</span></span>问题，系统自动<span class="word-block"`（中间有中文）
+- **合规**：`capital <span class="word-block"`（前一个英文词未加标注，与标注块之间有空格——空格左侧是未标注的英文，不是第二个 word-block）
+
+**同一英文短语拆成两个标注**（如 gold price、safe haven、short position）一律按「相邻」处理，只能保留其中一个 `word-block`，另一个词保持纯文本。
+
+#### 提交前自检（命令）
+
+在仓库根目录执行，**无匹配输出**表示未发现相邻 `word-block`：
+
+```bash
+# 已安装 ripgrep 时
+rg '</span></span>\s+<span class="word-block"' posts/
+
+# 或仅用 grep
+grep -rE '</span></span>[[:space:]]+<span class="word-block"' posts/*.html
+```
+
+若命中行，必须修改正文后再提交。可将此命令写入 CI 或本地 git hook。
 
 #### 连续标注示例（❌ 错误）
 
