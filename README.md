@@ -67,6 +67,28 @@ post 文件 h1 标题格式：
 - 中文主标题 + 英文副标题（small 标签包裹）
 - **严格保持首页与文章页标题一致**，避免用户困惑
 
+### 首页列表设计规范
+
+**每个条目（cell）必须整体可点击：**
+
+```html
+<li class="post-item">
+    <a href="posts/YYYY-MM-DD-title.html" class="post-link">
+        <div class="post-title">
+            [emoji] 中文标题<br>
+            <small style="font-size: 16px; color: #888;">English Title</small>
+        </div>
+        <div class="post-meta">📅 YYYY-MM-DD | 📝 双语 | 🏷️ 标签</div>
+        <div class="post-excerpt">摘要内容...</div>
+    </a>
+</li>
+```
+
+**关键要求：**
+- 整个 `li.post-item` 使用 `<a>` 标签包裹，使标题、meta、摘要区域整体可点击
+- 标题必须分行显示：emoji+中文标题一行，英文副标题一行（使用 `<br>` 换行）
+- 英文副标题使用 `<small>` 标签，字号 16px，颜色 #888
+
 ### 标签规范
 
 文章 meta 信息格式：
