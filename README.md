@@ -135,13 +135,15 @@ post 文件 h1 标题格式：
 
 #### 哪些词可以 / 不应被识别（选取原则）
 
-1. **不识别**：非常简单的词（如 yes、good、big、get、make、close、drop 等日常高频基础词），除非在文中构成专业义项且属于下一条范围。
-2. **不识别**：中国普通高中英语课程标准范围内、无生僻义项的常见词（如 price、risk、market、meeting、cancel 等）——**若该词在文中以英文原词混排出现，且标出后能落实第 3～5 条（观点/考研/密度），则可以标**；仍**不确定时宁可少标**。
-3. **优先识别**：涉及文章**关键信息、因果、立场、数据判断**的英文词（如 warning、closure、hawkish、sanctions、valuation、hedge、materialize 等）。
-4. **密度**：在**同一自然段内**，大致每 1～2 句至少出现 **1 处** `word-block`（以中文句读为准）。**混排句**里只要出现可标的英文词，应优先从中挑选符合 1～3、5 条的词标出，避免整段「零标注」。**若该句及相邻句完全没有可标的英文，或仅有品牌/专名，则不强行凑数**——不得为此改写、增删正文。
-5. **优先识别**：考研英语大纲及真题阅读中**常见、重要的动词与名词**（如 surge、plunge、evaporate、decompose、sanctions、paradox、speculator、inflation、valuation 等），以及财经/科技语篇中的**学科常用词**（如 token、ETF、GPU、architecture、monetization）。
+1. **不识别（须严格执行）**：非常简单的日常高频词（如 yes、good、big、get、make、close、drop、go、see、take 等），**不因「混排出现」而破例**。
+2. **不识别（须严格执行）**：中国普通高中英语课程标准范围内、无生僻义项的常见词（如 price、risk、trade、market、meeting、international、demand、flow、cancel、cost、gold、policy、chain、window、data、typical、emotion、giant、net、refuse、summit、domestic 等）。**宁可整段暂不标注，也不用上述词凑密度。**
+3. **优先识别**：涉及文章**关键信息、因果、立场、数据判断**的词（英或汉均可；见下条「替换规则」），如 warning、closure、hawkish、sanctions、valuation、hedge、materialize 等。
+4. **密度**：在**同一自然段内**，大致每 1～2 句至少 **1 处** `word-block`（以中文句读为准）。若句中只有第 1～2 类词或仅有品牌/专名，**可对句中某一成分做「中文 → 单个英文词」替换**（见下条）以满足密度；**不得**为此编造事实或改写论点。
+5. **优先识别**：考研英语阅读中**常见、重要的动词与名词**，以及财经/科技语篇**学科用语**（如 token、ETF、GPU、architecture、monetization、hyperscale 等）。
 
-**词汇表**须与正文中的 `word-block` **一一对应**，只收录正文中实际标注的词。
+**中文位置可译为英文替换（重要）**：当该中文在句中承载**观点、机制或数据判断**，且译成**单个英文单词**后与原文义一致时，可将该位置**直接替换为该英文词**，再对该词加 `word-block`。专名、整句英译、一词多义易歧义处不要硬换。
+
+**词汇表**须与正文中的 `word-block` **一一对应**（同一词形在文中多次出现仍只列一行），只收录正文中实际标注的词。
 
 
 #### 「相邻 word-block」的严格定义（必读）
