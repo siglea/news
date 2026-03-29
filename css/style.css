@@ -133,6 +133,7 @@ body {
 
 .post-title a:hover {
     color: var(--primary-color);
+    text-decoration: underline;
 }
 
 .post-excerpt a {
@@ -142,6 +143,7 @@ body {
 
 .post-excerpt a:hover {
     color: var(--primary-color);
+    text-decoration: underline;
 }
 
 .post-meta {
