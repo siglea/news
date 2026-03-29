@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[V4 时间线风格] 谷歌发布最强通用AI模型 | MingoX</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* V4: 时间线风格 - 适合追踪类新闻 */
+        .v4-timeline .card {
+            background: #fff;
+            padding: 40px;
+        }
+        .v4-timeline .article-header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+        }
+        .v4-timeline .article-header h1 {
+            font-size: 32px;
+            border: none;
+            margin-bottom: 10px;
+        }
+        .v4-timeline .subtitle {
+            color: #888;
+            font-size: 16px;
+            font-style: italic;
+        }
+        .v4-timeline .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        .v4-timeline .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+            border-radius: 3px;
+        }
+        .v4-timeline .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 30px;
+        }
+        .v4-timeline .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -46px;
+            top: 5px;
+            width: 16px;
+            height: 16px;
+            background: #667eea;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #667eea;
+        }
+        .v4-timeline .timeline-item.highlight::before {
+            background: #e74c3c;
+            box-shadow: 0 0 0 3px #e74c3c;
+            width: 20px;
+            height: 20px;
+            left: -48px;
+        }
+        .v4-timeline .timeline-time {
+            font-size: 13px;
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .v4-timeline .timeline-content {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .v4-timeline .timeline-content p {
+            margin: 0;
+            line-height: 1.8;
+        }
+        .v4-timeline .stats-bar {
+            display: flex;
+            justify-content: space-around;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin: 40px 0;
+        }
+        .v4-timeline .stat-item {
+            text-align: center;
+        }
+        .v4-timeline .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            display: block;
+        }
+        .v4-timeline .stat-label {
+            font-size: 13px;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+        .v4-timeline .vocab-panel {
+            background: #f8f9fa;
+            border-radius: 16px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+        .v4-timeline .vocab-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .v4-timeline .vocab-tag {
+            background: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            border: 2px solid #667eea;
+            font-size: 14px;
+        }
+        .v4-timeline .vocab-tag span {
+            color: #667eea;
+            font-weight: 600;
+        }
+        .v4-timeline .vocab-tag small {
+            color: #888;
+            margin-left: 5px;
+        }
+        .v4-timeline .english-word {
+            background: transparent;
+            color: #667eea;
+            border-bottom: 3px solid #ffeaa7;
+            padding: 0 2px;
+            font-weight: 700;
+        }
+        .v4-timeline .word-info {
+            color: #999;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body class="v4-timeline">
+    <nav class="navbar">
+        <div class="container">
+            <a href="../" class="logo">🎙️ MingoX</a>
+            <div class="nav-links">
+                <a href="./style-v3-cards.html">←V3</a>
+                <a href="../">首页</a>
+                <a href="./style-v5-immersive.html">V5→</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="card">
+                <div class="article-header">
+                    <h1>谷歌发布最强通用AI模型</h1>
+                    <div class="subtitle">Google Unveils Gemini 2.5 Pro — "Most Capable General AI Model"</div>
+                    <div style="margin-top: 20px; color: #888; font-size: 13px;">
+                        📅 2025-05-21 | 📝 双语 | 🏷️ 科技, AI
+                    </div>
+                </div>
+
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <span class="stat-number">50×</span>
+                        <div class="stat-label">处理能力增长</div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">480T</span>
+                        <div class="stat-label">月处理Token</div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4亿</span>
+                        <div class="stat-label">月活跃用户</div>
+                    </div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item highlight">
+                        <div class="timeline-time">🚀 重磅发布</div>
+                        <div class="timeline-content">
+                            <p>当地时间5月20日，谷歌在2025年度I/O开发者大会上重磅发布 <span class="english-word">Gemini 2.5 Pro</span><span class="word-info">（n. Gemini 2.5 Pro模型）</span>。Alphabet兼谷歌CEO <span class="english-word">Sundar Pichai</span><span class="word-info">（n. 桑达尔·皮查伊）</span> 称这是"迄今为止我们最强大的通用AI模型"。</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">📊 性能飞跃</div>
+                        <div class="timeline-content">
+                            <p>谷歌系统的 <span class="english-word">Token Processing</span><span class="word-info">（n. 词元处理）</span> 能力在过去一年中 <span class="english-word">Surged</span><span class="word-info">（v. 激增）</span> 近50倍，从去年的9.7万亿增至现在的 <span class="english-word">480 Trillion</span><span class="word-info">（n. 480万亿）</span>。Gemini App每月有 <span class="english-word">400 Million</span><span class="word-info">（n. 4亿）</span> 活跃用户。</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">🤖 智能体模式</div>
+                        <div class="timeline-content">
+                            <p>谷歌推出 <span class="english-word">Agent Mode</span><span class="word-info">（n. 智能体模式）</span>，将在Chrome浏览器、搜索以及Gemini App中上线。AI可以与浏览器和其他软件进行 <span class="english-word">Interact</span><span class="word-info">（v. 交互）</span> 和操作。AI智能体Mariner现在可以同时 <span class="english-word">Manage</span><span class="word-info">（v. 管理）</span> 多达10个任务。</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">🔍 搜索革命</div>
+                        <div class="timeline-content">
+                            <p>谷歌正式推出由Gemini 2.5驱动的 <span class="english-word">AI Mode</span><span class="word-info">（n. AI模式）</span>。用户可以向搜索引擎提出 <span class="english-word">Complex</span><span class="word-info">（adj. 复杂的）</span> 问题，系统自动 <span class="english-word">Decompose</span><span class="word-info">（v. 分解）</span> 查询意图并生成 <span class="english-word">Structured Answers</span><span class="word-info">（n. 结构化答案）</span>。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vocab-panel">
+                    <h3 style="color: #667eea; font-size: 18px;">📖 重点词汇</h3>
+                    <div class="vocab-tags">
+                        <div class="vocab-tag"><span>Unveils</span><small>v. 发布</small></div>
+                        <div class="vocab-tag"><span>Token Processing</span><small>n. 词元处理</small></div>
+                        <div class="vocab-tag"><span>Surged</span><small>v. 激增</small></div>
+                        <div class="vocab-tag"><span>Agent Mode</span><small>n. 智能体模式</small></div>
+                        <div class="vocab-tag"><span>Interact</span><small>v. 交互</small></div>
+                        <div class="vocab-tag"><span>Decompose</span><small>v. 分解</small></div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="../" style="color: #667eea; text-decoration: none;">← 返回首页</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MingoX | V4 时间线风格</p>
+        </div>
+    </footer>
+</body>
+</html>
