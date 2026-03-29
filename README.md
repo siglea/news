@@ -25,8 +25,8 @@
 
 ## 🌍 语言特色
 
-- 中英双语对照阅读，学习语言同时获取资讯
-- 保留原文语境，标注重点词汇与表达
+- 中英双语对照呈现，保留原文语境
+- 标注重点词汇与表达，便于理解
 - 多语言内容并行，满足不同读者需求
 
 ## 📁 目录结构
@@ -47,6 +47,36 @@ news/
 └── images/             # 图片资源
 ```
 
+## 🎯 内容规范
+
+### 标题格式
+
+首页文章列表标题统一格式：
+```
+[emoji] 中文标题 | English Title
+```
+
+- 使用 emoji 表示内容类型：📈 新闻、💡 思想、🎙️ 播客 等
+- 中英文标题用 `|` 分隔
+- 简洁明了，突出核心信息
+
+### 标签规范
+
+文章 meta 信息格式：
+```
+📅 YYYY-MM-DD | 📝 双语 | 🏷️ 标签1, 标签2
+```
+
+- **内容形式**：📝 文字、🖼️ 图片、🎙️ 播客、📹 视频
+- **语言类型**：🌐 多语言、🇨🇳 中文、🇬🇧 英文
+- **主题标签**：财经、科技、文化、观点 等（不用"学习""教程"等教育类标签）
+
+### 摘要规范
+
+- 一句话概括内容核心
+- 突出新闻/观点价值，而非"学习价值"
+- 示例："美股七巨头市值蒸发超8500亿美元，Meta因诉讼案暴跌11%"
+
 ## 🚀 添加新内容
 
 1. 在 `posts/` 目录创建新 HTML 文件，命名格式：`YYYY-MM-DD-title.html`
@@ -58,12 +88,17 @@ news/
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>标题 | MingoX</title>
+    <title>中文标题 | English Title | MingoX</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <nav class="navbar">...</nav>
-    <main class="main-content">...</main>
+    <main class="main-content">
+        <article class="post-content">
+            <h1>[emoji] 中文标题 | English Title</h1>
+            <!-- 双语内容，保留词汇标注 -->
+        </article>
+    </main>
     <footer class="footer">...</footer>
     <script src="../js/main.js"></script>
 </body>
