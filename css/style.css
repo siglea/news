@@ -346,12 +346,11 @@ body {
     font-weight: 600;
 }
 
-/* 英语单词高亮（释义略上移，并预留底部避免压到下一行） */
+/* 英语单词高亮（释义紧贴本词下方，不额外撑大行距） */
 .word-block {
-    display: inline-block;
+    display: inline;
     position: relative;
     vertical-align: baseline;
-    padding-bottom: 1.85em;
 }
 
 .english-word {
@@ -365,7 +364,7 @@ body {
 .word-info {
     display: block;
     position: absolute;
-    top: calc(100% - 6px);
+    top: calc(100% + 1px);
     left: 50%;
     transform: translateX(-50%);
     box-sizing: border-box;
