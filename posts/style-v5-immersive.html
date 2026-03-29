@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[V5 沉浸式风格] 谷歌发布最强通用AI模型 | MingoX</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* V5: 沉浸式风格 - 全宽渐变，视觉冲击 */
+        .v5-immersive body {
+            background: #0a0a0a;
+        }
+        .v5-immersive .navbar {
+            background: rgba(10, 10, 10, 0.9);
+            backdrop-filter: blur(10px);
+        }
+        .v5-immersive .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        .v5-immersive .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(102, 126, 234, 0.2) 0%, transparent 70%);
+        }
+        .v5-immersive .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 40px;
+        }
+        .v5-immersive .hero-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .v5-immersive .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #fff 0%, #667eea 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            border: none;
+        }
+        .v5-immersive .hero-subtitle {
+            font-size: 20px;
+            opacity: 0.8;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .v5-immersive .hero-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+        .v5-immersive .content-section {
+            background: #0a0a0a;
+            padding: 60px 0;
+        }
+        .v5-immersive .card {
+            background: linear-gradient(145deg, #1a1a2e 0%, #16213e 100%);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        .v5-immersive .post-content {
+            color: #e0e0e0;
+        }
+        .v5-immersive .post-content h2 {
+            color: #667eea;
+            font-size: 28px;
+            margin: 40px 0 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .v5-immersive .post-content p {
+            font-size: 17px;
+            line-height: 1.9;
+            margin-bottom: 25px;
+        }
+        .v5-immersive .glow-box {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 0 30px rgba(102, 126, 234, 0.1);
+        }
+        .v5-immersive .glow-box p {
+            margin: 0;
+            font-size: 18px;
+            color: #fff;
+        }
+        .v5-immersive .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .v5-immersive .vocab-glow {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        .v5-immersive .vocab-glow:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+        .v5-immersive .vocab-glow .en {
+            color: #667eea;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .v5-immersive .vocab-glow .cn {
+            color: #888;
+            font-size: 13px;
+            margin-top: 8px;
+        }
+        .v5-immersive .english-word {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+        .v5-immersive .word-info {
+            color: rgba(255,255,255,0.6);
+            font-weight: normal;
+        }
+        .v5-immersive .footer {
+            background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0a 100%);
+            border-top: 1px solid rgba(102, 126, 234, 0.2);
+        }
+        @media (max-width: 768px) {
+            .v5-immersive .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body class="v5-immersive">
+    <nav class="navbar">
+        <div class="container">
+            <a href="../" class="logo">🎙️ MingoX</a>
+            <div class="nav-links">
+                <a href="./style-v4-timeline.html">←V4</a>
+                <a href="../">首页</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-content">
+            <div class="hero-icon">🚀</div>
+            <h1>谷歌发布最强通用AI模型</h1>
+            <div class="hero-subtitle">Google Unveils Gemini 2.5 Pro — "Most Capable General AI Model"</div>
+            <div class="hero-meta">
+                <span>📅 2025-05-21</span>
+                <span>📝 双语</span>
+                <span>🏷️ 科技, AI</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div class="container">
+            <div class="card">
+                <article class="post-content">
+                    <h2>🎯 重磅发布</h2>
+                    <p>当地时间5月20日，谷歌在2025年度I/O开发者大会上重磅发布 <span class="english-word">Gemini 2.5 Pro</span><span class="word-info">（n. Gemini 2.5 Pro模型）</span>。Alphabet兼谷歌CEO <span class="english-word">Sundar Pichai</span><span class="word-info">（n. 桑达尔·皮查伊）</span> 称这是"迄今为止我们最强大的通用AI模型"。</p>
+
+                    <div class="glow-box">
+                        <p>"我们希望尽快将最好的模型和产品交到大家手中，因此我们的发布速度比以往任何时候都快。"<br>— Sundar Pichai, Alphabet CEO</p>
+                    </div>
+
+                    <h2>📊 性能飞跃</h2>
+                    <p>据皮查伊透露，谷歌系统的 <span class="english-word">Token Processing</span><span class="word-info">（n. 词元处理）</span> 能力在过去一年中 <span class="english-word">Surged</span><span class="word-info">（v. 激增）</span> 近50倍，从去年的9.7万亿增至现在的 <span class="english-word">480 Trillion</span><span class="word-info">（n. 480万亿）</span>。Gemini App每月有 <span class="english-word">400 Million</span><span class="word-info">（n. 4亿）</span> 活跃用户。</p>
+
+                    <h2>🤖 智能体革命</h2>
+                    <p>谷歌同时推出 <span class="english-word">Agent Mode</span><span class="word-info">（n. 智能体模式）</span>，将在Chrome浏览器、搜索以及Gemini App中上线。该模式下，AI可以与浏览器和其他软件进行 <span class="english-word">Interact</span><span class="word-info">（v. 交互）</span> 和操作。</p>
+
+                    <h2>🔍 重新定义搜索</h2>
+                    <p>在搜索方面，谷歌正式推出由Gemini 2.5驱动的 <span class="english-word">AI Mode</span><span class="word-info">（n. AI模式）</span>。用户可以向搜索引擎提出 <span class="english-word">Complex</span><span class="word-info">（adj. 复杂的）</span> 问题，系统自动 <span class="english-word">Decompose</span><span class="word-info">（v. 分解）</span> 查询意图并生成 <span class="english-word">Structured Answers</span><span class="word-info">（n. 结构化答案）</span>。</p>
+
+                    <div class="glow-box">
+                        <p>"我们正在重新定义搜索的未来——不是找到链接，而是直接给出答案。"</p>
+                    </div>
+                </article>
+
+                <div style="margin-top: 50px;">
+                    <h2 style="color: #667eea; font-size: 24px; margin-bottom: 20px;">📖 重点词汇</h2>
+                    <div class="vocab-grid">
+                        <div class="vocab-glow">
+                            <div class="en">Unveils</div>
+                            <div class="cn">v. 发布</div>
+                        </div>
+                        <div class="vocab-glow">
+                            <div class="en">Token Processing</div>
+                            <div class="cn">n. 词元处理</div>
+                        </div>
+                        <div class="vocab-glow">
+                            <div class="en">Surged</div>
+                            <div class="cn">v. 激增</div>
+                        </div>
+                        <div class="vocab-glow">
+                            <div class="en">Agent Mode</div>
+                            <div class="cn">n. 智能体模式</div>
+                        </div>
+                        <div class="vocab-glow">
+                            <div class="en">Interact</div>
+                            <div class="cn">v. 交互</div>
+                        </div>
+                        <div class="vocab-glow">
+                            <div class="en">Decompose</div>
+                            <div class="cn">v. 分解</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 50px;">
+                    <a href="../" style="color: #667eea; text-decoration: none; font-size: 16px;">← 返回首页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MingoX | V5 沉浸式风格</p>
+        </div>
+    </footer>
+</body>
+</html>
