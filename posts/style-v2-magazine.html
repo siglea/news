@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[V2 杂志风格] 谷歌发布最强通用AI模型 | MingoX</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* V2: 杂志风格 - 分栏布局，大图，引文设计 */
+        .v2-magazine .card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            padding: 0;
+        }
+        .v2-magazine .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        .v2-magazine .hero-section h1 {
+            font-size: 36px;
+            margin: 0;
+            border: none;
+            color: white;
+            font-weight: 700;
+        }
+        .v2-magazine .hero-subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-top: 15px;
+            font-style: italic;
+        }
+        .v2-magazine .hero-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            font-size: 13px;
+            opacity: 0.8;
+        }
+        .v2-magazine .content-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 40px;
+            padding: 40px;
+        }
+        .v2-magazine .main-column p {
+            font-size: 16px;
+            line-height: 1.9;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .v2-magazine .quote-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px 25px;
+            margin: 30px 0;
+            font-size: 18px;
+            color: #555;
+            font-style: italic;
+        }
+        .v2-magazine .sidebar {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            height: fit-content;
+        }
+        .v2-magazine .sidebar h3 {
+            font-size: 16px;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        .v2-magazine .vocab-card {
+            background: white;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .v2-magazine .vocab-en {
+            font-weight: 600;
+            color: #667eea;
+            font-size: 14px;
+        }
+        .v2-magazine .vocab-pos {
+            font-size: 11px;
+            color: #999;
+            margin-left: 5px;
+        }
+        .v2-magazine .vocab-cn {
+            font-size: 13px;
+            color: #666;
+            margin-top: 3px;
+        }
+        .v2-magazine .english-word {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .v2-magazine .word-info {
+            color: #888;
+            font-weight: normal;
+        }
+        @media (max-width: 768px) {
+            .v2-magazine .content-wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="v2-magazine">
+    <nav class="navbar">
+        <div class="container">
+            <a href="../" class="logo">🎙️ MingoX</a>
+            <div class="nav-links">
+                <a href="./style-v1-minimal.html">←V1</a>
+                <a href="../">首页</a>
+                <a href="./style-v3-cards.html">V3→</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="card">
+                <div class="hero-section">
+                    <h1>谷歌发布最强通用AI模型</h1>
+                    <div class="hero-subtitle">Google Unveils Gemini 2.5 Pro — "Most Capable General AI Model"</div>
+                    <div class="hero-meta">
+                        <span>📅 2025-05-21</span>
+                        <span>📝 双语报道</span>
+                        <span>🏷️ 科技前沿</span>
+                    </div>
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="main-column">
+                        <article class="post-content">
+                            <p>当地时间5月20日，谷歌在2025年度I/O开发者大会上重磅发布 <span class="english-word">Gemini 2.5 Pro</span><span class="word-info">（n. Gemini 2.5 Pro模型）</span>。Alphabet兼谷歌CEO <span class="english-word">Sundar Pichai</span><span class="word-info">（n. 桑达尔·皮查伊）</span> 称这是"迄今为止我们最强大的通用AI模型"（our most capable general AI model to date）。</p>
+
+                            <div class="quote-box">
+                                "我们希望尽快将最好的模型和产品交到大家手中，因此我们的发布速度比以往任何时候都快。"
+                                <br>— Sundar Pichai, Alphabet CEO
+                            </div>
+
+                            <p>据皮查伊透露，谷歌系统的 <span class="english-word">Token Processing</span><span class="word-info">（n. 词元处理）</span> 能力在过去一年中 <span class="english-word">Surged</span><span class="word-info">（v. 激增）</span> 近50倍，从去年的9.7万亿增至现在的 <span class="english-word">480 Trillion</span><span class="word-info">（n. 480万亿）</span>。Gemini App每月有 <span class="english-word">400 Million</span><span class="word-info">（n. 4亿）</span> 活跃用户。</p>
+
+                            <p>谷歌同时推出 <span class="english-word">Agent Mode</span><span class="word-info">（n. 智能体模式）</span>，将在Chrome浏览器、搜索以及Gemini App中上线。该模式下，AI可以与浏览器和其他软件进行 <span class="english-word">Interact</span><span class="word-info">（v. 交互）</span> 和操作。</p>
+
+                            <p>在搜索方面，谷歌正式推出由Gemini 2.5驱动的 <span class="english-word">AI Mode</span><span class="word-info">（n. AI模式）</span>。用户可以向搜索引擎提出 <span class="english-word">Complex</span><span class="word-info">（adj. 复杂的）</span> 问题，系统自动 <span class="english-word">Decompose</span><span class="word-info">（v. 分解）</span> 查询意图并生成 <span class="english-word">Structured Answers</span><span class="word-info">（n. 结构化答案）</span>。</p>
+
+                            <div class="quote-box">
+                                "我们正在重新定义搜索的未来——不是找到链接，而是直接给出答案。"
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="sidebar">
+                        <h3>📖 重点词汇</h3>
+                        <div class="vocab-card">
+                            <div class="vocab-en">Unveils<span class="vocab-pos">v.</span></div>
+                            <div class="vocab-cn">发布</div>
+                        </div>
+                        <div class="vocab-card">
+                            <div class="vocab-en">Token Processing<span class="vocab-pos">n.</span></div>
+                            <div class="vocab-cn">词元处理</div>
+                        </div>
+                        <div class="vocab-card">
+                            <div class="vocab-en">Surged<span class="vocab-pos">v.</span></div>
+                            <div class="vocab-cn">激增</div>
+                        </div>
+                        <div class="vocab-card">
+                            <div class="vocab-en">Agent Mode<span class="vocab-pos">n.</span></div>
+                            <div class="vocab-cn">智能体模式</div>
+                        </div>
+                        <div class="vocab-card">
+                            <div class="vocab-en">Interact<span class="vocab-pos">v.</span></div>
+                            <div class="vocab-cn">交互</div>
+                        </div>
+                        <div class="vocab-card">
+                            <div class="vocab-en">Decompose<span class="vocab-pos">v.</span></div>
+                            <div class="vocab-cn">分解</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MingoX | V2 杂志风格</p>
+        </div>
+    </footer>
+</body>
+</html>
