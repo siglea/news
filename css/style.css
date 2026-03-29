@@ -307,10 +307,10 @@ body {
     line-height: 1.75;
 }
 
-/* 文章内容（正文不小于 16px，中文略大行高） */
+/* 文章内容（正文不小于 16px，行高 2.2 便于阅读与词条释义） */
 .post-content {
     font-size: clamp(1rem, 2.9vw, 1.0625rem);
-    line-height: 1.8;
+    line-height: 2.2;
     color: var(--text-color);
     max-width: 42rem;
     margin-left: auto;
@@ -476,7 +476,7 @@ body {
     }
 
     .post-content {
-        line-height: 1.82;
+        line-height: 2.2;
     }
 }
 
