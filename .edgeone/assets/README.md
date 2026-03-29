@@ -51,14 +51,21 @@ news/
 
 ### 标题格式
 
-首页文章列表标题统一格式：
+**重要原则：首页列表标题必须与 post 文件内的 h1 标题保持一致**
+
+post 文件 h1 标题格式：
+```html
+<h1>[emoji] 中文标题<br><small style="font-size: 18px; color: #888;">English Title</small></h1>
 ```
-[emoji] 中文标题 | English Title
+
+首页列表标题格式（与 post 文件一致）：
+```
+[emoji] 中文标题<br><small style="font-size: 16px; color: #888;">English Title</small>
 ```
 
 - 使用 emoji 表示内容类型：📈 新闻、💡 思想、🎙️ 播客 等
-- 中英文标题用 `|` 分隔
-- 简洁明了，突出核心信息
+- 中文主标题 + 英文副标题（small 标签包裹）
+- **严格保持首页与文章页标题一致**，避免用户困惑
 
 ### 标签规范
 
@@ -76,6 +83,12 @@ news/
 - 一句话概括内容核心
 - 突出新闻/观点价值，而非"学习价值"
 - 示例："美股七巨头市值蒸发超8500亿美元，Meta因诉讼案暴跌11%"
+
+### 词汇标注规范
+
+- 被识别的英文单词使用 `<span class="word-block">` 包裹，包含单词和音标释义
+- **不要连续标注紧挨着的单词**，因为下方的解释部分会交叉覆盖，影响阅读体验
+- 优先标注**核心动词、形容词、关键名词**，跳过专有名词（如 Steve Jobs、Android 等）
 
 ## 🚀 添加新内容
 
@@ -95,7 +108,7 @@ news/
     <nav class="navbar">...</nav>
     <main class="main-content">
         <article class="post-content">
-            <h1>[emoji] 中文标题 | English Title</h1>
+            <h1>[emoji] 中文标题<br><small style="font-size: 18px; color: #888;">English Title</small></h1>
             <!-- 双语内容，保留词汇标注 -->
         </article>
     </main>
