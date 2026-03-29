@@ -133,6 +133,17 @@ post 文件 h1 标题格式：
 - **只允许单个单词**：不要标注词组或短语，只选择最核心的那个单词进行标注
 - 优先标注**核心动词、形容词、关键名词**，跳过专有名词（如 Steve Jobs、Android 等）
 
+#### 哪些词可以 / 不应被识别（选取原则）
+
+1. **不识别**：非常简单的词（如 yes、good、big、get、make、close、drop 等日常高频基础词），除非在文中构成专业义项且属于下一条范围。
+2. **不识别**：中国普通高中英语课程标准范围内、无生僻义项的常见词（如 price、risk、trade、market、meeting、international、demand、flow、cancel 等）。**不确定时宁可少标。**
+3. **优先识别**：涉及文章**关键信息、因果、立场、数据判断**的英文词（如 warning、closure、hawkish、sanctions、valuation、hedge、materialize 等）。
+4. **密度**：在**同一自然段内**，大致每 1～2 句至少出现 **1 处** `word-block`（以中文句读为准）；**若该句及相邻句完全没有可标的英文，或仅有品牌/专名，则不强行凑数**——不得为此改写、增删正文。
+5. **优先识别**：考研英语大纲及真题阅读中**常见、重要的动词与名词**（如 surge、plunge、evaporate、decompose、sanctions、paradox、speculator、inflation、valuation 等），以及财经/科技语篇中的**学科常用词**（如 token、ETF、GPU、architecture、monetization）。
+
+**词汇表**须与正文中的 `word-block` **一一对应**，只收录正文中实际标注的词。
+
+
 #### 「相邻 word-block」的严格定义（必读）
 
 两个 `word-block` **视为相邻**，当且仅当：前一个 `word-block` 的结束标记 `</span></span>` 与后一个 `<span class="word-block"` 之间**只有空白**（空格、换行、制表符），**没有任何其他字符**（包括英文单词、中文、标点）。
