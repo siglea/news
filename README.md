@@ -90,6 +90,40 @@ post 文件 h1 标题格式：
 - **不要连续标注紧挨着的单词**，因为下方的解释部分会交叉覆盖，影响阅读体验
 - 优先标注**核心动词、形容词、关键名词**，跳过专有名词（如 Steve Jobs、Android 等）
 
+#### 技术实现约束
+
+词汇标注必须使用以下 HTML 结构，否则样式无法正常显示：
+
+```html
+<span class="word-block">
+    <span class="english-word">单词</span>
+    <span class="word-info">[音标] 词性. 释义</span>
+</span>
+```
+
+**错误示例（旧格式，不要再用）：**
+```html
+<!-- 错误：没有 word-block 包裹 -->
+<span class="english-word">单词</span><span class="word-info">（词性.释义）</span>
+
+<!-- 错误：没有音标 -->
+<span class="word-block"><span class="english-word">单词</span><span class="word-info">n. 释义</span></span>
+```
+
+**正确示例：**
+```html
+<span class="word-block"><span class="english-word">surged</span><span class="word-info">[sɜːdʒd] v. 激增</span></span>
+```
+
+#### 词汇表格式
+
+词汇表必须包含**音标列**，表头格式：
+```html
+<thead>
+    <tr><th>词汇</th><th>音标</th><th>词性</th><th>释义</th></tr>
+</thead>
+```
+
 ## 🚀 添加新内容
 
 1. 在 `posts/` 目录创建新 HTML 文件，命名格式：`YYYY-MM-DD-title.html`
