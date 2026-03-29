@@ -1,24 +1,39 @@
-# 📚 英语学习新闻博客
+# 🎙️ MingoX
 
-通过阅读真实新闻来学习英语的静态博客，基于 Gitee Pages 构建。
+**Multimedia Post in Mixed Languages**
+
+多语言多媒体内容平台 —— 用文字、图片、播客等多种形式，分享新闻、思想与见解。
 
 ## 🌐 在线访问
 
 - **Gitee Pages**: https://siglea.gitee.io/news
 
-## 🎯 项目特点
+## 🎯 核心理念
 
-- **真实新闻语境** - 通过时事新闻学习英语词汇
-- **单词高亮标注** - 重点单词突出显示，附带词性和释义
-- **词汇表复习** - 每篇文章附带完整词汇表，支持搜索功能
-- **响应式设计** - 适配桌面和移动设备
-- **无需后端** - 纯静态 HTML + CSS + JavaScript
+| 维度 | 说明 |
+|------|------|
+| **M - Mixed Languages** | 中英等多语言混合表达，跨越语言边界 |
+| **X - Multimedia** | 文字、图片、播客等多元形式，X 代表无限可能 |
+| **News & Ideas** | 新闻、思想、见解的交汇与碰撞 |
+
+## 📝 内容形式 X
+
+- **📝 文字 (Text)** - 深度文章、新闻快讯、思想随笔
+- **🖼️ 图片 (Image)** - 信息图表、视觉故事、摄影作品
+- **🎙️ 播客 (Podcast)** - 音频节目、对话访谈、有声内容
+- **📹 视频 (Video)** - 短视频、纪录片、直播回放
+
+## 🌍 语言特色
+
+- 中英双语对照阅读，学习语言同时获取资讯
+- 保留原文语境，标注重点词汇与表达
+- 多语言内容并行，满足不同读者需求
 
 ## 📁 目录结构
 
 ```
 news/
-├── index.html          # 首页/文章列表
+├── index.html          # 首页/内容列表
 ├── about.html          # 关于页面
 ├── _config.yml         # Gitee Pages 配置
 ├── README.md           # 项目说明
@@ -27,12 +42,12 @@ news/
 │   └── style.css       # 公共样式
 ├── js/
 │   └── main.js         # 公共脚本
-├── posts/              # 文章目录
+├── posts/              # 内容目录
 │   └── 2026-03-28-us-stock.html
 └── images/             # 图片资源
 ```
 
-## 📝 添加新文章
+## 🚀 添加新内容
 
 1. 在 `posts/` 目录创建新 HTML 文件，命名格式：`YYYY-MM-DD-title.html`
 
@@ -43,62 +58,35 @@ news/
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>文章标题 | 英语学习博客</title>
+    <title>标题 | MingoX</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- 导航栏 -->
     <nav class="navbar">...</nav>
-
-    <!-- 文章内容 -->
-    <main class="main-content">
-        <div class="container">
-            <div class="card">
-                <article class="post-content">
-                    <h1>文章标题</h1>
-                    <!-- 使用 <span class="english-word">单词</span><span class="word-info">（释义）</span> 标注词汇 -->
-                </article>
-                <div class="subtitle">📖 词汇表</div>
-                <table class="vocab-table">...</table>
-            </div>
-        </div>
-    </main>
-
-    <!-- 页脚 -->
+    <main class="main-content">...</main>
     <footer class="footer">...</footer>
     <script src="../js/main.js"></script>
 </body>
 </html>
 ```
 
-3. 在 `index.html` 的文章列表中添加新文章链接
+3. 在 `index.html` 的内容列表中添加新链接
 
 4. 提交并推送：
 
 ```bash
 git add .
-git commit -m "添加新文章：标题"
+git commit -m "添加新内容：标题"
 git push
 ```
 
-## 🚀 部署到 Gitee Pages
+## 🛠️ 部署到 Gitee Pages
 
 1. 推送代码到 Gitee 仓库
-
 2. 进入 Gitee 仓库页面 → 服务 → Gitee Pages
-
-3. 选择部署分支（master）和部署目录（根目录 `/`）
-
+3. 选择部署分支（master/main）和部署目录（根目录 `/`）
 4. 点击「启动」按钮
-
 5. 等待部署完成，访问分配的域名
-
-## 🛠️ 技术栈
-
-- **静态站点生成**: 原生 HTML (可选 Jekyll)
-- **样式**: CSS3 (CSS Variables, Flexbox, Gradient)
-- **交互**: 原生 JavaScript (ES5 for compatibility)
-- **托管**: Gitee Pages
 
 ## 📄 许可证
 
