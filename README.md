@@ -51,22 +51,22 @@ news/
 
 ### 标题格式
 
-**原则一（一致）**：首页列表标题必须与 post 内 `h1` **逐字一致**（仅 `small` 字号可首页 16px、文内 18px）。
+**原则一（一致）**：首页列表标题必须与 post 内 `h1` **逐字一致**。英文副标题统一用 `<small class="title-en">`，**勿在 HTML 写死字号/颜色**；文内与列表的视觉差异由 `css/style.css` 中 `.post-content h1 .title-en` 与 `.post-title .title-en` 控制。
 
 **原则二（直击核心）**：标题须**简短、清楚**，一句话点出全文**核心事实或主要矛盾**（主体 + 关键动作/数据/后果）。避免泛泛的「大震荡」「周末突发」「XX与YY」等读者看不出要点的题目；英文副标题与中文主标题**信息对齐、语义等价**，不用空洞口号式翻译。
 
 post 文件 h1 标题格式：
 ```html
-<h1>[emoji] 中文标题<br><small style="font-size: 18px; color: #888;">English Title</small></h1>
+<h1>[emoji] 中文标题<br><small class="title-en">English Title</small></h1>
 ```
 
 首页列表标题格式（与 post 文件一致）：
 ```
-[emoji] 中文标题<br><small style="font-size: 16px; color: #888;">English Title</small>
+[emoji] 中文标题<br><small class="title-en">English Title</small>
 ```
 
 - 使用 emoji 表示内容类型：📈 新闻、💡 思想、🎙️ 播客 等
-- 中文主标题 + 英文副标题（`small` 包裹）；完稿前对照**原则一、原则二**自检
+- 中文主标题 + 英文副标题（`small.title-en`）；完稿前对照**原则一、原则二**自检
 
 ### 首页列表设计规范
 
@@ -77,7 +77,7 @@ post 文件 h1 标题格式：
     <div class="post-title">
         <a href="posts/YYYY-MM-DD-title.html">
             [emoji] 中文标题<br>
-            <small style="font-size: 16px; color: #888;">English Title</small>
+            <small class="title-en">English Title</small>
         </a>
     </div>
     <div class="post-meta">📅 YYYY-MM-DD | 📝 双语 | 🏷️ 标签</div>
@@ -93,7 +93,7 @@ post 文件 h1 标题格式：
 - 标题（`post-title`）和内容（`post-excerpt`）分别添加超链接
 - Meta 信息（日期、标签）**不添加**超链接
 - 标题必须分行显示：emoji+中文标题一行，英文副标题一行（使用 `<br>` 换行）
-- 英文副标题使用 `<small>` 标签，字号 16px，颜色 #888
+- 英文副标题使用 `<small class="title-en">`，样式由全局 CSS 统一，列表与正文 h1 可略有差异（见 `style.css`）
 
 **链接样式规范（悬浮才出现）：**
 - 默认状态：标题颜色与普通文字一致（`var(--text-color)`），无下划线
@@ -144,7 +144,7 @@ post 文件 h1 标题格式：
 1. **不识别（须严格执行）**：非常简单的日常高频词（如 yes、good、big、get、make、close、drop、go、see、take 等），**不因「混排出现」而破例**。
 2. **不识别（须严格执行）**：中国普通高中英语课程标准范围内、无生僻义项的常见词（如 price、risk、trade、market、meeting、international、demand、flow、cancel、cost、gold、policy、chain、window、data、typical、emotion、giant、refuse、summit、domestic 等）。**宁可整段暂不标注，也不用上述词凑密度。**（若必须用英文承载「净额、净购」等义，优先改写句式或换用**机制词**如 `stockpile`、`gross`/`net` 结构上的替换词；避免单独为「常见义」标 `net` 凑数。）
 3. **优先识别**：涉及文章**关键信息、因果、立场、数据判断**的词（英或汉均可；见下条「替换规则」），如 warning、closure、hawkish、sanctions、valuation、hedge、materialize 等。
-4. **密度**：在**同一自然段内**，大致每 1～2 句至少 **1 处** `word-block`（以中文句读为准）。若句中只有第 1～2 类词或仅有品牌/专名，**可对句中某一成分做「中文 → 单个英文词」替换**（见下条）以满足密度；**不得**为此编造事实或改写论点。
+4. **密度**：在**同一自然段内**，必须每 1 句 有**1 处** `word-block`（以中文句读为准）。若句中只有第 1～2 类词或仅有品牌/专名，**可对句中某一成分做「中文 → 单个英文词」替换**（见下条）以满足密度；**不得**为此编造事实或改写论点。
 5. **优先识别**：考研英语阅读中**常见、重要的动词与名词**，以及财经/科技语篇**学科用语**（如 token、ETF、GPU、architecture、monetization、hyperscale 等）。
 
 **中文位置可译为英文替换（重要）**：当该中文在句中承载**观点、机制或数据判断**，且译成**单个英文单词**（或上条允许的**单一固定搭配**）后与原文义一致时，可将该位置**直接替换为该英文**，再对该片段加 `word-block`。专名、整句英译、一词多义易歧义处不要硬换。
@@ -155,7 +155,7 @@ post 文件 h1 标题格式：
 
 以下为该篇定稿时的**操作口径**，其他文章应与之对齐：
 
-1. **句界与密度**：以 **`。` `？` `！` `；`** 为主划分「句」（英文导语里 **`;`** 可视作分句）。**同一自然段内，大致每 1～2 句至少 1 处** `word-block`。若连续两句都没有可标的英文，则对其中一句做**中文 → 单个合规英文词**替换（见上条），**不得**用第 1～2 类「不识别」词凑数。
+1. **句界与密度**：以 **`。` `？` `！` `；`** 为主划分「句」（英文导语里 **`;`** 可视作分句）。**同一自然段内，必须每 1 句有 1 处** `word-block`。若连续两句都没有可标的英文，则对其中一句做**中文 → 单个合规英文词**替换（见上条），**不得**用第 1～2 类「不识别」词凑数。
 2. **替换词取向**：优先选用**考研书面语、国际新闻常见搭配、财经/科技机制词**（如 `forgo` `acquiescence` `leverage` `stagnation` `interdependence` `backlash` `ramp` 等），使语气与中英混排政经稿一致。
 3. **供应链表述**：涉及「供应链/物流」时，优先用 **logistics** 等**学科/行业上位词**承载语义；**不要**单独把 **chain**（高中常见）做成 `word-block`。
 4. **完稿检查**：① 篇末「重点词汇」表与正文标注**词形一致**；② 表格须为合法 HTML：`</thead>` 后必须有 **`<tbody>`** 再写 `<tr>`，勿出现只有 `</tbody>` 而无开始标签的残缺表；③ 运行下文「相邻 word-block」自检，**零命中**。
@@ -268,7 +268,7 @@ grep -rE '</span></span>[[:space:]]+<span class="word-block"' posts/*.html
     <nav class="navbar">...</nav>
     <main class="main-content">
         <article class="post-content">
-            <h1>[emoji] 中文标题<br><small style="font-size: 18px; color: #888;">English Title</small></h1>
+            <h1>[emoji] 中文标题<br><small class="title-en">English Title</small></h1>
             <!-- 双语内容，保留词汇标注 -->
         </article>
     </main>
