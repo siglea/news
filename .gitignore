@@ -21,6 +21,9 @@ desktop.ini
 # .env
 # config.local.js
 
+# EdgeOne Pages（勿提交 Token）
+.edgeone/.token
+
 # Gitee Pages 不需要忽略的文件
 # 如果使用了 Jekyll，可能需要：
 # _site/

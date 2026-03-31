@@ -296,6 +296,55 @@ git push
 4. 点击「启动」按钮
 5. 等待部署完成，访问分配的域名
 
+## 🌐 部署到 EdgeOne Pages（静态 HTML）
+
+本项目为**纯静态站点**（根目录 `index.html` + `posts/` + `css/` + `js/`），可直接用 [EdgeOne Pages](https://pages.edgeone.ai/) 官方 CLI 部署。流程参考官方 Skill：[edgeone-pages-skills](https://github.com/edgeone-pages/edgeone-pages-skills)。
+
+**环境要求**：Node.js ≥ 16、npm；CLI 版本须 **≥ 1.2.30**（`edgeone -v` 检查）。
+
+**1. 安装 CLI**
+
+```bash
+npm install -g edgeone@latest
+edgeone -v
+```
+
+**2. 选择站点并完成登录（二选一）**
+
+- **中国站**：`edgeone login --site china`（控制台 [EdgeOne 中国](https://console.cloud.tencent.com/edgeone/pages)）
+- **国际站**：`edgeone login --site global`（控制台 [EdgeOne 国际](https://console.intl.cloud.tencent.com/edgeone/pages)）
+
+本地会打开浏览器完成授权；若无界面（SSH/CI），请在控制台 **API Token** 创建令牌，使用 `edgeone pages deploy -t <token>`（勿将 token 写入仓库；可仅存本地 `.edgeone/.token`，已在 `.gitignore` 中忽略）。
+
+**3. 在项目根目录部署**
+
+首次部署需指定项目名（将生成 `edgeone.json`）：
+
+```bash
+cd /path/to/news
+edgeone pages deploy -n mingo-news
+```
+
+若已存在 `edgeone.json`，直接：
+
+```bash
+edgeone pages deploy
+```
+
+纯静态项目**无需**先执行 `edgeone pages init`（该命令面向 Edge/Node 函数等全栈能力）。
+
+**4. 部署成功后**
+
+终端会输出 `EDGEONE_DEPLOY_URL=...`。**请完整复制含 `?` 及后面查询参数的访问链接**，缺参页面可能无法打开。可同时记下控制台给出的项目/部署详情链接。
+
+**5. 本地预览（可选）**
+
+```bash
+edgeone pages dev
+```
+
+默认示例：<http://localhost:8088/>
+
 ## 📄 许可证
 
 MIT License
