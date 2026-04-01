@@ -6,6 +6,9 @@
 *~
 .DS_Store
 
+# Playwright 抓取产物（勿提交）
+util/.crawl-output/
+
 # 日志和临时文件
 *.log
 *.tmp
@@ -29,3 +32,9 @@ desktop.ini
 # _site/
 # .sass-cache/
 # .jekyll-metadata
+
+# Tencent Cloud EdgeOne
+.env
+.edgeone/*
+.tef_dist/*
+  
