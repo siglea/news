@@ -43,4 +43,4 @@ openclaw.json
 openclaw.json.bak*
 
 # scripts 目录下的 OpenClaw 控制脚本（与任务无关）
-scripts/
+/scripts/
