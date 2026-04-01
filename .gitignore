@@ -37,3 +37,8 @@ desktop.ini
 .env
 .edgeone/*
 .tef_dist/*
+
+# OpenClaw 配置文件（与任务无关）
+openclaw.json
+openclaw.json.bak*
+scripts/verify-mingox-tokens.sh
