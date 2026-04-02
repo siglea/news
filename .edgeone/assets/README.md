@@ -7,6 +7,16 @@
 ## 🌐 在线访问
 
 - **Gitee Pages**: https://siglea.gitee.io/news
+- **EdgeOne Pages**（中国站）：部署成功后以 CLI 输出的 `EDGEONE_DEPLOY_URL` 为准
+
+> ⚠️ **重要提示：EdgeOne 链接必须完整复制！**
+> 
+> EdgeOne 部署成功后输出的 URL 包含查询参数（如 `?eo_token=xxx&eo_time=xxx`），**必须完整复制包括 `?` 及之后的全部内容**。截断链接会导致页面无法访问或 404 错误。
+> 
+> ✅ 正确示例：`https://mingox-xxx.edgeone.cool?eo_token=abc123&eo_time=123456`
+> ❌ 错误示例：`https://mingox-xxx.edgeone.cool`（缺少参数）
+> 
+> 控制台管理：[EdgeOne Pages](https://console.cloud.tencent.com/edgeone/pages)
 
 ## 🎯 核心理念
 
@@ -44,8 +54,14 @@ news/
 │   └── main.js         # 公共脚本
 ├── posts/              # 内容目录
 │   └── 2026-03-28-us-stock.html
+├── util/               # 本地工具脚本
+│   └── crawl-with-playwright.py  # 反爬场景下用浏览器抓取（见下节）
 └── images/             # 图片资源
 ```
+
+### 网页抓取（反爬回退）
+
+从 URL 取材写稿时，若简单拉取失败（如微信公众号「环境异常」），在**本机**使用 Playwright 脚本抓取，输出写入 `util/.crawl-output/`（已加入 `.gitignore`）。依赖安装与命令见脚本头部说明；**协作与 AI 助手的统一约定**见 Cursor 规则：`.cursor/rules/web-crawl-playwright-fallback.mdc`。
 
 ## 🎯 内容规范
 
@@ -144,7 +160,7 @@ post 文件 h1 标题格式：
 1. **不识别（须严格执行）**：非常简单的日常高频词（如 yes、good、big、get、make、close、drop、go、see、take 等），**不因「混排出现」而破例**。
 2. **不识别（须严格执行）**：中国普通高中英语课程标准范围内、无生僻义项的常见词（如 price、risk、trade、market、meeting、international、demand、flow、cancel、cost、gold、policy、chain、window、data、typical、emotion、giant、refuse、summit、domestic 等）。**宁可整段暂不标注，也不用上述词凑密度。**（若必须用英文承载「净额、净购」等义，优先改写句式或换用**机制词**如 `stockpile`、`gross`/`net` 结构上的替换词；避免单独为「常见义」标 `net` 凑数。）
 3. **优先识别**：涉及文章**关键信息、因果、立场、数据判断**的词（英或汉均可；见下条「替换规则」），如 warning、closure、hawkish、sanctions、valuation、hedge、materialize 等。
-4. **密度**：在**同一自然段内**，必须每 1 句 有**1 处** `word-block`（以中文句读为准）。若句中只有第 1～2 类词或仅有品牌/专名，**可对句中某一成分做「中文 → 单个英文词」替换**（见下条）以满足密度；**不得**为此编造事实或改写论点。
+4. **密度**：在**同一自然段内**，必须每 1 句 有**1 处** `word-block`。为避免与语文上的「复句/分句」混淆，**本文档中的「句」专指按下列标点切分后的片段**；**逗号 `，`、顿号 `、`、冒号 `：` 不断句**（除非你把它们改成句号等，或整段合并为一句后仍满足「每句一处」）。
 5. **优先识别**：考研英语阅读中**常见、重要的动词与名词**，以及财经/科技语篇**学科用语**（如 token、ETF、GPU、architecture、monetization、hyperscale 等）。
 
 **中文位置可译为英文替换（重要）**：当该中文在句中承载**观点、机制或数据判断**，且译成**单个英文单词**（或上条允许的**单一固定搭配**）后与原文义一致时，可将该位置**直接替换为该英文**，再对该片段加 `word-block`。专名、整句英译、一词多义易歧义处不要硬换。
@@ -155,11 +171,12 @@ post 文件 h1 标题格式：
 
 以下为该篇定稿时的**操作口径**，其他文章应与之对齐：
 
-1. **句界与密度**：以 **`。` `？` `！` `；`** 为主划分「句」（英文导语里 **`;`** 可视作分句）。**同一自然段内，必须每 1 句有 1 处** `word-block`。若连续两句都没有可标的英文，则对其中一句做**中文 → 单个合规英文词**替换（见上条），**不得**用第 1～2 类「不识别」词凑数。
-2. **替换词取向**：优先选用**考研书面语、国际新闻常见搭配、财经/科技机制词**（如 `forgo` `acquiescence` `leverage` `stagnation` `interdependence` `backlash` `ramp` 等），使语气与中英混排政经稿一致。
-3. **供应链表述**：涉及「供应链/物流」时，优先用 **logistics** 等**学科/行业上位词**承载语义；**不要**单独把 **chain**（高中常见）做成 `word-block`。
-4. **完稿检查**：① 篇末「重点词汇」表与正文标注**词形一致**；② 表格须为合法 HTML：`</thead>` 后必须有 **`<tbody>`** 再写 `<tr>`，勿出现只有 `</tbody>` 而无开始标签的残缺表；③ 运行下文「相邻 word-block」自检，**零命中**。
-5. **双范文对照**：政经外交类以 G7 篇为主；**财经市场、利率与贵金属**等题材可同时对标 `posts/2026-03-29-gold-price-analysis.html`，复用其「固定搭配整块标、避免中英同义叠说、按段落功能补词」等做法（详见下节「案例补强」）。
+1. **句界与密度**：以 **`。` `？` `！` `；`** 为主划分「句」（仅在 **HTML 标签外**切分；`word-info` 释义里的 `；` 不参与断句）。**英文导语**里 ASCII **分号 `;`** 可视作分句。**同一自然段**默认指 **`<article class="post-content">` 内单个 `<p>...</p>`**（含仅含 `<strong>` 的短标题行也算一段）。**同一 `<p>` 内，每个按上述规则切出的「句」都必须含至少 1 处** `word-block`。若连续两句都没有可标的英文，则对其中一句做**中文 → 单个合规英文词**替换（见上条），**不得**用第 1～2 类「不识别」词凑数。**注意**：本条「句」与 `word-block` 密度**仅约束** `<article class="post-content">` 内部；置于 `</article>` 之后、词汇表之前的**来源与版权说明块**（见后文「外源素材与版权声明」）**不适用**密度与词汇表对应，且其中**不要**加 `word-block`。
+2. **朗读与规范的差异**：口语朗读时，一个 `<p>` 里用大量 **逗号** 连接的小停顿，听起来像多句话，但**按本规范仍可能只算少数几个「句」**；反之，为满足密度把若干原用句号写成的短句改成逗号连接，**规范上句数变少、每句需标注数也随之变少**。若你希望「凡朗读停顿处都要有词」，须**单独约定**（例如以逗号也断句），并与自检脚本同步，本文默认**不**以逗号断句。
+3. **替换词取向**：优先选用**考研书面语、国际新闻常见搭配、财经/科技机制词**（如 `forgo` `acquiescence` `leverage` `stagnation` `interdependence` `backlash` `ramp` 等），使语气与中英混排政经稿一致。
+4. **供应链表述**：涉及「供应链/物流」时，优先用 **logistics** 等**学科/行业上位词**承载语义；**不要**单独把 **chain**（高中常见）做成 `word-block`。
+5. **完稿检查**：① 篇末「重点词汇」表与 **`<article class="post-content">` 内**正文标注**词形一致**（外源版权块中的词不列入表）；② 表格须为合法 HTML：`</thead>` 后必须有 **`<tbody>`** 再写 `<tr>`，勿出现只有 `</tbody>` 而无开始标签的残缺表；③ 运行下文「相邻 word-block」自检，**零命中**；④ 若为外源综述稿，版权说明块已置于文后且其中**无** `word-block`。
+6. **双范文对照**：政经外交类以 G7 篇为主；**财经市场、利率与贵金属**等题材可同时对标 `posts/2026-03-29-gold-price-analysis.html`，复用其「固定搭配整块标、避免中英同义叠说、按段落功能补词」等做法（详见下节「案例补强」）。
 
 #### 「相邻 word-block」的严格定义（必读）
 
@@ -250,6 +267,16 @@ grep -rE '</span></span>[[:space:]]+<span class="word-block"' posts/*.html
 </thead>
 ```
 
+### 外源素材与版权声明（综述 / 改编稿）
+
+适用于根据**第三方公开内容**（如微信公众号长文、媒体报道等）撰写**要点综述、双语改编或学习向笔记**，而非本站独立采访或一手事实稿。
+
+1. **不要放在文首**：来源、著作权归属、转载规则、原文链接、风险提示等**法律与礼仪性文字**，统一放在 **`</article>` 之后**、**「📖 重点词汇」小标题之前**，与正文在结构上分离；样式上应**醒目**（如边框、底色区分），便于读者一眼看到出处与权利边界。可参考 `posts/2026-04-01-private-fund-ai-hiring-threshold.html` 中的 `post-source-footer` 区块。
+2. **该区块不加词汇标注**：版权说明区域内**不使用** `word-block`，其中出现的英文（如 URL）也不必拆成学习词条；篇末「重点词汇」表**只收录** `<article class="post-content">` 内实际标注的词，**不收录**仅为版权块而标的词。
+3. **建议写清的事项**：第三方**平台与帐号名**、界面显示的**作者/署名**（若有）、**可点击的原文固定链接**；说明本站条目为**衍生整理**、不代为授权、不主张对原文的权利；商业转载与摘编由使用者自行联系**权利人**；并保留「不构成投资建议 / 法律意见」等**必要免责**（视题材酌定）。
+4. **正文仍须合规**：`<article class="post-content">` 内仍完全遵守「词汇标注规范」与「落地标准」中的句界、`word-block` 密度、相邻块与词汇表一致性要求。
+5. **抓取素材**：若简单 HTTP 拉取被风控（如微信「环境异常」），按「网页抓取（反爬回退）」与 `.cursor/rules/web-crawl-playwright-fallback.mdc` 在本机用 Playwright 等工具获取正文后再改编；**改编与抓取不等于取得转载授权**，发布与商用仍须遵守源站规则及著作权法。
+
 ## 🚀 添加新内容
 
 1. 在 `posts/` 目录创建新 HTML 文件，命名格式：`YYYY-MM-DD-title.html`
@@ -267,10 +294,15 @@ grep -rE '</span></span>[[:space:]]+<span class="word-block"' posts/*.html
 <body>
     <nav class="navbar">...</nav>
     <main class="main-content">
-        <article class="post-content">
-            <h1>[emoji] 中文标题<br><small class="title-en">English Title</small></h1>
-            <!-- 双语内容，保留词汇标注 -->
-        </article>
+        <div class="card">
+            <article class="post-content">
+                <h1>[emoji] 中文标题<br><small class="title-en">English Title</small></h1>
+                <!-- 双语正文；词汇密度仅约束此 article 内 -->
+            </article>
+            <!-- 外源稿可选：来源与版权块（无 word-block），见「外源素材与版权声明」 -->
+            <div class="subtitle">📖 重点词汇</div>
+            <!-- 词汇表 ... -->
+        </div>
     </main>
     <footer class="footer">...</footer>
     <script src="../js/main.js"></script>
@@ -295,6 +327,106 @@ git push
 3. 选择部署分支（master/main）和部署目录（根目录 `/`）
 4. 点击「启动」按钮
 5. 等待部署完成，访问分配的域名
+
+## 🌐 部署到 EdgeOne Pages（静态 HTML）
+
+本项目为**纯静态站点**（根目录 `index.html` + `posts/` + `css/` + `js/`），可用 [EdgeOne Pages](https://pages.edgeone.ai/) 官方 CLI 部署。更完整的代理说明见官方 Skill：[edgeone-pages-skills](https://github.com/edgeone-pages/edgeone-pages-skills)。
+
+### 本仓库约定（新参与者按此对齐）
+
+| 项 | 约定 |
+|----|------|
+| **EdgeOne 项目名** | 固定为 **`mingox`**（与远程已有项目同名时，CLI 会**复用该项目并上传新版本**，相当于覆盖线上内容） |
+| **部署区域** | **中国站**使用 **`-a overseas`**（`pages deploy` 的 `area` 参数；勿与「国际站 `-a global`」混用） |
+| **敏感信息** | API Token **仅放本地** `.edgeone/.token`（单行）；**勿提交**到 Git（已在 `.gitignore` 中忽略 `.edgeone/.token` 与 `.edgeone/*`） |
+
+### 环境要求
+
+- Node.js ≥ 16、npm  
+- CLI **≥ 1.2.30**（执行 `edgeone -v` 或下文 `npx` 时查看横幅版本）
+
+### 推荐：用 `npx` 调用 CLI（免全局安装）
+
+在 macOS/Linux 上，`npm install -g` 常因目录权限失败（`EACCES`）。**推荐不装全局包**，在仓库根目录始终用：
+
+```bash
+npx --yes edgeone@latest -v
+```
+
+### 认证方式（二选一）
+
+**A. 浏览器登录（本机有图形界面时）**
+
+```bash
+cd /path/to/news
+npx --yes edgeone@latest login --site china
+```
+
+按提示在浏览器完成腾讯云账号授权。之后可直接部署（CLI 会把登录态写在用户目录，**不是**必须从 `.token` 读取）。
+
+**B. API Token（适合新电脑、CI、或不想走浏览器登录）**
+
+1. 打开 [EdgeOne Pages 控制台（中国）](https://console.cloud.tencent.com/edgeone/pages) → **设置** → **API Token** → 创建并复制令牌。  
+2. 在仓库根目录创建 **`.edgeone/.token`**，文件内**仅一行**，粘贴令牌，保存。  
+3. 部署时用 **`-t`** 传入（可用下面「一键命令」从文件读取，避免把 token 写进 shell 历史）。
+
+**勿**将 token 写入 `README`、issue、或提交进仓库。
+
+### 在项目根目录发布（中国站 + 项目名 mingox）
+
+**使用 `.edgeone/.token`（推荐写入方式，便于换机器）：**
+
+```bash
+cd /path/to/news
+TOKEN=$(tr -d '\n\r' < .edgeone/.token)
+npx --yes edgeone@latest pages deploy -a overseas -n mingox -t "$TOKEN"
+```
+
+**已在本机浏览器登录、且无 token 文件时：**
+
+```bash
+cd /path/to/news
+npx --yes edgeone@latest pages deploy -a overseas -n mingox
+```
+
+说明：
+
+- 远程**已存在**名为 `mingox` 的项目时，CLI 会提示使用已有项目并继续上传，**无需**先删云端项目。  
+- 首次成功后，本地 `.edgeone/project.json` 会记录 `Name` / `ProjectId`（该目录默认被 git 忽略，换电脑后只要重新登录或放好 `.token`，仍用同上命令即可）。
+
+### 部署成功后
+
+终端会打印 **`EDGEONE_DEPLOY_URL=...`**。
+
+> ⚠️ **必须完整复制含 `?` 及之后全部查询参数的 URL** 访问预览！截断链接（去掉 `?eo_token=...` 部分）会导致页面无法打开或返回 404。
+> 
+> ✅ 正确：`https://mingox-xxx.edgeone.cool?eo_token=xxx&eo_time=xxx`
+> ❌ 错误：`https://mingox-xxx.edgeone.cool`（缺少 token 参数）
+
+可同时打开 CLI 给出的控制台部署详情链接排查构建与访问权限。
+
+### 可选：全局安装 CLI
+
+若本机允许全局写入：
+
+```bash
+npm install -g edgeone@latest
+edgeone -v
+```
+
+之后将上文命令中的 `npx --yes edgeone@latest` 换成 `edgeone` 即可。
+
+### 纯静态与全栈
+
+纯静态站点**无需**执行 `edgeone pages init`（该命令面向 Edge Functions / Node Functions 等全栈能力）。
+
+### 本地联调（可选）
+
+```bash
+npx --yes edgeone@latest pages dev
+```
+
+默认示例：<http://localhost:8088/>
 
 ## 📄 许可证
 
