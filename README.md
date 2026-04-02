@@ -7,7 +7,16 @@
 ## 🌐 在线访问
 
 - **Gitee Pages**: https://siglea.gitee.io/news
-- **EdgeOne Pages**（中国站）：部署成功后以 CLI 输出的 `EDGEONE_DEPLOY_URL` 为准（须**完整复制含查询参数**的链接）；控制台见 [EdgeOne Pages](https://console.cloud.tencent.com/edgeone/pages)
+- **EdgeOne Pages**（中国站）：部署成功后以 CLI 输出的 `EDGEONE_DEPLOY_URL` 为准
+
+> ⚠️ **重要提示：EdgeOne 链接必须完整复制！**
+> 
+> EdgeOne 部署成功后输出的 URL 包含查询参数（如 `?eo_token=xxx&eo_time=xxx`），**必须完整复制包括 `?` 及之后的全部内容**。截断链接会导致页面无法访问或 404 错误。
+> 
+> ✅ 正确示例：`https://mingox-xxx.edgeone.cool?eo_token=abc123&eo_time=123456`
+> ❌ 错误示例：`https://mingox-xxx.edgeone.cool`（缺少参数）
+> 
+> 控制台管理：[EdgeOne Pages](https://console.cloud.tencent.com/edgeone/pages)
 
 ## 🎯 核心理念
 
@@ -387,7 +396,14 @@ npx --yes edgeone@latest pages deploy -a overseas -n mingox
 
 ### 部署成功后
 
-终端会打印 **`EDGEONE_DEPLOY_URL=...`**。**必须完整复制含 `?` 及之后全部查询参数的 URL** 访问预览；截断链接可能导致页面无法打开。可同时打开 CLI 给出的控制台部署详情链接排查构建与访问权限。
+终端会打印 **`EDGEONE_DEPLOY_URL=...`**。
+
+> ⚠️ **必须完整复制含 `?` 及之后全部查询参数的 URL** 访问预览！截断链接（去掉 `?eo_token=...` 部分）会导致页面无法打开或返回 404。
+> 
+> ✅ 正确：`https://mingox-xxx.edgeone.cool?eo_token=xxx&eo_time=xxx`
+> ❌ 错误：`https://mingox-xxx.edgeone.cool`（缺少 token 参数）
+
+可同时打开 CLI 给出的控制台部署详情链接排查构建与访问权限。
 
 ### 可选：全局安装 CLI
 
