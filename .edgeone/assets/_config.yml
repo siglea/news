@@ -1,0 +1,33 @@
+# Gitee Pages / Jekyll 配置
+# 详细文档：https://gitee.com/help/articles/4136
+
+title: MingoX
+description: Multimedia Post in Mixed Languages - 多语言多媒体内容平台
+author: siglea
+
+# Gitee Pages 设置
+# 可选：使用自定义域名
+domain: siglea.gitee.io/news
+
+# 构建设置
+# 如需使用 Jekyll 主题，取消下面注释并指定主题
+# theme: minima
+
+# 排除文件（构建时忽略）
+exclude:
+  - README.md
+  - .gitignore
+  - LICENSE
+
+# 插件（如需要）
+# plugins:
+#   - jekyll-feed
+#   - jekyll-sitemap
+
+# 默认设置
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
