@@ -1,0 +1,504 @@
+/* ========================================
+   新闻博客公共样式
+   Gitee Pages - News Blog
+   移动端正文参考公众号/新闻客户端：≥16px 正文、1.7+ 行高、安全区
+   ======================================== */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+:root {
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --accent-gradient: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+    --primary-color: #667eea;
+    --text-color: #333;
+    --text-secondary: #555;
+    --text-muted: #666;
+    --bg-color: #f5f5f5;
+    --card-bg: #ffffff;
+    --border-radius: 20px;
+    --shadow: 0 20px 60px rgba(0,0,0,0.3);
+    --shadow-sm: 0 4px 15px rgba(0,0,0,0.1);
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei",
+        "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg-color);
+    min-height: 100vh;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+/* 导航栏 */
+.navbar {
+    background: var(--primary-gradient);
+    padding: max(12px, env(safe-area-inset-top, 0px)) 0 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+.navbar .logo {
+    font-size: clamp(1.125rem, 4vw, 1.5rem);
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: clamp(14px, 4vw, 25px);
+}
+
+.navbar .nav-links a {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+    font-size: clamp(0.9375rem, 3.5vw, 0.9375rem);
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+    color: white;
+}
+
+/* 内容容器 */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px max(16px, env(safe-area-inset-right, 0px)) 16px max(16px, env(safe-area-inset-left, 0px));
+}
+
+/* 主内容区域 */
+.main-content {
+    padding: clamp(24px, 5vw, 40px) 0;
+}
+
+/* 卡片样式（勿裁切词条释义层） */
+.card {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: clamp(18px, 4vw, 30px);
+    box-shadow: var(--shadow);
+    margin-bottom: 24px;
+    overflow: visible;
+}
+
+/* 英文副标题（文章 h1、列表标题共用） */
+.title-en {
+    color: #888;
+    font-weight: 400;
+}
+
+.post-content h1 .title-en {
+    font-size: 0.82em;
+    line-height: 1.4;
+    display: block;
+    margin-top: 0.45em;
+}
+
+.post-title .title-en {
+    display: block;
+    font-size: 0.9em;
+    margin-top: 0.35em;
+    line-height: 1.45;
+    color: #666;
+    font-weight: 500;
+}
+
+/* 首页站点介绍 */
+.site-intro {
+    text-align: center;
+    margin-bottom: clamp(20px, 4vw, 30px);
+    padding: clamp(12px, 3vw, 20px);
+}
+
+.site-intro h1 {
+    font-size: clamp(1.625rem, 6vw, 2rem);
+    margin-bottom: 8px;
+    line-height: 1.25;
+}
+
+.site-intro .site-tagline {
+    color: var(--primary-color);
+    font-size: clamp(0.9375rem, 3.2vw, 1rem);
+    font-style: italic;
+}
+
+.site-intro .site-desc {
+    color: var(--text-muted);
+    margin-top: 12px;
+    font-size: clamp(0.9375rem, 2.8vw, 1rem);
+    line-height: 1.65;
+    max-width: 36em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 关于页 */
+.about-hero {
+    text-align: center;
+    margin-bottom: clamp(20px, 4vw, 30px);
+}
+
+.about-hero h1 {
+    font-size: clamp(1.75rem, 7vw, 2.625rem);
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.about-hero .about-tagline {
+    color: var(--primary-color);
+    font-size: clamp(1rem, 3.5vw, 1.125rem);
+    font-style: italic;
+}
+
+.about-lede {
+    text-align: center;
+    font-size: clamp(1rem, 3.2vw, 1.0625rem);
+    color: var(--text-secondary);
+    margin-bottom: clamp(24px, 4vw, 30px);
+    line-height: 1.75;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-h2 {
+    margin-top: clamp(24px, 4vw, 30px);
+    margin-bottom: 12px;
+    color: var(--primary-color);
+    font-size: clamp(1.125rem, 3.8vw, 1.25rem);
+    line-height: 1.35;
+}
+
+.about-h2.center {
+    text-align: center;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    gap: clamp(14px, 3vw, 20px);
+    margin: 20px 0;
+}
+
+.feature-card {
+    text-align: center;
+    padding: clamp(16px, 3vw, 20px);
+    background: #f8f9fa;
+    border-radius: 12px;
+}
+
+.feature-card .feature-icon {
+    font-size: clamp(1.75rem, 6vw, 2rem);
+    margin-bottom: 8px;
+}
+
+.feature-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 8px;
+    font-size: clamp(1rem, 3.2vw, 1.0625rem);
+}
+
+.feature-card p {
+    font-size: clamp(0.9375rem, 2.8vw, 1rem);
+    color: var(--text-muted);
+    line-height: 1.65;
+}
+
+.about-list {
+    margin-left: 1.25em;
+    line-height: 1.85;
+    font-size: clamp(1rem, 3vw, 1.0625rem);
+    padding-left: 0.25em;
+}
+
+.about-list li {
+    margin-bottom: 0.35em;
+}
+
+/* 页面标题 */
+.page-title {
+    font-size: clamp(1.375rem, 4.5vw, 1.75rem);
+    color: var(--text-color);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--primary-color);
+    text-align: center;
+    line-height: 1.3;
+}
+
+/* 文章列表 */
+.post-list {
+    list-style: none;
+}
+
+.post-item {
+    padding: clamp(16px, 3vw, 20px);
+    border-bottom: 1px solid #eee;
+    transition: background 0.3s;
+}
+
+.post-item:hover {
+    background: #f9f9f9;
+}
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
+.post-title {
+    font-size: clamp(1.0625rem, 3.4vw, 1.125rem);
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.35;
+}
+
+.post-title a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.post-excerpt a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.post-excerpt a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.post-meta {
+    font-size: clamp(0.8125rem, 2.5vw, 0.8125rem);
+    color: #888;
+}
+
+.post-excerpt {
+    font-size: clamp(0.9375rem, 2.8vw, 1rem);
+    color: var(--text-muted);
+    margin-top: 10px;
+    line-height: 1.75;
+}
+
+/* 文章内容（正文不小于 16px，行高 2.2 便于阅读与词条释义） */
+.post-content {
+    font-size: clamp(1rem, 2.9vw, 1.0625rem);
+    line-height: 2.2;
+    color: var(--text-color);
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+}
+
+.post-content h1 {
+    font-size: clamp(1.3125rem, 4.8vw, 1.5rem);
+    color: var(--text-color);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--primary-color);
+    text-align: center;
+    line-height: 1.32;
+}
+
+.post-content h3 {
+    font-size: clamp(1.0625rem, 3.2vw, 1.125rem);
+    margin-top: 1.35em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 1.35;
+}
+
+.post-content p {
+    margin-bottom: 0.85em;
+    overflow: visible;
+}
+
+.post-content strong {
+    font-weight: 600;
+}
+
+/* 英语单词高亮（释义紧贴本词下方，不额外撑大行距） */
+.word-block {
+    display: inline;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.english-word {
+    background: #8bff00fa;
+    padding: 0 0.15em;
+    border-radius: 2px;
+    font-size: 1.03em;
+    font-weight: 400;
+    line-height: 1.1;
+    vertical-align: baseline;
+}
+
+.word-info {
+    display: block;
+    position: absolute;
+    /* 紧贴词下方留一丝缝：略大于 0，随 rem/vw 缩放 */
+    top: calc(100% + clamp(0.05rem, 0.28vw, 0.11rem));
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    width: min(17rem, 85vw);
+    padding: 0.15em 0.35em;
+    font-size: clamp(0.6875rem, 0.68rem + 0.2vw, 0.8125rem);
+    color: #c0392b;
+    line-height: 0.5;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    z-index: 25;
+    pointer-events: none;
+}
+
+/* 词汇表 */
+.subtitle {
+    font-size: clamp(1.0625rem, 3.2vw, 1.125rem);
+    color: var(--primary-color);
+    margin-top: clamp(24px, 4vw, 30px);
+    margin-bottom: 12px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-left: 4px solid var(--primary-color);
+    line-height: 1.35;
+}
+
+.vocab-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 0 8px;
+}
+
+.vocab-table {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.vocab-table th,
+.vocab-table td {
+    padding: 10px 8px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: clamp(0.8125rem, 2.4vw, 0.8125rem);
+    vertical-align: top;
+}
+
+.vocab-table th {
+    background: var(--primary-gradient);
+    color: white;
+    font-weight: 700;
+}
+
+.vocab-table td:first-child {
+    font-weight: 700;
+    color: var(--primary-color);
+    white-space: nowrap;
+}
+
+.vocab-table td:last-child {
+    white-space: normal;
+    word-break: break-word;
+}
+
+.vocab-table tbody tr:hover {
+    background: #f9f9f9;
+}
+
+/* 页脚 */
+.footer {
+    background: var(--primary-gradient);
+    color: white;
+    text-align: center;
+    padding: 24px 16px max(24px, calc(12px + env(safe-area-inset-bottom, 0px)));
+    margin-top: 40px;
+}
+
+.footer p {
+    font-size: clamp(0.8125rem, 2.6vw, 0.875rem);
+    opacity: 0.95;
+    line-height: 1.5;
+}
+
+/* 空状态 */
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #888;
+}
+
+.empty-state p {
+    font-size: clamp(1rem, 3vw, 1rem);
+}
+
+/* —— 移动端细化（避免正文被压到 14px） —— */
+@media (max-width: 768px) {
+    .word-info {
+        width: min(16rem, 88vw);
+        font-size: clamp(0.6875rem, 2.8vw + 0.5rem, 0.75rem);
+        line-height: 0.5;
+        padding: 0.18em 0.38em;
+        top: calc(100% + clamp(0.06rem, 0.32vw, 0.12rem));
+    }
+
+    .post-content {
+        line-height: 2.2;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background: white;
+    }
+
+    .navbar .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 20px;
+    }
+
+    .card {
+        border-radius: 12px;
+        box-shadow: var(--shadow-sm);
+        margin-bottom: 16px;
+    }
+
+    .vocab-table {
+        min-width: 480px;
+    }
+}
