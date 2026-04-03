@@ -1,0 +1,358 @@
+
+<div style="display:flex;justify-content:center;padding:20px 0 24px;background:var(--color-background-secondary);border-radius:var(--border-radius-lg);">
+<div style="width:375px;height:760px;background:#0C1A2E;border-radius:44px;overflow:hidden;border:0.5px solid rgba(255,255,255,0.18);display:flex;flex-direction:column;font-family:var(--font-sans);">
+
+<div style="flex-shrink:0;display:flex;justify-content:space-between;align-items:flex-end;padding:14px 26px 8px;font-size:12px;font-weight:500;color:rgba(195,215,235,0.65);">
+  <span>9:41</span>
+  <div style="display:flex;gap:5px;align-items:center;">
+    <div style="display:flex;gap:1.5px;align-items:flex-end;">
+      <div style="width:3px;height:5px;background:rgba(195,215,235,0.35);border-radius:1px;"></div>
+      <div style="width:3px;height:7px;background:rgba(195,215,235,0.55);border-radius:1px;"></div>
+      <div style="width:3px;height:9px;background:rgba(195,215,235,0.8);border-radius:1px;"></div>
+      <div style="width:3px;height:11px;background:rgba(195,215,235,1);border-radius:1px;"></div>
+    </div>
+    <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M7 7.5a1 1 0 100 2 1 1 0 000-2z" fill="rgba(195,215,235,1)"/><path d="M4.2 5.6a4 4 0 015.6 0" stroke="rgba(195,215,235,0.7)" stroke-width="1.3" stroke-linecap="round"/><path d="M1.6 3.2a7 7 0 0110.8 0" stroke="rgba(195,215,235,0.38)" stroke-width="1.3" stroke-linecap="round"/></svg>
+    <div style="display:flex;align-items:center;">
+      <div style="width:23px;height:11px;border-radius:3px;border:1px solid rgba(195,215,235,0.5);padding:1.5px;box-sizing:border-box;"><div style="width:88%;height:100%;background:rgba(195,215,235,0.88);border-radius:1.5px;"></div></div>
+      <div style="width:2px;height:5px;background:rgba(195,215,235,0.35);border-radius:0 1px 1px 0;margin-left:1px;"></div>
+    </div>
+  </div>
+</div>
+
+<div id="dh-screen" style="flex:1;overflow-y:auto;scrollbar-width:none;-ms-overflow-style:none;"></div>
+
+</div>
+</div>
+
+<script>
+(function(){
+var st={page:0,folded:false,pronTapped:false,linkDone:false,linkCorrect:false};
+
+var BG='#0C1A2E',BGC='#132035',BGE='#1B2E46',BGD='#213552';
+var GOLD='#D4A843',GA='rgba(212,168,67,0.16)';
+var TEAL='#1D9E75',TA='rgba(29,158,117,0.14)';
+var BLUE='#4A9FE0',BA='rgba(74,159,224,0.14)';
+var RED='#E26060',RA='rgba(226,96,96,0.14)';
+var TX='#DDE8F4',TXS='rgba(176,202,228,0.65)',TXD='rgba(130,160,192,0.4)';
+var BDR='rgba(255,255,255,0.07)',BDRL='rgba(255,255,255,0.13)';
+
+function render(){
+  var c=document.getElementById('dh-screen');
+  if(!c)return;
+  var fns=[home,intro,folding,linking,results];
+  c.innerHTML=fns[st.page]();
+  c.scrollTop=0;
+}
+
+window._dh=function(n){
+  st.page=n;
+  if(n===2)st.folded=false;
+  if(n===3){st.pronTapped=false;st.linkDone=false;st.linkCorrect=false;}
+  render();
+};
+window._dhFold=function(){st.folded=!st.folded;render();};
+window._dhPron=function(){if(!st.linkDone){st.pronTapped=true;render();}};
+window._dhEnt=function(ok){if(st.pronTapped&&!st.linkDone){st.linkDone=true;st.linkCorrect=ok;render();}};
+
+function back(n){
+  return '<div onclick="_dh('+n+')" style="display:inline-flex;align-items:center;gap:7px;color:'+TXS+';font-size:14px;cursor:pointer;padding:2px 0;">'
+    +'<svg width="8" height="13" viewBox="0 0 8 13" fill="none"><path d="M7 1.5L1.5 6.5L7 11.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+    +'返回</div>';
+}
+
+function pbar(cur,tot){
+  var out='<div style="display:flex;gap:5px;margin:6px 0 18px;">';
+  for(var i=0;i<tot;i++){
+    out+='<div style="flex:1;height:3px;background:'+(i<cur?GOLD:BGE)+';border-radius:2px;"></div>';
+  }
+  return out+'</div>';
+}
+
+function pbtn(label,fn){
+  return '<button onclick="'+fn+'" style="width:100%;padding:15px;background:'+GOLD+';color:#090E18;border:none;border-radius:16px;font-size:15px;font-weight:500;cursor:pointer;font-family:var(--font-sans);">'+label+'</button>';
+}
+function sbtn(label,fn){
+  return '<button onclick="'+fn+'" style="width:100%;padding:14px;background:'+BGC+';color:'+TX+';border:0.5px solid '+BDRL+';border-radius:16px;font-size:14px;font-weight:500;cursor:pointer;font-family:var(--font-sans);margin-top:9px;">'+label+'</button>';
+}
+
+function chip(label,col,bg){
+  return '<span style="background:'+bg+';color:'+col+';font-size:11px;padding:2px 8px;border-radius:20px;border:0.5px solid '+col+'33;">'+label+'</span>';
+}
+
+function home(){
+  var bars=[1,1,0,0,0,0,0,0];
+  var barsHtml=bars.map(function(_,i){return '<div style="flex:1;height:4px;background:'+(i<2?GOLD:BGE)+';border-radius:2px;"></div>';}).join('');
+  return '<div style="padding:4px 20px 28px;color:'+TX+';">'
+
+    +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;">'
+    +'<div><div style="font-size:24px;font-weight:500;color:'+TX+';letter-spacing:-0.5px;">大航海</div>'
+    +'<div style="font-size:12px;color:'+TXS+';margin-top:3px;">英语认知备考系统</div></div>'
+    +'<div style="display:flex;align-items:center;gap:9px;">'
+    +'<div style="background:'+GA+';border:0.5px solid rgba(212,168,67,0.28);border-radius:20px;padding:6px 11px;display:flex;align-items:center;gap:5px;">'
+    +'<svg width="12" height="12" viewBox="0 0 12 12" fill="'+GOLD+'"><polygon points="6,0.5 7.4,4.2 11.5,4.5 8.4,7.2 9.4,11.5 6,9.5 2.6,11.5 3.6,7.2 0.5,4.5 4.6,4.2"/></svg>'
+    +'<span style="color:'+GOLD+';font-size:12px;font-weight:500;">2,840</span></div>'
+    +'<div style="width:32px;height:32px;border-radius:16px;background:'+BGD+';border:1.5px solid rgba(212,168,67,0.4);display:flex;align-items:center;justify-content:center;">'
+    +'<svg width="15" height="15" viewBox="0 0 15 15" fill="none"><circle cx="7.5" cy="5.5" r="2.5" stroke="'+GOLD+'" stroke-width="1.4"/><path d="M2.5 13C2.5 10.5 4.7 8.5 7.5 8.5S12.5 10.5 12.5 13" stroke="'+GOLD+'" stroke-width="1.4" stroke-linecap="round"/></svg>'
+    +'</div></div></div>'
+
+    +'<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:16px;padding:14px 16px;margin-bottom:18px;">'
+    +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">'
+    +'<span style="font-size:13px;color:'+TXS+';">今日目标</span>'
+    +'<span style="font-size:13px;color:'+GOLD+';font-weight:500;">2 / 5 关</span></div>'
+    +'<div style="height:5px;background:'+BGE+';border-radius:3px;margin-bottom:14px;"><div style="width:40%;height:100%;background:'+GOLD+';border-radius:3px;"></div></div>'
+    +'<div style="display:flex;text-align:center;">'
+    +'<div style="flex:1;"><div style="font-size:20px;font-weight:500;color:'+TX+';">7</div><div style="font-size:11px;color:'+TXS+';margin-top:2px;">连续天</div></div>'
+    +'<div style="width:0.5px;background:'+BDR+';"></div>'
+    +'<div style="flex:1;"><div style="font-size:20px;font-weight:500;color:'+TX+';">83%</div><div style="font-size:11px;color:'+TXS+';margin-top:2px;">正确率</div></div>'
+    +'<div style="width:0.5px;background:'+BDR+';"></div>'
+    +'<div style="flex:1;"><div style="font-size:20px;font-weight:500;color:'+TX+';">24</div><div style="font-size:11px;color:'+TXS+';margin-top:2px;">练习句</div></div>'
+    +'</div></div>'
+
+    +'<div style="font-size:12px;color:'+TXS+';font-weight:500;margin-bottom:10px;letter-spacing:0.8px;">探索地图</div>'
+
+    +'<div onclick="_dh(1)" style="background:'+BGC+';border:0.5px solid rgba(212,168,67,0.32);border-radius:16px;padding:15px;margin-bottom:8px;cursor:pointer;">'
+    +'<div style="display:flex;align-items:center;gap:13px;">'
+    +'<div style="width:46px;height:46px;border-radius:13px;background:'+GA+';border:0.5px solid rgba(212,168,67,0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;">'
+    +'<svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M3 17C5 11 11 4 19 6" stroke="'+GOLD+'" stroke-width="1.6" stroke-linecap="round"/><path d="M4 20C8 15 14 12 19 14" stroke="'+GOLD+'" stroke-width="1.6" stroke-linecap="round"/><circle cx="17" cy="7.5" r="2" fill="'+GOLD+'" opacity="0.75"/></svg></div>'
+    +'<div style="flex:1;min-width:0;">'
+    +'<div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;">'
+    +'<span style="font-size:15px;font-weight:500;color:'+TX+';">迷雾海域</span>'
+    +chip('阅读',GOLD,GA)+' '+chip('进行中',TEAL,TA)
+    +'</div>'
+    +'<div style="font-size:12px;color:'+TXS+';margin-bottom:8px;">折叠 · 连线 · 指代恢复</div>'
+    +'<div style="display:flex;align-items:center;gap:7px;">'
+    +'<div style="flex:1;height:3px;background:'+BGE+';border-radius:2px;"><div style="width:35%;height:100%;background:'+GOLD+';border-radius:2px;"></div></div>'
+    +'<span style="font-size:11px;color:'+GOLD+';">35%</span></div></div>'
+    +'<svg width="6" height="11" viewBox="0 0 6 11" fill="none"><path d="M1 1L5.5 5.5L1 10" stroke="'+TXD+'" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+    +'</div></div>'
+
+    +'<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:16px;padding:15px;margin-bottom:8px;opacity:0.48;">'
+    +'<div style="display:flex;align-items:center;gap:13px;">'
+    +'<div style="width:46px;height:46px;border-radius:13px;background:'+BGE+';display:flex;align-items:center;justify-content:center;flex-shrink:0;">'
+    +'<svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="3" y="9" width="14" height="9" rx="2.5" stroke="'+TXS+'" stroke-width="1.4"/><path d="M6.5 9V6.5C6.5 4.6 8.1 3 10 3S13.5 4.6 13.5 6.5V9" stroke="'+TXS+'" stroke-width="1.4" stroke-linecap="round"/><circle cx="10" cy="13.5" r="1.3" fill="'+TXS+'"/></svg></div>'
+    +'<div><div style="font-size:15px;font-weight:500;color:'+TX+';margin-bottom:4px;">记忆群岛</div>'
+    +'<div style="font-size:12px;color:'+TXS+';">词汇 · 语境义 · 语义网络</div></div></div></div>'
+
+    +'<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:16px;padding:15px;opacity:0.48;">'
+    +'<div style="display:flex;align-items:center;gap:13px;">'
+    +'<div style="width:46px;height:46px;border-radius:13px;background:'+BGE+';display:flex;align-items:center;justify-content:center;flex-shrink:0;">'
+    +'<svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2.5" y="10" width="15" height="9" rx="2" stroke="'+TXS+'" stroke-width="1.4"/><path d="M5.5 10V7.5C5.5 4.5 7.5 2 10 2S14.5 4.5 14.5 7.5V10" stroke="'+TXS+'" stroke-width="1.4" stroke-linecap="round"/><path d="M6.5 14H13.5M6.5 17H11" stroke="'+TXS+'" stroke-width="1.2" stroke-linecap="round"/></svg></div>'
+    +'<div><div style="font-size:15px;font-weight:500;color:'+TX+';margin-bottom:4px;">构筑之城</div>'
+    +'<div style="font-size:12px;color:'+TXS+';">写作 · 结构生成 · 逻辑搭建</div></div></div></div>'
+
+    +'</div>';
+}
+
+function intro(){
+  return '<div style="padding:12px 20px 28px;color:'+TX+';">'
+    +'<div style="margin-bottom:18px;">'+back(0)+'</div>'
+
+    +'<div style="display:flex;align-items:center;gap:13px;margin-bottom:18px;">'
+    +'<div style="width:52px;height:52px;border-radius:16px;background:'+GA+';border:0.5px solid rgba(212,168,67,0.3);display:flex;align-items:center;justify-content:center;">'
+    +'<svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M3 20C5 13 13 4 23 7" stroke="'+GOLD+'" stroke-width="1.8" stroke-linecap="round"/><path d="M5 23C9 17 16 13 23 15" stroke="'+GOLD+'" stroke-width="1.8" stroke-linecap="round"/><circle cx="20" cy="8" r="2.5" fill="'+GOLD+'" opacity="0.75"/></svg></div>'
+    +'<div><div style="font-size:22px;font-weight:500;color:'+TX+';letter-spacing:-0.3px;">迷雾海域</div>'
+    +'<div style="font-size:13px;color:'+TXS+';margin-top:3px;">阅读认知训练模块</div></div></div>'
+
+    +'<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:16px;padding:15px;margin-bottom:16px;">'
+    +'<div style="font-size:13px;color:'+TXS+';line-height:1.7;">识别句子核心结构，折叠非核心修饰成分，并恢复代词的指代关系。训练目标是降低认知负荷，精准抓住句子主干，从而提升阅读速度与理解准确度。</div></div>'
+
+    +'<div style="font-size:12px;color:'+TXS+';font-weight:500;margin-bottom:10px;letter-spacing:0.5px;">本节训练技能</div>'
+    +'<div style="display:flex;gap:9px;margin-bottom:18px;">'
+    +'<div style="flex:1;background:'+GA+';border:0.5px solid rgba(212,168,67,0.2);border-radius:13px;padding:13px;">'
+    +'<div style="font-size:13px;font-weight:500;color:'+GOLD+';margin-bottom:6px;">折叠</div>'
+    +'<div style="font-size:12px;color:'+TXS+';line-height:1.55;">识别并折叠非核心修饰结构，提取句子主干</div></div>'
+    +'<div style="flex:1;background:'+BA+';border:0.5px solid rgba(74,159,224,0.2);border-radius:13px;padding:13px;">'
+    +'<div style="font-size:13px;font-weight:500;color:'+BLUE+';margin-bottom:6px;">连线</div>'
+    +'<div style="font-size:12px;color:'+TXS+';line-height:1.55;">找出代词与实体的对应关系，建立指代链</div></div></div>'
+
+    +'<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:16px;padding:15px;margin-bottom:22px;">'
+    +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">'
+    +'<span style="font-size:13px;font-weight:500;color:'+TX+';">当前进度</span>'
+    +'<span style="font-size:12px;color:'+TXS+';">第 3 / 8 关</span></div>'
+    +'<div style="display:flex;gap:5px;margin-bottom:8px;">'
+    +[1,1,0,0,0,0,0,0].map(function(d){return '<div style="flex:1;height:4px;background:'+(d?GOLD:BGE)+';border-radius:2px;"></div>';}).join('')
+    +'</div>'
+    +'<div style="font-size:12px;color:'+TXS+';">已完成 2 关 · 本关：折叠 + 连线各 1 题</div></div>'
+
+    +pbtn('开始训练 →','_dh(2)')
+    +'</div>';
+}
+
+function folding(){
+  var pre='The experiments';
+  var mod=', which were designed to test the limits of human memory in controlled laboratory settings,';
+  var post=' revealed a consistent pattern of cognitive decline in participants.';
+
+  var modEl;
+  if(!st.folded){
+    modEl='<span onclick="_dhFold()" style="background:rgba(212,168,67,0.17);border:1px dashed rgba(212,168,67,0.5);border-radius:5px;color:'+GOLD+';cursor:pointer;padding:0 2px;line-height:1.9;">'+mod+'</span>';
+  } else {
+    modEl='<span onclick="_dhFold()" style="display:inline-block;background:'+GA+';border:0.5px solid rgba(212,168,67,0.45);border-radius:20px;color:'+GOLD+';font-size:11px;padding:2px 10px;cursor:pointer;vertical-align:middle;margin:0 2px;">[修饰]</span>';
+  }
+
+  var coreHtml=st.folded
+    ?'<div style="background:'+TA+';border:0.5px solid rgba(29,158,117,0.22);border-radius:13px;padding:13px 15px;margin-top:14px;">'
+     +'<div style="font-size:11px;color:'+TEAL+';font-weight:500;margin-bottom:7px;letter-spacing:0.4px;">核心句义</div>'
+     +'<div style="font-size:14px;color:'+TX+';line-height:1.75;">The experiments <span style="color:'+TEAL+';font-weight:500;">revealed</span> a consistent pattern of cognitive decline in participants.</div></div>'
+    :'<div style="background:'+GA+';border:0.5px solid rgba(212,168,67,0.18);border-radius:12px;padding:11px 13px;margin-top:12px;display:flex;align-items:center;gap:8px;">'
+     +'<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6.5" stroke="'+GOLD+'" stroke-width="1"/><path d="M7 6V10" stroke="'+GOLD+'" stroke-width="1.5" stroke-linecap="round"/><circle cx="7" cy="4" r="0.8" fill="'+GOLD+'"/></svg>'
+     +'<span style="font-size:12px;color:'+GOLD+';">点击金色高亮区域进行折叠</span></div>';
+
+  var btnHtml=st.folded
+    ?pbtn('确认，继续 →','_dh(3)')
+    :'<button disabled style="width:100%;padding:15px;background:'+BGE+';color:'+TXD+';border:none;border-radius:16px;font-size:15px;font-weight:500;cursor:not-allowed;font-family:var(--font-sans);">请先完成折叠</button>';
+
+  return '<div style="padding:12px 20px 28px;color:'+TX+';">'
+    +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">'
+    +back(1)
+    +'<span style="font-size:12px;color:'+TXS+';">折叠练习</span></div>'
+    +pbar(1,3)
+
+    +'<div style="margin-bottom:16px;">'
+    +'<div style="font-size:17px;font-weight:500;color:'+TX+';margin-bottom:7px;">识别修饰结构</div>'
+    +'<div style="font-size:13px;color:'+TXS+';line-height:1.65;">点击句中高亮区域，将非核心修饰成分折叠。保留句子主干，降低认知负荷。</div></div>'
+
+    +'<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:16px;padding:18px;">'
+    +'<div style="font-size:11px;color:'+TXS+';font-weight:500;margin-bottom:11px;letter-spacing:0.5px;">训练句 · 考研英语阅读</div>'
+    +'<div style="font-size:15px;color:'+TX+';line-height:1.85;letter-spacing:0.05px;">'
+    +pre+modEl+post
+    +'</div></div>'
+
+    +coreHtml
+
+    +'<div style="margin-top:18px;">'+btnHtml+'</div>'
+    +'</div>';
+}
+
+function linking(){
+  var step = !st.pronTapped ? 'init' : (!st.linkDone ? 'selecting' : 'done');
+
+  var pronStyle;
+  if(step==='init'){
+    pronStyle='background:'+BA+';border:1px dashed '+BLUE+';border-radius:5px;color:'+BLUE+';cursor:pointer;padding:0 3px;';
+  } else if(step==='selecting'){
+    pronStyle='background:'+BLUE+';border-radius:5px;color:#091420;font-weight:500;padding:0 3px;cursor:default;';
+  } else {
+    var col=st.linkCorrect?TEAL:RED;
+    pronStyle='background:'+col+';border-radius:5px;color:#091420;font-weight:500;padding:0 3px;cursor:default;';
+  }
+
+  var pronClick=step==='init'?'onclick="_dhPron()"':'';
+
+  var optHtml='';
+  if(step==='selecting'){
+    optHtml='<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:13px;padding:15px;margin-top:13px;">'
+      +'<div style="font-size:12px;color:'+TXS+';margin-bottom:11px;">"They" 指代的是哪个实体？</div>'
+      +'<div style="display:flex;gap:9px;">'
+      +'<button onclick="_dhEnt(true)" style="flex:1;padding:11px;background:'+BGD+';color:'+TX+';border:0.5px solid '+BDRL+';border-radius:11px;font-size:13px;font-weight:500;cursor:pointer;font-family:var(--font-sans);">Scientists</button>'
+      +'<button onclick="_dhEnt(false)" style="flex:1;padding:11px;background:'+BGD+';color:'+TX+';border:0.5px solid '+BDRL+';border-radius:11px;font-size:13px;font-weight:500;cursor:pointer;font-family:var(--font-sans);">temperatures</button>'
+      +'</div></div>';
+  }
+
+  var feedHtml='';
+  if(step==='done'){
+    if(st.linkCorrect){
+      feedHtml='<div style="background:'+TA+';border:0.5px solid rgba(29,158,117,0.25);border-radius:13px;padding:14px;margin-top:13px;">'
+        +'<div style="display:flex;align-items:flex-start;gap:9px;">'
+        +'<svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink:0;margin-top:2px;"><circle cx="8" cy="8" r="7" stroke="'+TEAL+'" stroke-width="1.2"/><path d="M5 8L7 10L11 6" stroke="'+TEAL+'" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+        +'<div><div style="font-size:13px;color:'+TEAL+';font-weight:500;margin-bottom:5px;">正确！指代关系成立</div>'
+        +'<div style="font-size:12px;color:'+TXS+';line-height:1.6;"><span style="color:'+BLUE+';">They</span> → <span style="color:'+TEAL+';">Scientists</span>（主语延续，跨句指代）<br>第二句中的 They 延续了第一句的逻辑主体。</div></div></div></div>';
+    } else {
+      feedHtml='<div style="background:'+RA+';border:0.5px solid rgba(226,96,96,0.25);border-radius:13px;padding:14px;margin-top:13px;">'
+        +'<div style="display:flex;align-items:flex-start;gap:9px;">'
+        +'<svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink:0;margin-top:2px;"><circle cx="8" cy="8" r="7" stroke="'+RED+'" stroke-width="1.2"/><path d="M5.5 5.5L10.5 10.5M10.5 5.5L5.5 10.5" stroke="'+RED+'" stroke-width="1.5" stroke-linecap="round"/></svg>'
+        +'<div><div style="font-size:13px;color:'+RED+';font-weight:500;margin-bottom:5px;">指代分析有误</div>'
+        +'<div style="font-size:12px;color:'+TXS+';line-height:1.6;">正确答案：<span style="color:'+BLUE+';">They</span> → <span style="color:'+TEAL+';">Scientists</span><br>temperatures 不能作为 They 的有效指代主体。</div></div></div></div>';
+    }
+  }
+
+  var btnHtml='';
+  if(step==='init'){
+    btnHtml='<button disabled style="width:100%;padding:15px;background:'+BGE+';color:'+TXD+';border:none;border-radius:16px;font-size:15px;font-weight:500;cursor:not-allowed;font-family:var(--font-sans);">请先点击代词</button>';
+  } else if(step==='done'){
+    btnHtml=pbtn('查看训练结果 →','_dh(4)');
+  }
+
+  var hintHtml = step==='init'
+    ? '<div style="background:'+BA+';border:0.5px solid rgba(74,159,224,0.18);border-radius:11px;padding:10px 13px;margin-top:10px;display:flex;align-items:center;gap:8px;">'
+      +'<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6.5" stroke="'+BLUE+'" stroke-width="1"/><path d="M7 6V10" stroke="'+BLUE+'" stroke-width="1.5" stroke-linecap="round"/><circle cx="7" cy="4" r="0.8" fill="'+BLUE+'"/></svg>'
+      +'<span style="font-size:12px;color:'+BLUE+';">点击蓝色代词 "They" 开始连线</span></div>'
+    : '';
+
+  return '<div style="padding:12px 20px 28px;color:'+TX+';">'
+    +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">'
+    +back(2)
+    +'<span style="font-size:12px;color:'+TXS+';">连线练习</span></div>'
+    +pbar(2,3)
+
+    +'<div style="margin-bottom:16px;">'
+    +'<div style="font-size:17px;font-weight:500;color:'+TX+';margin-bottom:7px;">恢复指代关系</div>'
+    +'<div style="font-size:13px;color:'+TXS+';line-height:1.65;">找出代词 "They" 所指代的实体，建立跨句指代连接。</div></div>'
+
+    +'<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:16px;padding:17px;">'
+    +'<div style="font-size:11px;color:'+TXS+';font-weight:500;margin-bottom:11px;letter-spacing:0.5px;">训练句组 · 考研英语阅读</div>'
+    +'<div style="font-size:14px;color:'+TX+';line-height:1.82;margin-bottom:11px;">'
+    +'<span style="color:'+TEAL+';font-weight:500;">Scientists</span> claimed that ocean temperatures have risen dramatically over the past decade.</div>'
+    +'<div style="height:0.5px;background:'+BDR+';margin-bottom:11px;"></div>'
+    +'<div style="font-size:14px;color:'+TX+';line-height:1.82;">'
+    +'<span '+pronClick+' style="'+pronStyle+'">They</span>'
+    +' warned that marine ecosystems could collapse within decades if action is not taken.</div></div>'
+
+    +hintHtml+optHtml+feedHtml
+
+    +'<div style="margin-top:18px;">'+btnHtml+'</div>'
+    +'</div>';
+}
+
+function results(){
+  var tags=[
+    {label:'结构识别',col:TEAL,bg:TA},
+    {label:'认知负荷管控',col:TEAL,bg:TA},
+    {label:'指代恢复',col:BLUE,bg:BA},
+    {label:'跨句逻辑',col:BLUE,bg:BA},
+    {label:'主干提取',col:GOLD,bg:GA},
+  ];
+  var tagHtml=tags.map(function(t){
+    return '<span style="background:'+t.bg+';color:'+t.col+';font-size:12px;padding:5px 12px;border-radius:20px;border:0.5px solid '+t.col+'33;">'+t.label+'</span>';
+  }).join('');
+
+  return '<div style="padding:12px 20px 28px;color:'+TX+';">'
+
+    +'<div style="text-align:center;padding:22px 0 18px;">'
+    +'<div style="width:68px;height:68px;border-radius:34px;background:'+TA+';border:2px solid '+TEAL+';display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">'
+    +'<svg width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M8 15L13 20L22 10" stroke="'+TEAL+'" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>'
+    +'<div style="font-size:22px;font-weight:500;color:'+TX+';margin-bottom:6px;">训练完成</div>'
+    +'<div style="font-size:13px;color:'+TXS+';">本关 2 个核心操作均已完成</div></div>'
+
+    +'<div style="display:flex;gap:9px;margin-bottom:14px;">'
+    +'<div style="flex:1;background:'+BGC+';border:0.5px solid '+BDR+';border-radius:14px;padding:14px;text-align:center;">'
+    +'<div style="font-size:22px;font-weight:500;color:'+TEAL+';margin-bottom:4px;">100%</div>'
+    +'<div style="font-size:12px;color:'+TXS+';">折叠正确率</div></div>'
+    +'<div style="flex:1;background:'+BGC+';border:0.5px solid '+BDR+';border-radius:14px;padding:14px;text-align:center;">'
+    +'<div style="font-size:22px;font-weight:500;color:'+BLUE+';margin-bottom:4px;">100%</div>'
+    +'<div style="font-size:12px;color:'+TXS+';">连线正确率</div></div>'
+    +'<div style="flex:1;background:'+BGC+';border:0.5px solid '+BDR+';border-radius:14px;padding:14px;text-align:center;">'
+    +'<div style="font-size:22px;font-weight:500;color:'+GOLD+';margin-bottom:4px;">+120</div>'
+    +'<div style="font-size:12px;color:'+TXS+';">获得 XP</div></div></div>'
+
+    +'<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:16px;padding:15px;margin-bottom:14px;">'
+    +'<div style="font-size:13px;font-weight:500;color:'+TX+';margin-bottom:12px;">能力标签分析</div>'
+    +'<div style="display:flex;flex-wrap:wrap;gap:7px;">'+tagHtml+'</div></div>'
+
+    +'<div style="background:'+BGC+';border:0.5px solid '+BDR+';border-radius:16px;padding:15px;margin-bottom:22px;">'
+    +'<div style="font-size:13px;font-weight:500;color:'+TX+';margin-bottom:10px;">经验值进度</div>'
+    +'<div style="display:flex;justify-content:space-between;margin-bottom:8px;">'
+    +'<span style="font-size:12px;color:'+TXS+';">Lv.6 探险者</span>'
+    +'<span style="font-size:12px;color:'+GOLD+';">2,960 / 3,500</span></div>'
+    +'<div style="height:6px;background:'+BGE+';border-radius:3px;">'
+    +'<div style="width:84%;height:100%;background:'+GOLD+';border-radius:3px;"></div></div>'
+    +'<div style="font-size:12px;color:'+TXS+';margin-top:9px;">距离 Lv.7 航海家还差 540 XP</div></div>'
+
+    +pbtn('继续下一关 →','_dh(2)')
+    +sbtn('返回地图','_dh(0)')
+    +'</div>';
+}
+
+render();
+})();
+</script>
