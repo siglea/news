@@ -1,0 +1,5 @@
+# 流水线第 1 步：URL 正文提取（非微信）
+requests>=2.28.0
+trafilatura>=1.6.0
+# 第 1 步：按主题检索（可选）
+duckduckgo-search>=4.0.0
