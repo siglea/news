@@ -12,7 +12,8 @@ python3 workflow/mingox.py --help
 |------|------|
 | **`content/drafts/<slug>/`** | 单篇草稿：第 1 步产出 `01-source.md` 与 `meta.json`；第 2 步产出 `02-annotate-tasks.json`（复合任务 JSON）。 |
 | **`workflow/`** | 流水线脚本：`acquire`、`build`、`validate`、`serve`、`deploy`、`wechat`。 |
-| **`util/annotate_lib.py`** | 共享词表与 `word-block` 生成（仅 `KEYWORDS` 命中才标注，无兜底凑数）、词汇表、`build_post_html`（微信 CLI 与 MD 草稿共用）。 |
+| **`util/annotate_lib.py`** | `KEYWORDS` 子串匹配、`word-block` 渲染、词汇表、`build_post_html`（微信 CLI 与 MD 草稿共用）。 |
+| **`util/annotate_merge.py`** | 对话产出 JSON 的合并与校验（`annotate_engine: chat_json`）。 |
 | **`util/.crawl-output/`** | 仅本地抓取缓存（gitignore）；Playwright 可写 `workflow-<slug>-js_content.html`。 |
 | **`util/article-profiles.json`** | **微信成稿快捷通道**：一条 profile 对应一篇已抓取的 `js_content` HTML（不经 MD 草稿）。 |
 | **`posts/`** | 第 3 步最终静态 HTML。 |
@@ -70,6 +71,26 @@ python3 workflow/mingox.py acquire --slug my-topic --mode search --query '...' -
   - `paragraphs[]`：每项含 `source_text`（来自 MD 段落）与 `html`（已插入 `word-anchor` / `word-block` 的 `<p>...</p>`）。
 - **规则对齐**：词形、音标结构等与根目录 [README.md](../README.md)「词汇标注规范」一致；**每 `<p>` 内句密度**等更严规则需人工与范文对照（当前自动化以 **相邻 `word-block` 正则** 为硬门禁）。
 
+### 标注引擎
+
+| `meta.json` | 行为 |
+|-------------|------|
+| （默认）`annotate_engine` 省略或为 `keywords` | 使用 `annotate_lib.KEYWORDS` 子串匹配；`keyword_dedupe: false` 可关闭全文按英文词形去重。 |
+| **`annotate_engine: "chat_json"`** | **仅通过 Cursor 对话：** 先 `export-chat-bundle`，把 `system_prompt` + `sentences` 交给助手，助手只输出 JSON；保存为草稿目录下的 **`llm_annotations.json`** 后再 `build`。程序侧：校验 `zh`⊂句内、`en` 单 token、**全文 `en` 小写去重**；覆盖率不足时在 stderr 提示无词句序号供对话补二轮。 |
+| `llm_annotations_file` | 可选，默认 `llm_annotations.json`（相对 `content/drafts/<slug>/`）。 |
+
+**对话标注步骤：**
+
+```bash
+python3 workflow/mingox.py export-chat-bundle --slug my-topic
+# 将生成的 llm-chat-bundle.json 中的 system_prompt 与 sentences 粘贴到 Cursor 对话，
+# 让助手输出 {"version":1,"annotations":[...]}，保存为 content/drafts/my-topic/llm_annotations.json
+# meta.json 设 "annotate_engine": "chat_json"
+python3 workflow/mingox.py build --slug my-topic
+```
+
+微信 profile：`annotate_engine: chat_json` 时需 **`llm_annotations_file`**（相对仓库根的路径，指向已保存的 JSON）。
+
 ```bash
 python3 workflow/mingox.py build --slug my-topic
 # 跳过相邻检测（仅调试）:
@@ -117,3 +138,4 @@ python3 workflow/mingox.py wechat --profile your-profile-key
 
 - **版式、列表、词汇、相邻块、外源版权块**：以根目录 [README.md](../README.md) 为权威。
 - **本文件**：约定**目录与命令**，避免 `util/` 与草稿职责混淆。
+- **`terms_json` / 对话词表、中英同位锚定、`gloss` 规则**：以 [content/drafts/README.md](../content/drafts/README.md) 为权威补充。

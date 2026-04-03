@@ -77,6 +77,29 @@ def cmd_build(args: argparse.Namespace) -> None:
     build_slug(args.slug, skip_validate=args.skip_validate)
 
 
+def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
+    import json
+
+    sys.path.insert(0, str(WORKFLOW_DIR))
+    from paths import ROOT, UTIL_DIR
+
+    sys.path.insert(0, str(UTIL_DIR))
+    from annotate_merge import export_chat_bundle_dict
+    from md_split import paragraphs_from_markdown
+
+    draft = ROOT / "content" / "drafts" / args.slug
+    src = draft / "01-source.md"
+    if not src.is_file():
+        raise SystemExit(f"missing {src}")
+    paras = paragraphs_from_markdown(src.read_text(encoding="utf-8"))
+    bundle = export_chat_bundle_dict(paras)
+    out = draft / "llm-chat-bundle.json"
+    out.write_text(json.dumps(bundle, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("wrote", out)
+    ann = draft / "llm_annotations.json"
+    print("Next: paste `system_prompt` + `sentences` into Cursor chat; save reply as", ann)
+
+
 def cmd_validate(args: argparse.Namespace) -> None:
     sys.path.insert(0, str(WORKFLOW_DIR))
     from validate import validate_file, validate_posts_glob
@@ -221,6 +244,13 @@ def main() -> None:
     p_b.add_argument("--slug", required=True)
     p_b.add_argument("--skip-validate", action="store_true")
     p_b.set_defaults(func=cmd_build)
+
+    p_eb = sub.add_parser(
+        "export-chat-bundle",
+        help="Write llm-chat-bundle.json for Cursor chat annotate (with annotate_engine=chat_json)",
+    )
+    p_eb.add_argument("--slug", required=True)
+    p_eb.set_defaults(func=cmd_export_chat_bundle)
 
     p_v = sub.add_parser("validate", help="Run adjacent word-block check on posts/*.html")
     p_v.add_argument("--post", help="single file instead of all posts")

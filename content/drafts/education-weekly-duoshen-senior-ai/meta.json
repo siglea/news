@@ -1,0 +1,20 @@
+{
+  "slug": "education-weekly-duoshen-senior-ai",
+  "title_zh": "教育周报｜豆神教育换帅；老年教育站上新风口，AI 成老年教育关键词",
+  "title_en": "Education Weekly: DouShen, Senior Ed & AI",
+  "title_emoji": "📚",
+  "date": "2026-04-02",
+  "source_url": "https://mp.weixin.qq.com/s/TkQnQULV9y4N1yJiBY5P0w",
+  "source_account": "多鲸",
+  "include_source_footer": true,
+  "footer_template": "verbatim",
+  "footer_derivative_mp_unknown": false,
+  "source_author_display": "",
+  "out_html": "posts/2026-04-02-education-weekly-duoshen-senior-ai.html",
+  "meta_description": "多鲸教育周报：豆神教育人事变动、老年教育与 AI 应用等资讯汇编；正文保留微信原文，本站仅作词汇标注；已省略文末 GEO 营销与扫码推广段。",
+  "omit_sections_note": "本站已省略原推送文末 GEO 营销、扫码引流等推广段落；其余结构与标点尽量保持「多鲸」微信原文。",
+  "risk_blurb": "本文为教育行业资讯汇编，仅供学习交流，不构成任何招生、培训或投资建议。",
+  "risk_blurb_secondary": "英文标注仅供学习，释义为编者据语境所给，与原文作者用语未必一一对应。",
+  "annotate_engine": "terms_json",
+  "terms_file": "terms.json"
+}

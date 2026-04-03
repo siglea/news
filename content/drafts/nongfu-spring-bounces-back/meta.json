@@ -1,0 +1,20 @@
+{
+  "slug": "nongfu-spring-bounces-back",
+  "title_zh": "农夫山泉扳回一局",
+  "title_en": "Nongfu Spring Bounces Back: Revenue Tops $70B",
+  "title_emoji": "📈",
+  "date": "2026-04-02",
+  "source_url": "",
+  "source_account": "中国企业家杂志",
+  "include_source_footer": true,
+  "footer_template": "derivative",
+  "footer_derivative_mp_unknown": false,
+  "source_author_display": "胡楠楠",
+  "out_html": "posts/2026-04-02-nongfu-spring-bounces-back.html",
+  "meta_description": "据《中国企业家杂志》报道整理：农夫山泉2025年营收突破500亿、饮用水回暖与茶饮料增长；本站双语词汇标注。",
+  "omit_sections_note": "原文刊于《中国企业家杂志》；本站为要点整理与词汇学习，具体表述以原报道为准。",
+  "risk_blurb": "本文为第三方财经报道摘录，不构成任何投资建议。",
+  "risk_blurb_secondary": "涉及公司财务与经营判断请以官方披露为准。",
+  "annotate_engine": "chat_json",
+  "llm_annotations_file": "llm_annotations.json"
+}
