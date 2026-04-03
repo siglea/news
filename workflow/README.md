@@ -15,7 +15,7 @@ python3 workflow/mingox.py --help
 |------|------|
 | `mingox.py` | CLI：`init` / `acquire` / `build` / `validate` / `serve` / `deploy` / `wechat` |
 | `acquire.py` | 第 1 步：paste / url / search → `01-source.md`；微信 url **先试 Playwright `--mobile`**，失败再桌面 UA；MD 用 `extract_ps` + 微信 plain/leaf 回退（见 util/README）。 |
-| `build_draft.py` | 第 2–3 步：`01-source.md` → `02-annotate-tasks.json` + `posts/*.html` |
+| `build_draft.py` | 第 2–3 步：`01-source.md` → `02-annotate-tasks.json` + `posts/*.html`；`meta.annotate_engine` 支持 **`keywords`** / **`terms_json`**（读 `terms.json`）/ **`chat_json`**（读 `llm_annotations.json`），详见 [docs/PIPELINE.md](../docs/PIPELINE.md) 与 [content/drafts/README.md](../content/drafts/README.md)。 |
 | `validate.py` | 相邻 `word-block` 检测（与根 README 一致） |
 | `md_split.py` | Markdown 按空行切段 |
 | `paths.py` | 仓库根路径 |

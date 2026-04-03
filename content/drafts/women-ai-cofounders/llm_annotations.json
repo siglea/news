@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "性别差距",
+      "en": "gender-gap",
+      "ipa": "[ˈdʒendər ɡæp]",
+      "pos": "n.",
+      "gloss": "性别差距"
+    },
+    {
+      "i": 1,
+      "zh": "创业者",
+      "en": "entrepreneur",
+      "ipa": "[ˌɒntrəprəˈnɜː(r)]",
+      "pos": "n.",
+      "gloss": "创业者"
+    },
+    {
+      "i": 2,
+      "zh": "硬科技",
+      "en": "hard-tech",
+      "ipa": "[hɑːd tek]",
+      "pos": "n.",
+      "gloss": "硬科技"
+    },
+    {
+      "i": 3,
+      "skip": true
+    },
+    {
+      "i": 4,
+      "zh": "着手",
+      "en": "embark-on",
+      "ipa": "[ɪmˈbɑːk ɒn]",
+      "pos": "v.",
+      "gloss": "着手"
+    },
+    {
+      "i": 5,
+      "zh": "生态系统",
+      "en": "ecosystem",
+      "ipa": "[ˈiːkəʊsɪstəm]",
+      "pos": "n.",
+      "gloss": "生态系统"
+    },
+    {
+      "i": 6,
+      "skip": true
+    },
+    {
+      "i": 7,
+      "zh": "任职期",
+      "en": "tenure",
+      "ipa": "[ˈtenjə(r)]",
+      "pos": "n.",
+      "gloss": "任职期"
+    },
+    {
+      "i": 8,
+      "zh": "首席运营官",
+      "en": "chief-operating-officer",
+      "ipa": "[tʃiːf ˈɒpəreɪtɪŋ ˈɒfɪsə(r)]",
+      "pos": "n.",
+      "gloss": "首席运营官"
+    },
+    {
+      "i": 9,
+      "zh": "短板",
+      "en": "shortcoming",
+      "ipa": "[ˈʃɔːtkʌmɪŋ]",
+      "pos": "n.",
+      "gloss": "短板"
+    },
+    {
+      "i": 10,
+      "skip": true
+    },
+    {
+      "i": 11,
+      "zh": "冲刺",
+      "en": "sprint",
+      "ipa": "[sprɪnt]",
+      "pos": "v.",
+      "gloss": "冲刺"
+    },
+    {
+      "i": 12,
+      "skip": true
+    },
+    {
+      "i": 13,
+      "zh": "上市",
+      "en": "debut",
+      "ipa": "[ˈdeɪbjuː]",
+      "pos": "n.",
+      "gloss": "上市"
+    },
+    {
+      "i": 14,
+      "zh": "实现",
+      "en": "materialize",
+      "ipa": "[məˈtɪəriəlaɪz]",
+      "pos": "v.",
+      "gloss": "实现"
+    },
+    {
+      "i": 15,
+      "skip": true
+    },
+    {
+      "i": 16,
+      "skip": true
+    },
+    {
+      "i": 17,
+      "skip": true
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "skip": true
+    },
+    {
+      "i": 20,
+      "zh": "资源",
+      "en": "resource",
+      "ipa": "[rɪˈsɔːs]",
+      "pos": "n.",
+      "gloss": "资源"
+    },
+    {
+      "i": 21,
+      "skip": true
+    },
+    {
+      "i": 22,
+      "zh": "执行力",
+      "en": "execution",
+      "ipa": "[ˌeksɪˈkjuːʃn]",
+      "pos": "n.",
+      "gloss": "执行力"
+    },
+    {
+      "i": 23,
+      "skip": true
+    },
+    {
+      "i": 24,
+      "zh": "硬核",
+      "en": "hardcore",
+      "ipa": "[ˈhɑːdkɔː(r)]",
+      "pos": "adj.",
+      "gloss": "硬核"
+    },
+    {
+      "i": 25,
+      "zh": "主导",
+      "en": "oversee",
+      "ipa": "[ˌəʊvəˈsiː]",
+      "pos": "v.",
+      "gloss": "主导"
+    },
+    {
+      "i": 26,
+      "skip": true
+    },
+    {
+      "i": 27,
+      "skip": true
+    },
+    {
+      "i": 28,
+      "skip": true
+    },
+    {
+      "i": 29,
+      "zh": "起源",
+      "en": "genesis",
+      "ipa": "[ˈdʒenəsɪs]",
+      "pos": "n.",
+      "gloss": "起源"
+    },
+    {
+      "i": 30,
+      "zh": "决策人",
+      "en": "decision-maker",
+      "ipa": "[dɪˈsɪʒn ˈmeɪkə(r)]",
+      "pos": "n.",
+      "gloss": "决策人"
+    },
+    {
+      "i": 31,
+      "zh": "量产爬坡",
+      "en": "ramp",
+      "ipa": "[ræmp]",
+      "pos": "v.",
+      "gloss": "量产爬坡"
+    },
+    {
+      "i": 32,
+      "zh": "估值",
+      "en": "valuation",
+      "ipa": "[ˌvæljuˈeɪʃn]",
+      "pos": "n.",
+      "gloss": "估值"
+    },
+    {
+      "i": 33,
+      "zh": "魅力",
+      "en": "enchantment",
+      "ipa": "[ɪnˈtʃɑːntmənt]",
+      "pos": "n.",
+      "gloss": "魅力"
+    },
+    {
+      "i": 34,
+      "skip": true
+    },
+    {
+      "i": 35,
+      "skip": true
+    },
+    {
+      "i": 36,
+      "zh": "白手起家",
+      "en": "self-made",
+      "ipa": "[ˌself ˈmeɪd]",
+      "pos": "adj.",
+      "gloss": "白手起家"
+    },
+    {
+      "i": 37,
+      "skip": true
+    },
+    {
+      "i": 38,
+      "zh": "推动",
+      "en": "propel",
+      "ipa": "[prəˈpel]",
+      "pos": "v.",
+      "gloss": "推动"
+    },
+    {
+      "i": 39,
+      "skip": true
+    },
+    {
+      "i": 40,
+      "zh": "横跨",
+      "en": "span",
+      "ipa": "[spæn]",
+      "pos": "v.",
+      "gloss": "横跨"
+    },
+    {
+      "i": 41,
+      "skip": true
+    },
+    {
+      "i": 42,
+      "skip": true
+    },
+    {
+      "i": 43,
+      "zh": "种子轮融资",
+      "en": "seed-round",
+      "ipa": "[siːd raʊnd]",
+      "pos": "n.",
+      "gloss": "种子轮融资"
+    },
+    {
+      "i": 44,
+      "skip": true
+    },
+    {
+      "i": 45,
+      "skip": true
+    },
+    {
+      "i": 46,
+      "skip": true
+    },
+    {
+      "i": 47,
+      "zh": "算力",
+      "en": "computing-power",
+      "ipa": "[kəmˈpjuːtɪŋ ˈpaʊə(r)]",
+      "pos": "n.",
+      "gloss": "算力"
+    },
+    {
+      "i": 48,
+      "skip": true
+    },
+    {
+      "i": 49,
+      "zh": "航行",
+      "en": "navigate",
+      "ipa": "[ˈnævɪɡeɪt]",
+      "pos": "v.",
+      "gloss": "航行"
+    }
+  ]
+}

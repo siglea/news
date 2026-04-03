@@ -1,0 +1,624 @@
+[
+  {
+    "match": "「高校标准化设施+中学精细化考务管理」优势互补的协同办考新模式",
+    "zh": "协同办考",
+    "en": "coordination",
+    "ipa": "[kəʊˌɔːdɪˈneɪʃn]",
+    "pos": "n.",
+    "gloss": "协调；协同（办考等组织工作）"
+  },
+  {
+    "match": "腾讯青少年人工智能教育平台(港澳 AIGC 版)",
+    "zh": "港澳 AIGC 版",
+    "en": "edition",
+    "ipa": "[ɪˈdɪʃn]",
+    "pos": "n.",
+    "gloss": "版本；特供版"
+  },
+  {
+    "match": "一站式自主学习解决方案",
+    "zh": "一站式",
+    "en": "solution",
+    "ipa": "[səˈluːʃn]",
+    "pos": "n.",
+    "gloss": "解决方案"
+  },
+  {
+    "match": "归属于上市公司股东的净利润",
+    "zh": "净利润",
+    "en": "net",
+    "ipa": "[net]",
+    "pos": "adj.",
+    "gloss": "净的；净利润（相对 gross）"
+  },
+  {
+    "match": "调整后净亏损(非美国通用会计准则)",
+    "zh": "非美国通用会计准则",
+    "en": "nonGAAP",
+    "ipa": "[nɒn ˈɡæp]",
+    "pos": "n.",
+    "gloss": "非公认会计准则口径"
+  },
+  {
+    "match": "职业教育考试招生制度改革",
+    "zh": "改革",
+    "en": "reform",
+    "ipa": "[rɪˈfɔːm]",
+    "pos": "n.",
+    "gloss": "改革"
+  },
+  {
+    "match": "未经审计的财务业绩",
+    "zh": "未经审计",
+    "en": "unaudited",
+    "ipa": "[ʌnˈɔːdɪtɪd]",
+    "pos": "adj.",
+    "gloss": "未经审计的"
+  },
+  {
+    "match": "教学全链路的教育 Agent 体系",
+    "zh": "全链路",
+    "en": "pipeline",
+    "ipa": "[ˈpaɪplaɪn]",
+    "pos": "n.",
+    "gloss": "（端到端）流水线；全链路"
+  },
+  {
+    "match": "构建了可复制、可持续的人工智能人才培养新模式",
+    "zh": "新模式",
+    "en": "framework",
+    "ipa": "[ˈfreɪmwɜːk]",
+    "pos": "n.",
+    "gloss": "框架；体系"
+  },
+  {
+    "zh": "教案生成",
+    "en": "workflow",
+    "ipa": "[ˈwɜːkfləʊ]",
+    "pos": "n.",
+    "gloss": "工作流程"
+  },
+  {
+    "zh": "学习轨迹",
+    "en": "trajectory",
+    "ipa": "[trəˈdʒektəri]",
+    "pos": "n.",
+    "gloss": "轨迹；学习路径（随时间展开）"
+  },
+  {
+    "match": "教材数字化",
+    "zh": "数字化",
+    "en": "digitization",
+    "ipa": "[ˌdɪdʒɪtaɪˈzeɪʃn]",
+    "pos": "n.",
+    "gloss": "数字化"
+  },
+  {
+    "match": "超小型双足具身智能机器人",
+    "zh": "机器人",
+    "en": "humanoid",
+    "ipa": "[ˈhjuːmənɔɪd]",
+    "pos": "adj.",
+    "gloss": "人形的；仿人机器人"
+  },
+  {
+    "match": "通用具身智能机器人",
+    "zh": "机器人",
+    "en": "robot",
+    "ipa": "[ˈrəʊbɒt]",
+    "pos": "n.",
+    "gloss": "机器人"
+  },
+  {
+    "match": "首个「超级学练智能体」落地",
+    "zh": "智能体",
+    "en": "agent",
+    "ipa": "[ˈeɪdʒənt]",
+    "pos": "n.",
+    "gloss": "（AI）智能体"
+  },
+  {
+    "match": "国家中小学智慧教育平台",
+    "zh": "平台",
+    "en": "platform",
+    "ipa": "[ˈplætfɔːm]",
+    "pos": "n.",
+    "gloss": "平台"
+  },
+  {
+    "match": "宣布已于近期完成亿元级 Pre-A 轮融资",
+    "zh": "融资",
+    "en": "financing",
+    "ipa": "[faɪˈnænsɪŋ]",
+    "pos": "n.",
+    "gloss": "融资"
+  },
+  {
+    "match": "亿元级 Pre-A 轮",
+    "zh": "Pre-A 轮",
+    "en": "round",
+    "ipa": "[raʊnd]",
+    "pos": "n.",
+    "gloss": "（融资）轮次"
+  },
+  {
+    "match": "跨境服务综合咨询",
+    "zh": "咨询",
+    "en": "consulting",
+    "ipa": "[kənˈsʌltɪŋ]",
+    "pos": "n.",
+    "gloss": "咨询业"
+  },
+  {
+    "match": "价值修复的拐点时刻",
+    "zh": "拐点",
+    "en": "inflection",
+    "ipa": "[ɪnˈflekʃn]",
+    "pos": "n.",
+    "gloss": "拐点；转折"
+  },
+  {
+    "match": "第四季度及全年未经审计财务业绩",
+    "zh": "财务业绩",
+    "en": "earnings",
+    "ipa": "[ˈɜːnɪŋz]",
+    "pos": "n.",
+    "gloss": "盈利业绩；财报口径下的业绩"
+  },
+  {
+    "match": "ClassClaw 数字员工系统",
+    "zh": "数字员工",
+    "en": "avatar",
+    "ipa": "[ˈævətɑː]",
+    "pos": "n.",
+    "gloss": "数字分身员工（自动化岗位角色，非编制 staffing）"
+  },
+  {
+    "match": "首场「职教高考」",
+    "zh": "职教高考",
+    "en": "admission",
+    "ipa": "[ədˈmɪʃn]",
+    "pos": "n.",
+    "gloss": "招生；录取"
+  },
+  {
+    "match": "为首批参加职教高考的考生",
+    "zh": "职教高考",
+    "en": "matriculation",
+    "ipa": "[məˌtrɪkjʊˈleɪʃn]",
+    "pos": "n.",
+    "gloss": "升学考试（职教高考语境：升入高等教育的统考）"
+  },
+  {
+    "match": "在政策制定、规划编制、资源配置中充分保障儿童权益",
+    "zh": "资源配置",
+    "en": "allocation",
+    "ipa": "[ˌæləˈkeɪʃn]",
+    "pos": "n.",
+    "gloss": "（资源）配置；分配"
+  },
+  {
+    "zh": "非美国通用会计准则",
+    "en": "GAAP",
+    "ipa": "[ˈɡæp]",
+    "pos": "n.",
+    "gloss": "公认会计准则"
+  },
+  {
+    "zh": "毛利率",
+    "en": "margin",
+    "ipa": "[ˈmɑːdʒɪn]",
+    "pos": "n.",
+    "gloss": "利润率；毛利空间"
+  },
+  {
+    "match": "派驻服务机制",
+    "zh": "派驻",
+    "en": "dispatch",
+    "ipa": "[dɪˈspætʃ]",
+    "pos": "n.",
+    "gloss": "派驻；调度"
+  },
+  {
+    "match": "激活公众与公益力量",
+    "zh": "公益",
+    "en": "philanthropy",
+    "ipa": "[fɪˈlænθrəpi]",
+    "pos": "n.",
+    "gloss": "公益；慈善"
+  },
+  {
+    "match": "全体系已累计服务老年人",
+    "zh": "全体系",
+    "en": "system",
+    "ipa": "[ˈsɪstəm]",
+    "pos": "n.",
+    "gloss": "体系；系统"
+  },
+  {
+    "match": "产品研发及技术平台搭建",
+    "zh": "技术平台",
+    "en": "stack",
+    "ipa": "[stæk]",
+    "pos": "n.",
+    "gloss": "技术栈"
+  },
+  {
+    "match": "助力其在技术研发、市场拓展和团队建设等方面实现快速发展",
+    "zh": "市场拓展",
+    "en": "expansion",
+    "ipa": "[ɪkˈspænʃn]",
+    "pos": "n.",
+    "gloss": "扩张；拓展"
+  },
+  {
+    "match": "人才培养新范式",
+    "zh": "范式",
+    "en": "paradigm",
+    "ipa": "[ˈpærədaɪm]",
+    "pos": "n.",
+    "gloss": "范式"
+  },
+  {
+    "match": "跨学科项目式学习模式",
+    "zh": "项目式",
+    "en": "project",
+    "ipa": "[ˈprɒdʒekt]",
+    "pos": "n.",
+    "gloss": "项目（式学习）"
+  },
+  {
+    "match": "办学模式不断创新",
+    "zh": "办学模式",
+    "en": "model",
+    "ipa": "[ˈmɒdl]",
+    "pos": "n.",
+    "gloss": "模式；办学形态"
+  },
+  {
+    "match": "累计对外融资达",
+    "zh": "累计",
+    "en": "cumulative",
+    "ipa": "[ˈkjuːmjələtɪv]",
+    "pos": "adj.",
+    "gloss": "累计的"
+  },
+  {
+    "match": "(合 560 万美元)",
+    "zh": "万美元",
+    "en": "million",
+    "ipa": "[ˈmɪljən]",
+    "pos": "n.",
+    "gloss": "百万（美元量级）"
+  },
+  {
+    "match": "(合 760 万美元)",
+    "zh": "万美元",
+    "en": "notional",
+    "ipa": "[ˈnəʊʃənl]",
+    "pos": "adj.",
+    "gloss": "名义的；折合口径"
+  },
+  {
+    "match": "参与的天使轮融资",
+    "zh": "天使轮",
+    "en": "angel",
+    "ipa": "[ˈeɪndʒəl]",
+    "pos": "n.",
+    "gloss": "天使轮（融资）"
+  },
+  {
+    "match": "「得年轻人者得天下」的定律",
+    "zh": "定律",
+    "en": "aphorism",
+    "ipa": "[ˈæfərɪzəm]",
+    "pos": "n.",
+    "gloss": "格言；警句式说法"
+  },
+  {
+    "match": "「悦银发者有未来」",
+    "zh": "银发",
+    "en": "longevity",
+    "ipa": "[lɒnˈdʒevəti]",
+    "pos": "n.",
+    "gloss": "长寿；老龄（银发经济语境）"
+  },
+  {
+    "zh": "资源下沉",
+    "en": "redistribution",
+    "ipa": "[ˌriːdɪstrɪˈbjuːʃn]",
+    "pos": "n.",
+    "gloss": "再分配；（资源）下沉配置"
+  },
+  {
+    "match": "单点提效工具",
+    "zh": "提效",
+    "en": "efficiency",
+    "ipa": "[ɪˈfɪʃnsi]",
+    "pos": "n.",
+    "gloss": "效率"
+  },
+  {
+    "match": "面向教师的龙虾产品「九章龙虾」",
+    "zh": "教师",
+    "en": "instructor",
+    "ipa": "[ɪnˈstrʌktə]",
+    "pos": "n.",
+    "gloss": "讲师；教师端"
+  },
+  {
+    "match": "延伸至「学生端」的路径",
+    "zh": "学生端",
+    "en": "client",
+    "ipa": "[ˈklaɪənt]",
+    "pos": "n.",
+    "gloss": "客户端；用户侧产品端"
+  },
+  {
+    "match": "「Computer Use」(电脑使用)",
+    "zh": "电脑使用",
+    "en": "usage",
+    "ipa": "[ˈjuːsɪdʒ]",
+    "pos": "n.",
+    "gloss": "使用；用法"
+  },
+  {
+    "match": "书面辞职报告",
+    "zh": "辞职",
+    "en": "resignation",
+    "ipa": "[ˌrezɪɡˈneɪʃn]",
+    "pos": "n.",
+    "gloss": "辞职；辞呈"
+  },
+  {
+    "match": "首席 AI 战略专家",
+    "zh": "战略专家",
+    "en": "strategist",
+    "ipa": "[ˈstrætədʒɪst]",
+    "pos": "n.",
+    "gloss": "战略家"
+  },
+  {
+    "match": "教育 AI 与品牌出海两大增长引擎",
+    "zh": "品牌出海",
+    "en": "outbound",
+    "ipa": "[ˈaʊtbaʊnd]",
+    "pos": "adj.",
+    "gloss": "外向扩张的；品牌出海（走向境外市场）"
+  },
+  {
+    "match": "几十个掌握度标签",
+    "zh": "掌握度标签",
+    "en": "taxonomy",
+    "ipa": "[tækˈsɒnəmi]",
+    "pos": "n.",
+    "gloss": "分类体系；标签体系"
+  },
+  {
+    "match": "难度、区分度、知识点",
+    "zh": "区分度",
+    "en": "discrimination",
+    "ipa": "[dɪˌskrɪmɪˈneɪʃn]",
+    "pos": "n.",
+    "gloss": "区分度（测验）"
+  },
+  {
+    "zh": "关键软技能",
+    "en": "soft-skill",
+    "ipa": "[sɒft skɪl]",
+    "pos": "n.",
+    "gloss": "软技能（沟通、领导力等）"
+  },
+  {
+    "zh": "超级个体",
+    "en": "solopreneur",
+    "ipa": "[ˌsɒləʊprəˈnɜː]",
+    "pos": "n.",
+    "gloss": "超级个体；一人公司式创业者"
+  },
+  {
+    "match": "「好AI+好内容」",
+    "zh": "好AI+好内容",
+    "en": "bundle",
+    "ipa": "[ˈbʌndl]",
+    "pos": "n.",
+    "gloss": "捆绑；组合包"
+  },
+  {
+    "match": "发布盈喜预告",
+    "zh": "盈喜预告",
+    "en": "preannouncement",
+    "ipa": "[priːəˌnaʊnsmənt]",
+    "pos": "n.",
+    "gloss": "（业绩）预增预告；盈喜类事前披露"
+  },
+  {
+    "match": "教育服务领域的龙头壁垒",
+    "zh": "龙头壁垒",
+    "en": "barrier",
+    "ipa": "[ˈbæriə]",
+    "pos": "n.",
+    "gloss": "壁垒；结构性竞争优势（此处理解「壁垒」本义）"
+  },
+  {
+    "match": "公司当前低估值高股息的安全属性",
+    "zh": "高股息",
+    "en": "dividend",
+    "ipa": "[ˈdɪvɪdend]",
+    "pos": "n.",
+    "gloss": "股息；分红"
+  },
+  {
+    "zh": "精神丰盈",
+    "en": "fulfillment",
+    "ipa": "[fʊlˈfɪlmənt]",
+    "pos": "n.",
+    "gloss": "充实感；自我实现"
+  },
+  {
+    "zh": "价值创造",
+    "en": "creation",
+    "ipa": "[kriˈeɪʃn]",
+    "pos": "n.",
+    "gloss": "创造；价值创造"
+  },
+  {
+    "zh": "终身学习",
+    "en": "lifelong",
+    "ipa": "[ˈlaɪflɒŋ]",
+    "pos": "adj.",
+    "gloss": "终身的"
+  },
+  {
+    "match": "近 3 亿的银发一族",
+    "zh": "银发一族",
+    "en": "seniors",
+    "ipa": "[ˈsiːniəz]",
+    "pos": "n.",
+    "gloss": "老年人；长者"
+  },
+  {
+    "match": "基于多模态能力",
+    "zh": "多模态",
+    "en": "multimodal",
+    "ipa": "[ˌmɒltiˈməʊdl]",
+    "pos": "adj.",
+    "gloss": "多模态的"
+  },
+  {
+    "match": "AIGC 创作工坊",
+    "zh": "创作工坊",
+    "en": "studio",
+    "ipa": "[ˈstjuːdiəʊ]",
+    "pos": "n.",
+    "gloss": "工作室"
+  },
+  {
+    "match": "该平台包含 AIGC",
+    "zh": "AIGC",
+    "en": "AIGC",
+    "ipa": "[ˌeɪ aɪ dʒiː ˈsiː]",
+    "pos": "n.",
+    "gloss": "AI 生成内容"
+  },
+  {
+    "match": "排课智能体、学情智能体、运营智能体",
+    "zh": "排课",
+    "en": "scheduling",
+    "ipa": "[ˈʃedjuːlɪŋ]",
+    "pos": "n.",
+    "gloss": "排课；日程安排"
+  },
+  {
+    "match": "此轮融资由公司现有投资方 TCV 和高盛另类投资部门的成长股权基金（Growth Equity at Goldman Sachs Alternatives）领投",
+    "zh": "领投",
+    "en": "lead",
+    "ipa": "[liːd]",
+    "pos": "n.",
+    "gloss": "领投"
+  },
+  {
+    "match": "由厚雪资本与天际资本联合领投",
+    "zh": "联合领投",
+    "en": "syndicate",
+    "ipa": "[ˈsɪndɪkət]",
+    "pos": "n.",
+    "gloss": "银团；（联合）承销体"
+  },
+  {
+    "match": "老股东乐朴资本持续跟投",
+    "zh": "跟投",
+    "en": "follow",
+    "ipa": "[ˈfɒləʊ]",
+    "pos": "v.",
+    "gloss": "跟投；跟进投资"
+  },
+  {
+    "match": "深化「AI+职教」布局",
+    "zh": "职教",
+    "en": "vocational",
+    "ipa": "[vəʊˈkeɪʃənl]",
+    "pos": "adj.",
+    "gloss": "职业的；职教"
+  },
+  {
+    "match": "优路教育以数智生态赋能人才培养新范式",
+    "zh": "赋能",
+    "en": "empowerment",
+    "ipa": "[ɪmˈpaʊəmənt]",
+    "pos": "n.",
+    "gloss": "赋能；授权支持"
+  },
+  {
+    "match": "在 AI 学习工具方面",
+    "zh": "AI 学习工具",
+    "en": "toolkit",
+    "ipa": "[ˈtuːlkɪt]",
+    "pos": "n.",
+    "gloss": "工具包；工具集"
+  },
+  {
+    "match": "围绕 AI 学习工具、AI 基础设施与 AI 赛事体系三大方向",
+    "zh": "AI 基础设施",
+    "en": "infrastructure",
+    "ipa": "[ˈɪnfrəstrʌktʃə]",
+    "pos": "n.",
+    "gloss": "基础设施"
+  },
+  {
+    "match": "好未来正构建「龙虾」生态",
+    "zh": "生态",
+    "en": "ecosystem",
+    "ipa": "[ˈiːkəʊsɪstəm]",
+    "pos": "n.",
+    "gloss": "生态系统"
+  },
+  {
+    "match": "沉淀超过 100 万份 AI 作品",
+    "zh": "AI 作品",
+    "en": "portfolio",
+    "ipa": "[pɔːtˈfəʊliəʊ]",
+    "pos": "n.",
+    "gloss": "作品集；内容资产组合"
+  },
+  {
+    "match": "旗下 AI 助手 Claude",
+    "zh": "AI 助手",
+    "en": "copilot",
+    "ipa": "[ˈkəʊpaɪlət]",
+    "pos": "n.",
+    "gloss": "协同助手；副驾式助手"
+  },
+  {
+    "match": "AI 教育的快速落地",
+    "zh": "落地",
+    "en": "rollout",
+    "ipa": "[ˈrəʊlaʊt]",
+    "pos": "n.",
+    "gloss": "上线推广；铺开"
+  },
+  {
+    "match": "教育与 AI 结合打造新增长极",
+    "zh": "结合",
+    "en": "convergence",
+    "ipa": "[kənˈvɜːdʒəns]",
+    "pos": "n.",
+    "gloss": "融合；趋同"
+  },
+  {
+    "match": "使用各类 AI 软件",
+    "zh": "软件",
+    "en": "software",
+    "ipa": "[ˈsɒftweə]",
+    "pos": "n.",
+    "gloss": "软件"
+  },
+  {
+    "match": "几个人加上一群 AI",
+    "zh": "一群 AI",
+    "en": "swarm",
+    "ipa": "[swɔːm]",
+    "pos": "n.",
+    "gloss": "蜂群；（喻）集群"
+  }
+]

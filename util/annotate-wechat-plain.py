@@ -46,7 +46,26 @@ def main() -> None:
         profile.get("body_paragraph_cap"),
     )
 
-    paras_html = "\n\n".join(al.annotate_paragraph(c) for c in body_chunks)
+    eng = profile.get("annotate_engine", "keywords")
+    if eng == "chat_json":
+        import annotate_merge as am
+
+        rel = profile.get("llm_annotations_file")
+        if not rel or not isinstance(rel, str):
+            raise SystemExit("annotate_engine=chat_json requires string llm_annotations_file in profile (path relative to repo root)")
+        ann_path = root / rel
+        if not ann_path.is_file():
+            raise SystemExit(f"annotate_engine=chat_json: missing {ann_path}")
+        payload = json.loads(ann_path.read_text(encoding="utf-8"))
+        parts, dbg = am.apply_annotations_payload(body_chunks, payload)
+        paras_html = "\n\n".join(parts)
+        print("annotate_engine=chat_json", dbg, file=sys.stderr)
+    elif eng == "keywords":
+        used_en: set[str] = set()
+        paras_html = "\n\n".join(al.annotate_paragraph(c, used_en) for c in body_chunks)
+    else:
+        hint = ' 原 "llm" 已删除，请改用 "chat_json" 并设置 llm_annotations_file。' if eng == "llm" else ""
+        raise SystemExit(f"unknown annotate_engine={eng!r}; use \"keywords\" or \"chat_json\".{hint}")
     tbody = al.vocab_tbody_html(paras_html)
 
     ft = profile.get("footer_template", "verbatim")

@@ -72,6 +72,8 @@ news/
 
 命令与路径约定见 **[docs/PIPELINE.md](docs/PIPELINE.md)**；环境准备见 **[docs/PREREQUISITES.md](docs/PREREQUISITES.md)**。概要：**第 1 步** `mingox acquire` 写入 `content/drafts/<slug>/01-source.md`；**第 2–3 步** `mingox build` 生成 `02-annotate-tasks.json` 与 `posts/*.html`；**第 4 步** `mingox serve` 或 `mingox deploy`。
 
+**人工词表与中英对齐**：`meta.annotate_engine` 为 **`terms_json`** 或 **`chat_json`** 时的字段约定、`terms.json` 格式、**`zh`/`en` 同位锚定**（禁止「同句相关但不同位」的英文）、`gloss` 只解释 `en`、`en` 连字符词位等，见 **[content/drafts/README.md](content/drafts/README.md)**（与 PIPELINE「标注引擎」互链）。
+
 ### 网页抓取（反爬回退）
 
 从 URL 取材写稿时，若简单 HTTP 失败或微信公众号出现 **「环境异常」**，在**本机**用 Playwright：输出写入 `util/.crawl-output/`（已 `.gitignore`）。**已验证有效做法**：对 `mp.weixin.qq.com` 使用 **移动 UA（`--mobile`）** + `domcontentloaded`，多数情况下 **headless 即可** 拿到 `#js_content`；仍拦截时用 **有界面** 运行并加 **`--wait-verify`**。流水线入口为 `python3 workflow/mingox.py acquire --mode url ...`。完整说明见 **[util/README.md](util/README.md)**「Playwright 抓微信公众号」与「`#js_content` → `01-source.md`」。Cursor 协作约定见：`.cursor/rules/web-crawl-playwright-fallback.mdc`。

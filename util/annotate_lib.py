@@ -2,6 +2,9 @@
 """
 Shared library: KEYWORDS, paragraph annotation, vocab extraction, post HTML shell.
 句内无 KEYWORDS 命中时不插入 word-block（宁缺毋滥）。
+annotate_paragraph(..., used_en=set()) 时全文按英文词形去重：已出现过的词不再标注（宁可该句不标）。
+KEYWORDS 即「可标注词表」：句子里必须出现某条目的中文子串才会参与匹配；表外词永远不会被标。
+长词优先、同句只标一个英文词形；去重后与「供应链/商家」等高频词叠加，容易出现整句无标——需扩充 KEYWORDS 或关闭去重（见 workflow meta keyword_dedupe）。
 Used by util/annotate-wechat-plain.py (微信 profile) and workflow/ (MD 草稿流水线).
 """
 from __future__ import annotations
@@ -110,6 +113,29 @@ KEYWORDS: list[tuple[str, str, str, str, str]] = sorted(
         ("合规", "compliance", "[kəmˈplaɪəns]", "n.", "合规"),
         ("代工", "OEM", "[ˌəʊ iː ˈem]", "n.", "代工（OEM）"),
         ("商家", "merchant", "[ˈmɜːtʃənt]", "n.", "商家"),
+        ("定制化制造方案", "custom-manufacturing", "[ˈkʌstəm ˌmænjʊˈfæktʃərɪŋ]", "n.", "定制化制造"),
+        ("系统性迭代", "systemic-iteration", "[sɪˈstemɪk ˌɪtəˈreɪʃn]", "n.", "系统性迭代"),
+        ("规模化跃迁", "scaling-leap", "[ˈskeɪlɪŋ liːp]", "n.", "规模化跃迁"),
+        ("产业红利", "industry-dividend", "[ˈɪndəstri ˈdɪvɪdənd]", "n.", "产业红利"),
+        ("标准出海", "standards-go-global", "[ˈstændədz ɡəʊ ˈɡləʊbl]", "n.", "标准出海"),
+        ("商品出海", "goods-go-global", "[ɡʊdz ɡəʊ ˈɡləʊbl]", "n.", "商品出海"),
+        ("海外订单", "overseas-orders", "[ˌəʊvəˈsiːz ˈɔːdəz]", "n.", "海外订单"),
+        ("治理架构", "governance-structure", "[ˈɡʌvənəns strʌktʃə]", "n.", "治理架构"),
+        ("产业杠杆", "industry-leverage", "[ˈɪndəstri ˈlevərɪdʒ]", "n.", "产业杠杆"),
+        ("流量杠杆", "traffic-leverage", "[ˈtræfɪk ˈlevərɪdʒ]", "n.", "流量杠杆"),
+        ("复制粘贴", "copy-paste", "[ˈkɒpi peɪst]", "n.", "复制粘贴"),
+        ("质价比", "price-performance", "[ˈpraɪs pəˈfɔːməns]", "n.", "质价比"),
+        ("爆款", "hit-product", "[hɪt ˈprɒdʌkt]", "n.", "爆款"),
+        ("自营品牌", "private-label-brand", "[ˈpraɪvət ˈleɪbl brænd]", "n.", "自营品牌"),
+        ("专项公司", "project-entity", "[ˈprɒdʒekt ˈentəti]", "n.", "专项/项目公司"),
+        ("价格竞争", "price-competition", "[ˈpraɪs ˌkɒmpəˈtɪʃn]", "n.", "价格竞争"),
+        ("新质品牌", "next-gen-brand", "[nekst dʒen brænd]", "n.", "新质品牌"),
+        ("新质产品", "next-gen-product", "[nekst dʒen ˈprɒdʌkt]", "n.", "新质产品"),
+        ("生产周期", "production-cycle", "[prəˈdʌkʃn saɪkl]", "n.", "生产周期"),
+        ("工艺流程", "process-flow", "[ˈprəʊses fləʊ]", "n.", "工艺流程"),
+        ("试错", "trial-and-error", "[traɪəl ən ˈerə]", "n.", "试错"),
+        ("可复用", "reusability", "[ˌriːjuːzəˈbɪləti]", "n.", "可复用性"),
+        ("数据驱动", "data-driven", "[ˈdeɪtə ˈdrɪvn]", "adj.", "数据驱动"),
         ("电商", "e-commerce", "[ˈiː kɒmɜːs]", "n.", "电子商务"),
         ("通胀", "inflation", "[ɪnˈfleɪʃn]", "n.", "通胀"),
         ("利率", "rates", "[reɪts]", "n.", "利率"),
@@ -421,48 +447,147 @@ def pick_keyword(body: str) -> tuple[str, str, str, str, str] | None:
     return zh, en, ipa, pos, gloss
 
 
-def annotate_sentence(sent: str) -> str:
+def pick_keyword_unused(body: str, used_en: set[str]) -> tuple[str, str, str, str, str] | None:
+    """同 pick_keyword，但跳过 english 已在 used_en（小写）中出现过的词条。"""
+    best: tuple[int, int, str, str, str, str, str] | None = None
+    for zh, en, ipa, pos, gloss in KEYWORDS:
+        if en.lower() in used_en:
+            continue
+        idx = body.find(zh)
+        if idx < 0:
+            continue
+        cand = (-len(zh), idx, zh, en, ipa, pos, gloss)
+        if best is None or cand < best:
+            best = cand
+    if best is None:
+        return None
+    _, _, zh, en, ipa, pos, gloss = best
+    return zh, en, ipa, pos, gloss
+
+
+def sentence_body_and_punct(sent: str) -> tuple[str, str]:
     sent = sent.strip()
-    if not sent:
-        return ""
     m = re.search(r"([。！？；])$", sent)
     punct = m.group(1) if m else ""
     body = sent[:-1] if m else sent
-    body = body.strip()
+    return body.strip(), punct
+
+
+def escape_plain_sentence(sent: str) -> str:
+    """Escape full sentence for HTML (body + trailing 。！？；)."""
+    sent = sent.strip()
+    if not sent:
+        return ""
+    body, punct = sentence_body_and_punct(sent)
     if not body:
-        return sent
-    kw = pick_keyword(body)
-    if kw is None:
-        return html.escape(body) + (html.escape(punct) if punct else "")
-    zh_m, en, ipa, pos, gloss = kw
-    if " " in en:
+        return html.escape(sent)
+    return html.escape(body) + (html.escape(punct) if punct else "")
+
+
+# 左括在 zh 之前、右括紧跟在 zh 之后时，把右括挪到英文词之前，避免「中文english」的嵌套顺序
+_QUOTE_PULL_PAIRS: tuple[tuple[str, str], ...] = (("「", "」"), ("『", "』"))
+
+
+def _closing_bracket_before_english(before_zh: str, after_zh: str) -> tuple[str, str]:
+    """若 zh 之后紧跟配对闭引号，且 zh 紧接在开引号后（before_zh 以「/『 结尾），则把闭引号挪到英文前。
+
+    before_zh 为原文中 zh 之前的片段末尾（通常用 before+pre，不含已下划线的 mid_u）。
+    """
+    if not after_zh:
+        return "", after_zh
+    left = before_zh.rstrip()
+    first = after_zh[0]
+    for open_ch, close_ch in _QUOTE_PULL_PAIRS:
+        if first == close_ch and left.endswith(open_ch):
+            return close_ch, after_zh[1:]
+    return "", after_zh
+
+
+def render_annotated_sentence(
+    sent: str,
+    zh_m: str,
+    en: str,
+    ipa: str,
+    pos: str,
+    gloss: str,
+    *,
+    underline: str | None = None,
+) -> str:
+    """Insert word-anchor + word-block for one sentence (zh must appear in sentence body).
+
+    - ``zh_m``：句中用于定位的连续子串。
+    - ``underline``：可选，须为 ``zh_m`` 的子串；**仅对其画下划线**，英文紧跟其后；未提供则整段 ``zh_m`` 画线。
+    - 若 ``underline`` 占满 ``zh_m`` 末尾且无 post，且「」配对应出现在英文前，则闭引号在英文前输出。
+    """
+    sent = sent.strip()
+    if not sent:
+        return ""
+    body, punct = sentence_body_and_punct(sent)
+    if not body:
+        return html.escape(sent)
+    if " " in en.strip():
         raise ValueError(f"english-word must be one token: {en!r}")
+    if zh_m not in body:
+        return escape_plain_sentence(sent)
+    ul_raw = (underline or "").strip()
+    ul = ul_raw if ul_raw else zh_m
+    if ul not in zh_m:
+        raise ValueError(f"underline must be substring of zh: {underline!r} not in {zh_m!r}")
+    u_off = zh_m.index(ul)
     block = (
         f'<span class="word-block"><span class="english-word">{html.escape(en)}</span>'
         f'<span class="word-info">{html.escape(ipa)} {html.escape(pos)} {html.escape(gloss)}</span></span>'
     )
-    if zh_m:
-        idx = body.find(zh_m)
-        if idx < 0:
-            safe_body = html.escape(body)
-            return safe_body + block + html.escape(punct) if punct else safe_body + block
-        before, mid, after = body[:idx], body[idx : idx + len(zh_m)], body[idx + len(zh_m) :]
-        inner = (
-            html.escape(before)
-            + f'<span class="word-anchor">{html.escape(mid)}</span>'
-            + block
-            + html.escape(after)
-        )
-    else:
-        inner = html.escape(body) + block
+    idx = body.find(zh_m)
+    before = body[:idx]
+    mid_full = body[idx : idx + len(zh_m)]
+    after = body[idx + len(zh_m) :]
+    pre = mid_full[:u_off]
+    mid_u = mid_full[u_off : u_off + len(ul)]
+    post = mid_full[u_off + len(ul) :]
+    closing_before_en = ""
+    tail_after_zh = after
+    if not post:
+        closing_before_en, tail_after_zh = _closing_bracket_before_english(before + pre, after)
+    inner = (
+        html.escape(before)
+        + html.escape(pre)
+        + '<span class="word-annot">'
+        + f'<span class="word-anchor">{html.escape(mid_u)}</span>'
+        + html.escape(closing_before_en)
+        + block
+        + "</span>"
+        + html.escape(post)
+        + html.escape(tail_after_zh)
+    )
     return inner + html.escape(punct) if punct else inner
 
 
-def annotate_paragraph(para: str) -> str:
+def count_han_chars(text: str) -> int:
+    return len(re.findall(r"[\u4e00-\u9fff]", text))
+
+
+def annotate_sentence(sent: str, used_en: set[str] | None = None) -> str:
+    sent = sent.strip()
+    if not sent:
+        return ""
+    body, punct = sentence_body_and_punct(sent)
+    if not body:
+        return sent
+    kw = pick_keyword_unused(body, used_en) if used_en is not None else pick_keyword(body)
+    if kw is None:
+        return html.escape(body) + (html.escape(punct) if punct else "")
+    zh_m, en, ipa, pos, gloss = kw
+    if used_en is not None:
+        used_en.add(en.lower())
+    return render_annotated_sentence(sent, zh_m, en, ipa, pos, gloss)
+
+
+def annotate_paragraph(para: str, used_en: set[str] | None = None) -> str:
     sents = split_sentences(para.replace("\r", ""))
     if not sents:
         return f"<p>{html.escape(para)}</p>"
-    parts = [annotate_sentence(s) for s in sents]
+    parts = [annotate_sentence(s, used_en) for s in sents]
     inner = "".join(parts)
     return f"<p>{inner}</p>"
 

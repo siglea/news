@@ -54,6 +54,7 @@ python3 util/crawl-with-playwright.py --url '...' --mobile --headless --out-html
 | 路径 | 作用 |
 |------|------|
 | `util/annotate_lib.py` | **共享逻辑**：`KEYWORDS`、段落标注（无命中则不插 `word-block`）、`build_post_html`、词汇表行提取；被 `annotate-wechat-plain.py` 与 `workflow/build_draft.py` 共用。 |
+| `util/annotate_merge.py` | **MD 草稿**：`chat_json` 与 **`terms_json`** 的 JSON 校验、去重、逐句 `render_annotated_sentence`；`en` 词位规则与**对义项锚定**见文件内 `CHAT_SYSTEM_PROMPT` 与 **[content/drafts/README.md](../content/drafts/README.md)**。 |
 | `util/.crawl-output/` | **仅放爬取结果**（已 `.gitignore`）。可按文章分子目录，避免文件名撞车。 |
 | `util/article-profiles.json` | **每篇文章一条 profile**：输入 `crawl_js`、输出 `out_html`、标题、原文链接、正文截断规则等。 |
 | `util/annotate-wechat-plain.py` | **微信 profile 生成器**：读 profile → 解析 `#js_content` 式段落 → 插入 `word-anchor` / `word-block` → 写 `posts/*.html`。 |
