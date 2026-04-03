@@ -346,6 +346,22 @@ body {
     font-weight: 600;
 }
 
+/* 下划线中文 + 英文词成组，避免与后文混排时语义脱节 */
+.post-content .word-annot {
+    display: inline;
+}
+
+/* 与英文标注对应的中文：默认整段 zh 画线；若 JSON 提供 underline 则仅该子串画线 */
+.post-content .word-anchor {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--primary-color);
+    text-underline-offset: 0.12em;
+    text-decoration-thickness: max(0.06em, 1px);
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+}
+
 /* 英语单词高亮（释义紧贴本词下方，不额外撑大行距） */
 .word-block {
     display: inline;
@@ -361,6 +377,7 @@ body {
     font-weight: 400;
     line-height: 1.1;
     vertical-align: baseline;
+    text-decoration: none;
 }
 
 .word-info {
@@ -375,7 +392,7 @@ body {
     padding: 0.15em 0.35em;
     font-size: clamp(0.6875rem, 0.68rem + 0.2vw, 0.8125rem);
     color: #c0392b;
-    line-height: 0.5;
+    line-height: 1.35;
     text-align: center;
     white-space: normal;
     word-break: break-word;
@@ -470,7 +487,7 @@ body {
     .word-info {
         width: min(16rem, 88vw);
         font-size: clamp(0.6875rem, 2.8vw + 0.5rem, 0.75rem);
-        line-height: 0.5;
+        line-height: 1.35;
         padding: 0.18em 0.38em;
         top: calc(100% + clamp(0.06rem, 0.32vw, 0.12rem));
     }
