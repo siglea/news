@@ -9,12 +9,21 @@
 - **Gitee Pages**: https://siglea.gitee.io/news
 - **EdgeOne Pages**（中国站）：部署成功后以 CLI 输出的 `EDGEONE_DEPLOY_URL` 为准
 
-> ⚠️ **重要提示：EdgeOne 链接必须完整复制！**
+> ⚠️ **重要提示：EdgeOne 访问权限设置要求**
 > 
-> EdgeOne 部署成功后输出的 URL 包含查询参数（如 `?eo_token=xxx&eo_time=xxx`），**必须完整复制包括 `?` 及之后的全部内容**。截断链接会导致页面无法访问或 404 错误。
+> **1. 项目访问权限必须设为「需要身份验证」（私有）**
+> - EdgeOne Pages 项目默认访问控制为「需要身份验证」
+> - **禁止修改为「公开访问」**，保持私有以确保安全
+> 
+> **2. 分享链接时必须完整复制带 token 的 URL**
+> - EdgeOne 部署成功后输出的 URL 包含查询参数（如 `?eo_token=xxx&eo_time=xxx`）
+> - **必须完整复制包括 `?` 及之后的全部内容**
+> - 裸链接（无 token）会返回 401 未授权错误
 > 
 > ✅ 正确示例：`https://mingox-xxx.edgeone.cool?eo_token=abc123&eo_time=123456`
-> ❌ 错误示例：`https://mingox-xxx.edgeone.cool`（缺少参数）
+> ❌ 错误示例：`https://mingox-xxx.edgeone.cool`（缺少参数 → 401）
+> 
+> **3. 每次部署后 token 会更新，必须使用最新输出的链接**
 > 
 > 控制台管理：[EdgeOne Pages](https://console.cloud.tencent.com/edgeone/pages)
 
