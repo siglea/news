@@ -346,6 +346,14 @@ body {
     font-weight: 600;
 }
 
+/* 与英文标注对应的中文原词 */
+.post-content .word-anchor {
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-underline-offset: 0.12em;
+    text-decoration-thickness: max(0.06em, 1px);
+}
+
 /* 英语单词高亮（释义紧贴本词下方，不额外撑大行距） */
 .word-block {
     display: inline;

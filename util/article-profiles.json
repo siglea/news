@@ -1,0 +1,30 @@
+{
+  "default_profile": "dalio-america-decline",
+  "profiles": {
+    "dalio-america-decline": {
+      "crawl_js": "util/.crawl-output/wechat-IO6QRr6h-js_content.html",
+      "out_html": "posts/2026-04-02-dalio-warning-america-decline.html",
+      "title_zh": "达利欧重磅预警：美国，走向衰落",
+      "title_en": "Dalio's Warning: America in Decline",
+      "source_url": "https://mp.weixin.qq.com/s/IO6QRr6hFJc5iKpFRhVw_A",
+      "source_account": "笔记侠",
+      "meta_description": "瑞·达利欧宏观长文：美国「大周期」第五阶段与五大力量；正文保留微信原文，仅作词汇标注；附来源链接。",
+      "body_end_marker": "不代表笔记侠立场",
+      "body_paragraph_cap": 95
+    },
+    "education-weekly-tkqn": {
+      "crawl_js": "util/.crawl-output/wechat-TkQnQULV9y4N1yJiBY5P0w-js_content.html",
+      "out_html": "posts/2026-04-02-education-weekly-duoshen-senior-ai.html",
+      "title_zh": "教育周报｜豆神教育换帅；老年教育站上新风口，AI 成老年教育关键词",
+      "title_en": "Education Weekly: DouShen, Senior Ed & AI",
+      "source_url": "https://mp.weixin.qq.com/s/TkQnQULV9y4N1yJiBY5P0w",
+      "source_account": "多鲸",
+      "title_emoji": "📚",
+      "meta_description": "多鲸教育周报：豆神教育人事变动、老年教育与 AI 应用等资讯汇编；正文保留微信原文，本站仅作词汇标注；已省略文末 GEO 营销与扫码推广段。",
+      "body_end_marker": "协同办考新模式",
+      "body_paragraph_cap": 80,
+      "omit_sections_note": "本站已省略原推送文末 GEO 营销、扫码引流等推广段落；其余结构与标点尽量保持「多鲸」微信原文。",
+      "risk_blurb": "本文为教育行业资讯汇编，仅供学习交流，不构成任何招生、培训或投资建议。"
+    }
+  }
+}
