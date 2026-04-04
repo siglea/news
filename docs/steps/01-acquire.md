@@ -6,7 +6,7 @@
 
 **下一步**：[02-annotate.md](./02-annotate.md)（在正文稳定后再选标注引擎）。
 
-**`mingox init`** 写出的 `meta.json` **默认包含** `"annotate_engine": "chat_json"`。若某草稿从未经 `init`、且 `meta.json` 里没有该字段，`build` 仍按程序默认走 **`keywords`**（见 [workflow/build_draft.py](../../workflow/build_draft.py)）。
+**`mingox init`** 写出的 `meta.json` **默认包含** `"annotate_engine": "chat_json"`。若某草稿从未经 `init`、且 `meta.json` **省略** `annotate_engine`，`build` 仍按仓库约定默认为 **`chat_json`**（须准备 `llm_annotations.json`；见 [workflow/build_draft.py](../../workflow/build_draft.py)、[ANNOTATION.md](../ANNOTATION.md)）。
 
 ---
 
@@ -14,7 +14,7 @@
 
 ```bash
 python3 workflow/mingox.py init --slug my-topic --title-zh "中文标题" --title-en "English Title" \
-  --out-html posts/2026-04-02-my-topic.html
+  --out-html posts/2026-04-02-topic-in-english-kebab.html
 python3 workflow/mingox.py acquire --slug my-topic --mode paste --file path/to/article.md
 # 或管道: cat article.md | python3 workflow/mingox.py acquire --slug my-topic --mode paste
 ```

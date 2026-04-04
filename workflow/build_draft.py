@@ -36,7 +36,8 @@ def build_slug(slug: str, *, skip_validate: bool = False) -> Path:
         "paragraphs": [],
     }
     paras_html_parts: list[str] = []
-    engine = meta.get("annotate_engine", "keywords")
+    # 仓库约定：默认 chat_json（与 mingox init、docs/ANNOTATION.md 一致）；keywords 须 meta 显式写明
+    engine = meta.get("annotate_engine", "chat_json")
     if engine == "chat_json":
         import annotate_merge as am
 

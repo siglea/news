@@ -1,0 +1,14 @@
+---
+description: MingoX 草稿与 build 的标注引擎默认 chat_json；勿擅自改为 keywords。
+alwaysApply: true
+---
+
+# MingoX：标注引擎默认
+
+处理 `content/drafts/`、`mingox build` / `export-chat-bundle` 或与词汇标注相关的自动化时：
+
+- **默认一律 `chat_json`**：`meta.annotate_engine` 应为 `chat_json`，并维护 `llm_annotations.json`（或由 bundle 对话生成）。
+- **不要使用 `keywords`** 来「先跑通 build」或图省事，**除非用户在本对话中明确说某篇（或全局）改用 `keywords`**。
+- 若 `meta.json` 未写 `annotate_engine`，仓库实现按 **`chat_json`** 处理；需要 `keywords` 时必须**显式**写入并征得用户同意。
+
+仓库条文见 `docs/ANNOTATION.md` 文首与 `content/drafts/README.md`「标注引擎」。

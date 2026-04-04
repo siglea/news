@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Step 2 checks: adjacent word-block (README). Optional density heuristics (warn only)."""
+"""Step 2 checks: adjacent word-block (docs/EDITORIAL.md). Optional density heuristics (warn only)."""
 from __future__ import annotations
 
 import re
@@ -32,7 +32,7 @@ def _strip_word_info_and_tags(fragment: str) -> str:
 
 
 def count_sentences_heuristic(plain: str) -> int:
-    """Approximate README sentence count: CJK 。！？； outside tags (word-info removed)."""
+    """Approximate EDITORIAL sentence count: CJK 。！？； outside tags (word-info removed)."""
     if not plain:
         return 0
     has_cjk = bool(re.search(r"[\u4e00-\u9fff]", plain))
@@ -46,7 +46,7 @@ def count_sentences_heuristic(plain: str) -> int:
 def density_warnings_for_html(html: str, source_label: str = "") -> list[str]:
     """
     Heuristic: per <p> in post-content, if estimated sentences > word-block count, emit WARN.
-    Does not fail build; align with README only approximately (see docs/ANNOTATION.md).
+    Does not fail build; align with docs/EDITORIAL.md only approximately (see docs/ANNOTATION.md).
     """
     m = ARTICLE_RE.search(html)
     if not m:
@@ -67,7 +67,7 @@ def density_warnings_for_html(html: str, source_label: str = "") -> list[str]:
             warns.append(
                 f"WARN density heuristic: {label} <p>#{idx}: "
                 f"~{n_sent} sentence(s) vs {n_blocks} word-block(s) "
-                f"(README expects at least one block per sentence; verify manually)"
+                f"(EDITORIAL expects at least one block per sentence; verify manually)"
             )
     return warns
 

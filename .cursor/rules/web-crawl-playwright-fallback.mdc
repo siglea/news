@@ -23,7 +23,7 @@ alwaysApply: false
 3. 成功后脚本会打印 `meta` 与 `html` 路径；用 **Read** 工具读取：
    - `util/.crawl-output/last.meta.json`（标题、作者、url）
    - `util/.crawl-output/last_content.html`（`#js_content` 内 HTML，供改编正文）
-4. 据此撰写双语 HTML 时仍遵守 `README.md` 中的词汇与结构规范；**注意版权**：转载与商用须合规，仅作参考改写时需把握尺度。
+4. 据此撰写双语 HTML 时仍遵守 [docs/EDITORIAL.md](../../docs/EDITORIAL.md) 中的词汇与结构规范；**注意版权**：转载与商用须合规，仅作参考改写时需把握尺度。
 
 ## 非微信页面
 

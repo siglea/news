@@ -1,6 +1,6 @@
 # util：抓取、共享标注库与微信快捷通道
 
-通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（对应第 1 步）、**`annotate_lib`（词表与 HTML 壳）**、**`article-profiles.json` + `annotate-wechat-plain.py`（微信捷径）**。
+**文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（对应第 1 步）、**`annotate_lib`（词表与 HTML 壳）**、**`article-profiles.json` + `annotate-wechat-plain.py`（微信捷径）**。
 
 ## 依赖（抓取）
 
