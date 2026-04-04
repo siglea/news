@@ -8,6 +8,18 @@
 python3 workflow/mingox.py --help
 ```
 
+## 主路径 vs Legacy 微信 profile（用哪条？）
+
+| | **主路径（推荐新稿）** | **Legacy：`article-profiles` + `annotate-wechat-plain`** |
+|---|------------------------|----------------------------------------------------------|
+| **配置真源** | 每篇 `content/drafts/<slug>/meta.json`（与 `01-source.md` 同目录） | `util/article-profiles.json` 里每条 profile（第二套元数据） |
+| **正文来源** | `01-source.md`（由 `acquire` 写入） | 已抓取的 `crawl_js` HTML（`#js_content`） |
+| **典型命令** | `mingox init` → `acquire` →（可选）`synth-lexicon-annotations` / `export-chat-bundle` → `build` | `mingox wechat --profile <key>`（或 `python3 util/annotate-wechat-plain.py`） |
+| **标注** | 默认 **`chat_json`**（`llm_annotations.json`）；可选词表初稿见 `mingox synth-lexicon-annotations` | 等价 **`keywords`**：全局词表子串匹配，**不经** `llm_annotations.json` |
+| **何时用** | 所有新稿与四步文档描述的流程 | 仅维护**已有** profile 的旧稿；**勿为新稿再增 profile** |
+
+`synth_llm_annotations_lexicon`（及 `mingox synth-lexicon-annotations`）只属于**主路径**可选步骤，与 `mingox wechat` / `article-profiles.json` **无关**。
+
 ## 四步索引（分步详述）
 
 **标注约定**：全仓库**默认 `chat_json`**；`keywords` **仅当编者对某篇单独明确要求**时使用（见 [ANNOTATION.md](./ANNOTATION.md) 文首）。
@@ -35,7 +47,7 @@ python3 workflow/mingox.py --help
 | **`util/annotate_lib.py`** | 段落标注、`word-block` 渲染、词汇表、`build_post_html`（`KEYWORDS` 来自 `keyword_lexicon`） |
 | **`util/annotate_merge.py`** | `chat_json` 对话 JSON 合并与校验 |
 | **`util/.crawl-output/`** | 本地抓取缓存（gitignore） |
-| **`util/article-profiles.json`** | 微信成稿快捷通道（不经 MD 草稿） |
+| **`util/article-profiles.json`** | Legacy：微信成稿快捷通道（不经 MD 草稿）；见上表 |
 | **`posts/`** | 成稿静态 HTML |
 | **`docs/`** | 文档地图 [README.md](./README.md)、[PIPELINE.md](./PIPELINE.md)、[EDITORIAL.md](./EDITORIAL.md)、[ANNOTATION.md](./ANNOTATION.md)、四步分册、[PREREQUISITES.md](./PREREQUISITES.md) |
 

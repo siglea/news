@@ -1,0 +1,19 @@
+---
+description: 用户让「验证」微信/文章链接时，须跑通抓取并执行发布最后一步
+alwaysApply: false
+---
+
+# 验证链接须走到发布
+
+当用户要求**检验 / 验证**某篇文章 URL（尤其是微信公众号 `mp.weixin.qq.com`）时，在确认抓取可行后，**默认继续完成整条主路径并执行发布**，不要停在「单独 crawl 成功」就结束。
+
+## 推荐顺序
+
+1. `mingox init` → `mingox acquire --mode url`（或先用 `util/crawl-with-playwright.py` 探路后再 acquire）。
+2. 补全 `meta.json`（`meta_description`、`risk_blurb_secondary`、`omit_sections_note` 等，按 [docs/EDITORIAL.md](docs/EDITORIAL.md)）。
+3. **`export-chat-bundle` → 对话产出 `llm_annotations.json`**（每句至少 1 标、全文 `en` 不重复；**禁止**仅用 `synth-lexicon-annotations` 当终稿）。仅应急可 `python3 workflow/gen_dense_chat_json.py <slug>`（无匹配句 skip）再对话补全 → `mingox build --slug`。
+4. 更新根目录 [index.html](index.html) 列表（新稿置顶）。
+5. `python3 workflow/mingox.py validate --post posts/...html`。
+6. **发布**：`python3 workflow/mingox.py deploy --project mingox`（需本机 Node/npx 与 `.edgeone/.token` 或已登录 CLI）；若环境无密钥，说明阻塞原因并列出用户本地需执行的命令。
+
+`util/.crawl-output/` 仅作缓存，**不替代** `content/drafts/<slug>/` 与 `posts/*.html` 成稿。

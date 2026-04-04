@@ -7,7 +7,7 @@ Synth llm_annotations.json for chat_json from:
 
 合并后按句 longest-zh + leftmost 匹配，全文 en 小写去重。不写死在脚本里的 slug。
 
-高密度成稿仍应用 export-chat-bundle → 对话 LLM 覆盖本 JSON。
+注意：本脚本为 **keywords 式稀疏占位**，**不是** chat_json 终稿标准（与 EDITORIAL「每句一标」冲突）。终稿须 export-chat-bundle → 对话 LLM；应急词表铺词见 `gen_dense_chat_json.py`（无匹配则 skip）。
 """
 from __future__ import annotations
 
@@ -15,14 +15,16 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT / "workflow"))
-sys.path.insert(0, str(ROOT / "util"))
+_ROOT = Path(__file__).resolve().parent.parent
+_UTIL = _ROOT / "util"
+if str(_UTIL) not in sys.path:
+    sys.path.insert(0, str(_UTIL))
 
 import annotate_lib as al
 from annotate_merge import en_headword_token_ok, flatten_paragraphs
 from md_split import paragraphs_from_markdown
 
+ROOT = _ROOT
 _EXTRA_JSON_NAME = "annotate_lexicon_extra.json"
 
 
@@ -75,10 +77,7 @@ def _pick_unused(body: str, used_en: set[str], entries: list[tuple[str, str, str
     return zh, en, ipa, pos, gloss
 
 
-def main() -> None:
-    if len(sys.argv) != 2:
-        raise SystemExit("usage: synth_llm_annotations_lexicon.py <slug>")
-    slug = sys.argv[1]
+def run_synth_lexicon_annotations(slug: str) -> None:
     draft = ROOT / "content" / "drafts" / slug
     src = draft / "01-source.md"
     if not src.is_file():
@@ -108,6 +107,12 @@ def main() -> None:
     n_ok = sum(1 for a in ann if not a.get("skip"))
     extra_note = f" + {_EXTRA_JSON_NAME}" if (draft / _EXTRA_JSON_NAME).is_file() else ""
     print("wrote", out_path, f"annotated {n_ok}/{len(ann)} sentences", f"(01-source.md{extra_note} + global lexicon)")
+
+
+def main() -> None:
+    if len(sys.argv) != 2:
+        raise SystemExit("usage: synth_llm_annotations_lexicon.py <slug>")
+    run_synth_lexicon_annotations(sys.argv[1])
 
 
 if __name__ == "__main__":

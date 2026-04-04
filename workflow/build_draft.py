@@ -9,11 +9,12 @@ import json
 import sys
 from pathlib import Path
 
-from md_split import paragraphs_from_markdown
 from paths import ROOT, UTIL_DIR
 from validate import check_adjacent_in_html
 
 sys.path.insert(0, str(UTIL_DIR))
+from md_split import paragraphs_from_markdown
+
 import annotate_lib as al
 
 

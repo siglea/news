@@ -1,6 +1,8 @@
 # util：抓取、共享标注库与微信快捷通道
 
-**文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（对应第 1 步）、**`annotate_lib`（词表与 HTML 壳）**、**`article-profiles.json` + `annotate-wechat-plain.py`（微信捷径）**。
+**文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**（含 **主路径 vs Legacy profile** 对照表）、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（第 1 步）、**`annotate_lib` / `annotate_merge` / `md_split`**、以及 **Legacy** **`article-profiles.json` + `annotate-wechat-plain.py`**。
+
+**边界**：`article-profiles.json` **只**给 `annotate-wechat-plain` 用，不是「全局工具配置」；**新稿请用 `content/drafts/` + `mingox`**，勿再新增 profile 条目。
 
 ## 依赖（抓取）
 
@@ -56,13 +58,14 @@ python3 util/crawl-with-playwright.py --url '...' --mobile --headless --out-html
 | `util/keyword_lexicon.py` | **`annotate_engine=keywords`** 的全局默认可标注词表（`_KEYWORD_ENTRIES` → `KEYWORD_LEXICON`）。 |
 | `util/annotate_lib.py` | **共享逻辑**：从 `keyword_lexicon` 载入 `KEYWORDS`、段落标注（无命中则不插 `word-block`）、`build_post_html`、词汇表行提取；被 `annotate-wechat-plain.py` 与 `workflow/build_draft.py` 共用。 |
 | `util/annotate_merge.py` | **MD 草稿**：`chat_json` 的 JSON 校验、去重、逐句 `render_annotated_sentence`；`en` 词位规则与**对义项锚定**见文件内 `CHAT_SYSTEM_PROMPT` 与 **[content/drafts/README.md](../content/drafts/README.md)**。 |
+| `util/md_split.py` | `01-source.md` 按空行切段；供 `workflow/build_draft`、`export-chat-bundle`、`synth_llm_annotations_lexicon` 使用。 |
 | `util/.crawl-output/` | **仅放爬取结果**（已 `.gitignore`）。可按文章分子目录，避免文件名撞车。 |
-| `util/article-profiles.json` | **每篇文章一条 profile**：输入 `crawl_js`、输出 `out_html`、标题、原文链接、正文截断规则等。 |
-| `util/annotate-wechat-plain.py` | **微信 profile 生成器**：读 profile → 解析 `#js_content` 式段落 → 插入 `word-anchor` / `word-block` → 写 `posts/*.html`。 |
+| `util/article-profiles.json` | **Legacy**：每篇一条 profile（`crawl_js`、`out_html`、标题、截断规则等）；**勿为新稿扩容**。 |
+| `util/annotate-wechat-plain.py` | **Legacy 微信生成器**：读 profile → `#js_content` → `keywords` 式标注 → 写 `posts/*.html`。 |
 
-**为何比「脚本里写死路径」更合理**
+**Legacy profile 路径为何曾有用**
 
-- 新文章只增 **profile + 抓取文件**，不必改 Python 主体逻辑。
+- 旧流程下新文章可只增 **profile + 抓取文件**，不必改 Python；**当前推荐**改为 **主路径**（`content/drafts/`），见 PIPELINE 对照表。
 - 全局词表在 `keyword_lexicon.py` 可多篇共用；若需按主题拆分可后续再拆模块或 `keywords-*.json`（当前未拆）。
 - 抓取目录被 ignore，profile 里用相对仓库根的路径指向即可，本地各机器自存 crawl 文件。
 

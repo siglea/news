@@ -388,7 +388,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     box-sizing: border-box;
-    width: min(17rem, 85vw);
+    width: min(30rem, 88vw);
     padding: 0.15em 0.35em;
     font-size: clamp(0.6875rem, 0.68rem + 0.2vw, 0.8125rem);
     color: #c0392b;
@@ -485,7 +485,7 @@ body {
 /* —— 移动端细化（避免正文被压到 14px） —— */
 @media (max-width: 768px) {
     .word-info {
-        width: min(16rem, 88vw);
+        width: min(30rem, 88vw);
         font-size: clamp(0.6875rem, 2.8vw + 0.5rem, 0.75rem);
         line-height: 1.35;
         padding: 0.18em 0.38em;
