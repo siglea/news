@@ -59,27 +59,6 @@ def build_slug(slug: str, *, skip_validate: bool = False) -> Path:
                 else f"<p>{html.escape(ptxt)}</p>"
             )
             tasks["paragraphs"].append({"index": i, "source_text": ptxt, "html": html_p})
-    elif engine == "terms_json":
-        import annotate_merge as am
-
-        terms_name = meta.get("terms_file", "terms.json")
-        terms_path = draft / terms_name
-        if not terms_path.is_file():
-            raise SystemExit(f"missing {terms_path} (annotate_engine=terms_json)")
-        rows = json.loads(terms_path.read_text(encoding="utf-8"))
-        payload = am.build_payload_from_terms_rows(paras_text, rows)
-        paras_html_parts, dbg = am.apply_annotations_payload(
-            paras_text, payload, warn_low_coverage=False
-        )
-        dbg["source"] = "terms_json"
-        print("annotate_engine=terms_json", dbg, file=sys.stderr)
-        for i, ptxt in enumerate(paras_text):
-            html_p = (
-                paras_html_parts[i]
-                if i < len(paras_html_parts)
-                else f"<p>{html.escape(ptxt)}</p>"
-            )
-            tasks["paragraphs"].append({"index": i, "source_text": ptxt, "html": html_p})
     elif engine == "keywords":
         dedupe = meta.get("keyword_dedupe", True)
         used_en: set[str] | None = set() if dedupe else None
@@ -92,7 +71,7 @@ def build_slug(slug: str, *, skip_validate: bool = False) -> Path:
             ' 原 "llm"（HTTP）已删除，请改用 "chat_json"。' if engine == "llm" else ""
         )
         raise SystemExit(
-            f"unknown annotate_engine={engine!r}; use \"keywords\", \"chat_json\", or \"terms_json\".{hint}"
+            f"unknown annotate_engine={engine!r}; use \"keywords\" or \"chat_json\".{hint}"
         )
 
     paras_html = "\n\n".join(paras_html_parts)

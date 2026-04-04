@@ -182,7 +182,10 @@ def main() -> None:
     ap = argparse.ArgumentParser(prog="mingox-workflow", description="MingoX content pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
-    p_init = sub.add_parser("init", help="Create content/drafts/<slug>/meta.json template")
+    p_init = sub.add_parser(
+        "init",
+        help="Create content/drafts/<slug>/meta.json template (annotate_engine=chat_json)",
+    )
     p_init.add_argument("--slug", required=True)
     p_init.add_argument("--title-zh", required=True)
     p_init.add_argument("--title-en", required=True)

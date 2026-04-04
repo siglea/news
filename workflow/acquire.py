@@ -221,6 +221,7 @@ def init_meta_template(
         "source_author_display": source_author_display,
         "footer_derivative_mp_unknown": footer_derivative_mp_unknown,
         "out_html": out_html,
+        "annotate_engine": "chat_json",
         "meta_description": "",
         "omit_sections_note": "本站已按编辑流程处理正文；具体以原文为准。",
         "risk_blurb": "本文仅供学习交流，不构成投资建议或其他专业意见。",
