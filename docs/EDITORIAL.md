@@ -100,11 +100,12 @@ post 文件 h1 标题格式：
 - 被识别的英文单词使用 `<span class="word-block">` 包裹，包含单词和音标释义
 - **默认标单个英文词**；遇**报刊/行业固定搭配**时，可把整个搭配作为**一个**标注单位写入 `english-word`（允许空格或连字符，如 `on hold`、`dot plot`、`stop-loss`、`risk-free`），词汇表「词汇」列与正文**完全一致**。禁止的是把同一搭配**拆成两个紧挨的** `word-block`（见下「相邻 word-block」）。
 - 优先标注**核心动词、形容词、关键名词**，跳过专有名词（如 Steve Jobs、Android 等）
+- **`chat_json` 义项与语域**：`en` / `gloss` 须与锚点中文**同义项、同语体**（中性职场/报道语境勿用苦役或文学大词顶替日常「工作」义；日常搭配如「全世界」勿用哲学/宇宙论专名硬套）。细则与反例见 [content/drafts/README.md](../content/drafts/README.md)「中英对齐范式」。
 
 ### 哪些词可以 / 不应被识别（选取原则）
 
 1. **不识别（须严格执行）**：非常简单的日常高频词（如 yes、good、big、get、make、close、drop、go、see、take 等），**不因「混排出现」而破例**。
-2. **不识别（须严格执行）**：中国普通高中英语课程标准范围内、无生僻义项的常见词（如 price、risk、trade、market、meeting、international、demand、flow、cancel、cost、gold、policy、chain、window、data、typical、emotion、giant、refuse、summit、domestic 等）。**宁可整段暂不标注，也不用上述词凑密度。**（若必须用英文承载「净额、净购」等义，优先改写句式或换用**机制词**如 `stockpile`、`gross`/`net` 结构上的替换词；避免单独为「常见义」标 `net` 凑数。）
+2. **不识别（须严格执行）**：中国普通高中英语课程标准范围内、无生僻义项的常见词（如 price、risk、trade、market、meeting、international、demand、flow、cancel、cost、gold、policy、chain、window、data、typical、emotion、giant、refuse、summit、domestic 等）。**不要用上述词单独凑密度。**在 **`chat_json` 路径**下，若句中无更优锚点，须改用**其它合规词**或**中文子串→合规英文**（见上「替换规则」），**不得**以「无词可标」为由对该句 `skip`（与 [ANNOTATION.md](./ANNOTATION.md) 默认引擎一致）。（若必须用英文承载「净额、净购」等义，优先改写句式或换用**机制词**如 `stockpile`、`gross`/`net` 结构上的替换词；避免单独为「常见义」标 `net` 凑数。）
 3. **优先识别**：涉及文章**关键信息、因果、立场、数据判断**的词（英或汉均可；见下条「替换规则」），如 warning、closure、hawkish、sanctions、valuation、hedge、materialize 等。
 4. **密度**：在**同一自然段内**，必须每 1 句 有**1 处** `word-block`。为避免与语文上的「复句/分句」混淆，**本文档中的「句」专指按下列标点切分后的片段**；**逗号 `，`、顿号 `、`、冒号 `：` 不断句**（除非你把它们改成句号等，或整段合并为一句后仍满足「每句一处」）。
 5. **优先识别**：考研英语阅读中**常见、重要的动词与名词**，以及财经/科技语篇**学科用语**（如 token、ETF、GPU、architecture、monetization、hyperscale 等）。
@@ -112,6 +113,13 @@ post 文件 h1 标题格式：
 **中文位置可译为英文替换（重要）**：当该中文在句中承载**观点、机制或数据判断**，且译成**单个英文单词**（或上条允许的**单一固定搭配**）后与原文义一致时，可将该位置**直接替换为该英文**，再对该片段加 `word-block`。专名、整句英译、一词多义易歧义处不要硬换。
 
 **词汇表**须与正文中的 `word-block` **一一对应**（同一词形在文中多次出现仍只列一行），只收录正文中实际标注的词。
+
+### `chat_json` 真源 vs 自动化工具（避免与「keywords 初稿」混淆）
+
+- **成稿标准**：`annotate_engine=chat_json` 时，**`llm_annotations.json` 须由对话 LLM**（配合 `export-chat-bundle` 中的规则与上节选取原则）产出；**每一句（按 `annotate_merge` / `split_sentences` 与 export 对齐的序号）须有 1 处合格标注**，无故不得 `skip`；**全文 `en` 词形不得重复**（合并时 `annotate_merge.dedupe_in_order` 按顺序保留首次，后丢者须回到 JSON 里改词或换句锚点）。
+- **`synth-lexicon-annotations`**：仅把全局词表 + 可选 `annotate_lexicon_extra` **子串匹配**到句上，**每句至多一词**、且与正文题材常不对口，**不得当作 chat_json 合格成稿**；它本质是 **keywords 思路的占位**，与上条「每句必标」冲突。
+- **`workflow/gen_dense_chat_json.py`**：机器按词表子串匹配、**全文 en 去重**；**无匹配句 `skip`（保持原文）**，不生成占位词；**仍不替代** LLM 按义项精细选词。
+- **`keywords` 引擎**：仅当编者在本篇 `meta.json` **显式**写出时使用；与 `chat_json` **二选一**，勿混为「先 synth 再当终稿」。
 
 ### 落地标准（对标 `posts/2026-03-29-china-g7-europe-market.html`）
 

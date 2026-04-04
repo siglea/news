@@ -80,10 +80,8 @@ def cmd_build(args: argparse.Namespace) -> None:
 def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
     import json
 
-    sys.path.insert(0, str(WORKFLOW_DIR))
-    from paths import ROOT, UTIL_DIR
-
-    sys.path.insert(0, str(UTIL_DIR))
+    util_dir = ROOT / "util"
+    sys.path.insert(0, str(util_dir))
     from annotate_merge import export_chat_bundle_dict
     from md_split import paragraphs_from_markdown
 
@@ -98,6 +96,13 @@ def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
     print("wrote", out)
     ann = draft / "llm_annotations.json"
     print("Next: paste `system_prompt` + `sentences` into Cursor chat; save reply as", ann)
+
+
+def cmd_synth_lexicon_annotations(args: argparse.Namespace) -> None:
+    sys.path.insert(0, str(WORKFLOW_DIR))
+    from synth_llm_annotations_lexicon import run_synth_lexicon_annotations
+
+    run_synth_lexicon_annotations(args.slug)
 
 
 def cmd_validate(args: argparse.Namespace) -> None:
@@ -258,6 +263,13 @@ def main() -> None:
     )
     p_eb.add_argument("--slug", required=True)
     p_eb.set_defaults(func=cmd_export_chat_bundle)
+
+    p_synth = sub.add_parser(
+        "synth-lexicon-annotations",
+        help="Main path optional: draft 01-source + lexicon -> llm_annotations.json (not for wechat profile)",
+    )
+    p_synth.add_argument("--slug", required=True)
+    p_synth.set_defaults(func=cmd_synth_lexicon_annotations)
 
     p_v = sub.add_parser("validate", help="Run adjacent word-block check on posts/*.html")
     p_v.add_argument("--post", help="single file instead of all posts")
