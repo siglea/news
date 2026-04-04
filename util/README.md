@@ -1,6 +1,6 @@
 # util：抓取、共享标注库与微信快捷通道
 
-通用「从草稿 Markdown 到成稿」的编排见仓库根目录 **[docs/PIPELINE.md](../docs/PIPELINE.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**、**`annotate_lib`（词表与 HTML 壳）**、**`article-profiles.json` + `annotate-wechat-plain.py`（不经 `content/drafts/` 的微信捷径）**。
+通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（对应第 1 步）、**`annotate_lib`（词表与 HTML 壳）**、**`article-profiles.json` + `annotate-wechat-plain.py`（微信捷径）**。
 
 ## 依赖（抓取）
 
@@ -53,8 +53,9 @@ python3 util/crawl-with-playwright.py --url '...' --mobile --headless --out-html
 
 | 路径 | 作用 |
 |------|------|
-| `util/annotate_lib.py` | **共享逻辑**：`KEYWORDS`、段落标注（无命中则不插 `word-block`）、`build_post_html`、词汇表行提取；被 `annotate-wechat-plain.py` 与 `workflow/build_draft.py` 共用。 |
-| `util/annotate_merge.py` | **MD 草稿**：`chat_json` 与 **`terms_json`** 的 JSON 校验、去重、逐句 `render_annotated_sentence`；`en` 词位规则与**对义项锚定**见文件内 `CHAT_SYSTEM_PROMPT` 与 **[content/drafts/README.md](../content/drafts/README.md)**。 |
+| `util/keyword_lexicon.py` | **`annotate_engine=keywords`** 的全局默认可标注词表（`_KEYWORD_ENTRIES` → `KEYWORD_LEXICON`）。 |
+| `util/annotate_lib.py` | **共享逻辑**：从 `keyword_lexicon` 载入 `KEYWORDS`、段落标注（无命中则不插 `word-block`）、`build_post_html`、词汇表行提取；被 `annotate-wechat-plain.py` 与 `workflow/build_draft.py` 共用。 |
+| `util/annotate_merge.py` | **MD 草稿**：`chat_json` 的 JSON 校验、去重、逐句 `render_annotated_sentence`；`en` 词位规则与**对义项锚定**见文件内 `CHAT_SYSTEM_PROMPT` 与 **[content/drafts/README.md](../content/drafts/README.md)**。 |
 | `util/.crawl-output/` | **仅放爬取结果**（已 `.gitignore`）。可按文章分子目录，避免文件名撞车。 |
 | `util/article-profiles.json` | **每篇文章一条 profile**：输入 `crawl_js`、输出 `out_html`、标题、原文链接、正文截断规则等。 |
 | `util/annotate-wechat-plain.py` | **微信 profile 生成器**：读 profile → 解析 `#js_content` 式段落 → 插入 `word-anchor` / `word-block` → 写 `posts/*.html`。 |
@@ -62,7 +63,7 @@ python3 util/crawl-with-playwright.py --url '...' --mobile --headless --out-html
 **为何比「脚本里写死路径」更合理**
 
 - 新文章只增 **profile + 抓取文件**，不必改 Python 主体逻辑。
-- `KEYWORDS` 可多篇共用；若某篇需要专用词表，可后续再拆 `keywords-*.json`（当前未拆）。
+- 全局词表在 `keyword_lexicon.py` 可多篇共用；若需按主题拆分可后续再拆模块或 `keywords-*.json`（当前未拆）。
 - 抓取目录被 ignore，profile 里用相对仓库根的路径指向即可，本地各机器自存 crawl 文件。
 
 **推荐抓取文件命名（示例）**

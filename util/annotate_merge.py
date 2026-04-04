@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 对话/文件侧标注结果合并：校验、全文 en 去重、覆盖率、生成段落 HTML。
-供 annotate_engine=chat_json（对话 JSON）或 terms_json（词表 JSON）使用。
+供 annotate_engine=chat_json（对话 JSON）使用。
 """
 from __future__ import annotations
 
@@ -219,67 +219,6 @@ def apply_annotations_payload(
     return html_list, dbg
 
 
-def parse_terms_rows(rows: list[Any]) -> list[tuple[str, str, str, str, str, str]]:
-    """(match_key, zh, en, ipa, pos, gloss)。en 须与 zh 同位锚定，见 CHAT 规则 7 与 en_headword_token_ok。"""
-    out: list[tuple[str, str, str, str, str, str]] = []
-    if not isinstance(rows, list):
-        raise ValueError("terms must be a JSON array")
-    for row in rows:
-        if not isinstance(row, dict):
-            raise ValueError("each terms array item must be a JSON object")
-        zh = str(row.get("zh", "")).strip()
-        en = str(row.get("en", "")).strip()
-        ipa = str(row.get("ipa", "")).strip()
-        pos = str(row.get("pos", "")).strip()
-        gloss = str(row.get("gloss", "")).strip()
-        match_key = str(row.get("match") or zh).strip()
-        if not zh or not en or not ipa or not pos or not gloss:
-            raise ValueError(f"terms row incomplete: en={en!r}")
-        if zh not in match_key:
-            raise ValueError(f"terms: zh must be substring of match for en={en!r}")
-        if not en_headword_token_ok(en):
-            raise ValueError(f"terms: invalid en headword token for en={en!r}")
-        out.append((match_key, zh, en, ipa, pos, gloss))
-    return out
-
-
-def build_payload_from_terms_rows(
-    paragraphs: list[str],
-    rows: list[Any],
-) -> dict[str, Any]:
-    """Greedy longest-match over flattened sentences; one en (lower) per article."""
-    all_sents, _ = flatten_paragraphs(paragraphs)
-    terms_sorted = sorted(parse_terms_rows(rows), key=lambda t: len(t[0]), reverse=True)
-    used_en: set[str] = set()
-    ann: list[dict[str, Any]] = []
-
-    for i, sent in enumerate(all_sents):
-        body, _ = al.sentence_body_and_punct(sent)
-        chosen: dict[str, Any] | None = None
-        for match_key, zh, en, ipa, pos, gloss in terms_sorted:
-            if en.lower() in used_en:
-                continue
-            if match_key not in body or zh not in body:
-                continue
-            ipa_out = ipa if ipa.startswith("[") else f"[{ipa.strip('[]')}]"
-            chosen = {
-                "i": i,
-                "zh": zh,
-                "en": en,
-                "ipa": ipa_out,
-                "pos": pos,
-                "gloss": gloss,
-            }
-            used_en.add(en.lower())
-            break
-        if chosen:
-            ann.append(chosen)
-        else:
-            ann.append({"i": i, "skip": True})
-
-    return {"version": 1, "annotations": ann}
-
-
 def export_chat_bundle_dict(paragraphs: list[str]) -> dict[str, Any]:
     all_sents, _ = flatten_paragraphs(paragraphs)
     return {
@@ -288,8 +227,8 @@ def export_chat_bundle_dict(paragraphs: list[str]) -> dict[str, Any]:
         "sentence_count": len(all_sents),
         "sentences": [{"i": i, "text": t} for i, t in enumerate(all_sents)],
         "instructions": (
-            "若 meta.annotate_engine=terms_json：请编辑 content/drafts/<slug>/terms.json 后 build，无需本 bundle。"
-            "若使用 chat_json：将 system_prompt 与 sentences 发给对话，产出 JSON 存为 llm_annotations.json 后 build。"
+            "将 system_prompt 与 sentences 发给对话，产出 JSON 存为 llm_annotations.json 后 build；"
+            "或改用 meta.annotate_engine=keywords 使用仓库全局词表（util/keyword_lexicon.py）。"
         ),
         "system_prompt": CHAT_SYSTEM_PROMPT,
         "response_schema": {

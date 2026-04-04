@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "annotations": [
+    {"i": 0, "zh": "斡旋", "en": "mediation", "ipa": "[ˌmiːdiˈeɪʃn]", "pos": "n.", "gloss": "居中调停以促成协议的外交过程"},
+    {"i": 1, "zh": "调解人", "en": "intermediary", "ipa": "[ˌɪntəˈmiːdiəri]", "pos": "n.", "gloss": "居间传话、促成沟通的第三方"},
+    {"i": 2, "zh": "新方案", "en": "overture", "ipa": "[ˈəʊvətʃə(r)]", "pos": "n.", "gloss": "为打破僵局提出的新倡议"},
+    {"i": 3, "zh": "特使", "en": "envoy", "ipa": "[ˈenvɔɪ]", "pos": "n.", "gloss": "受权办理外交事务的使节"},
+    {"i": 4, "zh": "停火", "en": "ceasefire", "ipa": "[ˈsiːsfaɪə(r)]", "pos": "n.", "gloss": "双方暂停交火的安排"},
+    {"i": 5, "zh": "误判", "en": "miscalculation", "ipa": "[ˌmɪskælkjʊˈleɪʃn]", "pos": "n.", "gloss": "对形势或实力的错误估计"},
+    {"i": 6, "zh": "重火力", "en": "barrage", "ipa": "[ˈbærɑːʒ]", "pos": "n.", "gloss": "密集倾泻的炮火"},
+    {"i": 7, "zh": "外交努力", "en": "outreach", "ipa": "[ˈaʊtriːtʃ]", "pos": "n.", "gloss": "主动开展的外交接触与斡旋"},
+    {"i": 8, "zh": "驳斥", "en": "rebut", "ipa": "[rɪˈbʌt]", "pos": "v.", "gloss": "用事实或论证反驳对方说法"},
+    {"i": 9, "zh": "领空", "en": "airspace", "ipa": "[ˈeəspeɪs]", "pos": "n.", "gloss": "一国主权管辖下的上空范围"},
+    {"i": 10, "zh": "基础设施", "en": "infrastructure", "ipa": "[ˈɪnfrəstrʌktʃə(r)]", "pos": "n.", "gloss": "交通、能源等支撑经济社会运行的基础系统"},
+    {"i": 11, "zh": "舰艇集结地", "en": "anchorage", "ipa": "[ˈæŋkərɪdʒ]", "pos": "n.", "gloss": "舰船停泊或集结的水域"},
+    {"i": 12, "zh": "无人机", "en": "UAV", "ipa": "[ˌjuːeɪˈviː]", "pos": "n.", "gloss": "无人驾驶飞行器"},
+    {"i": 13, "zh": "巡航导弹", "en": "cruise-missile", "ipa": "[kruːzˈmɪsaɪl]", "pos": "n.", "gloss": "以巡航方式飞行的制导导弹"},
+    {"i": 14, "zh": "军事行动", "en": "operation", "ipa": "[ˌɒpəˈreɪʃn]", "pos": "n.", "gloss": "武装部队实施的作战或部署行动"}
+  ]
+}

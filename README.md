@@ -58,7 +58,9 @@ news/
 ├── README.md           # 项目说明（版式与词汇规范以本文为准）
 ├── .gitignore          # Git 忽略文件
 ├── docs/               # 流水线与前置环境说明
-│   ├── PIPELINE.md     # 四步：获取 MD → 标注校验 → HTML → 发布/本地
+│   ├── PIPELINE.md     # 四步总览（详述见 docs/steps/）
+│   ├── steps/          # 分步：01 取材 → 02 标注 → 03 HTML → 04 发布
+│   ├── ANNOTATION.md   # 标注引擎决策树与校验分层
 │   └── PREREQUISITES.md # Git / Python / Playwright / EdgeOne 等
 ├── workflow/           # 流水线入口与脚本（见 workflow/README.md）
 │   ├── mingox.py       # CLI：init / acquire / build / validate / serve / deploy
@@ -79,13 +81,22 @@ news/
 
 ### 内容生产流水线（四步）
 
-命令与路径约定见 **[docs/PIPELINE.md](docs/PIPELINE.md)**；环境准备见 **[docs/PREREQUISITES.md](docs/PREREQUISITES.md)**。概要：**第 1 步** `mingox acquire` 写入 `content/drafts/<slug>/01-source.md`；**第 2–3 步** `mingox build` 生成 `02-annotate-tasks.json` 与 `posts/*.html`；**第 4 步** `mingox serve` 或 `mingox deploy`。
+**总览与目录表**：[docs/PIPELINE.md](docs/PIPELINE.md)。**环境**：[docs/PREREQUISITES.md](docs/PREREQUISITES.md)。**分步详述**（每步独立一篇）：
 
-**人工词表与中英对齐**：`meta.annotate_engine` 为 **`terms_json`** 或 **`chat_json`** 时的字段约定、`terms.json` 格式、**`zh`/`en` 同位锚定**（禁止「同句相关但不同位」的英文）、`gloss` 只解释 `en`、`en` 连字符词位等，见 **[content/drafts/README.md](content/drafts/README.md)**（与 PIPELINE「标注引擎」互链）。
+| 步 | 文档 | CLI 概要 |
+|----|------|----------|
+| 1 素材获取 | [docs/steps/01-acquire.md](docs/steps/01-acquire.md) | `mingox init` / `mingox acquire` → `01-source.md` |
+| 2 标注 | [docs/steps/02-annotate.md](docs/steps/02-annotate.md) | **默认 `chat_json`**（`export-chat-bundle` → 对话 → `llm_annotations.json`）；或 **`keywords`**（全局词表 [util/keyword_lexicon.py](util/keyword_lexicon.py)，见 [docs/ANNOTATION.md](docs/ANNOTATION.md)） |
+| 3 HTML 成稿 | [docs/steps/03-html.md](docs/steps/03-html.md) | `mingox build` → `posts/*.html`；`mingox validate` |
+| 4 发布 | [docs/steps/04-publish.md](docs/steps/04-publish.md) | `mingox serve` / `mingox deploy`；Gitee 见上文「在线访问」 |
+
+**索引**：[docs/steps/README.md](docs/steps/README.md)。**可选：标注 IR 与拆分 build**（未实现）：[docs/steps/IR-ROADMAP.md](docs/steps/IR-ROADMAP.md)。
+
+**对话标注与同位锚定**：[content/drafts/README.md](content/drafts/README.md)（主路径 `chat_json`；`keywords` 词表见 [util/keyword_lexicon.py](util/keyword_lexicon.py)）。
 
 ### 网页抓取（反爬回退）
 
-从 URL 取材写稿时，若简单 HTTP 失败或微信公众号出现 **「环境异常」**，在**本机**用 Playwright：输出写入 `util/.crawl-output/`（已 `.gitignore`）。**已验证有效做法**：对 `mp.weixin.qq.com` 使用 **移动 UA（`--mobile`）** + `domcontentloaded`，多数情况下 **headless 即可** 拿到 `#js_content`；仍拦截时用 **有界面** 运行并加 **`--wait-verify`**。流水线入口为 `python3 workflow/mingox.py acquire --mode url ...`。完整说明见 **[util/README.md](util/README.md)**「Playwright 抓微信公众号」与「`#js_content` → `01-source.md`」。Cursor 协作约定见：`.cursor/rules/web-crawl-playwright-fallback.mdc`。
+命令与参数见 **[docs/steps/01-acquire.md](docs/steps/01-acquire.md)**；Playwright、微信 `#js_content` → MD 的细节见 **[util/README.md](util/README.md)**。Cursor 协作约定：`.cursor/rules/web-crawl-playwright-fallback.mdc`。
 
 ## 🎯 内容规范
 
@@ -195,7 +206,7 @@ post 文件 h1 标题格式：
 
 以下为该篇定稿时的**操作口径**，其他文章应与之对齐：
 
-1. **句界与密度**：以 **`。` `？` `！` `；`** 为主划分「句」（仅在 **HTML 标签外**切分；`word-info` 释义里的 `；` 不参与断句）。**英文导语**里 ASCII **分号 `;`** 可视作分句。**同一自然段**默认指 **`<article class="post-content">` 内单个 `<p>...</p>`**（含仅含 `<strong>` 的短标题行也算一段）。**同一 `<p>` 内，每个按上述规则切出的「句」都必须含至少 1 处** `word-block`。若连续两句都没有可标的英文，则对其中一句做**中文 → 单个合规英文词**替换（见上条），**不得**用第 1～2 类「不识别」词凑数。**注意**：本条「句」与 `word-block` 密度**仅约束** `<article class="post-content">` 内部；置于 `</article>` 之后、词汇表之前的**来源与版权说明块**（见后文「外源素材与版权声明」）**不适用**密度与词汇表对应，且其中**不要**加 `word-block`。
+1. **句界与密度**：以 **`。` `？` `！` `；`** 为主划分「句」（仅在 **HTML 标签外**切分；`word-info` 释义里的 `；` 不参与断句）。**英文导语**里 ASCII **分号 `;`** 可视作分句。**同一自然段**默认指 **`<article class="post-content">` 内单个 `<p>...</p>`**（含仅含 `<strong>` 的短标题行也算一段）。**同一 `<p>` 内，每个按上述规则切出的「句」都必须含至少 1 处** `word-block`。若连续两句都没有可标的英文，则对其中一句做**中文 → 单个合规英文词**替换（见上条），**不得**用第 1～2 类「不识别」词凑数。**注意**：本条「句」与 `word-block` 密度**仅约束** `<article class="post-content">` 内部；置于 `</article>` 之后、词汇表之前的**来源与版权说明块**（见后文「外源素材与版权声明」）**不适用**密度与词汇表对应，且其中**不要**加 `word-block`。**`mingox build` 默认不把句级密度当作硬门禁**（仅「相邻 word-block」会失败退出）；密度与同位释义以人工对照本条及 `docs/ANNOTATION.md` 为准，`mingox validate` 可输出启发式密度警告（不导致失败）。
 2. **朗读与规范的差异**：口语朗读时，一个 `<p>` 里用大量 **逗号** 连接的小停顿，听起来像多句话，但**按本规范仍可能只算少数几个「句」**；反之，为满足密度把若干原用句号写成的短句改成逗号连接，**规范上句数变少、每句需标注数也随之变少**。若你希望「凡朗读停顿处都要有词」，须**单独约定**（例如以逗号也断句），并与自检脚本同步，本文默认**不**以逗号断句。
 3. **替换词取向**：优先选用**考研书面语、国际新闻常见搭配、财经/科技机制词**（如 `forgo` `acquiescence` `leverage` `stagnation` `interdependence` `backlash` `ramp` 等），使语气与中英混排政经稿一致。
 4. **供应链表述**：涉及「供应链/物流」时，优先用 **logistics** 等**学科/行业上位词**承载语义；**不要**单独把 **chain**（高中常见）做成 `word-block`。

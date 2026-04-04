@@ -1,6 +1,6 @@
 # 前置环境（内容流水线）
 
-完成 [PIPELINE.md](./PIPELINE.md) 四步前，请在本机准备：
+完成 [PIPELINE.md](./PIPELINE.md) / [docs/steps/](./steps/README.md) 四步前，请在本机准备：
 
 ## Git
 

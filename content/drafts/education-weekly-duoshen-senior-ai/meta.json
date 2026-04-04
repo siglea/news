@@ -15,6 +15,5 @@
   "omit_sections_note": "本站已省略原推送文末 GEO 营销、扫码引流等推广段落；其余结构与标点尽量保持「多鲸」微信原文。",
   "risk_blurb": "本文为教育行业资讯汇编，仅供学习交流，不构成任何招生、培训或投资建议。",
   "risk_blurb_secondary": "英文标注仅供学习，释义为编者据语境所给，与原文作者用语未必一一对应。",
-  "annotate_engine": "terms_json",
-  "terms_file": "terms.json"
+  "annotate_engine": "chat_json"
 }

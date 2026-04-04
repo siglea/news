@@ -1,125 +1,48 @@
-# MingoX 内容生产流水线（四步）
+# MingoX 内容生产流水线（总览）
 
-编排入口：**`workflow/mingox.py`**（在仓库根目录执行）。
+编排入口（仓库根目录）：
 
 ```bash
 python3 workflow/mingox.py --help
 ```
 
-## 目录职责
+## 四步索引（分步详述）
+
+| 步 | 文档 | 一句话 |
+|----|------|--------|
+| 1 素材获取 | **[docs/steps/01-acquire.md](./steps/01-acquire.md)** | `init` / `acquire` → `01-source.md` + `meta.json` |
+| 2 标注 | **[docs/steps/02-annotate.md](./steps/02-annotate.md)** | **默认 `chat_json`**；或 `keywords`（[util/keyword_lexicon.py](../util/keyword_lexicon.py)）；见 [ANNOTATION.md](./ANNOTATION.md) |
+| 3 HTML 成稿 | **[docs/steps/03-html.md](./steps/03-html.md)** | `build` → `posts/*.html`，`validate`，DOM/CSS 契约 |
+| 4 发布 | **[docs/steps/04-publish.md](./steps/04-publish.md)** | `serve`、`deploy`、Gitee Pages |
+
+**分步目录索引**：[docs/steps/README.md](./steps/README.md)。**标注总览与决策树**：[ANNOTATION.md](./ANNOTATION.md)。**草稿目录与词表细则**：[content/drafts/README.md](../content/drafts/README.md)。
+
+**可选代码层解耦（IR / 拆分 build）**：[docs/steps/IR-ROADMAP.md](./steps/IR-ROADMAP.md)（未实现，待评审）。
+
+---
+
+## 目录职责（速查）
 
 | 路径 | 职责 |
 |------|------|
-| **`content/drafts/<slug>/`** | 单篇草稿：第 1 步产出 `01-source.md` 与 `meta.json`；第 2 步产出 `02-annotate-tasks.json`（复合任务 JSON）。 |
-| **`workflow/`** | 流水线脚本：`acquire`、`build`、`validate`、`serve`、`deploy`、`wechat`。 |
-| **`util/annotate_lib.py`** | `KEYWORDS` 子串匹配、`word-block` 渲染、词汇表、`build_post_html`（微信 CLI 与 MD 草稿共用）。 |
-| **`util/annotate_merge.py`** | 对话产出 JSON 的合并与校验（`annotate_engine: chat_json`）。 |
-| **`util/.crawl-output/`** | 仅本地抓取缓存（gitignore）；Playwright 可写 `workflow-<slug>-js_content.html`。 |
-| **`util/article-profiles.json`** | **微信成稿快捷通道**：一条 profile 对应一篇已抓取的 `js_content` HTML（不经 MD 草稿）。 |
-| **`posts/`** | 第 3 步最终静态 HTML。 |
-| **`docs/`** | 流水线与前置说明（本文件、`PREREQUISITES.md`）。 |
-
-## 第 1 步：获取原文 → Markdown
-
-输出：`content/drafts/<slug>/01-source.md`，并更新同目录 `meta.json`（若已有则合并字段）。
-
-### 方式 1：直接提供原文（paste）
-
-```bash
-python3 workflow/mingox.py init --slug my-topic --title-zh "中文标题" --title-en "English Title" \
-  --out-html posts/2026-04-02-my-topic.html
-# 写入正文（可编辑器直接改 content/drafts/my-topic/01-source.md）
-python3 workflow/mingox.py acquire --slug my-topic --mode paste --file path/to/article.md
-# 或管道: cat article.md | python3 workflow/mingox.py acquire --slug my-topic --mode paste
-```
-
-### 方式 2：链接抓取（url）
-
-- **微信公众号**：自动调用 `util/crawl-with-playwright.py`，**优先 `--mobile`**（iPhone 微信息 UA，多数情况下 **headless 也可** 拿到正文）；若仍验证页，**去掉 `--headless`**，并加 **`--wait-verify 180`** 在本机窗口内点验证。`acquire` 失败时会 **自动再试桌面 UA**（可用 `--no-mobile-wechat` 跳过移动 UA）。
-- **正文进 MD**：先 `extract_ps`（`<p>`）；若段落过少/过短，再 **`extract_wechat_plain_paragraphs` + `extract_wechat_span_leaf_paragraphs` 择优**（解决 section/leaf 排版、避免只剩文末广告 `<p>`）。细节见 [util/README.md](../util/README.md)。
-- **`meta.json`**：微信抓取成功时 **`title_zh` 以页面标题为准**（覆盖草稿里旧占位标题）；`source_account` 以 `#js_name` 为准；`footer_template: derivative` 且已有公众号名时，可将 `footer_derivative_mp_unknown` 置为 `false`（`acquire` 在拿到作者时会自动处理）。
-- **普通网页**：`trafilatura` 拉取正文（需 `pip install -r workflow/requirements.txt`）。
-
-```bash
-python3 workflow/mingox.py acquire --slug my-topic --mode url --url 'https://...'
-# 微信：移动 UA + headless（多数环境可行）
-python3 workflow/mingox.py acquire --slug my-topic --mode url --url 'https://mp.weixin.qq.com/s/...' --headless
-# 微信：验证页 — 有界面 + 等待人工
-python3 workflow/mingox.py acquire --slug my-topic --mode url --url 'https://mp.weixin.qq.com/s/...' --wait-verify 180
-```
-
-| `acquire` 参数（url） | 含义 |
-|----------------------|------|
-| `--headless` | Playwright 无头（微信可配合默认移动 UA 使用）。 |
-| `--wait-verify SEC` | 出现验证按钮时最多等待 SEC 秒（需非 headless）。 |
-| `--no-mobile-wechat` | 不试移动 UA，仅用桌面 Chromium。 |
-
-### 方式 3：摘要/想法 → 检索后再抓取（search）
-
-```bash
-python3 workflow/mingox.py acquire --slug my-topic --mode search --query '你的检索句' --list-only
-python3 workflow/mingox.py acquire --slug my-topic --mode search --query '...' --pick 0
-```
-
-依赖：`duckduckgo-search`。结果质量与合规由人工挑选 `pick` 负责。
+| **`content/drafts/<slug>/`** | 单篇草稿：`01-source.md`、`meta.json`；`build` 后 `02-annotate-tasks.json`；`chat_json` 时维护 `llm_annotations.json` 等 |
+| **`workflow/`** | `mingox.py`：`init`、`acquire`、`build`、`validate`、`serve`、`deploy`、`wechat` 等 |
+| **`util/keyword_lexicon.py`** | 全局默认可标注词表（`annotate_engine=keywords`） |
+| **`util/annotate_lib.py`** | 段落标注、`word-block` 渲染、词汇表、`build_post_html`（`KEYWORDS` 来自 `keyword_lexicon`） |
+| **`util/annotate_merge.py`** | `chat_json` 对话 JSON 合并与校验 |
+| **`util/.crawl-output/`** | 本地抓取缓存（gitignore） |
+| **`util/article-profiles.json`** | 微信成稿快捷通道（不经 MD 草稿） |
+| **`posts/`** | 成稿静态 HTML |
+| **`docs/`** | 流水线、四步分册、`PREREQUISITES.md` |
 
 ---
 
-## 第 2 步：标注 + 机器校验
+## 环境与其它说明
 
-- **复合任务格式**：`content/drafts/<slug>/02-annotate-tasks.json`  
-  - `paragraphs[]`：每项含 `source_text`（来自 MD 段落）与 `html`（已插入 `word-anchor` / `word-block` 的 `<p>...</p>`）。
-- **规则对齐**：词形、音标结构等与根目录 [README.md](../README.md)「词汇标注规范」一致；**每 `<p>` 内句密度**等更严规则需人工与范文对照（当前自动化以 **相邻 `word-block` 正则** 为硬门禁）。
-
-### 标注引擎
-
-| `meta.json` | 行为 |
-|-------------|------|
-| （默认）`annotate_engine` 省略或为 `keywords` | 使用 `annotate_lib.KEYWORDS` 子串匹配；`keyword_dedupe: false` 可关闭全文按英文词形去重。 |
-| **`annotate_engine: "chat_json"`** | **仅通过 Cursor 对话：** 先 `export-chat-bundle`，把 `system_prompt` + `sentences` 交给助手，助手只输出 JSON；保存为草稿目录下的 **`llm_annotations.json`** 后再 `build`。程序侧：校验 `zh`⊂句内、`en` 单 token、**全文 `en` 小写去重**；覆盖率不足时在 stderr 提示无词句序号供对话补二轮。 |
-| `llm_annotations_file` | 可选，默认 `llm_annotations.json`（相对 `content/drafts/<slug>/`）。 |
-
-**对话标注步骤：**
-
-```bash
-python3 workflow/mingox.py export-chat-bundle --slug my-topic
-# 将生成的 llm-chat-bundle.json 中的 system_prompt 与 sentences 粘贴到 Cursor 对话，
-# 让助手输出 {"version":1,"annotations":[...]}，保存为 content/drafts/my-topic/llm_annotations.json
-# meta.json 设 "annotate_engine": "chat_json"
-python3 workflow/mingox.py build --slug my-topic
-```
-
-微信 profile：`annotate_engine: chat_json` 时需 **`llm_annotations_file`**（相对仓库根的路径，指向已保存的 JSON）。
-
-```bash
-python3 workflow/mingox.py build --slug my-topic
-# 跳过相邻检测（仅调试）:
-python3 workflow/mingox.py build --slug my-topic --skip-validate
-```
-
-全站检查已生成文章：
-
-```bash
-python3 workflow/mingox.py validate
-```
-
----
-
-## 第 3 步：生成 HTML
-
-由上一步 **`build`** 完成：读取 `meta.json` 中的 `title_zh` / `title_en` / `out_html` 等，写出 `posts/...html` 并带词汇表。
-
-- **`meta.json`**：`include_source_footer: true` 时插入红色来源块（外源稿）；原创可 `init` 时不加 `--source-footer` 并在 `meta.json` 中保持 `include_source_footer: false`。
-- **版权声明版式**：`footer_template` 取 `verbatim`（强调「尽量保留汉字、仅加标注」）或 `derivative`（与 `posts/2026-04-01-private-fund-ai-hiring-threshold.html` 一致的「衍生整理」四段 + 双行风险提示）。`init` 示例：`--footer-template derivative --footer-derivative-mp-unknown`（尚未确认公众号名时首段不写具体帐号）。可选 `source_author_display`、`risk_blurb_secondary`。微信 `acquire` 成功后若已写入 `source_account`，可将 `footer_derivative_mp_unknown` 改为 `false` 并补全作者署名后重建。
-
----
-
-## 第 4 步：本地或 EdgeOne
-
-```bash
-python3 workflow/mingox.py serve --port 8765
-python3 workflow/mingox.py deploy --project mingox
-```
+- **依赖安装**： [PREREQUISITES.md](./PREREQUISITES.md)
+- **抓取与 Playwright 细节**： [util/README.md](../util/README.md)
+- **版式、词汇规范全文**： 根目录 [README.md](../README.md)
+- **workflow 模块表**： [workflow/README.md](../workflow/README.md)
 
 ---
 
@@ -129,13 +52,11 @@ python3 workflow/mingox.py deploy --project mingox
 
 ```bash
 python3 workflow/mingox.py wechat --profile your-profile-key
-# 等价: python3 util/annotate-wechat-plain.py --profile your-profile-key
 ```
 
 ---
 
 ## 与根 README 的关系
 
-- **版式、列表、词汇、相邻块、外源版权块**：以根目录 [README.md](../README.md) 为权威。
-- **本文件**：约定**目录与命令**，避免 `util/` 与草稿职责混淆。
-- **`terms_json` / 对话词表、中英同位锚定、`gloss` 规则**：以 [content/drafts/README.md](../content/drafts/README.md) 为权威补充。
+- **列表、标题、词汇、相邻块、外源版权块等编辑规范**：以根目录 [README.md](../README.md) 为权威。  
+- **本文件与 `docs/steps/`**：约定**步骤边界与命令入口**，避免与 `util/`、草稿职责混淆。
