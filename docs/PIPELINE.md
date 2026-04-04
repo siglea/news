@@ -1,5 +1,7 @@
 # MingoX 内容生产流水线（总览）
 
+第一次阅读建议先看 **[docs/README.md](./README.md)**（文档地图）。
+
 编排入口（仓库根目录）：
 
 ```bash
@@ -8,10 +10,12 @@ python3 workflow/mingox.py --help
 
 ## 四步索引（分步详述）
 
+**标注约定**：全仓库**默认 `chat_json`**；`keywords` **仅当编者对某篇单独明确要求**时使用（见 [ANNOTATION.md](./ANNOTATION.md) 文首）。
+
 | 步 | 文档 | 一句话 |
 |----|------|--------|
 | 1 素材获取 | **[docs/steps/01-acquire.md](./steps/01-acquire.md)** | `init` / `acquire` → `01-source.md` + `meta.json` |
-| 2 标注 | **[docs/steps/02-annotate.md](./steps/02-annotate.md)** | **默认 `chat_json`**；或 `keywords`（[util/keyword_lexicon.py](../util/keyword_lexicon.py)）；见 [ANNOTATION.md](./ANNOTATION.md) |
+| 2 标注 | **[docs/steps/02-annotate.md](./steps/02-annotate.md)** | **默认 `chat_json`**；或（仅编者要求时）`keywords`（[util/keyword_lexicon.py](../util/keyword_lexicon.py)）；见 [ANNOTATION.md](./ANNOTATION.md) |
 | 3 HTML 成稿 | **[docs/steps/03-html.md](./steps/03-html.md)** | `build` → `posts/*.html`，`validate`，DOM/CSS 契约 |
 | 4 发布 | **[docs/steps/04-publish.md](./steps/04-publish.md)** | `serve`、`deploy`、Gitee Pages |
 
@@ -33,7 +37,7 @@ python3 workflow/mingox.py --help
 | **`util/.crawl-output/`** | 本地抓取缓存（gitignore） |
 | **`util/article-profiles.json`** | 微信成稿快捷通道（不经 MD 草稿） |
 | **`posts/`** | 成稿静态 HTML |
-| **`docs/`** | 流水线、四步分册、`PREREQUISITES.md` |
+| **`docs/`** | 文档地图 [README.md](./README.md)、[PIPELINE.md](./PIPELINE.md)、[EDITORIAL.md](./EDITORIAL.md)、[ANNOTATION.md](./ANNOTATION.md)、四步分册、[PREREQUISITES.md](./PREREQUISITES.md) |
 
 ---
 
@@ -41,7 +45,7 @@ python3 workflow/mingox.py --help
 
 - **依赖安装**： [PREREQUISITES.md](./PREREQUISITES.md)
 - **抓取与 Playwright 细节**： [util/README.md](../util/README.md)
-- **版式、词汇规范全文**： 根目录 [README.md](../README.md)
+- **版式、词汇规范全文**： [EDITORIAL.md](./EDITORIAL.md)
 - **workflow 模块表**： [workflow/README.md](../workflow/README.md)
 
 ---
@@ -56,7 +60,7 @@ python3 workflow/mingox.py wechat --profile your-profile-key
 
 ---
 
-## 与根 README 的关系
+## 与 EDITORIAL / 根 README 的关系
 
-- **列表、标题、词汇、相邻块、外源版权块等编辑规范**：以根目录 [README.md](../README.md) 为权威。  
+- **列表、标题、词汇、相邻块、外源版权块等编辑规范**：以 [EDITORIAL.md](./EDITORIAL.md) 为权威；根 [README.md](../README.md) 为项目门面与快速链接。
 - **本文件与 `docs/steps/`**：约定**步骤边界与命令入口**，避免与 `util/`、草稿职责混淆。

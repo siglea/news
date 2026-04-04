@@ -3,6 +3,8 @@
 本步关注：**选什么引擎、维护哪些文件、语义规则（同位锚定、词表字段）**。  
 **不**在本篇展开整页 HTML 壳与 CSS（见 [03-html.md](./03-html.md)）。
 
+**仓库约定**：**默认 `chat_json`**；**仅当编者对某篇单独要求时**才使用 `keywords`。详见 [ANNOTATION.md](../ANNOTATION.md) 文首。
+
 ---
 
 ## 当前实现说明（与 HTML 的关系）
@@ -18,7 +20,7 @@
 |------|------|
 | 引擎决策树、真源禁区、校验分层 | **[docs/ANNOTATION.md](../ANNOTATION.md)** |
 | `zh`/`en` 同位锚定、`gloss`、对话 JSON | **[content/drafts/README.md](../../content/drafts/README.md)** |
-| 选取原则、句密度、相邻块（编辑规范全文） | 根目录 **[README.md](../../README.md)**「词汇标注规范」等章节 |
+| 选取原则、句密度、相邻块（编辑规范全文） | **[docs/EDITORIAL.md](../EDITORIAL.md)** |
 
 ---
 
@@ -27,7 +29,7 @@
 | `meta.annotate_engine` | 真源文件 | 说明 |
 |------------------------|----------|------|
 | **`chat_json`**（**默认推荐新稿**） | `llm_annotations_file`（默认 `llm_annotations.json`） | 先 `export-chat-bundle`，对话产出 JSON；经 `annotate_merge` 校验 |
-| 省略或 `keywords` | 无单独文件（[util/keyword_lexicon.py](../../util/keyword_lexicon.py)） | 快速，词汇表偏短；扩充 `_KEYWORD_ENTRIES` |
+| `keywords`（非默认；编者单独要求且 `meta` 显式写出） | 无单独文件（[util/keyword_lexicon.py](../../util/keyword_lexicon.py)） | 词汇表偏短；扩充 `_KEYWORD_ENTRIES` |
 
 **对话路径示例**：
 

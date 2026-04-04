@@ -25,7 +25,7 @@ pip3 install -r workflow/requirements.txt
 ## Node.js 与 EdgeOne（第 4 步部署）
 
 - **Node.js ≥ 16**、npm。
-- 中国站部署见根目录 [README.md](../README.md)「部署到 EdgeOne Pages」：推荐 `npx edgeone@latest pages deploy -a overseas -n mingox`，Token 放 `.edgeone/.token`（勿提交）。
+- 中国站部署见 [docs/steps/04-publish.md](./steps/04-publish.md)「EdgeOne Pages（CLI 细则）」：推荐 `npx edgeone@latest pages deploy -a overseas -n mingox`，Token 放 `.edgeone/.token`（勿提交）。一键入口：`python3 workflow/mingox.py deploy`。
 
 ## 小结
 

@@ -184,12 +184,16 @@ def main() -> None:
 
     p_init = sub.add_parser(
         "init",
-        help="Create content/drafts/<slug>/meta.json template (annotate_engine=chat_json)",
+        help="Create content/drafts/<slug>/meta.json template (annotate_engine=chat_json; repo default — keywords only if editor explicitly requests per draft)",
     )
     p_init.add_argument("--slug", required=True)
     p_init.add_argument("--title-zh", required=True)
     p_init.add_argument("--title-en", required=True)
-    p_init.add_argument("--out-html", required=True, help="e.g. posts/2026-04-02-slug.html")
+    p_init.add_argument(
+        "--out-html",
+        required=True,
+        help="posts/YYYY-MM-DD-topic-kebab.html（题材英文 kebab，勿用草稿 slug/wechat-id 占位）",
+    )
     p_init.add_argument("--source-url", default="")
     p_init.add_argument("--title-emoji", default="📈")
     p_init.add_argument(
