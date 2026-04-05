@@ -14,7 +14,7 @@
 ## 三步走
 
 1. **选引擎**（见下节决策树），在 `content/drafts/<slug>/meta.json` 写 `annotate_engine` 及所需字段。**默认一律 `chat_json`**；省略该字段时 `build` 也按 **`chat_json`** 处理（与 `mingox init` 一致）。  
-2. **准备真源**：**`chat_json`**：`export-chat-bundle` → **对话 LLM** 产出 `llm_annotations.json`（须满足 [EDITORIAL.md](./EDITORIAL.md)：每 export 句序号线 **至少 1 处**标注、**全文 `en` 不重复**；禁止用 `synth-lexicon-annotations` 当终稿）。应急可 **`python3 workflow/gen_dense_chat_json.py <slug>`** 铺词表命中（无匹配句 `skip`），再对话补全。**`keywords`**（仅编者单独要求时）：使用 [util/keyword_lexicon.py](../util/keyword_lexicon.py)（经 `annotate_lib` 暴露为 `KEYWORDS`）。  
+2. **准备真源**：**`chat_json`**：`export-chat-bundle` → **对话 LLM** 产出 `llm_annotations.json`（须满足 [EDITORIAL.md](./EDITORIAL.md)：每 export 句序号线 **至少 1 处**标注、**全文 `en` 不重复**；禁止用 `synth-lexicon-annotations` 当终稿）。应急可 **`python3 workflow/gen_dense_chat_json.py <slug>`** 铺词表命中（无匹配句 `skip`），再对话补全；若希望机器稿优先 **更短的 `zh` 子串**（更贴近「一词」画线），可用 **`python3 workflow/gen_shortest_zh_chat_json.py <slug>`**（仍**不替代**对话终稿）。**`annotate_lexicon_extra.json`** 仅当**编者明示**需要题材向词表辅助时添加；助手或自动化流程**不得**为抬高覆盖率擅自新建该文件。**`keywords`**（仅编者单独要求时）：使用 [util/keyword_lexicon.py](../util/keyword_lexicon.py)（经 `annotate_lib` 暴露为 `KEYWORDS`）。  
 3. **`python3 workflow/mingox.py build --slug <slug>`** → 生成 `02-annotate-tasks.json` 与 `posts/*.html`；再 **`python3 workflow/mingox.py validate`**（相邻块硬门禁 + 可选密度**仅警告**）。
 
 ---

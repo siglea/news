@@ -23,7 +23,8 @@ python3 workflow/mingox.py --help
 | `paths.py` | 仓库根路径 |
 | `requirements.txt` | URL 提取与搜索可选依赖 |
 | `synth_llm_annotations_lexicon.py` | **非 chat_json 终稿**：keywords 式稀疏占位。`chat_json` 须大模型产出 JSON（不必 Cursor），见 [docs/ANNOTATION.md](../docs/ANNOTATION.md)。 |
-| `gen_dense_chat_json.py` | **应急**：词表匹配 + en 去重；无匹配则该句 `skip`，不造占位词；须对话补全后再当终稿。 |
+| `gen_dense_chat_json.py` | **应急**：词表匹配 + en 去重；**最长 `zh` 优先**；无匹配则该句 `skip`；须对话补全后再当终稿。 |
+| `gen_shortest_zh_chat_json.py` | **应急**：同上候选池思路，但 **最短 `zh` 优先**，更贴近「窄锚点」；仍须对话精校。可选 `annotate_lexicon_extra.json` 仅编者明示时使用（见 [docs/ANNOTATION.md](../docs/ANNOTATION.md)）。 |
 
 ## 与 `util/` 的分工
 
