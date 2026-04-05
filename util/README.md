@@ -1,10 +1,8 @@
-# util：抓取、共享标注库与词表
+# util：抓取与成稿共享库
 
-**文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（第 1 步）、**`annotate_lib` / `annotate_merge` / `md_split`**、全局词表 **`keyword_lexicon.py`**。
+**文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（第 1 步）、**`annotate_lib` / `md_split`**。
 
 **边界**：成稿元数据与正文真源一律在 **`content/drafts/<slug>/`**（`meta.json`、`01-source.md`）；不再提供 `article-profiles` 捷径。
-
-**`chat_json` 与 IDE**：`annotate_merge.export_chat_bundle_dict` 仅生成本地 JSON；用大模型补全 `llm_annotations.json` **不必 Cursor**，见 **[docs/ANNOTATION.md](../docs/ANNOTATION.md)**「非 Cursor 环境如何使用 chat_json」。
 
 ## 依赖（抓取）
 
@@ -53,15 +51,12 @@ python3 util/crawl-with-playwright.py --url '...' --mobile --headless --out-html
 
 ## 目录与数据流（推荐编排）
 
-当前设计把 **「爬下来的原始 HTML」** 和 **「成稿页面元数据」** 分开，避免一篇稿子的路径写死在脚本里。
-
 | 路径 | 作用 |
 |------|------|
-| `util/keyword_lexicon.py` | **`annotate_engine=keywords`** 的全局默认可标注词表（`_KEYWORD_ENTRIES` → `KEYWORD_LEXICON`）。 |
-| `util/annotate_lib.py` | **共享逻辑**：从 `keyword_lexicon` 载入 `KEYWORDS`、段落标注（无命中则不插 `word-block`）、`build_post_html`、词汇表行提取；由 **`workflow/build_draft.py`** 等调用。 |
-| `util/annotate_merge.py` | **MD 草稿**：`chat_json` 的 JSON 校验、去重、逐句 `render_annotated_sentence`；`en` 词位规则与**对义项锚定**见文件内 `CHAT_SYSTEM_PROMPT` 与 **[content/drafts/README.md](../content/drafts/README.md)**。 |
-| `util/md_split.py` | `01-source.md` 按空行切段；供 `workflow/build_draft`、`export-chat-bundle`、`synth_llm_annotations_lexicon` 使用。 |
-| `util/.crawl-output/` | **仅放爬取结果**（已 `.gitignore`）。可按文章分子目录，避免文件名撞车。 |
+| `util/annotate_lib.py` | 微信/HTML 抽取、`split_sentences`、`render_annotated_sentence`、`build_post_html`、词汇表反扫 |
+| `util/annotate_merge.py` | `llm_annotations.json` 合并；`export_chat_bundle_dict`；`CHAT_SYSTEM_PROMPT` 由 **`util/prompts/chat_annotate_system.txt`** 加载 |
+| `util/md_split.py` | `01-source.md` 按空行切段；供 `build_draft` / `export-chat-bundle` |
+| `util/.crawl-output/` | **仅放爬取结果**（已 `.gitignore`）。可按文章分子目录，避免文件名撞车 |
 
 **推荐抓取缓存命名（示例，仅供 `acquire` 调试时参考）**
 
@@ -73,19 +68,8 @@ util/.crawl-output/wechat-<id>-js_content.html
 
 正式流水线以 **`mingox acquire --mode url`** 写入 `content/drafts/<slug>/01-source.md`，无需手填 profile。
 
-## 标注规则摘要（`annotate_engine=keywords` 与 `annotate_lib.pick_keyword`）
-
-- **不改写中文**：只插入 HTML 标注。
-- **句切分**：按 `。！？；` 切段；**每小段最多一个** `word-block`（多要点在同一句时只会标一处，这是当前产品限制）。
-- **关键词**：`pick_keyword` 在句内取 **命中中文最长** 的 `KEYWORDS` 项；长度相同取 **出现位置最靠左** 的。
-- **下划线**：命中关键词时，对应中文包在 `<span class="word-anchor">` 内；`css/style.css` 中为 `.post-content .word-anchor` 下划线。
-- **英文词位**：`english-word` 内 **不得含 ASCII 空格**；复合概念用 **连字符一个词位**（如 `gold-surge`、`debt-service`），使英文覆盖与下划线中文 **整段对齐**（避免「黄金暴涨」只标成 `surge` 这类半对应）。
-- **无命中**：**不插入** `word-block`（宁缺毋滥）；仅当 `KEYWORDS` 在句内命中中文片段时才标注并生成词汇表行。
-- **词汇表**：按正文首次出现的 `english-word` 去重（小写）生成表格。
-- **某篇成稿词条过少**：说明正文里的中文术语尚未进入共享词表。在**确认该词在稿内确有出现**的前提下，向 **`util/keyword_lexicon.py`** 的 `_KEYWORD_ENTRIES` 追加条目（**长词组优先**，`english-word` 仍须无空格、可用连字符），然后对该 slug 重新 `mingox build`；`out_html` 文件名宜与题材一致，勿长期用「permalink / workflow 占位」类名字。
-
 ## 相关文件
 
 - `util/crawl-with-playwright.py`：Playwright 抓取相关（`workflow/mingox.py acquire --mode url` 在微信域名下会调用）。
 - `util/requirements-crawl.txt`：抓取脚本依赖。
-- `workflow/mingox.py`：从 `content/drafts/` 走完整四步时的推荐入口。
+- `workflow/mingox.py`：从 `content/drafts/` 走流水线时的推荐入口。

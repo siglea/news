@@ -95,19 +95,6 @@ def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
     out = draft / "llm-chat-bundle.json"
     out.write_text(json.dumps(bundle, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("wrote", out)
-    ann = draft / "llm_annotations.json"
-    print(
-        "下一步：将 bundle 中的 `system_prompt` 与 `sentences` 交给任意大模型（不必 Cursor），"
-        "按 schema 产出 JSON 后保存为",
-        ann,
-    )
-
-
-def cmd_synth_lexicon_annotations(args: argparse.Namespace) -> None:
-    sys.path.insert(0, str(WORKFLOW_DIR))
-    from synth_llm_annotations_lexicon import run_synth_lexicon_annotations
-
-    run_synth_lexicon_annotations(args.slug)
 
 
 def cmd_validate(args: argparse.Namespace) -> None:
@@ -203,7 +190,7 @@ def main() -> None:
 
     p_init = sub.add_parser(
         "init",
-        help="Create content/drafts/<slug>/meta.json template (annotate_engine=chat_json; repo default — keywords only if editor explicitly requests per draft)",
+        help="Create content/drafts/<slug>/meta.json template",
     )
     p_init.add_argument("--slug", required=True)
     p_init.add_argument("--title-zh", required=True)
@@ -273,17 +260,10 @@ def main() -> None:
 
     p_eb = sub.add_parser(
         "export-chat-bundle",
-        help="写出 llm-chat-bundle.json，供任意大模型客户端生成 llm_annotations.json（annotate_engine=chat_json）",
+        help="写出 llm-chat-bundle.json（含四六级词汇标注 system_prompt），供大模型生成 llm_annotations.json",
     )
     p_eb.add_argument("--slug", required=True)
     p_eb.set_defaults(func=cmd_export_chat_bundle)
-
-    p_synth = sub.add_parser(
-        "synth-lexicon-annotations",
-        help="Optional: draft 01-source + lexicon -> llm_annotations.json (keywords-style placeholder, not chat_json final)",
-    )
-    p_synth.add_argument("--slug", required=True)
-    p_synth.set_defaults(func=cmd_synth_lexicon_annotations)
 
     p_v = sub.add_parser("validate", help="Run adjacent word-block check on posts/*.html")
     p_v.add_argument("--post", help="single file instead of all posts")

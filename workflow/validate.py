@@ -46,7 +46,7 @@ def count_sentences_heuristic(plain: str) -> int:
 def density_warnings_for_html(html: str, source_label: str = "") -> list[str]:
     """
     Heuristic: per <p> in post-content, if estimated sentences > word-block count, emit WARN.
-    Does not fail build; align with docs/EDITORIAL.md only approximately (see docs/ANNOTATION.md).
+    Does not fail build; align with docs/EDITORIAL.md only approximately.
     """
     m = ARTICLE_RE.search(html)
     if not m:

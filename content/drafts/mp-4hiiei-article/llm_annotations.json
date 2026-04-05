@@ -1,0 +1,845 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "笔记侠",
+      "en": "Notesman",
+      "ipa": "[nəʊts]",
+      "pos": "n.",
+      "gloss": "笔记侠"
+    },
+    {
+      "i": 1,
+      "zh": "根本性重构",
+      "en": "restructuring",
+      "ipa": "[riːˈstrʌktʃərɪŋ]",
+      "pos": "n.",
+      "gloss": "重构"
+    },
+    {
+      "i": 2,
+      "zh": "深度访谈",
+      "en": "interview",
+      "ipa": "[ˈɪntəvjuː]",
+      "pos": "n.",
+      "gloss": "访谈"
+    },
+    {
+      "i": 3,
+      "zh": "核心竞争力",
+      "en": "competence",
+      "ipa": "[ˈkɒmpɪtəns]",
+      "pos": "n.",
+      "gloss": "竞争力"
+    },
+    {
+      "i": 4,
+      "zh": "专业赛道",
+      "en": "professional",
+      "ipa": "[prəˈfeʃənl]",
+      "pos": "adj.",
+      "gloss": "专业"
+    },
+    {
+      "i": 5,
+      "zh": "濒临破产",
+      "en": "bankruptcy",
+      "ipa": "[ˈbæŋkrʌptsi]",
+      "pos": "n.",
+      "gloss": "破产"
+    },
+    {
+      "i": 6,
+      "zh": "不可替代",
+      "en": "irreplaceable",
+      "ipa": "[ˌɪrɪˈpleɪsəbl]",
+      "pos": "adj.",
+      "gloss": "不可替代"
+    },
+    {
+      "i": 7,
+      "zh": "启发",
+      "en": "enlightenment",
+      "ipa": "[ɪnˈlaɪtnmənt]",
+      "pos": "n.",
+      "gloss": "启发"
+    },
+    {
+      "i": 8,
+      "zh": "金融分析师",
+      "en": "analyst",
+      "ipa": "[ˈænəlɪst]",
+      "pos": "n.",
+      "gloss": "分析师"
+    },
+    {
+      "i": 9,
+      "zh": "准确率",
+      "en": "accuracy",
+      "ipa": "[ˈækjərəsi]",
+      "pos": "n.",
+      "gloss": "准确率"
+    },
+    {
+      "i": 10,
+      "zh": "功能性",
+      "en": "functional",
+      "ipa": "[ˈfʌŋkʃənl]",
+      "pos": "adj.",
+      "gloss": "功能的"
+    },
+    {
+      "i": 11,
+      "zh": "标准化",
+      "en": "standardization",
+      "ipa": "[ˌstændədaɪˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "标准化"
+    },
+    {
+      "i": 12,
+      "zh": "逻辑推理",
+      "en": "logic",
+      "ipa": "[ˈlɒdʒɪk]",
+      "pos": "n.",
+      "gloss": "逻辑"
+    },
+    {
+      "i": 13,
+      "zh": "智力劳动",
+      "en": "intellect",
+      "ipa": "[ˈɪntəlekt]",
+      "pos": "n.",
+      "gloss": "智力"
+    },
+    {
+      "i": 14,
+      "zh": "手工纺织",
+      "en": "handloom",
+      "ipa": "[ˈhændluːm]",
+      "pos": "n.",
+      "gloss": "手工纺织"
+    },
+    {
+      "i": 15,
+      "zh": "体力劳动",
+      "en": "manual",
+      "ipa": "[ˈmænjuəl]",
+      "pos": "adj.",
+      "gloss": "体力"
+    },
+    {
+      "i": 16,
+      "zh": "廉价商品",
+      "en": "commodity",
+      "ipa": "[kəˈmɒdəti]",
+      "pos": "n.",
+      "gloss": "商品"
+    },
+    {
+      "i": 17,
+      "zh": "英伟达",
+      "en": "Nvidia",
+      "ipa": "[ˈɪnvɪdiə]",
+      "pos": "n.",
+      "gloss": "英伟达"
+    },
+    {
+      "i": 18,
+      "zh": "游戏显卡",
+      "en": "gaming",
+      "ipa": "[ˈɡeɪmɪŋ]",
+      "pos": "n.",
+      "gloss": "游戏"
+    },
+    {
+      "i": 19,
+      "zh": "单一",
+      "en": "single",
+      "ipa": "[ˈsɪŋɡl]",
+      "pos": "adj.",
+      "gloss": "单一"
+    },
+    {
+      "i": 20,
+      "zh": "加速计算",
+      "en": "computing",
+      "ipa": "[kəmˈpjuːtɪŋ]",
+      "pos": "n.",
+      "gloss": "计算"
+    },
+    {
+      "i": 21,
+      "zh": "自杀式",
+      "en": "suicidal",
+      "ipa": "[ˌsuːɪˈsaɪdl]",
+      "pos": "adj.",
+      "gloss": "自杀式"
+    },
+    {
+      "i": 22,
+      "zh": "芯片成本",
+      "en": "chip",
+      "ipa": "[tʃɪp]",
+      "pos": "n.",
+      "gloss": "芯片"
+    },
+    {
+      "i": 23,
+      "zh": "资本市场",
+      "en": "capital",
+      "ipa": "[ˈkæpɪtl]",
+      "pos": "n.",
+      "gloss": "资本"
+    },
+    {
+      "i": 24,
+      "zh": "大概率",
+      "en": "likelihood",
+      "ipa": "[ˈlaɪklihʊd]",
+      "pos": "n.",
+      "gloss": "概率"
+    },
+    {
+      "i": 25,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "基础设施"
+    },
+    {
+      "i": 26,
+      "zh": "时刻",
+      "en": "moment",
+      "ipa": "[ˈməʊmənt]",
+      "pos": "n.",
+      "gloss": "时刻"
+    },
+    {
+      "i": 27,
+      "zh": "系统性遗忘",
+      "en": "systematic",
+      "ipa": "[ˌsɪstəˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "系统性"
+    },
+    {
+      "i": 28,
+      "zh": "韧性",
+      "en": "resilience",
+      "ipa": "[rɪˈzɪliəns]",
+      "pos": "n.",
+      "gloss": "韧性"
+    },
+    {
+      "i": 29,
+      "zh": "焦虑",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑"
+    },
+    {
+      "i": 30,
+      "zh": "可控",
+      "en": "controllable",
+      "ipa": "[kənˈtrəʊləbl]",
+      "pos": "adj.",
+      "gloss": "可控"
+    },
+    {
+      "i": 31,
+      "zh": "精力",
+      "en": "energy",
+      "ipa": "[ˈenədʒi]",
+      "pos": "n.",
+      "gloss": "精力"
+    },
+    {
+      "i": 32,
+      "zh": "概率计算",
+      "en": "probability",
+      "ipa": "[ˌprɒbəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "概率"
+    },
+    {
+      "i": 33,
+      "zh": "不确定性",
+      "en": "uncertainty",
+      "ipa": "[ʌnˈsɜːtnti]",
+      "pos": "n.",
+      "gloss": "不确定性"
+    },
+    {
+      "i": 34,
+      "zh": "轻描淡写",
+      "en": "understatement",
+      "ipa": "[ˌʌndəˈsteɪtmənt]",
+      "pos": "n.",
+      "gloss": "轻描淡写"
+    },
+    {
+      "i": 35,
+      "zh": "高性能计算",
+      "en": "HPC",
+      "ipa": "[eɪtʃ piː siː]",
+      "pos": "n.",
+      "gloss": "高性能计算"
+    },
+    {
+      "i": 36,
+      "zh": "利益绑定",
+      "en": "tying",
+      "ipa": "[ˈtaɪɪŋ]",
+      "pos": "n.",
+      "gloss": "绑定"
+    },
+    {
+      "i": 37,
+      "zh": "利益算计",
+      "en": "calculus",
+      "ipa": "[ˈkælkjələs]",
+      "pos": "n.",
+      "gloss": "算计"
+    },
+    {
+      "i": 38,
+      "zh": "毫无保留",
+      "en": "unreserved",
+      "ipa": "[ʌnrɪˈzɜːvd]",
+      "pos": "adj.",
+      "gloss": "毫无保留"
+    },
+    {
+      "i": 39,
+      "zh": "长期价值",
+      "en": "longevity",
+      "ipa": "[lɒnˈdʒevəti]",
+      "pos": "n.",
+      "gloss": "长期"
+    },
+    {
+      "i": 40,
+      "zh": "管理",
+      "en": "management",
+      "ipa": "[ˈmænɪdʒmənt]",
+      "pos": "n.",
+      "gloss": "管理"
+    },
+    {
+      "i": 41,
+      "zh": "公开会议",
+      "en": "openness",
+      "ipa": "[ˈəʊpənnəs]",
+      "pos": "n.",
+      "gloss": "公开"
+    },
+    {
+      "i": 42,
+      "zh": "不对称",
+      "en": "asymmetry",
+      "ipa": "[ˌæsɪˈmetri]",
+      "pos": "n.",
+      "gloss": "不对称"
+    },
+    {
+      "i": 43,
+      "zh": "会议",
+      "en": "meeting",
+      "ipa": "[ˈmiːtɪŋ]",
+      "pos": "n.",
+      "gloss": "会议"
+    },
+    {
+      "i": 44,
+      "zh": "协作",
+      "en": "collaboration",
+      "ipa": "[kəˌlæbəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "协作"
+    },
+    {
+      "i": 45,
+      "zh": "信任",
+      "en": "trust",
+      "ipa": "[trʌst]",
+      "pos": "n.",
+      "gloss": "信任"
+    },
+    {
+      "i": 46,
+      "zh": "博弈分析",
+      "en": "analysis",
+      "ipa": "[əˈnæləsɪs]",
+      "pos": "n.",
+      "gloss": "分析"
+    },
+    {
+      "i": 47,
+      "zh": "本质",
+      "en": "essence",
+      "ipa": "[ˈesns]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 48,
+      "zh": "合同",
+      "en": "contract",
+      "ipa": "[ˈkɒntrækt]",
+      "pos": "n.",
+      "gloss": "合同"
+    },
+    {
+      "i": 49,
+      "zh": "上限",
+      "en": "ceiling",
+      "ipa": "[ˈsiːlɪŋ]",
+      "pos": "n.",
+      "gloss": "上限"
+    },
+    {
+      "i": 50,
+      "zh": "背靠背",
+      "en": "solidarity",
+      "ipa": "[ˌsɒlɪˈdærəti]",
+      "pos": "n.",
+      "gloss": "互信"
+    },
+    {
+      "i": 51,
+      "zh": "协同",
+      "en": "synergy",
+      "ipa": "[ˈsɪnədʒi]",
+      "pos": "n.",
+      "gloss": "协同"
+    },
+    {
+      "i": 52,
+      "zh": "意义感",
+      "en": "significance",
+      "ipa": "[sɪɡˈnɪfɪkəns]",
+      "pos": "n.",
+      "gloss": "意义"
+    },
+    {
+      "i": 53,
+      "zh": "凭什么",
+      "en": "grounds",
+      "ipa": "[ɡraʊndz]",
+      "pos": "n.",
+      "gloss": "依据"
+    },
+    {
+      "i": 54,
+      "zh": "为什么",
+      "en": "why",
+      "ipa": "[waɪ]",
+      "pos": "adv.",
+      "gloss": "为什么"
+    },
+    {
+      "i": 55,
+      "zh": "编程",
+      "en": "programming",
+      "ipa": "[ˈprəʊɡræmɪŋ]",
+      "pos": "n.",
+      "gloss": "编程"
+    },
+    {
+      "i": 56,
+      "zh": "规格",
+      "en": "specification",
+      "ipa": "[ˌspesɪfɪˈkeɪʃn]",
+      "pos": "n.",
+      "gloss": "规格"
+    },
+    {
+      "i": 57,
+      "zh": "这件事",
+      "en": "matter",
+      "ipa": "[ˈmætə]",
+      "pos": "n.",
+      "gloss": "这件事"
+    },
+    {
+      "i": 58,
+      "zh": "痛点",
+      "en": "painfulness",
+      "ipa": "[ˈpeɪnfəlnəs]",
+      "pos": "n.",
+      "gloss": "痛点"
+    },
+    {
+      "i": 59,
+      "zh": "创新者",
+      "en": "innovator",
+      "ipa": "[ˈɪnəveɪtə]",
+      "pos": "n.",
+      "gloss": "创新者"
+    },
+    {
+      "i": 60,
+      "zh": "愿景",
+      "en": "vision",
+      "ipa": "[ˈvɪʒn]",
+      "pos": "n.",
+      "gloss": "愿景"
+    },
+    {
+      "i": 61,
+      "zh": "意义",
+      "en": "meaning",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意义"
+    },
+    {
+      "i": 62,
+      "zh": "本质",
+      "en": "nature",
+      "ipa": "[ˈneɪtʃə]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 63,
+      "zh": "方向",
+      "en": "direction",
+      "ipa": "[daɪˈrekʃn]",
+      "pos": "n.",
+      "gloss": "方向"
+    },
+    {
+      "i": 64,
+      "zh": "算力",
+      "en": "compute",
+      "ipa": "[kəmˈpjuːt]",
+      "pos": "n.",
+      "gloss": "算力"
+    },
+    {
+      "i": 65,
+      "zh": "智能",
+      "en": "intelligence",
+      "ipa": "[ɪnˈtelɪdʒəns]",
+      "pos": "n.",
+      "gloss": "智能"
+    },
+    {
+      "i": 66,
+      "zh": "稀缺",
+      "en": "scarcity",
+      "ipa": "[ˈskeəsəti]",
+      "pos": "n.",
+      "gloss": "稀缺"
+    },
+    {
+      "i": 67,
+      "zh": "谦逊",
+      "en": "humility",
+      "ipa": "[hjuːˈmɪləti]",
+      "pos": "n.",
+      "gloss": "谦逊"
+    },
+    {
+      "i": 68,
+      "zh": "初学者",
+      "en": "beginner",
+      "ipa": "[bɪˈɡɪnə]",
+      "pos": "n.",
+      "gloss": "初学者"
+    },
+    {
+      "i": 69,
+      "zh": "继任计划",
+      "en": "succession",
+      "ipa": "[səkˈseʃn]",
+      "pos": "n.",
+      "gloss": "继任"
+    },
+    {
+      "i": 70,
+      "zh": "计划",
+      "en": "planning",
+      "ipa": "[ˈplænɪŋ]",
+      "pos": "n.",
+      "gloss": "计划"
+    },
+    {
+      "i": 71,
+      "zh": "贪恋权力",
+      "en": "greed",
+      "ipa": "[ɡriːd]",
+      "pos": "n.",
+      "gloss": "贪恋"
+    },
+    {
+      "i": 72,
+      "zh": "永生",
+      "en": "immortality",
+      "ipa": "[ˌɪmɔːˈtæləti]",
+      "pos": "n.",
+      "gloss": "永生"
+    },
+    {
+      "i": 73,
+      "zh": "接班人",
+      "en": "successor",
+      "ipa": "[səkˈsesə]",
+      "pos": "n.",
+      "gloss": "接班人"
+    },
+    {
+      "i": 74,
+      "zh": "推理",
+      "en": "reasoning",
+      "ipa": "[ˈriːzənɪŋ]",
+      "pos": "n.",
+      "gloss": "推理"
+    },
+    {
+      "i": 75,
+      "zh": "顾虑",
+      "en": "misgiving",
+      "ipa": "[mɪsˈɡɪvɪŋ]",
+      "pos": "n.",
+      "gloss": "顾虑"
+    },
+    {
+      "i": 76,
+      "zh": "分享",
+      "en": "sharing",
+      "ipa": "[ˈʃeərɪŋ]",
+      "pos": "n.",
+      "gloss": "分享"
+    },
+    {
+      "i": 77,
+      "zh": "持续改进",
+      "en": "improvement",
+      "ipa": "[ɪmˈpruːvmənt]",
+      "pos": "n.",
+      "gloss": "改进"
+    },
+    {
+      "i": 78,
+      "zh": "回到零",
+      "en": "zero",
+      "ipa": "[ˈzɪərəʊ]",
+      "pos": "n.",
+      "gloss": "零"
+    },
+    {
+      "i": 79,
+      "zh": "条件",
+      "en": "condition",
+      "ipa": "[kənˈdɪʃn]",
+      "pos": "n.",
+      "gloss": "条件"
+    },
+    {
+      "i": 80,
+      "zh": "优越感",
+      "en": "superiority",
+      "ipa": "[suːˌpɪəriˈɒrəti]",
+      "pos": "n.",
+      "gloss": "优越感"
+    },
+    {
+      "i": 81,
+      "zh": "长期主义",
+      "en": "perseverance",
+      "ipa": "[ˌpɜːsɪˈvɪərəns]",
+      "pos": "n.",
+      "gloss": "长期"
+    },
+    {
+      "i": 82,
+      "zh": "掌握",
+      "en": "mastery",
+      "ipa": "[ˈmɑːstəri]",
+      "pos": "n.",
+      "gloss": "掌握"
+    },
+    {
+      "i": 83,
+      "zh": "修炼",
+      "en": "cultivation",
+      "ipa": "[ˌkʌltɪˈveɪʃn]",
+      "pos": "n.",
+      "gloss": "修炼"
+    },
+    {
+      "i": 84,
+      "zh": "人性价值任务",
+      "en": "humanity",
+      "ipa": "[hjuːˈmænəti]",
+      "pos": "n.",
+      "gloss": "人性"
+    },
+    {
+      "i": 85,
+      "zh": "精力",
+      "en": "vigor",
+      "ipa": "[ˈvɪɡə]",
+      "pos": "n.",
+      "gloss": "精力"
+    },
+    {
+      "i": 86,
+      "zh": "替代",
+      "en": "substitute",
+      "ipa": "[ˈsʌbstɪtjuːt]",
+      "pos": "v.",
+      "gloss": "替代"
+    },
+    {
+      "i": 87,
+      "zh": "规划",
+      "en": "blueprint",
+      "ipa": "[ˈbluːprɪnt]",
+      "pos": "n.",
+      "gloss": "规划"
+    },
+    {
+      "i": 88,
+      "zh": "零和博弈",
+      "en": "game",
+      "ipa": "[ɡeɪm]",
+      "pos": "n.",
+      "gloss": "博弈"
+    },
+    {
+      "i": 89,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "预期"
+    },
+    {
+      "i": 90,
+      "zh": "坦诚",
+      "en": "frankness",
+      "ipa": "[ˈfræŋknəs]",
+      "pos": "n.",
+      "gloss": "坦诚"
+    },
+    {
+      "i": 91,
+      "zh": "尊重",
+      "en": "respect",
+      "ipa": "[rɪˈspekt]",
+      "pos": "n.",
+      "gloss": "尊重"
+    },
+    {
+      "i": 92,
+      "zh": "初学者心态",
+      "en": "novice",
+      "ipa": "[ˈnɒvɪs]",
+      "pos": "n.",
+      "gloss": "初学者"
+    },
+    {
+      "i": 93,
+      "zh": "认知框架",
+      "en": "cognition",
+      "ipa": "[kɒɡˈnɪʃn]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 94,
+      "zh": "全球治理",
+      "en": "governance",
+      "ipa": "[ˈɡʌvənəns]",
+      "pos": "n.",
+      "gloss": "治理"
+    },
+    {
+      "i": 95,
+      "zh": "操作系统",
+      "en": "system",
+      "ipa": "[ˈsɪstəm]",
+      "pos": "n.",
+      "gloss": "系统"
+    },
+    {
+      "i": 96,
+      "zh": "决策底牌",
+      "en": "edge",
+      "ipa": "[edʒ]",
+      "pos": "n.",
+      "gloss": "底牌"
+    },
+    {
+      "i": 97,
+      "zh": "决策",
+      "en": "decision",
+      "ipa": "[dɪˈsɪʒn]",
+      "pos": "n.",
+      "gloss": "决策"
+    },
+    {
+      "i": 98,
+      "zh": "招生",
+      "en": "enrollment",
+      "ipa": "[ɪnˈrəʊlmənt]",
+      "pos": "n.",
+      "gloss": "招生"
+    },
+    {
+      "i": 99,
+      "zh": "二维码",
+      "en": "qrcode",
+      "ipa": "[kjuː ɑː]",
+      "pos": "n.",
+      "gloss": "二维码"
+    },
+    {
+      "i": 100,
+      "zh": "痛苦",
+      "en": "pain",
+      "ipa": "[peɪn]",
+      "pos": "n.",
+      "gloss": "痛苦"
+    },
+    {
+      "i": 101,
+      "zh": "程序员",
+      "en": "programmer",
+      "ipa": "[ˈprəʊɡræmə]",
+      "pos": "n.",
+      "gloss": "程序员"
+    },
+    {
+      "i": 102,
+      "zh": "阅读",
+      "en": "reading",
+      "ipa": "[ˈriːdɪŋ]",
+      "pos": "n.",
+      "gloss": "阅读"
+    },
+    {
+      "i": 103,
+      "zh": "人际关系",
+      "en": "interpersonal",
+      "ipa": "[ˌɪntəˈpɜːsənl]",
+      "pos": "adj.",
+      "gloss": "人际"
+    },
+    {
+      "i": 104,
+      "zh": "点赞",
+      "en": "thumbsup",
+      "ipa": "[θʌmz]",
+      "pos": "n.",
+      "gloss": "点赞"
+    }
+  ]
+}
