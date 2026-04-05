@@ -7,7 +7,7 @@
 ## 🌐 在线访问
 
 - **Gitee Pages**: https://siglea.gitee.io/news
-- **EdgeOne Pages**（中国站）：部署成功后以 CLI 输出的 `EDGEONE_DEPLOY_URL` 为准（须**完整复制**含 `?eo_token=...` 的 URL，裸域名会 401）。控制台：[EdgeOne Pages](https://console.cloud.tencent.com/edgeone/pages)
+- **EdgeOne Pages**（中国站）：`python3 workflow/mingox.py deploy` 成功后会**固定打印「预览地址」及下一行完整 URL**（与 `EDGEONE_DEPLOY_URL` 一致；须**整行复制**含 `?eo_token=...` 的参数，裸域名会 401）。控制台：[EdgeOne Pages](https://console.cloud.tencent.com/edgeone/pages)
 
 ## 快速开始
 

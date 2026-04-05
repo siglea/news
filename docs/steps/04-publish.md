@@ -109,7 +109,9 @@ npx --yes edgeone@latest pages deploy -a overseas -n mingox
 
 ### 部署成功后
 
-终端会打印 **`EDGEONE_DEPLOY_URL=...`**。
+`python3 workflow/mingox.py deploy` 结束时**固定打印**两行：**「预览地址（…）」** 与下一行的**完整 https URL**（与 `EDGEONE_DEPLOY_URL=...` 同源，须含 `eo_token` 等参数）。
+
+终端亦会打印 **`EDGEONE_DEPLOY_URL=...`**（可与「预览地址」行互相核对）。
 
 > **必须完整复制含 `?` 及之后全部查询参数的 URL** 访问预览。截断链接（去掉 `?eo_token=...` 部分）会导致页面无法打开或返回 404。
 >

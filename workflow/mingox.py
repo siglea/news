@@ -9,6 +9,7 @@ MingoX 四步流水线入口（本地执行）。
 from __future__ import annotations
 
 import argparse
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -126,29 +127,47 @@ def cmd_serve(args: argparse.Namespace) -> None:
     raise SystemExit(r.returncode)
 
 
-def _edgeone_deploy_summary(stdout: str, stderr: str) -> None:
-    """部署成功后从 CLI 输出中提取并醒目打印可访问链接（含 eo_token 等参数）。"""
+def _extract_edgeone_preview_url(blob: str) -> str | None:
+    """从 edgeone CLI 输出解析预览 URL（须含 eo_token 等查询参数）。"""
+    text = blob or ""
+    for raw in text.splitlines():
+        line = raw.strip()
+        if line.startswith("EDGEONE_DEPLOY_URL="):
+            u = line.split("=", 1)[1].strip().strip('"').strip("'")
+            if u.startswith("http"):
+                return u
+    m = re.search(r"https://[^\s'\"<>]+\?[^\s'\"<>]+eo_token=[^\s'\"<>]+", text)
+    if m:
+        return m.group(0).rstrip(").,;")
+    return None
+
+
+def _edgeone_deploy_summary(stdout: str, stderr: str, *, success: bool) -> None:
+    """每次部署结束后固定输出「预览地址」行（含完整查询串）；便于复制与助手复述。"""
     blob = f"{stdout or ''}\n{stderr or ''}"
-    url = None
+    url = _extract_edgeone_preview_url(blob)
     extras: list[str] = []
     for raw in blob.splitlines():
         line = raw.strip()
-        if line.startswith("EDGEONE_DEPLOY_URL="):
-            url = line.split("=", 1)[1].strip()
-        elif line.startswith("EDGEONE_") and "=" in line and not line.startswith("EDGEONE_DEPLOY_URL="):
+        if line.startswith("EDGEONE_") and "=" in line and not line.startswith("EDGEONE_DEPLOY_URL="):
             extras.append(line)
+
     if url:
-        print("\n======== EdgeOne 可访问链接（含预览参数，勿公开传播）========")
+        # 固定首行文案：每次 deploy 结束须能直接看到可复制预览地址
+        print("\n预览地址（须完整复制整行 URL，含 ? 后全部参数；勿公开传播）")
         print(url)
         if extras:
-            print("-------- 同次部署其它 CLI 变量（参考）--------")
+            print("\n同次部署其它 CLI 变量（参考）:")
             for e in extras:
-                print(e)
-        print("================================================================\n")
+                print(" ", e)
+        print()
+    elif success:
+        print(
+            "\n[mingox deploy] 已成功但未解析到预览地址，请从上方日志查找 EDGEONE_DEPLOY_URL 或含 eo_token 的 https 链接。\n"
+        )
     else:
         print(
-            "\n[mingox deploy] 未在输出中解析到 EDGEONE_DEPLOY_URL，"
-            "若部署成功请从上方 edgeone CLI 日志中自行复制预览链接。\n"
+            "\n[mingox deploy] 部署失败；若日志中出现含 eo_token 的预览链接可自行复制。\n"
         )
 
 
@@ -174,8 +193,7 @@ def cmd_deploy(args: argparse.Namespace) -> None:
         print(r.stdout, end="" if r.stdout.endswith("\n") else "\n")
     if r.stderr:
         print(r.stderr, end="" if r.stderr.endswith("\n") else "\n", file=sys.stderr)
-    if r.returncode == 0:
-        _edgeone_deploy_summary(r.stdout or "", r.stderr or "")
+    _edgeone_deploy_summary(r.stdout or "", r.stderr or "", success=(r.returncode == 0))
     raise SystemExit(r.returncode)
 
 
