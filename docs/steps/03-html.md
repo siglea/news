@@ -53,18 +53,6 @@ python3 workflow/mingox.py validate --post posts/2026-03-29-china-g7-europe-mark
 
 ---
 
-## 微信 profile 捷径（不经 MD 草稿）
-
-已抓取 `util/.crawl-output/...-js_content.html` 时，配置 `util/article-profiles.json` 后：
-
-```bash
-python3 workflow/mingox.py wechat --profile your-profile-key
-```
-
-与主路径共用 **`build_post_html`** 的 HTML 契约。
-
----
-
 ## 下一步
 
 **[04-publish.md](./04-publish.md)**：`serve` / `deploy` / Gitee。

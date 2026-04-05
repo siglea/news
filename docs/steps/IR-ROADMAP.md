@@ -31,6 +31,6 @@
 
 - Unicode 偏移、句切分与 HTML escape 边界。  
 - 与现有 **`02-annotate-tasks.json`** 消费方（若有）的兼容与迁移策略。  
-- 微信 profile 路径（[util/annotate-wechat-plain.py](../../util/annotate-wechat-plain.py)）需同步或共享渲染器。
+- 渲染器以 **`workflow/build_draft.py`** + **`util/annotate_lib.py`** 为单点；不再有独立 profile CLI。
 
 评审通过后再开独立开发任务；**不要求**与文档四步目录一一对应新增四个 CLI。
