@@ -1,8 +1,8 @@
 # util：抓取、共享标注库与微信快捷通道
 
-**文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**（含 **主路径 vs Legacy profile** 对照表）、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（第 1 步）、**`annotate_lib` / `annotate_merge` / `md_split`**、以及 **Legacy** **`article-profiles.json` + `annotate-wechat-plain.py`**。
+**文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（第 1 步）、**`annotate_lib` / `annotate_merge` / `md_split`**、全局词表 **`keyword_lexicon.py`**。
 
-**边界**：`article-profiles.json` **只**给 `annotate-wechat-plain` 用，不是「全局工具配置」；**新稿请用 `content/drafts/` + `mingox`**，勿再新增 profile 条目。
+**边界**：成稿元数据与正文真源一律在 **`content/drafts/<slug>/`**（`meta.json`、`01-source.md`）；不再提供 `article-profiles` 捷径。
 
 ## 依赖（抓取）
 
@@ -56,20 +56,12 @@ python3 util/crawl-with-playwright.py --url '...' --mobile --headless --out-html
 | 路径 | 作用 |
 |------|------|
 | `util/keyword_lexicon.py` | **`annotate_engine=keywords`** 的全局默认可标注词表（`_KEYWORD_ENTRIES` → `KEYWORD_LEXICON`）。 |
-| `util/annotate_lib.py` | **共享逻辑**：从 `keyword_lexicon` 载入 `KEYWORDS`、段落标注（无命中则不插 `word-block`）、`build_post_html`、词汇表行提取；被 `annotate-wechat-plain.py` 与 `workflow/build_draft.py` 共用。 |
+| `util/annotate_lib.py` | **共享逻辑**：从 `keyword_lexicon` 载入 `KEYWORDS`、段落标注（无命中则不插 `word-block`）、`build_post_html`、词汇表行提取；由 **`workflow/build_draft.py`** 等调用。 |
 | `util/annotate_merge.py` | **MD 草稿**：`chat_json` 的 JSON 校验、去重、逐句 `render_annotated_sentence`；`en` 词位规则与**对义项锚定**见文件内 `CHAT_SYSTEM_PROMPT` 与 **[content/drafts/README.md](../content/drafts/README.md)**。 |
 | `util/md_split.py` | `01-source.md` 按空行切段；供 `workflow/build_draft`、`export-chat-bundle`、`synth_llm_annotations_lexicon` 使用。 |
 | `util/.crawl-output/` | **仅放爬取结果**（已 `.gitignore`）。可按文章分子目录，避免文件名撞车。 |
-| `util/article-profiles.json` | **Legacy**：每篇一条 profile（`crawl_js`、`out_html`、标题、截断规则等）；**勿为新稿扩容**。 |
-| `util/annotate-wechat-plain.py` | **Legacy 微信生成器**：读 profile → `#js_content` → `keywords` 式标注 → 写 `posts/*.html`。 |
 
-**Legacy profile 路径为何曾有用**
-
-- 旧流程下新文章可只增 **profile + 抓取文件**，不必改 Python；**当前推荐**改为 **主路径**（`content/drafts/`），见 PIPELINE 对照表。
-- 全局词表在 `keyword_lexicon.py` 可多篇共用；若需按主题拆分可后续再拆模块或 `keywords-*.json`（当前未拆）。
-- 抓取目录被 ignore，profile 里用相对仓库根的路径指向即可，本地各机器自存 crawl 文件。
-
-**推荐抓取文件命名（示例）**
+**推荐抓取缓存命名（示例，仅供 `acquire` 调试时参考）**
 
 ```text
 util/.crawl-output/<article-slug>/js_content.html
@@ -77,38 +69,9 @@ util/.crawl-output/<article-slug>/js_content.html
 util/.crawl-output/wechat-<id>-js_content.html
 ```
 
-在 `article-profiles.json` 里把 `crawl_js` 指到对应文件即可。
+正式流水线以 **`mingox acquire --mode url`** 写入 `content/drafts/<slug>/01-source.md`，无需手填 profile。
 
-## 生成标注正文
-
-默认使用 `article-profiles.json` 里的 `default_profile`：
-
-```bash
-python3 util/annotate-wechat-plain.py
-```
-
-指定 profile：
-
-```bash
-python3 util/annotate-wechat-plain.py --profile dalio-america-decline
-```
-
-## 新增一篇文章（流程）
-
-1. 用 Playwright / 现有 `crawl-with-playwright.py`（微信建议 **`--mobile`**）保存 `js_content` 的 HTML 到 `util/.crawl-output/...`。
-2. 在 `util/article-profiles.json` 的 `profiles` 中增加一项，必填字段：
-   - `crawl_js`：相对仓库根的 HTML 路径。
-   - `out_html`：输出的 `posts/....html`。
-   - `title_zh` / `title_en` / `source_url`。
-   - `meta_description`（可选，空则 `meta` 为空字符串）。
-   - 可选版式与页脚：`source_account`（默认 `笔记侠`）、`title_emoji`（默认 `📈`）、`omit_sections_note`、`risk_blurb`（页脚「省略段落说明」与「风险提示」正文）。
-3. 截断正文（去文末广告等）：
-   - `body_end_marker`：某段 **`<p>` 纯文本** 中出现的子串（如 `不代表笔记侠立场`），命中则截到该段为止。
-   - `body_paragraph_cap`：可选；若未命中 marker，最多取前 N 段（安全网，防止拖进全文尾部）。
-4. 运行 `python3 util/annotate-wechat-plain.py --profile <你的 key>`。
-5. 如需上首页，再改根目录 `index.html` 等（不在本脚本内）。
-
-## 标注规则摘要（与 `annotate-wechat-plain.py` 一致）
+## 标注规则摘要（`annotate_engine=keywords` 与 `annotate_lib.pick_keyword`）
 
 - **不改写中文**：只插入 HTML 标注。
 - **句切分**：按 `。！？；` 切段；**每小段最多一个** `word-block`（多要点在同一句时只会标一处，这是当前产品限制）。
@@ -117,7 +80,7 @@ python3 util/annotate-wechat-plain.py --profile dalio-america-decline
 - **英文词位**：`english-word` 内 **不得含 ASCII 空格**；复合概念用 **连字符一个词位**（如 `gold-surge`、`debt-service`），使英文覆盖与下划线中文 **整段对齐**（避免「黄金暴涨」只标成 `surge` 这类半对应）。
 - **无命中**：**不插入** `word-block`（宁缺毋滥）；仅当 `KEYWORDS` 在句内命中中文片段时才标注并生成词汇表行。
 - **词汇表**：按正文首次出现的 `english-word` 去重（小写）生成表格。
-- **某篇成稿词条过少**：说明正文里的中文术语尚未进入共享 `KEYWORDS`。在**确认该词在稿内确有出现**的前提下，向 `annotate_lib.py` 的 `KEYWORDS` 追加条目（**长词组优先**，`english-word` 仍须无空格、可用连字符），然后对该 slug 重新 `mingox build`；`out_html` 文件名宜与题材一致，勿长期用「permalink / workflow 占位」类名字。
+- **某篇成稿词条过少**：说明正文里的中文术语尚未进入共享词表。在**确认该词在稿内确有出现**的前提下，向 **`util/keyword_lexicon.py`** 的 `_KEYWORD_ENTRIES` 追加条目（**长词组优先**，`english-word` 仍须无空格、可用连字符），然后对该 slug 重新 `mingox build`；`out_html` 文件名宜与题材一致，勿长期用「permalink / workflow 占位」类名字。
 
 ## 相关文件
 

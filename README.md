@@ -34,7 +34,7 @@ news/
 ├── docs/           # 文档地图 README、PIPELINE、EDITORIAL、ANNOTATION、steps/
 ├── workflow/       # mingox.py CLI（见 workflow/README.md）
 ├── content/drafts/ # 单篇草稿（见 content/drafts/README.md）
-├── util/           # 抓取、annotate_lib、keyword_lexicon、微信 profile（见 util/README.md）
+├── util/           # 抓取、annotate_lib、keyword_lexicon、annotate_merge（见 util/README.md）
 ├── posts/          # 成稿 HTML
 ├── css/ js/ images/
 ├── index.html about.html

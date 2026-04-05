@@ -175,14 +175,6 @@ def cmd_deploy(args: argparse.Namespace) -> None:
     raise SystemExit(r.returncode)
 
 
-def cmd_wechat(args: argparse.Namespace) -> None:
-    cmd = [_py(), str(ROOT / "util" / "annotate-wechat-plain.py")]
-    if args.profile:
-        cmd.extend(["--profile", args.profile])
-    r = subprocess.run(cmd, cwd=str(ROOT))
-    raise SystemExit(r.returncode)
-
-
 def main() -> None:
     ap = argparse.ArgumentParser(prog="mingox-workflow", description="MingoX content pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -266,7 +258,7 @@ def main() -> None:
 
     p_synth = sub.add_parser(
         "synth-lexicon-annotations",
-        help="Main path optional: draft 01-source + lexicon -> llm_annotations.json (not for wechat profile)",
+        help="Optional: draft 01-source + lexicon -> llm_annotations.json (keywords-style placeholder, not chat_json final)",
     )
     p_synth.add_argument("--slug", required=True)
     p_synth.set_defaults(func=cmd_synth_lexicon_annotations)
@@ -283,10 +275,6 @@ def main() -> None:
     p_d = sub.add_parser("deploy", help="Step 4: EdgeOne Pages (needs npx + token or login)")
     p_d.add_argument("--project", default="mingox")
     p_d.set_defaults(func=cmd_deploy)
-
-    p_w = sub.add_parser("wechat", help="Legacy: util/annotate-wechat-plain.py --profile")
-    p_w.add_argument("--profile", default=None)
-    p_w.set_defaults(func=cmd_wechat)
 
     args = ap.parse_args()
     args.func(args)

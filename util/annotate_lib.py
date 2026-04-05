@@ -5,7 +5,7 @@ Shared library: paragraph annotation, vocab extraction, post HTML shell.
 annotate_paragraph(..., used_en=set()) 时全文按英文词形去重：已出现过的词不再标注（宁可该句不标）。
 KEYWORDS（默认可标注词表）来自 util/keyword_lexicon.py：句子里必须出现某条目的中文子串才会参与匹配。
 长词优先、同句只标一个英文词形；去重后与「供应链/商家」等高频词叠加，容易出现整句无标——需扩充词表或关闭去重（见 workflow meta keyword_dedupe）。
-Used by util/annotate-wechat-plain.py (微信 profile) and workflow/ (MD 草稿流水线).
+Used by workflow/ (e.g. build_draft, acquire) for MD draft pipeline and HTML rendering.
 """
 from __future__ import annotations
 
