@@ -21,6 +21,7 @@ python3 workflow/mingox.py --help
 | `build_draft.py` | 第 2–3 步（实现上同一 `build`）：`01-source.md` → `02-annotate-tasks.json` + `posts/*.html`；`meta.annotate_engine` 省略时**按仓库约定默认为 `chat_json`**；`keywords` 须显式写出（仅编者单独要求某篇时使用）；分步见 [docs/steps/02-annotate.md](../docs/steps/02-annotate.md)、[docs/steps/03-html.md](../docs/steps/03-html.md)。 |
 | `validate.py` | 相邻 `word-block` 检测（与 [docs/EDITORIAL.md](../docs/EDITORIAL.md) 一致） |
 | `paths.py` | 仓库根路径 |
+| `build_deploy_site.py` | EdgeOne 专用：生成 **`site/`** 最小静态树（见根目录 **`edgeone.json`**），避免部署包文件数超限 |
 | `requirements.txt` | URL 提取与搜索可选依赖 |
 | `synth_llm_annotations_lexicon.py` | **非 chat_json 终稿**：keywords 式稀疏占位。`chat_json` 须大模型产出 JSON（不必 Cursor），见 [docs/ANNOTATION.md](../docs/ANNOTATION.md)。 |
 | `gen_dense_chat_json.py` | **应急**：词表匹配 + en 去重；**最长 `zh` 优先**；无匹配则该句 `skip`；须对话补全后再当终稿。 |

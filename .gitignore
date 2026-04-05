@@ -37,6 +37,8 @@ desktop.ini
 .env
 .edgeone/*
 .tef_dist/*
+# EdgeOne build output (edgeone.json buildCommand)
+site/
 
 # OpenClaw 配置文件（与任务无关）
 openclaw.json
