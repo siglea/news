@@ -16,4 +16,6 @@ alwaysApply: false
 5. `python3 workflow/mingox.py validate --post posts/...html`。
 6. **发布**：`python3 workflow/mingox.py deploy --project mingox`（需本机 Node/npx 与 `.edgeone/.token` 或已登录 CLI）；若环境无密钥，说明阻塞原因并列出用户本地需执行的命令。
 
+**部署结果汇报**：助手在对话中汇报 `mingox deploy` 时，**每次都必须写出完整预览地址**（终端以「预览地址」开头的下一行，或 `EDGEONE_DEPLOY_URL=` 后的整段 URL，**须含 `?` 及 `eo_token` 等全部查询参数**）。勿只写「部署成功」而不给链接；勿公开传播含令牌的 URL 到公开场合。
+
 `util/.crawl-output/` 仅作缓存，**不替代** `content/drafts/<slug>/` 与 `posts/*.html` 成稿。
