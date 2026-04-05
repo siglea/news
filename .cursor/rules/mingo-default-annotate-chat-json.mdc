@@ -11,4 +11,4 @@ alwaysApply: true
 - **不要使用 `keywords`** 来「先跑通 build」或图省事，**除非用户在本对话中明确说某篇（或全局）改用 `keywords`**。
 - 若 `meta.json` 未写 `annotate_engine`，仓库实现按 **`chat_json`** 处理；需要 `keywords` 时必须**显式**写入并征得用户同意。
 
-仓库条文见 `docs/ANNOTATION.md` 文首与 `content/drafts/README.md`「标注引擎」。
+仓库条文见 `docs/ANNOTATION.md` 文首与 `content/drafts/README.md`「标注引擎」。产出或手改 `llm_annotations.json` 时，还须遵守 `docs/EDITORIAL.md` 与 `util/annotate_merge.py` 内 `CHAT_SYSTEM_PROMPT`：**句义极性**（勿把强化句标成反义）、**勿用 `zh` 切开机构品牌**（可改「作者」等）、**朴实常见英文**（勿为去重或炫学换罕用大词）。

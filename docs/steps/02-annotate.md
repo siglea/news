@@ -20,7 +20,7 @@
 |------|------|
 | 引擎决策树、真源禁区、校验分层 | **[docs/ANNOTATION.md](../ANNOTATION.md)** |
 | `zh`/`en` 同位锚定、`gloss`、对话 JSON | **[content/drafts/README.md](../../content/drafts/README.md)** |
-| 选取原则、句密度、相邻块（编辑规范全文） | **[docs/EDITORIAL.md](../EDITORIAL.md)** |
+| 选取原则、句密度、相邻块、外源稿文首出处提示与文末版权块（编辑规范全文） | **[docs/EDITORIAL.md](../EDITORIAL.md)** |
 
 ---
 

@@ -22,7 +22,7 @@ python3 workflow/mingox.py validate --post posts/2026-03-29-china-g7-europe-mark
 
 ## 页面结构约定
 
-- **正文容器**：`<article class="post-content">` 内为标题 `h1`（含 `<small class="title-en">`）与多个 `<p>...</p>`。
+- **正文容器**：`<article class="post-content">` 内为标题 `h1`（含 `<small class="title-en">`）、可选 **`post-source-banner` 出处一句**（`include_source_footer` + `source_account` 时由 `build_post_html` 注入，详见 [EDITORIAL.md](../EDITORIAL.md)「外源素材与版权声明」），以及多个 `<p>...</p>`。
 - **词汇标注 DOM**（样式由 [css/style.css](../../css/style.css) 消费）：
   - `<span class="word-block">` → 内层 `<span class="english-word">` + `<span class="word-info">`（音标与释义）。
 - **篇末词汇表**：`build_post_html` 生成表格；**当前实现**从正文 HTML **反扫** `word-block` 汇总行（非单独 IR 文件）。
