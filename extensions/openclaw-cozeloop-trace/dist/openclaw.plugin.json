@@ -1,0 +1,33 @@
+{
+  "id": "openclaw-cozeloop-trace",
+  "name": "OpenClaw CozeLoop Trace",
+  "version": "0.1.0",
+  "description": "Report OpenClaw execution traces to CozeLoop via OpenTelemetry",
+  "type": "plugin",
+  "entry": "./index.js",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "endpoint": {
+        "type": "string",
+        "default": "https://api.coze.cn/v1/loop/opentelemetry",
+        "description": "CozeLoop OTLP endpoint URL"
+      },
+      "authorization": {
+        "type": "string",
+        "default": "",
+        "description": "Authorization header value"
+      },
+      "workspaceId": {
+        "type": "string",
+        "default": "",
+        "description": "Cozeloop workspace ID"
+      },
+      "debug": {
+        "type": "boolean",
+        "default": false,
+        "description": "Enable debug logging"
+      }
+    }
+  }
+}
