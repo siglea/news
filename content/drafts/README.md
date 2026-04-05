@@ -10,9 +10,9 @@
 | `out_html` 命名 | **`posts/YYYY-MM-DD-<题材>.html`**：`<题材>` 为**可读英文 kebab**（人名、公司、主题词），与范文 `posts/2026-04-03-pinduoduo-xinpinmu-supply-chain.html` 一致。**禁止**用草稿目录名或微信文章 id 当文件名（如 `wechat-ymssqxei`）；`init` 的 `--slug` 可与 `out_html` 不同。改路径后需同步 `index.html` 与站内链接。 |
 | `01-source.md` | **第 1 步**输出的正文（Markdown，按空行分段）。微信 HTML 以 section/leaf 为主时，由 `annotate_lib` 的 **plain/leaf 回退抽取**生成；偶见首段符号（如 `▎`）可手删后重建。 |
 | `02-annotate-tasks.json` | **第 2 步**由 `mingox build` 生成的复合任务快照（可复查、可版本管理）。 |
-| **`llm_annotations.json`** | 当 `annotate_engine` 为 **`chat_json`** 时，**须由对话 LLM** 按 `export-chat-bundle` 规则产出（**每句至少 1 处、全文 `en` 不重复**，见 [EDITORIAL.md](../../docs/EDITORIAL.md)「chat_json 真源 vs 自动化工具」）。**`synth-lexicon-annotations` 仅为 keywords 式稀疏占位，不得当终稿。** 应急可用 `python3 workflow/gen_dense_chat_json.py <slug>` 铺一批词表命中项（无命中句为 `skip`），再对话补全。 |
+| **`llm_annotations.json`** | 当 `annotate_engine` 为 **`chat_json`** 时，须按 `export-chat-bundle` 规则由**大模型对话或等价方式**产出（**每句至少 1 处、全文 `en` 不重复**，见 [EDITORIAL.md](../../docs/EDITORIAL.md)「chat_json 真源 vs 自动化工具」）。**不依赖 Cursor**：任意 LLM 界面或手改 JSON 均可，只要满足 [docs/ANNOTATION.md](../../docs/ANNOTATION.md)「非 Cursor 环境」一节。**`synth-lexicon-annotations` 仅为 keywords 式稀疏占位，不得当终稿。** 应急可用 `python3 workflow/gen_dense_chat_json.py <slug>` 铺一批词表命中项（无命中句为 `skip`），再补全。 |
 | `annotate_lexicon_extra.json` | （可选）仅服务 **`synth-lexicon-annotations`** 的补充词条；**不替代**对话产出的 `llm_annotations.json`。 |
-| `llm-chat-bundle.json` | （可选）`export-chat-bundle` 导出，供 `chat_json` 对话使用。 |
+| `llm-chat-bundle.json` | （可选）`export-chat-bundle` 导出，供把 `system_prompt` + `sentences` 交给大模型（任意客户端）后写回 `llm_annotations.json`。 |
 
 抓取缓存仍在 **`util/.crawl-output/`**（不提交），此处只放编辑定稿与元数据。微信抓取技巧与段落抽取逻辑见 **[util/README.md](../../util/README.md)**。
 
@@ -33,10 +33,10 @@
 
 ## 推荐工作流（从 `01-source.md` 出发，**`chat_json` 主路径**）
 
-1. **`python3 workflow/mingox.py export-chat-bundle --slug <slug>`**，将 bundle 中的 `system_prompt` 与 `sentences` 交给助手，产出 **`{"version":1,"annotations":[...]}`**，保存为 **`llm_annotations.json`**（**每句须有标、勿无故 skip；全文 `en` 不重复**）。**不要**用 `synth-lexicon-annotations` 代替本条。仅应急时可 **`python3 workflow/gen_dense_chat_json.py <slug>`** 铺词表命中，无匹配句保持原文（`skip`），再对话精修补句。  
+1. **`python3 workflow/mingox.py export-chat-bundle --slug <slug>`**，将 bundle 中的 `system_prompt` 与 `sentences` 交给**任意大模型或助手**（网页、API、IDE 插件等，**不必 Cursor**），产出 **`{"version":1,"annotations":[...]}`**，保存为 **`llm_annotations.json`**（**每句须有标、勿无故 skip；全文 `en` 不重复**）。**不要**用 `synth-lexicon-annotations` 代替本条。仅应急时可 **`python3 workflow/gen_dense_chat_json.py <slug>`** 铺词表命中，无匹配句保持原文（`skip`），再补全。  
 2. **`meta.json`** 设 **`"annotate_engine": "chat_json"`**（及可选的 `llm_annotations_file`）。  
 3. **`python3 workflow/mingox.py build --slug <slug>`** → 生成 `02-annotate-tasks.json` 与 `posts/*.html`。  
-4. 若合并 stderr 提示缺句/校验失败，**改 JSON 或再开一轮对话**补全；成稿后仍按 [docs/EDITORIAL.md](../../docs/EDITORIAL.md) 做密度与相邻块人工扫。  
+4. 若合并 stderr 提示缺句/校验失败，**改 JSON 或再跑一轮大模型**补全；成稿后仍按 [docs/EDITORIAL.md](../../docs/EDITORIAL.md) 做密度与相邻块人工扫。  
 
 ---
 

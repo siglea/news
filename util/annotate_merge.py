@@ -234,8 +234,10 @@ def export_chat_bundle_dict(paragraphs: list[str]) -> dict[str, Any]:
         "sentence_count": len(all_sents),
         "sentences": [{"i": i, "text": t} for i, t in enumerate(all_sents)],
         "instructions": (
-            "将 system_prompt 与 sentences 发给对话，产出 JSON 存为 llm_annotations.json 后 build；"
+            "将 system_prompt 与 sentences 发给任意大模型对话（网页/API/IDE 等，不必 Cursor），"
+            "产出 JSON 存为 llm_annotations.json 后执行 build；"
             "或改用 meta.annotate_engine=keywords 使用仓库全局词表（util/keyword_lexicon.py）。"
+            "详见 docs/ANNOTATION.md「非 Cursor 环境」。"
         ),
         "system_prompt": CHAT_SYSTEM_PROMPT,
         "response_schema": {

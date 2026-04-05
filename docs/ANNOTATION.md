@@ -31,6 +31,17 @@
 - **`chat_json`**：渲染真源仅为 `llm_annotations.json`（及 `llm_annotations_file` 所指路径）。  
 - 改引擎时核对 `meta.json`，避免「文件已换、引擎未改」或反之。
 
+### 非 Cursor 环境如何使用 `chat_json`
+
+流水线**不**调用 Cursor API，也**不**读取 `.cursor` 目录；`build` / `validate` / `deploy` 与具体 IDE 无关。
+
+1. **`python3 workflow/mingox.py export-chat-bundle --slug <slug>`** 在本地生成 `llm-chat-bundle.json`（含 `system_prompt` 与逐句 `sentences`）。
+2. 将上述内容交给**任意**能按提示产出 JSON 的方式：网页版大模型、自建 API、其它编辑器插件、或纯人工编写/修改；**不必**使用 Cursor。
+3. 将符合 `response_schema` 的 **`{"version":1,"annotations":[...]}`** 保存为 `content/drafts/<slug>/llm_annotations.json`（或 `meta.llm_annotations_file` 指定路径）。
+4. 执行 **`mingox build`**。若已有合法 `llm_annotations.json`，可跳过 export/对话，直接 build。
+
+`.cursor/rules/*.mdc` 仅为**可选**的编者备忘（抓取与标注习惯）；不参与脚本执行。详见 [content/drafts/README.md](../content/drafts/README.md)。
+
 ---
 
 ## 机器校验 vs 编辑规范（分层）
@@ -46,7 +57,7 @@
 ## 常用命令
 
 ```bash
-# 对话路径：导出 bundle → 对话生成 JSON → build
+# chat_json：导出 bundle → 任意大模型产出 JSON → build（不必 Cursor，见上文「非 Cursor 环境」）
 python3 workflow/mingox.py export-chat-bundle --slug my-topic
 python3 workflow/mingox.py build --slug my-topic
 

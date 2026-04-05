@@ -232,7 +232,7 @@ grep -rE '</span></span>[[:space:]]+<span class="word-block"' posts/*.html
 2. **该区块不加词汇标注**：版权说明区域内**不使用** `word-block`，其中出现的英文（如 URL）也不必拆成学习词条；篇末「重点词汇」表**只收录** `<article class="post-content">` 内实际标注的词，**不收录**仅为版权块而标的词。
 3. **建议写清的事项**：第三方**平台与帐号名**、界面显示的**作者/署名**（若有）、**可点击的原文固定链接**；说明本站条目为**衍生整理**、不代为授权、不主张对原文的权利；商业转载与摘编由使用者自行联系**权利人**；并保留「不构成投资建议 / 法律意见」等**必要免责**（视题材酌定）。
 4. **正文仍须合规**：`<article class="post-content">` 内仍完全遵守「词汇标注规范」与「落地标准」中的句界、`word-block` 密度、相邻块与词汇表一致性要求。
-5. **抓取素材**：若简单 HTTP 拉取被风控（如微信「环境异常」），按 [steps/01-acquire.md](./steps/01-acquire.md)、[util/README.md](../util/README.md) 与 `.cursor/rules/web-crawl-playwright-fallback.mdc` 在本机用 Playwright 等工具获取正文后再改编；**改编与抓取不等于取得转载授权**，发布与商用仍须遵守源站规则及著作权法。
+5. **抓取素材**：若简单 HTTP 拉取被风控（如微信「环境异常」），按 [steps/01-acquire.md](./steps/01-acquire.md)、[util/README.md](../util/README.md) 在本机用 Playwright 等工具获取正文后再改编；若使用 Cursor，可额外参考仓库内 `.cursor/rules/web-crawl-playwright-fallback.mdc`（**非运行依赖**）。**改编与抓取不等于取得转载授权**，发布与商用仍须遵守源站规则及著作权法。
 
 ## 新稿与首页入口
 
