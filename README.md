@@ -1,8 +1,8 @@
 # 🎙️ MingoX
 
-**Multimedia Post in Mixed Languages** — 多语言多媒体内容平台：中英混排文章、词汇标注与静态站点发布。
+**Multimedia Post in Mixed Languages** — 多语言多媒体内容平台：中英混排文章与静态站点发布（历史成稿可含词汇标注 DOM；新流水线接入前 `build` 不生成标注）。
 
-> **文档迁移**：原根目录中的长篇**版式、词汇密度、相邻块、外源版权**等规范已迁至 **[docs/EDITORIAL.md](docs/EDITORIAL.md)**。请编辑与校对时以该文件为权威。
+> **文档迁移**：原根目录中的长篇**版式、外源版权**等规范已迁至 **[docs/EDITORIAL.md](docs/EDITORIAL.md)**。请编辑与校对时以该文件为权威。
 
 ## 🌐 在线访问
 
@@ -22,8 +22,7 @@ python3 workflow/mingox.py serve --port 8765
 
 - **四步总览、目录职责、`mingox` 命令**：[docs/PIPELINE.md](docs/PIPELINE.md)
 - **第 1～4 步分册索引**：[docs/steps/README.md](docs/steps/README.md)
-- **标注引擎与校验分层**：[docs/ANNOTATION.md](docs/ANNOTATION.md)（**默认 `chat_json`**；`chat_json` 标注可用任意大模型，**不必 Cursor**，见文内「非 Cursor 环境」）
-- **标题、列表、词汇、版权等编辑规范全文**：[docs/EDITORIAL.md](docs/EDITORIAL.md)
+- **标题、列表、版权等编辑规范全文**：[docs/EDITORIAL.md](docs/EDITORIAL.md)
 - **单篇草稿目录约定**：[content/drafts/README.md](content/drafts/README.md)
 - **抓取与 Playwright**：[docs/steps/01-acquire.md](docs/steps/01-acquire.md)、[util/README.md](util/README.md)
 
@@ -31,10 +30,10 @@ python3 workflow/mingox.py serve --port 8765
 
 ```
 news/
-├── docs/           # 文档地图 README、PIPELINE、EDITORIAL、ANNOTATION、steps/
+├── docs/           # 文档地图 README、PIPELINE、EDITORIAL、steps/
 ├── workflow/       # mingox.py CLI（见 workflow/README.md）
 ├── content/drafts/ # 单篇草稿（见 content/drafts/README.md）
-├── util/           # 抓取、annotate_lib、keyword_lexicon、annotate_merge（见 util/README.md）
+├── util/           # 抓取、annotate_lib、md_split（见 util/README.md）
 ├── posts/          # 成稿 HTML
 ├── css/ js/ images/
 ├── index.html about.html

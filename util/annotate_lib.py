@@ -1,22 +1,14 @@
 #!/usr/bin/env python3
 """
-Shared library: paragraph annotation, vocab extraction, post HTML shell.
-句内无 KEYWORDS 命中时不插入 word-block（宁缺毋滥）。
-annotate_paragraph(..., used_en=set()) 时全文按英文词形去重：已出现过的词不再标注（宁可该句不标）。
-KEYWORDS（默认可标注词表）来自 util/keyword_lexicon.py：句子里必须出现某条目的中文子串才会参与匹配。
-长词优先、同句只标一个英文词形；去重后与「供应链/商家」等高频词叠加，容易出现整句无标——需扩充词表或关闭去重（见 workflow meta keyword_dedupe）。
-Used by workflow/ (e.g. build_draft, acquire) for MD draft pipeline and HTML rendering.
+Shared library: WeChat/HTML 正文抽取、成稿页 HTML 壳、词汇表反扫（仅当正文含 word-block 时）。
+
+`mingox build`：若草稿目录存在 `llm_annotations.json`，经 `annotate_merge` 注入 `word-block`；否则段落仅为转义 `<p>`。
 """
 from __future__ import annotations
 
 import html
 import re
 from html.parser import HTMLParser
-
-from keyword_lexicon import KEYWORD_LEXICON
-
-# 与 annotate_engine=keywords 使用的全局词表一致；别名保留便于 import annotate_lib as al 后 al.KEYWORDS
-KEYWORDS: list[tuple[str, str, str, str, str]] = KEYWORD_LEXICON
 
 DEFAULT_SOURCE_ACCOUNT = "笔记侠"
 DEFAULT_OMIT_SECTIONS_NOTE = (
@@ -105,7 +97,7 @@ def post_source_footer_html(
                     {intro}
                     <p style="margin:0 0 0.65rem 0;"><strong>原文固定链接：</strong><a href="{url_esc}" rel="noopener noreferrer" target="_blank">{url_vis}</a></p>
                     <p style="margin:0 0 0.65rem 0;">著作权与转载规则以微信帐号、原作者及腾讯平台公示为准；商业性转载、摘编或再发布须自行取得权利人许可。本站不代为授权，亦不主张对原文的任何权利。</p>
-                    <p style="margin:0 0 0.65rem 0;">以上为 MingoX 对公开报道要点的文摘扩写，供双语阅读与词汇学习；如需引用原文论点或段落，请以微信原文为准并遵守平台与权利人的合规要求。</p>
+                    <p style="margin:0 0 0.65rem 0;">以上为 MingoX 对公开报道要点的文摘扩写，供双语阅读；如需引用原文论点或段落，请以微信原文为准并遵守平台与权利人的合规要求。</p>
                     <div {_POST_SOURCE_FOOTER_RISK_BOX}>
                         <p style="margin:0 0 0.5rem 0;"><strong>风险提示：</strong>{risk_esc}</p>
                         <p style="margin:0;">{risk2_esc}</p>
@@ -116,7 +108,7 @@ def post_source_footer_html(
     return f"""
                 <div class="post-source-footer" {_POST_SOURCE_FOOTER_OUTER}>
                     {title_p}
-                    <p style="margin:0 0 0.65rem 0;">正文汉字与标点尽量保持微信公众号「{sa}」所刊原文一致，本站仅添加用于语言学习的英文词汇标注（<code>word-block</code>），不构成对原文的改写或编辑。</p>
+                    <p style="margin:0 0 0.65rem 0;">正文汉字与标点尽量保持微信公众号「{sa}」所刊原文一致；本站可添加用于语言学习的英文词汇标注（<code>word-block</code>），不构成对原文的改写或编辑。</p>
                     <p style="margin:0 0 0.65rem 0;"><strong>原文固定链接：</strong><a href="{url_esc}" rel="noopener noreferrer" target="_blank">{url_vis}</a></p>
                     <p style="margin:0 0 0.65rem 0;">著作权归原作者及微信公众平台所有；商业转载、摘编须自行取得权利人许可。</p>
                     <p style="margin:0 0 0.65rem 0;">{omit_esc}</p>
@@ -272,12 +264,27 @@ def extract_wechat_span_leaf_paragraphs(html: str) -> list[str]:
     return [p.strip() for p in pieces if len(p.strip()) > 12]
 
 
+def slice_body_chunks(
+    chunks: list[str],
+    end_marker: str | None,
+    paragraph_cap: int | None,
+) -> list[str]:
+    """Truncate crawl paragraphs: prefer marker in text; else optional cap (safety)."""
+    if end_marker:
+        for i, c in enumerate(chunks):
+            if end_marker in c:
+                return chunks[: i + 1]
+    if paragraph_cap is not None:
+        return chunks[:paragraph_cap]
+    return chunks
+
+
 def split_sentences(text: str) -> list[str]:
-    """Split on 。！？； keep delimiter on sentence."""
+    """按 。！？； 切句，标点在句末保留。"""
     if not text.strip():
         return []
     out: list[str] = []
-    buf = []
+    buf: list[str] = []
     for ch in text:
         buf.append(ch)
         if ch in "。！？；":
@@ -291,40 +298,6 @@ def split_sentences(text: str) -> list[str]:
     return out
 
 
-def pick_keyword(body: str) -> tuple[str, str, str, str, str] | None:
-    """Return (zh_span, en, ipa, pos, gloss): longest zh in body; tie-break by leftmost find."""
-    best: tuple[int, int, str, str, str, str, str] | None = None
-    for zh, en, ipa, pos, gloss in KEYWORDS:
-        idx = body.find(zh)
-        if idx < 0:
-            continue
-        cand = (-len(zh), idx, zh, en, ipa, pos, gloss)
-        if best is None or cand < best:
-            best = cand
-    if best is None:
-        return None
-    _, _, zh, en, ipa, pos, gloss = best
-    return zh, en, ipa, pos, gloss
-
-
-def pick_keyword_unused(body: str, used_en: set[str]) -> tuple[str, str, str, str, str] | None:
-    """同 pick_keyword，但跳过 english 已在 used_en（小写）中出现过的词条。"""
-    best: tuple[int, int, str, str, str, str, str] | None = None
-    for zh, en, ipa, pos, gloss in KEYWORDS:
-        if en.lower() in used_en:
-            continue
-        idx = body.find(zh)
-        if idx < 0:
-            continue
-        cand = (-len(zh), idx, zh, en, ipa, pos, gloss)
-        if best is None or cand < best:
-            best = cand
-    if best is None:
-        return None
-    _, _, zh, en, ipa, pos, gloss = best
-    return zh, en, ipa, pos, gloss
-
-
 def sentence_body_and_punct(sent: str) -> tuple[str, str]:
     sent = sent.strip()
     m = re.search(r"([。！？；])$", sent)
@@ -334,7 +307,6 @@ def sentence_body_and_punct(sent: str) -> tuple[str, str]:
 
 
 def escape_plain_sentence(sent: str) -> str:
-    """Escape full sentence for HTML (body + trailing 。！？；)."""
     sent = sent.strip()
     if not sent:
         return ""
@@ -344,15 +316,10 @@ def escape_plain_sentence(sent: str) -> str:
     return html.escape(body) + (html.escape(punct) if punct else "")
 
 
-# 左括在 zh 之前、右括紧跟在 zh 之后时，把右括挪到英文词之前，避免「中文english」的嵌套顺序
 _QUOTE_PULL_PAIRS: tuple[tuple[str, str], ...] = (("「", "」"), ("『", "』"))
 
 
 def _closing_bracket_before_english(before_zh: str, after_zh: str) -> tuple[str, str]:
-    """若 zh 之后紧跟配对闭引号，且 zh 紧接在开引号后（before_zh 以「/『 结尾），则把闭引号挪到英文前。
-
-    before_zh 为原文中 zh 之前的片段末尾（通常用 before+pre，不含已下划线的 mid_u）。
-    """
     if not after_zh:
         return "", after_zh
     left = before_zh.rstrip()
@@ -373,12 +340,6 @@ def render_annotated_sentence(
     *,
     underline: str | None = None,
 ) -> str:
-    """Insert word-anchor + word-block for one sentence (zh must appear in sentence body).
-
-    - ``zh_m``：句中用于定位的连续子串。
-    - ``underline``：可选，须为 ``zh_m`` 的子串；**仅对其画下划线**，英文紧跟其后；未提供则整段 ``zh_m`` 画线。
-    - 若 ``underline`` 占满 ``zh_m`` 末尾且无 post，且「」配对应出现在英文前，则闭引号在英文前输出。
-    """
     sent = sent.strip()
     if not sent:
         return ""
@@ -421,50 +382,6 @@ def render_annotated_sentence(
         + html.escape(tail_after_zh)
     )
     return inner + html.escape(punct) if punct else inner
-
-
-def count_han_chars(text: str) -> int:
-    return len(re.findall(r"[\u4e00-\u9fff]", text))
-
-
-def annotate_sentence(sent: str, used_en: set[str] | None = None) -> str:
-    sent = sent.strip()
-    if not sent:
-        return ""
-    body, punct = sentence_body_and_punct(sent)
-    if not body:
-        return sent
-    kw = pick_keyword_unused(body, used_en) if used_en is not None else pick_keyword(body)
-    if kw is None:
-        return html.escape(body) + (html.escape(punct) if punct else "")
-    zh_m, en, ipa, pos, gloss = kw
-    if used_en is not None:
-        used_en.add(en.lower())
-    return render_annotated_sentence(sent, zh_m, en, ipa, pos, gloss)
-
-
-def annotate_paragraph(para: str, used_en: set[str] | None = None) -> str:
-    sents = split_sentences(para.replace("\r", ""))
-    if not sents:
-        return f"<p>{html.escape(para)}</p>"
-    parts = [annotate_sentence(s, used_en) for s in sents]
-    inner = "".join(parts)
-    return f"<p>{inner}</p>"
-
-
-def slice_body_chunks(
-    chunks: list[str],
-    end_marker: str | None,
-    paragraph_cap: int | None,
-) -> list[str]:
-    """Truncate crawl paragraphs: prefer marker in text; else optional cap (safety)."""
-    if end_marker:
-        for i, c in enumerate(chunks):
-            if end_marker in c:
-                return chunks[: i + 1]
-    if paragraph_cap is not None:
-        return chunks[:paragraph_cap]
-    return chunks
 
 
 def extract_vocab_rows(paras_html: str) -> list[tuple[str, str, str, str]]:

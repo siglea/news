@@ -32,7 +32,7 @@ pip3 install -r workflow/requirements.txt
 | 步骤 | 依赖 |
 |------|------|
 | 1 获取原文 | `workflow/requirements.txt`；微信域名另需 Playwright |
-| 2 标注与校验 | 同仓库 `util/annotate_lib.py`（仅标准库 + 抓取链无额外强依赖） |
+| 2 标注 | `export-chat-bundle` + `llm_annotations.json`（见 steps/02-annotate.md）；可省略 |
 | 3 出 HTML | 同上 |
 | 4 本地预览 | 仅 Python：`python -m http.server` |
 | 4 远程发布 | Node + EdgeOne CLI |

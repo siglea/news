@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 Step 2–3: 01-source.md + meta.json -> 02-annotate-tasks.json + posts/*.html
+
+若存在 `llm_annotations.json`（或 meta.llm_annotations_file），则合并词汇标注；否则仅输出转义段落。
 """
 from __future__ import annotations
 
@@ -36,45 +38,26 @@ def build_slug(slug: str, *, skip_validate: bool = False) -> Path:
         "slug": slug,
         "paragraphs": [],
     }
-    paras_html_parts: list[str] = []
-    # 仓库约定：默认 chat_json（与 mingox init、docs/ANNOTATION.md 一致）；keywords 须 meta 显式写明
-    engine = meta.get("annotate_engine", "chat_json")
-    if engine == "chat_json":
+    ann_name = meta.get("llm_annotations_file", "llm_annotations.json")
+    ann_path = draft / ann_name
+
+    if ann_path.is_file():
         import annotate_merge as am
 
-        ann_name = meta.get("llm_annotations_file", "llm_annotations.json")
-        ann_path = draft / ann_name
-        if not ann_path.is_file():
-            raise SystemExit(
-                f"missing {ann_path} (annotate_engine=chat_json).\n"
-                f"  1) python3 workflow/mingox.py export-chat-bundle --slug {slug}\n"
-                f"  2) 将 bundle 交给任意大模型，按 system_prompt 生成 JSON，保存为上述路径（不必 Cursor）\n"
-                f"  3) 再执行 build"
-            )
         payload = json.loads(ann_path.read_text(encoding="utf-8"))
         paras_html_parts, dbg = am.apply_annotations_payload(paras_text, payload)
-        print("annotate_engine=chat_json", dbg, file=sys.stderr)
-        for i, ptxt in enumerate(paras_text):
-            html_p = (
-                paras_html_parts[i]
-                if i < len(paras_html_parts)
-                else f"<p>{html.escape(ptxt)}</p>"
-            )
-            tasks["paragraphs"].append({"index": i, "source_text": ptxt, "html": html_p})
-    elif engine == "keywords":
-        dedupe = meta.get("keyword_dedupe", True)
-        used_en: set[str] | None = set() if dedupe else None
-        for i, ptxt in enumerate(paras_text):
-            html_p = al.annotate_paragraph(ptxt, used_en)
-            tasks["paragraphs"].append({"index": i, "source_text": ptxt, "html": html_p})
-            paras_html_parts.append(html_p)
+        print("annotate_merge", dbg, file=sys.stderr)
     else:
-        hint = (
-            ' 原 "llm"（HTTP）已删除，请改用 "chat_json"。' if engine == "llm" else ""
+        paras_html_parts = [f"<p>{html.escape(ptxt)}</p>" for ptxt in paras_text]
+        print("annotate_merge skipped (no llm_annotations.json)", file=sys.stderr)
+
+    for i, ptxt in enumerate(paras_text):
+        html_p = (
+            paras_html_parts[i]
+            if i < len(paras_html_parts)
+            else f"<p>{html.escape(ptxt)}</p>"
         )
-        raise SystemExit(
-            f"unknown annotate_engine={engine!r}; use \"keywords\" or \"chat_json\".{hint}"
-        )
+        tasks["paragraphs"].append({"index": i, "source_text": ptxt, "html": html_p})
 
     paras_html = "\n\n".join(paras_html_parts)
     tasks_path = draft / "02-annotate-tasks.json"

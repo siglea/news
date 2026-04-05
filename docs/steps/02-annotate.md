@@ -1,56 +1,61 @@
-# 第 2 步：标注（语义与真源）
+# 第 2 步：词汇标注（四六级向）
 
-本步关注：**选什么引擎、维护哪些文件、语义规则（同位锚定、词表字段）**。  
-**不**在本篇展开整页 HTML 壳与 CSS（见 [03-html.md](./03-html.md)）。
+## `system_prompt`（单一来源）
 
-**仓库约定**：**默认 `chat_json`**；**仅当编者对某篇单独要求时**才使用 `keywords`。详见 [ANNOTATION.md](../ANNOTATION.md) 文首。
+发给模型的完整说明（角色、选词密度、JSON 输出约束）在 **[`util/prompts/chat_annotate_system.txt`](../../util/prompts/chat_annotate_system.txt)**。  
+`export-chat-bundle` 导出的 `system_prompt` 字段即该文件全文；修改标注规则时**只改此文件**即可。
 
----
+## 产出文件
 
-## 当前实现说明（与 HTML 的关系）
+1. **`llm-chat-bundle.json`**（可选，便于复制给模型）  
+   `python3 workflow/mingox.py export-chat-bundle --slug <slug>`  
+   内含 `system_prompt`、`sentences`（按 `。！？；` 切句后的序号与原文）。
 
-今天 **`mingox build` 一条命令**同时完成：把标注合并进段落 **HTML 片段**（含 `word-block`）→ 再套全页模板写出 `posts/*.html`。  
-因此磁盘上的 **`02-annotate-tasks.json`** 里 `paragraphs[].html` 已是「带标签的 `<p>`」，不是中立的纯语义 IR。若未来要「标注只产语义、成稿再渲染」，见 [IR-ROADMAP.md](./IR-ROADMAP.md)。
+2. **`llm_annotations.json`**（`build` 会读取）  
+   默认路径：`content/drafts/<slug>/llm_annotations.json`，也可用 `meta.json` 的 **`llm_annotations_file`** 指定文件名。
 
----
+合法 JSON 示例（注意**不要**尾随逗号）：
 
-## 权威链接
+```json
+{
+  "version": 1,
+  "annotations": [
+    { "i": 0, "skip": true },
+    {
+      "i": 4,
+      "zh": "营收",
+      "en": "revenue",
+      "ipa": "[ˈrevənjuː]",
+      "pos": "n.",
+      "gloss": "营收"
+    }
+  ]
+}
+```
 
-| 主题 | 文档 |
-|------|------|
-| 引擎决策树、真源禁区、校验分层 | **[docs/ANNOTATION.md](../ANNOTATION.md)** |
-| `zh`/`en` 同位锚定、`gloss`、对话 JSON | **[content/drafts/README.md](../../content/drafts/README.md)** |
-| 选取原则、句密度、相邻块、外源稿文首出处提示与文末版权块（编辑规范全文） | **[docs/EDITORIAL.md](../EDITORIAL.md)** |
+- **`i`**：与 bundle 里 `sentences[].i` 一致（从 0 起）。  
+- 无合适词：`{"i": k, "skip": true}`。  
+- 有标注：`zh` 须为该句去掉句末 `。！？；` 后正文中的**连续子串**，且与 `en` **同一义项**；`en` 为**单个**英文词位（ASCII 字母数字，无空格、无连字符拼接；专名如 `CUDA`、`AI` 可）；无法用一词对译时请收窄 `zh` 或填 `skip`；`ipa` 用方括号；`pos`、`gloss` 同上例。  
+- 合并层会按顺序对 **`en` 去重**，重复的后续条目不生效，尽量少重复。
 
----
-
-## 引擎与文件（速查）
-
-| `meta.annotate_engine` | 真源文件 | 说明 |
-|------------------------|----------|------|
-| **`chat_json`**（**默认推荐新稿**） | `llm_annotations_file`（默认 `llm_annotations.json`） | 先 `export-chat-bundle`，对话产出 JSON；经 `annotate_merge` 校验 |
-| `keywords`（非默认；编者单独要求且 `meta` 显式写出） | 无单独文件（[util/keyword_lexicon.py](../../util/keyword_lexicon.py)） | 词汇表偏短；扩充 `_KEYWORD_ENTRIES` |
-
-**对话路径示例**（**不依赖 Cursor**：任意大模型客户端或手改 JSON 均可）：
+## 与 `build` 衔接
 
 ```bash
 python3 workflow/mingox.py export-chat-bundle --slug my-topic
-# 将 llm-chat-bundle.json 中的 system_prompt + sentences 交给大模型 → 保存 llm_annotations.json
-# meta 须为 annotate_engine: chat_json（默认即 chat_json）
+# 将 system_prompt + sentences 交给任意大模型 → 保存 llm_annotations.json
 python3 workflow/mingox.py build --slug my-topic
 ```
 
-说明见 **[docs/ANNOTATION.md](../ANNOTATION.md)**「非 Cursor 环境如何使用 chat_json」。
+无大模型 API 时，可用词表启发式生成稠密草稿（**非** `mingox` 子命令，需自行维护 [`workflow/lexicon_fill_annotations.py`](../../workflow/lexicon_fill_annotations.py) 内词表）：
 
----
+```bash
+python3 workflow/lexicon_fill_annotations.py \
+  --bundle content/drafts/<slug>/llm-chat-bundle.json \
+  -o content/drafts/<slug>/llm_annotations.json
+```
 
-## 复合任务快照
+若无 `llm_annotations.json`，`build` 仅生成无 `word-block` 的正文（见 [03-html.md](./03-html.md)）。
 
-`build` 后生成 **`02-annotate-tasks.json`**：`paragraphs[]` 含 `source_text` 与当前实现下的 **`html`（已含标注标签）**，便于 diff 与复查。
+**实现**：[`util/annotate_merge.py`](../../util/annotate_merge.py)（启动时加载上述 `txt` 为 `CHAT_SYSTEM_PROMPT`，以及 `apply_annotations_payload`）。
 
----
-
-## 下一步
-
-- 成稿 HTML 结构、版权块、词汇表 DOM：**[03-html.md](./03-html.md)**  
-- 发布：**[04-publish.md](./04-publish.md)**
+**下一步**：[03-html.md](./03-html.md)。

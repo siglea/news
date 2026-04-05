@@ -7,7 +7,7 @@
 ## 🌐 在线访问
 
 - **Gitee Pages**: https://siglea.gitee.io/news
-- **EdgeOne Pages**（中国站）：部署成功后以 CLI 输出的 `EDGEONE_DEPLOY_URL` 为准（须**完整复制**含 `?eo_token=...` 的 URL，裸域名会 401）。控制台：[EdgeOne Pages](https://console.cloud.tencent.com/edgeone/pages)
+- **EdgeOne Pages**（中国站）：`python3 workflow/mingox.py deploy` 成功后会**固定打印「预览地址」及下一行完整 URL**（与 `EDGEONE_DEPLOY_URL` 一致；须**整行复制**含 `?eo_token=...` 的参数，裸域名会 401）。控制台：[EdgeOne Pages](https://console.cloud.tencent.com/edgeone/pages)
 
 ## 快速开始
 
@@ -22,7 +22,7 @@ python3 workflow/mingox.py serve --port 8765
 
 - **四步总览、目录职责、`mingox` 命令**：[docs/PIPELINE.md](docs/PIPELINE.md)
 - **第 1～4 步分册索引**：[docs/steps/README.md](docs/steps/README.md)
-- **标注引擎与校验分层**：[docs/ANNOTATION.md](docs/ANNOTATION.md)（**默认 `chat_json`**，除非编者对某篇单独要求再用 `keywords`）
+- **标注引擎与校验分层**：[docs/ANNOTATION.md](docs/ANNOTATION.md)（**默认 `chat_json`**；`chat_json` 标注可用任意大模型，**不必 Cursor**，见文内「非 Cursor 环境」）
 - **标题、列表、词汇、版权等编辑规范全文**：[docs/EDITORIAL.md](docs/EDITORIAL.md)
 - **单篇草稿目录约定**：[content/drafts/README.md](content/drafts/README.md)
 - **抓取与 Playwright**：[docs/steps/01-acquire.md](docs/steps/01-acquire.md)、[util/README.md](util/README.md)
@@ -34,7 +34,7 @@ news/
 ├── docs/           # 文档地图 README、PIPELINE、EDITORIAL、ANNOTATION、steps/
 ├── workflow/       # mingox.py CLI（见 workflow/README.md）
 ├── content/drafts/ # 单篇草稿（见 content/drafts/README.md）
-├── util/           # 抓取、annotate_lib、keyword_lexicon、微信 profile（见 util/README.md）
+├── util/           # 抓取、annotate_lib、keyword_lexicon、annotate_merge（见 util/README.md）
 ├── posts/          # 成稿 HTML
 ├── css/ js/ images/
 ├── index.html about.html

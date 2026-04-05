@@ -1,60 +1,47 @@
 #!/usr/bin/env python3
 """
-对话/文件侧标注结果合并：校验、全文 en 去重、覆盖率、生成段落 HTML。
-供 annotate_engine=chat_json（对话 JSON）使用。
+对话 JSON（llm_annotations.json）合并进段落 HTML；供存在标注文件时的 mingox build 使用。
 """
 from __future__ import annotations
 
 import html
 import json
+import re
 import sys
+from pathlib import Path
 from typing import Any
 
 import annotate_lib as al
 
-COVERAGE_FLOOR = 0.01
-COVERAGE_TARGET = 0.03
+_UTIL_DIR = Path(__file__).resolve().parent
+_CHAT_PROMPT_PATH = _UTIL_DIR / "prompts" / "chat_annotate_system.txt"
+
+
+def _load_chat_system_prompt() -> str:
+    if not _CHAT_PROMPT_PATH.is_file():
+        raise FileNotFoundError(
+            f"annotate system prompt missing: {_CHAT_PROMPT_PATH} "
+            "(expected UTF-8 text; edit this file to change model instructions)"
+        )
+    return _CHAT_PROMPT_PATH.read_text(encoding="utf-8").strip()
+
+COVERAGE_FLOOR = 0.001
+COVERAGE_TARGET = 0.02
 
 
 def en_headword_token_ok(en: str) -> bool:
-    """en：无空格；允许 nonGAAP 式句点；允许 soft-skill 式连字符（每段须为字母数字）。"""
-    if " " in en or not en:
+    """Single English token: ASCII alnum only, no spaces or hyphens (see chat_annotate_system.txt)."""
+    if not en or " " in en or "-" in en:
         return False
     core = en.replace(".", "")
-    if not core:
+    if not core or not core.isascii() or not core.isalnum():
         return False
-    for part in core.split("-"):
-        if not part.isalnum():
-            return False
+    if not any(c.isalpha() for c in core):
+        return False
     return True
 
 
-CHAT_SYSTEM_PROMPT = """你是双语财经/科技编辑，为 **chat_json** 产出逐句标注 JSON（用于网页词汇表）。**默认引擎永远是 chat_json**；除非编者明确要求，不得改用 keywords 词表匹配。
-
-与站点 EDITORIAL「词汇标注规范」对齐的**硬要求**（优先于下述“宁缺毋滥”旧表述）：
-1. **每一句必须有 1 处合格标注**：对 export-chat-bundle 给出的每个句子序号 i（0..N-1）输出一条带 zh/en/ipa/pos/gloss 的对象。**禁止无故 `skip:true`**；仅当该句去掉句末标点后**正文为空**时才可 skip。
-2. 每句仍只嵌 **一个** word-block：整句里最值得学的一个锚点。
-3. **全文英文词形 en 不得重复**（合并层按出现顺序去重，后出现的同形会丢）；规划时请让每句使用**尚未出现过**的 en。
-4. **不要用 `synth-lexicon-annotations` / 全局词表匹配代替本条**：那是 keywords 式初稿工具，**不是** chat_json 成稿标准。
-
-选词细则（仍须遵守）：
-- 词性优先：名词、动词优先于形容词、副词。
-- 领域优先：行业术语、专业表达优先于日常泛词。
-- 排除 EDITORIAL 列出的「不识别」极常见英文（如 price、risk、trade、market 等单独凑数）；若句中无更好锚点，可用**中文子串 → 合规英文词**（对义项一致），勿空句。
-- zh 必须是该句去掉句末。！？；后的正文里**逐字照抄的连续子串**，且为**最短**画线片段；与 en/ipa/pos/gloss 同指。
-- （兼容）若误用长 zh + underline：underline 须为 zh 子串，合并时以 underline 为准；新产出请只写最短 zh。
-- en 必须是一个英文 token（无空格），复合概念用连字符，如 supply-chain、soft-skill。
-- **对义项锚定**：en 须是读者看到 zh 时最直接对应的英文词/复合词；禁止同句「相关但不同位」的顶替（参见 EDITORIAL 示例：学习轨迹→trajectory 而非 analytics 等）。
-- **语体与语域**：中文为中性职场/报道语体时，勿用带苦役、贬义或过度文学色彩的英文顶替日常义（例：「在航天行业工作多年」对 **work** 任职义，勿用 *toil*）。
-- **日常搭配勿用大词**：如「全世界的科学家」应对 **worldwide / global** 等与「遍及全球」义对齐的词，勿用 *macrocosm* 等哲学/宇宙论专名硬套。
-- **句义极性**：`en` 与 `gloss` 须与该句**整体语气同向**；禁止强化/弱化颠倒（反例：句说「变化最明显」却将「明显」对成含「不明显」义的词或释义）。
-- **机构 / 品牌**：`zh` 勿只取会**切开机构全称**、让读者误以为署名被拆碎的片段（如「钛媒体…」不宜只标「媒体」）；可改标「作者」等同句合法子串。
-- **朴实英文**：优先新闻/职场**常见**词；避免罕用词、炫学隐喻或生硬拼接词凑去重（义项一致时 *breakdown* / *wave* 等优于 *decomposition* / *zeitgeist* 等与语境不对等的「大词」）。
-- ipa 用方括号包裹；pos 如 n. / v. / adj.；gloss 为 en 的简短中文释义。
-
-输出**仅** JSON 对象：
-{"version":1,"annotations":[{"i":0,"zh":"...","en":"...","ipa":"[...]","pos":"n.","gloss":"..."}, ...]}
-必须覆盖每一个 i（0 到 N-1）。"""
+CHAT_SYSTEM_PROMPT = _load_chat_system_prompt()
 
 
 def flatten_paragraphs(paragraphs: list[str]) -> tuple[list[str], list[tuple[int, int]]]:
@@ -136,7 +123,7 @@ def dedupe_in_order(annos: list[dict[str, str] | None]) -> list[dict[str, str] |
 
 
 def coverage_ratio(annos: list[dict[str, str] | None], full_text: str) -> float:
-    han = al.count_han_chars(full_text)
+    han = len(re.findall(r"[\u4e00-\u9fff]", full_text))
     if han == 0:
         return 0.0
     covered = sum(len(a["zh"]) for a in annos if a)
@@ -172,7 +159,6 @@ def paragraphs_html_from_annos(
                         a["ipa"],
                         a["pos"],
                         a["gloss"],
-                        underline=a.get("underline"),
                     )
                 )
             else:
@@ -188,9 +174,6 @@ def apply_annotations_payload(
     *,
     warn_low_coverage: bool = True,
 ) -> tuple[list[str], dict[str, Any]]:
-    """
-    payload: {"version":1, "annotations":[{i, ...}|{i, skip:true}, ...]}
-    """
     all_sents, origin = flatten_paragraphs(paragraphs)
     if not all_sents:
         return [f"<p>{html.escape(p)}</p>" for p in paragraphs], {
@@ -215,7 +198,7 @@ def apply_annotations_payload(
     if warn_low_coverage and cov < COVERAGE_FLOOR:
         print(
             f"[annotate_merge] warning: coverage {cov:.4f} < floor {COVERAGE_FLOOR} "
-            f"(annotated Han / total Han); 可在对话中补全无词句后更新 JSON 再 build",
+            f"(annotated Han / total Han)",
             file=sys.stderr,
         )
     if warn_low_coverage and cov < COVERAGE_TARGET:
@@ -223,7 +206,7 @@ def apply_annotations_payload(
         if bare:
             print(
                 f"[annotate_merge] hint: coverage {cov:.4f} < target {COVERAGE_TARGET}; "
-                f"无词句序号（供对话二轮）: {bare[:40]}{'...' if len(bare) > 40 else ''}",
+                f"无标注句序号（可补 JSON）: {bare[:40]}{'...' if len(bare) > 40 else ''}",
                 file=sys.stderr,
             )
     return html_list, dbg
@@ -237,10 +220,9 @@ def export_chat_bundle_dict(paragraphs: list[str]) -> dict[str, Any]:
         "sentence_count": len(all_sents),
         "sentences": [{"i": i, "text": t} for i, t in enumerate(all_sents)],
         "instructions": (
-            "将 system_prompt 与 sentences 发给任意大模型对话（网页/API/IDE 等，不必 Cursor），"
-            "产出 JSON 存为 llm_annotations.json 后执行 build；"
-            "或改用 meta.annotate_engine=keywords 使用仓库全局词表（util/keyword_lexicon.py）。"
-            "详见 docs/ANNOTATION.md「非 Cursor 环境」。"
+            "将 `system_prompt` 与 `sentences` 交给任意大模型，产出 JSON 保存为 "
+            "`content/drafts/<slug>/llm_annotations.json` 后执行 `mingox build`。"
+            "详见 docs/steps/02-annotate.md。"
         ),
         "system_prompt": CHAT_SYSTEM_PROMPT,
         "response_schema": {
@@ -258,5 +240,3 @@ def export_chat_bundle_dict(paragraphs: list[str]) -> dict[str, Any]:
             ],
         },
     }
-
-
