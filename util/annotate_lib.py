@@ -40,6 +40,25 @@ _POST_SOURCE_FOOTER_RISK_BOX = (
 )
 
 
+def article_source_banner_html(*, include_source_footer: bool, source_account: str) -> str:
+    """在 h1 与首段之间插入一句「出处提示」（`post-source-banner`）。
+
+    完整著作权说明、原文链接与风险提示仍在 `post_source_footer_html` 生成的
+    `post-source-footer` 中，且位于 `</article>` 之后（见 docs/EDITORIAL.md「外源素材与版权声明」）。
+    文首横幅仅解决「读者扫一眼正文不见转载说明」的体验问题，**不替代**文末版权块。
+    """
+    acc = (source_account or "").strip()
+    if not include_source_footer or not acc:
+        return ""
+    esc = html.escape(acc)
+    return (
+        '<p class="post-source-banner" style="font-size:0.9rem;color:#444;margin:0 0 1.15rem 0;'
+        "border-left:3px solid #b91c1c;padding-left:0.75rem;line-height:1.55;\">"
+        f"<strong>出处提示：</strong>本文来自微信公众号「{esc}」。"
+        "<strong>完整著作权说明、风险提示与原文固定链接</strong>见文末「来源与版权」版块。</p>\n\n"
+    )
+
+
 def post_source_footer_html(
     *,
     footer_template: str,
@@ -509,6 +528,10 @@ def build_post_html(
             source_author_display=source_author_display,
             footer_derivative_mp_unknown=footer_derivative_mp_unknown,
         )
+    banner = article_source_banner_html(
+        include_source_footer=include_source_footer,
+        source_account=source_account,
+    )
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -534,8 +557,7 @@ def build_post_html(
             <div class="card">
                 <article class="post-content">
                     <h1>{html.escape(title_emoji)} {tzh}<br><small class="title-en">{ten}</small></h1>
-
-{paras_html}
+{banner}{paras_html}
                 </article>
 {footer_block}
                 <div class="subtitle">📖 重点词汇</div>

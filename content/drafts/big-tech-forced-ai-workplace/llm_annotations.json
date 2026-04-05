@@ -4,18 +4,18 @@
     {
       "i": 0,
       "zh": "提效",
-      "en": "efficiency-gains",
-      "ipa": "[ɪˈfɪʃnsi ɡeɪnz]",
-      "pos": "n.",
-      "gloss": "提效"
+      "en": "streamline",
+      "ipa": "[ˈstriːmlaɪn]",
+      "pos": "v.",
+      "gloss": "提高效率"
     },
     {
       "i": 1,
-      "zh": "媒体",
-      "en": "outlet",
-      "ipa": "[ˈaʊtlet]",
+      "zh": "作者",
+      "en": "byline",
+      "ipa": "[ˈbaɪlaɪn]",
       "pos": "n.",
-      "gloss": "媒体"
+      "gloss": "作者署名"
     },
     {
       "i": 2,
@@ -31,47 +31,47 @@
       "en": "geek",
       "ipa": "[ɡiːk]",
       "pos": "n.",
-      "gloss": "极客"
+      "gloss": "技术爱好者"
     },
     {
       "i": 4,
       "zh": "甜头",
-      "en": "upside-taste",
-      "ipa": "[ˈʌpsaɪd]",
+      "en": "perk",
+      "ipa": "[pɜːk]",
       "pos": "n.",
-      "gloss": "甜头"
+      "gloss": "好处、甜头"
     },
     {
       "i": 5,
       "zh": "变了",
-      "en": "recast",
-      "ipa": "[riːˈkɑːst]",
+      "en": "shifted",
+      "ipa": "[ˈʃɪftɪd]",
       "pos": "v.",
-      "gloss": "形势改观"
+      "gloss": "情况变了"
     },
     {
       "i": 6,
       "zh": "强制",
-      "en": "coercion",
-      "ipa": "[kəʊˈɜːʃn]",
-      "pos": "n.",
+      "en": "forced",
+      "ipa": "[fɔːst]",
+      "pos": "adj.",
       "gloss": "强制"
     },
     {
       "i": 7,
       "zh": "绩效",
-      "en": "performance-review",
-      "ipa": "[pəˈfɔːməns rɪˈvjuː]",
+      "en": "performance",
+      "ipa": "[pəˈfɔːməns]",
       "pos": "n.",
       "gloss": "绩效考核"
     },
     {
       "i": 8,
       "zh": "考核",
-      "en": "appraisal",
-      "ipa": "[əˈpreɪzl]",
+      "en": "review",
+      "ipa": "[rɪˈvjuː]",
       "pos": "n.",
-      "gloss": "考核"
+      "gloss": "考核评估"
     },
     {
       "i": 9,
@@ -84,18 +84,18 @@
     {
       "i": 10,
       "zh": "涵盖",
-      "en": "span",
-      "ipa": "[spæn]",
+      "en": "cover",
+      "ipa": "[ˈkʌvə]",
       "pos": "v.",
       "gloss": "涵盖"
     },
     {
       "i": 11,
       "zh": "压缩",
-      "en": "compression",
-      "ipa": "[kəmˈpreʃn]",
-      "pos": "n.",
-      "gloss": "压缩周期"
+      "en": "shorten",
+      "ipa": "[ˈʃɔːtn]",
+      "pos": "v.",
+      "gloss": "压缩时间"
     },
     {
       "i": 12,
@@ -108,40 +108,40 @@
     {
       "i": 13,
       "zh": "氛围",
-      "en": "climate",
-      "ipa": "[ˈklaɪmət]",
+      "en": "mood",
+      "ipa": "[muːd]",
       "pos": "n.",
       "gloss": "氛围"
     },
     {
       "i": 14,
       "zh": "拆解",
-      "en": "decomposition",
-      "ipa": "[ˌdiːkɒmpəˈzɪʃn]",
+      "en": "breakdown",
+      "ipa": "[ˈbreɪkdaʊn]",
       "pos": "n.",
-      "gloss": "拆解"
+      "gloss": "拆解梳理"
     },
     {
       "i": 15,
       "zh": "焦虑",
-      "en": "angst",
-      "ipa": "[æŋst]",
+      "en": "worry",
+      "ipa": "[ˈwʌri]",
       "pos": "n.",
       "gloss": "焦虑"
     },
     {
       "i": 16,
       "zh": "兴奋",
-      "en": "elation",
-      "ipa": "[ɪˈleɪʃn]",
+      "en": "thrill",
+      "ipa": "[θrɪl]",
       "pos": "n.",
       "gloss": "兴奋"
     },
     {
       "i": 17,
       "zh": "齿轮",
-      "en": "cogwheel",
-      "ipa": "[ˈkɒɡwiːl]",
+      "en": "cog",
+      "ipa": "[kɒɡ]",
       "pos": "n.",
       "gloss": "齿轮"
     },
@@ -164,10 +164,10 @@
     {
       "i": 20,
       "zh": "自研",
-      "en": "in-house-build",
-      "ipa": "[ɪn haʊz bɪld]",
-      "pos": "n.",
-      "gloss": "自研"
+      "en": "in-house",
+      "ipa": "[ɪn haʊs]",
+      "pos": "adj.",
+      "gloss": "内部自研"
     },
     {
       "i": 21,
@@ -180,10 +180,10 @@
     {
       "i": 22,
       "zh": "琢磨",
-      "en": "ponder",
-      "ipa": "[ˈpɒndə]",
+      "en": "figure",
+      "ipa": "[ˈfɪɡə]",
       "pos": "v.",
-      "gloss": "琢磨推敲"
+      "gloss": "琢磨"
     },
     {
       "i": 23,
@@ -204,33 +204,33 @@
     {
       "i": 25,
       "zh": "崩溃",
-      "en": "meltdown",
-      "ipa": "[ˈmeltdaʊn]",
+      "en": "crash",
+      "ipa": "[kræʃ]",
       "pos": "n.",
       "gloss": "崩溃"
     },
     {
       "i": 26,
       "zh": "简单",
-      "en": "trivial",
-      "ipa": "[ˈtrɪviəl]",
+      "en": "simple",
+      "ipa": "[ˈsɪmpl]",
       "pos": "adj.",
       "gloss": "简单"
     },
     {
       "i": 27,
       "zh": "活儿",
-      "en": "grunt-work",
-      "ipa": "[ɡrʌnt]",
+      "en": "chores",
+      "ipa": "[tʃɔːz]",
       "pos": "n.",
-      "gloss": "体力活"
+      "gloss": "琐碎活"
     },
     {
       "i": 28,
       "zh": "天真",
-      "en": "naivete",
-      "ipa": "[naɪˈiːvteɪ]",
-      "pos": "n.",
+      "en": "naive",
+      "ipa": "[naɪˈiːv]",
+      "pos": "adj.",
       "gloss": "天真"
     },
     {
@@ -244,48 +244,48 @@
     {
       "i": 30,
       "zh": "维度",
-      "en": "dimension",
-      "ipa": "[daɪˈmenʃn]",
+      "en": "aspect",
+      "ipa": "[ˈæspekt]",
       "pos": "n.",
-      "gloss": "维度"
+      "gloss": "方面"
     },
     {
       "i": 31,
       "zh": "混乱",
-      "en": "disarray",
-      "ipa": "[dɪsˈreɪ]",
+      "en": "mess",
+      "ipa": "[mes]",
       "pos": "n.",
-      "gloss": "格式混乱"
+      "gloss": "混乱"
     },
     {
       "i": 32,
       "zh": "图表",
-      "en": "charting",
-      "ipa": "[ˈtʃɑːtɪŋ]",
+      "en": "charts",
+      "ipa": "[tʃɑːts]",
       "pos": "n.",
       "gloss": "图表"
     },
     {
       "i": 33,
       "zh": "导出",
-      "en": "exporting",
-      "ipa": "[ɪkˈspɔːtɪŋ]",
+      "en": "export",
+      "ipa": "[ˈekspɔːt]",
       "pos": "n.",
       "gloss": "导出"
     },
     {
       "i": 34,
       "zh": "抽卡",
-      "en": "stochastic-draw",
-      "ipa": "[stəˈkæstɪk]",
+      "en": "luck-draw",
+      "ipa": "[lʌk drɔː]",
       "pos": "n.",
       "gloss": "随机抽结果"
     },
     {
       "i": 35,
       "zh": "试错",
-      "en": "trial-and-error",
-      "ipa": "[traɪəl ən ˈerə]",
+      "en": "trial-error",
+      "ipa": "[ˈtraɪəl ˈerə]",
       "pos": "n.",
       "gloss": "试错"
     },
@@ -300,39 +300,39 @@
     {
       "i": 37,
       "zh": "校验",
-      "en": "validation",
-      "ipa": "[ˌvælɪˈdeɪʃn]",
+      "en": "checking",
+      "ipa": "[ˈtʃekɪŋ]",
       "pos": "n.",
       "gloss": "校验"
     },
     {
       "i": 38,
       "zh": "清晰",
-      "en": "lucidity",
-      "ipa": "[luːˈsɪdəti]",
-      "pos": "n.",
+      "en": "clear",
+      "ipa": "[klɪə]",
+      "pos": "adj.",
       "gloss": "清晰"
     },
     {
       "i": 39,
       "zh": "达标",
-      "en": "threshold-hit",
-      "ipa": "[ˈθreʃhəʊld]",
-      "pos": "n.",
+      "en": "on-target",
+      "ipa": "[ɒn ˈtɑːɡɪt]",
+      "pos": "adj.",
       "gloss": "达标"
     },
     {
       "i": 40,
       "zh": "改写",
-      "en": "rewrite-pass",
+      "en": "rewrite",
       "ipa": "[riːˈraɪt]",
       "pos": "v.",
-      "gloss": "改写一版"
+      "gloss": "改写"
     },
     {
       "i": 41,
       "zh": "分支",
-      "en": "branch-path",
+      "en": "branch",
       "ipa": "[brɑːntʃ]",
       "pos": "n.",
       "gloss": "分支"
@@ -340,26 +340,26 @@
     {
       "i": 42,
       "zh": "代码",
-      "en": "coding-habit",
+      "en": "coding",
       "ipa": "[ˈkəʊdɪŋ]",
       "pos": "n.",
-      "gloss": "写代码习惯"
+      "gloss": "写代码"
     },
     {
       "i": 43,
       "zh": "繁琐",
-      "en": "onerous",
-      "ipa": "[ˈɒnərəs]",
+      "en": "tedious",
+      "ipa": "[ˈtiːdiəs]",
       "pos": "adj.",
       "gloss": "繁琐"
     },
     {
       "i": 44,
       "zh": "交流",
-      "en": "compare-notes",
-      "ipa": "[kəmˈpeə nəʊts]",
+      "en": "chat",
+      "ipa": "[tʃæt]",
       "pos": "v.",
-      "gloss": "交流心得"
+      "gloss": "交流"
     },
     {
       "i": 45,
@@ -372,18 +372,18 @@
     {
       "i": 46,
       "zh": "追踪",
-      "en": "telemetry",
-      "ipa": "[tɪˈlemɪtri]",
+      "en": "tracking",
+      "ipa": "[ˈtrækɪŋ]",
       "pos": "n.",
-      "gloss": "追踪遥测"
+      "gloss": "追踪"
     },
     {
       "i": 47,
       "zh": "后台",
-      "en": "back-office",
-      "ipa": "[bæk ˈɒfɪs]",
+      "en": "dashboard",
+      "ipa": "[ˈdæʃbɔːd]",
       "pos": "n.",
-      "gloss": "后台"
+      "gloss": "管理后台"
     },
     {
       "i": 48,
@@ -391,30 +391,30 @@
       "en": "headache",
       "ipa": "[ˈhedeɪk]",
       "pos": "n.",
-      "gloss": "头疼"
+      "gloss": "头疼事"
     },
     {
       "i": 49,
       "zh": "适配",
-      "en": "adaptation",
-      "ipa": "[ˌædæpˈteɪʃn]",
+      "en": "fit",
+      "ipa": "[fɪt]",
       "pos": "n.",
       "gloss": "适配"
     },
     {
       "i": 50,
       "zh": "部署",
-      "en": "deployment",
-      "ipa": "[dɪˈplɔɪmənt]",
+      "en": "rollout",
+      "ipa": "[ˈrəʊlaʊt]",
       "pos": "n.",
-      "gloss": "部署"
+      "gloss": "上线部署"
     },
     {
       "i": 51,
       "zh": "改用",
-      "en": "switchover",
-      "ipa": "[ˈswɪtʃəʊvə]",
-      "pos": "n.",
+      "en": "switch",
+      "ipa": "[swɪtʃ]",
+      "pos": "v.",
       "gloss": "改用"
     },
     {
@@ -428,16 +428,16 @@
     {
       "i": 53,
       "zh": "审批",
-      "en": "approval-gate",
-      "ipa": "[əˈpruːvl ɡeɪt]",
+      "en": "approval",
+      "ipa": "[əˈpruːvl]",
       "pos": "n.",
       "gloss": "审批"
     },
     {
       "i": 54,
       "zh": "恍惚",
-      "en": "disoriented",
-      "ipa": "[dɪsˈɔːrientɪd]",
+      "en": "dazed",
+      "ipa": "[deɪzd]",
       "pos": "adj.",
       "gloss": "恍惚"
     },
@@ -447,7 +447,7 @@
       "en": "tuning",
       "ipa": "[ˈtjuːnɪŋ]",
       "pos": "n.",
-      "gloss": "代码调优"
+      "gloss": "调优"
     },
     {
       "i": 56,
@@ -455,69 +455,69 @@
       "en": "embrace",
       "ipa": "[ɪmˈbreɪs]",
       "pos": "v.",
-      "gloss": "拥抱（新技术）"
+      "gloss": "拥抱新技术"
     },
     {
       "i": 57,
       "zh": "价值",
-      "en": "valuation-of-work",
-      "ipa": "[ˌvæljuˈeɪʃn əv wɜːk]",
+      "en": "worth",
+      "ipa": "[wɜːθ]",
       "pos": "n.",
-      "gloss": "价值判断"
+      "gloss": "价值"
     },
     {
       "i": 58,
       "zh": "负责",
-      "en": "owning",
-      "ipa": "[ˈəʊnɪŋ]",
+      "en": "own",
+      "ipa": "[əʊn]",
       "pos": "v.",
-      "gloss": "负责盯"
+      "gloss": "负责盯着做"
     },
     {
       "i": 59,
       "zh": "退化",
-      "en": "atrophy",
-      "ipa": "[ˈætrəfi]",
+      "en": "fading",
+      "ipa": "[ˈfeɪdɪŋ]",
       "pos": "n.",
       "gloss": "能力退化"
     },
     {
       "i": 60,
       "zh": "序列",
-      "en": "ladder-rung",
-      "ipa": "[ˈlædə rʌŋ]",
+      "en": "rank",
+      "ipa": "[ræŋk]",
       "pos": "n.",
       "gloss": "职级序列"
     },
     {
       "i": 61,
       "zh": "激进",
-      "en": "aggressive-rollout",
-      "ipa": "[əˈɡresɪv]",
+      "en": "bold",
+      "ipa": "[bəʊld]",
       "pos": "adj.",
-      "gloss": "激进推进"
+      "gloss": "激进"
     },
     {
       "i": 62,
       "zh": "直属",
-      "en": "line-manager",
-      "ipa": "[laɪn ˈmænɪdʒə]",
+      "en": "direct-boss",
+      "ipa": "[dɪˈrekt bɒs]",
       "pos": "n.",
       "gloss": "直属上级"
     },
     {
       "i": 63,
       "zh": "消耗",
-      "en": "burn-rate",
-      "ipa": "[bɜːn reɪt]",
+      "en": "usage",
+      "ipa": "[ˈjuːzɪdʒ]",
       "pos": "n.",
-      "gloss": "消耗速度"
+      "gloss": "消耗量"
     },
     {
       "i": 64,
       "zh": "盘点",
-      "en": "triage",
-      "ipa": "[ˈtraɪɑːʒ]",
+      "en": "inventory",
+      "ipa": "[ˈɪnvəntri]",
       "pos": "n.",
       "gloss": "盘点梳理"
     },
@@ -532,24 +532,24 @@
     {
       "i": 66,
       "zh": "跳过",
-      "en": "skipped-stage",
-      "ipa": "[skɪpt]",
-      "pos": "adj.",
-      "gloss": "环节跳过"
+      "en": "skip",
+      "ipa": "[skɪp]",
+      "pos": "v.",
+      "gloss": "跳过环节"
     },
     {
       "i": 67,
       "zh": "提升",
-      "en": "ratchet-up",
-      "ipa": "[ˈrætʃɪt]",
+      "en": "raise",
+      "ipa": "[reɪz]",
       "pos": "v.",
-      "gloss": "比例提升"
+      "gloss": "提升比例"
     },
     {
       "i": 68,
       "zh": "管够",
-      "en": "uncapped",
-      "ipa": "[ʌnˈkæpt]",
+      "en": "unlimited",
+      "ipa": "[ʌnˈlɪmɪtɪd]",
       "pos": "adj.",
       "gloss": "不限量"
     },
@@ -564,8 +564,8 @@
     {
       "i": 70,
       "zh": "全面",
-      "en": "blanket",
-      "ipa": "[ˈblæŋkɪt]",
+      "en": "full-scale",
+      "ipa": "[fʊl skeɪl]",
       "pos": "adj.",
       "gloss": "全面"
     },
@@ -580,25 +580,25 @@
     {
       "i": 72,
       "zh": "分享",
-      "en": "circulate",
-      "ipa": "[ˈsɜːkjəleɪt]",
+      "en": "share",
+      "ipa": "[ʃeə]",
       "pos": "v.",
-      "gloss": "在群内分享"
+      "gloss": "分享"
     },
     {
       "i": 73,
       "zh": "好用",
-      "en": "ergonomic",
-      "ipa": "[ˌɜːɡəˈnɒmɪk]",
+      "en": "handy",
+      "ipa": "[ˈhændi]",
       "pos": "adj.",
       "gloss": "好用"
     },
     {
       "i": 74,
       "zh": "取代",
-      "en": "displacement",
-      "ipa": "[dɪˈspleɪsmənt]",
-      "pos": "n.",
+      "en": "replace",
+      "ipa": "[rɪˈpleɪs]",
+      "pos": "v.",
       "gloss": "取代"
     },
     {
@@ -612,40 +612,40 @@
     {
       "i": 76,
       "zh": "修改",
-      "en": "iteration",
-      "ipa": "[ˌɪtəˈreɪʃn]",
+      "en": "revision",
+      "ipa": "[rɪˈvɪʒn]",
       "pos": "n.",
-      "gloss": "修改轮次"
+      "gloss": "修改迭代"
     },
     {
       "i": 77,
       "zh": "鼓励",
-      "en": "carrot-policy",
-      "ipa": "[ˈkærət]",
+      "en": "incentive",
+      "ipa": "[ɪnˈsentɪv]",
       "pos": "n.",
-      "gloss": "鼓励策略"
+      "gloss": "激励"
     },
     {
       "i": 78,
       "zh": "效率",
-      "en": "efficacy",
-      "ipa": "[ˈefɪkəsi]",
+      "en": "efficiency",
+      "ipa": "[ɪˈfɪʃnsi]",
       "pos": "n.",
-      "gloss": "效率/成效"
+      "gloss": "效率"
     },
     {
       "i": 79,
       "zh": "活水",
-      "en": "internal-mobility",
-      "ipa": "[ɪnˈtɜːnl məʊˈbɪləti]",
+      "en": "rotation",
+      "ipa": "[rəʊˈteɪʃn]",
       "pos": "n.",
-      "gloss": "内部活水"
+      "gloss": "内部轮岗"
     },
     {
       "i": 80,
       "zh": "额度",
-      "en": "allotment",
-      "ipa": "[əˈlɒtmənt]",
+      "en": "allowance",
+      "ipa": "[əˈlaʊəns]",
       "pos": "n.",
       "gloss": "分配额度"
     },
@@ -660,10 +660,10 @@
     {
       "i": 82,
       "zh": "回收",
-      "en": "deprovision",
-      "ipa": "[diːprəˈvɪʒn]",
+      "en": "revoke",
+      "ipa": "[rɪˈvəʊk]",
       "pos": "v.",
-      "gloss": "收回账号"
+      "gloss": "收回"
     },
     {
       "i": 83,
@@ -676,7 +676,7 @@
     {
       "i": 84,
       "zh": "用得",
-      "en": "usage-floor",
+      "en": "usage-bar",
       "ipa": "[ˈjuːzɪdʒ]",
       "pos": "n.",
       "gloss": "使用表现"
@@ -684,8 +684,8 @@
     {
       "i": 85,
       "zh": "压力",
-      "en": "pressure-cooker",
-      "ipa": "[ˈpreʃə ˈkʊkə]",
+      "en": "pressure",
+      "ipa": "[ˈpreʃə]",
       "pos": "n.",
       "gloss": "压力"
     },
@@ -695,69 +695,69 @@
       "en": "standing",
       "ipa": "[ˈstændɪŋ]",
       "pos": "n.",
-      "gloss": "工作表现/处境"
+      "gloss": "工作表现"
     },
     {
       "i": 87,
       "zh": "理解",
-      "en": "framing",
-      "ipa": "[ˈfreɪmɪŋ]",
+      "en": "take",
+      "ipa": "[teɪk]",
       "pos": "n.",
-      "gloss": "理解框架"
+      "gloss": "理解方式"
     },
     {
       "i": 88,
       "zh": "浪费",
-      "en": "squander",
-      "ipa": "[ˈskwɒndə]",
+      "en": "waste",
+      "ipa": "[weɪst]",
       "pos": "v.",
       "gloss": "浪费"
     },
     {
       "i": 89,
       "zh": "越多",
-      "en": "more-is-not-better",
-      "ipa": "[mɔː]",
-      "pos": "adj.",
-      "gloss": "并非越多越好"
+      "en": "overload",
+      "ipa": "[ˈəʊvələʊd]",
+      "pos": "n.",
+      "gloss": "越多越好误区"
     },
     {
       "i": 90,
       "zh": "适配",
-      "en": "fit-for-purpose",
-      "ipa": "[fɪt]",
+      "en": "suited",
+      "ipa": "[ˈsuːtɪd]",
       "pos": "adj.",
       "gloss": "适配工作"
     },
     {
       "i": 91,
       "zh": "日志",
-      "en": "logging",
-      "ipa": "[ˈlɒɡɪŋ]",
+      "en": "logs",
+      "ipa": "[lɒɡz]",
       "pos": "n.",
       "gloss": "日志"
     },
     {
       "i": 92,
       "zh": "卡顿",
-      "en": "jank",
-      "ipa": "[dʒæŋk]",
+      "en": "lag",
+      "ipa": "[læɡ]",
       "pos": "n.",
       "gloss": "卡顿"
     },
     {
       "i": 93,
       "zh": "专注",
-      "en": "laser-focus",
-      "ipa": "[ˈleɪzə]",
+      "en": "focus",
+      "ipa": "[ˈfəʊkəs]",
       "pos": "n.",
       "gloss": "专注"
     },
     {
       "i": 94,
       "zh": "明显",
-      "en": "salient",
-      "ipa": "[ˈseɪliənt]",
+      "en": "obvious",
+      "ipa": "[ˈɒbviəs]",
       "pos": "adj.",
       "gloss": "明显"
     },
@@ -772,64 +772,64 @@
     {
       "i": 96,
       "zh": "复核",
-      "en": "second-pass-review",
-      "ipa": "[ˈsekənd pɑːs]",
+      "en": "recheck",
+      "ipa": "[riːˈtʃek]",
       "pos": "n.",
       "gloss": "复核"
     },
     {
       "i": 97,
       "zh": "规则",
-      "en": "ruleset",
-      "ipa": "[ˈruːlset]",
+      "en": "rules",
+      "ipa": "[ruːlz]",
       "pos": "n.",
-      "gloss": "规则集"
+      "gloss": "规则"
     },
     {
       "i": 98,
       "zh": "半年",
-      "en": "half-year",
-      "ipa": "[hɑːf jɪə]",
+      "en": "six-month",
+      "ipa": "[sɪks mʌnθ]",
       "pos": "n.",
       "gloss": "半年"
     },
     {
       "i": 99,
       "zh": "教育",
-      "en": "tutoring",
-      "ipa": "[ˈtjuːtərɪŋ]",
+      "en": "training",
+      "ipa": "[ˈtreɪnɪŋ]",
       "pos": "n.",
-      "gloss": "调教模型"
+      "gloss": "训练调教"
     },
     {
       "i": 100,
       "zh": "影响",
-      "en": "knock-on",
-      "ipa": "[ˈnɒk ɒn]",
+      "en": "impact",
+      "ipa": "[ˈɪmpækt]",
       "pos": "n.",
-      "gloss": "连锁影响"
+      "gloss": "影响"
     },
     {
       "i": 101,
       "zh": "恶补",
-      "en": "cramming",
-      "ipa": "[ˈkræmɪŋ]",
-      "pos": "n.",
+      "en": "cram",
+      "ipa": "[kræm]",
+      "pos": "v.",
       "gloss": "突击补习"
     },
     {
       "i": 102,
       "zh": "薪资",
-      "en": "comp",
-      "ipa": "[kɒmp]",
+      "en": "pay",
+      "ipa": "[peɪ]",
       "pos": "n.",
-      "gloss": "薪酬包"
+      "gloss": "薪酬"
     },
     {
       "i": 103,
       "zh": "储备",
-      "en": "stockpile",
-      "ipa": "[ˈstɒkpaɪl]",
+      "en": "reserve",
+      "ipa": "[rɪˈzɜːv]",
       "pos": "n.",
       "gloss": "储备"
     },
@@ -844,8 +844,8 @@
     {
       "i": 105,
       "zh": "裁员",
-      "en": "headcount-cut",
-      "ipa": "[ˈhedkaʊnt kʌt]",
+      "en": "layoffs",
+      "ipa": "[ˈleɪɒfs]",
       "pos": "n.",
       "gloss": "裁员"
     },
@@ -876,16 +876,16 @@
     {
       "i": 109,
       "zh": "工具",
-      "en": "tooling",
-      "ipa": "[ˈtuːlɪŋ]",
+      "en": "tools",
+      "ipa": "[tuːlz]",
       "pos": "n.",
-      "gloss": "工具栈"
+      "gloss": "工具"
     },
     {
       "i": 110,
       "zh": "无限",
-      "en": "unmetered",
-      "ipa": "[ʌnˈmiːtəd]",
+      "en": "open-ended",
+      "ipa": "[ˈəʊpən ˈendɪd]",
       "pos": "adj.",
       "gloss": "近乎无限"
     },
@@ -900,42 +900,42 @@
     {
       "i": 112,
       "zh": "草图",
-      "en": "mockup",
-      "ipa": "[ˈmɒkʌp]",
+      "en": "sketch",
+      "ipa": "[sketʃ]",
       "pos": "n.",
       "gloss": "草图"
     },
     {
       "i": 113,
       "zh": "介入",
-      "en": "interpose",
-      "ipa": "[ˌɪntəˈpəʊz]",
+      "en": "step-in",
+      "ipa": "[step ɪn]",
       "pos": "v.",
-      "gloss": "介入流程"
+      "gloss": "介入"
     },
     {
       "i": 114,
       "zh": "主导",
-      "en": "steer",
-      "ipa": "[stɪə]",
+      "en": "lead",
+      "ipa": "[liːd]",
       "pos": "v.",
-      "gloss": "主导（走向）"
+      "gloss": "主导"
     },
     {
       "i": 115,
       "zh": "重塑",
-      "en": "reengineering",
-      "ipa": "[ˌriːendʒɪˈnɪərɪŋ]",
+      "en": "overhaul",
+      "ipa": "[ˈəʊvəhɔːl]",
       "pos": "n.",
       "gloss": "重塑"
     },
     {
       "i": 116,
       "zh": "倡议",
-      "en": "initiative-pack",
+      "en": "initiative",
       "ipa": "[ɪˈnɪʃətɪv]",
       "pos": "n.",
-      "gloss": "倡议包"
+      "gloss": "倡议项目"
     },
     {
       "i": 117,
@@ -948,18 +948,18 @@
     {
       "i": 118,
       "zh": "立竿见影",
-      "en": "immediate-upside",
-      "ipa": "[ɪˈmiːdiət]",
-      "pos": "adj.",
+      "en": "quick-win",
+      "ipa": "[kwɪk wɪn]",
+      "pos": "n.",
       "gloss": "立竿见影"
     },
     {
       "i": 119,
       "zh": "明显",
-      "en": "muted",
-      "ipa": "[ˈmjuːtɪd]",
+      "en": "marked",
+      "ipa": "[mɑːkt]",
       "pos": "adj.",
-      "gloss": "效果不明显"
+      "gloss": "最为明显"
     },
     {
       "i": 120,
@@ -988,56 +988,56 @@
     {
       "i": 123,
       "zh": "重心",
-      "en": "center-of-gravity",
-      "ipa": "[ˈsentər əv ˈɡrævəti]",
+      "en": "priority",
+      "ipa": "[praɪˈɒrəti]",
       "pos": "n.",
       "gloss": "重心"
     },
     {
       "i": 124,
       "zh": "开会",
-      "en": "syncs",
-      "ipa": "[sɪŋks]",
+      "en": "meetings",
+      "ipa": "[ˈmiːtɪŋz]",
       "pos": "n.",
-      "gloss": "对齐会议"
+      "gloss": "会议"
     },
     {
       "i": 125,
       "zh": "精力",
-      "en": "bandwidth",
-      "ipa": "[ˈbændwɪdθ]",
+      "en": "energy",
+      "ipa": "[ˈenədʒi]",
       "pos": "n.",
-      "gloss": "精力带宽"
+      "gloss": "精力"
     },
     {
       "i": 126,
       "zh": "时间",
-      "en": "time-sink",
-      "ipa": "[taɪm sɪŋk]",
+      "en": "time",
+      "ipa": "[taɪm]",
       "pos": "n.",
-      "gloss": "时间消耗"
+      "gloss": "时间投入"
     },
     {
       "i": 127,
       "zh": "跑偏",
-      "en": "drift-off-spec",
-      "ipa": "[drɪft]",
-      "pos": "n.",
-      "gloss": "执行跑偏"
+      "en": "off-track",
+      "ipa": "[ɒf træk]",
+      "pos": "adj.",
+      "gloss": "跑偏"
     },
     {
       "i": 128,
       "zh": "倒逼",
-      "en": "forcing-function",
-      "ipa": "[ˈfɔːsɪŋ ˈfʌŋkʃn]",
+      "en": "forcing",
+      "ipa": "[ˈfɔːsɪŋ]",
       "pos": "n.",
-      "gloss": "倒逼机制"
+      "gloss": "倒逼"
     },
     {
       "i": 129,
       "zh": "残酷",
-      "en": "brutal-tradeoff",
-      "ipa": "[ˈbruːtl]",
+      "en": "harsh",
+      "ipa": "[hɑːʃ]",
       "pos": "adj.",
       "gloss": "残酷"
     },
@@ -1060,34 +1060,34 @@
     {
       "i": 132,
       "zh": "支配",
-      "en": "subjection",
-      "ipa": "[səbˈdʒekʃn]",
+      "en": "control",
+      "ipa": "[kənˈtrəʊl]",
       "pos": "n.",
       "gloss": "支配"
     },
     {
       "i": 133,
       "zh": "标准",
-      "en": "rubric",
-      "ipa": "[ˈruːbrɪk]",
+      "en": "norms",
+      "ipa": "[nɔːmz]",
       "pos": "n.",
-      "gloss": "考核标准"
+      "gloss": "标准规范"
     },
     {
       "i": 134,
       "zh": "吃香",
-      "en": "prized",
-      "ipa": "[praɪzd]",
+      "en": "hot",
+      "ipa": "[hɒt]",
       "pos": "adj.",
       "gloss": "更抢手"
     },
     {
       "i": 135,
       "zh": "自费",
-      "en": "self-funded-tools",
-      "ipa": "[self ˈfʌndɪd]",
+      "en": "self-pay",
+      "ipa": "[self peɪ]",
       "pos": "adj.",
-      "gloss": "自费工具"
+      "gloss": "自费购买"
     },
     {
       "i": 136,
@@ -1100,88 +1100,88 @@
     {
       "i": 137,
       "zh": "Token",
-      "en": "token-metering",
-      "ipa": "[ˈtəʊkən ˈmiːtərɪŋ]",
+      "en": "tokens",
+      "ipa": "[ˈtəʊkənz]",
       "pos": "n.",
-      "gloss": "Token 计量"
+      "gloss": "Token 用量"
     },
     {
       "i": 138,
       "zh": "变长",
-      "en": "elongated",
-      "ipa": "[iˈlɒŋɡeɪtɪd]",
+      "en": "longer",
+      "ipa": "[ˈlɒŋɡə]",
       "pos": "adj.",
       "gloss": "变长"
     },
     {
       "i": 139,
       "zh": "原因",
-      "en": "root-cause",
-      "ipa": "[ruːt kɔːz]",
+      "en": "cause",
+      "ipa": "[kɔːz]",
       "pos": "n.",
       "gloss": "原因"
     },
     {
       "i": 140,
       "zh": "边界",
-      "en": "guardrail",
-      "ipa": "[ˈɡɑːdreɪl]",
+      "en": "limits",
+      "ipa": "[ˈlɪmɪts]",
       "pos": "n.",
       "gloss": "边界"
     },
     {
       "i": 141,
       "zh": "范围",
-      "en": "blast-radius",
-      "ipa": "[blɑːst ˈreɪdiəs]",
+      "en": "scope",
+      "ipa": "[skəʊp]",
       "pos": "n.",
       "gloss": "影响范围"
     },
     {
       "i": 142,
       "zh": "繁琐",
-      "en": "taxing",
-      "ipa": "[ˈtæksɪŋ]",
+      "en": "draining",
+      "ipa": "[ˈdreɪnɪŋ]",
       "pos": "adj.",
-      "gloss": "费神"
+      "gloss": "费神繁琐"
     },
     {
       "i": 143,
       "zh": "看法",
-      "en": "stance",
-      "ipa": "[stæns]",
+      "en": "view",
+      "ipa": "[vjuː]",
       "pos": "n.",
-      "gloss": "立场/看法"
+      "gloss": "看法"
     },
     {
       "i": 144,
       "zh": "风口",
-      "en": "zeitgeist",
-      "ipa": "[ˈtsaɪtɡaɪst]",
+      "en": "wave",
+      "ipa": "[weɪv]",
       "pos": "n.",
-      "gloss": "时代风口"
+      "gloss": "风口浪潮"
     },
     {
       "i": 145,
       "zh": "模型",
-      "en": "model-vendor",
-      "ipa": "[ˈmɒdl]",
+      "en": "provider",
+      "ipa": "[prəˈvaɪdə]",
       "pos": "n.",
-      "gloss": "大模型供应商"
+      "gloss": "模型提供方"
     },
     {
       "i": 146,
       "zh": "心智",
-      "en": "mental-model",
-      "ipa": "[ˈmentl ˈmɒdl]",
+      "en": "mindset",
+      "ipa": "[ˈmaɪndset]",
       "pos": "n.",
-      "gloss": "管理者心智"
+      "gloss": "认知方式"
     },
     {
       "i": 147,
       "zh": "门槛",
-      "en": "floor-threshold",
-      "ipa": "[flɔː ˈθreʃhəʊld]",
+      "en": "minimum",
+      "ipa": "[ˈmɪnɪməm]",
       "pos": "n.",
       "gloss": "保底门槛"
     },
@@ -1196,15 +1196,15 @@
     {
       "i": 149,
       "zh": "缩招",
-      "en": "hiring-pullback",
-      "ipa": "[ˈhaɪərɪŋ]",
+      "en": "slowdown",
+      "ipa": "[ˈsləʊdaʊn]",
       "pos": "n.",
       "gloss": "缩招"
     },
     {
       "i": 150,
       "zh": "逻辑",
-      "en": "logic-tree",
+      "en": "logic",
       "ipa": "[ˈlɒdʒɪk]",
       "pos": "n.",
       "gloss": "逻辑"
@@ -1212,18 +1212,18 @@
     {
       "i": 151,
       "zh": "身位",
-      "en": "positioning",
-      "ipa": "[pəˈzɪʃnɪŋ]",
+      "en": "spot",
+      "ipa": "[spɒt]",
       "pos": "n.",
       "gloss": "卡位"
     },
     {
       "i": 152,
       "zh": "创业",
-      "en": "venturing",
-      "ipa": "[ˈventʃərɪŋ]",
+      "en": "startups",
+      "ipa": "[ˈstɑːtʌps]",
       "pos": "n.",
-      "gloss": "创业（活动）"
+      "gloss": "创业"
     },
     {
       "i": 153,
@@ -1231,45 +1231,45 @@
       "en": "stack",
       "ipa": "[stæk]",
       "pos": "n.",
-      "gloss": "系统栈"
+      "gloss": "技术栈"
     },
     {
       "i": 154,
       "zh": "阵痛",
-      "en": "dislocation",
-      "ipa": "[ˌdɪsləʊˈkeɪʃn]",
+      "en": "shakeout",
+      "ipa": "[ˈʃeɪkaʊt]",
       "pos": "n.",
       "gloss": "调整阵痛"
     },
     {
       "i": 155,
       "zh": "必然",
-      "en": "foregone",
-      "ipa": "[fɔːˈɡɒn]",
+      "en": "certain",
+      "ipa": "[ˈsɜːtn]",
       "pos": "adj.",
       "gloss": "必然"
     },
     {
       "i": 156,
       "zh": "创意",
-      "en": "ideation",
-      "ipa": "[ˌaɪdiˈeɪʃn]",
+      "en": "ideas",
+      "ipa": "[aɪˈdɪəz]",
       "pos": "n.",
       "gloss": "创意"
     },
     {
       "i": 157,
       "zh": "车轮",
-      "en": "juggernaut",
-      "ipa": "[ˈdʒʌɡənɔːt]",
+      "en": "wheel",
+      "ipa": "[wiːl]",
       "pos": "n.",
-      "gloss": "滚滚车轮"
+      "gloss": "时代车轮"
     },
     {
       "i": 158,
       "zh": "化名",
-      "en": "pseudonym",
-      "ipa": "[ˈsuːdənɪm]",
+      "en": "pen-name",
+      "ipa": "[pen neɪm]",
       "pos": "n.",
       "gloss": "化名"
     }

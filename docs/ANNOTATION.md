@@ -50,7 +50,7 @@
 |------|------|------|
 | **硬门禁** | 相邻 `word-block`（`</span></span>` 与下一 `<span class="word-block"` 之间仅有空白） | `build` 默认执行；失败则 **exit 1**。`--skip-validate` 仅调试用。 |
 | **启发式警告** | 每 `<p>` 内「句数」与 `word-block` 数量对比（**近似** [EDITORIAL.md](./EDITORIAL.md) 的 `。！？；` 断句；英文段可粗算 `;`） | `mingox validate` 打印 **WARN**，**不失败**。若整篇 `post-content` 内**没有任何** `word-block`（如非词汇向正文），**不运行**该启发式以免刷屏。详见 [workflow/validate.py](../workflow/validate.py) 与 `workflow/test_validate_density.py`。 |
-| **编辑规范** | 每「句」至少一处标注、不识别词清单、同位锚定、`logistics`/固定搭配、`title-en`、版权块不加标等 | **无自动门禁**；`build` 通过 ≠ 全文符合 [EDITORIAL.md](./EDITORIAL.md)，需人工通读或对照范文。 |
+| **编辑规范** | 每「句」至少一处标注、不识别词清单、同位锚定、`logistics`/固定搭配、`title-en`、版权块不加标、**句义极性 / 品牌锚点 / 朴实选词**（见 [EDITORIAL.md](./EDITORIAL.md)）等 | **无自动门禁**；`build` 通过 ≠ 全文符合 [EDITORIAL.md](./EDITORIAL.md)，需人工通读或对照范文。 |
 
 ---
 
