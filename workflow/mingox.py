@@ -95,7 +95,11 @@ def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
     out.write_text(json.dumps(bundle, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("wrote", out)
     ann = draft / "llm_annotations.json"
-    print("Next: paste `system_prompt` + `sentences` into Cursor chat; save reply as", ann)
+    print(
+        "下一步：将 bundle 中的 `system_prompt` 与 `sentences` 交给任意大模型（不必 Cursor），"
+        "按 schema 产出 JSON 后保存为",
+        ann,
+    )
 
 
 def cmd_synth_lexicon_annotations(args: argparse.Namespace) -> None:
@@ -251,7 +255,7 @@ def main() -> None:
 
     p_eb = sub.add_parser(
         "export-chat-bundle",
-        help="Write llm-chat-bundle.json for Cursor chat annotate (with annotate_engine=chat_json)",
+        help="写出 llm-chat-bundle.json，供任意大模型客户端生成 llm_annotations.json（annotate_engine=chat_json）",
     )
     p_eb.add_argument("--slug", required=True)
     p_eb.set_defaults(func=cmd_export_chat_bundle)

@@ -248,7 +248,7 @@
       "text": "当“新拼姆”带着中国品牌走向全球市场时，拼多多讲述的，将不再是一个关于流量的故事，而是一个关于中国制造如何赢得世界尊重的故事。"
     }
   ],
-  "instructions": "将下面 system_prompt 与 sentences 发给 Cursor 对话；请助手只输出一个 JSON 对象（含 annotations 数组，每项含 i，且要么 skip:true 要么 zh/en/ipa/pos/gloss）。保存为 content/drafts/<slug>/llm_annotations.json 后执行 build（meta.annotate_engine=chat_json）。",
+  "instructions": "将下面 system_prompt 与 sentences 发给任意大模型对话（不必 Cursor）；请助手只输出一个 JSON 对象（含 annotations 数组，每项含 i，且要么 skip:true 要么 zh/en/ipa/pos/gloss）。保存为 content/drafts/<slug>/llm_annotations.json 后执行 build（meta.annotate_engine=chat_json）。",
   "system_prompt": "你是双语财经/科技编辑，为中文句子挑选至多 1 个最值得读者学习的英文对应词（用于网页词汇表）。\n\n规则（宁缺毋滥）：\n1. 每句最多选 1 个：整句里最核心、或对句意影响最大的词/短语；没有合格项则 skip。\n2. 词性优先：名词、动词优先于形容词、副词。\n3. 领域优先：行业术语、专业表达优先于日常泛词。\n4. 排除高中英语已覆盖的极常见概念对应的中文（如「公司」「时间」「很多」「可以」等），除非该词在句中有特殊专业含义。\n5. zh 必须是该句去掉句末。！？；后的正文里**逐字照抄的连续子串**，不得改写。\n6. en 必须是一个英文 token（不允许空格），复合概念用连字符，如 supply-chain、brand-go-global。\n7. ipa 用方括号包裹的国际音标（英/美均可）；pos 如 n. / v. / adj.；gloss 为简短中文释义。\n\n输出**仅** JSON 对象，格式：\n{\"annotations\":[{\"i\":0,\"zh\":\"...\",\"en\":\"...\",\"ipa\":\"[...]\",\"pos\":\"n.\",\"gloss\":\"...\"},{\"i\":1,\"skip\":true},...]}\n必须覆盖每一个句子序号 i（从 0 到 N-1，逐项给出）。",
   "response_schema": {
     "version": 1,

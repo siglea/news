@@ -1,8 +1,10 @@
-# util：抓取、共享标注库与微信快捷通道
+# util：抓取、共享标注库与词表
 
 **文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（第 1 步）、**`annotate_lib` / `annotate_merge` / `md_split`**、全局词表 **`keyword_lexicon.py`**。
 
 **边界**：成稿元数据与正文真源一律在 **`content/drafts/<slug>/`**（`meta.json`、`01-source.md`）；不再提供 `article-profiles` 捷径。
+
+**`chat_json` 与 IDE**：`annotate_merge.export_chat_bundle_dict` 仅生成本地 JSON；用大模型补全 `llm_annotations.json` **不必 Cursor**，见 **[docs/ANNOTATION.md](../docs/ANNOTATION.md)**「非 Cursor 环境如何使用 chat_json」。
 
 ## 依赖（抓取）
 

@@ -31,13 +31,16 @@
 | **`chat_json`**（**默认推荐新稿**） | `llm_annotations_file`（默认 `llm_annotations.json`） | 先 `export-chat-bundle`，对话产出 JSON；经 `annotate_merge` 校验 |
 | `keywords`（非默认；编者单独要求且 `meta` 显式写出） | 无单独文件（[util/keyword_lexicon.py](../../util/keyword_lexicon.py)） | 词汇表偏短；扩充 `_KEYWORD_ENTRIES` |
 
-**对话路径示例**：
+**对话路径示例**（**不依赖 Cursor**：任意大模型客户端或手改 JSON 均可）：
 
 ```bash
 python3 workflow/mingox.py export-chat-bundle --slug my-topic
-# 将 bundle 交给助手 → 保存 llm_annotations.json → meta 设 annotate_engine: chat_json
+# 将 llm-chat-bundle.json 中的 system_prompt + sentences 交给大模型 → 保存 llm_annotations.json
+# meta 须为 annotate_engine: chat_json（默认即 chat_json）
 python3 workflow/mingox.py build --slug my-topic
 ```
+
+说明见 **[docs/ANNOTATION.md](../ANNOTATION.md)**「非 Cursor 环境如何使用 chat_json」。
 
 ---
 

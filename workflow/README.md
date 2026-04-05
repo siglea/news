@@ -22,7 +22,7 @@ python3 workflow/mingox.py --help
 | `validate.py` | 相邻 `word-block` 检测（与 [docs/EDITORIAL.md](../docs/EDITORIAL.md) 一致） |
 | `paths.py` | 仓库根路径 |
 | `requirements.txt` | URL 提取与搜索可选依赖 |
-| `synth_llm_annotations_lexicon.py` | **非 chat_json 终稿**：keywords 式稀疏占位。`chat_json` 须对话产出 JSON，见 [docs/EDITORIAL.md](../docs/EDITORIAL.md)。 |
+| `synth_llm_annotations_lexicon.py` | **非 chat_json 终稿**：keywords 式稀疏占位。`chat_json` 须大模型产出 JSON（不必 Cursor），见 [docs/ANNOTATION.md](../docs/ANNOTATION.md)。 |
 | `gen_dense_chat_json.py` | **应急**：词表匹配 + en 去重；无匹配则该句 `skip`，不造占位词；须对话补全后再当终稿。 |
 
 ## 与 `util/` 的分工

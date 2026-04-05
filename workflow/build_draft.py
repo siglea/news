@@ -48,7 +48,7 @@ def build_slug(slug: str, *, skip_validate: bool = False) -> Path:
             raise SystemExit(
                 f"missing {ann_path} (annotate_engine=chat_json).\n"
                 f"  1) python3 workflow/mingox.py export-chat-bundle --slug {slug}\n"
-                f"  2) 在 Cursor 对话里让助手按 bundle 的 system_prompt 生成 JSON，保存为上述路径\n"
+                f"  2) 将 bundle 交给任意大模型，按 system_prompt 生成 JSON，保存为上述路径（不必 Cursor）\n"
                 f"  3) 再执行 build"
             )
         payload = json.loads(ann_path.read_text(encoding="utf-8"))

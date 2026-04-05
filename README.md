@@ -22,7 +22,7 @@ python3 workflow/mingox.py serve --port 8765
 
 - **四步总览、目录职责、`mingox` 命令**：[docs/PIPELINE.md](docs/PIPELINE.md)
 - **第 1～4 步分册索引**：[docs/steps/README.md](docs/steps/README.md)
-- **标注引擎与校验分层**：[docs/ANNOTATION.md](docs/ANNOTATION.md)（**默认 `chat_json`**，除非编者对某篇单独要求再用 `keywords`）
+- **标注引擎与校验分层**：[docs/ANNOTATION.md](docs/ANNOTATION.md)（**默认 `chat_json`**；`chat_json` 标注可用任意大模型，**不必 Cursor**，见文内「非 Cursor 环境」）
 - **标题、列表、词汇、版权等编辑规范全文**：[docs/EDITORIAL.md](docs/EDITORIAL.md)
 - **单篇草稿目录约定**：[content/drafts/README.md](content/drafts/README.md)
 - **抓取与 Playwright**：[docs/steps/01-acquire.md](docs/steps/01-acquire.md)、[util/README.md](util/README.md)

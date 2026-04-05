@@ -10,9 +10,9 @@ python3 workflow/mingox.py --help
 
 ## 标准路径（唯一）
 
-每篇稿件使用 **`content/drafts/<slug>/`**：`meta.json` 与 `01-source.md` 同目录；正文由 **`mingox acquire`** 写入 MD；默认 **`annotate_engine=chat_json`**（`llm_annotations.json`），可选词表占位见 **`mingox synth-lexicon-annotations`**，终稿以对话产出 JSON 为准。详见 [ANNOTATION.md](./ANNOTATION.md)。
+每篇稿件使用 **`content/drafts/<slug>/`**：`meta.json` 与 `01-source.md` 同目录；正文由 **`mingox acquire`** 写入 MD；默认 **`annotate_engine=chat_json`**（`llm_annotations.json`），可选词表占位见 **`mingox synth-lexicon-annotations`**，终稿由**大模型或人工**按 `export-chat-bundle` 规则写出 JSON。详见 [ANNOTATION.md](./ANNOTATION.md)。**`chat_json` 不依赖 Cursor**：任意 LLM 客户端或手改 JSON 均可，见 [ANNOTATION.md](./ANNOTATION.md)「非 Cursor 环境如何使用 chat_json」。
 
-**典型命令**：`mingox init` → `acquire` →（可选）`synth-lexicon-annotations` / `export-chat-bundle` → 对话补全标注 → `build`。
+**典型命令**：`mingox init` → `acquire` →（可选）`synth-lexicon-annotations` / `export-chat-bundle` → 用大模型补全 `llm_annotations.json` → `build`。
 
 以往的 **`article-profiles.json` + `annotate-wechat-plain.py` + `mingox wechat`** 已移除；旧流程请改为上述草稿目录 + `build`。
 
