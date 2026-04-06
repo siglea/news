@@ -1,5 +1,5 @@
 {
-  "buildCommand": "python3 workflow/build_deploy_site.py",
-  "outputDirectory": "site",
-  "installCommand": ""
+  "installCommand": "",
+  "buildCommand": "",
+  "outputDirectory": "."
 }

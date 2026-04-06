@@ -37,7 +37,7 @@ desktop.ini
 .env
 .edgeone/*
 .tef_dist/*
-# EdgeOne build output (edgeone.json buildCommand)
+# 历史：edgeone 曾输出 site/；现已改为根目录 outputDirectory: .
 site/
 
 # OpenClaw 配置文件（与任务无关）
