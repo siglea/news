@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-对话 JSON（llm_annotations.json）合并进段落 HTML；供存在标注文件时的 mingox build 使用。
+对话 JSON（llm_annotations.json）合并进段落 HTML；`mingox build` 强制要求该文件存在后调用。
 """
 from __future__ import annotations
 

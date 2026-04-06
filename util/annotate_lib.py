@@ -2,7 +2,7 @@
 """
 Shared library: WeChat/HTML 正文抽取、成稿页 HTML 壳、词汇表反扫（仅当正文含 word-block 时）。
 
-`mingox build`：若草稿目录存在 `llm_annotations.json`，经 `annotate_merge` 注入 `word-block`；否则段落仅为转义 `<p>`。
+`mingox build`：草稿目录须存在 `llm_annotations.json`（或 `meta.llm_annotations_file`），经 `annotate_merge` 注入 `word-block`；缺失则 build 退出并报错。
 """
 from __future__ import annotations
 

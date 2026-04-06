@@ -1,0 +1,16 @@
+---
+description: 词汇标注：zh 与英文 headword 须一一对应；禁止长串 zh 只配部分义项的 en（含 llm_annotations 与 lexicon TSV）
+globs: "**/llm_annotations.json,**/bundle_lexicon_annotate.py,**/chat_annotate_system.txt,**/util/lexicons/*.tsv"
+alwaysApply: false
+---
+
+# 标注：`zh` 与 `en` 一一对应
+
+编辑 **`llm_annotations.json`**、**`util/prompts/chat_annotate_system.txt`**、**`util/lexicons/*.tsv`**（或 **`workflow/bundle_lexicon_annotate.py`** 相关逻辑）时**必须**遵守：
+
+1. **`zh`**：句中去掉句末 `。！？；` 后正文里**逐字照抄的连续子串**。
+2. **一一对应**：`en` 只标注**就是** `zh` 这个词（或不可分割的术语整体）时的 headword；**不得**用「修饰语 + 中心词」整段当 `zh`，却只给对应中心词的 `en`（典型错例：「规模化制造」+ `manufacturing`、`智慧文明」+ `civilization`、`经济意义」+ `economic`）。
+3. **`gloss`**：只解释当前 `zh` 在该句中的义项，不扩写成整短语释义糊弄过去。
+4. **词表 TSV**：每行 `zh` 取与 `en` 对齐的**最小**子串；参见 [docs/steps/02-annotate.md](docs/steps/02-annotate.md)「zh 与 en 对齐」节。
+
+违反对齐会导致成稿 `word-block` 英汉错位，属**流程错误**，不是风格偏好。

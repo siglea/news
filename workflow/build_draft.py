@@ -2,7 +2,8 @@
 """
 Step 2–3: 01-source.md + meta.json -> 02-annotate-tasks.json + posts/*.html
 
-若存在 `llm_annotations.json`（或 meta.llm_annotations_file），则合并词汇标注；否则仅输出转义段落。
+必须存在 `llm_annotations.json`（或 meta.llm_annotations_file）；由 `export-chat-bundle` + 大模型
+按 `util/prompts/chat_annotate_system.txt` 产出。缺失则 build 失败。
 """
 from __future__ import annotations
 
@@ -41,15 +42,18 @@ def build_slug(slug: str, *, skip_validate: bool = False) -> Path:
     ann_name = meta.get("llm_annotations_file", "llm_annotations.json")
     ann_path = draft / ann_name
 
-    if ann_path.is_file():
-        import annotate_merge as am
+    if not ann_path.is_file():
+        raise SystemExit(
+            f"missing {ann_path}: run `python3 workflow/mingox.py export-chat-bundle --slug {slug}`, "
+            "give an LLM the bundle's system_prompt + sentences, save JSON per "
+            "docs/steps/02-annotate.md, then build again."
+        )
 
-        payload = json.loads(ann_path.read_text(encoding="utf-8"))
-        paras_html_parts, dbg = am.apply_annotations_payload(paras_text, payload)
-        print("annotate_merge", dbg, file=sys.stderr)
-    else:
-        paras_html_parts = [f"<p>{html.escape(ptxt)}</p>" for ptxt in paras_text]
-        print("annotate_merge skipped (no llm_annotations.json)", file=sys.stderr)
+    import annotate_merge as am
+
+    payload = json.loads(ann_path.read_text(encoding="utf-8"))
+    paras_html_parts, dbg = am.apply_annotations_payload(paras_text, payload)
+    print("annotate_merge", dbg, file=sys.stderr)
 
     for i, ptxt in enumerate(paras_text):
         html_p = (

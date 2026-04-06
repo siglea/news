@@ -10,9 +10,9 @@ python3 workflow/mingox.py --help
 
 ## 标准路径
 
-每篇稿件使用 **`content/drafts/<slug>/`**：`meta.json` 与 `01-source.md` 同目录；正文由 **`mingox acquire`** 写入 MD；**`mingox build`** 将 Markdown 段落转为成稿 HTML（当前**不**注入词汇标注；篇末「重点词汇」表可为空，直至新标注模块接入）。详见 [content/drafts/README.md](../content/drafts/README.md)。
+每篇稿件使用 **`content/drafts/<slug>/`**：`meta.json` 与 `01-source.md` 同目录；正文由 **`mingox acquire`** 写入 MD；**`mingox build`** 将 Markdown 段落转为成稿 HTML，并**必须**已有大模型产出的 **`llm_annotations.json`** 以注入词汇标注（缺失则 build 失败）。详见 [content/drafts/README.md](../content/drafts/README.md)。
 
-**典型命令**：`mingox init` → `acquire` →（可选）`export-chat-bundle` → 保存 `llm_annotations.json` → `build`。
+**典型命令**：`mingox init` → `acquire` → `export-chat-bundle` → 大模型写出 `llm_annotations.json` → `build`。
 
 以往的 **`article-profiles.json` + `annotate-wechat-plain.py` + `mingox wechat`** 已移除；旧流程请改为上述草稿目录 + `build`。
 
@@ -21,7 +21,7 @@ python3 workflow/mingox.py --help
 | 步 | 文档 | 一句话 |
 |----|------|--------|
 | 1 素材获取 | **[docs/steps/01-acquire.md](./steps/01-acquire.md)** | `init` / `acquire` → `01-source.md` + `meta.json` |
-| 2 标注 | **[docs/steps/02-annotate.md](./steps/02-annotate.md)** | 四六级向提示词 + `llm_annotations.json`；无则 `build` 仅排版 |
+| 2 标注 | **[docs/steps/02-annotate.md](./steps/02-annotate.md)** | 四六级向提示词 + `llm_annotations.json`（**`zh`/`en` 须一一对应**）；**无则 `build` 失败** |
 | 3 HTML 成稿 | **[docs/steps/03-html.md](./steps/03-html.md)** | `build` → `posts/*.html`，`validate`，DOM/CSS 契约 |
 | 4 发布 | **[docs/steps/04-publish.md](./steps/04-publish.md)** | `serve`、`deploy`、Gitee Pages |
 
