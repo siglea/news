@@ -110,7 +110,7 @@ post 文件 h1 标题格式：
 
 以下为**手工编写或核对 HTML** 时的结构参考：
 
-1. 在 `posts/` 目录创建新 HTML 文件，命名格式：**`YYYY-MM-DD-<题材 kebab>.html`**。`<题材 kebab>` 为**英文小写、连字符**的可读 slug（人名、机构、主题），须与正文题材一致，例如 `dai-yusen-tencent-ai-water-boiling`、`pinduoduo-xinpinmu-supply-chain`。**不要**用草稿目录名、流水线占位或 `wechat-<文章 id>` 当文件名；`meta.json` 里的 `slug`（草稿文件夹名）与 `out_html`（公开 URL 路径）可以不同。
+1. 在 `posts/` 目录创建新 HTML 文件，命名格式：**`YYYY-MM-DD-<题材 kebab>.html`**。`<题材 kebab>` 为**英文小写、连字符**的可读 slug，**必须由文章中文标题与英文题（`title_zh` / `title_en`）凝练**，与正文主题一致，例如 `dai-yusen-tencent-ai-water-boiling`、`pinduoduo-xinpinmu-supply-chain`。**不要**用流水线占位、`wechat-<文章 id>`、纯 `mp-xxxx` 或与标题无关的串当 `<题材 kebab>`。`meta.json` 里的 **`slug`（`content/drafts/<slug>/`）同样建议以标题为依据**，**推荐**与 `YYYY-MM-DD-` 后的那段 kebab **一致**；若暂时不同，至少应可读、可联想本篇，而非长期依赖无意义 id。详见 [content/drafts/README.md](../content/drafts/README.md)「命名规范」。
 
 2. 参考模板结构：
 

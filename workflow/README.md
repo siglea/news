@@ -16,7 +16,7 @@ python3 workflow/mingox.py --help
 
 | 文件 | 作用 |
 |------|------|
-| `mingox.py` | CLI：`init` / `acquire` / `build` / `export-chat-bundle` / `validate` / `serve` / `deploy` |
+| `mingox.py` | CLI：`init` / `acquire` / `build` / `export-chat-bundle` / `validate` / `serve` / `deploy`；`--slug` 与 `--out-html` 命名以文章标题为依据，见 [content/drafts/README.md](../content/drafts/README.md)。 |
 | `acquire.py` | 第 1 步：paste / url / search → `01-source.md`；微信 url **先试 Playwright `--mobile`**，失败再桌面 UA；MD 用 `extract_ps` + 微信 plain/leaf 回退（见 util/README）。 |
 | `build_draft.py` | `01-source.md` → `02-annotate-tasks.json` + `posts/*.html`；**必须**存在 `llm_annotations.json` 并合并标注（[02-annotate.md](../docs/steps/02-annotate.md)）。标注须满足 **zh/en 一一对应**（见该文档专节）。 |
 | `validate.py` | 相邻 `word-block` 检测（针对含标注的 HTML）；密度启发式 WARN |

@@ -4,7 +4,7 @@
 
 **实现入口**：[workflow/build_draft.py](../../workflow/build_draft.py) + [util/annotate_lib.py](../../util/annotate_lib.py)（`build_post_html`、`vocab_tbody_html` 等）。
 
-**成稿文件名**：由 `meta.json` 的 **`out_html`** 决定，须为 **`posts/YYYY-MM-DD-<题材英文 kebab>.html`**（可读、与题材一致；**勿**用草稿目录名或 `wechat-<id>` 占位）。细则见 [content/drafts/README.md](../../content/drafts/README.md) 与 [EDITORIAL.md](../EDITORIAL.md)「新稿与首页入口」。
+**成稿文件名**：由 `meta.json` 的 **`out_html`** 决定，须为 **`posts/YYYY-MM-DD-<题材英文 kebab>.html`**；`<题材英文 kebab>` **必须以文章标题**（`title_zh` / `title_en`）为依据凝练，**勿**用 `wechat-<id>`、`mp-` 随机串等与标题脱节的占位。细则见 [content/drafts/README.md](../../content/drafts/README.md)「命名规范」与 [EDITORIAL.md](../EDITORIAL.md)「新稿与首页入口」。
 
 ---
 

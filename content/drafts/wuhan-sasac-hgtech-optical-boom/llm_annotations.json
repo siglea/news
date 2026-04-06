@@ -1,0 +1,677 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "造富",
+      "en": "windfall",
+      "ipa": "[ˈwɪndfɔːl]",
+      "pos": "n.",
+      "gloss": "暴富效应"
+    },
+    {
+      "i": 1,
+      "zh": "孵化",
+      "en": "incubate",
+      "ipa": "[ˈɪŋkjubeɪt]",
+      "pos": "v.",
+      "gloss": "孵化"
+    },
+    {
+      "i": 2,
+      "zh": "收购",
+      "en": "acquisition",
+      "ipa": "[ˌækwɪˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "收购"
+    },
+    {
+      "i": 3,
+      "zh": "沸腾",
+      "en": "surge",
+      "ipa": "[sɜːdʒ]",
+      "pos": "n.",
+      "gloss": "沸腾"
+    },
+    {
+      "i": 4,
+      "zh": "跻身",
+      "en": "join",
+      "ipa": "[dʒɔɪn]",
+      "pos": "v.",
+      "gloss": "跻身"
+    },
+    {
+      "i": 5,
+      "zh": "前所未有",
+      "en": "unprecedented",
+      "ipa": "[ʌnˈpresɪdentɪd]",
+      "pos": "adj.",
+      "gloss": "前所未有的"
+    },
+    {
+      "i": 6,
+      "zh": "爆发",
+      "en": "boom",
+      "ipa": "[buːm]",
+      "pos": "n.",
+      "gloss": "爆发"
+    },
+    {
+      "i": 7,
+      "zh": "追溯",
+      "en": "trace",
+      "ipa": "[treɪs]",
+      "pos": "v.",
+      "gloss": "追溯"
+    },
+    {
+      "i": 8,
+      "zh": "典型",
+      "en": "typical",
+      "ipa": "[ˈtɪpɪkl]",
+      "pos": "adj.",
+      "gloss": "典型的"
+    },
+    {
+      "i": 9,
+      "zh": "敏锐",
+      "en": "keen",
+      "ipa": "[kiːn]",
+      "pos": "adj.",
+      "gloss": "敏锐的"
+    },
+    {
+      "i": 10,
+      "zh": "应运而生",
+      "en": "emerge",
+      "ipa": "[ɪˈmɜːdʒ]",
+      "pos": "v.",
+      "gloss": "应运而生"
+    },
+    {
+      "i": 11,
+      "zh": "改制",
+      "en": "restructure",
+      "ipa": "[riːˈstrʌktʃə]",
+      "pos": "v.",
+      "gloss": "改制"
+    },
+    {
+      "i": 12,
+      "zh": "龙头",
+      "en": "leader",
+      "ipa": "[ˈliːdə]",
+      "pos": "n.",
+      "gloss": "龙头"
+    },
+    {
+      "i": 13,
+      "zh": "诞生",
+      "en": "birth",
+      "ipa": "[bɜːθ]",
+      "pos": "n.",
+      "gloss": "诞生"
+    },
+    {
+      "i": 14,
+      "zh": "上市",
+      "en": "IPO",
+      "ipa": "[ˌaɪpiːˈəʊ]",
+      "pos": "n.",
+      "gloss": "上市"
+    },
+    {
+      "i": 15,
+      "zh": "纪录",
+      "en": "record",
+      "ipa": "[ˈrekɔːd]",
+      "pos": "n.",
+      "gloss": "纪录"
+    },
+    {
+      "i": 16,
+      "zh": "格局",
+      "en": "portfolio",
+      "ipa": "[pɔːtˈfəʊliəʊ]",
+      "pos": "n.",
+      "gloss": "格局"
+    },
+    {
+      "i": 17,
+      "zh": "晦涩",
+      "en": "obscure",
+      "ipa": "[əbˈskjʊə]",
+      "pos": "adj.",
+      "gloss": "晦涩的"
+    },
+    {
+      "i": 18,
+      "zh": "算力",
+      "en": "compute",
+      "ipa": "[kəmˈpjuːt]",
+      "pos": "n.",
+      "gloss": "算力"
+    },
+    {
+      "i": 19,
+      "zh": "承载",
+      "en": "bear",
+      "ipa": "[beə]",
+      "pos": "v.",
+      "gloss": "承载"
+    },
+    {
+      "i": 20,
+      "zh": "供应商",
+      "en": "supplier",
+      "ipa": "[səˈplaɪə]",
+      "pos": "n.",
+      "gloss": "供应商"
+    },
+    {
+      "i": 21,
+      "zh": "覆盖",
+      "en": "coverage",
+      "ipa": "[ˈkʌvərɪdʒ]",
+      "pos": "n.",
+      "gloss": "覆盖"
+    },
+    {
+      "i": 22,
+      "zh": "自主研发",
+      "en": "proprietary",
+      "ipa": "[prəˈpraɪətri]",
+      "pos": "adj.",
+      "gloss": "自主研发的"
+    },
+    {
+      "i": 23,
+      "zh": "带宽",
+      "en": "bandwidth",
+      "ipa": "[ˈbændwɪdθ]",
+      "pos": "n.",
+      "gloss": "带宽"
+    },
+    {
+      "i": 24,
+      "zh": "扩建",
+      "en": "expand",
+      "ipa": "[ɪkˈspænd]",
+      "pos": "v.",
+      "gloss": "扩建"
+    },
+    {
+      "i": 25,
+      "zh": "增长",
+      "en": "growth",
+      "ipa": "[ɡrəʊθ]",
+      "pos": "n.",
+      "gloss": "增长"
+    },
+    {
+      "i": 26,
+      "zh": "联接",
+      "en": "linkage",
+      "ipa": "[ˈlɪŋkɪdʒ]",
+      "pos": "n.",
+      "gloss": "联接"
+    },
+    {
+      "i": 27,
+      "zh": "一飞冲天",
+      "en": "soar",
+      "ipa": "[sɔː]",
+      "pos": "v.",
+      "gloss": "飙升"
+    },
+    {
+      "i": 28,
+      "zh": "突破",
+      "en": "breakthrough",
+      "ipa": "[ˈbreɪkθruː]",
+      "pos": "n.",
+      "gloss": "突破"
+    },
+    {
+      "i": 29,
+      "zh": "首家",
+      "en": "first",
+      "ipa": "[fɜːst]",
+      "pos": "adj.",
+      "gloss": "首家"
+    },
+    {
+      "i": 30,
+      "zh": "涨",
+      "en": "rally",
+      "ipa": "[ˈræli]",
+      "pos": "n.",
+      "gloss": "上涨"
+    },
+    {
+      "i": 31,
+      "zh": "需求",
+      "en": "demand",
+      "ipa": "[dɪˈmɑːnd]",
+      "pos": "n.",
+      "gloss": "需求"
+    },
+    {
+      "i": 32,
+      "zh": "连阳",
+      "en": "streak",
+      "ipa": "[striːk]",
+      "pos": "n.",
+      "gloss": "连阳"
+    },
+    {
+      "i": 33,
+      "zh": "低点",
+      "en": "bottom",
+      "ipa": "[ˈbɒtəm]",
+      "pos": "n.",
+      "gloss": "低点"
+    },
+    {
+      "i": 34,
+      "zh": "回调",
+      "en": "pullback",
+      "ipa": "[ˈpʊlbæk]",
+      "pos": "n.",
+      "gloss": "回调"
+    },
+    {
+      "i": 35,
+      "zh": "议案",
+      "en": "motion",
+      "ipa": "[ˈməʊʃn]",
+      "pos": "n.",
+      "gloss": "议案"
+    },
+    {
+      "i": 36,
+      "zh": "盛宴",
+      "en": "feast",
+      "ipa": "[fiːst]",
+      "pos": "n.",
+      "gloss": "盛宴"
+    },
+    {
+      "i": 37,
+      "zh": "萌芽",
+      "en": "nascent",
+      "ipa": "[ˈnæsnt]",
+      "pos": "adj.",
+      "gloss": "萌芽期的"
+    },
+    {
+      "i": 38,
+      "zh": "融资",
+      "en": "financing",
+      "ipa": "[faɪˈnænsɪŋ]",
+      "pos": "n.",
+      "gloss": "融资"
+    },
+    {
+      "i": 39,
+      "zh": "转折",
+      "en": "turning",
+      "ipa": "[ˈtɜːnɪŋ]",
+      "pos": "n.",
+      "gloss": "转折"
+    },
+    {
+      "i": 40,
+      "zh": "校办",
+      "en": "affiliated",
+      "ipa": "[əˈfɪlieɪtɪd]",
+      "pos": "adj.",
+      "gloss": "校办的"
+    },
+    {
+      "i": 41,
+      "zh": "改革",
+      "en": "reform",
+      "ipa": "[rɪˈfɔːm]",
+      "pos": "n.",
+      "gloss": "改革"
+    },
+    {
+      "i": 42,
+      "zh": "入围",
+      "en": "shortlist",
+      "ipa": "[ˈʃɔːtlɪst]",
+      "pos": "v.",
+      "gloss": "入围"
+    },
+    {
+      "i": 43,
+      "zh": "并购",
+      "en": "merger",
+      "ipa": "[ˈmɜːdʒə]",
+      "pos": "n.",
+      "gloss": "并购"
+    },
+    {
+      "i": 44,
+      "zh": "云集",
+      "en": "converge",
+      "ipa": "[kənˈvɜːdʒ]",
+      "pos": "v.",
+      "gloss": "云集"
+    },
+    {
+      "i": 45,
+      "zh": "受让",
+      "en": "transfer",
+      "ipa": "[trænsˈfɜː]",
+      "pos": "v.",
+      "gloss": "受让"
+    },
+    {
+      "i": 46,
+      "zh": "硬科技",
+      "en": "hardtech",
+      "ipa": "[ˈhɑːdtek]",
+      "pos": "n.",
+      "gloss": "硬科技"
+    },
+    {
+      "i": 47,
+      "zh": "快车道",
+      "en": "fasttrack",
+      "ipa": "[ˈfɑːstræk]",
+      "pos": "n.",
+      "gloss": "快车道"
+    },
+    {
+      "i": 48,
+      "zh": "股权",
+      "en": "equity",
+      "ipa": "[ˈekwəti]",
+      "pos": "n.",
+      "gloss": "股权"
+    },
+    {
+      "i": 49,
+      "zh": "账面",
+      "en": "book",
+      "ipa": "[bʊk]",
+      "pos": "adj.",
+      "gloss": "账面的"
+    },
+    {
+      "i": 50,
+      "zh": "不菲",
+      "en": "handsome",
+      "ipa": "[ˈhænsəm]",
+      "pos": "adj.",
+      "gloss": "不菲的"
+    },
+    {
+      "i": 51,
+      "zh": "持股",
+      "en": "stake",
+      "ipa": "[steɪk]",
+      "pos": "n.",
+      "gloss": "持股"
+    },
+    {
+      "i": 52,
+      "zh": "价值",
+      "en": "worth",
+      "ipa": "[wɜːθ]",
+      "pos": "n.",
+      "gloss": "价值"
+    },
+    {
+      "i": 53,
+      "zh": "丰收",
+      "en": "harvest",
+      "ipa": "[ˈhɑːvɪst]",
+      "pos": "n.",
+      "gloss": "丰收"
+    },
+    {
+      "i": 54,
+      "zh": "对赌",
+      "en": "bet",
+      "ipa": "[bet]",
+      "pos": "n.",
+      "gloss": "对赌"
+    },
+    {
+      "i": 55,
+      "zh": "达标",
+      "en": "meet",
+      "ipa": "[miːt]",
+      "pos": "v.",
+      "gloss": "达标"
+    },
+    {
+      "i": 56,
+      "zh": "溢价",
+      "en": "premium",
+      "ipa": "[ˈpriːmiəm]",
+      "pos": "n.",
+      "gloss": "溢价"
+    },
+    {
+      "i": 57,
+      "zh": "兑现",
+      "en": "vest",
+      "ipa": "[vest]",
+      "pos": "v.",
+      "gloss": "兑现"
+    },
+    {
+      "i": 58,
+      "zh": "市值",
+      "en": "cap",
+      "ipa": "[kæp]",
+      "pos": "n.",
+      "gloss": "市值"
+    },
+    {
+      "i": 59,
+      "zh": "馈赠",
+      "en": "gift",
+      "ipa": "[ɡɪft]",
+      "pos": "n.",
+      "gloss": "馈赠"
+    },
+    {
+      "i": 60,
+      "zh": "似曾相识",
+      "en": "familiar",
+      "ipa": "[fəˈmɪliə]",
+      "pos": "adj.",
+      "gloss": "似曾相识的"
+    },
+    {
+      "i": 61,
+      "zh": "二级",
+      "en": "secondary",
+      "ipa": "[ˈsekəndri]",
+      "pos": "adj.",
+      "gloss": "二级的"
+    },
+    {
+      "i": 62,
+      "zh": "通信",
+      "en": "telecom",
+      "ipa": "[ˈtelikɒm]",
+      "pos": "n.",
+      "gloss": "通信"
+    },
+    {
+      "i": 63,
+      "zh": "翻番",
+      "en": "double",
+      "ipa": "[ˈdʌbl]",
+      "pos": "v.",
+      "gloss": "翻番"
+    },
+    {
+      "i": 64,
+      "zh": "崛起",
+      "en": "rise",
+      "ipa": "[raɪz]",
+      "pos": "n.",
+      "gloss": "崛起"
+    },
+    {
+      "i": 65,
+      "zh": "惊人",
+      "en": "striking",
+      "ipa": "[ˈstraɪkɪŋ]",
+      "pos": "adj.",
+      "gloss": "惊人的"
+    },
+    {
+      "i": 66,
+      "zh": "迫切",
+      "en": "urgent",
+      "ipa": "[ˈɜːdʒənt]",
+      "pos": "adj.",
+      "gloss": "迫切的"
+    },
+    {
+      "i": 67,
+      "zh": "催生",
+      "en": "spur",
+      "ipa": "[spɜː]",
+      "pos": "v.",
+      "gloss": "催生"
+    },
+    {
+      "i": 68,
+      "zh": "涨停",
+      "en": "limitup",
+      "ipa": "[ˈlɪmɪtʌp]",
+      "pos": "n.",
+      "gloss": "涨停"
+    },
+    {
+      "i": 69,
+      "zh": "收盘",
+      "en": "close",
+      "ipa": "[kləʊz]",
+      "pos": "n.",
+      "gloss": "收盘"
+    },
+    {
+      "i": 70,
+      "zh": "涨幅",
+      "en": "gain",
+      "ipa": "[ɡeɪn]",
+      "pos": "n.",
+      "gloss": "涨幅"
+    },
+    {
+      "i": 71,
+      "zh": "缔造",
+      "en": "create",
+      "ipa": "[kriˈeɪt]",
+      "pos": "v.",
+      "gloss": "缔造"
+    },
+    {
+      "i": 72,
+      "zh": "光谷",
+      "en": "OpticsValley",
+      "ipa": "[ˈɒptɪks]",
+      "pos": "n.",
+      "gloss": "光谷"
+    },
+    {
+      "i": 73,
+      "zh": "闻名",
+      "en": "renowned",
+      "ipa": "[rɪˈnaʊnd]",
+      "pos": "adj.",
+      "gloss": "闻名的"
+    },
+    {
+      "i": 74,
+      "zh": "挂牌",
+      "en": "list",
+      "ipa": "[lɪst]",
+      "pos": "v.",
+      "gloss": "挂牌"
+    },
+    {
+      "i": 75,
+      "zh": "批准",
+      "en": "approve",
+      "ipa": "[əˈpruːv]",
+      "pos": "v.",
+      "gloss": "批准"
+    },
+    {
+      "i": 76,
+      "zh": "光纤",
+      "en": "fiber",
+      "ipa": "[ˈfaɪbə]",
+      "pos": "n.",
+      "gloss": "光纤"
+    },
+    {
+      "i": 77,
+      "zh": "汇聚",
+      "en": "cluster",
+      "ipa": "[ˈklʌstə]",
+      "pos": "v.",
+      "gloss": "汇聚"
+    },
+    {
+      "i": 78,
+      "zh": "万亿",
+      "en": "trillion",
+      "ipa": "[ˈtrɪljən]",
+      "pos": "n.",
+      "gloss": "万亿"
+    },
+    {
+      "i": 79,
+      "zh": "板块",
+      "en": "sector",
+      "ipa": "[ˈsektə]",
+      "pos": "n.",
+      "gloss": "板块"
+    },
+    {
+      "i": 80,
+      "zh": "涨至",
+      "en": "climb",
+      "ipa": "[klaɪm]",
+      "pos": "v.",
+      "gloss": "涨至"
+    },
+    {
+      "i": 81,
+      "zh": "并称",
+      "en": "dub",
+      "ipa": "[dʌb]",
+      "pos": "v.",
+      "gloss": "并称"
+    },
+    {
+      "i": 82,
+      "zh": "耕耘",
+      "en": "toil",
+      "ipa": "[tɔɪl]",
+      "pos": "n.",
+      "gloss": "耕耘"
+    },
+    {
+      "i": 83,
+      "zh": "授权",
+      "en": "authorize",
+      "ipa": "[ˈɔːθəraɪz]",
+      "pos": "v.",
+      "gloss": "授权"
+    }
+  ]
+}
