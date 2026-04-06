@@ -192,13 +192,17 @@ def main() -> None:
         "init",
         help="Create content/drafts/<slug>/meta.json template",
     )
-    p_init.add_argument("--slug", required=True)
+    p_init.add_argument(
+        "--slug",
+        required=True,
+        help="草稿目录名（小写连字符）；须由文章标题凝练，见 content/drafts/README.md「命名规范」",
+    )
     p_init.add_argument("--title-zh", required=True)
     p_init.add_argument("--title-en", required=True)
     p_init.add_argument(
         "--out-html",
         required=True,
-        help="posts/YYYY-MM-DD-topic-kebab.html（题材英文 kebab，勿用草稿 slug/wechat-id 占位）",
+        help="posts/YYYY-MM-DD-<题材英文 kebab>.html；题材须来自 title_zh/title_en，勿用 wechat-id/mp 随机串，见 content/drafts/README.md",
     )
     p_init.add_argument("--source-url", default="")
     p_init.add_argument("--title-emoji", default="📈")

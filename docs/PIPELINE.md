@@ -10,7 +10,7 @@ python3 workflow/mingox.py --help
 
 ## 标准路径
 
-每篇稿件使用 **`content/drafts/<slug>/`**：`meta.json` 与 `01-source.md` 同目录；正文由 **`mingox acquire`** 写入 MD；**`mingox build`** 将 Markdown 段落转为成稿 HTML，并**必须**已有大模型产出的 **`llm_annotations.json`** 以注入词汇标注（缺失则 build 失败）。详见 [content/drafts/README.md](../content/drafts/README.md)。
+每篇稿件使用 **`content/drafts/<slug>/`**：`meta.json` 与 `01-source.md` 同目录；正文由 **`mingox acquire`** 写入 MD；**`mingox build`** 将 Markdown 段落转为成稿 HTML，并**必须**已有大模型产出的 **`llm_annotations.json`** 以注入词汇标注（缺失则 build 失败）。**`slug` 与 `posts/*.html` 文件名均须以文章标题为依据命名**（英文 kebab，推荐 slug 与 `out_html` 主段一致），见 [content/drafts/README.md](../content/drafts/README.md)「命名规范」。其它细则见同文件。
 
 **典型命令**：`mingox init` → `acquire` → `export-chat-bundle` → 大模型写出 `llm_annotations.json` → `build`。
 

@@ -6,6 +6,8 @@
 
 **下一步**：[02-annotate.md](./02-annotate.md)（标注流程待重新定义）→ `mingox build`。
 
+**命名**：`--slug`（草稿目录）与 `init` 的 **`--out-html`（posts 下文件名）** 均须**以文章标题为依据**凝练英文 kebab；**推荐**二者主段一致。全文见 **[content/drafts/README.md](../../content/drafts/README.md)**「命名规范」。
+
 ---
 
 ## 方式 1：直接提供原文（paste）
