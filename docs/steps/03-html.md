@@ -25,7 +25,7 @@ python3 workflow/mingox.py validate --post posts/2026-03-29-china-g7-europe-mark
 - **正文容器**：`<article class="post-content">` 内为标题 `h1`（含 `<small class="title-en">`）、可选 **`post-source-banner` 出处一句**（`include_source_footer` + `source_account` 时由 `build_post_html` 注入，详见 [EDITORIAL.md](../EDITORIAL.md)「外源素材与版权声明」），以及多个 `<p>...</p>`。
 - **词汇标注 DOM**（历史成稿或手工 HTML；样式见 [css/style.css](../../css/style.css)）：
   - `<span class="word-block">` → 内层 `<span class="english-word">` + `<span class="word-info">`（音标与释义）。
-- **篇末词汇表**：`build_post_html` 生成表格；由 `vocab_tbody_html` 从正文 HTML **反扫** `word-block`；无 `llm_annotations.json` 时 **tbody 为空**。
+- **篇末词汇表**：`build_post_html` 生成表格；由 `vocab_tbody_html` 从正文 HTML **反扫** `word-block`（`build` 已强制要求 `llm_annotations.json`，正常成稿 tbody 由标注决定）。
 - **外源版权**：`meta.json` 中 `include_source_footer`、`footer_template`（`verbatim` / `derivative`）、`footer_derivative_mp_unknown`、`source_author_display`、`risk_blurb_secondary` 等；条文见 [EDITORIAL.md](../EDITORIAL.md)。
 
 ---

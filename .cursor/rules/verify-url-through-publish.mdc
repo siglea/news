@@ -11,7 +11,7 @@ alwaysApply: false
 
 1. `mingox init` → `mingox acquire --mode url`（或先用 `util/crawl-with-playwright.py` 探路后再 acquire）。
 2. 补全 `meta.json`（`meta_description`、`risk_blurb_secondary`、`omit_sections_note` 等，按 [docs/EDITORIAL.md](docs/EDITORIAL.md)）。
-3. （可选）**`export-chat-bundle`** → 按 [docs/steps/02-annotate.md](docs/steps/02-annotate.md) 产出 **`llm_annotations.json`** → **`mingox build --slug`**。
+3. **`export-chat-bundle`** → 大模型按 [docs/steps/02-annotate.md](docs/steps/02-annotate.md) 产出 **`llm_annotations.json`**（**build 必填**）→ **`mingox build --slug`**。
 4. 更新根目录 [index.html](index.html) 列表（新稿置顶）。
 5. `python3 workflow/mingox.py validate --post posts/...html`。
 6. **发布**：`python3 workflow/mingox.py deploy --project mingox`（需本机 Node/npx 与 `.edgeone/.token` 或已登录 CLI）；若环境无密钥，说明阻塞原因并列出用户本地需执行的命令。
