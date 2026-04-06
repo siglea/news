@@ -1,0 +1,1405 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "商业",
+      "en": "commercial",
+      "ipa": "[kəˈmɜːʃl]",
+      "pos": "adj.",
+      "gloss": "商业"
+    },
+    {
+      "i": 1,
+      "zh": "格局",
+      "en": "landscape",
+      "ipa": "[ˈlændskeɪp]",
+      "pos": "n.",
+      "gloss": "格局"
+    },
+    {
+      "i": 2,
+      "zh": "智能",
+      "en": "intelligence",
+      "ipa": "[ɪnˈtelɪdʒəns]",
+      "pos": "n.",
+      "gloss": "智能"
+    },
+    {
+      "i": 3,
+      "zh": "模式",
+      "en": "model",
+      "ipa": "[ˈmɒdl]",
+      "pos": "n.",
+      "gloss": "模式"
+    },
+    {
+      "i": 4,
+      "zh": "政策",
+      "en": "policy",
+      "ipa": "[ˈpɒləsi]",
+      "pos": "n.",
+      "gloss": "政策"
+    },
+    {
+      "i": 5,
+      "zh": "快速",
+      "en": "rapid",
+      "ipa": "[ˈræpɪd]",
+      "pos": "adj.",
+      "gloss": "快速"
+    },
+    {
+      "i": 6,
+      "zh": "行业",
+      "en": "industry",
+      "ipa": "[ˈɪndəstri]",
+      "pos": "n.",
+      "gloss": "行业"
+    },
+    {
+      "i": 7,
+      "zh": "边际",
+      "en": "marginal",
+      "ipa": "[ˈmɑːdʒɪnl]",
+      "pos": "adj.",
+      "gloss": "边际"
+    },
+    {
+      "i": 8,
+      "zh": "背景",
+      "en": "background",
+      "ipa": "[ˈbækɡraʊnd]",
+      "pos": "n.",
+      "gloss": "背景"
+    },
+    {
+      "i": 9,
+      "zh": "机构",
+      "en": "agency",
+      "ipa": "[ˈeɪdʒənsi]",
+      "pos": "n.",
+      "gloss": "机构"
+    },
+    {
+      "i": 10,
+      "skip": true
+    },
+    {
+      "i": 11,
+      "skip": true
+    },
+    {
+      "i": 12,
+      "zh": "支撑",
+      "en": "sustain",
+      "ipa": "[səˈsteɪn]",
+      "pos": "v.",
+      "gloss": "支撑"
+    },
+    {
+      "i": 13,
+      "zh": "决定",
+      "en": "decide",
+      "ipa": "[dɪˈsaɪd]",
+      "pos": "v.",
+      "gloss": "决定"
+    },
+    {
+      "i": 14,
+      "zh": "市场",
+      "en": "market",
+      "ipa": "[ˈmɑːkɪt]",
+      "pos": "n.",
+      "gloss": "市场"
+    },
+    {
+      "i": 15,
+      "skip": true
+    },
+    {
+      "i": 16,
+      "skip": true
+    },
+    {
+      "i": 17,
+      "zh": "格局",
+      "en": "pattern",
+      "ipa": "[ˈpætn]",
+      "pos": "n.",
+      "gloss": "格局"
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "skip": true
+    },
+    {
+      "i": 20,
+      "zh": "投资",
+      "en": "investment",
+      "ipa": "[ɪnˈvestmənt]",
+      "pos": "n.",
+      "gloss": "投资"
+    },
+    {
+      "i": 21,
+      "zh": "优势",
+      "en": "edge",
+      "ipa": "[edʒ]",
+      "pos": "n.",
+      "gloss": "优势"
+    },
+    {
+      "i": 22,
+      "zh": "场景",
+      "en": "scenario",
+      "ipa": "[sɪˈnɑːriəʊ]",
+      "pos": "n.",
+      "gloss": "场景"
+    },
+    {
+      "i": 23,
+      "skip": true
+    },
+    {
+      "i": 24,
+      "skip": true
+    },
+    {
+      "i": 25,
+      "zh": "竞争",
+      "en": "compete",
+      "ipa": "[kəmˈpiːt]",
+      "pos": "v.",
+      "gloss": "竞争"
+    },
+    {
+      "i": 26,
+      "zh": "智能",
+      "en": "intelligent",
+      "ipa": "[ɪnˈtelɪdʒənt]",
+      "pos": "adj.",
+      "gloss": "智能"
+    },
+    {
+      "i": 27,
+      "skip": true
+    },
+    {
+      "i": 28,
+      "zh": "经济",
+      "en": "economic",
+      "ipa": "[ˌiːkəˈnɒmɪk]",
+      "pos": "adj.",
+      "gloss": "经济"
+    },
+    {
+      "i": 29,
+      "zh": "变革",
+      "en": "transformation",
+      "ipa": "[ˌtrænsfəˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "变革"
+    },
+    {
+      "i": 30,
+      "zh": "全球",
+      "en": "global",
+      "ipa": "[ˈɡləʊbl]",
+      "pos": "adj.",
+      "gloss": "全球"
+    },
+    {
+      "i": 31,
+      "zh": "技术",
+      "en": "technology",
+      "ipa": "[tekˈnɒlədʒi]",
+      "pos": "n.",
+      "gloss": "技术"
+    },
+    {
+      "i": 32,
+      "zh": "保障",
+      "en": "security",
+      "ipa": "[sɪˈkjʊərəti]",
+      "pos": "n.",
+      "gloss": "安全"
+    },
+    {
+      "i": 33,
+      "zh": "数据",
+      "en": "data",
+      "ipa": "[ˈdeɪtə]",
+      "pos": "n.",
+      "gloss": "数据"
+    },
+    {
+      "i": 34,
+      "skip": true
+    },
+    {
+      "i": 35,
+      "zh": "规划",
+      "en": "plan",
+      "ipa": "[plæn]",
+      "pos": "n.",
+      "gloss": "规划"
+    },
+    {
+      "i": 36,
+      "zh": "提升",
+      "en": "improve",
+      "ipa": "[ɪmˈpruːv]",
+      "pos": "v.",
+      "gloss": "提升"
+    },
+    {
+      "i": 37,
+      "zh": "综合",
+      "en": "aggregate",
+      "ipa": "[ˈæɡrɪɡət]",
+      "pos": "adj.",
+      "gloss": "综合"
+    },
+    {
+      "i": 38,
+      "zh": "培育",
+      "en": "cultivate",
+      "ipa": "[ˈkʌltɪveɪt]",
+      "pos": "v.",
+      "gloss": "培育"
+    },
+    {
+      "i": 39,
+      "skip": true
+    },
+    {
+      "i": 40,
+      "skip": true
+    },
+    {
+      "i": 41,
+      "skip": true
+    },
+    {
+      "i": 42,
+      "skip": true
+    },
+    {
+      "i": 43,
+      "skip": true
+    },
+    {
+      "i": 44,
+      "skip": true
+    },
+    {
+      "i": 45,
+      "zh": "服务",
+      "en": "service",
+      "ipa": "[ˈsɜːvɪs]",
+      "pos": "n.",
+      "gloss": "服务"
+    },
+    {
+      "i": 46,
+      "zh": "推进",
+      "en": "pace",
+      "ipa": "[peɪs]",
+      "pos": "n.",
+      "gloss": "节奏"
+    },
+    {
+      "i": 47,
+      "zh": "智慧",
+      "en": "wisdom",
+      "ipa": "[ˈwɪzdəm]",
+      "pos": "n.",
+      "gloss": "智慧"
+    },
+    {
+      "i": 48,
+      "zh": "意识",
+      "en": "consciousness",
+      "ipa": "[ˈkɒnʃəsnəs]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 49,
+      "zh": "过程",
+      "en": "process",
+      "ipa": "[ˈprəʊses]",
+      "pos": "n.",
+      "gloss": "过程"
+    },
+    {
+      "i": 50,
+      "zh": "资源",
+      "en": "resource",
+      "ipa": "[rɪˈsɔːs]",
+      "pos": "n.",
+      "gloss": "资源"
+    },
+    {
+      "i": 51,
+      "zh": "大规模",
+      "en": "mass",
+      "ipa": "[mæs]",
+      "pos": "adj.",
+      "gloss": "大规模"
+    },
+    {
+      "i": 52,
+      "zh": "动力",
+      "en": "motivation",
+      "ipa": "[ˌməʊtɪˈveɪʃn]",
+      "pos": "n.",
+      "gloss": "动力"
+    },
+    {
+      "i": 53,
+      "zh": "巨头",
+      "en": "giant",
+      "ipa": "[ˈdʒaɪənt]",
+      "pos": "n.",
+      "gloss": "巨头"
+    },
+    {
+      "i": 54,
+      "zh": "发布",
+      "en": "publish",
+      "ipa": "[ˈpʌblɪʃ]",
+      "pos": "v.",
+      "gloss": "发布"
+    },
+    {
+      "i": 55,
+      "zh": "科研",
+      "en": "research",
+      "ipa": "[rɪˈsɜːtʃ]",
+      "pos": "n.",
+      "gloss": "科研"
+    },
+    {
+      "i": 56,
+      "zh": "硬件",
+      "en": "hardware",
+      "ipa": "[ˈhɑːdweə]",
+      "pos": "n.",
+      "gloss": "硬件"
+    },
+    {
+      "i": 57,
+      "zh": "认知",
+      "en": "cognition",
+      "ipa": "[kɒɡˈnɪʃn]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 58,
+      "zh": "问题",
+      "en": "issue",
+      "ipa": "[ˈɪʃuː]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 59,
+      "zh": "推理",
+      "en": "inference",
+      "ipa": "[ˈɪnfərəns]",
+      "pos": "n.",
+      "gloss": "推理"
+    },
+    {
+      "i": 60,
+      "skip": true
+    },
+    {
+      "i": 61,
+      "skip": true
+    },
+    {
+      "i": 62,
+      "zh": "场景",
+      "en": "scene",
+      "ipa": "[siːn]",
+      "pos": "n.",
+      "gloss": "场景"
+    },
+    {
+      "i": 63,
+      "zh": "试点",
+      "en": "pilot",
+      "ipa": "[ˈpaɪlət]",
+      "pos": "n.",
+      "gloss": "试点"
+    },
+    {
+      "i": 64,
+      "skip": true
+    },
+    {
+      "i": 65,
+      "zh": "训练",
+      "en": "training",
+      "ipa": "[ˈtreɪnɪŋ]",
+      "pos": "n.",
+      "gloss": "训练"
+    },
+    {
+      "i": 66,
+      "zh": "机器人",
+      "en": "robot",
+      "ipa": "[ˈrəʊbɒt]",
+      "pos": "n.",
+      "gloss": "机器人"
+    },
+    {
+      "i": 67,
+      "zh": "搭建",
+      "en": "build",
+      "ipa": "[bɪld]",
+      "pos": "v.",
+      "gloss": "搭建"
+    },
+    {
+      "i": 68,
+      "zh": "业务",
+      "en": "business",
+      "ipa": "[ˈbɪznɪs]",
+      "pos": "n.",
+      "gloss": "业务"
+    },
+    {
+      "i": 69,
+      "zh": "技术",
+      "en": "tech",
+      "ipa": "[tek]",
+      "pos": "n.",
+      "gloss": "技术"
+    },
+    {
+      "i": 70,
+      "zh": "项目",
+      "en": "project",
+      "ipa": "[ˈprɒdʒekt]",
+      "pos": "n.",
+      "gloss": "项目"
+    },
+    {
+      "i": 71,
+      "zh": "生成",
+      "en": "generation",
+      "ipa": "[ˌdʒenəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "生成"
+    },
+    {
+      "i": 72,
+      "zh": "成本",
+      "en": "cost",
+      "ipa": "[kɒst]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 73,
+      "skip": true
+    },
+    {
+      "i": 74,
+      "zh": "质量",
+      "en": "quality",
+      "ipa": "[ˈkwɒləti]",
+      "pos": "n.",
+      "gloss": "质量"
+    },
+    {
+      "i": 75,
+      "skip": true
+    },
+    {
+      "i": 76,
+      "skip": true
+    },
+    {
+      "i": 77,
+      "skip": true
+    },
+    {
+      "i": 78,
+      "skip": true
+    },
+    {
+      "i": 79,
+      "skip": true
+    },
+    {
+      "i": 80,
+      "skip": true
+    },
+    {
+      "i": 81,
+      "skip": true
+    },
+    {
+      "i": 82,
+      "zh": "必须",
+      "en": "must",
+      "ipa": "[mʌst]",
+      "pos": "modal.",
+      "gloss": "必须"
+    },
+    {
+      "i": 83,
+      "zh": "合理",
+      "en": "rational",
+      "ipa": "[ˈræʃnəl]",
+      "pos": "adj.",
+      "gloss": "合理"
+    },
+    {
+      "i": 84,
+      "skip": true
+    },
+    {
+      "i": 85,
+      "zh": "环境",
+      "en": "environment",
+      "ipa": "[ɪnˈvaɪrənmənt]",
+      "pos": "n.",
+      "gloss": "环境"
+    },
+    {
+      "i": 86,
+      "zh": "领域",
+      "en": "domain",
+      "ipa": "[dəʊˈmeɪn]",
+      "pos": "n.",
+      "gloss": "领域"
+    },
+    {
+      "i": 87,
+      "skip": true
+    },
+    {
+      "i": 88,
+      "zh": "审批",
+      "en": "approval",
+      "ipa": "[əˈpruːvl]",
+      "pos": "n.",
+      "gloss": "审批"
+    },
+    {
+      "i": 89,
+      "zh": "部门",
+      "en": "department",
+      "ipa": "[dɪˈpɑːtmənt]",
+      "pos": "n.",
+      "gloss": "部门"
+    },
+    {
+      "i": 90,
+      "zh": "执行",
+      "en": "enforcement",
+      "ipa": "[ɪnˈfɔːsmənt]",
+      "pos": "n.",
+      "gloss": "执行"
+    },
+    {
+      "i": 91,
+      "zh": "城市",
+      "en": "urban",
+      "ipa": "[ˈɜːbən]",
+      "pos": "adj.",
+      "gloss": "城市"
+    },
+    {
+      "i": 92,
+      "zh": "刚性",
+      "en": "rigid",
+      "ipa": "[ˈrɪdʒɪd]",
+      "pos": "adj.",
+      "gloss": "刚性"
+    },
+    {
+      "i": 93,
+      "zh": "竞争",
+      "en": "competition",
+      "ipa": "[ˌkɒmpəˈtɪʃn]",
+      "pos": "n.",
+      "gloss": "竞争"
+    },
+    {
+      "i": 94,
+      "skip": true
+    },
+    {
+      "i": 95,
+      "skip": true
+    },
+    {
+      "i": 96,
+      "zh": "扩张",
+      "en": "expansion",
+      "ipa": "[ɪkˈspænʃn]",
+      "pos": "n.",
+      "gloss": "扩张"
+    },
+    {
+      "i": 97,
+      "zh": "聚焦",
+      "en": "focus",
+      "ipa": "[ˈfəʊkəs]",
+      "pos": "v.",
+      "gloss": "聚焦"
+    },
+    {
+      "i": 98,
+      "zh": "整体",
+      "en": "overall",
+      "ipa": "[ˌəʊvərˈɔːl]",
+      "pos": "adj.",
+      "gloss": "整体"
+    },
+    {
+      "i": 99,
+      "skip": true
+    },
+    {
+      "i": 100,
+      "zh": "优质",
+      "en": "premium",
+      "ipa": "[ˈpriːmiəm]",
+      "pos": "adj.",
+      "gloss": "优质"
+    },
+    {
+      "i": 101,
+      "zh": "压力",
+      "en": "pressure",
+      "ipa": "[ˈpreʃə]",
+      "pos": "n.",
+      "gloss": "压力"
+    },
+    {
+      "i": 102,
+      "skip": true
+    },
+    {
+      "i": 103,
+      "zh": "国家",
+      "en": "national",
+      "ipa": "[ˈnæʃnəl]",
+      "pos": "adj.",
+      "gloss": "国家"
+    },
+    {
+      "i": 104,
+      "zh": "计划",
+      "en": "planning",
+      "ipa": "[ˈplænɪŋ]",
+      "pos": "n.",
+      "gloss": "计划"
+    },
+    {
+      "i": 105,
+      "zh": "方案",
+      "en": "solution",
+      "ipa": "[səˈluːʃn]",
+      "pos": "n.",
+      "gloss": "方案"
+    },
+    {
+      "i": 106,
+      "zh": "试点",
+      "en": "trial",
+      "ipa": "[ˈtraɪəl]",
+      "pos": "n.",
+      "gloss": "试验"
+    },
+    {
+      "i": 107,
+      "skip": true
+    },
+    {
+      "i": 108,
+      "zh": "核心",
+      "en": "core",
+      "ipa": "[kɔː]",
+      "pos": "n.",
+      "gloss": "核心"
+    },
+    {
+      "i": 109,
+      "skip": true
+    },
+    {
+      "i": 110,
+      "zh": "率",
+      "en": "rate",
+      "ipa": "[reɪt]",
+      "pos": "n.",
+      "gloss": "率"
+    },
+    {
+      "i": 111,
+      "skip": true
+    },
+    {
+      "i": 112,
+      "skip": true
+    },
+    {
+      "i": 113,
+      "skip": true
+    },
+    {
+      "i": 114,
+      "skip": true
+    },
+    {
+      "i": 115,
+      "zh": "短期",
+      "en": "short",
+      "ipa": "[ʃɔːt]",
+      "pos": "adj.",
+      "gloss": "短期"
+    },
+    {
+      "i": 116,
+      "zh": "稳定",
+      "en": "stability",
+      "ipa": "[stəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "稳定"
+    },
+    {
+      "i": 117,
+      "zh": "利润",
+      "en": "profit",
+      "ipa": "[ˈprɒfɪt]",
+      "pos": "n.",
+      "gloss": "利润"
+    },
+    {
+      "i": 118,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "预期"
+    },
+    {
+      "i": 119,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 120,
+      "skip": true
+    },
+    {
+      "i": 121,
+      "skip": true
+    },
+    {
+      "i": 122,
+      "skip": true
+    },
+    {
+      "i": 123,
+      "zh": "意味着",
+      "en": "mean",
+      "ipa": "[miːn]",
+      "pos": "v.",
+      "gloss": "意味着"
+    },
+    {
+      "i": 124,
+      "skip": true
+    },
+    {
+      "i": 125,
+      "skip": true
+    },
+    {
+      "i": 126,
+      "skip": true
+    },
+    {
+      "i": 127,
+      "skip": true
+    },
+    {
+      "i": 128,
+      "skip": true
+    },
+    {
+      "i": 129,
+      "skip": true
+    },
+    {
+      "i": 130,
+      "skip": true
+    },
+    {
+      "i": 131,
+      "skip": true
+    },
+    {
+      "i": 132,
+      "skip": true
+    },
+    {
+      "i": 133,
+      "zh": "上涨",
+      "en": "rise",
+      "ipa": "[raɪz]",
+      "pos": "n.",
+      "gloss": "上涨"
+    },
+    {
+      "i": 134,
+      "skip": true
+    },
+    {
+      "i": 135,
+      "skip": true
+    },
+    {
+      "i": 136,
+      "skip": true
+    },
+    {
+      "i": 137,
+      "skip": true
+    },
+    {
+      "i": 138,
+      "skip": true
+    },
+    {
+      "i": 139,
+      "skip": true
+    },
+    {
+      "i": 140,
+      "skip": true
+    },
+    {
+      "i": 141,
+      "skip": true
+    },
+    {
+      "i": 142,
+      "skip": true
+    },
+    {
+      "i": 143,
+      "skip": true
+    },
+    {
+      "i": 144,
+      "skip": true
+    },
+    {
+      "i": 145,
+      "skip": true
+    },
+    {
+      "i": 146,
+      "skip": true
+    },
+    {
+      "i": 147,
+      "zh": "风险",
+      "en": "risk",
+      "ipa": "[rɪsk]",
+      "pos": "n.",
+      "gloss": "风险"
+    },
+    {
+      "i": 148,
+      "skip": true
+    },
+    {
+      "i": 149,
+      "skip": true
+    },
+    {
+      "i": 150,
+      "zh": "收益",
+      "en": "revenue",
+      "ipa": "[ˈrevənjuː]",
+      "pos": "n.",
+      "gloss": "收益"
+    },
+    {
+      "i": 151,
+      "skip": true
+    },
+    {
+      "i": 152,
+      "skip": true
+    },
+    {
+      "i": 153,
+      "skip": true
+    },
+    {
+      "i": 154,
+      "skip": true
+    },
+    {
+      "i": 155,
+      "zh": "收购",
+      "en": "acquisition",
+      "ipa": "[ˌækwɪˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "收购"
+    },
+    {
+      "i": 156,
+      "skip": true
+    },
+    {
+      "i": 157,
+      "skip": true
+    },
+    {
+      "i": 158,
+      "skip": true
+    },
+    {
+      "i": 159,
+      "skip": true
+    },
+    {
+      "i": 160,
+      "zh": "体现",
+      "en": "embodied",
+      "ipa": "[ɪmˈbɒdid]",
+      "pos": "adj.",
+      "gloss": "体现"
+    },
+    {
+      "i": 161,
+      "zh": "成熟",
+      "en": "mature",
+      "ipa": "[məˈtʃʊə]",
+      "pos": "adj.",
+      "gloss": "成熟"
+    },
+    {
+      "i": 162,
+      "skip": true
+    },
+    {
+      "i": 163,
+      "skip": true
+    },
+    {
+      "i": 164,
+      "skip": true
+    },
+    {
+      "i": 165,
+      "skip": true
+    },
+    {
+      "i": 166,
+      "skip": true
+    },
+    {
+      "i": 167,
+      "skip": true
+    },
+    {
+      "i": 168,
+      "skip": true
+    },
+    {
+      "i": 169,
+      "skip": true
+    },
+    {
+      "i": 170,
+      "skip": true
+    },
+    {
+      "i": 171,
+      "skip": true
+    },
+    {
+      "i": 172,
+      "skip": true
+    },
+    {
+      "i": 173,
+      "skip": true
+    },
+    {
+      "i": 174,
+      "skip": true
+    },
+    {
+      "i": 175,
+      "skip": true
+    },
+    {
+      "i": 176,
+      "zh": "介绍",
+      "en": "introduce",
+      "ipa": "[ˌɪntrəˈdjuːs]",
+      "pos": "v.",
+      "gloss": "介绍"
+    },
+    {
+      "i": 177,
+      "skip": true
+    },
+    {
+      "i": 178,
+      "zh": "执行",
+      "en": "execute",
+      "ipa": "[ˈeksɪkjuːt]",
+      "pos": "v.",
+      "gloss": "执行"
+    },
+    {
+      "i": 179,
+      "skip": true
+    },
+    {
+      "i": 180,
+      "skip": true
+    },
+    {
+      "i": 181,
+      "skip": true
+    },
+    {
+      "i": 182,
+      "skip": true
+    },
+    {
+      "i": 183,
+      "zh": "关键",
+      "en": "key",
+      "ipa": "[kiː]",
+      "pos": "adj.",
+      "gloss": "关键"
+    },
+    {
+      "i": 184,
+      "skip": true
+    },
+    {
+      "i": 185,
+      "zh": "成长",
+      "en": "growth",
+      "ipa": "[ɡrəʊθ]",
+      "pos": "n.",
+      "gloss": "成长"
+    },
+    {
+      "i": 186,
+      "skip": true
+    },
+    {
+      "i": 187,
+      "zh": "未来",
+      "en": "future",
+      "ipa": "[ˈfjuːtʃə]",
+      "pos": "n.",
+      "gloss": "未来"
+    },
+    {
+      "i": 188,
+      "zh": "目标",
+      "en": "target",
+      "ipa": "[ˈtɑːɡɪt]",
+      "pos": "n.",
+      "gloss": "目标"
+    },
+    {
+      "i": 189,
+      "skip": true
+    },
+    {
+      "i": 190,
+      "skip": true
+    },
+    {
+      "i": 191,
+      "skip": true
+    },
+    {
+      "i": 192,
+      "skip": true
+    },
+    {
+      "i": 193,
+      "skip": true
+    },
+    {
+      "i": 194,
+      "skip": true
+    },
+    {
+      "i": 195,
+      "skip": true
+    },
+    {
+      "i": 196,
+      "skip": true
+    },
+    {
+      "i": 197,
+      "skip": true
+    },
+    {
+      "i": 198,
+      "skip": true
+    },
+    {
+      "i": 199,
+      "skip": true
+    },
+    {
+      "i": 200,
+      "skip": true
+    },
+    {
+      "i": 201,
+      "skip": true
+    },
+    {
+      "i": 202,
+      "skip": true
+    },
+    {
+      "i": 203,
+      "skip": true
+    },
+    {
+      "i": 204,
+      "zh": "选择",
+      "en": "choice",
+      "ipa": "[tʃɔɪs]",
+      "pos": "n.",
+      "gloss": "选择"
+    },
+    {
+      "i": 205,
+      "skip": true
+    },
+    {
+      "i": 206,
+      "skip": true
+    },
+    {
+      "i": 207,
+      "zh": "指数",
+      "en": "exponential",
+      "ipa": "[ˌekspəˈnenʃl]",
+      "pos": "adj.",
+      "gloss": "指数"
+    },
+    {
+      "i": 208,
+      "skip": true
+    },
+    {
+      "i": 209,
+      "skip": true
+    },
+    {
+      "i": 210,
+      "skip": true
+    },
+    {
+      "i": 211,
+      "zh": "互联",
+      "en": "interconnect",
+      "ipa": "[ˌɪntəkəˈnekt]",
+      "pos": "v.",
+      "gloss": "互联"
+    },
+    {
+      "i": 212,
+      "skip": true
+    },
+    {
+      "i": 213,
+      "zh": "思考",
+      "en": "think",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "思考"
+    },
+    {
+      "i": 214,
+      "skip": true
+    },
+    {
+      "i": 215,
+      "skip": true
+    },
+    {
+      "i": 216,
+      "skip": true
+    },
+    {
+      "i": 217,
+      "skip": true
+    },
+    {
+      "i": 218,
+      "skip": true
+    },
+    {
+      "i": 219,
+      "skip": true
+    },
+    {
+      "i": 220,
+      "skip": true
+    },
+    {
+      "i": 221,
+      "skip": true
+    },
+    {
+      "i": 222,
+      "skip": true
+    },
+    {
+      "i": 223,
+      "skip": true
+    },
+    {
+      "i": 224,
+      "skip": true
+    },
+    {
+      "i": 225,
+      "skip": true
+    },
+    {
+      "i": 226,
+      "skip": true
+    },
+    {
+      "i": 227,
+      "zh": "敏感",
+      "en": "sensitive",
+      "ipa": "[ˈsensətɪv]",
+      "pos": "adj.",
+      "gloss": "敏感"
+    },
+    {
+      "i": 228,
+      "skip": true
+    },
+    {
+      "i": 229,
+      "skip": true
+    },
+    {
+      "i": 230,
+      "skip": true
+    },
+    {
+      "i": 231,
+      "skip": true
+    },
+    {
+      "i": 232,
+      "skip": true
+    },
+    {
+      "i": 233,
+      "skip": true
+    },
+    {
+      "i": 234,
+      "skip": true
+    },
+    {
+      "i": 235,
+      "skip": true
+    },
+    {
+      "i": 236,
+      "skip": true
+    },
+    {
+      "i": 237,
+      "skip": true
+    },
+    {
+      "i": 238,
+      "skip": true
+    },
+    {
+      "i": 239,
+      "skip": true
+    },
+    {
+      "i": 240,
+      "zh": "优化",
+      "en": "optimize",
+      "ipa": "[ˈɒptɪmaɪz]",
+      "pos": "v.",
+      "gloss": "优化"
+    },
+    {
+      "i": 241,
+      "skip": true
+    },
+    {
+      "i": 242,
+      "zh": "成本",
+      "en": "costing",
+      "ipa": "[ˈkɒstɪŋ]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 243,
+      "zh": "规则",
+      "en": "regulation",
+      "ipa": "[ˌreɡjuˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "规则"
+    },
+    {
+      "i": 244,
+      "zh": "答案",
+      "en": "answer",
+      "ipa": "[ˈɑːnsə]",
+      "pos": "n.",
+      "gloss": "答案"
+    },
+    {
+      "i": 245,
+      "skip": true
+    },
+    {
+      "i": 246,
+      "skip": true
+    }
+  ]
+}
