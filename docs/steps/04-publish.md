@@ -51,7 +51,7 @@ python3 workflow/mingox.py deploy --project mingox
 | **EdgeOne 项目名** | 固定为 **`mingox`**（与远程已有项目同名时，CLI 会**复用该项目并上传新版本**） |
 | **部署区域** | **中国站**使用 **`-a overseas`**（`pages deploy` 的 `area` 参数；勿与「国际站 `-a global`」混用） |
 | **敏感信息** | API Token **仅放本地** `.edgeone/.token`（单行）；**勿提交**到 Git |
-| **文件数量** | 仓库根目录 **[edgeone.json](../../edgeone.json)** 配置 `buildCommand` + **`outputDirectory: site`**：构建前由 **`workflow/build_deploy_site.py`** 只打包 `index.html`、`about.html`、`posts/`、`css/`、`js/`、`images/` 等静态资源，避免把整个工作区（含 `workspace/`、`util/`、`extensions/` 等）上传导致 **File count exceeds project limit**。 |
+| **构建输出** | **[edgeone.json](../../edgeone.json)**：`buildCommand` 为空，`outputDirectory` 为 **`.`**（**仓库根**即静态站点根）。不再生成 **`site/`**。若远程构建报 **文件数量超限**，可在 EdgeOne 控制台调整忽略/包含规则，或另行增加仅复制静态资源的脚本。 |
 
 ### 环境要求
 

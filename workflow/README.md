@@ -21,7 +21,7 @@ python3 workflow/mingox.py --help
 | `build_draft.py` | `01-source.md` → `02-annotate-tasks.json` + `posts/*.html`；**必须**存在 `llm_annotations.json` 并合并标注（[02-annotate.md](../docs/steps/02-annotate.md)）。标注须满足 **zh/en 一一对应**（见该文档专节）。 |
 | `validate.py` | 相邻 `word-block` 检测（针对含标注的 HTML）；密度启发式 WARN |
 | `paths.py` | 仓库根路径 |
-| `build_deploy_site.py` | EdgeOne 专用：生成 **`site/`** 最小静态树（见根目录 **`edgeone.json`**），避免部署包文件数超限 |
+| EdgeOne 部署 | 根目录 **[edgeone.json](../edgeone.json)**：`outputDirectory` 为 **`.`**（仓库根即静态站点），无单独 `site/` 构建步骤；`python3 workflow/mingox.py deploy` 仍走官方 CLI。 |
 | `requirements.txt` | URL 提取与搜索可选依赖 |
 
 ## 与 `util/` 的分工

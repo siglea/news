@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "恶化",
+      "en": "deteriorate",
+      "ipa": "[dɪˌtɪəriəˈreɪt]",
+      "pos": "v.",
+      "gloss": "恶化"
+    },
+    {
+      "i": 1,
+      "zh": "避风港",
+      "en": "haven",
+      "ipa": "[ˈheɪvn]",
+      "pos": "n.",
+      "gloss": "避风港"
+    },
+    {
+      "i": 2,
+      "zh": "发行",
+      "en": "issue",
+      "ipa": "[ˈɪʃuː]",
+      "pos": "v.",
+      "gloss": "发行"
+    },
+    {
+      "i": 3,
+      "zh": "同比",
+      "en": "YoY",
+      "ipa": "[ˈjiːəʊˈwaɪ]",
+      "pos": "adj.",
+      "gloss": "同比"
+    },
+    {
+      "i": 4,
+      "zh": "计价",
+      "en": "denominate",
+      "ipa": "[dɪˈnɒmɪneɪt]",
+      "pos": "v.",
+      "gloss": "计价"
+    },
+    {
+      "i": 5,
+      "zh": "注册地",
+      "en": "jurisdiction",
+      "ipa": "[ˌdʒʊərɪsˈdɪkʃn]",
+      "pos": "n.",
+      "gloss": "注册地"
+    },
+    {
+      "i": 6,
+      "zh": "获准",
+      "en": "approve",
+      "ipa": "[əˈpruːv]",
+      "pos": "v.",
+      "gloss": "获准"
+    },
+    {
+      "i": 7,
+      "zh": "惯例",
+      "en": "convention",
+      "ipa": "[kənˈvenʃn]",
+      "pos": "n.",
+      "gloss": "惯例"
+    },
+    {
+      "i": 8,
+      "zh": "盘整",
+      "en": "consolidation",
+      "ipa": "[kənˌsɒlɪˈdeɪʃn]",
+      "pos": "n.",
+      "gloss": "盘整"
+    },
+    {
+      "i": 9,
+      "zh": "募集",
+      "en": "raise",
+      "ipa": "[reɪz]",
+      "pos": "v.",
+      "gloss": "募集"
+    },
+    {
+      "i": 10,
+      "zh": "升值",
+      "en": "appreciate",
+      "ipa": "[əˈpriːʃieɪt]",
+      "pos": "v.",
+      "gloss": "升值"
+    },
+    {
+      "i": 11,
+      "zh": "纳入",
+      "en": "include",
+      "ipa": "[ɪnˈkluːd]",
+      "pos": "v.",
+      "gloss": "纳入"
+    },
+    {
+      "i": 12,
+      "zh": "入场",
+      "en": "entry",
+      "ipa": "[ˈentri]",
+      "pos": "n.",
+      "gloss": "入场"
+    },
+    {
+      "i": 13,
+      "zh": "试水",
+      "en": "test",
+      "ipa": "[test]",
+      "pos": "v.",
+      "gloss": "试水"
+    },
+    {
+      "i": 14,
+      "zh": "获批",
+      "en": "authorize",
+      "ipa": "[ˈɔːθəraɪz]",
+      "pos": "v.",
+      "gloss": "获批"
+    },
+    {
+      "i": 15,
+      "zh": "主权",
+      "en": "sovereign",
+      "ipa": "[ˈsɒvrɪn]",
+      "pos": "adj.",
+      "gloss": "主权的"
+    },
+    {
+      "i": 16,
+      "zh": "版图",
+      "en": "spectrum",
+      "ipa": "[ˈspektrəm]",
+      "pos": "n.",
+      "gloss": "版图"
+    },
+    {
+      "i": 17,
+      "zh": "利差",
+      "en": "spread",
+      "ipa": "[spred]",
+      "pos": "n.",
+      "gloss": "利差"
+    },
+    {
+      "i": 18,
+      "zh": "统一",
+      "en": "unify",
+      "ipa": "[ˈjuːnɪfaɪ]",
+      "pos": "v.",
+      "gloss": "统一"
+    },
+    {
+      "i": 19,
+      "zh": "暂免",
+      "en": "exempt",
+      "ipa": "[ɪɡˈzempt]",
+      "pos": "v.",
+      "gloss": "暂免"
+    },
+    {
+      "i": 20,
+      "zh": "存量",
+      "en": "outstanding",
+      "ipa": "[aʊtˈstændɪŋ]",
+      "pos": "adj.",
+      "gloss": "存量"
+    },
+    {
+      "i": 21,
+      "zh": "主导",
+      "en": "dominate",
+      "ipa": "[ˈdɒmɪneɪt]",
+      "pos": "v.",
+      "gloss": "主导"
+    },
+    {
+      "i": 22,
+      "zh": "红筹",
+      "en": "redchip",
+      "ipa": "[ˈredtʃɪp]",
+      "pos": "n.",
+      "gloss": "红筹"
+    },
+    {
+      "i": 23,
+      "zh": "纯",
+      "en": "pure",
+      "ipa": "[pjʊə]",
+      "pos": "adj.",
+      "gloss": "纯"
+    },
+    {
+      "i": 24,
+      "zh": "批量",
+      "en": "batch",
+      "ipa": "[bætʃ]",
+      "pos": "adj.",
+      "gloss": "批量"
+    },
+    {
+      "i": 25,
+      "zh": "倒挂",
+      "en": "inversion",
+      "ipa": "[ɪnˈvɜːʃn]",
+      "pos": "n.",
+      "gloss": "倒挂"
+    },
+    {
+      "i": 26,
+      "zh": "汇改",
+      "en": "reform",
+      "ipa": "[rɪˈfɔːm]",
+      "pos": "n.",
+      "gloss": "汇改"
+    },
+    {
+      "i": 27,
+      "zh": "热钱",
+      "en": "hotmoney",
+      "ipa": "[ˈhɒtmʌni]",
+      "pos": "n.",
+      "gloss": "热钱"
+    },
+    {
+      "i": 28,
+      "zh": "套利",
+      "en": "arbitrage",
+      "ipa": "[ˈɑːbɪtrɑːʒ]",
+      "pos": "n.",
+      "gloss": "套利"
+    },
+    {
+      "i": 29,
+      "skip": true
+    },
+    {
+      "i": 30,
+      "zh": "宽松",
+      "en": "loose",
+      "ipa": "[luːs]",
+      "pos": "adj.",
+      "gloss": "宽松的"
+    },
+    {
+      "i": 31,
+      "zh": "放水",
+      "en": "stimulus",
+      "ipa": "[ˈstɪmjələs]",
+      "pos": "n.",
+      "gloss": "放水"
+    },
+    {
+      "i": 32,
+      "zh": "CPI",
+      "en": "CPI",
+      "ipa": "[ˌsiːpiːˈaɪ]",
+      "pos": "n.",
+      "gloss": "消费价格指数"
+    },
+    {
+      "i": 33,
+      "zh": "加息",
+      "en": "hike",
+      "ipa": "[haɪk]",
+      "pos": "n.",
+      "gloss": "加息"
+    },
+    {
+      "i": 34,
+      "zh": "漫灌",
+      "en": "flood",
+      "ipa": "[flʌd]",
+      "pos": "v.",
+      "gloss": "漫灌"
+    },
+    {
+      "i": 35,
+      "zh": "复苏",
+      "en": "recovery",
+      "ipa": "[rɪˈkʌvəri]",
+      "pos": "n.",
+      "gloss": "复苏"
+    },
+    {
+      "i": 36,
+      "zh": "内需",
+      "en": "demand",
+      "ipa": "[dɪˈmɑːnd]",
+      "pos": "n.",
+      "gloss": "内需"
+    },
+    {
+      "i": 37,
+      "zh": "国债",
+      "en": "treasury",
+      "ipa": "[ˈtreʒəri]",
+      "pos": "n.",
+      "gloss": "国债"
+    },
+    {
+      "i": 38,
+      "zh": "票息",
+      "en": "coupon",
+      "ipa": "[ˈkuːpɒn]",
+      "pos": "n.",
+      "gloss": "票息"
+    },
+    {
+      "i": 39,
+      "zh": "节省",
+      "en": "save",
+      "ipa": "[seɪv]",
+      "pos": "v.",
+      "gloss": "节省"
+    },
+    {
+      "i": 40,
+      "zh": "平价",
+      "en": "parity",
+      "ipa": "[ˈpærəti]",
+      "pos": "n.",
+      "gloss": "平价"
+    },
+    {
+      "i": 41,
+      "zh": "比较",
+      "en": "compare",
+      "ipa": "[kəmˈpeə]",
+      "pos": "v.",
+      "gloss": "比较"
+    },
+    {
+      "i": 42,
+      "zh": "融资成本",
+      "en": "funding",
+      "ipa": "[ˈfʌndɪŋ]",
+      "pos": "n.",
+      "gloss": "融资成本"
+    },
+    {
+      "i": 43,
+      "zh": "欧元",
+      "en": "euro",
+      "ipa": "[ˈjʊərəʊ]",
+      "pos": "n.",
+      "gloss": "欧元"
+    },
+    {
+      "i": 44,
+      "zh": "稀释",
+      "en": "dilute",
+      "ipa": "[daɪˈluːt]",
+      "pos": "v.",
+      "gloss": "稀释"
+    },
+    {
+      "i": 45,
+      "zh": "套息",
+      "en": "carry",
+      "ipa": "[ˈkæri]",
+      "pos": "n.",
+      "gloss": "套息"
+    },
+    {
+      "i": 46,
+      "zh": "投资",
+      "en": "invest",
+      "ipa": "[ɪnˈvest]",
+      "pos": "v.",
+      "gloss": "投资"
+    },
+    {
+      "i": 47,
+      "zh": "交易员",
+      "en": "trader",
+      "ipa": "[ˈtreɪdə]",
+      "pos": "n.",
+      "gloss": "交易员"
+    },
+    {
+      "i": 48,
+      "skip": true
+    }
+  ]
+}
