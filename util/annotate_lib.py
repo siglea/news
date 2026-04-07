@@ -456,6 +456,7 @@ def build_post_html(
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>{tzh} | {ten} | MingoX</title>
     <meta name="description" content="{html.escape(meta_description, quote=True)}">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
