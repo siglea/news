@@ -9,6 +9,7 @@ MingoX 四步流水线入口（本地执行）。
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import subprocess
 import sys
@@ -75,7 +76,11 @@ def cmd_build(args: argparse.Namespace) -> None:
     sys.path.insert(0, str(WORKFLOW_DIR))
     from build_draft import build_slug
 
-    build_slug(args.slug, skip_validate=args.skip_validate)
+    build_slug(
+        args.slug,
+        skip_validate=args.skip_validate,
+        skip_quality_gates=bool(getattr(args, "skip_quality_gates", False)),
+    )
 
 
 def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
@@ -184,6 +189,52 @@ def cmd_deploy(args: argparse.Namespace) -> None:
     raise SystemExit(r.returncode)
 
 
+def _run_step(cmd: list[str]) -> int:
+    r = subprocess.run(cmd, cwd=str(ROOT))
+    return int(r.returncode or 0)
+
+
+def cmd_close_loop(args: argparse.Namespace) -> None:
+    draft = ROOT / "content" / "drafts" / args.slug
+    meta_path = draft / "meta.json"
+    src_path = draft / "01-source.md"
+    ann_path = draft / "llm_annotations.json"
+    if not draft.is_dir():
+        raise SystemExit(f"missing draft dir: {draft}")
+    if not meta_path.is_file():
+        raise SystemExit(f"missing {meta_path}")
+    if not src_path.is_file():
+        raise SystemExit(f"missing {src_path}")
+    if not ann_path.is_file():
+        raise SystemExit(
+            f"missing {ann_path}: run `python3 workflow/mingox.py export-chat-bundle --slug {args.slug}` "
+            "and complete annotation first."
+        )
+
+    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    out_html = str(meta.get("out_html", "")).strip()
+    if not out_html:
+        raise SystemExit("meta.json 缺少 out_html。")
+
+    py = _py()
+    wf = str(WORKFLOW_DIR / "mingox.py")
+
+    steps: list[tuple[str, list[str]]] = [
+        ("build", [py, wf, "build", "--slug", args.slug]),
+        ("validate", [py, wf, "validate", "--post", out_html]),
+    ]
+    if args.deploy:
+        steps.append(("deploy", [py, wf, "deploy", "--project", args.project]))
+
+    for name, cmd in steps:
+        print(f"[close-loop] running {name}: {' '.join(cmd[2:])}")
+        rc = _run_step(cmd)
+        if rc != 0:
+            raise SystemExit(rc)
+
+    print("[close-loop] OK: build + validate" + (" + deploy" if args.deploy else ""))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(prog="mingox-workflow", description="MingoX content pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -260,6 +311,7 @@ def main() -> None:
     p_b = sub.add_parser("build", help="Step 2–3: tasks JSON + HTML from draft")
     p_b.add_argument("--slug", required=True)
     p_b.add_argument("--skip-validate", action="store_true")
+    p_b.add_argument("--skip-quality-gates", action="store_true")
     p_b.set_defaults(func=cmd_build)
 
     p_eb = sub.add_parser(
@@ -281,6 +333,15 @@ def main() -> None:
     p_d = sub.add_parser("deploy", help="Step 4: EdgeOne Pages (needs npx + token or login)")
     p_d.add_argument("--project", default="mingox")
     p_d.set_defaults(func=cmd_deploy)
+
+    p_cl = sub.add_parser(
+        "close-loop",
+        help="闭环执行：build -> validate -> (optional) deploy",
+    )
+    p_cl.add_argument("--slug", required=True)
+    p_cl.add_argument("--deploy", action="store_true", help="通过 build+validate 后继续部署")
+    p_cl.add_argument("--project", default="mingox")
+    p_cl.set_defaults(func=cmd_close_loop)
 
     args = ap.parse_args()
     args.func(args)

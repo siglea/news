@@ -1,6 +1,6 @@
 # 第 2 步：词汇标注（四六级向）
 
-本步产出 **`llm_annotations.json`**。**没有该文件则 `mingox build` 直接失败**（见 [`workflow/build_draft.py`](../../workflow/build_draft.py)）。成稿中的 `word-block` 与篇末词汇表均依赖此文件经 [`util/annotate_merge.py`](../../util/annotate_merge.py) 合并进段落 HTML。
+本步产出 **`llm_annotations.json`**。**没有该文件则 `mingox build` 直接失败**（见 [`workflow/build_draft.py`](../../workflow/build_draft.py)）。成稿中的 `word-block` 与篇末词汇表均依赖此文件经 [`util/annotate_merge.py`](../../util/annotate_merge.py) 合并进段落 HTML。`build` 前还会执行 [`util/annotation_quality_gate.py`](../../util/annotation_quality_gate.py) 门禁，默认拦截占位符标注、重复 `en`、空 `meta_description`，并校验 **`zh/en` 一一对应的基础约束**（如 `zh` 必须落在原句正文、`en` 必须单 token、`zh` 不应是并列短语）。
 
 ---
 
@@ -45,6 +45,7 @@
    ```bash
    python3 workflow/mingox.py build --slug <slug>
    ```
+   如需临时跳过门禁（不建议）：`--skip-quality-gates`。
 
 **自检（模型或助手在保存前快速过一遍）：**  
 每条非 `skip` 的 `zh` 是否在对应句的**正文**（去掉句末 `。！？；`）里**逐字连续出现**？`en` 是否**只**对应该 `zh`，而不是对一长串里某个未写进 `zh` 的词？
@@ -129,6 +130,12 @@ Cursor 内编辑标注相关文件时，另见项目规则 **`.cursor/rules/anno
 - **同一 `en`（大小写不敏感）按句顺序只保留第一次**；后续相同 `en` 的标注在合并结果中视为无效，故提示词要求尽量少重复 `en`。  
 - **改 `chat_annotate_system.txt` 不会自动更新已有 `llm_annotations.json`**。要新密度或新规则，须重新导出 bundle 并**重写**标注再 `build`。  
 - `build` 时若覆盖率偏低，stderr 可能出现启发式提示；**相邻 `word-block` 校验**见 [`03-html.md`](./03-html.md) 与 `mingox validate`。
+
+### 实战排障补充
+
+- 若为了绕过去重而在 `en` 末尾加数字（如 `issue1`），建议只作为内部去重键，不直接展示给读者。
+- 当前实现已支持“内部去重键”和“展示词”分离：展示层可去掉尾部数字，避免页面出现 `word123` 这类阅读噪音。
+- 覆盖率异常时，先排查两类损耗：`skip` 过多、`en` 重复被去重；两者都可能显著拉低最终 `annotated` 数。
 
 ---
 

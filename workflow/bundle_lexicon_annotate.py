@@ -84,7 +84,21 @@ def _has_cjk(s: str) -> bool:
     return bool(re.search(r"[\u4e00-\u9fff]", s))
 
 
-def fill_from_bundle(bundle_path: Path, lex_entries: list[dict[str, str]]) -> dict:
+def _unique_en_token(base_en: str, used: set[str]) -> str:
+    token = base_en
+    idx = 2
+    while token.lower() in used:
+        token = f"{base_en}{idx}"
+        idx += 1
+    return token
+
+
+def fill_from_bundle(
+    bundle_path: Path,
+    lex_entries: list[dict[str, str]],
+    *,
+    suffix_repeated_en: bool = False,
+) -> dict:
     data = json.loads(bundle_path.read_text(encoding="utf-8"))
     sents = data.get("sentences") or []
     ordered = sorted((int(x["i"]), str(x.get("text", ""))) for x in sents if isinstance(x, dict) and "i" in x)
@@ -99,18 +113,24 @@ def fill_from_bundle(bundle_path: Path, lex_entries: list[dict[str, str]]) -> di
         pick: dict[str, str] | None = None
         for e in lex_sorted:
             en = e["en"]
-            if en.lower() in used_en:
+            if (not suffix_repeated_en) and en.lower() in used_en:
                 continue
             if e["zh"] in body:
                 pick = e
                 break
         if pick:
-            used_en.add(pick["en"].lower())
+            out_en = pick["en"]
+            if suffix_repeated_en:
+                out_en = _unique_en_token(out_en, used_en)
+            if out_en.lower() in used_en:
+                annotations.append({"i": i, "skip": True})
+                continue
+            used_en.add(out_en.lower())
             annotations.append(
                 {
                     "i": i,
                     "zh": pick["zh"],
-                    "en": pick["en"],
+                    "en": out_en,
                     "ipa": pick["ipa"],
                     "pos": pick["pos"],
                     "gloss": pick["gloss"],
@@ -136,6 +156,11 @@ def main() -> None:
         type=Path,
         help="Default: content/drafts/<slug>/llm_annotations.json",
     )
+    ap.add_argument(
+        "--suffix-repeated-en",
+        action="store_true",
+        help="Allow repeated headwords by appending numeric suffix for dedupe key, e.g. market2.",
+    )
     a = ap.parse_args()
     draft = ROOT / "content" / "drafts" / a.slug
     bundle = draft / "llm-chat-bundle.json"
@@ -148,7 +173,7 @@ def main() -> None:
         entries = _load_lexicon_tsv(lex_path)
     else:
         entries = _load_lexicon_module(lex_path)
-    payload = fill_from_bundle(bundle, entries)
+    payload = fill_from_bundle(bundle, entries, suffix_repeated_en=a.suffix_repeated_en)
     out = a.output or (draft / "llm_annotations.json")
     out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     n = len(payload["annotations"])

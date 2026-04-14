@@ -58,14 +58,14 @@ def normalize_annotation_item(item: dict[str, Any], sent_text: str) -> dict[str,
     if item.get("skip") is True:
         return None
     zh = str(item.get("zh", "")).strip()
-    en = str(item.get("en", "")).strip()
+    en_raw = str(item.get("en", "")).strip()
     ipa = str(item.get("ipa", "")).strip()
     pos = str(item.get("pos", "")).strip()
     gloss = str(item.get("gloss", "")).strip()
     underline = str(item.get("underline", "")).strip()
-    if not en or not ipa or not pos:
+    if not en_raw or not ipa or not pos:
         return None
-    if " " in en or not en_headword_token_ok(en):
+    if " " in en_raw or not en_headword_token_ok(en_raw):
         return None
     body, _ = al.sentence_body_and_punct(sent_text)
     if underline:
@@ -82,7 +82,17 @@ def normalize_annotation_item(item: dict[str, Any], sent_text: str) -> dict[str,
         return None
     if not ipa.startswith("["):
         ipa = f"[{ipa.strip('[]')}]"
-    return {"zh": out_zh, "en": en, "ipa": ipa, "pos": pos, "gloss": gloss.strip()}
+    # Keep a stable dedupe key from original token (may include numeric suffix),
+    # but render a cleaned headword without trailing digits.
+    en_display = re.sub(r"\d+$", "", en_raw).strip() or en_raw
+    return {
+        "zh": out_zh,
+        "en": en_display,
+        "ipa": ipa,
+        "pos": pos,
+        "gloss": gloss.strip(),
+        "_dedupe_key": en_raw.lower(),
+    }
 
 
 def rows_from_annotations_payload(
@@ -113,7 +123,7 @@ def dedupe_in_order(annos: list[dict[str, str] | None]) -> list[dict[str, str] |
         if not a:
             out.append(None)
             continue
-        k = a["en"].lower()
+        k = str(a.get("_dedupe_key") or a["en"].lower())
         if k in used:
             out.append(None)
         else:

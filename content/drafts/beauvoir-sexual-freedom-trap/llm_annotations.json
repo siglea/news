@@ -1,0 +1,549 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "停止",
+      "en": "cease",
+      "ipa": "[siːs]",
+      "pos": "v.",
+      "gloss": "停止"
+    },
+    {
+      "i": 1,
+      "zh": "巧合",
+      "en": "coincidence",
+      "ipa": "[kəʊˈɪnsɪdəns]",
+      "pos": "n.",
+      "gloss": "巧合"
+    },
+    {
+      "i": 2,
+      "zh": "实验",
+      "en": "experiment",
+      "ipa": "[ɪkˈsperɪmənt]",
+      "pos": "n.",
+      "gloss": "实验"
+    },
+    {
+      "i": 3,
+      "zh": "契约",
+      "en": "contract",
+      "ipa": "[ˈkɒntrækt]",
+      "pos": "n.",
+      "gloss": "契约"
+    },
+    {
+      "i": 4,
+      "zh": "神化",
+      "en": "deify",
+      "ipa": "[ˈdeɪɪfaɪ]",
+      "pos": "v.",
+      "gloss": "神化"
+    },
+    {
+      "i": 5,
+      "zh": "审视",
+      "en": "reexamine",
+      "ipa": "[ˌriːɪɡˈzæmɪn]",
+      "pos": "v.",
+      "gloss": "重新审视"
+    },
+    {
+      "i": 6,
+      "zh": "本质",
+      "en": "essence",
+      "ipa": "[ˈesns]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 7,
+      "zh": "嫉妒",
+      "en": "jealousy",
+      "ipa": "[ˈdʒeləsi]",
+      "pos": "n.",
+      "gloss": "嫉妒"
+    },
+    {
+      "i": 8,
+      "zh": "新欢",
+      "en": "paramour",
+      "ipa": "[ˈpærəmʊə]",
+      "pos": "n.",
+      "gloss": "情人；新欢"
+    },
+    {
+      "i": 9,
+      "zh": "理性",
+      "en": "rationality",
+      "ipa": "[ˌræʃəˈnæləti]",
+      "pos": "n.",
+      "gloss": "理性"
+    },
+    {
+      "i": 10,
+      "zh": "维系",
+      "en": "sustain",
+      "ipa": "[səˈsteɪn]",
+      "pos": "v.",
+      "gloss": "维系"
+    },
+    {
+      "i": 11,
+      "zh": "典范",
+      "en": "paradigm",
+      "ipa": "[ˈpærədaɪm]",
+      "pos": "n.",
+      "gloss": "典范"
+    },
+    {
+      "i": 12,
+      "zh": "内耗",
+      "en": "friction",
+      "ipa": "[ˈfrɪkʃn]",
+      "pos": "n.",
+      "gloss": "内耗；摩擦消耗"
+    },
+    {
+      "i": 13,
+      "zh": "失眠",
+      "en": "insomnia",
+      "ipa": "[ɪnˈsɒmniə]",
+      "pos": "n.",
+      "gloss": "失眠"
+    },
+    {
+      "i": 14,
+      "zh": "独立女性",
+      "en": "independent",
+      "ipa": "[ˌɪndɪˈpendənt]",
+      "pos": "adj.",
+      "gloss": "独立的"
+    },
+    {
+      "i": 15,
+      "zh": "对等",
+      "en": "equal",
+      "ipa": "[ˈiːkwəl]",
+      "pos": "adj.",
+      "gloss": "对等的"
+    },
+    {
+      "i": 16,
+      "zh": "年轻",
+      "en": "youthful",
+      "ipa": "[ˈjuːθfl]",
+      "pos": "adj.",
+      "gloss": "年轻的"
+    },
+    {
+      "i": 17,
+      "zh": "附属品",
+      "en": "accessory",
+      "ipa": "[əkˈsesəri]",
+      "pos": "n.",
+      "gloss": "附属品"
+    },
+    {
+      "i": 18,
+      "zh": "亲密关系",
+      "en": "intimacy",
+      "ipa": "[ˈɪntɪməsi]",
+      "pos": "n.",
+      "gloss": "亲密关系"
+    },
+    {
+      "i": 19,
+      "zh": "特权者",
+      "en": "elite",
+      "ipa": "[ɪˈliːt]",
+      "pos": "n.",
+      "gloss": "特权者；精英群体"
+    },
+    {
+      "i": 20,
+      "zh": "辩护",
+      "en": "defend",
+      "ipa": "[dɪˈfend]",
+      "pos": "v.",
+      "gloss": "辩护"
+    },
+    {
+      "i": 21,
+      "zh": "革命性",
+      "en": "revolutionary",
+      "ipa": "[ˌrevəˈluːʃənəri]",
+      "pos": "adj.",
+      "gloss": "革命性的"
+    },
+    {
+      "i": 22,
+      "zh": "骗局",
+      "en": "hoax",
+      "ipa": "[həʊks]",
+      "pos": "n.",
+      "gloss": "骗局"
+    },
+    {
+      "i": 23,
+      "skip": true
+    },
+    {
+      "i": 24,
+      "zh": "驯服",
+      "en": "tame",
+      "ipa": "[teɪm]",
+      "pos": "v.",
+      "gloss": "驯服"
+    },
+    {
+      "i": 25,
+      "zh": "不可替代",
+      "en": "irreplaceable",
+      "ipa": "[ˌɪrɪˈpleɪsəbl]",
+      "pos": "adj.",
+      "gloss": "不可替代的"
+    },
+    {
+      "i": 26,
+      "zh": "践行",
+      "en": "practice",
+      "ipa": "[ˈpræktɪs]",
+      "pos": "v.",
+      "gloss": "践行"
+    },
+    {
+      "i": 27,
+      "zh": "纯粹",
+      "en": "pure",
+      "ipa": "[pjʊə]",
+      "pos": "adj.",
+      "gloss": "纯粹的"
+    },
+    {
+      "i": 28,
+      "zh": "消解",
+      "en": "dissolve",
+      "ipa": "[dɪˈzɒlv]",
+      "pos": "v.",
+      "gloss": "消解"
+    },
+    {
+      "i": 29,
+      "zh": "主体性",
+      "en": "subjectivity",
+      "ipa": "[ˌsʌbdʒekˈtɪvəti]",
+      "pos": "n.",
+      "gloss": "主体性"
+    },
+    {
+      "i": 30,
+      "zh": "悖论",
+      "en": "paradox",
+      "ipa": "[ˈpærədɒks]",
+      "pos": "n.",
+      "gloss": "悖论"
+    },
+    {
+      "i": 31,
+      "zh": "掩盖",
+      "en": "conceal",
+      "ipa": "[kənˈsiːl]",
+      "pos": "v.",
+      "gloss": "掩盖"
+    },
+    {
+      "i": 32,
+      "zh": "边界",
+      "en": "boundary",
+      "ipa": "[ˈbaʊndri]",
+      "pos": "n.",
+      "gloss": "边界"
+    },
+    {
+      "i": 33,
+      "zh": "瓦解",
+      "en": "collapse",
+      "ipa": "[kəˈlæps]",
+      "pos": "v.",
+      "gloss": "瓦解"
+    },
+    {
+      "i": 34,
+      "zh": "偏爱",
+      "en": "preference",
+      "ipa": "[ˈprefrəns]",
+      "pos": "n.",
+      "gloss": "偏爱"
+    },
+    {
+      "i": 35,
+      "skip": true
+    },
+    {
+      "i": 36,
+      "zh": "背叛",
+      "en": "betrayal",
+      "ipa": "[bɪˈtreɪəl]",
+      "pos": "n.",
+      "gloss": "背叛"
+    },
+    {
+      "i": 37,
+      "zh": "放纵",
+      "en": "indulgence",
+      "ipa": "[ɪnˈdʌldʒəns]",
+      "pos": "n.",
+      "gloss": "放纵"
+    },
+    {
+      "i": 38,
+      "skip": true
+    },
+    {
+      "i": 39,
+      "zh": "维系",
+      "en": "maintain",
+      "ipa": "[meɪnˈteɪn]",
+      "pos": "v.",
+      "gloss": "维系"
+    },
+    {
+      "i": 40,
+      "zh": "尊严",
+      "en": "dignity",
+      "ipa": "[ˈdɪɡnəti]",
+      "pos": "n.",
+      "gloss": "尊严"
+    },
+    {
+      "i": 41,
+      "zh": "照顾者",
+      "en": "caregiver",
+      "ipa": "[ˈkeəɡɪvə]",
+      "pos": "n.",
+      "gloss": "照顾者"
+    },
+    {
+      "i": 42,
+      "zh": "表达",
+      "en": "express",
+      "ipa": "[ɪkˈspres]",
+      "pos": "v.",
+      "gloss": "表达"
+    },
+    {
+      "i": 43,
+      "zh": "讽刺性",
+      "en": "irony",
+      "ipa": "[ˈaɪrəni]",
+      "pos": "n.",
+      "gloss": "讽刺意味"
+    },
+    {
+      "i": 44,
+      "zh": "坦诚",
+      "en": "candor",
+      "ipa": "[ˈkændə]",
+      "pos": "n.",
+      "gloss": "坦诚"
+    },
+    {
+      "i": 45,
+      "zh": "枷锁",
+      "en": "shackle",
+      "ipa": "[ˈʃækl]",
+      "pos": "n.",
+      "gloss": "枷锁"
+    },
+    {
+      "i": 46,
+      "zh": "捍卫",
+      "en": "defend2",
+      "ipa": "[dɪˈfend]",
+      "pos": "v.",
+      "gloss": "捍卫"
+    },
+    {
+      "i": 47,
+      "zh": "崩塌",
+      "en": "crumble",
+      "ipa": "[ˈkrʌmbl]",
+      "pos": "v.",
+      "gloss": "崩塌"
+    },
+    {
+      "i": 48,
+      "zh": "牺牲品",
+      "en": "victim",
+      "ipa": "[ˈvɪktɪm]",
+      "pos": "n.",
+      "gloss": "牺牲品"
+    },
+    {
+      "i": 49,
+      "zh": "饥渴",
+      "en": "craving",
+      "ipa": "[ˈkreɪvɪŋ]",
+      "pos": "n.",
+      "gloss": "强烈渴求"
+    },
+    {
+      "i": 50,
+      "zh": "悲剧",
+      "en": "tragedy",
+      "ipa": "[ˈtrædʒədi]",
+      "pos": "n.",
+      "gloss": "悲剧"
+    },
+    {
+      "i": 51,
+      "zh": "实验",
+      "en": "trial",
+      "ipa": "[ˈtraɪəl]",
+      "pos": "n.",
+      "gloss": "实验尝试"
+    },
+    {
+      "i": 52,
+      "zh": "困境",
+      "en": "dilemma",
+      "ipa": "[daɪˈlemə]",
+      "pos": "n.",
+      "gloss": "困境"
+    },
+    {
+      "i": 53,
+      "zh": "代价",
+      "en": "cost",
+      "ipa": "[kɒst]",
+      "pos": "n.",
+      "gloss": "代价"
+    },
+    {
+      "i": 54,
+      "zh": "滋养",
+      "en": "nourish",
+      "ipa": "[ˈnʌrɪʃ]",
+      "pos": "v.",
+      "gloss": "滋养"
+    },
+    {
+      "i": 55,
+      "zh": "博弈",
+      "en": "contest",
+      "ipa": "[ˈkɒntest]",
+      "pos": "n.",
+      "gloss": "博弈；较量"
+    },
+    {
+      "i": 56,
+      "zh": "跨越",
+      "en": "span",
+      "ipa": "[spæn]",
+      "pos": "v.",
+      "gloss": "跨越"
+    },
+    {
+      "i": 57,
+      "skip": true
+    },
+    {
+      "i": 58,
+      "zh": "不确定性",
+      "en": "uncertainty",
+      "ipa": "[ʌnˈsɜːtənti]",
+      "pos": "n.",
+      "gloss": "不确定性"
+    },
+    {
+      "i": 59,
+      "zh": "安宁",
+      "en": "serenity",
+      "ipa": "[səˈrenəti]",
+      "pos": "n.",
+      "gloss": "安宁"
+    },
+    {
+      "i": 60,
+      "zh": "传记",
+      "en": "biography",
+      "ipa": "[baɪˈɒɡrəfi]",
+      "pos": "n.",
+      "gloss": "传记"
+    },
+    {
+      "i": 61,
+      "zh": "完整",
+      "en": "complete",
+      "ipa": "[kəmˈpliːt]",
+      "pos": "adj.",
+      "gloss": "完整的"
+    },
+    {
+      "i": 62,
+      "zh": "争议",
+      "en": "controversy",
+      "ipa": "[ˈkɒntrəvɜːsi]",
+      "pos": "n.",
+      "gloss": "争议"
+    },
+    {
+      "i": 63,
+      "zh": "理解",
+      "en": "comprehend",
+      "ipa": "[ˌkɒmprɪˈhend]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 64,
+      "zh": "赠品",
+      "en": "bonus",
+      "ipa": "[ˈbəʊnəs]",
+      "pos": "n.",
+      "gloss": "赠品；附赠物"
+    },
+    {
+      "i": 65,
+      "zh": "明信片",
+      "en": "postcard",
+      "ipa": "[ˈpəʊstkɑːd]",
+      "pos": "n.",
+      "gloss": "明信片"
+    },
+    {
+      "i": 66,
+      "zh": "特别",
+      "en": "special",
+      "ipa": "[ˈspeʃl]",
+      "pos": "adj.",
+      "gloss": "特别的"
+    },
+    {
+      "i": 67,
+      "zh": "限量",
+      "en": "limited",
+      "ipa": "[ˈlɪmɪtɪd]",
+      "pos": "adj.",
+      "gloss": "限量的"
+    },
+    {
+      "i": 68,
+      "zh": "扫码",
+      "en": "scan",
+      "ipa": "[skæn]",
+      "pos": "v.",
+      "gloss": "扫码"
+    },
+    {
+      "i": 69,
+      "zh": "订购",
+      "en": "order",
+      "ipa": "[ˈɔːdə]",
+      "pos": "v.",
+      "gloss": "订购"
+    }
+  ]
+}
