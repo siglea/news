@@ -39,6 +39,12 @@ python3 workflow/mingox.py acquire --slug my-topic --mode url --url 'https://mp.
 | `--wait-verify SEC` | 验证页最多等待 SEC 秒（需非 headless）。 |
 | `--no-mobile-wechat` | 不试移动 UA。 |
 
+### 微信抓取实战要点
+
+- 建议先用 `mingox acquire --mode url` 直跑；遇到「环境异常」或验证页，再切非 headless 并加 `--wait-verify 180` 由本机人工完成验证。
+- 若需要先探路，可单独运行 `util/crawl-with-playwright.py` 确认 `title/author/content_len` 再回到流水线命令。
+- 微信场景下 `headless` 并非一定失败；可先试，再按验证页情况降级到可视化抓取。
+
 ---
 
 ## 方式 3：检索后再抓取（search）

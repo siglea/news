@@ -33,6 +33,11 @@ python3 util/crawl-with-playwright.py --url '...' --mobile --headless --out-html
 
 **经 `workflow` 调用时**：`acquire` 对微信域名 **先试 `--mobile`，失败再自动试桌面 UA**（见 `workflow/acquire.py`）。`mingox acquire` 额外支持：`--wait-verify`、`--no-mobile-wechat`。
 
+### 微信抓取复盘建议
+
+- 先让 `mingox acquire --mode url` 走主流程，只有在抓取失败时再切换到 `util/crawl-with-playwright.py` 做定位。
+- 当页面返回验证态时，优先本机可视化验证（非 headless + `--wait-verify`）；验证通过后再回到流水线产出 `01-source.md`。
+
 ## 微信 `#js_content` → `01-source.md`（段落抽取）
 
 很多推文正文在 **`<section>` + `<span leaf>`** 里，**没有成段的 `<p>`**。若只用 `extract_ps`（只认 `<p>`），`01-source.md` 往往只剩文末运营 `<p>`（广告、话题标签）。

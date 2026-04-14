@@ -21,6 +21,14 @@ python3 workflow/mingox.py serve --port 8765
 python3 workflow/mingox.py deploy --project mingox
 ```
 
+若希望按固定顺序跑完整闭环，推荐先用：
+
+```bash
+python3 workflow/mingox.py close-loop --slug <slug> --deploy
+```
+
+该命令会先执行 `build -> validate`，通过后再 `deploy`。
+
 - 依赖：**Node** + `npx` 拉取 EdgeOne CLI；身份可用 **登录** 或 **Token**。
 - Token 可置于 **`.edgeone/.token`**（勿提交密钥；`.gitignore` 已忽略）。
 
@@ -119,6 +127,12 @@ npx --yes edgeone@latest pages deploy -a overseas -n mingox
 > 错误：`https://mingox-xxx.edgeone.cool`（缺少 token 参数）
 
 可同时打开 CLI 给出的控制台部署详情链接排查构建与访问权限。**私有站点与 token 要求**见根 [README.md](../../README.md)「在线访问」。
+
+### 发布复盘清单
+
+- 回复部署结果时，必须回传**完整预览链接**（包含 `https://` 与 `?` 后所有参数）。
+- 不要只发域名；缺少 `eo_token`/`eo_time` 参数时，预览常会无法访问。
+- 预览链接含访问令牌，应视为敏感信息，仅在必要范围内传递。
 
 ### 可选：全局安装 CLI
 

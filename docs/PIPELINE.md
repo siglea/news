@@ -10,9 +10,11 @@ python3 workflow/mingox.py --help
 
 ## 标准路径
 
-每篇稿件使用 **`content/drafts/<slug>/`**：`meta.json` 与 `01-source.md` 同目录；正文由 **`mingox acquire`** 写入 MD；**`mingox build`** 将 Markdown 段落转为成稿 HTML，并**必须**已有大模型产出的 **`llm_annotations.json`** 以注入词汇标注（缺失则 build 失败）。**`slug` 与 `posts/*.html` 文件名均须以文章标题为依据命名**（英文 kebab，推荐 slug 与 `out_html` 主段一致），见 [content/drafts/README.md](../content/drafts/README.md)「命名规范」。其它细则见同文件。
+每篇稿件使用 **`content/drafts/<slug>/`**：`meta.json` 与 `01-source.md` 同目录；正文由 **`mingox acquire`** 写入 MD；**`mingox build`** 将 Markdown 段落转为成稿 HTML，并**必须**已有大模型产出的 **`llm_annotations.json`** 以注入词汇标注（缺失则 build 失败）。`build` 默认执行标注质量门禁（占位符、重复 `en`、`meta_description` 非空）。**`slug` 与 `posts/*.html` 文件名均须以文章标题为依据命名**（英文 kebab，推荐 slug 与 `out_html` 主段一致），见 [content/drafts/README.md](../content/drafts/README.md)「命名规范」。其它细则见同文件。
 
 **典型命令**：`mingox init` → `acquire` → `export-chat-bundle` → 大模型写出 `llm_annotations.json` → `build`。
+  
+**闭环执行（推荐）**：在标注完成后可直接运行 `python3 workflow/mingox.py close-loop --slug <slug>`，固定执行 `build -> validate`；需要发布时再加 `--deploy`。
 
 以往的 **`article-profiles.json` + `annotate-wechat-plain.py` + `mingox wechat`** 已移除；旧流程请改为上述草稿目录 + `build`。
 
@@ -35,7 +37,7 @@ python3 workflow/mingox.py --help
 
 | 路径 | 职责 |
 |------|------|
-| **`content/drafts/<slug>/`** | 单篇草稿：`01-source.md`、`meta.json`；`build` 后 `02-annotate-tasks.json` |
+| **`content/drafts/<slug>/`** | 单篇草稿：`01-source.md`、`meta.json`；`build` 后生成 `02-annotate-tasks.json`（历史命名，实际为标注结果，`kind=annotate_result`） |
 | **`workflow/`** | `mingox.py`：`init`、`acquire`、`build`、`validate`、`serve`、`deploy` 等 |
 | **`util/annotate_lib.py`** | 微信/HTML 抽取、`build_post_html`、词汇表反扫 |
 | **`util/annotate_merge.py`** | `llm_annotations.json` 合并；bundle 的 `system_prompt` 来自 **`util/prompts/chat_annotate_system.txt`** |
@@ -58,3 +60,11 @@ python3 workflow/mingox.py --help
 
 - **列表、标题、外源版权块等编辑规范**：以 [EDITORIAL.md](./EDITORIAL.md) 为权威；根 [README.md](../README.md) 为项目门面与快速链接。
 - **本文件与 `docs/steps/`**：约定**步骤边界与命令入口**，避免与 `util/`、草稿职责混淆。
+
+---
+
+## 实战复盘（2026-04-13）
+
+- **最小闭环**：建议默认按 `init -> acquire(url) -> export-chat-bundle -> llm_annotations.json -> close-loop --deploy` 执行；不要在 `crawl` 成功后提前结束。
+- **命名优先**：`slug` 与 `out_html` 先对齐标题语义再开工，可减少后续改名与首页链接同步成本。
+- **门禁理解**：`validate` 的 `density heuristic WARN` 是提示项；`OK adjacent check` 才是阻断门禁是否通过的核心信号。

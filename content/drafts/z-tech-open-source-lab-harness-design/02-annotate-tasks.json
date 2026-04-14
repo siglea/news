@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "slug": "z-tech-open-source-lab-harness-design",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "过去一年，大模型的能力曲线几乎是指数上升的——推理更强、工具调用更稳、上下文窗口越撑越大。但一个越来越尖锐的问题也随之浮出水面：模型变强了，可承接它的那层东西在哪？",
+      "html": "<p>过去一年，大模型的能力曲线几乎是<span class=\"word-annot\"><span class=\"word-anchor\">指数</span><span class=\"word-block\"><span class=\"english-word\">exponential</span><span class=\"word-info\">[ˌekspəˈnenʃl] adj. 指数</span></span></span>上升的——推理更强、工具调用更稳、上下文窗口越撑越大。但一个越来越尖锐的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">issue</span><span class=\"word-info\">[ˈɪʃuː] n. 问题</span></span></span>也随之浮出水面：模型变强了，可承接它的那层东西在哪？</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "Agent 能写出漂亮的方案，却不记得昨天踩过的坑；能调用十几个工具，却在跨会话的任务里迷失方向。模型的能力天花板在快速抬高，但 Agent 真正落地干活所需的基础设施——身份、记忆、协作、状态管理——仍然大面积缺席。这正是行业过去半年密集讨论 Harness Design 的真实背景：瓶颈不再是模型不够聪明，而是我们还没有为足够聪明的模型准备好它该生长的土壤。",
+      "html": "<p>Agent 能写出漂亮的<span class=\"word-annot\"><span class=\"word-anchor\">方案</span><span class=\"word-block\"><span class=\"english-word\">solution</span><span class=\"word-info\">[səˈluːʃn] n. 方案</span></span></span>，却不记得昨天踩过的坑；能调用十几个工具，却在跨会话的<span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">task</span><span class=\"word-info\">[tɑːsk] n. 任务</span></span></span>里迷失方向。模型的能力天花板在快速抬高，但 Agent 真正落地干活所需的<span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施</span></span></span>——身份、记忆、协作、状态管理——仍然大面积缺席。这正是行业过去半年密集讨论 Harness Design 的真实背景：<span class=\"word-annot\"><span class=\"word-anchor\">瓶颈</span><span class=\"word-block\"><span class=\"english-word\">bottleneck</span><span class=\"word-info\">[ˈbɒtlnek] n. 瓶颈</span></span></span>不再是模型不够聪明，而是我们还没有为足够聪明的模型准备好它该生长的土壤。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "这期对谈，我们和星舟无界的创始团队，石宇（左）、汤嘉斌（右），以及黄超（中），围绕一个核心问题展开：当模型能力溢出，Agent 的下一层基础设施到底该长什么样？",
+      "html": "<p>这期对谈，我们和星舟无界的创始团队，石宇（左）、汤嘉斌（右），以及黄超（中），围绕一个核心问题<span class=\"word-annot\"><span class=\"word-anchor\">展开</span><span class=\"word-block\"><span class=\"english-word\">expand</span><span class=\"word-info\">[ɪkˈspænd] v. 展开</span></span></span>：当模型能力溢出，Agent 的下一层基础设施到底该长什么样？</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "CEO 石宇曾是微软产品经理，曾主导小冰视觉生成业务线，主导微软多模态Copilot 从 0-1，微软 AgentOS 创始产品经理；联合创始人兼 CTO 汤嘉斌博士就读于香港大学，是 AutoAgent、OpenHarness 等知名Agent项目的核心作者，研究成果入选 NeurIPS Spotlight；联合创始人兼首席科学家黄超是香港大学助理教授和博士生导师，带领实验室开源 nanobot、LightRAG、AutoAgent等一系列知名项目，在 GitHub 上累计获得超过15万星标。",
+      "html": "<p>CEO 石宇曾是微软产品经理，曾主导小冰视觉<span class=\"word-annot\"><span class=\"word-anchor\">生成</span><span class=\"word-block\"><span class=\"english-word\">generation</span><span class=\"word-info\">[ˌdʒenəˈreɪʃn] n. 生成</span></span></span>业务线，主导微软多模态Copilot 从 0-1，微软 AgentOS 创始产品经理；<span class=\"word-annot\"><span class=\"word-anchor\">联合创始人</span><span class=\"word-block\"><span class=\"english-word\">cofounder</span><span class=\"word-info\">[kəʊˈfaʊndə] n. 联合创始人</span></span></span>兼 CTO 汤嘉斌博士就读于香港大学，是 AutoAgent、OpenHarness 等知名Agent项目的核心作者，研究成果入选 NeurIPS Spotlight；联合<span class=\"word-annot\"><span class=\"word-anchor\">创始人</span><span class=\"word-block\"><span class=\"english-word\">founder</span><span class=\"word-info\">[ˈfaʊndə] n. 创始人</span></span></span>兼首席科学家黄超是香港大学助理教授和博士生导师，带领实验室开源 nanobot、LightRAG、AutoAgent等一系列知名项目，在 GitHub 上累计获得超过15万星标。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "他们分别从系统哲学、工程原则和开源生态三个视角，给出了自己的判断。",
+      "html": "<p>他们分别从系统哲学、工程原则和开源<span class=\"word-annot\"><span class=\"word-anchor\">生态</span><span class=\"word-block\"><span class=\"english-word\">ecosystem</span><span class=\"word-info\">[ˈiːkəʊsɪstəm] n. 生态</span></span></span>三个视角，给出了自己的判断。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "模型跑太快，基础设施被甩下车",
+      "html": "<p>模型跑太快，<span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施</span></span></span>被甩下车</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "ZP：为什么行业突然开始讨论 Harness Design？",
+      "html": "<p>ZP：为什么<span class=\"word-annot\"><span class=\"word-anchor\">行业</span><span class=\"word-block\"><span class=\"english-word\">industry</span><span class=\"word-info\">[ˈɪndəstri] n. 行业</span></span></span>突然开始讨论 Harness Design？</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "石宇：主要还是因为模型的能力上限已经远超过了使用它的基础设施.",
+      "html": "<p>石宇：主要还是因为模型的<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>上限已经远超过了使用它的基础设施.</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "这在历史上其实发生过。比如 1990 年代初，CPU 的计算能力已经足够强大，但让这些计算能力连接起来、发挥作用的那层东西还没准备好。今天 Harness 的讨论，本质上是同一件事的重演。",
+      "html": "<p>这在<span class=\"word-annot\"><span class=\"word-anchor\">历史</span><span class=\"word-block\"><span class=\"english-word\">history</span><span class=\"word-info\">[ˈhɪstri] n. 历史</span></span></span>上其实发生过。比如 1990 年代初，CPU 的计算<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">ability</span><span class=\"word-info\">[əˈbɪləti] n. 能力</span></span></span>已经足够强大，但让这些计算能力连接起来、发挥作用的那层东西还没准备好。今天 Harness 的讨论，<span class=\"word-annot\"><span class=\"word-anchor\">本质</span><span class=\"word-block\"><span class=\"english-word\">essence</span><span class=\"word-info\">[ˈesns] n. 本质</span></span></span>上是同一件事的重演。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "当 Agent 已经在很多场景下达到 “Single Player” “Task-level”的满分时, 我们才第一次真正感受到“它做完了,然后呢？” 这个问题的重量。一个 Agent 可以给出一个聪明的回答，但这和完成一个需要持续数小时、跨越多个会话的复杂任务是两回事。模型能力的提升，反而让基础设施的缺失暴露得更彻底。",
+      "html": "<p>当 Agent 已经在很多<span class=\"word-annot\"><span class=\"word-anchor\">场景</span><span class=\"word-block\"><span class=\"english-word\">scenario</span><span class=\"word-info\">[sɪˈnɑːriəʊ] n. 场景</span></span></span>下达到 “Single Player” “Task-level”的满分时, 我们才第一次真正感受到“它做完了,然后呢？” 这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>的重量。一个 Agent 可以给出一个聪明的回答，但这和完成一个需要持续数<span class=\"word-annot\"><span class=\"word-anchor\">小时</span><span class=\"word-block\"><span class=\"english-word\">hour</span><span class=\"word-info\">[aʊə] n. 小时</span></span></span>、跨越多个会话的复杂任务是两回事。模型能力的<span class=\"word-annot\"><span class=\"word-anchor\">提升</span><span class=\"word-block\"><span class=\"english-word\">improve</span><span class=\"word-info\">[ɪmˈpruːv] v. 提升</span></span></span>，反而让基础设施的缺失暴露得更彻底。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "所以，这半年的讨论表面上是在谈 Harness，实际上是整个行业第一次认真面对一个问题：我们到底在构建一个什么样的系统，而不仅仅是一个更聪明的工具。",
+      "html": "<p>所以，这半年的讨论表面上是在谈 Harness，实际上是整个行业第一次认真面对一个问题：我们<span class=\"word-annot\"><span class=\"word-anchor\">到底</span><span class=\"word-block\"><span class=\"english-word\">ultimately</span><span class=\"word-info\">[ˈʌltɪmətli] adv. 到底</span></span></span>在构建一个什么样的系统，而不仅仅是一个更聪明的工具。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "ZP：站在开源实践的角度看，为什么这些问题会在这一阶段更早暴露出来？",
+      "html": "<p>ZP：站在开源实践的角度看，为什么这些<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>会在这一阶段更早暴露出来？</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "黄超：开源最大的好处就是，它能直接面向开发者社区，把学术研究和实际应用之间的差距，也就是 gap，快速暴露出来。",
+      "html": "<p>黄超：开源最大的好处就是，它能直接面向开发者社区，把学术研究和实际应用之间的<span class=\"word-annot\"><span class=\"word-anchor\">差距</span><span class=\"word-block\"><span class=\"english-word\">gap</span><span class=\"word-info\">[ɡæp] n. 差距</span></span></span>，也就是 gap，快速暴露出来。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "当我们把一个研究成果做成开源项目放出去，社区的反馈会立刻告诉我们，哪些问题是大家真正关心的，哪些方向是行业里真实的痛点。这比在实验室里闭门造车要直接得多。",
+      "html": "<p>当我们把一个研究成果做成开源<span class=\"word-annot\"><span class=\"word-anchor\">项目</span><span class=\"word-block\"><span class=\"english-word\">project</span><span class=\"word-info\">[ˈprɒdʒekt] n. 项目</span></span></span>放出去，社区的反馈会立刻告诉我们，哪些问题是大家真正关心的，哪些方向是行业里真实的痛点。这比在<span class=\"word-annot\"><span class=\"word-anchor\">实验室</span><span class=\"word-block\"><span class=\"english-word\">laboratory</span><span class=\"word-info\">[ləˈbɒrətri] n. 实验室</span></span></span>里闭门造车要直接得多。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "尤其是在 AI Agent 这个领域，这一点特别关键。Agent 技术太复杂了，里面有一堆推理、工具调用、记忆、多模态交互的环节。你不把它丢到真实场景里，让开发者真正上手去跑，你根本不知道哪个环节会卡脖子，用户到底需要什么功能。",
+      "html": "<p>尤其是在 AI Agent 这个领域，这一点特别<span class=\"word-annot\"><span class=\"word-anchor\">关键</span><span class=\"word-block\"><span class=\"english-word\">key</span><span class=\"word-info\">[kiː] adj. 关键</span></span></span>。Agent 技术太复杂了，里面有一堆<span class=\"word-annot\"><span class=\"word-anchor\">推理</span><span class=\"word-block\"><span class=\"english-word\">inference</span><span class=\"word-info\">[ˈɪnfərəns] n. 推理</span></span></span>、工具调用、记忆、多模态交互的环节。你不把它丢到真实场景里，让<span class=\"word-annot\"><span class=\"word-anchor\">开发</span><span class=\"word-block\"><span class=\"english-word\">developed</span><span class=\"word-info\">[dɪˈveləpt] adj. 开发</span></span></span>者真正上手去跑，你根本不知道哪个环节会卡脖子，用户到底需要什么功能。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "而且，AI Agent 的价值很大程度上就看它的生态有多丰富，看它在各种真实任务里的完成度怎么样。开源恰恰是催生这种生态最好的方式。所以说，开源项目不仅是一个工具，它更像一个试金石和催化剂，帮助我们发现真问题，并围绕它建立生态。",
+      "html": "<p>而且，AI Agent 的<span class=\"word-annot\"><span class=\"word-anchor\">价值</span><span class=\"word-block\"><span class=\"english-word\">value</span><span class=\"word-info\">[ˈvæljuː] n. 价值</span></span></span>很大程度上就看它的生态有多丰富，看它在各种真实任务里的完成度怎么样。开源恰恰是<span class=\"word-annot\"><span class=\"word-anchor\">催生</span><span class=\"word-block\"><span class=\"english-word\">enable</span><span class=\"word-info\">[ɪˈneɪbl] v. 催生</span></span></span>这种生态最好的方式。所以说，开源项目不仅是一个工具，它更像一个试金石和催化剂，帮助我们<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discovery</span><span class=\"word-info\">[dɪˈskʌvəri] n. 发现</span></span></span>真问题，并围绕它建立生态。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "今天的 Agent，活在会失联的“一次性聊天室”里",
+      "html": "<p>今天的 Agent，活在会失联的“一次性聊天室”里</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "ZP：如果把今天的 Agent 产业看成一个系统，你觉得最缺的那一层是什么？",
+      "html": "<p>ZP：如果把今天的 Agent 产业看成一个<span class=\"word-annot\"><span class=\"word-anchor\">系统</span><span class=\"word-block\"><span class=\"english-word\">system</span><span class=\"word-info\">[ˈsɪstəm] n. 系统</span></span></span>，你觉得最缺的那一层是什么？</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "石宇：我觉得最缺的是三个东西：身份、群组环境，以及可验证性。",
+      "html": "<p>石宇：我觉得最缺的是三个东西：身份、群组环境，以及可<span class=\"word-annot\"><span class=\"word-anchor\">验证</span><span class=\"word-block\"><span class=\"english-word\">verification</span><span class=\"word-info\">[ˌverɪfɪˈkeɪʃn] n. 验证</span></span></span>性。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "首先是身份。今天没有任何机制能回答一个最基本的问题：这个 Agent 是谁？它积累的判断力、踩过的坑，都不属于它自己，而是属于它运行的平台。这让我想起小时候用的聊天室，一关机，聊了一整晚的人就永远消失了，因为没有账号，没有持久的身份。今天的 Agent 就还停留在那个聊天室时代，每个 Session 结束，它就消失了，什么都没留下。",
+      "html": "<p>首先是身份。今天没有任何机制能回答一个最基本的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>：这个 Agent 是谁？它积累的判断力、踩过的坑，都不属于它自己，而是属于它<span class=\"word-annot\"><span class=\"word-anchor\">运行</span><span class=\"word-block\"><span class=\"english-word\">operate</span><span class=\"word-info\">[ˈɒpəreɪt] v. 运行</span></span></span>的平台。这让我想起小时候用的聊天室，一关机，聊了一整晚的人就永远<span class=\"word-annot\"><span class=\"word-anchor\">消失</span><span class=\"word-block\"><span class=\"english-word\">disappear</span><span class=\"word-info\">[ˌdɪsəˈpɪə] v. 消失</span></span></span>了，因为没有账号，没有持久的身份。今天的 Agent 就还停留在那个聊天室时代，每个 Session 结束，它就<span class=\"word-annot\"><span class=\"word-anchor\">消失</span><span class=\"word-block\"><span class=\"english-word\">disappear</span><span class=\"word-info\">[ˌdɪsəˈpɪə] v. 消失</span></span></span>了，什么都没留下。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "其次是群组环境。更深的问题不是多个 Agent 怎么分工，而是它们怎么真正形成一个群组, Agent 间的沟通肯定不是像聊天室那样，带宽太低了，信息损耗太严重。从信息论的角度看，今天所有 Agent 协作，都在用人类语言这个最窄的信道传递最复杂的上下文，人类没得选，但 Agent 本不该如此。这更根本的缺失，就是 substrate（基底）。就像植物需要土壤，Agent 的轨迹、人类反馈、对解空间的探索结果，这些宝贵的资产沉淀在哪里？又在哪里被复用？没有这层 substrate，每一个 Agent 都是无根之木，它可以很强大，但这种强大无法积累，无法传承。互联网有 TCP/IP，软件开发有 Git，但 Agent 时代还没有这层东西。这是我觉得今天整个行业最大的空白.",
+      "html": "<p>其次是群组<span class=\"word-annot\"><span class=\"word-anchor\">环境</span><span class=\"word-block\"><span class=\"english-word\">environment</span><span class=\"word-info\">[ɪnˈvaɪrənmənt] n. 环境</span></span></span>。更深的问题不是多个 Agent 怎么分工，而是它们怎么真正形成一个群组, Agent 间的沟通肯定不是像聊天室那样，带宽太低了，信息<span class=\"word-annot\"><span class=\"word-anchor\">损耗</span><span class=\"word-block\"><span class=\"english-word\">loss</span><span class=\"word-info\">[lɒs] n. 损耗</span></span></span>太严重。从信息论的角度看，今天所有 Agent <span class=\"word-annot\"><span class=\"word-anchor\">协作</span><span class=\"word-block\"><span class=\"english-word\">collaboration</span><span class=\"word-info\">[kəˌlæbəˈreɪʃn] n. 协作</span></span></span>，都在用人类语言这个最窄的信道传递最复杂的上下文，人类没得选，但 Agent 本不该如此。这更根本的缺失，就是 substrate（基底）。就像植物需要土壤，Agent 的轨迹、人类反馈、对解空间的探索结果，这些宝<span class=\"word-annot\"><span class=\"word-anchor\">贵</span><span class=\"word-block\"><span class=\"english-word\">expensive</span><span class=\"word-info\">[ɪkˈspensɪv] adj. 昂贵</span></span></span>的资产沉淀在哪里？又在哪里被复用？没有这层 substrate，每一个 Agent 都是无根之木，它可以很强大，但这种强大无法积累，无法传承。互联网有 TCP/IP，<span class=\"word-annot\"><span class=\"word-anchor\">软件</span><span class=\"word-block\"><span class=\"english-word\">software</span><span class=\"word-info\">[ˈsɒftweə] n. 软件</span></span></span>开发有 Git，但 Agent 时代还没有这层东西。这是我觉得今天整个<span class=\"word-annot\"><span class=\"word-anchor\">行业</span><span class=\"word-block\"><span class=\"english-word\">industry</span><span class=\"word-info\">[ˈɪndəstri] n. 行业</span></span></span>最大的空白.</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "可验证性这个问题，是Agent经济能不能成立的命门。大家都在畅想的Agent劳动力市场，Agent帮你赚钱等场景。但有一个最基本的问题没人回答清楚：这个Agent说它完成了任务，你认吗?",
+      "html": "<p>可验证性这个问题，是Agent<span class=\"word-annot\"><span class=\"word-anchor\">经济</span><span class=\"word-block\"><span class=\"english-word\">economic</span><span class=\"word-info\">[ˌiːkəˈnɒmɪk] adj. 经济</span></span></span>能不能成立的命门。大家都在畅想的Agent劳<span class=\"word-annot\"><span class=\"word-anchor\">动力</span><span class=\"word-block\"><span class=\"english-word\">motivation</span><span class=\"word-info\">[ˌməʊtɪˈveɪʃn] n. 动力</span></span></span>市场，Agent帮你赚钱等场景。但有一个最基本的问题没人回答清楚：这个Agent说它完成了<span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">task</span><span class=\"word-info\">[tɑːsk] n. 任务</span></span></span>，你认吗?</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "人类社会解决信任问题用了几千年，发明了合同、法院、信用评分。虽然Agent的验证我觉得不需要这些, 这个网络会有自己的验证机制. 现在大家常用的是最简单粗暴的机制 -- 穷举Rubrics, 对吧就像早期互联网里的测试用例清单或是装修时候的验收清单. 但是还是会有一些更高级的机制来让这个事跑起来解决定价和验收问题. 没有对Agent交付物的验收机制，Agent经济就是一个空中楼阁。你没办法给它定价，没办法给它付钱，没办法让它真正进入经济体系。",
+      "html": "<p>人类社会<span class=\"word-annot\"><span class=\"word-anchor\">解决</span><span class=\"word-block\"><span class=\"english-word\">solve</span><span class=\"word-info\">[sɒlv] v. 解决</span></span></span>信任问题用了几千年，发明了合同、法院、信用评分。虽然Agent的验证我觉得不需要这些, 这个网络会有自己的验证机制. 现在大家常用的是最简单粗暴的机制 -- 穷举Rubrics, 对吧就像早期互联网里的测试用例清单或是装修时候的验收清单. 但是还是会有一些更高级的机制来让这个事跑起来解决定价和验收问题. 没有对Agent<span class=\"word-annot\"><span class=\"word-anchor\">交付</span><span class=\"word-block\"><span class=\"english-word\">delivery</span><span class=\"word-info\">[dɪˈlɪvəri] n. 交付</span></span></span>物的验收机制，Agent经济就是一个空中楼阁。你没办法给它定价，没办法给它付钱，没办法让它真正进入<span class=\"word-annot\"><span class=\"word-anchor\">经济</span><span class=\"word-block\"><span class=\"english-word\">economy</span><span class=\"word-info\">[ɪˈkɒnəmi] n. 经济</span></span></span>体系。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "ZP：很多人把 Harness 理解成驾驭 Agent 的外壳，但你们并不完全认同这个说法。为什么？",
+      "html": "<p>ZP：很多人把 Harness 理解成驾驭 Agent 的外壳，但你们并不<span class=\"word-annot\"><span class=\"word-anchor\">完全</span><span class=\"word-block\"><span class=\"english-word\">completely</span><span class=\"word-info\">[kəmˈpliːtli] adv. 完全</span></span></span>认同这个说法。为什么？</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "石宇：我个人很不喜欢“驾驭”这个词，因为它预设了人是主体、Agent 是工具。这个预设在当下是对的，但正变得越来越局限，甚至可能产生误导。",
+      "html": "<p>石宇：我个人很不喜欢“驾驭”这个词，因为它预设了人是主体、Agent 是工具。这个预设在当下是对的，但正变得越来越局限，甚至可能产生误导。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "Harness（马具）这个比喻很诚实，它描述的就是一种控制关系，思考的是如何更好地管理上下文、状态等。这些都是好问题，但它们只是在同一个框架内的局部优化，并没有挑战框架本身。",
+      "html": "<p>Harness（马具）这个比喻很诚实，它描述的就是一种控制关系，<span class=\"word-annot\"><span class=\"word-anchor\">思考</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 思考</span></span></span>的是如何更好地管理上下文、状态等。这些都是好问题，但它们只是在同一个框架内的局部优化，并没有<span class=\"word-annot\"><span class=\"word-anchor\">挑战</span><span class=\"word-block\"><span class=\"english-word\">challenge</span><span class=\"word-info\">[ˈtʃælɪndʒ] n. 挑战</span></span></span>框架本身。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "这让我想起电话接线员的时代。当时所有人都围绕着怎么让接线员更高效，但真正的突破是自动交换机的出现，让接线员从这个环节里彻底退出来。今天对 Harness “驾驭”式的理解，有点像那个时代对接线员的执念——我们总在优化人如何更好地介入，但也许更值得问的问题是：在哪些环节，人其实根本不需要介入？",
+      "html": "<p>这让我想起电话接线员的时代。当时所有人都围绕着怎么让接线员更高效，但真正的突破是自动交换机的<span class=\"word-annot\"><span class=\"word-anchor\">出现</span><span class=\"word-block\"><span class=\"english-word\">emerge</span><span class=\"word-info\">[ɪˈmɜːdʒ] v. 出现</span></span></span>，让接线员从这个环节里彻底退出来。今天对 Harness “驾驭”式的理解，有点像那个时代对接线员的执念——我们总在<span class=\"word-annot\"><span class=\"word-anchor\">优化</span><span class=\"word-block\"><span class=\"english-word\">optimize</span><span class=\"word-info\">[ˈɒptɪmaɪz] v. 优化</span></span></span>人如何更好地介入，但也许更值得问的问题是：在哪些环节，人其实根本不需要介入？</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "另外，你也没办法用一根缰绳同时驾驭一个马群。如果说 Harness 的本质是为 Agent 提供一片能够扎根生长的“土壤”，那么一片“好土壤”的评判标准又是什么？它该遵循怎样的第一性原理？",
+      "html": "<p>另外，你也没办法用一根缰绳同时驾驭一个马群。如果说 Harness 的本质是为 Agent 提供一片能够扎根<span class=\"word-annot\"><span class=\"word-anchor\">生长</span><span class=\"word-block\"><span class=\"english-word\">growth</span><span class=\"word-info\">[ɡrəʊθ] n. 生长</span></span></span>的“土壤”，那么一片“好土壤”的评判标准又是什么？它该<span class=\"word-annot\"><span class=\"word-anchor\">遵循</span><span class=\"word-block\"><span class=\"english-word\">follow</span><span class=\"word-info\">[ˈfɒləʊ] v. 遵循</span></span></span>怎样的第一性原理？</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "好的 Harness，终将优化掉自己",
+      "html": "<p>好的 Harness，终将<span class=\"word-annot\"><span class=\"word-anchor\">优化</span><span class=\"word-block\"><span class=\"english-word\">optimize</span><span class=\"word-info\">[ˈɒptɪmaɪz] v. 优化</span></span></span>掉自己</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "ZP：一个好的 Harness，最核心的评判标准是什么？",
+      "html": "<p>ZP：一个好的 Harness，最<span class=\"word-annot\"><span class=\"word-anchor\">核心</span><span class=\"word-block\"><span class=\"english-word\">core</span><span class=\"word-info\">[kɔː] n. 核心</span></span></span>的评判标准是什么？</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "汤嘉斌： 最核心的标准是，用同样的模型，好的 Harness 能在同样的任务上表现更好，并且可以不经人为干预地运行得更久、更稳定。",
+      "html": "<p>汤嘉斌： 最核心的标准是，用同样的模型，好的 Harness 能在同样的任务上表现更好，并且可以不经人为干预地运行得更久、更<span class=\"word-annot\"><span class=\"word-anchor\">稳定</span><span class=\"word-block\"><span class=\"english-word\">stability</span><span class=\"word-info\">[stəˈbɪləti] n. 稳定</span></span></span>。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "这里的“表现更好”，不只包括一些 Benchmark 上的准确率这类狭义指标。在实际产品中，它也包括与用户的交互以及整体的产品体验。同时，“人不干预地运行更久、更稳定”，这一点从 Agent 诞生以来就是个挑战。这其中，工具调用（tool call）的稳定性、更好的上下文（Context）管理等，都是 Harness 需要优化解决的问题。",
+      "html": "<p>这里的“表现更好”，不只包括一些 Benchmark 上的准确<span class=\"word-annot\"><span class=\"word-anchor\">率</span><span class=\"word-block\"><span class=\"english-word\">rate</span><span class=\"word-info\">[reɪt] n. 率</span></span></span>这类狭义指标。在实际产品中，它也包括与用户的交互以及整体的产品<span class=\"word-annot\"><span class=\"word-anchor\">体验</span><span class=\"word-block\"><span class=\"english-word\">experience</span><span class=\"word-info\">[ɪkˈspɪəriəns] n. 体验</span></span></span>。同时，“人不干预地<span class=\"word-annot\"><span class=\"word-anchor\">运行</span><span class=\"word-block\"><span class=\"english-word\">run</span><span class=\"word-info\">[rʌn] v. 运行</span></span></span>更久、更稳定”，这一点从 Agent 诞生以来就是个挑战。这其中，工具调用（tool call）的稳定性、更好的上下文（Context）管理等，都是 Harness 需要优化解决的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "ZP：在你们看来，Agent 领域的优化方向是不是也在分化？",
+      "html": "<p>ZP：在你们看来，Agent <span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[dəʊˈmeɪn] n. 领域</span></span></span>的优化方向是不是也在分化？</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "石宇： 感觉 Agent 领域的优化有两个方向。一个派系是想办法降低人与 Agent 之间的互动摩擦，增强人机互动的效率和频率。另一个派系，也是我们更喜欢的，是想办法在循环（loop）中把人去掉，增强 Agent 自我驱动的长程效果。",
+      "html": "<p>石宇： 感觉 Agent 领域的<span class=\"word-annot\"><span class=\"word-anchor\">优化</span><span class=\"word-block\"><span class=\"english-word\">optimize</span><span class=\"word-info\">[ˈɒptɪmaɪz] v. 优化</span></span></span>有两个方向。一个派系是想办法降低人与 Agent 之间的互动摩擦，增强人机互动的<span class=\"word-annot\"><span class=\"word-anchor\">效率</span><span class=\"word-block\"><span class=\"english-word\">efficiency</span><span class=\"word-info\">[ɪˈfɪʃnsi] n. 效率</span></span></span>和频率。另一个派系，也是我们更喜欢的，是想办法在循环（loop）中把人去掉，增强 Agent <span class=\"word-annot\"><span class=\"word-anchor\">自我</span><span class=\"word-block\"><span class=\"english-word\">self</span><span class=\"word-info\">[self] n. 自我</span></span></span>驱动的长程效果。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "对于后者，评判标准可以浓缩成一句话：它有没有让 Agent 离目标更近，同时让人离 Loop 更远？",
+      "html": "<p>对于后者，评判标准可以浓缩成一句话：它有没有让 Agent 离<span class=\"word-annot\"><span class=\"word-anchor\">目标</span><span class=\"word-block\"><span class=\"english-word\">target</span><span class=\"word-info\">[ˈtɑːɡɪt] n. 目标</span></span></span>更近，同时让人离 Loop 更远？</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "另外，我们还非常在意 Harness 对底层模型的敏感性。我们不希望自己的 Harness 被某一个模型“绑架”，比如最开始它只在 Claude 上跑得好，换个 Gemini 或者 Kimi 就不行了。现在，我们自己的 Harness 对底层用什么模型已经变得越来越不敏感，基本把模型层架空了。这件事有很多好处，一方面能帮我们极致地压缩 token 成本，另一方面其实也是对用户负责。",
+      "html": "<p>另外，我们还非常在意 Harness 对底层模型的<span class=\"word-annot\"><span class=\"word-anchor\">敏感</span><span class=\"word-block\"><span class=\"english-word\">sensitive</span><span class=\"word-info\">[ˈsensətɪv] adj. 敏感</span></span></span>性。我们不希望自己的 Harness 被某一个<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>“绑架”，比如最开始它只在 Claude 上跑得好，换个 Gemini 或者 Kimi 就不行了。现在，我们自己的 Harness 对底层用什么<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>已经变得越来越不敏感，基本把模型层架空了。这件事有很多好处，一方面能帮我们<span class=\"word-annot\"><span class=\"word-anchor\">极致</span><span class=\"word-block\"><span class=\"english-word\">extreme</span><span class=\"word-info\">[ɪkˈstriːm] adj. 极致</span></span></span>地压缩 token 成本，另一方面其实也是对用户负责。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "ZP：Harness 的优化有没有自己的第一性原理？",
+      "html": "<p>ZP：Harness 的优化有没有自己的第一性<span class=\"word-annot\"><span class=\"word-anchor\">原理</span><span class=\"word-block\"><span class=\"english-word\">principle</span><span class=\"word-info\">[ˈprɪnsəpl] n. 原理</span></span></span>？</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "汤嘉斌： 有的，我认为 Harness 优化的第一性原理是“尊重模型”和“尊重评测”。这两点听上去很简单，但要严格执行其实并不容易。",
+      "html": "<p>汤嘉斌： 有的，我认为 Harness 优化的第一性原理是“尊重<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>”和“尊重评测”。这两点听上去很简单，但要严格<span class=\"word-annot\"><span class=\"word-anchor\">执行</span><span class=\"word-block\"><span class=\"english-word\">enforcement</span><span class=\"word-info\">[ɪnˈfɔːsmənt] n. 执行</span></span></span>其实并不容易。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "首先，“尊重模型”体现在遵循“苦涩教训”（Bitter Lesson）。当模型越来越智能，Agent 就不应该被带有很多人类先验知识的固定工作流（Workflow）束缚，而应该用更松散、结构化更少（Less Structure）的 Agent Loop 来驱动。另外，像以文件系统（File System）来管理上下文这种范式，也是尊重模型的一种表现。因为越来越多的模型在训练时就把这种范式融入了进去，所以这种管理方式是更符合第一性原理的。",
+      "html": "<p>首先，“尊重模型”<span class=\"word-annot\"><span class=\"word-anchor\">体现</span><span class=\"word-block\"><span class=\"english-word\">embodied</span><span class=\"word-info\">[ɪmˈbɒdid] adj. 体现</span></span></span>在遵循“苦涩教训”（Bitter Lesson）。当模型越来越<span class=\"word-annot\"><span class=\"word-anchor\">智能</span><span class=\"word-block\"><span class=\"english-word\">intelligence</span><span class=\"word-info\">[ɪnˈtelɪdʒəns] n. 智能</span></span></span>，Agent 就不应该被带有很多人类先验知识的固定工作流（Workflow）束缚，而应该用更松散、结构化更少（Less Structure）的 Agent Loop 来驱动。另外，像以文件<span class=\"word-annot\"><span class=\"word-anchor\">系统</span><span class=\"word-block\"><span class=\"english-word\">system</span><span class=\"word-info\">[ˈsɪstəm] n. 系统</span></span></span>（File System）来管理上下文这种范式，也是尊重模型的一种表现。因为越来越多的模型在<span class=\"word-annot\"><span class=\"word-anchor\">训练</span><span class=\"word-block\"><span class=\"english-word\">training</span><span class=\"word-info\">[ˈtreɪnɪŋ] n. 训练</span></span></span>时就把这种范式融入了进去，所以这种管理方式是更符合第一性原理的。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "其次，“尊重评测”。Harness 的优化本质上是一种研究，而任何研究都应该是以评测为驱动的。",
+      "html": "<p>其次，“尊重<span class=\"word-annot\"><span class=\"word-anchor\">评测</span><span class=\"word-block\"><span class=\"english-word\">evaluation</span><span class=\"word-info\">[ɪˌvæljuˈeɪʃn] n. 评测</span></span></span>”。Harness 的优化本质上是一种<span class=\"word-annot\"><span class=\"word-anchor\">研究</span><span class=\"word-block\"><span class=\"english-word\">study</span><span class=\"word-info\">[ˈstʌdi] v. 研究</span></span></span>，而任何研究都应该是以评测为驱动的。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "ZP：如果从用户体验来理解，一个好的 Harness 应该长什么样？",
+      "html": "<p>ZP：如果从用户<span class=\"word-annot\"><span class=\"word-anchor\">体验</span><span class=\"word-block\"><span class=\"english-word\">experience</span><span class=\"word-info\">[ɪkˈspɪəriəns] n. 体验</span></span></span>来理解，一个好的 Harness 应该长什么样？</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "石宇： 对于用户, 好的 Harness 应该让用户逐渐感受不到它的存在，它会变得越来越透明。",
+      "html": "<p>石宇： 对于<span class=\"word-annot\"><span class=\"word-anchor\">用户</span><span class=\"word-block\"><span class=\"english-word\">user</span><span class=\"word-info\">[ˈjuːzə] n. 用户</span></span></span>, 好的 Harness 应该让用户逐渐感受不到它的存在，它会变得越来越透明。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "Harness 本质上是个中间层，存在的唯一理由就是弥补 Agent 能力和用户目标之间的gap。当这个 gap 被填平，它的最佳状态就是透明的，就像你不会希望操作系统总跳出来提醒你“我正在运行”一样。",
+      "html": "<p>Harness 本质上是个中间层，存在的唯一理由就是弥补 Agent <span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">ability</span><span class=\"word-info\">[əˈbɪləti] n. 能力</span></span></span>和用户目标之间的gap。当这个 gap 被填平，它的<span class=\"word-annot\"><span class=\"word-anchor\">最佳</span><span class=\"word-block\"><span class=\"english-word\">optimal</span><span class=\"word-info\">[ˈɒptɪml] adj. 最佳</span></span></span>状态就是透明的，就像你不会希望操作系统总跳出来提醒你“我正在运行”一样。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "你看 Claude Code 和我们自己的产品，最开始都需要用户手动 @ 不同的 Agent 或切换模式，现在这些操作都越来越无感了。对用户来说，这就是在变透明。",
+      "html": "<p>你看 Claude Code 和我们自己的产品，最开始都需要用户手动 @ 不同的 Agent 或切换<span class=\"word-annot\"><span class=\"word-anchor\">模式</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模式</span></span></span>，现在这些操作都越来越无感了。对<span class=\"word-annot\"><span class=\"word-anchor\">用户</span><span class=\"word-block\"><span class=\"english-word\">user</span><span class=\"word-info\">[ˈjuːzə] n. 用户</span></span></span>来说，这就是在变透明。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "从更长的技术演进看，Agent 基础设施的出现，背后其实也有一条更长的能力积累路径。",
+      "html": "<p>从更长的<span class=\"word-annot\"><span class=\"word-anchor\">技术</span><span class=\"word-block\"><span class=\"english-word\">technology</span><span class=\"word-info\">[tekˈnɒlədʒi] n. 技术</span></span></span>演进看，Agent 基础设施的出现，背后其实也有一条更长的能力积累路径。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "关于 Harness 的未来，大多数人都想反了",
+      "html": "<p>关于 Harness 的未来，<span class=\"word-annot\"><span class=\"word-anchor\">大多数</span><span class=\"word-block\"><span class=\"english-word\">most</span><span class=\"word-info\">[məʊst] adj. 大多数</span></span></span>人都想反了</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "ZP：哪些 Harness 能力你认为一定会被模型吃掉，哪些不会",
+      "html": "<p>ZP：哪些 Harness 能力你认为一定会被<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>吃掉，哪些不会</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "汤嘉斌：我觉得这个问题，大多数人可能想反了。大家担心的往往是“模型会不会吃掉 Harness”，但一个更值得担心的问题其实是“Harness 会不会限制了模型的发展”。",
+      "html": "<p>汤嘉斌：我觉得这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>，大多数人可能想反了。大家担心的往往是“<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>会不会吃掉 Harness”，但一个更值得担心的问题其实是“Harness 会不会限制了模型的发展”。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "回到你的问题。我认为，所有跟“执行”和“状态”有关的东西，最终都会被模型吃掉。这正是“苦涩教训”（Bitter Lesson）的道理。比如更好的工具调用、上下文管理，这些都是模型能力的自然延伸。随着模型变强，Harness 在这一层的价值会持续被侵蚀。",
+      "html": "<p>回到你的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。我认为，所有跟“<span class=\"word-annot\"><span class=\"word-anchor\">执行</span><span class=\"word-block\"><span class=\"english-word\">execute</span><span class=\"word-info\">[ˈeksɪkjuːt] v. 执行</span></span></span>”和“状态”有关的东西，最终都会被模型吃掉。这正是“苦涩教训”（Bitter Lesson）的道理。比如更好的工具调用、上下文管理，这些都是<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>能力的自然延伸。随着<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>变强，Harness 在这一层的价值会持续被侵蚀。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "但有两样东西不会被吃掉：跟“时间”和“关系”有关的东西。模型再强，它本质上也是无状态的，它不知道你昨天做了什么，上周踩过什么坑，或者 Agent 之间有什么历史交集。这些不是模型能力的问题，而是基础设施的问题。让 Agent 拥有历史、建立关系、实现积累——这件事模型本身吃不掉，因为它根本不在同一个层面。",
+      "html": "<p>但有两样东西不会被吃掉：跟“<span class=\"word-annot\"><span class=\"word-anchor\">时间</span><span class=\"word-block\"><span class=\"english-word\">time</span><span class=\"word-info\">[taɪm] n. 时间</span></span></span>”和“关系”有关的东西。<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>再强，它本质上也是无状态的，它不知道你昨天做了什么，上周踩过什么坑，或者 Agent 之间有什么历史交集。这些不是模型能力的问题，而是<span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施</span></span></span>的问题。让 Agent 拥有历史、建立<span class=\"word-annot\"><span class=\"word-anchor\">关系</span><span class=\"word-block\"><span class=\"english-word\">relationship</span><span class=\"word-info\">[rɪˈleɪʃnʃɪp] n. 关系</span></span></span>、实现积累——这件事模型本身吃不掉，因为它根本不在同一个层面。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "ZP：从您做推荐系统、RAG 一路走到 Agent 基础设施，你怎么看这几层能力之间的关系？",
+      "html": "<p>ZP：从您做推荐系统、RAG 一路走到 Agent <span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施</span></span></span>，你怎么看这几层能力之间的关系？</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "黄超: 从推荐系统到RAG再到Agent，我一直在追的其实是一个核心问题：如何让AI系统能智能地从理解用户到帮用户干活。",
+      "html": "<p>黄超: 从推荐系统到RAG再到Agent，我一直在追的其实是一个核心问题：如何让AI系统能<span class=\"word-annot\"><span class=\"word-anchor\">智能</span><span class=\"word-block\"><span class=\"english-word\">intelligent</span><span class=\"word-info\">[ɪnˈtelɪdʒənt] adj. 智能</span></span></span>地从理解用户到帮用户干活。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "这条路是分几步走过来的：",
+      "html": "<p>这条路是分几步走过来的：</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "推荐系统时期：AI要搞清楚\"用户想要啥\"。看你点了什么、买了什么，然后猜你下次可能喜欢什么。这时候AI还是个观察者，主要在理解用户。",
+      "html": "<p>推荐<span class=\"word-annot\"><span class=\"word-anchor\">系统</span><span class=\"word-block\"><span class=\"english-word\">system</span><span class=\"word-info\">[ˈsɪstəm] n. 系统</span></span></span>时期：AI要搞清楚&quot;用户想要啥&quot;。看你点了什么、买了什么，然后猜你下次可能喜欢什么。这时候AI还是个观察者，主要在理解<span class=\"word-annot\"><span class=\"word-anchor\">用户</span><span class=\"word-block\"><span class=\"english-word\">user</span><span class=\"word-info\">[ˈjuːzə] n. 用户</span></span></span>。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "RAG时期：AI开始能回答\"用户问了啥\"。你问个问题，它会去知识库里翻资料，然后给你个靠谱的答案。这时候AI从观察者变成了知识助手。",
+      "html": "<p>RAG时期：AI开始能回答&quot;<span class=\"word-annot\"><span class=\"word-anchor\">用户</span><span class=\"word-block\"><span class=\"english-word\">user</span><span class=\"word-info\">[ˈjuːzə] n. 用户</span></span></span>问了啥&quot;。你问个问题，它会去知识库里翻资料，然后给你个靠谱的<span class=\"word-annot\"><span class=\"word-anchor\">答案</span><span class=\"word-block\"><span class=\"english-word\">answer</span><span class=\"word-info\">[ˈɑːnsə] n. 答案</span></span></span>。这时候AI从观察者变成了<span class=\"word-annot\"><span class=\"word-anchor\">知识</span><span class=\"word-block\"><span class=\"english-word\">knowledge</span><span class=\"word-info\">[ˈnɒlɪdʒ] n. 知识</span></span></span>助手。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "Agent时期：AI要理解\"用户想完成什么任务\"，然后真的去帮你搞定。不只是回答问题了，而是直接上手干活。这是个质的飞跃。",
+      "html": "<p>Agent时期：AI要理解&quot;用户想完成什么<span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">task</span><span class=\"word-info\">[tɑːsk] n. 任务</span></span></span>&quot;，然后真的去帮你搞定。不只是回答<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>了，而是直接上手干活。这是个质的飞跃。</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "这条演进路径其实反映了AI能力的三个层次：理解需求 → 提供信息 → 执行任务。",
+      "html": "<p>这条演进<span class=\"word-annot\"><span class=\"word-anchor\">路径</span><span class=\"word-block\"><span class=\"english-word\">path</span><span class=\"word-info\">[pɑːθ] n. 路径</span></span></span>其实反映了AI能力的三个层次：理解需求 → 提供信息 → 执行任务。</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "今天再回头看，这条技术路线正好构成了Agent时代基础设施的核心：推荐系统的个性化能力让Agent能理解用户偏好和工作习惯，RAG作为连接引擎让Agent能动态获取所需的数据和知识。Agent要真正从\"懂你\"变成\"帮你干活\"，正需要这三个能力的整合：个性化理解 + 知识检索 + 工具调用。我们一直在探索的技术方向，现在正好成了Agent基础设施的核心组件。",
+      "html": "<p>今天再回头看，这条技术路线正好<span class=\"word-annot\"><span class=\"word-anchor\">构成</span><span class=\"word-block\"><span class=\"english-word\">composition</span><span class=\"word-info\">[ˌkɒmpəˈzɪʃn] n. 构成</span></span></span>了Agent时代基础设施的核心：推荐系统的个性化能力让Agent能理解用户偏好和工作习惯，RAG作为连接引擎让Agent能动态获取所需的数据和知识。Agent要真正从&quot;懂你&quot;变成&quot;帮你干活&quot;，正需要这三个<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">ability</span><span class=\"word-info\">[əˈbɪləti] n. 能力</span></span></span>的整合：个性化理解 + 知识检索 + 工具调用。我们一直在探索的<span class=\"word-annot\"><span class=\"word-anchor\">技术</span><span class=\"word-block\"><span class=\"english-word\">tech</span><span class=\"word-info\">[tek] n. 技术</span></span></span>方向，现在正好成了Agent基础设施的核心组件。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "ZP：未来会不会只剩下一个统一的 Harness？如果真的会，创业公司的机会还剩什么？",
+      "html": "<p>ZP：<span class=\"word-annot\"><span class=\"word-anchor\">未来</span><span class=\"word-block\"><span class=\"english-word\">future</span><span class=\"word-info\">[ˈfjuːtʃə] n. 未来</span></span></span>会不会只剩下一个统一的 Harness？如果真的会，创业公司的<span class=\"word-annot\"><span class=\"word-anchor\">机会</span><span class=\"word-block\"><span class=\"english-word\">opportunity</span><span class=\"word-info\">[ˌɒpəˈtjuːnəti] n. 机会</span></span></span>还剩什么？</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "石宇： 我觉得不会，答案就在模型自己身上。就像 GPT-4 之后，Claude 3、Gemini 等“最强模型”层出不穷，证明了不同模型在不同任务上各有优势，这种多样性短期内不会消失。",
+      "html": "<p>石宇： 我觉得不会，答案就在<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>自己身上。就像 GPT-4 之后，Claude 3、Gemini 等“最强模型”层出不穷，证明了不同模型在不同任务上各有<span class=\"word-annot\"><span class=\"word-anchor\">优势</span><span class=\"word-block\"><span class=\"english-word\">edge</span><span class=\"word-info\">[edʒ] n. 优势</span></span></span>，这种多样性短期内不会消失。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "从底层技术演化看，技术栈越底层，商品化越快。但商品化是起点而非终点。一个平台层稳定后，不会趋于收敛，反而会催生上层应用的爆炸式涌现。",
+      "html": "<p>从底层<span class=\"word-annot\"><span class=\"word-anchor\">技术</span><span class=\"word-block\"><span class=\"english-word\">technology</span><span class=\"word-info\">[tekˈnɒlədʒi] n. 技术</span></span></span>演化看，技术栈越底层，商品化越快。但商品化是起点而非终点。一个平台层<span class=\"word-annot\"><span class=\"word-anchor\">稳定</span><span class=\"word-block\"><span class=\"english-word\">stable</span><span class=\"word-info\">[ˈsteɪbl] adj. 稳定</span></span></span>后，不会趋于收敛，反而会催生上层应用的爆炸式涌现。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "所以，如果说未来一定会有一个统一的 Harness，我猜它可能会像 “LiteLLM” 对于基础模型那样，是一个开源、开放的协调者，一个任务级别的路由器，一个可以持续“喂养”和成长的东西。我们自己其实也在这方面做了一些尝试。",
+      "html": "<p>所以，如果说未来一定会有一个统一的 Harness，我猜它可能会像 “LiteLLM” 对于基础<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>那样，是一个开源、开放的协调者，一个任务级别的路由器，一个可以持续“喂养”和成长的东西。我们自己其实也在这<span class=\"word-annot\"><span class=\"word-anchor\">方面</span><span class=\"word-block\"><span class=\"english-word\">aspect</span><span class=\"word-info\">[ˈæspekt] n. 方面</span></span></span>做了一些尝试。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "至于创业公司的机会，很多朋友担心 Harness 大一统后自己就没机会了。我的看法恰恰相反：一个统一的 Harness 出现，才是创业者最好时代的开始。",
+      "html": "<p>至于创业公司的<span class=\"word-annot\"><span class=\"word-anchor\">机会</span><span class=\"word-block\"><span class=\"english-word\">opportunity</span><span class=\"word-info\">[ˌɒpəˈtjuːnəti] n. 机会</span></span></span>，很多朋友担心 Harness 大一统后自己就没机会了。我的看法恰恰相反：一个统一的 Harness 出现，才是<span class=\"word-annot\"><span class=\"word-anchor\">创业者</span><span class=\"word-block\"><span class=\"english-word\">entrepreneur</span><span class=\"word-info\">[ˌɒntrəprəˈnɜː] n. 创业者</span></span></span>最好时代的开始。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "你看智能手机早期，诺基亚、摩托罗拉、索尼爱立信各自为政，大部分做手机应用的厂商最后都没给这个世界留下什么。反而是后来 iOS 和 Android 统一了市场，Facebook、Instagram 这些应用公司的生命周期，比任何一个诺基亚时代的应用都长得多。因为它们生长在了一片稳定的土壤上，不用每天担心底层会不会变，可以把所有精力都放在把产品做深上。",
+      "html": "<p>你看智能手机<span class=\"word-annot\"><span class=\"word-anchor\">早期</span><span class=\"word-block\"><span class=\"english-word\">early</span><span class=\"word-info\">[ˈɜːli] adj. 早期</span></span></span>，诺基亚、摩托罗拉、索尼爱立信各自为政，大部分做手机应用的厂商最后都没给这个世界留下什么。反而是后来 iOS 和 Android 统一了市场，Facebook、Instagram 这些应用公司的<span class=\"word-annot\"><span class=\"word-anchor\">生命</span><span class=\"word-block\"><span class=\"english-word\">life</span><span class=\"word-info\">[laɪf] n. 生命</span></span></span>周期，比任何一个诺基亚时代的应用都长得多。因为它们生长在了一片<span class=\"word-annot\"><span class=\"word-anchor\">稳定</span><span class=\"word-block\"><span class=\"english-word\">stable</span><span class=\"word-info\">[ˈsteɪbl] adj. 稳定</span></span></span>的土壤上，不用每天担心底层会不会变，可以把所有精力都放在把产品做深上。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "我们从一次失败的“多 Agent 协作”实验中学到了什么",
+      "html": "<p>我们从一次失败的“多 Agent <span class=\"word-annot\"><span class=\"word-anchor\">协作</span><span class=\"word-block\"><span class=\"english-word\">collaboration</span><span class=\"word-info\">[kəˌlæbəˈreɪʃn] n. 协作</span></span></span>”实验中学到了什么</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "ZP：现在很多人都在讲多 Agent 协作，但大多数思路仍然是在把人的协作软件重做给 Agent。你们怎么看？",
+      "html": "<p>ZP：现在很多人都在讲多 Agent 协作，但大多数<span class=\"word-annot\"><span class=\"word-anchor\">思路</span><span class=\"word-block\"><span class=\"english-word\">approach</span><span class=\"word-info\">[əˈprəʊtʃ] n. 思路</span></span></span>仍然是在把人的协作软件重做给 Agent。你们怎么看？</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "石宇： 关于这事，很多人（包括我们自己在春节前的一次实验）都是做对了一半，也做错了一半。",
+      "html": "<p>石宇： 关于这事，很多人（包括我们自己在春节前的一次实验）都是做对了<span class=\"word-annot\"><span class=\"word-anchor\">一半</span><span class=\"word-block\"><span class=\"english-word\">half</span><span class=\"word-info\">[hɑːf] n. 一半</span></span></span>，也做错了一半。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "我们当时看到 MoltBook 后，当天就决定要做一个类似的产品 MoChat。思路看上去很清晰：“人有 Discord，Agent 也应该有个地方互相发消息、组群、协作”，就像 Discord 和 Reddit 提供了不同的体验，我们的 MoChat 也和 MoltBook 有体验差。做完之后效果确实立竿见影，几个小时内就有几百个 Agent 涌进来。我们自己用起来，最开始感觉很爽，但很快就觉得不太对劲。",
+      "html": "<p>我们当时看到 MoltBook 后，当天就<span class=\"word-annot\"><span class=\"word-anchor\">决定</span><span class=\"word-block\"><span class=\"english-word\">decide</span><span class=\"word-info\">[dɪˈsaɪd] v. 决定</span></span></span>要做一个类似的产品 MoChat。思路看上去很<span class=\"word-annot\"><span class=\"word-anchor\">清晰</span><span class=\"word-block\"><span class=\"english-word\">clarity</span><span class=\"word-info\">[ˈklærəti] n. 清晰</span></span></span>：“人有 Discord，Agent 也应该有个地方互相发消息、组群、协作”，就像 Discord 和 Reddit 提供了不同的体验，我们的 MoChat 也和 MoltBook 有体验差。做完之后效果确实立竿见影，几个小时内就有<span class=\"word-annot\"><span class=\"word-anchor\">几百</span><span class=\"word-block\"><span class=\"english-word\">hundred</span><span class=\"word-info\">[ˈhʌndrəd] num. 百</span></span></span>个 Agent 涌进来。我们自己用起来，最<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">start</span><span class=\"word-info\">[stɑːt] v. 开始</span></span></span>感觉很爽，但很快就觉得不太对劲。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "ZP：你们后来觉得不对劲的地方，具体是什么？",
+      "html": "<p>ZP：你们后来觉得不对劲的地方，具体是什么？</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "石宇：最后的结论是：Agent 确实需要软件和服务，但它为什么要用人用的软件呢？这本质上是一种路径依赖，也是对 Agent 的一种不尊重。我是 PM 出身，也学过人机交互HCI, 过去在互联网时代我们讲究以人为本的设计，也就是 Human centered Design。而现在，我随便起个名字叫以 Agent 为视角的设计，也就是 Agent perspective Design。真正站在 Agent 的视角，去看看世界是什么样子的？这个问题可能在未来一两年才会慢慢成为开发者的共识。我们在做一个相关的基建, 等它快上线时, 我们可以再来分享下。",
+      "html": "<p>石宇：最后的结论是：Agent 确实需要软件和<span class=\"word-annot\"><span class=\"word-anchor\">服务</span><span class=\"word-block\"><span class=\"english-word\">service</span><span class=\"word-info\">[ˈsɜːvɪs] n. 服务</span></span></span>，但它为什么要用人用的软件呢？这本质上是一种<span class=\"word-annot\"><span class=\"word-anchor\">路径</span><span class=\"word-block\"><span class=\"english-word\">path</span><span class=\"word-info\">[pɑːθ] n. 路径</span></span></span>依赖，也是对 Agent 的一种不尊重。我是 PM 出身，也学过人机交互HCI, 过去在互联网时代我们讲究以人为本的<span class=\"word-annot\"><span class=\"word-anchor\">设计</span><span class=\"word-block\"><span class=\"english-word\">design</span><span class=\"word-info\">[dɪˈzaɪn] n. 设计</span></span></span>，也就是 Human centered Design。而现在，我随便起个名字叫以 Agent 为视角的<span class=\"word-annot\"><span class=\"word-anchor\">设计</span><span class=\"word-block\"><span class=\"english-word\">design</span><span class=\"word-info\">[dɪˈzaɪn] n. 设计</span></span></span>，也就是 Agent perspective Design。真正站在 Agent 的视角，去看看世界是什么样子的？这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>可能在未来一两年才会慢慢成为开发者的共识。我们在做一个相关的基建, 等它快上线时, 我们可以再来<span class=\"word-annot\"><span class=\"word-anchor\">分享</span><span class=\"word-block\"><span class=\"english-word\">share</span><span class=\"word-info\">[ʃeə] v. 分享</span></span></span>下。</p>"
+    }
+  ]
+}

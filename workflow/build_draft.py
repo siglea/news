@@ -19,9 +19,15 @@ sys.path.insert(0, str(UTIL_DIR))
 from md_split import paragraphs_from_markdown
 
 import annotate_lib as al
+from annotation_quality_gate import check_quality
 
 
-def build_slug(slug: str, *, skip_validate: bool = False) -> Path:
+def build_slug(
+    slug: str,
+    *,
+    skip_validate: bool = False,
+    skip_quality_gates: bool = False,
+) -> Path:
     draft = ROOT / "content" / "drafts" / slug
     meta_path = draft / "meta.json"
     src_path = draft / "01-source.md"
@@ -34,11 +40,7 @@ def build_slug(slug: str, *, skip_validate: bool = False) -> Path:
     md = src_path.read_text(encoding="utf-8")
     paras_text = paragraphs_from_markdown(md)
 
-    tasks = {
-        "version": 1,
-        "slug": slug,
-        "paragraphs": [],
-    }
+    tasks = {"version": 1, "kind": "annotate_result", "slug": slug, "paragraphs": []}
     ann_name = meta.get("llm_annotations_file", "llm_annotations.json")
     ann_path = draft / ann_name
 
@@ -52,6 +54,17 @@ def build_slug(slug: str, *, skip_validate: bool = False) -> Path:
     import annotate_merge as am
 
     payload = json.loads(ann_path.read_text(encoding="utf-8"))
+    if not skip_quality_gates:
+        all_sents, _ = am.flatten_paragraphs(paras_text)
+        q_errors, q_warnings = check_quality(meta, payload, sentences=all_sents)
+        for msg in q_warnings:
+            print(f"[quality-gate] WARN: {msg}", file=sys.stderr)
+        if q_errors:
+            print("[quality-gate] FAIL", file=sys.stderr)
+            for msg in q_errors:
+                print(f"  - {msg}", file=sys.stderr)
+            raise SystemExit(1)
+
     paras_html_parts, dbg = am.apply_annotations_payload(paras_text, payload)
     print("annotate_merge", dbg, file=sys.stderr)
 
@@ -109,5 +122,10 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Build post from content/drafts/<slug>/")
     ap.add_argument("slug")
     ap.add_argument("--skip-validate", action="store_true")
+    ap.add_argument("--skip-quality-gates", action="store_true")
     a = ap.parse_args()
-    build_slug(a.slug, skip_validate=a.skip_validate)
+    build_slug(
+        a.slug,
+        skip_validate=a.skip_validate,
+        skip_quality_gates=a.skip_quality_gates,
+    )
