@@ -71,6 +71,26 @@ python3 workflow/mingox.py acquire --slug my-topic --mode search --query '...' -
 
 ---
 
+## Playwright 回退（反爬失败时）
+
+当内置抓取失败、返回验证页或明显反爬（如微信「环境异常」、登录墙、空正文）时，改用本仓库 Playwright 脚本在本地执行：
+
+1. 安装依赖（仅需一次）：
+   ```bash
+   pip install -r util/requirements-crawl.txt
+   playwright install chromium
+   ```
+2. 运行（微信文章建议**不要**加 `--headless`，必要时在窗口内完成验证）：
+   ```bash
+   python util/crawl-with-playwright.py --url "<完整URL>"
+   ```
+3. 成功后脚本会打印 `meta` 与 `html` 路径，读取：
+   - `util/.crawl-output/last.meta.json`（标题、作者、url）
+   - `util/.crawl-output/last_content.html`（`#js_content` 内 HTML）
+4. 非微信页面：当前选择器针对公众号 DOM（`.rich_media_title`、`#js_name`、`#js_content`），其他站点如失败需在脚本中扩展选择器。
+
+---
+
 ## acquire 后自检清单（进入标注前必过）
 
 1. **正文尾部清理**：打开 `01-source.md`，检查末尾是否残留「本篇作者 | …」「主编 | …」「图源 | …」「责任编辑」「关注公众号」等非正文行，有则删除。
