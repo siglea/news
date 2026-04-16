@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 从 llm-chat-bundle.json 用「最长中文子串匹配 + 全局 en 去首」填充 llm_annotations.json。
-词表每行须保证 `zh` 与 `en` 义项一一对应（`zh` 取最小可匹配子串，见 chat_annotate_system.txt）。
-供本地/Cursor 无 API 时由词表（人工/助手策展）拉高句覆盖率；非 mingox 默认子命令。
+词表格式: en<TAB>ipa<TAB>definition (3 列)，definition 示例: n. 垃圾；废物 ｜v. 丢弃
+消费端从 definition 动态提取 zh 候选词做匹配并推导 pos/gloss。
 
 示例：
   python3 workflow/bundle_lexicon_annotate.py --slug mp-qsmaket-article
@@ -22,34 +22,79 @@ sys.path.insert(0, str(UTIL))
 from annotate_lib import sentence_body_and_punct  # noqa: E402
 from annotate_merge import en_headword_token_ok  # noqa: E402
 
-
-def _normalize_entry(zh: str, en: str, ipa: str, pos: str, gloss: str) -> dict[str, str] | None:
-    zh = zh.strip()
-    en = en.strip()
-    ipa = ipa.strip()
-    pos = pos.strip()
-    gloss = gloss.strip()
-    if len(zh) < 1 or not en_headword_token_ok(en):
-        return None
-    if not ipa or not pos or not gloss:
-        return None
-    if not ipa.startswith("["):
-        ipa = f"[{ipa.strip('[]')}]"
-    return {"zh": zh, "en": en, "ipa": ipa, "pos": pos, "gloss": gloss}
+_POS_RE = re.compile(
+    r"\b((?:n|v|adj|adv|prep|conj|pron|det|interjection|vt|vi|num|art)\."
+    r"(?:/(?:n|v|adj|adv|vt|vi)\.)*)"
+)
 
 
-def _load_lexicon_tsv(path: Path) -> list[dict[str, str]]:
-    out: list[dict[str, str]] = []
+def _parse_definition(definition: str) -> list:
+    """'n. 垃圾；废物 ｜v. 丢弃' → [('n.', '垃圾；废物'), ('v.', '丢弃')]"""
+    sections = re.split(r"\s*｜\s*", definition)
+    result = []
+    for sec in sections:
+        sec = sec.strip()
+        if not sec:
+            continue
+        m = _POS_RE.match(sec)
+        if m:
+            pos = m.group(1)
+            gloss = sec[m.end():].strip()
+        else:
+            pos = ""
+            gloss = sec
+        if gloss:
+            result.append((pos, gloss))
+    return result
+
+
+def _extract_zh_candidates(gloss: str) -> list:
+    """从 gloss 提取 2-4 字中文词，按长度降序。"""
+    cleaned = re.sub(r"[（(].+?[)）]", "", gloss)
+    cleaned = re.sub(r"〔.+?〕", "", cleaned)
+    cleaned = re.sub(r"…+", "", cleaned)
+    parts = re.split(r"[；;，,、]", cleaned)
+    candidates = []
+    for p in parts:
+        p = p.strip()
+        p = re.sub(r"^(使|被|把|将|让|给)", "", p)
+        cjk_spans = re.findall(r"[\u4e00-\u9fff]{2,4}", p)
+        candidates.extend(cjk_spans)
+    seen = set()
+    unique = []
+    for c in candidates:
+        if c not in seen:
+            seen.add(c)
+            unique.append(c)
+    unique.sort(key=len, reverse=True)
+    return unique
+
+
+def _load_lexicon_tsv(path: Path) -> list:
+    """加载 3 列 TSV，生成扁平 match 列表 [{zh, en, ipa, pos, gloss}, ...]"""
+    out = []
     for raw in path.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
         if not line or line.startswith("#"):
             continue
         parts = line.split("\t")
-        if len(parts) != 5:
+        if len(parts) != 3:
             continue
-        e = _normalize_entry(*parts)
-        if e:
-            out.append(e)
+        en, ipa, definition = parts
+        en = en.strip()
+        ipa = ipa.strip()
+        if not en or not ipa or not en_headword_token_ok(en):
+            continue
+        if not ipa.startswith("["):
+            ipa = f"[{ipa.strip('[]')}]"
+        sections = _parse_definition(definition)
+        for pos, gloss in sections:
+            zh_candidates = _extract_zh_candidates(gloss)
+            for zh in zh_candidates:
+                out.append({
+                    "zh": zh, "en": en, "ipa": ipa,
+                    "pos": pos, "gloss": gloss,
+                })
     out.sort(key=lambda x: len(x["zh"]), reverse=True)
     return out
 
@@ -63,19 +108,22 @@ def _load_lexicon_module(path: Path):
     entries = getattr(mod, "ENTRIES", None)
     if not isinstance(entries, list):
         raise ValueError(f"{path} must define ENTRIES: list[dict]")
-    out: list[dict[str, str]] = []
+    out = []
     for e in entries:
         if not isinstance(e, dict):
             continue
-        row = _normalize_entry(
-            str(e.get("zh", "")),
-            str(e.get("en", "")),
-            str(e.get("ipa", "")),
-            str(e.get("pos", "")),
-            str(e.get("gloss", "")),
-        )
-        if row:
-            out.append(row)
+        en = str(e.get("en", "")).strip()
+        ipa = str(e.get("ipa", "")).strip()
+        pos = str(e.get("pos", "")).strip()
+        zh = str(e.get("zh", "")).strip()
+        gloss = str(e.get("gloss", "")).strip()
+        if not zh or not en_headword_token_ok(en):
+            continue
+        if not ipa or not pos or not gloss:
+            continue
+        if not ipa.startswith("["):
+            ipa = f"[{ipa.strip('[]')}]"
+        out.append({"zh": zh, "en": en, "ipa": ipa, "pos": pos, "gloss": gloss})
     out.sort(key=lambda x: len(x["zh"]), reverse=True)
     return out
 
@@ -84,7 +132,7 @@ def _has_cjk(s: str) -> bool:
     return bool(re.search(r"[\u4e00-\u9fff]", s))
 
 
-def _unique_en_token(base_en: str, used: set[str]) -> str:
+def _unique_en_token(base_en: str, used: set) -> str:
     token = base_en
     idx = 2
     while token.lower() in used:
@@ -95,7 +143,7 @@ def _unique_en_token(base_en: str, used: set[str]) -> str:
 
 def fill_from_bundle(
     bundle_path: Path,
-    lex_entries: list[dict[str, str]],
+    lex_entries: list,
     *,
     suffix_repeated_en: bool = False,
 ) -> dict:
@@ -103,14 +151,14 @@ def fill_from_bundle(
     sents = data.get("sentences") or []
     ordered = sorted((int(x["i"]), str(x.get("text", ""))) for x in sents if isinstance(x, dict) and "i" in x)
     lex_sorted = sorted(lex_entries, key=lambda e: len(e["zh"]), reverse=True)
-    used_en: set[str] = set()
-    annotations: list[dict] = []
+    used_en = set()
+    annotations = []
     for i, text in ordered:
         body, _ = sentence_body_and_punct(text.replace("\r", ""))
         if not body.strip() or not _has_cjk(body):
             annotations.append({"i": i, "skip": True})
             continue
-        pick: dict[str, str] | None = None
+        pick = None
         for e in lex_sorted:
             en = e["en"]
             if (not suffix_repeated_en) and en.lower() in used_en:
@@ -142,12 +190,12 @@ def fill_from_bundle(
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Fill llm_annotations.json from bundle + lexicon module.")
+    ap = argparse.ArgumentParser(description="Fill llm_annotations.json from bundle + lexicon.")
     ap.add_argument("--slug", required=True)
     ap.add_argument(
         "--lexicon",
         type=Path,
-        help="Lexicon: .tsv (zh<TAB>en<TAB>ipa<TAB>pos<TAB>gloss) or .py with ENTRIES. "
+        help="Lexicon: .tsv (en<TAB>ipa<TAB>definition) or .py with ENTRIES. "
         "Default: util/lexicons/vocab_merged.tsv",
     )
     ap.add_argument(
@@ -159,7 +207,7 @@ def main() -> None:
     ap.add_argument(
         "--suffix-repeated-en",
         action="store_true",
-        help="Allow repeated headwords by appending numeric suffix for dedupe key, e.g. market2.",
+        help="Allow repeated headwords by appending numeric suffix.",
     )
     a = ap.parse_args()
     draft = ROOT / "content" / "drafts" / a.slug
