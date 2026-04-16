@@ -68,7 +68,7 @@
 
 ## 5. 兜底路径：词表脚本（非默认）
 
-[`workflow/bundle_lexicon_annotate.py`](../../workflow/bundle_lexicon_annotate.py) 根据 **`llm-chat-bundle.json`** + **TSV 词表**（默认 [`util/lexicons/space_datacenter_dense.tsv`](../../util/lexicons/space_datacenter_dense.tsv)）做最长子串匹配并写 `llm_annotations.json`。
+[`workflow/bundle_lexicon_annotate.py`](../../workflow/bundle_lexicon_annotate.py) 根据 **`llm-chat-bundle.json`** + **TSV 词表**（默认 [`util/lexicons/vocab_merged.tsv`](../../util/lexicons/vocab_merged.tsv)）做最长子串匹配并写 `llm_annotations.json`。
 
 **适用：** 无对话环境、极快占位、或该题材已有维护良好的专用 TSV。  
 **不适用作为默认：** 义项与密度通常弱于按 `chat_annotate_system.txt` 自由选词；题材与词表不符时命中率差。  
