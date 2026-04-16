@@ -148,7 +148,7 @@ def main() -> None:
         "--lexicon",
         type=Path,
         help="Lexicon: .tsv (zh<TAB>en<TAB>ipa<TAB>pos<TAB>gloss) or .py with ENTRIES. "
-        "Default: util/lexicons/space_datacenter_dense.tsv",
+        "Default: util/lexicons/vocab_merged.tsv",
     )
     ap.add_argument(
         "-o",
@@ -166,7 +166,7 @@ def main() -> None:
     bundle = draft / "llm-chat-bundle.json"
     if not bundle.is_file():
         raise SystemExit(f"missing {bundle}")
-    lex_path = a.lexicon or (UTIL / "lexicons" / "space_datacenter_dense.tsv")
+    lex_path = a.lexicon or (UTIL / "lexicons" / "vocab_merged.tsv")
     if not lex_path.is_file():
         raise SystemExit(f"missing lexicon {lex_path}")
     if lex_path.suffix.lower() == ".tsv":
