@@ -63,8 +63,20 @@ python3 workflow/mingox.py --help
 
 ---
 
-## 实战复盘（2026-04-13）
+## 实战复盘
+
+### 2026-04-13
 
 - **最小闭环**：建议默认按 `init -> acquire(url) -> export-chat-bundle -> llm_annotations.json -> close-loop --deploy` 执行；不要在 `crawl` 成功后提前结束。
 - **命名优先**：`slug` 与 `out_html` 先对齐标题语义再开工，可减少后续改名与首页链接同步成本。
 - **门禁理解**：`validate` 的 `density heuristic WARN` 是提示项；`OK adjacent check` 才是阻断门禁是否通过的核心信号。
+
+### 2026-04-16（吴晓波/beauvoir 修复后追加）
+
+- **首页同步是发布的一部分**：`build + validate + deploy` 通过≠发布完成。**必须**同步更新 `index.html` 的 `<ul class="post-list">`，否则读者在首页看不到新稿。`close-loop` 命令不替代这一步。
+- **临时 slug 必须清理**：若先用 `wechat-<id>` 探路抓取，确认正式 slug 后须**立即删除**临时目录，不要让它进入提交。
+- **`out_html` 日期必须与 `meta.date` 一致**：`init` 时的 `--out-html` 日期须为**当天**，与 `meta.json` 中自动填入的 `date` 对齐；事后发现不一致须在 build 前修正。
+- **正文尾部非正文必须清除**：`acquire` 后须检查 `01-source.md` 末尾是否残留编辑署名、图源、运营文案等非正文段落，清除后再进入标注。
+- **`title_emoji` 须按题材选择**：`📈` 用于新闻/财经；`💡` 用于思想/观点/人文；`📜` 用于文化/诗词。不要一律用默认值。
+- **对话场景下禁止偷懒用词表兜底**：在 Cursor 内助手等对话环境下，**必须**按 `system_prompt` 逐句生成标注（目标 ≥80% 非 skip），而非直接跑 `bundle_lexicon_annotate.py`。词表兜底仅适用于无对话环境。
+- **外源稿须开启版权声明**：微信公众号转载稿的 `include_source_footer` 应为 `true`，`footer_template` 应选 `derivative`，并填写 `source_author_display`。
