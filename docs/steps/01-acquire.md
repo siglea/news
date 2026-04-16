@@ -68,3 +68,17 @@ python3 workflow/mingox.py acquire --slug my-topic --mode search --query '...' -
 | `workflow/acquire.py` | 第 1 步实现 |
 
 **反爬与 Playwright 细节**：[util/README.md](../../util/README.md)。**环境安装**：[PREREQUISITES.md](../PREREQUISITES.md)。
+
+---
+
+## acquire 后自检清单（进入标注前必过）
+
+1. **正文尾部清理**：打开 `01-source.md`，检查末尾是否残留「本篇作者 | …」「主编 | …」「图源 | …」「责任编辑」「关注公众号」等非正文行，有则删除。
+2. **`meta.json` 核对**：
+   - `title_zh`：是否与原文标题一致（微信抓取会自动填入页面标题，需确认）。
+   - `title_en`：是否已补充有意义的英文标题（`acquire` 不自动填写英文题）。
+   - `title_emoji`：是否按题材选择了正确 emoji（`📈` 财经、`💡` 思想/观点、`📜` 文化/诗词、`🎙️` 播客）。
+   - `out_html` 日期部分：是否与 `date` 字段一致且为当天。
+   - `meta_description`：是否已填写一句话摘要（不可为空，门禁会拦截）。
+   - `include_source_footer` / `footer_template`：外源稿须开启（`true` + `derivative`），并填写 `source_author_display`。
+3. **临时 slug 清理**：若先用临时名称（如 `wechat-<id>`）探路抓取，确认正式 slug 后须删除临时目录。

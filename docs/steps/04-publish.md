@@ -134,6 +134,17 @@ npx --yes edgeone@latest pages deploy -a overseas -n mingox
 - 不要只发域名；缺少 `eo_token`/`eo_time` 参数时，预览常会无法访问。
 - 预览链接含访问令牌，应视为敏感信息，仅在必要范围内传递。
 
+### 发布后必做：首页同步（2026-04-16 复盘后追加）
+
+**`deploy` 成功 ≠ 发布完成。** 必须同时确认 `index.html` 已包含新稿的 `<li class="post-item">` 入口。遗漏此步会导致读者在首页看不到新文章——等于白发。
+
+**自检：**
+
+1. 打开 `index.html`，在 `<ul class="post-list">` 里搜索新稿的 `out_html` 文件名。
+2. 若找不到，按 [EDITORIAL.md](../EDITORIAL.md)「首页列表设计规范」格式添加：标题、meta（日期/标签）、摘要三个 `<div>`。
+3. 新稿按日期倒序插在列表顶部。
+4. 添加后重新 `deploy`（或在同一次提交里一起部署）。
+
 ### 可选：全局安装 CLI
 
 若本机允许全局写入：
