@@ -102,7 +102,7 @@ post 文件 h1 标题格式：
 1. **长版权块仍在文后；文首仅可有一句「出处提示」**：来源、著作权归属、转载规则、原文链接、风险提示等**法律与礼仪性长文**，统一放在 **`</article>` 之后**、**「📖 重点词汇」小标题之前**，与正文在结构上分离；样式上应**醒目**（如边框、底色区分），便于读者一眼看到出处与权利边界。可参考 `posts/2026-04-01-private-fund-ai-hiring-threshold.html` 中的 `post-source-footer` 区块。**经验**：部分读者只扫标题与首段，容易误以为「正文里看不到转载说明」；因此当 `meta.json` 中 **`include_source_footer` 为真**且填写了 **`source_account`** 时，`workflow/build_draft.py` → `util/annotate_lib.build_post_html` 会在 **`<h1>` 与首段 `<p>` 之间**自动插入 **`post-source-banner`**（一句，类名 `post-source-banner`），写明微信公众号名并**指向文末「来源与版权」**。**该横幅不是版权块的替代**，详细权利说明仍以文末 `post-source-footer` 为准。
 2. **版权块保持纯说明**：来源与权利段落中**不要**插入 `word-block` 等学习向标注；若历史模板仍含「重点词汇」空表，可保留结构，待新标注流程再接续。
 3. **建议写清的事项**：第三方**平台与帐号名**、界面显示的**作者/署名**（若有）、**可点击的原文固定链接**；说明本站条目为**衍生整理**、不代为授权、不主张对原文的权利；商业转载与摘编由使用者自行联系**权利人**；并保留「不构成投资建议 / 法律意见」等**必要免责**（视题材酌定）。
-4. **抓取素材**：若简单 HTTP 拉取被风控（如微信「环境异常」），按 [steps/01-acquire.md](./steps/01-acquire.md)、[util/README.md](../util/README.md) 在本机用 Playwright 等工具获取正文后再改编；若使用 Cursor，可额外参考仓库内 `.cursor/rules/web-crawl-playwright-fallback.mdc`（**非运行依赖**）。**改编与抓取不等于取得转载授权**，发布与商用仍须遵守源站规则及著作权法。
+4. **抓取素材**：若简单 HTTP 拉取被风控（如微信「环境异常」），按 [steps/01-acquire.md](./steps/01-acquire.md)「Playwright 回退」节、[util/README.md](../util/README.md) 在本机用 Playwright 等工具获取正文后再改编。**改编与抓取不等于取得转载授权**，发布与商用仍须遵守源站规则及著作权法。
 
 ## 新稿与首页入口
 

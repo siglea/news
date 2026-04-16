@@ -122,7 +122,7 @@ python3 workflow/bundle_lexicon_annotate.py --slug <slug> --lexicon path/to/your
 
 **一句话自检：** 读者能否认为「这个英文词就是在解释我高亮的这几个汉字」？若否，收窄 `zh` 或换 `en`，否则填 `skip`。
 
-Cursor 内编辑标注相关文件时，另见项目规则 **`.cursor/rules/annotate-zh-en-alignment.mdc`**。
+对齐规则的完整条文见上文 **§7**；编辑标注文件时须严格遵守。
 
 ---
 
