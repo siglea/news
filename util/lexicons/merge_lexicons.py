@@ -3,12 +3,14 @@
 将 kaoyan_vocab_tab.txt 和 kaoyan_vocab_md.md 合并进 vocab_merged.tsv。
 
 用法:
-    python3 util/merge_lexicons.py [--top-n 3000] [--dry-run]
+    python3 util/lexicons/merge_lexicons.py [--top-n 3000] [--dry-run]
 
-策略：
-  - 白名单：考研词表中的词，只要不命中黑名单就保留
-  - 黑名单：top_n_list 常用词 + 功能词词性 + zh<2字
-  - 原始 TSV 也参与过滤，统一标准
+输出格式（每行 3 列 TSV）:
+    en<TAB>ipa<TAB>definition
+
+definition 示例: n. 垃圾；废物 ｜v. 丢弃；修剪树枝
+
+每个 en 只有一行，多词性用 ｜ 分隔。消费端从 definition 动态提取 zh 做匹配。
 """
 
 import argparse
@@ -16,7 +18,7 @@ import re
 from pathlib import Path
 
 import eng_to_ipa as ipa_lib
-from wordfreq import top_n_list, zipf_frequency
+from wordfreq import top_n_list
 
 LEXICONS = Path(__file__).parent
 TSV_PATH = LEXICONS / "vocab_merged.tsv"
@@ -25,11 +27,28 @@ SRC_DW = LEXICONS / "kaoyan_vocab_md.md"
 
 POS_RE = re.compile(r"\b(n|v|adj|adv|prep|conj|pron|det|interjection|vt|vi|num|art)\.")
 
-FILTER_POS = {"pron.", "art.", "interjection.", "conj.", "det.", "num."}
+FILTER_POS_ONLY = {"pron.", "art.", "interjection.", "conj.", "det.", "num."}
 
 
-def parse_kaoyan_tab(path: Path) -> dict[str, dict]:
-    out: dict[str, dict] = {}
+def _split_all_pos_gloss(raw: str) -> list:
+    """从 'n. 反抗；造反 v. 起义' 拆出所有 (pos, gloss) 对。"""
+    matches = list(POS_RE.finditer(raw))
+    if not matches:
+        gloss = _clean_gloss(raw)
+        return [("n.", gloss)] if gloss else []
+    results = []
+    for idx, m in enumerate(matches):
+        pos = m.group(0)
+        start = m.end()
+        end = matches[idx + 1].start() if idx + 1 < len(matches) else len(raw)
+        gloss = _clean_gloss(raw[start:end])
+        if gloss:
+            results.append((pos, gloss))
+    return results
+
+
+def parse_kaoyan_tab(path: Path) -> dict:
+    out = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line:
@@ -43,14 +62,14 @@ def parse_kaoyan_tab(path: Path) -> dict[str, dict]:
             continue
         if en in out:
             continue
-        pos, gloss = _split_pos_gloss(raw)
-        if gloss:
-            out[en] = {"en": en, "pos": pos, "gloss": gloss}
+        pairs = _split_all_pos_gloss(raw)
+        if pairs:
+            out[en] = pairs
     return out
 
 
-def parse_kaoyan_md(path: Path) -> dict[str, dict]:
-    out: dict[str, dict] = {}
+def parse_kaoyan_md(path: Path) -> dict:
+    out = {}
     pat = re.compile(r"^-\s+\*\*(.+?)\*\*\s*[—–-]+\s*(.+)$")
     for line in path.read_text(encoding="utf-8").splitlines():
         m = pat.match(line.strip())
@@ -60,27 +79,17 @@ def parse_kaoyan_md(path: Path) -> dict[str, dict]:
         raw = m.group(2).strip().rstrip("<")
         if not en or not raw:
             continue
-        if en in out:
+        pairs = _split_all_pos_gloss(raw)
+        if not pairs:
             continue
-        pos, gloss = _split_pos_gloss(raw)
-        if gloss:
-            out[en] = {"en": en, "pos": pos, "gloss": gloss}
+        if en not in out:
+            out[en] = []
+        existing_pos = {p for p, _ in out[en]}
+        for pos, gloss in pairs:
+            if pos not in existing_pos:
+                out[en].append((pos, gloss))
+                existing_pos.add(pos)
     return out
-
-
-def _split_pos_gloss(raw: str) -> tuple[str, str]:
-    m = POS_RE.search(raw)
-    if not m:
-        gloss = _clean_gloss(raw)
-        return ("n.", gloss)
-    pos = m.group(0)
-    after = raw[m.end():].strip()
-    next_pos = POS_RE.search(after)
-    if next_pos:
-        gloss = after[:next_pos.start()].strip().rstrip(";；,，")
-    else:
-        gloss = after
-    return (pos, _clean_gloss(gloss))
 
 
 def _clean_gloss(g: str) -> str:
@@ -89,22 +98,30 @@ def _clean_gloss(g: str) -> str:
     return g
 
 
-def extract_zh(gloss: str) -> str:
-    """从 gloss 提取短中文词（2-4字最佳）用于句内子串匹配。"""
-    cleaned = re.sub(r"[（(].+?[)）]", "", gloss)
-    cleaned = re.sub(r"〔.+?〕", "", cleaned)
-    cleaned = re.sub(r"…+", "", cleaned)
-    parts = re.split(r"[；;，,、]", cleaned)
-    candidates = []
-    for p in parts:
-        p = p.strip()
-        p = re.sub(r"^(使|被|把|将|让|给)", "", p)
-        cjk_spans = re.findall(r"[\u4e00-\u9fff]{2,4}", p)
-        candidates.extend(cjk_spans)
-    if not candidates:
+def _has_cjk(s: str) -> bool:
+    return bool(re.search(r"[\u4e00-\u9fff]", s))
+
+
+def _build_definition(pairs: list) -> str:
+    """将 [(pos, gloss), ...] 合并为 'n. 垃圾；废物 ｜v. 丢弃' 格式。
+    同时归一化冗余词性（v./vt./vi. 有重叠时合并）。"""
+    if not pairs:
         return ""
-    candidates.sort(key=len)
-    return candidates[0]
+    # 归一化：vt./vi. 如果 v. 也存在就丢弃
+    pos_set = {p for p, _ in pairs}
+    if "v." in pos_set:
+        pairs = [(p, g) for p, g in pairs if p not in ("vt.", "vi.")]
+
+    seen = set()
+    parts = []
+    for pos, gloss in pairs:
+        if pos in seen:
+            continue
+        seen.add(pos)
+        if pos in FILTER_POS_ONLY:
+            continue
+        parts.append(f"{pos} {gloss}")
+    return " ｜".join(parts)
 
 
 def get_ipa(en: str) -> str:
@@ -117,33 +134,38 @@ def get_ipa(en: str) -> str:
     return f"[{result}]"
 
 
-def load_existing_tsv(path: Path) -> list[dict]:
-    out = []
+def load_existing_tsv(path: Path) -> dict:
+    """加载已有 TSV（兼容旧 5 列和新 3 列），返回 {en: {ipa, definition}}。"""
+    out = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line or line.startswith("#"):
             continue
         parts = line.split("\t")
-        if len(parts) == 5:
-            out.append({
-                "zh": parts[0], "en": parts[1],
-                "ipa": parts[2], "pos": parts[3], "gloss": parts[4],
-            })
+        if len(parts) == 3:
+            en, ipa, definition = parts
+            en = en.strip().lower()
+            if en and en not in out:
+                out[en] = {"ipa": ipa.strip(), "definition": definition.strip()}
+        elif len(parts) == 5:
+            col0 = parts[0]
+            if re.search(r"[\u4e00-\u9fff]", col0):
+                _, en, ipa, pos, gloss = parts
+            else:
+                en, ipa, pos, _, gloss = parts
+            en = en.strip().lower()
+            if en not in out:
+                out[en] = {"ipa": ipa.strip(), "definition": f"{pos.strip()} {gloss.strip()}"}
+            else:
+                old_def = out[en]["definition"]
+                new_part = f"{pos.strip()} {gloss.strip()}"
+                if new_part not in old_def:
+                    out[en]["definition"] = f"{old_def} ｜{new_part}"
     return out
 
 
-def build_blacklist(n: int) -> set[str]:
-    """用 wordfreq top-N 英语词作为黑名单。"""
+def build_blacklist(n: int) -> set:
     return set(w.lower() for w in top_n_list("en", n))
-
-
-def is_blocked(en: str, pos: str, blacklist: set) -> str:
-    """返回过滤原因，空串表示通过。"""
-    if en in blacklist:
-        return "top-N"
-    if pos in FILTER_POS:
-        return "pos"
-    return ""
 
 
 def main():
@@ -156,7 +178,6 @@ def main():
     blacklist = build_blacklist(args.top_n)
     print(f"blacklist: top-{args.top_n} = {len(blacklist)} words")
 
-    # --- 加载三个来源 ---
     existing = load_existing_tsv(TSV_PATH)
     print(f"existing TSV: {len(existing)} entries")
 
@@ -165,85 +186,78 @@ def main():
     print(f"kaoyan_tab: {len(src7)} unique en")
     print(f"kaoyan_md: {len(srcd)} unique en")
 
-    # --- 合并所有来源，按 en 去重（原始 TSV 优先保留 zh/ipa） ---
-    pool: dict[str, dict] = {}
+    # --- 合并所有来源，按 en 合并 ---
+    # pool: en -> {ipa, pairs: list[(pos, gloss)]}
+    pool = {}
 
-    for e in existing:
-        en = e["en"].lower()
-        if en not in pool:
-            pool[en] = e
+    for en, info in existing.items():
+        pool[en] = {"ipa": info["ipa"], "definition": info["definition"]}
 
-    for en, entry in src7.items():
-        if en not in pool:
-            pool[en] = entry
+    # 考研词表：有结构化 n./v. 分段的，始终用其生成 definition（覆盖旧 TSV 里错误的 n./v. 单行合并）
+    ipa_cache = {}
+    for en in set(list(src7.keys()) + list(srcd.keys())):
+        pairs_7 = src7.get(en, [])
+        pairs_d = srcd.get(en, [])
+        all_pairs = []
+        seen_pos = set()
+        for pos, gloss in pairs_7 + pairs_d:
+            if pos not in seen_pos:
+                all_pairs.append((pos, gloss))
+                seen_pos.add(pos)
 
-    for en, entry in srcd.items():
-        if en not in pool:
-            pool[en] = entry
+        definition = _build_definition(all_pairs)
+        if not definition or not _has_cjk(definition):
+            continue
+        if en in pool:
+            pool[en]["definition"] = definition
+        else:
+            pool[en] = {"ipa": "", "definition": definition}
 
-    print(f"merged pool (unique en): {len(pool)}")
+    print(f"merged pool: {len(pool)} unique en")
 
-    # --- 黑名单过滤（统一标准，原始 TSV 也过滤） ---
-    kept: dict[str, dict] = {}
-    stats = {"top-N": 0, "pos": 0, "no_zh": 0, "no_ipa": 0, "kept": 0}
+    # --- 黑名单过滤 + 补 IPA ---
+    final = []
+    stats = {"top-N": 0, "no_cjk": 0, "no_ipa": 0, "kept": 0}
 
-    for en, entry in pool.items():
-        pos = entry.get("pos", "n.")
-        reason = is_blocked(en, pos, blacklist)
-        if reason:
-            stats[reason] = stats.get(reason, 0) + 1
+    for en, info in pool.items():
+        if en in blacklist:
+            stats["top-N"] += 1
+            continue
+        if not _has_cjk(info["definition"]):
+            stats["no_cjk"] += 1
             continue
 
-        has_zh = entry.get("zh")
-        has_ipa = entry.get("ipa")
-
-        if has_zh and has_ipa:
-            if len(has_zh) < 2:
-                stats["no_zh"] += 1
-                continue
-            kept[en] = entry
-            stats["kept"] += 1
-            continue
-
-        zh = has_zh or extract_zh(entry.get("gloss", ""))
-        if not zh or len(zh) < 2:
-            stats["no_zh"] += 1
-            continue
-
-        ipa_str = has_ipa or get_ipa(en)
+        ipa_str = info["ipa"]
+        if not ipa_str:
+            if en not in ipa_cache:
+                ipa_cache[en] = get_ipa(en)
+            ipa_str = ipa_cache[en]
         if not ipa_str:
             stats["no_ipa"] += 1
             continue
+        if not ipa_str.startswith("["):
+            ipa_str = f"[{ipa_str.strip('[]')}]"
 
-        kept[en] = {
-            "zh": zh, "en": en, "ipa": ipa_str,
-            "pos": pos, "gloss": entry.get("gloss", zh),
-        }
+        final.append({"en": en, "ipa": ipa_str, "definition": info["definition"]})
         stats["kept"] += 1
 
     print(f"filter stats: {stats}")
 
-    # --- 按 zh 长度降序排列 ---
-    final = sorted(kept.values(), key=lambda x: len(x["zh"]), reverse=True)
+    final.sort(key=lambda x: x["en"])
 
     if args.dry_run:
-        print(f"\n[dry-run] total would be: {len(final)}")
-        # 验证边界词
-        check_words = ["hers", "fog", "time", "think", "way",
-                       "significant", "additional", "positive",
-                       "cascade", "paradox", "ingenious", "loss", "key"]
-        print("\n[dry-run] 边界词检查:")
-        for w in check_words:
-            in_bl = w in blacklist
-            in_kept = w in kept
-            z = zipf_frequency(w, "en")
-            status = "KEPT" if in_kept else "FILTERED"
-            reason = f"blacklist={in_bl}" if not in_kept else ""
-            print(f"  {w:15s} zipf={z:.2f}  {status:8s}  {reason}")
+        print(f"\n[dry-run] total: {len(final)} entries")
+        check = ["alarm", "revolt", "neglect", "pose", "fuse", "cascade", "bias", "trash"]
+        print("\n[dry-run] 示例:")
+        for w in check:
+            hits = [e for e in final if e["en"] == w]
+            for h in hits:
+                print(f"  {h['en']:12s} {h['ipa']:16s} {h['definition'][:60]}")
+            if not hits:
+                print(f"  {w:12s} (not found)")
         return
 
-    lines = [f"{e['zh']}\t{e['en']}\t{e['ipa']}\t{e['pos']}\t{e['gloss']}"
-             for e in final]
+    lines = [f"{e['en']}\t{e['ipa']}\t{e['definition']}" for e in final]
     TSV_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"\nwrote {TSV_PATH}: {len(final)} entries")
 
