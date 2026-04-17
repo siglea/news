@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "mp-4fit-usex-article",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "内容来源：汇编自网络资料。",
+      "html": "<p>内容来源：<span class=\"word-annot\"><span class=\"word-anchor\">汇编</span><span class=\"word-block\"><span class=\"english-word\">compile</span><span class=\"word-info\">[kəmˈpaɪl] v. 编译；编制；编辑；[图情] 汇编</span></span></span>自网络资料。</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "1996年，一家成立3年的芯片公司濒临破产，创始人正准备签下卖身协议，把公司低价卖给收购方。",
+      "html": "<p>1996年，一家成立3年的芯片公司濒临破产，<span class=\"word-annot\"><span class=\"word-anchor\">创始人</span><span class=\"word-block\"><span class=\"english-word\">founder</span><span class=\"word-info\">[ˈfaʊndə] n. 创始人</span></span></span>正准备签下卖身协议，把公司低价卖给收购方。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "2024年，这家公司市值突破3万亿美元，超越苹果，成为全球最有价值的公司，更是AI时代无可争议的基础设施霸主。",
+      "html": "<p>2024年，这家公司市值突破3万亿美元，超越苹果，成为全球最有价值的公司，更是AI时代无可争议的<span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施；公共建设；下部构造</span></span></span>霸主。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "这家公司，叫英伟达；这个创始人，叫黄仁勋。中间只隔了28年。",
+      "html": "<p>这家<span class=\"word-annot\"><span class=\"word-anchor\">公司</span><span class=\"word-block\"><span class=\"english-word\">establishment</span><span class=\"word-info\">[ɪˈstæblɪʃmənt] n. 确立，制定；公司；设施</span></span></span>，叫英伟达；这个<span class=\"word-annot\"><span class=\"word-anchor\">创始</span><span class=\"word-block\"><span class=\"english-word\">initiate</span><span class=\"word-info\">[ˌɪˈnɪʃiˌeɪt] v. 开始，创始；发起；使初步了解</span></span></span>人，叫黄仁勋。<span class=\"word-annot\"><span class=\"word-anchor\">中间</span><span class=\"word-block\"><span class=\"english-word\">bosom</span><span class=\"word-info\">[ˈbʊzəm] n. 胸；胸怀；中间；胸襟；内心；乳房；内部</span></span></span>只隔了28年。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "这28年里，无数科技公司从风口摔进谷底，无数创业者倒在了周期里，黄仁勋到底是怎么撑过来的？",
+      "html": "<p>这28年里，无数科技公司从风口摔进谷底，无数创业者倒在了周期里，黄仁勋到底是怎么撑过来的？</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "他在斯坦福大学的演讲里，给过一个最直白的答案：不是战略，不是运气，而是一种能在绝境里做决策的思维方式。",
+      "html": "<p>他在斯坦福大学的演讲里，给过一个最直白的答案：不是战略，不是运气，而是一种能在绝境里做决策的思维<span class=\"word-annot\"><span class=\"word-anchor\">方式</span><span class=\"word-block\"><span class=\"english-word\">alike</span><span class=\"word-info\">[əˈlaɪk] adv. 以同样的方式；类似于</span></span></span>。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "一、黄仁勋推荐的8本书，",
+      "html": "<p>一、黄仁勋<span class=\"word-annot\"><span class=\"word-anchor\">推荐</span><span class=\"word-block\"><span class=\"english-word\">commend</span><span class=\"word-info\">[kəˈmɛnd] v. 推荐；称赞；把…委托</span></span></span>的8本书，</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "藏着3万亿英伟达的底层逻辑",
+      "html": "<p>藏着3万亿英伟达的底层<span class=\"word-annot\"><span class=\"word-anchor\">逻辑</span><span class=\"word-block\"><span class=\"english-word\">logic</span><span class=\"word-info\">[ˈlɑʤɪk] n. 逻辑,逻辑学</span></span></span></p>"
+    },
+    {
+      "index": 8,
+      "source_text": "1.《英伟达之道》- 黄仁勋",
+      "html": "<p>1.《英伟达之道》- 黄仁勋</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "想要读懂黄仁勋的所有决策，一定要从这本书开始。",
+      "html": "<p>想要读懂黄仁勋的所有决策，一定要从这本书<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">commence</span><span class=\"word-info\">[kəˈmɛns] v. 开始</span></span></span>。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "这是他亲自参与讲述的，英伟达从一家图形芯片公司，进化为AI基础设施霸主的完整历程。",
+      "html": "<p>这是他亲自参与讲述的，英伟达从一家图形<span class=\"word-annot\"><span class=\"word-anchor\">芯片</span><span class=\"word-block\"><span class=\"english-word\">chip</span><span class=\"word-info\">[ʧɪp] n. [电子] 芯片；筹码；碎片；(食物的) 小片; 薄片</span></span></span>公司，进化为AI基础设施霸主的完整历程。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "很多人读这本书，只盯着英伟达的商业决策有多牛，但真正值钱的，从来不是成功的结果，而是他面对每一次生死关头时的底层逻辑，核心就是这句话：",
+      "html": "<p>很多人读这本书，只盯着英伟达的商业决策有多牛，但真正值钱的，从来不是成功<span class=\"word-annot\"><span class=\"word-anchor\">的结果</span><span class=\"word-block\"><span class=\"english-word\">haul</span><span class=\"word-info\">[hɔl] n. 拖，拉；用力拖拉；努力得到的结果；捕获物；一网捕获的鱼量；拖运距离</span></span></span>，而是他面对每一次生死关头时的底层逻辑，核心就是这句话：</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "我们随时准备好了被颠覆。与其等别人来颠覆我们，不如自己颠覆自己。",
+      "html": "<p>我们随时<span class=\"word-annot\"><span class=\"word-anchor\">准备</span><span class=\"word-block\"><span class=\"english-word\">formulate</span><span class=\"word-info\">[ˈfɔːmjuleɪt] v. 规划；制定；准备；仔细思考并明确表达</span></span></span>好了被颠覆。与其等别人来颠覆我们，不如自己颠覆自己。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "回头看英伟达的路，你会发现它最可怕的地方：永远在自己最辉煌的时候，主动放弃短期利润，押注一个当时全行业都不看好的未来。",
+      "html": "<p>回头看英伟达的路，你会发现它最<span class=\"word-annot\"><span class=\"word-anchor\">可怕的</span><span class=\"word-block\"><span class=\"english-word\">awful</span><span class=\"word-info\">[ˈɔfəl] adj. 可怕的；极坏的；使人敬畏的</span></span></span>地方：永远在自己最辉煌的时候，主动放弃短期利润，押注一个当时全行业都不看好的未来。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "从GPU通用计算，到深度学习，再到AI超算，每一次外界看来“疯了”的放弃，最后都成了英伟达跨越式的进化。",
+      "html": "<p>从GPU通用计算，到深度学习，再到AI超算，每一次外界看来“疯了”的<span class=\"word-annot\"><span class=\"word-anchor\">放弃</span><span class=\"word-block\"><span class=\"english-word\">abandon</span><span class=\"word-info\">[əˈbændən] v. 离弃，丢弃；遗弃，抛弃；放弃</span></span></span>，最后都成了英伟达跨越式的进化。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "黄仁勋太懂了：一家公司最危险的时刻，从来不是被对手打败的时候，而是被自己过往的成功困住的时候。",
+      "html": "<p>黄仁勋太懂了：一家公司最危险的时刻，从来不是被<span class=\"word-annot\"><span class=\"word-anchor\">对手</span><span class=\"word-block\"><span class=\"english-word\">comparative</span><span class=\"word-info\">[kəmˈpærətɪv] n. 比较级；对手</span></span></span>打败的时候，而是被自己过往的成功困住的时候。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "一句话荐语：读懂这本书，你就读懂了一家公司如何在绝境里持续进化。",
+      "html": "<p>一句话荐语：读懂这本书，你就读懂了一家公司如何在绝境里持续<span class=\"word-annot\"><span class=\"word-anchor\">进化</span><span class=\"word-block\"><span class=\"english-word\">evolution</span><span class=\"word-info\">[ˌɛvəˈluʃən] n. 进化,演变；发展,进展</span></span></span>。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "2.《基业长青》- 吉姆·柯林斯",
+      "html": "<p>2.《基业长青》- 吉姆·柯林斯</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "黄仁勋在多个场合说过，这本书是他理解“什么是伟大公司”的基础读本。",
+      "html": "<p>黄仁勋在多个场合说过，这本书是他<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>“什么是伟大公司”的基础读本。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "吉姆·柯林斯花了数年时间，研究了18家能跨越几十年、穿越多个经济周期的伟大公司，最后找到了它们的共同特质：",
+      "html": "<p>吉姆·柯林斯花了数年时间，研究了18家能跨越几十年、穿越多个经济<span class=\"word-annot\"><span class=\"word-anchor\">周期的</span><span class=\"word-block\"><span class=\"english-word\">periodical</span><span class=\"word-info\">[ˌpɪriˈɑdɪkəl] adj. [数] 周期的；定期的</span></span></span>伟大公司，最后找到了它们的共同特质：</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "核心价值观永远不随环境改变，但实现价值观的方式，永远在迭代进化。",
+      "html": "<p>核心价值观永远不随环境改变，但<span class=\"word-annot\"><span class=\"word-anchor\">实现</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>价值观的方式，永远在迭代进化。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "这句话，就是黄仁勋经营英伟达的核心准则。",
+      "html": "<p>这句话，就是黄仁勋<span class=\"word-annot\"><span class=\"word-anchor\">经营</span><span class=\"word-block\"><span class=\"english-word\">fare</span><span class=\"word-info\">[fɛr] v. 经营；进展；遭遇；过活</span></span></span>英伟达的核心准则。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "英伟达的核心使命，从成立第一天起就没变过：用计算加速人类的科学进步。但实现这个使命的产品，从游戏显卡，到深度学习芯片，再到AI超算，一直在变，甚至每一次都在推翻自己之前的主场。",
+      "html": "<p>英伟达的核心使命，从成立第一天起就没变过：用计算<span class=\"word-annot\"><span class=\"word-anchor\">加速</span><span class=\"word-block\"><span class=\"english-word\">accelerate</span><span class=\"word-info\">[ækˈsɛlərˌeɪt] v. 使加速，使增速，促进；加速</span></span></span>人类的科学进步。但<span class=\"word-annot\"><span class=\"word-anchor\">实现</span><span class=\"word-block\"><span class=\"english-word\">fulfill</span><span class=\"word-info\">[fʊlˈfɪl] v. 履行；实现；满足；使结束（等于fulfil）</span></span></span>这个使命的产品，从游戏显卡，到深度学习芯片，再到AI超算，一直在变，甚至每一次都在推翻自己之前的主场。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "什么是真正的长期主义？",
+      "html": "<p>什么是<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>长期主义？</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "不是抱着一个产品、一条路走到黑，而是认准一个终极方向，然后不断找到新的方式，坚定地走向它。",
+      "html": "<p>不是抱着一个产品、一条路走到黑，而是认准一个终极方向，然后不断找到新的方式，坚定<span class=\"word-annot\"><span class=\"word-anchor\">地走</span><span class=\"word-block\"><span class=\"english-word\">blunder</span><span class=\"word-info\">[ˈbləndər] v. 跌跌撞撞地走；犯大错</span></span></span>向它。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "一句话荐语：想要理解伟大公司如何穿越时代周期，这本书是必读书。",
+      "html": "<p>一句话荐语：想要<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">comprehend</span><span class=\"word-info\">[ˌkɑmpriˈhɛnd] v. 理解；包含；由…组成</span></span></span>伟大公司如何穿越时代周期，这本书是必读书。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "3.《创新者的窘境》- 克莱顿·克里斯坦森",
+      "html": "<p>3.《<span class=\"word-annot\"><span class=\"word-anchor\">创新</span><span class=\"word-block\"><span class=\"english-word\">innovation</span><span class=\"word-info\">[ˌɪnəˈveɪʃən] n. 创新，革新；新方法</span></span></span>者的窘境》- 克莱顿·克里斯坦森</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "黄仁勋说，这是一本让他“最害怕”的书。",
+      "html": "<p>黄仁勋说，这是一本让他“最<span class=\"word-annot\"><span class=\"word-anchor\">害怕</span><span class=\"word-block\"><span class=\"english-word\">panic</span><span class=\"word-info\">[ˈpænɪk] v. 使惊慌,使害怕</span></span></span>”的书。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "克里斯坦森在书里揭示了一个极其残酷的商业规律：",
+      "html": "<p>克里斯坦森在书里揭示了一个极其<span class=\"word-annot\"><span class=\"word-anchor\">残酷的</span><span class=\"word-block\"><span class=\"english-word\">cruel</span><span class=\"word-info\">[kruəl] adj. 残酷的，残忍的；使人痛苦的，让人受难的；无情的，严酷的</span></span></span>商业规律：</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "大公司的失败，往往不是因为它们做错了什么，而是因为它们把正确的事情做得太好了。",
+      "html": "<p>大公司的失败，往往不是因为它们做错了什么，而是因为它们把正确<span class=\"word-annot\"><span class=\"word-anchor\">的事情</span><span class=\"word-block\"><span class=\"english-word\">sensation</span><span class=\"word-info\">[sɛnˈseɪʃən] n. 感觉,知觉；激动,轰动,轰动一时的事情</span></span></span>做得太好了。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "它们太专注于服务现有客户，太依赖现有的商业模式，所以当颠覆性技术从边缘出现的时候，它们根本反应不过来，最终被时代淘汰。",
+      "html": "<p>它们太专注于服务现有客户，太依赖现有的商业模式，所以当颠覆性技术从边缘<span class=\"word-annot\"><span class=\"word-anchor\">出现</span><span class=\"word-block\"><span class=\"english-word\">arise</span><span class=\"word-info\">[əraɪz] v. 出现；上升；起立</span></span></span>的时候，它们根本反应不过来，最终被时代淘汰。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "黄仁勋把这本书当成了自己的一面镜子，时刻提醒自己：英伟达今天的成功，就是明天被颠覆的最大风险。",
+      "html": "<p>黄仁勋把这本书当成了自己的一面<span class=\"word-annot\"><span class=\"word-anchor\">镜子</span><span class=\"word-block\"><span class=\"english-word\">mirror</span><span class=\"word-info\">[ˈmɪrər] n. 镜子</span></span></span>，时刻提醒自己：英伟达今天的成功，就是明天被颠覆的最大风险。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "你最强的地方，往往也是你最脆弱的地方。",
+      "html": "<p>你最强的地方，往往也是你最<span class=\"word-annot\"><span class=\"word-anchor\">脆弱的</span><span class=\"word-block\"><span class=\"english-word\">slight</span><span class=\"word-info\">[slaɪt] adj. 轻微的，少量的；脆弱的；细长的；不重要的</span></span></span>地方。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "一句话荐语：每一个已经取得成功的创始人，都应该读一读这本让你保持敬畏的书。",
+      "html": "<p>一句话荐语：每一个已经<span class=\"word-annot\"><span class=\"word-anchor\">取得</span><span class=\"word-block\"><span class=\"english-word\">acquire</span><span class=\"word-info\">[əkˈwaɪər] v. 获得；取得；学到；捕获</span></span></span>成功的创始人，都应该读一读这本让你保持敬畏的书。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "4.《穷查理宝典》- 查理·芒格",
+      "html": "<p>4.《穷查理宝典》- 查理·芒格</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "黄仁勋对芒格的跨学科思维，一直推崇备至。",
+      "html": "<p>黄仁勋对芒格的跨<span class=\"word-annot\"><span class=\"word-anchor\">学科</span><span class=\"word-block\"><span class=\"english-word\">discipline</span><span class=\"word-info\">[ˈdɪsəplən] n. 纪律；学科</span></span></span>思维，一直推崇备至。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "芒格最核心的思想，就是心智模型——你必须掌握不同学科的思维工具，才能解决这个世界上复杂的现实问题。",
+      "html": "<p>芒格最核心的思想，就是心智模型——你必须掌握不同学科的思维工具，才能解决这个世界上<span class=\"word-annot\"><span class=\"word-anchor\">复杂的</span><span class=\"word-block\"><span class=\"english-word\">complicated</span><span class=\"word-info\">[ˈkɑmpləˌkeɪtəd] adj. 难懂的，复杂的</span></span></span>现实问题。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "而黄仁勋在英伟达的决策里，有一个让外界很难理解的特点：他永远在同时多个维度上思考问题——技术可行性、商业模式、生态系统、人才战略……",
+      "html": "<p>而黄仁勋在英伟达的决策里，有一个让外界很<span class=\"word-annot\"><span class=\"word-anchor\">难理解</span><span class=\"word-block\"><span class=\"english-word\">obscure</span><span class=\"word-info\">[əbˈskjʊr] v. 使…模糊不清，掩盖；隐藏；使难理解</span></span></span>的特点：他永远在同时多个维度上思考问题——技术可行性、商业模式、生态系统、人才战略……</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "他从来不是线性思考，而是立体思考。",
+      "html": "<p>他从来不是线性<span class=\"word-annot\"><span class=\"word-anchor\">思考</span><span class=\"word-block\"><span class=\"english-word\">consideration</span><span class=\"word-info\">[kənˌsɪdərˈeɪʃən] n. 考虑,思考；需要考虑的事；体谅,照顾</span></span></span>，而是立体思考。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "这和芒格的多学科思维框架，几乎完全契合。",
+      "html": "<p>这和芒格的多学科思维<span class=\"word-annot\"><span class=\"word-anchor\">框架</span><span class=\"word-block\"><span class=\"english-word\">framework</span><span class=\"word-info\">[ˈfreɪmˌwərk] n. 框架，骨架；结构，构架</span></span></span>，几乎完全契合。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "单一维度的思考，永远解决不了多维度的问题。这个时代最稀缺的能力，就是系统性地看见全局的能力。",
+      "html": "<p>单一维度的<span class=\"word-annot\"><span class=\"word-anchor\">思考</span><span class=\"word-block\"><span class=\"english-word\">meditation</span><span class=\"word-info\">[ˌmɛdəˈteɪʃən] n. 默想，冥想；沉思，深思，思考</span></span></span>，永远解决不了多维度的问题。这个时代最稀缺的<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>，就是系统性地看见全局的能力。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "一句话荐语：想要建立多维思考框架，这本书是你绕不开的最重要读本。",
+      "html": "<p>一句话荐语：想要<span class=\"word-annot\"><span class=\"word-anchor\">建立</span><span class=\"word-block\"><span class=\"english-word\">constitute</span><span class=\"word-info\">[ˈkɑnstəˌtut] v. 组成，构成；建立；任命</span></span></span>多维思考框架，这本书是你绕不开的最重要读本。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "5.《人类简史》- 尤瓦尔·赫拉利",
+      "html": "<p>5.《<span class=\"word-annot\"><span class=\"word-anchor\">人类</span><span class=\"word-block\"><span class=\"english-word\">humanity</span><span class=\"word-info\">[juˈmænɪti] n. 人类；人性,人情；(pl.)人文科学</span></span></span>简史》- 尤瓦尔·赫拉利</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "黄仁勋在每一届GTC演讲里，都习惯把AI放在人类文明演进的宏观背景下谈。这种宏大的视角，很大程度上就来自《人类简史》。",
+      "html": "<p>黄仁勋在每一届GTC演讲里，都习惯把AI放在人类<span class=\"word-annot\"><span class=\"word-anchor\">文明</span><span class=\"word-block\"><span class=\"english-word\">civilization</span><span class=\"word-info\">[ˌsɪvəlaɪˈzeɪʃn] n. 文明；文化</span></span></span>演进的宏观背景下谈。这种宏大的视角，很大<span class=\"word-annot\"><span class=\"word-anchor\">程度</span><span class=\"word-block\"><span class=\"english-word\">extent</span><span class=\"word-info\">[ɪkˈstɛnt] n. 广度， 宽度， 长度；程度， 限度</span></span></span>上就来自《人类简史》。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "赫拉利让他看清了一件事：技术从来不只是工具，它是人类文明进化的引擎。每一次重大的技术突破，都重塑了人类社会的组织方式和权力结构。AI也不例外。",
+      "html": "<p>赫拉利让他看清了一件事：技术从来不只是工具，它是人类<span class=\"word-annot\"><span class=\"word-anchor\">文明</span><span class=\"word-block\"><span class=\"english-word\">civilize</span><span class=\"word-info\">[ˈsɪvəˌlaɪz] v. 使文明；教化；使开化</span></span></span>进化的引擎。每一次<span class=\"word-annot\"><span class=\"word-anchor\">重大的</span><span class=\"word-block\"><span class=\"english-word\">fatal</span><span class=\"word-info\">[ˈfeɪtəl] adj. 致命的；重大的；毁灭性的；命中注定的</span></span></span>技术突破，都重塑了人类社会的组织方式和权力结构。AI也不<span class=\"word-annot\"><span class=\"word-anchor\">例外</span><span class=\"word-block\"><span class=\"english-word\">exception</span><span class=\"word-info\">[ɪkˈsɛpʃən] n. 例外,除外</span></span></span>。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "所以黄仁勋才会说：“我们正在经历的，不只是一次技术革命，而是一次物种级别的进化。”",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">所以</span><span class=\"word-block\"><span class=\"english-word\">consequently</span><span class=\"word-info\">[ˈkɑnsəkˌwɛntli] adv. 结果，因此，所以</span></span></span>黄仁勋才会说：“我们正在经历的，不只是一次技术革命，而是一次物种级别的进化。”</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "看不见大图景的人，永远只能在小格局里做决策。",
+      "html": "<p>看不见大图景<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">athlete</span><span class=\"word-info\">[ˈæθˌlit] n. 运动员，体育家；身强力壮的人</span></span></span>，永远只能在小格局里做决策。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "一句话荐语：这本书能帮你把AI，放进人类文明的坐标系里真正理解。",
+      "html": "<p>一句话荐语：这本书能帮你把AI，放进人类文明的坐标系里真正<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">comprehension</span><span class=\"word-info\">[ˌkɑmpriˈhɛnʃən] n. 理解， 领悟</span></span></span>。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "6.《只有偏执狂才能生存》- 安迪·格鲁夫",
+      "html": "<p>6.《只有偏执狂<span class=\"word-annot\"><span class=\"word-anchor\">才能</span><span class=\"word-block\"><span class=\"english-word\">vocation</span><span class=\"word-info\">[voʊˈkeɪʃən] n. 职业;召唤;天命;天职;才能</span></span></span>生存》- 安迪·格鲁夫</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "黄仁勋对英特尔前CEO安迪·格鲁夫极度推崇，多次公开称他是自己最重要的精神导师之一。",
+      "html": "<p>黄仁勋对英特尔前CEO安迪·格鲁夫极度推崇，多次公开称他是自己<span class=\"word-annot\"><span class=\"word-anchor\">最重要的</span><span class=\"word-block\"><span class=\"english-word\">foremost</span><span class=\"word-info\">[ˈfɔrˌmoʊst] adj. 最重要的；最先的</span></span></span>精神导师之一。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "这本书的核心概念，就是“战略转折点”——当一个行业的基本规则即将被彻底颠覆的时候，大多数公司毫无察觉，而少数偏执狂早就看见了，并且已经开始行动。",
+      "html": "<p>这本书的核心概念，就是“战略转折点”——当一个行业的基本规则即将被彻底颠覆的时候，<span class=\"word-annot\"><span class=\"word-anchor\">大多数</span><span class=\"word-block\"><span class=\"english-word\">bulk</span><span class=\"word-info\">[bəlk] n. 体积，容量；大多数，大部分；大块</span></span></span>公司毫无察觉，而少数偏执狂早就看见了，并且已经开始行动。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "黄仁勋在AI爆发的十年前，就顶着全公司的反对，押注GPU用于深度学习。那时候没人看好这件事，甚至行业里的人都觉得他不务正业。",
+      "html": "<p>黄仁勋在AI<span class=\"word-annot\"><span class=\"word-anchor\">爆发</span><span class=\"word-block\"><span class=\"english-word\">burst</span><span class=\"word-info\">[bərst] v. 爆发，突发；爆炸</span></span></span>的十年前，就顶着全公司的反对，押注GPU用于深度学习。那时候没人看好这件事，甚至行业里<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">beast</span><span class=\"word-info\">[bist] n. 兽， 牲畜 ；凶残的人； 举止粗鲁的人</span></span></span>都觉得他不务正业。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "他是偏执狂吗？也许是。",
+      "html": "<p>他是偏执狂吗？也许是。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "但正是这种偏执，让他在别人还没看见机会的时候，就已经把未来的基础设施建好了。",
+      "html": "<p>但正是这种偏执，让他在别人还没看见<span class=\"word-annot\"><span class=\"word-anchor\">机会</span><span class=\"word-block\"><span class=\"english-word\">occasion</span><span class=\"word-info\">[əˈkeɪʒən] n. 时机，机会；场合；理由</span></span></span>的时候，就已经把未来的基础设施建好了。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "先行者的优势，从来不是运气，是偏执。",
+      "html": "<p>先行者的优势，从来不是<span class=\"word-annot\"><span class=\"word-anchor\">运气</span><span class=\"word-block\"><span class=\"english-word\">fortune</span><span class=\"word-info\">[ˈfɔrʧən] n. 财富；命运；运气</span></span></span>，是偏执。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "一句话荐语：这本书能帮你理解，为什么在关键时刻，偏执是一种美德。",
+      "html": "<p>一句话荐语：这本书能帮你<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">cotton</span><span class=\"word-info\">[ˈkɔtən] v. 一致；理解；和谐；亲近</span></span></span>，为什么在关键时刻，偏执是一种美德。</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "7.《艰难时刻》- 本·霍洛维茨",
+      "html": "<p>7.《艰难时刻》- 本·霍洛维茨</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "黄仁勋说，这本书是他在公司最艰难的时候，最常翻开的书。",
+      "html": "<p>黄仁勋说，这本书是他在公司最<span class=\"word-annot\"><span class=\"word-anchor\">艰难的</span><span class=\"word-block\"><span class=\"english-word\">formidable</span><span class=\"word-info\">[ˌfɔrˈmɪdəbəl] adj. 强大的;令人敬畏的;可怕的;艰难的</span></span></span>时候，最常翻开的书。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "霍洛维茨在书里写的，不是光鲜亮丽的成功方法论，而是创业失败的真实感受——那些凌晨三点睡不着觉的夜晚，那些不知道明天工资从哪里来的恐惧，那些必须做出没有正确答案的决定时的孤独。",
+      "html": "<p>霍洛维茨在书里写的，不是光鲜亮丽的成功方法论，而是创业失败的真实感受——那些凌晨三点睡不着觉的夜晚，那些不知道明天工资从哪里来<span class=\"word-annot\"><span class=\"word-anchor\">的恐惧</span><span class=\"word-block\"><span class=\"english-word\">nightmare</span><span class=\"word-info\">[ˈnaɪtˌmɛr] n. 恶梦；可怕的事物，无法摆脱的恐惧</span></span></span>，那些必须做出没有正确答案的决定时的孤独。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "黄仁勋有一句话，戳中了无数创业者：“做CEO最难的不是战略，是当你根本不知道该怎么办的时候，还要装作胸有成竹地站在员工面前。”",
+      "html": "<p>黄仁勋有一句话，戳中了无数创业者：“做CEO最难的不是战略，是当你根本不<span class=\"word-annot\"><span class=\"word-anchor\">知道</span><span class=\"word-block\"><span class=\"english-word\">acquaintance</span><span class=\"word-info\">[əkˈweɪntəns] n. 熟人；相识；了解；知道</span></span></span>该怎么办的时候，还要装作胸有成竹地站在员工面前。”</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "而这本书，让他知道：这种煎熬和孤独，不是他一个人有，所有真正在战壕里打过仗的人，都有过。",
+      "html": "<p>而这本书，让他知道：这种煎熬和孤独，不是他一个人有，所有真正在战壕里打过仗<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">bore</span><span class=\"word-info\">[bɔr] n. 孔；令人讨厌的人</span></span></span>，都有过。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "孤独不是软弱，是每一个认真承担责任的人，必须付出的代价。",
+      "html": "<p>孤独不是软弱，是每一个认真<span class=\"word-annot\"><span class=\"word-anchor\">承担</span><span class=\"word-block\"><span class=\"english-word\">assumption</span><span class=\"word-info\">[əˈsəmpʃən] n. 假定，设想；采取；承担</span></span></span>责任的人，必须付出的代价。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "一句话荐语：这是一本写给所有在黑暗里独自扛着的创始人的书。",
+      "html": "<p>一句话荐语：这是一本写给所有在黑暗里独自扛着的创始人的书。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "8.《禅者的初心》- 铃木俊隆",
+      "html": "<p>8.《禅者的初心》- 铃木俊隆</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "这本书出现在黄仁勋的书单里，很多人都感到意外。一本禅宗书，和芯片、AI有什么关系？",
+      "html": "<p>这本书<span class=\"word-annot\"><span class=\"word-anchor\">出现</span><span class=\"word-block\"><span class=\"english-word\">dawn</span><span class=\"word-info\">[dɔːn] v. 破晓；出现；被领悟</span></span></span>在黄仁勋的书单里，很多人都感到意外。一本禅宗书，和芯片、AI有什么<span class=\"word-annot\"><span class=\"word-anchor\">关系</span><span class=\"word-block\"><span class=\"english-word\">bearing</span><span class=\"word-info\">[ˈbɛrɪŋ] n. [机] 轴承；关系；方位；举止</span></span></span>？</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "黄仁勋的解释很简单：“它教会了我如何在极度的不确定里保持清醒。”",
+      "html": "<p>黄仁勋的解释很简单：“它教会了我如何在<span class=\"word-annot\"><span class=\"word-anchor\">极度的</span><span class=\"word-block\"><span class=\"english-word\">sore</span><span class=\"word-info\">[sɔr] adj. 疼痛的，痛心的；剧烈的，极度的；恼火的，发怒的；厉害的，迫切的</span></span></span>不确定里保持清醒。”</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "禅宗的核心，就是“初心”——无论你已经走了多远，取得了多大的成就，都要保持第一次面对这件事时的开放和谦逊。",
+      "html": "<p>禅宗的核心，就是“初心”——无论你已经走了多远，取得了多大的<span class=\"word-annot\"><span class=\"word-anchor\">成就</span><span class=\"word-block\"><span class=\"english-word\">achievement</span><span class=\"word-info\">[əˈtʃiːvmənt] n. 成就</span></span></span>，都要保持第一次面对这件事时的开放和谦逊。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "如今英伟达市值3万亿，黄仁勋依然是每天第一个到公司的人。他说，他依然觉得自己在做一件刚刚开始的事。",
+      "html": "<p>如今英伟达市值3万亿，黄仁勋依然是每天第一个到公司<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">bull</span><span class=\"word-info\">[bʊl] n. 公牛；看好股市者；粗壮如牛的人；胡说八道；印玺</span></span></span>。他说，他依然觉得自己在做一件刚刚开始<span class=\"word-annot\"><span class=\"word-anchor\">的事</span><span class=\"word-block\"><span class=\"english-word\">anxiety</span><span class=\"word-info\">[æŋˈzaɪəti] n. 焦虑；渴望；挂念；令人焦虑的事</span></span></span>。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "真正的危险，从来不是失败，而是成功之后，失去了初心。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">genuine</span><span class=\"word-info\">[ˈʤɛnjuˌaɪn] adj. 真正的</span></span></span>危险，从来不是失败，而是成功之后，失去了初心。</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "一句话荐语：这本书能帮你，在极度的成功里依然保持清醒和谦逊。",
+      "html": "<p>一句话荐语：这本书能帮你，在<span class=\"word-annot\"><span class=\"word-anchor\">极度的</span><span class=\"word-block\"><span class=\"english-word\">utmost</span><span class=\"word-info\">[ˈətˌmoʊst] adj. 极度的；最远的</span></span></span>成功里依然保持清醒和谦逊。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "1.读书的最佳时机，是你最艰难的时刻",
+      "html": "<p>1.读书的<span class=\"word-annot\"><span class=\"word-anchor\">最佳</span><span class=\"word-block\"><span class=\"english-word\">optimal</span><span class=\"word-info\">[ˈɒptɪml] adj. 最佳</span></span></span>时机，是你最艰难的时刻</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "我们大多数人，都是顺风顺水的时候，才有闲心翻两本书，美其名曰提升自己。",
+      "html": "<p>我们大多数人，都是顺风顺水的时候，才有闲心翻两本书，美其名曰<span class=\"word-annot\"><span class=\"word-anchor\">提升</span><span class=\"word-block\"><span class=\"english-word\">elevate</span><span class=\"word-info\">[ˈɛləˌveɪt] v. 提拔,提升...的职位；举起</span></span></span>自己。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "但黄仁勋说，他读书最多、把书读得最透的时候，从来不是公司发展最好的时候，恰恰是公司最难、快撑不下去的时候。",
+      "html": "<p>但黄仁勋说，他读书最多、把书读得最透的时候，从来不是公司发展<span class=\"word-annot\"><span class=\"word-anchor\">最好的</span><span class=\"word-block\"><span class=\"english-word\">crack</span><span class=\"word-info\">[kræk] adj. 最好的；高明的</span></span></span>时候，恰恰是公司最难、快撑不下去的时候。</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "因为当你被逼到墙角、走投无路的时候，你才会真正把书里的东西，变成解决问题的武器，而不是书架上的摆设。",
+      "html": "<p>因为当你被逼到墙角、走投无路的时候，你才会真正把书里<span class=\"word-annot\"><span class=\"word-anchor\">的东西</span><span class=\"word-block\"><span class=\"english-word\">disguise</span><span class=\"word-info\">[dɪsˈgaɪz] n. 伪装；假装；用作伪装的东西</span></span></span>，变成解决问题的武器，而不是书架上的摆设。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "顺境里读书，你看的都是别人的故事；逆境里读书，你找的是自己的生路。",
+      "html": "<p>顺境里读书，你看的都是别人的<span class=\"word-annot\"><span class=\"word-anchor\">故事</span><span class=\"word-block\"><span class=\"english-word\">narrative</span><span class=\"word-info\">[ˈnɛrətɪv] n. 叙述；故事；讲述</span></span></span>；逆境里读书，你找的是自己的生路。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "2.读完一本书，先问自己两个问题",
+      "html": "<p>2.读完一本书，先问自己两个问题</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "很多人读书，读完就忘，合上书就记不住书里讲了什么。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">很多</span><span class=\"word-block\"><span class=\"english-word\">lump</span><span class=\"word-info\">[ləmp] n. 块，块状；肿块；瘤；很多；笨人</span></span></span>人读书，读完就忘，合上书就记不住书里讲了什么。</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "但黄仁勋读书，有一个固定的习惯，能让他把书里的东西，真正变成自己的思维方式。",
+      "html": "<p>但黄仁勋读书，有一个固定的习惯，能让他把书里<span class=\"word-annot\"><span class=\"word-anchor\">的东西</span><span class=\"word-block\"><span class=\"english-word\">fifty</span><span class=\"word-info\">[ˈfɪfti] n. 五十；五十个；编号为50的东西</span></span></span>，真正变成自己的思维方式。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "就是读完一本书，一定会问自己两个问题：",
+      "html": "<p>就是读完一本书，一定会问自己两个问题：</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "不是找书里的内容，来印证自己是对的；而是找书里的内容，来推翻自己的错误，迭代自己的认知。",
+      "html": "<p>不是找书里的内容，来印证自己是对的；而是找书里的内容，来推翻自己的错误，迭代自己的<span class=\"word-annot\"><span class=\"word-anchor\">认知</span><span class=\"word-block\"><span class=\"english-word\">cognition</span><span class=\"word-info\">[kɒɡˈnɪʃn] n. 认知</span></span></span>。</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "真正的学习，从来不是信息的堆砌，而是对自我认知的颠覆。",
+      "html": "<p>真正的学习，从来不是信息的堆砌，而是对自我<span class=\"word-annot\"><span class=\"word-anchor\">认知的</span><span class=\"word-block\"><span class=\"english-word\">cognitive</span><span class=\"word-info\">[ˈkɑgnɪtɪv] adj. 认知的，认识能力的</span></span></span>颠覆。</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "3.用长时间轴，校准你的短期决策",
+      "html": "<p>3.用长时间轴，<span class=\"word-annot\"><span class=\"word-anchor\">校准</span><span class=\"word-block\"><span class=\"english-word\">adjust</span><span class=\"word-info\">[əˈʤəst] v. 调整，使…适合；校准</span></span></span>你的短期决策</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "黄仁勋做所有决策，都有一个外人很难理解的习惯：先想清楚十年后这件事会变成什么样，再倒推回现在，决定自己该做什么。",
+      "html": "<p>黄仁勋做所有决策，都有一个外人很难理解的习惯：先想<span class=\"word-annot\"><span class=\"word-anchor\">清楚</span><span class=\"word-block\"><span class=\"english-word\">clarity</span><span class=\"word-info\">[ˈklærəti] n. 清楚，明晰；透明</span></span></span>十年后这件事会变成什么样，再倒推回现在，决定自己该做什么。</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "这也是为什么，他能在AI爆发的十年前，就顶着全行业的质疑，押注GPU用于深度学习——因为他看到的，不是当下的季度财报，而是十年后的技术趋势。",
+      "html": "<p>这也是为什么，他能在AI爆发的十年前，就顶着全行业的质疑，押注GPU用于深度学习——因为他看到的，不是当下的季度财报，而是十年后的技术<span class=\"word-annot\"><span class=\"word-anchor\">趋势</span><span class=\"word-block\"><span class=\"english-word\">drift</span><span class=\"word-info\">[drɪft] n. 漂流，漂移；趋势；漂流物</span></span></span>。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "而读历史书、宏观类书籍，本质上就是在训练这种长时间轴的思维能力。",
+      "html": "<p>而读历史书、宏观类书籍，本质上就是在<span class=\"word-annot\"><span class=\"word-anchor\">训练</span><span class=\"word-block\"><span class=\"english-word\">drill</span><span class=\"word-info\">[drɪl] n. 训练；钻孔机；钻子；播种机</span></span></span>这种长时间轴的思维能力。</p>"
+    },
+    {
+      "index": 85,
+      "source_text": "很多人做决策，只盯着眼前的三个月、半年，被短期的收益和焦虑牵着走，最后永远只能追着风口跑，却成不了造风的人。",
+      "html": "<p>很多人做决策，只盯着眼前的三个月、半年，被短期的收益和焦虑牵着走，最后永远只能追着风口跑，却成不了造风<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">butterfly</span><span class=\"word-info\">[ˈbətərˌflaɪ] n. 蝴蝶；蝶泳；举止轻浮的人；追求享乐的人</span></span></span>。</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "只有能看见大图景的人，才能做出穿越周期的决策。",
+      "html": "<p>只有能看见大图景的人，才能做出穿越周期的<span class=\"word-annot\"><span class=\"word-anchor\">决策</span><span class=\"word-block\"><span class=\"english-word\">counsel</span><span class=\"word-info\">[ˈkaʊnsəl] n. 法律顾问；忠告；商议；讨论；决策</span></span></span>。</p>"
+    },
+    {
+      "index": 87,
+      "source_text": "最后，想和你再分享黄仁勋在斯坦福演讲里，那句戳中了无数人的话：",
+      "html": "<p>最后，想和你再分享黄仁勋在斯坦福<span class=\"word-annot\"><span class=\"word-anchor\">演讲</span><span class=\"word-block\"><span class=\"english-word\">lecture</span><span class=\"word-info\">[ˈlɛkʧər] n. 演讲,讲课</span></span></span>里，那句戳中了无数人的话：</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "“我希望你们都能经历足够多的痛苦。因为只有在痛苦里，你才能找到真正的自己。”",
+      "html": "<p>“我希望你们都能经历足够多的<span class=\"word-annot\"><span class=\"word-anchor\">痛苦</span><span class=\"word-block\"><span class=\"english-word\">anguish</span><span class=\"word-info\">[ˈæŋgwɪʃ] n. 痛苦；苦恼</span></span></span>。因为只有在<span class=\"word-annot\"><span class=\"word-anchor\">痛苦</span><span class=\"word-block\"><span class=\"english-word\">misery</span><span class=\"word-info\">[ˈmɪzəri] n. 痛苦，悲惨；不幸；苦恼；穷困</span></span></span>里，你才能找到真正的自己。”</p>"
+    },
+    {
+      "index": 89,
+      "source_text": "笔记侠PPE（政经哲），帮创业者完成AI时代和未来3年的认知升级。",
+      "html": "<p>笔记侠PPE（政经哲），帮创业者<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">attain</span><span class=\"word-info\">[əˈteɪn] v. 完成；获得；达到</span></span></span>AI时代和未来3年的认知升级。</p>"
+    },
+    {
+      "index": 90,
+      "source_text": "我们从四个维度同时切入：",
+      "html": "<p>我们从四个维度<span class=\"word-annot\"><span class=\"word-anchor\">同时</span><span class=\"word-block\"><span class=\"english-word\">meantime</span><span class=\"word-info\">[ˈminˌtaɪm] adv. 同时；其间</span></span></span>切入：</p>"
+    },
+    {
+      "index": 91,
+      "source_text": "哲学：看清楚AI时代竞争的本质；",
+      "html": "<p>哲学：看清楚AI时代<span class=\"word-annot\"><span class=\"word-anchor\">竞争的</span><span class=\"word-block\"><span class=\"english-word\">rival</span><span class=\"word-info\">[ˈraɪvəl] adj. 竞争的</span></span></span>本质；</p>"
+    },
+    {
+      "index": 92,
+      "source_text": "政治：理解规则与边界在哪里；",
+      "html": "<p>政治：理解规则与<span class=\"word-annot\"><span class=\"word-anchor\">边界</span><span class=\"word-block\"><span class=\"english-word\">boundary</span><span class=\"word-info\">[ˈbaʊndəri] n. 边界；范围；分界线</span></span></span>在哪里；</p>"
+    },
+    {
+      "index": 93,
+      "source_text": "经济：看懂竞争格局与价值转移；",
+      "html": "<p>经济：看懂竞争格局与价值<span class=\"word-annot\"><span class=\"word-anchor\">转移</span><span class=\"word-block\"><span class=\"english-word\">avert</span><span class=\"word-info\">[əˈvərt] v. 防止，避免；转移(目光、注意力等)</span></span></span>；</p>"
+    },
+    {
+      "index": 94,
+      "source_text": "科技：掌握AI工具背后的原理。",
+      "html": "<p>科技：掌握AI工具背后的<span class=\"word-annot\"><span class=\"word-anchor\">原理</span><span class=\"word-block\"><span class=\"english-word\">element</span><span class=\"word-info\">[ˈɛləmənt] n. 元素；要素；原理；成分；自然环境</span></span></span>。</p>"
+    },
+    {
+      "index": 95,
+      "source_text": "不是教你用某个AI工具，而是帮你建立AI时代的认知操作系统。",
+      "html": "<p>不是教你用某个AI工具，而是帮你建立AI时<span class=\"word-annot\"><span class=\"word-anchor\">代的</span><span class=\"word-block\"><span class=\"english-word\">contemporary</span><span class=\"word-info\">[kənˈtɛmpərˌɛri] adj. 现代的,当代的；发生[存在]于同一时代的</span></span></span>认知操作系统。</p>"
+    },
+    {
+      "index": 96,
+      "source_text": "让你在认知层面，先人一步。",
+      "html": "<p>让你在认知层面，先人<span class=\"word-annot\"><span class=\"word-anchor\">一步</span><span class=\"word-block\"><span class=\"english-word\">pace</span><span class=\"word-info\">[peɪs] n. 一步；步速；步伐；速度</span></span></span>。</p>"
+    },
+    {
+      "index": 97,
+      "source_text": "笔记侠PPE第26期，5月16日开课。",
+      "html": "<p>笔记侠PPE第26期，5月16日开课。</p>"
+    },
+    {
+      "index": 98,
+      "source_text": "黄仁勋最新访谈：要想成事，这4点远比智力更重要",
+      "html": "<p>黄仁勋最新访谈：要想成事，这4点远比智力更<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">magnitude</span><span class=\"word-info\">[ˈmægnəˌtud] n. 大小；量级；[地震] 震级；重要；光度</span></span></span></p>"
+    },
+    {
+      "index": 99,
+      "source_text": "黄仁勋最新演讲：不想被淘汰，马上做3件事",
+      "html": "<p>黄仁勋最新演讲：不想被<span class=\"word-annot\"><span class=\"word-anchor\">淘汰</span><span class=\"word-block\"><span class=\"english-word\">obsolete</span><span class=\"word-info\">[ˌɑbsəˈlit] vt. 淘汰；废弃</span></span></span>，马上做3件事</p>"
+    },
+    {
+      "index": 100,
+      "source_text": "“子弹笔记”是笔记侠的矩阵公众号，聚焦职场效率追求、人际关系与高潜成长者，帮你3分钟吃透核心观点和方法论。欢迎关注～",
+      "html": "<p>“子弹笔记”是笔记侠的矩阵公众号，聚焦职场效率<span class=\"word-annot\"><span class=\"word-anchor\">追求</span><span class=\"word-block\"><span class=\"english-word\">ambition</span><span class=\"word-info\">[æmˈbɪʃən] v. 追求；有…野心</span></span></span>、人际关系与高潜成长者，帮你3分钟吃透核心观点和方法论。<span class=\"word-annot\"><span class=\"word-anchor\">欢迎</span><span class=\"word-block\"><span class=\"english-word\">greeting</span><span class=\"word-info\">[ˈɡriːtɪŋ] v. 致敬，欢迎（greet的现在分词）</span></span></span>关注～</p>"
+    },
+    {
+      "index": 101,
+      "source_text": "分享、点赞、在看，3连3连！",
+      "html": "<p>分享、点赞、在看，3连3连！</p>"
+    }
+  ]
+}
