@@ -1,0 +1,693 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "袭击",
+      "en": "assault",
+      "ipa": "[əˈsɔlt]",
+      "pos": "n.",
+      "gloss": "攻击；袭击"
+    },
+    {
+      "i": 1,
+      "zh": "奥尔特",
+      "en": "alter",
+      "ipa": "[ˈɔltər]",
+      "pos": "n.",
+      "gloss": "(lter)人名；(英)奥尔特；(德、捷、葡、爱沙、立陶、拉脱、俄、西、罗、瑞典)阿尔特"
+    },
+    {
+      "i": 2,
+      "skip": true
+    },
+    {
+      "i": 3,
+      "zh": "袭击",
+      "en": "descent",
+      "ipa": "[dɪˈsɛnt]",
+      "pos": "n.",
+      "gloss": "下降；血统；袭击"
+    },
+    {
+      "i": 4,
+      "zh": "小时",
+      "en": "knot",
+      "ipa": "[nɑt]",
+      "pos": "n.",
+      "gloss": "（绳等的）结；节瘤，疙瘩；海里/小时（航速单位）"
+    },
+    {
+      "i": 5,
+      "zh": "燃烧",
+      "en": "flame",
+      "ipa": "[fleɪm]",
+      "pos": "vi.",
+      "gloss": "发火焰， 燃烧"
+    },
+    {
+      "i": 6,
+      "zh": "威胁",
+      "en": "cow",
+      "ipa": "[kaʊ]",
+      "pos": "v.",
+      "gloss": "威胁，恐吓"
+    },
+    {
+      "i": 7,
+      "zh": "分析",
+      "en": "analyze",
+      "ipa": "[ˈænəˌlaɪz]",
+      "pos": "vt.",
+      "gloss": "分析； 分解"
+    },
+    {
+      "i": 8,
+      "zh": "发生",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 9,
+      "zh": "挑战",
+      "en": "dare",
+      "ipa": "[dɛr]",
+      "pos": "n.",
+      "gloss": "挑战；挑动"
+    },
+    {
+      "i": 10,
+      "zh": "奇特的",
+      "en": "fancy",
+      "ipa": "[ˈfænsi]",
+      "pos": "adj.",
+      "gloss": "想象的；奇特的；昂贵的；精选的"
+    },
+    {
+      "i": 11,
+      "zh": "完成",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 12,
+      "zh": "一群",
+      "en": "batch",
+      "ipa": "[bæʧ]",
+      "pos": "n.",
+      "gloss": "一批,一组,一群"
+    },
+    {
+      "i": 13,
+      "zh": "冷却",
+      "en": "cooling",
+      "ipa": "[ˈkuːlɪŋ]",
+      "pos": "n.",
+      "gloss": "冷却"
+    },
+    {
+      "i": 14,
+      "skip": true
+    },
+    {
+      "i": 15,
+      "zh": "的人",
+      "en": "athlete",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 16,
+      "zh": "熄灭",
+      "en": "extinct",
+      "ipa": "[ɪkˈstɪŋkt]",
+      "pos": "vt.",
+      "gloss": "使熄灭"
+    },
+    {
+      "i": 17,
+      "zh": "总部",
+      "en": "headquarters",
+      "ipa": "[ˈhɛdˌkɔrtərz]",
+      "pos": "n.",
+      "gloss": "总部；指挥部；司令部"
+    },
+    {
+      "i": 18,
+      "zh": "发生",
+      "en": "generate",
+      "ipa": "[ˈʤɛnərˌeɪt]",
+      "pos": "v.",
+      "gloss": "产生,发生"
+    },
+    {
+      "i": 19,
+      "zh": "燃烧",
+      "en": "ignite",
+      "ipa": "[ˌɪgˈnaɪt]",
+      "pos": "v.",
+      "gloss": "点燃；使燃烧；使激动"
+    },
+    {
+      "i": 20,
+      "skip": true
+    },
+    {
+      "i": 21,
+      "zh": "抗拒",
+      "en": "dispute",
+      "ipa": "[dɪˈspjut]",
+      "pos": "v.",
+      "gloss": "辩论；怀疑；阻止；抗拒"
+    },
+    {
+      "i": 22,
+      "zh": "构成",
+      "en": "compose",
+      "ipa": "[kəmˈpoʊz]",
+      "pos": "v.",
+      "gloss": "组成,构成;(of)由…组成；作曲"
+    },
+    {
+      "i": 23,
+      "zh": "事件",
+      "en": "occurrence",
+      "ipa": "[əˈkərəns]",
+      "pos": "n.",
+      "gloss": "事件,事故,发生的事情；发生,出现"
+    },
+    {
+      "i": 24,
+      "zh": "焦虑",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑；渴望；挂念；令人焦虑的事"
+    },
+    {
+      "i": 25,
+      "skip": true
+    },
+    {
+      "i": 26,
+      "zh": "不安",
+      "en": "bother",
+      "ipa": "[ˈbɑðər]",
+      "pos": "v.",
+      "gloss": "烦扰，打扰；使……不安；使……恼怒"
+    },
+    {
+      "i": 27,
+      "zh": "发生",
+      "en": "occur",
+      "ipa": "[əˈkər]",
+      "pos": "v.",
+      "gloss": "发生；出现"
+    },
+    {
+      "i": 28,
+      "zh": "内部",
+      "en": "bosom",
+      "ipa": "[ˈbʊzəm]",
+      "pos": "n.",
+      "gloss": "胸；胸怀；中间；胸襟；内心；乳房；内部"
+    },
+    {
+      "i": 29,
+      "zh": "公开的",
+      "en": "outward",
+      "ipa": "[ˈaʊtwərd]",
+      "pos": "adj.",
+      "gloss": "向外的；外面的；公开的；外服的；肉体的"
+    },
+    {
+      "i": 30,
+      "skip": true
+    },
+    {
+      "i": 31,
+      "zh": "复杂的",
+      "en": "complicated",
+      "ipa": "[ˈkɑmpləˌkeɪtəd]",
+      "pos": "adj.",
+      "gloss": "难懂的，复杂的"
+    },
+    {
+      "i": 32,
+      "skip": true
+    },
+    {
+      "i": 33,
+      "zh": "设计图",
+      "en": "blueprint",
+      "ipa": "[ˈbluˌprɪnt]",
+      "pos": "n.",
+      "gloss": "蓝图，设计图；计划"
+    },
+    {
+      "i": 34,
+      "zh": "任务",
+      "en": "assignment",
+      "ipa": "[əˈsaɪnmənt]",
+      "pos": "n.",
+      "gloss": "任务；作业"
+    },
+    {
+      "i": 35,
+      "skip": true
+    },
+    {
+      "i": 36,
+      "zh": "加速",
+      "en": "accelerate",
+      "ipa": "[ækˈsɛlərˌeɪt]",
+      "pos": "v.",
+      "gloss": "使加速，使增速，促进；加速"
+    },
+    {
+      "i": 37,
+      "zh": "趋势",
+      "en": "drift",
+      "ipa": "[drɪft]",
+      "pos": "n.",
+      "gloss": "漂流，漂移；趋势；漂流物"
+    },
+    {
+      "i": 38,
+      "skip": true
+    },
+    {
+      "i": 39,
+      "zh": "威胁",
+      "en": "intimidate",
+      "ipa": "[ˌɪnˈtɪmɪˌdeɪt]",
+      "pos": "v.",
+      "gloss": "胁迫，威胁(某人做某事)"
+    },
+    {
+      "i": 40,
+      "zh": "对手",
+      "en": "comparative",
+      "ipa": "[kəmˈpærətɪv]",
+      "pos": "n.",
+      "gloss": "比较级；对手"
+    },
+    {
+      "i": 41,
+      "zh": "竞争",
+      "en": "compete",
+      "ipa": "[kəmˈpiːt]",
+      "pos": "v.",
+      "gloss": "竞争；争夺，竞争"
+    },
+    {
+      "i": 42,
+      "skip": true
+    },
+    {
+      "i": 43,
+      "zh": "公布",
+      "en": "advertise",
+      "ipa": "[ˈædvərˌtaɪz]",
+      "pos": "v.",
+      "gloss": "为...做广告；公告，公布"
+    },
+    {
+      "i": 44,
+      "zh": "公司",
+      "en": "establishment",
+      "ipa": "[ɪˈstæblɪʃmənt]",
+      "pos": "n.",
+      "gloss": "确立，制定；公司；设施"
+    },
+    {
+      "i": 45,
+      "zh": "联合创始",
+      "en": "cofounder",
+      "ipa": "[kəʊˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "联合创始人"
+    },
+    {
+      "i": 46,
+      "zh": "坚持",
+      "en": "adhere",
+      "ipa": "[əˈdhɪr]",
+      "pos": "v.",
+      "gloss": "(to)粘着；坚持，遵守"
+    },
+    {
+      "i": 47,
+      "zh": "坚持",
+      "en": "assert",
+      "ipa": "[əˈsərt]",
+      "pos": "v.",
+      "gloss": "维护，坚持；断言；主张；声称"
+    },
+    {
+      "i": 48,
+      "zh": "支出",
+      "en": "expenditure",
+      "ipa": "[ɪkˈspɛndɪʧər]",
+      "pos": "n.",
+      "gloss": "支出，花费；经费，消费额"
+    },
+    {
+      "i": 49,
+      "zh": "商业",
+      "en": "commerce",
+      "ipa": "[ˈkɑmərs]",
+      "pos": "n.",
+      "gloss": "买卖，贸易；商务；商业"
+    },
+    {
+      "i": 50,
+      "zh": "遭遇",
+      "en": "confront",
+      "ipa": "[kənˈfrənt]",
+      "pos": "v.",
+      "gloss": "面对；遭遇；比较"
+    },
+    {
+      "i": 51,
+      "zh": "机构",
+      "en": "apparatus",
+      "ipa": "[ˌæpərˈætəs]",
+      "pos": "n.",
+      "gloss": "器械，器具，仪器；机构，组织"
+    },
+    {
+      "i": 52,
+      "zh": "创始人",
+      "en": "founder",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 53,
+      "zh": "渠道",
+      "en": "avenue",
+      "ipa": "[ˈævəˌnu]",
+      "pos": "n.",
+      "gloss": "大街；林荫路；途径，渠道，方法"
+    },
+    {
+      "i": 54,
+      "zh": "算力",
+      "en": "computing",
+      "ipa": "[ˈkɒmpjuːtɪŋ]",
+      "pos": "n.",
+      "gloss": "算力"
+    },
+    {
+      "i": 55,
+      "zh": "单一的",
+      "en": "singular",
+      "ipa": "[ˈsɪŋgjələr]",
+      "pos": "adj.",
+      "gloss": "单数的；单一的；非凡的；异常的"
+    },
+    {
+      "i": 56,
+      "zh": "系统的",
+      "en": "systematic",
+      "ipa": "[ˌsɪstəˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "(al)系统的,有组织的"
+    },
+    {
+      "i": 57,
+      "zh": "方面",
+      "en": "angle",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 58,
+      "zh": "通过",
+      "en": "approve",
+      "ipa": "[əˈpruv]",
+      "pos": "v.",
+      "gloss": "批准，通过；(of)赞成，赞许，同意"
+    },
+    {
+      "i": 59,
+      "zh": "成本",
+      "en": "costing",
+      "ipa": "[ˈkɒstɪŋ]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 60,
+      "zh": "十分",
+      "en": "bully",
+      "ipa": "[ˈbʊli]",
+      "pos": "adv.",
+      "gloss": "很；十分 int. 好；妙"
+    },
+    {
+      "i": 61,
+      "zh": "期待",
+      "en": "await",
+      "ipa": "[əˈweɪt]",
+      "pos": "v.",
+      "gloss": "等候，等待；期待"
+    },
+    {
+      "i": 62,
+      "zh": "猛烈的",
+      "en": "drastic",
+      "ipa": "[ˈdræstɪk]",
+      "pos": "adj.",
+      "gloss": "激烈的；猛烈的"
+    },
+    {
+      "i": 63,
+      "zh": "降低",
+      "en": "decrease",
+      "ipa": "[ˈdiˌkris]",
+      "pos": "v.",
+      "gloss": "减少,变少,降低"
+    },
+    {
+      "i": 64,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 65,
+      "zh": "麻烦",
+      "en": "embarrass",
+      "ipa": "[ɪmˈbɛrəs]",
+      "pos": "v.",
+      "gloss": "使困窘,使局促不安；阻碍,麻烦"
+    },
+    {
+      "i": 66,
+      "zh": "涉及",
+      "en": "concerning",
+      "ipa": "[kənˈsərnɪŋ]",
+      "pos": "v.",
+      "gloss": "涉及；使关心（concern的ing形式）；忧虑"
+    },
+    {
+      "i": 67,
+      "zh": "指控",
+      "en": "accuse",
+      "ipa": "[əˈkjuz]",
+      "pos": "v.",
+      "gloss": "控告，指控；谴责；归咎于"
+    },
+    {
+      "i": 68,
+      "zh": "转向",
+      "en": "diversion",
+      "ipa": "[dɪˈvərʒən]",
+      "pos": "n.",
+      "gloss": "转向,转移"
+    },
+    {
+      "i": 69,
+      "zh": "赔偿金",
+      "en": "compensation",
+      "ipa": "[ˌkɑmpənˈseɪʃən]",
+      "pos": "n.",
+      "gloss": "补偿费，赔偿金"
+    },
+    {
+      "i": 70,
+      "skip": true
+    },
+    {
+      "i": 71,
+      "zh": "方面",
+      "en": "aspect",
+      "ipa": "[ˈæspekt]",
+      "pos": "n.",
+      "gloss": "(问题等的)方面；样子, 外表, 面貌"
+    },
+    {
+      "i": 72,
+      "zh": "构成",
+      "en": "comprise",
+      "ipa": "[kəmˈpraɪz]",
+      "pos": "v.",
+      "gloss": "包含，包括，由...组成；构成，组成"
+    },
+    {
+      "i": 73,
+      "zh": "动摇",
+      "en": "fluctuate",
+      "ipa": "[ˈfləkʧəˌweɪt]",
+      "pos": "v.",
+      "gloss": "波动；涨落；动摇"
+    },
+    {
+      "i": 74,
+      "zh": "麻烦的",
+      "en": "troublesome",
+      "ipa": "[ˈtrəbəlsəm]",
+      "pos": "adj.",
+      "gloss": "麻烦的；讨厌的；使人苦恼的"
+    },
+    {
+      "i": 75,
+      "zh": "前夕",
+      "en": "eve",
+      "ipa": "[iv]",
+      "pos": "n.",
+      "gloss": "夏娃； 前夕；傍晚；重大事件关头"
+    },
+    {
+      "i": 76,
+      "zh": "备忘录",
+      "en": "memo",
+      "ipa": "[ˈmɛˌmoʊ]",
+      "pos": "n.",
+      "gloss": "备忘录"
+    },
+    {
+      "i": 77,
+      "zh": "休假",
+      "en": "vacation",
+      "ipa": "[veɪˈkeɪʃən]",
+      "pos": "n.",
+      "gloss": "休假,假期"
+    },
+    {
+      "i": 78,
+      "zh": "凯特",
+      "en": "cater",
+      "ipa": "[ˈkeɪtər]",
+      "pos": "n.",
+      "gloss": "(Cater)人名；(英)凯特"
+    },
+    {
+      "i": 79,
+      "zh": "调整",
+      "en": "adjust",
+      "ipa": "[əˈʤəst]",
+      "pos": "v.",
+      "gloss": "调整，使…适合；校准"
+    },
+    {
+      "i": 80,
+      "zh": "担忧的",
+      "en": "anxious",
+      "ipa": "[ˈæŋʃəs]",
+      "pos": "adj.",
+      "gloss": "焦虑的；担忧的；渴望的；急切的"
+    },
+    {
+      "i": 81,
+      "zh": "内部",
+      "en": "bowel",
+      "ipa": "[baʊəl]",
+      "pos": "n.",
+      "gloss": "肠；内部；同情"
+    },
+    {
+      "i": 82,
+      "zh": "确定",
+      "en": "ascertain",
+      "ipa": "[ˌæsərˈteɪn]",
+      "pos": "v.",
+      "gloss": "确定，查明，弄清"
+    },
+    {
+      "i": 83,
+      "zh": "困境",
+      "en": "bail",
+      "ipa": "[beɪl]",
+      "pos": "vt.",
+      "gloss": "保释 ；帮助脱离困境"
+    },
+    {
+      "i": 84,
+      "zh": "巨大的",
+      "en": "enormous",
+      "ipa": "[ɪˈnɔrmɪs]",
+      "pos": "adj.",
+      "gloss": "庞大的，巨大的；凶暴的，极恶的"
+    },
+    {
+      "i": 85,
+      "zh": "数据中心",
+      "en": "datacenter",
+      "ipa": "[ˈdeɪtəsentə]",
+      "pos": "n.",
+      "gloss": "数据中心"
+    },
+    {
+      "i": 86,
+      "zh": "批评",
+      "en": "criticism",
+      "ipa": "[ˈkrɪtɪsɪzəm]",
+      "pos": "n.",
+      "gloss": "批评，指责，非难；评论性的文章，评论"
+    },
+    {
+      "i": 87,
+      "zh": "毋庸置疑",
+      "en": "undoubtedly",
+      "ipa": "[ənˈdaʊtɪdli]",
+      "pos": "adv.",
+      "gloss": "确实地，毋庸置疑的"
+    },
+    {
+      "i": 88,
+      "skip": true
+    },
+    {
+      "i": 89,
+      "skip": true
+    },
+    {
+      "i": 90,
+      "zh": "编辑",
+      "en": "compile",
+      "ipa": "[kəmˈpaɪl]",
+      "pos": "v.",
+      "gloss": "编译；编制；编辑；[图情] 汇编"
+    },
+    {
+      "i": 91,
+      "zh": "备忘录",
+      "en": "memorandum",
+      "ipa": "[ˌmɛmərˈændəm]",
+      "pos": "n.",
+      "gloss": "备忘录"
+    }
+  ]
+}
