@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "wuliao-12-liberal-arts-in-demand",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "吴聊12：文科生为什么突然吃香了",
+      "html": "<p>吴聊12：<span class=\"word-annot\"><span class=\"word-anchor\">文科</span><span class=\"word-block\"><span class=\"english-word\">liberal</span><span class=\"word-info\">[ˈlɪbərəl] adj. 文科（相对理科的人文学科方向）</span></span></span>生为什么突然吃香了</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "有朋友发了一条新闻给我，说现在谷歌、微软等大厂都在“疯抢文科生”，在它们的AI团队中，文科生占比从5%增加到了30%，其中，哲学系和新闻系的毕业生最吃香。",
+      "html": "<p>有朋友发了一条新闻给我，说现在谷歌、微软等大厂都在“疯抢文科生”，在它们的AI团队中，文科生<span class=\"word-annot\"><span class=\"word-anchor\">占比</span><span class=\"word-block\"><span class=\"english-word\">proportion</span><span class=\"word-info\">[prəˈpɔːʃn] n. 所占比例</span></span></span>从5%增加到了30%，其中，哲学系和新闻系的毕业生最吃香。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "这个世界怎么一夜之间就变了？",
+      "html": "<p>这个<span class=\"word-annot\"><span class=\"word-anchor\">世界</span><span class=\"word-block\"><span class=\"english-word\">world</span><span class=\"word-info\">[wɜːld] n. 世界</span></span></span>怎么一夜之间就变了？</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "其实道理很简单，AI大模型是给人用的，所以AI要懂人。人跟机器相比，有几点是很独特的：人有价值观，人有审美，人有情绪，人分善恶。我们常常讲“三观要正”，便是世界观、人生观和价值观。原始意义上的AI是没有三观、没有底线、没有是非的，而由此输出的内容便是道德意义上的“野蛮信息”。",
+      "html": "<p>其实道理很简单，AI<span class=\"word-annot\"><span class=\"word-anchor\">大模型</span><span class=\"word-block\"><span class=\"english-word\">LLM</span><span class=\"word-info\">[ˌel el ˈem] n. 大规模语言模型（此处泛指大模型）</span></span></span>是给人用的，所以AI要懂人。人跟机器相比，有几点是很独特的：人有价值观，人有审美，人有<span class=\"word-annot\"><span class=\"word-anchor\">情绪</span><span class=\"word-block\"><span class=\"english-word\">emotion</span><span class=\"word-info\">[ɪˈməʊʃn] n. 情绪</span></span></span>，人分善恶。我们常常讲“三观要正”，便是世界观、<span class=\"word-annot\"><span class=\"word-anchor\">人生观</span><span class=\"word-block\"><span class=\"english-word\">outlook</span><span class=\"word-info\">[ˈaʊtlʊk] n. 人生观</span></span></span>和价值观。原始意义上的AI是没有三观、没有底线、没有是非的，而由此输出的内容便是道德意义上的“<span class=\"word-annot\"><span class=\"word-anchor\">野蛮</span><span class=\"word-block\"><span class=\"english-word\">savage</span><span class=\"word-info\">[ˈsævɪdʒ] adj. 野蛮的</span></span></span>信息”。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "今天，所有的大模型都有一个工作，它往往由创始人亲自主导，便是创建自己的“AI宪法”，有了这个宪法，大模型便有了底线、立场和是非善恶。而这正是哲学系的专业。",
+      "html": "<p>今天，所有的大模型都有一个工作，它往往由<span class=\"word-annot\"><span class=\"word-anchor\">创始人</span><span class=\"word-block\"><span class=\"english-word\">founder</span><span class=\"word-info\">[ˈfaʊndə(r)] n. 创始人</span></span></span>亲自主导，便是创建自己的“AI宪法”，有了这个宪法，大模型便有了底线、立场和是非善恶。而这正是哲学系的<span class=\"word-annot\"><span class=\"word-anchor\">专业</span><span class=\"word-block\"><span class=\"english-word\">major</span><span class=\"word-info\">[ˈmeɪdʒə(r)] n. 专业</span></span></span>。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "那么，为什么新闻系的学生也吃香起来了呢？",
+      "html": "<p>那么，为什么<span class=\"word-annot\"><span class=\"word-anchor\">新闻</span><span class=\"word-block\"><span class=\"english-word\">journalism</span><span class=\"word-info\">[ˈdʒɜːnəlɪzəm] n. 新闻（业）</span></span></span>系的学生也吃香起来了呢？</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "因为新闻系学习和训练的是“发现反常的能力”，“狗咬人不是新闻，人咬狗是新闻”，从日常事件中发现其反常的部分，并将之定义、放大及传播，这个能力的底层便是发现问题、定义问题和诠释问题。在今天的大模型团队有一个岗位叫“叙事设计师”，非新闻系学生不能胜任之。",
+      "html": "<p>因为新闻系学习和训练的是“发现反常的能力”，“狗咬人不是新闻，人咬狗是新闻”，从日常事件中发现其反常的部分，并将之定义、放大及传播，这个能力的底层便是发现问题、定义问题和<span class=\"word-annot\"><span class=\"word-anchor\">诠释</span><span class=\"word-block\"><span class=\"english-word\">interpret</span><span class=\"word-info\">[ɪnˈtɜːprɪt] v. 阐释、解读</span></span></span>问题。在今天的大模型团队有一个岗位叫“<span class=\"word-annot\"><span class=\"word-anchor\">叙事</span><span class=\"word-block\"><span class=\"english-word\">narrative</span><span class=\"word-info\">[ˈnærətɪv] n. 叙事</span></span></span>设计师”，非新闻系学生不能胜任之。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "经济学告诉我们，绝大部分的创新都发生在板块与板块的交界之处，跨界所产生的陌生感和新物种，构成为新的需求主张。产业是这样，人的能力也是这样。",
+      "html": "<p>经济学告诉我们，绝大部分的<span class=\"word-annot\"><span class=\"word-anchor\">创新</span><span class=\"word-block\"><span class=\"english-word\">innovation</span><span class=\"word-info\">[ˌɪnəˈveɪʃn] n. 创新</span></span></span>都发生在板块与板块的交界之处，跨界所产生的陌生感和新物种，构成为新的需求主张。产业是这样，人的<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">ability</span><span class=\"word-info\">[əˈbɪləti] n. 能力</span></span></span>也是这样。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "作为一个高考数学满分的文科生，在过去的这些年里，我能够有一些成绩，便是在当年的从事财经写作的文科生中，我是极少数看得懂财务表报的年轻人。同时，我对历史和哲学的兴趣，又帮助我建立了顽固的价值观和历史视角。",
+      "html": "<p>作为一个高考数学满分的文科生，在过去的这些年里，我能够有一些成绩，便是在当年的从事<span class=\"word-annot\"><span class=\"word-anchor\">财经</span><span class=\"word-block\"><span class=\"english-word\">finance</span><span class=\"word-info\">[ˈfaɪnæns] n. 财经</span></span></span>写作的文科生中，我是极少数看得懂财务表报的年轻人。同时，我对历史和哲学的兴趣，又帮助我建立了<span class=\"word-annot\"><span class=\"word-anchor\">顽固</span><span class=\"word-block\"><span class=\"english-word\">stubborn</span><span class=\"word-info\">[ˈstʌbən] adj. 根深蒂固、执拗的</span></span></span>的价值观和历史视角。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "康德说，“有两种事物，我们越思索它就越感到敬畏，那是天上的星空和心中的道德律。”星空是自然规律，道德律是意志和行为准则。",
+      "html": "<p>康德说，“有两种事物，我们越思索它就越感到<span class=\"word-annot\"><span class=\"word-anchor\">敬畏</span><span class=\"word-block\"><span class=\"english-word\">awe</span><span class=\"word-info\">[ɔː] n. 敬畏</span></span></span>，那是天上的星空和心中的道德律。”星空是自然规律，道德律是<span class=\"word-annot\"><span class=\"word-anchor\">意志</span><span class=\"word-block\"><span class=\"english-word\">will</span><span class=\"word-info\">[wɪl] n. 意志</span></span></span>和行为准则。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "这段写在他的墓志铭上的格言，在AI时代狂飙而至的今天仍然生效。",
+      "html": "<p>这段写在他的<span class=\"word-annot\"><span class=\"word-anchor\">墓志铭</span><span class=\"word-block\"><span class=\"english-word\">epitaph</span><span class=\"word-info\">[ˈepɪtɑːf] n. 墓志铭</span></span></span>上的格言，在AI时代狂飙而至的今天仍然生效。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "文科生要懂AI，理科生要懂人性，大模型要懂人。",
+      "html": "<p>文科生要懂AI，理科生要懂<span class=\"word-annot\"><span class=\"word-anchor\">人性</span><span class=\"word-block\"><span class=\"english-word\">humanity</span><span class=\"word-info\">[hjuːˈmænəti] n. 人性</span></span></span>，大模型要懂人。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "在这个意义上，如果有所谓的“AI时代的能力四项”，它们便是：\n提出真正问题，率先学习工具；\n打破文理边界，重建专业能力。",
+      "html": "<p>在这个意义上，如果有所谓的“AI时代的能力四项”，它们便是：\n提出<span class=\"word-annot\"><span class=\"word-anchor\">真正</span><span class=\"word-block\"><span class=\"english-word\">genuine</span><span class=\"word-info\">[ˈdʒenjuɪn] adj. 真正的</span></span></span>问题，率先学习工具；打破文理<span class=\"word-annot\"><span class=\"word-anchor\">边界</span><span class=\"word-block\"><span class=\"english-word\">boundary</span><span class=\"word-info\">[ˈbaʊndri] n. 边界</span></span></span>，重建专业能力。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "4月27日下周一晚上7点，我在频道有一次直播，和大家讲讲AI时代与财富相关的话题，欢迎你预约。",
+      "html": "<p>4月27日下周一晚上7点，我在频道有一次<span class=\"word-annot\"><span class=\"word-anchor\">直播</span><span class=\"word-block\"><span class=\"english-word\">livestream</span><span class=\"word-info\">[ˈlaɪvstriːm] n./v. 直播</span></span></span>，和大家讲讲AI时代与财富相关的话题，欢迎你预约。</p>"
+    }
+  ]
+}
