@@ -1,0 +1,605 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "认知",
+      "en": "cognition",
+      "ipa": "[kɑːɡˈnɪʃn]",
+      "pos": "n.",
+      "gloss": "认识理解"
+    },
+    {
+      "i": 1,
+      "zh": "启动",
+      "en": "launch",
+      "ipa": "[lɔːntʃ]",
+      "pos": "v.",
+      "gloss": "启动上扬"
+    },
+    {
+      "i": 2,
+      "zh": "折现",
+      "en": "discount",
+      "ipa": "[ˈdɪskaʊnt]",
+      "pos": "v.",
+      "gloss": "折现估值"
+    },
+    {
+      "i": 3,
+      "zh": "估值",
+      "en": "valuation",
+      "ipa": "[ˌvæljuˈeɪʃn]",
+      "pos": "n.",
+      "gloss": "估值水平"
+    },
+    {
+      "i": 4,
+      "zh": "收紧",
+      "en": "tighten",
+      "ipa": "[ˈtaɪtn]",
+      "pos": "v.",
+      "gloss": "货币政策收紧"
+    },
+    {
+      "i": 5,
+      "zh": "扰动",
+      "en": "perturbation",
+      "ipa": "[ˌpɜːrbərˈbeɪʃn]",
+      "pos": "n.",
+      "gloss": "市场扰动"
+    },
+    {
+      "i": 6,
+      "zh": "兑现",
+      "en": "fulfill",
+      "ipa": "[fʊlˈfɪl]",
+      "pos": "v.",
+      "gloss": "兑现为现实"
+    },
+    {
+      "i": 7,
+      "zh": "投降",
+      "en": "capitulate",
+      "ipa": "[kəˈpɪtʃuleɪt]",
+      "pos": "v.",
+      "gloss": "认输抛售"
+    },
+    {
+      "i": 8,
+      "zh": "通胀",
+      "en": "inflation",
+      "ipa": "[ɪnˈfleɪʃn]",
+      "pos": "n.",
+      "gloss": "通货膨胀"
+    },
+    {
+      "i": 9,
+      "zh": "切断",
+      "en": "sever",
+      "ipa": "[ˈsevər]",
+      "pos": "v.",
+      "gloss": "切断联系"
+    },
+    {
+      "i": 10,
+      "zh": "演化",
+      "en": "evolve",
+      "ipa": "[iˈvɑːlv]",
+      "pos": "v.",
+      "gloss": "演化为"
+    },
+    {
+      "i": 11,
+      "zh": "反弹",
+      "en": "rebound",
+      "ipa": "[ˈriːbaʊnd]",
+      "pos": "n.",
+      "gloss": "价格反弹"
+    },
+    {
+      "i": 12,
+      "zh": "科技",
+      "en": "tech",
+      "ipa": "[tek]",
+      "pos": "n.",
+      "gloss": "科技板块"
+    },
+    {
+      "i": 13,
+      "zh": "算术",
+      "en": "arithmetic",
+      "ipa": "[əˈrɪθmətɪk]",
+      "pos": "n.",
+      "gloss": "算术题"
+    },
+    {
+      "i": 14,
+      "zh": "盈利",
+      "en": "earnings",
+      "ipa": "[ˈɜːrnɪŋz]",
+      "pos": "n.",
+      "gloss": "盈利水平"
+    },
+    {
+      "i": 15,
+      "zh": "增速",
+      "en": "growth",
+      "ipa": "[ɡroʊθ]",
+      "pos": "n.",
+      "gloss": "增长速度"
+    },
+    {
+      "i": 16,
+      "zh": "扎实",
+      "en": "solid",
+      "ipa": "[ˈsɑːlɪd]",
+      "pos": "adj.",
+      "gloss": "扎实可靠"
+    },
+    {
+      "i": 17,
+      "zh": "溢价",
+      "en": "premium",
+      "ipa": "[ˈpriːmiəm]",
+      "pos": "n.",
+      "gloss": "估值溢价"
+    },
+    {
+      "i": 18,
+      "zh": "锚",
+      "en": "anchor",
+      "ipa": "[ˈæŋkər]",
+      "pos": "n.",
+      "gloss": "定价锚"
+    },
+    {
+      "i": 19,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "盈利预期"
+    },
+    {
+      "i": 20,
+      "zh": "披露",
+      "en": "disclosure",
+      "ipa": "[dɪsˈkloʊʒər]",
+      "pos": "n.",
+      "gloss": "财报披露"
+    },
+    {
+      "i": 21,
+      "zh": "较量",
+      "en": "showdown",
+      "ipa": "[ˈʃoʊdaʊn]",
+      "pos": "n.",
+      "gloss": "实力较量"
+    },
+    {
+      "i": 22,
+      "zh": "链子",
+      "en": "chain",
+      "ipa": "[tʃeɪn]",
+      "pos": "n.",
+      "gloss": "掉链子"
+    },
+    {
+      "i": 23,
+      "zh": "非线性",
+      "en": "nonlinear",
+      "ipa": "[nɑːnˈlɪniər]",
+      "pos": "adj.",
+      "gloss": "非线性进展"
+    },
+    {
+      "i": 24,
+      "zh": "内生",
+      "en": "endogenous",
+      "ipa": "[enˈdɑːdʒənəs]",
+      "pos": "adj.",
+      "gloss": "内生增长"
+    },
+    {
+      "i": 25,
+      "zh": "变量",
+      "en": "variable",
+      "ipa": "[ˈveriəbl]",
+      "pos": "n.",
+      "gloss": "关键变量"
+    },
+    {
+      "i": 26,
+      "zh": "布伦特",
+      "en": "Brent",
+      "ipa": "[brent]",
+      "pos": "n.",
+      "gloss": "布伦特原油"
+    },
+    {
+      "i": 27,
+      "zh": "定价",
+      "en": "pricing",
+      "ipa": "[ˈpraɪsɪŋ]",
+      "pos": "n.",
+      "gloss": "市场定价"
+    },
+    {
+      "i": 28,
+      "zh": "拆开",
+      "en": "dissect",
+      "ipa": "[dɪˈsekt]",
+      "pos": "v.",
+      "gloss": "拆开分析"
+    },
+    {
+      "i": 29,
+      "zh": "对冲",
+      "en": "hedge",
+      "ipa": "[hedʒ]",
+      "pos": "n.",
+      "gloss": "对冲成本"
+    },
+    {
+      "i": 30,
+      "zh": "停火",
+      "en": "ceasefire",
+      "ipa": "[ˈsiːsfaɪər]",
+      "pos": "n.",
+      "gloss": "停火协议"
+    },
+    {
+      "i": 31,
+      "zh": "基本面",
+      "en": "fundamentals",
+      "ipa": "[ˌfʌndəˈmentlz]",
+      "pos": "n.",
+      "gloss": "基本面"
+    },
+    {
+      "i": 32,
+      "zh": "时滞",
+      "en": "lag",
+      "ipa": "[læɡ]",
+      "pos": "n.",
+      "gloss": "时间滞后"
+    },
+    {
+      "i": 33,
+      "zh": "旺季",
+      "en": "peak",
+      "ipa": "[piːk]",
+      "pos": "n.",
+      "gloss": "出行旺季"
+    },
+    {
+      "i": 34,
+      "zh": "供给",
+      "en": "supply",
+      "ipa": "[səˈplaɪ]",
+      "pos": "n.",
+      "gloss": "供给侧"
+    },
+    {
+      "i": 35,
+      "zh": "企稳",
+      "en": "stabilize",
+      "ipa": "[ˈsteɪbəlaɪz]",
+      "pos": "v.",
+      "gloss": "价格企稳"
+    },
+    {
+      "i": 36,
+      "zh": "追涨",
+      "en": "chase",
+      "ipa": "[tʃeɪs]",
+      "pos": "v.",
+      "gloss": "追涨买入"
+    },
+    {
+      "i": 37,
+      "zh": "资金面",
+      "en": "liquidity",
+      "ipa": "[lɪˈkwɪdəti]",
+      "pos": "n.",
+      "gloss": "资金层面"
+    },
+    {
+      "i": 38,
+      "zh": "净抛售",
+      "en": "offload",
+      "ipa": "[ˌɔːfˈloʊd]",
+      "pos": "v.",
+      "gloss": "净抛售"
+    },
+    {
+      "i": 39,
+      "zh": "敞口",
+      "en": "exposure",
+      "ipa": "[ɪkˈspoʊʒər]",
+      "pos": "n.",
+      "gloss": "风险敞口"
+    },
+    {
+      "i": 40,
+      "zh": "期权",
+      "en": "options",
+      "ipa": "[ˈɑːpʃnz]",
+      "pos": "n.",
+      "gloss": "期权合约"
+    },
+    {
+      "i": 41,
+      "zh": "边际",
+      "en": "marginal",
+      "ipa": "[ˈmɑːrdʒɪnl]",
+      "pos": "adj.",
+      "gloss": "边际方向"
+    },
+    {
+      "i": 42,
+      "zh": "波动率",
+      "en": "volatility",
+      "ipa": "[ˌvɑːləˈtɪləti]",
+      "pos": "n.",
+      "gloss": "市场波动率"
+    },
+    {
+      "i": 43,
+      "zh": "再平衡",
+      "en": "rebalance",
+      "ipa": "[ˌriːˈbæləns]",
+      "pos": "v.",
+      "gloss": "仓位再平衡"
+    },
+    {
+      "i": 44,
+      "zh": "过渡",
+      "en": "transition",
+      "ipa": "[trænˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "阶段过渡"
+    },
+    {
+      "i": 45,
+      "zh": "驱动",
+      "en": "driver",
+      "ipa": "[ˈdraɪvər]",
+      "pos": "n.",
+      "gloss": "行情驱动"
+    },
+    {
+      "i": 46,
+      "zh": "甩",
+      "en": "shake",
+      "ipa": "[ʃeɪk]",
+      "pos": "v.",
+      "gloss": "被甩下车"
+    },
+    {
+      "i": 47,
+      "zh": "孕育",
+      "en": "nurture",
+      "ipa": "[ˈnɜːrtʃər]",
+      "pos": "v.",
+      "gloss": "孕育机会"
+    },
+    {
+      "i": 48,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɑːdʒɪk]",
+      "pos": "n.",
+      "gloss": "投资逻辑"
+    },
+    {
+      "i": 49,
+      "zh": "恶化",
+      "en": "deterioration",
+      "ipa": "[dɪˌtɪriəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "结构性恶化"
+    },
+    {
+      "i": 50,
+      "zh": "拖累",
+      "en": "drag",
+      "ipa": "[dræɡ]",
+      "pos": "n.",
+      "gloss": "增长拖累"
+    },
+    {
+      "i": 51,
+      "zh": "情景",
+      "en": "scenario",
+      "ipa": "[sɪˈnærioʊ]",
+      "pos": "n.",
+      "gloss": "最坏情景"
+    },
+    {
+      "i": 52,
+      "zh": "建仓",
+      "en": "accumulation",
+      "ipa": "[əˌkjuːmjəˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "分批建仓"
+    },
+    {
+      "i": 53,
+      "zh": "长期",
+      "en": "long",
+      "ipa": "[lɔːŋ]",
+      "pos": "adj.",
+      "gloss": "长期投资"
+    },
+    {
+      "i": 54,
+      "zh": "矛盾",
+      "en": "paradox",
+      "ipa": "[ˈpærədɑːks]",
+      "pos": "n.",
+      "gloss": "看似矛盾"
+    },
+    {
+      "i": 55,
+      "zh": "改善",
+      "en": "improvement",
+      "ipa": "[ɪmˈpruːvmənt]",
+      "pos": "n.",
+      "gloss": "边际改善"
+    },
+    {
+      "i": 56,
+      "zh": "复合",
+      "en": "compound",
+      "ipa": "[ˈkɑːmpaʊnd]",
+      "pos": "adj.",
+      "gloss": "复合增长"
+    },
+    {
+      "i": 57,
+      "zh": "节奏",
+      "en": "rhythm",
+      "ipa": "[ˈrɪðəm]",
+      "pos": "n.",
+      "gloss": "交易节奏"
+    },
+    {
+      "i": 58,
+      "zh": "忽略",
+      "en": "disregard",
+      "ipa": "[ˌdɪsrɪˈɡɑːrd]",
+      "pos": "v.",
+      "gloss": "忽略噪音"
+    },
+    {
+      "i": 59,
+      "zh": "重要",
+      "en": "important",
+      "ipa": "[ɪmˈpɔːrtnt]",
+      "pos": "adj.",
+      "gloss": "真正重要"
+    },
+    {
+      "i": 60,
+      "zh": "紧缩",
+      "en": "tightening",
+      "ipa": "[ˈtaɪtnɪŋ]",
+      "pos": "n.",
+      "gloss": "货币紧缩"
+    },
+    {
+      "i": 61,
+      "zh": "预测",
+      "en": "forecast",
+      "ipa": "[ˈfɔːrkæst]",
+      "pos": "n.",
+      "gloss": "盈利预测"
+    },
+    {
+      "i": 62,
+      "zh": "美联储",
+      "en": "Fed",
+      "ipa": "[fed]",
+      "pos": "n.",
+      "gloss": "美联储"
+    },
+    {
+      "i": 63,
+      "zh": "调仓",
+      "en": "reallocate",
+      "ipa": "[ˌriːˈæləkeɪt]",
+      "pos": "v.",
+      "gloss": "调整仓位"
+    },
+    {
+      "i": 64,
+      "zh": "AI",
+      "en": "AI",
+      "ipa": "[ˌeɪˈaɪ]",
+      "pos": "n.",
+      "gloss": "人工智能"
+    },
+    {
+      "i": 65,
+      "zh": "弹性",
+      "en": "elasticity",
+      "ipa": "[ˌiːlæˈstɪsəti]",
+      "pos": "n.",
+      "gloss": "价格弹性"
+    },
+    {
+      "i": 66,
+      "zh": "穿透",
+      "en": "permeate",
+      "ipa": "[ˈpɜːrmieɪt]",
+      "pos": "v.",
+      "gloss": "穿透周期"
+    },
+    {
+      "i": 67,
+      "zh": "资本",
+      "en": "capital",
+      "ipa": "[ˈkæpɪtl]",
+      "pos": "n.",
+      "gloss": "资本开支"
+    },
+    {
+      "i": 68,
+      "zh": "复利",
+      "en": "compounding",
+      "ipa": "[ˈkɑːmpaʊndɪŋ]",
+      "pos": "n.",
+      "gloss": "复利效应"
+    },
+    {
+      "i": 69,
+      "zh": "启发",
+      "en": "insight",
+      "ipa": "[ˈɪnsaɪt]",
+      "pos": "n.",
+      "gloss": "启发意义"
+    },
+    {
+      "i": 70,
+      "zh": "启示",
+      "en": "revelation",
+      "ipa": "[ˌrevəˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "启示"
+    },
+    {
+      "i": 71,
+      "zh": "不确定性",
+      "en": "uncertainty",
+      "ipa": "[ʌnˈsɜːrtnti]",
+      "pos": "n.",
+      "gloss": "不确定性"
+    },
+    {
+      "i": 72,
+      "zh": "轮动",
+      "en": "rotation",
+      "ipa": "[roʊˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "板块轮动"
+    },
+    {
+      "i": 73,
+      "zh": "仓位",
+      "en": "position",
+      "ipa": "[pəˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "仓位管理"
+    },
+    {
+      "i": 74,
+      "zh": "朴素",
+      "en": "plain",
+      "ipa": "[pleɪn]",
+      "pos": "adj.",
+      "gloss": "朴素有用"
+    }
+  ]
+}

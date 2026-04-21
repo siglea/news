@@ -1,0 +1,1805 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "可持续发展",
+      "en": "sustainability",
+      "ipa": "[səˌsteɪnəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "可持续的发展"
+    },
+    {
+      "i": 1,
+      "zh": "官僚主义",
+      "en": "bureaucracy",
+      "ipa": "[bjʊˈrɑːkrəsi]",
+      "pos": "n.",
+      "gloss": "官僚体制"
+    },
+    {
+      "i": 2,
+      "zh": "联合创始人",
+      "en": "cofounder",
+      "ipa": "[ˌkoʊˈfaʊndər]",
+      "pos": "n.",
+      "gloss": "共同创办人"
+    },
+    {
+      "i": 3,
+      "zh": "夙愿",
+      "en": "aspiration",
+      "ipa": "[ˌæspəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "长久心愿"
+    },
+    {
+      "i": 4,
+      "zh": "哲学",
+      "en": "philosophy",
+      "ipa": "[fəˈlɑːsəfi]",
+      "pos": "n.",
+      "gloss": "思想体系"
+    },
+    {
+      "i": 5,
+      "zh": "互动",
+      "en": "interaction",
+      "ipa": "[ˌɪntərˈækʃn]",
+      "pos": "n.",
+      "gloss": "相互作用"
+    },
+    {
+      "i": 6,
+      "zh": "平庸",
+      "en": "mediocrity",
+      "ipa": "[ˌmiːdiˈɑːkrəsi]",
+      "pos": "n.",
+      "gloss": "平凡无奇"
+    },
+    {
+      "i": 7,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "事先期望"
+    },
+    {
+      "i": 8,
+      "zh": "坦诚",
+      "en": "candor",
+      "ipa": "[ˈkændər]",
+      "pos": "n.",
+      "gloss": "坦率直言"
+    },
+    {
+      "i": 9,
+      "zh": "批评",
+      "en": "criticism",
+      "ipa": "[ˈkrɪtɪsɪzəm]",
+      "pos": "n.",
+      "gloss": "评判指摘"
+    },
+    {
+      "i": 10,
+      "zh": "剥离",
+      "en": "decouple",
+      "ipa": "[diːˈkʌpl]",
+      "pos": "v.",
+      "gloss": "使分离"
+    },
+    {
+      "i": 11,
+      "zh": "试错",
+      "en": "experimentation",
+      "ipa": "[ɪkˌsperɪmenˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "试验摸索"
+    },
+    {
+      "i": 12,
+      "zh": "脆弱",
+      "en": "fragility",
+      "ipa": "[frəˈdʒɪləti]",
+      "pos": "n.",
+      "gloss": "易受损"
+    },
+    {
+      "i": 13,
+      "zh": "消耗",
+      "en": "consumption",
+      "ipa": "[kənˈsʌmpʃn]",
+      "pos": "n.",
+      "gloss": "耗费资源"
+    },
+    {
+      "i": 14,
+      "zh": "竞争力",
+      "en": "competitiveness",
+      "ipa": "[ˌkɑːmpəˈtɛtɪvnəs]",
+      "pos": "n.",
+      "gloss": "竞争能力"
+    },
+    {
+      "i": 15,
+      "zh": "资深",
+      "en": "veteran",
+      "ipa": "[ˈvetərən]",
+      "pos": "adj.",
+      "gloss": "经验丰富的"
+    },
+    {
+      "i": 16,
+      "zh": "独立性",
+      "en": "autonomy",
+      "ipa": "[ɔːˈtɑːnəmi]",
+      "pos": "n.",
+      "gloss": "自主独立"
+    },
+    {
+      "i": 17,
+      "zh": "平等",
+      "en": "parity",
+      "ipa": "[ˈpærəti]",
+      "pos": "n.",
+      "gloss": "对等地位"
+    },
+    {
+      "i": 18,
+      "zh": "壁垒",
+      "en": "barrier",
+      "ipa": "[ˈbæriər]",
+      "pos": "n.",
+      "gloss": "障碍隔阂"
+    },
+    {
+      "i": 19,
+      "zh": "废除",
+      "en": "abolish",
+      "ipa": "[əˈbɑːlɪʃ]",
+      "pos": "v.",
+      "gloss": "取消废止"
+    },
+    {
+      "i": 20,
+      "zh": "偏见",
+      "en": "prejudice",
+      "ipa": "[ˈpredʒədɪs]",
+      "pos": "n.",
+      "gloss": "先入之见"
+    },
+    {
+      "i": 21,
+      "zh": "谈判",
+      "en": "negotiation",
+      "ipa": "[nɪˌɡoʊʃiˈeɪʃn]",
+      "pos": "n.",
+      "gloss": "协商议价"
+    },
+    {
+      "i": 22,
+      "zh": "企业文化",
+      "en": "ethos",
+      "ipa": "[ˈiːθɑːs]",
+      "pos": "n.",
+      "gloss": "组织气质"
+    },
+    {
+      "i": 23,
+      "zh": "组织",
+      "en": "organization",
+      "ipa": "[ˌɔːrɡənəˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "机构体系"
+    },
+    {
+      "i": 24,
+      "zh": "赋予",
+      "en": "empower",
+      "ipa": "[ɪmˈpaʊər]",
+      "pos": "v.",
+      "gloss": "授予权力"
+    },
+    {
+      "i": 25,
+      "zh": "责任",
+      "en": "accountability",
+      "ipa": "[əˌkaʊntəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "问责担当"
+    },
+    {
+      "i": 26,
+      "zh": "假装",
+      "en": "feign",
+      "ipa": "[feɪn]",
+      "pos": "v.",
+      "gloss": "伪装"
+    },
+    {
+      "i": 27,
+      "zh": "氛围",
+      "en": "climate",
+      "ipa": "[ˈklaɪmət]",
+      "pos": "n.",
+      "gloss": "气氛环境"
+    },
+    {
+      "i": 28,
+      "zh": "惨痛",
+      "en": "harrowing",
+      "ipa": "[ˈhæroʊɪŋ]",
+      "pos": "adj.",
+      "gloss": "惨痛的"
+    },
+    {
+      "i": 29,
+      "zh": "协作",
+      "en": "collaboration",
+      "ipa": "[kəˌlæbəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "协同合作"
+    },
+    {
+      "i": 30,
+      "zh": "机制",
+      "en": "mechanism",
+      "ipa": "[ˈmekənɪzəm]",
+      "pos": "n.",
+      "gloss": "制度装置"
+    },
+    {
+      "i": 31,
+      "zh": "强调",
+      "en": "stress",
+      "ipa": "[stres]",
+      "pos": "v.",
+      "gloss": "着重指出"
+    },
+    {
+      "i": 32,
+      "zh": "稀缺",
+      "en": "scarcity",
+      "ipa": "[ˈskersəti]",
+      "pos": "n.",
+      "gloss": "稀少难得"
+    },
+    {
+      "i": 33,
+      "zh": "打磨",
+      "en": "refinement",
+      "ipa": "[rɪˈfaɪnmənt]",
+      "pos": "n.",
+      "gloss": "反复琢磨"
+    },
+    {
+      "i": 34,
+      "zh": "制度化",
+      "en": "institutionalize",
+      "ipa": "[ˌɪnstɪˈtuːʃənəlaɪz]",
+      "pos": "v.",
+      "gloss": "形成制度"
+    },
+    {
+      "i": 35,
+      "zh": "识别",
+      "en": "diagnose",
+      "ipa": "[ˈdaɪəɡnoʊs]",
+      "pos": "v.",
+      "gloss": "找出问题"
+    },
+    {
+      "i": 36,
+      "zh": "健康",
+      "en": "salubrious",
+      "ipa": "[səˈluːbriəs]",
+      "pos": "adj.",
+      "gloss": "有益健康的"
+    },
+    {
+      "i": 37,
+      "zh": "信任",
+      "en": "trust",
+      "ipa": "[trʌst]",
+      "pos": "n.",
+      "gloss": "信赖关系"
+    },
+    {
+      "i": 38,
+      "zh": "耦合",
+      "en": "coupling",
+      "ipa": "[ˈkʌplɪŋ]",
+      "pos": "n.",
+      "gloss": "紧密结合"
+    },
+    {
+      "i": 39,
+      "zh": "流程",
+      "en": "pipeline",
+      "ipa": "[ˈpaɪplaɪn]",
+      "pos": "n.",
+      "gloss": "制作管线"
+    },
+    {
+      "i": 40,
+      "zh": "开源",
+      "en": "opensource",
+      "ipa": "[ˈoʊpənsɔːrs]",
+      "pos": "adj.",
+      "gloss": "开放源码"
+    },
+    {
+      "i": 41,
+      "zh": "恰恰",
+      "en": "precisely",
+      "ipa": "[prɪˈsaɪsli]",
+      "pos": "adv.",
+      "gloss": "正好"
+    },
+    {
+      "i": 42,
+      "zh": "多元",
+      "en": "plurality",
+      "ipa": "[plʊˈræləti]",
+      "pos": "n.",
+      "gloss": "多样性"
+    },
+    {
+      "i": 43,
+      "zh": "并存",
+      "en": "coexistence",
+      "ipa": "[ˌkoʊɪɡˈzɪstəns]",
+      "pos": "n.",
+      "gloss": "同时存在"
+    },
+    {
+      "i": 44,
+      "zh": "咨询",
+      "en": "consulting",
+      "ipa": "[kənˈsʌltɪŋ]",
+      "pos": "n.",
+      "gloss": "咨询服务"
+    },
+    {
+      "i": 45,
+      "zh": "手册",
+      "en": "playbook",
+      "ipa": "[ˈpleɪbʊk]",
+      "pos": "n.",
+      "gloss": "内部指南"
+    },
+    {
+      "i": 46,
+      "zh": "管理层",
+      "en": "hierarchy",
+      "ipa": "[ˈhaɪərɑːrki]",
+      "pos": "n.",
+      "gloss": "科层结构"
+    },
+    {
+      "i": 47,
+      "zh": "指挥",
+      "en": "micromanage",
+      "ipa": "[ˌmaɪkroʊˈmænɪdʒ]",
+      "pos": "v.",
+      "gloss": "事无巨细管控"
+    },
+    {
+      "i": 48,
+      "zh": "顶尖",
+      "en": "apex",
+      "ipa": "[ˈeɪpeks]",
+      "pos": "n.",
+      "gloss": "顶尖水平"
+    },
+    {
+      "i": 49,
+      "zh": "豁免",
+      "en": "forbearance",
+      "ipa": "[fɔːrˈberəns]",
+      "pos": "n.",
+      "gloss": "宽容减压"
+    },
+    {
+      "i": 50,
+      "zh": "密度",
+      "en": "density",
+      "ipa": "[ˈdensəti]",
+      "pos": "n.",
+      "gloss": "人才浓度"
+    },
+    {
+      "i": 51,
+      "zh": "老祖宗",
+      "en": "progenitor",
+      "ipa": "[proʊˈdʒenɪtər]",
+      "pos": "n.",
+      "gloss": "开创先驱"
+    },
+    {
+      "i": 52,
+      "zh": "传统",
+      "en": "lineage",
+      "ipa": "[ˈlɪniɪdʒ]",
+      "pos": "n.",
+      "gloss": "传承脉络"
+    },
+    {
+      "i": 53,
+      "zh": "影视",
+      "en": "cinematic",
+      "ipa": "[ˌsɪnəˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "影视相关"
+    },
+    {
+      "i": 54,
+      "zh": "探索",
+      "en": "probing",
+      "ipa": "[ˈproʊbɪŋ]",
+      "pos": "n.",
+      "gloss": "探查研究"
+    },
+    {
+      "i": 55,
+      "zh": "叙事",
+      "en": "narrative",
+      "ipa": "[ˈnærətɪv]",
+      "pos": "n.",
+      "gloss": "讲故事"
+    },
+    {
+      "i": 56,
+      "zh": "制度",
+      "en": "institution",
+      "ipa": "[ˌɪnstɪˈtuːʃn]",
+      "pos": "n.",
+      "gloss": "制度安排"
+    },
+    {
+      "i": 57,
+      "zh": "原则",
+      "en": "tenet",
+      "ipa": "[ˈtenɪt]",
+      "pos": "n.",
+      "gloss": "信条原则"
+    },
+    {
+      "i": 58,
+      "zh": "授权",
+      "en": "delegation",
+      "ipa": "[ˌdelɪˈɡeɪʃn]",
+      "pos": "n.",
+      "gloss": "分权委托"
+    },
+    {
+      "i": 59,
+      "zh": "赌注",
+      "en": "wager",
+      "ipa": "[ˈweɪdʒər]",
+      "pos": "n.",
+      "gloss": "高风险押注"
+    },
+    {
+      "i": 60,
+      "zh": "工艺",
+      "en": "craftsmanship",
+      "ipa": "[ˈkræftsmənʃɪp]",
+      "pos": "n.",
+      "gloss": "工艺水准"
+    },
+    {
+      "i": 61,
+      "zh": "商业化",
+      "en": "monetization",
+      "ipa": "[ˌmʌnətəˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "商业变现"
+    },
+    {
+      "i": 62,
+      "zh": "票房",
+      "en": "gross",
+      "ipa": "[ɡroʊs]",
+      "pos": "n.",
+      "gloss": "票房总额"
+    },
+    {
+      "i": 63,
+      "zh": "斥资",
+      "en": "outlay",
+      "ipa": "[ˈaʊtleɪ]",
+      "pos": "n.",
+      "gloss": "投入资金"
+    },
+    {
+      "i": 64,
+      "zh": "收购",
+      "en": "acquisition",
+      "ipa": "[ˌækwɪˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "并购"
+    },
+    {
+      "i": 65,
+      "zh": "时间线",
+      "en": "chronology",
+      "ipa": "[krəˈnɑːlədʒi]",
+      "pos": "n.",
+      "gloss": "时间顺序"
+    },
+    {
+      "i": 66,
+      "zh": "图形",
+      "en": "graphics",
+      "ipa": "[ˈɡræfɪks]",
+      "pos": "n.",
+      "gloss": "计算机图形"
+    },
+    {
+      "i": 67,
+      "zh": "诞生",
+      "en": "genesis",
+      "ipa": "[ˈdʒenəsɪs]",
+      "pos": "n.",
+      "gloss": "诞生起源"
+    },
+    {
+      "i": 68,
+      "zh": "惨淡",
+      "en": "dismal",
+      "ipa": "[ˈdɪzməl]",
+      "pos": "adj.",
+      "gloss": "惨淡萧条"
+    },
+    {
+      "i": 69,
+      "zh": "求生",
+      "en": "subsistence",
+      "ipa": "[səbˈsɪstəns]",
+      "pos": "n.",
+      "gloss": "勉强生存"
+    },
+    {
+      "i": 70,
+      "zh": "协议",
+      "en": "pact",
+      "ipa": "[pækt]",
+      "pos": "n.",
+      "gloss": "合约协议"
+    },
+    {
+      "i": 71,
+      "zh": "大获成功",
+      "en": "triumph",
+      "ipa": "[ˈtraɪʌmf]",
+      "pos": "n.",
+      "gloss": "巨大成功"
+    },
+    {
+      "i": 72,
+      "zh": "筹码",
+      "en": "leverage",
+      "ipa": "[ˈlevərɪdʒ]",
+      "pos": "n.",
+      "gloss": "谈判筹码"
+    },
+    {
+      "i": 73,
+      "zh": "上映",
+      "en": "premiere",
+      "ipa": "[prɪˈmɪr]",
+      "pos": "n.",
+      "gloss": "公映"
+    },
+    {
+      "i": 74,
+      "zh": "回炉",
+      "en": "overhaul",
+      "ipa": "[ˈoʊvərhɔːl]",
+      "pos": "n.",
+      "gloss": "推倒重做"
+    },
+    {
+      "i": 75,
+      "zh": "正式",
+      "en": "formalized",
+      "ipa": "[ˈfɔːrməlaɪzd]",
+      "pos": "adj.",
+      "gloss": "正式完成"
+    },
+    {
+      "i": 76,
+      "zh": "前沿",
+      "en": "frontier",
+      "ipa": "[frʌnˈtɪr]",
+      "pos": "n.",
+      "gloss": "前沿领域"
+    },
+    {
+      "i": 77,
+      "zh": "短片",
+      "en": "short",
+      "ipa": "[ʃɔːrt]",
+      "pos": "n.",
+      "gloss": "短片作品"
+    },
+    {
+      "i": 78,
+      "zh": "特效",
+      "en": "vfx",
+      "ipa": "[ˌviːefˈeks]",
+      "pos": "n.",
+      "gloss": "视觉特效"
+    },
+    {
+      "i": 79,
+      "zh": "彰显",
+      "en": "manifest",
+      "ipa": "[ˈmænɪfest]",
+      "pos": "v.",
+      "gloss": "凸显显示"
+    },
+    {
+      "i": 80,
+      "zh": "挑战",
+      "en": "adversity",
+      "ipa": "[ədˈvɜːrsəti]",
+      "pos": "n.",
+      "gloss": "艰难挑战"
+    },
+    {
+      "i": 81,
+      "zh": "定位",
+      "en": "positioning",
+      "ipa": "[pəˈzɪʃnɪŋ]",
+      "pos": "n.",
+      "gloss": "市场定位"
+    },
+    {
+      "i": 82,
+      "zh": "空洞",
+      "en": "vapid",
+      "ipa": "[ˈvæpɪd]",
+      "pos": "adj.",
+      "gloss": "空洞乏味"
+    },
+    {
+      "i": 83,
+      "zh": "推翻",
+      "en": "supersede",
+      "ipa": "[ˌsuːpərˈsiːd]",
+      "pos": "v.",
+      "gloss": "推翻取代"
+    },
+    {
+      "i": 84,
+      "zh": "抹掉",
+      "en": "obliterate",
+      "ipa": "[əˈblɪtəreɪt]",
+      "pos": "v.",
+      "gloss": "抹除干净"
+    },
+    {
+      "i": 85,
+      "zh": "备份",
+      "en": "backup",
+      "ipa": "[ˈbækʌp]",
+      "pos": "n.",
+      "gloss": "数据备份"
+    },
+    {
+      "i": 86,
+      "zh": "转型",
+      "en": "pivot",
+      "ipa": "[ˈpɪvət]",
+      "pos": "n.",
+      "gloss": "战略转向"
+    },
+    {
+      "i": 87,
+      "zh": "贡献",
+      "en": "contributions",
+      "ipa": "[ˌkɑːntrɪˈbjuːʃnz]",
+      "pos": "n.",
+      "gloss": "贡献业绩"
+    },
+    {
+      "i": 88,
+      "zh": "贴图",
+      "en": "texturing",
+      "ipa": "[ˈteksʧərɪŋ]",
+      "pos": "n.",
+      "gloss": "纹理贴图"
+    },
+    {
+      "i": 89,
+      "zh": "生态",
+      "en": "ecosystem",
+      "ipa": "[ˈiːkoʊsɪstəm]",
+      "pos": "n.",
+      "gloss": "创意生态"
+    },
+    {
+      "i": 90,
+      "zh": "艰难",
+      "en": "arduous",
+      "ipa": "[ˈɑːrdʒuəs]",
+      "pos": "adj.",
+      "gloss": "艰难困苦"
+    },
+    {
+      "i": 91,
+      "zh": "手腕",
+      "en": "tactics",
+      "ipa": "[ˈtæktɪks]",
+      "pos": "n.",
+      "gloss": "谈判手腕"
+    },
+    {
+      "i": 92,
+      "zh": "总部",
+      "en": "headquarters",
+      "ipa": "[ˌhedˈkwɔːrtərz]",
+      "pos": "n.",
+      "gloss": "总部大楼"
+    },
+    {
+      "i": 93,
+      "zh": "灵魂",
+      "en": "soul",
+      "ipa": "[soʊl]",
+      "pos": "n.",
+      "gloss": "核心人物"
+    },
+    {
+      "i": 94,
+      "zh": "证明",
+      "en": "substantiate",
+      "ipa": "[səbˈstænʃieɪt]",
+      "pos": "v.",
+      "gloss": "证实"
+    },
+    {
+      "i": 95,
+      "zh": "战略",
+      "en": "strategy",
+      "ipa": "[ˈstrætədʒi]",
+      "pos": "n.",
+      "gloss": "战略规划"
+    },
+    {
+      "i": 96,
+      "zh": "转型",
+      "en": "reinvention",
+      "ipa": "[ˌriːɪnˈvenʃn]",
+      "pos": "n.",
+      "gloss": "重塑转型"
+    },
+    {
+      "i": 97,
+      "zh": "毅然",
+      "en": "resolutely",
+      "ipa": "[ˈrezəluːtli]",
+      "pos": "adv.",
+      "gloss": "毅然决然"
+    },
+    {
+      "i": 98,
+      "zh": "违背",
+      "en": "contravene",
+      "ipa": "[ˌkɑːntrəˈviːn]",
+      "pos": "v.",
+      "gloss": "违背违反"
+    },
+    {
+      "i": 99,
+      "zh": "分水岭",
+      "en": "watershed",
+      "ipa": "[ˈwɔːtərʃed]",
+      "pos": "n.",
+      "gloss": "转折点"
+    },
+    {
+      "i": 100,
+      "zh": "声誉",
+      "en": "prestige",
+      "ipa": "[preˈstiːʒ]",
+      "pos": "n.",
+      "gloss": "声望名誉"
+    },
+    {
+      "i": 101,
+      "zh": "远见",
+      "en": "foresight",
+      "ipa": "[ˈfɔːrsaɪt]",
+      "pos": "n.",
+      "gloss": "先见之明"
+    },
+    {
+      "i": 102,
+      "zh": "雄厚",
+      "en": "formidable",
+      "ipa": "[ˈfɔːrmɪdəbl]",
+      "pos": "adj.",
+      "gloss": "雄厚强大"
+    },
+    {
+      "i": 103,
+      "zh": "植根",
+      "en": "embedded",
+      "ipa": "[ɪmˈbedɪd]",
+      "pos": "adj.",
+      "gloss": "深植于"
+    },
+    {
+      "i": 104,
+      "zh": "渲染",
+      "en": "rendering",
+      "ipa": "[ˈrendərɪŋ]",
+      "pos": "n.",
+      "gloss": "渲染成像"
+    },
+    {
+      "i": 105,
+      "zh": "上色",
+      "en": "digitizing",
+      "ipa": "[ˈdɪdʒɪtaɪzɪŋ]",
+      "pos": "n.",
+      "gloss": "数字化上色"
+    },
+    {
+      "i": 106,
+      "zh": "标准",
+      "en": "benchmark",
+      "ipa": "[ˈbentʃmɑːrk]",
+      "pos": "n.",
+      "gloss": "行业标准"
+    },
+    {
+      "i": 107,
+      "zh": "法规",
+      "en": "statute",
+      "ipa": "[ˈstætʃuːt]",
+      "pos": "n.",
+      "gloss": "法规条文"
+    },
+    {
+      "i": 108,
+      "zh": "冷战",
+      "en": "coldwar",
+      "ipa": "[ˈkoʊldwɔːr]",
+      "pos": "n.",
+      "gloss": "冷战时期"
+    },
+    {
+      "i": 109,
+      "zh": "成立",
+      "en": "inception",
+      "ipa": "[ɪnˈsepʃn]",
+      "pos": "n.",
+      "gloss": "创立伊始"
+    },
+    {
+      "i": 110,
+      "zh": "慷慨",
+      "en": "munificence",
+      "ipa": "[mjuːˈnɪfɪsns]",
+      "pos": "n.",
+      "gloss": "慷慨资助"
+    },
+    {
+      "i": 111,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃər]",
+      "pos": "n.",
+      "gloss": "基础设施"
+    },
+    {
+      "i": 112,
+      "zh": "实体化",
+      "en": "embodiment",
+      "ipa": "[ɪmˈbɑːdimənt]",
+      "pos": "n.",
+      "gloss": "具象体现"
+    },
+    {
+      "i": 113,
+      "zh": "中庭",
+      "en": "atrium",
+      "ipa": "[ˈeɪtriəm]",
+      "pos": "n.",
+      "gloss": "中庭空间"
+    },
+    {
+      "i": 114,
+      "zh": "动线",
+      "en": "circulation",
+      "ipa": "[ˌsɜːrkjəˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "人流动线"
+    },
+    {
+      "i": 115,
+      "zh": "零售",
+      "en": "retailing",
+      "ipa": "[ˈriːteɪlɪŋ]",
+      "pos": "n.",
+      "gloss": "零售业态"
+    },
+    {
+      "i": 116,
+      "zh": "洞察",
+      "en": "insight",
+      "ipa": "[ˈɪnsaɪt]",
+      "pos": "n.",
+      "gloss": "市场洞察"
+    },
+    {
+      "i": 117,
+      "zh": "缺陷",
+      "en": "shortcomings",
+      "ipa": "[ˈʃɔːrtkʌmɪŋz]",
+      "pos": "n.",
+      "gloss": "不足之处"
+    },
+    {
+      "i": 118,
+      "zh": "薄弱",
+      "en": "anemic",
+      "ipa": "[əˈniːmɪk]",
+      "pos": "adj.",
+      "gloss": "薄弱无力"
+    },
+    {
+      "i": 119,
+      "zh": "含义",
+      "en": "denotation",
+      "ipa": "[ˌdiːnoʊˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "含义指涉"
+    },
+    {
+      "i": 120,
+      "zh": "演变",
+      "en": "evolution",
+      "ipa": "[ˌevəˈluːʃn]",
+      "pos": "n.",
+      "gloss": "演变过程"
+    },
+    {
+      "i": 121,
+      "zh": "乌托邦",
+      "en": "utopia",
+      "ipa": "[juːˈtoʊpiə]",
+      "pos": "n.",
+      "gloss": "理想国"
+    },
+    {
+      "i": 122,
+      "zh": "精英",
+      "en": "elite",
+      "ipa": "[eɪˈliːt]",
+      "pos": "n.",
+      "gloss": "精英阶层"
+    },
+    {
+      "i": 123,
+      "zh": "聘请",
+      "en": "retain",
+      "ipa": "[rɪˈteɪn]",
+      "pos": "v.",
+      "gloss": "聘请任用"
+    },
+    {
+      "i": 124,
+      "zh": "错觉",
+      "en": "fallacy",
+      "ipa": "[ˈfæləsi]",
+      "pos": "n.",
+      "gloss": "错误印象"
+    },
+    {
+      "i": 125,
+      "zh": "挤压",
+      "en": "compression",
+      "ipa": "[kəmˈpreʃn]",
+      "pos": "n.",
+      "gloss": "挤压张力"
+    },
+    {
+      "i": 126,
+      "zh": "平衡",
+      "en": "equilibrium",
+      "ipa": "[ˌiːkwɪˈlɪbriəm]",
+      "pos": "n.",
+      "gloss": "平衡状态"
+    },
+    {
+      "i": 127,
+      "zh": "板块",
+      "en": "tectonics",
+      "ipa": "[tekˈtɑːnɪks]",
+      "pos": "n.",
+      "gloss": "板块构造"
+    },
+    {
+      "i": 128,
+      "zh": "理性",
+      "en": "rationality",
+      "ipa": "[ˌræʃəˈnæləti]",
+      "pos": "n.",
+      "gloss": "理性计算"
+    },
+    {
+      "i": 129,
+      "zh": "扼杀",
+      "en": "stifle",
+      "ipa": "[ˈstaɪfl]",
+      "pos": "v.",
+      "gloss": "压制扼杀"
+    },
+    {
+      "i": 130,
+      "zh": "束缚",
+      "en": "shackles",
+      "ipa": "[ˈʃækəlz]",
+      "pos": "n.",
+      "gloss": "束缚枷锁"
+    },
+    {
+      "i": 131,
+      "zh": "氛围",
+      "en": "ambience",
+      "ipa": "[ˈæmbiəns]",
+      "pos": "n.",
+      "gloss": "氛围气质"
+    },
+    {
+      "i": 132,
+      "zh": "热情",
+      "en": "fervor",
+      "ipa": "[ˈfɜːrvər]",
+      "pos": "n.",
+      "gloss": "热情投入"
+    },
+    {
+      "i": 133,
+      "zh": "隔间",
+      "en": "cubicle",
+      "ipa": "[ˈkjuːbɪkl]",
+      "pos": "n.",
+      "gloss": "工位隔间"
+    },
+    {
+      "i": 134,
+      "zh": "干涉",
+      "en": "intervene",
+      "ipa": "[ˌɪntərˈviːn]",
+      "pos": "v.",
+      "gloss": "干涉介入"
+    },
+    {
+      "i": 135,
+      "zh": "原创",
+      "en": "originality",
+      "ipa": "[əˌrɪdʒəˈnæləti]",
+      "pos": "n.",
+      "gloss": "原创性"
+    },
+    {
+      "i": 136,
+      "zh": "会计",
+      "en": "accounting",
+      "ipa": "[əˈkaʊntɪŋ]",
+      "pos": "n.",
+      "gloss": "会计核算"
+    },
+    {
+      "i": 137,
+      "zh": "寥寥无几",
+      "en": "scant",
+      "ipa": "[skænt]",
+      "pos": "adj.",
+      "gloss": "少得可怜"
+    },
+    {
+      "i": 138,
+      "zh": "底线",
+      "en": "threshold",
+      "ipa": "[ˈθreʃhoʊld]",
+      "pos": "n.",
+      "gloss": "最低底线"
+    },
+    {
+      "i": 139,
+      "zh": "微薄",
+      "en": "meager",
+      "ipa": "[ˈmiːɡər]",
+      "pos": "adj.",
+      "gloss": "微薄稀少"
+    },
+    {
+      "i": 140,
+      "zh": "分销",
+      "en": "distribution",
+      "ipa": "[ˌdɪstrɪˈbjuːʃn]",
+      "pos": "n.",
+      "gloss": "分销渠道"
+    },
+    {
+      "i": 141,
+      "zh": "措施",
+      "en": "initiatives",
+      "ipa": "[ɪˈnɪʃətɪvz]",
+      "pos": "n.",
+      "gloss": "措施方案"
+    },
+    {
+      "i": 142,
+      "zh": "募集",
+      "en": "canvass",
+      "ipa": "[ˈkænvəs]",
+      "pos": "v.",
+      "gloss": "募集筹措"
+    },
+    {
+      "i": 143,
+      "zh": "频率",
+      "en": "cadence",
+      "ipa": "[ˈkeɪdns]",
+      "pos": "n.",
+      "gloss": "产出节奏"
+    },
+    {
+      "i": 144,
+      "zh": "推广",
+      "en": "canonize",
+      "ipa": "[ˈkænənaɪz]",
+      "pos": "v.",
+      "gloss": "树立推广"
+    },
+    {
+      "i": 145,
+      "zh": "光影",
+      "en": "illumination",
+      "ipa": "[ɪˌluːmɪˈneɪʃn]",
+      "pos": "n.",
+      "gloss": "光影效果"
+    },
+    {
+      "i": 146,
+      "zh": "分镜",
+      "en": "storyboard",
+      "ipa": "[ˈstɔːribɔːrd]",
+      "pos": "n.",
+      "gloss": "分镜脚本"
+    },
+    {
+      "i": 147,
+      "zh": "挣扎",
+      "en": "languish",
+      "ipa": "[ˈlæŋɡwɪʃ]",
+      "pos": "v.",
+      "gloss": "苦苦挣扎"
+    },
+    {
+      "i": 148,
+      "zh": "独家",
+      "en": "exclusivity",
+      "ipa": "[ˌekskluːˈsɪvəti]",
+      "pos": "n.",
+      "gloss": "独家专有权"
+    },
+    {
+      "i": 149,
+      "zh": "飙升",
+      "en": "skyrocket",
+      "ipa": "[ˈskaɪrɑːkɪt]",
+      "pos": "v.",
+      "gloss": "急剧飙升"
+    },
+    {
+      "i": 150,
+      "zh": "股东",
+      "en": "stakeholder",
+      "ipa": "[ˈsteɪkhoʊldər]",
+      "pos": "n.",
+      "gloss": "股东利益方"
+    },
+    {
+      "i": 151,
+      "zh": "梳理",
+      "en": "synthesize",
+      "ipa": "[ˈsɪnθəsaɪz]",
+      "pos": "v.",
+      "gloss": "梳理综合"
+    },
+    {
+      "i": 152,
+      "zh": "组建",
+      "en": "constitute",
+      "ipa": "[ˈkɑːnstɪtuːt]",
+      "pos": "v.",
+      "gloss": "组建构成"
+    },
+    {
+      "i": 153,
+      "zh": "初衷",
+      "en": "rationale",
+      "ipa": "[ˌræʃəˈnæl]",
+      "pos": "n.",
+      "gloss": "初衷理由"
+    },
+    {
+      "i": 154,
+      "zh": "顽皮",
+      "en": "whimsy",
+      "ipa": "[ˈwɪmzi]",
+      "pos": "n.",
+      "gloss": "顽皮趣味"
+    },
+    {
+      "i": 155,
+      "zh": "奥斯卡",
+      "en": "oscars",
+      "ipa": "[ˈɑːskərz]",
+      "pos": "n.",
+      "gloss": "奥斯卡奖"
+    },
+    {
+      "i": 156,
+      "zh": "苛刻",
+      "en": "stringent",
+      "ipa": "[ˈstrɪndʒənt]",
+      "pos": "adj.",
+      "gloss": "苛刻严厉"
+    },
+    {
+      "i": 157,
+      "zh": "招募",
+      "en": "recruitment",
+      "ipa": "[rɪˈkruːtmənt]",
+      "pos": "n.",
+      "gloss": "招募聘用"
+    },
+    {
+      "i": 158,
+      "zh": "首部",
+      "en": "maiden",
+      "ipa": "[ˈmeɪdn]",
+      "pos": "adj.",
+      "gloss": "首部处女作"
+    },
+    {
+      "i": 159,
+      "zh": "平分",
+      "en": "bisect",
+      "ipa": "[baɪˈsekt]",
+      "pos": "v.",
+      "gloss": "对半平分"
+    },
+    {
+      "i": 160,
+      "zh": "辞去",
+      "en": "resignation",
+      "ipa": "[ˌrezɪɡˈneɪʃn]",
+      "pos": "n.",
+      "gloss": "辞职离任"
+    },
+    {
+      "i": 161,
+      "zh": "宣布",
+      "en": "proclamation",
+      "ipa": "[ˌprɑːkləˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "正式宣布"
+    },
+    {
+      "i": 162,
+      "zh": "行业",
+      "en": "vertical",
+      "ipa": "[ˈvɜːrtɪkl]",
+      "pos": "n.",
+      "gloss": "行业纵轴"
+    },
+    {
+      "i": 163,
+      "zh": "同步",
+      "en": "synchronization",
+      "ipa": "[ˌsɪŋkrənəˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "声画同步"
+    },
+    {
+      "i": 164,
+      "zh": "动画长片",
+      "en": "feature",
+      "ipa": "[ˈfiːtʃər]",
+      "pos": "n.",
+      "gloss": "动画长片"
+    },
+    {
+      "i": 165,
+      "zh": "多元化",
+      "en": "diversification",
+      "ipa": "[daɪˌvɜːrsɪfɪˈkeɪʃn]",
+      "pos": "n.",
+      "gloss": "业务多元化"
+    },
+    {
+      "i": 166,
+      "zh": "复苏",
+      "en": "renaissance",
+      "ipa": "[ˈrenəsɑːns]",
+      "pos": "n.",
+      "gloss": "复兴复苏"
+    },
+    {
+      "i": 167,
+      "zh": "统治",
+      "en": "hegemony",
+      "ipa": "[hɪˈdʒeməni]",
+      "pos": "n.",
+      "gloss": "统治霸权"
+    },
+    {
+      "i": 168,
+      "zh": "狂热",
+      "en": "euphoria",
+      "ipa": "[juːˈfɔːriə]",
+      "pos": "n.",
+      "gloss": "狂热情绪"
+    },
+    {
+      "i": 169,
+      "zh": "竞争对手",
+      "en": "adversary",
+      "ipa": "[ˈædvərseri]",
+      "pos": "n.",
+      "gloss": "竞争对手"
+    },
+    {
+      "i": 170,
+      "zh": "抛弃",
+      "en": "jettison",
+      "ipa": "[ˈdʒetɪsn]",
+      "pos": "v.",
+      "gloss": "抛弃舍弃"
+    },
+    {
+      "i": 171,
+      "zh": "挑战",
+      "en": "headwinds",
+      "ipa": "[ˈhedwɪndz]",
+      "pos": "n.",
+      "gloss": "逆风挑战"
+    },
+    {
+      "i": 172,
+      "zh": "亏损",
+      "en": "hemorrhage",
+      "ipa": "[ˈhemərɪdʒ]",
+      "pos": "n.",
+      "gloss": "资金流失"
+    },
+    {
+      "i": 173,
+      "zh": "剥夺",
+      "en": "deprive",
+      "ipa": "[dɪˈpraɪv]",
+      "pos": "v.",
+      "gloss": "剥夺权利"
+    },
+    {
+      "i": 174,
+      "zh": "雇佣",
+      "en": "employment",
+      "ipa": "[ɪmˈplɔɪmənt]",
+      "pos": "n.",
+      "gloss": "雇佣用工"
+    },
+    {
+      "i": 175,
+      "zh": "吞噬",
+      "en": "devour",
+      "ipa": "[dɪˈvaʊər]",
+      "pos": "v.",
+      "gloss": "吞噬耗尽"
+    },
+    {
+      "i": 176,
+      "zh": "期权",
+      "en": "options",
+      "ipa": "[ˈɑːpʃnz]",
+      "pos": "n.",
+      "gloss": "股票期权"
+    },
+    {
+      "i": 177,
+      "zh": "就职",
+      "en": "tenure",
+      "ipa": "[ˈtenjər]",
+      "pos": "n.",
+      "gloss": "任职任期"
+    },
+    {
+      "i": 178,
+      "zh": "维持",
+      "en": "propping",
+      "ipa": "[ˈprɑːpɪŋ]",
+      "pos": "n.",
+      "gloss": "输血维持"
+    },
+    {
+      "i": 179,
+      "zh": "争得",
+      "en": "extract",
+      "ipa": "[ɪkˈstrækt]",
+      "pos": "v.",
+      "gloss": "争得榨取"
+    },
+    {
+      "i": 180,
+      "zh": "梳理",
+      "en": "untangle",
+      "ipa": "[ʌnˈtæŋɡl]",
+      "pos": "v.",
+      "gloss": "梳理理清"
+    },
+    {
+      "i": 181,
+      "zh": "解决",
+      "en": "remediation",
+      "ipa": "[rɪˌmiːdiˈeɪʃn]",
+      "pos": "n.",
+      "gloss": "补救解决"
+    },
+    {
+      "i": 182,
+      "zh": "推动",
+      "en": "catalyze",
+      "ipa": "[ˈkætəlaɪz]",
+      "pos": "v.",
+      "gloss": "催化推动"
+    },
+    {
+      "i": 183,
+      "zh": "里程碑",
+      "en": "landmark",
+      "ipa": "[ˈlændmɑːrk]",
+      "pos": "n.",
+      "gloss": "里程碑"
+    },
+    {
+      "i": 184,
+      "zh": "带领",
+      "en": "shepherding",
+      "ipa": "[ˈʃepərdɪŋ]",
+      "pos": "n.",
+      "gloss": "带领引导"
+    },
+    {
+      "i": 185,
+      "zh": "调和",
+      "en": "conciliate",
+      "ipa": "[kənˈsɪlieɪt]",
+      "pos": "v.",
+      "gloss": "调和安抚"
+    },
+    {
+      "i": 186,
+      "zh": "人性",
+      "en": "humanism",
+      "ipa": "[ˈhjuːmənɪzəm]",
+      "pos": "n.",
+      "gloss": "人性情感"
+    },
+    {
+      "i": 187,
+      "zh": "评价",
+      "en": "appraisal",
+      "ipa": "[əˈpreɪzl]",
+      "pos": "n.",
+      "gloss": "评价判断"
+    },
+    {
+      "i": 188,
+      "zh": "彻底",
+      "en": "wholesale",
+      "ipa": "[ˈhoʊlseɪl]",
+      "pos": "adj.",
+      "gloss": "彻底全面"
+    },
+    {
+      "i": 189,
+      "zh": "外包",
+      "en": "outsourcing",
+      "ipa": "[ˈaʊtsɔːrsɪŋ]",
+      "pos": "n.",
+      "gloss": "外包业务"
+    },
+    {
+      "i": 190,
+      "zh": "强行",
+      "en": "imposition",
+      "ipa": "[ˌɪmpəˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "强行施加"
+    },
+    {
+      "i": 191,
+      "zh": "大获",
+      "en": "coup",
+      "ipa": "[kuː]",
+      "pos": "n.",
+      "gloss": "大胜"
+    },
+    {
+      "i": 192,
+      "zh": "地位",
+      "en": "standing",
+      "ipa": "[ˈstændɪŋ]",
+      "pos": "n.",
+      "gloss": "谈判地位"
+    },
+    {
+      "i": 193,
+      "zh": "决裂",
+      "en": "rupture",
+      "ipa": "[ˈrʌptʃər]",
+      "pos": "n.",
+      "gloss": "关系决裂"
+    },
+    {
+      "i": 194,
+      "zh": "霸主",
+      "en": "supremacy",
+      "ipa": "[suːˈpreməsi]",
+      "pos": "n.",
+      "gloss": "霸主地位"
+    },
+    {
+      "i": 195,
+      "zh": "巨头",
+      "en": "behemoth",
+      "ipa": "[bɪˈhiːmɑːθ]",
+      "pos": "n.",
+      "gloss": "行业巨头"
+    },
+    {
+      "i": 196,
+      "zh": "巅峰",
+      "en": "zenith",
+      "ipa": "[ˈziːnɪθ]",
+      "pos": "n.",
+      "gloss": "巅峰顶点"
+    },
+    {
+      "i": 197,
+      "zh": "滋养",
+      "en": "accretion",
+      "ipa": "[əˈkriːʃn]",
+      "pos": "n.",
+      "gloss": "滋养增益"
+    },
+    {
+      "i": 198,
+      "zh": "思维",
+      "en": "heuristics",
+      "ipa": "[hjʊˈrɪstɪks]",
+      "pos": "n.",
+      "gloss": "思维启发"
+    },
+    {
+      "i": 199,
+      "zh": "博弈",
+      "en": "gameplay",
+      "ipa": "[ˈɡeɪmpleɪ]",
+      "pos": "n.",
+      "gloss": "博弈玩法"
+    },
+    {
+      "i": 200,
+      "zh": "妥协",
+      "en": "capitulation",
+      "ipa": "[kəˌpɪtjʊˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "妥协屈服"
+    },
+    {
+      "i": 201,
+      "zh": "亏损",
+      "en": "writeoff",
+      "ipa": "[ˈraɪtɔːf]",
+      "pos": "n.",
+      "gloss": "亏损冲销"
+    },
+    {
+      "i": 202,
+      "zh": "加快",
+      "en": "expedite",
+      "ipa": "[ˈekspədaɪt]",
+      "pos": "v.",
+      "gloss": "加快推进"
+    },
+    {
+      "i": 203,
+      "zh": "类似",
+      "en": "analogous",
+      "ipa": "[əˈnæləɡəs]",
+      "pos": "adj.",
+      "gloss": "类似可比"
+    },
+    {
+      "i": 204,
+      "zh": "架构",
+      "en": "scaffolding",
+      "ipa": "[ˈskæfəldɪŋ]",
+      "pos": "n.",
+      "gloss": "支撑架构"
+    },
+    {
+      "i": 205,
+      "zh": "硬核",
+      "en": "hardcore",
+      "ipa": "[ˈhɑːrdkɔːr]",
+      "pos": "adj.",
+      "gloss": "硬核技术"
+    },
+    {
+      "i": 206,
+      "zh": "登月",
+      "en": "moonshot",
+      "ipa": "[ˈmuːnʃɑːt]",
+      "pos": "n.",
+      "gloss": "登月级难题"
+    },
+    {
+      "i": 207,
+      "zh": "法则",
+      "en": "axioms",
+      "ipa": "[ˈæksiəmz]",
+      "pos": "n.",
+      "gloss": "法则公理"
+    },
+    {
+      "i": 208,
+      "zh": "专利",
+      "en": "patents",
+      "ipa": "[ˈpætnts]",
+      "pos": "n.",
+      "gloss": "专利技术"
+    },
+    {
+      "i": 209,
+      "zh": "转录",
+      "en": "filmout",
+      "ipa": "[ˈfɪlmaʊt]",
+      "pos": "n.",
+      "gloss": "胶片输出"
+    },
+    {
+      "i": 210,
+      "zh": "政策",
+      "en": "policy",
+      "ipa": "[ˈpɑːləsi]",
+      "pos": "n.",
+      "gloss": "政策环境"
+    },
+    {
+      "i": 211,
+      "zh": "披露",
+      "en": "disclosure",
+      "ipa": "[dɪsˈkloʊʒər]",
+      "pos": "n.",
+      "gloss": "信息披露"
+    },
+    {
+      "i": 212,
+      "zh": "招股",
+      "en": "prospectus",
+      "ipa": "[prəˈspektəs]",
+      "pos": "n.",
+      "gloss": "招股说明书"
+    },
+    {
+      "i": 213,
+      "zh": "设施",
+      "en": "fixture",
+      "ipa": "[ˈfɪkstʃər]",
+      "pos": "n.",
+      "gloss": "设施基础"
+    },
+    {
+      "i": 214,
+      "zh": "算力",
+      "en": "compute",
+      "ipa": "[kəmˈpjuːt]",
+      "pos": "n.",
+      "gloss": "计算算力"
+    },
+    {
+      "i": 215,
+      "zh": "帧",
+      "en": "frame",
+      "ipa": "[freɪm]",
+      "pos": "n.",
+      "gloss": "画面帧"
+    },
+    {
+      "i": 216,
+      "zh": "集群",
+      "en": "cluster",
+      "ipa": "[ˈklʌstər]",
+      "pos": "n.",
+      "gloss": "服务器集群"
+    },
+    {
+      "i": 217,
+      "zh": "宣发",
+      "en": "promotion",
+      "ipa": "[prəˈmoʊʃn]",
+      "pos": "n.",
+      "gloss": "宣传发行"
+    },
+    {
+      "i": 218,
+      "zh": "依附",
+      "en": "vassalage",
+      "ipa": "[ˈvæsəlɪdʒ]",
+      "pos": "n.",
+      "gloss": "依附从属"
+    },
+    {
+      "i": 219,
+      "zh": "变化",
+      "en": "dynamics",
+      "ipa": "[daɪˈnæmɪks]",
+      "pos": "n.",
+      "gloss": "业态变化"
+    },
+    {
+      "i": 220,
+      "zh": "爆发",
+      "en": "inflection",
+      "ipa": "[ɪnˈflekʃn]",
+      "pos": "n.",
+      "gloss": "爆发拐点"
+    },
+    {
+      "i": 221,
+      "zh": "反复",
+      "en": "iterative",
+      "ipa": "[ˈɪtərətɪv]",
+      "pos": "adj.",
+      "gloss": "反复多次"
+    },
+    {
+      "i": 222,
+      "zh": "现金流",
+      "en": "cashflow",
+      "ipa": "[ˈkæʃfloʊ]",
+      "pos": "n.",
+      "gloss": "现金流"
+    },
+    {
+      "i": 223,
+      "zh": "衍生品",
+      "en": "derivatives",
+      "ipa": "[dɪˈrɪvətɪvz]",
+      "pos": "n.",
+      "gloss": "衍生商品"
+    },
+    {
+      "i": 224,
+      "zh": "收割",
+      "en": "monetize",
+      "ipa": "[ˈmʌnətaɪz]",
+      "pos": "v.",
+      "gloss": "变现收割"
+    }
+  ]
+}

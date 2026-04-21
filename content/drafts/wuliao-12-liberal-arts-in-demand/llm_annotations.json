@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "文科",
+      "en": "liberal",
+      "ipa": "[ˈlɪbərəl]",
+      "pos": "adj.",
+      "gloss": "文科（相对理科的人文学科方向）"
+    },
+    {
+      "i": 1,
+      "zh": "占比",
+      "en": "proportion",
+      "ipa": "[prəˈpɔːʃn]",
+      "pos": "n.",
+      "gloss": "所占比例"
+    },
+    {
+      "i": 2,
+      "zh": "世界",
+      "en": "world",
+      "ipa": "[wɜːld]",
+      "pos": "n.",
+      "gloss": "世界"
+    },
+    {
+      "i": 3,
+      "zh": "大模型",
+      "en": "LLM",
+      "ipa": "[ˌel el ˈem]",
+      "pos": "n.",
+      "gloss": "大规模语言模型（此处泛指大模型）"
+    },
+    {
+      "i": 4,
+      "zh": "情绪",
+      "en": "emotion",
+      "ipa": "[ɪˈməʊʃn]",
+      "pos": "n.",
+      "gloss": "情绪"
+    },
+    {
+      "i": 5,
+      "zh": "人生观",
+      "en": "outlook",
+      "ipa": "[ˈaʊtlʊk]",
+      "pos": "n.",
+      "gloss": "人生观"
+    },
+    {
+      "i": 6,
+      "zh": "野蛮",
+      "en": "savage",
+      "ipa": "[ˈsævɪdʒ]",
+      "pos": "adj.",
+      "gloss": "野蛮的"
+    },
+    {
+      "i": 7,
+      "zh": "创始人",
+      "en": "founder",
+      "ipa": "[ˈfaʊndə(r)]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 8,
+      "zh": "专业",
+      "en": "major",
+      "ipa": "[ˈmeɪdʒə(r)]",
+      "pos": "n.",
+      "gloss": "专业"
+    },
+    {
+      "i": 9,
+      "zh": "新闻",
+      "en": "journalism",
+      "ipa": "[ˈdʒɜːnəlɪzəm]",
+      "pos": "n.",
+      "gloss": "新闻（业）"
+    },
+    {
+      "i": 10,
+      "zh": "诠释",
+      "en": "interpret",
+      "ipa": "[ɪnˈtɜːprɪt]",
+      "pos": "v.",
+      "gloss": "阐释、解读"
+    },
+    {
+      "i": 11,
+      "zh": "叙事",
+      "en": "narrative",
+      "ipa": "[ˈnærətɪv]",
+      "pos": "n.",
+      "gloss": "叙事"
+    },
+    {
+      "i": 12,
+      "zh": "创新",
+      "en": "innovation",
+      "ipa": "[ˌɪnəˈveɪʃn]",
+      "pos": "n.",
+      "gloss": "创新"
+    },
+    {
+      "i": 13,
+      "zh": "能力",
+      "en": "ability",
+      "ipa": "[əˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 14,
+      "zh": "财经",
+      "en": "finance",
+      "ipa": "[ˈfaɪnæns]",
+      "pos": "n.",
+      "gloss": "财经"
+    },
+    {
+      "i": 15,
+      "zh": "顽固",
+      "en": "stubborn",
+      "ipa": "[ˈstʌbən]",
+      "pos": "adj.",
+      "gloss": "根深蒂固、执拗的"
+    },
+    {
+      "i": 16,
+      "zh": "敬畏",
+      "en": "awe",
+      "ipa": "[ɔː]",
+      "pos": "n.",
+      "gloss": "敬畏"
+    },
+    {
+      "i": 17,
+      "zh": "意志",
+      "en": "will",
+      "ipa": "[wɪl]",
+      "pos": "n.",
+      "gloss": "意志"
+    },
+    {
+      "i": 18,
+      "zh": "墓志铭",
+      "en": "epitaph",
+      "ipa": "[ˈepɪtɑːf]",
+      "pos": "n.",
+      "gloss": "墓志铭"
+    },
+    {
+      "i": 19,
+      "zh": "人性",
+      "en": "humanity",
+      "ipa": "[hjuːˈmænəti]",
+      "pos": "n.",
+      "gloss": "人性"
+    },
+    {
+      "i": 20,
+      "zh": "真正",
+      "en": "genuine",
+      "ipa": "[ˈdʒenjuɪn]",
+      "pos": "adj.",
+      "gloss": "真正的"
+    },
+    {
+      "i": 21,
+      "zh": "边界",
+      "en": "boundary",
+      "ipa": "[ˈbaʊndri]",
+      "pos": "n.",
+      "gloss": "边界"
+    },
+    {
+      "i": 22,
+      "zh": "直播",
+      "en": "livestream",
+      "ipa": "[ˈlaɪvstriːm]",
+      "pos": "n./v.",
+      "gloss": "直播"
+    }
+  ]
+}
