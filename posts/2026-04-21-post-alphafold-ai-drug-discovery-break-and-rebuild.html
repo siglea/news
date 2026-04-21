@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>后AlphaFold时代的冷思考，AI制药的破与立 | GAIR live 028 | Post-AlphaFold Reflections: AI Drug Discovery&#x27;s Break and Rebuild | MingoX</title>
+    <meta name="description" content="围绕后 AlphaFold 时代 AI 制药的技术瓶颈、数据与实验闭环、产业化路径与投资逻辑展开讨论，梳理“破与立”的关键变量；转载自微信公众号「AI科技评论」，本站词汇标注。">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../" class="logo">🎙️ MingoX</a>
+            <div class="nav-links">
+                <a href="../">首页</a>
+                <a href="../about.html">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="card">
+                <article class="post-content">
+                    <h1>📈 后AlphaFold时代的冷思考，AI制药的破与立 | GAIR live 028<br><small class="title-en">Post-AlphaFold Reflections: AI Drug Discovery&#x27;s Break and Rebuild</small></h1>
+<p class="post-source-banner" style="font-size:0.9rem;color:#444;margin:0 0 1.15rem 0;border-left:3px solid #b91c1c;padding-left:0.75rem;line-height:1.55;"><strong>出处提示：</strong>本文来自微信公众号「AI科技评论」。<strong>完整著作权说明、风险提示与原文固定链接</strong>见文末「来源与版权」版块。</p>
+
+<p>过去几年，无论是<span class="word-annot"><span class="word-anchor">AlphaFold</span><span class="word-block"><span class="english-word">AlphaFold</span><span class="word-info">[ˈælfə fəʊld] n. AlphaFold</span></span></span>家族的惊艳迭代，还是各类生成式AI在分子设计上的“狂飙”，都给外界营造出一种错觉：AI似乎即将彻底颠覆制药行业，甚至有人开始倒数“全AI设计新药&quot;上市的日期。</p>
+
+<p>然而，真实情况却是：那些在<span class="word-annot"><span class="word-anchor">硅基世界</span><span class="word-block"><span class="english-word">siliconworld</span><span class="word-info">[ˈsɪlɪkən] n. 硅基世界</span></span></span>里被打分极高、看似完美的分子，却在进入真实的碳基人体后屡屡折戟。在真实的临床二、三期试验中，AI制药的<span class="word-annot"><span class="word-anchor">失败率</span><span class="word-block"><span class="english-word">failurerate</span><span class="word-info">[ˈfeɪljə] n. 失败率</span></span></span>依然居高不下。</p>
+
+<p>在AI算力呈指数级暴涨的今天，为何药物研发却陷入了“<span class="word-annot"><span class="word-anchor">反摩尔定律</span><span class="word-block"><span class="english-word">Eroom</span><span class="word-info">[ˈiːruːm] n. 反摩尔定律</span></span></span>”——技术越来越先进，投入的资金越来越庞大，但新药产出率却在持续下降？</p>
+
+<p>在这场算力与生命科学的碰撞中，AI究竟是颠覆者，还是仅仅是个高级的“<span class="word-annot"><span class="word-anchor">加速器</span><span class="word-block"><span class="english-word">accelerator</span><span class="word-info">[əkˈseləreɪtə] n. 加速器</span></span></span>”?</p>
+
+<p>近日，雷峰网及AI科技评论组织了一场主题为“<span class="word-annot"><span class="word-anchor">后AlphaFold时代</span><span class="word-block"><span class="english-word">postAlphaFold</span><span class="word-info">[ˈpəʊst] adj. 后AlphaFold时代</span></span></span>AI制药的破与立”线上圆桌，南佛罗里达大学教授许东、同济大学生命科学与技术学院教授刘琦、香港大学数据科学与药学系副教授张清鹏，三位横跨计算科学、生物信息学与复杂系统科学的顶尖学者，展开了一场两小时的深度对谈。</p>
+
+<p>对于没有时间观看直播的读者，我们提炼了本次圆桌的四大核心<span class="word-annot"><span class="word-anchor">洞察</span><span class="word-block"><span class="english-word">insight</span><span class="word-info">[ˈɪnsaɪt] n. 洞察</span></span></span>：</p>
+
+<p>当前AI制药最大的误区在于还原论的<span class="word-annot"><span class="word-anchor">线性思维</span><span class="word-block"><span class="english-word">linearthinking</span><span class="word-info">[ˈlɪniə] n. 线性思维</span></span></span>-将药物研发简化为“一把钥匙开一把锁”的游戏，过度追求分子与单一靶点的高亲和力。</p>
+
+<p>然而，人体绝不是一台可以被简单拆解的机器，而是一个会自适应、会代偿、与环境动态交互的复杂<span class="word-annot"><span class="word-anchor">生态系统</span><span class="word-block"><span class="english-word">ecosystem</span><span class="word-info">[ˈiːkəʊsɪstəm] n. 生态系统</span></span></span>。如张清鹏教授指出，药物进入人体后，面临的是吸收、分布、代谢、排泄等极其复杂的<span class="word-annot"><span class="word-anchor">动力学</span><span class="word-block"><span class="english-word">kinetics</span><span class="word-info">[kɪˈnetɪks] n. 动力学</span></span></span>过程。在细胞系中起作用的分子，未必能被有效递送，更未必能引发<span class="word-annot"><span class="word-anchor">期待</span><span class="word-block"><span class="english-word">expectation</span><span class="word-info">[ˌekspekˈteɪʃn] n. 期待</span></span></span>的宏观药理反应。</p>
+
+<p>刘琦教授则点出了问题的本质：AI技术目前只能做到“<span class="word-annot"><span class="word-anchor">降本增效</span><span class="word-block"><span class="english-word">efficiency</span><span class="word-info">[ɪˈfɪʃnsi] n. 效率</span></span></span>”，它无法颠覆制药本身的生物学与化学逻辑。</p>
+
+<p>一个引人深思的案例是辉瑞的新冠药物<span class="word-annot"><span class="word-anchor">Paxlovid</span><span class="word-block"><span class="english-word">Paxlovid</span><span class="word-info">[ˈpæksləvɪd] n. Paxlovid</span></span></span>。在其大获成功的背后，居功至伟的是基于常微分方程(ODE)的PKPD数学模型分析，而非时下最“时髦”的<span class="word-annot"><span class="word-anchor">深度学习</span><span class="word-block"><span class="english-word">deeplearning</span><span class="word-info">[diːp] n. 深度学习</span></span></span>黑盒模型。遗憾的是，这类偏机理、能提供清晰<span class="word-annot"><span class="word-anchor">生物学</span><span class="word-block"><span class="english-word">biology</span><span class="word-info">[baɪˈɒlədʒi] n. 生物学</span></span></span>追溯路径的模型，在学术界的关注度远不如那些“刷榜”的AI大模型。</p>
+
+<p>未来的破局点在于“灰盒化”：”将基于物理与机制的(Physics/Mechanism-driven)模型与强大的数据驱动(Data-driven)<span class="word-annot"><span class="word-anchor">表征学习</span><span class="word-block"><span class="english-word">representation</span><span class="word-info">[ˌreprɪzenˈteɪʃn] n. 表征</span></span></span>相结合。只有让AI真正理解<span class="word-annot"><span class="word-anchor">药物</span><span class="word-block"><span class="english-word">pharmaceutical</span><span class="word-info">[ˌfɑːməˈsuːtɪkl] n. 药物</span></span></span>在体内的作用机制，而不仅仅是“暴力猜解&quot;，AI制药才能真正走向临床。</p>
+
+<p>为何AI在<span class="word-annot"><span class="word-anchor">自然语言</span><span class="word-block"><span class="english-word">naturallanguage</span><span class="word-info">[ˈnætʃərəl] n. 自然语言</span></span></span>处理和图像识别领域能所向披靡，在生命科学领域却常常泛化能力极差?答案在于数据的“完备性&quot;与“干净度”。</p>
+
+<p>不同于拥有海量且标准标签的<span class="word-annot"><span class="word-anchor">ImageNet</span><span class="word-block"><span class="english-word">ImageNet</span><span class="word-info">[ˈɪmɪdʒ net] n. ImageNet</span></span></span>，生命科学领域的数据面临着三大先天缺陷：</p>
+
+<p>▪ 维度不完备：我们当前对靶点和生命体的描述特征(如氨基酸序列、<span class="word-annot"><span class="word-anchor">SMILES</span><span class="word-block"><span class="english-word">SMILES</span><span class="word-info">[ˈsmaɪlz] n. SMILES</span></span></span>表达式)相比于图像像素而言太少，用单一模态的数据去训练模型，宛如“盲人摸象”。</p>
+
+<p>▪ 负样本缺失：制药公司出于商业机密，极少公开失败的实验数据，导致AI模型只能在“<span class="word-annot"><span class="word-anchor">幸存者偏差</span><span class="word-block"><span class="english-word">survivorship</span><span class="word-info">[ˈsɜːvəʃɪp] n. 幸存者偏差</span></span></span>&quot;中学习，极易过拟合。</p>
+
+<p>▪ 长尾分布下的<span class="word-annot"><span class="word-anchor">边缘案例</span><span class="word-block"><span class="english-word">edgecase</span><span class="word-info">[edʒ] n. 边缘案例</span></span></span>：许东教授提到，以AlphaFold为代表的模型基于进化中的负选择能很好地预测常见蛋白，但在面临BCR/抗体等处于主动进化的边缘案例时，效果要差的多。</p>
+
+<p>数据鸿沟的存在，注定了现<span class="word-annot"><span class="word-anchor">阶段</span><span class="word-block"><span class="english-word">stage</span><span class="word-info">[steɪdʒ] n. 阶段</span></span></span>的纯计算模型无法独立完成新药发现。三位学者一致认为，“<span class="word-annot"><span class="word-anchor">干湿实验</span><span class="word-block"><span class="english-word">wetlab</span><span class="word-info">[wet] n. 湿实验</span></span></span>结合”是现阶段唯一可行的路径。</p>
+
+<p>不再追求AI一次性给出一个完美的分子，而是利用<span class="word-annot"><span class="word-anchor">贝叶斯优化</span><span class="word-block"><span class="english-word">Bayesian</span><span class="word-info">[ˈbeɪziən] adj. 贝叶斯</span></span></span>、主动学习等方法，让AI生成数十个候选者，通过高通量、自动化的湿实验快速测试，并将结果(尤其是负反馈)实时反哺给Al。通过24小时不间断的快速迭代，在有限的数据样本下逼近<span class="word-annot"><span class="word-anchor">最优解</span><span class="word-block"><span class="english-word">optimum</span><span class="word-info">[ˈɒptɪməm] n. 最优解</span></span></span>。</p>
+
+<p>在具体的<span class="word-annot"><span class="word-anchor">制药</span><span class="word-block"><span class="english-word">pharma</span><span class="word-info">[ˈfɑːmə] n. 制药</span></span></span>赛道选择上，嘉宾们描绘了一幅清晰的价值地图：</p>
+
+<p>▪ 老药新用：老药的安全性已得到验证，直接绕过了最致命的<span class="word-annot"><span class="word-anchor">毒副作用</span><span class="word-block"><span class="english-word">toxicity</span><span class="word-info">[tɒkˈsɪsəti] n. 毒性</span></span></span>风险。结合系统生物学，利用AI寻找多靶点的“药物组合”，是控制复杂系统<span class="word-annot"><span class="word-anchor">网络</span><span class="word-block"><span class="english-word">network</span><span class="word-info">[ˈnetwɜːk] n. 网络</span></span></span>失衡的高效路径。然而，其商业化挑战在于如何突破现有专利封锁，这也催生了AI在<span class="word-annot"><span class="word-anchor">专利规避</span><span class="word-block"><span class="english-word">workaround</span><span class="word-info">[ˈwɜːkəraʊnd] n. 规避设计</span></span></span>设计上的新应用。</p>
+
+<p>▪ 从小分子到多肽/抗体的演进：相比于合成困难、成本高昂的小分子去从头设计，多肽和蛋白药物的可合成性极高(<span class="word-annot"><span class="word-anchor">大肠杆菌</span><span class="word-block"><span class="english-word">coli</span><span class="word-info">[ˈkəʊlaɪ] n. 大肠杆菌</span></span></span>表达等技术使得成本大幅降低)。它们的挑战转移到了“如何保持稳定&quot;以及“如何避免强烈的免疫<span class="word-annot"><span class="word-anchor">副作用</span><span class="word-block"><span class="english-word">sideeffect</span><span class="word-info">[saɪd] n. 副作用</span></span></span>”&quot;。</p>
+
+<p>▪ 免疫疗法：免疫疗法(如针对癌症、<span class="word-annot"><span class="word-anchor">阿尔茨海默症</span><span class="word-block"><span class="english-word">Alzheimer</span><span class="word-info">[ˈæltshaɪmə] n. 阿尔茨海默症</span></span></span>等)被视为当今制药界的“顶流”。然而，由于免疫系统极其复杂，<span class="word-annot"><span class="word-anchor">目前</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈkʌrəntli] adv. 目前</span></span></span>AI在免疫领域的渗透依然较浅。这片尚未被充分开垦的<span class="word-annot"><span class="word-anchor">处女地</span><span class="word-block"><span class="english-word">greenfield</span><span class="word-info">[ˈɡriːnfiːld] n. 处女地</span></span></span>，正是年轻学者和创新企业大有可为的“好领域”。</p>
+
+<p>▪ RNA递送与虚拟细胞：随着mRNA技术的成熟，制药的核心难点之一变成了“递送”(如LNP<span class="word-annot"><span class="word-anchor">纳米脂质体</span><span class="word-block"><span class="english-word">liposome</span><span class="word-info">[ˈlɪpəsəʊm] n. 脂质体</span></span></span>在不同器官的分布)。同时，从分子层面的<span class="word-annot"><span class="word-anchor">AIDD</span><span class="word-block"><span class="english-word">AIDD</span><span class="word-info">[eɪ] n. AI药物发现</span></span></span>向细胞层面的“数字细胞&quot;演进正在发生。利用<span class="word-annot"><span class="word-anchor">单细胞测序</span><span class="word-block"><span class="english-word">scRNAseq</span><span class="word-info">[ˈsiː ɑːr ˈsiː seq] n. 单细胞测序</span></span></span>、扰动测序构建细胞的“世界模型&quot;，在虚拟环境中模拟药物干预效果，有望大幅缩减动物实验的时间与成本。</p>
+
+<p>大语言模型与<span class="word-annot"><span class="word-anchor">AIAgent</span><span class="word-block"><span class="english-word">AIAgent</span><span class="word-info">[eɪ aɪ] n. AI智能体</span></span></span>的狂飙，正在重塑科研的生产关系。</p>
+
+<p>在过去，<span class="word-annot"><span class="word-anchor">生物学</span><span class="word-block"><span class="english-word">biology</span><span class="word-info">[baɪˈɒlədʒi] n. 生物学</span></span></span>家需要学习复杂的代码和软件去处理数据。而如今，诸如OpenAI Swarm模式或<span class="word-annot"><span class="word-anchor">BioAutoMATE</span><span class="word-block"><span class="english-word">BioAutoMATE</span><span class="word-info">[baɪəʊ] n. BioAutoMATE</span></span></span>等智能体的出现，正在将制药软件从SaaS(软件即服务)向RaaS(Results asaService，结果即服务)跃迁。研究人员只需用自然语言提出需求，Agent就能自动完成文献检索、假设生成、工具调用和<span class="word-annot"><span class="word-anchor">流程自动化</span><span class="word-block"><span class="english-word">flowauto</span><span class="word-info">[ˈfləʊ] n. 流程自动化</span></span></span>。</p>
+
+<p>张清鹏教授形容，这就像每个研究员都配备了十几个24小时不知疲倦的“<span class="word-annot"><span class="word-anchor">超级实习生</span><span class="word-block"><span class="english-word">internship</span><span class="word-info">[ˈɪntɜːn] n. 实习生</span></span></span>”。</p>
+
+<p>尽管目前的<span class="word-annot"><span class="word-anchor">Agent</span><span class="word-block"><span class="english-word">Agent</span><span class="word-info">[ˈeɪdʒənt] n. 智能体</span></span></span>更多是在做“降本增效”的流程自动化，尚无法触及突破底层制药逻辑的“无人区&quot;，但其对研发速度的提升是实实在在的，其效率提升可达数倍。在未来，随着<span class="word-annot"><span class="word-anchor">具身智能</span><span class="word-block"><span class="english-word">embodiedAI</span><span class="word-info">[ɪmˈbɒdɪd] adj. 具身智能</span></span></span>与自动化实验室的结合，药企的研发成本结构将被彻底重写。</p>
+
+<p>在圆桌的最后，三位嘉宾还对AI制药的未来进行了展望：在AI制药这条<span class="word-annot"><span class="word-anchor">长坡厚雪</span><span class="word-block"><span class="english-word">longramp</span><span class="word-info">[ˈkɒmpaʊnd] n. 长坡厚雪赛道</span></span></span>的赛道上，中国展现出了得天独厚的优势。极高的AI人才密度、完备的上下游<span class="word-annot"><span class="word-anchor">产业链</span><span class="word-block"><span class="english-word">supplychain</span><span class="word-info">[səˈplaɪ] n. 产业链</span></span></span>、显著的成本优势，以及庞大的临床数据资源，共同促成了近年来越来越多的中国Biotech公司向海外药企高价“出海(License-out)&quot;的繁荣景象。</p>
+
+<p>尽管我们仍面临着医疗数据分散、&quot;<span class="word-annot"><span class="word-anchor">数据孤岛</span><span class="word-block"><span class="english-word">silo</span><span class="word-info">[ˈsaɪləʊ] n. 数据孤岛</span></span></span>”林立的现实挑战，但正如许东教授所言，在特斯拉自动驾驶的演进史中，正是源源不断的数据积累最终促成了智能的“顿悟&quot;。随着中国产学研各界在<span class="word-annot"><span class="word-anchor">干湿闭环</span><span class="word-block"><span class="english-word">closedloop</span><span class="word-info">[kləʊzd] n. 闭环</span></span></span>上的发力，AI制药跨越“死亡之谷&quot;的奇点，或许已在酝酿之中。</p>
+
+<p>以下是本次圆桌的<span class="word-annot"><span class="word-anchor">实录</span><span class="word-block"><span class="english-word">transcript</span><span class="word-info">[ˈtrænskrɪpt] n. 实录</span></span></span>，限于篇幅，AI科技评论进行了不改原意的编辑：</p>
+
+<p><span class="word-annot"><span class="word-anchor">主持人</span><span class="word-block"><span class="english-word">host</span><span class="word-info">[həʊst] n. 主持人</span></span></span>： 许东（南佛罗里达大学教授）</p>
+
+<p><span class="word-annot"><span class="word-anchor">嘉宾</span><span class="word-block"><span class="english-word">panelist</span><span class="word-info">[ˈpænəlɪst] n. 嘉宾</span></span></span>： 刘琦（同济大学生命科学与技术学院教授）、张清鹏（香港大学数据科学与药学系副教授）</p>
+
+<p>许东： 今天讨论的主题是&quot;<span class="word-annot"><span class="word-anchor">后AlphaFold时代</span><span class="word-block"><span class="english-word">postAlphaFold</span><span class="word-info">[ˈpəʊst] adj. 后AlphaFold时代</span></span></span>AI制药的破与立&quot;。AI制药近年<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">quite</span><span class="word-info">[kwaɪt] adv. 非常</span></span></span>活跃，大量文章和创新公司涌现，AI在制药各环节都起了很大作用，也出现不少令人鼓舞的亮点。但另一方面，AI在制药方面仍面临很多挑战，无论是新药<span class="word-annot"><span class="word-anchor">发现</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[faɪnd] v. 发现</span></span></span>还是临床转化，效率和最早预期仍有差距。我们今天希望就这些<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">concern</span><span class="word-info">[kənˈsɜːn] n. 问题</span></span></span>展开深入讨论。</p>
+
+<p>刘琦： <span class="word-annot"><span class="word-anchor">感谢</span><span class="word-block"><span class="english-word">gratitude</span><span class="word-info">[ˈɡrætɪtjuːd] n. 感谢</span></span></span>雷峰网组织这次活动。需要说明，我们团队并不直接做AI制药，而是偏<span class="word-annot"><span class="word-anchor">技术</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[tekˈnɒlədʒi] n. 技术</span></span></span>层面。我个人对AI制药最大的观点是：AI<span class="word-annot"><span class="word-anchor">技术</span><span class="word-block"><span class="english-word">technology</span><span class="word-info">[tekˈnɒlədʒi] n. 技术</span></span></span>本身并不能颠覆制药的逻辑，它能够加速研发过程、增效降本，但无法完全颠覆制药本身。</p>
+
+<p>这个领域<span class="word-annot"><span class="word-anchor">确实</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪnˈdiːd] adv. 确实</span></span></span>太重要了——无论从生命健康、工业界还是商业角度，但凡能做到一点加速或降本，贡献都是巨大的。这也解释了<span class="word-annot"><span class="word-anchor">为什么</span><span class="word-block"><span class="english-word">howcome</span><span class="word-info">[haʊ] adv. 为什么</span></span></span>AI制药这么热，有大量工作和初创公司。但严格来说，目前尚无完全通过AI技术设计或发现、并走到临床<span class="word-annot"><span class="word-anchor">实验</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪkˈsperɪmənt] n. 实验</span></span></span>末端的药物。这是<span class="word-annot"><span class="word-anchor">领域</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈfiːld] n. 领域</span></span></span>需要解决的问题。</p>
+
+<p>张清鹏： 我的观点与刘老师<span class="word-annot"><span class="word-anchor">吻合</span><span class="word-block"><span class="english-word">coincide</span><span class="word-info">[ˌkəʊɪnˈsaɪd] v. 吻合</span></span></span>。我们往往过度关注高亲和力分子，多少还是以&quot;一把<span class="word-annot"><span class="word-anchor">钥匙</span><span class="word-block"><span class="english-word">key</span><span class="word-info">[kiː] n. 钥匙（比喻匹配）</span></span></span>开一把锁&quot;的线性思维。即便技术不进步，过几年也会有完全AI设计的<span class="word-annot"><span class="word-anchor">药物</span><span class="word-block"><span class="english-word">drug</span><span class="word-info">[drʌɡ] n. 药物</span></span></span>上市，这肯定会发生。</p>
+
+<p>发现靶点、设计<span class="word-annot"><span class="word-anchor">小分子</span><span class="word-block"><span class="english-word">smallmolecule</span><span class="word-info">[ˈsmɔːl] n. 小分子</span></span></span>就能搞定一切吗？我做复杂系统出身，人体不是可<span class="word-annot"><span class="word-anchor">简单</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈsɪmpl] adj. 简单</span></span></span>拆解的机器。人体是会<span class="word-annot"><span class="word-anchor">自适应</span><span class="word-block"><span class="english-word">adaptive</span><span class="word-info">[əˈdæptɪv] adj. 自适应的</span></span></span>、学习、与环境动态交互、会代偿的复杂生态系统。必须从系统科学角度，从优化分子（binding affinity等分数）转向从系统层面优化整个动态生物网络的<span class="word-annot"><span class="word-anchor">调控</span><span class="word-block"><span class="english-word">regulation</span><span class="word-info">[ˌreɡjuˈleɪʃn] n. 调控</span></span></span>。</p>
+
+<p>目前与临床整合的数据<span class="word-annot"><span class="word-anchor">相对</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈrelətɪv] adj. 相对</span></span></span>匮乏、成本较高，很多研究计算层面挺好，实际临床应用还有门槛。我在药学系发现，药学里<span class="word-annot"><span class="word-anchor">药代动力学</span><span class="word-block"><span class="english-word">pharmacokinetics</span><span class="word-info">[ˌfɑːməkəʊkaɪˈnetɪks] n. 药代动力学</span></span></span>（PKPD）等复杂动力学特征非常关键——药物进人体内，不是cell line里直接起作用，能否很好递送？能否经过人体互动产生期待的药理<span class="word-annot"><span class="word-anchor">效果</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪˈfekt] n. 效果</span></span></span>？每一步都很<span class="word-annot"><span class="word-anchor">复杂</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈkɒmpleks] adj. 复杂</span></span></span>。</p>
+
+<p>辉瑞新冠药物Paxlovid的例子很说明问题：临床实验前，他们用相当复杂的ODE模型做了<span class="word-annot"><span class="word-anchor">PKPD</span><span class="word-block"><span class="english-word">PKPD</span><span class="word-info">[piː] n. 药代药效</span></span></span>分析，预估临床效果很好。但这个&quot;幕后英雄&quot;式的数学<span class="word-annot"><span class="word-anchor">模型</span><span class="word-block"><span class="english-word">modelzh</span><span class="word-info">[ˈmɒdl] n. 模型</span></span></span>发在一般杂志，引用仅30多个。这种偏机理、偏系统的建模，能给临床和后续研发提供解释性依据，<span class="word-annot"><span class="word-anchor">追溯</span><span class="word-block"><span class="english-word">traceability</span><span class="word-info">[ˌtreɪsəˈbɪləti] n. 可追溯</span></span></span>清晰生物学路径，会使AI在药物研发全流程中得到更好促进。</p>
+
+<p>许东： 我<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">really</span><span class="word-info">[ˈrɪəli] adv. 非常</span></span></span>同意张老师观点。人体复杂，<span class="word-annot"><span class="word-anchor">药物</span><span class="word-block"><span class="english-word">medicine</span><span class="word-info">[ˈmedsn] n. 药物</span></span></span>与人体作用也复杂。我想补充：现在计算方法离真正落地应用还差得<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">very</span><span class="word-info">[ˈveri] adv. 非常</span></span></span>远。现阶段<span class="word-annot"><span class="word-anchor">比较</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈrelətɪvli] adv. 比较</span></span></span>有效的路径是整合计算和实验。</p>
+
+<p>我早年做蛋白结构预测，几次在<span class="word-annot"><span class="word-anchor">CASP</span><span class="word-block"><span class="english-word">CASP</span><span class="word-info">[kæsp] n. CASP</span></span></span>比赛名列前茅，后来有人做得更好，加上AlphaFold出现，很多人觉得蛋白结构赛道没啥可做了。我反而觉得<span class="word-annot"><span class="word-anchor">AlphaFold</span><span class="word-block"><span class="english-word">AlphaFold</span><span class="word-info">[ˈælfə fəʊld] n. AlphaFold</span></span></span>带来了很多机会，这些年回到结构上做免疫问题。</p>
+
+<p>免疫问题分两大类：一是<span class="word-annot"><span class="word-anchor">TCR</span><span class="word-block"><span class="english-word">TCR</span><span class="word-info">[tiː siː ɑː] n. T细胞受体</span></span></span>与peptide-HLA的线性表位识别，二是BCR/antibody与抗原的构象表位识别。第一类有不少<span class="word-annot"><span class="word-anchor">工具</span><span class="word-block"><span class="english-word">tool</span><span class="word-info">[tuːl] n. 工具</span></span></span>，第二类基本没有靠谱工具。大家用<span class="word-annot"><span class="word-anchor">AlphaFold</span><span class="word-block"><span class="english-word">AlphaFold</span><span class="word-info">[ˈælfə fəʊld] n. AlphaFold</span></span></span>做interaction prediction，但机器学习真正广泛复现很难——小数据能复现，到real world就难，到edge cases几乎没工具能用。</p>
+
+<p>AlphaFold这类工具在<span class="word-annot"><span class="word-anchor">BCR</span><span class="word-block"><span class="english-word">BCR</span><span class="word-info">[biː siː ɑː] n. B细胞受体</span></span></span>/antibody场景就属于edge cases——它基于进化中的negative selection profile，而BCR是active evolution，profile很不一样，效果并不好。这是<span class="word-annot"><span class="word-anchor">机器学习</span><span class="word-block"><span class="english-word">machinelearning</span><span class="word-info">[məˈʃiːn] n. 机器学习</span></span></span>的普遍问题：文章结果漂亮，落地好的相当少，到edge cases几乎没工具可用。</p>
+
+<p>这些年美国卫生部和高分杂志<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">greatly</span><span class="word-info">[ˈɡreɪtli] adv. 非常</span></span></span>在乎工具的reproducibility。我给刘琦老师最近一篇<span class="word-annot"><span class="word-anchor">Nature</span><span class="word-block"><span class="english-word">Nature</span><span class="word-info">[ˈneɪtʃə] n. Nature</span></span></span> Machine Intelligence文章做reproducibility report，非常欣赏他的工作——很多生信工作经不起深度可重复性测试，刘琦的工作经得起。他用meta learning方法做<span class="word-annot"><span class="word-anchor">PanPep</span><span class="word-block"><span class="english-word">PanPep</span><span class="word-info">[pæn] n. PanPep</span></span></span>，我们做了非常细的测试：原始数据、新数据、fine tuning、扩展到其他case，分easy/medium/hard三种难度。</p>
+
+<p>但即使这样，目前最好的工具离实际<span class="word-annot"><span class="word-anchor">应用</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[əˈplaɪ] v. 应用</span></span></span>还差得远。比如拿一个peptide到几千万<span class="word-annot"><span class="word-anchor">TCR</span><span class="word-block"><span class="english-word">TCR</span><span class="word-info">[tiː siː ɑː] n. T细胞受体</span></span></span>库里找，前100、1000甚至10000个几乎都不靠谱。我们现在做蛋白多肽设计，紧密结合实验：用贝叶斯优化产生一二十个<span class="word-annot"><span class="word-anchor">序列</span><span class="word-block"><span class="english-word">sequencezh</span><span class="word-info">[ˈsiːkwəns] n. 序列</span></span></span>，实测后反馈，再产生新序列，一般三五轮结果就非常好。</p>
+
+<p>举个农药的例子：用多肽杀农作物真菌，合作者通过phage display找到初步多肽，我们用AI贝叶斯优化，只做了几十个多肽，最终产生约100倍提高——最早的多肽<span class="word-annot"><span class="word-anchor">稀释</span><span class="word-block"><span class="english-word">dilution</span><span class="word-info">[daɪˈluːʃn] n. 稀释</span></span></span>100倍后仍能达到杀伤效果。这些结果已在大田验证并被<span class="word-annot"><span class="word-anchor">商业化</span><span class="word-block"><span class="english-word">commercial</span><span class="word-info">[kəˈmɜːʃl] adj. 商业化的</span></span></span>，说明AI有潜力，但工具还有很大空间，现阶段紧密结合实验是较好路径。</p>
+
+<p>许东： 接下来讨论：AI制药这几年<span class="word-annot"><span class="word-anchor">发展</span><span class="word-block"><span class="english-word">development</span><span class="word-info">[dɪˈveləpmənt] n. 发展</span></span></span>中，最成功的是哪些点？最<span class="word-annot"><span class="word-anchor">失败</span><span class="word-block"><span class="english-word">failureword</span><span class="word-info">[ˈfeɪljə] n. 失败</span></span></span>的又是哪些？</p>
+
+<p>刘琦： 就着刚才的讨论<span class="word-annot"><span class="word-anchor">延伸</span><span class="word-block"><span class="english-word">extend</span><span class="word-info">[ɪkˈstend] v. 延伸</span></span></span>。<span class="word-annot"><span class="word-anchor">为什么</span><span class="word-block"><span class="english-word">why</span><span class="word-info">[waɪ] adv. 为什么</span></span></span>说AI制药还有鸿沟未逾越？最大成功停留在早期药物<span class="word-annot"><span class="word-anchor">发现</span><span class="word-block"><span class="english-word">discovery</span><span class="word-info">[dɪˈskʌvəri] n. 发现</span></span></span>和筛选阶段，即靶点发现、分子生成和优化。但最大失败也在这里：很多AI筛选的分子到临床二期、三期就<span class="word-annot"><span class="word-anchor">fail</span><span class="word-block"><span class="english-word">fail</span><span class="word-info">[feɪl] v. 失败</span></span></span>掉，临床转化率相对较低。</p>
+
+<p><span class="word-annot"><span class="word-anchor">为什么</span><span class="word-block"><span class="english-word">wherefore</span><span class="word-info">[ˈweəfɔː] adv. 为什么</span></span></span>？核心问题是数据<span class="word-annot"><span class="word-anchor">局限性</span><span class="word-block"><span class="english-word">limitation</span><span class="word-info">[ˌlɪmɪˈteɪʃn] n. 局限性</span></span></span>。早期<span class="word-annot"><span class="word-anchor">筛选</span><span class="word-block"><span class="english-word">screeningzh</span><span class="word-info">[ˈskriːnɪŋ] n. 筛选</span></span></span>多在in vitro甚至model animal数据上，与人体in vivo环境有巨大gap，这是domain差异。AI模型在有限数据环境建模，学到的规律在人体复杂环境下泛化能力不足，<span class="word-annot"><span class="word-anchor">导致</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[lɪd] v. 导致</span></span></span>后期失败率高。</p>
+
+<p>再呼应张老师观点：当前AI技术发展（<span class="word-annot"><span class="word-anchor">foundation</span><span class="word-block"><span class="english-word">foundation</span><span class="word-info">[faʊnˈdeɪʃn] n. 基础模型</span></span></span> model、深度学习驱动的representation learning）对机制可解释性、模型白盒化能力较差，多是black box learning。早期PKPD模拟可用动力学、physics-driven模型，这些优势随着高阶AI技术发展反而显得不<span class="word-annot"><span class="word-anchor">fashion</span><span class="word-block"><span class="english-word">fashion</span><span class="word-info">[ˈfæʃn] n. 时髦</span></span></span>。大家过于追求data-driven、<span class="word-annot"><span class="word-anchor">de</span><span class="word-block"><span class="english-word">de</span><span class="word-info">[deɪ] prep. de novo 前缀</span></span></span>ep learning-based black box模型，对药物在人体内如何体现作用的mechanism-based东西反而不清楚了。</p>
+
+<p>未来方向：将<span class="word-annot"><span class="word-anchor">mechanics</span><span class="word-block"><span class="english-word">mechanics</span><span class="word-info">[məˈkænɪks] n. 力学/机制语境</span></span></span>-based方法与深度学习强大的representation-based方法结合, 形成“灰盒化”表征。既能高效预测筛选，又能很好体现药物机制，这可能是AI制药技术发展的<span class="word-annot"><span class="word-anchor">重要</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪmˈpɔːtnt] adj. 重要</span></span></span>方向。</p>
+
+<p>张清鹏：成功<span class="word-annot"><span class="word-anchor">方面</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈæspekt] n. 方面</span></span></span>：一是大幅缩减了分子筛选周期；二是<span class="word-annot"><span class="word-anchor">老药新用</span><span class="word-block"><span class="english-word">repurposing</span><span class="word-info">[ˌriːˈpɜːpəsɪŋ] n. 药物重定位</span></span></span>出现了不少好成果。我们自己的<span class="word-annot"><span class="word-anchor">老药新用</span><span class="word-block"><span class="english-word">repurposing</span><span class="word-info">[ˌriːˈpɜːpəsɪŋ] n. 药物重定位</span></span></span>算法与合作临床医生在给无药可用病人使用，积累了一些实际成功案例。去年《新英格兰医学杂志》发表了一篇关于卡斯尔曼病（罕见病）的文章，通过AI计算老药新用，经人工和湿实验筛选后很快给病人用上，且<span class="word-annot"><span class="word-anchor">有效</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪˈfektɪv] adj. 有效</span></span></span>果。这不见得那么fancy，但把<span class="word-annot"><span class="word-anchor">分析</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈænəlɪsɪs] n. 分析</span></span></span>做好、从已有药物里选，节奏会挺快。港大也有同事<span class="word-annot"><span class="word-anchor">通过</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[θruː] prep. 通过</span></span></span>不同方式发现有趣成药点，有的是中医，有的是现代医学药物，很多都可以转化。</p>
+
+<p>失败方面， 刘老师提到的<span class="word-annot"><span class="word-anchor">转化率</span><span class="word-block"><span class="english-word">conversion</span><span class="word-info">[kənˈvɜːʃn] n. 转化率</span></span></span>相对不高确实存在。我举个例子：与华中科大同济医学院合作时，他们讲过一个故事，有位肿瘤病人脑部转移耐药去世，开颅后<span class="word-annot"><span class="word-anchor">直接</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[dɪˈrekt] adv. 直接</span></span></span>把药撒到大脑里有效果，但递送不进去。我们<span class="word-annot"><span class="word-anchor">发现</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[faɪnd] v. 发现</span></span></span>了钥匙，但怎么费尽千辛万苦插到锁上？这中间是<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">remarkably</span><span class="word-info">[rɪˈmɑːkəbli] adv. 非常</span></span></span>复杂的过程。<span class="word-annot"><span class="word-anchor">mRNA</span><span class="word-block"><span class="english-word">mRNA</span><span class="word-info">[em ɑː] n. 信使RNA</span></span></span>最终得诺贝尔奖，关键就是纳米脂质粒的发现能很好递送。我们团队最初也想设计<span class="word-annot"><span class="word-anchor">mRNA</span><span class="word-block"><span class="english-word">mRNA</span><span class="word-info">[em ɑː] n. 信使RNA</span></span></span>语言模型，但最后发现最有趣的是如何设计纳米脂质粒，使其针对不同病人、不同器官更好递送。生成各种target或<span class="word-annot"><span class="word-anchor">promising</span><span class="word-block"><span class="english-word">promising</span><span class="word-info">[ˈprɒmɪsɪŋ] adj. 有前景的</span></span></span> molecule之外，与生物结合更多一些，这是未来最有潜力、也最有兴趣投入的点。</p>
+
+<p>许东： 两位老师说得<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">highly</span><span class="word-info">[ˈhaɪli] adv. 非常</span></span></span>好。AI展现的最大成功就是早期筛选的效率提升：以前做assay可能成千上万，现在能<span class="word-annot"><span class="word-anchor">真正</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈtruːli] adv. 真正</span></span></span>下一个数量级，这毋庸置疑。但刚才也讲到，它在整个制药链上占的研发<span class="word-annot"><span class="word-anchor">成本</span><span class="word-block"><span class="english-word">cost</span><span class="word-info">[kɒst] n. 成本</span></span></span>比例还是比较小，并没有撬动整体AI制药的范式，还有很长的路要走。</p>
+
+<p><span class="word-annot"><span class="word-anchor">当然</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈkɔːs] adv. 当然</span></span></span>，人体太复杂、药物与人体作用太复杂。张教授讲到的<span class="word-annot"><span class="word-anchor">老药新用</span><span class="word-block"><span class="english-word">repurposing</span><span class="word-info">[ˌriːˈpɜːpəsɪŋ] n. 药物重定位</span></span></span>，某种程度上能绕开一些问题。老药基本被临床<span class="word-annot"><span class="word-anchor">验证</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈverɪfaɪ] v. 验证</span></span></span>过，至少副作用不用担心，正作用有多大虽不确定，但风险可控。比如我在<span class="word-annot"><span class="word-anchor">CureMatch</span><span class="word-block"><span class="english-word">CureMatch</span><span class="word-info">[kjʊə] n. CureMatch</span></span></span>做过advisory board，他们用药物组合（两个、三个药联用）做老药新用，效果还不错。AI在这方面也能起很大<span class="word-annot"><span class="word-anchor">作用</span><span class="word-block"><span class="english-word">role</span><span class="word-info">[rəʊl] n. 作用</span></span></span>。</p>
+
+<p>刘琦： 老药新用确实是非常快速可以<span class="word-annot"><span class="word-anchor">切入</span><span class="word-block"><span class="english-word">penetrate</span><span class="word-info">[ˈpenɪtreɪt] v. 切入</span></span></span>的赛道。就像许老师说的，老药的毒性、安全性已被研究得比较透彻，<span class="word-annot"><span class="word-anchor">如果</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪf] conj. 如果</span></span></span>能快速找到新适应症，是相对稳妥、快捷的方式。</p>
+
+<p>但从商业角度，它也有问题：很多药厂在做药时会尽量自己扩大适应症，或用<span class="word-annot"><span class="word-anchor">专利</span><span class="word-block"><span class="english-word">patent</span><span class="word-info">[ˈpætnt] n. 专利</span></span></span>保护起来。要很好突破专利、找到新indication，并不<span class="word-annot"><span class="word-anchor">容易</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈiːzi] adj. 容易</span></span></span>；但一旦能做到，是<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">hugely</span><span class="word-info">[ˈhjuːdʒli] adv. 非常</span></span></span>好的事情。</p>
+
+<p>另一个观察：早期计算机辅助药物设计叫CADD，现在叫AIDD，但早期AI范式更多停留在<span class="word-annot"><span class="word-anchor">molecular</span><span class="word-block"><span class="english-word">molecular</span><span class="word-info">[məˈlekjələ] adj. 分子的</span></span></span>层面。drug <span class="word-annot"><span class="word-anchor">target</span><span class="word-block"><span class="english-word">target</span><span class="word-info">[ˈtɑːɡɪt] n. 靶点</span></span></span>明确的蛋白放在那，去找相互作用的分子。但药物研发是非常长的链条，越往后越不是简单<span class="word-annot"><span class="word-anchor">molecular</span><span class="word-block"><span class="english-word">molecular</span><span class="word-info">[məˈlekjələ] adj. 分子的</span></span></span>层面的问题，会上升到cellular、tissue层面，最终是human body层面的问题。</p>
+
+<p>这也要求AIDD<span class="word-annot"><span class="word-anchor">研究</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[rɪˈsɜːtʃ] n. 研究</span></span></span>范式要有创新。像<span class="word-annot"><span class="word-anchor">GeneTech</span><span class="word-block"><span class="english-word">GeneTech</span><span class="word-info">[dʒiːn] n. 基因泰克</span></span></span>他们推的，以及许老师说的protein design例子，就是大家认为需要做lab in a loop，用实验数据快速反馈，形成闭环，快速迭代方法。无论是<span class="word-annot"><span class="word-anchor">molecular</span><span class="word-block"><span class="english-word">molecular</span><span class="word-info">[məˈlekjələ] adj. 分子的</span></span></span>层面、cellular层面还是tissue/organ层面的模型，都需要实验反馈来校正算法。不能完全依赖AI算法本身的能力，要放到更大闭环上看这个<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">problem</span><span class="word-info">[ˈprɒbləm] n. 问题</span></span></span>。</p>
+
+<p>张清鹏： 顺着刘老师<span class="word-annot"><span class="word-anchor">补充</span><span class="word-block"><span class="english-word">supplement</span><span class="word-info">[ˈsʌplɪmənt] n. 补充</span></span></span>两点。第一，老药新用中，如果找到好药物、有一定新适应症潜力，就从设计全新<span class="word-annot"><span class="word-anchor">molecule</span><span class="word-block"><span class="english-word">molecule</span><span class="word-info">[ˈmɒlɪkjuːl] n. 分子</span></span></span>变成优化现有molecule、改进它。通过改进<span class="word-annot"><span class="word-anchor">突破</span><span class="word-block"><span class="english-word">breakthrough</span><span class="word-info">[ˈbreɪkθruː] n. 突破</span></span></span>现有专利封锁，同时使新适应症效果更好。从纯<span class="word-annot"><span class="word-anchor">建模</span><span class="word-block"><span class="english-word">modeling</span><span class="word-info">[ˈmɒdlɪŋ] n. 建模</span></span></span>角度应该能办到，现实化学里是不是可行，我不是特别清楚，但觉得应该是可以的。</p>
+
+<p>第二，许老师说的老药新用里的combination（药物<span class="word-annot"><span class="word-anchor">组合</span><span class="word-block"><span class="english-word">combination</span><span class="word-info">[ˌkɒmbɪˈneɪʃn] n. 组合</span></span></span>）。我做复杂<span class="word-annot"><span class="word-anchor">系统</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈsɪstəm] n. 系统</span></span></span>出身，最开始做药物研究就是做这个。就像研究社会网络，想控制系统往往不是一个靶点能控制的——疾病本身<span class="word-annot"><span class="word-anchor">可能</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈpɒsəbli] adv. 可能</span></span></span>不是某个通路或蛋白决定，而是整个系统稳态失衡。系统性疾病或<span class="word-annot"><span class="word-anchor">aging</span><span class="word-block"><span class="english-word">aging</span><span class="word-info">[ˈeɪdʒɪŋ] n. 衰老</span></span></span>往往是很多基因、蛋白、通路共同的状态转移。找到合适用药方案，往往需要多个靶点，这就涉及药物连用<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">query</span><span class="word-info">[ˈkwɪəri] n. 问题</span></span></span>。</p>
+
+<p>连用问题变成复杂系统/网络里多<span class="word-annot"><span class="word-anchor">靶点</span><span class="word-block"><span class="english-word">targetpoint</span><span class="word-info">[ˈtɑːɡɪt] n. 靶点</span></span></span>最优化的问题，有很多算法优化空间。<span class="word-annot"><span class="word-anchor">可以</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[kæn] v. 可以</span></span></span>一股脑扔给AI做，但这么多年组合优化、甚至量子计算方法，都可能在这里产生很好应用。</p>
+
+<p>许东： 刚才两位都谈到突破专利的<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">question</span><span class="word-info">[ˈkwestʃən] n. 问题</span></span></span>。现在一些团队和公司就做这事，尤其在多肽<span class="word-annot"><span class="word-anchor">抗体</span><span class="word-block"><span class="english-word">antibody</span><span class="word-info">[ˈæntɪbɒdi] n. 抗体</span></span></span>方面，有专利的抗体或多肽，用AI在周边寻找类似的，不一定是序列类似，而是binding confirmation类似。</p>
+
+<p>这条赛道也面临挑战：现在专利把claim做得<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">seriously</span><span class="word-info">[ˈsɪəriəsli] adv. 非常</span></span></span>广，突破专利不容易。这也有些争议：用AI专门<span class="word-annot"><span class="word-anchor">攻克</span><span class="word-block"><span class="english-word">tackle</span><span class="word-info">[ˈtækl] v. 攻克</span></span></span>现有专利，某种程度上是不是降低了专利保护的范畴？但另一方面也可能增加<span class="word-annot"><span class="word-anchor">可能性</span><span class="word-block"><span class="english-word">possibility</span><span class="word-info">[ˌpɒsəˈbɪləti] n. 可能性</span></span></span>。大家对这个<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">issue</span><span class="word-info">[ˈɪʃuː] n. 问题</span></span></span>怎么看？</p>
+
+<p>刘琦：感觉现在特别是Agent技术、<span class="word-annot"><span class="word-anchor">大语言模型</span><span class="word-block"><span class="english-word">LLM</span><span class="word-info">[el el em] n. 大语言模型</span></span></span>驱动的Agent技术发展，对专利信息收集整理能力相对于之前有巨大提升。最近很多公司在做类似的事，通过智能体技术对文献、专利信息整理、总结、梳理，甚至做自动化知识提取，帮助指导<span class="word-annot"><span class="word-anchor">从头设计</span><span class="word-block"><span class="english-word">denovo</span><span class="word-info">[deɪ ˈnəʊvəʊ] adj. 从头</span></span></span>新序列或抗体突破专利。整个事情可能通过智能体、像<span class="word-annot"><span class="word-anchor">OpenClaw</span><span class="word-block"><span class="english-word">OpenClaw</span><span class="word-info">[ˈəʊpən] n. OpenClaw</span></span></span>这种技术快速迭代完成。</p>
+
+<p>未来这确实是双刃剑： 一方面大家能<span class="word-annot"><span class="word-anchor">快速</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈræpɪd] adj. 快速</span></span></span>在药物研发中获取更多信息、快速迭代；另一方面对制药公司本身也提出很大<span class="word-annot"><span class="word-anchor">挑战</span><span class="word-block"><span class="english-word">challenge</span><span class="word-info">[ˈtʃælɪndʒ] n. 挑战</span></span></span>，怎么在未来更好保护自己的产品。双方都会有<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">incredibly</span><span class="word-info">[ɪnˈkredəbli] adv. 非常</span></span></span>多技术突破的地方。</p>
+
+<p>许东： 这个<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">matter</span><span class="word-info">[ˈmætə] n. 问题</span></span></span>确实是双刃剑。一方面增加可能性，另一方面整个药物研发从pharmaceutical到<span class="word-annot"><span class="word-anchor">biotech</span><span class="word-block"><span class="english-word">biotech</span><span class="word-info">[ˈbaɪəʊtek] n. 生物技术</span></span></span> company，在美国已面临很大压力。美国过去医保卖药利润丰厚，能拿很多<span class="word-annot"><span class="word-anchor">资源</span><span class="word-block"><span class="english-word">resource</span><span class="word-info">[rɪˈzɔːs] n. 资源</span></span></span>回来开发；但现在慢慢学其他国家，特别是<span class="word-annot"><span class="word-anchor">Medicare</span><span class="word-block"><span class="english-word">Medicare</span><span class="word-info">[ˈmedɪkeə] n. Medicare</span></span></span>用国家式采购，对定价权要求很高，制药公司面临资源越来越少。biotech投资也变得<span class="word-annot"><span class="word-anchor">风险</span><span class="word-block"><span class="english-word">risk</span><span class="word-info">[rɪsk] n. 风险</span></span></span>比较大。</p>
+
+<p>如果大家都攻克专利，说白了就是靶点已知、路走通了、antibody work了，我们改一改<span class="word-annot"><span class="word-anchor">sequence</span><span class="word-block"><span class="english-word">sequence</span><span class="word-info">[ˈsiːkwəns] n. 序列</span></span></span>也能work，这当然也是一种方式；但找到新靶点、<span class="word-annot"><span class="word-anchor">解决</span><span class="word-block"><span class="english-word">solve</span><span class="word-info">[sɒlv] v. 解决</span></span></span>新病的压力就大了。两方面要有个<span class="word-annot"><span class="word-anchor">均衡</span><span class="word-block"><span class="english-word">balance</span><span class="word-info">[ˈbæləns] n. 均衡</span></span></span>。</p>
+
+<p>确实全球范围内，真正<span class="word-annot"><span class="word-anchor">novel</span><span class="word-block"><span class="english-word">novel</span><span class="word-info">[ˈnɒvl] adj. 新颖的</span></span></span>的drug development在放缓。即使AI所谓助力，整体药物开发看FDA <span class="word-annot"><span class="word-anchor">approve</span><span class="word-block"><span class="english-word">approve</span><span class="word-info">[əˈpruːv] v. 批准</span></span></span>的新药也是越来越少。当然另一方面，剩下的病也越来越难<span class="word-annot"><span class="word-anchor">攻克</span><span class="word-block"><span class="english-word">tackle</span><span class="word-info">[ˈtækl] v. 攻克</span></span></span>，都有这方面因素。这个问题可能没有明确结论，但确实值得<span class="word-annot"><span class="word-anchor">思考</span><span class="word-block"><span class="english-word">ponder</span><span class="word-info">[ˈpɒndə] v. 思考</span></span></span>。</p>
+
+<p>刘琦： 许老师说的让我想到药物研发里的&quot;<span class="word-annot"><span class="word-anchor">反摩尔定律</span><span class="word-block"><span class="english-word">Eroom</span><span class="word-info">[ˈiːruːm] n. 反摩尔定律</span></span></span>&quot;（Eroom&#x27;s Law）。大家都知道摩尔定律是技术快速<span class="word-annot"><span class="word-anchor">迭代</span><span class="word-block"><span class="english-word">iteration</span><span class="word-info">[ˌɪtəˈreɪʃn] n. 迭代</span></span></span>、计算成本快速降低；但药物研发的反摩尔定律是：技术发展快、投入钱多，但真正<span class="word-annot"><span class="word-anchor">产出率</span><span class="word-block"><span class="english-word">productivity</span><span class="word-info">[ˌprɒdʌkˈtɪvəti] n. 产出效率</span></span></span>反而降低。<span class="word-annot"><span class="word-anchor">为什么</span><span class="word-block"><span class="english-word">why</span><span class="word-info">[waɪ] adv. 为什么</span></span></span>是这样？我现在也没有很好答案，但这是需要大家<span class="word-annot"><span class="word-anchor">关注</span><span class="word-block"><span class="english-word">attention</span><span class="word-info">[əˈtenʃn] n. 关注</span></span></span>的问题。</p>
+
+<p>许东： 很大程度上是因为剩下的<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">matter</span><span class="word-info">[ˈmætə] n. 问题</span></span></span>越来越多的是硬骨头，低垂的果实已被摘完，剩下来的是更难做的靶点、更难成药的靶点。</p>
+
+<p>我们可以就计算本身<span class="word-annot"><span class="word-anchor">讨论</span><span class="word-block"><span class="english-word">discourse</span><span class="word-info">[ˈdɪskɔːs] n. 讨论</span></span></span>。刚才讲了整个制药链，单说计算这一块，我个人<span class="word-annot"><span class="word-anchor">认为</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[θɪŋk] v. 认为</span></span></span>也有比较大挑战。PPT里展示了，真正工具用到实际数据，和文章<span class="word-annot"><span class="word-anchor">结果</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[rɪˈzʌlt] n. 结果</span></span></span>差得相当远。很多问题<span class="word-annot"><span class="word-anchor">看似</span><span class="word-block"><span class="english-word">seemingly</span><span class="word-info">[ˈsiːmɪŋli] adv. 看似</span></span></span>解决，其实没有解决。</p>
+
+<p>比如预测<span class="word-annot"><span class="word-anchor">多肽</span><span class="word-block"><span class="english-word">peptide</span><span class="word-info">[ˈpeptaɪd] n. 多肽</span></span></span>能不能通过脑血屏障，很多方法文章结果都很好，但真正去预测真的不行。这些事还得通过<span class="word-annot"><span class="word-anchor">昂贵</span><span class="word-block"><span class="english-word">costly</span><span class="word-info">[ˈkɒstli] adj. 昂贵的</span></span></span>实验去做。所以药物<span class="word-annot"><span class="word-anchor">预测</span><span class="word-block"><span class="english-word">prediction</span><span class="word-info">[prɪˈdɪkʃn] n. 预测</span></span></span>的泛化能力好像是个很大问题，和其他AI领域不太一样。自然语言或图像泛化能力可能还比较好，但药物除了人体太复杂，还跟Alpha chain、Beta chain、HLA <span class="word-annot"><span class="word-anchor">allele</span><span class="word-block"><span class="english-word">allele</span><span class="word-info">[əˈliːl] n. 等位基因</span></span></span> type、环境、怎么测的数据都有关，问题特别复杂。</p>
+
+<p>另外，<span class="word-annot"><span class="word-anchor">feature</span><span class="word-block"><span class="english-word">feature</span><span class="word-info">[ˈfiːtʃə] n. 特征</span></span></span>也非常少。小分子可以用SMILE、structure<span class="word-annot"><span class="word-anchor">表示</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪnˈdɪkeɪt] v. 表示</span></span></span>，但feature就这么点，和一张照片比少得多；氨基酸<span class="word-annot"><span class="word-anchor">feature</span><span class="word-block"><span class="english-word">feature</span><span class="word-info">[ˈfiːtʃə] n. 特征</span></span></span>更少，蛋白或多肽就是20种氨基酸的组合。能用的<span class="word-annot"><span class="word-anchor">feature</span><span class="word-block"><span class="english-word">feature</span><span class="word-info">[ˈfiːtʃə] n. 特征</span></span></span>少，我认为也是造成泛化能力差的原因。</p>
+
+<p>所以想问：AI制药这些工具，今后有没有可能真正有更好的思路和方法<span class="word-annot"><span class="word-anchor">提高</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪmˈpruːv] v. 提高</span></span></span>泛化能力？至少让这些<span class="word-annot"><span class="word-anchor">工具</span><span class="word-block"><span class="english-word">tool</span><span class="word-info">[tuːl] n. 工具</span></span></span>不只存在于高分文章中，而是真正药物开发的给力工具？</p>
+
+<p>刘琦： 我很同意许老师的<span class="word-annot"><span class="word-anchor">说法</span><span class="word-block"><span class="english-word">statement</span><span class="word-info">[ˈsteɪtmənt] n. 说法</span></span></span>。可以这样想：AI最早的应用场景是text和<span class="word-annot"><span class="word-anchor">image</span><span class="word-block"><span class="english-word">image</span><span class="word-info">[ˈɪmɪdʒ] n. 图像</span></span></span>，为什么AI在AI for science或AI制药领域泛化不那么容易？不像图像识别有<span class="word-annot"><span class="word-anchor">ImageNet</span><span class="word-block"><span class="english-word">ImageNet</span><span class="word-info">[ˈɪmɪdʒ net] n. ImageNet</span></span></span>，深度学习技术出来后就能做得很好。</p>
+
+<p>我觉得一个原因是：我们对药物、靶点、生命体的研究描述还是不够完备，<span class="word-annot"><span class="word-anchor">需要</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[niːd] v. 需要</span></span></span>更多信息描述研究对象。换句话说，当前使用的特征或信息描述有点像&quot;<span class="word-annot"><span class="word-anchor">盲人摸象</span><span class="word-block"><span class="english-word">parable</span><span class="word-info">[ˈpærəbl] n. 盲人摸象</span></span></span>&quot;：只是拿到完备描述空间中某一部分。做组学分析时经常能看到：<span class="word-annot"><span class="word-anchor">描述</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[dɪˈskraɪb] v. 描述</span></span></span>一个细胞或生命系统，不是一个简单模态就能描述完备的。这导致在不完备描述空间设计AI<span class="word-annot"><span class="word-anchor">算法</span><span class="word-block"><span class="english-word">algorithm</span><span class="word-info">[ˈælɡərɪðəm] n. 算法</span></span></span>，泛化能力会受到限制。</p>
+
+<p>第二个最大问题是：可用来训练的标注<span class="word-annot"><span class="word-anchor">信息</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˌɪnfəˈmeɪʃn] n. 信息</span></span></span>、监督信息相对不容易获取或缺失。不像<span class="word-annot"><span class="word-anchor">image</span><span class="word-block"><span class="english-word">image</span><span class="word-info">[ˈɪmɪdʒ] n. 图像</span></span></span>或text，训练模型时监督信息相对容易获取，比如image标签是猫还是狗很容易知道。但药物<span class="word-annot"><span class="word-anchor">领域</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈfiːld] n. 领域</span></span></span>很多标注信息缺失。比如许老师说的epitope问题、免疫的epitope和TCR包括跟<span class="word-annot"><span class="word-anchor">HLA</span><span class="word-block"><span class="english-word">HLA</span><span class="word-info">[eɪtʃ el eɪ] n. 人类白细胞抗原</span></span></span>结合的问题，这是非常典型的小样本学习问题。<span class="word-annot"><span class="word-anchor">HLA</span><span class="word-block"><span class="english-word">HLA</span><span class="word-info">[eɪtʃ el eɪ] n. 人类白细胞抗原</span></span></span>有很多亚型，很多deposition数据只在特定常见亚型上，要把模型泛化到没见过的HLA亚型，标注信息就不足。</p>
+
+<p>再比如预测HLA抗原复合物和<span class="word-annot"><span class="word-anchor">TCR</span><span class="word-block"><span class="english-word">TCR</span><span class="word-info">[tiː siː ɑː] n. T细胞受体</span></span></span>结合，同样是这个道理。本身就是long tail、<span class="word-annot"><span class="word-anchor">长尾分布</span><span class="word-block"><span class="english-word">longtail</span><span class="word-info">[lɒŋ] n. 长尾</span></span></span>问题。这样的问题在药物研发里<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">fairly</span><span class="word-info">[ˈfeəli] adv. 非常</span></span></span>常见：针对某蛋白家族做筛选，大量训练样本只在某类特定蛋白上见过，要泛化到没见过的蛋白，必定遇到问题。</p>
+
+<p>这也是为什么<span class="word-annot"><span class="word-anchor">AlphaFold</span><span class="word-block"><span class="english-word">AlphaFold</span><span class="word-info">[ˈælfə fəʊld] n. AlphaFold</span></span></span>做得比较好。它有相对干净、噪音小的<span class="word-annot"><span class="word-anchor">ground</span><span class="word-block"><span class="english-word">ground</span><span class="word-info">[ɡraʊnd] n. 基准</span></span></span> truth data，可以把protein folding做好；但放到其他领域，不一定有这么干净、好的<span class="word-annot"><span class="word-anchor">ground</span><span class="word-block"><span class="english-word">ground</span><span class="word-info">[ɡraʊnd] n. 基准</span></span></span> truth data让你训练模型。再加上生命体系本身非常复杂，不像text、<span class="word-annot"><span class="word-anchor">image</span><span class="word-block"><span class="english-word">image</span><span class="word-info">[ˈɪmɪdʒ] n. 图像</span></span></span>信息就放在那。各方面<span class="word-annot"><span class="word-anchor">原因</span><span class="word-block"><span class="english-word">reason</span><span class="word-info">[ˈriːzn] n. 原因</span></span></span>导致了这些问题。</p>
+
+<p>张清鹏： 刘老师回答已经很到位了，我<span class="word-annot"><span class="word-anchor">完全</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[kəmˈpliːtli] adv. 完全</span></span></span>echo&quot;盲人摸象&quot;这个点。从AI角度，AI本质上还是在&quot;猜&quot;，猜哪个<span class="word-annot"><span class="word-anchor">equilibrium</span><span class="word-block"><span class="english-word">equilibrium</span><span class="word-info">[ˌiːkwɪˈlɪbriəm] n. 平衡</span></span></span> state对应什么样的memory或state。如果只是盲人摸象的片面数据，确实很难有泛化性猜出去，因为本质上还是在猜，没有实际对<span class="word-annot"><span class="word-anchor">机理</span><span class="word-block"><span class="english-word">mechanism</span><span class="word-info">[ˈmekənɪzəm] n. 机理</span></span></span>的完整理解和推理能力。</p>
+
+<p>就像自然语言或照片，像刘老师说的，有最完整的ground truth，训练模型效果在<span class="word-annot"><span class="word-anchor">算力</span><span class="word-block"><span class="english-word">compute</span><span class="word-info">[kəmˈpjuːt] n. 算力</span></span></span>、模型结构达标情况下确实能达到很好效果。港科大熊辉老师说过：<span class="word-annot"><span class="word-anchor">数据</span><span class="word-block"><span class="english-word">datazh</span><span class="word-info">[ˈdeɪtə] n. 数据</span></span></span>越完整清晰，AI猜得越准，取代人的效果越好，比如写代码、翻译等。</p>
+
+<p>但<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">concern</span><span class="word-info">[kənˈsɜːn] n. 问题</span></span></span>在于，很多问题上根本没有完整数据，而且很多是动态的，我们把它当静态看；很多时候只有正样本，没有<span class="word-annot"><span class="word-anchor">负样本</span><span class="word-block"><span class="english-word">negatives</span><span class="word-info">[ˈneɡətɪvz] n. 负样本</span></span></span>，因为药厂不会把失败数据分享出来让你学习。数据<span class="word-annot"><span class="word-anchor">本质</span><span class="word-block"><span class="english-word">essence</span><span class="word-info">[ˈesns] n. 本质</span></span></span>上的缺失，AI毕竟不是魔法，还是在猜。没有足够数据学习，猜得比较局限、比较<span class="word-annot"><span class="word-anchor">过拟合</span><span class="word-block"><span class="english-word">overfitting</span><span class="word-info">[ˌəʊvəˈfɪtɪŋ] n. 过拟合</span></span></span>，这是可以理解的。</p>
+
+<p>许东： 我很<span class="word-annot"><span class="word-anchor">同意</span><span class="word-block"><span class="english-word">agree</span><span class="word-info">[əˈɡriː] v. 同意</span></span></span>两位的说法，刚才都提到了数据问题。数据<span class="word-annot"><span class="word-anchor">确实</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪnˈdiːd] adv. 确实</span></span></span>少，很多所谓&quot;negative results&quot;我们都看不到。但我自己<span class="word-annot"><span class="word-anchor">觉得</span><span class="word-block"><span class="english-word">believe</span><span class="word-info">[bɪˈliːv] v. 觉得</span></span></span>，数据总归会积累，只会多不会更少，今后可能逐渐变好。</p>
+
+<p>我上个月买了特斯拉，用全<span class="word-annot"><span class="word-anchor">自动驾驶</span><span class="word-block"><span class="english-word">autopilot</span><span class="word-info">[ˈɔːtəʊ] n. 自动驾驶</span></span></span>。以前觉得那东西不是特别靠谱，现在几乎开车全用<span class="word-annot"><span class="word-anchor">自动驾驶</span><span class="word-block"><span class="english-word">autopilot</span><span class="word-info">[ˈɔːtəʊ] n. 自动驾驶</span></span></span>，因为它现在确实非常靠谱。特斯拉早年也报道过问题，但现在<span class="word-annot"><span class="word-anchor">Model</span><span class="word-block"><span class="english-word">Model</span><span class="word-info">[ˈmɒdl] n. 车型</span></span></span> Y做得非常好，就是通过数据不断积累。即使积累到现在，它还得不断扩充大模型、不断<span class="word-annot"><span class="word-anchor">address</span><span class="word-block"><span class="english-word">address</span><span class="word-info">[əˈdres] v. 处理</span></span></span>我管它叫&quot;edge cases&quot;，因为总有一些新case。</p>
+
+<p>这个<span class="word-annot"><span class="word-anchor">过程</span><span class="word-block"><span class="english-word">process</span><span class="word-info">[ˈprəʊses] n. 过程</span></span></span>在药物研发中可能也一样：数据不断积累，不断有大模型。现在制药方面，无论小分子还是免疫，都有人在做所谓&quot;<span class="word-annot"><span class="word-anchor">仿真</span><span class="word-block"><span class="english-word">simulation</span><span class="word-info">[ˌsɪmjuˈleɪʃn] n. 仿真</span></span></span>式模型&quot;：真正集结大规模数据。这方面我觉得还是给我们一些希望：也许这些仿真式模型达到一定程度后，真能出现所谓&quot;顿悟&quot;现象，就是<span class="word-annot"><span class="word-anchor">Grok</span><span class="word-block"><span class="english-word">Grok</span><span class="word-info">[ɡrɒk] n. Grok</span></span></span>或emerging intelligence现象，在某些问题上产生实质性突破。</p>
+
+<p>这当然是<span class="word-annot"><span class="word-anchor">猜想</span><span class="word-block"><span class="english-word">conjecture</span><span class="word-info">[kənˈdʒektʃə] n. 猜想</span></span></span>，没有很强证据，但既然在别的领域能做到，药物领域可能也只是时间问题，也许是5年或10年这个时间段。</p>
+
+<p>许东： 那我们下一个话题，<span class="word-annot"><span class="word-anchor">讨论</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[dɪˈskʌʃn] n. 讨论</span></span></span>AI制药在不同种类药物上的特殊之处。先说<span class="word-annot"><span class="word-anchor">小分子</span><span class="word-block"><span class="english-word">smallmolecule</span><span class="word-info">[ˈsmɔːl] n. 小分子</span></span></span>——小分子当然还是现在药物的主流。有些从NCI library里找small molecule做<span class="word-annot"><span class="word-anchor">screening</span><span class="word-block"><span class="english-word">screening</span><span class="word-info">[ˈskriːnɪŋ] n. 筛选</span></span></span>，有些做真正的de novo药物设计。但de novo<span class="word-annot"><span class="word-anchor">设计</span><span class="word-block"><span class="english-word">design</span><span class="word-info">[dɪˈzaɪn] n. 设计</span></span></span>有时能设计出来，却不容易合成，或合成效率太低、成本太高。也有从中药或<span class="word-annot"><span class="word-anchor">草药</span><span class="word-block"><span class="english-word">herbal</span><span class="word-info">[ˈhɜːbl] adj. 草药的</span></span></span>中筛选小分子有效成分，这些都是AI能上手的机会。</p>
+
+<p>小分子有优点：比较稳定、容易合成，但也有<span class="word-annot"><span class="word-anchor">副作用</span><span class="word-block"><span class="english-word">sideeffect</span><span class="word-info">[saɪd] n. 副作用</span></span></span>等问题。想听听两位老师：AI在<span class="word-annot"><span class="word-anchor">小分子</span><span class="word-block"><span class="english-word">smallmolecule</span><span class="word-info">[ˈsmɔːl] n. 小分子</span></span></span>赛道上能起哪些作用？今后年轻老师选题，哪些可能是比较好的<span class="word-annot"><span class="word-anchor">题目</span><span class="word-block"><span class="english-word">topic</span><span class="word-info">[ˈtɒpɪk] n. 题目</span></span></span>？</p>
+
+<p>刘琦： 药物研发现在有非常多<span class="word-annot"><span class="word-anchor">modality</span><span class="word-block"><span class="english-word">modality</span><span class="word-info">[məʊˈdæləti] n. 模态</span></span></span>，最经典的还是small molecule，相对其他方式有很多优势，所以这也是AI制药里做得最多、从早期CADD就大量在做的领域。涉及很多<span class="word-annot"><span class="word-anchor">molecular</span><span class="word-block"><span class="english-word">molecular</span><span class="word-info">[məˈlekjələ] adj. 分子的</span></span></span>层面问题：有靶点，怎么针对靶点做小分子筛选？</p>
+
+<p>看技术发展趋势，从早期筛选到现在大家慢慢做更多<span class="word-annot"><span class="word-anchor">Generative</span><span class="word-block"><span class="english-word">generative</span><span class="word-info">[ˈdʒenərətɪv] adj. 生成的</span></span></span> AI：不需要筛，而是设计生成新小分子。这又带来新挑战，就像许老师说的：生成出来的小分子怎么评估<span class="word-annot"><span class="word-anchor">成药性</span><span class="word-block"><span class="english-word">druggability</span><span class="word-info">[ˈdrʌɡə] n. 成药性</span></span></span>？是否可以<span class="word-annot"><span class="word-anchor">合成</span><span class="word-block"><span class="english-word">synthesis</span><span class="word-info">[ˈsɪnθəsɪs] n. 合成</span></span></span>？不能生成出来很理想、很好，最后<span class="word-annot"><span class="word-anchor">合成</span><span class="word-block"><span class="english-word">synthesis</span><span class="word-info">[ˈsɪnθəsɪs] n. 合成</span></span></span>不出来。药物<span class="word-annot"><span class="word-anchor">研发</span><span class="word-block"><span class="english-word">RandD</span><span class="word-info">[ɑː ən diː] n. 研发</span></span></span>里还有很多问题需要解决。</p>
+
+<p>我们现在看到很多工作，包括自己也在做，利用foundation model强大的表征学习能力，加上后续<span class="word-annot"><span class="word-anchor">微调</span><span class="word-block"><span class="english-word">finetuning</span><span class="word-info">[faɪn] n. 微调</span></span></span>、后训练技术做药物筛选和生成。但这里面<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">substantially</span><span class="word-info">[səbˈstænʃəli] adv. 非常</span></span></span>重要的问题是：如何快速获得对AI模型的反馈？这也是我前面强调的，要做快速反馈，<span class="word-annot"><span class="word-anchor">干湿实验</span><span class="word-block"><span class="english-word">wetlab</span><span class="word-info">[wet] n. 湿实验</span></span></span>结合。</p>
+
+<p>现在有些工作做<span class="word-annot"><span class="word-anchor">active</span><span class="word-block"><span class="english-word">active</span><span class="word-info">[ˈæktɪv] adj. 主动的</span></span></span> learning（主动学习），本质上就像许老师举的蛋白质设计例子，把整个设计loop做成实验反馈，通过贝叶斯优化做实验反馈的loop。这可能是<span class="word-annot"><span class="word-anchor">现在</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[naʊ] adv. 现在</span></span></span>很重要的方向：让模型在相对较少训练样本时，通过闭环反馈快速迭代、提升性能。</p>
+
+<p>张清鹏： AI在<span class="word-annot"><span class="word-anchor">分子</span><span class="word-block"><span class="english-word">moleculezh</span><span class="word-info">[ˈmɒlɪkjuːl] n. 分子</span></span></span>设计这块已经很高产了，就像刘老师说的，但缺乏反馈。我们团队纯做算法，最近加入医学院，发现实验部分不管是合作还是外包，对项目成本和时间耗费都<span class="word-annot"><span class="word-anchor">比较</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[kəmˈpeə] v. 比较</span></span></span>高。</p>
+
+<p>我比较期望<span class="word-annot"><span class="word-anchor">自动化</span><span class="word-block"><span class="english-word">automation</span><span class="word-info">[ˌɔːtəˈmeɪʃn] n. 自动化</span></span></span>湿实验能极大把成本降下来，就像AI的token越来越便宜一样。<span class="word-annot"><span class="word-anchor">OpenAI</span><span class="word-block"><span class="english-word">OpenAI</span><span class="word-info">[ˈəʊpən aɪ] n. OpenAI</span></span></span>的Swarm虽然现在有人拿它赚钱，不代表以后都拿它赚钱，它更多是一个toy，但展示的未来会越来越好、越来越有机会。给大家机会和AI Agent不停<span class="word-annot"><span class="word-anchor">interact</span><span class="word-block"><span class="english-word">interact</span><span class="word-info">[ˌɪntərˈækt] v. 交互</span></span></span>、得到反馈、知道怎么用这个东西。</p>
+
+<p>自动化湿实验成本越来越低、足够低的情况下，很多实验可以做大量积累正<span class="word-annot"><span class="word-anchor">负反馈</span><span class="word-block"><span class="english-word">negativefeedback</span><span class="word-info">[ˈneɡətɪv] n. 负反馈</span></span></span>。这样找的并不是单一点上分数最高的，而是通过大量反馈找到机制清晰、对整个系统扰动更稳健、更容易<span class="word-annot"><span class="word-anchor">转化</span><span class="word-block"><span class="english-word">translation</span><span class="word-info">[trænzˈleɪʃn] n. 转化</span></span></span>的分子。</p>
+
+<p>许东： 刚才两位都说到快速反馈的赛道上确实也见到一些工作，比如实验室能把<span class="word-annot"><span class="word-anchor">机器人</span><span class="word-block"><span class="english-word">robot</span><span class="word-info">[ˈrəʊbɒt] n. 机器人</span></span></span>和AI联动，一边设计一边24小时不停筛选。商业上也有<span class="word-annot"><span class="word-anchor">Recursion</span><span class="word-block"><span class="english-word">Recursion</span><span class="word-info">[rɪˈkɜːʃn] n. Recursion</span></span></span> Pharmaceuticals、Ginkgo Bioworks这些公司。我们合作者去询价，<span class="word-annot"><span class="word-anchor">Ginkgo</span><span class="word-block"><span class="english-word">Ginkgo</span><span class="word-info">[ˈɡɪŋkəʊ] n. Ginkgo</span></span></span>做一小单10万美元起步，对一般学术单位不太现实。</p>
+
+<p><span class="word-annot"><span class="word-anchor">当然</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈkɔːs] adv. 当然</span></span></span>希望这过程在制药工作中能加速。筛选数以万计起步，全自动筛选不同<span class="word-annot"><span class="word-anchor">小分子</span><span class="word-block"><span class="english-word">smallmolecule</span><span class="word-info">[ˈsmɔːl] n. 小分子</span></span></span>，马上在细胞assays上看到结果，马上给AI设计新小分子，马上合成、测细胞assays，24小时不停迭代。也许这一块今后在药物开发上能取得比较亮眼的成绩，但现在好多还是<span class="word-annot"><span class="word-anchor">POC</span><span class="word-block"><span class="english-word">POC</span><span class="word-info">[piː əʊ siː] n. 概念验证</span></span></span>（proof of concept），不是制药公司广泛使用的模式。</p>
+
+<p>许东： 那我们下面讨论<span class="word-annot"><span class="word-anchor">蛋白</span><span class="word-block"><span class="english-word">proteinshort</span><span class="word-info">[ˈprəʊtiːn] n. 蛋白</span></span></span>多肽制药。这些年以蛋白多肽为<span class="word-annot"><span class="word-anchor">基础</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈbeɪsɪs] n. 基础</span></span></span>的药物呈上升趋势。我自己长期做多肽设计，有一点特别想提：小分子我们过去也做过，新冠时发过一篇小分子文章，<span class="word-annot"><span class="word-anchor">引用</span><span class="word-block"><span class="english-word">citation</span><span class="word-info">[saɪˈteɪʃn] n. 引用</span></span></span>还挺多，但合成非常复杂，找实验合作者也没做成功。多肽就不是这样，设计出来就能合成，价钱<span class="word-annot"><span class="word-anchor">现在</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[naʊ] adv. 现在</span></span></span>还挺低。</p>
+
+<p>比如做de novo肽合成，这边能找到专门服务，<span class="word-annot"><span class="word-anchor">差不多</span><span class="word-block"><span class="english-word">comparable</span><span class="word-info">[ˈkɒmpərəbl] adj. 差不多</span></span></span>200美元合成一个多肽，国内有些单位更便宜。如果不追求纯度、不做de novo合成，用<span class="word-annot"><span class="word-anchor">大肠杆菌</span><span class="word-block"><span class="english-word">coli</span><span class="word-info">[ˈkəʊlaɪ] n. 大肠杆菌</span></span></span>表达，又便宜很多。</p>
+
+<p>所以蛋白赛道不存在&quot;能不能合成&quot;的问题，但存在&quot;怎么有效、是否稳定&quot;的问题，最好常温也能用，尽量<span class="word-annot"><span class="word-anchor">避免</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[əˈvɔɪd] v. 避免</span></span></span>副作用等。</p>
+
+<p>我们现在参与的一个合作是做老年痴呆<span class="word-annot"><span class="word-anchor">疫苗</span><span class="word-block"><span class="english-word">vaccine</span><span class="word-info">[ˈvæksiːn] n. 疫苗</span></span></span>开发，用抗体中和Aβ。早期有人做过，大部分人真有效、真能把Aβ降下来，但6%的人有很强副作用（<span class="word-annot"><span class="word-anchor">脑膜炎</span><span class="word-block"><span class="english-word">meningitis</span><span class="word-info">[ˌmenɪnˈdʒaɪtɪs] n. 脑膜炎</span></span></span>等），临床实验被叫停。抗体这种方式有时副作用非常大，包括现在癌症<span class="word-annot"><span class="word-anchor">免疫疗法</span><span class="word-block"><span class="english-word">immunotherapy</span><span class="word-info">[ˌɪmjənəʊˈθerəpi] n. 免疫疗法</span></span></span>也有很多非常大副作用。这块不知道两位有什么<span class="word-annot"><span class="word-anchor">经验</span><span class="word-block"><span class="english-word">experience</span><span class="word-info">[ɪkˈspɪəriəns] n. 经验</span></span></span>分享？</p>
+
+<p>刘琦： 我做多肽、抗体相对少一点，许老师<span class="word-annot"><span class="word-anchor">经验</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪkˈspɪəriəns] n. 经验</span></span></span>更多。但很同意许老师说法：相对于小分子，多肽抗体<span class="word-annot"><span class="word-anchor">可合成性</span><span class="word-block"><span class="english-word">synthesizability</span><span class="word-info">[sɪnθəsaɪzəˈbɪləti] n. 可合成性</span></span></span>肯定更容易，但凡事都有两面性。</p>
+
+<p>张清鹏：之前跟腾讯合作过一个TCR de novo design的paper，问了业界一些朋友，有个别公司依托医院给比较独特、比较少的病人做临床转化实验，但目前还没积累到很多很强<span class="word-annot"><span class="word-anchor">证据</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈevɪdəns] n. 证据</span></span></span>。</p>
+
+<p>我个人比较感兴趣的还是免疫<span class="word-annot"><span class="word-anchor">治疗</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈθerəpi] n. 治疗</span></span></span>，不单单是癌症或自身免疫系统疾病，其他和免疫系统相关的疾病。我们不是指望蛋白一次性解决所有问题，更多从系统角度看怎样<span class="word-annot"><span class="word-anchor">影响</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈɪnfluəns] v. 影响</span></span></span>免疫系统整体状态。这和<span class="word-annot"><span class="word-anchor">蛋白质</span><span class="word-block"><span class="english-word">protein</span><span class="word-info">[ˈprəʊtiːn] n. 蛋白质</span></span></span>、多肽、抗体设计相关性很强。</p>
+
+<p>人体内免疫<span class="word-annot"><span class="word-anchor">抑制</span><span class="word-block"><span class="english-word">inhibit</span><span class="word-info">[ɪnˈhɪbɪt] v. 抑制</span></span></span>蛋白很多种，大家常用的就两种，但还有很多种。这些各种各样的免疫<span class="word-annot"><span class="word-anchor">checkpoint</span><span class="word-block"><span class="english-word">checkpoint</span><span class="word-info">[ˈtʃekpɔɪnt] n. 检查点</span></span></span> protein是不是对应一些抗体设计，或T细胞受体等其他调控免疫系统的机制可以调用起来？这还有很多可以玩、可以<span class="word-annot"><span class="word-anchor">探索</span><span class="word-block"><span class="english-word">explore</span><span class="word-info">[ɪkˈsplɔː] v. 探索</span></span></span>的点，但我们还没有相关成果出来。</p>
+
+<p>许东： 刚才说的<span class="word-annot"><span class="word-anchor">免疫</span><span class="word-block"><span class="english-word">immunity</span><span class="word-info">[ɪˈmjuːnəti] n. 免疫</span></span></span>，我认为是大有可为。免疫疗法几乎是制药里的&quot;<span class="word-annot"><span class="word-anchor">顶流</span><span class="word-block"><span class="english-word">toptier</span><span class="word-info">[tɒp] n. 顶流</span></span></span>&quot;，现在最早成功是癌症，免疫疗法把过去癌症四期判死刑的人，现在百分之二三十能治好，这是相当惊人的成就。</p>
+
+<p>这种疗法也用到老年痴呆，像我们参与的一型糖尿病，用得<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">deeply</span><span class="word-info">[ˈdiːpli] adv. 非常</span></span></span>广。免疫方式以后<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">exceedingly</span><span class="word-info">[ɪkˈsiːdɪŋli] adv. 非常</span></span></span>有空间做。年轻老师如果愿意在这个<span class="word-annot"><span class="word-anchor">赛道</span><span class="word-block"><span class="english-word">niche</span><span class="word-info">[niːʃ] n. 赛道</span></span></span>走，其实大有可为。AI现在做得还<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">truly</span><span class="word-info">[ˈtruːli] adv. 非常</span></span></span>浅，真正把AI和免疫系统深度结合的工作非常少。</p>
+
+<p>我经常审这类文章，比如给<span class="word-annot"><span class="word-anchor">Nature</span><span class="word-block"><span class="english-word">Nature</span><span class="word-info">[ˈneɪtʃə] n. Nature</span></span></span>大子刊审。<span class="word-annot"><span class="word-anchor">其实</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈæktʃuəli] adv. 其实</span></span></span>我不是免疫专家，免疫懂得很少，但用AI做免疫问题，找reviewer很难找，所以很多人找我来review，两边都知道一些的人不太多。这反过来说其实是个<span class="word-annot"><span class="word-anchor">机会</span><span class="word-block"><span class="english-word">opportunity</span><span class="word-info">[ˌɒpəˈtjuːnəti] n. 机会</span></span></span>。</p>
+
+<p>真正把免疫的东西走得更深、AI<span class="word-annot"><span class="word-anchor">结合</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[kəˈmbɪn] v. 结合</span></span></span>底层更深，从科研工作来说&quot;俗一点&quot;能发更高分文章，&quot;大一点&quot;可能在药物研发上有更多突破。</p>
+
+<p>张清鹏： <span class="word-annot"><span class="word-anchor">稍微</span><span class="word-block"><span class="english-word">slightly</span><span class="word-info">[ˈslaɪtli] adv. 稍微</span></span></span>补充一点。我个人对这最感兴趣，也是团队<span class="word-annot"><span class="word-anchor">核心</span><span class="word-block"><span class="english-word">core</span><span class="word-info">[kɔː] n. 核心</span></span></span>、现在和未来的研究重心。但和一些很知名的免疫专家<span class="word-annot"><span class="word-anchor">交流</span><span class="word-block"><span class="english-word">exchange</span><span class="word-info">[ɪksˈtʃeɪndʒ] n. 交流</span></span></span>，大家还是持相当保留态度，觉得AI还是overhyped。</p>
+
+<p>一<span class="word-annot"><span class="word-anchor">方面</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈæspekt] n. 方面</span></span></span>期待能做出很好工作，另一方面需要有合理预期。那位老师说overhyped，但依然用AI<span class="word-annot"><span class="word-anchor">设计</span><span class="word-block"><span class="english-word">design</span><span class="word-info">[dɪˈzaɪn] n. 设计</span></span></span>了一个预测免疫反应的很好文章。他所谓的overhyped是说：想靠AI在数据不够完整<span class="word-annot"><span class="word-anchor">情况</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈsɪtʃuːeɪʃn] n. 情况</span></span></span>下猜出整个免疫系统实际状态和response，还是很难。</p>
+
+<p>但具体到病人，比如PD-1百分之二三十的drug response，能把病人response区分开、把病人数据和实际<span class="word-annot"><span class="word-anchor">药理学</span><span class="word-block"><span class="english-word">pharmacology</span><span class="word-info">[ˌfɑːməˈkɒlədʒi] n. 药理学</span></span></span>特征对应得上，这本身已经非常非常强了。只是在超级大佬眼中可能觉得没那么强，但对很多想让它转化到<span class="word-annot"><span class="word-anchor">临床</span><span class="word-block"><span class="english-word">clinical</span><span class="word-info">[ˈklɪnɪkl] adj. 临床的</span></span></span>的人来说，还是很有希望的。</p>
+
+<p>许东： 我对免疫专家这种观点并不惊讶，因为免疫系统实在太复杂了，我们对免疫系统的知识其实知道得<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">tremendously</span><span class="word-info">[trəˈmendəsli] adv. 非常</span></span></span>少。不光不做免疫的，整个做免疫的专家对免疫系统了解我觉得还是比较表面，光T细胞本身就是一个王国，里面各种各样事情<span class="word-annot"><span class="word-anchor">特别</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈspeʃl] adv. 特别</span></span></span>多。</p>
+
+<p>所以AI起的作用绝对还是<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">extremely</span><span class="word-info">[ɪkˈstriːmli] adv. 非常</span></span></span>小的，但从另一点来讲这就是好的领域。我们现在在这方面稍微<span class="word-annot"><span class="word-anchor">深耕</span><span class="word-block"><span class="english-word">deepen</span><span class="word-info">[ˈdiːpən] v. 深耕</span></span></span>一点，我个人愿意往这方向多用力。年轻<span class="word-annot"><span class="word-anchor">科研</span><span class="word-block"><span class="english-word">research</span><span class="word-info">[rɪˈsɜːtʃ] n. 科研</span></span></span>工作者也可以考虑这个方向。</p>
+
+<p>杨振宁<span class="word-annot"><span class="word-anchor">过去</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈpɑːst] n. 过去</span></span></span>讲过一句话，我上大学时亲耳听到：&quot;什么是好领域？找到真正有很大空间成长的<span class="word-annot"><span class="word-anchor">领域</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈfiːld] n. 领域</span></span></span>，你自己的事业也随着领域一起成长，这就是好领域。&quot; 我觉得用计算<span class="word-annot"><span class="word-anchor">方法</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈmeθəd] n. 方法</span></span></span>、特别是AI方法做免疫，可能就属于这么一个赛道。</p>
+
+<p>刘琦： 我也很<span class="word-annot"><span class="word-anchor">同意</span><span class="word-block"><span class="english-word">agree</span><span class="word-info">[əˈɡriː] v. 同意</span></span></span>上面两位老师的说法。我们自己也确实在做一些免疫治疗、细胞治疗方面的工作，跟更多免疫学专家<span class="word-annot"><span class="word-anchor">讨论</span><span class="word-block"><span class="english-word">discussion</span><span class="word-info">[dɪˈskʌʃn] n. 讨论</span></span></span>。可能两位老师不太清楚，中国这边基金委有非常大的项目支持，所谓&quot;免疫力<span class="word-annot"><span class="word-anchor">解码</span><span class="word-block"><span class="english-word">decode</span><span class="word-info">[ˌdiːˈkəʊd] v. 解码</span></span></span>&quot;，在基金委交叉学部立很大项目，从免疫系统数据整理收集，到AI方法开发，到具体免疫学应用，我国有很大布局。</p>
+
+<p>从AI药物研发角度，免疫治疗、细胞治疗一定是非常重要的领域，相对于传统其他类型<span class="word-annot"><span class="word-anchor">疾病</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[dɪˈziːz] n. 疾病</span></span></span>治疗、其他modality，都有很多探索空间，但里面也确实非常多挑战。</p>
+
+<p>最大挑战确实是：免疫学本身高度<span class="word-annot"><span class="word-anchor">复杂</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈkɒmpleks] adj. 复杂</span></span></span>，很多免疫学家自己都还没搞清楚，更别说我们用AI来做。包括前面许老师举的例子，我们那篇文章也是在做一个最基本的fundamental问题，<span class="word-annot"><span class="word-anchor">抗原</span><span class="word-block"><span class="english-word">antigen</span><span class="word-info">[ˈæntɪdʒən] n. 抗原</span></span></span>和TCR到底怎么识别、怎么结合？通过做这问题就能看到里面有<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">vastly</span><span class="word-info">[ˈvɑːstli] adv. 非常</span></span></span>多挑战。</p>
+
+<p>许东： 那我们下面讨论<span class="word-annot"><span class="word-anchor">RNA</span><span class="word-block"><span class="english-word">RNA</span><span class="word-info">[ɑː] n. RNA</span></span></span>赛道。<span class="word-annot"><span class="word-anchor">RNA</span><span class="word-block"><span class="english-word">RNA</span><span class="word-info">[ɑː] n. RNA</span></span></span>本身可以通过新冠疫苗方式作为递送方式。比如我们跟<span class="word-annot"><span class="word-anchor">Scripps</span><span class="word-block"><span class="english-word">Scripps</span><span class="word-info">[skrɪps] n. Scripps</span></span></span> Research合作，他们做一个蛋白针对癌细胞，但不是把蛋白输入人体，而是像新冠疫苗一样把mRNA放到人体，mRNA进入癌细胞内部表达。这避免了很多问题，很多蛋白越不过细胞膜，但mRNA在里头<span class="word-annot"><span class="word-anchor">表达</span><span class="word-block"><span class="english-word">expression</span><span class="word-info">[ɪkˈspreʃn] n. 表达</span></span></span>就解决了。</p>
+
+<p>这是一种<span class="word-annot"><span class="word-anchor">递送</span><span class="word-block"><span class="english-word">delivery</span><span class="word-info">[ˈdɪlɪvəri] n. 递送</span></span></span>方式。另外小RNA赛道，siRNA、<span class="word-annot"><span class="word-anchor">miRNA</span><span class="word-block"><span class="english-word">miRNA</span><span class="word-info">[em aɪ ɑː] n. miRNA</span></span></span>等，也有不少人探讨用AI辅助制药。在<span class="word-annot"><span class="word-anchor">mRNA</span><span class="word-block"><span class="english-word">mRNA</span><span class="word-info">[em ɑː] n. 信使RNA</span></span></span>制药赛道上，两位老师有什么想法或信息分享？</p>
+
+<p>刘琦：从最早做RNA inference、<span class="word-annot"><span class="word-anchor">siRNA</span><span class="word-block"><span class="english-word">siRNA</span><span class="word-info">[es aɪ ɑː] n. siRNA</span></span></span>设计，到现在非编码RNA、microRNA，到现在mRNA疫苗，这个赛道确实和其他modality（抗体或小分子）有不一样的关注点。就像许老师说的，它最重要的是解决了<span class="word-annot"><span class="word-anchor">递送</span><span class="word-block"><span class="english-word">delivery</span><span class="word-info">[ˈdɪlɪvəri] n. 递送</span></span></span>方面的重要问题，所以这也是领域非常受关注的原因。</p>
+
+<p>张清鹏： 我们<span class="word-annot"><span class="word-anchor">经验</span><span class="word-block"><span class="english-word">experience</span><span class="word-info">[ɪkˈspɪəriəns] n. 经验</span></span></span>类似。最开始觉得用语言模型做显然<span class="word-annot"><span class="word-anchor">可以</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[kæn] v. 可以</span></span></span>做，也看到有些同事发文章。但实际做时请了一个学药物的本科生实习，一个本科生就把我们模型从机理上讲漏洞百出，单单想着很简单<span class="word-annot"><span class="word-anchor">假设</span><span class="word-block"><span class="english-word">hypothesis</span><span class="word-info">[haɪˈpɒθəsɪs] n. 假设</span></span></span>、一个语言模型就能解决所有问题。</p>
+
+<p>逐渐了解更多后，目前做得更多的还是递送这一块，<span class="word-annot"><span class="word-anchor">LNP</span><span class="word-block"><span class="english-word">LNP</span><span class="word-info">[el en piː] n. 脂质纳米颗粒</span></span></span>不同器官分布、预测组分在不同器官分布、内吞路径、脱靶风险等。希望从载体RNA、细胞整体<span class="word-annot"><span class="word-anchor">微环境</span><span class="word-block"><span class="english-word">microenv</span><span class="word-info">[ˈmaɪkrəʊ] n. 微环境</span></span></span>多尺度模型，看递送动力学、化学修饰等一体建模，这是我们在做的一些研究。</p>
+
+<p>许东： 那我们下个话题讨论其他数据，多<span class="word-annot"><span class="word-anchor">组学</span><span class="word-block"><span class="english-word">omics</span><span class="word-info">[ˈəʊmɪks] n. 组学</span></span></span>数据、单细胞数据对药物的影响。刚才讲了药物和人的<span class="word-annot"><span class="word-anchor">作用</span><span class="word-block"><span class="english-word">role</span><span class="word-info">[rəʊl] n. 作用</span></span></span>非常复杂，所以很多方法做药物效果预测。早期在细胞器里做<span class="word-annot"><span class="word-anchor">bulk</span><span class="word-block"><span class="english-word">bulk</span><span class="word-info">[bʌlk] n. 批量测序语境</span></span></span> RNA-seq，看药对细胞器的影响。现在做得比较多的是single cell level，甚至大规模做<span class="word-annot"><span class="word-anchor">Perturb</span><span class="word-block"><span class="english-word">Perturb</span><span class="word-info">[pəˈtɜːb] v. 扰动</span></span></span>-seq大规模筛选。</p>
+
+<p>其他组学如<span class="word-annot"><span class="word-anchor">蛋白组</span><span class="word-block"><span class="english-word">proteomics</span><span class="word-info">[ˌprəʊtiːˈɒmɪks] n. 蛋白组学</span></span></span>学、修饰组学也做得蛮多。很多药物作用离不开蛋白修饰，比如抗体作用，抗原<span class="word-annot"><span class="word-anchor">糖基化</span><span class="word-block"><span class="english-word">glycosylation</span><span class="word-info">[ˌɡlaɪkɒsɪˈleɪʃn] n. 糖基化</span></span></span>等修饰会阻断作用，测各种组学能理解这事。</p>
+
+<p>进一步现在做<span class="word-annot"><span class="word-anchor">Virtual</span><span class="word-block"><span class="english-word">virtual</span><span class="word-info">[ˈvɜːtʃuəl] adj. 虚拟的</span></span></span> cell，真正把细胞里方方面面在虚拟细胞里模拟出来，变成actionable的模拟器。在虚拟<span class="word-annot"><span class="word-anchor">细胞</span><span class="word-block"><span class="english-word">cell</span><span class="word-info">[sel] n. 细胞</span></span></span>里加药，看会有什么效果。这方向在美国卫生部也推动，因为过去做临床或实验得经过大型动物、找猴子等，现在美国卫生部说可以越过——用细胞实验或小鼠实验，不用做猴子实验，直接到人的一期临床<span class="word-annot"><span class="word-anchor">试验</span><span class="word-block"><span class="english-word">trial</span><span class="word-info">[ˈtraɪəl] n. 试验</span></span></span>。<span class="word-annot"><span class="word-anchor">Virtual</span><span class="word-block"><span class="english-word">virtual</span><span class="word-info">[ˈvɜːtʃuəl] adj. 虚拟的</span></span></span> cell模拟作用越来越重要。</p>
+
+<p>这<span class="word-annot"><span class="word-anchor">赛道</span><span class="word-block"><span class="english-word">vertical</span><span class="word-info">[ˈvɜːtɪkl] n. 赛道</span></span></span>也有很多AI方法。我们自己做单<span class="word-annot"><span class="word-anchor">细胞</span><span class="word-block"><span class="english-word">cellular</span><span class="word-info">[ˈseljələ] adj. 细胞的</span></span></span>数据比较多，刘琦老师也做很多这方面工作。单细胞分析、AI对药物<span class="word-annot"><span class="word-anchor">响应</span><span class="word-block"><span class="english-word">response</span><span class="word-info">[rɪˈspɒns] n. 响应</span></span></span>预测可能有帮助。两位老师在这方面有什么想<span class="word-annot"><span class="word-anchor">分享</span><span class="word-block"><span class="english-word">share</span><span class="word-info">[ʃeə] v. 分享</span></span></span>的？</p>
+
+<p>刘琦： 组学这块我们确实做了<span class="word-annot"><span class="word-anchor">比较</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[kəmˈpeə] v. 比较</span></span></span>多工作，包括单细胞组学。许老师提到Virtual cell概念，我们现在开发所谓in silico cell、Virtual cell、<span class="word-annot"><span class="word-anchor">数字细胞</span><span class="word-block"><span class="english-word">digitalcell</span><span class="word-info">[ˈdɪdʒɪtl] adj. 数字细胞</span></span></span>，不同概念，但是其实指向相似的事情。</p>
+
+<p>在AIDD领域怎么<span class="word-annot"><span class="word-anchor">理解</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˌʌndəˈstænd] v. 理解</span></span></span>？个人觉得它超越了传统<span class="word-annot"><span class="word-anchor">molecular</span><span class="word-block"><span class="english-word">molecular</span><span class="word-info">[məˈlekjələ] adj. 分子的</span></span></span> level的AIDD技术手段，更多是从cellular角度做系统刻画。很多时候组学解决的问题，并不是靶点非常明确、针对蛋白做药物设计或分子筛选，而是只有cellular level的profile、phenotype readout，可能是基因<span class="word-annot"><span class="word-anchor">转录组</span><span class="word-block"><span class="english-word">transcriptome</span><span class="word-info">[trænˈskɪptəʊm] n. 转录组</span></span></span>、蛋白组、修饰等，是体系本身的readout。</p>
+
+<p>加上现在perturbation-based技术（如Perturb-seq），可以研究细胞在<span class="word-annot"><span class="word-anchor">扰动</span><span class="word-block"><span class="english-word">perturbation</span><span class="word-info">[ˌpɜːbəˈteɪʃn] n. 扰动</span></span></span>状态下怎么变化。我们现在也做很多这些东西，包括提了一个概念叫&quot;world model（<span class="word-annot"><span class="word-anchor">世界模型</span><span class="word-block"><span class="english-word">worldmodel</span><span class="word-info">[wɜːld ˈmɒdl] n. 世界模型</span></span></span>）&quot;，指的是从动力学角度出发，像无人驾驶汽车一样，研究细胞在扰动状态下的变化轨迹、运动轨迹。</p>
+
+<p>从药物研发角度，这本质上是底层逻辑，可以应用于<span class="word-annot"><span class="word-anchor">小分子</span><span class="word-block"><span class="english-word">smallmolecule</span><span class="word-info">[ˈsmɔːl] n. 小分子</span></span></span>药物研发，也可以应用于细胞治疗、抗体研发等。它更多是从cellular level而非<span class="word-annot"><span class="word-anchor">molecular</span><span class="word-block"><span class="english-word">molecular</span><span class="word-info">[məˈlekjələ] adj. 分子的</span></span></span> level研究体系。组学技术本身跟蛋白质<span class="word-annot"><span class="word-anchor">结构</span><span class="word-block"><span class="english-word">structure</span><span class="word-info">[ˈstrʌktʃə] n. 结构</span></span></span>建模、小分子虚拟筛选等技术，提供了另外一个角度的补充，都是从药物研发角度帮助发现新治疗方案、找到新靶点等方面体现作用。</p>
+
+<p>张清鹏： 单<span class="word-annot"><span class="word-anchor">细胞</span><span class="word-block"><span class="english-word">cellular</span><span class="word-info">[ˈseljələ] adj. 细胞的</span></span></span>这边我们是另外一个角度。一方面是和临床结合合作，对比治疗前/治疗后、预后好/预后不好的病人的单细胞数据，看能不能找到可能的druggable <span class="word-annot"><span class="word-anchor">target</span><span class="word-block"><span class="english-word">target</span><span class="word-info">[ˈtɑːɡɪt] n. 靶点</span></span></span>。找target的过程中，就像刘老师说的已经到了<span class="word-annot"><span class="word-anchor">cellular</span><span class="word-block"><span class="english-word">cellular</span><span class="word-info">[ˈseljələ] adj. 细胞的</span></span></span> level，很多时候看到单细胞数据里，病（不管是肿瘤还是其他）不是铁板一块，而是复杂生态系统。</p>
+
+<p>干预过程往往也不是以前那样看所有细胞的平均状态，现在能看到不同细胞之间inter<span class="word-annot"><span class="word-anchor">cellular</span><span class="word-block"><span class="english-word">cellular</span><span class="word-info">[ˈseljələ] adj. 细胞的</span></span></span>有很多interaction、互相制约和调控。这很符合我们做建模、<span class="word-annot"><span class="word-anchor">尤其</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ɪˈspeʃəli] adv. 尤其</span></span></span>是复杂系统建模的方向，是我们很感兴趣的方向。所以更多还是在利用单细胞<span class="word-annot"><span class="word-anchor">测序</span><span class="word-block"><span class="english-word">sequencing</span><span class="word-info">[ˈsiːkwənsɪŋ] n. 测序</span></span></span>出来的数据。</p>
+
+<p>许东： 那我们下一个话题谈谈<span class="word-annot"><span class="word-anchor">AI Agent</span><span class="word-block"><span class="english-word">AIAgent</span><span class="word-info">[eɪ aɪ] n. AI智能体</span></span></span>方向。我教机器学习<span class="word-annot"><span class="word-anchor">方法论</span><span class="word-block"><span class="english-word">methodology</span><span class="word-info">[ˌmeθəˈdɒlədʒi] n. 方法论</span></span></span>这门课，深感机器学习发展实在太快，估计教别的课每年改一点点PPT就行，机器学习这门课每次讲，百分之二三十内容全得置换，内容太新了。</p>
+
+<p>从自然语言模型到大语言模型，再到AI Agent，然后到所谓&quot;skills&quot;模式，这个发展可能给制药赛道提供一些东西，比如从<span class="word-annot"><span class="word-anchor">文献检索</span><span class="word-block"><span class="english-word">litsearch</span><span class="word-info">[ˈlɪtrətʃə] n. 文献检索</span></span></span>到假设生成、实验设计、分子筛选，整个都能串在一起。</p>
+
+<p>我们也见到生信里一些好的Agent，比如<span class="word-annot"><span class="word-anchor">Biomni</span><span class="word-block"><span class="english-word">Biomni</span><span class="word-info">[baɪˈɒmni] n. Biomni</span></span></span>，自己在试这个模型，确实相当给力。这些<span class="word-annot"><span class="word-anchor">Agent</span><span class="word-block"><span class="english-word">Agent</span><span class="word-info">[ˈeɪdʒənt] n. 智能体</span></span></span>对药物范式会不会有真正更大的影响？还是<span class="word-annot"><span class="word-anchor">比较</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[kəmˈpeə] v. 比较</span></span></span>期待的。两位老师在这问题上有什么<span class="word-annot"><span class="word-anchor">想法</span><span class="word-block"><span class="english-word">thought</span><span class="word-info">[θɔːt] n. 想法</span></span></span>？</p>
+
+<p>刘琦：我在同济教<span class="word-annot"><span class="word-anchor">机器学习</span><span class="word-block"><span class="english-word">machinelearning</span><span class="word-info">[məˈʃiːn] n. 机器学习</span></span></span>本科课程，也觉得变化非常快。AI从早期符号主义，到现在深度学习<span class="word-annot"><span class="word-anchor">连接主义</span><span class="word-block"><span class="english-word">connectionist</span><span class="word-info">[kəˈnekʃənɪst] adj. 连接主义</span></span></span>，再到foundation model，到现在Agent时代，发展非常非常快。</p>
+
+<p>生物包括AI制药领域也看到<span class="word-annot"><span class="word-anchor">Agent</span><span class="word-block"><span class="english-word">Agent</span><span class="word-info">[ˈeɪdʒənt] n. 智能体</span></span></span>应用。记得很早ChatGPT刚起来时，许老师在给我们学校线上报告讲到prompt、<span class="word-annot"><span class="word-anchor">提示</span><span class="word-block"><span class="english-word">prompt</span><span class="word-info">[prɒmpt] n. 提示</span></span></span>工程，现在看技术又不停迭代，从RAG技术到现在可能用得不多，到现在OpenClaw等技术。</p>
+
+<p>也确实看到像许老师说的Biomni，还有北美James <span class="word-annot"><span class="word-anchor">Zou</span><span class="word-block"><span class="english-word">Zou</span><span class="word-info">[dzuː] n. 邹</span></span></span>等做的很多类似Agent工作。但我个人观点：至少从现在工作看，<span class="word-annot"><span class="word-anchor">Agent</span><span class="word-block"><span class="english-word">Agent</span><span class="word-info">[ˈeɪdʒənt] n. 智能体</span></span></span>更多还是扮演自动化的衔接纽带。更多是用<span class="word-annot"><span class="word-anchor">智能体</span><span class="word-block"><span class="english-word">agentzh</span><span class="word-info">[ˈeɪdʒənt] n. 智能体</span></span></span>技术把很多分析工具和流程整合起来，就是现在说的&quot;skills&quot;——本质上还是工具流程的整合和自动化，并没有传统理解的training-prediction的AI味道，还差那么点意思。</p>
+
+<p>当然不妨碍未来用大语言模型能力，从训练角度、规划角度，涉及后训练技术、强<span class="word-annot"><span class="word-anchor">化学</span><span class="word-block"><span class="english-word">chemistry</span><span class="word-info">[ˈkemɪstri] n. 化学</span></span></span>习运用，真正让智能体发挥作用。现在感觉<span class="word-annot"><span class="word-anchor">Swarm</span><span class="word-block"><span class="english-word">Swarm</span><span class="word-info">[swɔːm] n. Swarm</span></span></span>这种东西，更多还是大元模型做流程化调度和整合，智能因素还没有那么被发挥出来。</p>
+
+<p>张清鹏：我们虽然我在药学系，但一半contract在数据<span class="word-annot"><span class="word-anchor">科学</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈsaɪəns] n. 科学</span></span></span>，给全校设计AI literacy课程，包括给医学院设计相关课程，也是每次几乎要改大半部分。</p>
+
+<p>个人觉得现在<span class="word-annot"><span class="word-anchor">AI Agent</span><span class="word-block"><span class="english-word">AIAgent</span><span class="word-info">[eɪ aɪ] n. AI智能体</span></span></span>，一方面不知疲惫，可以一直压榨它；另一方面记忆力好一点，最起码在con<span class="word-annot"><span class="word-anchor">text</span><span class="word-block"><span class="english-word">text</span><span class="word-info">[tekst] n. 文本</span></span></span>下面可以做到过目不忘。<span class="word-annot"><span class="word-anchor">类似于</span><span class="word-block"><span class="english-word">akin</span><span class="word-info">[əˈkɪn] prep. 类似于</span></span></span>实习生角色。基模水平可能还没有特别强，但每个人都有10个、20个24小时工作的<span class="word-annot"><span class="word-anchor">实习生</span><span class="word-block"><span class="english-word">interns</span><span class="word-info">[ˈɪntɜːn] n. 实习生</span></span></span>，效率肯定提高很多。</p>
+
+<p>而且想到<span class="word-annot"><span class="word-anchor">OpenAI</span><span class="word-block"><span class="english-word">OpenAI</span><span class="word-info">[ˈəʊpən aɪ] n. OpenAI</span></span></span> Swarm是一种，今年下半年肯定会有更好机制、更好基模出来，token也会越来越便宜。稍微往前看，肯定能比去年James那篇<span class="word-annot"><span class="word-anchor">Nature</span><span class="word-block"><span class="english-word">Nature</span><span class="word-info">[ˈneɪtʃə] n. Nature</span></span></span>做得更好。像这种相对<span class="word-annot"><span class="word-anchor">模块化</span><span class="word-block"><span class="english-word">modular</span><span class="word-info">[ˈmɒdjələ] adj. 模块化</span></span></span>的科研工作，以后到底什么是科研、什么是人要做的科研，可能需要一定程度重新定义。</p>
+
+<p>有些工作可能真的是a group of Agent完全可以做，完全不需要人参与，以后还是不是我们所谓&quot;人参与的科研&quot;，<span class="word-annot"><span class="word-anchor">范式</span><span class="word-block"><span class="english-word">paradigm</span><span class="word-info">[ˈpærədaɪm] n. 范式</span></span></span>上都会有所改变。但短期内，肯定还是看human in the loop，像<span class="word-annot"><span class="word-anchor">James</span><span class="word-block"><span class="english-word">James</span><span class="word-info">[dʒeɪmz] n. James</span></span></span>那篇文章，还是有一个人，如果没有人可能也做不到那个效果。肯定还是有人在关键点发挥人最重要的<span class="word-annot"><span class="word-anchor">角色</span><span class="word-block"><span class="english-word">roleplay</span><span class="word-info">[rəʊl] n. 角色</span></span></span>，然后放大AI能力、放大每个人能力。</p>
+
+<p>整体而言还是非常<span class="word-annot"><span class="word-anchor">兴奋</span><span class="word-block"><span class="english-word">excitement</span><span class="word-info">[ɪkˈsaɪtmənt] n. 兴奋</span></span></span>。这东西有点像<span class="word-annot"><span class="word-anchor">Minecraft</span><span class="word-block"><span class="english-word">Minecraft</span><span class="word-info">[ˈmaɪnkrɑːft] n. Minecraft</span></span></span>游戏，接下来给这些AI Agent一个、两个或100个、1000个，让它自己在里面做各种各样的事，感觉像有个基地，绝大多数潜力都还没有被挖掘出来。可能比<span class="word-annot"><span class="word-anchor">协调</span><span class="word-block"><span class="english-word">coordination</span><span class="word-info">[kəʊˌɔːdɪˈneɪʃn] n. 协调</span></span></span>还要再往前一步，现在基模一定程度上是可以办到的。</p>
+
+<p><span class="word-annot"><span class="word-anchor">当然</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈkɔːs] adv. 当然</span></span></span>也包括药物研发。药厂以后成本肯定会降很多，因为记得读书时有个<span class="word-annot"><span class="word-anchor">PhD</span><span class="word-block"><span class="english-word">PhD</span><span class="word-info">[piː eɪtʃ diː] n. 博士</span></span></span> Comics，一个做生物化学实验的博士生崩溃说每隔几小时往里加点东西做实验，&quot;猴子都能干这个事情，我凭什么要干？&quot;。以后<span class="word-annot"><span class="word-anchor">具身</span><span class="word-block"><span class="english-word">embodied</span><span class="word-info">[ɪmˈbɒdɪd] adj. 具身</span></span></span>智能这些方法，Agent在现实实验室中能具身出来，可以省掉很多成本。还是挺期待<span class="word-annot"><span class="word-anchor">AI Agent</span><span class="word-block"><span class="english-word">AIAgent</span><span class="word-info">[eɪ aɪ] n. AI智能体</span></span></span>在药物研发里的各种可能性。</p>
+
+<p>许东：我自己感觉，Agent这种方式，特别是Swarm模式，在AI制药<span class="word-annot"><span class="word-anchor">赛道</span><span class="word-block"><span class="english-word">track</span><span class="word-info">[træk] n. 赛道</span></span></span>上，可能帮的更多的不是方法，而是帮了人。</p>
+
+<p>什么<span class="word-annot"><span class="word-anchor">意思</span><span class="word-block"><span class="english-word">meaning</span><span class="word-info">[ˈmiːnɪŋ] n. 意思</span></span></span>呢？以前都是Hardware as a Service（<span class="word-annot"><span class="word-anchor">HaaS</span><span class="word-block"><span class="english-word">HaaS</span><span class="word-info">[hæz] n. 硬件即服务</span></span></span>）、Software as a Service（SaaS）、Data as a Service（DaaS）。Swarm模式真是叫<span class="word-annot"><span class="word-anchor">RaaS</span><span class="word-block"><span class="english-word">RaaS</span><span class="word-info">[rɑːz] n. 结果即服务</span></span></span>（Results as a Service）。你告诉他<span class="word-annot"><span class="word-anchor">自然语言</span><span class="word-block"><span class="english-word">naturallanguage</span><span class="word-info">[ˈnætʃərəl] n. 自然语言</span></span></span>的东西，他就直接给你出结果了，这是过去没见过的情况。</p>
+
+<p>在生信问题上，过去很多做实验的人觉得用生信挺复杂，现在跟他说用自然语言把问题说一说，Agent就帮你做了，像BioAutoMATE很大程度上已经<span class="word-annot"><span class="word-anchor">实现</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈriːəlaɪz] v. 实现</span></span></span>这个事了——让很多实验的人很容易上手AI工具。</p>
+
+<p>另外，即使我们做计算的，一般学生做问题可能还是比较<span class="word-annot"><span class="word-anchor">窄</span><span class="word-block"><span class="english-word">narrow</span><span class="word-info">[ˈnærəʊ] adj. 狭窄</span></span></span>。比如真正做AI设计的，问他稍微一点，让他用别的问题做点<span class="word-annot"><span class="word-anchor">pipeline</span><span class="word-block"><span class="english-word">pipeline</span><span class="word-info">[ˈpaɪplaɪn] n. 流程管线</span></span></span>设计，能不能不要有免疫反应？正常情况下他得去学那个东西做成半天，<span class="word-annot"><span class="word-anchor">Agent</span><span class="word-block"><span class="english-word">Agent</span><span class="word-info">[ˈeɪdʒənt] n. 智能体</span></span></span>就是描述一下，Agent帮他做了。所以这些对人的帮助确实非常<span class="word-annot"><span class="word-anchor">明显</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈɒbviəs] adj. 明显</span></span></span>。</p>
+
+<p>刘琦： 对，我<span class="word-annot"><span class="word-anchor">觉得</span><span class="word-block"><span class="english-word">believe</span><span class="word-info">[bɪˈliːv] v. 觉得</span></span></span>许老师说得特别对。个人感觉Agent对AI制药来说，还是没有跨越最初讲的那些壁垒，它更多还是加速降本增效过程，提高药物研发前期早期效率、<span class="word-annot"><span class="word-anchor">降低</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[rɪˈdjuːs] v. 降低</span></span></span>成本。原先做实验要一天，现在可能只要一个<span class="word-annot"><span class="word-anchor">小时</span><span class="word-block"><span class="english-word">hour</span><span class="word-info">[ˈaʊə] n. 小时</span></span></span>；原先设计什么东西，通过<span class="word-annot"><span class="word-anchor">Agent</span><span class="word-block"><span class="english-word">Agent</span><span class="word-info">[ˈeɪdʒənt] n. 智能体</span></span></span>很快把前面所有东西都做好。</p>
+
+<p>但本质的药物研发逻辑还是没有办法突破，包括前面说的那些<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">query</span><span class="word-info">[ˈkwɪəri] n. 问题</span></span></span>，somehow还是存在在那里。当然不排除未来<span class="word-annot"><span class="word-anchor">Agent</span><span class="word-block"><span class="english-word">Agent</span><span class="word-info">[ˈeɪdʒənt] n. 智能体</span></span></span>进化非常快，可能有新技术产生。比如现在也看到，包括在AI模型设计上，很多工作是用Agent帮助设计AI模型架构，希望用Agent帮助更好设计模型架构，达到很好<span class="word-annot"><span class="word-anchor">泛化</span><span class="word-block"><span class="english-word">generalization</span><span class="word-info">[ˌdʒenərəlaɪˈzeɪʃn] n. 泛化</span></span></span>性能。像这样方向可能对我们突破AI制药本身的重要挑战<span class="word-annot"><span class="word-anchor">帮助</span><span class="word-block"><span class="english-word">help</span><span class="word-info">[help] n. 帮助</span></span></span>更大，而不是降本增效。</p>
+
+<p>当然对制药<span class="word-annot"><span class="word-anchor">公司</span><span class="word-block"><span class="english-word">company</span><span class="word-info">[ˈkʌmpəni] n. 公司</span></span></span>来说，很多也非常愿意买单。现在看到真正做AI制药的，不是用AI研究筛选小分子，可能是帮做<span class="word-annot"><span class="word-anchor">文献</span><span class="word-block"><span class="english-word">literature</span><span class="word-info">[ˈlɪtrətʃə] n. 文献</span></span></span>整理、临床资料整理梳理自动化，反而这样一些公司很赚钱。真正做AI制药的<span class="word-annot"><span class="word-anchor">公司</span><span class="word-block"><span class="english-word">company</span><span class="word-info">[ˈkʌmpəni] n. 公司</span></span></span>反而不是那么容易赚钱，道理也在这个地方。</p>
+
+<p>张清鹏： 前一段见一个校友，制药公司，聊到最后说能不能帮我<span class="word-annot"><span class="word-anchor">部署</span><span class="word-block"><span class="english-word">deploy</span><span class="word-info">[dɪˈplɔɪ] v. 部署</span></span></span>几个Agent，让我裁掉1/3的人。最终就像刘老师说的，更感兴趣的还是直接能降本增效的点，实际核心业务<span class="word-annot"><span class="word-anchor">流程</span><span class="word-block"><span class="english-word">workflow</span><span class="word-info">[ˈwɜːkfləʊ] n. 流程</span></span></span>现在还很难切进去。</p>
+
+<p>许东： <span class="word-annot"><span class="word-anchor">增效</span><span class="word-block"><span class="english-word">efficiencygain</span><span class="word-info">[ɪˈfɪʃnsi] n. 增效</span></span></span>确实非常明显。比如我们组有人说，做AI模型什么的，现在研发<span class="word-annot"><span class="word-anchor">速度</span><span class="word-block"><span class="english-word">velocity</span><span class="word-info">[vəˈlɒsəti] n. 速度</span></span></span>一个人相当于以前6个人的速度。训练这些东西还是得花那么多时间，但<span class="word-annot"><span class="word-anchor">产生</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈprɒdjuːs] v. 产生</span></span></span>模型的速度基本上能提高好几倍，这点确实非常明显。</p>
+
+<p>许东： 那我们最后一个<span class="word-annot"><span class="word-anchor">问题</span><span class="word-block"><span class="english-word">question</span><span class="word-info">[ˈkwestʃən] n. 问题</span></span></span>，讲讲中国在这方面的发展。<span class="word-annot"><span class="word-anchor">今天</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[təˈdeɪ] adv. 今天</span></span></span>听众很多是国内的。国内在AI制药赛道上，对全球科研贡献越来越大，产业上也见到很多创新亮点：比如一些单抗、双抗被国外大型药企高价<span class="word-annot"><span class="word-anchor">收购</span><span class="word-block"><span class="english-word">acquisition</span><span class="word-info">[ˌækwɪˈzɪʃn] n. 收购</span></span></span>，非常喜人。从中国发展来说，两位老师对做药物的<span class="word-annot"><span class="word-anchor">优势</span><span class="word-block"><span class="english-word">advantage</span><span class="word-info">[ədˈvɑːntɪdʒ] n. 优势</span></span></span>、机会、挑战有什么想法？</p>
+
+<p>刘琦： 确实看到很多中国药企做海外<span class="word-annot"><span class="word-anchor">deal</span><span class="word-block"><span class="english-word">deal</span><span class="word-info">[diːl] n. 交易</span></span></span>，现在成了一种趋势、一种商业模式。<span class="word-annot"><span class="word-anchor">原因</span><span class="word-block"><span class="english-word">reason</span><span class="word-info">[ˈriːzn] n. 原因</span></span></span>很多：</p>
+
+<p>第一，中美<span class="word-annot"><span class="word-anchor">成本</span><span class="word-block"><span class="english-word">cost</span><span class="word-info">[kɒst] n. 成本</span></span></span>差异。中国药物研发上下游<span class="word-annot"><span class="word-anchor">产业链</span><span class="word-block"><span class="english-word">supplychain</span><span class="word-info">[səˈplaɪ] n. 产业链</span></span></span>，从成本上来说相对美国很有优势，产业链也非常完备。在中国如果有<span class="word-annot"><span class="word-anchor">idea</span><span class="word-block"><span class="english-word">idea</span><span class="word-info">[aɪˈdɪə] n. 想法</span></span></span>，自己具备实现idea做药的所有产业链条，整个产业成本也比较低。这是国外大药厂从中国买<span class="word-annot"><span class="word-anchor">drug</span><span class="word-block"><span class="english-word">drug</span><span class="word-info">[drʌɡ] n. 药物</span></span></span>最大的原因。</p>
+
+<p>第二，中国有<span class="word-annot"><span class="word-anchor">比较</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[kəmˈpeə] v. 比较</span></span></span>大的临床数据资源，这也是很重要的优势。</p>
+
+<p>第三，国家本身的技术储备、<span class="word-annot"><span class="word-anchor">人才</span><span class="word-block"><span class="english-word">talent</span><span class="word-info">[ˈtælənt] n. 人才</span></span></span>储备，包括AI技术产业快速增长，也是很重要的原因。从AI<span class="word-annot"><span class="word-anchor">技术</span><span class="word-block"><span class="english-word">technology</span><span class="word-info">[tekˈnɒlədʒi] n. 技术</span></span></span>上看，中国应该不比美国差多少。</p>
+
+<p>这些都让我对中国AI制药<span class="word-annot"><span class="word-anchor">未来</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈfjuːtʃə] n. 未来</span></span></span>产业发展非常非常有信心。最近也看到很多公司，比如英矽智能、晶泰科技等都做得<span class="word-annot"><span class="word-anchor">非常</span><span class="word-block"><span class="english-word">seriously</span><span class="word-info">[ˈsɪəriəsli] adv. 非常</span></span></span>好。</p>
+
+<p>张清鹏： 我也<span class="word-annot"><span class="word-anchor">同意</span><span class="word-block"><span class="english-word">agree</span><span class="word-info">[əˈɡriː] v. 同意</span></span></span>刘老师说的。一方面制药产业刚才刘老师说了，从AI产业来说，<span class="word-annot"><span class="word-anchor">差距</span><span class="word-block"><span class="english-word">gap</span><span class="word-info">[ɡæp] n. 差距</span></span></span>基本上在一年之内，是非常小的差距。AI底层不管是能源<span class="word-annot"><span class="word-anchor">供给</span><span class="word-block"><span class="english-word">supply</span><span class="word-info">[səˈplaɪ] n. 供给</span></span></span>、能源成本，未来token成本，这些都有优势。中国<span class="word-annot"><span class="word-anchor">需求</span><span class="word-block"><span class="english-word">demand</span><span class="word-info">[dɪˈmɑːnd] n. 需求</span></span></span>也比较大。</p>
+
+<p>唯一的是，数据<span class="word-annot"><span class="word-anchor">虽然</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈɔːlðəʊ] conj. 虽然</span></span></span>多但比较分散，很难形成聚力。尤其是临床这块，我们接触得多一些，数据之间<span class="word-annot"><span class="word-anchor">互通</span><span class="word-block"><span class="english-word">interoperability</span><span class="word-info">[ˌɪntərɒpərəˈbɪləti] n. 互通</span></span></span>一定程度上抑制了很多可能的创新研究以及转化机会。<span class="word-annot"><span class="word-anchor">当然</span><span class="word-block"><span class="english-word">lex</span><span class="word-info">[ˈkɔːs] adv. 当然</span></span></span>这些都是好攻克、好改变的。</p>
+
+<p>许东： 我很同意，这方面<span class="word-annot"><span class="word-anchor">国内</span><span class="word-block"><span class="english-word">domestic</span><span class="word-info">[dəˈmestɪk] adj. 国内</span></span></span>会越做越好。刚才讲到人才储备，不光是国内，全球范围内华人在这赛道上可能代表了<span class="word-annot"><span class="word-anchor">一半</span><span class="word-block"><span class="english-word">half</span><span class="word-info">[hɑːf] n. 一半</span></span></span>的科研人员。黄仁勋老讲全球做AI的一半都是<span class="word-annot"><span class="word-anchor">华人</span><span class="word-block"><span class="english-word">diaspora</span><span class="word-info">[daɪˈæspərə] n. 华人</span></span></span>，真是这样。</p>
+
+<p>我是90年来美国的，那时候技术高手好多是<span class="word-annot"><span class="word-anchor">前苏联</span><span class="word-block"><span class="english-word">Soviet</span><span class="word-info">[ˈsəʊviət] adj. 前苏联的</span></span></span>、东欧的人，数学训练特别严格。比如<span class="word-annot"><span class="word-anchor">BLAST</span><span class="word-block"><span class="english-word">BLAST</span><span class="word-info">[blæst] n. BLAST</span></span></span>软件最终优化好多都是前苏联三十几个人优化到非常极致的程度。但过去十年看到，因为国内基础教育非常好，AI在这方面表现非常<span class="word-annot"><span class="word-anchor">突出</span><span class="word-block"><span class="english-word">prominent</span><span class="word-info">[ˈprɒmɪnənt] adj. 突出的</span></span></span>，无论国内还是海外华人，都还有很多机会。</p>
+
+<p>许东： 那今天聊得<span class="word-annot"><span class="word-anchor">差不多</span><span class="word-block"><span class="english-word">comparable</span><span class="word-info">[ˈkɒmpərəbl] adj. 差不多</span></span></span>了，也快两个小时了。非常感谢两位嘉宾来参加<span class="word-annot"><span class="word-anchor">讨论</span><span class="word-block"><span class="english-word">debate</span><span class="word-info">[dɪˈbeɪt] n. 讨论</span></span></span>，自己也学了很多。感谢听众来参加论坛，最后感谢雷峰网科技评论和<span class="word-annot"><span class="word-anchor">GAIR</span><span class="word-block"><span class="english-word">GAIR</span><span class="word-info">[ɡeə] n. GAIR</span></span></span> Live平台，让我们有机会之间交流，也跟大家交流。</p>
+
+<p>刘琦、张清鹏： <span class="word-annot"><span class="word-anchor">谢谢</span><span class="word-block"><span class="english-word">thanks</span><span class="word-info">[θæŋks] n. 谢谢</span></span></span>大家。</p>
+
+<p><span class="word-annot"><span class="word-anchor">Youtube</span><span class="word-block"><span class="english-word">Youtube</span><span class="word-info">[ˈjuːtjuːb] n. Youtube</span></span></span>链接：https://youtu.be/wMUy6pEjg5A</p>
+
+<p>从Manus到<span class="word-annot"><span class="word-anchor">Claude</span><span class="word-block"><span class="english-word">Claude</span><span class="word-info">[klɔːd] n. Claude</span></span></span> Code：Agent正在经历一场&quot;六阶段&quot;范式转移 | GAIR Live 027</p>
+
+<p>OpenClaw 爆火后，<span class="word-annot"><span class="word-anchor">IoA</span><span class="word-block"><span class="english-word">IoA</span><span class="word-info">[aɪ əʊ eɪ] n. 智能体互联网</span></span></span> 时代的六大核心论断 | GAIR Live 026</p>
+
+<p>未经「AI科技评论」授权，严禁以任何方式在网页、论坛、社区进行<span class="word-annot"><span class="word-anchor">转载</span><span class="word-block"><span class="english-word">reprint</span><span class="word-info">[riːˈprɪnt] n. 转载</span></span></span>！</p>
+
+<p>公众号转载请先在「AI科技评论」<span class="word-annot"><span class="word-anchor">后台</span><span class="word-block"><span class="english-word">backend</span><span class="word-info">[ˈbækend] n. 后台</span></span></span>留言取得授权，转载时需标注来源并插入本公众号名片。</p>
+                </article>
+
+                <div class="post-source-footer" style="margin:1.5rem 0;padding:1.25rem;border:2px solid #b91c1c;background:#fef2f2;border-radius:8px;font-size:0.95rem;line-height:1.65;">
+                    <p style="margin:0 0 0.65rem 0;font-weight:700;color:#991b1b;font-size:1.05rem;">来源与版权</p>
+                    <p style="margin:0 0 0.65rem 0;">本条为 MingoX 对第三方公开推文的衍生整理与双语重写，事实脉络与部分论点梳理自微信公众号<strong>「AI科技评论」</strong>刊载、界面显示作者为<strong>「AI科技评论」</strong>的文章。</p>
+                    <p style="margin:0 0 0.65rem 0;"><strong>原文固定链接：</strong><a href="https://mp.weixin.qq.com/s/ubQevFxV-CuLbl15kHGT7Q" rel="noopener noreferrer" target="_blank">https://mp.weixin.qq.com/s/ubQevFxV-CuLbl15kHGT7Q</a></p>
+                    <p style="margin:0 0 0.65rem 0;">著作权与转载规则以微信帐号、原作者及腾讯平台公示为准；商业性转载、摘编或再发布须自行取得权利人许可。本站不代为授权，亦不主张对原文的任何权利。</p>
+                    <p style="margin:0 0 0.65rem 0;">以上为 MingoX 对公开报道要点的文摘扩写，供双语阅读；如需引用原文论点或段落，请以微信原文为准并遵守平台与权利人的合规要求。</p>
+                    <div style="border-left:4px solid #667eea;padding:0.75rem 1rem;margin-top:1rem;background:#f8f9ff;font-size:0.9rem;line-height:1.6;">
+                        <p style="margin:0 0 0.5rem 0;"><strong>风险提示：</strong>本文仅供学习交流，不构成投资建议或其他专业意见。</p>
+                        <p style="margin:0;">任何决策请咨询持牌专业人士并以官方披露文件为准。</p>
+                    </div>
+                </div>
+
+                <div class="subtitle">📖 重点词汇</div>
+                <div class="vocab-table-wrap">
+                <table class="vocab-table">
+                    <thead>
+                        <tr><th>词汇</th><th>音标</th><th>词性</th><th>释义</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>AlphaFold</td><td>[ˈælfə fəʊld]</td><td>n.</td><td>AlphaFold</td></tr>
+                        <tr><td>siliconworld</td><td>[ˈsɪlɪkən]</td><td>n.</td><td>硅基世界</td></tr>
+                        <tr><td>failurerate</td><td>[ˈfeɪljə]</td><td>n.</td><td>失败率</td></tr>
+                        <tr><td>Eroom</td><td>[ˈiːruːm]</td><td>n.</td><td>反摩尔定律</td></tr>
+                        <tr><td>accelerator</td><td>[əkˈseləreɪtə]</td><td>n.</td><td>加速器</td></tr>
+                        <tr><td>postAlphaFold</td><td>[ˈpəʊst]</td><td>adj.</td><td>后AlphaFold时代</td></tr>
+                        <tr><td>insight</td><td>[ˈɪnsaɪt]</td><td>n.</td><td>洞察</td></tr>
+                        <tr><td>linearthinking</td><td>[ˈlɪniə]</td><td>n.</td><td>线性思维</td></tr>
+                        <tr><td>ecosystem</td><td>[ˈiːkəʊsɪstəm]</td><td>n.</td><td>生态系统</td></tr>
+                        <tr><td>kinetics</td><td>[kɪˈnetɪks]</td><td>n.</td><td>动力学</td></tr>
+                        <tr><td>expectation</td><td>[ˌekspekˈteɪʃn]</td><td>n.</td><td>期待</td></tr>
+                        <tr><td>efficiency</td><td>[ɪˈfɪʃnsi]</td><td>n.</td><td>效率</td></tr>
+                        <tr><td>Paxlovid</td><td>[ˈpæksləvɪd]</td><td>n.</td><td>Paxlovid</td></tr>
+                        <tr><td>deeplearning</td><td>[diːp]</td><td>n.</td><td>深度学习</td></tr>
+                        <tr><td>biology</td><td>[baɪˈɒlədʒi]</td><td>n.</td><td>生物学</td></tr>
+                        <tr><td>representation</td><td>[ˌreprɪzenˈteɪʃn]</td><td>n.</td><td>表征</td></tr>
+                        <tr><td>pharmaceutical</td><td>[ˌfɑːməˈsuːtɪkl]</td><td>n.</td><td>药物</td></tr>
+                        <tr><td>naturallanguage</td><td>[ˈnætʃərəl]</td><td>n.</td><td>自然语言</td></tr>
+                        <tr><td>ImageNet</td><td>[ˈɪmɪdʒ net]</td><td>n.</td><td>ImageNet</td></tr>
+                        <tr><td>SMILES</td><td>[ˈsmaɪlz]</td><td>n.</td><td>SMILES</td></tr>
+                        <tr><td>survivorship</td><td>[ˈsɜːvəʃɪp]</td><td>n.</td><td>幸存者偏差</td></tr>
+                        <tr><td>edgecase</td><td>[edʒ]</td><td>n.</td><td>边缘案例</td></tr>
+                        <tr><td>stage</td><td>[steɪdʒ]</td><td>n.</td><td>阶段</td></tr>
+                        <tr><td>wetlab</td><td>[wet]</td><td>n.</td><td>湿实验</td></tr>
+                        <tr><td>Bayesian</td><td>[ˈbeɪziən]</td><td>adj.</td><td>贝叶斯</td></tr>
+                        <tr><td>optimum</td><td>[ˈɒptɪməm]</td><td>n.</td><td>最优解</td></tr>
+                        <tr><td>pharma</td><td>[ˈfɑːmə]</td><td>n.</td><td>制药</td></tr>
+                        <tr><td>toxicity</td><td>[tɒkˈsɪsəti]</td><td>n.</td><td>毒性</td></tr>
+                        <tr><td>network</td><td>[ˈnetwɜːk]</td><td>n.</td><td>网络</td></tr>
+                        <tr><td>workaround</td><td>[ˈwɜːkəraʊnd]</td><td>n.</td><td>规避设计</td></tr>
+                        <tr><td>coli</td><td>[ˈkəʊlaɪ]</td><td>n.</td><td>大肠杆菌</td></tr>
+                        <tr><td>sideeffect</td><td>[saɪd]</td><td>n.</td><td>副作用</td></tr>
+                        <tr><td>Alzheimer</td><td>[ˈæltshaɪmə]</td><td>n.</td><td>阿尔茨海默症</td></tr>
+                        <tr><td>lex</td><td>[ˈkʌrəntli]</td><td>adv.</td><td>目前</td></tr>
+                        <tr><td>greenfield</td><td>[ˈɡriːnfiːld]</td><td>n.</td><td>处女地</td></tr>
+                        <tr><td>liposome</td><td>[ˈlɪpəsəʊm]</td><td>n.</td><td>脂质体</td></tr>
+                        <tr><td>AIDD</td><td>[eɪ]</td><td>n.</td><td>AI药物发现</td></tr>
+                        <tr><td>scRNAseq</td><td>[ˈsiː ɑːr ˈsiː seq]</td><td>n.</td><td>单细胞测序</td></tr>
+                        <tr><td>AIAgent</td><td>[eɪ aɪ]</td><td>n.</td><td>AI智能体</td></tr>
+                        <tr><td>BioAutoMATE</td><td>[baɪəʊ]</td><td>n.</td><td>BioAutoMATE</td></tr>
+                        <tr><td>flowauto</td><td>[ˈfləʊ]</td><td>n.</td><td>流程自动化</td></tr>
+                        <tr><td>internship</td><td>[ˈɪntɜːn]</td><td>n.</td><td>实习生</td></tr>
+                        <tr><td>Agent</td><td>[ˈeɪdʒənt]</td><td>n.</td><td>智能体</td></tr>
+                        <tr><td>embodiedAI</td><td>[ɪmˈbɒdɪd]</td><td>adj.</td><td>具身智能</td></tr>
+                        <tr><td>longramp</td><td>[ˈkɒmpaʊnd]</td><td>n.</td><td>长坡厚雪赛道</td></tr>
+                        <tr><td>supplychain</td><td>[səˈplaɪ]</td><td>n.</td><td>产业链</td></tr>
+                        <tr><td>silo</td><td>[ˈsaɪləʊ]</td><td>n.</td><td>数据孤岛</td></tr>
+                        <tr><td>closedloop</td><td>[kləʊzd]</td><td>n.</td><td>闭环</td></tr>
+                        <tr><td>transcript</td><td>[ˈtrænskrɪpt]</td><td>n.</td><td>实录</td></tr>
+                        <tr><td>host</td><td>[həʊst]</td><td>n.</td><td>主持人</td></tr>
+                        <tr><td>panelist</td><td>[ˈpænəlɪst]</td><td>n.</td><td>嘉宾</td></tr>
+                        <tr><td>quite</td><td>[kwaɪt]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>concern</td><td>[kənˈsɜːn]</td><td>n.</td><td>问题</td></tr>
+                        <tr><td>gratitude</td><td>[ˈɡrætɪtjuːd]</td><td>n.</td><td>感谢</td></tr>
+                        <tr><td>technology</td><td>[tekˈnɒlədʒi]</td><td>n.</td><td>技术</td></tr>
+                        <tr><td>howcome</td><td>[haʊ]</td><td>adv.</td><td>为什么</td></tr>
+                        <tr><td>coincide</td><td>[ˌkəʊɪnˈsaɪd]</td><td>v.</td><td>吻合</td></tr>
+                        <tr><td>key</td><td>[kiː]</td><td>n.</td><td>钥匙（比喻匹配）</td></tr>
+                        <tr><td>drug</td><td>[drʌɡ]</td><td>n.</td><td>药物</td></tr>
+                        <tr><td>smallmolecule</td><td>[ˈsmɔːl]</td><td>n.</td><td>小分子</td></tr>
+                        <tr><td>adaptive</td><td>[əˈdæptɪv]</td><td>adj.</td><td>自适应的</td></tr>
+                        <tr><td>regulation</td><td>[ˌreɡjuˈleɪʃn]</td><td>n.</td><td>调控</td></tr>
+                        <tr><td>pharmacokinetics</td><td>[ˌfɑːməkəʊkaɪˈnetɪks]</td><td>n.</td><td>药代动力学</td></tr>
+                        <tr><td>PKPD</td><td>[piː]</td><td>n.</td><td>药代药效</td></tr>
+                        <tr><td>modelzh</td><td>[ˈmɒdl]</td><td>n.</td><td>模型</td></tr>
+                        <tr><td>traceability</td><td>[ˌtreɪsəˈbɪləti]</td><td>n.</td><td>可追溯</td></tr>
+                        <tr><td>really</td><td>[ˈrɪəli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>medicine</td><td>[ˈmedsn]</td><td>n.</td><td>药物</td></tr>
+                        <tr><td>very</td><td>[ˈveri]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>CASP</td><td>[kæsp]</td><td>n.</td><td>CASP</td></tr>
+                        <tr><td>TCR</td><td>[tiː siː ɑː]</td><td>n.</td><td>T细胞受体</td></tr>
+                        <tr><td>tool</td><td>[tuːl]</td><td>n.</td><td>工具</td></tr>
+                        <tr><td>BCR</td><td>[biː siː ɑː]</td><td>n.</td><td>B细胞受体</td></tr>
+                        <tr><td>machinelearning</td><td>[məˈʃiːn]</td><td>n.</td><td>机器学习</td></tr>
+                        <tr><td>greatly</td><td>[ˈɡreɪtli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>Nature</td><td>[ˈneɪtʃə]</td><td>n.</td><td>Nature</td></tr>
+                        <tr><td>PanPep</td><td>[pæn]</td><td>n.</td><td>PanPep</td></tr>
+                        <tr><td>sequencezh</td><td>[ˈsiːkwəns]</td><td>n.</td><td>序列</td></tr>
+                        <tr><td>dilution</td><td>[daɪˈluːʃn]</td><td>n.</td><td>稀释</td></tr>
+                        <tr><td>commercial</td><td>[kəˈmɜːʃl]</td><td>adj.</td><td>商业化的</td></tr>
+                        <tr><td>development</td><td>[dɪˈveləpmənt]</td><td>n.</td><td>发展</td></tr>
+                        <tr><td>failureword</td><td>[ˈfeɪljə]</td><td>n.</td><td>失败</td></tr>
+                        <tr><td>extend</td><td>[ɪkˈstend]</td><td>v.</td><td>延伸</td></tr>
+                        <tr><td>why</td><td>[waɪ]</td><td>adv.</td><td>为什么</td></tr>
+                        <tr><td>discovery</td><td>[dɪˈskʌvəri]</td><td>n.</td><td>发现</td></tr>
+                        <tr><td>fail</td><td>[feɪl]</td><td>v.</td><td>失败</td></tr>
+                        <tr><td>wherefore</td><td>[ˈweəfɔː]</td><td>adv.</td><td>为什么</td></tr>
+                        <tr><td>limitation</td><td>[ˌlɪmɪˈteɪʃn]</td><td>n.</td><td>局限性</td></tr>
+                        <tr><td>screeningzh</td><td>[ˈskriːnɪŋ]</td><td>n.</td><td>筛选</td></tr>
+                        <tr><td>foundation</td><td>[faʊnˈdeɪʃn]</td><td>n.</td><td>基础模型</td></tr>
+                        <tr><td>fashion</td><td>[ˈfæʃn]</td><td>n.</td><td>时髦</td></tr>
+                        <tr><td>de</td><td>[deɪ]</td><td>prep.</td><td>de novo 前缀</td></tr>
+                        <tr><td>mechanics</td><td>[məˈkænɪks]</td><td>n.</td><td>力学/机制语境</td></tr>
+                        <tr><td>repurposing</td><td>[ˌriːˈpɜːpəsɪŋ]</td><td>n.</td><td>药物重定位</td></tr>
+                        <tr><td>conversion</td><td>[kənˈvɜːʃn]</td><td>n.</td><td>转化率</td></tr>
+                        <tr><td>remarkably</td><td>[rɪˈmɑːkəbli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>mRNA</td><td>[em ɑː]</td><td>n.</td><td>信使RNA</td></tr>
+                        <tr><td>promising</td><td>[ˈprɒmɪsɪŋ]</td><td>adj.</td><td>有前景的</td></tr>
+                        <tr><td>highly</td><td>[ˈhaɪli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>cost</td><td>[kɒst]</td><td>n.</td><td>成本</td></tr>
+                        <tr><td>CureMatch</td><td>[kjʊə]</td><td>n.</td><td>CureMatch</td></tr>
+                        <tr><td>role</td><td>[rəʊl]</td><td>n.</td><td>作用</td></tr>
+                        <tr><td>penetrate</td><td>[ˈpenɪtreɪt]</td><td>v.</td><td>切入</td></tr>
+                        <tr><td>patent</td><td>[ˈpætnt]</td><td>n.</td><td>专利</td></tr>
+                        <tr><td>hugely</td><td>[ˈhjuːdʒli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>molecular</td><td>[məˈlekjələ]</td><td>adj.</td><td>分子的</td></tr>
+                        <tr><td>target</td><td>[ˈtɑːɡɪt]</td><td>n.</td><td>靶点</td></tr>
+                        <tr><td>GeneTech</td><td>[dʒiːn]</td><td>n.</td><td>基因泰克</td></tr>
+                        <tr><td>problem</td><td>[ˈprɒbləm]</td><td>n.</td><td>问题</td></tr>
+                        <tr><td>supplement</td><td>[ˈsʌplɪmənt]</td><td>n.</td><td>补充</td></tr>
+                        <tr><td>molecule</td><td>[ˈmɒlɪkjuːl]</td><td>n.</td><td>分子</td></tr>
+                        <tr><td>breakthrough</td><td>[ˈbreɪkθruː]</td><td>n.</td><td>突破</td></tr>
+                        <tr><td>modeling</td><td>[ˈmɒdlɪŋ]</td><td>n.</td><td>建模</td></tr>
+                        <tr><td>combination</td><td>[ˌkɒmbɪˈneɪʃn]</td><td>n.</td><td>组合</td></tr>
+                        <tr><td>aging</td><td>[ˈeɪdʒɪŋ]</td><td>n.</td><td>衰老</td></tr>
+                        <tr><td>query</td><td>[ˈkwɪəri]</td><td>n.</td><td>问题</td></tr>
+                        <tr><td>targetpoint</td><td>[ˈtɑːɡɪt]</td><td>n.</td><td>靶点</td></tr>
+                        <tr><td>question</td><td>[ˈkwestʃən]</td><td>n.</td><td>问题</td></tr>
+                        <tr><td>antibody</td><td>[ˈæntɪbɒdi]</td><td>n.</td><td>抗体</td></tr>
+                        <tr><td>seriously</td><td>[ˈsɪəriəsli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>tackle</td><td>[ˈtækl]</td><td>v.</td><td>攻克</td></tr>
+                        <tr><td>possibility</td><td>[ˌpɒsəˈbɪləti]</td><td>n.</td><td>可能性</td></tr>
+                        <tr><td>issue</td><td>[ˈɪʃuː]</td><td>n.</td><td>问题</td></tr>
+                        <tr><td>LLM</td><td>[el el em]</td><td>n.</td><td>大语言模型</td></tr>
+                        <tr><td>denovo</td><td>[deɪ ˈnəʊvəʊ]</td><td>adj.</td><td>从头</td></tr>
+                        <tr><td>OpenClaw</td><td>[ˈəʊpən]</td><td>n.</td><td>OpenClaw</td></tr>
+                        <tr><td>challenge</td><td>[ˈtʃælɪndʒ]</td><td>n.</td><td>挑战</td></tr>
+                        <tr><td>incredibly</td><td>[ɪnˈkredəbli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>matter</td><td>[ˈmætə]</td><td>n.</td><td>问题</td></tr>
+                        <tr><td>biotech</td><td>[ˈbaɪəʊtek]</td><td>n.</td><td>生物技术</td></tr>
+                        <tr><td>resource</td><td>[rɪˈzɔːs]</td><td>n.</td><td>资源</td></tr>
+                        <tr><td>Medicare</td><td>[ˈmedɪkeə]</td><td>n.</td><td>Medicare</td></tr>
+                        <tr><td>risk</td><td>[rɪsk]</td><td>n.</td><td>风险</td></tr>
+                        <tr><td>sequence</td><td>[ˈsiːkwəns]</td><td>n.</td><td>序列</td></tr>
+                        <tr><td>solve</td><td>[sɒlv]</td><td>v.</td><td>解决</td></tr>
+                        <tr><td>balance</td><td>[ˈbæləns]</td><td>n.</td><td>均衡</td></tr>
+                        <tr><td>novel</td><td>[ˈnɒvl]</td><td>adj.</td><td>新颖的</td></tr>
+                        <tr><td>approve</td><td>[əˈpruːv]</td><td>v.</td><td>批准</td></tr>
+                        <tr><td>ponder</td><td>[ˈpɒndə]</td><td>v.</td><td>思考</td></tr>
+                        <tr><td>iteration</td><td>[ˌɪtəˈreɪʃn]</td><td>n.</td><td>迭代</td></tr>
+                        <tr><td>productivity</td><td>[ˌprɒdʌkˈtɪvəti]</td><td>n.</td><td>产出效率</td></tr>
+                        <tr><td>attention</td><td>[əˈtenʃn]</td><td>n.</td><td>关注</td></tr>
+                        <tr><td>discourse</td><td>[ˈdɪskɔːs]</td><td>n.</td><td>讨论</td></tr>
+                        <tr><td>seemingly</td><td>[ˈsiːmɪŋli]</td><td>adv.</td><td>看似</td></tr>
+                        <tr><td>peptide</td><td>[ˈpeptaɪd]</td><td>n.</td><td>多肽</td></tr>
+                        <tr><td>costly</td><td>[ˈkɒstli]</td><td>adj.</td><td>昂贵的</td></tr>
+                        <tr><td>prediction</td><td>[prɪˈdɪkʃn]</td><td>n.</td><td>预测</td></tr>
+                        <tr><td>allele</td><td>[əˈliːl]</td><td>n.</td><td>等位基因</td></tr>
+                        <tr><td>feature</td><td>[ˈfiːtʃə]</td><td>n.</td><td>特征</td></tr>
+                        <tr><td>statement</td><td>[ˈsteɪtmənt]</td><td>n.</td><td>说法</td></tr>
+                        <tr><td>image</td><td>[ˈɪmɪdʒ]</td><td>n.</td><td>图像</td></tr>
+                        <tr><td>parable</td><td>[ˈpærəbl]</td><td>n.</td><td>盲人摸象</td></tr>
+                        <tr><td>algorithm</td><td>[ˈælɡərɪðəm]</td><td>n.</td><td>算法</td></tr>
+                        <tr><td>HLA</td><td>[eɪtʃ el eɪ]</td><td>n.</td><td>人类白细胞抗原</td></tr>
+                        <tr><td>longtail</td><td>[lɒŋ]</td><td>n.</td><td>长尾</td></tr>
+                        <tr><td>fairly</td><td>[ˈfeəli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>ground</td><td>[ɡraʊnd]</td><td>n.</td><td>基准</td></tr>
+                        <tr><td>reason</td><td>[ˈriːzn]</td><td>n.</td><td>原因</td></tr>
+                        <tr><td>equilibrium</td><td>[ˌiːkwɪˈlɪbriəm]</td><td>n.</td><td>平衡</td></tr>
+                        <tr><td>mechanism</td><td>[ˈmekənɪzəm]</td><td>n.</td><td>机理</td></tr>
+                        <tr><td>compute</td><td>[kəmˈpjuːt]</td><td>n.</td><td>算力</td></tr>
+                        <tr><td>datazh</td><td>[ˈdeɪtə]</td><td>n.</td><td>数据</td></tr>
+                        <tr><td>negatives</td><td>[ˈneɡətɪvz]</td><td>n.</td><td>负样本</td></tr>
+                        <tr><td>essence</td><td>[ˈesns]</td><td>n.</td><td>本质</td></tr>
+                        <tr><td>overfitting</td><td>[ˌəʊvəˈfɪtɪŋ]</td><td>n.</td><td>过拟合</td></tr>
+                        <tr><td>agree</td><td>[əˈɡriː]</td><td>v.</td><td>同意</td></tr>
+                        <tr><td>believe</td><td>[bɪˈliːv]</td><td>v.</td><td>觉得</td></tr>
+                        <tr><td>autopilot</td><td>[ˈɔːtəʊ]</td><td>n.</td><td>自动驾驶</td></tr>
+                        <tr><td>Model</td><td>[ˈmɒdl]</td><td>n.</td><td>车型</td></tr>
+                        <tr><td>address</td><td>[əˈdres]</td><td>v.</td><td>处理</td></tr>
+                        <tr><td>process</td><td>[ˈprəʊses]</td><td>n.</td><td>过程</td></tr>
+                        <tr><td>simulation</td><td>[ˌsɪmjuˈleɪʃn]</td><td>n.</td><td>仿真</td></tr>
+                        <tr><td>Grok</td><td>[ɡrɒk]</td><td>n.</td><td>Grok</td></tr>
+                        <tr><td>conjecture</td><td>[kənˈdʒektʃə]</td><td>n.</td><td>猜想</td></tr>
+                        <tr><td>screening</td><td>[ˈskriːnɪŋ]</td><td>n.</td><td>筛选</td></tr>
+                        <tr><td>design</td><td>[dɪˈzaɪn]</td><td>n.</td><td>设计</td></tr>
+                        <tr><td>herbal</td><td>[ˈhɜːbl]</td><td>adj.</td><td>草药的</td></tr>
+                        <tr><td>topic</td><td>[ˈtɒpɪk]</td><td>n.</td><td>题目</td></tr>
+                        <tr><td>modality</td><td>[məʊˈdæləti]</td><td>n.</td><td>模态</td></tr>
+                        <tr><td>generative</td><td>[ˈdʒenərətɪv]</td><td>adj.</td><td>生成的</td></tr>
+                        <tr><td>druggability</td><td>[ˈdrʌɡə]</td><td>n.</td><td>成药性</td></tr>
+                        <tr><td>synthesis</td><td>[ˈsɪnθəsɪs]</td><td>n.</td><td>合成</td></tr>
+                        <tr><td>RandD</td><td>[ɑː ən diː]</td><td>n.</td><td>研发</td></tr>
+                        <tr><td>finetuning</td><td>[faɪn]</td><td>n.</td><td>微调</td></tr>
+                        <tr><td>substantially</td><td>[səbˈstænʃəli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>active</td><td>[ˈæktɪv]</td><td>adj.</td><td>主动的</td></tr>
+                        <tr><td>moleculezh</td><td>[ˈmɒlɪkjuːl]</td><td>n.</td><td>分子</td></tr>
+                        <tr><td>automation</td><td>[ˌɔːtəˈmeɪʃn]</td><td>n.</td><td>自动化</td></tr>
+                        <tr><td>OpenAI</td><td>[ˈəʊpən aɪ]</td><td>n.</td><td>OpenAI</td></tr>
+                        <tr><td>interact</td><td>[ˌɪntərˈækt]</td><td>v.</td><td>交互</td></tr>
+                        <tr><td>negativefeedback</td><td>[ˈneɡətɪv]</td><td>n.</td><td>负反馈</td></tr>
+                        <tr><td>translation</td><td>[trænzˈleɪʃn]</td><td>n.</td><td>转化</td></tr>
+                        <tr><td>robot</td><td>[ˈrəʊbɒt]</td><td>n.</td><td>机器人</td></tr>
+                        <tr><td>Recursion</td><td>[rɪˈkɜːʃn]</td><td>n.</td><td>Recursion</td></tr>
+                        <tr><td>Ginkgo</td><td>[ˈɡɪŋkəʊ]</td><td>n.</td><td>Ginkgo</td></tr>
+                        <tr><td>POC</td><td>[piː əʊ siː]</td><td>n.</td><td>概念验证</td></tr>
+                        <tr><td>proteinshort</td><td>[ˈprəʊtiːn]</td><td>n.</td><td>蛋白</td></tr>
+                        <tr><td>citation</td><td>[saɪˈteɪʃn]</td><td>n.</td><td>引用</td></tr>
+                        <tr><td>comparable</td><td>[ˈkɒmpərəbl]</td><td>adj.</td><td>差不多</td></tr>
+                        <tr><td>vaccine</td><td>[ˈvæksiːn]</td><td>n.</td><td>疫苗</td></tr>
+                        <tr><td>meningitis</td><td>[ˌmenɪnˈdʒaɪtɪs]</td><td>n.</td><td>脑膜炎</td></tr>
+                        <tr><td>immunotherapy</td><td>[ˌɪmjənəʊˈθerəpi]</td><td>n.</td><td>免疫疗法</td></tr>
+                        <tr><td>experience</td><td>[ɪkˈspɪəriəns]</td><td>n.</td><td>经验</td></tr>
+                        <tr><td>synthesizability</td><td>[sɪnθəsaɪzəˈbɪləti]</td><td>n.</td><td>可合成性</td></tr>
+                        <tr><td>protein</td><td>[ˈprəʊtiːn]</td><td>n.</td><td>蛋白质</td></tr>
+                        <tr><td>inhibit</td><td>[ɪnˈhɪbɪt]</td><td>v.</td><td>抑制</td></tr>
+                        <tr><td>checkpoint</td><td>[ˈtʃekpɔɪnt]</td><td>n.</td><td>检查点</td></tr>
+                        <tr><td>explore</td><td>[ɪkˈsplɔː]</td><td>v.</td><td>探索</td></tr>
+                        <tr><td>immunity</td><td>[ɪˈmjuːnəti]</td><td>n.</td><td>免疫</td></tr>
+                        <tr><td>toptier</td><td>[tɒp]</td><td>n.</td><td>顶流</td></tr>
+                        <tr><td>deeply</td><td>[ˈdiːpli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>exceedingly</td><td>[ɪkˈsiːdɪŋli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>niche</td><td>[niːʃ]</td><td>n.</td><td>赛道</td></tr>
+                        <tr><td>truly</td><td>[ˈtruːli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>opportunity</td><td>[ˌɒpəˈtjuːnəti]</td><td>n.</td><td>机会</td></tr>
+                        <tr><td>slightly</td><td>[ˈslaɪtli]</td><td>adv.</td><td>稍微</td></tr>
+                        <tr><td>core</td><td>[kɔː]</td><td>n.</td><td>核心</td></tr>
+                        <tr><td>exchange</td><td>[ɪksˈtʃeɪndʒ]</td><td>n.</td><td>交流</td></tr>
+                        <tr><td>pharmacology</td><td>[ˌfɑːməˈkɒlədʒi]</td><td>n.</td><td>药理学</td></tr>
+                        <tr><td>clinical</td><td>[ˈklɪnɪkl]</td><td>adj.</td><td>临床的</td></tr>
+                        <tr><td>tremendously</td><td>[trəˈmendəsli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>extremely</td><td>[ɪkˈstriːmli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>deepen</td><td>[ˈdiːpən]</td><td>v.</td><td>深耕</td></tr>
+                        <tr><td>research</td><td>[rɪˈsɜːtʃ]</td><td>n.</td><td>科研</td></tr>
+                        <tr><td>discussion</td><td>[dɪˈskʌʃn]</td><td>n.</td><td>讨论</td></tr>
+                        <tr><td>decode</td><td>[ˌdiːˈkəʊd]</td><td>v.</td><td>解码</td></tr>
+                        <tr><td>antigen</td><td>[ˈæntɪdʒən]</td><td>n.</td><td>抗原</td></tr>
+                        <tr><td>vastly</td><td>[ˈvɑːstli]</td><td>adv.</td><td>非常</td></tr>
+                        <tr><td>RNA</td><td>[ɑː]</td><td>n.</td><td>RNA</td></tr>
+                        <tr><td>Scripps</td><td>[skrɪps]</td><td>n.</td><td>Scripps</td></tr>
+                        <tr><td>expression</td><td>[ɪkˈspreʃn]</td><td>n.</td><td>表达</td></tr>
+                        <tr><td>delivery</td><td>[ˈdɪlɪvəri]</td><td>n.</td><td>递送</td></tr>
+                        <tr><td>miRNA</td><td>[em aɪ ɑː]</td><td>n.</td><td>miRNA</td></tr>
+                        <tr><td>siRNA</td><td>[es aɪ ɑː]</td><td>n.</td><td>siRNA</td></tr>
+                        <tr><td>hypothesis</td><td>[haɪˈpɒθəsɪs]</td><td>n.</td><td>假设</td></tr>
+                        <tr><td>LNP</td><td>[el en piː]</td><td>n.</td><td>脂质纳米颗粒</td></tr>
+                        <tr><td>microenv</td><td>[ˈmaɪkrəʊ]</td><td>n.</td><td>微环境</td></tr>
+                        <tr><td>omics</td><td>[ˈəʊmɪks]</td><td>n.</td><td>组学</td></tr>
+                        <tr><td>bulk</td><td>[bʌlk]</td><td>n.</td><td>批量测序语境</td></tr>
+                        <tr><td>Perturb</td><td>[pəˈtɜːb]</td><td>v.</td><td>扰动</td></tr>
+                        <tr><td>proteomics</td><td>[ˌprəʊtiːˈɒmɪks]</td><td>n.</td><td>蛋白组学</td></tr>
+                        <tr><td>glycosylation</td><td>[ˌɡlaɪkɒsɪˈleɪʃn]</td><td>n.</td><td>糖基化</td></tr>
+                        <tr><td>virtual</td><td>[ˈvɜːtʃuəl]</td><td>adj.</td><td>虚拟的</td></tr>
+                        <tr><td>cell</td><td>[sel]</td><td>n.</td><td>细胞</td></tr>
+                        <tr><td>trial</td><td>[ˈtraɪəl]</td><td>n.</td><td>试验</td></tr>
+                        <tr><td>vertical</td><td>[ˈvɜːtɪkl]</td><td>n.</td><td>赛道</td></tr>
+                        <tr><td>cellular</td><td>[ˈseljələ]</td><td>adj.</td><td>细胞的</td></tr>
+                        <tr><td>response</td><td>[rɪˈspɒns]</td><td>n.</td><td>响应</td></tr>
+                        <tr><td>share</td><td>[ʃeə]</td><td>v.</td><td>分享</td></tr>
+                        <tr><td>digitalcell</td><td>[ˈdɪdʒɪtl]</td><td>adj.</td><td>数字细胞</td></tr>
+                        <tr><td>transcriptome</td><td>[trænˈskɪptəʊm]</td><td>n.</td><td>转录组</td></tr>
+                        <tr><td>perturbation</td><td>[ˌpɜːbəˈteɪʃn]</td><td>n.</td><td>扰动</td></tr>
+                        <tr><td>worldmodel</td><td>[wɜːld ˈmɒdl]</td><td>n.</td><td>世界模型</td></tr>
+                        <tr><td>structure</td><td>[ˈstrʌktʃə]</td><td>n.</td><td>结构</td></tr>
+                        <tr><td>sequencing</td><td>[ˈsiːkwənsɪŋ]</td><td>n.</td><td>测序</td></tr>
+                        <tr><td>methodology</td><td>[ˌmeθəˈdɒlədʒi]</td><td>n.</td><td>方法论</td></tr>
+                        <tr><td>litsearch</td><td>[ˈlɪtrətʃə]</td><td>n.</td><td>文献检索</td></tr>
+                        <tr><td>Biomni</td><td>[baɪˈɒmni]</td><td>n.</td><td>Biomni</td></tr>
+                        <tr><td>thought</td><td>[θɔːt]</td><td>n.</td><td>想法</td></tr>
+                        <tr><td>connectionist</td><td>[kəˈnekʃənɪst]</td><td>adj.</td><td>连接主义</td></tr>
+                        <tr><td>prompt</td><td>[prɒmpt]</td><td>n.</td><td>提示</td></tr>
+                        <tr><td>Zou</td><td>[dzuː]</td><td>n.</td><td>邹</td></tr>
+                        <tr><td>agentzh</td><td>[ˈeɪdʒənt]</td><td>n.</td><td>智能体</td></tr>
+                        <tr><td>chemistry</td><td>[ˈkemɪstri]</td><td>n.</td><td>化学</td></tr>
+                        <tr><td>Swarm</td><td>[swɔːm]</td><td>n.</td><td>Swarm</td></tr>
+                        <tr><td>text</td><td>[tekst]</td><td>n.</td><td>文本</td></tr>
+                        <tr><td>akin</td><td>[əˈkɪn]</td><td>prep.</td><td>类似于</td></tr>
+                        <tr><td>interns</td><td>[ˈɪntɜːn]</td><td>n.</td><td>实习生</td></tr>
+                        <tr><td>modular</td><td>[ˈmɒdjələ]</td><td>adj.</td><td>模块化</td></tr>
+                        <tr><td>paradigm</td><td>[ˈpærədaɪm]</td><td>n.</td><td>范式</td></tr>
+                        <tr><td>James</td><td>[dʒeɪmz]</td><td>n.</td><td>James</td></tr>
+                        <tr><td>roleplay</td><td>[rəʊl]</td><td>n.</td><td>角色</td></tr>
+                        <tr><td>excitement</td><td>[ɪkˈsaɪtmənt]</td><td>n.</td><td>兴奋</td></tr>
+                        <tr><td>Minecraft</td><td>[ˈmaɪnkrɑːft]</td><td>n.</td><td>Minecraft</td></tr>
+                        <tr><td>coordination</td><td>[kəʊˌɔːdɪˈneɪʃn]</td><td>n.</td><td>协调</td></tr>
+                        <tr><td>PhD</td><td>[piː eɪtʃ diː]</td><td>n.</td><td>博士</td></tr>
+                        <tr><td>embodied</td><td>[ɪmˈbɒdɪd]</td><td>adj.</td><td>具身</td></tr>
+                        <tr><td>track</td><td>[træk]</td><td>n.</td><td>赛道</td></tr>
+                        <tr><td>meaning</td><td>[ˈmiːnɪŋ]</td><td>n.</td><td>意思</td></tr>
+                        <tr><td>HaaS</td><td>[hæz]</td><td>n.</td><td>硬件即服务</td></tr>
+                        <tr><td>RaaS</td><td>[rɑːz]</td><td>n.</td><td>结果即服务</td></tr>
+                        <tr><td>narrow</td><td>[ˈnærəʊ]</td><td>adj.</td><td>狭窄</td></tr>
+                        <tr><td>pipeline</td><td>[ˈpaɪplaɪn]</td><td>n.</td><td>流程管线</td></tr>
+                        <tr><td>hour</td><td>[ˈaʊə]</td><td>n.</td><td>小时</td></tr>
+                        <tr><td>generalization</td><td>[ˌdʒenərəlaɪˈzeɪʃn]</td><td>n.</td><td>泛化</td></tr>
+                        <tr><td>help</td><td>[help]</td><td>n.</td><td>帮助</td></tr>
+                        <tr><td>company</td><td>[ˈkʌmpəni]</td><td>n.</td><td>公司</td></tr>
+                        <tr><td>literature</td><td>[ˈlɪtrətʃə]</td><td>n.</td><td>文献</td></tr>
+                        <tr><td>deploy</td><td>[dɪˈplɔɪ]</td><td>v.</td><td>部署</td></tr>
+                        <tr><td>workflow</td><td>[ˈwɜːkfləʊ]</td><td>n.</td><td>流程</td></tr>
+                        <tr><td>efficiencygain</td><td>[ɪˈfɪʃnsi]</td><td>n.</td><td>增效</td></tr>
+                        <tr><td>velocity</td><td>[vəˈlɒsəti]</td><td>n.</td><td>速度</td></tr>
+                        <tr><td>acquisition</td><td>[ˌækwɪˈzɪʃn]</td><td>n.</td><td>收购</td></tr>
+                        <tr><td>advantage</td><td>[ədˈvɑːntɪdʒ]</td><td>n.</td><td>优势</td></tr>
+                        <tr><td>deal</td><td>[diːl]</td><td>n.</td><td>交易</td></tr>
+                        <tr><td>idea</td><td>[aɪˈdɪə]</td><td>n.</td><td>想法</td></tr>
+                        <tr><td>talent</td><td>[ˈtælənt]</td><td>n.</td><td>人才</td></tr>
+                        <tr><td>gap</td><td>[ɡæp]</td><td>n.</td><td>差距</td></tr>
+                        <tr><td>supply</td><td>[səˈplaɪ]</td><td>n.</td><td>供给</td></tr>
+                        <tr><td>demand</td><td>[dɪˈmɑːnd]</td><td>n.</td><td>需求</td></tr>
+                        <tr><td>interoperability</td><td>[ˌɪntərɒpərəˈbɪləti]</td><td>n.</td><td>互通</td></tr>
+                        <tr><td>domestic</td><td>[dəˈmestɪk]</td><td>adj.</td><td>国内</td></tr>
+                        <tr><td>half</td><td>[hɑːf]</td><td>n.</td><td>一半</td></tr>
+                        <tr><td>diaspora</td><td>[daɪˈæspərə]</td><td>n.</td><td>华人</td></tr>
+                        <tr><td>Soviet</td><td>[ˈsəʊviət]</td><td>adj.</td><td>前苏联的</td></tr>
+                        <tr><td>BLAST</td><td>[blæst]</td><td>n.</td><td>BLAST</td></tr>
+                        <tr><td>prominent</td><td>[ˈprɒmɪnənt]</td><td>adj.</td><td>突出的</td></tr>
+                        <tr><td>debate</td><td>[dɪˈbeɪt]</td><td>n.</td><td>讨论</td></tr>
+                        <tr><td>GAIR</td><td>[ɡeə]</td><td>n.</td><td>GAIR</td></tr>
+                        <tr><td>thanks</td><td>[θæŋks]</td><td>n.</td><td>谢谢</td></tr>
+                        <tr><td>Youtube</td><td>[ˈjuːtjuːb]</td><td>n.</td><td>Youtube</td></tr>
+                        <tr><td>Claude</td><td>[klɔːd]</td><td>n.</td><td>Claude</td></tr>
+                        <tr><td>IoA</td><td>[aɪ əʊ eɪ]</td><td>n.</td><td>智能体互联网</td></tr>
+                        <tr><td>reprint</td><td>[riːˈprɪnt]</td><td>n.</td><td>转载</td></tr>
+                        <tr><td>backend</td><td>[ˈbækend]</td><td>n.</td><td>后台</td></tr>
+                    </tbody>
+                </table>
+                </div>
+
+                <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+                    <a href="../" style="color: #667eea; text-decoration: none;">← 返回首页</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MingoX | Multimedia Post in Mixed Languages | Powered by Gitee Pages</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1849 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "叙事",
+      "en": "narrative",
+      "ipa": "[ˈnærətɪv]",
+      "pos": "n.",
+      "gloss": "主流叙事"
+    },
+    {
+      "i": 1,
+      "zh": "艺术家",
+      "en": "artist",
+      "ipa": "[ˈɑːrtɪst]",
+      "pos": "n.",
+      "gloss": "艺术家"
+    },
+    {
+      "i": 2,
+      "zh": "守成",
+      "en": "consolidate",
+      "ipa": "[kənˈsɒlɪdeɪt]",
+      "pos": "v.",
+      "gloss": "守成巩固"
+    },
+    {
+      "i": 3,
+      "zh": "管理",
+      "en": "govern",
+      "ipa": "[ˈɡʌvərn]",
+      "pos": "v.",
+      "gloss": "管理世界"
+    },
+    {
+      "i": 4,
+      "zh": "遗产",
+      "en": "legacy",
+      "ipa": "[ˈleɡəsi]",
+      "pos": "n.",
+      "gloss": "遗产讨论"
+    },
+    {
+      "i": 5,
+      "zh": "评价",
+      "en": "evaluation",
+      "ipa": "[ɪˌvæljuˈeɪʃn]",
+      "pos": "n.",
+      "gloss": "评价高低"
+    },
+    {
+      "i": 6,
+      "zh": "转折",
+      "en": "pivot",
+      "ipa": "[ˈpɪvət]",
+      "pos": "n.",
+      "gloss": "转折词"
+    },
+    {
+      "i": 7,
+      "zh": "思路",
+      "en": "approach",
+      "ipa": "[əˈproʊtʃ]",
+      "pos": "n.",
+      "gloss": "换个思路"
+    },
+    {
+      "i": 8,
+      "zh": "战略",
+      "en": "strategy",
+      "ipa": "[ˈstrætədʒi]",
+      "pos": "n.",
+      "gloss": "战略决断"
+    },
+    {
+      "i": 9,
+      "zh": "营收",
+      "en": "revenue",
+      "ipa": "[ˈrevənjuː]",
+      "pos": "n.",
+      "gloss": "服务营收"
+    },
+    {
+      "i": 10,
+      "zh": "品类",
+      "en": "category",
+      "ipa": "[ˈkætəɡɔːri]",
+      "pos": "n.",
+      "gloss": "新品类"
+    },
+    {
+      "i": 11,
+      "zh": "框架",
+      "en": "framework",
+      "ipa": "[ˈfreɪmwɜːrk]",
+      "pos": "n.",
+      "gloss": "对比框架"
+    },
+    {
+      "i": 12,
+      "zh": "诟病",
+      "en": "criticize",
+      "ipa": "[ˈkrɪtɪsaɪz]",
+      "pos": "v.",
+      "gloss": "被诟病"
+    },
+    {
+      "i": 13,
+      "zh": "叙事",
+      "en": "plotline",
+      "ipa": "[ˈplɒtlaɪn]",
+      "pos": "n.",
+      "gloss": "产品叙事"
+    },
+    {
+      "i": 14,
+      "zh": "机构",
+      "en": "institution",
+      "ipa": "[ˌɪnstɪˈtjuːʃn]",
+      "pos": "n.",
+      "gloss": "社会机构"
+    },
+    {
+      "i": 15,
+      "zh": "市值",
+      "en": "capitalization",
+      "ipa": "[ˌkæpɪtələˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "公司市值"
+    },
+    {
+      "i": 16,
+      "zh": "共情",
+      "en": "empathy",
+      "ipa": "[ˈempəθi]",
+      "pos": "n.",
+      "gloss": "共情遗产"
+    },
+    {
+      "i": 17,
+      "zh": "无用",
+      "en": "useless",
+      "ipa": "[ˈjuːsləs]",
+      "pos": "adj.",
+      "gloss": "无用之用"
+    },
+    {
+      "i": 18,
+      "zh": "坚持",
+      "en": "persist",
+      "ipa": "[pəˈsɪst]",
+      "pos": "v.",
+      "gloss": "坚持无用之用"
+    },
+    {
+      "i": 19,
+      "zh": "印象",
+      "en": "impression",
+      "ipa": "[ɪmˈpreʃn]",
+      "pos": "n.",
+      "gloss": "印象较深"
+    },
+    {
+      "i": 20,
+      "zh": "公开信",
+      "en": "missive",
+      "ipa": "[ˈmɪsɪv]",
+      "pos": "n.",
+      "gloss": "公开信"
+    },
+    {
+      "i": 21,
+      "zh": "CEO",
+      "en": "CEO",
+      "ipa": "[ˌsiːiːˈoʊ]",
+      "pos": "n.",
+      "gloss": "首席执行官"
+    },
+    {
+      "i": 22,
+      "zh": "掌舵",
+      "en": "helm",
+      "ipa": "[helm]",
+      "pos": "v.",
+      "gloss": "掌舵市值"
+    },
+    {
+      "i": 23,
+      "zh": "出柜",
+      "en": "outing",
+      "ipa": "[ˈaʊtɪŋ]",
+      "pos": "n.",
+      "gloss": "公开出柜"
+    },
+    {
+      "i": 24,
+      "zh": "分量",
+      "en": "weight",
+      "ipa": "[weɪt]",
+      "pos": "n.",
+      "gloss": "分量"
+    },
+    {
+      "i": 25,
+      "zh": "裁定",
+      "en": "ruling",
+      "ipa": "[ˈruːlɪŋ]",
+      "pos": "n.",
+      "gloss": "最高法院裁定"
+    },
+    {
+      "i": 26,
+      "zh": "婚姻",
+      "en": "marriage",
+      "ipa": "[ˈmærɪdʒ]",
+      "pos": "n.",
+      "gloss": "同性婚姻"
+    },
+    {
+      "i": 27,
+      "zh": "态度",
+      "en": "attitude",
+      "ipa": "[ˈætɪtjuːd]",
+      "pos": "n.",
+      "gloss": "对LGBTQ态度"
+    },
+    {
+      "i": 28,
+      "zh": "阿拉巴马",
+      "en": "Alabama",
+      "ipa": "[ˌæləˈbæmə]",
+      "pos": "n.",
+      "gloss": "阿拉巴马州"
+    },
+    {
+      "i": 29,
+      "zh": "权衡",
+      "en": "deliberate",
+      "ipa": "[dɪˈlɪbəreɪt]",
+      "pos": "v.",
+      "gloss": "漫长权衡"
+    },
+    {
+      "i": 30,
+      "skip": true
+    },
+    {
+      "i": 31,
+      "zh": "同性恋",
+      "en": "gay",
+      "ipa": "[ɡeɪ]",
+      "pos": "adj.",
+      "gloss": "同性恋礼品"
+    },
+    {
+      "i": 32,
+      "skip": true
+    },
+    {
+      "i": 33,
+      "zh": "声明",
+      "en": "declaration",
+      "ipa": "[ˌdekləˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "联合声明"
+    },
+    {
+      "i": 34,
+      "zh": "联署",
+      "en": "cosign",
+      "ipa": "[ˈkoʊsaɪn]",
+      "pos": "v.",
+      "gloss": "CEO联署"
+    },
+    {
+      "i": 35,
+      "zh": "核心",
+      "en": "kernel",
+      "ipa": "[ˈkɜːrnl]",
+      "pos": "n.",
+      "gloss": "核心意思"
+    },
+    {
+      "i": 36,
+      "zh": "利益相关者",
+      "en": "stakeholders",
+      "ipa": "[ˈsteɪkhoʊldərz]",
+      "pos": "n.",
+      "gloss": "利益相关者"
+    },
+    {
+      "i": 37,
+      "zh": "理解",
+      "en": "comprehend",
+      "ipa": "[ˌkɒmprɪˈhend]",
+      "pos": "v.",
+      "gloss": "理解声明"
+    },
+    {
+      "i": 38,
+      "zh": "利润",
+      "en": "profit",
+      "ipa": "[ˈprɒfɪt]",
+      "pos": "n.",
+      "gloss": "股东利润"
+    },
+    {
+      "i": 39,
+      "zh": "协议",
+      "en": "protocol",
+      "ipa": "[ˈproʊtəkɒl]",
+      "pos": "n.",
+      "gloss": "运作协议"
+    },
+    {
+      "i": 40,
+      "zh": "分析师",
+      "en": "analyst",
+      "ipa": "[ˈænəlɪst]",
+      "pos": "n.",
+      "gloss": "投行分析师"
+    },
+    {
+      "i": 41,
+      "zh": "挑战",
+      "en": "challenge",
+      "ipa": "[ˈtʃælɪndʒ]",
+      "pos": "n.",
+      "gloss": "公开挑战"
+    },
+    {
+      "i": 42,
+      "zh": "推动",
+      "en": "propel",
+      "ipa": "[prəˈpel]",
+      "pos": "v.",
+      "gloss": "积极推动"
+    },
+    {
+      "i": 43,
+      "zh": "教条",
+      "en": "dogma",
+      "ipa": "[ˈdɒɡmə]",
+      "pos": "n.",
+      "gloss": "股东至上教条"
+    },
+    {
+      "i": 44,
+      "zh": "访华",
+      "en": "visit",
+      "ipa": "[ˈvɪzɪt]",
+      "pos": "n.",
+      "gloss": "高频访华"
+    },
+    {
+      "i": 45,
+      "zh": "决策者",
+      "en": "policymaker",
+      "ipa": "[ˈpɑːlɪsimeɪkər]",
+      "pos": "n.",
+      "gloss": "最高层决策者"
+    },
+    {
+      "i": 46,
+      "zh": "组装",
+      "en": "assembly",
+      "ipa": "[əˈsembli]",
+      "pos": "n.",
+      "gloss": "组装产线"
+    },
+    {
+      "i": 47,
+      "zh": "弄堂",
+      "en": "lane",
+      "ipa": "[leɪn]",
+      "pos": "n.",
+      "gloss": "弄堂小店"
+    },
+    {
+      "i": 48,
+      "zh": "体感",
+      "en": "intuition",
+      "ipa": "[ˌɪntuˈɪʃn]",
+      "pos": "n.",
+      "gloss": "体感洞察"
+    },
+    {
+      "i": 49,
+      "zh": "关税",
+      "en": "tariff",
+      "ipa": "[ˈtærɪf]",
+      "pos": "n.",
+      "gloss": "加征关税"
+    },
+    {
+      "i": 50,
+      "zh": "产能",
+      "en": "capacity",
+      "ipa": "[kəˈpæsəti]",
+      "pos": "n.",
+      "gloss": "中国产能"
+    },
+    {
+      "i": 51,
+      "zh": "上演",
+      "en": "reprise",
+      "ipa": "[riˈpriːz]",
+      "pos": "v.",
+      "gloss": "上演老剧本"
+    },
+    {
+      "i": 52,
+      "zh": "地缘政治",
+      "en": "geopolitics",
+      "ipa": "[ˌdʒiːoʊˈpɒlətɪks]",
+      "pos": "n.",
+      "gloss": "地缘政治"
+    },
+    {
+      "i": 53,
+      "zh": "幅度",
+      "en": "amplitude",
+      "ipa": "[ˈæmplɪtjuːd]",
+      "pos": "n.",
+      "gloss": "动作幅度"
+    },
+    {
+      "i": 54,
+      "zh": "亚马逊",
+      "en": "Amazon",
+      "ipa": "[ˈæməzɑːn]",
+      "pos": "n.",
+      "gloss": "亚马逊"
+    },
+    {
+      "i": 55,
+      "zh": "罕见",
+      "en": "rare",
+      "ipa": "[reə]",
+      "pos": "adj.",
+      "gloss": "罕见访客"
+    },
+    {
+      "i": 56,
+      "zh": "法案",
+      "en": "statute",
+      "ipa": "[ˈstætʃuːt]",
+      "pos": "n.",
+      "gloss": "数字市场法案"
+    },
+    {
+      "i": 57,
+      "zh": "佣金",
+      "en": "commission",
+      "ipa": "[kəˈmɪʃn]",
+      "pos": "n.",
+      "gloss": "应用商店佣金"
+    },
+    {
+      "i": 58,
+      "zh": "费率",
+      "en": "rate",
+      "ipa": "[reɪt]",
+      "pos": "n.",
+      "gloss": "标准费率"
+    },
+    {
+      "i": 59,
+      "zh": "卸任",
+      "en": "resign",
+      "ipa": "[rɪˈzaɪn]",
+      "pos": "v.",
+      "gloss": "卸任信"
+    },
+    {
+      "i": 60,
+      "zh": "协助",
+      "en": "assist",
+      "ipa": "[əˈsɪst]",
+      "pos": "v.",
+      "gloss": "协助董事会"
+    },
+    {
+      "i": 61,
+      "zh": "翻译",
+      "en": "paraphrase",
+      "ipa": "[ˈpærəfreɪz]",
+      "pos": "v.",
+      "gloss": "翻译一下"
+    },
+    {
+      "i": 62,
+      "zh": "肯定",
+      "en": "affirm",
+      "ipa": "[əˈfɜːrm]",
+      "pos": "v.",
+      "gloss": "肯定不愿"
+    },
+    {
+      "i": 63,
+      "skip": true
+    },
+    {
+      "i": 64,
+      "zh": "片段",
+      "en": "fragment",
+      "ipa": "[ˈfræɡmənt]",
+      "pos": "n.",
+      "gloss": "片段拼图"
+    },
+    {
+      "i": 65,
+      "zh": "锚点",
+      "en": "anchor",
+      "ipa": "[ˈæŋkər]",
+      "pos": "n.",
+      "gloss": "道德锚点"
+    },
+    {
+      "i": 66,
+      "zh": "价值观",
+      "en": "values",
+      "ipa": "[ˈvæljuːz]",
+      "pos": "n.",
+      "gloss": "核心价值观"
+    },
+    {
+      "i": 67,
+      "zh": "无障碍",
+      "en": "accessibility",
+      "ipa": "[ækˌsesəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "无障碍列表"
+    },
+    {
+      "i": 68,
+      "zh": "种族",
+      "en": "racial",
+      "ipa": "[ˈreɪʃl]",
+      "pos": "adj.",
+      "gloss": "种族正义"
+    },
+    {
+      "i": 69,
+      "zh": "图腾",
+      "en": "totem",
+      "ipa": "[ˈtoʊtəm]",
+      "pos": "n.",
+      "gloss": "精神图腾"
+    },
+    {
+      "i": 70,
+      "zh": "审计",
+      "en": "audit",
+      "ipa": "[ˈɔːdɪt]",
+      "pos": "v.",
+      "gloss": "可被审计"
+    },
+    {
+      "i": 71,
+      "zh": "冲突",
+      "en": "conflict",
+      "ipa": "[ˈkɒnflɪkt]",
+      "pos": "n.",
+      "gloss": "不划算冲突"
+    },
+    {
+      "i": 72,
+      "zh": "无障碍",
+      "en": "a11y",
+      "ipa": "[eɪˈwʌnˈwʌn]",
+      "pos": "n.",
+      "gloss": "无障碍独句"
+    },
+    {
+      "i": 73,
+      "zh": "ROI",
+      "en": "ROI",
+      "ipa": "[ˌɑːrˌoʊˈaɪ]",
+      "pos": "n.",
+      "gloss": "该死的ROI"
+    },
+    {
+      "i": 74,
+      "zh": "股东大会",
+      "en": "shareholder",
+      "ipa": "[ˈʃeərhoʊldər]",
+      "pos": "n.",
+      "gloss": "股东大会"
+    },
+    {
+      "i": 75,
+      "zh": "议案",
+      "en": "motion",
+      "ipa": "[ˈmoʊʃn]",
+      "pos": "n.",
+      "gloss": "股东大会议案"
+    },
+    {
+      "i": 76,
+      "zh": "盲人",
+      "en": "blind",
+      "ipa": "[blaɪnd]",
+      "pos": "n.",
+      "gloss": "盲人功能"
+    },
+    {
+      "i": 77,
+      "zh": "环保",
+      "en": "environmental",
+      "ipa": "[ɪnˌvaɪrənˈmentl]",
+      "pos": "adj.",
+      "gloss": "环保投资"
+    },
+    {
+      "i": 78,
+      "zh": "股票",
+      "en": "stock",
+      "ipa": "[stɒk]",
+      "pos": "n.",
+      "gloss": "卖掉股票"
+    },
+    {
+      "i": 79,
+      "zh": "华尔街",
+      "en": "WallStreet",
+      "ipa": "[ˈwɔːlˌstriːt]",
+      "pos": "n.",
+      "gloss": "华尔街CEO语境"
+    },
+    {
+      "i": 80,
+      "zh": "投资者关系",
+      "en": "IR",
+      "ipa": "[ˌaɪˈɑːr]",
+      "pos": "n.",
+      "gloss": "投资者关系岗"
+    },
+    {
+      "i": 81,
+      "zh": "库克",
+      "en": "Cook",
+      "ipa": "[kʊk]",
+      "pos": "n.",
+      "gloss": "但库克说了"
+    },
+    {
+      "i": 82,
+      "zh": "道歉",
+      "en": "apologize",
+      "ipa": "[əˈpɑːlədʒaɪz]",
+      "pos": "v.",
+      "gloss": "道歉撤回"
+    },
+    {
+      "i": 83,
+      "zh": "算账",
+      "en": "account",
+      "ipa": "[əˈkaʊnt]",
+      "pos": "v.",
+      "gloss": "商业算账"
+    },
+    {
+      "i": 84,
+      "zh": "LiDAR",
+      "en": "LiDAR",
+      "ipa": "[ˈlaɪdɑːr]",
+      "pos": "n.",
+      "gloss": "激光雷达"
+    },
+    {
+      "i": 85,
+      "zh": "残疾",
+      "en": "disability",
+      "ipa": "[dɪsəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "手部残疾"
+    },
+    {
+      "i": 86,
+      "zh": "手势",
+      "en": "gesture",
+      "ipa": "[ˈdʒestʃər]",
+      "pos": "n.",
+      "gloss": "连击手势"
+    },
+    {
+      "i": 87,
+      "zh": "尊严",
+      "en": "dignity",
+      "ipa": "[ˈdɪɡnəti]",
+      "pos": "n.",
+      "gloss": "尊严使用"
+    },
+    {
+      "i": 88,
+      "skip": true
+    },
+    {
+      "i": 89,
+      "zh": "枪击",
+      "en": "shooting",
+      "ipa": "[ˈʃuːtɪŋ]",
+      "pos": "n.",
+      "gloss": "枪击案"
+    },
+    {
+      "i": 90,
+      "zh": "解锁",
+      "en": "unlock",
+      "ipa": "[ʌnˈlɒk]",
+      "pos": "v.",
+      "gloss": "解锁手机"
+    },
+    {
+      "i": 91,
+      "zh": "标题",
+      "en": "headline",
+      "ipa": "[ˈhedlaɪn]",
+      "pos": "n.",
+      "gloss": "公开信标题"
+    },
+    {
+      "i": 92,
+      "zh": "后门",
+      "en": "backdoor",
+      "ipa": "[ˈbækdɔːr]",
+      "pos": "n.",
+      "gloss": "软件后门"
+    },
+    {
+      "i": 93,
+      "skip": true
+    },
+    {
+      "i": 94,
+      "zh": "司法部",
+      "en": "judiciary",
+      "ipa": "[dʒuˈdɪʃəri]",
+      "pos": "n.",
+      "gloss": "司法部"
+    },
+    {
+      "i": 95,
+      "zh": "破解",
+      "en": "crack",
+      "ipa": "[kræk]",
+      "pos": "v.",
+      "gloss": "第三方破解"
+    },
+    {
+      "i": 96,
+      "zh": "透明度",
+      "en": "transparency",
+      "ipa": "[trænsˈpærənsi]",
+      "pos": "n.",
+      "gloss": "App跟踪透明度"
+    },
+    {
+      "i": 97,
+      "zh": "追踪",
+      "en": "track",
+      "ipa": "[træk]",
+      "pos": "v.",
+      "gloss": "跨应用追踪"
+    },
+    {
+      "i": 98,
+      "zh": "蒸发",
+      "en": "evaporate",
+      "ipa": "[ɪˈvæpəreɪt]",
+      "pos": "v.",
+      "gloss": "市值蒸发"
+    },
+    {
+      "i": 99,
+      "zh": "抨击",
+      "en": "slam",
+      "ipa": "[slæm]",
+      "pos": "v.",
+      "gloss": "点名抨击"
+    },
+    {
+      "i": 100,
+      "zh": "变质",
+      "en": "deteriorate",
+      "ipa": "[dɪˈtɪəriəreɪt]",
+      "pos": "v.",
+      "gloss": "生意变质"
+    },
+    {
+      "i": 101,
+      "skip": true
+    },
+    {
+      "i": 102,
+      "zh": "对立",
+      "en": "opposition",
+      "ipa": "[ˌɒpəˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "道德对立"
+    },
+    {
+      "i": 103,
+      "zh": "护城河",
+      "en": "moat",
+      "ipa": "[moʊt]",
+      "pos": "n.",
+      "gloss": "品牌护城河"
+    },
+    {
+      "i": 104,
+      "zh": "牺牲",
+      "en": "sacrifice",
+      "ipa": "[ˈsækrɪfaɪs]",
+      "pos": "v.",
+      "gloss": "牺牲广告"
+    },
+    {
+      "i": 105,
+      "zh": "无形资产",
+      "en": "intangible",
+      "ipa": "[ɪnˈtændʒəbl]",
+      "pos": "n.",
+      "gloss": "无形资产"
+    },
+    {
+      "i": 106,
+      "zh": "环境",
+      "en": "environment",
+      "ipa": "[ɪnˈvaɪrənmənt]",
+      "pos": "n.",
+      "gloss": "环境一节"
+    },
+    {
+      "i": 107,
+      "zh": "中和",
+      "en": "neutralize",
+      "ipa": "[ˈnuːtrəlaɪz]",
+      "pos": "v.",
+      "gloss": "碳中和语境"
+    },
+    {
+      "i": 108,
+      "zh": "价值链",
+      "en": "valuechain",
+      "ipa": "[ˈvæljuːtʃeɪn]",
+      "pos": "n.",
+      "gloss": "全价值链"
+    },
+    {
+      "i": 109,
+      "zh": "强制",
+      "en": "mandate",
+      "ipa": "[ˈmændeɪt]",
+      "pos": "v.",
+      "gloss": "强制供应商"
+    },
+    {
+      "i": 110,
+      "zh": "东南亚",
+      "en": "ASEAN",
+      "ipa": "[ˈɑːsiən]",
+      "pos": "n.",
+      "gloss": "东南亚工厂"
+    },
+    {
+      "i": 111,
+      "zh": "采购",
+      "en": "procurement",
+      "ipa": "[prəˈkjʊrmənt]",
+      "pos": "n.",
+      "gloss": "采购订单强推"
+    },
+    {
+      "i": 112,
+      "zh": "订单",
+      "en": "order",
+      "ipa": "[ˈɔːrdər]",
+      "pos": "n.",
+      "gloss": "拿不到订单"
+    },
+    {
+      "i": 113,
+      "zh": "发布会",
+      "en": "keynote",
+      "ipa": "[ˈkiːnoʊt]",
+      "pos": "n.",
+      "gloss": "秋季发布会"
+    },
+    {
+      "i": 114,
+      "zh": "碳足迹",
+      "en": "footprint",
+      "ipa": "[ˈfʊtprɪnt]",
+      "pos": "n.",
+      "gloss": "运输碳足迹"
+    },
+    {
+      "i": 115,
+      "zh": "阴谋论",
+      "en": "conspiracy",
+      "ipa": "[kənˈspɪrəsi]",
+      "pos": "n.",
+      "gloss": "阴谋论"
+    },
+    {
+      "i": 116,
+      "zh": "割韭菜",
+      "en": "fleece",
+      "ipa": "[fliːs]",
+      "pos": "v.",
+      "gloss": "割韭菜骂名"
+    },
+    {
+      "i": 117,
+      "zh": "美好",
+      "en": "idyllic",
+      "ipa": "[aɪˈdɪlɪk]",
+      "pos": "adj.",
+      "gloss": "更美好的世界"
+    },
+    {
+      "i": 118,
+      "skip": true
+    },
+    {
+      "i": 119,
+      "zh": "WWDC",
+      "en": "WWDC",
+      "ipa": "[ˌdʌbəlˌjuː]",
+      "pos": "n.",
+      "gloss": "WWDC宣布"
+    },
+    {
+      "i": 120,
+      "zh": "零售",
+      "en": "retail",
+      "ipa": "[ˈriːteɪl]",
+      "pos": "n.",
+      "gloss": "零售店课程"
+    },
+    {
+      "i": 121,
+      "zh": "回报",
+      "en": "payoff",
+      "ipa": "[ˈpeɪˌɔːf]",
+      "pos": "n.",
+      "gloss": "短期回报"
+    },
+    {
+      "i": 122,
+      "zh": "赚钱",
+      "en": "monetize",
+      "ipa": "[ˈmʌnɪtaɪz]",
+      "pos": "v.",
+      "gloss": "编程教育赚钱"
+    },
+    {
+      "i": 123,
+      "zh": "编程",
+      "en": "coding",
+      "ipa": "[ˈkoʊdɪŋ]",
+      "pos": "n.",
+      "gloss": "编程技能"
+    },
+    {
+      "i": 124,
+      "skip": true
+    },
+    {
+      "i": 125,
+      "zh": "生态",
+      "en": "ecosystem",
+      "ipa": "[ˈiːkoʊsɪstəm]",
+      "pos": "n.",
+      "gloss": "苹果生态"
+    },
+    {
+      "i": 126,
+      "zh": "多元",
+      "en": "diversity",
+      "ipa": "[daɪˈvɜːrsəti]",
+      "pos": "n.",
+      "gloss": "包容与多元"
+    },
+    {
+      "i": 127,
+      "zh": "正义",
+      "en": "justice",
+      "ipa": "[ˈdʒʌstɪs]",
+      "pos": "n.",
+      "gloss": "数据正义"
+    },
+    {
+      "i": 128,
+      "zh": "鲜为人知",
+      "en": "obscure",
+      "ipa": "[əbˈskjʊr]",
+      "pos": "adj.",
+      "gloss": "鲜为人知决策"
+    },
+    {
+      "i": 129,
+      "zh": "妆容",
+      "en": "makeup",
+      "ipa": "[ˈmeɪkʌp]",
+      "pos": "n.",
+      "gloss": "各种妆容"
+    },
+    {
+      "i": 130,
+      "zh": "跨部门",
+      "en": "interdepartmental",
+      "ipa": "[ˌɪntərdɪˈpɑːrtmentl]",
+      "pos": "adj.",
+      "gloss": "跨部门成本"
+    },
+    {
+      "i": 131,
+      "zh": "事故",
+      "en": "mishap",
+      "ipa": "[ˈmɪshæp]",
+      "pos": "n.",
+      "gloss": "照片事故"
+    },
+    {
+      "i": 132,
+      "zh": "丑闻",
+      "en": "scandal",
+      "ipa": "[ˈskændl]",
+      "pos": "n.",
+      "gloss": "种族丑闻"
+    },
+    {
+      "i": 133,
+      "zh": "友好",
+      "en": "amicable",
+      "ipa": "[ˈæmɪkəbl]",
+      "pos": "adj.",
+      "gloss": "产品友好"
+    },
+    {
+      "i": 134,
+      "zh": "评审",
+      "en": "review",
+      "ipa": "[rɪˈvjuː]",
+      "pos": "n.",
+      "gloss": "产品评审"
+    },
+    {
+      "i": 135,
+      "zh": "强化",
+      "en": "reinforce",
+      "ipa": "[ˌriːɪnˈfɔːrs]",
+      "pos": "v.",
+      "gloss": "强化的机制"
+    },
+    {
+      "i": 136,
+      "zh": "供应商",
+      "en": "vendor",
+      "ipa": "[ˈvendər]",
+      "pos": "n.",
+      "gloss": "供应商责任"
+    },
+    {
+      "i": 137,
+      "zh": "演变",
+      "en": "evolve",
+      "ipa": "[iˈvɒlv]",
+      "pos": "v.",
+      "gloss": "演变成"
+    },
+    {
+      "i": 138,
+      "zh": "官网",
+      "en": "website",
+      "ipa": "[ˈwebsaɪt]",
+      "pos": "n.",
+      "gloss": "官网改名"
+    },
+    {
+      "i": 139,
+      "zh": "转变",
+      "en": "shift",
+      "ipa": "[ʃɪft]",
+      "pos": "n.",
+      "gloss": "根本转变"
+    },
+    {
+      "i": 140,
+      "zh": "低价",
+      "en": "lowball",
+      "ipa": "[ˈloʊbɔːl]",
+      "pos": "adj.",
+      "gloss": "低价诉求"
+    },
+    {
+      "i": 141,
+      "zh": "人权",
+      "en": "humanrights",
+      "ipa": "[ˈhjuːmənraɪts]",
+      "pos": "n.",
+      "gloss": "人权条款"
+    },
+    {
+      "i": 142,
+      "zh": "理财",
+      "en": "savings",
+      "ipa": "[ˈseɪvɪŋz]",
+      "pos": "n.",
+      "gloss": "工人理财"
+    },
+    {
+      "i": 143,
+      "zh": "员工",
+      "en": "staff",
+      "ipa": "[stæf]",
+      "pos": "n.",
+      "gloss": "工厂员工上课"
+    },
+    {
+      "i": 144,
+      "zh": "流失",
+      "en": "attrition",
+      "ipa": "[əˈtrɪʃn]",
+      "pos": "n.",
+      "gloss": "员工流失率"
+    },
+    {
+      "i": 145,
+      "zh": "阶梯",
+      "en": "ladder",
+      "ipa": "[ˈlædər]",
+      "pos": "n.",
+      "gloss": "阶层跃迁阶梯"
+    },
+    {
+      "i": 146,
+      "skip": true
+    },
+    {
+      "i": 147,
+      "zh": "追溯",
+      "en": "trace",
+      "ipa": "[treɪs]",
+      "pos": "v.",
+      "gloss": "追溯到"
+    },
+    {
+      "i": 148,
+      "zh": "伴随",
+      "en": "accompany",
+      "ipa": "[əˈkʌmpəni]",
+      "pos": "v.",
+      "gloss": "伴随着"
+    },
+    {
+      "i": 149,
+      "zh": "道德",
+      "en": "moral",
+      "ipa": "[ˈmɔːrəl]",
+      "pos": "adj.",
+      "gloss": "道德锚点"
+    },
+    {
+      "i": 150,
+      "zh": "商品",
+      "en": "commodity",
+      "ipa": "[kəˈmɑːdəti]",
+      "pos": "n.",
+      "gloss": "商品公司"
+    },
+    {
+      "i": 151,
+      "zh": "公民",
+      "en": "civic",
+      "ipa": "[ˈsɪvɪk]",
+      "pos": "adj.",
+      "gloss": "社会公民型"
+    },
+    {
+      "i": 152,
+      "zh": "显性",
+      "en": "salient",
+      "ipa": "[ˈseɪliənt]",
+      "pos": "adj.",
+      "gloss": "显性化"
+    },
+    {
+      "i": 153,
+      "zh": "抗议",
+      "en": "protest",
+      "ipa": "[ˈproʊtest]",
+      "pos": "n.",
+      "gloss": "抗议潮"
+    },
+    {
+      "i": 154,
+      "zh": "表态",
+      "en": "posture",
+      "ipa": "[ˈpɑːstʃər]",
+      "pos": "n.",
+      "gloss": "公关表态"
+    },
+    {
+      "i": 155,
+      "zh": "公关",
+      "en": "publicity",
+      "ipa": "[pʌbˈlɪsəti]",
+      "pos": "n.",
+      "gloss": "公关文案"
+    },
+    {
+      "i": 156,
+      "zh": "不一样",
+      "en": "distinctive",
+      "ipa": "[dɪˈstɪŋktɪv]",
+      "pos": "adj.",
+      "gloss": "两件不一样的事"
+    },
+    {
+      "i": 157,
+      "zh": "扩展",
+      "en": "expand",
+      "ipa": "[ɪkˈspænd]",
+      "pos": "v.",
+      "gloss": "扩展价值观"
+    },
+    {
+      "i": 158,
+      "zh": "承诺",
+      "en": "pledge",
+      "ipa": "[pledʒ]",
+      "pos": "v.",
+      "gloss": "承诺基金"
+    },
+    {
+      "i": 159,
+      "zh": "用途",
+      "en": "purpose",
+      "ipa": "[ˈpɜːrpəs]",
+      "pos": "n.",
+      "gloss": "用途具体"
+    },
+    {
+      "i": 160,
+      "zh": "面向",
+      "en": "oriented",
+      "ipa": "[ˈɔːrientɪd]",
+      "pos": "adj.",
+      "gloss": "面向社区"
+    },
+    {
+      "i": 161,
+      "zh": "历史悠久",
+      "en": "historic",
+      "ipa": "[hɪˈstɒrɪk]",
+      "pos": "adj.",
+      "gloss": "历史悠久的黑人大学"
+    },
+    {
+      "i": 162,
+      "zh": "风投",
+      "en": "venture",
+      "ipa": "[ˈventʃər]",
+      "pos": "n.",
+      "gloss": "风投机构语境"
+    },
+    {
+      "i": 163,
+      "zh": "监禁",
+      "en": "incarceration",
+      "ipa": "[ɪnˌkɑːsəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "大规模监禁"
+    },
+    {
+      "i": 164,
+      "zh": "值得",
+      "en": "noteworthy",
+      "ipa": "[ˈnoʊtwɜːrði]",
+      "pos": "adj.",
+      "gloss": "值得注意"
+    },
+    {
+      "i": 165,
+      "zh": "刑事",
+      "en": "penal",
+      "ipa": "[ˈpiːnl]",
+      "pos": "adj.",
+      "gloss": "刑事司法"
+    },
+    {
+      "i": 166,
+      "zh": "入场",
+      "en": "engagement",
+      "ipa": "[ɪnˈɡeɪdʒmənt]",
+      "pos": "n.",
+      "gloss": "直接入场"
+    },
+    {
+      "i": 167,
+      "zh": "种族主义",
+      "en": "racism",
+      "ipa": "[ˈreɪsɪzəm]",
+      "pos": "n.",
+      "gloss": "系统性种族主义"
+    },
+    {
+      "i": 168,
+      "zh": "消失",
+      "en": "vanish",
+      "ipa": "[ˈvænɪʃ]",
+      "pos": "v.",
+      "gloss": "不会自动消失"
+    },
+    {
+      "i": 169,
+      "skip": true
+    },
+    {
+      "i": 170,
+      "zh": "多元化",
+      "en": "diversification",
+      "ipa": "[daɪˌvɜːrsɪfɪˈkeɪʃn]",
+      "pos": "n.",
+      "gloss": "支持多元化"
+    },
+    {
+      "i": 171,
+      "zh": "供应链",
+      "en": "supplychain",
+      "ipa": "[ˈsʌpltʃeɪn]",
+      "pos": "n.",
+      "gloss": "供应链创新"
+    },
+    {
+      "i": 172,
+      "zh": "清洁",
+      "en": "clean",
+      "ipa": "[kliːn]",
+      "pos": "adj.",
+      "gloss": "清洁能源"
+    },
+    {
+      "i": 173,
+      "zh": "变化",
+      "en": "mutation",
+      "ipa": "[mjuːˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "词义变化"
+    },
+    {
+      "i": 174,
+      "zh": "早年",
+      "en": "erstwhile",
+      "ipa": "[ˈɜːrstwaɪl]",
+      "pos": "adj.",
+      "gloss": "早年表述"
+    },
+    {
+      "i": 175,
+      "zh": "监督",
+      "en": "supervise",
+      "ipa": "[ˈsuːpərvaɪz]",
+      "pos": "v.",
+      "gloss": "监督规范"
+    },
+    {
+      "i": 176,
+      "zh": "创新",
+      "en": "innovation",
+      "ipa": "[ˌɪnəˈveɪʃn]",
+      "pos": "n.",
+      "gloss": "供应链创新词"
+    },
+    {
+      "i": 177,
+      "zh": "供应链",
+      "en": "logistics",
+      "ipa": "[ləˈdʒɪstɪks]",
+      "pos": "n.",
+      "gloss": "供应链名词化"
+    },
+    {
+      "i": 178,
+      "zh": "创新",
+      "en": "innovativeness",
+      "ipa": "[ˌɪnəˈveɪtɪvnəs]",
+      "pos": "n.",
+      "gloss": "责任变创新"
+    },
+    {
+      "i": 179,
+      "zh": "语义",
+      "en": "semantics",
+      "ipa": "[sɪˈmæntɪks]",
+      "pos": "n.",
+      "gloss": "语义转向"
+    },
+    {
+      "i": 180,
+      "zh": "附属品",
+      "en": "appendage",
+      "ipa": "[əˈpendɪdʒ]",
+      "pos": "n.",
+      "gloss": "附属品定位"
+    },
+    {
+      "i": 181,
+      "zh": "跃迁",
+      "en": "mobility",
+      "ipa": "[moʊˈbɪləti]",
+      "pos": "n.",
+      "gloss": "阶层跃迁"
+    },
+    {
+      "i": 182,
+      "zh": "规训",
+      "en": "discipline",
+      "ipa": "[ˈdɪsəplɪn]",
+      "pos": "v.",
+      "gloss": "协议规训"
+    },
+    {
+      "i": 183,
+      "zh": "甩手掌柜",
+      "en": "noninterference",
+      "ipa": "[ˌnɒnˌɪntərˈfɪrəns]",
+      "pos": "n.",
+      "gloss": "甩手掌柜作风"
+    },
+    {
+      "i": 184,
+      "zh": "达标",
+      "en": "compliance",
+      "ipa": "[kəmˈplaɪəns]",
+      "pos": "n.",
+      "gloss": "质量达标"
+    },
+    {
+      "i": 185,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɑːdʒɪk]",
+      "pos": "n.",
+      "gloss": "不接受逻辑"
+    },
+    {
+      "i": 186,
+      "zh": "议价",
+      "en": "leverage",
+      "ipa": "[ˈlevərɪdʒ]",
+      "pos": "n.",
+      "gloss": "议价能力"
+    },
+    {
+      "i": 187,
+      "zh": "边界",
+      "en": "boundary",
+      "ipa": "[ˈbaʊndri]",
+      "pos": "n.",
+      "gloss": "商业边界"
+    },
+    {
+      "i": 188,
+      "zh": "说不",
+      "en": "refusal",
+      "ipa": "[rɪˈfjuːzl]",
+      "pos": "n.",
+      "gloss": "对FBI说不"
+    },
+    {
+      "i": 189,
+      "zh": "政府",
+      "en": "government",
+      "ipa": "[ˈɡʌvərnmənt]",
+      "pos": "n.",
+      "gloss": "对抗政府"
+    },
+    {
+      "i": 190,
+      "zh": "暂缓",
+      "en": "deferral",
+      "ipa": "[dɪˈfɜːrəl]",
+      "pos": "n.",
+      "gloss": "DACA暂缓"
+    },
+    {
+      "i": 191,
+      "zh": "道德",
+      "en": "ethics",
+      "ipa": "[ˈeθɪks]",
+      "pos": "n.",
+      "gloss": "道德上错误"
+    },
+    {
+      "i": 192,
+      "zh": "受益者",
+      "en": "beneficiary",
+      "ipa": "[ˌbenɪˈfɪʃieri]",
+      "pos": "n.",
+      "gloss": "DACA受益者"
+    },
+    {
+      "i": 193,
+      "zh": "冲撞",
+      "en": "collision",
+      "ipa": "[kəˈlɪʒn]",
+      "pos": "n.",
+      "gloss": "正面冲撞"
+    },
+    {
+      "i": 194,
+      "zh": "GDPR",
+      "en": "GDPR",
+      "ipa": "[ˌdʒiːdiːpiːˈɑːr]",
+      "pos": "n.",
+      "gloss": "通用数据条例"
+    },
+    {
+      "i": 195,
+      "zh": "抨击",
+      "en": "barrage",
+      "ipa": "[bəˈrɑːʒ]",
+      "pos": "n.",
+      "gloss": "抨击复合体"
+    },
+    {
+      "i": 196,
+      "zh": "武器化",
+      "en": "weaponize",
+      "ipa": "[ˈwepənaɪz]",
+      "pos": "v.",
+      "gloss": "信息武器化"
+    },
+    {
+      "i": 197,
+      "skip": true
+    },
+    {
+      "i": 198,
+      "skip": true
+    },
+    {
+      "i": 199,
+      "zh": "偏见",
+      "en": "bias",
+      "ipa": "[ˈbaɪəs]",
+      "pos": "n.",
+      "gloss": "固化偏见"
+    },
+    {
+      "i": 200,
+      "zh": "国家安全",
+      "en": "nationalsecurity",
+      "ipa": "[ˈsekjʊrəti]",
+      "pos": "n.",
+      "gloss": "国家安全水准"
+    },
+    {
+      "i": 201,
+      "zh": "效仿",
+      "en": "emulate",
+      "ipa": "[ˈemjuleɪt]",
+      "pos": "v.",
+      "gloss": "效仿GDPR"
+    },
+    {
+      "i": 202,
+      "zh": "矛头",
+      "en": "vector",
+      "ipa": "[ˈvektər]",
+      "pos": "n.",
+      "gloss": "演讲矛头"
+    },
+    {
+      "i": 203,
+      "zh": "挖掘",
+      "en": "excavation",
+      "ipa": "[ˌekskəˈveɪʃn]",
+      "pos": "n.",
+      "gloss": "数据挖掘"
+    },
+    {
+      "i": 204,
+      "zh": "商业",
+      "en": "commerce",
+      "ipa": "[ˈkɑːmɜːrs]",
+      "pos": "n.",
+      "gloss": "关乎商业"
+    },
+    {
+      "i": 205,
+      "skip": true
+    },
+    {
+      "i": 206,
+      "zh": "论坛",
+      "en": "summit",
+      "ipa": "[ˈsʌmɪt]",
+      "pos": "n.",
+      "gloss": "全球论坛"
+    },
+    {
+      "i": 207,
+      "skip": true
+    },
+    {
+      "i": 208,
+      "zh": "重复",
+      "en": "reiterate",
+      "ipa": "[riˈɪtəreɪt]",
+      "pos": "v.",
+      "gloss": "反复重复"
+    },
+    {
+      "i": 209,
+      "zh": "达沃斯",
+      "en": "Davos",
+      "ipa": "[ˈdɑːvɔːs]",
+      "pos": "n.",
+      "gloss": "达沃斯论坛"
+    },
+    {
+      "i": 210,
+      "zh": "证明",
+      "en": "corroborate",
+      "ipa": "[kəˈrɑːbəreɪt]",
+      "pos": "v.",
+      "gloss": "行动证明"
+    },
+    {
+      "i": 211,
+      "zh": "合法性",
+      "en": "legitimacy",
+      "ipa": "[lɪˈdʒɪtɪməsi]",
+      "pos": "n.",
+      "gloss": "合法性来源"
+    },
+    {
+      "i": 212,
+      "zh": "门",
+      "en": "door",
+      "ipa": "[dɔːr]",
+      "pos": "n.",
+      "gloss": "看见门的盲人"
+    },
+    {
+      "i": 213,
+      "zh": "工厂",
+      "en": "factory",
+      "ipa": "[ˈfæktəri]",
+      "pos": "n.",
+      "gloss": "供应链工厂"
+    },
+    {
+      "i": 214,
+      "zh": "弹窗",
+      "en": "popup",
+      "ipa": "[ˈpɑːpˌʌp]",
+      "pos": "n.",
+      "gloss": "ATT弹窗"
+    },
+    {
+      "i": 215,
+      "zh": "年轻人",
+      "en": "sophomore",
+      "ipa": "[ˈsɑːfəmɔːr]",
+      "pos": "n.",
+      "gloss": "找到工作的年轻人"
+    },
+    {
+      "i": 216,
+      "zh": "规格",
+      "en": "specification",
+      "ipa": "[ˌspesɪfɪˈkeɪʃn]",
+      "pos": "n.",
+      "gloss": "硬件规格"
+    },
+    {
+      "i": 217,
+      "zh": "财报",
+      "en": "filings",
+      "ipa": "[ˈfaɪlɪŋz]",
+      "pos": "n.",
+      "gloss": "财报披露"
+    },
+    {
+      "i": 218,
+      "zh": "供应商",
+      "en": "vendors",
+      "ipa": "[ˈvendərz]",
+      "pos": "n.",
+      "gloss": "合作供应商"
+    },
+    {
+      "i": 219,
+      "zh": "议题",
+      "en": "agenda",
+      "ipa": "[əˈdʒendə]",
+      "pos": "n.",
+      "gloss": "劳工议题"
+    },
+    {
+      "i": 220,
+      "zh": "路线图",
+      "en": "roadmap",
+      "ipa": "[ˈroʊdmæp]",
+      "pos": "n.",
+      "gloss": "产品路线图"
+    },
+    {
+      "i": 221,
+      "zh": "利润",
+      "en": "lucrative",
+      "ipa": "[ˈluːkrətɪv]",
+      "pos": "adj.",
+      "gloss": "没放弃利润"
+    },
+    {
+      "i": 222,
+      "zh": "回购",
+      "en": "buyback",
+      "ipa": "[ˈbaɪbæk]",
+      "pos": "n.",
+      "gloss": "股票回购"
+    },
+    {
+      "i": 223,
+      "zh": "谄媚",
+      "en": "sycophancy",
+      "ipa": "[ˈsɪkəfænsi]",
+      "pos": "n.",
+      "gloss": "对资本谄媚"
+    },
+    {
+      "i": 224,
+      "zh": "纪律",
+      "en": "rigor",
+      "ipa": "[ˈrɪɡər]",
+      "pos": "n.",
+      "gloss": "产品纪律"
+    },
+    {
+      "i": 225,
+      "zh": "无形资产",
+      "en": "intangibles",
+      "ipa": "[ɪnˈtændʒəblz]",
+      "pos": "n.",
+      "gloss": "价值观资产"
+    },
+    {
+      "i": 226,
+      "zh": "修辞",
+      "en": "rhetoric",
+      "ipa": "[ˈretərɪk]",
+      "pos": "n.",
+      "gloss": "公关修辞"
+    },
+    {
+      "i": 227,
+      "zh": "听证",
+      "en": "hearing",
+      "ipa": "[ˈhɪrɪŋ]",
+      "pos": "n.",
+      "gloss": "国会听证"
+    },
+    {
+      "i": 228,
+      "zh": "磁场",
+      "en": "magnetism",
+      "ipa": "[ˈmæɡnətɪzəm]",
+      "pos": "n.",
+      "gloss": "人才磁场"
+    },
+    {
+      "i": 229,
+      "zh": "溢价",
+      "en": "premium",
+      "ipa": "[ˈpriːmiəm]",
+      "pos": "n.",
+      "gloss": "情感溢价"
+    },
+    {
+      "i": 230,
+      "zh": "感伤",
+      "en": "sentimental",
+      "ipa": "[ˌsentɪˈmentl]",
+      "pos": "adj.",
+      "gloss": "并非感伤"
+    },
+    {
+      "i": 231,
+      "zh": "提醒",
+      "en": "reminder",
+      "ipa": "[rɪˈmaɪndər]",
+      "pos": "n.",
+      "gloss": "提醒自己"
+    },
+    {
+      "i": 232,
+      "zh": "弱势",
+      "en": "vulnerable",
+      "ipa": "[ˈvʌlnərəbl]",
+      "pos": "adj.",
+      "gloss": "弱势群体"
+    },
+    {
+      "i": 233,
+      "zh": "做成",
+      "en": "accomplishment",
+      "ipa": "[əˈkʌmplɪʃmənt]",
+      "pos": "n.",
+      "gloss": "真正做成"
+    },
+    {
+      "i": 234,
+      "zh": "延伸",
+      "en": "furtherreading",
+      "ipa": "[ˈfɜːrðər]",
+      "pos": "n.",
+      "gloss": "延伸阅读"
+    },
+    {
+      "i": 235,
+      "skip": true
+    },
+    {
+      "i": 236,
+      "zh": "共同",
+      "en": "jointly",
+      "ipa": "[ˈdʒɔɪntli]",
+      "pos": "adv.",
+      "gloss": "共同完成"
+    },
+    {
+      "i": 237,
+      "zh": "联合声明",
+      "en": "communique",
+      "ipa": "[ˌkɒmjuːˈneɪ]",
+      "pos": "n.",
+      "gloss": "文末联合声明"
+    }
+  ]
+}

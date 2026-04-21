@@ -1,0 +1,3737 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "AlphaFold",
+      "en": "AlphaFold",
+      "ipa": "[ˈælfə fəʊld]",
+      "pos": "n.",
+      "gloss": "AlphaFold"
+    },
+    {
+      "i": 1,
+      "zh": "硅基世界",
+      "en": "siliconworld",
+      "ipa": "[ˈsɪlɪkən]",
+      "pos": "n.",
+      "gloss": "硅基世界"
+    },
+    {
+      "i": 2,
+      "zh": "失败率",
+      "en": "failurerate",
+      "ipa": "[ˈfeɪljə]",
+      "pos": "n.",
+      "gloss": "失败率"
+    },
+    {
+      "i": 3,
+      "zh": "反摩尔定律",
+      "en": "Eroom",
+      "ipa": "[ˈiːruːm]",
+      "pos": "n.",
+      "gloss": "反摩尔定律"
+    },
+    {
+      "i": 4,
+      "zh": "加速器",
+      "en": "accelerator",
+      "ipa": "[əkˈseləreɪtə]",
+      "pos": "n.",
+      "gloss": "加速器"
+    },
+    {
+      "i": 5,
+      "zh": "后AlphaFold时代",
+      "en": "postAlphaFold",
+      "ipa": "[ˈpəʊst]",
+      "pos": "adj.",
+      "gloss": "后AlphaFold时代"
+    },
+    {
+      "i": 6,
+      "zh": "洞察",
+      "en": "insight",
+      "ipa": "[ˈɪnsaɪt]",
+      "pos": "n.",
+      "gloss": "洞察"
+    },
+    {
+      "i": 7,
+      "zh": "线性思维",
+      "en": "linearthinking",
+      "ipa": "[ˈlɪniə]",
+      "pos": "n.",
+      "gloss": "线性思维"
+    },
+    {
+      "i": 8,
+      "zh": "生态系统",
+      "en": "ecosystem",
+      "ipa": "[ˈiːkəʊsɪstəm]",
+      "pos": "n.",
+      "gloss": "生态系统"
+    },
+    {
+      "i": 9,
+      "zh": "动力学",
+      "en": "kinetics",
+      "ipa": "[kɪˈnetɪks]",
+      "pos": "n.",
+      "gloss": "动力学"
+    },
+    {
+      "i": 10,
+      "zh": "期待",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "期待"
+    },
+    {
+      "i": 11,
+      "zh": "降本增效",
+      "en": "efficiency",
+      "ipa": "[ɪˈfɪʃnsi]",
+      "pos": "n.",
+      "gloss": "效率"
+    },
+    {
+      "i": 12,
+      "zh": "Paxlovid",
+      "en": "Paxlovid",
+      "ipa": "[ˈpæksləvɪd]",
+      "pos": "n.",
+      "gloss": "Paxlovid"
+    },
+    {
+      "i": 13,
+      "zh": "深度学习",
+      "en": "deeplearning",
+      "ipa": "[diːp]",
+      "pos": "n.",
+      "gloss": "深度学习"
+    },
+    {
+      "i": 14,
+      "zh": "生物学",
+      "en": "biology",
+      "ipa": "[baɪˈɒlədʒi]",
+      "pos": "n.",
+      "gloss": "生物学"
+    },
+    {
+      "i": 15,
+      "zh": "表征学习",
+      "en": "representation",
+      "ipa": "[ˌreprɪzenˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "表征"
+    },
+    {
+      "i": 16,
+      "zh": "药物",
+      "en": "pharmaceutical",
+      "ipa": "[ˌfɑːməˈsuːtɪkl]",
+      "pos": "n.",
+      "gloss": "药物"
+    },
+    {
+      "i": 17,
+      "zh": "自然语言",
+      "en": "naturallanguage",
+      "ipa": "[ˈnætʃərəl]",
+      "pos": "n.",
+      "gloss": "自然语言"
+    },
+    {
+      "i": 18,
+      "zh": "ImageNet",
+      "en": "ImageNet",
+      "ipa": "[ˈɪmɪdʒ net]",
+      "pos": "n.",
+      "gloss": "ImageNet"
+    },
+    {
+      "i": 19,
+      "zh": "SMILES",
+      "en": "SMILES",
+      "ipa": "[ˈsmaɪlz]",
+      "pos": "n.",
+      "gloss": "SMILES"
+    },
+    {
+      "i": 20,
+      "zh": "幸存者偏差",
+      "en": "survivorship",
+      "ipa": "[ˈsɜːvəʃɪp]",
+      "pos": "n.",
+      "gloss": "幸存者偏差"
+    },
+    {
+      "i": 21,
+      "zh": "边缘案例",
+      "en": "edgecase",
+      "ipa": "[edʒ]",
+      "pos": "n.",
+      "gloss": "边缘案例"
+    },
+    {
+      "i": 22,
+      "zh": "阶段",
+      "en": "stage",
+      "ipa": "[steɪdʒ]",
+      "pos": "n.",
+      "gloss": "阶段"
+    },
+    {
+      "i": 23,
+      "zh": "干湿实验",
+      "en": "wetlab",
+      "ipa": "[wet]",
+      "pos": "n.",
+      "gloss": "湿实验"
+    },
+    {
+      "i": 24,
+      "zh": "贝叶斯优化",
+      "en": "Bayesian",
+      "ipa": "[ˈbeɪziən]",
+      "pos": "adj.",
+      "gloss": "贝叶斯"
+    },
+    {
+      "i": 25,
+      "zh": "最优解",
+      "en": "optimum",
+      "ipa": "[ˈɒptɪməm]",
+      "pos": "n.",
+      "gloss": "最优解"
+    },
+    {
+      "i": 26,
+      "zh": "制药",
+      "en": "pharma",
+      "ipa": "[ˈfɑːmə]",
+      "pos": "n.",
+      "gloss": "制药"
+    },
+    {
+      "i": 27,
+      "zh": "毒副作用",
+      "en": "toxicity",
+      "ipa": "[tɒkˈsɪsəti]",
+      "pos": "n.",
+      "gloss": "毒性"
+    },
+    {
+      "i": 28,
+      "zh": "网络",
+      "en": "network",
+      "ipa": "[ˈnetwɜːk]",
+      "pos": "n.",
+      "gloss": "网络"
+    },
+    {
+      "i": 29,
+      "zh": "专利规避",
+      "en": "workaround",
+      "ipa": "[ˈwɜːkəraʊnd]",
+      "pos": "n.",
+      "gloss": "规避设计"
+    },
+    {
+      "i": 30,
+      "zh": "大肠杆菌",
+      "en": "coli",
+      "ipa": "[ˈkəʊlaɪ]",
+      "pos": "n.",
+      "gloss": "大肠杆菌"
+    },
+    {
+      "i": 31,
+      "zh": "副作用",
+      "en": "sideeffect",
+      "ipa": "[saɪd]",
+      "pos": "n.",
+      "gloss": "副作用"
+    },
+    {
+      "i": 32,
+      "zh": "阿尔茨海默症",
+      "en": "Alzheimer",
+      "ipa": "[ˈæltshaɪmə]",
+      "pos": "n.",
+      "gloss": "阿尔茨海默症"
+    },
+    {
+      "i": 33,
+      "zh": "目前",
+      "en": "lex049",
+      "ipa": "[ˈkʌrəntli]",
+      "pos": "adv.",
+      "gloss": "目前"
+    },
+    {
+      "i": 34,
+      "zh": "处女地",
+      "en": "greenfield",
+      "ipa": "[ˈɡriːnfiːld]",
+      "pos": "n.",
+      "gloss": "处女地"
+    },
+    {
+      "i": 35,
+      "zh": "纳米脂质体",
+      "en": "liposome",
+      "ipa": "[ˈlɪpəsəʊm]",
+      "pos": "n.",
+      "gloss": "脂质体"
+    },
+    {
+      "i": 36,
+      "zh": "AIDD",
+      "en": "AIDD",
+      "ipa": "[eɪ]",
+      "pos": "n.",
+      "gloss": "AI药物发现"
+    },
+    {
+      "i": 37,
+      "zh": "单细胞测序",
+      "en": "scRNAseq",
+      "ipa": "[ˈsiː ɑːr ˈsiː seq]",
+      "pos": "n.",
+      "gloss": "单细胞测序"
+    },
+    {
+      "i": 38,
+      "zh": "AIAgent",
+      "en": "AIAgent",
+      "ipa": "[eɪ aɪ]",
+      "pos": "n.",
+      "gloss": "AI智能体"
+    },
+    {
+      "i": 39,
+      "zh": "生物学",
+      "en": "biology39",
+      "ipa": "[baɪˈɒlədʒi]",
+      "pos": "n.",
+      "gloss": "生物学"
+    },
+    {
+      "i": 40,
+      "zh": "BioAutoMATE",
+      "en": "BioAutoMATE",
+      "ipa": "[baɪəʊ]",
+      "pos": "n.",
+      "gloss": "BioAutoMATE"
+    },
+    {
+      "i": 41,
+      "zh": "流程自动化",
+      "en": "flowauto",
+      "ipa": "[ˈfləʊ]",
+      "pos": "n.",
+      "gloss": "流程自动化"
+    },
+    {
+      "i": 42,
+      "zh": "超级实习生",
+      "en": "internship",
+      "ipa": "[ˈɪntɜːn]",
+      "pos": "n.",
+      "gloss": "实习生"
+    },
+    {
+      "i": 43,
+      "zh": "Agent",
+      "en": "Agent",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "智能体"
+    },
+    {
+      "i": 44,
+      "zh": "具身智能",
+      "en": "embodiedAI",
+      "ipa": "[ɪmˈbɒdɪd]",
+      "pos": "adj.",
+      "gloss": "具身智能"
+    },
+    {
+      "i": 45,
+      "zh": "长坡厚雪",
+      "en": "longramp",
+      "ipa": "[ˈkɒmpaʊnd]",
+      "pos": "n.",
+      "gloss": "长坡厚雪赛道"
+    },
+    {
+      "i": 46,
+      "zh": "产业链",
+      "en": "supplychain",
+      "ipa": "[səˈplaɪ]",
+      "pos": "n.",
+      "gloss": "产业链"
+    },
+    {
+      "i": 47,
+      "zh": "数据孤岛",
+      "en": "silo",
+      "ipa": "[ˈsaɪləʊ]",
+      "pos": "n.",
+      "gloss": "数据孤岛"
+    },
+    {
+      "i": 48,
+      "zh": "干湿闭环",
+      "en": "closedloop",
+      "ipa": "[kləʊzd]",
+      "pos": "n.",
+      "gloss": "闭环"
+    },
+    {
+      "i": 49,
+      "zh": "实录",
+      "en": "transcript",
+      "ipa": "[ˈtrænskrɪpt]",
+      "pos": "n.",
+      "gloss": "实录"
+    },
+    {
+      "i": 50,
+      "zh": "主持人",
+      "en": "host",
+      "ipa": "[həʊst]",
+      "pos": "n.",
+      "gloss": "主持人"
+    },
+    {
+      "i": 51,
+      "zh": "嘉宾",
+      "en": "panelist",
+      "ipa": "[ˈpænəlɪst]",
+      "pos": "n.",
+      "gloss": "嘉宾"
+    },
+    {
+      "i": 52,
+      "zh": "后AlphaFold时代",
+      "en": "postAlphaFold52",
+      "ipa": "[ˈpəʊst]",
+      "pos": "adj.",
+      "gloss": "后AlphaFold时代"
+    },
+    {
+      "i": 53,
+      "zh": "非常",
+      "en": "quite",
+      "ipa": "[kwaɪt]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 54,
+      "zh": "发现",
+      "en": "lex008",
+      "ipa": "[faɪnd]",
+      "pos": "v.",
+      "gloss": "发现"
+    },
+    {
+      "i": 55,
+      "zh": "问题",
+      "en": "concern",
+      "ipa": "[kənˈsɜːn]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 56,
+      "zh": "感谢",
+      "en": "gratitude",
+      "ipa": "[ˈɡrætɪtjuːd]",
+      "pos": "n.",
+      "gloss": "感谢"
+    },
+    {
+      "i": 57,
+      "zh": "技术",
+      "en": "lex010",
+      "ipa": "[tekˈnɒlədʒi]",
+      "pos": "n.",
+      "gloss": "技术"
+    },
+    {
+      "i": 58,
+      "zh": "技术",
+      "en": "technology",
+      "ipa": "[tekˈnɒlədʒi]",
+      "pos": "n.",
+      "gloss": "技术"
+    },
+    {
+      "i": 59,
+      "zh": "确实",
+      "en": "lex060",
+      "ipa": "[ɪnˈdiːd]",
+      "pos": "adv.",
+      "gloss": "确实"
+    },
+    {
+      "i": 60,
+      "zh": "为什么",
+      "en": "howcome",
+      "ipa": "[haʊ]",
+      "pos": "adv.",
+      "gloss": "为什么"
+    },
+    {
+      "i": 61,
+      "zh": "实验",
+      "en": "lex017",
+      "ipa": "[ɪkˈsperɪmənt]",
+      "pos": "n.",
+      "gloss": "实验"
+    },
+    {
+      "i": 62,
+      "zh": "领域",
+      "en": "lex011",
+      "ipa": "[ˈfiːld]",
+      "pos": "n.",
+      "gloss": "领域"
+    },
+    {
+      "i": 63,
+      "zh": "吻合",
+      "en": "coincide",
+      "ipa": "[ˌkəʊɪnˈsaɪd]",
+      "pos": "v.",
+      "gloss": "吻合"
+    },
+    {
+      "i": 64,
+      "zh": "钥匙",
+      "en": "key",
+      "ipa": "[kiː]",
+      "pos": "n.",
+      "gloss": "钥匙（比喻匹配）"
+    },
+    {
+      "i": 65,
+      "zh": "药物",
+      "en": "drug",
+      "ipa": "[drʌɡ]",
+      "pos": "n.",
+      "gloss": "药物"
+    },
+    {
+      "i": 66,
+      "zh": "小分子",
+      "en": "smallmolecule",
+      "ipa": "[ˈsmɔːl]",
+      "pos": "n.",
+      "gloss": "小分子"
+    },
+    {
+      "i": 67,
+      "zh": "简单",
+      "en": "lex055",
+      "ipa": "[ˈsɪmpl]",
+      "pos": "adj.",
+      "gloss": "简单"
+    },
+    {
+      "i": 68,
+      "zh": "自适应",
+      "en": "adaptive",
+      "ipa": "[əˈdæptɪv]",
+      "pos": "adj.",
+      "gloss": "自适应的"
+    },
+    {
+      "i": 69,
+      "zh": "调控",
+      "en": "regulation",
+      "ipa": "[ˌreɡjuˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "调控"
+    },
+    {
+      "i": 70,
+      "zh": "相对",
+      "en": "lex065",
+      "ipa": "[ˈrelətɪv]",
+      "pos": "adj.",
+      "gloss": "相对"
+    },
+    {
+      "i": 71,
+      "zh": "药代动力学",
+      "en": "pharmacokinetics",
+      "ipa": "[ˌfɑːməkəʊkaɪˈnetɪks]",
+      "pos": "n.",
+      "gloss": "药代动力学"
+    },
+    {
+      "i": 72,
+      "zh": "效果",
+      "en": "lex021",
+      "ipa": "[ɪˈfekt]",
+      "pos": "n.",
+      "gloss": "效果"
+    },
+    {
+      "i": 73,
+      "zh": "复杂",
+      "en": "lex054",
+      "ipa": "[ˈkɒmpleks]",
+      "pos": "adj.",
+      "gloss": "复杂"
+    },
+    {
+      "i": 74,
+      "zh": "PKPD",
+      "en": "PKPD",
+      "ipa": "[piː]",
+      "pos": "n.",
+      "gloss": "药代药效"
+    },
+    {
+      "i": 75,
+      "zh": "模型",
+      "en": "modelzh",
+      "ipa": "[ˈmɒdl]",
+      "pos": "n.",
+      "gloss": "模型"
+    },
+    {
+      "i": 76,
+      "zh": "追溯",
+      "en": "traceability",
+      "ipa": "[ˌtreɪsəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "可追溯"
+    },
+    {
+      "i": 77,
+      "zh": "非常",
+      "en": "really",
+      "ipa": "[ˈrɪəli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 78,
+      "zh": "药物",
+      "en": "medicine",
+      "ipa": "[ˈmedsn]",
+      "pos": "n.",
+      "gloss": "药物"
+    },
+    {
+      "i": 79,
+      "zh": "非常",
+      "en": "very",
+      "ipa": "[ˈveri]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 80,
+      "zh": "比较",
+      "en": "lex035",
+      "ipa": "[ˈrelətɪvli]",
+      "pos": "adv.",
+      "gloss": "比较"
+    },
+    {
+      "i": 81,
+      "zh": "CASP",
+      "en": "CASP",
+      "ipa": "[kæsp]",
+      "pos": "n.",
+      "gloss": "CASP"
+    },
+    {
+      "i": 82,
+      "zh": "AlphaFold",
+      "en": "AlphaFold82",
+      "ipa": "[ˈælfə fəʊld]",
+      "pos": "n.",
+      "gloss": "AlphaFold"
+    },
+    {
+      "i": 83,
+      "zh": "TCR",
+      "en": "TCR",
+      "ipa": "[tiː siː ɑː]",
+      "pos": "n.",
+      "gloss": "T细胞受体"
+    },
+    {
+      "i": 84,
+      "zh": "工具",
+      "en": "tool",
+      "ipa": "[tuːl]",
+      "pos": "n.",
+      "gloss": "工具"
+    },
+    {
+      "i": 85,
+      "zh": "AlphaFold",
+      "en": "AlphaFold85",
+      "ipa": "[ˈælfə fəʊld]",
+      "pos": "n.",
+      "gloss": "AlphaFold"
+    },
+    {
+      "i": 86,
+      "zh": "BCR",
+      "en": "BCR",
+      "ipa": "[biː siː ɑː]",
+      "pos": "n.",
+      "gloss": "B细胞受体"
+    },
+    {
+      "i": 87,
+      "zh": "机器学习",
+      "en": "machinelearning",
+      "ipa": "[məˈʃiːn]",
+      "pos": "n.",
+      "gloss": "机器学习"
+    },
+    {
+      "i": 88,
+      "zh": "非常",
+      "en": "greatly",
+      "ipa": "[ˈɡreɪtli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 89,
+      "zh": "Nature",
+      "en": "Nature",
+      "ipa": "[ˈneɪtʃə]",
+      "pos": "n.",
+      "gloss": "Nature"
+    },
+    {
+      "i": 90,
+      "zh": "PanPep",
+      "en": "PanPep",
+      "ipa": "[pæn]",
+      "pos": "n.",
+      "gloss": "PanPep"
+    },
+    {
+      "i": 91,
+      "zh": "应用",
+      "en": "lex009",
+      "ipa": "[əˈplaɪ]",
+      "pos": "v.",
+      "gloss": "应用"
+    },
+    {
+      "i": 92,
+      "zh": "TCR",
+      "en": "TCR92",
+      "ipa": "[tiː siː ɑː]",
+      "pos": "n.",
+      "gloss": "T细胞受体"
+    },
+    {
+      "i": 93,
+      "zh": "序列",
+      "en": "sequencezh",
+      "ipa": "[ˈsiːkwəns]",
+      "pos": "n.",
+      "gloss": "序列"
+    },
+    {
+      "i": 94,
+      "zh": "稀释",
+      "en": "dilution",
+      "ipa": "[daɪˈluːʃn]",
+      "pos": "n.",
+      "gloss": "稀释"
+    },
+    {
+      "i": 95,
+      "zh": "商业化",
+      "en": "commercial",
+      "ipa": "[kəˈmɜːʃl]",
+      "pos": "adj.",
+      "gloss": "商业化的"
+    },
+    {
+      "i": 96,
+      "zh": "发展",
+      "en": "development",
+      "ipa": "[dɪˈveləpmənt]",
+      "pos": "n.",
+      "gloss": "发展"
+    },
+    {
+      "i": 97,
+      "zh": "失败",
+      "en": "failureword",
+      "ipa": "[ˈfeɪljə]",
+      "pos": "n.",
+      "gloss": "失败"
+    },
+    {
+      "i": 98,
+      "zh": "延伸",
+      "en": "extend",
+      "ipa": "[ɪkˈstend]",
+      "pos": "v.",
+      "gloss": "延伸"
+    },
+    {
+      "i": 99,
+      "zh": "为什么",
+      "en": "why",
+      "ipa": "[waɪ]",
+      "pos": "adv.",
+      "gloss": "为什么"
+    },
+    {
+      "i": 100,
+      "zh": "发现",
+      "en": "discovery",
+      "ipa": "[dɪˈskʌvəri]",
+      "pos": "n.",
+      "gloss": "发现"
+    },
+    {
+      "i": 101,
+      "zh": "fail",
+      "en": "fail",
+      "ipa": "[feɪl]",
+      "pos": "v.",
+      "gloss": "失败"
+    },
+    {
+      "i": 102,
+      "zh": "为什么",
+      "en": "wherefore",
+      "ipa": "[ˈweəfɔː]",
+      "pos": "adv.",
+      "gloss": "为什么"
+    },
+    {
+      "i": 103,
+      "zh": "局限性",
+      "en": "limitation",
+      "ipa": "[ˌlɪmɪˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "局限性"
+    },
+    {
+      "i": 104,
+      "zh": "筛选",
+      "en": "screeningzh",
+      "ipa": "[ˈskriːnɪŋ]",
+      "pos": "n.",
+      "gloss": "筛选"
+    },
+    {
+      "i": 105,
+      "zh": "导致",
+      "en": "lex091",
+      "ipa": "[lɪd]",
+      "pos": "v.",
+      "gloss": "导致"
+    },
+    {
+      "i": 106,
+      "zh": "foundation",
+      "en": "foundation",
+      "ipa": "[faʊnˈdeɪʃn]",
+      "pos": "n.",
+      "gloss": "基础模型"
+    },
+    {
+      "i": 107,
+      "zh": "fashion",
+      "en": "fashion",
+      "ipa": "[ˈfæʃn]",
+      "pos": "n.",
+      "gloss": "时髦"
+    },
+    {
+      "i": 108,
+      "zh": "de",
+      "en": "de",
+      "ipa": "[deɪ]",
+      "pos": "prep.",
+      "gloss": "de novo 前缀"
+    },
+    {
+      "i": 109,
+      "zh": "mechanics",
+      "en": "mechanics",
+      "ipa": "[məˈkænɪks]",
+      "pos": "n.",
+      "gloss": "力学/机制语境"
+    },
+    {
+      "i": 110,
+      "zh": "重要",
+      "en": "lex053",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要"
+    },
+    {
+      "i": 111,
+      "zh": "方面",
+      "en": "lex026",
+      "ipa": "[ˈæspekt]",
+      "pos": "n.",
+      "gloss": "方面"
+    },
+    {
+      "i": 112,
+      "zh": "老药新用",
+      "en": "repurposing",
+      "ipa": "[ˌriːˈpɜːpəsɪŋ]",
+      "pos": "n.",
+      "gloss": "药物重定位"
+    },
+    {
+      "i": 113,
+      "zh": "老药新用",
+      "en": "repurposing113",
+      "ipa": "[ˌriːˈpɜːpəsɪŋ]",
+      "pos": "n.",
+      "gloss": "药物重定位"
+    },
+    {
+      "i": 114,
+      "zh": "有效",
+      "en": "lex058",
+      "ipa": "[ɪˈfektɪv]",
+      "pos": "adj.",
+      "gloss": "有效"
+    },
+    {
+      "i": 115,
+      "zh": "分析",
+      "en": "lex002",
+      "ipa": "[ˈænəlɪsɪs]",
+      "pos": "n.",
+      "gloss": "分析"
+    },
+    {
+      "i": 116,
+      "zh": "通过",
+      "en": "lex038",
+      "ipa": "[θruː]",
+      "pos": "prep.",
+      "gloss": "通过"
+    },
+    {
+      "i": 117,
+      "zh": "转化率",
+      "en": "conversion",
+      "ipa": "[kənˈvɜːʃn]",
+      "pos": "n.",
+      "gloss": "转化率"
+    },
+    {
+      "i": 118,
+      "zh": "直接",
+      "en": "lex051",
+      "ipa": "[dɪˈrekt]",
+      "pos": "adv.",
+      "gloss": "直接"
+    },
+    {
+      "i": 119,
+      "zh": "发现",
+      "en": "lex008119",
+      "ipa": "[faɪnd]",
+      "pos": "v.",
+      "gloss": "发现"
+    },
+    {
+      "i": 120,
+      "zh": "非常",
+      "en": "remarkably",
+      "ipa": "[rɪˈmɑːkəbli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 121,
+      "zh": "mRNA",
+      "en": "mRNA",
+      "ipa": "[em ɑː]",
+      "pos": "n.",
+      "gloss": "信使RNA"
+    },
+    {
+      "i": 122,
+      "zh": "mRNA",
+      "en": "mRNA122",
+      "ipa": "[em ɑː]",
+      "pos": "n.",
+      "gloss": "信使RNA"
+    },
+    {
+      "i": 123,
+      "zh": "promising",
+      "en": "promising",
+      "ipa": "[ˈprɒmɪsɪŋ]",
+      "pos": "adj.",
+      "gloss": "有前景的"
+    },
+    {
+      "i": 124,
+      "zh": "非常",
+      "en": "highly",
+      "ipa": "[ˈhaɪli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 125,
+      "zh": "真正",
+      "en": "lex050",
+      "ipa": "[ˈtruːli]",
+      "pos": "adv.",
+      "gloss": "真正"
+    },
+    {
+      "i": 126,
+      "zh": "成本",
+      "en": "cost",
+      "ipa": "[kɒst]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 127,
+      "zh": "当然",
+      "en": "lex061",
+      "ipa": "[ˈkɔːs]",
+      "pos": "adv.",
+      "gloss": "当然"
+    },
+    {
+      "i": 128,
+      "zh": "老药新用",
+      "en": "repurposing128",
+      "ipa": "[ˌriːˈpɜːpəsɪŋ]",
+      "pos": "n.",
+      "gloss": "药物重定位"
+    },
+    {
+      "i": 129,
+      "zh": "验证",
+      "en": "lex077",
+      "ipa": "[ˈverɪfaɪ]",
+      "pos": "v.",
+      "gloss": "验证"
+    },
+    {
+      "i": 130,
+      "zh": "CureMatch",
+      "en": "CureMatch",
+      "ipa": "[kjʊə]",
+      "pos": "n.",
+      "gloss": "CureMatch"
+    },
+    {
+      "i": 131,
+      "zh": "作用",
+      "en": "role",
+      "ipa": "[rəʊl]",
+      "pos": "n.",
+      "gloss": "作用"
+    },
+    {
+      "i": 132,
+      "zh": "切入",
+      "en": "penetrate",
+      "ipa": "[ˈpenɪtreɪt]",
+      "pos": "v.",
+      "gloss": "切入"
+    },
+    {
+      "i": 133,
+      "zh": "如果",
+      "en": "lex043",
+      "ipa": "[ɪf]",
+      "pos": "conj.",
+      "gloss": "如果"
+    },
+    {
+      "i": 134,
+      "zh": "专利",
+      "en": "patent",
+      "ipa": "[ˈpætnt]",
+      "pos": "n.",
+      "gloss": "专利"
+    },
+    {
+      "i": 135,
+      "zh": "容易",
+      "en": "lex057",
+      "ipa": "[ˈiːzi]",
+      "pos": "adj.",
+      "gloss": "容易"
+    },
+    {
+      "i": 136,
+      "zh": "非常",
+      "en": "hugely",
+      "ipa": "[ˈhjuːdʒli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 137,
+      "zh": "molecular",
+      "en": "molecular",
+      "ipa": "[məˈlekjələ]",
+      "pos": "adj.",
+      "gloss": "分子的"
+    },
+    {
+      "i": 138,
+      "zh": "target",
+      "en": "target",
+      "ipa": "[ˈtɑːɡɪt]",
+      "pos": "n.",
+      "gloss": "靶点"
+    },
+    {
+      "i": 139,
+      "zh": "molecular",
+      "en": "molecular139",
+      "ipa": "[məˈlekjələ]",
+      "pos": "adj.",
+      "gloss": "分子的"
+    },
+    {
+      "i": 140,
+      "zh": "研究",
+      "en": "lex001",
+      "ipa": "[rɪˈsɜːtʃ]",
+      "pos": "n.",
+      "gloss": "研究"
+    },
+    {
+      "i": 141,
+      "zh": "GeneTech",
+      "en": "GeneTech",
+      "ipa": "[dʒiːn]",
+      "pos": "n.",
+      "gloss": "基因泰克"
+    },
+    {
+      "i": 142,
+      "zh": "molecular",
+      "en": "molecular142",
+      "ipa": "[məˈlekjələ]",
+      "pos": "adj.",
+      "gloss": "分子的"
+    },
+    {
+      "i": 143,
+      "zh": "问题",
+      "en": "problem",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 144,
+      "zh": "补充",
+      "en": "supplement",
+      "ipa": "[ˈsʌplɪmənt]",
+      "pos": "n.",
+      "gloss": "补充"
+    },
+    {
+      "i": 145,
+      "zh": "molecule",
+      "en": "molecule",
+      "ipa": "[ˈmɒlɪkjuːl]",
+      "pos": "n.",
+      "gloss": "分子"
+    },
+    {
+      "i": 146,
+      "zh": "突破",
+      "en": "breakthrough",
+      "ipa": "[ˈbreɪkθruː]",
+      "pos": "n.",
+      "gloss": "突破"
+    },
+    {
+      "i": 147,
+      "zh": "建模",
+      "en": "modeling",
+      "ipa": "[ˈmɒdlɪŋ]",
+      "pos": "n.",
+      "gloss": "建模"
+    },
+    {
+      "i": 148,
+      "zh": "组合",
+      "en": "combination",
+      "ipa": "[ˌkɒmbɪˈneɪʃn]",
+      "pos": "n.",
+      "gloss": "组合"
+    },
+    {
+      "i": 149,
+      "zh": "系统",
+      "en": "lex012",
+      "ipa": "[ˈsɪstəm]",
+      "pos": "n.",
+      "gloss": "系统"
+    },
+    {
+      "i": 150,
+      "zh": "可能",
+      "en": "lex036",
+      "ipa": "[ˈpɒsəbli]",
+      "pos": "adv.",
+      "gloss": "可能"
+    },
+    {
+      "i": 151,
+      "zh": "aging",
+      "en": "aging",
+      "ipa": "[ˈeɪdʒɪŋ]",
+      "pos": "n.",
+      "gloss": "衰老"
+    },
+    {
+      "i": 152,
+      "zh": "问题",
+      "en": "query",
+      "ipa": "[ˈkwɪəri]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 153,
+      "zh": "靶点",
+      "en": "targetpoint",
+      "ipa": "[ˈtɑːɡɪt]",
+      "pos": "n.",
+      "gloss": "靶点"
+    },
+    {
+      "i": 154,
+      "zh": "可以",
+      "en": "lex037",
+      "ipa": "[kæn]",
+      "pos": "v.",
+      "gloss": "可以"
+    },
+    {
+      "i": 155,
+      "zh": "问题",
+      "en": "question",
+      "ipa": "[ˈkwestʃən]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 156,
+      "zh": "抗体",
+      "en": "antibody",
+      "ipa": "[ˈæntɪbɒdi]",
+      "pos": "n.",
+      "gloss": "抗体"
+    },
+    {
+      "i": 157,
+      "zh": "非常",
+      "en": "seriously",
+      "ipa": "[ˈsɪəriəsli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 158,
+      "zh": "攻克",
+      "en": "tackle",
+      "ipa": "[ˈtækl]",
+      "pos": "v.",
+      "gloss": "攻克"
+    },
+    {
+      "i": 159,
+      "zh": "可能性",
+      "en": "possibility",
+      "ipa": "[ˌpɒsəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "可能性"
+    },
+    {
+      "i": 160,
+      "zh": "问题",
+      "en": "issue",
+      "ipa": "[ˈɪʃuː]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 161,
+      "zh": "大语言模型",
+      "en": "LLM",
+      "ipa": "[el el em]",
+      "pos": "n.",
+      "gloss": "大语言模型"
+    },
+    {
+      "i": 162,
+      "zh": "从头设计",
+      "en": "denovo",
+      "ipa": "[deɪ ˈnəʊvəʊ]",
+      "pos": "adj.",
+      "gloss": "从头"
+    },
+    {
+      "i": 163,
+      "zh": "OpenClaw",
+      "en": "OpenClaw",
+      "ipa": "[ˈəʊpən]",
+      "pos": "n.",
+      "gloss": "OpenClaw"
+    },
+    {
+      "i": 164,
+      "zh": "快速",
+      "en": "lex052",
+      "ipa": "[ˈræpɪd]",
+      "pos": "adj.",
+      "gloss": "快速"
+    },
+    {
+      "i": 165,
+      "zh": "挑战",
+      "en": "challenge",
+      "ipa": "[ˈtʃælɪndʒ]",
+      "pos": "n.",
+      "gloss": "挑战"
+    },
+    {
+      "i": 166,
+      "zh": "非常",
+      "en": "incredibly",
+      "ipa": "[ɪnˈkredəbli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 167,
+      "zh": "问题",
+      "en": "matter",
+      "ipa": "[ˈmætə]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 168,
+      "zh": "biotech",
+      "en": "biotech",
+      "ipa": "[ˈbaɪəʊtek]",
+      "pos": "n.",
+      "gloss": "生物技术"
+    },
+    {
+      "i": 169,
+      "zh": "资源",
+      "en": "resource",
+      "ipa": "[rɪˈzɔːs]",
+      "pos": "n.",
+      "gloss": "资源"
+    },
+    {
+      "i": 170,
+      "zh": "Medicare",
+      "en": "Medicare",
+      "ipa": "[ˈmedɪkeə]",
+      "pos": "n.",
+      "gloss": "Medicare"
+    },
+    {
+      "i": 171,
+      "zh": "风险",
+      "en": "risk",
+      "ipa": "[rɪsk]",
+      "pos": "n.",
+      "gloss": "风险"
+    },
+    {
+      "i": 172,
+      "zh": "sequence",
+      "en": "sequence",
+      "ipa": "[ˈsiːkwəns]",
+      "pos": "n.",
+      "gloss": "序列"
+    },
+    {
+      "i": 173,
+      "zh": "解决",
+      "en": "solve",
+      "ipa": "[sɒlv]",
+      "pos": "v.",
+      "gloss": "解决"
+    },
+    {
+      "i": 174,
+      "zh": "均衡",
+      "en": "balance",
+      "ipa": "[ˈbæləns]",
+      "pos": "n.",
+      "gloss": "均衡"
+    },
+    {
+      "i": 175,
+      "zh": "novel",
+      "en": "novel",
+      "ipa": "[ˈnɒvl]",
+      "pos": "adj.",
+      "gloss": "新颖的"
+    },
+    {
+      "i": 176,
+      "zh": "approve",
+      "en": "approve",
+      "ipa": "[əˈpruːv]",
+      "pos": "v.",
+      "gloss": "批准"
+    },
+    {
+      "i": 177,
+      "zh": "攻克",
+      "en": "tackle177",
+      "ipa": "[ˈtækl]",
+      "pos": "v.",
+      "gloss": "攻克"
+    },
+    {
+      "i": 178,
+      "zh": "思考",
+      "en": "ponder",
+      "ipa": "[ˈpɒndə]",
+      "pos": "v.",
+      "gloss": "思考"
+    },
+    {
+      "i": 179,
+      "zh": "反摩尔定律",
+      "en": "Eroom179",
+      "ipa": "[ˈiːruːm]",
+      "pos": "n.",
+      "gloss": "反摩尔定律"
+    },
+    {
+      "i": 180,
+      "zh": "迭代",
+      "en": "iteration",
+      "ipa": "[ˌɪtəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "迭代"
+    },
+    {
+      "i": 181,
+      "zh": "产出率",
+      "en": "productivity",
+      "ipa": "[ˌprɒdʌkˈtɪvəti]",
+      "pos": "n.",
+      "gloss": "产出效率"
+    },
+    {
+      "i": 182,
+      "zh": "为什么",
+      "en": "why182",
+      "ipa": "[waɪ]",
+      "pos": "adv.",
+      "gloss": "为什么"
+    },
+    {
+      "i": 183,
+      "zh": "关注",
+      "en": "attention",
+      "ipa": "[əˈtenʃn]",
+      "pos": "n.",
+      "gloss": "关注"
+    },
+    {
+      "i": 184,
+      "zh": "问题",
+      "en": "matter184",
+      "ipa": "[ˈmætə]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 185,
+      "zh": "讨论",
+      "en": "discourse",
+      "ipa": "[ˈdɪskɔːs]",
+      "pos": "n.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 186,
+      "zh": "认为",
+      "en": "lex004",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "认为"
+    },
+    {
+      "i": 187,
+      "zh": "结果",
+      "en": "lex024",
+      "ipa": "[rɪˈzʌlt]",
+      "pos": "n.",
+      "gloss": "结果"
+    },
+    {
+      "i": 188,
+      "zh": "看似",
+      "en": "seemingly",
+      "ipa": "[ˈsiːmɪŋli]",
+      "pos": "adv.",
+      "gloss": "看似"
+    },
+    {
+      "i": 189,
+      "zh": "多肽",
+      "en": "peptide",
+      "ipa": "[ˈpeptaɪd]",
+      "pos": "n.",
+      "gloss": "多肽"
+    },
+    {
+      "i": 190,
+      "zh": "昂贵",
+      "en": "costly",
+      "ipa": "[ˈkɒstli]",
+      "pos": "adj.",
+      "gloss": "昂贵的"
+    },
+    {
+      "i": 191,
+      "zh": "预测",
+      "en": "prediction",
+      "ipa": "[prɪˈdɪkʃn]",
+      "pos": "n.",
+      "gloss": "预测"
+    },
+    {
+      "i": 192,
+      "zh": "allele",
+      "en": "allele",
+      "ipa": "[əˈliːl]",
+      "pos": "n.",
+      "gloss": "等位基因"
+    },
+    {
+      "i": 193,
+      "zh": "feature",
+      "en": "feature",
+      "ipa": "[ˈfiːtʃə]",
+      "pos": "n.",
+      "gloss": "特征"
+    },
+    {
+      "i": 194,
+      "zh": "表示",
+      "en": "lex005",
+      "ipa": "[ɪnˈdɪkeɪt]",
+      "pos": "v.",
+      "gloss": "表示"
+    },
+    {
+      "i": 195,
+      "zh": "feature",
+      "en": "feature195",
+      "ipa": "[ˈfiːtʃə]",
+      "pos": "n.",
+      "gloss": "特征"
+    },
+    {
+      "i": 196,
+      "zh": "feature",
+      "en": "feature196",
+      "ipa": "[ˈfiːtʃə]",
+      "pos": "n.",
+      "gloss": "特征"
+    },
+    {
+      "i": 197,
+      "zh": "提高",
+      "en": "lex030",
+      "ipa": "[ɪmˈpruːv]",
+      "pos": "v.",
+      "gloss": "提高"
+    },
+    {
+      "i": 198,
+      "zh": "工具",
+      "en": "tool198",
+      "ipa": "[tuːl]",
+      "pos": "n.",
+      "gloss": "工具"
+    },
+    {
+      "i": 199,
+      "zh": "说法",
+      "en": "statement",
+      "ipa": "[ˈsteɪtmənt]",
+      "pos": "n.",
+      "gloss": "说法"
+    },
+    {
+      "i": 200,
+      "zh": "image",
+      "en": "image",
+      "ipa": "[ˈɪmɪdʒ]",
+      "pos": "n.",
+      "gloss": "图像"
+    },
+    {
+      "i": 201,
+      "zh": "ImageNet",
+      "en": "ImageNet201",
+      "ipa": "[ˈɪmɪdʒ net]",
+      "pos": "n.",
+      "gloss": "ImageNet"
+    },
+    {
+      "i": 202,
+      "zh": "需要",
+      "en": "lex025",
+      "ipa": "[niːd]",
+      "pos": "v.",
+      "gloss": "需要"
+    },
+    {
+      "i": 203,
+      "zh": "盲人摸象",
+      "en": "parable",
+      "ipa": "[ˈpærəbl]",
+      "pos": "n.",
+      "gloss": "盲人摸象"
+    },
+    {
+      "i": 204,
+      "zh": "描述",
+      "en": "lex080",
+      "ipa": "[dɪˈskraɪb]",
+      "pos": "v.",
+      "gloss": "描述"
+    },
+    {
+      "i": 205,
+      "zh": "算法",
+      "en": "algorithm",
+      "ipa": "[ˈælɡərɪðəm]",
+      "pos": "n.",
+      "gloss": "算法"
+    },
+    {
+      "i": 206,
+      "zh": "信息",
+      "en": "lex013",
+      "ipa": "[ˌɪnfəˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "信息"
+    },
+    {
+      "i": 207,
+      "zh": "image",
+      "en": "image207",
+      "ipa": "[ˈɪmɪdʒ]",
+      "pos": "n.",
+      "gloss": "图像"
+    },
+    {
+      "i": 208,
+      "zh": "领域",
+      "en": "lex011208",
+      "ipa": "[ˈfiːld]",
+      "pos": "n.",
+      "gloss": "领域"
+    },
+    {
+      "i": 209,
+      "zh": "HLA",
+      "en": "HLA",
+      "ipa": "[eɪtʃ el eɪ]",
+      "pos": "n.",
+      "gloss": "人类白细胞抗原"
+    },
+    {
+      "i": 210,
+      "zh": "HLA",
+      "en": "HLA210",
+      "ipa": "[eɪtʃ el eɪ]",
+      "pos": "n.",
+      "gloss": "人类白细胞抗原"
+    },
+    {
+      "i": 211,
+      "zh": "TCR",
+      "en": "TCR211",
+      "ipa": "[tiː siː ɑː]",
+      "pos": "n.",
+      "gloss": "T细胞受体"
+    },
+    {
+      "i": 212,
+      "zh": "长尾分布",
+      "en": "longtail",
+      "ipa": "[lɒŋ]",
+      "pos": "n.",
+      "gloss": "长尾"
+    },
+    {
+      "i": 213,
+      "zh": "非常",
+      "en": "fairly",
+      "ipa": "[ˈfeəli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 214,
+      "zh": "AlphaFold",
+      "en": "AlphaFold214",
+      "ipa": "[ˈælfə fəʊld]",
+      "pos": "n.",
+      "gloss": "AlphaFold"
+    },
+    {
+      "i": 215,
+      "zh": "ground",
+      "en": "ground",
+      "ipa": "[ɡraʊnd]",
+      "pos": "n.",
+      "gloss": "基准"
+    },
+    {
+      "i": 216,
+      "zh": "ground",
+      "en": "ground216",
+      "ipa": "[ɡraʊnd]",
+      "pos": "n.",
+      "gloss": "基准"
+    },
+    {
+      "i": 217,
+      "zh": "image",
+      "en": "image217",
+      "ipa": "[ˈɪmɪdʒ]",
+      "pos": "n.",
+      "gloss": "图像"
+    },
+    {
+      "i": 218,
+      "zh": "原因",
+      "en": "reason",
+      "ipa": "[ˈriːzn]",
+      "pos": "n.",
+      "gloss": "原因"
+    },
+    {
+      "i": 219,
+      "zh": "完全",
+      "en": "lex067",
+      "ipa": "[kəmˈpliːtli]",
+      "pos": "adv.",
+      "gloss": "完全"
+    },
+    {
+      "i": 220,
+      "zh": "equilibrium",
+      "en": "equilibrium",
+      "ipa": "[ˌiːkwɪˈlɪbriəm]",
+      "pos": "n.",
+      "gloss": "平衡"
+    },
+    {
+      "i": 221,
+      "zh": "机理",
+      "en": "mechanism",
+      "ipa": "[ˈmekənɪzəm]",
+      "pos": "n.",
+      "gloss": "机理"
+    },
+    {
+      "i": 222,
+      "zh": "算力",
+      "en": "compute",
+      "ipa": "[kəmˈpjuːt]",
+      "pos": "n.",
+      "gloss": "算力"
+    },
+    {
+      "i": 223,
+      "zh": "数据",
+      "en": "datazh",
+      "ipa": "[ˈdeɪtə]",
+      "pos": "n.",
+      "gloss": "数据"
+    },
+    {
+      "i": 224,
+      "zh": "问题",
+      "en": "concern224",
+      "ipa": "[kənˈsɜːn]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 225,
+      "zh": "负样本",
+      "en": "negatives",
+      "ipa": "[ˈneɡətɪvz]",
+      "pos": "n.",
+      "gloss": "负样本"
+    },
+    {
+      "i": 226,
+      "zh": "本质",
+      "en": "essence",
+      "ipa": "[ˈesns]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 227,
+      "zh": "过拟合",
+      "en": "overfitting",
+      "ipa": "[ˌəʊvəˈfɪtɪŋ]",
+      "pos": "n.",
+      "gloss": "过拟合"
+    },
+    {
+      "i": 228,
+      "zh": "同意",
+      "en": "agree",
+      "ipa": "[əˈɡriː]",
+      "pos": "v.",
+      "gloss": "同意"
+    },
+    {
+      "i": 229,
+      "zh": "确实",
+      "en": "lex060229",
+      "ipa": "[ɪnˈdiːd]",
+      "pos": "adv.",
+      "gloss": "确实"
+    },
+    {
+      "i": 230,
+      "zh": "觉得",
+      "en": "believe",
+      "ipa": "[bɪˈliːv]",
+      "pos": "v.",
+      "gloss": "觉得"
+    },
+    {
+      "i": 231,
+      "zh": "自动驾驶",
+      "en": "autopilot",
+      "ipa": "[ˈɔːtəʊ]",
+      "pos": "n.",
+      "gloss": "自动驾驶"
+    },
+    {
+      "i": 232,
+      "zh": "自动驾驶",
+      "en": "autopilot232",
+      "ipa": "[ˈɔːtəʊ]",
+      "pos": "n.",
+      "gloss": "自动驾驶"
+    },
+    {
+      "i": 233,
+      "zh": "Model",
+      "en": "Model",
+      "ipa": "[ˈmɒdl]",
+      "pos": "n.",
+      "gloss": "车型"
+    },
+    {
+      "i": 234,
+      "zh": "address",
+      "en": "address",
+      "ipa": "[əˈdres]",
+      "pos": "v.",
+      "gloss": "处理"
+    },
+    {
+      "i": 235,
+      "zh": "过程",
+      "en": "process",
+      "ipa": "[ˈprəʊses]",
+      "pos": "n.",
+      "gloss": "过程"
+    },
+    {
+      "i": 236,
+      "zh": "仿真",
+      "en": "simulation",
+      "ipa": "[ˌsɪmjuˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "仿真"
+    },
+    {
+      "i": 237,
+      "zh": "Grok",
+      "en": "Grok",
+      "ipa": "[ɡrɒk]",
+      "pos": "n.",
+      "gloss": "Grok"
+    },
+    {
+      "i": 238,
+      "zh": "猜想",
+      "en": "conjecture",
+      "ipa": "[kənˈdʒektʃə]",
+      "pos": "n.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 239,
+      "zh": "讨论",
+      "en": "lex003",
+      "ipa": "[dɪˈskʌʃn]",
+      "pos": "n.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 240,
+      "zh": "小分子",
+      "en": "smallmolecule240",
+      "ipa": "[ˈsmɔːl]",
+      "pos": "n.",
+      "gloss": "小分子"
+    },
+    {
+      "i": 241,
+      "zh": "screening",
+      "en": "screening",
+      "ipa": "[ˈskriːnɪŋ]",
+      "pos": "n.",
+      "gloss": "筛选"
+    },
+    {
+      "i": 242,
+      "zh": "设计",
+      "en": "design",
+      "ipa": "[dɪˈzaɪn]",
+      "pos": "n.",
+      "gloss": "设计"
+    },
+    {
+      "i": 243,
+      "zh": "草药",
+      "en": "herbal",
+      "ipa": "[ˈhɜːbl]",
+      "pos": "adj.",
+      "gloss": "草药的"
+    },
+    {
+      "i": 244,
+      "zh": "副作用",
+      "en": "sideeffect244",
+      "ipa": "[saɪd]",
+      "pos": "n.",
+      "gloss": "副作用"
+    },
+    {
+      "i": 245,
+      "zh": "小分子",
+      "en": "smallmolecule245",
+      "ipa": "[ˈsmɔːl]",
+      "pos": "n.",
+      "gloss": "小分子"
+    },
+    {
+      "i": 246,
+      "zh": "题目",
+      "en": "topic",
+      "ipa": "[ˈtɒpɪk]",
+      "pos": "n.",
+      "gloss": "题目"
+    },
+    {
+      "i": 247,
+      "zh": "modality",
+      "en": "modality",
+      "ipa": "[məʊˈdæləti]",
+      "pos": "n.",
+      "gloss": "模态"
+    },
+    {
+      "i": 248,
+      "zh": "molecular",
+      "en": "molecular248",
+      "ipa": "[məˈlekjələ]",
+      "pos": "adj.",
+      "gloss": "分子的"
+    },
+    {
+      "i": 249,
+      "zh": "Generative",
+      "en": "generative",
+      "ipa": "[ˈdʒenərətɪv]",
+      "pos": "adj.",
+      "gloss": "生成的"
+    },
+    {
+      "i": 250,
+      "zh": "成药性",
+      "en": "druggability",
+      "ipa": "[ˈdrʌɡə]",
+      "pos": "n.",
+      "gloss": "成药性"
+    },
+    {
+      "i": 251,
+      "zh": "合成",
+      "en": "synthesis",
+      "ipa": "[ˈsɪnθəsɪs]",
+      "pos": "n.",
+      "gloss": "合成"
+    },
+    {
+      "i": 252,
+      "zh": "合成",
+      "en": "synthesis252",
+      "ipa": "[ˈsɪnθəsɪs]",
+      "pos": "n.",
+      "gloss": "合成"
+    },
+    {
+      "i": 253,
+      "zh": "研发",
+      "en": "RandD",
+      "ipa": "[ɑː ən diː]",
+      "pos": "n.",
+      "gloss": "研发"
+    },
+    {
+      "i": 254,
+      "zh": "微调",
+      "en": "finetuning",
+      "ipa": "[faɪn]",
+      "pos": "n.",
+      "gloss": "微调"
+    },
+    {
+      "i": 255,
+      "zh": "非常",
+      "en": "substantially",
+      "ipa": "[səbˈstænʃəli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 256,
+      "zh": "干湿实验",
+      "en": "wetlab256",
+      "ipa": "[wet]",
+      "pos": "n.",
+      "gloss": "湿实验"
+    },
+    {
+      "i": 257,
+      "zh": "active",
+      "en": "active",
+      "ipa": "[ˈæktɪv]",
+      "pos": "adj.",
+      "gloss": "主动的"
+    },
+    {
+      "i": 258,
+      "zh": "现在",
+      "en": "lex046",
+      "ipa": "[naʊ]",
+      "pos": "adv.",
+      "gloss": "现在"
+    },
+    {
+      "i": 259,
+      "zh": "分子",
+      "en": "moleculezh",
+      "ipa": "[ˈmɒlɪkjuːl]",
+      "pos": "n.",
+      "gloss": "分子"
+    },
+    {
+      "i": 260,
+      "zh": "比较",
+      "en": "lex082",
+      "ipa": "[kəmˈpeə]",
+      "pos": "v.",
+      "gloss": "比较"
+    },
+    {
+      "i": 261,
+      "zh": "自动化",
+      "en": "automation",
+      "ipa": "[ˌɔːtəˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 262,
+      "zh": "OpenAI",
+      "en": "OpenAI",
+      "ipa": "[ˈəʊpən aɪ]",
+      "pos": "n.",
+      "gloss": "OpenAI"
+    },
+    {
+      "i": 263,
+      "zh": "interact",
+      "en": "interact",
+      "ipa": "[ˌɪntərˈækt]",
+      "pos": "v.",
+      "gloss": "交互"
+    },
+    {
+      "i": 264,
+      "zh": "负反馈",
+      "en": "negativefeedback",
+      "ipa": "[ˈneɡətɪv]",
+      "pos": "n.",
+      "gloss": "负反馈"
+    },
+    {
+      "i": 265,
+      "zh": "转化",
+      "en": "translation",
+      "ipa": "[trænzˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "转化"
+    },
+    {
+      "i": 266,
+      "zh": "机器人",
+      "en": "robot",
+      "ipa": "[ˈrəʊbɒt]",
+      "pos": "n.",
+      "gloss": "机器人"
+    },
+    {
+      "i": 267,
+      "zh": "Recursion",
+      "en": "Recursion",
+      "ipa": "[rɪˈkɜːʃn]",
+      "pos": "n.",
+      "gloss": "Recursion"
+    },
+    {
+      "i": 268,
+      "zh": "Ginkgo",
+      "en": "Ginkgo",
+      "ipa": "[ˈɡɪŋkəʊ]",
+      "pos": "n.",
+      "gloss": "Ginkgo"
+    },
+    {
+      "i": 269,
+      "zh": "当然",
+      "en": "lex061269",
+      "ipa": "[ˈkɔːs]",
+      "pos": "adv.",
+      "gloss": "当然"
+    },
+    {
+      "i": 270,
+      "zh": "小分子",
+      "en": "smallmolecule270",
+      "ipa": "[ˈsmɔːl]",
+      "pos": "n.",
+      "gloss": "小分子"
+    },
+    {
+      "i": 271,
+      "zh": "POC",
+      "en": "POC",
+      "ipa": "[piː əʊ siː]",
+      "pos": "n.",
+      "gloss": "概念验证"
+    },
+    {
+      "i": 272,
+      "zh": "蛋白",
+      "en": "proteinshort",
+      "ipa": "[ˈprəʊtiːn]",
+      "pos": "n.",
+      "gloss": "蛋白"
+    },
+    {
+      "i": 273,
+      "zh": "基础",
+      "en": "lex014",
+      "ipa": "[ˈbeɪsɪs]",
+      "pos": "n.",
+      "gloss": "基础"
+    },
+    {
+      "i": 274,
+      "zh": "引用",
+      "en": "citation",
+      "ipa": "[saɪˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "引用"
+    },
+    {
+      "i": 275,
+      "zh": "现在",
+      "en": "lex046275",
+      "ipa": "[naʊ]",
+      "pos": "adv.",
+      "gloss": "现在"
+    },
+    {
+      "i": 276,
+      "zh": "差不多",
+      "en": "comparable",
+      "ipa": "[ˈkɒmpərəbl]",
+      "pos": "adj.",
+      "gloss": "差不多"
+    },
+    {
+      "i": 277,
+      "zh": "大肠杆菌",
+      "en": "coli277",
+      "ipa": "[ˈkəʊlaɪ]",
+      "pos": "n.",
+      "gloss": "大肠杆菌"
+    },
+    {
+      "i": 278,
+      "zh": "避免",
+      "en": "lex092",
+      "ipa": "[əˈvɔɪd]",
+      "pos": "v.",
+      "gloss": "避免"
+    },
+    {
+      "i": 279,
+      "zh": "疫苗",
+      "en": "vaccine",
+      "ipa": "[ˈvæksiːn]",
+      "pos": "n.",
+      "gloss": "疫苗"
+    },
+    {
+      "i": 280,
+      "zh": "脑膜炎",
+      "en": "meningitis",
+      "ipa": "[ˌmenɪnˈdʒaɪtɪs]",
+      "pos": "n.",
+      "gloss": "脑膜炎"
+    },
+    {
+      "i": 281,
+      "zh": "免疫疗法",
+      "en": "immunotherapy",
+      "ipa": "[ˌɪmjənəʊˈθerəpi]",
+      "pos": "n.",
+      "gloss": "免疫疗法"
+    },
+    {
+      "i": 282,
+      "zh": "经验",
+      "en": "experience",
+      "ipa": "[ɪkˈspɪəriəns]",
+      "pos": "n.",
+      "gloss": "经验"
+    },
+    {
+      "i": 283,
+      "zh": "经验",
+      "en": "lex074",
+      "ipa": "[ɪkˈspɪəriəns]",
+      "pos": "n.",
+      "gloss": "经验"
+    },
+    {
+      "i": 284,
+      "zh": "可合成性",
+      "en": "synthesizability",
+      "ipa": "[sɪnθəsaɪzəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "可合成性"
+    },
+    {
+      "i": 285,
+      "zh": "证据",
+      "en": "lex075",
+      "ipa": "[ˈevɪdəns]",
+      "pos": "n.",
+      "gloss": "证据"
+    },
+    {
+      "i": 286,
+      "zh": "治疗",
+      "en": "lex018",
+      "ipa": "[ˈθerəpi]",
+      "pos": "n.",
+      "gloss": "治疗"
+    },
+    {
+      "i": 287,
+      "zh": "影响",
+      "en": "lex088",
+      "ipa": "[ˈɪnfluəns]",
+      "pos": "v.",
+      "gloss": "影响"
+    },
+    {
+      "i": 288,
+      "zh": "蛋白质",
+      "en": "protein",
+      "ipa": "[ˈprəʊtiːn]",
+      "pos": "n.",
+      "gloss": "蛋白质"
+    },
+    {
+      "i": 289,
+      "zh": "抑制",
+      "en": "inhibit",
+      "ipa": "[ɪnˈhɪbɪt]",
+      "pos": "v.",
+      "gloss": "抑制"
+    },
+    {
+      "i": 290,
+      "zh": "checkpoint",
+      "en": "checkpoint",
+      "ipa": "[ˈtʃekpɔɪnt]",
+      "pos": "n.",
+      "gloss": "检查点"
+    },
+    {
+      "i": 291,
+      "zh": "探索",
+      "en": "explore",
+      "ipa": "[ɪkˈsplɔː]",
+      "pos": "v.",
+      "gloss": "探索"
+    },
+    {
+      "i": 292,
+      "zh": "免疫",
+      "en": "immunity",
+      "ipa": "[ɪˈmjuːnəti]",
+      "pos": "n.",
+      "gloss": "免疫"
+    },
+    {
+      "i": 293,
+      "zh": "顶流",
+      "en": "toptier",
+      "ipa": "[tɒp]",
+      "pos": "n.",
+      "gloss": "顶流"
+    },
+    {
+      "i": 294,
+      "zh": "非常",
+      "en": "deeply",
+      "ipa": "[ˈdiːpli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 295,
+      "zh": "非常",
+      "en": "exceedingly",
+      "ipa": "[ɪkˈsiːdɪŋli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 296,
+      "zh": "赛道",
+      "en": "niche",
+      "ipa": "[niːʃ]",
+      "pos": "n.",
+      "gloss": "赛道"
+    },
+    {
+      "i": 297,
+      "zh": "非常",
+      "en": "truly",
+      "ipa": "[ˈtruːli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 298,
+      "zh": "Nature",
+      "en": "Nature298",
+      "ipa": "[ˈneɪtʃə]",
+      "pos": "n.",
+      "gloss": "Nature"
+    },
+    {
+      "i": 299,
+      "zh": "其实",
+      "en": "lex062",
+      "ipa": "[ˈæktʃuəli]",
+      "pos": "adv.",
+      "gloss": "其实"
+    },
+    {
+      "i": 300,
+      "zh": "机会",
+      "en": "opportunity",
+      "ipa": "[ˌɒpəˈtjuːnəti]",
+      "pos": "n.",
+      "gloss": "机会"
+    },
+    {
+      "i": 301,
+      "zh": "结合",
+      "en": "lex094",
+      "ipa": "[kəˈmbɪn]",
+      "pos": "v.",
+      "gloss": "结合"
+    },
+    {
+      "i": 302,
+      "zh": "稍微",
+      "en": "slightly",
+      "ipa": "[ˈslaɪtli]",
+      "pos": "adv.",
+      "gloss": "稍微"
+    },
+    {
+      "i": 303,
+      "zh": "核心",
+      "en": "core",
+      "ipa": "[kɔː]",
+      "pos": "n.",
+      "gloss": "核心"
+    },
+    {
+      "i": 304,
+      "zh": "交流",
+      "en": "exchange",
+      "ipa": "[ɪksˈtʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "交流"
+    },
+    {
+      "i": 305,
+      "zh": "方面",
+      "en": "lex026305",
+      "ipa": "[ˈæspekt]",
+      "pos": "n.",
+      "gloss": "方面"
+    },
+    {
+      "i": 306,
+      "zh": "设计",
+      "en": "design306",
+      "ipa": "[dɪˈzaɪn]",
+      "pos": "n.",
+      "gloss": "设计"
+    },
+    {
+      "i": 307,
+      "zh": "情况",
+      "en": "lex023",
+      "ipa": "[ˈsɪtʃuːeɪʃn]",
+      "pos": "n.",
+      "gloss": "情况"
+    },
+    {
+      "i": 308,
+      "zh": "药理学",
+      "en": "pharmacology",
+      "ipa": "[ˌfɑːməˈkɒlədʒi]",
+      "pos": "n.",
+      "gloss": "药理学"
+    },
+    {
+      "i": 309,
+      "zh": "临床",
+      "en": "clinical",
+      "ipa": "[ˈklɪnɪkl]",
+      "pos": "adj.",
+      "gloss": "临床的"
+    },
+    {
+      "i": 310,
+      "zh": "非常",
+      "en": "tremendously",
+      "ipa": "[trəˈmendəsli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 311,
+      "zh": "特别",
+      "en": "lex064",
+      "ipa": "[ˈspeʃl]",
+      "pos": "adv.",
+      "gloss": "特别"
+    },
+    {
+      "i": 312,
+      "zh": "非常",
+      "en": "extremely",
+      "ipa": "[ɪkˈstriːmli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 313,
+      "zh": "深耕",
+      "en": "deepen",
+      "ipa": "[ˈdiːpən]",
+      "pos": "v.",
+      "gloss": "深耕"
+    },
+    {
+      "i": 314,
+      "zh": "科研",
+      "en": "research",
+      "ipa": "[rɪˈsɜːtʃ]",
+      "pos": "n.",
+      "gloss": "科研"
+    },
+    {
+      "i": 315,
+      "zh": "过去",
+      "en": "lex048",
+      "ipa": "[ˈpɑːst]",
+      "pos": "n.",
+      "gloss": "过去"
+    },
+    {
+      "i": 316,
+      "zh": "领域",
+      "en": "lex011316",
+      "ipa": "[ˈfiːld]",
+      "pos": "n.",
+      "gloss": "领域"
+    },
+    {
+      "i": 317,
+      "zh": "方法",
+      "en": "lex022",
+      "ipa": "[ˈmeθəd]",
+      "pos": "n.",
+      "gloss": "方法"
+    },
+    {
+      "i": 318,
+      "zh": "同意",
+      "en": "agree318",
+      "ipa": "[əˈɡriː]",
+      "pos": "v.",
+      "gloss": "同意"
+    },
+    {
+      "i": 319,
+      "zh": "讨论",
+      "en": "discussion",
+      "ipa": "[dɪˈskʌʃn]",
+      "pos": "n.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 320,
+      "zh": "解码",
+      "en": "decode",
+      "ipa": "[ˌdiːˈkəʊd]",
+      "pos": "v.",
+      "gloss": "解码"
+    },
+    {
+      "i": 321,
+      "zh": "疾病",
+      "en": "lex019",
+      "ipa": "[dɪˈziːz]",
+      "pos": "n.",
+      "gloss": "疾病"
+    },
+    {
+      "i": 322,
+      "zh": "复杂",
+      "en": "lex054322",
+      "ipa": "[ˈkɒmpleks]",
+      "pos": "adj.",
+      "gloss": "复杂"
+    },
+    {
+      "i": 323,
+      "zh": "抗原",
+      "en": "antigen",
+      "ipa": "[ˈæntɪdʒən]",
+      "pos": "n.",
+      "gloss": "抗原"
+    },
+    {
+      "i": 324,
+      "zh": "非常",
+      "en": "vastly",
+      "ipa": "[ˈvɑːstli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 325,
+      "zh": "RNA",
+      "en": "RNA",
+      "ipa": "[ɑː]",
+      "pos": "n.",
+      "gloss": "RNA"
+    },
+    {
+      "i": 326,
+      "zh": "RNA",
+      "en": "RNA326",
+      "ipa": "[ɑː]",
+      "pos": "n.",
+      "gloss": "RNA"
+    },
+    {
+      "i": 327,
+      "zh": "Scripps",
+      "en": "Scripps",
+      "ipa": "[skrɪps]",
+      "pos": "n.",
+      "gloss": "Scripps"
+    },
+    {
+      "i": 328,
+      "zh": "表达",
+      "en": "expression",
+      "ipa": "[ɪkˈspreʃn]",
+      "pos": "n.",
+      "gloss": "表达"
+    },
+    {
+      "i": 329,
+      "zh": "递送",
+      "en": "delivery",
+      "ipa": "[ˈdɪlɪvəri]",
+      "pos": "n.",
+      "gloss": "递送"
+    },
+    {
+      "i": 330,
+      "zh": "miRNA",
+      "en": "miRNA",
+      "ipa": "[em aɪ ɑː]",
+      "pos": "n.",
+      "gloss": "miRNA"
+    },
+    {
+      "i": 331,
+      "zh": "mRNA",
+      "en": "mRNA331",
+      "ipa": "[em ɑː]",
+      "pos": "n.",
+      "gloss": "信使RNA"
+    },
+    {
+      "i": 332,
+      "zh": "siRNA",
+      "en": "siRNA",
+      "ipa": "[es aɪ ɑː]",
+      "pos": "n.",
+      "gloss": "siRNA"
+    },
+    {
+      "i": 333,
+      "zh": "递送",
+      "en": "delivery333",
+      "ipa": "[ˈdɪlɪvəri]",
+      "pos": "n.",
+      "gloss": "递送"
+    },
+    {
+      "i": 334,
+      "zh": "经验",
+      "en": "experience334",
+      "ipa": "[ɪkˈspɪəriəns]",
+      "pos": "n.",
+      "gloss": "经验"
+    },
+    {
+      "i": 335,
+      "zh": "可以",
+      "en": "lex037335",
+      "ipa": "[kæn]",
+      "pos": "v.",
+      "gloss": "可以"
+    },
+    {
+      "i": 336,
+      "zh": "假设",
+      "en": "hypothesis",
+      "ipa": "[haɪˈpɒθəsɪs]",
+      "pos": "n.",
+      "gloss": "假设"
+    },
+    {
+      "i": 337,
+      "zh": "LNP",
+      "en": "LNP",
+      "ipa": "[el en piː]",
+      "pos": "n.",
+      "gloss": "脂质纳米颗粒"
+    },
+    {
+      "i": 338,
+      "zh": "微环境",
+      "en": "microenv",
+      "ipa": "[ˈmaɪkrəʊ]",
+      "pos": "n.",
+      "gloss": "微环境"
+    },
+    {
+      "i": 339,
+      "zh": "组学",
+      "en": "omics",
+      "ipa": "[ˈəʊmɪks]",
+      "pos": "n.",
+      "gloss": "组学"
+    },
+    {
+      "i": 340,
+      "zh": "作用",
+      "en": "role340",
+      "ipa": "[rəʊl]",
+      "pos": "n.",
+      "gloss": "作用"
+    },
+    {
+      "i": 341,
+      "zh": "bulk",
+      "en": "bulk",
+      "ipa": "[bʌlk]",
+      "pos": "n.",
+      "gloss": "批量测序语境"
+    },
+    {
+      "i": 342,
+      "zh": "Perturb",
+      "en": "Perturb",
+      "ipa": "[pəˈtɜːb]",
+      "pos": "v.",
+      "gloss": "扰动"
+    },
+    {
+      "i": 343,
+      "zh": "蛋白组",
+      "en": "proteomics",
+      "ipa": "[ˌprəʊtiːˈɒmɪks]",
+      "pos": "n.",
+      "gloss": "蛋白组学"
+    },
+    {
+      "i": 344,
+      "zh": "糖基化",
+      "en": "glycosylation",
+      "ipa": "[ˌɡlaɪkɒsɪˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "糖基化"
+    },
+    {
+      "i": 345,
+      "zh": "Virtual",
+      "en": "virtual",
+      "ipa": "[ˈvɜːtʃuəl]",
+      "pos": "adj.",
+      "gloss": "虚拟的"
+    },
+    {
+      "i": 346,
+      "zh": "细胞",
+      "en": "cell",
+      "ipa": "[sel]",
+      "pos": "n.",
+      "gloss": "细胞"
+    },
+    {
+      "i": 347,
+      "zh": "试验",
+      "en": "trial",
+      "ipa": "[ˈtraɪəl]",
+      "pos": "n.",
+      "gloss": "试验"
+    },
+    {
+      "i": 348,
+      "zh": "Virtual",
+      "en": "virtual348",
+      "ipa": "[ˈvɜːtʃuəl]",
+      "pos": "adj.",
+      "gloss": "虚拟的"
+    },
+    {
+      "i": 349,
+      "zh": "赛道",
+      "en": "vertical",
+      "ipa": "[ˈvɜːtɪkl]",
+      "pos": "n.",
+      "gloss": "赛道"
+    },
+    {
+      "i": 350,
+      "zh": "细胞",
+      "en": "cellular",
+      "ipa": "[ˈseljələ]",
+      "pos": "adj.",
+      "gloss": "细胞的"
+    },
+    {
+      "i": 351,
+      "zh": "响应",
+      "en": "response",
+      "ipa": "[rɪˈspɒns]",
+      "pos": "n.",
+      "gloss": "响应"
+    },
+    {
+      "i": 352,
+      "zh": "分享",
+      "en": "share",
+      "ipa": "[ʃeə]",
+      "pos": "v.",
+      "gloss": "分享"
+    },
+    {
+      "i": 353,
+      "zh": "比较",
+      "en": "lex082353",
+      "ipa": "[kəmˈpeə]",
+      "pos": "v.",
+      "gloss": "比较"
+    },
+    {
+      "i": 354,
+      "zh": "数字细胞",
+      "en": "digitalcell",
+      "ipa": "[ˈdɪdʒɪtl]",
+      "pos": "adj.",
+      "gloss": "数字细胞"
+    },
+    {
+      "i": 355,
+      "zh": "理解",
+      "en": "lex007",
+      "ipa": "[ˌʌndəˈstænd]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 356,
+      "zh": "molecular",
+      "en": "molecular356",
+      "ipa": "[məˈlekjələ]",
+      "pos": "adj.",
+      "gloss": "分子的"
+    },
+    {
+      "i": 357,
+      "zh": "转录组",
+      "en": "transcriptome",
+      "ipa": "[trænˈskɪptəʊm]",
+      "pos": "n.",
+      "gloss": "转录组"
+    },
+    {
+      "i": 358,
+      "zh": "扰动",
+      "en": "perturbation",
+      "ipa": "[ˌpɜːbəˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "扰动"
+    },
+    {
+      "i": 359,
+      "zh": "世界模型",
+      "en": "worldmodel",
+      "ipa": "[wɜːld ˈmɒdl]",
+      "pos": "n.",
+      "gloss": "世界模型"
+    },
+    {
+      "i": 360,
+      "zh": "小分子",
+      "en": "smallmolecule360",
+      "ipa": "[ˈsmɔːl]",
+      "pos": "n.",
+      "gloss": "小分子"
+    },
+    {
+      "i": 361,
+      "zh": "molecular",
+      "en": "molecular361",
+      "ipa": "[məˈlekjələ]",
+      "pos": "adj.",
+      "gloss": "分子的"
+    },
+    {
+      "i": 362,
+      "zh": "结构",
+      "en": "structure",
+      "ipa": "[ˈstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "结构"
+    },
+    {
+      "i": 363,
+      "zh": "细胞",
+      "en": "cellular363",
+      "ipa": "[ˈseljələ]",
+      "pos": "adj.",
+      "gloss": "细胞的"
+    },
+    {
+      "i": 364,
+      "zh": "target",
+      "en": "target364",
+      "ipa": "[ˈtɑːɡɪt]",
+      "pos": "n.",
+      "gloss": "靶点"
+    },
+    {
+      "i": 365,
+      "zh": "cellular",
+      "en": "cellular365",
+      "ipa": "[ˈseljələ]",
+      "pos": "adj.",
+      "gloss": "细胞的"
+    },
+    {
+      "i": 366,
+      "zh": "cellular",
+      "en": "cellular366",
+      "ipa": "[ˈseljələ]",
+      "pos": "adj.",
+      "gloss": "细胞的"
+    },
+    {
+      "i": 367,
+      "zh": "尤其",
+      "en": "lex063",
+      "ipa": "[ɪˈspeʃəli]",
+      "pos": "adv.",
+      "gloss": "尤其"
+    },
+    {
+      "i": 368,
+      "zh": "测序",
+      "en": "sequencing",
+      "ipa": "[ˈsiːkwənsɪŋ]",
+      "pos": "n.",
+      "gloss": "测序"
+    },
+    {
+      "i": 369,
+      "zh": "AI Agent",
+      "en": "AIAgent369",
+      "ipa": "[eɪ aɪ]",
+      "pos": "n.",
+      "gloss": "AI智能体"
+    },
+    {
+      "i": 370,
+      "zh": "方法论",
+      "en": "methodology",
+      "ipa": "[ˌmeθəˈdɒlədʒi]",
+      "pos": "n.",
+      "gloss": "方法论"
+    },
+    {
+      "i": 371,
+      "zh": "文献检索",
+      "en": "litsearch",
+      "ipa": "[ˈlɪtrətʃə]",
+      "pos": "n.",
+      "gloss": "文献检索"
+    },
+    {
+      "i": 372,
+      "zh": "Biomni",
+      "en": "Biomni",
+      "ipa": "[baɪˈɒmni]",
+      "pos": "n.",
+      "gloss": "Biomni"
+    },
+    {
+      "i": 373,
+      "zh": "Agent",
+      "en": "Agent373",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "智能体"
+    },
+    {
+      "i": 374,
+      "zh": "比较",
+      "en": "lex082374",
+      "ipa": "[kəmˈpeə]",
+      "pos": "v.",
+      "gloss": "比较"
+    },
+    {
+      "i": 375,
+      "zh": "想法",
+      "en": "thought",
+      "ipa": "[θɔːt]",
+      "pos": "n.",
+      "gloss": "想法"
+    },
+    {
+      "i": 376,
+      "zh": "机器学习",
+      "en": "machinelearning376",
+      "ipa": "[məˈʃiːn]",
+      "pos": "n.",
+      "gloss": "机器学习"
+    },
+    {
+      "i": 377,
+      "zh": "连接主义",
+      "en": "connectionist",
+      "ipa": "[kəˈnekʃənɪst]",
+      "pos": "adj.",
+      "gloss": "连接主义"
+    },
+    {
+      "i": 378,
+      "zh": "Agent",
+      "en": "Agent378",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "智能体"
+    },
+    {
+      "i": 379,
+      "zh": "提示",
+      "en": "prompt",
+      "ipa": "[prɒmpt]",
+      "pos": "n.",
+      "gloss": "提示"
+    },
+    {
+      "i": 380,
+      "zh": "Zou",
+      "en": "Zou",
+      "ipa": "[dzuː]",
+      "pos": "n.",
+      "gloss": "邹"
+    },
+    {
+      "i": 381,
+      "zh": "Agent",
+      "en": "Agent381",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "智能体"
+    },
+    {
+      "i": 382,
+      "zh": "智能体",
+      "en": "agentzh",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "智能体"
+    },
+    {
+      "i": 383,
+      "zh": "化学",
+      "en": "chemistry",
+      "ipa": "[ˈkemɪstri]",
+      "pos": "n.",
+      "gloss": "化学"
+    },
+    {
+      "i": 384,
+      "zh": "Swarm",
+      "en": "Swarm",
+      "ipa": "[swɔːm]",
+      "pos": "n.",
+      "gloss": "Swarm"
+    },
+    {
+      "i": 385,
+      "zh": "科学",
+      "en": "lex016",
+      "ipa": "[ˈsaɪəns]",
+      "pos": "n.",
+      "gloss": "科学"
+    },
+    {
+      "i": 386,
+      "zh": "AI Agent",
+      "en": "AIAgent386",
+      "ipa": "[eɪ aɪ]",
+      "pos": "n.",
+      "gloss": "AI智能体"
+    },
+    {
+      "i": 387,
+      "zh": "text",
+      "en": "text",
+      "ipa": "[tekst]",
+      "pos": "n.",
+      "gloss": "文本"
+    },
+    {
+      "i": 388,
+      "zh": "类似于",
+      "en": "akin",
+      "ipa": "[əˈkɪn]",
+      "pos": "prep.",
+      "gloss": "类似于"
+    },
+    {
+      "i": 389,
+      "zh": "实习生",
+      "en": "interns",
+      "ipa": "[ˈɪntɜːn]",
+      "pos": "n.",
+      "gloss": "实习生"
+    },
+    {
+      "i": 390,
+      "zh": "OpenAI",
+      "en": "OpenAI390",
+      "ipa": "[ˈəʊpən aɪ]",
+      "pos": "n.",
+      "gloss": "OpenAI"
+    },
+    {
+      "i": 391,
+      "zh": "Nature",
+      "en": "Nature391",
+      "ipa": "[ˈneɪtʃə]",
+      "pos": "n.",
+      "gloss": "Nature"
+    },
+    {
+      "i": 392,
+      "zh": "模块化",
+      "en": "modular",
+      "ipa": "[ˈmɒdjələ]",
+      "pos": "adj.",
+      "gloss": "模块化"
+    },
+    {
+      "i": 393,
+      "zh": "范式",
+      "en": "paradigm",
+      "ipa": "[ˈpærədaɪm]",
+      "pos": "n.",
+      "gloss": "范式"
+    },
+    {
+      "i": 394,
+      "zh": "James",
+      "en": "James",
+      "ipa": "[dʒeɪmz]",
+      "pos": "n.",
+      "gloss": "James"
+    },
+    {
+      "i": 395,
+      "zh": "角色",
+      "en": "roleplay",
+      "ipa": "[rəʊl]",
+      "pos": "n.",
+      "gloss": "角色"
+    },
+    {
+      "i": 396,
+      "zh": "兴奋",
+      "en": "excitement",
+      "ipa": "[ɪkˈsaɪtmənt]",
+      "pos": "n.",
+      "gloss": "兴奋"
+    },
+    {
+      "i": 397,
+      "zh": "Minecraft",
+      "en": "Minecraft",
+      "ipa": "[ˈmaɪnkrɑːft]",
+      "pos": "n.",
+      "gloss": "Minecraft"
+    },
+    {
+      "i": 398,
+      "zh": "协调",
+      "en": "coordination",
+      "ipa": "[kəʊˌɔːdɪˈneɪʃn]",
+      "pos": "n.",
+      "gloss": "协调"
+    },
+    {
+      "i": 399,
+      "zh": "当然",
+      "en": "lex061399",
+      "ipa": "[ˈkɔːs]",
+      "pos": "adv.",
+      "gloss": "当然"
+    },
+    {
+      "i": 400,
+      "zh": "PhD",
+      "en": "PhD",
+      "ipa": "[piː eɪtʃ diː]",
+      "pos": "n.",
+      "gloss": "博士"
+    },
+    {
+      "i": 401,
+      "skip": true
+    },
+    {
+      "i": 402,
+      "zh": "具身",
+      "en": "embodied2",
+      "ipa": "[ɪmˈbɒdɪd]",
+      "pos": "adj.",
+      "gloss": "具身"
+    },
+    {
+      "i": 403,
+      "zh": "AI Agent",
+      "en": "AIAgent403",
+      "ipa": "[eɪ aɪ]",
+      "pos": "n.",
+      "gloss": "AI智能体"
+    },
+    {
+      "i": 404,
+      "zh": "赛道",
+      "en": "track",
+      "ipa": "[træk]",
+      "pos": "n.",
+      "gloss": "赛道"
+    },
+    {
+      "i": 405,
+      "zh": "意思",
+      "en": "meaning",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意思"
+    },
+    {
+      "i": 406,
+      "zh": "HaaS",
+      "en": "HaaS",
+      "ipa": "[hæz]",
+      "pos": "n.",
+      "gloss": "硬件即服务"
+    },
+    {
+      "i": 407,
+      "zh": "RaaS",
+      "en": "RaaS",
+      "ipa": "[rɑːz]",
+      "pos": "n.",
+      "gloss": "结果即服务"
+    },
+    {
+      "i": 408,
+      "zh": "自然语言",
+      "en": "naturallanguage408",
+      "ipa": "[ˈnætʃərəl]",
+      "pos": "n.",
+      "gloss": "自然语言"
+    },
+    {
+      "i": 409,
+      "zh": "实现",
+      "en": "lex029",
+      "ipa": "[ˈriːəlaɪz]",
+      "pos": "v.",
+      "gloss": "实现"
+    },
+    {
+      "i": 410,
+      "zh": "窄",
+      "en": "narrow",
+      "ipa": "[ˈnærəʊ]",
+      "pos": "adj.",
+      "gloss": "狭窄"
+    },
+    {
+      "i": 411,
+      "zh": "pipeline",
+      "en": "pipeline",
+      "ipa": "[ˈpaɪplaɪn]",
+      "pos": "n.",
+      "gloss": "流程管线"
+    },
+    {
+      "i": 412,
+      "zh": "Agent",
+      "en": "Agent412",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "智能体"
+    },
+    {
+      "i": 413,
+      "zh": "明显",
+      "en": "lex059",
+      "ipa": "[ˈɒbviəs]",
+      "pos": "adj.",
+      "gloss": "明显"
+    },
+    {
+      "i": 414,
+      "zh": "觉得",
+      "en": "believe414",
+      "ipa": "[bɪˈliːv]",
+      "pos": "v.",
+      "gloss": "觉得"
+    },
+    {
+      "i": 415,
+      "zh": "降低",
+      "en": "lex031",
+      "ipa": "[rɪˈdjuːs]",
+      "pos": "v.",
+      "gloss": "降低"
+    },
+    {
+      "i": 416,
+      "zh": "小时",
+      "en": "hour",
+      "ipa": "[ˈaʊə]",
+      "pos": "n.",
+      "gloss": "小时"
+    },
+    {
+      "i": 417,
+      "zh": "Agent",
+      "en": "Agent417",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "智能体"
+    },
+    {
+      "i": 418,
+      "zh": "问题",
+      "en": "query418",
+      "ipa": "[ˈkwɪəri]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 419,
+      "zh": "Agent",
+      "en": "Agent419",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "智能体"
+    },
+    {
+      "i": 420,
+      "zh": "泛化",
+      "en": "generalization",
+      "ipa": "[ˌdʒenərəlaɪˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "泛化"
+    },
+    {
+      "i": 421,
+      "zh": "帮助",
+      "en": "help",
+      "ipa": "[help]",
+      "pos": "n.",
+      "gloss": "帮助"
+    },
+    {
+      "i": 422,
+      "zh": "公司",
+      "en": "company",
+      "ipa": "[ˈkʌmpəni]",
+      "pos": "n.",
+      "gloss": "公司"
+    },
+    {
+      "i": 423,
+      "zh": "文献",
+      "en": "literature",
+      "ipa": "[ˈlɪtrətʃə]",
+      "pos": "n.",
+      "gloss": "文献"
+    },
+    {
+      "i": 424,
+      "zh": "公司",
+      "en": "company424",
+      "ipa": "[ˈkʌmpəni]",
+      "pos": "n.",
+      "gloss": "公司"
+    },
+    {
+      "i": 425,
+      "zh": "部署",
+      "en": "deploy",
+      "ipa": "[dɪˈplɔɪ]",
+      "pos": "v.",
+      "gloss": "部署"
+    },
+    {
+      "i": 426,
+      "zh": "流程",
+      "en": "workflow",
+      "ipa": "[ˈwɜːkfləʊ]",
+      "pos": "n.",
+      "gloss": "流程"
+    },
+    {
+      "i": 427,
+      "zh": "增效",
+      "en": "efficiencygain",
+      "ipa": "[ɪˈfɪʃnsi]",
+      "pos": "n.",
+      "gloss": "增效"
+    },
+    {
+      "i": 428,
+      "zh": "速度",
+      "en": "velocity",
+      "ipa": "[vəˈlɒsəti]",
+      "pos": "n.",
+      "gloss": "速度"
+    },
+    {
+      "i": 429,
+      "zh": "产生",
+      "en": "lex028",
+      "ipa": "[ˈprɒdjuːs]",
+      "pos": "v.",
+      "gloss": "产生"
+    },
+    {
+      "i": 430,
+      "zh": "问题",
+      "en": "question430",
+      "ipa": "[ˈkwestʃən]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 431,
+      "zh": "今天",
+      "en": "lex045",
+      "ipa": "[təˈdeɪ]",
+      "pos": "adv.",
+      "gloss": "今天"
+    },
+    {
+      "i": 432,
+      "zh": "收购",
+      "en": "acquisition",
+      "ipa": "[ˌækwɪˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "收购"
+    },
+    {
+      "i": 433,
+      "zh": "优势",
+      "en": "advantage",
+      "ipa": "[ədˈvɑːntɪdʒ]",
+      "pos": "n.",
+      "gloss": "优势"
+    },
+    {
+      "i": 434,
+      "zh": "deal",
+      "en": "deal",
+      "ipa": "[diːl]",
+      "pos": "n.",
+      "gloss": "交易"
+    },
+    {
+      "i": 435,
+      "zh": "原因",
+      "en": "reason435",
+      "ipa": "[ˈriːzn]",
+      "pos": "n.",
+      "gloss": "原因"
+    },
+    {
+      "i": 436,
+      "zh": "成本",
+      "en": "cost436",
+      "ipa": "[kɒst]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 437,
+      "zh": "产业链",
+      "en": "supplychain437",
+      "ipa": "[səˈplaɪ]",
+      "pos": "n.",
+      "gloss": "产业链"
+    },
+    {
+      "i": 438,
+      "zh": "idea",
+      "en": "idea",
+      "ipa": "[aɪˈdɪə]",
+      "pos": "n.",
+      "gloss": "想法"
+    },
+    {
+      "i": 439,
+      "zh": "drug",
+      "en": "drug439",
+      "ipa": "[drʌɡ]",
+      "pos": "n.",
+      "gloss": "药物"
+    },
+    {
+      "i": 440,
+      "zh": "比较",
+      "en": "lex082440",
+      "ipa": "[kəmˈpeə]",
+      "pos": "v.",
+      "gloss": "比较"
+    },
+    {
+      "i": 441,
+      "zh": "人才",
+      "en": "talent",
+      "ipa": "[ˈtælənt]",
+      "pos": "n.",
+      "gloss": "人才"
+    },
+    {
+      "i": 442,
+      "zh": "技术",
+      "en": "technology442",
+      "ipa": "[tekˈnɒlədʒi]",
+      "pos": "n.",
+      "gloss": "技术"
+    },
+    {
+      "i": 443,
+      "zh": "未来",
+      "en": "lex047",
+      "ipa": "[ˈfjuːtʃə]",
+      "pos": "n.",
+      "gloss": "未来"
+    },
+    {
+      "i": 444,
+      "zh": "非常",
+      "en": "seriously444",
+      "ipa": "[ˈsɪəriəsli]",
+      "pos": "adv.",
+      "gloss": "非常"
+    },
+    {
+      "i": 445,
+      "zh": "同意",
+      "en": "agree445",
+      "ipa": "[əˈɡriː]",
+      "pos": "v.",
+      "gloss": "同意"
+    },
+    {
+      "i": 446,
+      "zh": "差距",
+      "en": "gap",
+      "ipa": "[ɡæp]",
+      "pos": "n.",
+      "gloss": "差距"
+    },
+    {
+      "i": 447,
+      "zh": "供给",
+      "en": "supply",
+      "ipa": "[səˈplaɪ]",
+      "pos": "n.",
+      "gloss": "供给"
+    },
+    {
+      "i": 448,
+      "zh": "需求",
+      "en": "demand",
+      "ipa": "[dɪˈmɑːnd]",
+      "pos": "n.",
+      "gloss": "需求"
+    },
+    {
+      "i": 449,
+      "zh": "虽然",
+      "en": "lex044",
+      "ipa": "[ˈɔːlðəʊ]",
+      "pos": "conj.",
+      "gloss": "虽然"
+    },
+    {
+      "i": 450,
+      "zh": "互通",
+      "en": "interoperability",
+      "ipa": "[ˌɪntərɒpərəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "互通"
+    },
+    {
+      "i": 451,
+      "zh": "当然",
+      "en": "lex061451",
+      "ipa": "[ˈkɔːs]",
+      "pos": "adv.",
+      "gloss": "当然"
+    },
+    {
+      "i": 452,
+      "zh": "国内",
+      "en": "domestic",
+      "ipa": "[dəˈmestɪk]",
+      "pos": "adj.",
+      "gloss": "国内"
+    },
+    {
+      "i": 453,
+      "zh": "一半",
+      "en": "half",
+      "ipa": "[hɑːf]",
+      "pos": "n.",
+      "gloss": "一半"
+    },
+    {
+      "i": 454,
+      "zh": "华人",
+      "en": "diaspora",
+      "ipa": "[daɪˈæspərə]",
+      "pos": "n.",
+      "gloss": "华人"
+    },
+    {
+      "i": 455,
+      "zh": "前苏联",
+      "en": "Soviet",
+      "ipa": "[ˈsəʊviət]",
+      "pos": "adj.",
+      "gloss": "前苏联的"
+    },
+    {
+      "i": 456,
+      "zh": "BLAST",
+      "en": "BLAST",
+      "ipa": "[blæst]",
+      "pos": "n.",
+      "gloss": "BLAST"
+    },
+    {
+      "i": 457,
+      "zh": "突出",
+      "en": "prominent",
+      "ipa": "[ˈprɒmɪnənt]",
+      "pos": "adj.",
+      "gloss": "突出的"
+    },
+    {
+      "i": 458,
+      "zh": "差不多",
+      "en": "comparable458",
+      "ipa": "[ˈkɒmpərəbl]",
+      "pos": "adj.",
+      "gloss": "差不多"
+    },
+    {
+      "i": 459,
+      "zh": "讨论",
+      "en": "debate",
+      "ipa": "[dɪˈbeɪt]",
+      "pos": "n.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 460,
+      "zh": "GAIR",
+      "en": "GAIR",
+      "ipa": "[ɡeə]",
+      "pos": "n.",
+      "gloss": "GAIR"
+    },
+    {
+      "i": 461,
+      "zh": "谢谢",
+      "en": "thanks",
+      "ipa": "[θæŋks]",
+      "pos": "n.",
+      "gloss": "谢谢"
+    },
+    {
+      "i": 462,
+      "zh": "Youtube",
+      "en": "Youtube",
+      "ipa": "[ˈjuːtjuːb]",
+      "pos": "n.",
+      "gloss": "Youtube"
+    },
+    {
+      "i": 463,
+      "zh": "Claude",
+      "en": "Claude",
+      "ipa": "[klɔːd]",
+      "pos": "n.",
+      "gloss": "Claude"
+    },
+    {
+      "i": 464,
+      "zh": "IoA",
+      "en": "IoA",
+      "ipa": "[aɪ əʊ eɪ]",
+      "pos": "n.",
+      "gloss": "智能体互联网"
+    },
+    {
+      "i": 465,
+      "zh": "转载",
+      "en": "reprint",
+      "ipa": "[riːˈprɪnt]",
+      "pos": "n.",
+      "gloss": "转载"
+    },
+    {
+      "i": 466,
+      "zh": "后台",
+      "en": "backend",
+      "ipa": "[ˈbækend]",
+      "pos": "n.",
+      "gloss": "后台"
+    }
+  ]
+}
