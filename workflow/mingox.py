@@ -104,11 +104,21 @@ def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
 
 def cmd_validate(args: argparse.Namespace) -> None:
     sys.path.insert(0, str(WORKFLOW_DIR))
+    sys.path.insert(0, str(ROOT / "util"))
+    from annotation_quality_gate import validate_all_draft_annotations
     from validate import validate_file, validate_posts_glob
 
+    code = 0
+    if bool(getattr(args, "annotations", False)) or bool(getattr(args, "all", False)):
+        code |= validate_all_draft_annotations(
+            ROOT / "content" / "drafts",
+            slug=str(getattr(args, "slug", "") or "") or None,
+        )
     if args.post:
-        raise SystemExit(validate_file(Path(args.post)))
-    raise SystemExit(validate_posts_glob())
+        code |= validate_file(Path(args.post))
+    elif (not getattr(args, "annotations", False)) or bool(getattr(args, "all", False)):
+        code |= validate_posts_glob()
+    raise SystemExit(code)
 
 
 def cmd_serve(args: argparse.Namespace) -> None:
@@ -321,8 +331,26 @@ def main() -> None:
     p_eb.add_argument("--slug", required=True)
     p_eb.set_defaults(func=cmd_export_chat_bundle)
 
-    p_v = sub.add_parser("validate", help="Run adjacent word-block check on posts/*.html")
+    p_v = sub.add_parser(
+        "validate",
+        help="检查 posts 版式；可选用 --annotations 全量查草稿 JSON，或 --all 二合一",
+    )
     p_v.add_argument("--post", help="single file instead of all posts")
+    p_v.add_argument(
+        "--annotations",
+        action="store_true",
+        help="全量检查 content/drafts/**/llm_annotations.json（占位/假 en、重复 en 等，与 build 前一致）",
+    )
+    p_v.add_argument(
+        "--all",
+        action="store_true",
+        help="同次执行 --annotations 与 posts 检查",
+    )
+    p_v.add_argument(
+        "--slug",
+        metavar="SLUG",
+        help="与 --annotations 同用时，只检查 content/drafts/<SLUG>/llm_annotations.json",
+    )
     p_v.set_defaults(func=cmd_validate)
 
     p_s = sub.add_parser("serve", help="Step 4 local: static server on repo root")

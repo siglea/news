@@ -12,7 +12,7 @@
     {
       "i": 1,
       "zh": "硅基世界",
-      "en": "siliconworld",
+      "en": "silicon1",
       "ipa": "[ˈsɪlɪkən]",
       "pos": "n.",
       "gloss": "硅基世界"
@@ -20,7 +20,7 @@
     {
       "i": 2,
       "zh": "失败率",
-      "en": "failurerate",
+      "en": "failure1",
       "ipa": "[ˈfeɪljə]",
       "pos": "n.",
       "gloss": "失败率"
@@ -44,7 +44,7 @@
     {
       "i": 5,
       "zh": "后AlphaFold时代",
-      "en": "postAlphaFold",
+      "en": "postEra1",
       "ipa": "[ˈpəʊst]",
       "pos": "adj.",
       "gloss": "后AlphaFold时代"
@@ -60,7 +60,7 @@
     {
       "i": 7,
       "zh": "线性思维",
-      "en": "linearthinking",
+      "en": "linearity1",
       "ipa": "[ˈlɪniə]",
       "pos": "n.",
       "gloss": "线性思维"
@@ -108,7 +108,7 @@
     {
       "i": 13,
       "zh": "深度学习",
-      "en": "deeplearning",
+      "en": "deeplearn1",
       "ipa": "[diːp]",
       "pos": "n.",
       "gloss": "深度学习"
@@ -268,7 +268,7 @@
     {
       "i": 33,
       "zh": "目前",
-      "en": "lex049",
+      "en": "currently",
       "ipa": "[ˈkʌrəntli]",
       "pos": "adv.",
       "gloss": "目前"
@@ -420,7 +420,7 @@
     {
       "i": 52,
       "zh": "后AlphaFold时代",
-      "en": "postAlphaFold52",
+      "en": "postEra2",
       "ipa": "[ˈpəʊst]",
       "pos": "adj.",
       "gloss": "后AlphaFold时代"
@@ -436,8 +436,8 @@
     {
       "i": 54,
       "zh": "发现",
-      "en": "lex008",
-      "ipa": "[faɪnd]",
+      "en": "discover",
+      "ipa": "[dɪˈskʌvə]",
       "pos": "v.",
       "gloss": "发现"
     },
@@ -460,8 +460,8 @@
     {
       "i": 57,
       "zh": "技术",
-      "en": "lex010",
-      "ipa": "[tekˈnɒlədʒi]",
+      "en": "technique",
+      "ipa": "[tekˈniːk]",
       "pos": "n.",
       "gloss": "技术"
     },
@@ -476,7 +476,7 @@
     {
       "i": 59,
       "zh": "确实",
-      "en": "lex060",
+      "en": "indeed",
       "ipa": "[ɪnˈdiːd]",
       "pos": "adv.",
       "gloss": "确实"
@@ -484,15 +484,15 @@
     {
       "i": 60,
       "zh": "为什么",
-      "en": "howcome",
-      "ipa": "[haʊ]",
+      "en": "why1",
+      "ipa": "[waɪ]",
       "pos": "adv.",
       "gloss": "为什么"
     },
     {
       "i": 61,
       "zh": "实验",
-      "en": "lex017",
+      "en": "experiment",
       "ipa": "[ɪkˈsperɪmənt]",
       "pos": "n.",
       "gloss": "实验"
@@ -500,7 +500,7 @@
     {
       "i": 62,
       "zh": "领域",
-      "en": "lex011",
+      "en": "field",
       "ipa": "[ˈfiːld]",
       "pos": "n.",
       "gloss": "领域"
@@ -532,7 +532,7 @@
     {
       "i": 66,
       "zh": "小分子",
-      "en": "smallmolecule",
+      "en": "molecule1",
       "ipa": "[ˈsmɔːl]",
       "pos": "n.",
       "gloss": "小分子"
@@ -540,7 +540,7 @@
     {
       "i": 67,
       "zh": "简单",
-      "en": "lex055",
+      "en": "simple",
       "ipa": "[ˈsɪmpl]",
       "pos": "adj.",
       "gloss": "简单"
@@ -564,7 +564,7 @@
     {
       "i": 70,
       "zh": "相对",
-      "en": "lex065",
+      "en": "relative",
       "ipa": "[ˈrelətɪv]",
       "pos": "adj.",
       "gloss": "相对"
@@ -580,7 +580,7 @@
     {
       "i": 72,
       "zh": "效果",
-      "en": "lex021",
+      "en": "effect",
       "ipa": "[ɪˈfekt]",
       "pos": "n.",
       "gloss": "效果"
@@ -588,7 +588,7 @@
     {
       "i": 73,
       "zh": "复杂",
-      "en": "lex054",
+      "en": "complex",
       "ipa": "[ˈkɒmpleks]",
       "pos": "adj.",
       "gloss": "复杂"
@@ -604,7 +604,7 @@
     {
       "i": 75,
       "zh": "模型",
-      "en": "modelzh",
+      "en": "model1",
       "ipa": "[ˈmɒdl]",
       "pos": "n.",
       "gloss": "模型"
@@ -644,7 +644,7 @@
     {
       "i": 80,
       "zh": "比较",
-      "en": "lex035",
+      "en": "relatively",
       "ipa": "[ˈrelətɪvli]",
       "pos": "adv.",
       "gloss": "比较"
@@ -732,7 +732,7 @@
     {
       "i": 91,
       "zh": "应用",
-      "en": "lex009",
+      "en": "apply",
       "ipa": "[əˈplaɪ]",
       "pos": "v.",
       "gloss": "应用"
@@ -748,7 +748,7 @@
     {
       "i": 93,
       "zh": "序列",
-      "en": "sequencezh",
+      "en": "sequence1",
       "ipa": "[ˈsiːkwəns]",
       "pos": "n.",
       "gloss": "序列"
@@ -820,8 +820,8 @@
     {
       "i": 102,
       "zh": "为什么",
-      "en": "wherefore",
-      "ipa": "[ˈweəfɔː]",
+      "en": "why2",
+      "ipa": "[waɪ]",
       "pos": "adv.",
       "gloss": "为什么"
     },
@@ -836,7 +836,7 @@
     {
       "i": 104,
       "zh": "筛选",
-      "en": "screeningzh",
+      "en": "screening1",
       "ipa": "[ˈskriːnɪŋ]",
       "pos": "n.",
       "gloss": "筛选"
@@ -844,7 +844,7 @@
     {
       "i": 105,
       "zh": "导致",
-      "en": "lex091",
+      "en": "lead",
       "ipa": "[lɪd]",
       "pos": "v.",
       "gloss": "导致"
@@ -884,7 +884,7 @@
     {
       "i": 110,
       "zh": "重要",
-      "en": "lex053",
+      "en": "important",
       "ipa": "[ɪmˈpɔːtnt]",
       "pos": "adj.",
       "gloss": "重要"
@@ -892,7 +892,7 @@
     {
       "i": 111,
       "zh": "方面",
-      "en": "lex026",
+      "en": "aspect",
       "ipa": "[ˈæspekt]",
       "pos": "n.",
       "gloss": "方面"
@@ -916,7 +916,7 @@
     {
       "i": 114,
       "zh": "有效",
-      "en": "lex058",
+      "en": "effective",
       "ipa": "[ɪˈfektɪv]",
       "pos": "adj.",
       "gloss": "有效"
@@ -924,7 +924,7 @@
     {
       "i": 115,
       "zh": "分析",
-      "en": "lex002",
+      "en": "analysis",
       "ipa": "[ˈænəlɪsɪs]",
       "pos": "n.",
       "gloss": "分析"
@@ -932,7 +932,7 @@
     {
       "i": 116,
       "zh": "通过",
-      "en": "lex038",
+      "en": "through",
       "ipa": "[θruː]",
       "pos": "prep.",
       "gloss": "通过"
@@ -948,15 +948,15 @@
     {
       "i": 118,
       "zh": "直接",
-      "en": "lex051",
-      "ipa": "[dɪˈrekt]",
+      "en": "directly",
+      "ipa": "[dɪˈrektli]",
       "pos": "adv.",
       "gloss": "直接"
     },
     {
       "i": 119,
       "zh": "发现",
-      "en": "lex008119",
+      "en": "find",
       "ipa": "[faɪnd]",
       "pos": "v.",
       "gloss": "发现"
@@ -1004,8 +1004,8 @@
     {
       "i": 125,
       "zh": "真正",
-      "en": "lex050",
-      "ipa": "[ˈtruːli]",
+      "en": "genuinely",
+      "ipa": "[ˈdʒenjuɪnli]",
       "pos": "adv.",
       "gloss": "真正"
     },
@@ -1020,8 +1020,8 @@
     {
       "i": 127,
       "zh": "当然",
-      "en": "lex061",
-      "ipa": "[ˈkɔːs]",
+      "en": "certainly1",
+      "ipa": "[ˈsɜːtnli]",
       "pos": "adv.",
       "gloss": "当然"
     },
@@ -1036,7 +1036,7 @@
     {
       "i": 129,
       "zh": "验证",
-      "en": "lex077",
+      "en": "verify",
       "ipa": "[ˈverɪfaɪ]",
       "pos": "v.",
       "gloss": "验证"
@@ -1068,7 +1068,7 @@
     {
       "i": 133,
       "zh": "如果",
-      "en": "lex043",
+      "en": "if",
       "ipa": "[ɪf]",
       "pos": "conj.",
       "gloss": "如果"
@@ -1084,7 +1084,7 @@
     {
       "i": 135,
       "zh": "容易",
-      "en": "lex057",
+      "en": "easy",
       "ipa": "[ˈiːzi]",
       "pos": "adj.",
       "gloss": "容易"
@@ -1124,8 +1124,8 @@
     {
       "i": 140,
       "zh": "研究",
-      "en": "lex001",
-      "ipa": "[rɪˈsɜːtʃ]",
+      "en": "study",
+      "ipa": "[ˈstʌdi]",
       "pos": "n.",
       "gloss": "研究"
     },
@@ -1196,7 +1196,7 @@
     {
       "i": 149,
       "zh": "系统",
-      "en": "lex012",
+      "en": "system",
       "ipa": "[ˈsɪstəm]",
       "pos": "n.",
       "gloss": "系统"
@@ -1204,7 +1204,7 @@
     {
       "i": 150,
       "zh": "可能",
-      "en": "lex036",
+      "en": "possibly",
       "ipa": "[ˈpɒsəbli]",
       "pos": "adv.",
       "gloss": "可能"
@@ -1236,7 +1236,7 @@
     {
       "i": 154,
       "zh": "可以",
-      "en": "lex037",
+      "en": "can",
       "ipa": "[kæn]",
       "pos": "v.",
       "gloss": "可以"
@@ -1316,7 +1316,7 @@
     {
       "i": 164,
       "zh": "快速",
-      "en": "lex052",
+      "en": "rapid",
       "ipa": "[ˈræpɪd]",
       "pos": "adj.",
       "gloss": "快速"
@@ -1492,7 +1492,7 @@
     {
       "i": 186,
       "zh": "认为",
-      "en": "lex004",
+      "en": "think",
       "ipa": "[θɪŋk]",
       "pos": "v.",
       "gloss": "认为"
@@ -1500,7 +1500,7 @@
     {
       "i": 187,
       "zh": "结果",
-      "en": "lex024",
+      "en": "result",
       "ipa": "[rɪˈzʌlt]",
       "pos": "n.",
       "gloss": "结果"
@@ -1556,7 +1556,7 @@
     {
       "i": 194,
       "zh": "表示",
-      "en": "lex005",
+      "en": "indicate",
       "ipa": "[ɪnˈdɪkeɪt]",
       "pos": "v.",
       "gloss": "表示"
@@ -1580,7 +1580,7 @@
     {
       "i": 197,
       "zh": "提高",
-      "en": "lex030",
+      "en": "improve",
       "ipa": "[ɪmˈpruːv]",
       "pos": "v.",
       "gloss": "提高"
@@ -1620,7 +1620,7 @@
     {
       "i": 202,
       "zh": "需要",
-      "en": "lex025",
+      "en": "need",
       "ipa": "[niːd]",
       "pos": "v.",
       "gloss": "需要"
@@ -1636,7 +1636,7 @@
     {
       "i": 204,
       "zh": "描述",
-      "en": "lex080",
+      "en": "describe",
       "ipa": "[dɪˈskraɪb]",
       "pos": "v.",
       "gloss": "描述"
@@ -1652,7 +1652,7 @@
     {
       "i": 206,
       "zh": "信息",
-      "en": "lex013",
+      "en": "information",
       "ipa": "[ˌɪnfəˈmeɪʃn]",
       "pos": "n.",
       "gloss": "信息"
@@ -1668,7 +1668,7 @@
     {
       "i": 208,
       "zh": "领域",
-      "en": "lex011208",
+      "en": "field2",
       "ipa": "[ˈfiːld]",
       "pos": "n.",
       "gloss": "领域"
@@ -1756,7 +1756,7 @@
     {
       "i": 219,
       "zh": "完全",
-      "en": "lex067",
+      "en": "completely",
       "ipa": "[kəmˈpliːtli]",
       "pos": "adv.",
       "gloss": "完全"
@@ -1788,7 +1788,7 @@
     {
       "i": 223,
       "zh": "数据",
-      "en": "datazh",
+      "en": "data1",
       "ipa": "[ˈdeɪtə]",
       "pos": "n.",
       "gloss": "数据"
@@ -1836,8 +1836,8 @@
     {
       "i": 229,
       "zh": "确实",
-      "en": "lex060229",
-      "ipa": "[ɪnˈdiːd]",
+      "en": "undoubtedly",
+      "ipa": "[ʌnˈdaʊtɪdli]",
       "pos": "adv.",
       "gloss": "确实"
     },
@@ -1916,7 +1916,7 @@
     {
       "i": 239,
       "zh": "讨论",
-      "en": "lex003",
+      "en": "discuss",
       "ipa": "[dɪˈskʌʃn]",
       "pos": "n.",
       "gloss": "讨论"
@@ -1924,7 +1924,7 @@
     {
       "i": 240,
       "zh": "小分子",
-      "en": "smallmolecule240",
+      "en": "molecule2",
       "ipa": "[ˈsmɔːl]",
       "pos": "n.",
       "gloss": "小分子"
@@ -1964,7 +1964,7 @@
     {
       "i": 245,
       "zh": "小分子",
-      "en": "smallmolecule245",
+      "en": "molecule3",
       "ipa": "[ˈsmɔːl]",
       "pos": "n.",
       "gloss": "小分子"
@@ -2068,7 +2068,7 @@
     {
       "i": 258,
       "zh": "现在",
-      "en": "lex046",
+      "en": "now",
       "ipa": "[naʊ]",
       "pos": "adv.",
       "gloss": "现在"
@@ -2076,7 +2076,7 @@
     {
       "i": 259,
       "zh": "分子",
-      "en": "moleculezh",
+      "en": "molecule6",
       "ipa": "[ˈmɒlɪkjuːl]",
       "pos": "n.",
       "gloss": "分子"
@@ -2084,7 +2084,7 @@
     {
       "i": 260,
       "zh": "比较",
-      "en": "lex082",
+      "en": "compare",
       "ipa": "[kəmˈpeə]",
       "pos": "v.",
       "gloss": "比较"
@@ -2156,15 +2156,15 @@
     {
       "i": 269,
       "zh": "当然",
-      "en": "lex061269",
-      "ipa": "[ˈkɔːs]",
+      "en": "certainly2",
+      "ipa": "[ˈsɜːtnli]",
       "pos": "adv.",
       "gloss": "当然"
     },
     {
       "i": 270,
       "zh": "小分子",
-      "en": "smallmolecule270",
+      "en": "molecule4",
       "ipa": "[ˈsmɔːl]",
       "pos": "n.",
       "gloss": "小分子"
@@ -2188,7 +2188,7 @@
     {
       "i": 273,
       "zh": "基础",
-      "en": "lex014",
+      "en": "basis",
       "ipa": "[ˈbeɪsɪs]",
       "pos": "n.",
       "gloss": "基础"
@@ -2204,8 +2204,8 @@
     {
       "i": 275,
       "zh": "现在",
-      "en": "lex046275",
-      "ipa": "[naʊ]",
+      "en": "presently",
+      "ipa": "[ˈprezntli]",
       "pos": "adv.",
       "gloss": "现在"
     },
@@ -2228,7 +2228,7 @@
     {
       "i": 278,
       "zh": "避免",
-      "en": "lex092",
+      "en": "avoid",
       "ipa": "[əˈvɔɪd]",
       "pos": "v.",
       "gloss": "避免"
@@ -2268,8 +2268,8 @@
     {
       "i": 283,
       "zh": "经验",
-      "en": "lex074",
-      "ipa": "[ɪkˈspɪəriəns]",
+      "en": "expertise",
+      "ipa": "[ˌekspɜːˈtiːz]",
       "pos": "n.",
       "gloss": "经验"
     },
@@ -2284,7 +2284,7 @@
     {
       "i": 285,
       "zh": "证据",
-      "en": "lex075",
+      "en": "evidence",
       "ipa": "[ˈevɪdəns]",
       "pos": "n.",
       "gloss": "证据"
@@ -2292,7 +2292,7 @@
     {
       "i": 286,
       "zh": "治疗",
-      "en": "lex018",
+      "en": "therapy",
       "ipa": "[ˈθerəpi]",
       "pos": "n.",
       "gloss": "治疗"
@@ -2300,7 +2300,7 @@
     {
       "i": 287,
       "zh": "影响",
-      "en": "lex088",
+      "en": "influence",
       "ipa": "[ˈɪnfluəns]",
       "pos": "v.",
       "gloss": "影响"
@@ -2396,7 +2396,7 @@
     {
       "i": 299,
       "zh": "其实",
-      "en": "lex062",
+      "en": "actually",
       "ipa": "[ˈæktʃuəli]",
       "pos": "adv.",
       "gloss": "其实"
@@ -2412,7 +2412,7 @@
     {
       "i": 301,
       "zh": "结合",
-      "en": "lex094",
+      "en": "combine",
       "ipa": "[kəˈmbɪn]",
       "pos": "v.",
       "gloss": "结合"
@@ -2444,7 +2444,7 @@
     {
       "i": 305,
       "zh": "方面",
-      "en": "lex026305",
+      "en": "aspect2",
       "ipa": "[ˈæspekt]",
       "pos": "n.",
       "gloss": "方面"
@@ -2460,7 +2460,7 @@
     {
       "i": 307,
       "zh": "情况",
-      "en": "lex023",
+      "en": "situation",
       "ipa": "[ˈsɪtʃuːeɪʃn]",
       "pos": "n.",
       "gloss": "情况"
@@ -2492,7 +2492,7 @@
     {
       "i": 311,
       "zh": "特别",
-      "en": "lex064",
+      "en": "special",
       "ipa": "[ˈspeʃl]",
       "pos": "adv.",
       "gloss": "特别"
@@ -2524,7 +2524,7 @@
     {
       "i": 315,
       "zh": "过去",
-      "en": "lex048",
+      "en": "past",
       "ipa": "[ˈpɑːst]",
       "pos": "n.",
       "gloss": "过去"
@@ -2532,7 +2532,7 @@
     {
       "i": 316,
       "zh": "领域",
-      "en": "lex011316",
+      "en": "field3",
       "ipa": "[ˈfiːld]",
       "pos": "n.",
       "gloss": "领域"
@@ -2540,7 +2540,7 @@
     {
       "i": 317,
       "zh": "方法",
-      "en": "lex022",
+      "en": "method",
       "ipa": "[ˈmeθəd]",
       "pos": "n.",
       "gloss": "方法"
@@ -2572,7 +2572,7 @@
     {
       "i": 321,
       "zh": "疾病",
-      "en": "lex019",
+      "en": "disease",
       "ipa": "[dɪˈziːz]",
       "pos": "n.",
       "gloss": "疾病"
@@ -2580,7 +2580,7 @@
     {
       "i": 322,
       "zh": "复杂",
-      "en": "lex054322",
+      "en": "complex2",
       "ipa": "[ˈkɒmpleks]",
       "pos": "adj.",
       "gloss": "复杂"
@@ -2684,8 +2684,8 @@
     {
       "i": 335,
       "zh": "可以",
-      "en": "lex037335",
-      "ipa": "[kæn]",
+      "en": "could",
+      "ipa": "[kʊd]",
       "pos": "v.",
       "gloss": "可以"
     },
@@ -2828,7 +2828,7 @@
     {
       "i": 353,
       "zh": "比较",
-      "en": "lex082353",
+      "en": "compare2",
       "ipa": "[kəmˈpeə]",
       "pos": "v.",
       "gloss": "比较"
@@ -2844,7 +2844,7 @@
     {
       "i": 355,
       "zh": "理解",
-      "en": "lex007",
+      "en": "understand",
       "ipa": "[ˌʌndəˈstænd]",
       "pos": "v.",
       "gloss": "理解"
@@ -2884,7 +2884,7 @@
     {
       "i": 360,
       "zh": "小分子",
-      "en": "smallmolecule360",
+      "en": "molecule5",
       "ipa": "[ˈsmɔːl]",
       "pos": "n.",
       "gloss": "小分子"
@@ -2940,7 +2940,7 @@
     {
       "i": 367,
       "zh": "尤其",
-      "en": "lex063",
+      "en": "especially",
       "ipa": "[ɪˈspeʃəli]",
       "pos": "adv.",
       "gloss": "尤其"
@@ -2996,7 +2996,7 @@
     {
       "i": 374,
       "zh": "比较",
-      "en": "lex082374",
+      "en": "compare3",
       "ipa": "[kəmˈpeə]",
       "pos": "v.",
       "gloss": "比较"
@@ -3060,7 +3060,7 @@
     {
       "i": 382,
       "zh": "智能体",
-      "en": "agentzh",
+      "en": "agent1",
       "ipa": "[ˈeɪdʒənt]",
       "pos": "n.",
       "gloss": "智能体"
@@ -3084,7 +3084,7 @@
     {
       "i": 385,
       "zh": "科学",
-      "en": "lex016",
+      "en": "science",
       "ipa": "[ˈsaɪəns]",
       "pos": "n.",
       "gloss": "科学"
@@ -3196,8 +3196,8 @@
     {
       "i": 399,
       "zh": "当然",
-      "en": "lex061399",
-      "ipa": "[ˈkɔːs]",
+      "en": "certainly3",
+      "ipa": "[ˈsɜːtnli]",
       "pos": "adv.",
       "gloss": "当然"
     },
@@ -3272,7 +3272,7 @@
     {
       "i": 409,
       "zh": "实现",
-      "en": "lex029",
+      "en": "realize",
       "ipa": "[ˈriːəlaɪz]",
       "pos": "v.",
       "gloss": "实现"
@@ -3304,7 +3304,7 @@
     {
       "i": 413,
       "zh": "明显",
-      "en": "lex059",
+      "en": "obvious",
       "ipa": "[ˈɒbviəs]",
       "pos": "adj.",
       "gloss": "明显"
@@ -3320,7 +3320,7 @@
     {
       "i": 415,
       "zh": "降低",
-      "en": "lex031",
+      "en": "reduce",
       "ipa": "[rɪˈdjuːs]",
       "pos": "v.",
       "gloss": "降低"
@@ -3432,7 +3432,7 @@
     {
       "i": 429,
       "zh": "产生",
-      "en": "lex028",
+      "en": "produce",
       "ipa": "[ˈprɒdjuːs]",
       "pos": "v.",
       "gloss": "产生"
@@ -3448,7 +3448,7 @@
     {
       "i": 431,
       "zh": "今天",
-      "en": "lex045",
+      "en": "today",
       "ipa": "[təˈdeɪ]",
       "pos": "adv.",
       "gloss": "今天"
@@ -3520,7 +3520,7 @@
     {
       "i": 440,
       "zh": "比较",
-      "en": "lex082440",
+      "en": "compare4",
       "ipa": "[kəmˈpeə]",
       "pos": "v.",
       "gloss": "比较"
@@ -3536,7 +3536,7 @@
     {
       "i": 442,
       "zh": "技术",
-      "en": "technology442",
+      "en": "technology2",
       "ipa": "[tekˈnɒlədʒi]",
       "pos": "n.",
       "gloss": "技术"
@@ -3544,7 +3544,7 @@
     {
       "i": 443,
       "zh": "未来",
-      "en": "lex047",
+      "en": "future",
       "ipa": "[ˈfjuːtʃə]",
       "pos": "n.",
       "gloss": "未来"
@@ -3592,7 +3592,7 @@
     {
       "i": 449,
       "zh": "虽然",
-      "en": "lex044",
+      "en": "although",
       "ipa": "[ˈɔːlðəʊ]",
       "pos": "conj.",
       "gloss": "虽然"
@@ -3608,8 +3608,8 @@
     {
       "i": 451,
       "zh": "当然",
-      "en": "lex061451",
-      "ipa": "[ˈkɔːs]",
+      "en": "certainly4",
+      "ipa": "[ˈsɜːtnli]",
       "pos": "adv.",
       "gloss": "当然"
     },

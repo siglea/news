@@ -2,6 +2,11 @@
 
 本步产出 **`llm_annotations.json`**。**没有该文件则 `mingox build` 直接失败**（见 [`workflow/build_draft.py`](../../workflow/build_draft.py)）。成稿中的 `word-block` 与篇末词汇表均依赖此文件经 [`util/annotate_merge.py`](../../util/annotate_merge.py) 合并进段落 HTML。`build` 前还会执行 [`util/annotation_quality_gate.py`](../../util/annotation_quality_gate.py) 门禁，默认拦截占位符标注、重复 `en`、空 `meta_description`，并校验 **`zh/en` 一一对应的基础约束**（如 `zh` 必须落在原句正文、`en` 必须单 token、`zh` 不应是并列短语）。
 
+**为何 lex/term 等会漏进成稿、如何多道防线规避**  
+- **根因**通常是：`en` 为逃避全篇去重而写成 `lex049` 等，合并层**去掉尾数**后页面上全变成 `lex`；或把中文标注习惯带进 token（`*zh` 尾缀、生造 `howcome` 等），历史上门禁未覆盖。  
+- **现有多层措施**：(1) **system 提示** [`chat_annotate_system.txt`](../../util/prompts/chat_annotate_system.txt) 明确禁止占位/假词；(2) **build 前** `annotation_quality_gate` 拦 `term*`、`lex`/`lex*…`、`*zh` 尾、常见 `tbd`/`fixme`、若干生造整词、以及**去尾数后**仍落在 `lex`/`term` 等词茎（与 `annotate_merge` 展示规则一致）；(3) **成稿** `mingox validate` 对 `posts/*.html` 再扫 `english-word` 中是否出现 `lex`/`term*`。  
+- **建议操作**：`build` 勿长期加 `--skip-quality-gates`；发 PR/合并前执行 `python3 workflow/mingox.py validate --annotations --slug <slug>` 单篇全量对 bundle 句序的复核；可定期 `validate --all` 做**全文+全草稿**联检。全库 `--annotations` 会扫所有 `content/drafts/**/llm_annotations.json`（历史未净稿的 slug 可能仍需单独修或按 slug 只验当前篇）。
+
 ---
 
 ## 1. 规则单一来源（改规则只改这里）
