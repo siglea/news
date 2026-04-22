@@ -15,6 +15,11 @@ ARTICLE_RE = re.compile(
     re.DOTALL | re.IGNORECASE,
 )
 P_RE = re.compile(r"<p[^>]*>(.*?)</p>", re.DOTALL | re.IGNORECASE)
+# 成稿中不应再出现经合并后暴露的占位/假头（第二道；第一道为 llm_annotations 门禁）
+_BAD_ENG_WORD = re.compile(
+    r'<span class="english-word">(lex|term\d*)\s*</span>',
+    re.IGNORECASE,
+)
 
 
 def check_adjacent_in_html(html: str, path: str | Path = "") -> list[tuple[int, str]]:
@@ -72,6 +77,13 @@ def density_warnings_for_html(html: str, source_label: str = "") -> list[str]:
     return warns
 
 
+def find_placeholder_english_in_html(text: str) -> list[str]:
+    """在已生成 HTML 中查找不应出现的 word-block 英文（与 annotation_quality_gate 互补）。"""
+    if not _BAD_ENG_WORD.search(text):
+        return []
+    return _BAD_ENG_WORD.findall(text)
+
+
 def validate_file(html_path: Path) -> int:
     text = html_path.read_text(encoding="utf-8")
     bad = check_adjacent_in_html(text, html_path)
@@ -79,6 +91,14 @@ def validate_file(html_path: Path) -> int:
         print(f"FAIL adjacent word-block: {html_path}", file=sys.stderr)
         for ln, preview in bad:
             print(f"  line {ln}: {preview}", file=sys.stderr)
+        return 1
+    pl = find_placeholder_english_in_html(text)
+    if pl:
+        print(
+            f"FAIL placeholder english-word in <article> (e.g. lex, term*): {html_path}",
+            file=sys.stderr,
+        )
+        print(f"  found: {pl[:20]!s}", file=sys.stderr)
         return 1
     for w in density_warnings_for_html(text, html_path.name):
         print(w, file=sys.stderr)
