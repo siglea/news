@@ -1,0 +1,1269 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "遭遇",
+      "en": "confront",
+      "ipa": "[kənˈfrənt]",
+      "pos": "v.",
+      "gloss": "面对；遭遇；比较"
+    },
+    {
+      "i": 1,
+      "zh": "的事",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑；渴望；挂念；令人焦虑的事"
+    },
+    {
+      "i": 2,
+      "zh": "赞许",
+      "en": "approve",
+      "ipa": "[əˈpruv]",
+      "pos": "v.",
+      "gloss": "批准，通过；(of)赞成，赞许，同意"
+    },
+    {
+      "i": 3,
+      "zh": "肯定",
+      "en": "affirm",
+      "ipa": "[əˈfərm]",
+      "pos": "v.",
+      "gloss": "肯定；断言"
+    },
+    {
+      "i": 4,
+      "zh": "微妙的",
+      "en": "delicate",
+      "ipa": "[ˈdɛləkət]",
+      "pos": "adj.",
+      "gloss": "微妙的；精美的，雅致的；柔和的；易碎的；纤弱的；清淡可口的"
+    },
+    {
+      "i": 5,
+      "zh": "暴跌",
+      "en": "collapse",
+      "ipa": "[kəˈlæps]",
+      "pos": "v.",
+      "gloss": "倒塌；瓦解；暴跌"
+    },
+    {
+      "i": 6,
+      "zh": "消费",
+      "en": "consume",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 7,
+      "zh": "的说法",
+      "en": "paradox",
+      "ipa": "[ˈpærədɒks]",
+      "pos": "n.",
+      "gloss": "悖论，似非而是的说法；自相矛盾（的情况）"
+    },
+    {
+      "i": 8,
+      "skip": true
+    },
+    {
+      "i": 9,
+      "zh": "评价",
+      "en": "appraisal",
+      "ipa": "[əˈpreɪzəl]",
+      "pos": "n.",
+      "gloss": "对...作出的评价；评价，鉴定，评估"
+    },
+    {
+      "i": 10,
+      "zh": "创始人",
+      "en": "founder",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 11,
+      "zh": "保险",
+      "en": "assurance",
+      "ipa": "[əˈʃʊrəns]",
+      "pos": "n.",
+      "gloss": "保证，担保；（人寿）保险；确信；断言；厚脸皮，无耻"
+    },
+    {
+      "i": 12,
+      "zh": "成功",
+      "en": "prosper",
+      "ipa": "[ˈprɑspər]",
+      "pos": "v.",
+      "gloss": "成功,兴隆,昌盛,使成功,使昌隆,繁荣"
+    },
+    {
+      "i": 13,
+      "zh": "最高点",
+      "en": "summit",
+      "ipa": "[ˈsəmɪt]",
+      "pos": "n.",
+      "gloss": "最高点， 峰顶， 极点；峰会"
+    },
+    {
+      "i": 14,
+      "zh": "内地",
+      "en": "inland",
+      "ipa": "[ˈɪnˌlænd]",
+      "pos": "n.",
+      "gloss": "内地；内陆"
+    },
+    {
+      "i": 15,
+      "zh": "概念",
+      "en": "conception",
+      "ipa": "[kənˈsɛpʃən]",
+      "pos": "n.",
+      "gloss": "概念， 观念；设想， 构想"
+    },
+    {
+      "i": 16,
+      "zh": "创始人",
+      "en": "founder2",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 17,
+      "zh": "创始人",
+      "en": "founder3",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 18,
+      "zh": "超过",
+      "en": "exceed",
+      "ipa": "[ɪkˈsid]",
+      "pos": "v.",
+      "gloss": "超过,胜过；越出 (限制、规定)"
+    },
+    {
+      "i": 19,
+      "skip": true
+    },
+    {
+      "i": 20,
+      "skip": true
+    },
+    {
+      "i": 21,
+      "skip": true
+    },
+    {
+      "i": 22,
+      "zh": "描述",
+      "en": "depict",
+      "ipa": "[dɪˈpɪkt]",
+      "pos": "v.",
+      "gloss": "描述；描画"
+    },
+    {
+      "i": 23,
+      "zh": "海外",
+      "en": "abroad",
+      "ipa": "[əˈbrɔd]",
+      "pos": "n.",
+      "gloss": "海外；异国"
+    },
+    {
+      "i": 24,
+      "zh": "代表",
+      "en": "ambassador",
+      "ipa": "[æmˈbæsədər]",
+      "pos": "n.",
+      "gloss": "大使；特使，(派驻国际组织的)代表"
+    },
+    {
+      "i": 25,
+      "zh": "消费",
+      "en": "consume2",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 26,
+      "zh": "底部",
+      "en": "basement",
+      "ipa": "[ˈbeɪsmənt]",
+      "pos": "n.",
+      "gloss": "建筑物的底部,地下室,地窖"
+    },
+    {
+      "i": 27,
+      "zh": "步伐",
+      "en": "pace",
+      "ipa": "[peɪs]",
+      "pos": "n.",
+      "gloss": "一步；步速；步伐；速度"
+    },
+    {
+      "i": 28,
+      "zh": "宣告",
+      "en": "proclaim",
+      "ipa": "[proʊˈkleɪm]",
+      "pos": "v.",
+      "gloss": "宣告，公布；声明；表明；赞扬"
+    },
+    {
+      "i": 29,
+      "zh": "创始人",
+      "en": "founder4",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 30,
+      "skip": true
+    },
+    {
+      "i": 31,
+      "zh": "多数",
+      "en": "multitude",
+      "ipa": "[ˈməltəˌtud]",
+      "pos": "n.",
+      "gloss": "群众；多数"
+    },
+    {
+      "i": 32,
+      "zh": "标签",
+      "en": "label",
+      "ipa": "[ˈleɪbəl]",
+      "pos": "n.",
+      "gloss": "标签；商标；签条"
+    },
+    {
+      "i": 33,
+      "zh": "加入",
+      "en": "enroll",
+      "ipa": "[ɪnˈroʊl]",
+      "pos": "v.",
+      "gloss": "登记；使加入；把记入名册；使入伍"
+    },
+    {
+      "i": 34,
+      "zh": "说明",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "确定，说明，界定；给…下定义，解释"
+    },
+    {
+      "i": 35,
+      "zh": "具体的",
+      "en": "concrete",
+      "ipa": "[ˈkɑnkrit]",
+      "pos": "adj.",
+      "gloss": "混凝土的；具体的"
+    },
+    {
+      "i": 36,
+      "zh": "故事",
+      "en": "narrative",
+      "ipa": "[ˈnɛrətɪv]",
+      "pos": "n.",
+      "gloss": "叙述；故事；讲述"
+    },
+    {
+      "i": 37,
+      "zh": "具体的",
+      "en": "concrete2",
+      "ipa": "[ˈkɑnkrit]",
+      "pos": "adj.",
+      "gloss": "混凝土的；具体的"
+    },
+    {
+      "i": 38,
+      "zh": "服务员",
+      "en": "attendant",
+      "ipa": "[əˈtɛndənt]",
+      "pos": "n.",
+      "gloss": "服务员，侍者；随员，陪从"
+    },
+    {
+      "i": 39,
+      "zh": "线的",
+      "en": "linear",
+      "ipa": "[ˈlɪniər]",
+      "pos": "adj.",
+      "gloss": "线的，线型的；直线的，线状的；长度的"
+    },
+    {
+      "i": 40,
+      "zh": "年轻人",
+      "en": "youngster",
+      "ipa": "[ˈjəŋstər]",
+      "pos": "n.",
+      "gloss": "年轻人；少年"
+    },
+    {
+      "i": 41,
+      "zh": "最高点",
+      "en": "summit2",
+      "ipa": "[ˈsəmɪt]",
+      "pos": "n.",
+      "gloss": "最高点， 峰顶， 极点；峰会"
+    },
+    {
+      "i": 42,
+      "zh": "多的",
+      "en": "fruitful",
+      "ipa": "[ˈfrutfəl]",
+      "pos": "adj.",
+      "gloss": "富有成效的；多产的；果实结得多的"
+    },
+    {
+      "i": 43,
+      "zh": "伴随",
+      "en": "accompany",
+      "ipa": "[əˈkəmpəni]",
+      "pos": "v.",
+      "gloss": "陪伴，陪同,伴随；伴奏"
+    },
+    {
+      "i": 44,
+      "zh": "上升",
+      "en": "arise",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 45,
+      "zh": "超过",
+      "en": "exceed2",
+      "ipa": "[ɪkˈsid]",
+      "pos": "v.",
+      "gloss": "超过,胜过；越出 (限制、规定)"
+    },
+    {
+      "i": 46,
+      "skip": true
+    },
+    {
+      "i": 47,
+      "zh": "调整",
+      "en": "adjust",
+      "ipa": "[əˈʤəst]",
+      "pos": "v.",
+      "gloss": "调整，使…适合；校准"
+    },
+    {
+      "i": 48,
+      "zh": "改变",
+      "en": "alter",
+      "ipa": "[ˈɔltər]",
+      "pos": "v.",
+      "gloss": "改变，更改"
+    },
+    {
+      "i": 49,
+      "zh": "高明的",
+      "en": "crack",
+      "ipa": "[kræk]",
+      "pos": "adj.",
+      "gloss": "最好的；高明的"
+    },
+    {
+      "i": 50,
+      "zh": "固定",
+      "en": "anchor",
+      "ipa": "[ˈæŋkər]",
+      "pos": "v.",
+      "gloss": "抛锚；使固定；主持节目"
+    },
+    {
+      "i": 51,
+      "zh": "在一定程",
+      "en": "partly",
+      "ipa": "[ˈpɑrtli]",
+      "pos": "adv.",
+      "gloss": "部分地,不完全地,在一定程度上"
+    },
+    {
+      "i": 52,
+      "zh": "魅力",
+      "en": "charm",
+      "ipa": "[ʧɑrm]",
+      "pos": "n.",
+      "gloss": "吸引力， 魅力"
+    },
+    {
+      "i": 53,
+      "zh": "的人",
+      "en": "athlete",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 54,
+      "zh": "门口",
+      "en": "doorway",
+      "ipa": "[ˈdɔrˌweɪ]",
+      "pos": "n.",
+      "gloss": "门口；途径"
+    },
+    {
+      "i": 55,
+      "zh": "冲突",
+      "en": "clash",
+      "ipa": "[klæʃ]",
+      "pos": "n.",
+      "gloss": "冲突，不协调；碰撞声，铿锵声"
+    },
+    {
+      "i": 56,
+      "zh": "后来",
+      "en": "afterward",
+      "ipa": "[ˈæftərwərd]",
+      "pos": "adv.",
+      "gloss": "以后，后来"
+    },
+    {
+      "i": 57,
+      "zh": "地说",
+      "en": "chorus",
+      "ipa": "[ˈkɔrəs]",
+      "pos": "v.",
+      "gloss": "合唱；异口同声地说"
+    },
+    {
+      "i": 58,
+      "zh": "抹去",
+      "en": "erase",
+      "ipa": "[ɪˈreɪs]",
+      "pos": "v.",
+      "gloss": "抹去；擦除"
+    },
+    {
+      "i": 59,
+      "zh": "情绪",
+      "en": "emotion",
+      "ipa": "[ˈiˌmoʊʃən]",
+      "pos": "n.",
+      "gloss": "情绪,情感,感情"
+    },
+    {
+      "i": 60,
+      "zh": "属于",
+      "en": "belong",
+      "ipa": "[bɪˈlɔŋ]",
+      "pos": "v.",
+      "gloss": "属于，应归入；居住；适宜；应被放置"
+    },
+    {
+      "i": 61,
+      "zh": "变化",
+      "en": "variation",
+      "ipa": "[ˌvɛriˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "变化；[生物] 变异，变种"
+    },
+    {
+      "i": 62,
+      "zh": "事实上",
+      "en": "practically",
+      "ipa": "[ˈpræktɪkəli]",
+      "pos": "adv.",
+      "gloss": "实际地；几乎；事实上"
+    },
+    {
+      "i": 63,
+      "skip": true
+    },
+    {
+      "i": 64,
+      "zh": "达到",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 65,
+      "skip": true
+    },
+    {
+      "i": 66,
+      "zh": "下来",
+      "en": "descend",
+      "ipa": "[dɪˈsɛnd]",
+      "pos": "v.",
+      "gloss": "下降；下去；下来；遗传；屈尊"
+    },
+    {
+      "i": 67,
+      "skip": true
+    },
+    {
+      "i": 68,
+      "zh": "惊人的",
+      "en": "marvelous",
+      "ipa": "[ˈmɑrvələs]",
+      "pos": "adj.",
+      "gloss": "(marvellous)惊人的,奇迹般的,妙极的"
+    },
+    {
+      "i": 69,
+      "zh": "创始人",
+      "en": "founder5",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 70,
+      "zh": "巨额的",
+      "en": "vast",
+      "ipa": "[vɑːst]",
+      "pos": "adj.",
+      "gloss": "广阔的；巨大的；大量的；巨额的"
+    },
+    {
+      "i": 71,
+      "zh": "创始人",
+      "en": "founder6",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 72,
+      "zh": "成就",
+      "en": "achievement",
+      "ipa": "[əˈtʃiːvmənt]",
+      "pos": "n.",
+      "gloss": "成就"
+    },
+    {
+      "i": 73,
+      "zh": "角度",
+      "en": "angle",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 74,
+      "skip": true
+    },
+    {
+      "i": 75,
+      "zh": "分数",
+      "en": "fraction",
+      "ipa": "[ˈfrækʃən]",
+      "pos": "n.",
+      "gloss": "小部分,一点儿；分数"
+    },
+    {
+      "i": 76,
+      "zh": "以上",
+      "en": "upward",
+      "ipa": "[ˈəpwərd]",
+      "pos": "adv.",
+      "gloss": "向上， 往上， …以上"
+    },
+    {
+      "i": 77,
+      "zh": "趋势",
+      "en": "drift",
+      "ipa": "[drɪft]",
+      "pos": "n.",
+      "gloss": "漂流，漂移；趋势；漂流物"
+    },
+    {
+      "i": 78,
+      "zh": "报告",
+      "en": "inform",
+      "ipa": "[ˌɪnˈfɔrm]",
+      "pos": "v.",
+      "gloss": "(of,about)通知,告诉,报告"
+    },
+    {
+      "i": 79,
+      "zh": "面对",
+      "en": "confront2",
+      "ipa": "[kənˈfrənt]",
+      "pos": "v.",
+      "gloss": "面对；遭遇；比较"
+    },
+    {
+      "i": 80,
+      "zh": "休假",
+      "en": "vacation",
+      "ipa": "[veɪˈkeɪʃən]",
+      "pos": "n.",
+      "gloss": "休假,假期"
+    },
+    {
+      "i": 81,
+      "skip": true
+    },
+    {
+      "i": 82,
+      "skip": true
+    },
+    {
+      "i": 83,
+      "zh": "奢侈品",
+      "en": "luxury",
+      "ipa": "[ˈləgʒəri]",
+      "pos": "n.",
+      "gloss": "奢侈,华贵；奢侈品"
+    },
+    {
+      "i": 84,
+      "zh": "商业",
+      "en": "commerce",
+      "ipa": "[ˈkɑmərs]",
+      "pos": "n.",
+      "gloss": "买卖，贸易；商务；商业"
+    },
+    {
+      "i": 85,
+      "zh": "向上",
+      "en": "upward2",
+      "ipa": "[ˈəpwərd]",
+      "pos": "adv.",
+      "gloss": "向上， 往上， …以上"
+    },
+    {
+      "i": 86,
+      "zh": "面对",
+      "en": "confront3",
+      "ipa": "[kənˈfrənt]",
+      "pos": "v.",
+      "gloss": "面对；遭遇；比较"
+    },
+    {
+      "i": 87,
+      "zh": "达到",
+      "en": "accomplish2",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 88,
+      "zh": "方法",
+      "en": "avenue",
+      "ipa": "[ˈævəˌnu]",
+      "pos": "n.",
+      "gloss": "大街；林荫路；途径，渠道，方法"
+    },
+    {
+      "i": 89,
+      "zh": "季度的",
+      "en": "quarterly",
+      "ipa": "[kˈwɔrtərli]",
+      "pos": "adj.",
+      "gloss": "季度的，按季度的；一年四次的"
+    },
+    {
+      "i": 90,
+      "zh": "所有人",
+      "en": "holder",
+      "ipa": "[ˈhoʊldər]",
+      "pos": "n.",
+      "gloss": "持有人；所有人；固定器；（台、架等）支持物"
+    },
+    {
+      "i": 91,
+      "zh": "巨大的",
+      "en": "enormous",
+      "ipa": "[ɪˈnɔrmɪs]",
+      "pos": "adj.",
+      "gloss": "庞大的，巨大的；凶暴的，极恶的"
+    },
+    {
+      "i": 92,
+      "zh": "飞奔",
+      "en": "gallop",
+      "ipa": "[ˈgæləp]",
+      "pos": "n.",
+      "gloss": "疾驰；飞奔"
+    },
+    {
+      "i": 93,
+      "zh": "速度",
+      "en": "pace2",
+      "ipa": "[peɪs]",
+      "pos": "n.",
+      "gloss": "一步；步速；步伐；速度"
+    },
+    {
+      "i": 94,
+      "zh": "增速",
+      "en": "accelerate",
+      "ipa": "[ækˈsɛlərˌeɪt]",
+      "pos": "v.",
+      "gloss": "使加速，使增速，促进；加速"
+    },
+    {
+      "i": 95,
+      "zh": "天花板",
+      "en": "ceiling",
+      "ipa": "[ˈsilɪŋ]",
+      "pos": "n.",
+      "gloss": "天花板；上限"
+    },
+    {
+      "i": 96,
+      "zh": "注意",
+      "en": "publicity",
+      "ipa": "[pəˈblɪsɪti]",
+      "pos": "n.",
+      "gloss": "宣传，宣扬；公开；广告；注意"
+    },
+    {
+      "i": 97,
+      "zh": "贡献",
+      "en": "contribute",
+      "ipa": "[kənˈtrɪbjut]",
+      "pos": "v.",
+      "gloss": "贡献，出力；投稿；捐献"
+    },
+    {
+      "i": 98,
+      "zh": "关心",
+      "en": "concerning",
+      "ipa": "[kənˈsərnɪŋ]",
+      "pos": "v.",
+      "gloss": "涉及；使关心（concern的ing形式）；忧虑"
+    },
+    {
+      "i": 99,
+      "zh": "不同",
+      "en": "differ",
+      "ipa": "[ˈdɪfər]",
+      "pos": "v.",
+      "gloss": "使…相异；使…不同"
+    },
+    {
+      "i": 100,
+      "zh": "因此",
+      "en": "accordingly",
+      "ipa": "[əˈkɔrdɪŋli]",
+      "pos": "adv.",
+      "gloss": "因此，于是；相应地；照著"
+    },
+    {
+      "i": 101,
+      "zh": "强调",
+      "en": "accent",
+      "ipa": "[ˈækˌsɛnt]",
+      "pos": "n.",
+      "gloss": "口音；重音；强调；特点；重音符号"
+    },
+    {
+      "i": 102,
+      "zh": "方面",
+      "en": "angle2",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 103,
+      "zh": "方式",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adv.",
+      "gloss": "以同样的方式；类似于"
+    },
+    {
+      "i": 104,
+      "zh": "营业额",
+      "en": "turnover",
+      "ipa": "[ˈtərˌnoʊvər]",
+      "pos": "n.",
+      "gloss": "翻覆；[贸易] 营业额；流通量；半圆卷饼；失误"
+    },
+    {
+      "i": 105,
+      "zh": "营业额",
+      "en": "turnover2",
+      "ipa": "[ˈtərˌnoʊvər]",
+      "pos": "n.",
+      "gloss": "翻覆；[贸易] 营业额；流通量；半圆卷饼；失误"
+    },
+    {
+      "i": 106,
+      "zh": "努力做",
+      "en": "tug",
+      "ipa": "[təg]",
+      "pos": "v.",
+      "gloss": "用力拉；竞争；努力做"
+    },
+    {
+      "i": 107,
+      "zh": "信心",
+      "en": "reliance",
+      "ipa": "[rɪˈlaɪəns]",
+      "pos": "n.",
+      "gloss": "信赖；信心；受信赖的人或物"
+    },
+    {
+      "i": 108,
+      "zh": "轻松",
+      "en": "ease",
+      "ipa": "[iz]",
+      "pos": "n.",
+      "gloss": "轻松，舒适；安逸，悠闲"
+    },
+    {
+      "i": 109,
+      "zh": "消费",
+      "en": "consume3",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 110,
+      "zh": "机构",
+      "en": "apparatus",
+      "ipa": "[ˌæpərˈætəs]",
+      "pos": "n.",
+      "gloss": "器械，器具，仪器；机构，组织"
+    },
+    {
+      "i": 111,
+      "zh": "奢侈品",
+      "en": "luxury2",
+      "ipa": "[ˈləgʒəri]",
+      "pos": "n.",
+      "gloss": "奢侈,华贵；奢侈品"
+    },
+    {
+      "i": 112,
+      "zh": "创始人",
+      "en": "founder7",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 113,
+      "zh": "方面",
+      "en": "angle3",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 114,
+      "zh": "方面",
+      "en": "angle4",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 115,
+      "zh": "间里",
+      "en": "closet",
+      "ipa": "[ˈklɑzət]",
+      "pos": "v.",
+      "gloss": "把…引进密室会谈；把…关在小房间里"
+    },
+    {
+      "i": 116,
+      "zh": "开始",
+      "en": "commence",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 117,
+      "zh": "出租",
+      "en": "hire",
+      "ipa": "[haɪər]",
+      "pos": "v.",
+      "gloss": "雇用；出租"
+    },
+    {
+      "i": 118,
+      "skip": true
+    },
+    {
+      "i": 119,
+      "zh": "创始人",
+      "en": "founder8",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 120,
+      "zh": "研究",
+      "en": "enquiry",
+      "ipa": "[ɪnkˈwaɪˌri]",
+      "pos": "n.",
+      "gloss": "打听， 询问；调查， 研究"
+    },
+    {
+      "i": 121,
+      "zh": "开始",
+      "en": "commence2",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 122,
+      "zh": "创始人",
+      "en": "founder9",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 123,
+      "zh": "消费",
+      "en": "consume4",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 124,
+      "zh": "事实上",
+      "en": "practically2",
+      "ipa": "[ˈpræktɪkəli]",
+      "pos": "adv.",
+      "gloss": "实际地；几乎；事实上"
+    },
+    {
+      "i": 125,
+      "zh": "能够",
+      "en": "enable",
+      "ipa": "[ɪˈneɪbl]",
+      "pos": "v.",
+      "gloss": "使能够，使成为可能；授予权利或方法"
+    },
+    {
+      "i": 126,
+      "zh": "投资",
+      "en": "invest",
+      "ipa": "[ɪnˈvest]",
+      "pos": "v.",
+      "gloss": "投资；覆盖；耗费；授予；包围"
+    },
+    {
+      "i": 127,
+      "zh": "熟悉",
+      "en": "acquaint",
+      "ipa": "[əkˈweɪnt]",
+      "pos": "v.",
+      "gloss": "使熟悉；使认识"
+    },
+    {
+      "i": 128,
+      "zh": "想不到的",
+      "en": "unexpected",
+      "ipa": "[ˌənɪkˈspɛktɪd]",
+      "pos": "adj.",
+      "gloss": "想不到的, 意外的, 未预料到"
+    },
+    {
+      "i": 129,
+      "zh": "几何",
+      "en": "geometry",
+      "ipa": "[ʤiˈɑmətri]",
+      "pos": "n.",
+      "gloss": "几何(学)"
+    },
+    {
+      "i": 130,
+      "zh": "消费",
+      "en": "consume5",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 131,
+      "zh": "相似的",
+      "en": "alike2",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adj.",
+      "gloss": "相似的；相同的"
+    },
+    {
+      "i": 132,
+      "zh": "发行",
+      "en": "emit",
+      "ipa": "[ɪˈmɪt]",
+      "pos": "v.",
+      "gloss": "发出，放射；发行；发表"
+    },
+    {
+      "i": 133,
+      "zh": "代的",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 134,
+      "zh": "面对",
+      "en": "confront4",
+      "ipa": "[kənˈfrənt]",
+      "pos": "v.",
+      "gloss": "面对；遭遇；比较"
+    },
+    {
+      "i": 135,
+      "zh": "想象力",
+      "en": "fancy",
+      "ipa": "[ˈfænsi]",
+      "pos": "n.",
+      "gloss": "幻想；想象力；爱好"
+    },
+    {
+      "i": 136,
+      "zh": "开始",
+      "en": "commence3",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 137,
+      "zh": "三明治",
+      "en": "sandwich",
+      "ipa": "[ˈsænwɪʧ]",
+      "pos": "n.",
+      "gloss": "三明治；夹心面包"
+    },
+    {
+      "i": 138,
+      "zh": "特点",
+      "en": "accent2",
+      "ipa": "[ˈækˌsɛnt]",
+      "pos": "n.",
+      "gloss": "口音；重音；强调；特点；重音符号"
+    },
+    {
+      "i": 139,
+      "zh": "不过",
+      "en": "nevertheless",
+      "ipa": "[ˌnɛvərðəˈlɛs]",
+      "pos": "adv.",
+      "gloss": "仍然， 不过"
+    },
+    {
+      "i": 140,
+      "zh": "相比",
+      "en": "beside",
+      "ipa": "[ˌbiˈsaɪd]",
+      "pos": "prep.",
+      "gloss": "在...旁边，在...附近；和...相比"
+    },
+    {
+      "i": 141,
+      "zh": "因此",
+      "en": "accordingly2",
+      "ipa": "[əˈkɔrdɪŋli]",
+      "pos": "adv.",
+      "gloss": "因此，于是；相应地；照著"
+    },
+    {
+      "i": 142,
+      "zh": "消费",
+      "en": "consume6",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 143,
+      "zh": "不过",
+      "en": "nevertheless2",
+      "ipa": "[ˌnɛvərðəˈlɛs]",
+      "pos": "adv.",
+      "gloss": "仍然， 不过"
+    },
+    {
+      "i": 144,
+      "zh": "啤酒",
+      "en": "mild",
+      "ipa": "[maɪld]",
+      "pos": "n.",
+      "gloss": "（英国的一种）淡味麦芽啤酒"
+    },
+    {
+      "i": 145,
+      "zh": "收购",
+      "en": "acquisition",
+      "ipa": "[ˌækwɪˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "获得物，获得；收购"
+    },
+    {
+      "i": 146,
+      "zh": "成熟的",
+      "en": "mature",
+      "ipa": "[məˈʧʊr]",
+      "pos": "adj.",
+      "gloss": "成熟的；充分考虑的；到期的；成年人的"
+    },
+    {
+      "i": 147,
+      "zh": "实现",
+      "en": "accomplish3",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 148,
+      "zh": "扩大",
+      "en": "amplify",
+      "ipa": "[ˈæmpləˌfaɪ]",
+      "pos": "v.",
+      "gloss": "放大，扩大；增强；详述"
+    },
+    {
+      "i": 149,
+      "zh": "包括",
+      "en": "comprise",
+      "ipa": "[kəmˈpraɪz]",
+      "pos": "v.",
+      "gloss": "包含，包括，由...组成；构成，组成"
+    },
+    {
+      "i": 150,
+      "zh": "不同",
+      "en": "differ2",
+      "ipa": "[ˈdɪfər]",
+      "pos": "v.",
+      "gloss": "使…相异；使…不同"
+    },
+    {
+      "i": 151,
+      "zh": "出现",
+      "en": "arise2",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 152,
+      "zh": "有趣的",
+      "en": "comic",
+      "ipa": "[ˈkɑmɪk]",
+      "pos": "adj.",
+      "gloss": "喜剧的；滑稽的；有趣的"
+    },
+    {
+      "i": 153,
+      "zh": "下来",
+      "en": "descend2",
+      "ipa": "[dɪˈsɛnd]",
+      "pos": "v.",
+      "gloss": "下降；下去；下来；遗传；屈尊"
+    },
+    {
+      "i": 154,
+      "zh": "开始",
+      "en": "commence4",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 155,
+      "zh": "在海外",
+      "en": "overseas",
+      "ipa": "[ˈoʊvərˈsiz]",
+      "pos": "adv.",
+      "gloss": "在海外，海外"
+    },
+    {
+      "i": 156,
+      "zh": "筛选",
+      "en": "bolt",
+      "ipa": "[boʊlt]",
+      "pos": "v.",
+      "gloss": "筛选；囫囵吞下；（把门、窗等）闩上；突然说出，脱口说出"
+    },
+    {
+      "i": 157,
+      "zh": "足够",
+      "en": "suffice",
+      "ipa": "[səˈfaɪs]",
+      "pos": "v.",
+      "gloss": "充足，足够"
+    },
+    {
+      "i": 158,
+      "zh": "整个",
+      "en": "altogether",
+      "ipa": "[ˌɔltəˈgɛðər]",
+      "pos": "n.",
+      "gloss": "整个；裸体"
+    },
+    {
+      "i": 159,
+      "zh": "到来",
+      "en": "advent",
+      "ipa": "[ˈædˌvɛnt]",
+      "pos": "n.",
+      "gloss": "(重要事件等的)到来，来临"
+    },
+    {
+      "i": 160,
+      "skip": true
+    },
+    {
+      "i": 161,
+      "zh": "合作",
+      "en": "collaborate",
+      "ipa": "[kəˈlæbərˌeɪt]",
+      "pos": "v.",
+      "gloss": "合作；勾结，通敌"
+    },
+    {
+      "i": 162,
+      "zh": "合作",
+      "en": "collaborate2",
+      "ipa": "[kəˈlæbərˌeɪt]",
+      "pos": "v.",
+      "gloss": "合作；勾结，通敌"
+    },
+    {
+      "i": 163,
+      "zh": "投资",
+      "en": "invest2",
+      "ipa": "[ɪnˈvest]",
+      "pos": "v.",
+      "gloss": "投资；覆盖；耗费；授予；包围"
+    },
+    {
+      "i": 164,
+      "zh": "发现",
+      "en": "discover",
+      "ipa": "[dɪˈskəvər]",
+      "pos": "v.",
+      "gloss": "发现"
+    }
+  ]
+}
