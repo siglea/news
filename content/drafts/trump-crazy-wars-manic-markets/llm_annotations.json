@@ -1,0 +1,837 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "进入",
+      "en": "entrance",
+      "ipa": "[ˈɛntrəns]",
+      "pos": "n.",
+      "gloss": "入口；进入"
+    },
+    {
+      "i": 1,
+      "zh": "出现",
+      "en": "arise",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 2,
+      "zh": "宣布",
+      "en": "declaration",
+      "ipa": "[ˌdɛklərˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "（纳税品等的）申报；宣布；公告；申诉书"
+    },
+    {
+      "i": 3,
+      "zh": "反复",
+      "en": "repetition",
+      "ipa": "[ˌrɛpəˈtɪʃən]",
+      "pos": "n.",
+      "gloss": "重复,反复"
+    },
+    {
+      "i": 4,
+      "zh": "冲突",
+      "en": "clash",
+      "ipa": "[klæʃ]",
+      "pos": "n.",
+      "gloss": "冲突，不协调；碰撞声，铿锵声"
+    },
+    {
+      "i": 5,
+      "zh": "反转的",
+      "en": "inverse",
+      "ipa": "[ˌɪnˈvərs]",
+      "pos": "adj.",
+      "gloss": "相反的,倒转的,反转的"
+    },
+    {
+      "i": 6,
+      "zh": "清楚",
+      "en": "clarity",
+      "ipa": "[ˈklærəti]",
+      "pos": "n.",
+      "gloss": "清楚，明晰；透明"
+    },
+    {
+      "i": 7,
+      "zh": "复活节",
+      "en": "easter",
+      "ipa": "[ˈistər]",
+      "pos": "n.",
+      "gloss": "复活节"
+    },
+    {
+      "i": 8,
+      "skip": true
+    },
+    {
+      "i": 9,
+      "zh": "小时",
+      "en": "knot",
+      "ipa": "[nɑt]",
+      "pos": "n.",
+      "gloss": "（绳等的）结；节瘤，疙瘩；海里/小时（航速单位）"
+    },
+    {
+      "i": 10,
+      "zh": "帮助",
+      "en": "assist",
+      "ipa": "[əˈsɪst]",
+      "pos": "v.",
+      "gloss": "协助，帮助，促进"
+    },
+    {
+      "i": 11,
+      "zh": "机的",
+      "en": "analogue",
+      "ipa": "[ˈænəˌlɔg]",
+      "pos": "adj.",
+      "gloss": "类似的；相似物的；模拟计算机的"
+    },
+    {
+      "i": 12,
+      "zh": "直升机",
+      "en": "helicopter",
+      "ipa": "[ˈhɛlɪˌkɑptər]",
+      "pos": "n.",
+      "gloss": "直升机"
+    },
+    {
+      "i": 13,
+      "skip": true
+    },
+    {
+      "i": 14,
+      "zh": "要求",
+      "en": "requirement",
+      "ipa": "[rɪkˈwaɪrmənt]",
+      "pos": "n.",
+      "gloss": "要求；必要条件；必需品"
+    },
+    {
+      "i": 15,
+      "zh": "判断",
+      "en": "diagnose",
+      "ipa": "[ˌdaɪəgˈnoʊs]",
+      "pos": "v.",
+      "gloss": "诊断(疾病)；判断(问题)"
+    },
+    {
+      "i": 16,
+      "zh": "于是",
+      "en": "accordingly",
+      "ipa": "[əˈkɔrdɪŋli]",
+      "pos": "adv.",
+      "gloss": "因此，于是；相应地；照著"
+    },
+    {
+      "i": 17,
+      "zh": "整个",
+      "en": "altogether",
+      "ipa": "[ˌɔltəˈgɛðər]",
+      "pos": "n.",
+      "gloss": "整个；裸体"
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "skip": true
+    },
+    {
+      "i": 20,
+      "skip": true
+    },
+    {
+      "i": 21,
+      "zh": "复活节",
+      "en": "easter2",
+      "ipa": "[ˈistər]",
+      "pos": "n.",
+      "gloss": "复活节"
+    },
+    {
+      "i": 22,
+      "zh": "祈祷",
+      "en": "pray",
+      "ipa": "[preɪ]",
+      "pos": "v.",
+      "gloss": "祈祷,祈求；请求,恳求,祈求"
+    },
+    {
+      "i": 23,
+      "zh": "计划",
+      "en": "blueprint",
+      "ipa": "[ˈbluˌprɪnt]",
+      "pos": "v.",
+      "gloss": "计划；制成蓝图"
+    },
+    {
+      "i": 24,
+      "zh": "发挥",
+      "en": "exert",
+      "ipa": "[ɪgˈzərt]",
+      "pos": "v.",
+      "gloss": "运用，发挥；施以影响"
+    },
+    {
+      "i": 25,
+      "zh": "不稳定",
+      "en": "instability",
+      "ipa": "[ˌɪnstəˈbɪlɪti]",
+      "pos": "n.",
+      "gloss": "不稳定"
+    },
+    {
+      "i": 26,
+      "zh": "反响",
+      "en": "reception",
+      "ipa": "[rɪˈsɛpʃən]",
+      "pos": "n.",
+      "gloss": "欢迎，接待；反响；招待会；接受,接收效果"
+    },
+    {
+      "i": 27,
+      "skip": true
+    },
+    {
+      "i": 28,
+      "zh": "完成",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 29,
+      "skip": true
+    },
+    {
+      "i": 30,
+      "skip": true
+    },
+    {
+      "i": 31,
+      "zh": "关系",
+      "en": "bearing",
+      "ipa": "[ˈbɛrɪŋ]",
+      "pos": "n.",
+      "gloss": "[机] 轴承；关系；方位；举止"
+    },
+    {
+      "i": 32,
+      "zh": "严重的",
+      "en": "acute",
+      "ipa": "[əˈkjut]",
+      "pos": "adj.",
+      "gloss": "严重的，[医] 急性的；敏锐的；激烈的；尖声的"
+    },
+    {
+      "i": 33,
+      "zh": "强调",
+      "en": "accent",
+      "ipa": "[ˈækˌsɛnt]",
+      "pos": "n.",
+      "gloss": "口音；重音；强调；特点；重音符号"
+    },
+    {
+      "i": 34,
+      "zh": "在上",
+      "en": "aboard",
+      "ipa": "[əˈbɔrd]",
+      "pos": "prep.",
+      "gloss": "在…上"
+    },
+    {
+      "i": 35,
+      "zh": "公开宣布",
+      "en": "blaze",
+      "ipa": "[bleɪz]",
+      "pos": "v.",
+      "gloss": "在树皮上刻路标；公开宣布"
+    },
+    {
+      "i": 36,
+      "zh": "结果",
+      "en": "consequence",
+      "ipa": "[ˈkɑnsəkwəns]",
+      "pos": "n.",
+      "gloss": "结果,后果,影响"
+    },
+    {
+      "i": 37,
+      "skip": true
+    },
+    {
+      "i": 38,
+      "zh": "关键",
+      "en": "hinge",
+      "ipa": "[hɪnʤ]",
+      "pos": "n.",
+      "gloss": "铰链，折叶；关键，转折点；枢要，中枢"
+    },
+    {
+      "i": 39,
+      "zh": "精神的",
+      "en": "spiritual",
+      "ipa": "[ˈspɪrɪˌʧuəl]",
+      "pos": "adj.",
+      "gloss": "精神(上)的,心灵的"
+    },
+    {
+      "i": 40,
+      "zh": "信任",
+      "en": "dependence",
+      "ipa": "[dɪˈpɛndəns]",
+      "pos": "n.",
+      "gloss": "依靠， 依赖； 信任"
+    },
+    {
+      "i": 41,
+      "zh": "在于",
+      "en": "consist",
+      "ipa": "[kənˈsɪst]",
+      "pos": "v.",
+      "gloss": "(in)在于；(of)由…组成,由…构成"
+    },
+    {
+      "i": 42,
+      "zh": "大多数",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 43,
+      "zh": "清楚地",
+      "en": "plain",
+      "ipa": "[pleɪn]",
+      "pos": "adv.",
+      "gloss": "清楚地；平易地"
+    },
+    {
+      "i": 44,
+      "zh": "专家的",
+      "en": "specialist",
+      "ipa": "[ˈspɛʃəlɪst]",
+      "pos": "adj.",
+      "gloss": "专家的；专业的"
+    },
+    {
+      "i": 45,
+      "zh": "兜售",
+      "en": "hawk",
+      "ipa": "[hɔk]",
+      "pos": "v.",
+      "gloss": "兜售，沿街叫卖；捕捉；咳出"
+    },
+    {
+      "i": 46,
+      "skip": true
+    },
+    {
+      "i": 47,
+      "zh": "总理",
+      "en": "chancellor",
+      "ipa": "[ˈʧænsələr]",
+      "pos": "n.",
+      "gloss": "总理（德、奥等的）；（英）大臣；校长（美国某些大学的）；（英）大法官；（美）首席法官"
+    },
+    {
+      "i": 48,
+      "zh": "决定性的",
+      "en": "crucial",
+      "ipa": "[ˈkruːʃl]",
+      "pos": "adj.",
+      "gloss": "重要的；决定性的；定局的；决断的"
+    },
+    {
+      "i": 49,
+      "zh": "经验的",
+      "en": "empirical",
+      "ipa": "[ˌɛmˈpɪrɪkəl]",
+      "pos": "adj.",
+      "gloss": "经验主义的，完全根据经验的；实证的"
+    },
+    {
+      "i": 50,
+      "zh": "爆炸",
+      "en": "blast",
+      "ipa": "[blæst]",
+      "pos": "n.",
+      "gloss": "爆炸；冲击波；一阵"
+    },
+    {
+      "i": 51,
+      "zh": "称赞",
+      "en": "acclaim",
+      "ipa": "[əˈkleɪm]",
+      "pos": "v.",
+      "gloss": "称赞；为…喝彩，向…欢呼"
+    },
+    {
+      "i": 52,
+      "zh": "印象",
+      "en": "impress",
+      "ipa": "[ˌɪmˈprɛs]",
+      "pos": "n.",
+      "gloss": "印象，印记；特征，痕迹"
+    },
+    {
+      "i": 53,
+      "zh": "开始",
+      "en": "commence",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 54,
+      "zh": "接受的",
+      "en": "recipient",
+      "ipa": "[rɪˈsɪpiənt]",
+      "pos": "adj.",
+      "gloss": "接受的,感受性强的"
+    },
+    {
+      "i": 55,
+      "zh": "不在",
+      "en": "absence",
+      "ipa": "[ˈæbsəns]",
+      "pos": "n.",
+      "gloss": "缺席，不在；缺乏，不存在"
+    },
+    {
+      "i": 56,
+      "zh": "的状态",
+      "en": "shatter",
+      "ipa": "[ˈʃætər]",
+      "pos": "n.",
+      "gloss": "碎片；乱七八糟的状态"
+    },
+    {
+      "i": 57,
+      "zh": "执行",
+      "en": "administer",
+      "ipa": "[ədˈmɪnɪstər]",
+      "pos": "v.",
+      "gloss": "管理；执行；给予"
+    },
+    {
+      "i": 58,
+      "zh": "最好的",
+      "en": "crack",
+      "ipa": "[kræk]",
+      "pos": "adj.",
+      "gloss": "最好的；高明的"
+    },
+    {
+      "i": 59,
+      "zh": "屈服",
+      "en": "bend",
+      "ipa": "[bɛnd]",
+      "pos": "v.",
+      "gloss": "使弯曲；使屈服；使致力；使朝向"
+    },
+    {
+      "i": 60,
+      "zh": "开始",
+      "en": "commence2",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 61,
+      "zh": "后来",
+      "en": "afterward",
+      "ipa": "[ˈæftərwərd]",
+      "pos": "adv.",
+      "gloss": "以后，后来"
+    },
+    {
+      "i": 62,
+      "skip": true
+    },
+    {
+      "i": 63,
+      "zh": "整个",
+      "en": "altogether2",
+      "ipa": "[ˌɔltəˈgɛðər]",
+      "pos": "n.",
+      "gloss": "整个；裸体"
+    },
+    {
+      "i": 64,
+      "zh": "创始人",
+      "en": "founder",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 65,
+      "zh": "计划",
+      "en": "blueprint2",
+      "ipa": "[ˈbluˌprɪnt]",
+      "pos": "v.",
+      "gloss": "计划；制成蓝图"
+    },
+    {
+      "i": 66,
+      "zh": "流动",
+      "en": "foam",
+      "ipa": "[foʊm]",
+      "pos": "v.",
+      "gloss": "起泡沫；吐白沫；起着泡沫流动"
+    },
+    {
+      "i": 67,
+      "zh": "耐心",
+      "en": "patience",
+      "ipa": "[ˈpeɪʃəns]",
+      "pos": "n.",
+      "gloss": "耐性，耐心；忍耐，容忍"
+    },
+    {
+      "i": 68,
+      "zh": "流动",
+      "en": "foam2",
+      "ipa": "[foʊm]",
+      "pos": "v.",
+      "gloss": "起泡沫；吐白沫；起着泡沫流动"
+    },
+    {
+      "i": 69,
+      "skip": true
+    },
+    {
+      "i": 70,
+      "zh": "布伦特",
+      "en": "blunt",
+      "ipa": "[blənt]",
+      "pos": "n.",
+      "gloss": "(Blunt)人名；(英)布伦特"
+    },
+    {
+      "i": 71,
+      "zh": "决策",
+      "en": "counsel",
+      "ipa": "[ˈkaʊnsəl]",
+      "pos": "n.",
+      "gloss": "法律顾问；忠告；商议；讨论；决策"
+    },
+    {
+      "i": 72,
+      "zh": "崩溃",
+      "en": "breakdown",
+      "ipa": "[ˈbreɪkˌdaʊn]",
+      "pos": "n.",
+      "gloss": "故障；崩溃；分解；分类；衰弱；跺脚曳步舞"
+    },
+    {
+      "i": 73,
+      "zh": "原油",
+      "en": "crude",
+      "ipa": "[krud]",
+      "pos": "n.",
+      "gloss": "原油；天然的物质"
+    },
+    {
+      "i": 74,
+      "zh": "布伦特",
+      "en": "blunt2",
+      "ipa": "[blənt]",
+      "pos": "n.",
+      "gloss": "(Blunt)人名；(英)布伦特"
+    },
+    {
+      "i": 75,
+      "zh": "惊人的",
+      "en": "marvelous",
+      "ipa": "[ˈmɑrvələs]",
+      "pos": "adj.",
+      "gloss": "(marvellous)惊人的,奇迹般的,妙极的"
+    },
+    {
+      "i": 76,
+      "skip": true
+    },
+    {
+      "i": 77,
+      "skip": true
+    },
+    {
+      "i": 78,
+      "skip": true
+    },
+    {
+      "i": 79,
+      "zh": "极端的",
+      "en": "radical",
+      "ipa": "[ˈrædɪkəl]",
+      "pos": "adj.",
+      "gloss": "基本的， 重要的， 根本的；激进的， 极端的"
+    },
+    {
+      "i": 80,
+      "zh": "布伦特",
+      "en": "blunt3",
+      "ipa": "[blənt]",
+      "pos": "n.",
+      "gloss": "(Blunt)人名；(英)布伦特"
+    },
+    {
+      "i": 81,
+      "zh": "知道",
+      "en": "acquaintance",
+      "ipa": "[əkˈweɪntəns]",
+      "pos": "n.",
+      "gloss": "熟人；相识；了解；知道"
+    },
+    {
+      "i": 82,
+      "zh": "波动",
+      "en": "fluctuate",
+      "ipa": "[ˈfləkʧəˌweɪt]",
+      "pos": "v.",
+      "gloss": "波动；涨落；动摇"
+    },
+    {
+      "i": 83,
+      "zh": "经济的",
+      "en": "economical",
+      "ipa": "[ˌɛkəˈnɑmɪkəl]",
+      "pos": "adj.",
+      "gloss": "节约的,经济的"
+    },
+    {
+      "i": 84,
+      "skip": true
+    },
+    {
+      "i": 85,
+      "zh": "交易",
+      "en": "bargain",
+      "ipa": "[ˈbɑrgɪn]",
+      "pos": "n.",
+      "gloss": "廉价货；交易,契约,合同"
+    },
+    {
+      "i": 86,
+      "zh": "释放",
+      "en": "liberate",
+      "ipa": "[ˈlɪˌbərˌeɪt]",
+      "pos": "v.",
+      "gloss": "解放；放出；释放"
+    },
+    {
+      "i": 87,
+      "zh": "图纸",
+      "en": "chart",
+      "ipa": "[ʧɑrt]",
+      "pos": "n.",
+      "gloss": "图表；海图；图纸；排行榜"
+    },
+    {
+      "i": 88,
+      "zh": "底层的",
+      "en": "underneath",
+      "ipa": "[ˌəndərˈniθ]",
+      "pos": "adj.",
+      "gloss": "下面的；底层的"
+    },
+    {
+      "i": 89,
+      "zh": "残酷的",
+      "en": "cruel",
+      "ipa": "[kruəl]",
+      "pos": "adj.",
+      "gloss": "残酷的，残忍的；使人痛苦的，让人受难的；无情的，严酷的"
+    },
+    {
+      "i": 90,
+      "zh": "经济的",
+      "en": "economical2",
+      "ipa": "[ˌɛkəˈnɑmɪkəl]",
+      "pos": "adj.",
+      "gloss": "节约的,经济的"
+    },
+    {
+      "i": 91,
+      "zh": "汽油",
+      "en": "gasoline",
+      "ipa": "[ˈgæsəˌlin]",
+      "pos": "n.",
+      "gloss": "汽油"
+    },
+    {
+      "i": 92,
+      "zh": "公开讨论",
+      "en": "forum",
+      "ipa": "[ˈfɔrəm]",
+      "pos": "n.",
+      "gloss": "论坛，讨论会；法庭；公开讨论的广场"
+    },
+    {
+      "i": 93,
+      "zh": "习惯于",
+      "en": "accustom",
+      "ipa": "[əˈkəstəm]",
+      "pos": "vt.",
+      "gloss": "使习惯于"
+    },
+    {
+      "i": 94,
+      "skip": true
+    },
+    {
+      "i": 95,
+      "zh": "接近",
+      "en": "approximate",
+      "ipa": "[əˈprɑksəˌmeɪt]",
+      "pos": "v.",
+      "gloss": "(to)接近"
+    },
+    {
+      "i": 96,
+      "zh": "知道",
+      "en": "acquaintance2",
+      "ipa": "[əkˈweɪntəns]",
+      "pos": "n.",
+      "gloss": "熟人；相识；了解；知道"
+    },
+    {
+      "i": 97,
+      "skip": true
+    },
+    {
+      "i": 98,
+      "zh": "引人注目",
+      "en": "dramatic",
+      "ipa": "[drəˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "戏剧的；急剧的；引人注目的；激动人心的"
+    },
+    {
+      "i": 99,
+      "zh": "公开的",
+      "en": "outward",
+      "ipa": "[ˈaʊtwərd]",
+      "pos": "adj.",
+      "gloss": "向外的；外面的；公开的；外服的；肉体的"
+    },
+    {
+      "i": 100,
+      "skip": true
+    },
+    {
+      "i": 101,
+      "zh": "咀嚼",
+      "en": "chew",
+      "ipa": "[ʧu]",
+      "pos": "n.",
+      "gloss": "咀嚼；咀嚼物"
+    },
+    {
+      "i": 102,
+      "zh": "协议",
+      "en": "accord",
+      "ipa": "[əˈkɔrd]",
+      "pos": "n.",
+      "gloss": "一致， 符合；协议， 条约"
+    },
+    {
+      "i": 103,
+      "zh": "取得",
+      "en": "acquire",
+      "ipa": "[əkˈwaɪər]",
+      "pos": "v.",
+      "gloss": "获得；取得；学到；捕获"
+    },
+    {
+      "i": 104,
+      "zh": "悬崖",
+      "en": "cliff",
+      "ipa": "[klɪf]",
+      "pos": "n.",
+      "gloss": "悬崖；绝壁"
+    },
+    {
+      "i": 105,
+      "zh": "协议",
+      "en": "accord2",
+      "ipa": "[əˈkɔrd]",
+      "pos": "n.",
+      "gloss": "一致， 符合；协议， 条约"
+    },
+    {
+      "i": 106,
+      "skip": true
+    },
+    {
+      "i": 107,
+      "zh": "协议",
+      "en": "accord3",
+      "ipa": "[əˈkɔrd]",
+      "pos": "n.",
+      "gloss": "一致， 符合；协议， 条约"
+    },
+    {
+      "i": 108,
+      "skip": true
+    },
+    {
+      "i": 109,
+      "zh": "驱动",
+      "en": "activate",
+      "ipa": "[ˈæktəˌveɪt]",
+      "pos": "v.",
+      "gloss": "启动，激活；驱动，驱使；使开始起作用"
+    },
+    {
+      "i": 110,
+      "zh": "矛盾",
+      "en": "contradiction",
+      "ipa": "[ˌkɑntrəˈdɪkʃən]",
+      "pos": "n.",
+      "gloss": "矛盾，不一致；反驳，否认"
+    },
+    {
+      "i": 111,
+      "zh": "懦夫",
+      "en": "coward",
+      "ipa": "[kaʊərd]",
+      "pos": "n.",
+      "gloss": "懦夫，懦弱的人"
+    },
+    {
+      "i": 112,
+      "zh": "的状态",
+      "en": "shatter2",
+      "ipa": "[ˈʃætər]",
+      "pos": "n.",
+      "gloss": "碎片；乱七八糟的状态"
+    },
+    {
+      "i": 113,
+      "zh": "开始",
+      "en": "commence3",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 114,
+      "skip": true
+    }
+  ]
+}
