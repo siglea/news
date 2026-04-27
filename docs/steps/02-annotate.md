@@ -32,6 +32,18 @@
 
 若当前处于**大模型对话场景**（见 **§4**），推荐用 **`llm-chat-bundle.json`** 做 **prompt 方式**生成 `llm_annotations.json`。典型环境包括 Cursor 内助手、其它能引用仓库文件并多轮对话的 IDE/工具界面；**同一套规则与步骤**，不依赖「必须打开某个外部网站」才算另一条路。**不必**默认跑词表脚本；无对话环境时见 **§5**。
 
+### 3.0 触发口令（harness 无关，复制即用）
+
+`mingox export-chat-bundle` 已把全部作业指引写入 bundle 的 `instructions` 字段。在任意对话式 LLM 客户端（Claude Code / Cursor / OpenCode / Aider / 网页 ChatGPT 等）粘贴下列口令并替换 `<slug>`，LLM 即可独立完成标注与门禁闭环：
+
+```
+读取 content/drafts/<slug>/llm-chat-bundle.json 并严格按其中 instructions
+字段全文执行；若描述与 system_prompt 冲突以 system_prompt 为准。
+完成后回报 non-skip 比例与门禁结果。
+```
+
+`instructions` 字段已包含：分批输出、写文件路径、写完后调 `validate --annotations` 与 `build`、失败降级到 §5 词表兜底等全部要求。**修改规则后**须重跑一次 `mingox export-chat-bundle --slug <slug>` 让 bundle 拿到新 `instructions`（旧 bundle 不会自动更新）。
+
 > **硬性约束（2026-04-16 复盘后追加）**：在 Cursor 内助手或任何可对话环境中，**禁止**为省事直接跑 `bundle_lexicon_annotate.py` 词表兜底。词表命中率通常远低于对话生成（实测 25/60 vs 47/58），覆盖率不足会导致成稿几乎无 `word-block`，失去双语学习价值。**必须**按下文步骤用 `system_prompt` 逐句生成，目标 ≥80% 非 `skip`。
 
 **步骤：**
