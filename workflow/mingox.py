@@ -96,10 +96,16 @@ def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
     if not src.is_file():
         raise SystemExit(f"missing {src}")
     paras = paragraphs_from_markdown(src.read_text(encoding="utf-8"))
-    bundle = export_chat_bundle_dict(paras)
+    bundle = export_chat_bundle_dict(paras, slug=args.slug)
     out = draft / "llm-chat-bundle.json"
     out.write_text(json.dumps(bundle, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("wrote", out)
+    print(
+        f"hint: 把以下口令贴给任意 LLM 即可开始标注（harness 无关）:\n"
+        f"  读取 {out.relative_to(ROOT)} 并严格按其中 instructions 字段执行；\n"
+        f"  若描述与 system_prompt 冲突以 system_prompt 为准。完成后回报 non-skip 比例与门禁结果。",
+        file=sys.stderr,
+    )
 
 
 def cmd_validate(args: argparse.Namespace) -> None:

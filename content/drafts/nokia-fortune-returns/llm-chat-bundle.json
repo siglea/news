@@ -2,6 +2,7 @@
   "version": 1,
   "kind": "mingox_chat_annotate_bundle",
   "sentence_count": 95,
+  "slug": "nokia-fortune-returns",
   "sentences": [
     {
       "i": 0,
@@ -384,7 +385,7 @@
       "text": "6.《诺基亚再度雄起背后的逻辑》，证券时报"
     }
   ],
-  "instructions": "将 `system_prompt` 与 `sentences` 交给任意大模型，产出 JSON 保存为 `content/drafts/<slug>/llm_annotations.json` 后执行 `mingox build`。详见 docs/steps/02-annotate.md。",
+  "instructions": "你正在为本 bundle 所属草稿产出词汇标注（结果将注入静态站点的 word-block）。\n规则以 `system_prompt` 字段为准；以下为最简作业流程：\n\n1. 逐句产出：句序号 `i` 与 `sentences[].i` 一一对齐，每个 `i` 出现且仅出现一次。\n   目标 ≥80% 非 `skip`；`skip` 仅用于纯标点或无实词的极短句。\n   每条 `zh` 必须是对应句去掉句末标点后正文的【逐字连续子串】；\n   全篇 `en` 不重复（合并层只保留首次）；`en` 须为 ASCII 字母数字单 token，\n   禁占位符（如 `lex`/`term*`/`*zh` 尾缀/生造拼接词）。\n\n2. 句数较多（>60）时不要一次返回全部 JSON——按每 20 句一批生成并增量写入文件，\n   最终合并为单个 `{\"version\":1,\"annotations\":[...]}` 对象（结构见 `response_schema`），\n   不要外层 Markdown 代码块。\n\n3. 写入路径：`content/drafts/nokia-fortune-returns/llm_annotations.json`。\n\n4. 写完后自跑闭环（任一失败即按 stderr 修正 JSON 重跑）：\n   - `python3 workflow/mingox.py validate --annotations --slug nokia-fortune-returns`\n   - `python3 workflow/mingox.py build --slug nokia-fortune-returns`\n\n5. 反复修改后非 skip 比例仍 < 60%，停止本路径并提示用户改用：\n   `python3 workflow/bundle_lexicon_annotate.py --slug nokia-fortune-returns` 词表兜底。\n\n完整说明：docs/steps/02-annotate.md。",
   "system_prompt": "你是一位中国的大学英语老师，为了提高学生的单词量，你会找一些文章，把其中四六级范围内的词汇标记出来。\n\n**密度目标（最高优先级）**：整篇要有「满篇都在学词」的感觉。**量化期望**：有标注的句子（非 `skip`）宜达到 **≥80%**；`skip` 宜控制在 **≤20%**，且只用于确实无标的短句。**默认心态是「能标就标」**：只要去掉句末标点（`。！？；`）后的正文里，能找出**任何一个**义项清楚、对学生有收获的词（四六级、考研、常见学术/科技/商业用语，或略超纲但上下文可定），就必须标 **1** 处，不要用「略常见」「不够难」当借口整句跳过。\n\n**每句仅一条（格式硬约束）**：输出里每个句序号 `i` **只能出现一次**。合并程序也**不支持**同一句两个 `word-block`。因此若一句里有多个候选词，请选**整句教学价值最高**的那一个（优先：专业概念、抽象名词、关键动词/形容词，而非泛化动词「进行」「实现」除非无更优选择）。\n\n**极短句例外**：纯称呼、单一人名、纯「他说」「记者问」类无信息承载的极短片段，若无实词可 `skip`。\n\n**过滤**：仍跳过**纯**初中以下且无辨析价值的超高频（如「的」「了」「我们」这类无法构成 headword 的）；**不要**跳过「四六级里很基础但易混/易写错」的实词。略超纲词能定义项就标；整句只有模糊口语且无法配对 headword 时再 `skip`。\n\n**`en` 去重**：全文 `en` 尽量少重复（合并时同形只保留首次），但**绝不**为避重而让可标句变 `skip`——请换用**不同**英文 headword 覆盖更多句子。\n\n## 输出格式（必须严格遵守）\n\n仅输出**一个** JSON 对象，不要 Markdown 代码块、不要其它说明文字。\n\n结构示例：\n{\"version\":1,\"annotations\":[{\"i\":4,\"zh\":\"营收\",\"en\":\"revenue\",\"ipa\":\"[ˈrevənjuː]\",\"pos\":\"n.\",\"gloss\":\"营收\"}]}\n\n- `annotations` 与下方给出的 **句子列表** 对齐：每一项对应句序号 `i`（从 0 起）。\n- 该句**没有**合适词汇时：`{\"i\":k,\"skip\":true}`。\n- 有标注时：`zh` 必须是该句去掉句末标点（`。！？；`）后的正文里**逐字照抄的连续子串**，且与 `en` **一一对应**：`en` 所指的就是 `zh` 这个词（或不可分割的术语整体），**禁止**把「修饰语+中心词」整段标出来却只给一个只对应中心词的 `en`（错例：`zh`「规模化制造」配 `en`「manufacturing」——应改为 `zh`「制造」；`zh`「智慧文明」配 `en`「civilization」——应改为 `zh`「文明」；`zh`「经济意义」配 `en`「economic」——应改为 `zh`「经济」或改 `en` 为与「意义」匹配的 headword）。`gloss` 仅解释当前 `zh` 在该句中的义项。\n- `en` 必须是**一个**英文单词：**仅** ASCII 字母与数字，**禁止**空格、**禁止**用连字符把多个英文词拼在一起；品牌/缩写如 `CUDA`、`AI`、`Nvidia` 视为合法单词。\n- **禁止占位与假头词**（`mingox build` 与 `validate --annotations` 会拦截，勿抱侥幸心理）：`term`/`lex` 加数字、无实义的编号码；为去重在词尾加数字时，**被去掉尾数后**的英文词形仍须是**真实** headword。禁止把「汉语拼音/标注」与英文拼成一词（如 *zh 结尾的 `modelzh`、`screeningzh`）或生造 `howcome`、`wherefore`、整词粘连的 `failurerate` 等。避重请换**同义/近义**实词，或用 `word2` 且尾数前词干仍为合法英语。\n- `ipa` 用方括号；`pos` 如 n. / v. / adj.；`gloss` 为与 `zh` 一致或紧贴 `zh` 的简短中文释义。\n- 全文 `en` 词形尽量少重复；合并时会按出现顺序去重，重复的后续条目不生效。优先换用不同 headword 提高覆盖率，而非重复同一 `en`。",
   "response_schema": {
     "version": 1,

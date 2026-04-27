@@ -26,6 +26,18 @@ python3 workflow/mingox.py serve --port 8765
 - **单篇草稿目录约定**：[content/drafts/README.md](content/drafts/README.md)
 - **抓取与 Playwright**：[docs/steps/01-acquire.md](docs/steps/01-acquire.md)、[util/README.md](util/README.md)
 
+## 标注：harness 无关
+
+本仓库与具体 IDE/Agent 无关——可在 Claude Code、Cursor、OpenCode、Aider 等任何具备文件读写能力的对话式 LLM 客户端中使用。导出 `llm-chat-bundle.json` 后，把以下口令贴给 LLM（替换 `<slug>`）即可一次完成标注 + 校验 + 构建：
+
+```
+读取 content/drafts/<slug>/llm-chat-bundle.json 并严格按其中 instructions
+字段全文执行；若描述与 system_prompt 冲突以 system_prompt 为准。
+完成后回报 non-skip 比例与门禁结果。
+```
+
+详见 [docs/steps/02-annotate.md](docs/steps/02-annotate.md) §3.0。
+
 ## 目录结构（简）
 
 ```

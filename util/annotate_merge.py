@@ -222,18 +222,41 @@ def apply_annotations_payload(
     return html_list, dbg
 
 
-def export_chat_bundle_dict(paragraphs: list[str]) -> dict[str, Any]:
+def export_chat_bundle_dict(paragraphs: list[str], *, slug: str | None = None) -> dict[str, Any]:
     all_sents, _ = flatten_paragraphs(paragraphs)
+    slug_token = slug or "<slug>"
+    instructions = (
+        "你正在为本 bundle 所属草稿产出词汇标注（结果将注入静态站点的 word-block）。\n"
+        "规则以 `system_prompt` 字段为准；以下为最简作业流程：\n"
+        "\n"
+        "1. 逐句产出：句序号 `i` 与 `sentences[].i` 一一对齐，每个 `i` 出现且仅出现一次。\n"
+        "   目标 ≥80% 非 `skip`；`skip` 仅用于纯标点或无实词的极短句。\n"
+        "   每条 `zh` 必须是对应句去掉句末标点后正文的【逐字连续子串】；\n"
+        "   全篇 `en` 不重复（合并层只保留首次）；`en` 须为 ASCII 字母数字单 token，\n"
+        "   禁占位符（如 `lex`/`term*`/`*zh` 尾缀/生造拼接词）。\n"
+        "\n"
+        "2. 句数较多（>60）时不要一次返回全部 JSON——按每 20 句一批生成并增量写入文件，\n"
+        "   最终合并为单个 `{\"version\":1,\"annotations\":[...]}` 对象（结构见 `response_schema`），\n"
+        "   不要外层 Markdown 代码块。\n"
+        "\n"
+        f"3. 写入路径：`content/drafts/{slug_token}/llm_annotations.json`。\n"
+        "\n"
+        "4. 写完后自跑闭环（任一失败即按 stderr 修正 JSON 重跑）：\n"
+        f"   - `python3 workflow/mingox.py validate --annotations --slug {slug_token}`\n"
+        f"   - `python3 workflow/mingox.py build --slug {slug_token}`\n"
+        "\n"
+        "5. 反复修改后非 skip 比例仍 < 60%，停止本路径并提示用户改用：\n"
+        f"   `python3 workflow/bundle_lexicon_annotate.py --slug {slug_token}` 词表兜底。\n"
+        "\n"
+        "完整说明：docs/steps/02-annotate.md。"
+    )
     return {
         "version": 1,
         "kind": "mingox_chat_annotate_bundle",
         "sentence_count": len(all_sents),
+        "slug": slug,
         "sentences": [{"i": i, "text": t} for i, t in enumerate(all_sents)],
-        "instructions": (
-            "将 `system_prompt` 与 `sentences` 交给任意大模型，产出 JSON 保存为 "
-            "`content/drafts/<slug>/llm_annotations.json` 后执行 `mingox build`。"
-            "详见 docs/steps/02-annotate.md。"
-        ),
+        "instructions": instructions,
         "system_prompt": CHAT_SYSTEM_PROMPT,
         "response_schema": {
             "version": 1,
