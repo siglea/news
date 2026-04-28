@@ -46,6 +46,28 @@
 
 > **硬性约束（2026-04-16 复盘后追加）**：在 Cursor 内助手或任何可对话环境中，**禁止**为省事直接跑 `bundle_lexicon_annotate.py` 词表兜底。词表命中率通常远低于对话生成（实测 25/60 vs 47/58），覆盖率不足会导致成稿几乎无 `word-block`，失去双语学习价值。**必须**按下文步骤用 `system_prompt` 逐句生成，目标 ≥80% 非 `skip`。
 
+### 3.0.1 推荐：派 subagent 做标注（harness 通用，2026-04-28 追加）
+
+若当前 harness 支持「subagent / 子代理」原语（Claude Code 的 `Agent`、Cursor 的子代理、其它 IDE 的等价工具），**优先**把标注任务派给 subagent，而不是在主代理上下文里逐句产出。
+
+**为何要派下去**
+
+1. 60–80 句标注 + 推理在主线程会净增 ~30 k tokens，挤占后续 `build`/`deploy`/`commit` 的判断空间。
+2. subagent 拿到的 prompt 是干净的，不会受会话历史干扰，产出更稳定。
+3. 任何能拉 subagent 的 harness 都通用，不绑定某家 API 与凭据；与 §3.0 的「harness 无关」精神一致。
+
+**操作**
+
+```bash
+python3 workflow/mingox.py print-annotate-prompt --slug <slug>
+```
+
+把整段输出作为 subagent 的 `prompt` 派活。subagent 会按 §3.0 触发口令的精神：读 bundle → 写 `llm_annotations.json` → 跑 `mingox build` 与 `mingox validate --post <out_html>`，全部通过后只回报 non-skip 比例 / build vocab 数 / validate 最后几行；**不**把整份 annotations 粘回来。
+
+主代理拿到 subagent 总结后，继续走改 `index.html`、`deploy`、`commit` 等不耗 token 的流程。
+
+**何时不走 subagent**：harness 没有派生子代理的能力（纯 CLI / 网页直聊），或对话上下文不重要的小篇幅稿件——回到 §3.0 的粘贴触发口令方式，或 §5 词表兜底。
+
 **步骤：**
 
 1. **导出 bundle（与正文句序对齐的唯一依据）**  
@@ -162,6 +184,8 @@ python3 workflow/bundle_lexicon_annotate.py --slug <slug> --lexicon path/to/your
 
 ```bash
 python3 workflow/mingox.py export-chat-bundle --slug <slug>
+# 推荐（支持 subagent 的 harness）：把下行输出派给 subagent，主线程不接手逐句标注
+python3 workflow/mingox.py print-annotate-prompt --slug <slug>
 # 生成并保存 content/drafts/<slug>/llm_annotations.json 后：
 python3 workflow/mingox.py build --slug <slug>
 python3 workflow/mingox.py validate --post posts/你的成稿.html
