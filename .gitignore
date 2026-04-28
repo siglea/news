@@ -6,6 +6,10 @@
 *~
 .DS_Store
 
+# Claude Code 本地个人覆盖（勿提交）
+.claude/settings.local.json
+.claude/worktrees/
+
 # Playwright 抓取产物（勿提交）
 util/.crawl-output/
 
