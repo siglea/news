@@ -18,6 +18,14 @@ python3 workflow/mingox.py --help
 
 以往的 **`article-profiles.json` + `annotate-wechat-plain.py` + `mingox wechat`** 已移除；旧流程请改为上述草稿目录 + `build`。
 
+## 跨 harness 协作（仓库不绑定 AI 编程工具）
+
+本仓库不绑定特定 AI 编程工具（按字母序：Aider / Claude Code / Continue / Cursor 等）。以下为硬性约定：
+
+- **本地 harness 配置不进版本库**：`.claude/`、`.cursor/`、`.continue/`、`.aider*` 等目录已由 `.gitignore` 整目录排除，每位贡献者按自己 harness 在本机维护。
+- **文档措辞中立**：典型场景描述只用「可对话场景」「支持子代理派生的 harness」等通用术语，不点单一工具名为唯一举例；如需列举，按字母序并明确「等」。
+- **触发口令 harness 无关**：`mingox export-chat-bundle` 输出的 `instructions` 字段在任意对话式 LLM 客户端均可直接执行（见 [02-annotate.md §3.0](./steps/02-annotate.md#30-触发口令harness-无关复制即用)）；支持 subagent 的 harness 优先用 `mingox print-annotate-prompt --slug <slug>` 派子代理（[§3.0.1](./steps/02-annotate.md#301-推荐派-subagent-做标注harness-通用2026-04-28-追加)）。
+
 ## 四步索引（分步详述）
 
 | 步 | 文档 | 一句话 |
@@ -81,6 +89,15 @@ python3 workflow/mingox.py --help
 - **对话场景下禁止偷懒用词表兜底**：在任何可对话场景中，**必须**按 `system_prompt` 逐句生成标注（目标 ≥80% 非 skip），而非直接跑 `bundle_lexicon_annotate.py`。词表兜底仅适用于无对话环境。
 - **外源稿须开启版权声明**：微信公众号转载稿的 `include_source_footer` 应为 `true`，`footer_template` 应选 `derivative`，并填写 `source_author_display`。
 
+### 2026-04-28（标注 subagent 化 + 仓库 harness 中立化）
+
+- **标注派 subagent**：实测两次手工标注（60 句 / 80 句）耗主线程 ~30 k tokens；切到 subagent（[02-annotate.md §3.0.1](./steps/02-annotate.md#301-推荐派-subagent-做标注harness-通用2026-04-28-追加)）后主线程节省 95%+ token，84%–94% non-skip 与门禁均通过。**结论：支持 subagent 派生的 harness 默认走这条路**，不在主代理上下文里逐句产标注。
+- **仓库 harness 中立化**：`.claude/` 等本地配置整目录从 git 移除；删 root 的 `CLAUDE.md`；4 处文档单举（`Cursor 内助手` / `Claude Code 的 Agent`）改为中立措辞；新增「跨 harness 协作」节列出硬性约定（见本文上方）。
+- **预检不可省**：未做 `git pull --ff-only` 直接改 `index.html`，导致丢掉 origin 上 4 个新 commit 的首页条目，事后 stash/pull/重 deploy 白跑一次。**结论：把预检定为「0. 预检」**（见上方新稿全流程闭环检查 0），并写进硬性步骤。
+- **同主题重复发稿**：未做 `git grep` 既有内容,把 4 月 4 日已发的同场分享（dai-yusen 戴雨森「水烧开」腾讯分享）重发了一遍。**结论：「0. 预检」中加入去重 grep**。
+- **历史命名违规残留**：仓库尚有 8 个 `mp-<id>-article` 草稿（含 1 篇成稿是首页孤儿），违反 L13 命名规范，已批量清理。
+- **空文件污染**：`.env`（0 字节）历史被 tracked，`.gitignore` 对已追踪文件无效；`git rm --cached` 后保持本机文件不删。
+
 ---
 
 ## 验证链接须走到发布
@@ -105,6 +122,11 @@ python3 workflow/mingox.py --help
 ## 新稿全流程闭环检查
 
 从 URL/paste 生产一篇新稿并发布时，**必须**按以下顺序逐项完成。任何一步遗漏都可能导致"部署了但读者看不到"或"内容质量不达标"。
+
+### 0. 预检 — sync 与去重（每次发稿前必跑）
+
+- **同步远端**：`git fetch && git status`，确认本地不落后于 origin/master；落后则先 `git pull --ff-only` 再开工。否则改 `index.html` 时极易覆盖别人新加的 `<li>`，事后发现要 stash → pull → 重打补丁 → 重 deploy，白做一次。
+- **去重既有内容**：用 `git grep -l "<标题关键词>" content/drafts/ posts/` 或 `ls content/drafts/ | grep <主题词>`，确认无同主题/同场分享/同篇外稿存在。同一场分享被重复发表（题材重复）属低级错误，比临时 slug 还难清理。
 
 ### 1. init — 命名与元数据
 
