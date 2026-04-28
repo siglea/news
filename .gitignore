@@ -6,9 +6,12 @@
 *~
 .DS_Store
 
-# Claude Code 本地个人覆盖（勿提交）
-.claude/settings.local.json
-.claude/worktrees/
+# 各类 AI 编程 harness 的本地配置（保持仓库 harness 中立，勿提交）
+# Claude Code: .claude/ ；Cursor: .cursor/ ；Aider: .aider* ；Continue: .continue/
+.claude/
+.cursor/
+.continue/
+.aider*
 
 # Playwright 抓取产物（勿提交）
 util/.crawl-output/
