@@ -30,7 +30,7 @@
 
 ## 3. 推荐主路径：导出 bundle → 对话场景下按 prompt 生成
 
-若当前处于**大模型对话场景**（见 **§4**），推荐用 **`llm-chat-bundle.json`** 做 **prompt 方式**生成 `llm_annotations.json`。典型环境包括 Cursor 内助手、其它能引用仓库文件并多轮对话的 IDE/工具界面；**同一套规则与步骤**，不依赖「必须打开某个外部网站」才算另一条路。**不必**默认跑词表脚本；无对话环境时见 **§5**。
+若当前处于**大模型对话场景**（见 **§4**），推荐用 **`llm-chat-bundle.json`** 做 **prompt 方式**生成 `llm_annotations.json`。典型环境是任何能引用仓库文件并多轮对话的 IDE/工具；**同一套规则与步骤**，不依赖「必须打开某个外部网站」才算另一条路。**不必**默认跑词表脚本；无对话环境时见 **§5**。
 
 ### 3.0 触发口令（harness 无关，复制即用）
 
@@ -44,11 +44,11 @@
 
 `instructions` 字段已包含：分批输出、写文件路径、写完后调 `validate --annotations` 与 `build`、失败降级到 §5 词表兜底等全部要求。**修改规则后**须重跑一次 `mingox export-chat-bundle --slug <slug>` 让 bundle 拿到新 `instructions`（旧 bundle 不会自动更新）。
 
-> **硬性约束（2026-04-16 复盘后追加）**：在 Cursor 内助手或任何可对话环境中，**禁止**为省事直接跑 `bundle_lexicon_annotate.py` 词表兜底。词表命中率通常远低于对话生成（实测 25/60 vs 47/58），覆盖率不足会导致成稿几乎无 `word-block`，失去双语学习价值。**必须**按下文步骤用 `system_prompt` 逐句生成，目标 ≥80% 非 `skip`。
+> **硬性约束（2026-04-16 复盘后追加）**：在任何可对话环境中，**禁止**为省事直接跑 `bundle_lexicon_annotate.py` 词表兜底。词表命中率通常远低于对话生成（实测 25/60 vs 47/58），覆盖率不足会导致成稿几乎无 `word-block`，失去双语学习价值。**必须**按下文步骤用 `system_prompt` 逐句生成，目标 ≥80% 非 `skip`。
 
 ### 3.0.1 推荐：派 subagent 做标注（harness 通用，2026-04-28 追加）
 
-若当前 harness 支持「subagent / 子代理」原语（Claude Code 的 `Agent`、Cursor 的子代理、其它 IDE 的等价工具），**优先**把标注任务派给 subagent，而不是在主代理上下文里逐句产出。
+若当前 harness 支持「subagent / 子代理」原语（按字母序：Aider / Claude Code / Continue / Cursor 等支持子代理派生的工具），**优先**把标注任务派给 subagent，而不是在主代理上下文里逐句产出。
 
 **为何要派下去**
 
