@@ -103,9 +103,54 @@ def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
     print(
         f"hint: 把以下口令贴给任意 LLM 即可开始标注（harness 无关）:\n"
         f"  读取 {out.relative_to(ROOT)} 并严格按其中 instructions 字段执行；\n"
-        f"  若描述与 system_prompt 冲突以 system_prompt 为准。完成后回报 non-skip 比例与门禁结果。",
+        f"  若描述与 system_prompt 冲突以 system_prompt 为准。完成后回报 non-skip 比例与门禁结果。\n"
+        f"hint(推荐): 在支持 subagent 的 harness 内，运行\n"
+        f"  python3 workflow/mingox.py print-annotate-prompt --slug {args.slug}\n"
+        f"  把输出作为 subagent prompt 派活，主代理别接手逐句标注（保护主线程上下文）。",
         file=sys.stderr,
     )
+
+
+def _load_meta(slug: str) -> dict:
+    meta_path = ROOT / "content" / "drafts" / slug / "meta.json"
+    if not meta_path.is_file():
+        raise SystemExit(f"missing {meta_path}")
+    return json.loads(meta_path.read_text(encoding="utf-8"))
+
+
+def cmd_print_annotate_prompt(args: argparse.Namespace) -> None:
+    meta = _load_meta(args.slug)
+    bundle_path = Path("content") / "drafts" / args.slug / "llm-chat-bundle.json"
+    annot_path = Path("content") / "drafts" / args.slug / "llm_annotations.json"
+    out_html = meta.get("out_html") or f"posts/{meta.get('date','')}-{args.slug}.html"
+
+    prompt = (
+        f"你是一名严格按 system_prompt 逐句标注的 subagent。任务：\n"
+        f"\n"
+        f"1. 读取 {bundle_path.as_posix()}\n"
+        f"   该文件 `instructions` 字段是作业指南；`system_prompt` 是硬约束（冲突以 system_prompt 为准）；\n"
+        f"   `sentences` 数组每条带 `i` 与 `text`；`response_schema` 是输出形态参考。\n"
+        f"\n"
+        f"2. 严格按 system_prompt 逐句生成 `annotations` 数组：\n"
+        f"   - 每句最多一条；句子无可标实词时 `{{\"i\":k,\"skip\":true}}`。\n"
+        f"   - `zh` 必须是该句去掉句末标点（。！？；）后正文里的**连续子串**。\n"
+        f"   - `en` 仅 ASCII 字母/数字，**全文唯一**；禁止占位（lex/term + 数字、汉拼粘连等）。\n"
+        f"   - 目标 non-skip ≥ 80%（system_prompt 量化期望，未达则尽量补全而非整句跳过）。\n"
+        f"\n"
+        f"3. 把结果写到 {annot_path.as_posix()}（覆盖；无则新建）。仅写这一份文件，不要改其它。\n"
+        f"\n"
+        f"4. 然后跑两条命令，两条都必须 exit 0：\n"
+        f"     python3 workflow/mingox.py build --slug {args.slug}\n"
+        f"     python3 workflow/mingox.py validate --post {out_html}\n"
+        f"   失败则修订 annotations 后重写一次（最多重试 1 次）；仍失败就回报错误并停止。\n"
+        f"\n"
+        f"5. 完成后回报：\n"
+        f"   - non-skip 比例（annotated / sentences）。\n"
+        f"   - build 是否通过、vocab 数量。\n"
+        f"   - validate 输出最后 5 行（含 adjacent check 结果）。\n"
+        f"   **禁止**把整份 annotations 粘回来——主代理只需要总结。\n"
+    )
+    print(prompt)
 
 
 def cmd_validate(args: argparse.Namespace) -> None:
@@ -336,6 +381,13 @@ def main() -> None:
     )
     p_eb.add_argument("--slug", required=True)
     p_eb.set_defaults(func=cmd_export_chat_bundle)
+
+    p_pap = sub.add_parser(
+        "print-annotate-prompt",
+        help="打印一段自包含的 subagent prompt：派给 subagent 做逐句标注（保护主代理上下文，harness 通用）",
+    )
+    p_pap.add_argument("--slug", required=True)
+    p_pap.set_defaults(func=cmd_print_annotate_prompt)
 
     p_v = sub.add_parser(
         "validate",
