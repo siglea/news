@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "大模型",
+      "en": "LLM",
+      "ipa": "[ˌel el ˈem]",
+      "pos": "n.",
+      "gloss": "大语言模型"
+    },
+    {
+      "i": 1,
+      "zh": "资源",
+      "en": "resource",
+      "ipa": "[ˈriːsɔːs]",
+      "pos": "n.",
+      "gloss": "资源"
+    },
+    {
+      "i": 2,
+      "zh": "自然语言理解",
+      "en": "NLU",
+      "ipa": "[ˌen el ˈjuː]",
+      "pos": "n.",
+      "gloss": "自然语言理解"
+    },
+    {
+      "i": 3,
+      "zh": "多模态",
+      "en": "multimodal",
+      "ipa": "[ˌmʌltiˈməʊdl]",
+      "pos": "adj.",
+      "gloss": "多模态的"
+    },
+    {
+      "i": 4,
+      "zh": "边缘侧",
+      "en": "edge",
+      "ipa": "[edʒ]",
+      "pos": "n.",
+      "gloss": "边缘（计算）"
+    }
+  ]
+}

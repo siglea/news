@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "wechat-ai-article-20260428",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "大模型技术发展现状与未来趋势",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">大模型</span><span class=\"word-block\"><span class=\"english-word\">LLM</span><span class=\"word-info\">[ˌel el ˈem] n. 大语言模型</span></span></span>技术发展现状与未来趋势</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "近年来，大模型技术取得了突飞猛进的发展，从GPT-3到GPT-4o，从文心一言到通义千问，国内外科技巨头都在这一领域投入了大量资源。",
+      "html": "<p>近年来，大模型技术取得了突飞猛进的发展，从GPT-3到GPT-4o，从文心一言到通义千问，国内外科技巨头都在这一领域投入了大量<span class=\"word-annot\"><span class=\"word-anchor\">资源</span><span class=\"word-block\"><span class=\"english-word\">resource</span><span class=\"word-info\">[ˈriːsɔːs] n. 资源</span></span></span>。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "技术现状\n当前大模型已经具备了强大的自然语言理解、生成能力，在文本创作、代码编写、多模态理解等多个领域都有了广泛的应用。多模态大模型已经可以同时处理文本、图片、音频、视频等多种类型的输入输出，交互体验更加自然流畅。",
+      "html": "<p>技术现状\n当前大模型已经具备了强大的<span class=\"word-annot\"><span class=\"word-anchor\">自然语言理解</span><span class=\"word-block\"><span class=\"english-word\">NLU</span><span class=\"word-info\">[ˌen el ˈjuː] n. 自然语言理解</span></span></span>、生成能力，在文本创作、代码编写、多模态理解等多个领域都有了广泛的应用。<span class=\"word-annot\"><span class=\"word-anchor\">多模态</span><span class=\"word-block\"><span class=\"english-word\">multimodal</span><span class=\"word-info\">[ˌmʌltiˈməʊdl] adj. 多模态的</span></span></span>大模型已经可以同时处理文本、图片、音频、视频等多种类型的输入输出，交互体验更加自然流畅。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "未来趋势\n未来大模型技术将向着更小、更快、更智能的方向发展，边缘侧部署的小模型将越来越普及，推理速度会大幅提升，同时模型的理解能力和推理能力也会进一步增强，在更多垂直领域得到深度应用。",
+      "html": "<p>未来趋势\n未来大模型技术将向着更小、更快、更智能的方向发展，<span class=\"word-annot\"><span class=\"word-anchor\">边缘侧</span><span class=\"word-block\"><span class=\"english-word\">edge</span><span class=\"word-info\">[edʒ] n. 边缘（计算）</span></span></span>部署的小模型将越来越普及，推理速度会大幅提升，同时模型的理解能力和推理能力也会进一步增强，在更多垂直领域得到深度应用。</p>"
+    }
+  ]
+}

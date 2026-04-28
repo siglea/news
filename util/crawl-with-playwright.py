@@ -44,7 +44,17 @@ def fetch_page(
         browser = p.chromium.launch(
             headless=headless,
             slow_mo=slow_mo_ms,
-            args=["--disable-blink-features=AutomationControlled"],
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-gpu",
+                "--disable-dev-shm-usage",
+                "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                "--disable-extensions",
+                "--disable-plugins",
+                "--no-first-run",
+                "--no-default-browser-check"
+            ],
         )
         if mobile:
             context = browser.new_context(
