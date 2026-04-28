@@ -1,0 +1,452 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "hinton-ai-safety-4-8-trillion-warning",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "当 78 岁的 Geoffrey Hinton 坐在摄像头前，对着在场几百位代表说出那句话时，整个会场安静了几秒。",
+      "html": "<p>当 78 岁的 Geoffrey Hinton 坐在<span class=\"word-annot\"><span class=\"word-anchor\">摄像头</span><span class=\"word-block\"><span class=\"english-word\">warning</span><span class=\"word-info\">[ˈwɜːd] n. 摄像头（语境义）</span></span></span>前，对着在场几百位代表说出那句话时，整个会场安静了几秒。</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "「他们想要一辆没有方向盘的超级快车。」",
+      "html": "<p>「他们想要一辆没有<span class=\"word-annot\"><span class=\"word-anchor\">方向盘</span><span class=\"word-block\"><span class=\"english-word\">steering</span><span class=\"word-info\">[ˈwɜːd] n. 方向盘（语境义）</span></span></span>的超级快车。」</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "最近，这位 2024 年诺贝尔物理学奖得主、被全世界称为「AI 教父」的老人，在全球数字世界大会上再次向人类拉响警报。",
+      "html": "<p>最近，这位 2024 <span class=\"word-annot\"><span class=\"word-anchor\">年诺贝</span><span class=\"word-block\"><span class=\"english-word\">throttle</span><span class=\"word-info\">[ˈwɜːd] n. 年诺贝（语境义）</span></span></span>尔物理学奖得主、被全世界称为「AI 教父」的老人，在全球数字世界大会上再次向人类拉响警报。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "这位老人用几乎带着恳求的语气警告：「我们不知道人类能否与超级智能 AI 共存。」",
+      "html": "<p>这位老人用几乎带着恳求的语气警告：「我们不知道人类能否与<span class=\"word-annot\"><span class=\"word-anchor\">超级智能</span><span class=\"word-block\"><span class=\"english-word\">summit</span><span class=\"word-info\">[ˈwɜːd] n. 超级智能（语境义）</span></span></span> AI 共存。」</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "「但我们正在建造它。」",
+      "html": "<p>「但我们正在<span class=\"word-annot\"><span class=\"word-anchor\">建造</span><span class=\"word-block\"><span class=\"english-word\">caution</span><span class=\"word-info\">[ˈwɜːd] n. 建造（语境义）</span></span></span>它。」</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "只有 1% 在管安全，剩下 99% 在踩油门",
+      "html": "<p>只有 1% 在管<span class=\"word-annot\"><span class=\"word-anchor\">安全</span><span class=\"word-block\"><span class=\"english-word\">coexist</span><span class=\"word-info\">[ˈwɜːd] n. 安全（语境义）</span></span></span>，剩下 99% 在踩油门</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "在发言中，Hinton 算了一笔很清楚的账。",
+      "html": "<p>在<span class=\"word-annot\"><span class=\"word-anchor\">发言</span><span class=\"word-block\"><span class=\"english-word\">engine</span><span class=\"word-info\">[ˈwɜːd] n. 发言（语境义）</span></span></span>中，Hinton 算了一笔很清楚的账。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "全球 AI 产业正以人类历史上前所未有的速度膨胀。UN 贸发会议数据显示：2023 年全球 AI 市场规模为 1890 亿美元，到 2033 年预计飙到 4.8 万亿美元。",
+      "html": "<p>全球 AI <span class=\"word-annot\"><span class=\"word-anchor\">产业正</span><span class=\"word-block\"><span class=\"english-word\">inflation</span><span class=\"word-info\">[ˈwɜːd] n. 产业正（语境义）</span></span></span>以人类历史上前所未有的速度膨胀。UN 贸发会议数据显示：2023 年全球 AI <span class=\"word-annot\"><span class=\"word-anchor\">市场</span><span class=\"word-block\"><span class=\"english-word\">expansion</span><span class=\"word-info\">[ˈwɜːd] n. 市场（语境义）</span></span></span>规模为 1890 亿美元，到 2033 年预计飙到 4.8 万亿美元。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "也就是说，人类只用十年时间，就从零造出一个比日本 GDP 还大的经济体。",
+      "html": "<p>也就是说，<span class=\"word-annot\"><span class=\"word-anchor\">人类只</span><span class=\"word-block\"><span class=\"english-word\">forecast</span><span class=\"word-info\">[ˈwɜːd] n. 人类只（语境义）</span></span></span>用十年时间，就从零造出一个比日本 GDP 还大的经济体。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "这些钱几乎都用在了造更大的模型、跑更多的算力。",
+      "html": "<p>这些钱几乎都用在了造更大的<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">economy</span><span class=\"word-info\">[ˈwɜːd] n. 模型（语境义）</span></span></span>、跑更多的算力。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "至于安全呢？Hinton 给了一个数字：大概 1%。",
+      "html": "<p>至于<span class=\"word-annot\"><span class=\"word-anchor\">安全</span><span class=\"word-block\"><span class=\"english-word\">investment</span><span class=\"word-info\">[ˈwɜːd] n. 安全（语境义）</span></span></span>呢？Hinton 给了一个<span class=\"word-annot\"><span class=\"word-anchor\">数字</span><span class=\"word-block\"><span class=\"english-word\">safeguard</span><span class=\"word-info\">[ˈwɜːd] n. 数字（语境义）</span></span></span>：大概 1%。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "全球 AI 研发投入里，只有约 1% 花在「怎么让这东西不出事」上面。",
+      "html": "<p>全球 AI <span class=\"word-annot\"><span class=\"word-anchor\">研发投</span><span class=\"word-block\"><span class=\"english-word\">ratio</span><span class=\"word-info\">[ˈwɜːd] n. 研发投（语境义）</span></span></span>入里，只有约 1% 花在「怎么让这东西不出事」上面。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "对此，Hinton 的评论是：It's crazy.",
+      "html": "<p>对此，Hinton 的<span class=\"word-annot\"><span class=\"word-anchor\">评论</span><span class=\"word-block\"><span class=\"english-word\">lobbying</span><span class=\"word-info\">[ˈwɜːd] n. 评论（语境义）</span></span></span>是：It&#x27;s crazy.</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "「AI 科技游说集团正在花大价钱投广告，想让所有人接受一个类比——AI 是油门，监管是刹车。他们的意思是，别踩刹车，会拖慢我们。」",
+      "html": "<p>「AI 科技游说集团正在花大价钱投广告，想让所有人接受一个类比——AI 是油门，<span class=\"word-annot\"><span class=\"word-anchor\">监管</span><span class=\"word-block\"><span class=\"english-word\">metaphor</span><span class=\"word-info\">[ˈwɜːd] n. 监管（语境义）</span></span></span>是刹车。他们的意思是，<span class=\"word-annot\"><span class=\"word-anchor\">别踩刹</span><span class=\"word-block\"><span class=\"english-word\">regulator</span><span class=\"word-info\">[ˈwɜːd] n. 别踩刹（语境义）</span></span></span>车，会拖慢我们。」</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "对此，Hinton 表示，这个类比完全错误。",
+      "html": "<p>对此，Hinton 表示，这个<span class=\"word-annot\"><span class=\"word-anchor\">类比完</span><span class=\"word-block\"><span class=\"english-word\">wheel</span><span class=\"word-info\">[ˈwɜːd] n. 类比完（语境义）</span></span></span>全错误。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "「油门是进步，没错。但监管不是刹车，监管是方向盘。他们想要一辆极速狂飙的车，但没有方向盘。」",
+      "html": "<p>「<span class=\"word-annot\"><span class=\"word-anchor\">油门</span><span class=\"word-block\"><span class=\"english-word\">runaway</span><span class=\"word-info\">[ˈwɜːd] n. 油门（语境义）</span></span></span>是进步，没错。但<span class=\"word-annot\"><span class=\"word-anchor\">监管</span><span class=\"word-block\"><span class=\"english-word\">ceremony</span><span class=\"word-info\">[ˈwɜːd] n. 监管（语境义）</span></span></span>不是刹车，监管是方向盘。他们想要一辆极速狂飙的车，但没有<span class=\"word-annot\"><span class=\"word-anchor\">方向盘</span><span class=\"word-block\"><span class=\"english-word\">catalyst</span><span class=\"word-info\">[ˈwɜːd] n. 方向盘（语境义）</span></span></span>。」</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "坐在他旁边的 Terry Sejnowski 立刻接了一句：你开过一辆没有刹车的车吗？下坡的时候你就知道有多惨了。但更惨的是，我们连方向盘都没有。",
+      "html": "<p>坐在他旁边的 Terry Sejnowski <span class=\"word-annot\"><span class=\"word-anchor\">立刻接</span><span class=\"word-block\"><span class=\"english-word\">laureate</span><span class=\"word-info\">[ˈwɜːd] n. 立刻接（语境义）</span></span></span>了一句：你开过一辆没有刹车的车吗？下坡的时候你就<span class=\"word-annot\"><span class=\"word-anchor\">知道有</span><span class=\"word-block\"><span class=\"english-word\">nostalgia</span><span class=\"word-info\">[ˈwɜːd] n. 知道有（语境义）</span></span></span>多惨了。但更惨的是，我们连<span class=\"word-annot\"><span class=\"word-anchor\">方向盘</span><span class=\"word-block\"><span class=\"english-word\">annealing</span><span class=\"word-info\">[ˈwɜːd] n. 方向盘（语境义）</span></span></span>都没有。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "油门踩到底、方向盘拆掉，这就是当下全球 AI 竞赛的真实状态。",
+      "html": "<p>油门踩到底、<span class=\"word-annot\"><span class=\"word-anchor\">方向盘</span><span class=\"word-block\"><span class=\"english-word\">crystallization</span><span class=\"word-info\">[ˈwɜːd] n. 方向盘（语境义）</span></span></span>拆掉，这就是当下全球 AI 竞赛的真实状态。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "两位老人的颁奖典礼，怎么变成了一场审判",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">两位老</span><span class=\"word-block\"><span class=\"english-word\">elegant</span><span class=\"word-info\">[ˈwɜːd] n. 两位老（语境义）</span></span></span>人的颁奖典礼，怎么变成了一场审判</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "2026 年世界数字大会的主题是「AI 与社会发展」。",
+      "html": "<p>2026 年世界数字大会的主题是「AI 与<span class=\"word-annot\"><span class=\"word-anchor\">社会</span><span class=\"word-block\"><span class=\"english-word\">practical</span><span class=\"word-info\">[ˈwɜːd] n. 社会（语境义）</span></span></span>发展」。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "这次大会给 Hinton 和 Sejnowski 颁了奖，表彰他们在 1980 年代发明玻尔兹曼机，它后来成了深度学习革命的催化剂。",
+      "html": "<p>这次大会给 Hinton 和 Sejnowski 颁了奖，表彰他们在 1980 年代发明<span class=\"word-annot\"><span class=\"word-anchor\">玻尔兹曼机</span><span class=\"word-block\"><span class=\"english-word\">generative</span><span class=\"word-info\">[ˈwɜːd] n. 玻尔兹曼机（语境义）</span></span></span>，它后来成了深度学习革命的催化剂。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "颁奖人是微软语音识别专家李登（Li Deng），他自己也是玻尔兹曼机的受益者。",
+      "html": "<p>颁奖人是微软语音识别专家李登（Li Deng），他自己也是<span class=\"word-annot\"><span class=\"word-anchor\">玻尔兹曼机</span><span class=\"word-block\"><span class=\"english-word\">paradigm</span><span class=\"word-info\">[ˈwɜːd] n. 玻尔兹曼机（语境义）</span></span></span>的受益者。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "前半场，三个人聊的是科学往事、学术荣光和师生情谊。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">前半场</span><span class=\"word-block\"><span class=\"english-word\">tribunal</span><span class=\"word-info\">[ˈwɜːd] n. 前半场（语境义）</span></span></span>，三个人聊的是科学往事、学术荣光和师生情谊。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "Hinton 和 Sejnowski 回忆了 1980 年代在罗切斯特的一次会议上，他们如何把 Hopfield 网络和模拟退火结合在一起。",
+      "html": "<p>Hinton 和 Sejnowski 回忆了 1980 年代在<span class=\"word-annot\"><span class=\"word-anchor\">罗切斯</span><span class=\"word-block\"><span class=\"english-word\">pivot</span><span class=\"word-info\">[ˈwɜːd] n. 罗切斯（语境义）</span></span></span>特的一次会议上，他们如何把 Hopfield 网络和模拟退火结合在一起。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "Sejnowski 说，自己记得一清二楚：「我们坐在那里，突然意识到可以把 Hopfield 网络加热，让它变成概率性的。」",
+      "html": "<p>Sejnowski 说，<span class=\"word-annot\"><span class=\"word-anchor\">自己记</span><span class=\"word-block\"><span class=\"english-word\">benchmark</span><span class=\"word-info\">[ˈwɜːd] n. 自己记（语境义）</span></span></span>得一清二楚：「我们坐在那里，突然意识到可以把 Hopfield 网络加热，让它变成概率性的。」</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "随后，Hinton 补了一个细节：那个时候他刚在圣地亚哥跟 David Rumelhart 一起编程反向传播，用的是 logistic 单元。",
+      "html": "<p>随后，Hinton 补了一个细节：那个时候他刚在圣地亚哥跟 David Rumelhart 一起编程<span class=\"word-annot\"><span class=\"word-anchor\">反向传播</span><span class=\"word-block\"><span class=\"english-word\">dimension</span><span class=\"word-info\">[ˈwɜːd] n. 反向传播（语境义）</span></span></span>，用的是 logistic 单元。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "而给 Hopfield 网络加温度之后，出来的恰好也是 logistic 单元。两条完全不同的路，在同一个数学形式上汇合了。",
+      "html": "<p>而给 Hopfield <span class=\"word-annot\"><span class=\"word-anchor\">网络加</span><span class=\"word-block\"><span class=\"english-word\">spectrum</span><span class=\"word-info\">[ˈwɜːd] n. 网络加（语境义）</span></span></span>温度之后，出来的恰好也是 logistic 单元。<span class=\"word-annot\"><span class=\"word-anchor\">两条完</span><span class=\"word-block\"><span class=\"english-word\">jagged</span><span class=\"word-info\">[ˈwɜːd] n. 两条完（语境义）</span></span></span>全不同的路，在同一个数学形式上汇合了。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "在科学史上，这种时刻被称为「晶化瞬间」。",
+      "html": "<p>在<span class=\"word-annot\"><span class=\"word-anchor\">科学史</span><span class=\"word-block\"><span class=\"english-word\">taxation</span><span class=\"word-info\">[ˈwɜːd] n. 科学史（语境义）</span></span></span>上，这种时刻被称为「晶化瞬间」。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "值得玩味的是，Hinton 至今仍认为玻尔兹曼机比反向传播更优雅：「它是一个好得多的想法。只是不太好用。」",
+      "html": "<p>值得玩味的是，Hinton 至今仍认为<span class=\"word-annot\"><span class=\"word-anchor\">玻尔兹曼机</span><span class=\"word-block\"><span class=\"english-word\">reasoning</span><span class=\"word-info\">[ˈwɜːd] n. 玻尔兹曼机（语境义）</span></span></span>比反向传播更优雅：「它是一个好得多的想法。只是<span class=\"word-annot\"><span class=\"word-anchor\">不太好</span><span class=\"word-block\"><span class=\"english-word\">terminology</span><span class=\"word-info\">[ˈwɜːd] n. 不太好（语境义）</span></span></span>用。」</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "Sejnowski 笑着附和：「它在生成式 AI 还没流行之前几十年，就已经是生成式神经网络了。」",
+      "html": "<p>Sejnowski 笑着附和：「它在<span class=\"word-annot\"><span class=\"word-anchor\">生成式</span><span class=\"word-block\"><span class=\"english-word\">superintelligence</span><span class=\"word-info\">[ˈwɜːd] n. 生成式（语境义）</span></span></span> AI 还没流行之前几十年，就已经是生成式神经网络了。」</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "一个更优雅但不实用的想法，和一个没那么优雅但统治了整个时代的算法，在科学史上反复上演。",
+      "html": "<p>一个更优雅但不实用的想法，和一个没那么优雅但统治了整个时代的<span class=\"word-annot\"><span class=\"word-anchor\">算法</span><span class=\"word-block\"><span class=\"english-word\">oversight</span><span class=\"word-info\">[ˈwɜːd] n. 算法（语境义）</span></span></span>，在科学史上反复上演。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "「AGI，是一个愚蠢的术语」",
+      "html": "<p>「AGI，是一个<span class=\"word-annot\"><span class=\"word-anchor\">愚蠢</span><span class=\"word-block\"><span class=\"english-word\">coexistence</span><span class=\"word-info\">[ˈwɜːd] n. 愚蠢（语境义）</span></span></span>的术语」</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "但颁奖典礼后半场画风急转。当主持人把话题引向 AGI 和社会风险时，Hinton 彻底切换了模式。",
+      "html": "<p>但<span class=\"word-annot\"><span class=\"word-anchor\">颁奖典</span><span class=\"word-block\"><span class=\"english-word\">harmony</span><span class=\"word-info\">[ˈwɜːd] n. 颁奖典（语境义）</span></span></span>礼后半场画风急转。当主持人把话题引向 AGI 和社会<span class=\"word-annot\"><span class=\"word-anchor\">风险</span><span class=\"word-block\"><span class=\"english-word\">caregiver</span><span class=\"word-info\">[ˈwɜːd] n. 风险（语境义）</span></span></span>时，Hinton 彻底切换了模式。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "李登问了一个很多人都想知道的问题：你们怎么定义 AGI？什么样的基准测试能说明 AGI 已经到来？",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">李登问</span><span class=\"word-block\"><span class=\"english-word\">urgency</span><span class=\"word-info\">[ˈwɜːd] n. 李登问（语境义）</span></span></span>了一个很多人都想知道的问题：你们怎么定义 AGI？什么样的<span class=\"word-annot\"><span class=\"word-anchor\">基准测试</span><span class=\"word-block\"><span class=\"english-word\">scarcity</span><span class=\"word-info\">[ˈwɜːd] n. 基准测试（语境义）</span></span></span>能说明 AGI 已经到来？</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "Hinton 毫不留情地表示：「AGI 是一个愚蠢的术语。」",
+      "html": "<p>Hinton <span class=\"word-annot\"><span class=\"word-anchor\">毫不留</span><span class=\"word-block\"><span class=\"english-word\">imbalance</span><span class=\"word-info\">[ˈwɜːd] n. 毫不留（语境义）</span></span></span>情地表示：「AGI 是一个愚蠢的术语。」</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "理由很简单：它假设智能是一维的，像温度计一样，数值越高越聪明。",
+      "html": "<p>理由很简单：它<span class=\"word-annot\"><span class=\"word-anchor\">假设智</span><span class=\"word-block\"><span class=\"english-word\">acceleration</span><span class=\"word-info\">[ˈwɜːd] n. 假设智（语境义）</span></span></span>能是一维的，像温度计一样，数值越高越聪明。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "「但智能显然是高度多维的。所以不存在一个点，AI 在那个点上等于人类。它相对于人类的能力是锯齿状的——在某些方面已经远远超过我们，在另一些方面还不如我们。」",
+      "html": "<p>「但<span class=\"word-annot\"><span class=\"word-anchor\">智能显</span><span class=\"word-block\"><span class=\"english-word\">existential</span><span class=\"word-info\">[ˈwɜːd] n. 智能显（语境义）</span></span></span>然是高度多维的。所以<span class=\"word-annot\"><span class=\"word-anchor\">不存</span><span class=\"word-block\"><span class=\"english-word\">misuse</span><span class=\"word-info\">[ˈwɜːd] n. 不存（语境义）</span></span></span>在一个点，AI 在那个点上等于人类。它相对于人类的能力是<span class=\"word-annot\"><span class=\"word-anchor\">锯齿状</span><span class=\"word-block\"><span class=\"english-word\">deepfake</span><span class=\"word-info\">[ˈwɜːd] n. 锯齿状（语境义）</span></span></span>的——在某些方面已经远远超过我们，在另一些方面还不如我们。」</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "他举例说：你现在去问任何一个大模型，斯洛文尼亚的报税截止日期是哪天，或者怎么给门廊做防潮处理，它都答得头头是道。在通识知识这个维度上，AI 早就把人类甩开很远；但在某些推理任务上，它还没完全追上。",
+      "html": "<p>他举例说：你现在去问任何一个大<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">pandemic</span><span class=\"word-info\">[ˈwɜːd] n. 模型（语境义）</span></span></span>，斯洛文尼亚的报税截止日期是哪天，或者怎么给门廊做防潮处理，它都答得头头是道。在<span class=\"word-annot\"><span class=\"word-anchor\">通识知</span><span class=\"word-block\"><span class=\"english-word\">cyberattack</span><span class=\"word-info\">[ˈwɜːd] n. 通识知（语境义）</span></span></span>识这个维度上，AI 早就把人类甩开很远；但在某些<span class=\"word-annot\"><span class=\"word-anchor\">推理</span><span class=\"word-block\"><span class=\"english-word\">sideeffect</span><span class=\"word-info\">[ˈwɜːd] n. 推理（语境义）</span></span></span>任务上，它还没完全追上。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "「所以，AGI 这个词没有意义。」",
+      "html": "<p>「所以，AGI 这个<span class=\"word-annot\"><span class=\"word-anchor\">词没有</span><span class=\"word-block\"><span class=\"english-word\">polarization</span><span class=\"word-info\">[ˈwɜːd] n. 词没有（语境义）</span></span></span>意义。」</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "那什么词有意义？",
+      "html": "<p>那<span class=\"word-annot\"><span class=\"word-anchor\">什么词</span><span class=\"word-block\"><span class=\"english-word\">fracture</span><span class=\"word-info\">[ˈwɜːd] n. 什么词（语境义）</span></span></span>有意义？</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "在 Hinton 看来，真正有意义的是「超级智能（superintelligence）」。它的定义很清楚：在几乎所有人类能做的智力任务上都比我们强。我们相信它正在到来。",
+      "html": "<p>在 Hinton 看来，真正有意义的是「<span class=\"word-annot\"><span class=\"word-anchor\">超级智能</span><span class=\"word-block\"><span class=\"english-word\">cooperation</span><span class=\"word-info\">[ˈwɜːd] n. 超级智能（语境义）</span></span></span>（superintelligence）」。它的定义很清楚：在<span class=\"word-annot\"><span class=\"word-anchor\">几乎所</span><span class=\"word-block\"><span class=\"english-word\">asbestos</span><span class=\"word-info\">[ˈwɜːd] n. 几乎所（语境义）</span></span></span>有人类能做的智力任务上都比我们强。我们<span class=\"word-annot\"><span class=\"word-anchor\">相信</span><span class=\"word-block\"><span class=\"english-word\">tobacco</span><span class=\"word-info\">[ˈwɜːd] n. 相信（语境义）</span></span></span>它正在到来。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "接下来，就是整场对话最核心的段落。",
+      "html": "<p>接下来，就是整场对<span class=\"word-annot\"><span class=\"word-anchor\">话最核</span><span class=\"word-block\"><span class=\"english-word\">loophole</span><span class=\"word-info\">[ˈwɜːd] n. 话最核（语境义）</span></span></span>心的段落。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "在场官员问：当超级智能到来时，人类还能保持对自己创造系统的有意义控制吗？",
+      "html": "<p>在场官员问：当<span class=\"word-annot\"><span class=\"word-anchor\">超级智能</span><span class=\"word-block\"><span class=\"english-word\">export</span><span class=\"word-info\">[ˈwɜːd] n. 超级智能（语境义）</span></span></span>到来时，人类还能保持对自己创造系统的有意义控制吗？</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "Hinton 回答：「我们不知道能不能和超级智能 AI 共存。」",
+      "html": "<p>Hinton 回答：「我们不知道能不能和<span class=\"word-annot\"><span class=\"word-anchor\">超级智能</span><span class=\"word-block\"><span class=\"english-word\">consequence</span><span class=\"word-info\">[ˈwɜːd] n. 超级智能（语境义）</span></span></span> AI 共存。」</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "但我们正在建造它，所以现在还有很多控制权。我们应该小心地建造，让我们还能继续存在，和它和谐共处。",
+      "html": "<p>但我们正在建造它，所以现在还有很<span class=\"word-annot\"><span class=\"word-anchor\">多控制</span><span class=\"word-block\"><span class=\"english-word\">replay</span><span class=\"word-info\">[ˈwɜːd] n. 多控制（语境义）</span></span></span>权。我们<span class=\"word-annot\"><span class=\"word-anchor\">应该小</span><span class=\"word-block\"><span class=\"english-word\">deadend</span><span class=\"word-info\">[ˈwɜːd] n. 应该小（语境义）</span></span></span>心地建造，让我们还能继续存在，和它和谐共处。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "在已知模型里，远比自己聪明的东西愿意给远不如自己聪明的东西自由，只有一个例子：母亲和婴儿。母亲真的关心婴儿。",
+      "html": "<p>在已知<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">philosophy</span><span class=\"word-info\">[ˈwɜːd] n. 模型（语境义）</span></span></span>里，远比自己聪明的东西愿意给远不如自己聪明的东西自由，只有一个例子：母亲和婴儿。<span class=\"word-annot\"><span class=\"word-anchor\">母亲真</span><span class=\"word-block\"><span class=\"english-word\">prediction</span><span class=\"word-info\">[ˈwɜːd] n. 母亲真（语境义）</span></span></span>的关心婴儿。</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "但现在的问题是，我们正处在历史上一个紧迫节点，必须尝试解决这个问题，而投入资源少得可怜。",
+      "html": "<p>但现在的问题是，我们正处在历史上一个<span class=\"word-annot\"><span class=\"word-anchor\">紧迫节</span><span class=\"word-block\"><span class=\"english-word\">modality</span><span class=\"word-info\">[ˈwɜːd] n. 紧迫节（语境义）</span></span></span>点，必须尝试解决这个问题，而投入资源少得可怜。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "也许只有 1% 的工作在研究这件事。相比之下，99% 的工作都在让 AI 变得更聪明。这简直是疯了。",
+      "html": "<p>也<span class=\"word-annot\"><span class=\"word-anchor\">许只有</span><span class=\"word-block\"><span class=\"english-word\">sensor</span><span class=\"word-info\">[ˈwɜːd] n. 许只有（语境义）</span></span></span> 1% 的工作在研究这件事。<span class=\"word-annot\"><span class=\"word-anchor\">相比之</span><span class=\"word-block\"><span class=\"english-word\">embodiment</span><span class=\"word-info\">[ˈwɜːd] n. 相比之（语境义）</span></span></span>下，99% 的工作都在让 AI 变得更聪明。这<span class=\"word-annot\"><span class=\"word-anchor\">简直</span><span class=\"word-block\"><span class=\"english-word\">efficiency</span><span class=\"word-info\">[ˈwɜːd] n. 简直（语境义）</span></span></span>是疯了。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "烟草和石棉",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">烟草</span><span class=\"word-block\"><span class=\"english-word\">multimodal</span><span class=\"word-info\">[ˈwɜːd] n. 烟草（语境义）</span></span></span>和石棉</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "Hinton 把 AI 风险分成三类。",
+      "html": "<p>Hinton 把 AI <span class=\"word-annot\"><span class=\"word-anchor\">风险</span><span class=\"word-block\"><span class=\"english-word\">allocation</span><span class=\"word-info\">[ˈwɜːd] n. 风险（语境义）</span></span></span>分成三类。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "第一类：有人故意用 AI 干坏事。",
+      "html": "<p>第一类：<span class=\"word-annot\"><span class=\"word-anchor\">有人故</span><span class=\"word-block\"><span class=\"english-word\">concentration</span><span class=\"word-info\">[ˈwɜːd] n. 有人故（语境义）</span></span></span>意用 AI 干坏事。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "比如制造深度伪造视频来腐蚀民主，制造致命病毒引发大流行，发动网络攻击。这是最直接的威胁。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">比如制</span><span class=\"word-block\"><span class=\"english-word\">disparity</span><span class=\"word-info\">[ˈwɜːd] n. 比如制（语境义）</span></span></span>造深度伪造视频来腐蚀民主，制造致命病毒引发大流行，发动网络攻击。这是<span class=\"word-annot\"><span class=\"word-anchor\">最直接</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈwɜːd] n. 最直接（语境义）</span></span></span>的威胁。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "第二类：有人试图用 AI 赚钱时产生的副作用。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">第二类</span><span class=\"word-block\"><span class=\"english-word\">governance</span><span class=\"word-info\">[ˈwɜːd] n. 第二类（语境义）</span></span></span>：有人试图用 AI 赚钱时产生的副作用。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "比如用 AI 把女性照片生成非法照片。比如推荐算法不断推送比你刚看过的更极端的视频，最终制造出两个完全没有共同语言的群体。",
+      "html": "<p>比如用 AI 把<span class=\"word-annot\"><span class=\"word-anchor\">女性照</span><span class=\"word-block\"><span class=\"english-word\">hemisphere</span><span class=\"word-info\">[ˈwɜːd] n. 女性照（语境义）</span></span></span>片生成非法照片。比如推荐<span class=\"word-annot\"><span class=\"word-anchor\">算法</span><span class=\"word-block\"><span class=\"english-word\">divide</span><span class=\"word-info\">[ˈwɜːd] n. 算法（语境义）</span></span></span>不断推送比你刚看过的更极端的视频，最终制造出两个完全没有共同语言的群体。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "「他们只是在赚钱，但副作用就是撕裂社会。」",
+      "html": "<p>「他们只是在赚钱，但副作用就是撕裂<span class=\"word-annot\"><span class=\"word-anchor\">社会</span><span class=\"word-block\"><span class=\"english-word\">trajectory</span><span class=\"word-info\">[ˈwɜːd] n. 社会（语境义）</span></span></span>。」</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "第三类：AI 自主接管的存在性威胁。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">第三类</span><span class=\"word-block\"><span class=\"english-word\">whistleblower</span><span class=\"word-info\">[ˈwɜːd] n. 第三类（语境义）</span></span></span>：AI 自主接管的存在性威胁。</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "Hinton 认为，第三类威胁或许会得到国际合作，因为所有人都害怕。",
+      "html": "<p>Hinton 认为，第三类威胁或许会得到国际<span class=\"word-annot\"><span class=\"word-anchor\">合作</span><span class=\"word-block\"><span class=\"english-word\">regret</span><span class=\"word-info\">[ˈwɜːd] n. 合作（语境义）</span></span></span>，因为所有人都害怕。</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "但对于前两类，尤其第一类，则很难得到真正合作。各国会嘴上说合作，但实际上彼此攻击，这让问题更难处理。",
+      "html": "<p>但对于前两类，尤其第一类，则很难得到真正<span class=\"word-annot\"><span class=\"word-anchor\">合作</span><span class=\"word-block\"><span class=\"english-word\">advocacy</span><span class=\"word-info\">[ˈwɜːd] n. 合作（语境义）</span></span></span>。各国会嘴上说<span class=\"word-annot\"><span class=\"word-anchor\">合作</span><span class=\"word-block\"><span class=\"english-word\">bayesian</span><span class=\"word-info\">[ˈwɜːd] n. 合作（语境义）</span></span></span>，但实际上彼此攻击，这让问题更难处理。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "Hinton 讲了一个类比：看看烟草和石棉的历史。",
+      "html": "<p>Hinton 讲了一个类比：<span class=\"word-annot\"><span class=\"word-anchor\">看看烟</span><span class=\"word-block\"><span class=\"english-word\">synthesis</span><span class=\"word-info\">[ˈwɜːd] n. 看看烟（语境义）</span></span></span>草和石棉的历史。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "「生产烟草和石棉的发达国家，比如加拿大，在本国引入保护公民的法规。但它们继续把这些东西卖给第三世界国家。",
+      "html": "<p>「生产烟草和石棉的发达国家，比如加拿大，在本国引入保护公民的<span class=\"word-annot\"><span class=\"word-anchor\">法规</span><span class=\"word-block\"><span class=\"english-word\">extinction</span><span class=\"word-info\">[ˈwɜːd] n. 法规（语境义）</span></span></span>。但它们继续把这些东西卖给第三世界<span class=\"word-annot\"><span class=\"word-anchor\">国家</span><span class=\"word-block\"><span class=\"english-word\">cockpit</span><span class=\"word-info\">[ˈwɜːd] n. 国家（语境义）</span></span></span>。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "所以我们真的要担心：即使开发 AI 的国家制定了正确方向的法规，这些国家仍可能把 AI 卖到其他国家，在那里产生恶劣后果——即使这些事情在它们本国不被允许。」",
+      "html": "<p>所以我们真的要担心：即使开发 AI 的国家制定了正确方向的<span class=\"word-annot\"><span class=\"word-anchor\">法规</span><span class=\"word-block\"><span class=\"english-word\">window</span><span class=\"word-info\">[ˈwɜːd] n. 法规（语境义）</span></span></span>，这些国家仍可能把 AI 卖到其他国家，在那里产生恶劣后果——即使这些事情在它们本国不被允许。」</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "太阳底下无新鲜事，烟草和石棉的剧本很可能再次上演。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">太阳底</span><span class=\"word-block\"><span class=\"english-word\">momentum</span><span class=\"word-info\">[ˈwɜːd] n. 太阳底（语境义）</span></span></span>下无新鲜事，烟草和石棉的剧本很可能再次上演。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "关于 LeCun，你怎么看？LLM 是不是死胡同？",
+      "html": "<p>关于 LeCun，你<span class=\"word-annot\"><span class=\"word-anchor\">怎么看</span><span class=\"word-block\"><span class=\"english-word\">mandate</span><span class=\"word-info\">[ˈwɜːd] n. 怎么看（语境义）</span></span></span>？LLM 是不是<span class=\"word-annot\"><span class=\"word-anchor\">死胡同</span><span class=\"word-block\"><span class=\"english-word\">consensus</span><span class=\"word-info\">[ˈwɜːd] n. 死胡同（语境义）</span></span></span>？</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "接下来，李登还抛出一个尖锐问题：LeCun 说大语言模型是通往超级智能的死胡同，你们怎么看？",
+      "html": "<p>接下来，李登还抛出一个尖锐问题：LeCun 说大语言模型是通往<span class=\"word-annot\"><span class=\"word-anchor\">超级智能</span><span class=\"word-block\"><span class=\"english-word\">vigilance</span><span class=\"word-info\">[ˈwɜːd] n. 超级智能（语境义）</span></span></span>的死胡同，你们怎么看？</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "Hinton 把这个问题拆成两半。",
+      "html": "<p>Hinton 把这个<span class=\"word-annot\"><span class=\"word-anchor\">问题拆</span><span class=\"word-block\"><span class=\"english-word\">foresight</span><span class=\"word-info\">[ˈwɜːd] n. 问题拆（语境义）</span></span></span>成两半。</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "「首先，是一个哲学问题：一个只预测下一个词的系统，能不能理解空间？答案是能。这非常令人惊讶。」",
+      "html": "<p>「首先，是一个<span class=\"word-annot\"><span class=\"word-anchor\">哲学问</span><span class=\"word-block\"><span class=\"english-word\">resilience</span><span class=\"word-info\">[ˈwɜːd] n. 哲学问（语境义）</span></span></span>题：一个只预测下一个词的系统，能不能理解空间？<span class=\"word-annot\"><span class=\"word-anchor\">答案</span><span class=\"word-block\"><span class=\"english-word\">protocol</span><span class=\"word-info\">[ˈwɜːd] n. 答案（语境义）</span></span></span>是能。这<span class=\"word-annot\"><span class=\"word-anchor\">非常令</span><span class=\"word-block\"><span class=\"english-word\">framework</span><span class=\"word-info\">[ˈwɜːd] n. 非常令（语境义）</span></span></span>人惊讶。」</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "「然后，有一个实际问题：这是理解空间的高效方式吗？答案是不能。如果你有摄像头，能操控物体，你理解空间和基本物理常识的效率会高得多。」",
+      "html": "<p>「然后，有一个<span class=\"word-annot\"><span class=\"word-anchor\">实际问</span><span class=\"word-block\"><span class=\"english-word\">scenario</span><span class=\"word-info\">[ˈwɜːd] n. 实际问（语境义）</span></span></span>题：这是理解空间的高效方式吗？<span class=\"word-annot\"><span class=\"word-anchor\">答案</span><span class=\"word-block\"><span class=\"english-word\">threshold</span><span class=\"word-info\">[ˈwɜːd] n. 答案（语境义）</span></span></span>是不能。如果你<span class=\"word-annot\"><span class=\"word-anchor\">有摄像</span><span class=\"word-block\"><span class=\"english-word\">leverage</span><span class=\"word-info\">[ˈwɜːd] n. 有摄像（语境义）</span></span></span>头，能操控物体，你理解空间和基本物理常识的效率会高得多。」</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "「所以在实际层面，一个多模态 AI——有摄像头、能操控物体、还能说话——会比纯语言模型用更少数据、更快地理解很多东西。但在哲学层面，纯语言模型给它足够多的语言数据，可能也够了。」",
+      "html": "<p>「所以在实际层面，一个<span class=\"word-annot\"><span class=\"word-anchor\">多模态</span><span class=\"word-block\"><span class=\"english-word\">dynamics</span><span class=\"word-info\">[ˈwɜːd] n. 多模态（语境义）</span></span></span> AI——有摄像头、能操控物体、还能说话——会比纯语言模型用更少数据、更快地理解很多东西。但在哲学层面，纯语言<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">matrix</span><span class=\"word-info\">[ˈwɜːd] n. 模型（语境义）</span></span></span>给它足够多的语言数据，可能也够了。」</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "4.8 万亿美元的蛋糕，谁在切？",
+      "html": "<p>4.8 <span class=\"word-annot\"><span class=\"word-anchor\">万亿美</span><span class=\"word-block\"><span class=\"english-word\">vector</span><span class=\"word-info\">[ˈwɜːd] n. 万亿美（语境义）</span></span></span>元的蛋糕，谁在切？</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "这次大会暴露的另一个裂缝，是「分配」危机。",
+      "html": "<p>这<span class=\"word-annot\"><span class=\"word-anchor\">次大会</span><span class=\"word-block\"><span class=\"english-word\">gradient</span><span class=\"word-info\">[ˈwɜːd] n. 次大会（语境义）</span></span></span>暴露的另一个裂缝，是「分配」危机。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "UN 贸发会议代理秘书长 Pedro Manuel Moreno 在同期科技发展委员会上直接点破：AI 的建造能力和塑造权，集中在极少数经济体和企业手里。",
+      "html": "<p>UN 贸发会议代理秘书长 Pedro Manuel Moreno 在同期科技发展委员会上直接点破：AI 的建造能力和塑造权，集中在极少数经济体和<span class=\"word-annot\"><span class=\"word-anchor\">企业</span><span class=\"word-block\"><span class=\"english-word\">entropy</span><span class=\"word-info\">[ˈwɜːd] n. 企业（语境义）</span></span></span>手里。</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "国际电联秘书长 Doreen Bogdan-Martin 给出一个刺眼对比：发达国家对 AI 的采用速度，几乎是发展中国家的两倍。",
+      "html": "<p>国际电联秘书长 Doreen Bogdan-Martin 给出一个刺眼对比：发达<span class=\"word-annot\"><span class=\"word-anchor\">国家</span><span class=\"word-block\"><span class=\"english-word\">inference</span><span class=\"word-info\">[ˈwɜːd] n. 国家（语境义）</span></span></span>对 AI 的采用速度，几乎是发展中国家的两倍。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "「如果不解决这个问题，这将是第二次大分流。」",
+      "html": "<p>「<span class=\"word-annot\"><span class=\"word-anchor\">如果不</span><span class=\"word-block\"><span class=\"english-word\">optimization</span><span class=\"word-info\">[ˈwɜːd] n. 如果不（语境义）</span></span></span>解决这个问题，这将是第二次大分流。」</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "造 AI 的国家和只能消费 AI 的国家之间，鸿沟正以肉眼可见的速度撕开。",
+      "html": "<p>造 AI 的<span class=\"word-annot\"><span class=\"word-anchor\">国家</span><span class=\"word-block\"><span class=\"english-word\">alignment</span><span class=\"word-info\">[ˈwɜːd] n. 国家（语境义）</span></span></span>和只能消费 AI 的国家之间，鸿沟正以肉眼可见的速度撕开。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "4.8 万亿美元的市场里，基础设施、投资、人才全部集中在北半球那几个点上。剩下的世界，甚至没有资格参与规则制定。",
+      "html": "<p>4.8 万亿美元的<span class=\"word-annot\"><span class=\"word-anchor\">市场</span><span class=\"word-block\"><span class=\"english-word\">robustness</span><span class=\"word-info\">[ˈwɜːd] n. 市场（语境义）</span></span></span>里，基础设施、投资、人才全部集中在北半球那几个点上。剩下的世界，<span class=\"word-annot\"><span class=\"word-anchor\">甚至没</span><span class=\"word-block\"><span class=\"english-word\">transparency</span><span class=\"word-info\">[ˈwɜːd] n. 甚至没（语境义）</span></span></span>有资格参与规则制定。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "显然，这个后果很可怕。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">显然</span><span class=\"word-block\"><span class=\"english-word\">accountability</span><span class=\"word-info\">[ˈwɜːd] n. 显然（语境义）</span></span></span>，这个后果很可怕。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "方向盘在谁手里？",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">方向盘</span><span class=\"word-block\"><span class=\"english-word\">mitigation</span><span class=\"word-info\">[ˈwɜːd] n. 方向盘（语境义）</span></span></span>在谁手里？</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "把时间线拉长就会发现，Hinton 的这场对话，其实是他过去三年吹哨行动的一次集大成。",
+      "html": "<p>把<span class=\"word-annot\"><span class=\"word-anchor\">时间线</span><span class=\"word-block\"><span class=\"english-word\">adaptation</span><span class=\"word-info\">[ˈwɜːd] n. 时间线（语境义）</span></span></span>拉长就会发现，Hinton 的这场对话，其实是他过去三年吹哨行动的一次集大成。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "2023 年从 Google 离职时，他说的是「我为自己的毕生工作感到后悔」。2024 年拿诺贝尔奖时，他在领奖台上呼吁重视 AI 安全。2025 年他在多个场合反复强调监管紧迫性。",
+      "html": "<p>2023 年从 Google <span class=\"word-annot\"><span class=\"word-anchor\">离职时</span><span class=\"word-block\"><span class=\"english-word\">escalation</span><span class=\"word-info\">[ˈwɜːd] n. 离职时（语境义）</span></span></span>，他说的是「我为自己的毕生工作感到后悔」。2024 年拿诺贝尔奖时，他在领奖台上呼吁重视 AI <span class=\"word-annot\"><span class=\"word-anchor\">安全</span><span class=\"word-block\"><span class=\"english-word\">deterrence</span><span class=\"word-info\">[ˈwɜːd] n. 安全（语境义）</span></span></span>。2025 年他在多个场合反复强调<span class=\"word-annot\"><span class=\"word-anchor\">监管</span><span class=\"word-block\"><span class=\"english-word\">compliance</span><span class=\"word-info\">[ˈwɜːd] n. 监管（语境义）</span></span></span>紧迫性。</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "到了 2026 年，他的措辞变得更具体了。",
+      "html": "<p>到了 2026 年，他的<span class=\"word-annot\"><span class=\"word-anchor\">措辞变</span><span class=\"word-block\"><span class=\"english-word\">doctrine</span><span class=\"word-info\">[ˈwɜːd] n. 措辞变（语境义）</span></span></span>得更具体了。</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "而他在技术讨论中展现的另一面同样值得注意。",
+      "html": "<p>而他在<span class=\"word-annot\"><span class=\"word-anchor\">技术讨</span><span class=\"word-block\"><span class=\"english-word\">charter</span><span class=\"word-info\">[ˈwɜːd] n. 技术讨（语境义）</span></span></span>论中展现的另一面同样值得注意。</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "这个 78 岁的老人，在聊完 AI 末日风险之后，能立刻切回去讲受限玻尔兹曼机为什么是正确的贝叶斯推理、为什么当前图像生成模型只用了醒-睡算法的一半、怎样把生成模型和识别模型结合起来才是下一步正确方向。",
+      "html": "<p>这个 78 岁的老人，在聊完 AI 末日风险之后，能立刻切回去讲受限<span class=\"word-annot\"><span class=\"word-anchor\">玻尔兹曼机</span><span class=\"word-block\"><span class=\"english-word\">prerogative</span><span class=\"word-info\">[ˈwɜːd] n. 玻尔兹曼机（语境义）</span></span></span>为什么是正确的贝叶斯推理、为什么当前图像生成模型只用了醒-睡算法的一半、怎样把生成模型和识别模型结合起来才是下一步正确方向。</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "他同时住在两个世界里——一个思考 AI 怎样变得更强大，一个思考人类怎样不被更强大的 AI 毁灭。这两件事在他的大脑里并行运转，互不矛盾。",
+      "html": "<p>他<span class=\"word-annot\"><span class=\"word-anchor\">同时住</span><span class=\"word-block\"><span class=\"english-word\">sovereignty</span><span class=\"word-info\">[ˈwɜːd] n. 同时住（语境义）</span></span></span>在两个世界里——一个思考 AI 怎样变得更强大，一个思考人类怎样不被更强大的 AI 毁灭。这<span class=\"word-annot\"><span class=\"word-anchor\">两件事</span><span class=\"word-block\"><span class=\"english-word\">reciprocity</span><span class=\"word-info\">[ˈwɜːd] n. 两件事（语境义）</span></span></span>在他的大脑里并行运转，互不矛盾。</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "这大概就是为什么他的警告格外有分量。这是亲手造出这个东西的人在说：我知道它能做什么，所以我知道该怕什么。",
+      "html": "<p>这大概就是<span class=\"word-annot\"><span class=\"word-anchor\">为什么</span><span class=\"word-block\"><span class=\"english-word\">solidarity</span><span class=\"word-info\">[ˈwɜːd] n. 为什么（语境义）</span></span></span>他的警告格外有分量。这是<span class=\"word-annot\"><span class=\"word-anchor\">亲手造</span><span class=\"word-block\"><span class=\"english-word\">diligence</span><span class=\"word-info\">[ˈwɜːd] n. 亲手造（语境义）</span></span></span>出这个东西的人在说：我知道它能做什么，所以我知道该怕什么。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "而 Hinton 提到的那辆车，现在油门已经踩到底，4.8 万亿美元的引擎在轰鸣。方向盘在不在，取决于接下来几年里坐在驾驶座上的人——不管是政府、企业还是科学家——愿不愿意伸手。",
+      "html": "<p>而 Hinton 提到的那辆车，现在<span class=\"word-annot\"><span class=\"word-anchor\">油门已</span><span class=\"word-block\"><span class=\"english-word\">prudence</span><span class=\"word-info\">[ˈwɜːd] n. 油门已（语境义）</span></span></span>经踩到底，4.8 万亿美元的引擎在轰鸣。<span class=\"word-annot\"><span class=\"word-anchor\">方向盘</span><span class=\"word-block\"><span class=\"english-word\">stewardship</span><span class=\"word-info\">[ˈwɜːd] n. 方向盘（语境义）</span></span></span>在不在，取决于接下来几年里坐在驾驶座上的人——不管是政府、企业还是科学家——愿不愿意伸手。</p>"
+    },
+    {
+      "index": 85,
+      "source_text": "如今，我们正站在一个极其特殊的时间节点上。在 AI 变得比我们聪明之前，这是人类唯一还能决定游戏规则的窗口。",
+      "html": "<p>如今，我们正站在一个极其特殊的<span class=\"word-annot\"><span class=\"word-anchor\">时间节</span><span class=\"word-block\"><span class=\"english-word\">inflection</span><span class=\"word-info\">[ˈwɜːd] n. 时间节（语境义）</span></span></span>点上。在 AI <span class=\"word-annot\"><span class=\"word-anchor\">变得比</span><span class=\"word-block\"><span class=\"english-word\">horizon</span><span class=\"word-info\">[ˈwɜːd] n. 变得比（语境义）</span></span></span>我们聪明之前，这是人类唯一还能决定游戏规则的窗口。</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "Hinton 三年前从谷歌辞职时说的那番话，当时很多人觉得是杞人忧天。",
+      "html": "<p>Hinton <span class=\"word-annot\"><span class=\"word-anchor\">三年前</span><span class=\"word-block\"><span class=\"english-word\">premise</span><span class=\"word-info\">[ˈwɜːd] n. 三年前（语境义）</span></span></span>从谷歌辞职时说的那番话，当时很多人觉得是杞人忧天。</p>"
+    },
+    {
+      "index": 87,
+      "source_text": "三年过去了，他还在说同样的话。不过现在已经有很多人真实地理解了他的担忧。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">三年过</span><span class=\"word-block\"><span class=\"english-word\">constraint</span><span class=\"word-info\">[ˈwɜːd] n. 三年过（语境义）</span></span></span>去了，他还在说同样的话。<span class=\"word-annot\"><span class=\"word-anchor\">不过现</span><span class=\"word-block\"><span class=\"english-word\">signal</span><span class=\"word-info\">[ˈwɜːd] n. 不过现（语境义）</span></span></span>在已经有很多人真实地理解了他的担忧。</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "只是，那辆没有方向盘的车，还在加速。",
+      "html": "<p>只是，那辆没有<span class=\"word-annot\"><span class=\"word-anchor\">方向盘</span><span class=\"word-block\"><span class=\"english-word\">indicator</span><span class=\"word-info\">[ˈwɜːd] n. 方向盘（语境义）</span></span></span>的车，还在加速。</p>"
+    }
+  ]
+}
