@@ -78,7 +78,7 @@ python3 workflow/mingox.py --help
 - **`out_html` 日期必须与 `meta.date` 一致**：`init` 时的 `--out-html` 日期须为**当天**，与 `meta.json` 中自动填入的 `date` 对齐；事后发现不一致须在 build 前修正。
 - **正文尾部非正文必须清除**：`acquire` 后须检查 `01-source.md` 末尾是否残留编辑署名、图源、运营文案等非正文段落，清除后再进入标注。
 - **`title_emoji` 须按题材选择**：`📈` 用于新闻/财经；`💡` 用于思想/观点/人文；`📜` 用于文化/诗词。不要一律用默认值。
-- **对话场景下禁止偷懒用词表兜底**：在 Cursor 内助手等对话环境下，**必须**按 `system_prompt` 逐句生成标注（目标 ≥80% 非 skip），而非直接跑 `bundle_lexicon_annotate.py`。词表兜底仅适用于无对话环境。
+- **对话场景下禁止偷懒用词表兜底**：在任何可对话场景中，**必须**按 `system_prompt` 逐句生成标注（目标 ≥80% 非 skip），而非直接跑 `bundle_lexicon_annotate.py`。词表兜底仅适用于无对话环境。
 - **外源稿须开启版权声明**：微信公众号转载稿的 `include_source_footer` 应为 `true`，`footer_template` 应选 `derivative`，并填写 `source_author_display`。
 
 ---
