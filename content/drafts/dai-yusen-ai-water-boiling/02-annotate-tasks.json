@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "dai-yusen-ai-water-boiling",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "\"这三个月，就像是水从80度烧到了99度。80度的水也很烫，但99度的水，马上就要变成蒸汽了。\"",
+      "html": "<p>&quot;这三个月，就像是水从80度<span class=\"word-annot\"><span class=\"word-anchor\">烧</span><span class=\"word-block\"><span class=\"english-word\">boil</span><span class=\"word-info\">[bɔɪl] v. 煮沸；烧开</span></span></span>到了99度。80度的水也很烫，但99度的水，马上就要变成<span class=\"word-annot\"><span class=\"word-anchor\">蒸汽</span><span class=\"word-block\"><span class=\"english-word\">steam</span><span class=\"word-info\">[stiːm] n. 蒸汽</span></span></span>了。&quot;</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "移动互联网时代，最成功的商业模式是\"Attention is all you need\"——用户数 × 时长 × 变现效率 = 收入。这个公式让微信、抖音、美团这些超级应用成为了今天的样子：把用户尽可能地圈在自己的生态里，打造一个\"有围墙的花园\"。",
+      "html": "<p>移动互联网时代，最成功的商业模式是&quot;Attention is all you need&quot;——用户数 × 时长 × <span class=\"word-annot\"><span class=\"word-anchor\">变现</span><span class=\"word-block\"><span class=\"english-word\">monetize</span><span class=\"word-info\">[ˈmʌnɪtaɪz] v. 使货币化；变现</span></span></span>效率 = 收入。这个公式让微信、抖音、美团这些超级应用成为了今天的样子：把用户尽可能地圈在自己的<span class=\"word-annot\"><span class=\"word-anchor\">生态</span><span class=\"word-block\"><span class=\"english-word\">ecosystem</span><span class=\"word-info\">[ˈiːkəʊsɪstəm] n. 生态；生态系统</span></span></span>里，打造一个&quot;有围墙的花园&quot;。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "但Agent时代来了之后，这个逻辑开始出问题。",
+      "html": "<p>但Agent时代来了之后，这个<span class=\"word-annot\"><span class=\"word-anchor\">逻辑</span><span class=\"word-block\"><span class=\"english-word\">logic</span><span class=\"word-info\">[ˈlɒdʒɪk] n. 逻辑</span></span></span>开始出问题。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "当AI替你干活的时候，它需要的不是一个封闭的APP，而是开放的API、可以被调用的数据、能跨应用操作的权限。那些精心构筑的封闭生态，对人类用户来说是护城河，对AI来说是障碍。",
+      "html": "<p>当AI替你干活的时候，它需要的不是一个<span class=\"word-annot\"><span class=\"word-anchor\">封闭</span><span class=\"word-block\"><span class=\"english-word\">closed</span><span class=\"word-info\">[kləʊzd] adj. 封闭的</span></span></span>的APP，而是开放的API、可以被调用的数据、能跨应用操作的权限。那些精心构筑的封闭生态，对人类用户来说是<span class=\"word-annot\"><span class=\"word-anchor\">护城河</span><span class=\"word-block\"><span class=\"english-word\">moat</span><span class=\"word-info\">[məʊt] n. 护城河；竞争壁垒</span></span></span>，对AI来说是障碍。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "雨森自己就是一个例子。他把工作群从微信搬到了飞书，不是因为飞书更好用，而是因为飞书有开放API——他可以写一个机器人，每天早上自动把群里的Newsletter读一遍，提炼出他关心的内容发给他。这件事在微信里做不到。",
+      "html": "<p>雨森自己就是一个<span class=\"word-annot\"><span class=\"word-anchor\">例子</span><span class=\"word-block\"><span class=\"english-word\">example</span><span class=\"word-info\">[ɪɡˈzɑːmpl] n. 例子</span></span></span>。他把工作群从微信搬到了飞书，不是因为飞书更好用，而是因为飞书有开放API——他可以写一个<span class=\"word-annot\"><span class=\"word-anchor\">机器人</span><span class=\"word-block\"><span class=\"english-word\">robot</span><span class=\"word-info\">[ˈrəʊbɒt] n. 机器人</span></span></span>，每天早上自动把群里的Newsletter读一遍，提炼出他关心的内容发给他。这件事在微信里做不到。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "这不是一个孤立的选择，而是一个信号：当用户开始让AI替自己处理信息时，那些对AI不友好的系统，会慢慢失去最有价值的那批用户。",
+      "html": "<p>这不是一个孤立的选择，而是一个<span class=\"word-annot\"><span class=\"word-anchor\">信号</span><span class=\"word-block\"><span class=\"english-word\">signal</span><span class=\"word-info\">[ˈsɪɡnəl] n. 信号</span></span></span>：当用户开始让AI替自己处理信息时，那些对AI不友好的系统，会慢慢失去最有价值的那批用户。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "\"当Agent进不去这些建了高墙的花园时，它可能干脆就绕道走了，让这些超级APP变成Agent时代的孤岛。\"",
+      "html": "<p>&quot;当Agent进不去这些建了高墙的花园时，它可能干脆就绕道走了，让这些超级APP变成Agent时代的<span class=\"word-annot\"><span class=\"word-anchor\">孤岛</span><span class=\"word-block\"><span class=\"english-word\">island</span><span class=\"word-info\">[ˈaɪlənd] n. 岛屿；孤岛</span></span></span>。&quot;</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "雨森引用了《三体》里的\"宇宙安全声明\"：人类想发一个声明，让外星人看一眼地球就觉得\"这地方没意思，不值得打\"。",
+      "html": "<p>雨森引用了《三体》里的&quot;宇宙安全<span class=\"word-annot\"><span class=\"word-anchor\">声明</span><span class=\"word-block\"><span class=\"english-word\">statement</span><span class=\"word-info\">[ˈsteɪtmənt] n. 声明</span></span></span>&quot;：人类想发一个声明，让外星人看一眼地球就觉得&quot;这地方没意思，不值得打&quot;。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "创业公司面对大厂，需要的也是这样一个声明。如果你的项目大厂一看就觉得\"这事很好，我也要做\"，那你基本上就很危险了。最好的情况是，大厂看一眼觉得\"这事太小、太low、太不合规\"，然后转头走开。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">创业</span><span class=\"word-block\"><span class=\"english-word\">startup</span><span class=\"word-info\">[ˈstɑːtʌp] n. 创业；初创</span></span></span>公司面对大厂，需要的也是这样一个声明。如果你的项目大厂一看就觉得&quot;这事很好，我也要做&quot;，那你基本上就很<span class=\"word-annot\"><span class=\"word-anchor\">危险</span><span class=\"word-block\"><span class=\"english-word\">dangerous</span><span class=\"word-info\">[ˈdeɪndʒərəs] adj. 危险的</span></span></span>了。最好的情况是，大厂看一眼觉得&quot;这事太小、太low、太不<span class=\"word-annot\"><span class=\"word-anchor\">合规</span><span class=\"word-block\"><span class=\"english-word\">compliance</span><span class=\"word-info\">[kəmˈplaɪəns] n. 合规</span></span></span>&quot;，然后转头走开。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "回看移动互联网时代，那些后来长成庞然大物的公司，早期几乎都有这种\"安全声明\"：B站（二次元太小众）、拼多多（卖便宜货太low）、OpenAI（搞AGI太超前）、比特币（太不合规）、爱彼迎（睡别人家太小众）。",
+      "html": "<p>回看移动互联网时代，那些后来长成<span class=\"word-annot\"><span class=\"word-anchor\">庞然大物</span><span class=\"word-block\"><span class=\"english-word\">giant</span><span class=\"word-info\">[ˈdʒaɪənt] n. 巨人；庞然大物</span></span></span>的公司，早期几乎都有这种&quot;安全声明&quot;：B站（二次元太小众）、拼多多（卖便宜货太low）、OpenAI（搞AGI太超前）、比特币（太不合规）、爱彼迎（睡别人家太小众）。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "那AI时代的\"安全声明\"是什么？",
+      "html": "<p>那AI时代的&quot;安全声明&quot;是什么？</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "套壳（硅谷鄙视套壳，但Manus、Genspark恰恰是靠套壳做出了大厂不愿弯腰去做的产品体验）；",
+      "html": "<p>套壳（硅谷鄙视套壳，但Manus、Genspark恰恰是靠套壳做出了大厂不愿弯腰去做的<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>体验）；</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "开源没收入（DeepSeek火之前，很多人觉得开源是做慈善，但开源让全世界开发者帮你，大厂很难复制这种生态）；",
+      "html": "<p>开源没收入（DeepSeek火之前，很多人觉得开源是做慈善，但开源让全世界<span class=\"word-annot\"><span class=\"word-anchor\">开发者</span><span class=\"word-block\"><span class=\"english-word\">developer</span><span class=\"word-info\">[dɪˈveləpə] n. 开发者</span></span></span>帮你，大厂很难复制这种生态）；</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "老出问题、太不安全（OpenClaw之所以强，是因为它放弃了大厂因合规和品牌包袱不敢放弃的安全限制）；",
+      "html": "<p>老出问题、太不安全（OpenClaw之所以强，是因为它放弃了大厂因合规和<span class=\"word-annot\"><span class=\"word-anchor\">品牌</span><span class=\"word-block\"><span class=\"english-word\">brand</span><span class=\"word-info\">[brænd] n. 品牌</span></span></span>包袱不敢放弃的安全限制）；</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "干脏活（既做AI又深入具体产业，大厂往往不愿碰这些非标准化的苦活）。",
+      "html": "<p>干脏活（既做AI又深入具体<span class=\"word-annot\"><span class=\"word-anchor\">产业</span><span class=\"word-block\"><span class=\"english-word\">industry</span><span class=\"word-info\">[ˈɪndəstri] n. 产业；行业</span></span></span>，大厂往往不愿碰这些非标准化的苦活）。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "这个框架的核心逻辑是：大厂的优势是资源和规模，弱点是决策机制和组织惯性。 那些看起来小、看起来low、看起来不值得做的事，恰恰是大厂最难跟进的地方。",
+      "html": "<p>这个<span class=\"word-annot\"><span class=\"word-anchor\">框架</span><span class=\"word-block\"><span class=\"english-word\">framework</span><span class=\"word-info\">[ˈfreɪmwɜːk] n. 框架</span></span></span>的核心逻辑是：大厂的优势是资源和规模，弱点是决策机制和组织惯性。那些看起来小、看起来low、看起来不值得做的事，<span class=\"word-annot\"><span class=\"word-anchor\">恰恰</span><span class=\"word-block\"><span class=\"english-word\">precisely</span><span class=\"word-info\">[prɪˈsaɪsli] adv. 恰恰；精确地</span></span></span>是大厂最难跟进的地方。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "像当老板一样管你的AI",
+      "html": "<p>像当<span class=\"word-annot\"><span class=\"word-anchor\">老板</span><span class=\"word-block\"><span class=\"english-word\">boss</span><span class=\"word-info\">[bɒs] n. 老板</span></span></span>一样管你的AI</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "就算你招了个哈佛毕业的应届生，他写的第一份报告肯定也没法看。你得给他反馈，告诉他你的标准是啥。用好AI，本质上就是个\"带队伍\"的过程。他总结了五个实操建议：",
+      "html": "<p>就算你招了个哈佛毕业的<span class=\"word-annot\"><span class=\"word-anchor\">应届生</span><span class=\"word-block\"><span class=\"english-word\">graduate</span><span class=\"word-info\">[ˈɡrædʒuət] n. 毕业生</span></span></span>，他写的第一份报告肯定也没法看。你得给他<span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈</span></span></span>，告诉他你的标准是啥。用好AI，<span class=\"word-annot\"><span class=\"word-anchor\">本质</span><span class=\"word-block\"><span class=\"english-word\">essence</span><span class=\"word-info\">[ˈesəns] n. 本质</span></span></span>上就是个&quot;带队伍&quot;的过程。他总结了五个实操<span class=\"word-annot\"><span class=\"word-anchor\">建议</span><span class=\"word-block\"><span class=\"english-word\">advice</span><span class=\"word-info\">[ədˈvaɪs] n. 建议</span></span></span>：</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "目标和验收标准得清楚。 别给\"五彩斑斓的黑\"这种垃圾需求。最好先写好测试用例，让AI自己去跑，跑通了才算完事。",
+      "html": "<p>目标和验收<span class=\"word-annot\"><span class=\"word-anchor\">标准</span><span class=\"word-block\"><span class=\"english-word\">standard</span><span class=\"word-info\">[ˈstændəd] n. 标准</span></span></span>得清楚。别给&quot;五彩斑斓的黑&quot;这种垃圾<span class=\"word-annot\"><span class=\"word-anchor\">需求</span><span class=\"word-block\"><span class=\"english-word\">requirement</span><span class=\"word-info\">[rɪˈkwaɪəmənt] n. 需求</span></span></span>。最好先写好<span class=\"word-annot\"><span class=\"word-anchor\">测试</span><span class=\"word-block\"><span class=\"english-word\">test</span><span class=\"word-info\">[test] n. 测试</span></span></span>用例，让AI自己去跑，跑通了才算完事。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "给足上下文。 模型看不到上下文，就等于瞎子。把你的经验、偏好、背景信息，整理成AI能看懂的格式（比如Markdown文件）喂给它。",
+      "html": "<p>给足<span class=\"word-annot\"><span class=\"word-anchor\">上下文</span><span class=\"word-block\"><span class=\"english-word\">context</span><span class=\"word-info\">[ˈkɒntekst] n. 上下文</span></span></span>。<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>看不到上下文，就等于瞎子。把你的<span class=\"word-annot\"><span class=\"word-anchor\">经验</span><span class=\"word-block\"><span class=\"english-word\">experience</span><span class=\"word-info\">[ɪkˈspɪəriəns] n. 经验</span></span></span>、偏好、背景信息，整理成AI能看懂的格式（比如Markdown文件）喂给它。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "授权和边界要清晰。 明明白白告诉AI，哪个文件夹它可以随便折腾（比如同步到GitHub的目录），哪些危险操作必须你点头。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">授权</span><span class=\"word-block\"><span class=\"english-word\">authorize</span><span class=\"word-info\">[ˈɔːθəraɪz] v. 授权</span></span></span>和边界要清晰。明明白白告诉AI，哪个文件夹它可以随便折腾（比如同步到GitHub的目录），哪些危险<span class=\"word-annot\"><span class=\"word-anchor\">操作</span><span class=\"word-block\"><span class=\"english-word\">operation</span><span class=\"word-info\">[ˌɒpəˈreɪʃn] n. 操作</span></span></span>必须你点头。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "舍得花钱雇\"贵\"员工。 重要的活儿，一定要用最贵的模型（比如Claude 3.5 Sonnet/Opus）。好模型能省掉你大量反复沟通的精力和改Bug的时间，算下来其实更划算。",
+      "html": "<p>舍得花钱雇&quot;贵&quot;<span class=\"word-annot\"><span class=\"word-anchor\">员工</span><span class=\"word-block\"><span class=\"english-word\">employee</span><span class=\"word-info\">[ɪmˈplɔɪiː] n. 员工</span></span></span>。<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>的活儿，一定要用最贵的模型（比如Claude 3.5 Sonnet/Opus）。好模型能省掉你大量反复<span class=\"word-annot\"><span class=\"word-anchor\">沟通</span><span class=\"word-block\"><span class=\"english-word\">communicate</span><span class=\"word-info\">[kəˈmjuːnɪkeɪt] v. 沟通</span></span></span>的精力和改Bug的时间，算下来其实更划算。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "持续的One-on-One复盘。 每次干完活，让AI自己复盘一下（为啥出Bug了？下次怎么改？），然后把这些经验写进它的Memory里。",
+      "html": "<p>持续的One-on-One<span class=\"word-annot\"><span class=\"word-anchor\">复盘</span><span class=\"word-block\"><span class=\"english-word\">review</span><span class=\"word-info\">[rɪˈvjuː] n. 复盘；回顾</span></span></span>。每次干完活，让AI自己复盘一下（为啥<span class=\"word-annot\"><span class=\"word-anchor\">出</span><span class=\"word-block\"><span class=\"english-word\">occur</span><span class=\"word-info\">[əˈkɜː] v. 发生；出现</span></span></span>Bug了？下次怎么改？），然后把这些<span class=\"word-annot\"><span class=\"word-anchor\">经验</span><span class=\"word-block\"><span class=\"english-word\">lesson</span><span class=\"word-info\">[ˈlesn] n. 教训；经验</span></span></span>写进它的Memory里。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "很多人担心AI泡沫。雨森不否认泡沫的存在，但他做了一个很有价值的区分：泡沫分好坏。",
+      "html": "<p>很多人担心AI<span class=\"word-annot\"><span class=\"word-anchor\">泡沫</span><span class=\"word-block\"><span class=\"english-word\">bubble</span><span class=\"word-info\">[ˈbʌbl] n. 泡沫</span></span></span>。雨森不否认泡沫的存在，但他做了一个很有价值的<span class=\"word-annot\"><span class=\"word-anchor\">区分</span><span class=\"word-block\"><span class=\"english-word\">distinction</span><span class=\"word-info\">[dɪˈstɪŋkʃn] n. 区分</span></span></span>：泡沫分好坏。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "坏泡沫的特征是：认为未来会和现在一样，对确定性过度计价。美国次贷危机是典型——银行认为房贷一定还得起，这是对确定性的过度押注。中国房地产泡沫也是——认为房价只涨不跌。这类泡沫往往由普通人参与，破裂后造成巨大的社会损失，而且几乎不会激发任何创新。",
+      "html": "<p>坏泡沫的<span class=\"word-annot\"><span class=\"word-anchor\">特征</span><span class=\"word-block\"><span class=\"english-word\">feature</span><span class=\"word-info\">[ˈfiːtʃə] n. 特征</span></span></span>是：认为未来会和现在一样，对确定性过度计价。美国次贷<span class=\"word-annot\"><span class=\"word-anchor\">危机</span><span class=\"word-block\"><span class=\"english-word\">crisis</span><span class=\"word-info\">[ˈkraɪsɪs] n. 危机</span></span></span>是典型——银行认为房贷一定还得起，这是对确定性的过度押注。中国<span class=\"word-annot\"><span class=\"word-anchor\">房地产</span><span class=\"word-block\"><span class=\"english-word\">realty</span><span class=\"word-info\">[ˈriːəlti] n. 房地产</span></span></span>泡沫也是——认为房价只涨不跌。这类泡沫往往由<span class=\"word-annot\"><span class=\"word-anchor\">普通</span><span class=\"word-block\"><span class=\"english-word\">ordinary</span><span class=\"word-info\">[ˈɔːdnri] adj. 普通的</span></span></span>人参与，破裂后造成巨大的社会损失，而且几乎不会激发任何创新。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "好泡沫的特征是：认为未来会和现在非常不一样，对不确定性过度计价。互联网泡沫是典型——2000年大量互联网公司倒闭，但泡沫留下了大量光纤基础设施，为后来的YouTube、Netflix、AWS提供了基础。区块链泡沫也是——大量项目归零，但留下了智能合约、去中心化金融的技术积累。",
+      "html": "<p>好泡沫的特征是：认为未来会和现在非常不一样，对<span class=\"word-annot\"><span class=\"word-anchor\">不确定性</span><span class=\"word-block\"><span class=\"english-word\">uncertainty</span><span class=\"word-info\">[ʌnˈsɜːtnti] n. 不确定性</span></span></span>过度计价。互联网泡沫是典型——2000年大量互联网公司倒闭，但泡沫留下了大量光纤<span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施</span></span></span>，为后来的YouTube、Netflix、AWS提供了基础。区块链泡沫也是——大量项目归零，但留下了智能合约、去中心化<span class=\"word-annot\"><span class=\"word-anchor\">金融</span><span class=\"word-block\"><span class=\"english-word\">finance</span><span class=\"word-info\">[ˈfaɪnæns] n. 金融</span></span></span>的技术积累。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "好泡沫的核心是正外部性：即便大多数参与者亏损，整个社会也从中获益。",
+      "html": "<p>好泡沫的核心是正外部性：即便大多数参与者亏损，整个社会也从中<span class=\"word-annot\"><span class=\"word-anchor\">获益</span><span class=\"word-block\"><span class=\"english-word\">benefit</span><span class=\"word-info\">[ˈbenɪfɪt] v. 获益</span></span></span>。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "AI的泡沫属于后者。现在每年万亿美金级别的算力投入，即便大多数AI公司最终倒闭，这些算力、模型、基础设施也会留下来，成为下一波应用的土壤。",
+      "html": "<p>AI的泡沫<span class=\"word-annot\"><span class=\"word-anchor\">属于</span><span class=\"word-block\"><span class=\"english-word\">belong</span><span class=\"word-info\">[bɪˈlɒŋ] v. 属于</span></span></span>后者。现在每年万亿美金级别的<span class=\"word-annot\"><span class=\"word-anchor\">算力</span><span class=\"word-block\"><span class=\"english-word\">computing</span><span class=\"word-info\">[kəmˈpjuːtɪŋ] n. 计算；算力</span></span></span>投入，即便大多数AI公司最终倒闭，这些算力、模型、基础设施也会留下来，成为下一波应用的土壤。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "现在的数字世界是为人类设计的：验证码是为了防机器人，图形界面是为了让人看懂，支付流程是为了让人操作。但当AI成为数字世界的主要参与者时，这些为人类设计的基础设施，反而成了AI干活的障碍。",
+      "html": "<p>现在的数字世界是为人类设计的：<span class=\"word-annot\"><span class=\"word-anchor\">验证码</span><span class=\"word-block\"><span class=\"english-word\">captcha</span><span class=\"word-info\">[ˈkæptʃə] n. 验证码</span></span></span>是为了防机器人，图形界面是为了让人看懂，支付流程是为了让人操作。但当AI成为数字世界的主要参与者时，这些为人类设计的基础设施，反而成了AI干活的<span class=\"word-annot\"><span class=\"word-anchor\">障碍</span><span class=\"word-block\"><span class=\"english-word\">obstacle</span><span class=\"word-info\">[ˈɒbstəkl] n. 障碍</span></span></span>。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "以支付为例。人类用信用卡的特点是：一对一（一张卡对应一个人）、低频（一天刷几次）、金额相对较大。但AI的支付需求完全不同：一对多（同时向100个API付款）、极高频（每秒可能发起几千笔）、微小额（每次可能只有几厘钱）。",
+      "html": "<p>以<span class=\"word-annot\"><span class=\"word-anchor\">支付</span><span class=\"word-block\"><span class=\"english-word\">payment</span><span class=\"word-info\">[ˈpeɪmənt] n. 支付</span></span></span>为例。人类用<span class=\"word-annot\"><span class=\"word-anchor\">信用卡</span><span class=\"word-block\"><span class=\"english-word\">credit</span><span class=\"word-info\">[ˈkredɪt] n. 信用</span></span></span>的特点是：一对一（一张卡对应一个人）、低频（一天刷几次）、金额相对较大。但AI的支付需求完全不同：一对多（同时向100个API付款）、极<span class=\"word-annot\"><span class=\"word-anchor\">高频</span><span class=\"word-block\"><span class=\"english-word\">frequency</span><span class=\"word-info\">[ˈfriːkwənsi] n. 频率</span></span></span>（每秒可能发起几千笔）、微小额（每次可能只有几厘钱）。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "如果强迫AI用人类的信用卡，就像让一个工厂用现金结账——不是不能用，但效率极低，而且很多场景根本走不通。",
+      "html": "<p>如果强迫AI用人类的信用卡，就像让一个<span class=\"word-annot\"><span class=\"word-anchor\">工厂</span><span class=\"word-block\"><span class=\"english-word\">factory</span><span class=\"word-info\">[ˈfæktri] n. 工厂</span></span></span>用现金结账——不是不能用，但效率极低，而且很多场景根本走不通。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "雨森把这个方向叫做\"从Human-first到Agent-ready\"。他认为，未来有三层递进的机会：",
+      "html": "<p>雨森把这个<span class=\"word-annot\"><span class=\"word-anchor\">方向</span><span class=\"word-block\"><span class=\"english-word\">direction</span><span class=\"word-info\">[dəˈrekʃn] n. 方向</span></span></span>叫做&quot;从Human-first到Agent-ready&quot;。他认为，未来有三层<span class=\"word-annot\"><span class=\"word-anchor\">递进</span><span class=\"word-block\"><span class=\"english-word\">progressive</span><span class=\"word-info\">[prəˈɡresɪv] adj. 递进的</span></span></span>的机会：</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "让人类更容易拥有和使用AI；",
+      "html": "<p>让人类更容易<span class=\"word-annot\"><span class=\"word-anchor\">拥有</span><span class=\"word-block\"><span class=\"english-word\">possess</span><span class=\"word-info\">[pəˈzes] v. 拥有</span></span></span>和使用AI；</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "让AI更好地适应人类现有的数字世界；",
+      "html": "<p>让AI更好地<span class=\"word-annot\"><span class=\"word-anchor\">适应</span><span class=\"word-block\"><span class=\"english-word\">adapt</span><span class=\"word-info\">[əˈdæpt] v. 适应</span></span></span>人类现有的数字世界；</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "为AI建设专属的基础设施——专属的支付、身份验证、访问控制。",
+      "html": "<p>为AI建设专属的基础设施——专属的支付、<span class=\"word-annot\"><span class=\"word-anchor\">身份</span><span class=\"word-block\"><span class=\"english-word\">identity</span><span class=\"word-info\">[aɪˈdentəti] n. 身份</span></span></span>验证、访问控制。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "最后这一层，是他认为最深、也最有想象空间的机会。",
+      "html": "<p>最后这一层，是他认为最深、也最有<span class=\"word-annot\"><span class=\"word-anchor\">想象</span><span class=\"word-block\"><span class=\"english-word\">imagination</span><span class=\"word-info\">[ɪˌmædʒɪˈneɪʃn] n. 想象</span></span></span>空间的机会。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "有人问雨森怎么判断一个创业者值不值得投。他给出了四个他认为必备且相互独立的能力：",
+      "html": "<p>有人问雨森怎么<span class=\"word-annot\"><span class=\"word-anchor\">判断</span><span class=\"word-block\"><span class=\"english-word\">judge</span><span class=\"word-info\">[dʒʌdʒ] v. 判断</span></span></span>一个创业者值不值得投。他给出了四个他认为必备且相互<span class=\"word-annot\"><span class=\"word-anchor\">独立</span><span class=\"word-block\"><span class=\"english-word\">independent</span><span class=\"word-info\">[ˌɪndɪˈpendənt] adj. 独立的</span></span></span>的能力：</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "学习能力。创业是一个不断精进的过程，没有人天生什么都会。技术在快速迭代，市场在快速变化，底层的学习能力是一切的基础。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">学习</span><span class=\"word-block\"><span class=\"english-word\">learn</span><span class=\"word-info\">[lɜːn] v. 学习</span></span></span>能力。创业是一个不断<span class=\"word-annot\"><span class=\"word-anchor\">精进</span><span class=\"word-block\"><span class=\"english-word\">refine</span><span class=\"word-info\">[rɪˈfaɪn] v. 精进；改进</span></span></span>的过程，没有人天生什么都会。技术在快速<span class=\"word-annot\"><span class=\"word-anchor\">迭代</span><span class=\"word-block\"><span class=\"english-word\">iterate</span><span class=\"word-info\">[ˈɪtəreɪt] v. 迭代</span></span></span>，市场在快速变化，底层的学习能力是一切的基础。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "领导力。创业不是一个人的游戏。即便是现在流行的\"一人公司\"，能吸引和管理优秀的人（或者AI Agent），本质上也是领导力。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">领导力</span><span class=\"word-block\"><span class=\"english-word\">leadership</span><span class=\"word-info\">[ˈliːdəʃɪp] n. 领导力</span></span></span>。创业不是一个人的<span class=\"word-annot\"><span class=\"word-anchor\">游戏</span><span class=\"word-block\"><span class=\"english-word\">game</span><span class=\"word-info\">[ɡeɪm] n. 游戏</span></span></span>。即便是现在流行的&quot;一人公司&quot;，能吸引和<span class=\"word-annot\"><span class=\"word-anchor\">管理</span><span class=\"word-block\"><span class=\"english-word\">manage</span><span class=\"word-info\">[ˈmænɪdʒ] v. 管理</span></span></span>优秀的人（或者AI Agent），本质上也是领导力。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "创新力。这是他讲得最有意思的一个。他说，当执行力变得廉价——AI可以帮你写代码、做设计、做分析——\"做什么\"的判断就变得比\"怎么做\"更重要。最优秀的公司往往是给别人出题的，而不是做别人已经验证过的题目。他举了Manus的例子：Manus之所以火，是因为它做出了第一个真正能用的Agentic产品，而不是因为它执行得比别人好。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">创新</span><span class=\"word-block\"><span class=\"english-word\">innovation</span><span class=\"word-info\">[ˌɪnəˈveɪʃn] n. 创新</span></span></span>力。这是他讲得最<span class=\"word-annot\"><span class=\"word-anchor\">有意思</span><span class=\"word-block\"><span class=\"english-word\">interesting</span><span class=\"word-info\">[ˈɪntrəstɪŋ] adj. 有趣的</span></span></span>的一个。他说，当<span class=\"word-annot\"><span class=\"word-anchor\">执行</span><span class=\"word-block\"><span class=\"english-word\">execute</span><span class=\"word-info\">[ˈeksɪkjuːt] v. 执行</span></span></span>力变得廉价——AI可以帮你写代码、做设计、做分析——&quot;做什么&quot;的判断就变得比&quot;怎么做&quot;更重要。最优秀的公司往往是给别人出题的，而不是做别人已经<span class=\"word-annot\"><span class=\"word-anchor\">验证</span><span class=\"word-block\"><span class=\"english-word\">verify</span><span class=\"word-info\">[ˈverɪfaɪ] v. 验证</span></span></span>过的题目。他举了Manus的<span class=\"word-annot\"><span class=\"word-anchor\">例子</span><span class=\"word-block\"><span class=\"english-word\">instance</span><span class=\"word-info\">[ˈɪnstəns] n. 实例</span></span></span>：Manus之所以火，是因为它做出了第一个真正能用的Agentic产品，而不是因为它执行得比别人好。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "意志力。逆境中不折不挠，顺境中不骄不躁。这两件事都很难，但都是必须的。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">意志力</span><span class=\"word-block\"><span class=\"english-word\">willpower</span><span class=\"word-info\">[ˈwɪlpaʊə] n. 意志力</span></span></span>。<span class=\"word-annot\"><span class=\"word-anchor\">逆境</span><span class=\"word-block\"><span class=\"english-word\">adversity</span><span class=\"word-info\">[ədˈvɜːsəti] n. 逆境</span></span></span>中不折不挠，顺境中不骄不躁。这两件事都很难，但都是<span class=\"word-annot\"><span class=\"word-anchor\">必须</span><span class=\"word-block\"><span class=\"english-word\">necessary</span><span class=\"word-info\">[ˈnesəsəri] adj. 必要的</span></span></span>的。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "他特别强调这四个能力是\"正交\"的——有学习能力不一定有创新力，有创新力不一定有意志力。这四个能力相互独立，缺一不可，而且很难通过训练快速补齐。",
+      "html": "<p>他特别强调这四个能力是&quot;<span class=\"word-annot\"><span class=\"word-anchor\">正交</span><span class=\"word-block\"><span class=\"english-word\">orthogonal</span><span class=\"word-info\">[ɔːˈθɒɡənl] adj. 正交的</span></span></span>&quot;的——有学习能力不一定有创新力，有创新力不一定有意志力。这四个能力相互独立，缺一不可，而且很难通过<span class=\"word-annot\"><span class=\"word-anchor\">训练</span><span class=\"word-block\"><span class=\"english-word\">train</span><span class=\"word-info\">[treɪn] v. 训练</span></span></span>快速补齐。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "只是还缩在那个极小的红格子里",
+      "html": "<p>只是还缩在那个极小的红<span class=\"word-annot\"><span class=\"word-anchor\">格子</span><span class=\"word-block\"><span class=\"english-word\">grid</span><span class=\"word-info\">[ɡrɪd] n. 格子；网格</span></span></span>里</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "雨森展示了一张数据图：全球81亿人，用过ChatBot的大约有20亿，但真正用过Coding Agent（比如Claude Code）的，只有约1000万人，不到总人口的万分之一。",
+      "html": "<p>雨森展示了一张数据图：<span class=\"word-annot\"><span class=\"word-anchor\">全球</span><span class=\"word-block\"><span class=\"english-word\">global</span><span class=\"word-info\">[ˈɡləʊbl] adj. 全球的</span></span></span>81亿人，用过ChatBot的大约有20亿，但真正用过Coding Agent（比如Claude Code）的，只有约1000万人，不到总人口的万分之一。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "\"未来已来，只是它现在还蜷缩在那个最小的红色格子里。\"",
+      "html": "<p>&quot;<span class=\"word-annot\"><span class=\"word-anchor\">未来</span><span class=\"word-block\"><span class=\"english-word\">future</span><span class=\"word-info\">[ˈfjuːtʃə] n. 未来</span></span></span>已来，只是它现在还蜷缩在那个最小的红色格子里。&quot;</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "他把现在类比为2006年——iPhone还没发布，移动互联网的大多数用户还不存在。那些在2006年就开始认真研究移动互联网的人，后来大多数都抓住了这波机会。",
+      "html": "<p>他把现在<span class=\"word-annot\"><span class=\"word-anchor\">类比</span><span class=\"word-block\"><span class=\"english-word\">analogy</span><span class=\"word-info\">[əˈnælədʒi] n. 类比</span></span></span>为2006年——iPhone还没发布，移动互联网的大多数用户还不存在。那些在2006年就开始认真<span class=\"word-annot\"><span class=\"word-anchor\">研究</span><span class=\"word-block\"><span class=\"english-word\">research</span><span class=\"word-info\">[rɪˈsɜːtʃ] v. 研究</span></span></span>移动互联网的人，后来大多数都抓住了这波机会。</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "花一点钱用最好的工具（AI工具现在已经足够便宜）；",
+      "html": "<p>花一点钱用最好的<span class=\"word-annot\"><span class=\"word-anchor\">工具</span><span class=\"word-block\"><span class=\"english-word\">tool</span><span class=\"word-info\">[tuːl] n. 工具</span></span></span>（AI工具现在已经足够便宜）；</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "多动手实践，少问人多问AI；",
+      "html": "<p>多动手<span class=\"word-annot\"><span class=\"word-anchor\">实践</span><span class=\"word-block\"><span class=\"english-word\">practice</span><span class=\"word-info\">[ˈpræktɪs] n. 实践</span></span></span>，少问人多问AI；</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "把自己的经验、数据、偏好数字化，让AI真正了解你——因为在公共知识随手可得的时代，你独有的上下文，才是你真正的竞争优势。",
+      "html": "<p>把自己的经验、数据、偏好数字化，让AI真正了解你——因为在公共知识随手可得的时代，你独有的上下文，才是你真正的<span class=\"word-annot\"><span class=\"word-anchor\">竞争</span><span class=\"word-block\"><span class=\"english-word\">competitive</span><span class=\"word-info\">[kəmˈpetətɪv] adj. 竞争的</span></span></span>优势。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "对普通人来说，现在最该干的事，就是花点小钱，去买最贵的模型，自己上手去摸。别光看新闻和评测，遇到事儿，试着先扔给AI，别急着去问人。",
+      "html": "<p>对普通人来说，现在最该干的事，就是<span class=\"word-annot\"><span class=\"word-anchor\">花</span><span class=\"word-block\"><span class=\"english-word\">spend</span><span class=\"word-info\">[spend] v. 花费</span></span></span>点小钱，去买最贵的模型，自己上手去摸。别光看新闻和<span class=\"word-annot\"><span class=\"word-anchor\">评测</span><span class=\"word-block\"><span class=\"english-word\">evaluation</span><span class=\"word-info\">[ɪˌvæljuˈeɪʃn] n. 评测</span></span></span>，遇到事儿，试着先扔给AI，别急着去问人。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "创新思考就像锻炼肌肉，你不主动练，它就萎缩了。从建个个人网站开始，从写个小工具开始，去感受一下那种\"敲一行命令，AI吭哧吭哧帮你把事办成\"的感觉。",
+      "html": "<p>创新思考就像锻炼<span class=\"word-annot\"><span class=\"word-anchor\">肌肉</span><span class=\"word-block\"><span class=\"english-word\">muscle</span><span class=\"word-info\">[ˈmʌsl] n. 肌肉</span></span></span>，你不主动练，它就萎缩了。从建个个人网站开始，从写个小工具开始，去感受一下那种&quot;敲一行<span class=\"word-annot\"><span class=\"word-anchor\">命令</span><span class=\"word-block\"><span class=\"english-word\">command</span><span class=\"word-info\">[kəˈmɑːnd] n. 命令</span></span></span>，AI吭哧吭哧帮你把事办成&quot;的感觉。</p>"
+    }
+  ]
+}
