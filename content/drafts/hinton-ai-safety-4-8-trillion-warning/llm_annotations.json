@@ -1,0 +1,1101 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "摄像头",
+      "en": "warning",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "摄像头（语境义）"
+    },
+    {
+      "i": 1,
+      "zh": "方向盘",
+      "en": "steering",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "方向盘（语境义）"
+    },
+    {
+      "i": 2,
+      "skip": true
+    },
+    {
+      "i": 3,
+      "zh": "年诺贝",
+      "en": "throttle",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "年诺贝（语境义）"
+    },
+    {
+      "i": 4,
+      "zh": "超级智能",
+      "en": "summit",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "超级智能（语境义）"
+    },
+    {
+      "i": 5,
+      "skip": true
+    },
+    {
+      "i": 6,
+      "zh": "建造",
+      "en": "caution",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "建造（语境义）"
+    },
+    {
+      "i": 7,
+      "skip": true
+    },
+    {
+      "i": 8,
+      "zh": "安全",
+      "en": "coexist",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "安全（语境义）"
+    },
+    {
+      "i": 9,
+      "zh": "发言",
+      "en": "engine",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "发言（语境义）"
+    },
+    {
+      "i": 10,
+      "zh": "产业正",
+      "en": "inflation",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "产业正（语境义）"
+    },
+    {
+      "i": 11,
+      "zh": "市场",
+      "en": "expansion",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "市场（语境义）"
+    },
+    {
+      "i": 12,
+      "zh": "人类只",
+      "en": "forecast",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "人类只（语境义）"
+    },
+    {
+      "i": 13,
+      "zh": "模型",
+      "en": "economy",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "模型（语境义）"
+    },
+    {
+      "i": 14,
+      "zh": "安全",
+      "en": "investment",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "安全（语境义）"
+    },
+    {
+      "i": 15,
+      "zh": "数字",
+      "en": "safeguard",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "数字（语境义）"
+    },
+    {
+      "i": 16,
+      "zh": "研发投",
+      "en": "ratio",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "研发投（语境义）"
+    },
+    {
+      "i": 17,
+      "zh": "评论",
+      "en": "lobbying",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "评论（语境义）"
+    },
+    {
+      "i": 18,
+      "zh": "监管",
+      "en": "metaphor",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "监管（语境义）"
+    },
+    {
+      "i": 19,
+      "zh": "别踩刹",
+      "en": "regulator",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "别踩刹（语境义）"
+    },
+    {
+      "i": 20,
+      "skip": true
+    },
+    {
+      "i": 21,
+      "zh": "类比完",
+      "en": "wheel",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "类比完（语境义）"
+    },
+    {
+      "i": 22,
+      "zh": "油门",
+      "en": "runaway",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "油门（语境义）"
+    },
+    {
+      "i": 23,
+      "zh": "监管",
+      "en": "ceremony",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "监管（语境义）"
+    },
+    {
+      "i": 24,
+      "zh": "方向盘",
+      "en": "catalyst",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "方向盘（语境义）"
+    },
+    {
+      "i": 25,
+      "skip": true
+    },
+    {
+      "i": 26,
+      "zh": "立刻接",
+      "en": "laureate",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "立刻接（语境义）"
+    },
+    {
+      "i": 27,
+      "zh": "知道有",
+      "en": "nostalgia",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "知道有（语境义）"
+    },
+    {
+      "i": 28,
+      "zh": "方向盘",
+      "en": "annealing",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "方向盘（语境义）"
+    },
+    {
+      "i": 29,
+      "zh": "方向盘",
+      "en": "crystallization",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "方向盘（语境义）"
+    },
+    {
+      "i": 30,
+      "zh": "两位老",
+      "en": "elegant",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "两位老（语境义）"
+    },
+    {
+      "i": 31,
+      "zh": "社会",
+      "en": "practical",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "社会（语境义）"
+    },
+    {
+      "i": 32,
+      "zh": "玻尔兹曼机",
+      "en": "generative",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "玻尔兹曼机（语境义）"
+    },
+    {
+      "i": 33,
+      "zh": "玻尔兹曼机",
+      "en": "paradigm",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "玻尔兹曼机（语境义）"
+    },
+    {
+      "i": 34,
+      "zh": "前半场",
+      "en": "tribunal",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "前半场（语境义）"
+    },
+    {
+      "i": 35,
+      "zh": "罗切斯",
+      "en": "pivot",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "罗切斯（语境义）"
+    },
+    {
+      "i": 36,
+      "zh": "自己记",
+      "en": "benchmark",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "自己记（语境义）"
+    },
+    {
+      "i": 37,
+      "skip": true
+    },
+    {
+      "i": 38,
+      "zh": "反向传播",
+      "en": "dimension",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "反向传播（语境义）"
+    },
+    {
+      "i": 39,
+      "zh": "网络加",
+      "en": "spectrum",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "网络加（语境义）"
+    },
+    {
+      "i": 40,
+      "zh": "两条完",
+      "en": "jagged",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "两条完（语境义）"
+    },
+    {
+      "i": 41,
+      "zh": "科学史",
+      "en": "taxation",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "科学史（语境义）"
+    },
+    {
+      "i": 42,
+      "zh": "玻尔兹曼机",
+      "en": "reasoning",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "玻尔兹曼机（语境义）"
+    },
+    {
+      "i": 43,
+      "zh": "不太好",
+      "en": "terminology",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "不太好（语境义）"
+    },
+    {
+      "i": 44,
+      "skip": true
+    },
+    {
+      "i": 45,
+      "zh": "生成式",
+      "en": "superintelligence",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "生成式（语境义）"
+    },
+    {
+      "i": 46,
+      "skip": true
+    },
+    {
+      "i": 47,
+      "zh": "算法",
+      "en": "oversight",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "算法（语境义）"
+    },
+    {
+      "i": 48,
+      "zh": "愚蠢",
+      "en": "coexistence",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "愚蠢（语境义）"
+    },
+    {
+      "i": 49,
+      "zh": "颁奖典",
+      "en": "harmony",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "颁奖典（语境义）"
+    },
+    {
+      "i": 50,
+      "zh": "风险",
+      "en": "caregiver",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "风险（语境义）"
+    },
+    {
+      "i": 51,
+      "zh": "李登问",
+      "en": "urgency",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "李登问（语境义）"
+    },
+    {
+      "i": 52,
+      "zh": "基准测试",
+      "en": "scarcity",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "基准测试（语境义）"
+    },
+    {
+      "i": 53,
+      "zh": "毫不留",
+      "en": "imbalance",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "毫不留（语境义）"
+    },
+    {
+      "i": 54,
+      "skip": true
+    },
+    {
+      "i": 55,
+      "zh": "假设智",
+      "en": "acceleration",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "假设智（语境义）"
+    },
+    {
+      "i": 56,
+      "zh": "智能显",
+      "en": "existential",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "智能显（语境义）"
+    },
+    {
+      "i": 57,
+      "zh": "不存",
+      "en": "misuse",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "不存（语境义）"
+    },
+    {
+      "i": 58,
+      "zh": "锯齿状",
+      "en": "deepfake",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "锯齿状（语境义）"
+    },
+    {
+      "i": 59,
+      "skip": true
+    },
+    {
+      "i": 60,
+      "zh": "模型",
+      "en": "pandemic",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "模型（语境义）"
+    },
+    {
+      "i": 61,
+      "zh": "通识知",
+      "en": "cyberattack",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "通识知（语境义）"
+    },
+    {
+      "i": 62,
+      "zh": "推理",
+      "en": "sideeffect",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "推理（语境义）"
+    },
+    {
+      "i": 63,
+      "zh": "词没有",
+      "en": "polarization",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "词没有（语境义）"
+    },
+    {
+      "i": 64,
+      "skip": true
+    },
+    {
+      "i": 65,
+      "zh": "什么词",
+      "en": "fracture",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "什么词（语境义）"
+    },
+    {
+      "i": 66,
+      "zh": "超级智能",
+      "en": "cooperation",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "超级智能（语境义）"
+    },
+    {
+      "i": 67,
+      "zh": "几乎所",
+      "en": "asbestos",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "几乎所（语境义）"
+    },
+    {
+      "i": 68,
+      "zh": "相信",
+      "en": "tobacco",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "相信（语境义）"
+    },
+    {
+      "i": 69,
+      "zh": "话最核",
+      "en": "loophole",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "话最核（语境义）"
+    },
+    {
+      "i": 70,
+      "zh": "超级智能",
+      "en": "export",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "超级智能（语境义）"
+    },
+    {
+      "i": 71,
+      "zh": "超级智能",
+      "en": "consequence",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "超级智能（语境义）"
+    },
+    {
+      "i": 72,
+      "skip": true
+    },
+    {
+      "i": 73,
+      "zh": "多控制",
+      "en": "replay",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "多控制（语境义）"
+    },
+    {
+      "i": 74,
+      "zh": "应该小",
+      "en": "deadend",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "应该小（语境义）"
+    },
+    {
+      "i": 75,
+      "zh": "模型",
+      "en": "philosophy",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "模型（语境义）"
+    },
+    {
+      "i": 76,
+      "zh": "母亲真",
+      "en": "prediction",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "母亲真（语境义）"
+    },
+    {
+      "i": 77,
+      "zh": "紧迫节",
+      "en": "modality",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "紧迫节（语境义）"
+    },
+    {
+      "i": 78,
+      "zh": "许只有",
+      "en": "sensor",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "许只有（语境义）"
+    },
+    {
+      "i": 79,
+      "zh": "相比之",
+      "en": "embodiment",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "相比之（语境义）"
+    },
+    {
+      "i": 80,
+      "zh": "简直",
+      "en": "efficiency",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "简直（语境义）"
+    },
+    {
+      "i": 81,
+      "zh": "烟草",
+      "en": "multimodal",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "烟草（语境义）"
+    },
+    {
+      "i": 82,
+      "zh": "风险",
+      "en": "allocation",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "风险（语境义）"
+    },
+    {
+      "i": 83,
+      "zh": "有人故",
+      "en": "concentration",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "有人故（语境义）"
+    },
+    {
+      "i": 84,
+      "zh": "比如制",
+      "en": "disparity",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "比如制（语境义）"
+    },
+    {
+      "i": 85,
+      "zh": "最直接",
+      "en": "infrastructure",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "最直接（语境义）"
+    },
+    {
+      "i": 86,
+      "zh": "第二类",
+      "en": "governance",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "第二类（语境义）"
+    },
+    {
+      "i": 87,
+      "zh": "女性照",
+      "en": "hemisphere",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "女性照（语境义）"
+    },
+    {
+      "i": 88,
+      "zh": "算法",
+      "en": "divide",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "算法（语境义）"
+    },
+    {
+      "i": 89,
+      "zh": "社会",
+      "en": "trajectory",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "社会（语境义）"
+    },
+    {
+      "i": 90,
+      "skip": true
+    },
+    {
+      "i": 91,
+      "zh": "第三类",
+      "en": "whistleblower",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "第三类（语境义）"
+    },
+    {
+      "i": 92,
+      "zh": "合作",
+      "en": "regret",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "合作（语境义）"
+    },
+    {
+      "i": 93,
+      "zh": "合作",
+      "en": "advocacy",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "合作（语境义）"
+    },
+    {
+      "i": 94,
+      "zh": "合作",
+      "en": "bayesian",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "合作（语境义）"
+    },
+    {
+      "i": 95,
+      "zh": "看看烟",
+      "en": "synthesis",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "看看烟（语境义）"
+    },
+    {
+      "i": 96,
+      "zh": "法规",
+      "en": "extinction",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "法规（语境义）"
+    },
+    {
+      "i": 97,
+      "zh": "国家",
+      "en": "cockpit",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "国家（语境义）"
+    },
+    {
+      "i": 98,
+      "zh": "法规",
+      "en": "window",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "法规（语境义）"
+    },
+    {
+      "i": 99,
+      "skip": true
+    },
+    {
+      "i": 100,
+      "zh": "太阳底",
+      "en": "momentum",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "太阳底（语境义）"
+    },
+    {
+      "i": 101,
+      "zh": "怎么看",
+      "en": "mandate",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "怎么看（语境义）"
+    },
+    {
+      "i": 102,
+      "zh": "死胡同",
+      "en": "consensus",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "死胡同（语境义）"
+    },
+    {
+      "i": 103,
+      "zh": "超级智能",
+      "en": "vigilance",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "超级智能（语境义）"
+    },
+    {
+      "i": 104,
+      "zh": "问题拆",
+      "en": "foresight",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "问题拆（语境义）"
+    },
+    {
+      "i": 105,
+      "zh": "哲学问",
+      "en": "resilience",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "哲学问（语境义）"
+    },
+    {
+      "i": 106,
+      "zh": "答案",
+      "en": "protocol",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "答案（语境义）"
+    },
+    {
+      "i": 107,
+      "zh": "非常令",
+      "en": "framework",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "非常令（语境义）"
+    },
+    {
+      "i": 108,
+      "skip": true
+    },
+    {
+      "i": 109,
+      "zh": "实际问",
+      "en": "scenario",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "实际问（语境义）"
+    },
+    {
+      "i": 110,
+      "zh": "答案",
+      "en": "threshold",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "答案（语境义）"
+    },
+    {
+      "i": 111,
+      "zh": "有摄像",
+      "en": "leverage",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "有摄像（语境义）"
+    },
+    {
+      "i": 112,
+      "skip": true
+    },
+    {
+      "i": 113,
+      "zh": "多模态",
+      "en": "dynamics",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "多模态（语境义）"
+    },
+    {
+      "i": 114,
+      "zh": "模型",
+      "en": "matrix",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "模型（语境义）"
+    },
+    {
+      "i": 115,
+      "skip": true
+    },
+    {
+      "i": 116,
+      "zh": "万亿美",
+      "en": "vector",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "万亿美（语境义）"
+    },
+    {
+      "i": 117,
+      "zh": "次大会",
+      "en": "gradient",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "次大会（语境义）"
+    },
+    {
+      "i": 118,
+      "zh": "企业",
+      "en": "entropy",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "企业（语境义）"
+    },
+    {
+      "i": 119,
+      "zh": "国家",
+      "en": "inference",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "国家（语境义）"
+    },
+    {
+      "i": 120,
+      "zh": "如果不",
+      "en": "optimization",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "如果不（语境义）"
+    },
+    {
+      "i": 121,
+      "skip": true
+    },
+    {
+      "i": 122,
+      "zh": "国家",
+      "en": "alignment",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "国家（语境义）"
+    },
+    {
+      "i": 123,
+      "zh": "市场",
+      "en": "robustness",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "市场（语境义）"
+    },
+    {
+      "i": 124,
+      "zh": "甚至没",
+      "en": "transparency",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "甚至没（语境义）"
+    },
+    {
+      "i": 125,
+      "zh": "显然",
+      "en": "accountability",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "显然（语境义）"
+    },
+    {
+      "i": 126,
+      "zh": "方向盘",
+      "en": "mitigation",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "方向盘（语境义）"
+    },
+    {
+      "i": 127,
+      "zh": "时间线",
+      "en": "adaptation",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "时间线（语境义）"
+    },
+    {
+      "i": 128,
+      "zh": "离职时",
+      "en": "escalation",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "离职时（语境义）"
+    },
+    {
+      "i": 129,
+      "zh": "安全",
+      "en": "deterrence",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "安全（语境义）"
+    },
+    {
+      "i": 130,
+      "zh": "监管",
+      "en": "compliance",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "监管（语境义）"
+    },
+    {
+      "i": 131,
+      "zh": "措辞变",
+      "en": "doctrine",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "措辞变（语境义）"
+    },
+    {
+      "i": 132,
+      "zh": "技术讨",
+      "en": "charter",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "技术讨（语境义）"
+    },
+    {
+      "i": 133,
+      "zh": "玻尔兹曼机",
+      "en": "prerogative",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "玻尔兹曼机（语境义）"
+    },
+    {
+      "i": 134,
+      "zh": "同时住",
+      "en": "sovereignty",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "同时住（语境义）"
+    },
+    {
+      "i": 135,
+      "zh": "两件事",
+      "en": "reciprocity",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "两件事（语境义）"
+    },
+    {
+      "i": 136,
+      "zh": "为什么",
+      "en": "solidarity",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "为什么（语境义）"
+    },
+    {
+      "i": 137,
+      "zh": "亲手造",
+      "en": "diligence",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "亲手造（语境义）"
+    },
+    {
+      "i": 138,
+      "zh": "油门已",
+      "en": "prudence",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "油门已（语境义）"
+    },
+    {
+      "i": 139,
+      "zh": "方向盘",
+      "en": "stewardship",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "方向盘（语境义）"
+    },
+    {
+      "i": 140,
+      "zh": "时间节",
+      "en": "inflection",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "时间节（语境义）"
+    },
+    {
+      "i": 141,
+      "zh": "变得比",
+      "en": "horizon",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "变得比（语境义）"
+    },
+    {
+      "i": 142,
+      "zh": "三年前",
+      "en": "premise",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "三年前（语境义）"
+    },
+    {
+      "i": 143,
+      "zh": "三年过",
+      "en": "constraint",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "三年过（语境义）"
+    },
+    {
+      "i": 144,
+      "zh": "不过现",
+      "en": "signal",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "不过现（语境义）"
+    },
+    {
+      "i": 145,
+      "zh": "方向盘",
+      "en": "indicator",
+      "ipa": "[ˈwɜːd]",
+      "pos": "n.",
+      "gloss": "方向盘（语境义）"
+    }
+  ]
+}
