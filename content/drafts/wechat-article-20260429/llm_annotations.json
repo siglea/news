@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "AGI",
+      "en": "AGI",
+      "ipa": "/ˌeɪdʒiːˈaɪ/",
+      "pos": "abbr.",
+      "gloss": "通用人工智能（Artificial General Intelligence）"
+    },
+    {
+      "i": 3,
+      "zh": "超级智能",
+      "en": "superintelligence",
+      "ipa": "/ˌsuːpərɪnˈtelɪdʒəns/",
+      "pos": "n.",
+      "gloss": "超级智能，指在几乎所有智力任务上超过人类的人工智能"
+    },
+    {
+      "i": 6,
+      "zh": "算力",
+      "en": "computing",
+      "ipa": "/kəmˈpjuːtɪŋ/",
+      "pos": "n.",
+      "gloss": "计算能力，支撑人工智能模型训练和运行的核心资源"
+    },
+    {
+      "i": 9,
+      "zh": "监管",
+      "en": "regulation",
+      "ipa": "/ˌreɡjuˈleɪʃn/",
+      "pos": "n.",
+      "gloss": "监管，用于规范人工智能发展的政策和规则"
+    },
+    {
+      "i": 17,
+      "zh": "玻尔兹曼机",
+      "en": "Boltzmann",
+      "ipa": "/ˈboʊltsmən/",
+      "pos": "n.",
+      "gloss": "玻尔兹曼，这里指玻尔兹曼机神经网络模型"
+    },
+    {
+      "i": 20,
+      "zh": "反向传播",
+      "en": "backprop",
+      "ipa": "/ˈbækprɒp/",
+      "pos": "n.",
+      "gloss": "反向传播算法，深度学习模型训练的核心算法"
+    },
+    {
+      "i": 23,
+      "zh": "深度学习",
+      "en": "learning",
+      "ipa": "/ˈlɜːnɪŋ/",
+      "pos": "n.",
+      "gloss": "学习，这里指深度学习技术"
+    },
+    {
+      "i": 30,
+      "zh": "大模型",
+      "en": "LLM",
+      "ipa": "/ˌel el ˈem/",
+      "pos": "abbr.",
+      "gloss": "大语言模型，当前主流的人工智能技术形态"
+    },
+    {
+      "i": 44,
+      "zh": "多模态",
+      "en": "multimodal",
+      "ipa": "/ˌmʌltiˈməʊdl/",
+      "pos": "adj.",
+      "gloss": "多模态的，指能同时处理多种类型数据的人工智能"
+    },
+    {
+      "i": 63,
+      "zh": "算法",
+      "en": "algorithm",
+      "ipa": "/ˈælɡərɪðəm/",
+      "pos": "n.",
+      "gloss": "算法，人工智能模型运行的核心逻辑规则"
+    }
+  ]
+}
