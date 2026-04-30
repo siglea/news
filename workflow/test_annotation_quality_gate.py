@@ -48,5 +48,28 @@ class TestEnPlaceholders(unittest.TestCase):
         self.assertTrue(en_suspect_placeholder_or_fake("howcome"))
         self.assertTrue(en_suspect_placeholder_or_fake("postalphafold52"))
 
+
+class TestZhBoundaryHeuristics(unittest.TestCase):
+    def test_short_particle_tail_warn(self) -> None:
+        from annotation_quality_gate import zh_boundary_suspect
+
+        body1 = "一场类似次贷危机的风险正在酝酿。"
+        body2 = "固定数量的请求将改为按用量结算。"
+        self.assertEqual(zh_boundary_suspect(body1, "机的"), "short-zh-tail-particle")
+        self.assertEqual(zh_boundary_suspect(body2, "数量的"), "short-zh-tail-particle")
+
+    def test_translit_name_right_cut_warn(self) -> None:
+        from annotation_quality_gate import zh_boundary_suspect
+
+        body = "对于萨姆·阿尔特曼来说，未来取决于融资。"
+        self.assertEqual(zh_boundary_suspect(body, "阿尔特"), "translit-name-right-cut")
+
+    def test_normal_anchor_not_warn(self) -> None:
+        from annotation_quality_gate import zh_boundary_suspect
+
+        body = "真实用量成本开始暴露，订阅补贴模式难以持续。"
+        self.assertIsNone(zh_boundary_suspect(body, "真实用量成本"))
+        self.assertIsNone(zh_boundary_suspect(body, "补贴模式"))
+
 if __name__ == "__main__":
     unittest.main()

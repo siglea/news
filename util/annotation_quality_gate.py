@@ -38,6 +38,7 @@ _TRUNCATED_ENDING = tuple("的了着过和与及并而或在是就又还让把�
 _ZH_MULTI_TERM_MARKERS = ("、", "，", ",", "和", "与", "及", "并", "或")
 _SENT_END_PUNCT = "。！？；!?;"
 _EN_TOKEN_RE = re.compile(r"^[A-Za-z0-9.]+$")
+_CJK_CHAR_RE = re.compile(r"[\u4e00-\u9fff]")
 
 
 def _norm(s: Any) -> str:
@@ -63,6 +64,45 @@ def _en_stem_after_trailing_digits(en: str) -> str:
     e = en.strip()
     s = _EN_STRIP_TRAILING_DIGITS.sub("", e).strip() or e
     return s.lower()
+
+
+def _is_cjk(ch: str) -> bool:
+    return bool(ch) and bool(_CJK_CHAR_RE.fullmatch(ch))
+
+
+def _find_span(haystack: str, needle: str) -> tuple[int, int] | None:
+    i = haystack.find(needle)
+    if i < 0:
+        return None
+    return i, i + len(needle)
+
+
+def zh_boundary_suspect(sentence_body: str, zh: str) -> str | None:
+    """检测 zh 可能切在中文复合词/音译名内部，返回原因字符串。"""
+    z = _norm(zh)
+    s = _norm(sentence_body)
+    if not z or not s:
+        return None
+    span = _find_span(s, z)
+    if span is None:
+        return None
+    lo, hi = span
+    left = s[lo - 1] if lo > 0 else ""
+    right = s[hi] if hi < len(s) else ""
+
+    # 例: "危机的" -> 标注 "机的" / "数量的"；短锚点尾部是助词通常表示切分不稳。
+    if len(z) <= 3 and z[-1] in _TRUNCATED_ENDING and _is_cjk(z[0]):
+        return "short-zh-tail-particle"
+
+    # 例: "萨姆·阿尔特曼" -> 标注 "阿尔特"；带中点的音译名中，右侧仍是中文常为截断。
+    if "·" in s and len(z) >= 2 and _is_cjk(z[0]) and _is_cjk(right):
+        return "translit-name-right-cut"
+
+    # 例: 两侧都是中文、且锚点很短，易命中复合词内部（仅告警，不阻断）。
+    if len(z) <= 2 and _is_cjk(left) and _is_cjk(right):
+        return "very-short-inner-cut"
+
+    return None
 
 
 def en_suspect_placeholder_or_fake(en: str) -> bool:
@@ -110,6 +150,7 @@ def check_quality(
 
     bad_placeholder: list[int] = []
     suspicious_cut: list[int] = []
+    boundary_suspect: list[tuple[int, str, str]] = []
     en_tokens: list[str] = []
     for item in non_skip:
         idx = int(item.get("i", -1))
@@ -140,6 +181,10 @@ def check_quality(
                 body = _sentence_body(sentences[idx])
                 if zh and zh not in body:
                     errors.append(f"句 {idx}: zh 不在原句正文中（zh={zh}）。")
+                elif zh:
+                    reason = zh_boundary_suspect(body, zh)
+                    if reason:
+                        boundary_suspect.append((idx, zh, reason))
 
     if bad_placeholder:
         errors.append(
@@ -159,6 +204,12 @@ def check_quality(
         warnings.append(
             "检测到可能截断的 zh 结尾（启发式）句序号: "
             f"{suspicious_cut[:20]}{'...' if len(suspicious_cut) > 20 else ''}"
+        )
+    if boundary_suspect:
+        preview = [f"{i}:{z}({r})" for i, z, r in boundary_suspect[:20]]
+        warnings.append(
+            "检测到可能切在中文复合词/音译名内部的 zh（T-N10 启发式）: "
+            f"{preview}{'...' if len(boundary_suspect) > 20 else ''}"
         )
 
     return errors, warnings
