@@ -36,3 +36,21 @@ pip3 install -r workflow/requirements.txt
 | 3 出 HTML | 同上 |
 | 4 本地预览 | 仅 Python：`python -m http.server` |
 | 4 远程发布 | Node + EdgeOne CLI |
+
+## 本地 / CI 一键检查
+
+仓库根有 **`Makefile`**，封装了常用检查命令（push 前推荐至少跑一次 `make ci`）：
+
+```bash
+make test                  # workflow/test_*.py 单元测试
+make validate-annotations  # 全部草稿的 llm_annotations.json 质量门禁
+make validate-posts        # posts/*.html 版式校验
+make validate              # annotations + posts
+make ci                    # test + validate（推荐 CI 入口）
+```
+
+如果你已经建好 `.venv`，可显式覆盖 Python 二进制：
+
+```bash
+make ci PYTHON=.venv/bin/python
+```
