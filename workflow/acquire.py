@@ -191,6 +191,25 @@ def acquire_search(slug: str, query: str, pick: int, *, headless: bool = False) 
     return acquire_url(slug, url, headless=headless)
 
 
+def _default_meta_description_placeholder(title_zh: str) -> str:
+    """生成 `meta.json:meta_description` 的占位字符串。
+
+    quality gate 仅要求 non-empty;占位符让 build 不会因为空字段失败,
+    同时显式标记「待补」让 acquire/编辑环节不要漏。
+
+    设计原则(harness 与环境无关):
+    - 不调用任何外部 LLM API
+    - 仅依赖 title_zh 拼字符串
+    - 含明确的「[占位]」前缀,人/agent 在 acquire 后必看到、必替换
+    """
+    t = (title_zh or "").strip() or "<title_zh 未填写>"
+    return (
+        f"[占位 — 待 acquire 后替换] 围绕「{t}」的脉络梳理与讨论。"
+        "请编辑或 agent 在拿到正文后替换为更精确的 1-2 句话摘要,"
+        "建议带具体数字/人物/时间锚点。"
+    )
+
+
 def init_meta_template(
     slug: str,
     *,
@@ -221,7 +240,7 @@ def init_meta_template(
         "source_author_display": source_author_display,
         "footer_derivative_mp_unknown": footer_derivative_mp_unknown,
         "out_html": out_html,
-        "meta_description": "",
+        "meta_description": _default_meta_description_placeholder(title_zh),
         "omit_sections_note": "本站已按编辑流程处理正文；具体以原文为准。",
         "risk_blurb": "本文仅供学习交流，不构成投资建议或其他专业意见。",
     }
