@@ -90,8 +90,14 @@ def zh_boundary_suspect(sentence_body: str, zh: str) -> str | None:
     left = s[lo - 1] if lo > 0 else ""
     right = s[hi] if hi < len(s) else ""
 
-    # 例: "危机的" -> 标注 "机的" / "数量的"；短锚点尾部是助词通常表示切分不稳。
-    if len(z) <= 3 and z[-1] in _TRUNCATED_ENDING and _is_cjk(z[0]):
+    # 例: "危机的" -> 标注 "机的"；锚点为单字 + 助词的形式通常是切分不稳。
+    #
+    # T-N10 v3 (2026-04-30): 收紧到 len == 2(单字 + 助词),避免误伤 2 字形容词 + 的
+    # 的合理标注(如 `昂贵的=costly` / `传统的=classical`)。
+    # 这意味着 `数量的`/`错误的`(3 字,即 2 字基词 + 的)不再 WARN — 这些是 borderline,
+    # 因为 2 字基词通常是完整词,助词是合理的 inflection。如果未来需要 catch
+    # `数量的=quantitative` 这种语义错误,在 v4 加 noun-vs-adj 启发或白名单。
+    if len(z) == 2 and z[-1] in _TRUNCATED_ENDING and _is_cjk(z[0]):
         return "short-zh-tail-particle"
 
     # 例: "萨姆·阿尔特曼" -> 标注 "阿尔特"；带中点的音译名中，右侧仍是中文常为截断。
