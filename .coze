@@ -1,12 +1,16 @@
 [project]
-requires = ["nodejs-24"]
+requires = ["python-3"]
+
+# MingoX 是纯静态站点，无需构建步骤；运行时只需要在仓库根起一个静态服务器。
+# 历史的 ./scripts/build.sh / ./scripts/start.sh 不存在（且 .gitignore 排除 /scripts/），
+# 已替换为 Python 标准库 http.server，无任何额外依赖。
 
 [dev]
-build = ["bash", "./scripts/build.sh"]
-run = ["bash", "./scripts/start.sh"]
+build = ["true"]
+run = ["python3", "-m", "http.server", "8765"]
 deps = ["git"] # -> apt install git
 
 [deploy]
-build = ["bash", "./scripts/build.sh"]
-run = ["bash", "./scripts/start.sh"]
+build = ["true"]
+run = ["python3", "-m", "http.server", "8765"]
 deps = ["git"] # -> apt install git
