@@ -35,6 +35,7 @@
 ### A. 源内容清理
 - `01-source.md` 末尾不得包含运营文案（如“扫描二维码/添加小助手/关注公众号/阅读原文/长按识别”）。
 - 允许保留有信息价值的原文来源链接（如播客/视频原链接）。
+- 自动化检查：`python3 workflow/mingox.py normalize-source --slug <slug> --check`（发现高置信尾巴时 exit 1，可作为 `close-loop` 前置 gate）。
 
 ### B. 标注一致性
 - `validate --annotations --slug <slug>` 必须通过（无 FAIL）。
