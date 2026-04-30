@@ -5,6 +5,12 @@
 2. **默认 --check 零破坏**:文件不被修改
 3. **--auto-truncate 触发条件可解释**:仅在尾部 high-conf 命中时实际截断
 4. **单测覆盖反例**:运营词出现在正文中部不应触发
+
+T-N9 扩展(2026-04-30):补全公众号经典尾巴 pattern
+- "在看"系(`觉得好看,请点"在看"` 是 ai-subprime 上线漏抓的 must-fix 复现)
+- 三连系(`点赞收藏` / `点赞、转发` / `点赞、在看`)
+- 星标系(`加为星标` / `设为星标` / `星标我们`)
+- 朋友圈系(`转发朋友圈` / `分享朋友圈`)
 """
 
 from __future__ import annotations
@@ -83,6 +89,95 @@ class TestPatternMatching(unittest.TestCase):
         self.assertTrue(label.startswith("mid-conf"))
 
 
+class TestZaikanFamily(unittest.TestCase):
+    """T-N9: '在看' 系经典公众号尾巴 — ai-subprime 漏抓 must-fix 复现。"""
+
+    def test_ai_subprime_must_fix_literal(self) -> None:
+        """复现 ai-subprime 上线漏抓的字面 case(中文全角引号包住"在看")。"""
+        s = '觉得好看，请点"在看"'
+        is_op, label = _is_operational_paragraph(s)
+        self.assertTrue(is_op, f"ai-subprime must-fix 漏抓:{label!r}")
+        self.assertTrue(
+            label.startswith("high-conf"),
+            f"应该是 high-conf 而非 mid-conf:{label}",
+        )
+
+    def test_zaikan_variants(self) -> None:
+        """各种 '在看' 引导词变体都应被识别。"""
+        variants = [
+            "请点在看",
+            "请点 在看",
+            '请点"在看"',  # ascii 双引号
+            "请点'在看'",  # 中文单引号
+            "点击在看",
+            "点个在看",
+            "点一下在看",
+            "帮点在看",
+            "帮点 在看",
+            "动动手指点在看",
+        ]
+        for s in variants:
+            with self.subTest(s=s):
+                is_op, label = _is_operational_paragraph(s)
+                self.assertTrue(is_op, f"{s!r} 应被识别;label={label!r}")
+
+    def test_dianzan_combo(self) -> None:
+        """点赞 + 在看/转发/收藏 三连各种组合。"""
+        for s in (
+            "点赞在看",
+            "点赞、在看",
+            "点赞和在看",
+            "点赞 在看",
+            "点赞、转发",
+            "点赞、转发、收藏",
+            "点赞 转发",
+            "点赞和转发到朋友圈",
+            "点赞收藏在看三连",
+            "点赞收藏转发",
+        ):
+            with self.subTest(s=s):
+                is_op, _ = _is_operational_paragraph(s)
+                self.assertTrue(is_op, f"{s!r} 应被识别为运营段")
+
+    def test_xingbiao_family(self) -> None:
+        """'星标' 系运营段。"""
+        for s in (
+            "加为星标",
+            "设为星标",
+            "加星标",
+            "星标我们的公众号",
+            "星标公众号",
+        ):
+            with self.subTest(s=s):
+                is_op, _ = _is_operational_paragraph(s)
+                self.assertTrue(is_op, f"{s!r} 应被识别")
+
+    def test_pengyouquan_family(self) -> None:
+        """朋友圈系。"""
+        for s in (
+            "转发朋友圈",
+            "分享朋友圈",
+            "请转发朋友圈支持一下",
+        ):
+            with self.subTest(s=s):
+                is_op, _ = _is_operational_paragraph(s)
+                self.assertTrue(is_op, f"{s!r} 应被识别")
+
+    def test_dianzan_zaikan_negative_body(self) -> None:
+        """T-N9 negative cases:body 中性句**不应**误伤。"""
+        body_sentences = [
+            # 单字 '在看' 或单字 '点' 出现在正文,无 'X+在看' 组合
+            "他在看那本书,不过看得不太细。",
+            "我们点这个菜单上的特色菜。",
+            "她说这部电影非常好看,推荐给大家。",
+            "本文重点关注美股估值的回归路径,具体细节见下文。",
+        ]
+        for s in body_sentences:
+            with self.subTest(s=s):
+                is_op, label = _is_operational_paragraph(s)
+                self.assertFalse(is_op, f"误伤 body:{s!r} → {label!r}")
+
+
 class TestBodyDetection(unittest.TestCase):
     def test_long_normal_text_is_body(self) -> None:
         s = "这是一段足够长的正文段落,论述充分,字数已超过 30 字符的最低门槛。"
@@ -146,6 +241,38 @@ class TestTruncationLogic(unittest.TestCase):
         # 播客链接(45 字符,无 high-conf 词)也被识别为 body
         # 所以 last body = idx 3, cut from idx 4 ("扫描二维码")
         self.assertEqual(cut_idx, 4)
+
+    def test_ai_subprime_case_real(self) -> None:
+        """T-N9 复现 ai-subprime 篇 must-fix 模式(`觉得好看,请点"在看"` 漏抓)。"""
+        # 模拟 ai-subprime 真实结构:正文 N 段 + 末尾"觉得好看，请点"在看""
+        paras = [
+            "微软近日宣布GitHub Copilot将于2026年6月转向基于用量的计费模式,"
+            "这一转变撕开了生成式AI行业'补贴换增长'的假象。",
+            "AI模式相当于优步收 20 美元月费允许你跑 100 趟长途,"
+            "却要为每加仑 150 美元的油价买单。",
+            "OpenAI 必须在 4 年内通过营收或融资筹集到 8520 亿美元。"
+            "如果失败,甲骨文的股价大跌将引发连锁的保证金追缴。",
+            "预警信号:OpenAI CFO Sarah Friar 已表达担忧,"
+            "称如果收入增长不够快,公司可能无法支付未来的计算合同。",
+            '觉得好看，请点"在看"',  # 上线漏抓的 must-fix
+        ]
+        cut_idx = _find_truncation_point(paras)
+        self.assertEqual(
+            cut_idx,
+            4,
+            "ai-subprime tail 漏抓回归:应从 idx 4 (觉得好看,请点'在看') 起截断",
+        )
+
+    def test_dianzan_zhuanfa_tail_real(self) -> None:
+        """复合三连尾巴(点赞、转发、收藏)。"""
+        paras = [
+            "正文段落一,字数足够长,论述充分讨论核心论点。" * 2,
+            "正文段落二,继续展开举例,提供数据和案例支撑。" * 2,
+            "正文段落三,完整收束论点,字数足够长。" * 2,
+            "如果觉得本文有帮助,请点赞、转发、收藏",
+        ]
+        cut_idx = _find_truncation_point(paras)
+        self.assertEqual(cut_idx, 3, "三连 tail 应被截断")
 
 
 class TestCmdNormalizeSourceFlow(unittest.TestCase):
