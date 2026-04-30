@@ -1,0 +1,30 @@
+{
+  "slug": "ai-subprime-crisis-usage-pricing-bubble-burst",
+  "title_zh": "“AI次贷危机”初现端倪：按量计费，撕开了\"补贴换增长\"的遮羞布，AI泡沫或破裂",
+  "title_en": "AI Subprime Crisis Emerges as Usage-Based Pricing Exposes the Subsidy-Driven Growth Illusion",
+  "title_emoji": "⚠️",
+  "date": "2026-04-30",
+  "source_url": "https://mp.weixin.qq.com/s/8JQwSFQwWh1fg14mSXumIw",
+  "source_account": "华尔街见闻",
+  "include_source_footer": true,
+  "footer_template": "derivative",
+  "source_author_display": "华尔街见闻",
+  "footer_derivative_mp_unknown": false,
+  "out_html": "posts/2026-04-30-ai-subprime-crisis-usage-pricing-bubble-burst.html",
+  "meta_description": "围绕 GitHub Copilot 转向按量计费引发的连锁反应，梳理生成式 AI 从“补贴换增长”走向真实成本暴露的拐点，讨论高推理成本、数据中心债务结构与 OpenAI-Oracle 对赌所折射的行业泡沫风险。",
+  "omit_sections_note": "本站已按编辑流程处理正文；具体以原文为准。",
+  "risk_blurb": "本文仅供学习交流，不构成投资建议或其他专业意见。",
+  "source_mode": "url",
+  "tags": [
+    "AI次贷危机",
+    "按量计费",
+    "GitHub Copilot",
+    "Anthropic",
+    "OpenAI",
+    "Oracle",
+    "数据中心",
+    "AI泡沫",
+    "华尔街见闻",
+    "转载"
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "补贴",
+      "en": "allowance",
+      "ipa": "[əˈlaʊəns]",
+      "pos": "n.",
+      "gloss": "补贴，津贴；允许量；零用钱"
+    },
+    {
+      "i": 1,
+      "zh": "评论家",
+      "en": "critic",
+      "ipa": "[ˈkrɪtɪk]",
+      "pos": "n.",
+      "gloss": "批评家,评论家"
+    },
+    {
+      "i": 2,
+      "zh": "昂贵的",
+      "en": "costly",
+      "ipa": "[ˈkɔstli]",
+      "pos": "adj.",
+      "gloss": "昂贵的；代价高的"
+    },
+    {
+      "i": 3,
+      "zh": "阿尔特",
+      "en": "alter",
+      "ipa": "[ˈɔltər]",
+      "pos": "n.",
+      "gloss": "(lter)人名；(英)奥尔特；(德、捷、葡、爱沙、立陶、拉脱、俄、西、罗、瑞典)阿尔特"
+    },
+    {
+      "i": 4,
+      "zh": "保证",
+      "en": "assurance",
+      "ipa": "[əˈʃʊrəns]",
+      "pos": "n.",
+      "gloss": "保证，担保；（人寿）保险；确信；断言；厚脸皮，无耻"
+    },
+    {
+      "i": 5,
+      "zh": "计划",
+      "en": "blueprint",
+      "ipa": "[ˈbluˌprɪnt]",
+      "pos": "v.",
+      "gloss": "计划；制成蓝图"
+    },
+    {
+      "i": 6,
+      "zh": "数量的",
+      "en": "quantitative",
+      "ipa": "[kˈwɑntɪˌteɪtɪv]",
+      "pos": "adj.",
+      "gloss": "定量的；量的，数量的"
+    },
+    {
+      "i": 7,
+      "zh": "实质",
+      "en": "essence",
+      "ipa": "[ˈesns]",
+      "pos": "n.",
+      "gloss": "本质,实质"
+    },
+    {
+      "i": 8,
+      "zh": "亏损",
+      "en": "deficit",
+      "ipa": "[ˈdɛfəsət]",
+      "pos": "n.",
+      "gloss": "赤字,逆差;亏损,亏空;不足,缺乏"
+    },
+    {
+      "i": 9,
+      "zh": "传统的",
+      "en": "classical",
+      "ipa": "[ˈklæsɪkəl]",
+      "pos": "adj.",
+      "gloss": "古典的；经典的；传统的；第一流的"
+    },
+    {
+      "i": 10,
+      "zh": "机的",
+      "en": "analogue",
+      "ipa": "[ˈænəˌlɔg]",
+      "pos": "adj.",
+      "gloss": "类似的；相似物的；模拟计算机的"
+    },
+    {
+      "i": 11,
+      "zh": "错误的",
+      "en": "erroneous",
+      "ipa": "[ɛˈroʊniəs]",
+      "pos": "adj.",
+      "gloss": "错误的；不正确的"
+    },
+    {
+      "i": 12,
+      "zh": "不同",
+      "en": "differ",
+      "ipa": "[ˈdɪfər]",
+      "pos": "v.",
+      "gloss": "使…相异；使…不同"
+    },
+    {
+      "i": 13,
+      "zh": "源于",
+      "en": "derive",
+      "ipa": "[dəraɪv]",
+      "pos": "v.",
+      "gloss": "源于；得自；获得"
+    },
+    {
+      "i": 14,
+      "zh": "相当于",
+      "en": "correspond",
+      "ipa": "[ˌkɔrəˈspɑnd]",
+      "pos": "vi.",
+      "gloss": "通信；符合， 一致；相当于， 对应"
+    },
+    {
+      "i": 15,
+      "zh": "惊人的",
+      "en": "marvelous",
+      "ipa": "[ˈmɑrvələs]",
+      "pos": "adj.",
+      "gloss": "(marvellous)惊人的,奇迹般的,妙极的"
+    },
+    {
+      "i": 16,
+      "zh": "包含",
+      "en": "comprehend",
+      "ipa": "[ˌkɑmpriˈhɛnd]",
+      "pos": "v.",
+      "gloss": "理解；包含；由…组成"
+    },
+    {
+      "i": 17,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 18,
+      "zh": "数据中心",
+      "en": "datacenter",
+      "ipa": "[ˈdeɪtəsentə]",
+      "pos": "n.",
+      "gloss": "数据中心"
+    },
+    {
+      "i": 19,
+      "zh": "大部分",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 20,
+      "zh": "微薄的",
+      "en": "slender",
+      "ipa": "[sˈlɛndər]",
+      "pos": "adj.",
+      "gloss": "细长的；苗条的；微薄的"
+    },
+    {
+      "i": 21,
+      "zh": "资产",
+      "en": "asset",
+      "ipa": "[ˈæˌsɛt]",
+      "pos": "n.",
+      "gloss": "资产， 财产；优点； 有用的东西"
+    },
+    {
+      "i": 22,
+      "zh": "全部",
+      "en": "wholly",
+      "ipa": "[ˈhoʊli]",
+      "pos": "adv.",
+      "gloss": "完全地；全部；统统"
+    },
+    {
+      "i": 23,
+      "zh": "成本",
+      "en": "costing",
+      "ipa": "[ˈkɒstɪŋ]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 24,
+      "zh": "唯一的",
+      "en": "sole",
+      "ipa": "[soʊl]",
+      "pos": "adj.",
+      "gloss": "单独的,唯一的"
+    },
+    {
+      "i": 25,
+      "zh": "通过",
+      "en": "approve",
+      "ipa": "[əˈpruv]",
+      "pos": "v.",
+      "gloss": "批准，通过；(of)赞成，赞许，同意"
+    },
+    {
+      "i": 26,
+      "zh": "合同",
+      "en": "bargain",
+      "ipa": "[ˈbɑrgɪn]",
+      "pos": "n.",
+      "gloss": "廉价货；交易,契约,合同"
+    },
+    {
+      "i": 27,
+      "skip": true
+    }
+  ]
+}

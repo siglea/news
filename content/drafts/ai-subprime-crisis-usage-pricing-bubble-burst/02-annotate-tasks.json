@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "ai-subprime-crisis-usage-pricing-bubble-burst",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "微软近日宣布GitHub Copilot将于2026年6月转向基于用量的计费模式，这一转变撕开了生成式AI行业“补贴换增长”的假象。",
+      "html": "<p>微软近日宣布GitHub Copilot将于2026年6月转向基于用量的计费模式，这一转变撕开了生成式AI行业“<span class=\"word-annot\"><span class=\"word-anchor\">补贴</span><span class=\"word-block\"><span class=\"english-word\">allowance</span><span class=\"word-info\">[əˈlaʊəns] n. 补贴，津贴；允许量；零用钱</span></span></span>换增长”的假象。</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "著名科技评论家 Ed Zitron认为，AI订阅模式从一开始就是一种欺骗，旨在掩盖生成式AI的真实成本以获取用户 。随着微软、Anthropic 等公司转向按量计费，用户将不得不直面昂贵的真实开支，而整个AI泡沫可能因此破裂 。",
+      "html": "<p>著名科技<span class=\"word-annot\"><span class=\"word-anchor\">评论家</span><span class=\"word-block\"><span class=\"english-word\">critic</span><span class=\"word-info\">[ˈkrɪtɪk] n. 批评家,评论家</span></span></span> Ed Zitron认为，AI订阅模式从一开始就是一种欺骗，旨在掩盖生成式AI的真实成本以获取用户。随着微软、Anthropic 等公司转向按量计费，用户将不得不直面<span class=\"word-annot\"><span class=\"word-anchor\">昂贵的</span><span class=\"word-block\"><span class=\"english-word\">costly</span><span class=\"word-info\">[ˈkɔstli] adj. 昂贵的；代价高的</span></span></span>真实开支，而整个AI泡沫可能因此破裂。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "对于甲骨文CEO拉里·埃里森（Larry Ellison）来说，他的未来现在取决于萨姆·阿尔特曼（Sam Altman）能否在四年内筹集到8520亿美元 。如果失败，甲骨文的股价大跌将引发连锁的保证金追缴，彻底葬送其财富帝国 。",
+      "html": "<p>对于甲骨文CEO拉里·埃里森（Larry Ellison）来说，他的未来现在取决于萨姆·<span class=\"word-annot\"><span class=\"word-anchor\">阿尔特</span><span class=\"word-block\"><span class=\"english-word\">alter</span><span class=\"word-info\">[ˈɔltər] n. (lter)人名；(英)奥尔特；(德、捷、葡、爱沙、立陶、拉脱、俄、西、罗、瑞典)阿尔特</span></span></span>曼（Sam Altman）能否在四年内筹集到8520亿美元。如果失败，甲骨文的股价大跌将引发连锁的<span class=\"word-annot\"><span class=\"word-anchor\">保证</span><span class=\"word-block\"><span class=\"english-word\">assurance</span><span class=\"word-info\">[əˈʃʊrəns] n. 保证，担保；（人寿）保险；确信；断言；厚脸皮，无耻</span></span></span>金追缴，彻底葬送其财富帝国。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "GitHub Copilot 用户收到了确认：从2026年6月1日起，所有计划将转向按量计费（usage-based pricing） 。",
+      "html": "<p>GitHub Copilot 用户收到了确认：从2026年6月1日起，所有<span class=\"word-annot\"><span class=\"word-anchor\">计划</span><span class=\"word-block\"><span class=\"english-word\">blueprint</span><span class=\"word-info\">[ˈbluˌprɪnt] v. 计划；制成蓝图</span></span></span>将转向按量计费（usage-based pricing）。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "计费逻辑巨变：微软不再提供固定数量的“请求”，而是根据模型消耗的实际代币（tokens）收费 。",
+      "html": "<p>计费逻辑巨变：微软不再提供固定<span class=\"word-annot\"><span class=\"word-anchor\">数量的</span><span class=\"word-block\"><span class=\"english-word\">quantitative</span><span class=\"word-info\">[kˈwɑntɪˌteɪtɪv] adj. 定量的；量的，数量的</span></span></span>“请求”，而是根据模型消耗的实际代币（tokens）收费。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "实质性涨价：原本每月19美元的订阅费将直接转化为19美元的代币额度 。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">实质</span><span class=\"word-block\"><span class=\"english-word\">essence</span><span class=\"word-info\">[ˈesns] n. 本质,实质</span></span></span>性涨价：原本每月19美元的订阅费将直接转化为19美元的代币额度。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "告别补贴：据《华尔街日报》2023 年报道，微软平均每位用户每月亏损20美元，部分重度用户甚至导致公司亏损 80 美元 。",
+      "html": "<p>告别补贴：据《华尔街日报》2023 年报道，微软平均每位用户每月<span class=\"word-annot\"><span class=\"word-anchor\">亏损</span><span class=\"word-block\"><span class=\"english-word\">deficit</span><span class=\"word-info\">[ˈdɛfəsət] n. 赤字,逆差;亏损,亏空;不足,缺乏</span></span></span>20美元，部分重度用户甚至导致公司亏损 80 美元。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "微软将此举包装为“迈向可持续发展的 Copilot 业务” ，但本质上是因为 AI 推理成本过高，导致传统的月费模式已无法维系 。",
+      "html": "<p>微软将此举包装为“迈向可持续发展的 Copilot 业务” ，但本质上是因为 AI 推理成本过高，导致<span class=\"word-annot\"><span class=\"word-anchor\">传统的</span><span class=\"word-block\"><span class=\"english-word\">classical</span><span class=\"word-info\">[ˈklæsɪkəl] adj. 古典的；经典的；传统的；第一流的</span></span></span>月费模式已无法维系。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "Ed Zitron 认为，一场类似次贷危机的风险正在 AI 行业酝酿 。",
+      "html": "<p>Ed Zitron 认为，一场类似次贷危<span class=\"word-annot\"><span class=\"word-anchor\">机的</span><span class=\"word-block\"><span class=\"english-word\">analogue</span><span class=\"word-info\">[ˈænəˌlɔg] adj. 类似的；相似物的；模拟计算机的</span></span></span>风险正在 AI 行业酝酿。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "1. 错误的“优步”类比",
+      "html": "<p>1. <span class=\"word-annot\"><span class=\"word-anchor\">错误的</span><span class=\"word-block\"><span class=\"english-word\">erroneous</span><span class=\"word-info\">[ɛˈroʊniəs] adj. 错误的；不正确的</span></span></span>“优步”类比</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "生成式 AI 的订阅模式与优步（Uber）截然不同 。",
+      "html": "<p>生成式 AI 的订阅模式与优步（Uber）截然<span class=\"word-annot\"><span class=\"word-anchor\">不同</span><span class=\"word-block\"><span class=\"english-word\">differ</span><span class=\"word-info\">[ˈdɪfər] v. 使…相异；使…不同</span></span></span>。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "优步模式：亏损源于营销和补贴，但并不补贴司机的汽油费 。",
+      "html": "<p>优步模式：亏损<span class=\"word-annot\"><span class=\"word-anchor\">源于</span><span class=\"word-block\"><span class=\"english-word\">derive</span><span class=\"word-info\">[dəraɪv] v. 源于；得自；获得</span></span></span>营销和补贴，但并不补贴司机的汽油费。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "AI 模式：相当于优步收 20 美元月费允许你跑 100 趟长途，却要为每加仑 150 美元的油价买单 。",
+      "html": "<p>AI 模式：<span class=\"word-annot\"><span class=\"word-anchor\">相当于</span><span class=\"word-block\"><span class=\"english-word\">correspond</span><span class=\"word-info\">[ˌkɔrəˈspɑnd] vi. 通信；符合， 一致；相当于， 对应</span></span></span>优步收 20 美元月费允许你跑 100 趟长途，却要为每加仑 150 美元的油价买单。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "2. 惊人的真实用量成本",
+      "html": "<p>2. <span class=\"word-annot\"><span class=\"word-anchor\">惊人的</span><span class=\"word-block\"><span class=\"english-word\">marvelous</span><span class=\"word-info\">[ˈmɑrvələs] adj. (marvellous)惊人的,奇迹般的,妙极的</span></span></span>真实用量成本</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "单次请求成本：有用户估算，一次包含 6 万个代币上下文的“溢价请求”实际价值约 11 美元 。",
+      "html": "<p>单次请求成本：有用户估算，一次<span class=\"word-annot\"><span class=\"word-anchor\">包含</span><span class=\"word-block\"><span class=\"english-word\">comprehend</span><span class=\"word-info\">[ˌkɑmpriˈhɛnd] v. 理解；包含；由…组成</span></span></span> 6 万个代币上下文的“溢价请求”实际价值约 11 美元。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "开发者开支：Anthropic 估计，使用 Claude Code 的开发者平均每天花费 13 至 30 美元，这意味着每位员工每年的代币开销可能高达 7560 美元 。",
+      "html": "<p>开发者开支：Anthropic 估计，使用 Claude Code 的开发者平均每天花费 13 至 30 美元，这<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">spell</span><span class=\"word-info\">[spɛl] v. 拼，拼写；意味着；招致；拼成；迷住；轮值</span></span></span>每位员工每年的代币开销可能高达 7560 美元。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "Ed Zitron表示，人工智能数据中心的建设与运营成本正变得不可理喻 。",
+      "html": "<p>Ed Zitron表示，人工智能<span class=\"word-annot\"><span class=\"word-anchor\">数据中心</span><span class=\"word-block\"><span class=\"english-word\">datacenter</span><span class=\"word-info\">[ˈdeɪtəsentə] n. 数据中心</span></span></span>的建设与运营成本正变得不可理喻。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "建设高昂：每兆瓦（MW）容量的成本约为 1400 万美元，其中大部分用于英伟达 GPU 。",
+      "html": "<p>建设高昂：每兆瓦（MW）容量的成本约为 1400 万美元，其中<span class=\"word-annot\"><span class=\"word-anchor\">大部分</span><span class=\"word-block\"><span class=\"english-word\">bulk</span><span class=\"word-info\">[bəlk] n. 体积，容量；大多数，大部分；大块</span></span></span>用于英伟达 GPU。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "微薄的利润：一个 100MW 的数据中心，在 100% 租用率下毛利率仅为 16.7% 。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">微薄的</span><span class=\"word-block\"><span class=\"english-word\">slender</span><span class=\"word-info\">[sˈlɛndər] adj. 细长的；苗条的；微薄的</span></span></span>利润：一个 100MW 的数据中心，在 100% 租用率下毛利率仅为 16.7%。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "债务炸弹：如果考虑购买 GPU 的 6 年期资产抵押贷款，在开始偿还本金后，数据中心的毛利率将变为负 40% 。",
+      "html": "<p>债务炸弹：如果考虑购买 GPU 的 6 年期<span class=\"word-annot\"><span class=\"word-anchor\">资产</span><span class=\"word-block\"><span class=\"english-word\">asset</span><span class=\"word-info\">[ˈæˌsɛt] n. 资产， 财产；优点； 有用的东西</span></span></span>抵押贷款，在开始偿还本金后，数据中心的毛利率将变为负 40%。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "甲骨文（Oracle）正将其全部未来押注在为 OpenAI 建设的“星门（Stargate）”项目上 。",
+      "html": "<p>甲骨文（Oracle）正将其<span class=\"word-annot\"><span class=\"word-anchor\">全部</span><span class=\"word-block\"><span class=\"english-word\">wholly</span><span class=\"word-info\">[ˈhoʊli] adv. 完全地；全部；统统</span></span></span>未来押注在为 OpenAI 建设的“星门（Stargate）”项目上。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "项目规模：1.2GW 园区，总成本约 528 亿美元 。",
+      "html": "<p>项目规模：1.2GW 园区，总<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">costing</span><span class=\"word-info\">[ˈkɒstɪŋ] n. 成本</span></span></span>约 528 亿美元。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "过度依赖：该项目的资金完全来源于数据中心自身的预期现金流，而 OpenAI 是其唯一的希望 。",
+      "html": "<p>过度依赖：该项目的资金完全来源于数据中心自身的预期现金流，而 OpenAI 是其<span class=\"word-annot\"><span class=\"word-anchor\">唯一的</span><span class=\"word-block\"><span class=\"english-word\">sole</span><span class=\"word-info\">[soʊl] adj. 单独的,唯一的</span></span></span>希望。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "疯狂的对赌：为了覆盖“星门”的建设成本，OpenAI 必须在 4 年内通过营收或融资筹集到 8520 亿美元 。",
+      "html": "<p>疯狂的对赌：为了覆盖“星门”的建设成本，OpenAI 必须在 4 年内<span class=\"word-annot\"><span class=\"word-anchor\">通过</span><span class=\"word-block\"><span class=\"english-word\">approve</span><span class=\"word-info\">[əˈpruv] v. 批准，通过；(of)赞成，赞许，同意</span></span></span>营收或融资筹集到 8520 亿美元。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "预警信号：OpenAI 首席财务官 Sarah Friar 已表达担忧，称如果收入增长不够快，公司可能无法支付未来的计算合同，且公司账目尚未准备好满足上市披露标准 。",
+      "html": "<p>预警信号：OpenAI 首席财务官 Sarah Friar 已表达担忧，称如果收入增长不够快，公司可能无法支付未来的计算<span class=\"word-annot\"><span class=\"word-anchor\">合同</span><span class=\"word-block\"><span class=\"english-word\">bargain</span><span class=\"word-info\">[ˈbɑrgɪn] n. 廉价货；交易,契约,合同</span></span></span>，且公司账目尚未准备好满足上市披露标准。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "觉得好看，请点“在看”",
+      "html": "<p>觉得好看，请点“在看”</p>"
+    }
+  ]
+}
