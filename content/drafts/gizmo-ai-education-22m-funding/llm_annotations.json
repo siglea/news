@@ -1,0 +1,429 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "skip": true
+    },
+    {
+      "i": 1,
+      "zh": "沉迷于",
+      "en": "indulge",
+      "ipa": "[ˌɪnˈdəlʤ]",
+      "pos": "v.",
+      "gloss": "满足；纵容；使高兴；使沉迷于…"
+    },
+    {
+      "i": 2,
+      "zh": "创立",
+      "en": "construct",
+      "ipa": "[ˈkɑnstrəkt]",
+      "pos": "v.",
+      "gloss": "建造，构造；创立"
+    },
+    {
+      "i": 3,
+      "zh": "联合创始",
+      "en": "cofounder",
+      "ipa": "[kəʊˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "联合创始人"
+    },
+    {
+      "i": 4,
+      "zh": "帮助",
+      "en": "assist",
+      "ipa": "[əˈsɪst]",
+      "pos": "v.",
+      "gloss": "协助，帮助，促进"
+    },
+    {
+      "i": 5,
+      "zh": "完成",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 6,
+      "zh": "参与",
+      "en": "participate",
+      "ipa": "[pɑrˈtɪsəˌpeɪt]",
+      "pos": "v.",
+      "gloss": "(in)参与,参加"
+    },
+    {
+      "i": 7,
+      "zh": "吸引",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 8,
+      "skip": true
+    },
+    {
+      "i": 9,
+      "zh": "的事物",
+      "en": "blur",
+      "ipa": "[blər]",
+      "pos": "n.",
+      "gloss": "污迹；模糊不清的事物"
+    },
+    {
+      "i": 10,
+      "zh": "有价值的",
+      "en": "worthy",
+      "ipa": "[ˈwərði]",
+      "pos": "adj.",
+      "gloss": "值得的；有价值的；配得上的，相称的；可尊敬的；应…的"
+    },
+    {
+      "i": 11,
+      "skip": true
+    },
+    {
+      "i": 12,
+      "skip": true
+    },
+    {
+      "i": 13,
+      "zh": "缩短",
+      "en": "clip",
+      "ipa": "[klɪp]",
+      "pos": "v.",
+      "gloss": "剪；剪掉；缩短；给…剪毛（或发）用别针别在某物上，用夹子夹在某物上"
+    },
+    {
+      "i": 14,
+      "zh": "吸引",
+      "en": "attract",
+      "ipa": "[əˈtrækt]",
+      "pos": "v.",
+      "gloss": "吸引；引起的注意(或兴趣等)"
+    },
+    {
+      "i": 15,
+      "zh": "化学",
+      "en": "chemistry",
+      "ipa": "[ˈkɛmɪstri]",
+      "pos": "n.",
+      "gloss": "化学；化学过程"
+    },
+    {
+      "i": 16,
+      "zh": "方式",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adv.",
+      "gloss": "以同样的方式；类似于"
+    },
+    {
+      "i": 17,
+      "zh": "不同的",
+      "en": "diverse",
+      "ipa": "[dɪˈvərs]",
+      "pos": "adj.",
+      "gloss": "多种多样的,不同的"
+    },
+    {
+      "i": 18,
+      "zh": "接受",
+      "en": "acceptance",
+      "ipa": "[əkˈsɛptəns]",
+      "pos": "n.",
+      "gloss": "正式接受；接纳；接受，赞同，赞成，认可"
+    },
+    {
+      "i": 19,
+      "zh": "适应",
+      "en": "adapt",
+      "ipa": "[əˈdæpt]",
+      "pos": "v.",
+      "gloss": "使适应；改编"
+    },
+    {
+      "i": 20,
+      "zh": "语言的",
+      "en": "linguistic",
+      "ipa": "[lɪŋgˈwɪstɪk]",
+      "pos": "adj.",
+      "gloss": "语言的；语言学的"
+    },
+    {
+      "i": 21,
+      "zh": "排行榜",
+      "en": "chart",
+      "ipa": "[ʧɑrt]",
+      "pos": "n.",
+      "gloss": "图表；海图；图纸；排行榜"
+    },
+    {
+      "i": 22,
+      "zh": "通过",
+      "en": "approve",
+      "ipa": "[əˈpruv]",
+      "pos": "v.",
+      "gloss": "批准，通过；(of)赞成，赞许，同意"
+    },
+    {
+      "i": 23,
+      "zh": "孤立的",
+      "en": "isolate",
+      "ipa": "[ˈaɪsəˌleɪt]",
+      "pos": "adj.",
+      "gloss": "隔离的；孤立的"
+    },
+    {
+      "i": 24,
+      "zh": "丰富",
+      "en": "abundance",
+      "ipa": "[əˈbəndəns]",
+      "pos": "n.",
+      "gloss": "充裕，丰富"
+    },
+    {
+      "i": 25,
+      "zh": "方面",
+      "en": "angle",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 26,
+      "zh": "停留",
+      "en": "abide",
+      "ipa": "[əˈbaɪd]",
+      "pos": "v.",
+      "gloss": "忍受，容忍；停留；遵守"
+    },
+    {
+      "i": 27,
+      "zh": "机制",
+      "en": "mechanism",
+      "ipa": "[ˈmɛkəˌnɪzəm]",
+      "pos": "n.",
+      "gloss": "机制；原理，途径；进程；机械装置；技巧"
+    },
+    {
+      "i": 28,
+      "zh": "获得",
+      "en": "acquire",
+      "ipa": "[əkˈwaɪər]",
+      "pos": "v.",
+      "gloss": "获得；取得；学到；捕获"
+    },
+    {
+      "i": 29,
+      "zh": "驱动",
+      "en": "activate",
+      "ipa": "[ˈæktəˌveɪt]",
+      "pos": "v.",
+      "gloss": "启动，激活；驱动，驱使；使开始起作用"
+    },
+    {
+      "i": 30,
+      "zh": "贡献",
+      "en": "contribute",
+      "ipa": "[kənˈtrɪbjut]",
+      "pos": "v.",
+      "gloss": "贡献，出力；投稿；捐献"
+    },
+    {
+      "i": 31,
+      "zh": "思考",
+      "en": "consideration",
+      "ipa": "[kənˌsɪdərˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "考虑,思考；需要考虑的事；体谅,照顾"
+    },
+    {
+      "i": 32,
+      "zh": "能够",
+      "en": "enable",
+      "ipa": "[ɪˈneɪbl]",
+      "pos": "v.",
+      "gloss": "使能够，使成为可能；授予权利或方法"
+    },
+    {
+      "i": 33,
+      "zh": "真实的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 34,
+      "zh": "一段时间",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "n.",
+      "gloss": "符咒；一段时间；魅力"
+    },
+    {
+      "i": 35,
+      "zh": "方面",
+      "en": "aspect",
+      "ipa": "[ˈæspekt]",
+      "pos": "n.",
+      "gloss": "(问题等的)方面；样子, 外表, 面貌"
+    },
+    {
+      "i": 36,
+      "zh": "复杂的",
+      "en": "complicated",
+      "ipa": "[ˈkɑmpləˌkeɪtəd]",
+      "pos": "adj.",
+      "gloss": "难懂的，复杂的"
+    },
+    {
+      "i": 37,
+      "zh": "的事情",
+      "en": "sensation",
+      "ipa": "[sɛnˈseɪʃən]",
+      "pos": "n.",
+      "gloss": "感觉,知觉；激动,轰动,轰动一时的事情"
+    },
+    {
+      "i": 38,
+      "zh": "化学",
+      "en": "compound",
+      "ipa": "[ˈkɑmpaʊnd]",
+      "pos": "n.",
+      "gloss": "[化学] 化合物；混合物；复合词"
+    },
+    {
+      "i": 39,
+      "zh": "革新的",
+      "en": "revolutionary",
+      "ipa": "[ˌrɛvəˈluʃəˌnɛri]",
+      "pos": "adj.",
+      "gloss": "革命的；革新的"
+    },
+    {
+      "i": 40,
+      "zh": "转向",
+      "en": "diversion",
+      "ipa": "[dɪˈvərʒən]",
+      "pos": "n.",
+      "gloss": "转向,转移"
+    },
+    {
+      "i": 41,
+      "zh": "状态的",
+      "en": "virgin",
+      "ipa": "[ˈvərʤɪn]",
+      "pos": "adj.",
+      "gloss": "处女的；纯洁的；未经利用的，处于原始状态的"
+    },
+    {
+      "i": 42,
+      "zh": "教育",
+      "en": "educate",
+      "ipa": "[ˈɛʤəˌkeɪt]",
+      "pos": "v.",
+      "gloss": "教育,培养,训练"
+    },
+    {
+      "i": 43,
+      "zh": "计划",
+      "en": "blueprint",
+      "ipa": "[ˈbluˌprɪnt]",
+      "pos": "v.",
+      "gloss": "计划；制成蓝图"
+    },
+    {
+      "i": 44,
+      "zh": "的人",
+      "en": "athlete",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 45,
+      "zh": "特质",
+      "en": "attribute",
+      "ipa": "[əˈtrɪˌbjut]",
+      "pos": "n.",
+      "gloss": "属性；特质"
+    },
+    {
+      "i": 46,
+      "zh": "分析",
+      "en": "analyze",
+      "ipa": "[ˈænəˌlaɪz]",
+      "pos": "vt.",
+      "gloss": "分析； 分解"
+    },
+    {
+      "i": 47,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "基础设施；公共建设；下部构造"
+    },
+    {
+      "i": 48,
+      "skip": true
+    },
+    {
+      "i": 49,
+      "skip": true
+    },
+    {
+      "i": 50,
+      "zh": "完成",
+      "en": "attain",
+      "ipa": "[əˈteɪn]",
+      "pos": "v.",
+      "gloss": "完成；获得；达到"
+    },
+    {
+      "i": 51,
+      "zh": "合作",
+      "en": "collaborate",
+      "ipa": "[kəˈlæbərˌeɪt]",
+      "pos": "v.",
+      "gloss": "合作；勾结，通敌"
+    },
+    {
+      "i": 52,
+      "zh": "有吸引力",
+      "en": "magnetic",
+      "ipa": "[mægˈnɛtɪk]",
+      "pos": "adj.",
+      "gloss": "地磁的；有磁性的；有吸引力的"
+    },
+    {
+      "i": 53,
+      "zh": "化学",
+      "en": "elementary",
+      "ipa": "[ˌɛləˈmɛnʧri]",
+      "pos": "adj.",
+      "gloss": "基本的；初级的；[化学] 元素的"
+    },
+    {
+      "i": 54,
+      "zh": "陪伴",
+      "en": "accompany",
+      "ipa": "[əˈkəmpəni]",
+      "pos": "v.",
+      "gloss": "陪伴，陪同,伴随；伴奏"
+    },
+    {
+      "i": 55,
+      "zh": "公司",
+      "en": "establishment",
+      "ipa": "[ɪˈstæblɪʃmənt]",
+      "pos": "n.",
+      "gloss": "确立，制定；公司；设施"
+    }
+  ]
+}
