@@ -134,6 +134,8 @@ def cmd_build(args: argparse.Namespace) -> None:
         args.slug,
         skip_validate=args.skip_validate,
         skip_quality_gates=bool(getattr(args, "skip_quality_gates", False)),
+        update_index=bool(getattr(args, "update_index", False)),
+        dry_run_index=bool(getattr(args, "dry_run_index", False)),
     )
 
 
@@ -790,6 +792,16 @@ def main() -> None:
     p_b.add_argument("--slug", required=True)
     p_b.add_argument("--skip-validate", action="store_true")
     p_b.add_argument("--skip-quality-gates", action="store_true")
+    p_b.add_argument(
+        "--update-index",
+        action="store_true",
+        help="生成 <li> 注入 index.html 顶部(默认 off,需显式开启)",
+    )
+    p_b.add_argument(
+        "--dry-run-index",
+        action="store_true",
+        help="与 --update-index 同用:仅预览注入,不动 index.html",
+    )
     p_b.set_defaults(func=cmd_build)
 
     p_eb = sub.add_parser(
