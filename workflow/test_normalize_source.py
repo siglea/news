@@ -171,6 +171,10 @@ class TestZaikanFamily(unittest.TestCase):
             "我们点这个菜单上的特色菜。",
             "她说这部电影非常好看,推荐给大家。",
             "本文重点关注美股估值的回归路径,具体细节见下文。",
+            # cursor review nit:`好看[...]` 收敛后,这些"好看 + 点"但无 "在看" 的
+            # body 句不应被误判为运营段
+            "这部电影好看,点击购票链接立刻预订。",
+            "餐厅环境不错,菜单好看,请点这边的招牌菜。",
         ]
         for s in body_sentences:
             with self.subTest(s=s):
