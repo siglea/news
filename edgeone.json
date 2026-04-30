@@ -1,5 +1,5 @@
 {
   "installCommand": "",
-  "buildCommand": "",
-  "outputDirectory": "."
+  "buildCommand": "bash tools/build_dist.sh",
+  "outputDirectory": "dist"
 }

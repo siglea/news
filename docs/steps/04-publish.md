@@ -59,7 +59,7 @@ python3 workflow/mingox.py close-loop --slug <slug> --deploy
 | **EdgeOne 项目名** | 固定为 **`mingox`**（与远程已有项目同名时，CLI 会**复用该项目并上传新版本**） |
 | **部署区域** | **中国站**使用 **`-a overseas`**（`pages deploy` 的 `area` 参数；勿与「国际站 `-a global`」混用） |
 | **敏感信息** | API Token **仅放本地** `.edgeone/.token`（单行）；**勿提交**到 Git |
-| **构建输出** | **[edgeone.json](../../edgeone.json)**：`buildCommand` 为空，`outputDirectory` 为 **`.`**（**仓库根**即静态站点根）。不再生成 **`site/`**。若远程构建报 **文件数量超限**，可在 EdgeOne 控制台调整忽略/包含规则，或另行增加仅复制静态资源的脚本。 |
+| **构建输出** | **[edgeone.json](../../edgeone.json)**：`buildCommand` 为 **`bash tools/build_dist.sh`**（白名单 OPT-IN 拷贝公开资源），`outputDirectory` 为 **`dist`**。`dist/` 仅含 `index.html`、`about.html`、`dahanghai.html`、`favicon.ico` 与 `posts/`、`css/`、`js/`、`images/`；流水线源码、草稿、内部文档**不外露**。本地预览也可跑 `make dist && python3 -m http.server -d dist 8765`。 |
 
 ### 环境要求
 

@@ -9,11 +9,13 @@
 #   validate-posts       成稿版式校验(posts/*.html)
 #   validate             以上两项
 #   ci                   test + validate(CI 推荐入口)
+#   dist                 构建 ./dist 公开站点目录(白名单 opt-in,不含 drafts/源码)
+#   clean                清理 ./dist
 #   help                 显示本说明
 
 PYTHON ?= python3
 
-.PHONY: help test validate-annotations validate-posts validate ci
+.PHONY: help test validate-annotations validate-posts validate ci dist clean
 
 help:
 	@echo "MingoX targets:"
@@ -22,6 +24,8 @@ help:
 	@echo "  make validate-posts       — check posts/*.html layout"
 	@echo "  make validate             — annotations + posts"
 	@echo "  make ci                   — test + validate (推荐 CI 入口)"
+	@echo "  make dist                 — build ./dist (whitelist: 仅外网应见的静态资源)"
+	@echo "  make clean                — remove ./dist"
 	@echo ""
 	@echo "Override Python:  make test PYTHON=.venv/bin/python"
 
@@ -38,3 +42,9 @@ validate: validate-annotations validate-posts
 
 ci: test validate
 	@echo "[ci] OK — all checks passed"
+
+dist:
+	bash tools/build_dist.sh
+
+clean:
+	rm -rf dist

@@ -233,6 +233,23 @@ def _edgeone_deploy_summary(stdout: str, stderr: str, *, success: bool) -> None:
 
 def cmd_deploy(args: argparse.Namespace) -> None:
     token_path = ROOT / ".edgeone" / ".token"
+
+    # Step 1: 本地预先构建 ./dist（白名单 opt-in:仅外网应见的静态资源）。
+    # EdgeOne 平台侧也会跑一遍 `buildCommand`(见 edgeone.json),但本地先构建
+    # 一份能让我们在 push 前看到 dist/ 内容是否符合预期；同时也兼容那些
+    # 不走 buildCommand 的环境(直接上传 outputDirectory 内容的场景)。
+    build_script = ROOT / "tools" / "build_dist.sh"
+    if build_script.is_file():
+        print("[deploy] running tools/build_dist.sh ...")
+        rc = subprocess.run(
+            ["bash", str(build_script)], cwd=str(ROOT)
+        ).returncode
+        if rc != 0:
+            print(
+                f"[deploy] tools/build_dist.sh exited {rc}; abort.", file=sys.stderr
+            )
+            raise SystemExit(rc)
+
     # 允许通过 `MX_EDGEONE_VERSION` 环境变量锁定一个已验证版本；
     # 未设置时仍跟 `edgeone@latest`（与历史行为兼容）。
     version = os.environ.get("MX_EDGEONE_VERSION", EDGEONE_CLI_DEFAULT).strip() or EDGEONE_CLI_DEFAULT

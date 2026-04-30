@@ -14,10 +14,28 @@ domain: siglea.gitee.io/news
 # theme: minima
 
 # 排除文件（构建时忽略）
+# 决定哪些路径不会出现在 https://siglea.gitee.io/news 公开站点中。
+# EdgeOne 同步使用白名单方案见 edgeone.json + tools/build_dist.sh。
 exclude:
   - README.md
   - .gitignore
+  - .gitattributes
   - LICENSE
+  - Makefile
+  - .coze
+  - edgeone.json
+  - .edgeone
+  # 内部目录：流水线源码、草稿、内部文档，不应直链外露
+  - content
+  - workflow
+  - util
+  - docs
+  - tools
+  # 构建产物（本地可能存在）
+  - dist
+  - .venv
+  - venv
+  - __pycache__
 
 # 插件（如需要）
 # plugins:
