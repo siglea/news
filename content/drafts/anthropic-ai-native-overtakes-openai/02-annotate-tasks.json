@@ -1,0 +1,502 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "anthropic-ai-native-overtakes-openai",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "内容来源：笔记侠（Notesman）。",
+      "html": "<p>内容来源：笔记侠（Notesman）。</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "2025年1月，美国人工智能公司Anthropic的年化营收还只有10亿美元。",
+      "html": "<p>2025年1月，美国人工智能<span class=\"word-annot\"><span class=\"word-anchor\">公司</span><span class=\"word-block\"><span class=\"english-word\">establishment</span><span class=\"word-info\">[ɪˈstæblɪʃmənt] n. 确立，制定；公司；设施</span></span></span>Anthropic的年化营收还只有10亿美元。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "2026年4月，这个数字跳到了300亿美元，翻了整整30倍，超越OpenAI，成了新的霸主。",
+      "html": "<p>2026年4月，这个数字跳到了300亿美元，翻了整整30倍，<span class=\"word-annot\"><span class=\"word-anchor\">超越</span><span class=\"word-block\"><span class=\"english-word\">surpass</span><span class=\"word-info\">[sərˈpæs] v. 超越；胜过，优于；非…所能办到或理解</span></span></span>OpenAI，成了新的霸主。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "Anthropic，为什么这么厉害？",
+      "html": "<p>Anthropic，为什么这么厉害？</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "这家公司的核心成员，都是从OpenAI分离出来的，除了产品开发、商业化路径、技术哲学的差异化，还有一个关键因素，它在组织建设和产品建设上比OpenAI更加 “AI原生”。",
+      "html": "<p>这家公司的核心成员，都是从OpenAI分离出来的，除了产品开发、商业化路径、技术哲学的<span class=\"word-annot\"><span class=\"word-anchor\">差异化</span><span class=\"word-block\"><span class=\"english-word\">differentiation</span><span class=\"word-info\">[ˌdɪfərenʃiˈeɪʃn] n. 差异化</span></span></span>，还有一个关键因素，它在组织建设和产品建设上比OpenAI更加 “AI原生”。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "你可能会问：什么样的公司，才是AI原生公司？",
+      "html": "<p>你<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">likelihood</span><span class=\"word-info\">[ˈlaɪkliˌhʊd] n. 可能性，可能</span></span></span>会问：什么样的公司，才是AI原生公司？</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "今天这篇文章，我就把AI原生公司到底长什么样，以及你的组织如何真正升级这件事，一次性聊透。",
+      "html": "<p>今天这篇文章，我就把AI原生公司到底长什么样，以及你的<span class=\"word-annot\"><span class=\"word-anchor\">组织</span><span class=\"word-block\"><span class=\"english-word\">apparatus</span><span class=\"word-info\">[ˌæpərˈætəs] n. 器械，器具，仪器；机构，组织</span></span></span>如何真正升级这件事，一次性聊透。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "YC（Y Combinator，知名创业孵化器，下同）在2026年最新RFS清单（Requests for Startups，面向创业者的方向指南）中发出警告：未来5年，不能用AI重新定义核心业务的公司，将失去生存资格。",
+      "html": "<p>YC（Y Combinator，知名创业孵化器，下同）在2026年最新RFS清单（Requests for Startups，面向创业者的方向指南）中发出<span class=\"word-annot\"><span class=\"word-anchor\">警告</span><span class=\"word-block\"><span class=\"english-word\">alarm</span><span class=\"word-info\">[əˈlɑrm] v. 警告；使惊恐</span></span></span>：未来5年，不能用AI重新定义核心业务的公司，将失去生存资格。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "这话听起来有点吃力，我帮你翻译一下：",
+      "html": "<p>这话听起来有点吃力，我帮你翻译<span class=\"word-annot\"><span class=\"word-anchor\">一下</span><span class=\"word-block\"><span class=\"english-word\">stroke</span><span class=\"word-info\">[stroʊk] n. （游泳或划船的）划；中风；（打、击等的）一下；冲程；（成功的）举动；尝试；轻抚</span></span></span>：</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "YC说会“失去生存资格”的公司，是那些只在旧系统上打补丁，买AI工具、让员工学AI技能的公司。",
+      "html": "<p>YC说会“失去生存<span class=\"word-annot\"><span class=\"word-anchor\">资格</span><span class=\"word-block\"><span class=\"english-word\">credentials</span><span class=\"word-info\">[krəˈdɛnʃəlz] n. 证明书； 证件；资格</span></span></span>”的公司，是那些只在旧系统上打补丁，买AI工具、让员工学AI技能的公司。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "它们只能叫“AI+”公司，增长曲线和行业均值几乎没有差别。",
+      "html": "<p>它们只能叫“AI+”公司，增长曲线和行业均值<span class=\"word-annot\"><span class=\"word-anchor\">几乎没有</span><span class=\"word-block\"><span class=\"english-word\">scarce</span><span class=\"word-info\">[skɛrs] adv. 仅仅；几乎不；几乎没有</span></span></span>差别。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "而从第一天起，就用AI重新设计了整个组织的运作方式的公司，才能叫“AI原生公司”。",
+      "html": "<p>而从第一天起，就用AI重新设计了整个<span class=\"word-annot\"><span class=\"word-anchor\">组织的</span><span class=\"word-block\"><span class=\"english-word\">organic</span><span class=\"word-info\">[ɔrˈgænɪk] adj. [有化] 有机的；组织的；器官的；根本的</span></span></span>运作方式的公司，才能叫“AI原生公司”。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "它们实现了Anthropic那样的指数级增长：",
+      "html": "<p>它们<span class=\"word-annot\"><span class=\"word-anchor\">实现</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>了Anthropic那样的指数级增长：</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "废除传统汇报层级，无层级自治，推进“直接触达模式”，信息零损耗；",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">废除</span><span class=\"word-block\"><span class=\"english-word\">abolish</span><span class=\"word-info\">[əˈbɑlɪʃ] v. 废除，废止；取消，革除</span></span></span>传统汇报层级，无层级自治，推进“直接触达模式”，信息零损耗；</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "不按“前端/后端/测试”等职能划分，而是按使命组织，极致扁平化，研究和工程不分家；",
+      "html": "<p>不按“前端/后端/测试”等职能<span class=\"word-annot\"><span class=\"word-anchor\">划分</span><span class=\"word-block\"><span class=\"english-word\">compartment</span><span class=\"word-info\">[kəmˈpɑrtmənt] vt. 分隔；划分</span></span></span>，而是按使命组织，极致扁平化，研究和工程不分家；</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "决策链条短，52天完成73次产品级更新。",
+      "html": "<p>决策链条短，52天<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">attain</span><span class=\"word-info\">[əˈteɪn] v. 完成；获得；达到</span></span></span>73次产品级更新。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "“AI+”，就像给家里用了十几年的老式洗衣机，加装了一个自动投放洗衣液的装置。机器还是那台机器，流程还是那个流程，只是省了点事。",
+      "html": "<p>“AI+”，就像给家里用了十几年的老式洗衣机，加装了一个自动投放洗衣液的<span class=\"word-annot\"><span class=\"word-anchor\">装置</span><span class=\"word-block\"><span class=\"english-word\">appliance</span><span class=\"word-info\">[əˈplaɪəns] n. 器具；器械；装置</span></span></span>。<span class=\"word-annot\"><span class=\"word-anchor\">机器</span><span class=\"word-block\"><span class=\"english-word\">machinery</span><span class=\"word-info\">[məˈʃinəri] n. 机械；机器；机构；机械装置</span></span></span>还是那台机器，流程还是那个流程，只是省了点事。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "“AI原生”，则是直接换了一台智能洗衣机——从进水、洗涤到脱水，整套流程都是AI自动设计的。AI不是配件，是这台机器的灵魂。",
+      "html": "<p>“AI原生”，则是直接换了一台智能洗衣机——从进水、洗涤到脱水，整套流程都是AI<span class=\"word-annot\"><span class=\"word-anchor\">自动</span><span class=\"word-block\"><span class=\"english-word\">auto</span><span class=\"word-info\">[ˈɔtoʊ] n. 汽车（等于automobile）；自动</span></span></span>设计的。AI不是配件，是这台机器的灵魂。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "YC合伙人Diana Hu在一次分享里说了一句很根本的话：“现在我们看到的变化，与其说是生产力提升，不如说是全新的能力。”",
+      "html": "<p>YC合伙人Diana Hu在一次分享里说了一句很<span class=\"word-annot\"><span class=\"word-anchor\">根本的</span><span class=\"word-block\"><span class=\"english-word\">fundamental</span><span class=\"word-info\">[ˌfəndəˈmɛnəl] adj. 基本的，根本的</span></span></span>话：“现在我们看到的变化，与其说是生产力提升，不如说是全新的能力。”</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "过去，创业公司要先招工程、设计、运营、销售，再通过管理流程把人连接起来。",
+      "html": "<p>过去，创业公司要先招工程、设计、运营、销售，再通过<span class=\"word-annot\"><span class=\"word-anchor\">管理</span><span class=\"word-block\"><span class=\"english-word\">administer</span><span class=\"word-info\">[ədˈmɪnɪstər] v. 管理；执行；给予</span></span></span>流程把人连接起来。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "现在的变化是：一些过去根本做不到、或必须靠完整团队才能做的事，现在由一个合适的人加上一组AI工具就能完成。",
+      "html": "<p>现在的变化是：一些过去根本做不到、或必须靠完整团队才能做的事，现在由一个<span class=\"word-annot\"><span class=\"word-anchor\">合适的</span><span class=\"word-block\"><span class=\"english-word\">applicable</span><span class=\"word-info\">[ˈæpləkəbəl] adj. 可适用的；可应用的；合适的</span></span></span>人加上一组AI工具就能完成。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "这不是“同样的公司跑得更快”，而是“公司可以用完全不同的方式存在”。",
+      "html": "<p>这不是“同样的公司跑得更快”，而是“公司可以用完全<span class=\"word-annot\"><span class=\"word-anchor\">不同的</span><span class=\"word-block\"><span class=\"english-word\">diverse</span><span class=\"word-info\">[dɪˈvərs] adj. 多种多样的,不同的</span></span></span>方式存在”。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "Diana举了一个很能说明问题的例子：",
+      "html": "<p>Diana举了一个很能<span class=\"word-annot\"><span class=\"word-anchor\">说明</span><span class=\"word-block\"><span class=\"english-word\">define</span><span class=\"word-info\">[dɪˈfaɪn] v. 确定，说明，界定；给…下定义，解释</span></span></span>问题的例子：</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "大多数团队问的问题是“AI能帮我省几个工程师”，然后就去采购Copilot（微软推出的AI辅助编程工具）、加AI技能培训。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">大多数</span><span class=\"word-block\"><span class=\"english-word\">bulk</span><span class=\"word-info\">[bəlk] n. 体积，容量；大多数，大部分；大块</span></span></span>团队问的问题是“AI能帮我省几个工程师”，然后就去采购Copilot（微软推出的AI辅助编程工具）、加AI技能培训。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "但如果反过来问“过去因为组织成本太高而不能做的事，现在是不是可以做了？”",
+      "html": "<p>但如果反过来问“过去因为组织成本太高而不能做<span class=\"word-annot\"><span class=\"word-anchor\">的事</span><span class=\"word-block\"><span class=\"english-word\">anxiety</span><span class=\"word-info\">[æŋˈzaɪəti] n. 焦虑；渴望；挂念；令人焦虑的事</span></span></span>，现在是不是可以做了？”</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "当一个人可以借助AI Agent（AI智能体，能够自主执行多步骤任务的AI程序）同时写规格、验证需求、生成原型和推动交付，产品边界就会被重新打开。",
+      "html": "<p>当一个人可以借助AI Agent（AI智能体，能够自主执行多步骤<span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">assignment</span><span class=\"word-info\">[əˈsaɪnmənt] n. 任务；作业</span></span></span>的AI程序）同时写规格、验证需求、生成原型和推动交付，产品边界就会被重新打开。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "AI原生公司的竞争力，来自它敢把旧公司默认不可能的事，重新放回可选项里。",
+      "html": "<p>AI原生公司的竞争力，来自它敢把旧公司默认<span class=\"word-annot\"><span class=\"word-anchor\">不可能的</span><span class=\"word-block\"><span class=\"english-word\">unlikely</span><span class=\"word-info\">[ənˈlaɪkli] adj. 未必的； 不可能的； 靠不住的</span></span></span>事，重新放回可选项里。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "这是最关键的部分。Diana分享了AI原生组织的三个核心能力升级，每个都有真实案例。",
+      "html": "<p>这是最关键的<span class=\"word-annot\"><span class=\"word-anchor\">部分</span><span class=\"word-block\"><span class=\"english-word\">highlight</span><span class=\"word-info\">[ˈhaɪˌlaɪt] n. 最精彩的部分</span></span></span>。Diana分享了AI原生组织的三个核心<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>升级，每个都有真实案例。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "旧公司常常像开环系统：做决定、执行、过一段时间回顾，但结果并不会被系统化地反馈回流程本身。",
+      "html": "<p>旧公司常常像开环系统：做决定、执行、过<span class=\"word-annot\"><span class=\"word-anchor\">一段时间</span><span class=\"word-block\"><span class=\"english-word\">spell</span><span class=\"word-info\">[spɛl] n. 符咒；一段时间；魅力</span></span></span>回顾，但结果并不会被系统化地反馈回流程本身。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "很多信息散落在会议、私信、邮件、口头同步和管理者的脑子里。开环系统天然会丢失信息，也很难稳定改进。",
+      "html": "<p>很多信息散落在会议、私信、邮件、口头同步和<span class=\"word-annot\"><span class=\"word-anchor\">管理</span><span class=\"word-block\"><span class=\"english-word\">govern</span><span class=\"word-info\">[ˈgəvərn] v. 管理；支配；统治；控制</span></span></span>者的脑子里。开环系统天然会丢失信息，也很难稳定<span class=\"word-annot\"><span class=\"word-anchor\">改进</span><span class=\"word-block\"><span class=\"english-word\">amend</span><span class=\"word-info\">[əˈmɛnd] v. 修改；改善，改进</span></span></span>。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "AI原生公司应该反过来：每一个关键流程都持续捕获输入和输出，把结果喂回智能系统，让流程自己变得更准。",
+      "html": "<p>AI原生公司应该反过来：每一个关键流程都持续<span class=\"word-annot\"><span class=\"word-anchor\">捕获</span><span class=\"word-block\"><span class=\"english-word\">acquire</span><span class=\"word-info\">[əkˈwaɪər] v. 获得；取得；学到；捕获</span></span></span>输入和输出，把结果喂回智能系统，让流程自己变得更准。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "Diana用了一个很直接的表达：make your entire company queryable（让整个公司变得可查询）。",
+      "html": "<p>Diana用了一个很直接的表达：make your entire company queryable（让<span class=\"word-annot\"><span class=\"word-anchor\">整个</span><span class=\"word-block\"><span class=\"english-word\">altogether</span><span class=\"word-info\">[ˌɔltəˈgɛðər] n. 整个；裸体</span></span></span>公司变得可查询）。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "会议记录、需求票据、客户反馈、工程进展、销售电话——这些都不应该只是人的记忆负担，而应该进入同一个智能体的上下文。",
+      "html": "<p>会议记录、需求票据、客户反馈、工程进展、销售电话——这些都不应该只是人的记忆<span class=\"word-annot\"><span class=\"word-anchor\">负担</span><span class=\"word-block\"><span class=\"english-word\">burden</span><span class=\"word-info\">[ˈbərdən] n. 负担；责任；船的载货量</span></span></span>，而应该进入同一个智能体的上下文。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "她举了一个工程团队的真实变化：如果一个AI智能体能看到所有票据、代码、客户反馈和会议记录，它就能分析上一轮周期到底发生了什么，有哪些地方偏离计划，并直接提出下一轮计划。",
+      "html": "<p>她举了一个工程团队的真实变化：如果一个AI智能体能看到所有票据、代码、客户反馈和会议记录，它就能<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span>上一轮周期到底发生了什么，有哪些地方偏离计划，并直接提出下一轮计划。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "这样，公司就可以在同一时间里多做10倍的事，这就是闭环的力量。",
+      "html": "<p>这样，公司就可以在同一时间里多做10倍<span class=\"word-annot\"><span class=\"word-anchor\">的事</span><span class=\"word-block\"><span class=\"english-word\">breeze</span><span class=\"word-info\">[briz] n. 微风；轻而易举的事；煤屑；焦炭渣；小风波</span></span></span>，这就是闭环的力量。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "公司越像闭环，AI越能参与真实决策；公司越像开环，AI只能停留在表面问答。",
+      "html": "<p>公司越像闭环，AI越能参与真实<span class=\"word-annot\"><span class=\"word-anchor\">决策</span><span class=\"word-block\"><span class=\"english-word\">counsel</span><span class=\"word-info\">[ˈkaʊnsəl] n. 法律顾问；忠告；商议；讨论；决策</span></span></span>；公司越像开环，AI只能<span class=\"word-annot\"><span class=\"word-anchor\">停留</span><span class=\"word-block\"><span class=\"english-word\">abide</span><span class=\"word-info\">[əˈbaɪd] v. 忍受，容忍；停留；遵守</span></span></span>在表面问答。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "很多公司用不好AI，不是因为AI不够聪明，而是给它的信息太少。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">很多</span><span class=\"word-block\"><span class=\"english-word\">lump</span><span class=\"word-info\">[ləmp] n. 块，块状；肿块；瘤；很多；笨人</span></span></span>公司用不好AI，不是因为AI不够聪明，而是给它的信息太少。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "Diana的原则很简单：如果你希望模型发挥完整能力，就要给它和员工一样多的上下文。",
+      "html": "<p>Diana的原则很简单：如果你希望模型<span class=\"word-annot\"><span class=\"word-anchor\">发挥</span><span class=\"word-block\"><span class=\"english-word\">exert</span><span class=\"word-info\">[ɪgˈzərt] v. 运用，发挥；施以影响</span></span></span>完整能力，就要给它和员工一样多的上下文。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "一个新员工要理解业务目标、客户声音、历史决策、当前约束和团队偏好，AI智能体也一样。",
+      "html": "<p>一个新员工要<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>业务目标、客户声音、历史决策、当前约束和团队偏好，AI智能体也一样。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "只把一个孤立任务丢给智能体，再抱怨它输出不稳定，本质上还是把AI当临时外包，而不是公司操作系统的一部分。",
+      "html": "<p>只把一个孤立任务丢给智能体，再抱怨它输出<span class=\"word-annot\"><span class=\"word-anchor\">不稳定</span><span class=\"word-block\"><span class=\"english-word\">instability</span><span class=\"word-info\">[ˌɪnstəˈbɪlɪti] n. 不稳定</span></span></span>，本质上还是把AI当临时外包，而不是公司操作系统的一部分。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "这意味着要减少碎片化的私信和邮件，让信息进入统一的系统层。不是为了做漂亮的Dashboard（数据仪表盘），而是让AI能看到公司真实发生了什么，并在下一次计划、下一次决策、下一次产品迭代中使用这些信息。",
+      "html": "<p>这<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">spelling</span><span class=\"word-info\">[ˈspɛlɪŋ] v. 拼写；意味着（spell的ing形式）；迷住</span></span></span>要减少碎片化的私信和邮件，让信息进入统一的系统层。不是为了做<span class=\"word-annot\"><span class=\"word-anchor\">漂亮的</span><span class=\"word-block\"><span class=\"english-word\">swell</span><span class=\"word-info\">[swɛl] adj. 漂亮的；一流的</span></span></span>Dashboard（数据仪表盘），而是让AI能看到公司真实发生了什么，并在下一次计划、下一次决策、下一次产品迭代中使用这些信息。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "公司不再靠人解释碎片化信息，而是变成一个持续捕捉状态、决策和结果的闭环系统。",
+      "html": "<p>公司不再靠人解释碎片化信息，而是变成一个持续捕捉<span class=\"word-annot\"><span class=\"word-anchor\">状态</span><span class=\"word-block\"><span class=\"english-word\">asleep</span><span class=\"word-info\">[əsˈlip] adv. 熟睡地；进入睡眠状态</span></span></span>、决策和结果的闭环系统。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "Diana说了一句很重的话：“公司的速度，只会和它的信息流一样快。每去掉一层人肉路由器（笔记侠注：只负责上传下达的中层管理者），都是直接的速度收益。”",
+      "html": "<p>Diana说了一句很重的话：“公司的<span class=\"word-annot\"><span class=\"word-anchor\">速度</span><span class=\"word-block\"><span class=\"english-word\">pace</span><span class=\"word-info\">[peɪs] n. 一步；步速；步伐；速度</span></span></span>，只会和它的信息流一样快。每去掉一层人肉路由器（笔记侠注：只负责上传下达的中层<span class=\"word-annot\"><span class=\"word-anchor\">管理</span><span class=\"word-block\"><span class=\"english-word\">regulate</span><span class=\"word-info\">[ˈrɛgjəˌleɪt] v. 调节，规定；控制；校准；有系统的管理</span></span></span>者），都是直接的速度收益。”</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "旧世界需要中层管理者和协调者，是因为信息必须靠人向上、向下、横向搬运。",
+      "html": "<p>旧世界需要中层管理者和协调者，是因为信息必须靠人向上、向下、横向<span class=\"word-annot\"><span class=\"word-anchor\">搬运</span><span class=\"word-block\"><span class=\"english-word\">convey</span><span class=\"word-info\">[kənˈveɪ] vt. 运送， 搬运， 转运；表达； 传播</span></span></span>。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "Jack Dorsey（原Twitter联合创始人，现Block CEO）在Block也思考过类似问题：如果继续保留同样的组织图和管理结构，只是在里面塞进AI工具，就错过了变化本身。",
+      "html": "<p>Jack Dorsey（原Twitter<span class=\"word-annot\"><span class=\"word-anchor\">联合创始</span><span class=\"word-block\"><span class=\"english-word\">cofounder</span><span class=\"word-info\">[kəʊˈfaʊndə] n. 联合创始人</span></span></span>人，现Block CEO）在Block也思考过类似问题：如果继续保留同样的组织图和管理结构，只是在里面塞进AI工具，就错过了变化本身。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "公司应该被重建成一个智能层，人类站在边缘指导它，而不是在内部层层搬运信息。",
+      "html": "<p>公司应该被重建成一个智能层，人类站在边缘指导它，而不是在<span class=\"word-annot\"><span class=\"word-anchor\">内部</span><span class=\"word-block\"><span class=\"english-word\">bosom</span><span class=\"word-info\">[ˈbʊzəm] n. 胸；胸怀；中间；胸襟；内心；乳房；内部</span></span></span>层层搬运信息。</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "2026年2月，Block宣布大规模重组，员工总数从超12000人裁减至不足6000人，裁员比例超过一半。",
+      "html": "<p>2026年2月，Block<span class=\"word-annot\"><span class=\"word-anchor\">宣布</span><span class=\"word-block\"><span class=\"english-word\">declaration</span><span class=\"word-info\">[ˌdɛklərˈeɪʃən] n. （纳税品等的）申报；宣布；公告；申诉书</span></span></span>大规模重组，员工总数从超12000人裁减至不足6000人，裁员比例超过一半。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "Jack Dorsey在致股东信中表示：“我们已经看到，我们正在创建和使用的智能工具，结合更小、更扁平的团队，正在开启一种全新的工作方式。”",
+      "html": "<p>Jack Dorsey在致股东信中表示：“我们已经看到，我们正在创建和使用的智能工具，结合更小、更扁平的团队，正在开启一种全新的工作<span class=\"word-annot\"><span class=\"word-anchor\">方式</span><span class=\"word-block\"><span class=\"english-word\">alike</span><span class=\"word-info\">[əˈlaɪk] adv. 以同样的方式；类似于</span></span></span>。”</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "他还设定了明确目标：人均毛利润达到200万美元，是新冠疫情前效率的4倍。如果实现，Block将拥有接近苹果、英伟达等顶级科技公司的人均产出水平。",
+      "html": "<p>他还设定了明确目标：人均毛利润达到200万美元，是新冠疫情前<span class=\"word-annot\"><span class=\"word-anchor\">效率</span><span class=\"word-block\"><span class=\"english-word\">efficiency</span><span class=\"word-info\">[ɪˈfɪʃnsi] n. 效率；功效</span></span></span>的4倍。如果实现，Block将拥有<span class=\"word-annot\"><span class=\"word-anchor\">接近</span><span class=\"word-block\"><span class=\"english-word\">approximate</span><span class=\"word-info\">[əˈprɑksəˌmeɪt] v. (to)接近</span></span></span>苹果、英伟达等顶级科技公司的人均产出水平。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "管理者的价值会从“收集信息、转述信息、催促信息”，转向“定义目标是否正确、结果是否靠近客户、系统是否还在学习”。",
+      "html": "<p>管理者的价值会从“收集信息、转述信息、催促信息”，转向“定义目标是否<span class=\"word-annot\"><span class=\"word-anchor\">正确</span><span class=\"word-block\"><span class=\"english-word\">accuracy</span><span class=\"word-info\">[ˈækjərəsi] n. 正确，准确；准确性；精确度</span></span></span>、结果是否靠近客户、系统是否还在学习”。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "大多数企业失败的第一步，就是问错了问题。",
+      "html": "<p>大多数企业<span class=\"word-annot\"><span class=\"word-anchor\">失败</span><span class=\"word-block\"><span class=\"english-word\">collapse</span><span class=\"word-info\">[kəˈlæps] n. 倒塌；失败；衰竭</span></span></span>的第一步，就是问错了问题。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "他们问“怎么用AI优化现有流程”，而不问“如果从零创业，AI会怎么设计这个业务”。",
+      "html": "<p>他们问“怎么用AI优化现有流程”，而不问“如果从零创业，AI会怎么<span class=\"word-annot\"><span class=\"word-anchor\">设计</span><span class=\"word-block\"><span class=\"english-word\">contrive</span><span class=\"word-info\">[kənˈtraɪv] v. 设计；发明；图谋</span></span></span>这个业务”。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "YC的忠告是：先清空自己，才能看见新的可能。",
+      "html": "<p>YC的<span class=\"word-annot\"><span class=\"word-anchor\">忠告</span><span class=\"word-block\"><span class=\"english-word\">advise</span><span class=\"word-info\">[ədˈvaɪz] v. 忠告，劝告，建议；通知，告知</span></span></span>是：先清空自己，才能看见新的可能。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "最能说明这一点的，是红熊AI创始人温德亮。",
+      "html": "<p>最能说明这一点的，是红熊AI<span class=\"word-annot\"><span class=\"word-anchor\">创始人</span><span class=\"word-block\"><span class=\"english-word\">founder</span><span class=\"word-info\">[ˈfaʊndə] n. 创始人</span></span></span>温德亮。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "2024年，他以采购方身份调研市场时，他发现绝大多数AI产品都是“旧软件+AI接口”的拼凑模式，真正AI原生驱动的企业级应用几乎处于空白。",
+      "html": "<p>2024年，他以采购方身份调研市场时，他发现绝大多数AI产品都是“旧软件+AI接口”的拼凑模式，真正AI原生<span class=\"word-annot\"><span class=\"word-anchor\">驱动</span><span class=\"word-block\"><span class=\"english-word\">activate</span><span class=\"word-info\">[ˈæktəˌveɪt] v. 启动，激活；驱动，驱使；使开始起作用</span></span></span>的企业级应用几乎处于空白。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "他没有选择“优化现有产品”，而是彻底清空思维：“如果从零开始，用AI重新设计这个业务，会是什么样？”",
+      "html": "<p>他没有选择“优化现有产品”，而是彻底清空思维：“如果从零<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">commence</span><span class=\"word-info\">[kəˈmɛns] v. 开始</span></span></span>，用AI重新设计这个业务，会是什么样？”</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "他的答案是一条差异化路径：在巨头专注“思考”的地方，深耕“记忆”；在巨头追求“通用”的领域，聚焦“垂直”；在巨头着眼“技术”的层面，关注“价值”。",
+      "html": "<p>他的答案是一条差异化路径：在巨头专注“<span class=\"word-annot\"><span class=\"word-anchor\">思考</span><span class=\"word-block\"><span class=\"english-word\">consideration</span><span class=\"word-info\">[kənˌsɪdərˈeɪʃən] n. 考虑,思考；需要考虑的事；体谅,照顾</span></span></span>”的地方，深耕“记忆”；在巨头<span class=\"word-annot\"><span class=\"word-anchor\">追求</span><span class=\"word-block\"><span class=\"english-word\">ambition</span><span class=\"word-info\">[æmˈbɪʃən] v. 追求；有…野心</span></span></span>“通用”的领域，聚焦“垂直”；在巨头着眼“<span class=\"word-annot\"><span class=\"word-anchor\">技术</span><span class=\"word-block\"><span class=\"english-word\">technique</span><span class=\"word-info\">[tɛkˈnik] n. 技巧，手艺，工艺；技能，技术</span></span></span>”的层面，关注“价值”。</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "成立刚满两年，红熊AI已完成5轮融资，估值从天使轮的1.5亿元攀升至A轮的15亿元，13个月内增长30倍。",
+      "html": "<p>成立刚满两年，红熊AI已完成5轮融资，估值从<span class=\"word-annot\"><span class=\"word-anchor\">天使</span><span class=\"word-block\"><span class=\"english-word\">angel</span><span class=\"word-info\">[ˈeɪnʤəl] n. 天使；守护神；善人</span></span></span>轮的1.5亿元攀升至A轮的15亿元，13个月内增长30倍。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "目前已服务移动、联通、电信、广电四大运营商，并扩展至电商、金融、文旅、制造等12大行业。",
+      "html": "<p>目前已服务移动、联通、电信、广电四大运营商，并扩展至电商、金融、文旅、<span class=\"word-annot\"><span class=\"word-anchor\">制造</span><span class=\"word-block\"><span class=\"english-word\">fabricate</span><span class=\"word-info\">[ˈfæbrəˌkeɪt] v. 制造；伪造；装配</span></span></span>等12大行业。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "正是这个“清空”的动作，让红熊AI避开红海，开辟了一条“记忆赛道”的新蓝海。",
+      "html": "<p>正是这个“清空”的<span class=\"word-annot\"><span class=\"word-anchor\">动作</span><span class=\"word-block\"><span class=\"english-word\">chin</span><span class=\"word-info\">[ʧɪn] n. 下巴；聊天；引体向上动作</span></span></span>，让红熊AI避开红海，开辟了一条“记忆赛道”的新蓝海。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "AI原生不是“全面AI化”，而是找到那个最影响利润、最耗时、最容易出错的环节，集中火力重构它。",
+      "html": "<p>AI原生不是“全面AI化”，而是找到那个最影响利润、最耗时、最容易出错的环节，<span class=\"word-annot\"><span class=\"word-anchor\">集中</span><span class=\"word-block\"><span class=\"english-word\">concentrate</span><span class=\"word-info\">[ˈkɑnsənˌtreɪt] v. 集中；浓缩；全神贯注；聚集</span></span></span>火力重构它。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "Harvey AI成立于2022年，专注于法律AI领域。",
+      "html": "<p>Harvey AI成立于2022年，专注于法律AI<span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[dəʊˈmeɪn] n. (活动,思想等)领域,范围；领地</span></span></span>。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "最新数据显示，其ARR（年度经常性收入）已接近1.9亿美元，估值约110亿美元，2025年底客户规模超过1000家，包括很多全球顶级律所。",
+      "html": "<p>最新数据显示，其ARR（年度经常性收入）已接近1.9亿美元，估值约110亿美元，2025年底客户规模超过1000家，<span class=\"word-annot\"><span class=\"word-anchor\">包括</span><span class=\"word-block\"><span class=\"english-word\">comprise</span><span class=\"word-info\">[kəmˈpraɪz] v. 包含，包括，由...组成；构成，组成</span></span></span>很多全球顶级律所。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "Harvey只做一件事：让AI自动起草法律文件。这项工作原本需要律师团队花费数周时间，现在几分钟就能完成。",
+      "html": "<p>Harvey只做一件事：让AI自动起草法律文件。这项工作原本<span class=\"word-annot\"><span class=\"word-anchor\">需要</span><span class=\"word-block\"><span class=\"english-word\">entail</span><span class=\"word-info\">[ɛnˈteɪl] v. 使需要，必需；承担；遗传给；蕴含</span></span></span>律师团队花费数周时间，现在几分钟就能完成。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "他们没有试图颠覆整个法律行业，而是聚焦在“文书起草”这个核心环节。这种“单点突破”的策略，让Harvey迅速成为法律AI领域的领导者。",
+      "html": "<p>他们没有试图颠覆整个法律行业，而是聚焦在“<span class=\"word-annot\"><span class=\"word-anchor\">文书</span><span class=\"word-block\"><span class=\"english-word\">diploma</span><span class=\"word-info\">[dɪˈploʊmɑ] n. 毕业证书，学位证书；公文，文书；奖状</span></span></span>起草”这个核心环节。这种“单点突破”的策略，让Harvey<span class=\"word-annot\"><span class=\"word-anchor\">迅速</span><span class=\"word-block\"><span class=\"english-word\">expedition</span><span class=\"word-info\">[ˌɛkspəˈdɪʃən] n. 远征；探险队；迅速</span></span></span>成为法律AI领域的领导者。</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "YC追踪的失败案例中，很多都死在“只改流程，不改组织”。你的团队还是老一套，怎么可能跑得动新系统？",
+      "html": "<p>YC追踪的失败案例中，很多都死在“只改流程，不改<span class=\"word-annot\"><span class=\"word-anchor\">组织</span><span class=\"word-block\"><span class=\"english-word\">fabric</span><span class=\"word-info\">[ˈfæbrɪk] n. 织物；布；组织；构造；建筑物</span></span></span>”。你的团队还是老<span class=\"word-annot\"><span class=\"word-anchor\">一套</span><span class=\"word-block\"><span class=\"english-word\">tissue</span><span class=\"word-info\">[ˈtɪʃu] n. 组织；纸巾；薄纱；一套</span></span></span>，怎么可能跑得动新系统？</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "Diana在分享中也强调：最高速度的公司正在进入AI Software Factory（AI软件工厂）阶段。",
+      "html": "<p>Diana在分享中也<span class=\"word-annot\"><span class=\"word-anchor\">强调</span><span class=\"word-block\"><span class=\"english-word\">accent</span><span class=\"word-info\">[ˈækˌsɛnt] n. 口音；重音；强调；特点；重音符号</span></span></span>：最高速度的公司正在进入AI Software Factory（AI软件工厂）阶段。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "人写规格和测试、定义成功标准，AI智能体生成实现、反复迭代直到测试通过。",
+      "html": "<p>人写规格和测试、定义成功标准，AI智能体生成实现、反复迭代直到测试<span class=\"word-annot\"><span class=\"word-anchor\">通过</span><span class=\"word-block\"><span class=\"english-word\">approve</span><span class=\"word-info\">[əˈpruv] v. 批准，通过；(of)赞成，赞许，同意</span></span></span>。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "人的工作不再是逐行写代码，而是定义要做什么、判断输出是否满足目标。",
+      "html": "<p>人的工作不再是逐行写代码，而是定义要做什么、判断输出是否<span class=\"word-annot\"><span class=\"word-anchor\">满足</span><span class=\"word-block\"><span class=\"english-word\">cater</span><span class=\"word-info\">[ˈkeɪtər] v. (for)提供饮食及服务；(for/to)满足,迎合</span></span></span>目标。</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "Sierra AI成立于2023年，专注于AI客服领域。创始人是Bret Taylor（前Salesforce联席CEO、Google Maps联合创始人）和Clay Bavor（前Google Workspace负责人）。",
+      "html": "<p>Sierra AI<span class=\"word-annot\"><span class=\"word-anchor\">成立</span><span class=\"word-block\"><span class=\"english-word\">mount</span><span class=\"word-info\">[maʊnt] v. 增加；爬上；使骑上马；安装，架置；镶嵌，嵌入；准备上演；成立（军队等）</span></span></span>于2023年，专注于AI客服领域。创始人是Bret Taylor（前Salesforce联席CEO、Google Maps<span class=\"word-annot\"><span class=\"word-anchor\">联合</span><span class=\"word-block\"><span class=\"english-word\">alliance</span><span class=\"word-info\">[əˈlaɪəns] n. 联盟，联合；联姻</span></span></span>创始人）和Clay Bavor（前Google Workspace负责人）。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "18个月内签约87家全球500强企业，2024年营收2000万美元，2025年飙升到1.5亿美元，同比增长7倍。",
+      "html": "<p>18个月内签约87家全球500强企业，2024年营收2000万美元，2025年飙升到1.5亿美元，同比增长7倍。</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "更值得关注的是他们的商业模式：按效果付费。",
+      "html": "<p>更值得关注的是他们的<span class=\"word-annot\"><span class=\"word-anchor\">商业</span><span class=\"word-block\"><span class=\"english-word\">commerce</span><span class=\"word-info\">[ˈkɑmərs] n. 买卖，贸易；商务；商业</span></span></span>模式：按效果付费。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "只有AI真正解决了客户的问题，Sierra才能收到钱。这种模式倒逼他们必须持续优化AI的客服效果。",
+      "html": "<p>只有AI真正解决了<span class=\"word-annot\"><span class=\"word-anchor\">客户</span><span class=\"word-block\"><span class=\"english-word\">correspondent</span><span class=\"word-info\">[ˌkɔrəˈspɑndənt] n. 通讯记者；客户；通信者；代理商行</span></span></span>的问题，Sierra才能收到钱。这种模式倒逼他们必须持续优化AI的客服<span class=\"word-annot\"><span class=\"word-anchor\">效果</span><span class=\"word-block\"><span class=\"english-word\">impression</span><span class=\"word-info\">[ˌɪmˈprɛʃən] n. 印象；效果，影响；压痕，印记；感想；曝光（衡量广告被显示的次数。打开一个带有该广告的网页，则该广告的impression 次数增加一次）</span></span></span>。</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "Sierra的组织架构也完全围绕AI原生设计：团队精简但效率极高，所有岗位都明确有“AI协作”的能力要求。",
+      "html": "<p>Sierra的组织架构也完全<span class=\"word-annot\"><span class=\"word-anchor\">围绕</span><span class=\"word-block\"><span class=\"english-word\">amid</span><span class=\"word-info\">[əˈmɪd] prep. 在…中间，在…之中，被…围绕</span></span></span>AI原生设计：团队精简但效率极高，所有岗位都明确有“AI协作”的能力要求。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "YC最重要的忠告之一：不要期待第一版就完美，也不要因为初期效果不明显就放弃。",
+      "html": "<p>YC<span class=\"word-annot\"><span class=\"word-anchor\">最重要的</span><span class=\"word-block\"><span class=\"english-word\">foremost</span><span class=\"word-info\">[ˈfɔrˌmoʊst] adj. 最重要的；最先的</span></span></span>忠告之一：不要期待第一版就完美，也不要因为初期效果不明显就放弃。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "据报道，DeepSeek用极低的成本创造了惊人的成果：仅凭一支团队，训练成本不到600万美元，就打造出媲美ChatGPT的大语言模型，颠覆了“大模型必须大投入”的传统认知。",
+      "html": "<p>据报道，DeepSeek用极低的成本创造了<span class=\"word-annot\"><span class=\"word-anchor\">惊人的</span><span class=\"word-block\"><span class=\"english-word\">marvelous</span><span class=\"word-info\">[ˈmɑrvələs] adj. (marvellous)惊人的,奇迹般的,妙极的</span></span></span>成果：仅凭一支团队，训练成本不到600万美元，就打造出媲美ChatGPT的大语言模型，颠覆了“大模型必须大投入”的传统认知。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "他们没有一开始就喊“全面AI化”，而是在核心技术点上持续深耕。每一版本的进步，都是下一版本的基础。迭代的力量，远超一次性大投入。",
+      "html": "<p>他们没有一<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">inaugurate</span><span class=\"word-info\">[ˌɪˈnɔgjəˌreɪt] vt. 开始， 开展；为…举行就职典礼， 使正式就任；为…举行开幕式， 为…举行落成仪式</span></span></span>就喊“全面AI化”，而是在核心技术点上持续深耕。每一版本的<span class=\"word-annot\"><span class=\"word-anchor\">进步</span><span class=\"word-block\"><span class=\"english-word\">improvement</span><span class=\"word-info\">[ˌɪmˈpruvmənt] n. 改进,进步,增进</span></span></span>，都是下一版本的基础。迭<span class=\"word-annot\"><span class=\"word-anchor\">代的</span><span class=\"word-block\"><span class=\"english-word\">contemporary</span><span class=\"word-info\">[kənˈtɛmpərˌɛri] adj. 现代的,当代的；发生[存在]于同一时代的</span></span></span>力量，远超一次性大投入。</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "Diana转述了Jack Dorsey的判断：未来每家公司会越来越接近三类员工。",
+      "html": "<p>Diana转述了Jack Dorsey的<span class=\"word-annot\"><span class=\"word-anchor\">判断</span><span class=\"word-block\"><span class=\"english-word\">diagnose</span><span class=\"word-info\">[ˌdaɪəgˈnoʊs] v. 诊断(疾病)；判断(问题)</span></span></span>：未来每家公司会越来越接近三类员工。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "第一类：IC（Individual Contributor，个人贡献者）。",
+      "html": "<p>第一类：IC（Individual Contributor，个人<span class=\"word-annot\"><span class=\"word-anchor\">贡献</span><span class=\"word-block\"><span class=\"english-word\">contribute</span><span class=\"word-info\">[kənˈtrɪbjut] v. 贡献，出力；投稿；捐献</span></span></span>者）。</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "直接构建和运营的人。不只限于工程师，支持、销售、设计、运营等岗位都要有构建能力。每个人开会时带来的不应该只是PPT，而应该是可以跑的原型。",
+      "html": "<p>直接构建和运营<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">athlete</span><span class=\"word-info\">[ˈæθˌlit] n. 运动员，体育家；身强力壮的人</span></span></span>。不只限于工程师，支持、销售、<span class=\"word-annot\"><span class=\"word-anchor\">设计</span><span class=\"word-block\"><span class=\"english-word\">devise</span><span class=\"word-info\">[dɪˈvaɪz] v. 设计;发明;图谋;作出(计划);想出(办法)</span></span></span>、运营等岗位都要有构建能力。每个人开会时带来的不应该只是PPT，而应该是可以跑的<span class=\"word-annot\"><span class=\"word-anchor\">原型</span><span class=\"word-block\"><span class=\"english-word\">prototype</span><span class=\"word-info\">[ˈproʊtoʊˌtaɪp] n. 原型；标准，模范</span></span></span>。</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "第二类：DRI（Directly Responsible Individual，直接责任人）。",
+      "html": "<p>第二类：DRI（Directly Responsible Individual，直接<span class=\"word-annot\"><span class=\"word-anchor\">责任</span><span class=\"word-block\"><span class=\"english-word\">liability</span><span class=\"word-info\">[ˌlaɪəˈbɪlɪti] n. 责任；债务；倾向；可能性；不利因素</span></span></span>人）。</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "他们关注战略和客户结果，不是传统的总监和经理，而是对一个结果清晰负责的人。一个人对应N个结果，不能躲在组织结构后面。",
+      "html": "<p>他们关注战略和客户结果，不是<span class=\"word-annot\"><span class=\"word-anchor\">传统的</span><span class=\"word-block\"><span class=\"english-word\">classical</span><span class=\"word-info\">[ˈklæsɪkəl] adj. 古典的；经典的；传统的；第一流的</span></span></span>总监和经理，而是对一个结果清晰负责的人。一个人对应N个<span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">consequence</span><span class=\"word-info\">[ˈkɑnsəkwəns] n. 结果,后果,影响</span></span></span>，不能躲在组织结构后面。</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "第三类：Player-Coach（球员兼教练）。",
+      "html": "<p>第三类：Player-Coach（球员兼教练）。</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "他们既构建组织，也培养人才，用行动示范能力上限。他们取代了传统的经理负责信息上传下达的工作。",
+      "html": "<p>他们既构建组织，也培养人才，用行动示范能力<span class=\"word-annot\"><span class=\"word-anchor\">上限</span><span class=\"word-block\"><span class=\"english-word\">ceiling</span><span class=\"word-info\">[ˈsilɪŋ] n. 天花板；上限</span></span></span>。他们取代了<span class=\"word-annot\"><span class=\"word-anchor\">传统的</span><span class=\"word-block\"><span class=\"english-word\">orthodox</span><span class=\"word-info\">[ˈɔrθəˌdɑks] adj. 正统的；传统的；惯常的；东正教的</span></span></span>经理负责信息上传下达的工作。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "这背后有一个简单的事实：公司会用更小的团队拿到更大的结果。",
+      "html": "<p>这背后有一个<span class=\"word-annot\"><span class=\"word-anchor\">简单的</span><span class=\"word-block\"><span class=\"english-word\">gut</span><span class=\"word-info\">[gət] adj. 简单的；本质的，根本的；本能的，直觉的</span></span></span>事实：公司会用更小的团队拿到更大的结果。</p>"
+    },
+    {
+      "index": 85,
+      "source_text": "Diana在分享最后把话说得很重：“不要把对AI工具的信念外包给别人。创始人不能只是招一个‘AI负责人’，自己站在旁边等答案。你必须亲自坐下来和AI智能体一起工作，直到它打破你对‘现在能构建什么’的旧判断。”",
+      "html": "<p>Diana在分享最后把话说得很重：“不要把对AI<span class=\"word-annot\"><span class=\"word-anchor\">工具</span><span class=\"word-block\"><span class=\"english-word\">gear</span><span class=\"word-info\">[gɪr] n. 齿轮；装置，工具；传动装置</span></span></span>的信念外包给别人。创始人不能只是招一个‘AI负责人’，自己站<span class=\"word-annot\"><span class=\"word-anchor\">在旁边</span><span class=\"word-block\"><span class=\"english-word\">alongside</span><span class=\"word-info\">[əˈlɔŋˈsaɪd] prep. 在旁边</span></span></span>等答案。你必须亲自坐下来和AI智能体一起工作，直到它<span class=\"word-annot\"><span class=\"word-anchor\">打破</span><span class=\"word-block\"><span class=\"english-word\">breach</span><span class=\"word-info\">[briʧ] v. 违反，破坏；打破</span></span></span>你对‘现在能构建什么’的旧判断。”</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "只有当创始人自己看见能力边界被打穿，才可能重新设计组织，而不是把AI当作又一轮降本增效项目。",
+      "html": "<p>只有当创始人自己看见能力<span class=\"word-annot\"><span class=\"word-anchor\">边界</span><span class=\"word-block\"><span class=\"english-word\">boundary</span><span class=\"word-info\">[ˈbaʊndəri] n. 边界；范围；分界线</span></span></span>被打穿，才可能重新设计组织，而不是把AI当作又一轮降本增效项目。</p>"
+    },
+    {
+      "index": 87,
+      "source_text": "有人觉得这是创业公司的专属机会：小团队、没包袱，船小好调头。",
+      "html": "<p>有人觉得这是创业公司的专属<span class=\"word-annot\"><span class=\"word-anchor\">机会</span><span class=\"word-block\"><span class=\"english-word\">occasion</span><span class=\"word-info\">[əˈkeɪʒən] n. 时机，机会；场合；理由</span></span></span>：小团队、没包袱，船小好调头。</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "但看看国外的Stripe（金融科技巨头）、Notion（AI笔记领域的百亿巨头）、Shopify（加拿大电商巨头）这些大公司怎么做的就知道：AI原生从来不是小公司的特权，而是任何规模公司都应该具备的底层能力。",
+      "html": "<p>但看看<span class=\"word-annot\"><span class=\"word-anchor\">国外的</span><span class=\"word-block\"><span class=\"english-word\">overseas</span><span class=\"word-info\">[ˈoʊvərˈsiz] adj. 海外的，国外的</span></span></span>Stripe（金融科技巨头）、Notion（AI笔记领域的百亿巨头）、Shopify（加拿大电商巨头）这些大公司怎么做的就知道：AI原生从来不是小公司的特权，而是任何规模公司都应该具备的底层能力。</p>"
+    },
+    {
+      "index": 89,
+      "source_text": "无论公司大小，核心问题都一样：你的公司够不够“AI原生”？",
+      "html": "<p>无论公司<span class=\"word-annot\"><span class=\"word-anchor\">大小</span><span class=\"word-block\"><span class=\"english-word\">magnitude</span><span class=\"word-info\">[ˈmægnəˌtud] n. 大小；量级；[地震] 震级；重要；光度</span></span></span>，核心问题都一样：你的公司够不够“AI原生”？</p>"
+    },
+    {
+      "index": 90,
+      "source_text": "你要做的，就是从今天开始，试着用“AI原生”的思维，重新审视你的组织。",
+      "html": "<p>你要做的，就是从今天开始，试着用“AI原生”的思维，重新审视你的<span class=\"word-annot\"><span class=\"word-anchor\">组织</span><span class=\"word-block\"><span class=\"english-word\">formation</span><span class=\"word-info\">[fɔrˈmeɪʃən] n. 形成;构成;组织;构造;编制;塑造</span></span></span>。</p>"
+    },
+    {
+      "index": 91,
+      "source_text": "把信息留下来，把闭环建起来，把人放在真正该放的位置。",
+      "html": "<p>把信息留下来，把闭环建起来，把人放在真正该放<span class=\"word-annot\"><span class=\"word-anchor\">的位置</span><span class=\"word-block\"><span class=\"english-word\">shell</span><span class=\"word-info\">[ʃɛl] v. 剥落；设定命令行解释器的位置</span></span></span>。</p>"
+    },
+    {
+      "index": 92,
+      "source_text": "你会发现，新的机遇，一直都在。",
+      "html": "<p>你会<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discover</span><span class=\"word-info\">[dɪˈskəvər] v. 发现</span></span></span>，新的机遇，一直都在。</p>"
+    },
+    {
+      "index": 93,
+      "source_text": "今天我们深嵌于一个新的时代，科技、经济、哲学、政治都在经历持续变革和深刻重塑的复杂社会与商业环境之中，而真正困住绝大多数人的核心挑战，恰恰是：我们的认知框架、组织形态和行动逻辑，还停留在“前全球化时代”“前AI时代”。",
+      "html": "<p>今天我们深嵌于一个新的时代，科技、经济、哲学、政治都在经历持续变革和深刻重塑的复杂社会与商业环境之中，而真正困住绝大多数人的核心挑战，恰恰是：我们的认知框架、组织形态和行动逻辑，还停留在“前<span class=\"word-annot\"><span class=\"word-anchor\">全球化</span><span class=\"word-block\"><span class=\"english-word\">globalization</span><span class=\"word-info\">[ˌɡləʊbəlaɪˈzeɪʃn] n. 全球化</span></span></span>时代”“前AI时代”。</p>"
+    },
+    {
+      "index": 94,
+      "source_text": "面向新全球化时代、AI新时代，笔记侠PPE（Philosophy政治学、Politics经济学、Economic哲学，三学科交叉培养体系）课程，正是为理解这样的复杂系统而生：",
+      "html": "<p>面向新全球化时代、AI新时代，笔记侠PPE（Philosophy政治学、Politics<span class=\"word-annot\"><span class=\"word-anchor\">经济学</span><span class=\"word-block\"><span class=\"english-word\">economics</span><span class=\"word-info\">[ˌɛkəˈnɑmɪks] n. 经济学</span></span></span>、Economic哲学，三学科交叉培养体系）课程，正是为理解这样的复杂系统而生：</p>"
+    },
+    {
+      "index": 95,
+      "source_text": "在这里，你能理解以AI为核心的科技经济和智能商业、理解AI哲学、理解文明进程与哲学意义、理解新格局下的国际贸易与经济政策、理解国际政治与全球治理模式。",
+      "html": "<p>在这里，你能理解以AI为核心的科技经济和智能商业、理解AI哲学、理解<span class=\"word-annot\"><span class=\"word-anchor\">文明</span><span class=\"word-block\"><span class=\"english-word\">civilization</span><span class=\"word-info\">[ˌsɪvəlaɪˈzeɪʃn] n. 文明；文化</span></span></span>进程与哲学意义、理解新格局下的国际贸易与经济政策、理解国际政治与全球治理模式。</p>"
+    },
+    {
+      "index": 96,
+      "source_text": "这，正是第五代企业家应有的一套完整的“认知操作系统”。",
+      "html": "<p>这，正是第五代<span class=\"word-annot\"><span class=\"word-anchor\">企业家</span><span class=\"word-block\"><span class=\"english-word\">entrepreneur</span><span class=\"word-info\">[ˌɒntrəprəˈnɜː] n. 企业家；承包人；主办者</span></span></span>应有的一套完整的“认知操作系统”。</p>"
+    },
+    {
+      "index": 97,
+      "source_text": "驾驭技术、洞察世界、扎根中国、修炼心力，在应对时代重重挑战中寻找属于你的决策底牌。穿越变革的旧世界，找到时代的新大陆，从【PPE：未来3年和AI时代的决策底牌】开始。",
+      "html": "<p>驾驭技术、洞察世界、扎根中国、修炼心力，在应对时代重重挑战中寻找<span class=\"word-annot\"><span class=\"word-anchor\">属于</span><span class=\"word-block\"><span class=\"english-word\">belong</span><span class=\"word-info\">[bɪˈlɔŋ] v. 属于，应归入；居住；适宜；应被放置</span></span></span>你的决策底牌。穿越变革的旧世界，找到时代的新<span class=\"word-annot\"><span class=\"word-anchor\">大陆</span><span class=\"word-block\"><span class=\"english-word\">continent</span><span class=\"word-info\">[ˈkɑntənənt] n. 大陆,洲</span></span></span>，从【PPE：未来3年和AI时代的决策底牌】开始。</p>"
+    },
+    {
+      "index": 98,
+      "source_text": "笔记侠PPE课程26级招生即将截止，5月16日开课，现仅剩最后5个名额。",
+      "html": "<p>笔记侠PPE<span class=\"word-annot\"><span class=\"word-anchor\">课程</span><span class=\"word-block\"><span class=\"english-word\">curriculum</span><span class=\"word-info\">[kərˈɪkjələm] n. 课程,(学校等的)全部课程</span></span></span>26级招生即将截止，5月16日开课，现仅剩最后5个名额。</p>"
+    }
+  ]
+}
