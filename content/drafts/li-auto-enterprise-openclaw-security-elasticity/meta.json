@@ -1,6 +1,6 @@
 {
   "slug": "li-auto-enterprise-openclaw-security-elasticity",
-  "title_zh": "既要安全⼜要弹性，理想汽车如何解开企业 OpenClaw 落地死结｜甲子光年",
+  "title_zh": "既要安全又要弹性，理想汽车如何解开企业 OpenClaw 落地死结",
   "title_en": "How Li Auto Balances Security and Elasticity for Enterprise OpenClaw Deployment",
   "title_emoji": "💡",
   "date": "2026-04-30",
@@ -14,5 +14,16 @@
   "meta_description": "围绕理想汽车在企业 OpenClaw 落地中面临的“安全与弹性”双重约束，梳理其从 Kubernetes 原生网关方案转向阿里云容器服务 ACS 的关键决策路径，讨论在稳定性、资源成本与治理效率之间如何取得工程化平衡。",
   "omit_sections_note": "本站已按编辑流程处理正文；具体以原文为准。",
   "risk_blurb": "本文仅供学习交流，不构成投资建议或其他专业意见。",
-  "source_mode": "url"
+  "source_mode": "url",
+  "tags": [
+    "理想汽车",
+    "OpenClaw",
+    "AI Agent",
+    "企业落地",
+    "Agent Infra",
+    "Kubernetes",
+    "阿里云ACS",
+    "甲子光年",
+    "转载"
+  ]
 }
