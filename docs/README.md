@@ -16,6 +16,7 @@
 | 文档 | 内容 |
 |------|------|
 | [PIPELINE.md](./PIPELINE.md) | 四步流水线总览、`mingox.py` 入口、**目录职责速查** |
+| [SOP-v1.md](./SOP-v1.md) | 发稿提速与防返工执行清单（先审后发、抽检、回帖模板） |
 | [steps/README.md](./steps/README.md) | 第 1～4 步文档入口（索引表） |
 | [PREREQUISITES.md](./PREREQUISITES.md) | Git、Python、Playwright、Node/EdgeOne 等 |
 | [EDITORIAL.md](./EDITORIAL.md) | 版式与版权等**编辑规范全文** |
