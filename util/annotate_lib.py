@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import html
 import re
+import sys
 from html.parser import HTMLParser
 
 DEFAULT_SOURCE_ACCOUNT = "笔记侠"
@@ -120,11 +121,23 @@ def post_source_footer_html(
 """
 
 
-def extract_ps(html: str) -> list[str]:
+_EXTRACT_PS_MIN_LEN = 10
+
+
+def extract_ps(html: str, *, warn: bool = True) -> list[str]:
+    """收集 `<p>` 内文本（>10 字）；丢弃过短的 `<p>` 时按需输出诊断。
+
+    历史行为是静默 drop ≤ 10 字的 `<p>` 内容(广告占位、空标签等)。
+    现在通过 `warn=True` 时把丢弃数量与样本写到 stderr,便于排查
+    「extract_ps 抽出来段数偏少」的疑点;`warn=False` 仍保持完全安静,
+    供调用方按需关闭(例如批量回归脚本)。
+    """
+
     class PExtractor(HTMLParser):
         def __init__(self) -> None:
             super().__init__()
             self.chunks: list[str] = []
+            self.dropped_short: list[str] = []
             self._buf: list[str] = []
             self._in_skip = False
             self._skip_depth = 0
@@ -150,8 +163,11 @@ def extract_ps(html: str) -> list[str]:
                 return
             if tag == "p":
                 t = "".join(self._buf).strip()
-                if t and len(t) > 10:
-                    self.chunks.append(t)
+                if t:
+                    if len(t) > _EXTRACT_PS_MIN_LEN:
+                        self.chunks.append(t)
+                    else:
+                        self.dropped_short.append(t)
                 self._buf = []
 
         def handle_data(self, data: str) -> None:
@@ -160,6 +176,14 @@ def extract_ps(html: str) -> list[str]:
 
     p = PExtractor()
     p.feed(html)
+    if warn and p.dropped_short:
+        # 例:`[extract_ps] dropped 5 short <p>(<=10 chars), samples: ['标题', '关注我们', ...]`
+        sample = p.dropped_short[:5]
+        print(
+            f"[extract_ps] dropped {len(p.dropped_short)} short <p>(len<={_EXTRACT_PS_MIN_LEN}),"
+            f" samples: {sample!r}",
+            file=sys.stderr,
+        )
     return p.chunks
 
 
