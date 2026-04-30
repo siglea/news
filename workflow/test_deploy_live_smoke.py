@@ -61,6 +61,12 @@ class TestDeployLiveSmoke(unittest.TestCase):
         self.assertIn("[deploy smoke] OK:", buf.getvalue())
 
 
+class TestHttpStatusFallback(unittest.TestCase):
+    def test_urlerror_returns_negative_one(self) -> None:
+        with mock.patch("mingox.urlrequest.urlopen", side_effect=mingox.urlerror.URLError("dns")):
+            self.assertEqual(mingox._http_status("https://example.test"), -1)
+
+
 class TestCloseLoopDeployPassesPostPath(unittest.TestCase):
     def test_close_loop_deploy_includes_post_check(self) -> None:
         # 用 mock 拦截 _run_step 检查 deploy 子命令

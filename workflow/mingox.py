@@ -481,6 +481,9 @@ def _http_status(url: str, *, timeout_sec: float = 15.0) -> int:
             return int(getattr(resp, "status", 200) or 200)
     except urlerror.HTTPError as e:
         return int(e.code)
+    except (urlerror.URLError, TimeoutError, ConnectionError):
+        # 网络/DNS 波动时不抛异常，交由上层 smoke check 以 WARN 形式报告
+        return -1
 
 
 def _deploy_live_smoke_check(preview_url: str, *, post_path: str | None = None) -> None:
