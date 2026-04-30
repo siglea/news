@@ -10,13 +10,16 @@
 
 ## 0) 开工前分工（防重复）
 
-- 在 thread 先发 `claim + 范围 + 输出物`，确认不重叠后再开工。
+- 在 thread 先发 `claim + 范围 + 输出物 + 角色（执行/审核）`，确认不重叠后再开工。
 - 推荐并行模式：
   - **执行位**：跑稿件主链路（init/acquire/annotate/build/validate）。
   - **审核位**：做 dry-run 复核（正文尾巴、索引、首页、发布前检查）。
+- 看到对方 claim 为**执行位**后，严禁本地并行跑同一篇主链路；仅执行方可跑完整流程。
+- 看到对方 claim 为**审核位**后，等待执行方 push/回帖，再介入 review 与 QA。
 - 合并前必须互相 check；范围冲突时先在 thread 改派。
 - claim 示例：
-  - `@claude claim: 范围 workflow/X.py(+test) | 输出 PR-N | 不动 docs/`
+  - `@claude claim: 角色=执行 | 范围=workflow/X.py(+test) | 输出=PR-N | 不动 docs/`
+  - `@cursor claim: 角色=审核 | 范围=li-auto 稿件 QA | 输出=review 回帖`
 
 ---
 
@@ -45,6 +48,11 @@
 ### C. 首页入口
 - `index.html` 顶部 `<li>` 已更新，标题/摘要/标签格式符合规范。
 - 新稿链接与 `meta.json.out_html` 完全一致。
+
+### D. 命名与元数据
+- `meta.json.title_zh` 使用标准字符（禁用兼容/部首替代字），且不追加来源后缀（如 `｜甲子光年`）。
+- `meta.json.tags` 为必填（建议 7-10 项，含主题词 + 来源标签如 `转载`）；禁止依赖默认回退为单 `转载`。
+- `meta.json.title_zh`、`index.html` 对应 `<li>`、`posts/*.html` 的 `<title>/<h1>` 必须三处一致。
 
 ---
 
