@@ -221,13 +221,20 @@ def extract_wechat_plain_paragraphs(html: str) -> list[str]:
     if tail:
         sentences.append(tail)
 
+    # 黑名单只在末尾运营区生效；正文 body 可以合法提及黑名单关键词
+    # （例如转载自巴伦中文网的稿子,正文里就会出现"巴伦中文网"四字）。
+    # tail_size = max(5, 1/5 of doc)；len < 5 时退化为全文兜底（legacy）。
+    tail_size = max(5, len(sentences) // 5)
+    tail_start = max(0, len(sentences) - tail_size)
+
     paras: list[str] = []
     acc: list[str] = []
     acc_len = 0
-    for s in sentences:
+    for idx, s in enumerate(sentences):
         s = re.sub(r"^[▎▶◆●\s]+", "", s.strip())
-        if any(x in s for x in _WECHAT_LEAF_SKIP_SUBSTR):
+        if idx >= tail_start and any(x in s for x in _WECHAT_LEAF_SKIP_SUBSTR):
             continue
+        # `#这事钛大了` 与单行长 hashtag 是结构性话题标签，正文中也不应保留
         if "#这事钛大了" in s or (s.startswith("#") and len(s) > 30):
             continue
         acc.append(s)
@@ -248,7 +255,8 @@ def extract_wechat_span_leaf_paragraphs(html: str) -> list[str]:
     从 span leaf 抽文本并按句长合并为段落，供 01-source.md 使用。
     """
     h = re.sub(r"(?is)<br\s*/?>", "\n", html)
-    pieces: list[str] = []
+    # 先抽出所有候选 leaf（仅做轻量清洗），再按位置区分 body / tail 应用黑名单。
+    raw_leaves: list[str] = []
     for m in re.finditer(r"<span\s+leaf[^>]*>([\s\S]*?)</span>", h, flags=re.I):
         inner = re.sub(r"<[^>]+>", "", m.group(1))
         t = inner.replace("\xa0", " ").strip()
@@ -256,7 +264,14 @@ def extract_wechat_span_leaf_paragraphs(html: str) -> list[str]:
             continue
         if "#这事钛大了" in t or (t.startswith("#") and len(t) > 35):
             continue
-        if any(s in t[:24] for s in _WECHAT_LEAF_SKIP_SUBSTR):
+        raw_leaves.append(t)
+
+    # 黑名单只对末尾 leaf 生效；正文中提及"巴伦中文网"等媒体名应保留。
+    tail_size = max(5, len(raw_leaves) // 5)
+    tail_start = max(0, len(raw_leaves) - tail_size)
+    pieces: list[str] = []
+    for idx, t in enumerate(raw_leaves):
+        if idx >= tail_start and any(s in t[:24] for s in _WECHAT_LEAF_SKIP_SUBSTR):
             continue
         pieces.append(t)
 
