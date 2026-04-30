@@ -27,7 +27,7 @@ python3 workflow/mingox.py deploy --project mingox
 python3 workflow/mingox.py close-loop --slug <slug> --deploy
 ```
 
-该命令会先执行 `build -> validate`，通过后再 `deploy`。
+该命令会先执行 `annotations-gate -> build -> validate`（标注层错误 fail-fast，避免 build 完才发现标注问题），通过后再 `deploy`。
 
 - 依赖：**Node** + `npx` 拉取 EdgeOne CLI；身份可用 **登录** 或 **Token**。
 - Token 可置于 **`.edgeone/.token`**（勿提交密钥；`.gitignore` 已忽略）。

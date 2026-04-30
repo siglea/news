@@ -14,7 +14,7 @@ python3 workflow/mingox.py --help
 
 **典型命令**：`mingox init` → `acquire` → `export-chat-bundle` → 大模型写出 `llm_annotations.json` → `build`。
   
-**闭环执行（推荐）**：在标注完成后可直接运行 `python3 workflow/mingox.py close-loop --slug <slug>`，固定执行 `build -> validate`；需要发布时再加 `--deploy`。
+**闭环执行（推荐）**：在标注完成后可直接运行 `python3 workflow/mingox.py close-loop --slug <slug>`，固定执行 `annotations-gate -> build -> validate`（标注层错误 fail-fast，不浪费 build 一遍后才报错）；需要发布时再加 `--deploy`。
 
 以往的 **`article-profiles.json` + `annotate-wechat-plain.py` + `mingox wechat`** 已移除；旧流程请改为上述草稿目录 + `build`。
 

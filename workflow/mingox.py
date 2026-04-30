@@ -307,7 +307,11 @@ def cmd_close_loop(args: argparse.Namespace) -> None:
     py = _py()
     wf = str(WORKFLOW_DIR / "mingox.py")
 
+    # 优化:在 build 之前先跑 annotations gate(`validate --annotations --slug <slug>`)
+    # 让标注层错误 fail-fast,免去先跑 build(产 HTML)→ 再 validate(发现问题)→
+    # 修标注 → 再 build 的浪费。build 自己仍会跑标注 quality gate(双保险)。
     steps: list[tuple[str, list[str]]] = [
+        ("annotations-gate", [py, wf, "validate", "--annotations", "--slug", args.slug]),
         ("build", [py, wf, "build", "--slug", args.slug]),
         ("validate", [py, wf, "validate", "--post", out_html]),
     ]
@@ -320,7 +324,10 @@ def cmd_close_loop(args: argparse.Namespace) -> None:
         if rc != 0:
             raise SystemExit(rc)
 
-    print("[close-loop] OK: build + validate" + (" + deploy" if args.deploy else ""))
+    print(
+        "[close-loop] OK: annotations-gate + build + validate"
+        + (" + deploy" if args.deploy else "")
+    )
 
 
 def main() -> None:
@@ -449,7 +456,7 @@ def main() -> None:
 
     p_cl = sub.add_parser(
         "close-loop",
-        help="闭环执行：build -> validate -> (optional) deploy",
+        help="闭环执行：annotations-gate -> build -> validate -> (optional) deploy",
     )
     p_cl.add_argument("--slug", required=True)
     p_cl.add_argument("--deploy", action="store_true", help="通过 build+validate 后继续部署")
