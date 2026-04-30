@@ -6,6 +6,15 @@
 *~
 .DS_Store
 
+# Python 字节码与 venv（任意子目录均忽略）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+
 # 各类 AI 编程 harness 的本地配置（保持仓库 harness 中立，勿提交）
 # Claude Code: .claude/ ；Cursor: .cursor/ ；Aider: .aider* ；Continue: .continue/
 .claude/
