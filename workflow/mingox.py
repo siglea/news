@@ -231,6 +231,195 @@ def cmd_serve(args: argparse.Namespace) -> None:
     raise SystemExit(r.returncode)
 
 
+# ============================================================
+# normalize-source: 检测/截断 01-source.md 末尾的运营尾巴
+# 设计原则:
+# - **默认 `--check`**:仅诊断,不动文件(零破坏)
+# - **`--auto-truncate`**:仅在尾部段命中**高置信运营 pattern** 时实际截断
+# - **不在正文中部命中**:从尾部往前找,遇到第一个"看起来像正文"的段落即停
+# - 公开 _OP_TAIL_HIGH_CONF / _OP_TAIL_MID_CONF 模块常量,便于扩展+测试
+# ============================================================
+
+# 高置信运营 pattern:命中即可自动截断(典型微信公众号尾巴运营段)
+_OP_TAIL_HIGH_CONF = (
+    "扫描二维码",
+    "扫码关注",
+    "扫码进群",
+    "长按识别",
+    "添加小助手",
+    "添加微信",
+    "加微信",
+    "关注公众号",
+    "关注我们",
+    "点击下方",
+    "点击阅读原文",
+    "阅读原文",
+    "点赞关注",
+    "在看哦",
+    "成为会员",
+    "订阅《",
+    "订阅本",
+    "诚邀各领域",
+    "申报《",
+    "集世界500强",
+)
+
+# 中置信运营 pattern:仅 `--check` 报告建议,不自动截断
+# (因可能在正文中合法出现,如"商务合作"在某些行业稿子里就是正文)
+_OP_TAIL_MID_CONF = (
+    "商务合作",
+    "投稿邮箱",
+    "招聘内容编辑",
+    "推荐阅读",
+    "相关阅读",
+    "热点视频推荐",
+)
+
+# 正文识别启发:段落长度 ≥ 30 字符 + 不含 high-conf pattern + 不像 cross-promo
+# (cross-promo 例如 "话题A | 话题B | 话题C" 三个标题用 | 拼接)
+_BODY_MIN_LEN = 30
+# `|` 分隔的 cross-promo 行(典型: "起底游戏周边 | 白银之城 | 离职字节创业")
+# 每段 2-15 字符且不含正文标点(逗号/句号/顿号),避免误伤含 `|` 的正文。
+_CROSS_PROMO_RE = re.compile(
+    r"^[^|\n,，。.；;、]{2,15}(\s*\|\s*[^|\n,，。.；;、]{2,15}){1,}\s*$"
+)
+
+
+def _is_operational_paragraph(text: str, *, mid_conf: bool = False) -> tuple[bool, str]:
+    """是否是运营段?返回 `(is_op, reason_label)`。
+
+    `mid_conf=False`(默认):仅 high-conf 命中算运营。
+    `mid_conf=True`:high-conf + mid-conf 都算(用于 --check 报告)。
+    """
+    s = text.strip()
+    if not s:
+        return False, ""
+    # 高置信
+    for kw in _OP_TAIL_HIGH_CONF:
+        if kw in s:
+            return True, f"high-conf:{kw}"
+    if mid_conf:
+        for kw in _OP_TAIL_MID_CONF:
+            if kw in s:
+                return True, f"mid-conf:{kw}"
+    # cross-promo 链接列表
+    if _CROSS_PROMO_RE.match(s):
+        return True, "cross-promo"
+    return False, ""
+
+
+def _is_body_paragraph(text: str) -> bool:
+    """判断段落是否"看起来像正文"。"""
+    s = text.strip()
+    if len(s) < _BODY_MIN_LEN:
+        return False
+    is_op, _ = _is_operational_paragraph(s, mid_conf=False)
+    if is_op:
+        return False
+    return True
+
+
+def _find_truncation_point(paragraphs: list[str]) -> int | None:
+    """返回需要从哪个 paragraph index 起截断;None 表示不需截断。
+
+    算法:
+    1. 从末尾往前扫,找出最后一个"看起来像正文"段落的 index `last_body_idx`
+    2. 若 `last_body_idx` 之后存在任何 high-conf pattern 段或 cross-promo,
+       则从 `last_body_idx + 1` 起截断
+    3. 若 last_body_idx 之后只有空段或中等置信段,**不**自动截断(避免误伤)
+    """
+    if not paragraphs:
+        return None
+    last_body_idx = -1
+    for i, p in enumerate(paragraphs):
+        if _is_body_paragraph(p):
+            last_body_idx = i
+    if last_body_idx == -1:
+        return None  # 全篇无明显正文,不动
+    if last_body_idx == len(paragraphs) - 1:
+        return None  # 末段就是正文,无尾巴
+    # 检查 last_body_idx + 1 .. end 是否有 high-conf 或 cross-promo
+    has_high_conf = False
+    for p in paragraphs[last_body_idx + 1:]:
+        is_op, label = _is_operational_paragraph(p, mid_conf=False)
+        if is_op and (label.startswith("high-conf") or label == "cross-promo"):
+            has_high_conf = True
+            break
+    if has_high_conf:
+        return last_body_idx + 1
+    return None
+
+
+def cmd_normalize_source(args: argparse.Namespace) -> None:
+    """检测/截断 `content/drafts/<slug>/01-source.md` 末尾的运营尾巴。
+
+    默认 `--check` 模式:输出诊断,不动文件,exit 0(干净) 或 1(发现可截断段)。
+    `--auto-truncate`:仅在 high-conf 命中时实际写文件。
+    """
+    draft = ROOT / "content" / "drafts" / args.slug
+    src = draft / "01-source.md"
+    if not src.is_file():
+        raise SystemExit(f"missing {src}")
+    text = src.read_text(encoding="utf-8")
+    paragraphs = [p for p in text.split("\n\n")]
+    cut_idx = _find_truncation_point(paragraphs)
+
+    # 收集 mid-conf 建议(只报,不动)
+    mid_conf_hits: list[tuple[int, str, str]] = []
+    if cut_idx is None:
+        # 全篇逐段扫一下 mid-conf
+        for i, p in enumerate(paragraphs):
+            is_op, label = _is_operational_paragraph(p, mid_conf=True)
+            if is_op and label.startswith("mid-conf"):
+                mid_conf_hits.append((i, label, p[:40]))
+
+    print(f"[normalize-source] {src.relative_to(ROOT)}({len(paragraphs)} paragraphs)")
+    if cut_idx is None:
+        print("[normalize-source] no high-confidence operational tail detected")
+        if mid_conf_hits:
+            print(
+                f"[normalize-source] {len(mid_conf_hits)} mid-confidence hint(s) "
+                "(not auto-truncated; review manually):"
+            )
+            for i, label, sample in mid_conf_hits[:5]:
+                print(f"  - paragraph #{i} {label}: {sample!r}")
+        raise SystemExit(0)
+
+    cut_count = len(paragraphs) - cut_idx
+    print(
+        f"[normalize-source] high-conf operational tail starts at paragraph #{cut_idx} "
+        f"({cut_count} paragraphs to cut):"
+    )
+    for i, p in enumerate(paragraphs[cut_idx:], start=cut_idx):
+        if not p.strip():
+            continue
+        sample = p.strip()[:60]
+        is_op, label = _is_operational_paragraph(p, mid_conf=False)
+        marker = label or "(empty/whitespace)"
+        print(f"  - paragraph #{i} {marker}: {sample!r}")
+
+    if not args.auto_truncate:
+        print(
+            "[normalize-source] check mode: not modifying file. "
+            "Re-run with --auto-truncate to apply."
+        )
+        raise SystemExit(1)  # exit 1 让 CI / process script 知道发现了问题
+
+    # 实际截断
+    new_paragraphs = paragraphs[:cut_idx]
+    # 去尾部空白段
+    while new_paragraphs and not new_paragraphs[-1].strip():
+        new_paragraphs.pop()
+    new_text = "\n\n".join(new_paragraphs).rstrip() + "\n"
+    src.write_text(new_text, encoding="utf-8")
+    print(
+        f"[normalize-source] truncated: "
+        f"{len(paragraphs)} → {len(new_paragraphs)} paragraphs, "
+        f"wrote {len(new_text)} bytes"
+    )
+    raise SystemExit(0)
+
+
 def _extract_edgeone_preview_url(blob: str) -> str | None:
     """从 edgeone CLI 输出解析预览 URL（须含 eo_token 等查询参数）。"""
     text = blob or ""
@@ -553,6 +742,18 @@ def main() -> None:
     )
     p_pap.add_argument("--slug", required=True)
     p_pap.set_defaults(func=cmd_print_annotate_prompt)
+
+    p_ns = sub.add_parser(
+        "normalize-source",
+        help="检测/截断 01-source.md 末尾运营尾巴(扫码/关注/小助手 等)",
+    )
+    p_ns.add_argument("--slug", required=True)
+    p_ns.add_argument(
+        "--auto-truncate",
+        action="store_true",
+        help="实际写入截断后的文件;默认仅诊断输出(--check 模式)",
+    )
+    p_ns.set_defaults(func=cmd_normalize_source)
 
     p_v = sub.add_parser(
         "validate",
