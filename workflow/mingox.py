@@ -18,6 +18,9 @@ import sys
 import time
 from contextlib import contextmanager
 from pathlib import Path
+from urllib import error as urlerror
+from urllib import parse as urlparse
+from urllib import request as urlrequest
 
 WORKFLOW_DIR = Path(__file__).resolve().parent
 ROOT = WORKFLOW_DIR.parent
@@ -464,6 +467,54 @@ def _edgeone_deploy_summary(stdout: str, stderr: str, *, success: bool) -> None:
         )
 
 
+def _preview_url_for_path(preview_url: str, path: str) -> str:
+    """把 preview URL 改写成同查询串下的指定路径。"""
+    p = urlparse.urlsplit(preview_url)
+    return urlparse.urlunsplit((p.scheme, p.netloc, path, p.query, p.fragment))
+
+
+def _http_status(url: str, *, timeout_sec: float = 15.0) -> int:
+    """返回 URL HTTP 状态码。"""
+    req = urlrequest.Request(url, method="GET")
+    try:
+        with urlrequest.urlopen(req, timeout=timeout_sec) as resp:
+            return int(getattr(resp, "status", 200) or 200)
+    except urlerror.HTTPError as e:
+        return int(e.code)
+
+
+def _deploy_live_smoke_check(preview_url: str, *, post_path: str | None = None) -> None:
+    """部署后线上抽检：post=200, internal=404。
+
+    - 默认检查 `index.html` 为 200（当未提供 post_path 时作为公开资源基线）
+    - 内部路径 `/util/annotate_lib.py` 与 `/content/drafts/` 应为 404
+    - 仅输出 WARN，不中断 deploy 成功返回码
+    """
+    targets: list[tuple[str, int, str]] = []
+    if post_path:
+        post_norm = "/" + post_path.lstrip("/")
+        targets.append((post_norm, 200, "public-post"))
+    else:
+        targets.append(("/index.html", 200, "public-index"))
+    targets.extend(
+        [
+            ("/util/annotate_lib.py", 404, "internal-util"),
+            ("/content/drafts/", 404, "internal-drafts"),
+        ]
+    )
+
+    issues: list[str] = []
+    for rel, expected, label in targets:
+        u = _preview_url_for_path(preview_url, rel)
+        got = _http_status(u)
+        if got != expected:
+            issues.append(f"{label} {rel} expect={expected} got={got}")
+    if issues:
+        print("[deploy smoke] WARN: " + " ; ".join(issues), file=sys.stderr)
+    else:
+        print("[deploy smoke] OK: public/internal checks passed", file=sys.stderr)
+
+
 def _deploy_preflight(token_path: Path, build_script: Path) -> tuple[str, bool]:
     """deploy 前置 fail-fast 检查。
 
@@ -591,6 +642,13 @@ def cmd_deploy(args: argparse.Namespace) -> None:
     if r.stderr:
         print(r.stderr, end="" if r.stderr.endswith("\n") else "\n", file=sys.stderr)
     _edgeone_deploy_summary(r.stdout or "", r.stderr or "", success=(r.returncode == 0))
+    if r.returncode == 0:
+        preview_url = _extract_edgeone_preview_url(f"{r.stdout or ''}\n{r.stderr or ''}")
+        if preview_url:
+            with _profile_step("deploy.live_smoke"):
+                _deploy_live_smoke_check(preview_url, post_path=args.post_check)
+        else:
+            print("[deploy smoke] WARN: 未解析到 preview URL，跳过线上抽检", file=sys.stderr)
     raise SystemExit(r.returncode)
 
 
@@ -633,7 +691,9 @@ def cmd_close_loop(args: argparse.Namespace) -> None:
         ("validate", [py, wf, "validate", "--post", out_html]),
     ]
     if args.deploy:
-        steps.append(("deploy", [py, wf, "deploy", "--project", args.project]))
+        deploy_cmd = [py, wf, "deploy", "--project", args.project]
+        deploy_cmd.extend(["--post-check", out_html])
+        steps.append(("deploy", deploy_cmd))
 
     for name, cmd in steps:
         print(f"[close-loop] running {name}: {' '.join(cmd[2:])}")
@@ -784,6 +844,10 @@ def main() -> None:
 
     p_d = sub.add_parser("deploy", help="Step 4: EdgeOne Pages (needs npx + token or login)")
     p_d.add_argument("--project", default="mingox")
+    p_d.add_argument(
+        "--post-check",
+        help="可选：部署后抽检的成稿路径（如 posts/2026-04-30-foo.html）",
+    )
     p_d.set_defaults(func=cmd_deploy)
 
     p_cl = sub.add_parser(
