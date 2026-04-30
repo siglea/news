@@ -4,6 +4,8 @@
 
 适用：`mx` 新稿全流程（URL -> 草稿 -> 标注 -> 成稿 -> 首页 -> 发布）。
 
+与 `docs/PIPELINE.md` 关系：本 SOP 将复盘经验转成可执行清单；若两文有操作层冲突，以本 SOP 为准。
+
 ---
 
 ## 0) 开工前分工（防重复）
@@ -13,6 +15,8 @@
   - **执行位**：跑稿件主链路（init/acquire/annotate/build/validate）。
   - **审核位**：做 dry-run 复核（正文尾巴、索引、首页、发布前检查）。
 - 合并前必须互相 check；范围冲突时先在 thread 改派。
+- claim 示例：
+  - `@claude claim: 范围 workflow/X.py(+test) | 输出 PR-N | 不动 docs/`
 
 ---
 
@@ -51,6 +55,7 @@
   - `/content/drafts/<slug>/01-source.md`
 
 若 404 抽检失败，视为发布质量问题，立即回滚到修复流程。
+回滚定义：修源文件 -> 重跑 `close-loop --deploy`（EdgeOne 以最新 deployment 覆盖线上）；通常不需要 `git revert`。
 
 ---
 
@@ -83,6 +88,7 @@
 - 本次 URL：
 - slug / out_html：
 - 标注结果（non-skip）：
+- 标注方式（subagent / 主代理直跑）：
 - `close-loop` 结果：
 - Deployment ID：
 - 预览 URL（完整 eo_token 参数）：
