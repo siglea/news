@@ -98,6 +98,24 @@ python3 workflow/mingox.py --help
 - **历史命名违规残留**：仓库尚有 8 个 `mp-<id>-article` 草稿（含 1 篇成稿是首页孤儿），违反 L13 命名规范，已批量清理。
 - **空文件污染**：`.env`（0 字节）历史被 tracked，`.gitignore` 对已追踪文件无效；`git rm --cached` 后保持本机文件不删。
 
+### 2026-04-30（mx 加固 + 多 agent 协作 + 首篇实战）
+
+- **mx 第一阶段加固**：一次性合入 9 条 PR 修复了 8 条问题清单 —— `.gitignore` 漏配、`.coze` 引用不存在脚本、首页孤儿稿、`npx edgeone@latest` 不 pin、缺 CI 入口、微信抽取黑名单全文匹配、220 字硬合并跨主题、`extract_ps` 静默丢段、整仓静态根目录暴露内部源码。**结论：基础设施加固先于业务工作，一次成型胜过零散修补。**
+- **白名单 dist/ 替代仓库根**（PR #9）：新建 `tools/build_dist.sh` 把 `index.html / about.html / dahanghai.html / favicon.ico` + `posts/ css/ js/ images/` 显式 OPT-IN 拷贝到 `./dist`，配合 `edgeone.json` 的 `outputDirectory: "dist"` + `_config.yml` `exclude:` 全名单。**结论：任何新加的内部目录默认不外露，比黑名单可靠。** 实战验证：deploy 输出 `[build_dist] OK -> dist (65 files, 4 dirs)`，对应 4 个公开文件 + 60 篇 posts + favicon，零内部资源外露。
+- **subagent 派活跑标注**（实战首篇 47 句）：主代理 0 token 用于逐句标注，95.7% non-skip，vocab 45 词，`build + validate` 一次过，主代理只看摘要回报。**结论：支持 subagent 的 harness 默认派子代理跑 annotation；主代理只负责调度与 review。**
+- **`extract_ps` 诊断生效**：实战首篇 acquire 后立即在 stderr 输出 `[extract_ps] dropped 4 short <p>(len<=10), samples: ['译者：郝秀','审校：汪皓','申报《财富》榜单','订阅《财富》']`，4 条全是非正文，**信号准确**。**结论：默认 `warn=True` 帮助 acquire 后人眼复核，发现误丢正文短段就能立刻处理。**
+- **凭据路径约定**（agent 协作必备）：
+  - **EdgeOne API Token**：`/Users/lzzg/.edgeone/token`（人维护，agent 复制到 `.edgeone/.token` 后跑 deploy）
+  - **Gitee PAT**：`/Users/lzzg/.gitee`（人维护，agent 通过 HTTPS URL embed 推送）
+  - 两者都 `chmod 600`，**绝不**进 git tracked 文件、**绝不**贴公开聊天频道。
+- **多 agent 并行 deploy 撞车**：实战首篇收尾时 @claude / @cursor 同时跑 `mingox deploy`，相差 28 秒，两份独立 deployment 都成功，但生产环境只跟最新一次。**虽然没坏事，是隐患**。**结论 → 串行 deploy 协议**：
+  1. 在 thread 里发 `claim deploy` 后再执行
+  2. 执行中每 30~60s 报一次状态
+  3. 完成后必回贴 `Deployment ID + 完整预览 URL（含 eo_token）+ eo_time`
+  4. 其他 agent 看到 claim 后**不再并发**，除非明确接力或重试
+- **EdgeOne CLI 副作用**：`mingox deploy` 跑完后 EdgeOne CLI 把 `dist/` move 到 `.edgeone/assets/`，覆盖了原本 tracked 的 `.edgeone/assets/*`（虽然 `.gitignore` 有 `.edgeone/*`，但已 tracked 文件不受 ignore 约束）。**结论：未来可加 PR 把 `.edgeone/assets/` 整体 `git rm --cached`，让 `.gitignore` 真正生效，避免每次 deploy 都让工作区出现 D/M 噪音。** （第二阶段候选）
+- **首篇 throughput 基线**：从 URL 给到 deploy 成功 ~90 分钟，其中等人工提供 token ~70 分钟，纯流水线工作 ~20 分钟（acquire 1min + 清理/补 meta_description 3min + bundle 1min + subagent 标注 5min + build/validate <1min + commit/push/PR/review/merge 5min + deploy 1min）。**结论：在凭据齐全的稳态下，新稿端到端 ≤ 20 分钟可达。**
+
 ---
 
 ## 验证链接须走到发布
@@ -160,5 +178,8 @@ python3 workflow/mingox.py --help
 
 ### 6. deploy + commit + push
 
+- **多 agent 协作时，deploy 串行**：先在 thread 里发 `claim deploy` 拿到锁后再 `python3 workflow/mingox.py deploy`；其他 agent 看到 claim 不并发；完成后回贴 `Deployment ID + 完整预览 URL（含 eo_token）+ eo_time`。
+- 凭据：EdgeOne API Token 由人维护在 `/Users/lzzg/.edgeone/token`（chmod 600），agent 在 deploy 前先 `cp /Users/lzzg/.edgeone/token <repo>/.edgeone/.token` 并 `chmod 600`。
 - 部署后回传**完整预览链接**（含 `?eo_token=...`）。
+- 部署后**线上 404 抽检**（验证白名单 dist/ 生效）：`/util/...py`、`/content/drafts/...md`、`/workflow/...py` 应 404；`/posts/<date>-<slug>.html` 应 200。
 - git commit + push。
