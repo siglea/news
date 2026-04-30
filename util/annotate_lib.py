@@ -177,10 +177,17 @@ _WECHAT_LEAF_SKIP_SUBSTR = (
 )
 
 
+# 视为「段落边界」的块级 HTML 标签：处理时插入 \n\n
+# 让源端 `<p>` / `<section>` 的拓扑信息得以保留到输出段落。
+_PARAGRAPH_BREAK_TAGS = frozenset(
+    ("p", "section", "div", "li", "blockquote", "article", "header", "footer")
+)
+
+
 def extract_wechat_plain_paragraphs(html: str) -> list[str]:
     """
     按 DOM 顺序收集 #js_content 内所有可见文本（含非 span-leaf 的姓名高亮等），
-    再按句末标点切段并打包成若干段，避免只抽 leaf 时断句、丢字。
+    保留 `<p>` / `<section>` 等块级标签的段落边界，再按句末标点在段内合并到 220 字。
     """
 
     class _TextCollector(HTMLParser):
@@ -196,6 +203,10 @@ def extract_wechat_plain_paragraphs(html: str) -> list[str]:
         def handle_endtag(self, tag: str) -> None:
             if tag in ("script", "style") and self._skip_depth > 0:
                 self._skip_depth -= 1
+                return
+            if self._skip_depth == 0 and tag in _PARAGRAPH_BREAK_TAGS:
+                # 用 \n\n 作为源端段落边界标记；后续按此切 chunk
+                self.parts.append("\n\n")
 
         def handle_data(self, data: str) -> None:
             if self._skip_depth == 0:
@@ -204,47 +215,63 @@ def extract_wechat_plain_paragraphs(html: str) -> list[str]:
     tc = _TextCollector()
     tc.feed(html)
     raw = "".join(tc.parts)
-    raw = re.sub(r"\s+", " ", raw).strip()
+    # 仅折叠水平空白（空格/制表/全角空格），保留换行——换行用作段落边界
+    raw = re.sub(r"[ \t　]+", " ", raw)
+    # 把 2+ 个换行（可能含夹杂空格）归一为单一 \n\n
+    raw = re.sub(r"(?:[ \t]*\n[ \t]*){2,}", "\n\n", raw).strip()
     if not raw:
         return []
 
-    sentences: list[str] = []
-    buf: list[str] = []
-    for ch in raw:
-        buf.append(ch)
-        if ch in "。！？；":
-            s = "".join(buf).strip()
-            if s:
-                sentences.append(s)
-            buf = []
-    tail = "".join(buf).strip()
-    if tail:
-        sentences.append(tail)
+    # 切分源端段落 chunk；每个 chunk 内部按句切分，但**绝不**跨 chunk 合并。
+    chunks_text = [c.strip() for c in raw.split("\n\n") if c.strip()]
 
-    # 黑名单只在末尾运营区生效；正文 body 可以合法提及黑名单关键词
-    # （例如转载自巴伦中文网的稿子,正文里就会出现"巴伦中文网"四字）。
+    # 先打平一遍所有句子，便于全局计算 tail-region 索引
+    chunk_sentences: list[list[str]] = []
+    flat_count = 0
+    for chunk in chunks_text:
+        buf: list[str] = []
+        sents: list[str] = []
+        for ch in chunk:
+            buf.append(ch)
+            if ch in "。！？；":
+                s = "".join(buf).strip()
+                if s:
+                    sents.append(s)
+                buf = []
+        tail_buf = "".join(buf).strip()
+        if tail_buf:
+            sents.append(tail_buf)
+        chunk_sentences.append(sents)
+        flat_count += len(sents)
+
+    # 黑名单只在末尾运营区生效；正文 body 可以合法提及黑名单关键词。
     # tail_size = max(5, 1/5 of doc)；len < 5 时退化为全文兜底（legacy）。
-    tail_size = max(5, len(sentences) // 5)
-    tail_start = max(0, len(sentences) - tail_size)
+    tail_size = max(5, flat_count // 5)
+    tail_start = max(0, flat_count - tail_size)
 
     paras: list[str] = []
-    acc: list[str] = []
-    acc_len = 0
-    for idx, s in enumerate(sentences):
-        s = re.sub(r"^[▎▶◆●\s]+", "", s.strip())
-        if idx >= tail_start and any(x in s for x in _WECHAT_LEAF_SKIP_SUBSTR):
-            continue
-        # `#这事钛大了` 与单行长 hashtag 是结构性话题标签，正文中也不应保留
-        if "#这事钛大了" in s or (s.startswith("#") and len(s) > 30):
-            continue
-        acc.append(s)
-        acc_len += len(s)
-        if acc_len >= 220:
+    global_idx = 0
+    for sents in chunk_sentences:
+        # 每个 chunk 独立 accumulator —— chunk 边界一定 flush，绝不跨段合并
+        acc: list[str] = []
+        acc_len = 0
+        for s in sents:
+            s = re.sub(r"^[▎▶◆●\s]+", "", s.strip())
+            in_tail = global_idx >= tail_start
+            global_idx += 1
+            if in_tail and any(x in s for x in _WECHAT_LEAF_SKIP_SUBSTR):
+                continue
+            # `#这事钛大了` 与单行长 hashtag 是结构性话题标签，正文中也不应保留
+            if "#这事钛大了" in s or (s.startswith("#") and len(s) > 30):
+                continue
+            acc.append(s)
+            acc_len += len(s)
+            if acc_len >= 220:
+                paras.append("".join(acc))
+                acc = []
+                acc_len = 0
+        if acc:
             paras.append("".join(acc))
-            acc = []
-            acc_len = 0
-    if acc:
-        paras.append("".join(acc))
 
     return [p.strip() for p in paras if len(p.strip()) > 40]
 
