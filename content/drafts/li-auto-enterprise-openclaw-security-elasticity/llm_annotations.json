@@ -1,0 +1,941 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃər]",
+      "pos": "n.",
+      "gloss": "基础设施"
+    },
+    {
+      "i": 1,
+      "zh": "进化",
+      "en": "evolve",
+      "ipa": "[ɪˈvɑːlv]",
+      "pos": "v.",
+      "gloss": "进化"
+    },
+    {
+      "i": 2,
+      "zh": "催化剂",
+      "en": "catalyst",
+      "ipa": "[ˈkætəlɪst]",
+      "pos": "n.",
+      "gloss": "催化剂"
+    },
+    {
+      "i": 3,
+      "zh": "原生",
+      "en": "native",
+      "ipa": "[ˈneɪtɪv]",
+      "pos": "adj.",
+      "gloss": "原生的"
+    },
+    {
+      "i": 4,
+      "zh": "越权风险",
+      "en": "overreach",
+      "ipa": "[ˌoʊvərˈriːtʃ]",
+      "pos": "n.",
+      "gloss": "越权风险"
+    },
+    {
+      "i": 5,
+      "zh": "不可信代码",
+      "en": "untrusted",
+      "ipa": "[ʌnˈtrʌstɪd]",
+      "pos": "adj.",
+      "gloss": "不可信的"
+    },
+    {
+      "i": 6,
+      "zh": "脆弱性",
+      "en": "fragility",
+      "ipa": "[frəˈdʒɪləti]",
+      "pos": "n.",
+      "gloss": "脆弱性"
+    },
+    {
+      "i": 7,
+      "zh": "规模化",
+      "en": "scaling",
+      "ipa": "[ˈskeɪlɪŋ]",
+      "pos": "n.",
+      "gloss": "规模化"
+    },
+    {
+      "i": 8,
+      "zh": "破局",
+      "en": "breakthrough",
+      "ipa": "[ˈbreɪkθruː]",
+      "pos": "n.",
+      "gloss": "破局"
+    },
+    {
+      "i": 9,
+      "zh": "强隔离",
+      "en": "isolation",
+      "ipa": "[ˌaɪsəˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "强隔离"
+    },
+    {
+      "i": 10,
+      "zh": "核心命题",
+      "en": "proposition",
+      "ipa": "[ˌprɑːpəˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "核心命题"
+    },
+    {
+      "i": 11,
+      "zh": "水土不服",
+      "en": "mismatch",
+      "ipa": "[ˌmɪsˈmætʃ]",
+      "pos": "n.",
+      "gloss": "不适配"
+    },
+    {
+      "i": 12,
+      "zh": "落地",
+      "en": "deployment",
+      "ipa": "[dɪˈplɔɪmənt]",
+      "pos": "n.",
+      "gloss": "落地实施"
+    },
+    {
+      "i": 13,
+      "zh": "梦魇",
+      "en": "nightmare",
+      "ipa": "[ˈnaɪtmer]",
+      "pos": "n.",
+      "gloss": "梦魇"
+    },
+    {
+      "i": 14,
+      "zh": "瓶颈",
+      "en": "bottleneck",
+      "ipa": "[ˈbɑːtlnek]",
+      "pos": "n.",
+      "gloss": "瓶颈"
+    },
+    {
+      "i": 15,
+      "zh": "投入",
+      "en": "investment",
+      "ipa": "[ɪnˈvestmənt]",
+      "pos": "n.",
+      "gloss": "投入"
+    },
+    {
+      "i": 16,
+      "zh": "复杂度",
+      "en": "complexity",
+      "ipa": "[kəmˈpleksəti]",
+      "pos": "n.",
+      "gloss": "复杂度"
+    },
+    {
+      "i": 17,
+      "zh": "新型生产力工具",
+      "en": "productivity",
+      "ipa": "[ˌprɑːdʌkˈtɪvəti]",
+      "pos": "n.",
+      "gloss": "生产力工具"
+    },
+    {
+      "i": 18,
+      "zh": "短板",
+      "en": "shortcoming",
+      "ipa": "[ˈʃɔːrtkʌmɪŋ]",
+      "pos": "n.",
+      "gloss": "短板"
+    },
+    {
+      "i": 19,
+      "zh": "权限边界",
+      "en": "boundary",
+      "ipa": "[ˈbaʊndri]",
+      "pos": "n.",
+      "gloss": "边界"
+    },
+    {
+      "i": 20,
+      "zh": "漏洞",
+      "en": "vulnerability",
+      "ipa": "[ˌvʌlnərəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "漏洞"
+    },
+    {
+      "i": 21,
+      "zh": "本质差异",
+      "en": "essence",
+      "ipa": "[ˈesns]",
+      "pos": "n.",
+      "gloss": "本质差异"
+    },
+    {
+      "i": 22,
+      "zh": "状态保持",
+      "en": "stateful",
+      "ipa": "[ˈsteɪtfl]",
+      "pos": "adj.",
+      "gloss": "有状态的"
+    },
+    {
+      "i": 23,
+      "zh": "持续时间",
+      "en": "duration",
+      "ipa": "[duˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "持续时间"
+    },
+    {
+      "i": 24,
+      "zh": "扩容",
+      "en": "autoscale",
+      "ipa": "[ˈɔːtoʊskeɪl]",
+      "pos": "v.",
+      "gloss": "自动扩容"
+    },
+    {
+      "i": 25,
+      "zh": "规模化部署",
+      "en": "rollout",
+      "ipa": "[ˈroʊlaʊt]",
+      "pos": "n.",
+      "gloss": "规模化部署"
+    },
+    {
+      "i": 26,
+      "zh": "痛点",
+      "en": "painpoint",
+      "ipa": "[ˈpeɪnpɔɪnt]",
+      "pos": "n.",
+      "gloss": "痛点"
+    },
+    {
+      "i": 27,
+      "zh": "直营门店",
+      "en": "flagship",
+      "ipa": "[ˈflæɡʃɪp]",
+      "pos": "adj.",
+      "gloss": "直营核心的"
+    },
+    {
+      "i": 28,
+      "zh": "响应",
+      "en": "response",
+      "ipa": "[rɪˈspɑːns]",
+      "pos": "n.",
+      "gloss": "响应"
+    },
+    {
+      "i": 29,
+      "zh": "成本结构",
+      "en": "costing",
+      "ipa": "[ˈkɔːstɪŋ]",
+      "pos": "n.",
+      "gloss": "成本结构"
+    },
+    {
+      "i": 30,
+      "zh": "矛盾",
+      "en": "tension",
+      "ipa": "[ˈtenʃn]",
+      "pos": "n.",
+      "gloss": "矛盾张力"
+    },
+    {
+      "i": 31,
+      "zh": "效率压力",
+      "en": "pressure",
+      "ipa": "[ˈpreʃər]",
+      "pos": "n.",
+      "gloss": "压力"
+    },
+    {
+      "i": 32,
+      "zh": "重构",
+      "en": "rebuild",
+      "ipa": "[ˌriːˈbɪld]",
+      "pos": "v.",
+      "gloss": "重构"
+    },
+    {
+      "i": 33,
+      "zh": "基础设施",
+      "en": "backbone",
+      "ipa": "[ˈbækboʊn]",
+      "pos": "n.",
+      "gloss": "基础支撑"
+    },
+    {
+      "i": 34,
+      "zh": "敏感",
+      "en": "sensitive",
+      "ipa": "[ˈsensətɪv]",
+      "pos": "adj.",
+      "gloss": "敏感的"
+    },
+    {
+      "i": 35,
+      "zh": "变革",
+      "en": "transformation",
+      "ipa": "[ˌtrænsfərˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "变革"
+    },
+    {
+      "i": 36,
+      "zh": "底层运行逻辑",
+      "en": "runtime",
+      "ipa": "[ˈrʌntaɪm]",
+      "pos": "n.",
+      "gloss": "运行逻辑"
+    },
+    {
+      "i": 37,
+      "zh": "路径",
+      "en": "pathway",
+      "ipa": "[ˈpæθweɪ]",
+      "pos": "n.",
+      "gloss": "路径"
+    },
+    {
+      "i": 38,
+      "zh": "选型",
+      "en": "selection",
+      "ipa": "[sɪˈlekʃn]",
+      "pos": "n.",
+      "gloss": "方案选型"
+    },
+    {
+      "i": 39,
+      "zh": "侧重",
+      "en": "focus",
+      "ipa": "[ˈfoʊkəs]",
+      "pos": "n.",
+      "gloss": "侧重"
+    },
+    {
+      "i": 40,
+      "zh": "定制灵活性",
+      "en": "customization",
+      "ipa": "[ˌkʌstəməˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "定制灵活性"
+    },
+    {
+      "i": 41,
+      "zh": "刚性成本",
+      "en": "overhead",
+      "ipa": "[ˈoʊvərhed]",
+      "pos": "n.",
+      "gloss": "刚性成本"
+    },
+    {
+      "i": 42,
+      "zh": "一致性维护",
+      "en": "consistency",
+      "ipa": "[kənˈsɪstənsi]",
+      "pos": "n.",
+      "gloss": "一致性"
+    },
+    {
+      "i": 43,
+      "zh": "统一底座",
+      "en": "foundation",
+      "ipa": "[faʊnˈdeɪʃn]",
+      "pos": "n.",
+      "gloss": "统一底座"
+    },
+    {
+      "i": 44,
+      "zh": "封装",
+      "en": "encapsulate",
+      "ipa": "[ɪnˈkæpsjuleɪt]",
+      "pos": "v.",
+      "gloss": "封装"
+    },
+    {
+      "i": 45,
+      "zh": "知识查询",
+      "en": "query",
+      "ipa": "[ˈkwɪri]",
+      "pos": "n.",
+      "gloss": "查询"
+    },
+    {
+      "i": 46,
+      "zh": "复杂性",
+      "en": "intricacy",
+      "ipa": "[ˈɪntrɪkəsi]",
+      "pos": "n.",
+      "gloss": "复杂性"
+    },
+    {
+      "i": 47,
+      "zh": "差异",
+      "en": "variance",
+      "ipa": "[ˈveriəns]",
+      "pos": "n.",
+      "gloss": "差异"
+    },
+    {
+      "i": 48,
+      "zh": "失控",
+      "en": "derail",
+      "ipa": "[diˈreɪl]",
+      "pos": "v.",
+      "gloss": "失控"
+    },
+    {
+      "i": 49,
+      "zh": "分层架构",
+      "en": "layered",
+      "ipa": "[ˈleɪərd]",
+      "pos": "adj.",
+      "gloss": "分层的"
+    },
+    {
+      "i": 50,
+      "zh": "入口",
+      "en": "gateway",
+      "ipa": "[ˈɡeɪtweɪ]",
+      "pos": "n.",
+      "gloss": "入口"
+    },
+    {
+      "i": 51,
+      "zh": "流程编排",
+      "en": "orchestration",
+      "ipa": "[ˌɔːrkɪˈstreɪʃn]",
+      "pos": "n.",
+      "gloss": "流程编排"
+    },
+    {
+      "i": 52,
+      "zh": "拆解",
+      "en": "decompose",
+      "ipa": "[ˌdiːkəmˈpoʊz]",
+      "pos": "v.",
+      "gloss": "拆解"
+    },
+    {
+      "i": 53,
+      "zh": "调度层",
+      "en": "scheduler",
+      "ipa": "[ˈskedʒələr]",
+      "pos": "n.",
+      "gloss": "调度层"
+    },
+    {
+      "i": 54,
+      "zh": "中枢",
+      "en": "hub",
+      "ipa": "[hʌb]",
+      "pos": "n.",
+      "gloss": "中枢"
+    },
+    {
+      "i": 55,
+      "zh": "资源申请",
+      "en": "provisioning",
+      "ipa": "[prəˈvɪʒənɪŋ]",
+      "pos": "n.",
+      "gloss": "资源申请与供给"
+    },
+    {
+      "i": 56,
+      "zh": "预热机制",
+      "en": "warmup",
+      "ipa": "[ˈwɔːrmʌp]",
+      "pos": "n.",
+      "gloss": "预热机制"
+    },
+    {
+      "i": 57,
+      "zh": "执行环境",
+      "en": "environment",
+      "ipa": "[ɪnˈvaɪrənmənt]",
+      "pos": "n.",
+      "gloss": "执行环境"
+    },
+    {
+      "i": 58,
+      "zh": "访问控制",
+      "en": "authorization",
+      "ipa": "[ˌɔːθərəˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "访问控制"
+    },
+    {
+      "i": 59,
+      "zh": "隔离空间",
+      "en": "sandbox",
+      "ipa": "[ˈsændbɑːks]",
+      "pos": "n.",
+      "gloss": "隔离沙箱"
+    },
+    {
+      "i": 60,
+      "zh": "运行单元",
+      "en": "workload",
+      "ipa": "[ˈwɜːrkloʊd]",
+      "pos": "n.",
+      "gloss": "运行单元"
+    },
+    {
+      "i": 61,
+      "zh": "核心流程",
+      "en": "workflow",
+      "ipa": "[ˈwɜːrkfloʊ]",
+      "pos": "n.",
+      "gloss": "核心流程"
+    },
+    {
+      "i": 62,
+      "zh": "响应效率",
+      "en": "efficiency",
+      "ipa": "[ɪˈfɪʃnsi]",
+      "pos": "n.",
+      "gloss": "响应效率"
+    },
+    {
+      "i": 63,
+      "zh": "转移",
+      "en": "shift",
+      "ipa": "[ʃɪft]",
+      "pos": "v.",
+      "gloss": "转移"
+    },
+    {
+      "i": 64,
+      "zh": "缓解",
+      "en": "alleviate",
+      "ipa": "[əˈliːvieɪt]",
+      "pos": "v.",
+      "gloss": "缓解"
+    },
+    {
+      "i": 65,
+      "zh": "高价值沟通",
+      "en": "consulting",
+      "ipa": "[kənˈsʌltɪŋ]",
+      "pos": "n.",
+      "gloss": "高价值沟通"
+    },
+    {
+      "i": 66,
+      "zh": "日常工作",
+      "en": "routine",
+      "ipa": "[ruːˈtiːn]",
+      "pos": "n.",
+      "gloss": "日常工作"
+    },
+    {
+      "i": 67,
+      "zh": "统一入口",
+      "en": "portal",
+      "ipa": "[ˈpɔːrtl]",
+      "pos": "n.",
+      "gloss": "统一入口"
+    },
+    {
+      "i": 68,
+      "zh": "重新组织",
+      "en": "reorganize",
+      "ipa": "[riˈɔːrɡənaɪz]",
+      "pos": "v.",
+      "gloss": "重新组织"
+    },
+    {
+      "i": 69,
+      "zh": "累积",
+      "en": "accumulate",
+      "ipa": "[əˈkjuːmjəleɪt]",
+      "pos": "v.",
+      "gloss": "累积"
+    },
+    {
+      "i": 70,
+      "zh": "常态化",
+      "en": "institutionalize",
+      "ipa": "[ˌɪnstɪˈtuːʃənəlaɪz]",
+      "pos": "v.",
+      "gloss": "常态化"
+    },
+    {
+      "i": 71,
+      "zh": "闭环",
+      "en": "closedloop",
+      "ipa": "[ˈkloʊzdluːp]",
+      "pos": "n.",
+      "gloss": "闭环"
+    },
+    {
+      "i": 72,
+      "zh": "稳定运行",
+      "en": "stability",
+      "ipa": "[stəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "稳定性"
+    },
+    {
+      "i": 73,
+      "zh": "归纳",
+      "en": "summarize",
+      "ipa": "[ˈsʌməraɪz]",
+      "pos": "v.",
+      "gloss": "归纳"
+    },
+    {
+      "i": 74,
+      "zh": "基石",
+      "en": "cornerstone",
+      "ipa": "[ˈkɔːrnərstoʊn]",
+      "pos": "n.",
+      "gloss": "基石"
+    },
+    {
+      "i": 75,
+      "zh": "硬件加固",
+      "en": "hardened",
+      "ipa": "[ˈhɑːrdnd]",
+      "pos": "adj.",
+      "gloss": "加固的"
+    },
+    {
+      "i": 76,
+      "zh": "彻底隔离",
+      "en": "segregation",
+      "ipa": "[ˌseɡrɪˈɡeɪʃn]",
+      "pos": "n.",
+      "gloss": "彻底隔离"
+    },
+    {
+      "i": 77,
+      "zh": "逃逸攻击",
+      "en": "escape",
+      "ipa": "[ɪˈskeɪp]",
+      "pos": "n.",
+      "gloss": "逃逸"
+    },
+    {
+      "i": 78,
+      "zh": "彻底擦除",
+      "en": "wipe",
+      "ipa": "[waɪp]",
+      "pos": "v.",
+      "gloss": "彻底擦除"
+    },
+    {
+      "i": 79,
+      "zh": "精细化管控",
+      "en": "granular",
+      "ipa": "[ˈɡrænjələr]",
+      "pos": "adj.",
+      "gloss": "精细化的"
+    },
+    {
+      "i": 80,
+      "zh": "纵深防御体系",
+      "en": "defense",
+      "ipa": "[dɪˈfens]",
+      "pos": "n.",
+      "gloss": "防御体系"
+    },
+    {
+      "i": 81,
+      "zh": "关键变量",
+      "en": "variable",
+      "ipa": "[ˈveriəbl]",
+      "pos": "n.",
+      "gloss": "关键变量"
+    },
+    {
+      "i": 82,
+      "zh": "中间状态",
+      "en": "intermediate",
+      "ipa": "[ˌɪntərˈmiːdiət]",
+      "pos": "adj.",
+      "gloss": "中间的"
+    },
+    {
+      "i": 83,
+      "zh": "数据持久化",
+      "en": "persistence",
+      "ipa": "[pərˈsɪstəns]",
+      "pos": "n.",
+      "gloss": "数据持久化"
+    },
+    {
+      "i": 84,
+      "zh": "数据丢失风险",
+      "en": "dataloss",
+      "ipa": "[ˈdeɪtəlɔːs]",
+      "pos": "n.",
+      "gloss": "数据丢失"
+    },
+    {
+      "i": 85,
+      "zh": "高可靠性",
+      "en": "reliability",
+      "ipa": "[rɪˌlaɪəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "高可靠性"
+    },
+    {
+      "i": 86,
+      "zh": "全生命周期管理能力",
+      "en": "lifecycle",
+      "ipa": "[ˈlaɪfsaɪkl]",
+      "pos": "n.",
+      "gloss": "全生命周期"
+    },
+    {
+      "i": 87,
+      "zh": "状态流转",
+      "en": "transition",
+      "ipa": "[trænˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "状态流转"
+    },
+    {
+      "i": 88,
+      "zh": "秒级恢复运行",
+      "en": "resume",
+      "ipa": "[rɪˈzuːm]",
+      "pos": "v.",
+      "gloss": "恢复运行"
+    },
+    {
+      "i": 89,
+      "zh": "场景化模板能力",
+      "en": "template",
+      "ipa": "[ˈtemplət]",
+      "pos": "n.",
+      "gloss": "模板能力"
+    },
+    {
+      "i": 90,
+      "zh": "蓝绿部署",
+      "en": "bluegreen",
+      "ipa": "[bluːɡriːn]",
+      "pos": "n.",
+      "gloss": "蓝绿部署"
+    },
+    {
+      "i": 91,
+      "zh": "成本控制能力",
+      "en": "optimization",
+      "ipa": "[ˌɑːptɪməˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "成本控制优化"
+    },
+    {
+      "i": 92,
+      "zh": "按需计费",
+      "en": "ondemand",
+      "ipa": "[ˌɑːn dɪˈmænd]",
+      "pos": "adj.",
+      "gloss": "按需的"
+    },
+    {
+      "i": 93,
+      "zh": "弹性扩容",
+      "en": "elasticity",
+      "ipa": "[ɪˌlæˈstɪsəti]",
+      "pos": "n.",
+      "gloss": "弹性扩容"
+    },
+    {
+      "i": 94,
+      "zh": "资源利用率",
+      "en": "utilization",
+      "ipa": "[ˌjuːtələˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "资源利用率"
+    },
+    {
+      "i": 95,
+      "zh": "无感扩容",
+      "en": "seamless",
+      "ipa": "[ˈsiːmləs]",
+      "pos": "adj.",
+      "gloss": "无感的"
+    },
+    {
+      "i": 96,
+      "zh": "规模化推广",
+      "en": "adoption",
+      "ipa": "[əˈdɑːpʃn]",
+      "pos": "n.",
+      "gloss": "规模化推广"
+    },
+    {
+      "i": 97,
+      "zh": "系统性生产力",
+      "en": "systemic",
+      "ipa": "[sɪˈstemɪk]",
+      "pos": "adj.",
+      "gloss": "系统性的"
+    },
+    {
+      "i": 98,
+      "zh": "新基建",
+      "en": "newinfra",
+      "ipa": "[nuːˈɪnfrə]",
+      "pos": "n.",
+      "gloss": "新型基础设施"
+    },
+    {
+      "i": 99,
+      "zh": "流转",
+      "en": "circulation",
+      "ipa": "[ˌsɜːrkjəˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "流转"
+    },
+    {
+      "i": 100,
+      "zh": "智能调度",
+      "en": "dispatch",
+      "ipa": "[dɪˈspætʃ]",
+      "pos": "n.",
+      "gloss": "智能调度"
+    },
+    {
+      "i": 101,
+      "zh": "系统壁垒",
+      "en": "barrier",
+      "ipa": "[ˈbæriər]",
+      "pos": "n.",
+      "gloss": "壁垒"
+    },
+    {
+      "i": 102,
+      "zh": "长期落地",
+      "en": "sustain",
+      "ipa": "[səˈsteɪn]",
+      "pos": "v.",
+      "gloss": "长期维持"
+    },
+    {
+      "i": 103,
+      "zh": "合规场景",
+      "en": "compliance",
+      "ipa": "[kəmˈplaɪəns]",
+      "pos": "n.",
+      "gloss": "合规"
+    },
+    {
+      "i": 104,
+      "zh": "技术标准",
+      "en": "standard",
+      "ipa": "[ˈstændərd]",
+      "pos": "n.",
+      "gloss": "技术标准"
+    },
+    {
+      "i": 105,
+      "zh": "演进",
+      "en": "evolution",
+      "ipa": "[ˌevəˈluːʃn]",
+      "pos": "n.",
+      "gloss": "演进"
+    },
+    {
+      "i": 106,
+      "zh": "可迁移性",
+      "en": "portability",
+      "ipa": "[ˌpɔːrtəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "可迁移性"
+    },
+    {
+      "i": 107,
+      "zh": "共性挑战",
+      "en": "commonality",
+      "ipa": "[ˌkɑːməˈnæləti]",
+      "pos": "n.",
+      "gloss": "共性"
+    },
+    {
+      "i": 108,
+      "zh": "标准化封装",
+      "en": "standardization",
+      "ipa": "[ˌstændərdəˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "标准化"
+    },
+    {
+      "i": 109,
+      "zh": "差距",
+      "en": "gap",
+      "ipa": "[ɡæp]",
+      "pos": "n.",
+      "gloss": "差距"
+    },
+    {
+      "i": 110,
+      "zh": "潜力",
+      "en": "potential",
+      "ipa": "[pəˈtenʃl]",
+      "pos": "n.",
+      "gloss": "潜力"
+    },
+    {
+      "i": 111,
+      "zh": "辅助工具",
+      "en": "assistant",
+      "ipa": "[əˈsɪstənt]",
+      "pos": "n.",
+      "gloss": "辅助工具"
+    },
+    {
+      "i": 112,
+      "zh": "分化",
+      "en": "divergence",
+      "ipa": "[daɪˈvɜːrdʒəns]",
+      "pos": "n.",
+      "gloss": "分化"
+    },
+    {
+      "i": 113,
+      "zh": "嵌入",
+      "en": "embed",
+      "ipa": "[ɪmˈbed]",
+      "pos": "v.",
+      "gloss": "嵌入"
+    },
+    {
+      "i": 114,
+      "zh": "焦点",
+      "en": "focuspoint",
+      "ipa": "[ˈfoʊkəspɔɪnt]",
+      "pos": "n.",
+      "gloss": "焦点"
+    },
+    {
+      "i": 115,
+      "zh": "任务组织者",
+      "en": "orchestrator",
+      "ipa": "[ˈɔːrkestreɪtər]",
+      "pos": "n.",
+      "gloss": "任务组织者"
+    },
+    {
+      "i": 116,
+      "zh": "来源",
+      "en": "source",
+      "ipa": "[sɔːrs]",
+      "pos": "n.",
+      "gloss": "来源"
+    }
+  ]
+}
