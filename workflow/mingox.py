@@ -12,6 +12,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -274,19 +275,97 @@ def _edgeone_deploy_summary(stdout: str, stderr: str, *, success: bool) -> None:
         )
 
 
+def _deploy_preflight(token_path: Path, build_script: Path) -> tuple[str, bool]:
+    """deploy 前置 fail-fast 检查。
+
+    返回:`(auth_method, has_explicit_token)`
+        - `auth_method`:`"file"`/`"env"`/`"cli-cached"`/`"none"`
+        - `has_explicit_token`:True 时调用方应把 `-t TOKEN` 加进 npx cmd
+        否则不加,让 EdgeOne CLI 自己用 cached login 走
+
+    fail-fast 条件:
+    - npx 不在 PATH → 立即报错(不浪费 build_dist 时间)
+    - build_dist.sh 不可读 → 报错
+    - 无任何认证方式时 → emit warn(不立即 fail,留给 CLI 自己尝试 cached
+      login;失败时 CLI 会给清晰报错)
+    """
+    errors: list[str] = []
+    warnings: list[str] = []
+
+    # 1. npx 必须在 PATH
+    npx = shutil.which("npx")
+    if not npx:
+        errors.append(
+            "npx 不在 PATH(需要 Node.js + npm)。安装:`brew install node` "
+            "或访问 https://nodejs.org;详情见 docs/PREREQUISITES.md"
+        )
+
+    # 2. build_dist.sh 必须可读
+    if not build_script.is_file():
+        errors.append(
+            f"build_dist.sh 不存在:{build_script}(预期由 PR #9 引入)"
+        )
+
+    # 3. 认证方式探测(file > env > cli-cached fallback)
+    auth = "none"
+    has_explicit = False
+    # Try file
+    if token_path.is_file():
+        content = token_path.read_text(encoding="utf-8").strip()
+        if content:
+            auth = "file"
+            has_explicit = True
+        else:
+            warnings.append(f"{token_path} 存在但为空")
+    # Try env
+    if auth == "none":
+        env_token = (os.environ.get("EDGEONE_API_TOKEN", "") or "").strip()
+        if env_token:
+            auth = "env"
+            has_explicit = True
+    # Fall back to cli-cached
+    if auth == "none":
+        warnings.append(
+            "未发现 .edgeone/.token 或 EDGEONE_API_TOKEN 环境变量;"
+            "若 CLI 已浏览器登录则继续,否则后续会被 CLI 拒绝"
+        )
+        auth = "cli-cached"
+
+    # 4. 公开资源完整性(避免传一个空 dist)
+    expected_public = [ROOT / "index.html", ROOT / "posts"]
+    for p in expected_public:
+        if not p.exists():
+            errors.append(f"缺失公开资源:{p}(deploy 前必须存在)")
+
+    if errors:
+        for e in errors:
+            print(f"[deploy preflight] FAIL: {e}", file=sys.stderr)
+        raise SystemExit(2)
+    for w in warnings:
+        print(f"[deploy preflight] WARN: {w}", file=sys.stderr)
+    print(f"[deploy preflight] OK auth={auth}", file=sys.stderr)
+    return auth, has_explicit
+
+
 def cmd_deploy(args: argparse.Namespace) -> None:
     token_path = ROOT / ".edgeone" / ".token"
+    build_script = ROOT / "tools" / "build_dist.sh"
+
+    # 前置 fail-fast 检查(npx + build_dist.sh + 认证 + 公开资源)。
+    # 失败立即退出,不浪费后续 build / upload 时间。
+    with _profile_step("deploy.preflight"):
+        _, has_explicit_token = _deploy_preflight(token_path, build_script)
 
     # Step 1: 本地预先构建 ./dist（白名单 opt-in:仅外网应见的静态资源）。
     # EdgeOne 平台侧也会跑一遍 `buildCommand`(见 edgeone.json),但本地先构建
     # 一份能让我们在 push 前看到 dist/ 内容是否符合预期；同时也兼容那些
     # 不走 buildCommand 的环境(直接上传 outputDirectory 内容的场景)。
-    build_script = ROOT / "tools" / "build_dist.sh"
     if build_script.is_file():
         print("[deploy] running tools/build_dist.sh ...")
-        rc = subprocess.run(
-            ["bash", str(build_script)], cwd=str(ROOT)
-        ).returncode
+        with _profile_step("deploy.build_dist"):
+            rc = subprocess.run(
+                ["bash", str(build_script)], cwd=str(ROOT)
+            ).returncode
         if rc != 0:
             print(
                 f"[deploy] tools/build_dist.sh exited {rc}; abort.", file=sys.stderr
@@ -307,11 +386,17 @@ def cmd_deploy(args: argparse.Namespace) -> None:
         "-n",
         args.project,
     ]
-    if token_path.is_file():
-        token = token_path.read_text(encoding="utf-8").strip()
+    # 优先使用显式 token(file > env > cli-cached);has_explicit_token 时
+    # 已在 preflight 验证非空,这里直接读
+    if has_explicit_token:
+        if token_path.is_file():
+            token = token_path.read_text(encoding="utf-8").strip()
+        else:
+            token = os.environ.get("EDGEONE_API_TOKEN", "").strip()
         cmd.extend(["-t", token])
     print("running:", " ".join(cmd[:6]), "...")
-    r = subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True)
+    with _profile_step("deploy.npx_upload"):
+        r = subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True)
     if r.stdout:
         print(r.stdout, end="" if r.stdout.endswith("\n") else "\n")
     if r.stderr:
