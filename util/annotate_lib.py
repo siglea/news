@@ -122,15 +122,24 @@ def post_source_footer_html(
 
 
 _EXTRACT_PS_MIN_LEN = 10
+# 章节序号("01"/"02"/.../"99")独立成段时予以保留,即便 ≤10 字
+_CHAPTER_NUM_RE = re.compile(r"^\d{1,2}$")
+# 章节序号后紧邻的短标题最多保留多长(典型如"做IP，本质是在灭火"=10 字、
+# "什么是赛博朋克"=8 字)
+_CHAPTER_TITLE_MAX_LEN = 20
 
 
 def extract_ps(html: str, *, warn: bool = True) -> list[str]:
-    """收集 `<p>` 内文本（>10 字）；丢弃过短的 `<p>` 时按需输出诊断。
+    """收集 `<p>` 内文本(>10 字)与章节序号/标题;丢弃过短无意义的 `<p>` 时按需诊断。
 
-    历史行为是静默 drop ≤ 10 字的 `<p>` 内容(广告占位、空标签等)。
-    现在通过 `warn=True` 时把丢弃数量与样本写到 stderr,便于排查
-    「extract_ps 抽出来段数偏少」的疑点;`warn=False` 仍保持完全安静,
-    供调用方按需关闭(例如批量回归脚本)。
+    保留规则:
+    - 长 `<p>`(`len > 10`):保留,与历史一致
+    - **章节序号**(独立的 1-2 位数字,如 `"01"`/`"02"`):**保留**(避免章节标记被吞)
+    - **章节标题**(紧跟章节序号、长度 ≤ 20 字符的下一个 `<p>`):**保留**
+      (典型微信稿"01\n什么是赛博朋克\n..."的 H2 替代格式)
+    - 其它 ≤ 10 字的 `<p>`:丢弃
+
+    `warn=True`(默认)时把丢弃数量与样本输出到 stderr;`warn=False` 完全静默。
     """
 
     class PExtractor(HTMLParser):
@@ -141,6 +150,8 @@ def extract_ps(html: str, *, warn: bool = True) -> list[str]:
             self._buf: list[str] = []
             self._in_skip = False
             self._skip_depth = 0
+            # 章节序号-标题状态:上一段是否是章节序号,影响下一段是否保留
+            self._last_was_chapter_num = False
 
         def handle_starttag(self, tag: str, attrs) -> None:
             if tag in ("script", "style"):
@@ -164,10 +175,19 @@ def extract_ps(html: str, *, warn: bool = True) -> list[str]:
             if tag == "p":
                 t = "".join(self._buf).strip()
                 if t:
-                    if len(t) > _EXTRACT_PS_MIN_LEN:
+                    is_chapter_num = bool(_CHAPTER_NUM_RE.match(t))
+                    is_long = len(t) > _EXTRACT_PS_MIN_LEN
+                    is_title_after_num = (
+                        self._last_was_chapter_num
+                        and 1 < len(t) <= _CHAPTER_TITLE_MAX_LEN
+                    )
+                    if is_long or is_chapter_num or is_title_after_num:
                         self.chunks.append(t)
+                        # 状态机:只有当前是章节序号才把"上一段是章节序号"延续给下一段
+                        self._last_was_chapter_num = is_chapter_num
                     else:
                         self.dropped_short.append(t)
+                        self._last_was_chapter_num = False
                 self._buf = []
 
         def handle_data(self, data: str) -> None:
