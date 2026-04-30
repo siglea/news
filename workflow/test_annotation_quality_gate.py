@@ -70,6 +70,7 @@ class TestZhBoundaryHeuristics(unittest.TestCase):
         body = "真实用量成本开始暴露，订阅补贴模式难以持续。"
         self.assertIsNone(zh_boundary_suspect(body, "真实用量成本"))
         self.assertIsNone(zh_boundary_suspect(body, "补贴模式"))
+        self.assertIsNone(zh_boundary_suspect(body, "成本"))
 
 if __name__ == "__main__":
     unittest.main()

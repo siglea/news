@@ -98,10 +98,6 @@ def zh_boundary_suspect(sentence_body: str, zh: str) -> str | None:
     if "·" in s and len(z) >= 2 and _is_cjk(z[0]) and _is_cjk(right):
         return "translit-name-right-cut"
 
-    # 例: 两侧都是中文、且锚点很短，易命中复合词内部（仅告警，不阻断）。
-    if len(z) <= 2 and _is_cjk(left) and _is_cjk(right):
-        return "very-short-inner-cut"
-
     return None
 
 
