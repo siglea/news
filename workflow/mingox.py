@@ -14,6 +14,8 @@ import os
 import re
 import subprocess
 import sys
+import time
+from contextlib import contextmanager
 from pathlib import Path
 
 WORKFLOW_DIR = Path(__file__).resolve().parent
@@ -24,6 +26,47 @@ ROOT = WORKFLOW_DIR.parent
 # 锁定示例：MX_EDGEONE_VERSION=2.0.7 python3 workflow/mingox.py deploy
 # 文档参考：docs/steps/04-publish.md
 EDGEONE_CLI_DEFAULT = "latest"
+
+
+def _profile_enabled() -> bool:
+    """`MX_PROFILE=1` 时把每步耗时输出到 stderr。
+
+    设计原则:
+    - 默认关闭(老用户/CI 行为不变)
+    - 通过环境变量 opt-in,zero-config 即可启用
+    - 不引入外部依赖,只用 stdlib `time.monotonic`
+    """
+    v = (os.environ.get("MX_PROFILE", "") or "").strip().lower()
+    return v in ("1", "true", "yes", "on", "stderr")
+
+
+@contextmanager
+def _profile_step(name: str):
+    """上下文管理器:计时一段步骤并按需打印 [profile] 行到 stderr。
+
+    用法:
+        with _profile_step("build"):
+            ...
+
+    关闭(默认):无开销,仅 yield 一次。
+    开启(`MX_PROFILE=1`):打印 `[profile] step=<name> dur_ms=<n> rc=<0|raised>`。
+    """
+    if not _profile_enabled():
+        yield
+        return
+    start = time.monotonic()
+    rc_label = "0"
+    try:
+        yield
+    except SystemExit as e:
+        rc_label = str(e.code if e.code is not None else 0)
+        raise
+    except BaseException:
+        rc_label = "raised"
+        raise
+    finally:
+        dur_ms = int((time.monotonic() - start) * 1000)
+        print(f"[profile] step={name} dur_ms={dur_ms} rc={rc_label}", file=sys.stderr)
 
 
 def _py() -> str:
@@ -320,9 +363,12 @@ def cmd_close_loop(args: argparse.Namespace) -> None:
 
     for name, cmd in steps:
         print(f"[close-loop] running {name}: {' '.join(cmd[2:])}")
-        rc = _run_step(cmd)
-        if rc != 0:
-            raise SystemExit(rc)
+        # 每个子步骤独立计时(MX_PROFILE=1 时生效);失败立即 raise,profile 也会
+        # 在 finally 里把 dur_ms 打印出来
+        with _profile_step(f"close-loop.{name}"):
+            rc = _run_step(cmd)
+            if rc != 0:
+                raise SystemExit(rc)
 
     print(
         "[close-loop] OK: annotations-gate + build + validate"
@@ -464,7 +510,9 @@ def main() -> None:
     p_cl.set_defaults(func=cmd_close_loop)
 
     args = ap.parse_args()
-    args.func(args)
+    # 包一层 step profiler:`MX_PROFILE=1` 时输出每个 cmd 的耗时;关闭时零开销
+    with _profile_step(args.cmd or "unknown"):
+        args.func(args)
 
 
 if __name__ == "__main__":

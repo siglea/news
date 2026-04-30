@@ -68,3 +68,22 @@ make validate              # annotations + posts
 make ci PYTHON=.venv/bin/python
 make ci-scope     # 内部 make 调用会继承 PYTHON
 ```
+
+## 步骤耗时 profile（可选）
+
+需要测量哪一步最耗时时，**设环境变量 `MX_PROFILE=1`** 即可：
+
+```bash
+MX_PROFILE=1 python3 workflow/mingox.py close-loop --slug <slug>
+```
+
+每个步骤会在 stderr 输出一行：
+
+```
+[profile] step=close-loop.annotations-gate dur_ms=96 rc=0
+[profile] step=close-loop.build dur_ms=116 rc=0
+[profile] step=close-loop.validate dur_ms=101 rc=0
+[profile] step=close-loop dur_ms=314 rc=0
+```
+
+未设 `MX_PROFILE` 时输出完全静默，不影响日常用法。
