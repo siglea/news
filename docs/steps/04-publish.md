@@ -103,6 +103,8 @@ TOKEN=$(tr -d '\n\r' < .edgeone/.token)
 npx --yes edgeone@latest pages deploy -a overseas -n mingox -t "$TOKEN"
 ```
 
+> **关于 `edgeone@latest`**：`workflow/mingox.py deploy` 默认也用 `latest`，与上面手动命令对齐。若上游 CLI 出现 breaking change 影响发布，可设置 `MX_EDGEONE_VERSION` 环境变量锁定已验证版本，例如 `MX_EDGEONE_VERSION=2.0.7 python3 workflow/mingox.py deploy`；未设置时行为不变。
+
 **已在本机浏览器登录、且无 token 文件时：**
 
 ```bash

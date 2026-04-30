@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -17,6 +18,12 @@ from pathlib import Path
 
 WORKFLOW_DIR = Path(__file__).resolve().parent
 ROOT = WORKFLOW_DIR.parent
+
+# EdgeOne CLI 版本：默认仍跟最新（兼容旧行为），但可通过环境变量
+# `MX_EDGEONE_VERSION` 锁定一个已验证版本，避免上游 breaking 影响线上发布。
+# 锁定示例：MX_EDGEONE_VERSION=2.0.7 python3 workflow/mingox.py deploy
+# 文档参考：docs/steps/04-publish.md
+EDGEONE_CLI_DEFAULT = "latest"
 
 
 def _py() -> str:
@@ -226,10 +233,13 @@ def _edgeone_deploy_summary(stdout: str, stderr: str, *, success: bool) -> None:
 
 def cmd_deploy(args: argparse.Namespace) -> None:
     token_path = ROOT / ".edgeone" / ".token"
+    # 允许通过 `MX_EDGEONE_VERSION` 环境变量锁定一个已验证版本；
+    # 未设置时仍跟 `edgeone@latest`（与历史行为兼容）。
+    version = os.environ.get("MX_EDGEONE_VERSION", EDGEONE_CLI_DEFAULT).strip() or EDGEONE_CLI_DEFAULT
     cmd = [
         "npx",
         "--yes",
-        "edgeone@latest",
+        f"edgeone@{version}",
         "pages",
         "deploy",
         "-a",
