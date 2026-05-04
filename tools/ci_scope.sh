@@ -3,7 +3,7 @@
 # 分层 CI: 按 git diff 决定跑哪些检查,日常迭代不用每次都全量 make ci。
 #
 # 规则:
-#   util/*.py 或 workflow/*.py 改动 → make test + make validate
+#   util/*.py 或 workflow/*.py 或 workflow/tests/*.py 改动 → make test + make validate
 #   posts/* 或 index.html 或 tools/* 改动 → make validate
 #   content/drafts/* 改动 → make validate(覆盖 annotations + posts)
 #   仅 *.md 或 docs/* 改动 → 跳过(纯文档无需 CI)
@@ -54,7 +54,7 @@ HAS_NON_DOC=0
 while IFS= read -r f; do
   [[ -z "$f" ]] && continue
   case "$f" in
-    util/*.py|workflow/*.py)
+    util/*.py|workflow/*.py|workflow/tests/*.py)
       NEEDS_TEST=1
       NEEDS_VALIDATE=1
       HAS_NON_DOC=1

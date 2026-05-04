@@ -16,7 +16,7 @@ import unittest
 from pathlib import Path
 from unittest import mock
 
-WORKFLOW = Path(__file__).resolve().parent
+WORKFLOW = Path(__file__).resolve().parent.parent
 ROOT = WORKFLOW.parent
 sys.path.insert(0, str(WORKFLOW))
 

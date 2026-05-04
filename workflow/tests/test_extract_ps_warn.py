@@ -14,7 +14,7 @@ import unittest
 from contextlib import redirect_stderr
 from pathlib import Path
 
-WORKFLOW = Path(__file__).resolve().parent
+WORKFLOW = Path(__file__).resolve().parent.parent
 ROOT = WORKFLOW.parent
 sys.path.insert(0, str(ROOT / "util"))
 

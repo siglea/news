@@ -2,6 +2,8 @@
 
 **Multimedia Post in Mixed Languages** — 多语言多媒体内容平台：中英混排文章与静态站点发布（历史成稿可含词汇标注 DOM；新流水线接入前 `build` 不生成标注）。
 
+**→ 先看 [docs/README.md](docs/README.md)（文档地图：流水线 / SOP / 编辑规范 / 分步入口）。**
+
 > **文档迁移**：原根目录中的长篇**版式、外源版权**等规范已迁至 **[docs/EDITORIAL.md](docs/EDITORIAL.md)**。请编辑与校对时以该文件为权威。
 
 ## 🌐 在线访问
@@ -16,7 +18,7 @@ python3 workflow/mingox.py serve --port 8765
 # 浏览器打开 http://127.0.0.1:8765/
 ```
 
-环境与依赖：[docs/PREREQUISITES.md](docs/PREREQUISITES.md)。**文档地图（按角色指路）**：[docs/README.md](docs/README.md)。
+环境与依赖：[docs/PREREQUISITES.md](docs/PREREQUISITES.md)（其余入口见页首文档地图链接）。
 
 ## 流水线与规范
 

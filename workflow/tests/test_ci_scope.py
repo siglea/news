@@ -1,7 +1,7 @@
 """测试 PR T1.3: tools/ci_scope.sh 按 git diff 路由 make target。
 
 验收点(监督/审核侧):
-1. 脚本分流逻辑(util/workflow → test+validate;posts/contents → validate;
+1. 脚本分流逻辑(util、workflow、workflow/tests → test+validate;posts/contents → validate;
    docs only → 跳过)
 2. Makefile 入口一致性(`make ci-scope` 能跑通)
 3. 文档可执行性(PREREQUISITES.md 命令模板可复制)
@@ -19,7 +19,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-WORKFLOW = Path(__file__).resolve().parent
+WORKFLOW = Path(__file__).resolve().parent.parent
 ROOT = WORKFLOW.parent
 SCRIPT = ROOT / "tools" / "ci_scope.sh"
 
@@ -86,6 +86,14 @@ class TestCiScope(unittest.TestCase):
     def test_python_source_change_runs_test_and_validate(self) -> None:
         """workflow/*.py 改动应触发 test + validate。"""
         self._stage("workflow/foo.py", "print('hi')\n")
+        log, rc = self._run_scope()
+        self.assertEqual(rc, 0, f"非零退出码:{log}")
+        self.assertIn("MAKE_TARGET:test", log, f"应跑 make test,实际:\n{log}")
+        self.assertIn("MAKE_TARGET:validate", log)
+
+    def test_workflow_tests_change_runs_test_and_validate(self) -> None:
+        """workflow/tests/*.py 改动应触发 test + validate。"""
+        self._stage("workflow/tests/test_foo_unit.py", "import unittest\n")
         log, rc = self._run_scope()
         self.assertEqual(rc, 0, f"非零退出码:{log}")
         self.assertIn("MAKE_TARGET:test", log, f"应跑 make test,实际:\n{log}")

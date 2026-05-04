@@ -44,7 +44,7 @@ pip3 install -r workflow/requirements.txt
 ```bash
 make ci-scope              # 按 git diff 决定跑啥（日常迭代推荐）
 make ci                    # test + validate（合并前全量兜底）
-make test                  # workflow/test_*.py 单元测试
+make test                  # workflow/tests/test_*.py 单元测试
 make validate-annotations  # 全部草稿的 llm_annotations.json 质量门禁
 make validate-posts        # posts/*.html 版式校验
 make validate              # annotations + posts

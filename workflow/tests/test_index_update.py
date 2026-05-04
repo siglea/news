@@ -17,7 +17,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-WORKFLOW = Path(__file__).resolve().parent
+WORKFLOW = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(WORKFLOW))
 
 import build_draft  # noqa: E402
