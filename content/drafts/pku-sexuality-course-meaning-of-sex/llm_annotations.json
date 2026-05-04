@@ -1,0 +1,481 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "反应",
+      "en": "react",
+      "ipa": "[riækt]",
+      "pos": "v.",
+      "gloss": "反应,起作用；反对,反抗；起反作用,起不良反应"
+    },
+    {
+      "i": 1,
+      "zh": "大多数",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 2,
+      "zh": "理解",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 3,
+      "zh": "教授",
+      "en": "instruct",
+      "ipa": "[ˌɪnˈstrəkt]",
+      "pos": "v.",
+      "gloss": "指导；通知；命令；教授"
+    },
+    {
+      "i": 4,
+      "zh": "生命的",
+      "en": "vital",
+      "ipa": "[ˈvaɪtəl]",
+      "pos": "adj.",
+      "gloss": "生死攸关的,重大的；生命的,生机的"
+    },
+    {
+      "i": 5,
+      "zh": "的东西",
+      "en": "disguise",
+      "ipa": "[dɪsˈgaɪz]",
+      "pos": "n.",
+      "gloss": "伪装；假装；用作伪装的东西"
+    },
+    {
+      "i": 6,
+      "zh": "角度",
+      "en": "angle",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 7,
+      "zh": "生物学",
+      "en": "biology",
+      "ipa": "[baɪˈɑləʤi]",
+      "pos": "n.",
+      "gloss": "生物学"
+    },
+    {
+      "i": 8,
+      "zh": "明确的",
+      "en": "definite",
+      "ipa": "[ˈdɛfənət]",
+      "pos": "adj.",
+      "gloss": "明确的;一定的"
+    },
+    {
+      "i": 9,
+      "zh": "也就是",
+      "en": "namely",
+      "ipa": "[ˈneɪmli]",
+      "pos": "adv.",
+      "gloss": "即,也就是"
+    },
+    {
+      "i": 10,
+      "zh": "变异的",
+      "en": "variable",
+      "ipa": "[ˈvɛriəbəl]",
+      "pos": "adj.",
+      "gloss": "变量的；可变的；易变的，多变的；变异的，[生物] 畸变的"
+    },
+    {
+      "i": 11,
+      "zh": "出现",
+      "en": "arise",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 12,
+      "zh": "运作的",
+      "en": "operational",
+      "ipa": "[ˌɑpərˈeɪʃənəl]",
+      "pos": "adj.",
+      "gloss": "操作的；运作的"
+    },
+    {
+      "i": 13,
+      "zh": "存在",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 14,
+      "zh": "需要",
+      "en": "entail",
+      "ipa": "[ɛnˈteɪl]",
+      "pos": "v.",
+      "gloss": "使需要，必需；承担；遗传给；蕴含"
+    },
+    {
+      "i": 15,
+      "zh": "复杂的",
+      "en": "complicated",
+      "ipa": "[ˈkɑmpləˌkeɪtəd]",
+      "pos": "adj.",
+      "gloss": "难懂的，复杂的"
+    },
+    {
+      "i": 16,
+      "zh": "系统的",
+      "en": "systematic",
+      "ipa": "[ˌsɪstəˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "(al)系统的,有组织的"
+    },
+    {
+      "i": 17,
+      "zh": "优越性",
+      "en": "superiority",
+      "ipa": "[ˌsupɪriˈɔrɪti]",
+      "pos": "n.",
+      "gloss": "优越，优势；优越性"
+    },
+    {
+      "i": 18,
+      "zh": "目的",
+      "en": "intention",
+      "ipa": "[ˌɪnˈtɛnʧən]",
+      "pos": "n.",
+      "gloss": "意图；目的；意向；愈合"
+    },
+    {
+      "i": 19,
+      "zh": "适应",
+      "en": "adapt",
+      "ipa": "[əˈdæpt]",
+      "pos": "v.",
+      "gloss": "使适应；改编"
+    },
+    {
+      "i": 20,
+      "zh": "直觉的",
+      "en": "gut",
+      "ipa": "[gət]",
+      "pos": "adj.",
+      "gloss": "简单的；本质的，根本的；本能的，直觉的"
+    },
+    {
+      "i": 21,
+      "zh": "不在",
+      "en": "absence",
+      "ipa": "[ˈæbsəns]",
+      "pos": "n.",
+      "gloss": "缺席，不在；缺乏，不存在"
+    },
+    {
+      "i": 22,
+      "zh": "自私的",
+      "en": "selfish",
+      "ipa": "[ˈsɛlfɪʃ]",
+      "pos": "adj.",
+      "gloss": "自私的；利己主义的"
+    },
+    {
+      "i": 23,
+      "zh": "机的",
+      "en": "analogue",
+      "ipa": "[ˈænəˌlɔg]",
+      "pos": "adj.",
+      "gloss": "类似的；相似物的；模拟计算机的"
+    },
+    {
+      "i": 24,
+      "zh": "复制",
+      "en": "clone",
+      "ipa": "[kloʊn]",
+      "pos": "v.",
+      "gloss": "无性繁殖，复制"
+    },
+    {
+      "i": 25,
+      "zh": "实现",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 26,
+      "zh": "的结果",
+      "en": "haul",
+      "ipa": "[hɔl]",
+      "pos": "n.",
+      "gloss": "拖，拉；用力拖拉；努力得到的结果；捕获物；一网捕获的鱼量；拖运距离"
+    },
+    {
+      "i": 27,
+      "zh": "打破",
+      "en": "breach",
+      "ipa": "[briʧ]",
+      "pos": "v.",
+      "gloss": "违反，破坏；打破"
+    },
+    {
+      "i": 28,
+      "zh": "生物",
+      "en": "breed",
+      "ipa": "[brid]",
+      "pos": "n.",
+      "gloss": "[生物] 品种；种类，类型"
+    },
+    {
+      "i": 29,
+      "zh": "认知",
+      "en": "cognition",
+      "ipa": "[kɒɡˈnɪʃn]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 30,
+      "zh": "现象",
+      "en": "phenomenon",
+      "ipa": "[fəˈnɑməˌnɑn]",
+      "pos": "n.",
+      "gloss": "现象；奇迹；杰出的人才"
+    },
+    {
+      "i": 31,
+      "zh": "动物",
+      "en": "articulate",
+      "ipa": "[ɑrˈtɪkjəˌleɪt]",
+      "pos": "n.",
+      "gloss": "【动物学】有节体的动物"
+    },
+    {
+      "i": 32,
+      "zh": "产生",
+      "en": "generate",
+      "ipa": "[ˈʤɛnərˌeɪt]",
+      "pos": "v.",
+      "gloss": "产生,发生"
+    },
+    {
+      "i": 33,
+      "zh": "争夺",
+      "en": "compete",
+      "ipa": "[kəmˈpiːt]",
+      "pos": "v.",
+      "gloss": "竞争；争夺，竞争"
+    },
+    {
+      "i": 34,
+      "zh": "竞争",
+      "en": "contend",
+      "ipa": "[kənˈtɛnd]",
+      "pos": "v.",
+      "gloss": "竞争；奋斗；斗争；争论"
+    },
+    {
+      "i": 35,
+      "zh": "增加",
+      "en": "augment",
+      "ipa": "[ɔgˈmɛnt]",
+      "pos": "v.",
+      "gloss": "增加；增大"
+    },
+    {
+      "i": 36,
+      "zh": "结果",
+      "en": "consequence",
+      "ipa": "[ˈkɑnsəkwəns]",
+      "pos": "n.",
+      "gloss": "结果,后果,影响"
+    },
+    {
+      "i": 37,
+      "zh": "赋予",
+      "en": "endow",
+      "ipa": "[ɛnˈdaʊ]",
+      "pos": "v.",
+      "gloss": "赋予；捐赠；天生具有"
+    },
+    {
+      "i": 38,
+      "zh": "着于",
+      "en": "glue",
+      "ipa": "[glu]",
+      "pos": "v.",
+      "gloss": "粘合；似胶般固着于"
+    },
+    {
+      "i": 39,
+      "zh": "方式",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adv.",
+      "gloss": "以同样的方式；类似于"
+    },
+    {
+      "i": 40,
+      "zh": "农耕",
+      "en": "agriculture",
+      "ipa": "[ˈægrɪˌkəlʧər]",
+      "pos": "n.",
+      "gloss": "农业；农耕；农业生产；农艺，农学"
+    },
+    {
+      "i": 41,
+      "zh": "转变为",
+      "en": "translate",
+      "ipa": "[trænzˈleɪt]",
+      "pos": "v.",
+      "gloss": "翻译；转化；解释；转变为；调动"
+    },
+    {
+      "i": 42,
+      "zh": "结合",
+      "en": "bind",
+      "ipa": "[baɪnd]",
+      "pos": "v.",
+      "gloss": "结合；装订；有约束力；过紧"
+    },
+    {
+      "i": 43,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 44,
+      "zh": "生产的",
+      "en": "productive",
+      "ipa": "[pərˈdəktɪv]",
+      "pos": "adj.",
+      "gloss": "能产的,多产的；生产(性)的"
+    },
+    {
+      "i": 45,
+      "zh": "于是",
+      "en": "accordingly",
+      "ipa": "[əˈkɔrdɪŋli]",
+      "pos": "adv.",
+      "gloss": "因此，于是；相应地；照著"
+    },
+    {
+      "i": 46,
+      "zh": "安排",
+      "en": "arrange",
+      "ipa": "[əreɪnʤ]",
+      "pos": "vt.",
+      "gloss": "整理， 排列， 布置 ；安排， 筹备"
+    },
+    {
+      "i": 47,
+      "zh": "欲望",
+      "en": "appetite",
+      "ipa": "[ˈæpəˌtaɪt]",
+      "pos": "n.",
+      "gloss": "食欲，胃口；欲望"
+    },
+    {
+      "i": 48,
+      "zh": "观念",
+      "en": "conception",
+      "ipa": "[kənˈsɛpʃən]",
+      "pos": "n.",
+      "gloss": "概念， 观念；设想， 构想"
+    },
+    {
+      "i": 49,
+      "zh": "在于",
+      "en": "consist",
+      "ipa": "[kənˈsɪst]",
+      "pos": "v.",
+      "gloss": "(in)在于；(of)由…组成,由…构成"
+    },
+    {
+      "i": 50,
+      "zh": "偏见",
+      "en": "bias",
+      "ipa": "[baɪəs]",
+      "pos": "n.",
+      "gloss": "偏见；偏爱；斜纹；乖离率"
+    },
+    {
+      "i": 51,
+      "zh": "自由",
+      "en": "liberty",
+      "ipa": "[ˈlɪbərˌti]",
+      "pos": "n.",
+      "gloss": "自由；许可；冒失"
+    },
+    {
+      "i": 52,
+      "zh": "束缚",
+      "en": "bound",
+      "ipa": "[baʊnd]",
+      "pos": "v.",
+      "gloss": "束缚；使跳跃"
+    },
+    {
+      "i": 53,
+      "zh": "理解",
+      "en": "comprehend",
+      "ipa": "[ˌkɑmpriˈhɛnd]",
+      "pos": "v.",
+      "gloss": "理解；包含；由…组成"
+    },
+    {
+      "i": 54,
+      "zh": "障碍",
+      "en": "barrier",
+      "ipa": "[ˈbɛriər]",
+      "pos": "n.",
+      "gloss": "障碍；栅栏,障碍(物)"
+    },
+    {
+      "i": 55,
+      "zh": "混淆",
+      "en": "confuse",
+      "ipa": "[kənfˈjuz]",
+      "pos": "v.",
+      "gloss": "使混乱,混淆"
+    },
+    {
+      "i": 56,
+      "zh": "无稽之谈",
+      "en": "fable",
+      "ipa": "[ˈfeɪbəl]",
+      "pos": "n.",
+      "gloss": "寓言；无稽之谈"
+    },
+    {
+      "i": 57,
+      "zh": "理解",
+      "en": "comprehension",
+      "ipa": "[ˌkɑmpriˈhɛnʃən]",
+      "pos": "n.",
+      "gloss": "理解， 领悟"
+    },
+    {
+      "i": 58,
+      "skip": true
+    },
+    {
+      "i": 59,
+      "zh": "生物",
+      "en": "creature",
+      "ipa": "[ˈkriʧər]",
+      "pos": "n.",
+      "gloss": "动物;生物"
+    }
+  ]
+}
