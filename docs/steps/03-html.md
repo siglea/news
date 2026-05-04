@@ -1,5 +1,7 @@
 # 第 3 步：HTML 成稿
 
+> **定位**：[TOOLING.md](../TOOLING.md) 第 3 步的展开；总览以 TOOLING 为准。
+
 本步对应：**由 `mingox build` 写出 `posts/*.html`**（含 `<article class="post-content">`、篇末词汇表占位、可选外源版权块），以及 **成稿后的校验**。
 
 **实现入口**：[workflow/build_draft.py](../../workflow/build_draft.py) + [util/annotate_lib.py](../../util/annotate_lib.py)（`build_post_html`、`vocab_tbody_html` 等）。

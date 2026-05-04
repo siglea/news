@@ -1,8 +1,8 @@
 # MingoX 编辑与内容规范
 
-**HTML/CSS 与成稿 DOM 契约**以 [docs/steps/03-html.md](./steps/03-html.md) 与实现代码为准。本文约定**标题、首页列表、摘要、外源版权块**等编辑与版式规则。历史成稿中若含 `word-block` 与篇末词汇表，DOM 与样式仍由 `css/style.css` 支持；**当前 `mingox build` 不再生成标注**，新流水线接入前正文为纯转义段落。
+本文约定**标题、首页列表、摘要、外源版权块**等**版式与编辑规则**。**成稿 HTML 结构、DOM/CSS 契约、篇末词汇表区域**以 [docs/steps/03-html.md](./steps/03-html.md) 与 `css/style.css`、实现代码为准；下文不重复 HTML 骨架示例。
 
-**流水线**（取材 → build → 发布）：[PIPELINE.md](./PIPELINE.md)。**相邻 `word-block` 自检**（针对已有 HTML）：`mingox validate`。
+**工具链与四步入口**：[TOOLING.md](./TOOLING.md)。**相邻 `word-block` 自检**（针对已有标注成稿）：`mingox validate`。
 
 ---
 
@@ -92,8 +92,7 @@ post 文件 h1 标题格式：
 
 ## 移动端与排版
 
-- 样式集中在 `css/style.css`：**正文**用 `clamp` 保证手机端约 **16～17px**、行高约 **1.8**；系统字体栈含 **PingFang / 微软雅黑**；`viewport-fit=cover` 与 **safe-area** 留白；若篇末有词汇表，表格外包裹 **`.vocab-table-wrap`** 以便窄屏横向滑动。
-- 文章/列表的英文副标题用 **`<small class="title-en">`**，勿写死字号，随主标题缩放。
+正文字号、行高、viewport/safe-area、篇末词汇表窄屏滚动等：**见 [steps/03-html.md](./steps/03-html.md)** 与 `css/style.css`。列表与正文中的英文副标题统一 **`<small class="title-en">`**，勿在 HTML 写死字号。
 
 ## 外源素材与版权声明（综述 / 改编稿）
 
@@ -106,44 +105,13 @@ post 文件 h1 标题格式：
 
 ## 新稿与首页入口
 
-**推荐路径**：使用 `python3 workflow/mingox.py init` → `acquire` → `build` 生成 `posts/*.html` 并维护 `index.html` 列表，详见 [PIPELINE.md](./PIPELINE.md)。
+**推荐路径**：`python3 workflow/mingox.py init` → `acquire` → … → `build` 生成 `posts/*.html`（完整命令链见 [TOOLING.md](./TOOLING.md) 与 [content/drafts/README.md](../content/drafts/README.md)）。
 
-以下为**手工编写或核对 HTML** 时的结构参考：
+`posts/` 与 `meta.json` 命名约定见 [content/drafts/README.md](../content/drafts/README.md)「命名规范」。**手工编写或核对成稿 HTML** 时，**文档结构与 DOM 契约**以 **[steps/03-html.md](./steps/03-html.md)** 为准。
 
-1. 在 `posts/` 目录创建新 HTML 文件，命名格式：**`YYYY-MM-DD-<题材 kebab>.html`**。`<题材 kebab>` 为**英文小写、连字符**的可读 slug，**必须由文章中文标题与英文题（`title_zh` / `title_en`）凝练**，与正文主题一致，例如 `dai-yusen-tencent-ai-water-boiling`、`pinduoduo-xinpinmu-supply-chain`。**不要**用流水线占位、`wechat-<文章 id>`、纯 `mp-xxxx` 或与标题无关的串当 `<题材 kebab>`。`meta.json` 里的 **`slug`（`content/drafts/<slug>/`）同样建议以标题为依据**，**推荐**与 `YYYY-MM-DD-` 后的那段 kebab **一致**；若暂时不同，至少应可读、可联想本篇，而非长期依赖无意义 id。详见 [content/drafts/README.md](../content/drafts/README.md)「命名规范」。
+在 `index.html` 的 `<ul class="post-list">` 中添加新稿时，格式见上文「首页列表设计规范」。
 
-2. 参考模板结构：
-
-```html
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <title>中文标题 | English Title | MingoX</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <nav class="navbar">...</nav>
-    <main class="main-content">
-        <div class="card">
-            <article class="post-content">
-                <h1>[emoji] 中文标题<br><small class="title-en">English Title</small></h1>
-                <!-- 正文 -->
-            </article>
-            <!-- 外源稿可选：来源与版权块，见「外源素材与版权声明」 -->
-            <div class="subtitle">📖 重点词汇</div>
-            <!-- 词汇表 ... -->
-        </div>
-    </main>
-    <footer class="footer">...</footer>
-    <script src="../js/main.js"></script>
-</body>
-</html>
-```
-
-3. 在 `index.html` 的内容列表中添加新链接（格式见上文「首页列表设计规范」）。
-
-4. 提交并推送：
+提交示例：
 
 ```bash
 git add .

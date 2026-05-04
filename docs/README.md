@@ -1,37 +1,41 @@
 # 文档地图
 
-第一次 clone 仓库建议先读本页，再按角色跳转。
+第一次 clone 仓库建议先读本页，再按**角色**跳转。
 
-## 📚 文档地图（职能一眼区分）
+## 📚 按职能（文件名 = 维度）
 
 | 文档 / 目录 | 职能 |
 |-------------|------|
-| **[PIPELINE.md](./PIPELINE.md)** | 四步流水线总览、`mingox` 命令、目录职责、与 harness 无关的约定 |
-| **[SOP.md](./SOP.md)** | 发稿协作与防返工执行清单（claim/审发/抽检/deploy 节奏）；与 PIPELINE 分工见 PIPELINE 文首 |
-| **[EDITORIAL.md](./EDITORIAL.md)** | 版式、首页、外源版权等**编辑规范全文** |
-| **[PREREQUISITES.md](./PREREQUISITES.md)** | 本地环境：Git、Python、Playwright、Node/EdgeOne 等 |
-| **[steps/](./steps/README.md)** | 第 1～4 步**分册**（acquire / annotate / html / publish）命令与细节 |
+| **[GETTING-STARTED.md](./GETTING-STARTED.md)** | 装环境 + 第一篇 walkthrough + `make test`/`ci` 入口 |
+| **[TOOLING.md](./TOOLING.md)** | **`mingox` CLI**、目录职责、四步索引、harness 中立约定 |
+| **[PLAYBOOK.md](./PLAYBOOK.md)** | **协作与审发**：claim、先审后发、发布前清单、deploy 串行 |
+| **[EDITORIAL.md](./EDITORIAL.md)** | 标题、首页列表、摘要、外源版权等**编辑规范**（版式为主） |
+| **[ARCHITECTURE.md](./ARCHITECTURE.md)** | 未来可选：标注 IR / 拆分 build（**非当前必读**） |
+| **[steps/](./steps/README.md)** | 第 1～4 步**分册**；每篇文首标明为 TOOLING 的展开 |
 
 ## 按角色
 
 | 你是谁 | 建议阅读顺序 |
 |--------|----------------|
-| **访客 / 读者** | 仓库根目录 [README.md](../README.md)（在线地址、项目简介） |
-| **内容编辑 / 写稿** | [EDITORIAL.md](./EDITORIAL.md)（标题、首页列表、外源版权等）；词汇标注 [steps/02-annotate.md](./steps/02-annotate.md)；单篇草稿 [content/drafts/README.md](../content/drafts/README.md) |
-| **跑通一篇流水线** | [PIPELINE.md](./PIPELINE.md)（四步总览、目录职责）；分步命令见 [steps/README.md](./steps/README.md) |
-| **改脚本、抓取、util** | 环境 [PREREQUISITES.md](./PREREQUISITES.md)；[workflow/README.md](../workflow/README.md)、[util/README.md](../util/README.md)；取材细节 [steps/01-acquire.md](./steps/01-acquire.md) |
+| **访客 / 读者** | 仓库根目录 [README.md](../README.md) |
+| **新同学：装环境 + 跑通一篇** | [GETTING-STARTED.md](./GETTING-STARTED.md) → [TOOLING.md](./TOOLING.md) → [steps/README.md](./steps/README.md) |
+| **执行位（发稿）** | [TOOLING.md](./TOOLING.md) + [steps/](./steps/README.md)；节奏见 [PLAYBOOK.md](./PLAYBOOK.md) |
+| **审核位** | [PLAYBOOK.md](./PLAYBOOK.md) + [EDITORIAL.md](./EDITORIAL.md) |
+| **内容编辑 / 版式** | [EDITORIAL.md](./EDITORIAL.md)；标注细节 [steps/02-annotate.md](./steps/02-annotate.md) |
+| **改脚本、util** | [GETTING-STARTED.md](./GETTING-STARTED.md)；[workflow/README.md](../workflow/README.md)、[util/README.md](../util/README.md) |
 
 ## 核心文件索引
 
 | 文档 | 内容 |
 |------|------|
-| [PIPELINE.md](./PIPELINE.md) | 四步流水线总览、`mingox.py` 入口、**目录职责速查** |
-| [SOP.md](./SOP.md) | 发稿提速与防返工执行清单（先审后发、抽检、回帖模板） |
-| [steps/README.md](./steps/README.md) | 第 1～4 步文档入口（索引表） |
-| [PREREQUISITES.md](./PREREQUISITES.md) | Git、Python、Playwright、Node/EdgeOne 等 |
-| [EDITORIAL.md](./EDITORIAL.md) | 版式与版权等**编辑规范全文** |
-| [content/drafts/README.md](../content/drafts/README.md) | `meta.json`、草稿内各文件、`build` 流程 |
-| [workflow/README.md](../workflow/README.md) | `workflow/` 内各 Python 模块 |
-| [util/README.md](../util/README.md) | 抓取、段落抽取、`annotate_lib` |
+| [TOOLING.md](./TOOLING.md) | `mingox.py` 入口、**目录职责速查**、四步索引 |
+| [PLAYBOOK.md](./PLAYBOOK.md) | 协作、审发、清单、deploy 约定 |
+| [GETTING-STARTED.md](./GETTING-STARTED.md) | 依赖、`make ci`、最小闭环 |
+| [ARCHITECTURE.md](./ARCHITECTURE.md) | IR / 拆分路线图（待评审） |
+| [steps/README.md](./steps/README.md) | 分步文档入口 |
+| [EDITORIAL.md](./EDITORIAL.md) | 编辑规范全文 |
+| [content/drafts/README.md](../content/drafts/README.md) | 草稿目录与 `meta.json` |
+| [workflow/README.md](../workflow/README.md) | `workflow/` 模块表 |
+| [util/README.md](../util/README.md) | 抓取、`annotate_lib` |
 
-流程与命令的**权威展开**在 [PIPELINE.md](./PIPELINE.md) 与各 `steps/*.md`；本页不重复四步命令长表。
+命令与边界的**权威展开**在 [TOOLING.md](./TOOLING.md) 与各 `steps/*.md`；本页不重复四步长表。

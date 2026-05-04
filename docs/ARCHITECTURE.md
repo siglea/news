@@ -1,8 +1,10 @@
 # 标注中间表示（IR）与流水线拆分 — 路线图（待评审）
 
-**状态**：未实现。当前 **`mingox build`** 为单遍：Markdown 段落 → 转义 `<p>` → `build_post_html`；**无**独立标注真源文件。
+**位置**：本文件为 `docs/ARCHITECTURE.md`，与 [TOOLING.md](./TOOLING.md)、[PLAYBOOK.md](./PLAYBOOK.md)、[steps/README.md](./steps/README.md) 同级；描述**未来可选**的代码层拆分，不是当前必读的发稿步骤。
 
-本文档供评审「未来是否重新引入标注层」时使用；与 [docs/steps 索引](./README.md) 中第 2 步占位说明一致。
+**状态**：未实现。当前 **`mingox build`** 仍为单遍：`annotate_merge` 合并 `llm_annotations.json` → `build_post_html`；**无**独立 IR 真源文件。
+
+本文档供评审「未来是否引入独立标注层」时使用；与 [docs/steps 索引](./steps/README.md) 中第 2 步说明对照阅读。
 
 ---
 
@@ -10,7 +12,7 @@
 
 - **概念**：第 2 步只维护与呈现无关的语义（段落、锚点、词条字段等）。  
 - **第 3 步**：映射为 `word-block`、词汇表 `<tbody>`、版权块，并跑相邻块等检查。  
-- **现状**：旧 `chat_json` / `annotate_merge` 已移除；`vocab_tbody_html` 仍可从正文 HTML **反扫** `word-block`（手工或未来生成器写入时）。
+- **现状**：`annotate_merge` + `llm_annotations.json` 为当前标注路径；`vocab_tbody_html` 可从成稿 HTML **反扫** `word-block`。
 
 ---
 

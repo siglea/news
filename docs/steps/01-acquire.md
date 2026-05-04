@@ -1,5 +1,7 @@
 # 第 1 步：素材获取 → Markdown
 
+> **定位**：[TOOLING.md](../TOOLING.md) 第 1 步的展开；总览以 TOOLING 为准。
+
 **产出**：`content/drafts/<slug>/01-source.md`，并合并更新同目录 **`meta.json`**。
 
 **命令**：`python3 workflow/mingox.py init ...`、`python3 workflow/mingox.py acquire ...`（详见下文）。
@@ -67,7 +69,7 @@ python3 workflow/mingox.py acquire --slug my-topic --mode search --query '...' -
 | `util/crawl-with-playwright.py` | 微信等强反爬 |
 | `workflow/acquire.py` | 第 1 步实现 |
 
-**反爬与 Playwright 细节**：[util/README.md](../../util/README.md)。**环境安装**：[PREREQUISITES.md](../PREREQUISITES.md)。
+**反爬与 Playwright 细节**：[util/README.md](../../util/README.md)。**环境安装**：[GETTING-STARTED.md](../GETTING-STARTED.md)。
 
 ---
 
