@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "ai-unemployment-wave-two-years-three-things",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "失业潮的真正时间线——技术准备好了≠社会准备好了",
+      "html": "<p>失业潮的真正时间线——技术<span class=\"word-annot\"><span class=\"word-anchor\">准备</span><span class=\"word-block\"><span class=\"english-word\">formulate</span><span class=\"word-info\">[ˈfɔːmjuleɪt] v. 规划；制定；准备；仔细思考并明确表达</span></span></span>好了≠社会准备好了</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "很多人在焦虑：AI越来越强，我的工作是不是随时会被替代？",
+      "html": "<p>很多人在<span class=\"word-annot\"><span class=\"word-anchor\">焦虑</span><span class=\"word-block\"><span class=\"english-word\">anxiety</span><span class=\"word-info\">[æŋˈzaɪəti] n. 焦虑；渴望；挂念；令人焦虑的事</span></span></span>：AI越来越强，我的工作是不是随时会被替代？</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "更极端的声音说：失业潮已经来了。",
+      "html": "<p>更<span class=\"word-annot\"><span class=\"word-anchor\">极端的</span><span class=\"word-block\"><span class=\"english-word\">radical</span><span class=\"word-info\">[ˈrædɪkəl] adj. 基本的， 重要的， 根本的；激进的， 极端的</span></span></span>声音说：失业潮已经来了。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "![](../images/posts/2026-05-04-ai-unemployment-wave-two-years-three-things/001.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-ai-unemployment-wave-two-years-three-things/001.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 4,
+      "source_text": "但我认为，真正意义上的AI失业潮，",
+      "html": "<p>但我<span class=\"word-annot\"><span class=\"word-anchor\">认为</span><span class=\"word-block\"><span class=\"english-word\">deem</span><span class=\"word-info\">[dim] v. 认为，视作；相信</span></span></span>，真正意义上的AI失业潮，</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "不是在给谁吃定心丸，而是基于一个被绝大多数人忽略的事实—— 技术准备好了，和世界准备好了，是两件完全不同的事。",
+      "html": "<p>不是在给谁吃定心丸，而是基于一个被绝<span class=\"word-annot\"><span class=\"word-anchor\">大多数</span><span class=\"word-block\"><span class=\"english-word\">bulk</span><span class=\"word-info\">[bəlk] n. 体积，容量；大多数，大部分；大块</span></span></span>人忽略的事实—— 技术准备好了，和世界准备好了，是两件完全不同的事。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "一、技术只解决了\"能做\"，没解决\"敢用\"",
+      "html": "<p>一、技术只<span class=\"word-annot\"><span class=\"word-anchor\">解决</span><span class=\"word-block\"><span class=\"english-word\">patch</span><span class=\"word-info\">[pæʧ] v. 修补；解决；掩饰</span></span></span>了&quot;能做&quot;，没解决&quot;敢用&quot;</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "2025年底到2026年初，AI的能力确实上了一个台阶。",
+      "html": "<p>2025年底到2026年初，AI的<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>确实上了一个台阶。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "写代码、写文案、做设计、做数据分析",
+      "html": "<p>写代码、写文案、做设计、做数据<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span></p>"
+    },
+    {
+      "index": 9,
+      "source_text": "但\"能做\"和\"大规模替代人类\"之间，横亘着五道看不见的墙。",
+      "html": "<p>但&quot;能做&quot;和&quot;大规模替代人类&quot;之间，横亘着五道<span class=\"word-annot\"><span class=\"word-anchor\">看不见的</span><span class=\"word-block\"><span class=\"english-word\">invisible</span><span class=\"word-info\">[ˌɪnˈvɪzəbəl] adj. 看不见的；无形的</span></span></span>墙。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "二、五道隐形关卡：为什么AI替代没那么快",
+      "html": "<p>二、五道隐形关卡：为什么AI<span class=\"word-annot\"><span class=\"word-anchor\">替代</span><span class=\"word-block\"><span class=\"english-word\">substitute</span><span class=\"word-info\">[ˈsəbstəˌtut] v. 替代</span></span></span>没那么快</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "关卡1：组织惯性——企业决策链比你想象的慢得多",
+      "html": "<p>关卡1：组织惯性——企业决策链比你<span class=\"word-annot\"><span class=\"word-anchor\">想象的</span><span class=\"word-block\"><span class=\"english-word\">fancy</span><span class=\"word-info\">[ˈfænsi] adj. 想象的；奇特的；昂贵的；精选的</span></span></span>慢得多</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "你觉得AI好用，一个人开个账号就能用。但企业不是一个人。",
+      "html": "<p>你觉得AI好用，一个人开个账号就能用。但企业不是一个人。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "一个企业要从\"不用AI\"变成\"全面用AI替代员工\"，需要经过：",
+      "html": "<p>一个企业要从&quot;不用AI&quot;变成&quot;全面用AI替代员工&quot;，<span class=\"word-annot\"><span class=\"word-anchor\">需要</span><span class=\"word-block\"><span class=\"english-word\">entail</span><span class=\"word-info\">[ɛnˈteɪl] v. 使需要，必需；承担；遗传给；蕴含</span></span></span>经过：</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "部门负责人提出需求 → IT评估安全性和可行性 → 采购走流程、预算审批 → 试点部署（至少3-6个月） → 全员培训 → 逐步替代现有岗位。",
+      "html": "<p>部门负责人提出需求 → IT<span class=\"word-annot\"><span class=\"word-anchor\">评估</span><span class=\"word-block\"><span class=\"english-word\">appraisal</span><span class=\"word-info\">[əˈpreɪzəl] n. 对...作出的评价；评价，鉴定，评估</span></span></span>安全性和可行性 → 采购走流程、预算审批 → 试点部署（至少3-6个月） → 全员培训 → 逐步替代现有岗位。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "这个周期通常在12-18个月。",
+      "html": "<p>这个周期通常在12-18个月。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "![](../images/posts/2026-05-04-ai-unemployment-wave-two-years-three-things/002.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-ai-unemployment-wave-two-years-three-things/002.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 17,
+      "source_text": "很多企业的核心系统还是十年前甚至二十年前的架构，AI工具想对接进去，成本极高。",
+      "html": "<p>很多企业的核心系统还是十年前甚至二十年前的架构，AI工具想对接进去，<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">costing</span><span class=\"word-info\">[ˈkɒstɪŋ] n. 成本</span></span></span>极高。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "关卡2：合规与安全——法律框架远远落后于技术",
+      "html": "<p>关卡2：合规与安全——法律框架远远<span class=\"word-annot\"><span class=\"word-anchor\">落后于</span><span class=\"word-block\"><span class=\"english-word\">lag</span><span class=\"word-info\">[læg] v. 落后于；押往监狱；加上外套</span></span></span>技术</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "AI生成的合同有法律效力吗？",
+      "html": "<p>AI生成的<span class=\"word-annot\"><span class=\"word-anchor\">合同</span><span class=\"word-block\"><span class=\"english-word\">bargain</span><span class=\"word-info\">[ˈbɑrgɪn] n. 廉价货；交易,契约,合同</span></span></span>有法律效力吗？</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "AI做的医疗诊断出错谁来承担责任？",
+      "html": "<p>AI做的医疗诊断出错谁来<span class=\"word-annot\"><span class=\"word-anchor\">承担</span><span class=\"word-block\"><span class=\"english-word\">assumption</span><span class=\"word-info\">[əˈsəmpʃən] n. 假定，设想；采取；承担</span></span></span>责任？</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "AI处理客户数据是否符合隐私法规？",
+      "html": "<p>AI处理客户数据是否<span class=\"word-annot\"><span class=\"word-anchor\">符合</span><span class=\"word-block\"><span class=\"english-word\">accord</span><span class=\"word-info\">[əˈkɔrd] n. 一致， 符合；协议， 条约</span></span></span>隐私法规？</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "这些问题，全世界都没有完整的答案。",
+      "html": "<p>这些问题，全世界都没有<span class=\"word-annot\"><span class=\"word-anchor\">完整的</span><span class=\"word-block\"><span class=\"english-word\">integral</span><span class=\"word-info\">[ˈɪnəgrəl] adj. 积分的；完整的，整体的；构成整体所必须的</span></span></span>答案。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "没有企业愿意做第一个吃螃蟹然后被罚款上亿的。",
+      "html": "<p>没有企业愿意做第一个吃<span class=\"word-annot\"><span class=\"word-anchor\">螃蟹</span><span class=\"word-block\"><span class=\"english-word\">crab</span><span class=\"word-info\">[kræb] n. 螃蟹；蟹肉；脾气乖戾的人；起重机</span></span></span>然后被罚款上亿的。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "关卡3：人才转型成本——裁人容易，重建能力难",
+      "html": "<p>关卡3：人才转型成本——裁人容易，重建<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>难</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "这里有个反直觉的事实：AI替代岗位的成本，不只是\"不用发工资了\"那么简单。",
+      "html": "<p>这里有个反<span class=\"word-annot\"><span class=\"word-anchor\">直觉的</span><span class=\"word-block\"><span class=\"english-word\">gut</span><span class=\"word-info\">[gət] adj. 简单的；本质的，根本的；本能的，直觉的</span></span></span>事实：AI替代岗位的成本，不只是&quot;不用发工资了&quot;那么简单。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "裁掉一个员工确实省了工资，但这个人积累的行业经验、客户关系、对业务的理解，AI无法直接继承。",
+      "html": "<p>裁掉一个员工确实省了工资，但这个人积累的行业经验、客户关系、对业务的<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>，AI无法直接继承。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "新的AI系统需要有人维护、优化、调校——这类",
+      "html": "<p>新的AI系统需要有人<span class=\"word-annot\"><span class=\"word-anchor\">维护</span><span class=\"word-block\"><span class=\"english-word\">assert</span><span class=\"word-info\">[əˈsərt] v. 维护，坚持；断言；主张；声称</span></span></span>、优化、调校——这类</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "AI不是\"即插即用\"的，它需要一个新的能力体系来支撑。而这个体系的建立，需要时间。",
+      "html": "<p>AI不是&quot;即插即用&quot;的，它需要一个新的能力体系来<span class=\"word-annot\"><span class=\"word-anchor\">支撑</span><span class=\"word-block\"><span class=\"english-word\">brace</span><span class=\"word-info\">[breɪs] vt. 使防备， 使受锻炼；支撑； 使绷紧</span></span></span>。而这个体系的<span class=\"word-annot\"><span class=\"word-anchor\">建立</span><span class=\"word-block\"><span class=\"english-word\">constitute</span><span class=\"word-info\">[ˈkɑnstəˌtut] v. 组成，构成；建立；任命</span></span></span>，需要时间。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "关卡4：经济周期——现在的企业更想要\"提效\"而不是\"裁员\"",
+      "html": "<p>关卡4：经济周期——现在的企业更<span class=\"word-annot\"><span class=\"word-anchor\">想要</span><span class=\"word-block\"><span class=\"english-word\">intend</span><span class=\"word-info\">[ˌɪnˈtɛnd] v. 想要； 打算， 企图</span></span></span>&quot;提效&quot;而不是&quot;裁员&quot;</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "当前经济环境下，大部分企业的首要任务不是削减人力成本，而是",
+      "html": "<p>当前经济环境下，<span class=\"word-annot\"><span class=\"word-anchor\">大部分</span><span class=\"word-block\"><span class=\"english-word\">bulk</span><span class=\"word-info\">[bəlk] n. 体积，容量；大多数，大部分；大块</span></span></span>企业的首要任务不是削减人力成本，而是</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "用AI辅助现有员工做得更好（一人顶两人），风险低、见效快、员工也不至于激烈抵触。",
+      "html": "<p>用AI辅助现有员工做得更好（一人顶两人），风险低、见效快、员工也不至于激烈<span class=\"word-annot\"><span class=\"word-anchor\">抵触</span><span class=\"word-block\"><span class=\"english-word\">clash</span><span class=\"word-info\">[klæʃ] v. 冲突，抵触；砰地相碰撞，发出铿锵声</span></span></span>。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "直接用AI替代员工，短期看省了工资，但裁员赔偿金、劳动纠纷、士气打击、万一AI效果不如预期重新招人的成本——都不低。",
+      "html": "<p>直接用AI替代员工，短期看省了工资，但裁员<span class=\"word-annot\"><span class=\"word-anchor\">赔偿金</span><span class=\"word-block\"><span class=\"english-word\">compensation</span><span class=\"word-info\">[ˌkɑmpənˈseɪʃən] n. 补偿费，赔偿金</span></span></span>、劳动纠纷、士气打击、万一AI效果不如预期重新招人的成本——都不低。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "所以企业当前的主流策略是\"",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">所以</span><span class=\"word-block\"><span class=\"english-word\">consequently</span><span class=\"word-info\">[ˈkɑnsəkˌwɛntli] adv. 结果，因此，所以</span></span></span>企业当前的主流策略是&quot;</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "\"的协作模式，而不是\"AI替代人\"。",
+      "html": "<p>&quot;的<span class=\"word-annot\"><span class=\"word-anchor\">协作</span><span class=\"word-block\"><span class=\"english-word\">coordinate</span><span class=\"word-info\">[koʊˈɔrdəˌneɪt] v. 协作，协调</span></span></span>模式，而不是&quot;AI替代人&quot;。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "![](../images/posts/2026-05-04-ai-unemployment-wave-two-years-three-things/003.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-ai-unemployment-wave-two-years-three-things/003.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 36,
+      "source_text": "关卡5：社会缓冲——政府不会坐视不管",
+      "html": "<p>关卡5：社会<span class=\"word-annot\"><span class=\"word-anchor\">缓冲</span><span class=\"word-block\"><span class=\"english-word\">buffer</span><span class=\"word-info\">[ˈbʌfə] n. 缓冲</span></span></span>——政府不会坐视不管</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "大规模失业不是经济问题，是",
+      "html": "<p>大规模<span class=\"word-annot\"><span class=\"word-anchor\">失业</span><span class=\"word-block\"><span class=\"english-word\">unemployment</span><span class=\"word-info\">[ˌənɪmˈplɔɪmənt] n. 失业；失业率；失业人数</span></span></span>不是经济问题，是</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "各国政府一定会出台缓冲政策：再就业培训补贴、AI税收、新岗位创造计划、失业保障体系升级。",
+      "html": "<p>各国政府一定会出台缓冲政策：再就业培训<span class=\"word-annot\"><span class=\"word-anchor\">补贴</span><span class=\"word-block\"><span class=\"english-word\">allowance</span><span class=\"word-info\">[əˈlaʊəns] n. 补贴，津贴；允许量；零用钱</span></span></span>、AI税收、新岗位创造计划、失业保障体系升级。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "这些政策不会阻止趋势，但会显著延缓替代的速度。",
+      "html": "<p>这些政策不会阻止趋势，但会显著延缓替<span class=\"word-annot\"><span class=\"word-anchor\">代的</span><span class=\"word-block\"><span class=\"english-word\">contemporary</span><span class=\"word-info\">[kənˈtɛmpərˌɛri] adj. 现代的,当代的；发生[存在]于同一时代的</span></span></span>速度。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "三、我的判断：2028年才是真正的分水岭",
+      "html": "<p>三、我的判断：2028年才是<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>分水岭</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "2026-2027年：试点和积累期",
+      "html": "<p>2026-2027年：试点和积累期</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "头部企业完成AI试点，验证效果",
+      "html": "<p>头部企业<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>AI试点，验证效果</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "法律法规逐步完善，责任归属逐渐清晰",
+      "html": "<p>法律法规逐步完善，责任<span class=\"word-annot\"><span class=\"word-anchor\">归属</span><span class=\"word-block\"><span class=\"english-word\">attribute</span><span class=\"word-info\">[əˈtrɪˌbjut] v. 归属；把…归于</span></span></span>逐渐清晰</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "部分标准化岗位开始出现明显替代趋势（基础翻译、初级文案、简单数据分析）",
+      "html": "<p>部分<span class=\"word-annot\"><span class=\"word-anchor\">标准化</span><span class=\"word-block\"><span class=\"english-word\">normalization</span><span class=\"word-info\">[ˌnɔrməlɪˈzeɪʃən] n. 正常化；标准化；正规化；常态化</span></span></span>岗位开始出现明显替代趋势（基础翻译、初级文案、简单数据分析）</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "2027-2028年：加速替代期",
+      "html": "<p>2027-2028年：<span class=\"word-annot\"><span class=\"word-anchor\">加速</span><span class=\"word-block\"><span class=\"english-word\">accelerate</span><span class=\"word-info\">[ækˈsɛlərˌeɪt] v. 使加速，使增速，促进；加速</span></span></span>替代期</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "企业完成组织能力建设，AI成为\"标配\"",
+      "html": "<p>企业<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>组织能力建设，AI成为&quot;标配&quot;</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "成本压力下，开始大规模替代可标准化岗位",
+      "html": "<p>成本压力下，开始大规模替代可<span class=\"word-annot\"><span class=\"word-anchor\">标准化</span><span class=\"word-block\"><span class=\"english-word\">normalization</span><span class=\"word-info\">[ˌnɔrməlɪˈzeɪʃən] n. 正常化；标准化；正规化；常态化</span></span></span>岗位</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "劳动力市场感知到结构性变化",
+      "html": "<p>劳<span class=\"word-annot\"><span class=\"word-anchor\">动力</span><span class=\"word-block\"><span class=\"english-word\">choke</span><span class=\"word-info\">[ʧoʊk] n. 窒息；噎；[动力] 阻气门</span></span></span>市场感知到结构性变化</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "2028年及以后：真正的影响期",
+      "html": "<p>2028年及以后：<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>影响期</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "AI替代从\"个别岗位\"扩展到\"整个职业类别\"",
+      "html": "<p>AI替代从&quot;个别岗位&quot;扩展到&quot;<span class=\"word-annot\"><span class=\"word-anchor\">整个</span><span class=\"word-block\"><span class=\"english-word\">altogether</span><span class=\"word-info\">[ˌɔltəˈgɛðər] n. 整个；裸体</span></span></span>职业类别&quot;</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "新型岗位大量涌现，但转型阵痛期不可避免",
+      "html": "<p>新型岗位大量涌现，但转型阵痛期<span class=\"word-annot\"><span class=\"word-anchor\">不可避免</span><span class=\"word-block\"><span class=\"english-word\">imperative</span><span class=\"word-info\">[ˌɪmˈpɛrətɪv] adj. 必要的，不可避免的；紧急的；命令的，专横的；势在必行的；[语]祈使的</span></span></span></p>"
+    },
+    {
+      "index": 52,
+      "source_text": "别慌，是因为你有至少两年的时间窗口。",
+      "html": "<p>别慌，是因为你有至少两年的时间窗口。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "别等，是因为这两年恰恰是最关键的准备期。",
+      "html": "<p>别等，是因为这两年恰恰是最关键的<span class=\"word-annot\"><span class=\"word-anchor\">准备</span><span class=\"word-block\"><span class=\"english-word\">formulate</span><span class=\"word-info\">[ˈfɔːmjuleɪt] v. 规划；制定；准备；仔细思考并明确表达</span></span></span>期。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "真正危险的不是AI，而是用AI的人。",
+      "html": "<p>真正危险的不是AI，而是用AI<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">athlete</span><span class=\"word-info\">[ˈæθˌlit] n. 运动员，体育家；身强力壮的人</span></span></span>。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "2028年不会是\"AI替代所有人\"，而会是\"",
+      "html": "<p>2028年不会是&quot;AI替代<span class=\"word-annot\"><span class=\"word-anchor\">所有人</span><span class=\"word-block\"><span class=\"english-word\">holder</span><span class=\"word-info\">[ˈhoʊldər] n. 持有人；所有人；固定器；（台、架等）支持物</span></span></span>&quot;，而会是&quot;</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "会用AI的人替代不会用AI的人",
+      "html": "<p>会用AI<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">athlete</span><span class=\"word-info\">[ˈæθˌlit] n. 运动员，体育家；身强力壮的人</span></span></span>替代不会用AI的人</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "![](../images/posts/2026-05-04-ai-unemployment-wave-two-years-three-things/004.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-ai-unemployment-wave-two-years-three-things/004.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 58,
+      "source_text": "这句话大家老生常谈，但就是事实。",
+      "html": "<p>这句话大家老生常谈，但就是事实。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "这两年你应该做三件事：",
+      "html": "<p>这两年你应该做三件事：</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "不是学会用ChatGPT写个邮件，而是理解AI能做什么、不能做什么，能在你的具体工作场景中设计出高效的AI工作流。",
+      "html": "<p>不是学会用ChatGPT写个邮件，而是<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>AI能做什么、不能做什么，能在你的具体工作场景中设计出高效的AI工作流。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "AI擅长标准化的、可重复的、基于已有知识的工作。但以下能力AI短期内难以替代：",
+      "html": "<p>AI擅长标准化的、可重复的、基于已有<span class=\"word-annot\"><span class=\"word-anchor\">知识的</span><span class=\"word-block\"><span class=\"english-word\">initiate</span><span class=\"word-info\">[ˌɪˈnɪʃiˌeɪt] adj. 新加入的；接受初步知识的</span></span></span>工作。但以下<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>AI短期内难以替代：</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "跨领域的整合判断（十年行业隐性知识）",
+      "html": "<p>跨领域的整合<span class=\"word-annot\"><span class=\"word-anchor\">判断</span><span class=\"word-block\"><span class=\"english-word\">diagnose</span><span class=\"word-info\">[ˌdaɪəgˈnoʊs] v. 诊断(疾病)；判断(问题)</span></span></span>（十年行业隐性知识）</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "复杂的人际关系处理（谈客户、带团队）",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">复杂的</span><span class=\"word-block\"><span class=\"english-word\">complicated</span><span class=\"word-info\">[ˈkɑmpləˌkeɪtəd] adj. 难懂的，复杂的</span></span></span>人际关系处理（谈客户、带团队）</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "从0到1的创造（直觉和胆识）",
+      "html": "<p>从0到1的<span class=\"word-annot\"><span class=\"word-anchor\">创造</span><span class=\"word-block\"><span class=\"english-word\">coin</span><span class=\"word-info\">[kɔɪn] v. 铸造（货币）；杜撰，创造</span></span></span>（直觉和胆识）</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "垂直领域的AI应用专家（AI+医疗、AI+法律、AI+教育）",
+      "html": "<p>垂直<span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[dəʊˈmeɪn] n. (活动,思想等)领域,范围；领地</span></span></span>的AI应用专家（AI+医疗、AI+法律、AI+教育）</p>"
+    }
+  ]
+}

@@ -28,6 +28,7 @@ python3 workflow/mingox.py acquire --slug my-topic --mode paste --file path/to/a
 - **微信公众号**：`acquire` 调用 `util/crawl-with-playwright.py`，**优先移动 UA（`--mobile`）**；验证页需有界面 + `--wait-verify`。失败时会再试桌面 UA（可用 `--no-mobile-wechat` 跳过移动 UA）。
 - **正文进 MD**：`extract_ps`（`<p>`）；段落过少时再 **plain/leaf 回退**。细节见 **[util/README.md](../../util/README.md)**。
 - **`meta.json`**：微信抓取成功时 **`title_zh` 以页面标题为准**；`source_account` 以 `#js_name` 为准；`footer_derivative_mp_unknown` 等见 `meta` 模板说明。
+- **配图（默认开启）**：微信 HTML 中白名单域名（如 `mmbiz.qpic.cn`）的 `<img>` 会**按原文顺序下载**到 `images/posts/<meta.out_html 主文件名>/`，并在 `01-source.md` 里与正文**交错**写入 `![](../images/...)`。只要 `meta.json` 已填 **`out_html`** 且未加 `--skip-wechat-images`，即会抓图。
 
 ```bash
 python3 workflow/mingox.py acquire --slug my-topic --mode url --url 'https://...'
@@ -40,6 +41,7 @@ python3 workflow/mingox.py acquire --slug my-topic --mode url --url 'https://mp.
 | `--headless` | Playwright 无头。 |
 | `--wait-verify SEC` | 验证页最多等待 SEC 秒（需非 headless）。 |
 | `--no-mobile-wechat` | 不试移动 UA。 |
+| `--skip-wechat-images` | 不下载配图、不写文内 Markdown 图。 |
 
 ### 微信抓取实战要点
 
