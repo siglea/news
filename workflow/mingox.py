@@ -131,12 +131,18 @@ def cmd_build(args: argparse.Namespace) -> None:
     sys.path.insert(0, str(WORKFLOW_DIR))
     from build_draft import build_slug
 
+    sov = None
+    if getattr(args, "segments", False):
+        sov = True
+    elif getattr(args, "no_segments", False):
+        sov = False
     build_slug(
         args.slug,
         skip_validate=args.skip_validate,
         skip_quality_gates=bool(getattr(args, "skip_quality_gates", False)),
         update_index=bool(getattr(args, "update_index", False)),
         dry_run_index=bool(getattr(args, "dry_run_index", False)),
+        segments_override=sov,
     )
 
 
@@ -153,7 +159,23 @@ def cmd_export_chat_bundle(args: argparse.Namespace) -> None:
     if not src.is_file():
         raise SystemExit(f"missing {src}")
     paras = paragraphs_from_markdown(src.read_text(encoding="utf-8"))
-    bundle = export_chat_bundle_dict(paras, slug=args.slug)
+    meta_path = draft / "meta.json"
+    layout_segments = False
+    if meta_path.is_file():
+        import json as _json
+
+        try:
+            _m = _json.loads(meta_path.read_text(encoding="utf-8"))
+            layout_segments = _m.get("article_layout") == "segments"
+        except (_json.JSONDecodeError, OSError):
+            pass
+    if getattr(args, "segments", False):
+        layout_segments = True
+    elif getattr(args, "no_segments", False):
+        layout_segments = False
+    bundle = export_chat_bundle_dict(
+        paras, slug=args.slug, layout_segments=layout_segments
+    )
     out = draft / "llm-chat-bundle.json"
     out.write_text(json.dumps(bundle, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("wrote", out)
@@ -740,9 +762,14 @@ def cmd_close_loop(args: argparse.Namespace) -> None:
     # 优化:在 build 之前先跑 annotations gate(`validate --annotations --slug <slug>`)
     # 让标注层错误 fail-fast,免去先跑 build(产 HTML)→ 再 validate(发现问题)→
     # 修标注 → 再 build 的浪费。build 自己仍会跑标注 quality gate(双保险)。
+    build_cmd = [py, wf, "build", "--slug", args.slug]
+    if getattr(args, "segments", False):
+        build_cmd.append("--segments")
+    elif getattr(args, "no_segments", False):
+        build_cmd.append("--no-segments")
     steps: list[tuple[str, list[str]]] = [
         ("annotations-gate", [py, wf, "validate", "--annotations", "--slug", args.slug]),
-        ("build", [py, wf, "build", "--slug", args.slug]),
+        ("build", build_cmd),
         ("validate", [py, wf, "validate", "--post", out_html]),
     ]
     if args.deploy:
@@ -857,6 +884,17 @@ def main() -> None:
         action="store_true",
         help="与 --update-index 同用:仅预览注入,不动 index.html",
     )
+    _bseg = p_b.add_mutually_exclusive_group()
+    _bseg.add_argument(
+        "--segments",
+        action="store_true",
+        help="本次 build 强制分段版式(覆盖 meta.article_layout)",
+    )
+    _bseg.add_argument(
+        "--no-segments",
+        action="store_true",
+        help="本次 build 强制扁平正文(覆盖 meta 的 segments)",
+    )
     p_b.set_defaults(func=cmd_build)
 
     p_eb = sub.add_parser(
@@ -864,6 +902,17 @@ def main() -> None:
         help="写出 llm-chat-bundle.json（含四六级词汇标注 system_prompt），供大模型生成 llm_annotations.json",
     )
     p_eb.add_argument("--slug", required=True)
+    _eseg = p_eb.add_mutually_exclusive_group()
+    _eseg.add_argument(
+        "--segments",
+        action="store_true",
+        help="bundle 句表按分段版式跳过标题段(覆盖 meta)",
+    )
+    _eseg.add_argument(
+        "--no-segments",
+        action="store_true",
+        help="bundle 不按分段跳过(覆盖 meta 的 segments)",
+    )
     p_eb.set_defaults(func=cmd_export_chat_bundle)
 
     p_pap = sub.add_parser(
@@ -927,6 +976,17 @@ def main() -> None:
     p_cl.add_argument("--slug", required=True)
     p_cl.add_argument("--deploy", action="store_true", help="通过 build+validate 后继续部署")
     p_cl.add_argument("--project", default="mingox")
+    _cseg = p_cl.add_mutually_exclusive_group()
+    _cseg.add_argument(
+        "--segments",
+        action="store_true",
+        help="close-loop 内 build 强制 --segments",
+    )
+    _cseg.add_argument(
+        "--no-segments",
+        action="store_true",
+        help="close-loop 内 build 强制 --no-segments",
+    )
     p_cl.set_defaults(func=cmd_close_loop)
 
     args = ap.parse_args()

@@ -14,7 +14,7 @@
 
 | 文件 | 说明 |
 |------|------|
-| `meta.json` | 标题、英文题、`out_html`、来源 URL、`include_source_footer`、`footer_template`（`verbatim` \| `derivative`）、`footer_derivative_mp_unknown`、`source_author_display`、`risk_blurb_secondary` 等。可用 `python3 workflow/mingox.py init ...` 生成模板。 |
+| `meta.json` | 标题、英文题、`out_html`、来源 URL、`include_source_footer`、`footer_template`（`verbatim` \| `derivative`）、`footer_derivative_mp_unknown`、`source_author_display`、`risk_blurb_secondary`、可选 **`article_layout`**：**缺省** / `flat` / `classic` → 扁平正文（与历史成稿 DOM 一致）；**`segments`** → 启发式升 `<h2>`（如 `一、`）/ `<h3>`（如 `关卡 1:`、`第 N 章`、短问句等）并包 `<section class="article-section">`，且 `<article>` 带 `post-content--segments`。启用/关闭后须 **重跑 `export-chat-bundle` + 标注**，不可沿用旧句序 JSON。CLI：`build` / `export-chat-bundle` / `close-loop` 的 **`--segments`** / **`--no-segments`** 可一次性覆盖 meta。 |
 | `out_html` 命名 | 见上文 **「命名规范」**；`init` 的 `--out-html` 即写入此字段。改路径后需同步 `index.html` 与站内链接。 |
 | `01-source.md` | **第 1 步**输出的正文（Markdown，按空行分段）。微信 HTML 以 section/leaf 为主时，由 `annotate_lib` 的 **plain/leaf 回退抽取**生成；偶见首段符号（如 `▎`）可手删后重建。 |
 | `02-annotate-tasks.json` | **`mingox build` 生成的**段落快照（`source_text` + 当前实现下的 `html`，便于 diff）。 |

@@ -57,6 +57,101 @@ def paragraph_is_mingox_gallery_markdown(para: str) -> bool:
     return all(_GALLERY_MD_LINE.match(ln) for ln in lines)
 
 
+def _strip_outer_bold(s: str) -> str:
+    t = s.strip()
+    if t.startswith("**") and t.endswith("**") and len(t) > 4:
+        return t[2:-2].strip()
+    return t
+
+
+_RE_H2_ENUM = re.compile(r"^[一二三四五六七八九十百千两]+、")
+_RE_H3_GATE = re.compile(r"^关卡\s*\d+\s*[:：]")
+_RE_H3_CHAPTER = re.compile(r"^第\s*[一二三四五六七八九十百千两零〇○０-９0-9]+\s*章")
+_RE_H3_STEP = re.compile(r"^Step\s+\d+\b", re.I)
+_RE_H3_NUM_DOT = re.compile(r"^\d+\.\s+\S")
+
+
+def _paragraph_never_heading(s: str) -> bool:
+    """Lines that must never be promoted to h2/h3 (byline, caption, etc.)."""
+    if not s or "\n" in s:
+        return True
+    if "责任编辑" in s:
+        return True
+    if "文 /" in s or "文/" in s or "微信公众号：" in s or "微信号：" in s:
+        return True
+    if s.startswith("图源") or s.startswith("图片来源"):
+        return True
+    if "芯片" in s and ("制造" in s or "用于" in s) and len(s) <= 22:
+        return True
+    return False
+
+
+def paragraph_heading_level(para: str) -> int:
+    """Section heading level for `article_layout: segments`: 0 body, 2 h2, 3 h3.
+
+    Order: 一、… → h2; 关卡/章节/Step/短编号行/整段加粗短句/原问句短标题 → h3.
+    """
+    if paragraph_is_mingox_gallery_markdown(para):
+        return 0
+    s = para.replace("\r", "").replace("&nbsp;", " ").strip()
+    if _paragraph_never_heading(s):
+        return 0
+    display = _strip_outer_bold(s)
+    if not display:
+        return 0
+    if _RE_H2_ENUM.match(display):
+        return 2
+    if (
+        _RE_H3_GATE.match(display)
+        or _RE_H3_CHAPTER.match(display)
+        or _RE_H3_STEP.match(display)
+    ):
+        return 3
+    if (
+        _RE_H3_NUM_DOT.match(display)
+        and len(display) <= 28
+        and not re.search(r"[。！？；]$", display)
+    ):
+        return 3
+    if s.startswith("**") and s.endswith("**"):
+        inner = _strip_outer_bold(s)
+        if (
+            inner
+            and len(inner) < 25
+            and not re.search(r"[。！？；]$", inner)
+            and "\n" not in inner
+        ):
+            return 3
+    if paragraph_is_section_subheading(para):
+        return 3
+    return 0
+
+
+def paragraph_is_section_subheading(para: str) -> bool:
+    """Heuristic: WeChat-style intertitle line (short, often a question or punchy phrase).
+
+    Only consulted when `article_layout: segments` so legacy posts stay byte-stable.
+    """
+    if paragraph_is_mingox_gallery_markdown(para):
+        return False
+    s = para.replace("\r", "").replace("&nbsp;", " ").strip()
+    if _paragraph_never_heading(s):
+        return False
+    if len(s) > 40 or len(s) < 4:
+        return False
+    if s.endswith("。") and len(s) > 12:
+        return False
+    if s.count("，") >= 2 and len(s) > 18:
+        return False
+    if (s.startswith("\u201c") or s.startswith('"') or s.startswith("“")) and len(s) > 22:
+        return False
+    if s[-1] in "?!？！":
+        return len(s) <= 42
+    if len(s) <= 14 and "。" not in s and s.count("，") <= 1:
+        return True
+    return False
+
+
 def gallery_markdown_paragraph_to_figure_html(para: str) -> str:
     """将图集 Markdown 段落转为 <figure> 块（不做词汇标注）。"""
     figs: list[str] = []
@@ -77,11 +172,17 @@ def gallery_markdown_paragraph_to_figure_html(para: str) -> str:
     return "\n".join(figs) if figs else f"<p>{html.escape(para)}</p>"
 
 
-def flatten_paragraphs(paragraphs: list[str]) -> tuple[list[str], list[tuple[int, int]]]:
+def flatten_paragraphs(
+    paragraphs: list[str],
+    *,
+    layout_segments: bool = False,
+) -> tuple[list[str], list[tuple[int, int]]]:
     sentences: list[str] = []
     origin: list[tuple[int, int]] = []
     for pi, para in enumerate(paragraphs):
         if paragraph_is_mingox_gallery_markdown(para):
+            continue
+        if layout_segments and paragraph_heading_level(para) > 0:
             continue
         for sj, s in enumerate(al.split_sentences(para.replace("\r", ""))):
             sentences.append(s.strip())
@@ -180,6 +281,8 @@ def paragraphs_html_from_annos(
     origin: list[tuple[int, int]],
     all_sents: list[str],
     annos: list[dict[str, str] | None],
+    *,
+    layout_segments: bool = False,
 ) -> list[str]:
     sent_to_global: dict[tuple[int, int], int] = {}
     for gi, (pi, sj) in enumerate(origin):
@@ -190,6 +293,16 @@ def paragraphs_html_from_annos(
         if paragraph_is_mingox_gallery_markdown(para):
             html_parts.append(gallery_markdown_paragraph_to_figure_html(para))
             continue
+        if layout_segments:
+            lvl = paragraph_heading_level(para)
+            if lvl == 2:
+                inner = html.escape(_strip_outer_bold(para.replace("\r", "")).strip())
+                html_parts.append(f'<h2 class="article-subheading">{inner}</h2>')
+                continue
+            if lvl == 3:
+                inner = html.escape(_strip_outer_bold(para.replace("\r", "")).strip())
+                html_parts.append(f'<h3 class="article-subheading">{inner}</h3>')
+                continue
         sents = al.split_sentences(para.replace("\r", ""))
         parts: list[str] = []
         for sj, s in enumerate(sents):
@@ -221,8 +334,9 @@ def apply_annotations_payload(
     payload: dict[str, Any],
     *,
     warn_low_coverage: bool = True,
+    layout_segments: bool = False,
 ) -> tuple[list[str], dict[str, Any]]:
-    all_sents, origin = flatten_paragraphs(paragraphs)
+    all_sents, origin = flatten_paragraphs(paragraphs, layout_segments=layout_segments)
     if not all_sents:
         return [f"<p>{html.escape(p)}</p>" for p in paragraphs], {
             "coverage": 0.0,
@@ -235,7 +349,9 @@ def apply_annotations_payload(
     annos = rows_from_annotations_payload(all_sents, payload.get("annotations", []))
     annos = dedupe_in_order(annos)
     cov = coverage_ratio(annos, full_text)
-    html_list = paragraphs_html_from_annos(paragraphs, origin, all_sents, annos)
+    html_list = paragraphs_html_from_annos(
+        paragraphs, origin, all_sents, annos, layout_segments=layout_segments
+    )
     n_ann = sum(1 for a in annos if a)
     dbg = {
         "coverage": round(cov, 4),
@@ -260,8 +376,13 @@ def apply_annotations_payload(
     return html_list, dbg
 
 
-def export_chat_bundle_dict(paragraphs: list[str], *, slug: str | None = None) -> dict[str, Any]:
-    all_sents, _ = flatten_paragraphs(paragraphs)
+def export_chat_bundle_dict(
+    paragraphs: list[str],
+    *,
+    slug: str | None = None,
+    layout_segments: bool = False,
+) -> dict[str, Any]:
+    all_sents, _ = flatten_paragraphs(paragraphs, layout_segments=layout_segments)
     slug_token = slug or "<slug>"
     instructions = (
         "你正在为本 bundle 所属草稿产出词汇标注（结果将注入静态站点的 word-block）。\n"

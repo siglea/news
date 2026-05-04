@@ -53,6 +53,7 @@
 - `meta.json.title_zh` 使用标准字符（禁用兼容/部首替代字），且不追加来源后缀（如 `｜甲子光年`）。
 - `meta.json.tags` 为必填（建议 7-10 项，含主题词 + 来源标签如 `转载`）；禁止依赖默认回退为单 `转载`。
 - `meta.json.title_zh`、`index.html` 对应 `<li>`、`posts/*.html` 的 `<title>/<h1>` 必须三处一致。
+- **`article_layout`（正文 DOM）**：**默认不写或 `flat`/`classic`** → 与历史稿一致的扁平 `<p>` + `<figure>`。**适用微信长篇、需要卡片化分段视觉时** 可设 **`segments`**（或仅用 CLI `--segments` 试 build）。**一旦启用/关闭 segments 或改过启发式相关源码，必须重跑 `export-chat-bundle` 并重做标注**，禁止在句表已变的情况下沿用旧 `llm_annotations.json`。需要对照扁平 DOM 时用 **`--no-segments`**。详见 [steps/03-html.md](./steps/03-html.md)。
 
 ---
 

@@ -30,6 +30,15 @@ from annotation_quality_gate import check_quality
 _INDEX_LI_INDENT = "                    "  # 20 空格,匹配现有 <li> 缩进
 
 
+def resolve_layout_segments(meta: dict, *, segments_override: bool | None = None) -> bool:
+    """`segments` 版式开关：CLI `--segments` / `--no-segments` 优先于 meta。"""
+    if segments_override is True:
+        return True
+    if segments_override is False:
+        return False
+    return meta.get("article_layout") == "segments"
+
+
 def generate_post_li(meta: dict) -> str:
     """从 meta.json 生成一段 `<li class="post-item">` HTML。
 
@@ -134,6 +143,7 @@ def build_slug(
     skip_quality_gates: bool = False,
     update_index: bool = False,
     dry_run_index: bool = False,
+    segments_override: bool | None = None,
 ) -> Path:
     draft = ROOT / "content" / "drafts" / slug
     meta_path = draft / "meta.json"
@@ -144,6 +154,7 @@ def build_slug(
         raise SystemExit(f"missing {src_path}")
 
     meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    layout_segments = resolve_layout_segments(meta, segments_override=segments_override)
     md = src_path.read_text(encoding="utf-8")
     paras_text = paragraphs_from_markdown(md)
 
@@ -162,7 +173,9 @@ def build_slug(
 
     payload = json.loads(ann_path.read_text(encoding="utf-8"))
     if not skip_quality_gates:
-        all_sents, _ = am.flatten_paragraphs(paras_text)
+        all_sents, _ = am.flatten_paragraphs(
+            paras_text, layout_segments=layout_segments
+        )
         q_errors, q_warnings = check_quality(meta, payload, sentences=all_sents)
         for msg in q_warnings:
             print(f"[quality-gate] WARN: {msg}", file=sys.stderr)
@@ -172,7 +185,9 @@ def build_slug(
                 print(f"  - {msg}", file=sys.stderr)
             raise SystemExit(1)
 
-    paras_html_parts, dbg = am.apply_annotations_payload(paras_text, payload)
+    paras_html_parts, dbg = am.apply_annotations_payload(
+        paras_text, payload, layout_segments=layout_segments
+    )
     print("annotate_merge", dbg, file=sys.stderr)
 
     for i, ptxt in enumerate(paras_text):
@@ -184,6 +199,10 @@ def build_slug(
         tasks["paragraphs"].append({"index": i, "source_text": ptxt, "html": html_p})
 
     paras_html = "\n\n".join(paras_html_parts)
+    if layout_segments:
+        from article_segments import wrap_article_sections
+
+        paras_html = wrap_article_sections(paras_html)
     tasks_path = draft / "02-annotate-tasks.json"
     tasks_path.write_text(json.dumps(tasks, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("wrote", tasks_path)
@@ -215,6 +234,7 @@ def build_slug(
         source_author_display=meta.get("source_author_display", "") or "",
         footer_derivative_mp_unknown=bool(meta.get("footer_derivative_mp_unknown", False)),
         risk_blurb_secondary=rb2 if isinstance(rb2, str) and rb2.strip() else None,
+        article_layout=("segments" if layout_segments else "classic"),
     )
     out_path = ROOT / meta["out_html"]
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -260,11 +280,24 @@ if __name__ == "__main__":
         action="store_true",
         help="与 --update-index 同用:仅预览注入,不动 index.html",
     )
+    seg = ap.add_mutually_exclusive_group()
+    seg.add_argument(
+        "--segments",
+        action="store_true",
+        help="本次 build 强制启用分段版式(覆盖 meta)",
+    )
+    seg.add_argument(
+        "--no-segments",
+        action="store_true",
+        help="本次 build 强制扁平 DOM(覆盖 meta 的 segments)",
+    )
     a = ap.parse_args()
+    sov = True if a.segments else (False if a.no_segments else None)
     build_slug(
         a.slug,
         skip_validate=a.skip_validate,
         skip_quality_gates=a.skip_quality_gates,
         update_index=a.update_index,
         dry_run_index=a.dry_run_index,
+        segments_override=sov,
     )

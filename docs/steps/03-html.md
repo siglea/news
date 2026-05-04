@@ -16,6 +16,9 @@
 python3 workflow/mingox.py build --slug my-topic
 # 调试可跳过相邻检测:
 python3 workflow/mingox.py build --slug my-topic --skip-validate
+# 单次强制分段/扁平(覆盖 meta.article_layout):
+python3 workflow/mingox.py build --slug my-topic --segments
+python3 workflow/mingox.py build --slug my-topic --no-segments
 python3 workflow/mingox.py validate
 python3 workflow/mingox.py validate --post posts/2026-03-29-china-g7-europe-market.html
 ```
@@ -24,7 +27,8 @@ python3 workflow/mingox.py validate --post posts/2026-03-29-china-g7-europe-mark
 
 ## 页面结构约定
 
-- **正文容器**：`<article class="post-content">` 内为标题 `h1`（含 `<small class="title-en">`）、可选 **`post-source-banner` 出处一句**（`include_source_footer` + `source_account` 时由 `build_post_html` 注入，详见 [EDITORIAL.md](../EDITORIAL.md)「外源素材与版权声明」），以及多个 `<p>...</p>`。
+- **正文容器**：`<article class="post-content">` 内为标题 `h1`（含 `<small class="title-en">`）、可选 **`post-source-banner` 出处一句**（`include_source_footer` + `source_account` 时由 `build_post_html` 注入，详见 [EDITORIAL.md](../EDITORIAL.md)「外源素材与版权声明」），以及多个 `<p>...</p>`（默认扁平 DOM）。
+- **分段版式（opt-in）**：`meta.json` 设 **`article_layout: "segments"`**（或 `build` / `export-chat-bundle` / `close-loop` 使用 **`--segments`**）时，启发式将部分段落升为 **`<h2 class="article-subheading">`**（如 **`一、`** / **`二、`**）或 **`<h3 class="article-subheading">`**（如 **`关卡 1:`**、**`第 N 章`**、`Step N`、短编号行、微信短标题等），正文块包进 **`<section class="article-section">`**，且 `<article>` 增加 **`post-content--segments`**（样式见 `css/style.css`）。**从 flat 改为 segments 或调整启发式后，必须重跑 `export-chat-bundle` 并重新生成 `llm_annotations.json`**，否则句序号与 `flatten_paragraphs` 不一致。对照旧 DOM 可用 **`--no-segments`** 单次覆盖 meta。
 - **词汇标注 DOM**（历史成稿或手工 HTML；样式见 [css/style.css](../../css/style.css)）：
   - `<span class="word-block">` → 内层 `<span class="english-word">` + `<span class="word-info">`（音标与释义）。
 - **篇末词汇表**：`build_post_html` 生成表格；由 `vocab_tbody_html` 从正文 HTML **反扫** `word-block`（`build` 已强制要求 `llm_annotations.json`，正常成稿 tbody 由标注决定）。

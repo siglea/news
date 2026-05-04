@@ -386,7 +386,18 @@ body {
     background: linear-gradient(165deg, #ffffff 0%, #f7f8ff 100%);
 }
 
-.post-content.post-content--segments .article-subheading {
+.post-content.post-content--segments h2.article-subheading {
+    font-size: clamp(1.1rem, 3.3vw, 1.2rem);
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0 0 0.55em 0;
+    padding: 0.35em 0 0.35em 0.65em;
+    border-left: 4px solid var(--primary-color);
+    line-height: 1.35;
+    letter-spacing: 0.02em;
+}
+
+.post-content.post-content--segments h3.article-subheading {
     font-size: clamp(1.03rem, 3.1vw, 1.12rem);
     font-weight: 700;
     color: var(--primary-color);
