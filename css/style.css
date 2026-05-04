@@ -342,6 +342,19 @@ body {
     overflow: visible;
 }
 
+/* 微信配图文末图集（mx MVP） */
+.post-content figure.article-figure {
+    margin: 1.25em 0;
+    text-align: center;
+}
+
+.post-content figure.article-figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: inline-block;
+}
+
 .post-content strong {
     font-weight: 600;
 }

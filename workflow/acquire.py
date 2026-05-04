@@ -71,6 +71,7 @@ def acquire_url(
     headless: bool = False,
     wechat_mobile: bool = True,
     wait_verify_sec: int = 0,
+    skip_wechat_images: bool = False,
 ) -> Path:
     parsed = urlparse(url)
     draft = _draft_dir(slug)
@@ -116,6 +117,25 @@ def acquire_url(
         html = out_html.read_text(encoding="utf-8")
         meta_ext = json.loads(out_meta.read_text(encoding="utf-8"))
         body_md = _html_to_source_md(html)
+        m0 = _load_meta(draft)
+        if not skip_wechat_images:
+            oh = (m0.get("out_html") or "").strip()
+            if oh:
+                stem = Path(oh).stem
+                try:
+                    import wechat_media as wm
+
+                    n_ok, g_lines = wm.extract_and_download_gallery(
+                        html, page_url=url, root=ROOT, post_stem=stem
+                    )
+                    if g_lines:
+                        body_md = body_md.rstrip() + "\n\n" + "\n\n".join(g_lines) + "\n"
+                        print(
+                            f"[acquire] wechat gallery: saved {n_ok} image(s) under images/posts/{stem}/",
+                            flush=True,
+                        )
+                except Exception as e:
+                    print(f"[acquire] WARN wechat gallery skipped: {e}", flush=True)
         (draft / "01-source.md").write_text(body_md + "\n", encoding="utf-8")
         m = _load_meta(draft)
         crawled_title = (meta_ext.get("title") or "").strip()

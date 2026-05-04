@@ -1,0 +1,28 @@
+{
+  "slug": "claude-us-ai-users-survey-zhiyuan",
+  "title_zh": "谁在用Claude：美国AI用户大调查出炉",
+  "title_en": "Who uses Claude: a survey of US AI users",
+  "title_emoji": "📈",
+  "date": "2026-05-04",
+  "source_url": "https://mp.weixin.qq.com/s/pkEWW-DtKLjPvJzdASUqrw",
+  "source_account": "新智元",
+  "include_source_footer": false,
+  "footer_template": "verbatim",
+  "source_author_display": "",
+  "footer_derivative_mp_unknown": false,
+  "out_html": "posts/2026-05-04-claude-us-ai-users-survey-zhiyuan.html",
+  "meta_description": "新智元转载：Epoch AI 与 Ipsos 的美国全国性调查显示，Claude 周活用户中约 79.8% 来自年收入 10 万美元以上家庭，高于 ChatGPT、Gemini、Copilot 等；但 Claude 渗透率仅约 3%，高收入浓度与规模小并存。文末附原文配图 18 张。",
+  "tags": [
+    "新智元",
+    "Claude",
+    "Epoch AI",
+    "Ipsos",
+    "用户调查",
+    "美国",
+    "大模型",
+    "转载"
+  ],
+  "omit_sections_note": "本站已按编辑流程处理正文；具体以原文为准。",
+  "risk_blurb": "本文仅供学习交流，不构成投资建议或其他专业意见。",
+  "source_mode": "url"
+}

@@ -1,0 +1,757 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "调查",
+      "en": "census",
+      "ipa": "[ˈsɛnsəs]",
+      "pos": "v.",
+      "gloss": "实施统计调查"
+    },
+    {
+      "i": 1,
+      "zh": "家庭",
+      "en": "household",
+      "ipa": "[ˈhaʊsˌhoʊld]",
+      "pos": "n.",
+      "gloss": "全家人，一家人；(包括佣工在内的)家庭，户"
+    },
+    {
+      "i": 2,
+      "zh": "比例",
+      "en": "proportion",
+      "ipa": "[prəˈpɔrʃən]",
+      "pos": "n.",
+      "gloss": "部分；比例；均衡,相称"
+    },
+    {
+      "i": 3,
+      "zh": "估算",
+      "en": "compute",
+      "ipa": "[kəmˈpjut]",
+      "pos": "v.",
+      "gloss": "计算；估算；用计算机计算"
+    },
+    {
+      "i": 4,
+      "zh": "差距",
+      "en": "gap",
+      "ipa": "[ɡæp]",
+      "pos": "n.",
+      "gloss": "间隙；缺口；差距；分歧"
+    },
+    {
+      "i": 5,
+      "zh": "收入",
+      "en": "proceed",
+      "ipa": "[pərˈsid]",
+      "pos": "n.",
+      "gloss": "收入，获利"
+    },
+    {
+      "i": 6,
+      "zh": "对应",
+      "en": "correspond",
+      "ipa": "[ˌkɔrəˈspɑnd]",
+      "pos": "vi.",
+      "gloss": "通信；符合， 一致；相当于， 对应"
+    },
+    {
+      "i": 7,
+      "skip": true
+    },
+    {
+      "i": 8,
+      "zh": "完成",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 9,
+      "zh": "调查",
+      "en": "enquire",
+      "ipa": "[ɪnkˈwaɪər]",
+      "pos": "v.",
+      "gloss": "询问；调查；问候（等于inquire）"
+    },
+    {
+      "i": 10,
+      "zh": "分析",
+      "en": "analyze",
+      "ipa": "[ˈænəˌlaɪz]",
+      "pos": "vt.",
+      "gloss": "分析； 分解"
+    },
+    {
+      "i": 11,
+      "zh": "的说法",
+      "en": "paradox",
+      "ipa": "[ˈpærədɒks]",
+      "pos": "n.",
+      "gloss": "悖论，似非而是的说法；自相矛盾（的情况）"
+    },
+    {
+      "i": 12,
+      "zh": "入口",
+      "en": "entrance",
+      "ipa": "[ˈɛntrəns]",
+      "pos": "n.",
+      "gloss": "入口；进入"
+    },
+    {
+      "i": 13,
+      "zh": "制造",
+      "en": "fabricate",
+      "ipa": "[ˈfæbrəˌkeɪt]",
+      "pos": "v.",
+      "gloss": "制造；伪造；装配"
+    },
+    {
+      "i": 14,
+      "zh": "仍然",
+      "en": "nevertheless",
+      "ipa": "[ˌnɛvərðəˈlɛs]",
+      "pos": "adv.",
+      "gloss": "仍然， 不过"
+    },
+    {
+      "i": 15,
+      "zh": "调查",
+      "en": "enquiry",
+      "ipa": "[ɪnkˈwaɪˌri]",
+      "pos": "n.",
+      "gloss": "打听， 询问；调查， 研究"
+    },
+    {
+      "i": 16,
+      "zh": "表示",
+      "en": "bid",
+      "ipa": "[bɪd]",
+      "pos": "v.",
+      "gloss": "投标；出价；表示；吩咐"
+    },
+    {
+      "i": 17,
+      "zh": "补充",
+      "en": "recruit",
+      "ipa": "[rɪˈkruːt]",
+      "pos": "v.",
+      "gloss": "补充；聘用；征募；使…恢复健康"
+    },
+    {
+      "i": 18,
+      "zh": "同时",
+      "en": "meantime",
+      "ipa": "[ˈminˌtaɪm]",
+      "pos": "adv.",
+      "gloss": "同时；其间"
+    },
+    {
+      "i": 19,
+      "zh": "覆盖",
+      "en": "blanket",
+      "ipa": "[ˈblæŋkɪt]",
+      "pos": "v.",
+      "gloss": "覆盖，掩盖；用毯覆盖"
+    },
+    {
+      "i": 20,
+      "zh": "整个",
+      "en": "altogether",
+      "ipa": "[ˌɔltəˈgɛðər]",
+      "pos": "n.",
+      "gloss": "整个；裸体"
+    },
+    {
+      "i": 21,
+      "zh": "解释",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "确定，说明，界定；给…下定义，解释"
+    },
+    {
+      "i": 22,
+      "zh": "公司",
+      "en": "establishment",
+      "ipa": "[ɪˈstæblɪʃmənt]",
+      "pos": "n.",
+      "gloss": "确立，制定；公司；设施"
+    },
+    {
+      "i": 23,
+      "zh": "开始",
+      "en": "commence",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 24,
+      "zh": "差异",
+      "en": "discrepancy",
+      "ipa": "[dɪˈskrɛpənsi]",
+      "pos": "n.",
+      "gloss": "差异,不符"
+    },
+    {
+      "i": 25,
+      "zh": "解释",
+      "en": "explanation",
+      "ipa": "[ˌɛkspləˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "说明，解释；辩解"
+    },
+    {
+      "i": 26,
+      "zh": "包含",
+      "en": "comprehend",
+      "ipa": "[ˌkɑmpriˈhɛnd]",
+      "pos": "v.",
+      "gloss": "理解；包含；由…组成"
+    },
+    {
+      "i": 27,
+      "zh": "方案",
+      "en": "formula",
+      "ipa": "[ˈfɔrmjələ]",
+      "pos": "n.",
+      "gloss": "公式；分子式；准则；方案"
+    },
+    {
+      "i": 28,
+      "zh": "入口",
+      "en": "inlet",
+      "ipa": "[ˈɪnˌlɛt]",
+      "pos": "n.",
+      "gloss": "入口，进口；插入物；水湾"
+    },
+    {
+      "i": 29,
+      "zh": "搜索",
+      "en": "hunt",
+      "ipa": "[hənt]",
+      "pos": "v.",
+      "gloss": "打猎； 猎取；搜索； 寻找"
+    },
+    {
+      "i": 30,
+      "zh": "连接",
+      "en": "connexion",
+      "ipa": "[kəˈnɛkʃən]",
+      "pos": "n.",
+      "gloss": "联系， 连接"
+    },
+    {
+      "i": 31,
+      "skip": true
+    },
+    {
+      "i": 32,
+      "zh": "任务",
+      "en": "assignment",
+      "ipa": "[əˈsaɪnmənt]",
+      "pos": "n.",
+      "gloss": "任务；作业"
+    },
+    {
+      "i": 33,
+      "zh": "吸引",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 34,
+      "zh": "说明",
+      "en": "demonstrate",
+      "ipa": "[ˈdɛmənˌstreɪt]",
+      "pos": "v.",
+      "gloss": "论证,证实；演示,说明"
+    },
+    {
+      "i": 35,
+      "zh": "表示",
+      "en": "denote",
+      "ipa": "[dɪˈnoʊt]",
+      "pos": "v.",
+      "gloss": "表示，指示"
+    },
+    {
+      "i": 36,
+      "zh": "比例",
+      "en": "ratio",
+      "ipa": "[ˈreɪʃiˌoʊ]",
+      "pos": "n.",
+      "gloss": "比率，比例"
+    },
+    {
+      "i": 37,
+      "zh": "雇主",
+      "en": "employer",
+      "ipa": "[ɪmˈplɔɪər]",
+      "pos": "n.",
+      "gloss": "雇主，老板"
+    },
+    {
+      "i": 38,
+      "zh": "部分",
+      "en": "highlight",
+      "ipa": "[ˈhaɪˌlaɪt]",
+      "pos": "n.",
+      "gloss": "最精彩的部分"
+    },
+    {
+      "i": 39,
+      "zh": "的位置",
+      "en": "shell",
+      "ipa": "[ʃɛl]",
+      "pos": "v.",
+      "gloss": "剥落；设定命令行解释器的位置"
+    },
+    {
+      "i": 40,
+      "zh": "分发",
+      "en": "dish",
+      "ipa": "[dɪʃ]",
+      "pos": "v.",
+      "gloss": "盛于碟盘中；分发；使某人的希望破灭；说（某人）的闲话"
+    },
+    {
+      "i": 41,
+      "zh": "选择",
+      "en": "elect",
+      "ipa": "[ɪˈlɛkt]",
+      "pos": "v.",
+      "gloss": "选举,推选；选择,作出选择"
+    },
+    {
+      "i": 42,
+      "zh": "选择",
+      "en": "opt",
+      "ipa": "[ɑpt]",
+      "pos": "v.",
+      "gloss": "选择"
+    },
+    {
+      "i": 43,
+      "skip": true
+    },
+    {
+      "i": 44,
+      "zh": "达到",
+      "en": "attain",
+      "ipa": "[əˈteɪn]",
+      "pos": "v.",
+      "gloss": "完成；获得；达到"
+    },
+    {
+      "i": 45,
+      "zh": "助手",
+      "en": "ally",
+      "ipa": "[ˈælaɪ]",
+      "pos": "n.",
+      "gloss": "同盟国；伙伴；同盟者；助手"
+    },
+    {
+      "i": 46,
+      "zh": "摘要",
+      "en": "abstract",
+      "ipa": "[ˈæbˌstrækt]",
+      "pos": "n.",
+      "gloss": "摘要，梗概"
+    },
+    {
+      "i": 47,
+      "zh": "搜索",
+      "en": "rake",
+      "ipa": "[reɪk]",
+      "pos": "v.",
+      "gloss": "搜索；用耙子耙；掠过，擦过"
+    },
+    {
+      "i": 48,
+      "zh": "依赖",
+      "en": "depend",
+      "ipa": "[dɪˈpɛnd]",
+      "pos": "v.",
+      "gloss": "依赖，依靠；取决于；相信，信赖"
+    },
+    {
+      "i": 49,
+      "zh": "不同的",
+      "en": "diverse",
+      "ipa": "[dɪˈvərs]",
+      "pos": "adj.",
+      "gloss": "多种多样的,不同的"
+    },
+    {
+      "i": 50,
+      "zh": "广泛的",
+      "en": "comprehensive",
+      "ipa": "[ˌkɑmpriˈhɛnsɪv]",
+      "pos": "adj.",
+      "gloss": "综合的；广泛的；有理解力的"
+    },
+    {
+      "i": 51,
+      "zh": "容易",
+      "en": "facilitate",
+      "ipa": "[fəˈsɪləˌteɪt]",
+      "pos": "v.",
+      "gloss": "促进；帮助；使容易"
+    },
+    {
+      "i": 52,
+      "zh": "消费",
+      "en": "consume",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 53,
+      "zh": "覆盖",
+      "en": "clothing",
+      "ipa": "[ˈkloʊðɪŋ]",
+      "pos": "v.",
+      "gloss": "覆盖（clothe的ing形式）；给…穿衣"
+    },
+    {
+      "i": 54,
+      "zh": "发生",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 55,
+      "zh": "的人",
+      "en": "athlete",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 56,
+      "zh": "高度",
+      "en": "altitude",
+      "ipa": "[ˈæltɪtjuːd]",
+      "pos": "n.",
+      "gloss": "高度， 海拔"
+    },
+    {
+      "i": 57,
+      "zh": "普及",
+      "en": "generalize",
+      "ipa": "[ˈʤɛnərəˌlaɪz]",
+      "pos": "v.",
+      "gloss": "(generalise)归纳,概括；推广,普及"
+    },
+    {
+      "i": 58,
+      "zh": "大量",
+      "en": "pile",
+      "ipa": "[paɪl]",
+      "pos": "n.",
+      "gloss": "堆；大量；建筑群"
+    },
+    {
+      "i": 59,
+      "zh": "少数",
+      "en": "handful",
+      "ipa": "[ˈhændˌfʊl]",
+      "pos": "n.",
+      "gloss": "少数；一把；棘手事"
+    },
+    {
+      "i": 60,
+      "zh": "事务",
+      "en": "affair",
+      "ipa": "[əˈfɛr]",
+      "pos": "n.",
+      "gloss": "事情；事务；私事；（尤指关系不长久的）风流韵事"
+    },
+    {
+      "i": 61,
+      "zh": "的人",
+      "en": "beast",
+      "ipa": "[bist]",
+      "pos": "n.",
+      "gloss": "兽， 牲畜 ；凶残的人； 举止粗鲁的人"
+    },
+    {
+      "i": 62,
+      "zh": "清楚的",
+      "en": "distinct",
+      "ipa": "[dɪˈstɪŋkt]",
+      "pos": "adj.",
+      "gloss": "明显的；独特的；清楚的；有区别的"
+    },
+    {
+      "i": 63,
+      "zh": "强度",
+      "en": "intensity",
+      "ipa": "[ɪnˈtensəti]",
+      "pos": "n.",
+      "gloss": "强度；强烈；[电子] 亮度；紧张"
+    },
+    {
+      "i": 64,
+      "zh": "合同",
+      "en": "bargain",
+      "ipa": "[ˈbɑrgɪn]",
+      "pos": "n.",
+      "gloss": "廉价货；交易,契约,合同"
+    },
+    {
+      "i": 65,
+      "zh": "的结果",
+      "en": "haul",
+      "ipa": "[hɔl]",
+      "pos": "n.",
+      "gloss": "拖，拉；用力拖拉；努力得到的结果；捕获物；一网捕获的鱼量；拖运距离"
+    },
+    {
+      "i": 66,
+      "zh": "实验",
+      "en": "experiment",
+      "ipa": "[ɪkˈspɛrəmənt]",
+      "pos": "n.",
+      "gloss": "实验，试验；尝试"
+    },
+    {
+      "i": 67,
+      "zh": "内部",
+      "en": "bosom",
+      "ipa": "[ˈbʊzəm]",
+      "pos": "n.",
+      "gloss": "胸；胸怀；中间；胸襟；内心；乳房；内部"
+    },
+    {
+      "i": 68,
+      "zh": "商品",
+      "en": "commodity",
+      "ipa": "[kəˈmɑdəti]",
+      "pos": "n.",
+      "gloss": "商品"
+    },
+    {
+      "i": 69,
+      "skip": true
+    },
+    {
+      "i": 70,
+      "zh": "方面",
+      "en": "angle",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 71,
+      "zh": "微妙的",
+      "en": "delicate",
+      "ipa": "[ˈdɛləkət]",
+      "pos": "adj.",
+      "gloss": "微妙的；精美的，雅致的；柔和的；易碎的；纤弱的；清淡可口的"
+    },
+    {
+      "i": 72,
+      "zh": "内部",
+      "en": "bowel",
+      "ipa": "[baʊəl]",
+      "pos": "n.",
+      "gloss": "肠；内部；同情"
+    },
+    {
+      "i": 73,
+      "zh": "清楚",
+      "en": "clarity",
+      "ipa": "[ˈklærəti]",
+      "pos": "n.",
+      "gloss": "清楚，明晰；透明"
+    },
+    {
+      "i": 74,
+      "zh": "代表",
+      "en": "ambassador",
+      "ipa": "[æmˈbæsədər]",
+      "pos": "n.",
+      "gloss": "大使；特使，(派驻国际组织的)代表"
+    },
+    {
+      "i": 75,
+      "zh": "更好的",
+      "en": "preferable",
+      "ipa": "[ˈprɛfərəbəl]",
+      "pos": "adj.",
+      "gloss": "更好的，更可取的；更合意的"
+    },
+    {
+      "i": 76,
+      "zh": "决策",
+      "en": "counsel",
+      "ipa": "[ˈkaʊnsəl]",
+      "pos": "n.",
+      "gloss": "法律顾问；忠告；商议；讨论；决策"
+    },
+    {
+      "i": 77,
+      "zh": "不同",
+      "en": "differ",
+      "ipa": "[ˈdɪfər]",
+      "pos": "v.",
+      "gloss": "使…相异；使…不同"
+    },
+    {
+      "i": 78,
+      "zh": "画像",
+      "en": "portrait",
+      "ipa": "[ˈpɔrtrət]",
+      "pos": "n.",
+      "gloss": "肖像,画像"
+    },
+    {
+      "i": 79,
+      "zh": "吸引",
+      "en": "attract",
+      "ipa": "[əˈtrækt]",
+      "pos": "v.",
+      "gloss": "吸引；引起的注意(或兴趣等)"
+    },
+    {
+      "i": 80,
+      "zh": "在于",
+      "en": "consist",
+      "ipa": "[kənˈsɪst]",
+      "pos": "v.",
+      "gloss": "(in)在于；(of)由…组成,由…构成"
+    },
+    {
+      "i": 81,
+      "zh": "支撑",
+      "en": "brace",
+      "ipa": "[breɪs]",
+      "pos": "vt.",
+      "gloss": "使防备， 使受锻炼；支撑； 使绷紧"
+    },
+    {
+      "i": 82,
+      "zh": "方式",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adv.",
+      "gloss": "以同样的方式；类似于"
+    },
+    {
+      "i": 83,
+      "zh": "入口",
+      "en": "threshold",
+      "ipa": "[ˈθreʃhəʊld]",
+      "pos": "n.",
+      "gloss": "入口；门槛；开始；极限；临界值"
+    },
+    {
+      "i": 84,
+      "skip": true
+    },
+    {
+      "i": 85,
+      "zh": "真正的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 86,
+      "zh": "接近",
+      "en": "approximate",
+      "ipa": "[əˈprɑksəˌmeɪt]",
+      "pos": "v.",
+      "gloss": "(to)接近"
+    },
+    {
+      "i": 87,
+      "zh": "推荐",
+      "en": "commend",
+      "ipa": "[kəˈmɛnd]",
+      "pos": "v.",
+      "gloss": "推荐；称赞；把…委托"
+    },
+    {
+      "i": 88,
+      "zh": "一张",
+      "en": "leaf",
+      "ipa": "[lif]",
+      "pos": "n.",
+      "gloss": "叶子；（书籍等的）一张；扇页"
+    },
+    {
+      "i": 89,
+      "zh": "类型",
+      "en": "breed",
+      "ipa": "[brid]",
+      "pos": "n.",
+      "gloss": "[生物] 品种；种类，类型"
+    },
+    {
+      "i": 90,
+      "zh": "专业的",
+      "en": "specialist",
+      "ipa": "[ˈspɛʃəlɪst]",
+      "pos": "adj.",
+      "gloss": "专家的；专业的"
+    },
+    {
+      "i": 91,
+      "zh": "谨慎",
+      "en": "caution",
+      "ipa": "[ˈkɔʃən]",
+      "pos": "n.",
+      "gloss": "小心，谨慎；警告，警示"
+    },
+    {
+      "i": 92,
+      "zh": "相比",
+      "en": "beside",
+      "ipa": "[ˌbiˈsaɪd]",
+      "pos": "prep.",
+      "gloss": "在...旁边，在...附近；和...相比"
+    },
+    {
+      "i": 93,
+      "zh": "分类",
+      "en": "breakdown",
+      "ipa": "[ˈbreɪkˌdaʊn]",
+      "pos": "n.",
+      "gloss": "故障；崩溃；分解；分类；衰弱；跺脚曳步舞"
+    },
+    {
+      "i": 94,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 95,
+      "skip": true
+    },
+    {
+      "i": 96,
+      "zh": "日常工作",
+      "en": "harness",
+      "ipa": "[ˈhɑrnɪs]",
+      "pos": "n.",
+      "gloss": "马具；甲胄；挽具状带子；降落伞背带；日常工作"
+    }
+  ]
+}

@@ -43,11 +43,46 @@ def en_headword_token_ok(en: str) -> bool:
 
 CHAT_SYSTEM_PROMPT = _load_chat_system_prompt()
 
+# 文末图集 MVP：仅 `../images/posts/<stem>/…` 的 Markdown 图行不参与词汇句切分与标注索引
+_GALLERY_MD_LINE = re.compile(
+    r"^!\[[^\]]*\]\(\s*(\.\./)+images/posts/[^)\s]+\)\s*$",
+)
+
+
+def paragraph_is_mingox_gallery_markdown(para: str) -> bool:
+    """是否为「仅含本站 images/posts 相对路径的 Markdown 图」段落（可含多行）。"""
+    lines = [ln.strip() for ln in para.replace("\r", "").strip().split("\n") if ln.strip()]
+    if not lines:
+        return False
+    return all(_GALLERY_MD_LINE.match(ln) for ln in lines)
+
+
+def gallery_markdown_paragraph_to_figure_html(para: str) -> str:
+    """将图集 Markdown 段落转为 <figure> 块（不做词汇标注）。"""
+    figs: list[str] = []
+    for ln in para.replace("\r", "").strip().split("\n"):
+        ln = ln.strip()
+        if not ln:
+            continue
+        m = re.match(r"^!\[([^\]]*)\]\(([^)]+)\)\s*$", ln)
+        if not m:
+            continue
+        alt, src = m.group(1), m.group(2).strip()
+        figs.append(
+            '<figure class="article-figure">'
+            f'<img src="{html.escape(src, quote=True)}" loading="lazy" '
+            f'alt="{html.escape(alt)}">'
+            "</figure>"
+        )
+    return "\n".join(figs) if figs else f"<p>{html.escape(para)}</p>"
+
 
 def flatten_paragraphs(paragraphs: list[str]) -> tuple[list[str], list[tuple[int, int]]]:
     sentences: list[str] = []
     origin: list[tuple[int, int]] = []
     for pi, para in enumerate(paragraphs):
+        if paragraph_is_mingox_gallery_markdown(para):
+            continue
         for sj, s in enumerate(al.split_sentences(para.replace("\r", ""))):
             sentences.append(s.strip())
             origin.append((pi, sj))
@@ -152,6 +187,9 @@ def paragraphs_html_from_annos(
 
     html_parts: list[str] = []
     for pi, para in enumerate(paragraphs):
+        if paragraph_is_mingox_gallery_markdown(para):
+            html_parts.append(gallery_markdown_paragraph_to_figure_html(para))
+            continue
         sents = al.split_sentences(para.replace("\r", ""))
         parts: list[str] = []
         for sj, s in enumerate(sents):

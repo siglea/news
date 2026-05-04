@@ -1,0 +1,547 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "claude-us-ai-users-survey-zhiyuan",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "一份美国全国性调查，揭开了各大旗舰大模型之间的用户画像差异。",
+      "html": "<p>一份美国全国性<span class=\"word-annot\"><span class=\"word-anchor\">调查</span><span class=\"word-block\"><span class=\"english-word\">census</span><span class=\"word-info\">[ˈsɛnsəs] v. 实施统计调查</span></span></span>，揭开了各大旗舰大模型之间的用户画像差异。</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "过去一周用过 Claude 的美国成年人里，79.8% 来自年收入 10 万美元以上家庭。",
+      "html": "<p>过去一周用过 Claude 的美国成年人里，79.8% 来自年收入 10 万美元以上<span class=\"word-annot\"><span class=\"word-anchor\">家庭</span><span class=\"word-block\"><span class=\"english-word\">household</span><span class=\"word-info\">[ˈhaʊsˌhoʊld] n. 全家人，一家人；(包括佣工在内的)家庭，户</span></span></span>。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "这个比例高于 Microsoft Copilot 的 63.7%、ChatGPT 的 60.3%、Grok 的 56.2%、Google Gemini 的 55.9%，更远高于 Meta AI 的 36.5%。",
+      "html": "<p>这个<span class=\"word-annot\"><span class=\"word-anchor\">比例</span><span class=\"word-block\"><span class=\"english-word\">proportion</span><span class=\"word-info\">[prəˈpɔrʃən] n. 部分；比例；均衡,相称</span></span></span>高于 Microsoft Copilot 的 63.7%、ChatGPT 的 60.3%、Grok 的 56.2%、Google Gemini 的 55.9%，更远高于 Meta AI 的 36.5%。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "作为参照，Epoch AI 用美国人口普查数据估算，美国成年人里约 50% 生活在年收入 10 万美元以上家庭。",
+      "html": "<p>作为参照，Epoch AI 用美国人口普查数据<span class=\"word-annot\"><span class=\"word-anchor\">估算</span><span class=\"word-block\"><span class=\"english-word\">compute</span><span class=\"word-info\">[kəmˈpjut] v. 计算；估算；用计算机计算</span></span></span>，美国成年人里约 50% 生活在年收入 10 万美元以上家庭。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "低收入端的差距同样明显。",
+      "html": "<p>低收入端的<span class=\"word-annot\"><span class=\"word-anchor\">差距</span><span class=\"word-block\"><span class=\"english-word\">gap</span><span class=\"word-info\">[ɡæp] n. 间隙；缺口；差距；分歧</span></span></span>同样明显。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "Claude 周活用户中，年收入 5 万美元以下家庭占比约 6.4%；",
+      "html": "<p>Claude 周活用户中，年<span class=\"word-annot\"><span class=\"word-anchor\">收入</span><span class=\"word-block\"><span class=\"english-word\">proceed</span><span class=\"word-info\">[pərˈsid] n. 收入，获利</span></span></span> 5 万美元以下家庭占比约 6.4%；</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "Meta AI 对应比例为 32.1%。",
+      "html": "<p>Meta AI <span class=\"word-annot\"><span class=\"word-anchor\">对应</span><span class=\"word-block\"><span class=\"english-word\">correspond</span><span class=\"word-info\">[ˌkɔrəˈspɑnd] vi. 通信；符合， 一致；相当于， 对应</span></span></span>比例为 32.1%。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "美国成年人总体中，年收入 5 万美元以下家庭占比约 24%。",
+      "html": "<p>美国成年人总体中，年收入 5 万美元以下家庭占比约 24%。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "这份调查由 Epoch AI 与 Ipsos 合作完成，使用 Ipsos 的 KnowledgePanel，美国成年人样本来自基于地址的概率抽样。",
+      "html": "<p>这份调查由 Epoch AI 与 Ipsos 合作<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>，使用 Ipsos 的 KnowledgePanel，美国成年人样本来自基于地址的概率抽样。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "第一波调查在 2026 年 3 月 3 日至 6 日进行，样本量 2021 人，95% 置信水平下总体误差为正负 2.2 个百分点；Epoch 后续关于收入分布的分析又合并了 3 月和 4 月三轮调查数据。",
+      "html": "<p>第一波<span class=\"word-annot\"><span class=\"word-anchor\">调查</span><span class=\"word-block\"><span class=\"english-word\">enquire</span><span class=\"word-info\">[ɪnkˈwaɪər] v. 询问；调查；问候（等于inquire）</span></span></span>在 2026 年 3 月 3 日至 6 日进行，样本量 2021 人，95% 置信水平下总体误差为正负 2.2 个百分点；Epoch 后续关于收入分布的<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span>又合并了 3 月和 4 月三轮调查数据。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "一个更直白的说法是，Claude 在美国已经呈现出高收入浓度。",
+      "html": "<p>一个更直白<span class=\"word-annot\"><span class=\"word-anchor\">的说法</span><span class=\"word-block\"><span class=\"english-word\">paradox</span><span class=\"word-info\">[ˈpærədɒks] n. 悖论，似非而是的说法；自相矛盾（的情况）</span></span></span>是，Claude 在美国已经呈现出高收入浓度。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "它还没有成为大众默认入口，却正在成为某类人群更高频、更高强度使用的工具。",
+      "html": "<p>它还没有成为大众默认<span class=\"word-annot\"><span class=\"word-anchor\">入口</span><span class=\"word-block\"><span class=\"english-word\">entrance</span><span class=\"word-info\">[ˈɛntrəns] n. 入口；进入</span></span></span>，却正在成为某类人群更高频、更高强度使用的工具。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "收入画像容易制造误读。",
+      "html": "<p>收入画像容易<span class=\"word-annot\"><span class=\"word-anchor\">制造</span><span class=\"word-block\"><span class=\"english-word\">fabricate</span><span class=\"word-info\">[ˈfæbrəˌkeɪt] v. 制造；伪造；装配</span></span></span>误读。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "Claude 的用户更富，但 Claude 的用户规模仍然小。",
+      "html": "<p>Claude 的用户更富，但 Claude 的用户规模<span class=\"word-annot\"><span class=\"word-anchor\">仍然</span><span class=\"word-block\"><span class=\"english-word\">nevertheless</span><span class=\"word-info\">[ˌnɛvərðəˈlɛs] adv. 仍然， 不过</span></span></span>小。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "Ipsos 这轮全国调查里，过去一周用过 ChatGPT 的美国成年人占 31%，Google Gemini 为 21%，Microsoft Copilot 为 11%，Meta AI 为 8%，Grok 为 5%，Claude 只有 3%。",
+      "html": "<p>Ipsos 这轮全国<span class=\"word-annot\"><span class=\"word-anchor\">调查</span><span class=\"word-block\"><span class=\"english-word\">enquiry</span><span class=\"word-info\">[ɪnkˈwaɪˌri] n. 打听， 询问；调查， 研究</span></span></span>里，过去一周用过 ChatGPT 的美国成年人占 31%，Google Gemini 为 21%，Microsoft Copilot 为 11%，Meta AI 为 8%，Grok 为 5%，Claude 只有 3%。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "另有 49% 的美国成年人表示，过去一周没有用过任何 AI 服务。",
+      "html": "<p>另有 49% 的美国成年人<span class=\"word-annot\"><span class=\"word-anchor\">表示</span><span class=\"word-block\"><span class=\"english-word\">bid</span><span class=\"word-info\">[bɪd] v. 投标；出价；表示；吩咐</span></span></span>，过去一周没有用过任何 AI 服务。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "The Decoder 援引 Epoch AI 的说法补充了另一层数据，在年收入 10 万美元以上人群中，ChatGPT 的触达率仍为 37%，Gemini 为 24%，Copilot 为 14%，Claude 只有 6%；同时，44% 的高收入人群过去一周没有使用 AI 服务。",
+      "html": "<p>The Decoder 援引 Epoch AI 的说法<span class=\"word-annot\"><span class=\"word-anchor\">补充</span><span class=\"word-block\"><span class=\"english-word\">recruit</span><span class=\"word-info\">[rɪˈkruːt] v. 补充；聘用；征募；使…恢复健康</span></span></span>了另一层数据，在年收入 10 万美元以上人群中，ChatGPT 的触达率仍为 37%，Gemini 为 24%，Copilot 为 14%，Claude 只有 6%；<span class=\"word-annot\"><span class=\"word-anchor\">同时</span><span class=\"word-block\"><span class=\"english-word\">meantime</span><span class=\"word-info\">[ˈminˌtaɪm] adv. 同时；其间</span></span></span>，44% 的高收入人群过去一周没有使用 AI 服务。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "所以 Claude 的情况更像是高收入浓度高，但绝对覆盖率低。",
+      "html": "<p>所以 Claude 的情况更像是高收入浓度高，但绝对<span class=\"word-annot\"><span class=\"word-anchor\">覆盖</span><span class=\"word-block\"><span class=\"english-word\">blanket</span><span class=\"word-info\">[ˈblæŋkɪt] v. 覆盖，掩盖；用毯覆盖</span></span></span>率低。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "它在一个小池子里显得更精英化，在整个美国 AI 市场里还远远没有接近 ChatGPT 的默认地位。",
+      "html": "<p>它在一个小池子里显得更精英化，在<span class=\"word-annot\"><span class=\"word-anchor\">整个</span><span class=\"word-block\"><span class=\"english-word\">altogether</span><span class=\"word-info\">[ˌɔltəˈgɛðər] n. 整个；裸体</span></span></span>美国 AI 市场里还远远没有接近 ChatGPT 的默认地位。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "这也解释了为什么这组数据会有新闻价值。",
+      "html": "<p>这也<span class=\"word-annot\"><span class=\"word-anchor\">解释</span><span class=\"word-block\"><span class=\"english-word\">define</span><span class=\"word-info\">[dɪˈfaɪn] v. 确定，说明，界定；给…下定义，解释</span></span></span>了为什么这组数据会有新闻价值。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "过去两年，AI 公司大多用月活、下载量、调用量讲故事。",
+      "html": "<p>过去两年，AI <span class=\"word-annot\"><span class=\"word-anchor\">公司</span><span class=\"word-block\"><span class=\"english-word\">establishment</span><span class=\"word-info\">[ɪˈstæblɪʃmənt] n. 确立，制定；公司；设施</span></span></span>大多用月活、下载量、调用量讲故事。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "现在，用户结构开始比用户规模更重要。",
+      "html": "<p>现在，用户结构<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">commence</span><span class=\"word-info\">[kəˈmɛns] v. 开始</span></span></span>比用户规模更重要。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "谁在浅尝辄止，谁在付费，谁把 AI 塞进工作流，差异开始浮出水面。",
+      "html": "<p>谁在浅尝辄止，谁在付费，谁把 AI 塞进工作流，<span class=\"word-annot\"><span class=\"word-anchor\">差异</span><span class=\"word-block\"><span class=\"english-word\">discrepancy</span><span class=\"word-info\">[dɪˈskrɛpənsi] n. 差异,不符</span></span></span>开始浮出水面。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "Claude 的高收入画像，很难只用价格解释。",
+      "html": "<p>Claude 的高收入画像，很难只用价格<span class=\"word-annot\"><span class=\"word-anchor\">解释</span><span class=\"word-block\"><span class=\"english-word\">explanation</span><span class=\"word-info\">[ˌɛkspləˈneɪʃən] n. 说明，解释；辩解</span></span></span>。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "Anthropic 的 Claude Pro 为每月 20 美元，Max 5x 为每月 125 美元，Max 20x 为每月 250 美元，Max 面向需要更高用量、更少中断、更优先访问新模型和功能的用户，并包含 Claude Code。",
+      "html": "<p>Anthropic 的 Claude Pro 为每月 20 美元，Max 5x 为每月 125 美元，Max 20x 为每月 250 美元，Max 面向需要更高用量、更少中断、更优先访问新模型和功能的用户，并<span class=\"word-annot\"><span class=\"word-anchor\">包含</span><span class=\"word-block\"><span class=\"english-word\">comprehend</span><span class=\"word-info\">[ˌkɑmpriˈhɛnd] v. 理解；包含；由…组成</span></span></span> Claude Code。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "OpenAI 的 ChatGPT 也有 20 美元 Plus 和更高阶 Pro 方案，个人高用量 AI 产品正在共同进入 100 美元、200 美元价格带。",
+      "html": "<p>OpenAI 的 ChatGPT 也有 20 美元 Plus 和更高阶 Pro <span class=\"word-annot\"><span class=\"word-anchor\">方案</span><span class=\"word-block\"><span class=\"english-word\">formula</span><span class=\"word-info\">[ˈfɔrmjələ] n. 公式；分子式；准则；方案</span></span></span>，个人高用量 AI 产品正在共同进入 100 美元、200 美元价格带。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "ChatGPT 更像全民入口。",
+      "html": "<p>ChatGPT 更像全民<span class=\"word-annot\"><span class=\"word-anchor\">入口</span><span class=\"word-block\"><span class=\"english-word\">inlet</span><span class=\"word-info\">[ˈɪnˌlɛt] n. 入口，进口；插入物；水湾</span></span></span>。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "Gemini 绑在 Google 搜索、Gmail、Docs 等场景里。",
+      "html": "<p>Gemini 绑在 Google <span class=\"word-annot\"><span class=\"word-anchor\">搜索</span><span class=\"word-block\"><span class=\"english-word\">hunt</span><span class=\"word-info\">[hənt] v. 打猎； 猎取；搜索； 寻找</span></span></span>、Gmail、Docs 等场景里。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "Copilot 跟 Microsoft 365、Word、Excel、Teams、Edge 连接更深。",
+      "html": "<p>Copilot 跟 Microsoft 365、Word、Excel、Teams、Edge <span class=\"word-annot\"><span class=\"word-anchor\">连接</span><span class=\"word-block\"><span class=\"english-word\">connexion</span><span class=\"word-info\">[kəˈnɛkʃən] n. 联系， 连接</span></span></span>更深。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "Meta AI 则直接进入 WhatsApp、Instagram、Facebook、Messenger。",
+      "html": "<p>Meta AI 则直接进入 WhatsApp、Instagram、Facebook、Messenger。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "Claude 的典型使用场景更偏主动访问、长文本处理、代码、复杂写作和专业任务。",
+      "html": "<p>Claude 的典型使用场景更偏主动访问、长文本处理、代码、复杂写作和专业<span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">assignment</span><span class=\"word-info\">[əˈsaɪnmənt] n. 任务；作业</span></span></span>。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "它要求用户知道自己为什么打开它，也更容易吸引已经愿意为效率付费的人。",
+      "html": "<p>它要求用户知道自己为什么打开它，也更容易<span class=\"word-annot\"><span class=\"word-anchor\">吸引</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>已经愿意为效率付费的人。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "Ipsos 的付费订阅数据也说明了这一点。",
+      "html": "<p>Ipsos 的付费订阅数据也<span class=\"word-annot\"><span class=\"word-anchor\">说明</span><span class=\"word-block\"><span class=\"english-word\">demonstrate</span><span class=\"word-info\">[ˈdɛmənˌstreɪt] v. 论证,证实；演示,说明</span></span></span>了这一点。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "ChatGPT 付费订阅中，4% 的受访者表示自己付费，3% 表示由雇主或学校付费；Claude 对应比例都是 1%；Copilot 则有 5% 自费、10% 由雇主或学校付费。",
+      "html": "<p>ChatGPT 付费订阅中，4% 的受访者<span class=\"word-annot\"><span class=\"word-anchor\">表示</span><span class=\"word-block\"><span class=\"english-word\">denote</span><span class=\"word-info\">[dɪˈnoʊt] v. 表示，指示</span></span></span>自己付费，3% 表示由雇主或学校付费；Claude 对应<span class=\"word-annot\"><span class=\"word-anchor\">比例</span><span class=\"word-block\"><span class=\"english-word\">ratio</span><span class=\"word-info\">[ˈreɪʃiˌoʊ] n. 比率，比例</span></span></span>都是 1%；Copilot 则有 5% 自费、10% 由<span class=\"word-annot\"><span class=\"word-anchor\">雇主</span><span class=\"word-block\"><span class=\"english-word\">employer</span><span class=\"word-info\">[ɪmˈplɔɪər] n. 雇主，老板</span></span></span>或学校付费。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "Claude 的付费面很窄，但这部分人更可能是高意愿、高强度用户。",
+      "html": "<p>Claude 的付费面很窄，但这<span class=\"word-annot\"><span class=\"word-anchor\">部分</span><span class=\"word-block\"><span class=\"english-word\">highlight</span><span class=\"word-info\">[ˈhaɪˌlaɪt] n. 最精彩的部分</span></span></span>人更可能是高意愿、高强度用户。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "这就是 Anthropic 现在的位置，规模小，单个用户价值可能更高。",
+      "html": "<p>这就是 Anthropic 现在<span class=\"word-annot\"><span class=\"word-anchor\">的位置</span><span class=\"word-block\"><span class=\"english-word\">shell</span><span class=\"word-info\">[ʃɛl] v. 剥落；设定命令行解释器的位置</span></span></span>，规模小，单个用户价值可能更高。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "它不像 Meta AI 那样靠社交产品铺开，也不像 Google 那样靠搜索入口捎带分发。",
+      "html": "<p>它不像 Meta AI 那样靠社交产品铺开，也不像 Google 那样靠搜索入口捎带<span class=\"word-annot\"><span class=\"word-anchor\">分发</span><span class=\"word-block\"><span class=\"english-word\">dish</span><span class=\"word-info\">[dɪʃ] v. 盛于碟盘中；分发；使某人的希望破灭；说（某人）的闲话</span></span></span>。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "Claude 需要用户主动选择。",
+      "html": "<p>Claude 需要用户主动<span class=\"word-annot\"><span class=\"word-anchor\">选择</span><span class=\"word-block\"><span class=\"english-word\">elect</span><span class=\"word-info\">[ɪˈlɛkt] v. 选举,推选；选择,作出选择</span></span></span>。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "但主动选择，本身就是门槛。",
+      "html": "<p>但主动<span class=\"word-annot\"><span class=\"word-anchor\">选择</span><span class=\"word-block\"><span class=\"english-word\">opt</span><span class=\"word-info\">[ɑpt] v. 选择</span></span></span>，本身就是门槛。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "Meta AI 是这张表里的另一端。",
+      "html": "<p>Meta AI 是这张表里的另一端。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "它的周活用户中，年收入 10 万美元以上家庭占比只有 36.5%，5 万美元以下家庭占比达到 32.1%。",
+      "html": "<p>它的周活用户中，年收入 10 万美元以上家庭占比只有 36.5%，5 万美元以下家庭占比<span class=\"word-annot\"><span class=\"word-anchor\">达到</span><span class=\"word-block\"><span class=\"english-word\">attain</span><span class=\"word-info\">[əˈteɪn] v. 完成；获得；达到</span></span></span> 32.1%。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "在这组主流 AI 助手里，它最接近大众市场。",
+      "html": "<p>在这组主流 AI <span class=\"word-annot\"><span class=\"word-anchor\">助手</span><span class=\"word-block\"><span class=\"english-word\">ally</span><span class=\"word-info\">[ˈælaɪ] n. 同盟国；伙伴；同盟者；助手</span></span></span>里，它最接近大众市场。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "Ipsos 调查显示，在用过 Meta AI 的人里，55% 通过 WhatsApp、Instagram、Facebook 或 Messenger 内置功能接触它，40% 是在 Facebook 或 Instagram 搜索时看到 AI 生成摘要或答案，只有 21% 是去 meta.ai 或 Meta AI 应用里输入问题。",
+      "html": "<p>Ipsos 调查显示，在用过 Meta AI 的人里，55% 通过 WhatsApp、Instagram、Facebook 或 Messenger 内置功能接触它，40% 是在 Facebook 或 Instagram 搜索时看到 AI 生成<span class=\"word-annot\"><span class=\"word-anchor\">摘要</span><span class=\"word-block\"><span class=\"english-word\">abstract</span><span class=\"word-info\">[ˈæbˌstrækt] n. 摘要，梗概</span></span></span>或答案，只有 21% 是去 meta.ai 或 Meta AI 应用里输入问题。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "Meta AI 被放进社交网络，Gemini 被放进搜索，Copilot 被放进办公软件。",
+      "html": "<p>Meta AI 被放进社交网络，Gemini 被放进<span class=\"word-annot\"><span class=\"word-anchor\">搜索</span><span class=\"word-block\"><span class=\"english-word\">rake</span><span class=\"word-info\">[reɪk] v. 搜索；用耙子耙；掠过，擦过</span></span></span>，Copilot 被放进办公软件。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "Claude 则更多依赖用户带着明确任务进入产品。",
+      "html": "<p>Claude 则更多<span class=\"word-annot\"><span class=\"word-anchor\">依赖</span><span class=\"word-block\"><span class=\"english-word\">depend</span><span class=\"word-info\">[dɪˈpɛnd] v. 依赖，依靠；取决于；相信，信赖</span></span></span>用户带着明确任务进入产品。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "这会带来完全不同的商业后果。",
+      "html": "<p>这会带来完全<span class=\"word-annot\"><span class=\"word-anchor\">不同的</span><span class=\"word-block\"><span class=\"english-word\">diverse</span><span class=\"word-info\">[dɪˈvərs] adj. 多种多样的,不同的</span></span></span>商业后果。</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "Meta AI 可以接触更广泛的人群，但用户意图更分散，很多互动可能只是顺手一问。",
+      "html": "<p>Meta AI 可以接触更<span class=\"word-annot\"><span class=\"word-anchor\">广泛的</span><span class=\"word-block\"><span class=\"english-word\">comprehensive</span><span class=\"word-info\">[ˌkɑmpriˈhɛnsɪv] adj. 综合的；广泛的；有理解力的</span></span></span>人群，但用户意图更分散，很多互动可能只是顺手一问。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "Claude 的用户少，但更像带着工作问题进门，需求更清晰，也更容易被转化为订阅、API 调用或企业采购。",
+      "html": "<p>Claude 的用户少，但更像带着工作问题进门，需求更清晰，也更<span class=\"word-annot\"><span class=\"word-anchor\">容易</span><span class=\"word-block\"><span class=\"english-word\">facilitate</span><span class=\"word-info\">[fəˈsɪləˌteɪt] v. 促进；帮助；使容易</span></span></span>被转化为订阅、API 调用或企业采购。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "AI 市场正在重演消费互联网和生产力软件的老故事，一边是巨大流量入口，一边是高 ARPU（Average Revenue Per User，每用户平均收入）工具。",
+      "html": "<p>AI 市场正在重演<span class=\"word-annot\"><span class=\"word-anchor\">消费</span><span class=\"word-block\"><span class=\"english-word\">consume</span><span class=\"word-info\">[kənˈsum] v. 消耗；消费；吃；喝</span></span></span>互联网和生产力软件的老故事，一边是巨大流量入口，一边是高 ARPU（Average Revenue Per User，每用户平均收入）工具。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "前者负责覆盖，后者负责收钱。",
+      "html": "<p>前者负责<span class=\"word-annot\"><span class=\"word-anchor\">覆盖</span><span class=\"word-block\"><span class=\"english-word\">clothing</span><span class=\"word-info\">[ˈkloʊðɪŋ] v. 覆盖（clothe的ing形式）；给…穿衣</span></span></span>，后者负责收钱。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "更关键的分层，不只发生在是否用过 AI 上，还发生在怎么用 AI 上。",
+      "html": "<p>更关键的分层，不只<span class=\"word-annot\"><span class=\"word-anchor\">发生</span><span class=\"word-block\"><span class=\"english-word\">contemporary</span><span class=\"word-info\">[kənˈtɛmpərˌɛri] adj. 现代的,当代的；发生[存在]于同一时代的</span></span></span>在是否用过 AI 上，还发生在怎么用 AI 上。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "Ipsos 调查显示，在过去一周用过 AI 服务的人里，34% 只用了一天，49% 用了 2 到 5 天，16% 几乎每天都用。",
+      "html": "<p>Ipsos 调查显示，在过去一周用过 AI 服务<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">athlete</span><span class=\"word-info\">[ˈæθˌlit] n. 运动员，体育家；身强力壮的人</span></span></span>里，34% 只用了一天，49% 用了 2 到 5 天，16% 几乎每天都用。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "使用最重度的一天里，62% 只处理一两个快速任务，32% 多次使用，只有 6% 表示当天大量使用或高度依赖 AI。",
+      "html": "<p>使用最重度的一天里，62% 只处理一两个快速任务，32% 多次使用，只有 6% 表示当天大量使用或<span class=\"word-annot\"><span class=\"word-anchor\">高度</span><span class=\"word-block\"><span class=\"english-word\">altitude</span><span class=\"word-info\">[ˈæltɪtjuːd] n. 高度， 海拔</span></span></span>依赖 AI。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "这说明美国 AI 普及率看上去已经不低，但多数使用仍然很轻度。",
+      "html": "<p>这说明美国 AI <span class=\"word-annot\"><span class=\"word-anchor\">普及</span><span class=\"word-block\"><span class=\"english-word\">generalize</span><span class=\"word-info\">[ˈʤɛnərəˌlaɪz] v. (generalise)归纳,概括；推广,普及</span></span></span>率看上去已经不低，但多数使用仍然很轻度。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "大量用户只是把 AI 当搜索框、改写器、临时问答机；少数用户开始把它当工作界面。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">大量</span><span class=\"word-block\"><span class=\"english-word\">pile</span><span class=\"word-info\">[paɪl] n. 堆；大量；建筑群</span></span></span>用户只是把 AI 当搜索框、改写器、临时问答机；<span class=\"word-annot\"><span class=\"word-anchor\">少数</span><span class=\"word-block\"><span class=\"english-word\">handful</span><span class=\"word-info\">[ˈhændˌfʊl] n. 少数；一把；棘手事</span></span></span>用户开始把它当工作界面。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "在有工作的 AI 用户中，46% 主要用于个人事务，26% 主要用于工作，25% 工作和个人差不多；",
+      "html": "<p>在有工作的 AI 用户中，46% 主要用于个人<span class=\"word-annot\"><span class=\"word-anchor\">事务</span><span class=\"word-block\"><span class=\"english-word\">affair</span><span class=\"word-info\">[əˈfɛr] n. 事情；事务；私事；（尤指关系不长久的）风流韵事</span></span></span>，26% 主要用于工作，25% 工作和个人差不多；</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "在工作中使用 AI 的人里，33% 使用雇主付费或提供的服务，50% 使用个人订阅或免费服务，11% 两者都用。",
+      "html": "<p>在工作中使用 AI <span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">beast</span><span class=\"word-info\">[bist] n. 兽， 牲畜 ；凶残的人； 举止粗鲁的人</span></span></span>里，33% 使用雇主付费或提供的服务，50% 使用个人订阅或免费服务，11% 两者都用。</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "这组数字放在 Claude 的收入画像旁边，会有一个更清楚的判断，AI 行业的下一轮竞争，很可能围绕高强度用户展开。",
+      "html": "<p>这组数字放在 Claude 的收入画像旁边，会有一个更<span class=\"word-annot\"><span class=\"word-anchor\">清楚的</span><span class=\"word-block\"><span class=\"english-word\">distinct</span><span class=\"word-info\">[dɪˈstɪŋkt] adj. 明显的；独特的；清楚的；有区别的</span></span></span>判断，AI 行业的下一轮竞争，很可能围绕高强度用户展开。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "高强度用户不会只问天气、写邮件、总结网页。",
+      "html": "<p>高<span class=\"word-annot\"><span class=\"word-anchor\">强度</span><span class=\"word-block\"><span class=\"english-word\">intensity</span><span class=\"word-info\">[ɪnˈtensəti] n. 强度；强烈；[电子] 亮度；紧张</span></span></span>用户不会只问天气、写邮件、总结网页。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "他们会把 AI 接进代码、合同、销售、研究、投放、采购、客服和数据分析。",
+      "html": "<p>他们会把 AI 接进代码、<span class=\"word-annot\"><span class=\"word-anchor\">合同</span><span class=\"word-block\"><span class=\"english-word\">bargain</span><span class=\"word-info\">[ˈbɑrgɪn] n. 廉价货；交易,契约,合同</span></span></span>、销售、研究、投放、采购、客服和数据分析。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "模型能力差距越大，工具带来的结果差距越大。",
+      "html": "<p>模型能力差距越大，工具带来<span class=\"word-annot\"><span class=\"word-anchor\">的结果</span><span class=\"word-block\"><span class=\"english-word\">haul</span><span class=\"word-info\">[hɔl] n. 拖，拉；用力拖拉；努力得到的结果；捕获物；一网捕获的鱼量；拖运距离</span></span></span>差距越大。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "Anthropic 自己的 Project Deal 实验提供了一个有意思的旁证。",
+      "html": "<p>Anthropic 自己的 Project Deal <span class=\"word-annot\"><span class=\"word-anchor\">实验</span><span class=\"word-block\"><span class=\"english-word\">experiment</span><span class=\"word-info\">[ɪkˈspɛrəmənt] n. 实验，试验；尝试</span></span></span>提供了一个有意思的旁证。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "实验中，不同 Claude 模型代理员工在内部市场买卖真实物品。",
+      "html": "<p>实验中，不同 Claude 模型代理员工在<span class=\"word-annot\"><span class=\"word-anchor\">内部</span><span class=\"word-block\"><span class=\"english-word\">bosom</span><span class=\"word-info\">[ˈbʊzəm] n. 胸；胸怀；中间；胸襟；内心；乳房；内部</span></span></span>市场买卖真实物品。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "更强的 Opus 模型作为卖方，平均能为同一件商品多卖 2.68 美元；作为买方，平均少付 2.45 美元。",
+      "html": "<p>更强的 Opus 模型作为卖方，平均能为同一件<span class=\"word-annot\"><span class=\"word-anchor\">商品</span><span class=\"word-block\"><span class=\"english-word\">commodity</span><span class=\"word-info\">[kəˈmɑdəti] n. 商品</span></span></span>多卖 2.68 美元；作为买方，平均少付 2.45 美元。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "当 Opus 卖方面对 Haiku 买方，平均成交价为 24.18 美元，高于 Opus 对 Opus 交易的 18.63 美元。",
+      "html": "<p>当 Opus 卖<span class=\"word-annot\"><span class=\"word-anchor\">方面</span><span class=\"word-block\"><span class=\"english-word\">angle</span><span class=\"word-info\">[ˈæŋgəl] n. 角度，角，方面</span></span></span>对 Haiku 买方，平均成交价为 24.18 美元，高于 Opus 对 Opus 交易的 18.63 美元。</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "更微妙的是，处在劣势的用户并没有清楚感知自己吃亏。",
+      "html": "<p>更<span class=\"word-annot\"><span class=\"word-anchor\">微妙的</span><span class=\"word-block\"><span class=\"english-word\">delicate</span><span class=\"word-info\">[ˈdɛləkət] adj. 微妙的；精美的，雅致的；柔和的；易碎的；纤弱的；清淡可口的</span></span></span>是，处在劣势的用户并没有清楚感知自己吃亏。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "这类实验规模很小，也发生在公司内部，不能直接推到整个商业世界。但方向很清楚。",
+      "html": "<p>这类实验规模很小，也发生在公司<span class=\"word-annot\"><span class=\"word-anchor\">内部</span><span class=\"word-block\"><span class=\"english-word\">bowel</span><span class=\"word-info\">[baʊəl] n. 肠；内部；同情</span></span></span>，不能直接推到整个商业世界。但方向很<span class=\"word-annot\"><span class=\"word-anchor\">清楚</span><span class=\"word-block\"><span class=\"english-word\">clarity</span><span class=\"word-info\">[ˈklærəti] n. 清楚，明晰；透明</span></span></span>。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "当 AI 开始代表人谈判、采购、写代码、做研究，模型能力就会变成一种新的生产资料。",
+      "html": "<p>当 AI 开始<span class=\"word-annot\"><span class=\"word-anchor\">代表</span><span class=\"word-block\"><span class=\"english-word\">ambassador</span><span class=\"word-info\">[æmˈbæsədər] n. 大使；特使，(派驻国际组织的)代表</span></span></span>人谈判、采购、写代码、做研究，模型能力就会变成一种新的生产资料。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "谁用更强的模型，谁更早把模型放进工作流，谁就可能获得更好的结果。",
+      "html": "<p>谁用更强的模型，谁更早把模型放进工作流，谁就可能获得<span class=\"word-annot\"><span class=\"word-anchor\">更好的</span><span class=\"word-block\"><span class=\"english-word\">preferable</span><span class=\"word-info\">[ˈprɛfərəbəl] adj. 更好的，更可取的；更合意的</span></span></span>结果。</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "差距会藏在每一次小决策里。",
+      "html": "<p>差距会藏在每一次小<span class=\"word-annot\"><span class=\"word-anchor\">决策</span><span class=\"word-block\"><span class=\"english-word\">counsel</span><span class=\"word-info\">[ˈkaʊnsəl] n. 法律顾问；忠告；商议；讨论；决策</span></span></span>里。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "这份调查对几家公司指向不同的问题。",
+      "html": "<p>这份调查对几家公司指向<span class=\"word-annot\"><span class=\"word-anchor\">不同</span><span class=\"word-block\"><span class=\"english-word\">differ</span><span class=\"word-info\">[ˈdɪfər] v. 使…相异；使…不同</span></span></span>的问题。</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "对 Anthropic，Claude 的高收入画像是利好，也是压力。",
+      "html": "<p>对 Anthropic，Claude 的高收入<span class=\"word-annot\"><span class=\"word-anchor\">画像</span><span class=\"word-block\"><span class=\"english-word\">portrait</span><span class=\"word-info\">[ˈpɔrtrət] n. 肖像,画像</span></span></span>是利好，也是压力。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "利好在于，它证明 Claude 已经吸引到一批更可能付费、更可能高强度使用的用户。",
+      "html": "<p>利好在于，它证明 Claude 已经<span class=\"word-annot\"><span class=\"word-anchor\">吸引</span><span class=\"word-block\"><span class=\"english-word\">attract</span><span class=\"word-info\">[əˈtrækt] v. 吸引；引起的注意(或兴趣等)</span></span></span>到一批更可能付费、更可能高强度使用的用户。</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "压力在于，Claude 仍然太小。",
+      "html": "<p>压力<span class=\"word-annot\"><span class=\"word-anchor\">在于</span><span class=\"word-block\"><span class=\"english-word\">consist</span><span class=\"word-info\">[kənˈsɪst] v. (in)在于；(of)由…组成,由…构成</span></span></span>，Claude 仍然太小。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "3% 的周使用率，支撑不了一个大众平台叙事。",
+      "html": "<p>3% 的周使用率，<span class=\"word-annot\"><span class=\"word-anchor\">支撑</span><span class=\"word-block\"><span class=\"english-word\">brace</span><span class=\"word-info\">[breɪs] vt. 使防备， 使受锻炼；支撑； 使绷紧</span></span></span>不了一个大众平台叙事。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "Anthropic 需要继续提高高端用户价值，同时找到更低门槛的分发方式。",
+      "html": "<p>Anthropic 需要继续提高高端用户价值，同时找到更低门槛的分发<span class=\"word-annot\"><span class=\"word-anchor\">方式</span><span class=\"word-block\"><span class=\"english-word\">alike</span><span class=\"word-info\">[əˈlaɪk] adv. 以同样的方式；类似于</span></span></span>。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "对 OpenAI，ChatGPT 仍是默认入口。",
+      "html": "<p>对 OpenAI，ChatGPT 仍是默认<span class=\"word-annot\"><span class=\"word-anchor\">入口</span><span class=\"word-block\"><span class=\"english-word\">threshold</span><span class=\"word-info\">[ˈθreʃhəʊld] n. 入口；门槛；开始；极限；临界值</span></span></span>。</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "它在总体周使用率和高收入人群触达上都领先。",
+      "html": "<p>它在总体周使用率和高收入人群触达上都领先。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "真正的挑战是，把规模优势转化为更高阶的工作流锁定，避免高价值用户在代码、研究、长文档等场景里流向 Claude。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>挑战是，把规模优势转化为更高阶的工作流锁定，避免高价值用户在代码、研究、长文档等场景里流向 Claude。</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "对 Meta，Meta AI 的低收入占比更高，反而说明它接近大众。",
+      "html": "<p>对 Meta，Meta AI 的低收入占比更高，反而说明它<span class=\"word-annot\"><span class=\"word-anchor\">接近</span><span class=\"word-block\"><span class=\"english-word\">approximate</span><span class=\"word-info\">[əˈprɑksəˌmeɪt] v. (to)接近</span></span></span>大众。</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "它的商业化路径可能不会像 Claude 那样靠高价订阅，而更像广告、推荐、搜索、内容消费入口的延伸。",
+      "html": "<p>它的商业化路径可能不会像 Claude 那样靠高价订阅，而更像广告、<span class=\"word-annot\"><span class=\"word-anchor\">推荐</span><span class=\"word-block\"><span class=\"english-word\">commend</span><span class=\"word-info\">[kəˈmɛnd] v. 推荐；称赞；把…委托</span></span></span>、搜索、内容消费入口的延伸。</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "对广告主和企业软件公司，这是一张早期用户地图。",
+      "html": "<p>对广告主和企业软件公司，这是<span class=\"word-annot\"><span class=\"word-anchor\">一张</span><span class=\"word-block\"><span class=\"english-word\">leaf</span><span class=\"word-info\">[lif] n. 叶子；（书籍等的）一张；扇页</span></span></span>早期用户地图。</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "不同 AI 助手背后，可能对应不同购买力、不同任务类型、不同转化路径。",
+      "html": "<p>不同 AI 助手背后，可能对应不同购买力、不同任务<span class=\"word-annot\"><span class=\"word-anchor\">类型</span><span class=\"word-block\"><span class=\"english-word\">breed</span><span class=\"word-info\">[brid] n. [生物] 品种；种类，类型</span></span></span>、不同转化路径。</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "ChatGPT 代表最大默认入口，Claude 代表更高收入和更专业的使用倾向，Copilot 代表办公软件里的企业分发，Gemini 代表搜索和 Google 生态，Meta AI 代表社交网络里的大众触达。",
+      "html": "<p>ChatGPT 代表最大默认入口，Claude 代表更高收入和更<span class=\"word-annot\"><span class=\"word-anchor\">专业的</span><span class=\"word-block\"><span class=\"english-word\">specialist</span><span class=\"word-info\">[ˈspɛʃəlɪst] adj. 专家的；专业的</span></span></span>使用倾向，Copilot 代表办公软件里的企业分发，Gemini 代表搜索和 Google 生态，Meta AI 代表社交网络里的大众触达。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "当然，数据也要谨慎看。",
+      "html": "<p>当然，数据也要<span class=\"word-annot\"><span class=\"word-anchor\">谨慎</span><span class=\"word-block\"><span class=\"english-word\">caution</span><span class=\"word-info\">[ˈkɔʃən] n. 小心，谨慎；警告，警示</span></span></span>看。</p>"
+    },
+    {
+      "index": 85,
+      "source_text": "Epoch AI 在收入分析中说明，Claude 样本量为 201，Grok 为 221，相比 ChatGPT、Gemini 样本更小，置信区间更宽；",
+      "html": "<p>Epoch AI 在收入分析中说明，Claude 样本量为 201，Grok 为 221，<span class=\"word-annot\"><span class=\"word-anchor\">相比</span><span class=\"word-block\"><span class=\"english-word\">beside</span><span class=\"word-info\">[ˌbiˈsaɪd] prep. 在...旁边，在...附近；和...相比</span></span></span> ChatGPT、Gemini 样本更小，置信区间更宽；</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "调查是横截面样本，使用情况来自自我报告，可能有回忆误差和误分类。",
+      "html": "<p>调查是横截面样本，使用情况来自自我报告，可能有回忆误差和误<span class=\"word-annot\"><span class=\"word-anchor\">分类</span><span class=\"word-block\"><span class=\"english-word\">breakdown</span><span class=\"word-info\">[ˈbreɪkˌdaʊn] n. 故障；崩溃；分解；分类；衰弱；跺脚曳步舞</span></span></span>。</p>"
+    },
+    {
+      "index": 87,
+      "source_text": "AI 不会只按模型能力排序，也会按用户阶层、入口位置、付费意愿和工作强度重新排队。",
+      "html": "<p>AI 不会只按模型<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>排序，也会按用户阶层、入口位置、付费意愿和工作强度重新排队。</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "过去两年，行业一直在关注谁的模型更强。",
+      "html": "<p>过去两年，行业一直在关注谁的模型更强。</p>"
+    },
+    {
+      "index": 89,
+      "source_text": "接下来，更有价值的问题会变成，谁在用最强的模型，谁为它付钱，谁把它变成日常工作的一部分。",
+      "html": "<p>接下来，更有价值的问题会变成，谁在用最强的模型，谁为它付钱，谁把它变成<span class=\"word-annot\"><span class=\"word-anchor\">日常工作</span><span class=\"word-block\"><span class=\"english-word\">harness</span><span class=\"word-info\">[ˈhɑrnɪs] n. 马具；甲胄；挽具状带子；降落伞背带；日常工作</span></span></span>的一部分。</p>"
+    },
+    {
+      "index": 90,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/001.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/001.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 91,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 92,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/003.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/003.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 93,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/004.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/004.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 94,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/005.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/005.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 95,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/006.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/006.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 96,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/007.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/007.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 97,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/008.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/008.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 98,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/009.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/009.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 99,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/010.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/010.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 100,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/011.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/011.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 101,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/012.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/012.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 102,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/013.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/013.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 103,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/014.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/014.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 104,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/015.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/015.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 105,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/016.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/016.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 106,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/017.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/017.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 107,
+      "source_text": "![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/018.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/018.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}

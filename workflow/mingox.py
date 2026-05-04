@@ -115,6 +115,7 @@ def cmd_acquire(args: argparse.Namespace) -> None:
             headless=args.headless,
             wechat_mobile=not getattr(args, "no_mobile_wechat", False),
             wait_verify_sec=int(getattr(args, "wait_verify", 0) or 0),
+            skip_wechat_images=bool(getattr(args, "skip_wechat_images", False)),
         )
     elif args.mode == "search":
         if args.list_only:
@@ -834,6 +835,11 @@ def main() -> None:
         default=0,
         metavar="SEC",
         help="WeChat: 若出现验证页，最多等待 SEC 秒供本机手动点验证（需非 headless）",
+    )
+    p_acq.add_argument(
+        "--skip-wechat-images",
+        action="store_true",
+        help="WeChat: 不下载配图、不追加文末 Markdown 图集（默认会尝试下载到 images/posts/<out_html stem>/）",
     )
     p_acq.set_defaults(func=cmd_acquire)
 
