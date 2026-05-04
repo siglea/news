@@ -4,7 +4,7 @@
 #   make test PYTHON=.venv/bin/python
 #
 # 主要 target:
-#   test                 单元测试(workflow/test_*.py)
+#   test                 单元测试(workflow/tests/test_*.py)
 #   validate-annotations 草稿标注质量门禁(content/drafts/**/llm_annotations.json)
 #   validate-posts       成稿版式校验(posts/*.html)
 #   validate             以上两项
@@ -20,7 +20,7 @@ PYTHON ?= python3
 
 help:
 	@echo "MingoX targets:"
-	@echo "  make test                 — run workflow/test_*.py via unittest"
+	@echo "  make test                 — run workflow/tests/test_*.py via unittest"
 	@echo "  make validate-annotations — gate llm_annotations.json across drafts"
 	@echo "  make validate-posts       — check posts/*.html layout"
 	@echo "  make validate             — annotations + posts"
@@ -32,7 +32,7 @@ help:
 	@echo "Override Python:  make test PYTHON=.venv/bin/python"
 
 test:
-	$(PYTHON) -m unittest discover -s workflow -p 'test_*.py' -v
+	$(PYTHON) -m unittest discover -s workflow/tests -p 'test_*.py' -t . -v
 
 validate-annotations:
 	$(PYTHON) workflow/mingox.py validate --annotations

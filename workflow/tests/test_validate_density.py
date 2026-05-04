@@ -2,7 +2,12 @@
 """Tests for validate.py density heuristics (stdlib unittest)."""
 from __future__ import annotations
 
+import sys
 import unittest
+from pathlib import Path
+
+WORKFLOW = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(WORKFLOW))
 
 from validate import count_sentences_heuristic, density_warnings_for_html
 

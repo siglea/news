@@ -24,6 +24,8 @@ python3 workflow/mingox.py --help
 | EdgeOne 部署 | 根目录 **[edgeone.json](../edgeone.json)**：`outputDirectory` 为 **`.`**（仓库根即静态站点），无单独 `site/` 构建步骤；`python3 workflow/mingox.py deploy` 仍走官方 CLI。 |
 | `requirements.txt` | URL 提取与搜索可选依赖 |
 
+单测位于 **`workflow/tests/`**（`make test` 从此目录 discover）。
+
 ## 与 `util/` 的分工
 
 - **`util/annotate_lib.py`**：微信抽取、`build_post_html`、词汇表反扫（正文含 `word-block` 时）。
