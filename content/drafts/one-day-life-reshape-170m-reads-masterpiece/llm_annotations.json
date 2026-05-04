@@ -1,0 +1,1637 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "skip": true
+    },
+    {
+      "i": 1,
+      "zh": "样子",
+      "en": "aspect",
+      "ipa": "[ˈæspekt]",
+      "pos": "n.",
+      "gloss": "(问题等的)方面；样子, 外表, 面貌"
+    },
+    {
+      "i": 2,
+      "zh": "发现",
+      "en": "discover",
+      "ipa": "[dɪˈskəvər]",
+      "pos": "v.",
+      "gloss": "发现"
+    },
+    {
+      "i": 3,
+      "skip": true
+    },
+    {
+      "i": 4,
+      "zh": "动力",
+      "en": "choke",
+      "ipa": "[ʧoʊk]",
+      "pos": "n.",
+      "gloss": "窒息；噎；[动力] 阻气门"
+    },
+    {
+      "i": 5,
+      "zh": "想要",
+      "en": "intend",
+      "ipa": "[ˌɪnˈtɛnd]",
+      "pos": "v.",
+      "gloss": "想要； 打算， 企图"
+    },
+    {
+      "i": 6,
+      "zh": "不重要的",
+      "en": "futile",
+      "ipa": "[fˈjutəl]",
+      "pos": "adj.",
+      "gloss": "无用的；无效的；没有出息的；琐细的；不重要的"
+    },
+    {
+      "i": 7,
+      "zh": "改变",
+      "en": "alter",
+      "ipa": "[ˈɔltər]",
+      "pos": "v.",
+      "gloss": "改变，更改"
+    },
+    {
+      "i": 8,
+      "zh": "很多",
+      "en": "lump",
+      "ipa": "[ləmp]",
+      "pos": "n.",
+      "gloss": "块，块状；肿块；瘤；很多；笨人"
+    },
+    {
+      "i": 9,
+      "zh": "表面的",
+      "en": "exterior",
+      "ipa": "[ɪkˈstɪriər]",
+      "pos": "adj.",
+      "gloss": "外部的；表面的；外在的"
+    },
+    {
+      "i": 10,
+      "zh": "总是",
+      "en": "invariably",
+      "ipa": "[ˌɪnˈvɛriəbli]",
+      "pos": "adv.",
+      "gloss": "总是；不变地；一定地"
+    },
+    {
+      "i": 11,
+      "zh": "试图",
+      "en": "essay",
+      "ipa": "[ˈɛˌseɪ]",
+      "pos": "n.",
+      "gloss": "散文；试图；随笔"
+    },
+    {
+      "i": 12,
+      "zh": "运动员",
+      "en": "athlete",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 13,
+      "zh": "需要",
+      "en": "entail",
+      "ipa": "[ɛnˈteɪl]",
+      "pos": "v.",
+      "gloss": "使需要，必需；承担；遗传给；蕴含"
+    },
+    {
+      "i": 14,
+      "zh": "强迫",
+      "en": "compel",
+      "ipa": "[kəmˈpɛl]",
+      "pos": "v.",
+      "gloss": "强迫，迫使；强使发生"
+    },
+    {
+      "i": 15,
+      "zh": "可能",
+      "en": "likelihood",
+      "ipa": "[ˈlaɪkliˌhʊd]",
+      "pos": "n.",
+      "gloss": "可能性，可能"
+    },
+    {
+      "i": 16,
+      "zh": "想象",
+      "en": "conceive",
+      "ipa": "[kənˈsiv]",
+      "pos": "v.",
+      "gloss": "(of)设想,构思,想象；怀胎"
+    },
+    {
+      "i": 17,
+      "zh": "健康的",
+      "en": "robust",
+      "ipa": "[roʊˈbəst]",
+      "pos": "adj.",
+      "gloss": "强健的；健康的；粗野的；粗鲁的"
+    },
+    {
+      "i": 18,
+      "zh": "呼吸",
+      "en": "breathe",
+      "ipa": "[brið]",
+      "pos": "v.",
+      "gloss": "呼吸；低语；松口气；（风）轻拂"
+    },
+    {
+      "i": 19,
+      "zh": "的生活",
+      "en": "vegetation",
+      "ipa": "[ˌvɛʤəˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "植被；植物，草木；呆板单调的生活"
+    },
+    {
+      "i": 20,
+      "zh": "的状态",
+      "en": "shatter",
+      "ipa": "[ˈʃætər]",
+      "pos": "n.",
+      "gloss": "碎片；乱七八糟的状态"
+    },
+    {
+      "i": 21,
+      "zh": "出口",
+      "en": "exit",
+      "ipa": "[ˈɛksət]",
+      "pos": "n.",
+      "gloss": "出口，通道；退场"
+    },
+    {
+      "i": 22,
+      "skip": true
+    },
+    {
+      "i": 23,
+      "zh": "的结果",
+      "en": "haul",
+      "ipa": "[hɔl]",
+      "pos": "n.",
+      "gloss": "拖，拉；用力拖拉；努力得到的结果；捕获物；一网捕获的鱼量；拖运距离"
+    },
+    {
+      "i": 24,
+      "skip": true
+    },
+    {
+      "i": 25,
+      "skip": true
+    },
+    {
+      "i": 26,
+      "zh": "相信",
+      "en": "belief",
+      "ipa": "[bɪˈliːf]",
+      "pos": "n.",
+      "gloss": "相信，信赖；信仰；教义"
+    },
+    {
+      "i": 27,
+      "zh": "吸引力",
+      "en": "charm",
+      "ipa": "[ʧɑrm]",
+      "pos": "n.",
+      "gloss": "吸引力， 魅力"
+    },
+    {
+      "i": 28,
+      "zh": "浪费",
+      "en": "dissipate",
+      "ipa": "[ˈdɪsəˌpeɪt]",
+      "pos": "v.",
+      "gloss": "浪费；使…消散"
+    },
+    {
+      "i": 29,
+      "zh": "改变",
+      "en": "convert",
+      "ipa": "[ˈkɑnvərt]",
+      "pos": "v.",
+      "gloss": "变换,转换；改变（信仰等）"
+    },
+    {
+      "i": 30,
+      "zh": "意识到",
+      "en": "alert",
+      "ipa": "[əˈlərt]",
+      "pos": "v.",
+      "gloss": "警告；使警觉，使意识到"
+    },
+    {
+      "i": 31,
+      "skip": true
+    },
+    {
+      "i": 32,
+      "zh": "获得",
+      "en": "acquire",
+      "ipa": "[əkˈwaɪər]",
+      "pos": "v.",
+      "gloss": "获得；取得；学到；捕获"
+    },
+    {
+      "i": 33,
+      "zh": "每天的",
+      "en": "everyday",
+      "ipa": "[ˈɛvriˈdeɪ]",
+      "pos": "adj.",
+      "gloss": "每天的，日常的"
+    },
+    {
+      "i": 34,
+      "zh": "想象的",
+      "en": "fancy",
+      "ipa": "[ˈfænsi]",
+      "pos": "adj.",
+      "gloss": "想象的；奇特的；昂贵的；精选的"
+    },
+    {
+      "i": 35,
+      "zh": "心理学",
+      "en": "psychology",
+      "ipa": "[saɪˈkɑləʤi]",
+      "pos": "n.",
+      "gloss": "心理,心理学,心理状态"
+    },
+    {
+      "i": 36,
+      "zh": "发生",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 37,
+      "skip": true
+    },
+    {
+      "i": 38,
+      "zh": "运作的",
+      "en": "operational",
+      "ipa": "[ˌɑpərˈeɪʃənəl]",
+      "pos": "adj.",
+      "gloss": "操作的；运作的"
+    },
+    {
+      "i": 39,
+      "zh": "一步",
+      "en": "pace",
+      "ipa": "[peɪs]",
+      "pos": "n.",
+      "gloss": "一步；步速；步伐；速度"
+    },
+    {
+      "i": 40,
+      "zh": "行为",
+      "en": "behaviour",
+      "ipa": "[bɪˈheɪvjər]",
+      "pos": "n.",
+      "gloss": "行为， 举止；特性； 运转情况"
+    },
+    {
+      "i": 41,
+      "skip": true
+    },
+    {
+      "i": 42,
+      "skip": true
+    },
+    {
+      "i": 43,
+      "zh": "目的",
+      "en": "intention",
+      "ipa": "[ˌɪnˈtɛnʧən]",
+      "pos": "n.",
+      "gloss": "意图；目的；意向；愈合"
+    },
+    {
+      "i": 44,
+      "zh": "无意识的",
+      "en": "automatic",
+      "ipa": "[ˌɔtəˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "自动的；无意识的；必然的"
+    },
+    {
+      "i": 45,
+      "zh": "来临",
+      "en": "advent",
+      "ipa": "[ˈædˌvɛnt]",
+      "pos": "n.",
+      "gloss": "(重要事件等的)到来，来临"
+    },
+    {
+      "i": 46,
+      "zh": "无意识的",
+      "en": "mechanical",
+      "ipa": "[mɪˈkænɪkl]",
+      "pos": "adj.",
+      "gloss": "机械的；力学的；呆板的；无意识的；手工操作的"
+    },
+    {
+      "i": 47,
+      "zh": "缺乏",
+      "en": "absence",
+      "ipa": "[ˈæbsəns]",
+      "pos": "n.",
+      "gloss": "缺席，不在；缺乏，不存在"
+    },
+    {
+      "i": 48,
+      "zh": "事实上",
+      "en": "practically",
+      "ipa": "[ˈpræktɪkəli]",
+      "pos": "adv.",
+      "gloss": "实际地；几乎；事实上"
+    },
+    {
+      "i": 49,
+      "zh": "工作",
+      "en": "occupation",
+      "ipa": "[ˌɑkjəˈpeɪʃən]",
+      "pos": "n.",
+      "gloss": "职业,工作；占领,占据"
+    },
+    {
+      "i": 50,
+      "zh": "勇气",
+      "en": "courage",
+      "ipa": "[kərɪʤ]",
+      "pos": "n.",
+      "gloss": "勇气；胆量"
+    },
+    {
+      "i": 51,
+      "zh": "追求",
+      "en": "ambition",
+      "ipa": "[æmˈbɪʃən]",
+      "pos": "v.",
+      "gloss": "追求；有…野心"
+    },
+    {
+      "i": 52,
+      "zh": "教训",
+      "en": "jaw",
+      "ipa": "[ʤɔ]",
+      "pos": "v.",
+      "gloss": "教训；唠叨"
+    },
+    {
+      "i": 53,
+      "zh": "真正的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 54,
+      "zh": "意识",
+      "en": "consciousness",
+      "ipa": "[ˈkɒnʃəsnəs]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 55,
+      "zh": "改变",
+      "en": "prompt",
+      "ipa": "[prɑmpt]",
+      "pos": "n.",
+      "gloss": "提示；付款期限；DOS命令：改变DOS系统提示符的风格"
+    },
+    {
+      "i": 56,
+      "zh": "目的",
+      "en": "motive",
+      "ipa": "[ˈmoʊtɪv]",
+      "pos": "n.",
+      "gloss": "动机,目的"
+    },
+    {
+      "i": 57,
+      "zh": "实现",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 58,
+      "zh": "理解",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 59,
+      "zh": "产生",
+      "en": "breed",
+      "ipa": "[brid]",
+      "pos": "v.",
+      "gloss": "繁殖；饲养；产生"
+    },
+    {
+      "i": 60,
+      "zh": "接受",
+      "en": "acceptance",
+      "ipa": "[əkˈsɛptəns]",
+      "pos": "n.",
+      "gloss": "正式接受；接纳；接受，赞同，赞成，认可"
+    },
+    {
+      "i": 61,
+      "skip": true
+    },
+    {
+      "i": 62,
+      "zh": "形成",
+      "en": "formation",
+      "ipa": "[fɔrˈmeɪʃən]",
+      "pos": "n.",
+      "gloss": "形成;构成;组织;构造;编制;塑造"
+    },
+    {
+      "i": 63,
+      "zh": "东西",
+      "en": "clay",
+      "ipa": "[kleɪ]",
+      "pos": "n.",
+      "gloss": "[土壤] 粘土；泥土；肉体；似黏土的东西"
+    },
+    {
+      "i": 64,
+      "zh": "目的",
+      "en": "objective",
+      "ipa": "[əˈbʤɛktɪv]",
+      "pos": "n.",
+      "gloss": "目标,目的"
+    },
+    {
+      "i": 65,
+      "zh": "重要",
+      "en": "magnitude",
+      "ipa": "[ˈmægnəˌtud]",
+      "pos": "n.",
+      "gloss": "大小；量级；[地震] 震级；重要；光度"
+    },
+    {
+      "i": 66,
+      "zh": "开始",
+      "en": "commence",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 67,
+      "zh": "无意识的",
+      "en": "spontaneous",
+      "ipa": "[spɑnˈteɪniəs]",
+      "pos": "adj.",
+      "gloss": "自发的；自然的；无意识的"
+    },
+    {
+      "i": 68,
+      "zh": "的人",
+      "en": "beast",
+      "ipa": "[bist]",
+      "pos": "n.",
+      "gloss": "兽， 牲畜 ；凶残的人； 举止粗鲁的人"
+    },
+    {
+      "i": 69,
+      "zh": "内心的",
+      "en": "inner",
+      "ipa": "[ˈɪnər]",
+      "pos": "adj.",
+      "gloss": "内部的， 里面的；内心的"
+    },
+    {
+      "i": 70,
+      "zh": "循环",
+      "en": "circulate",
+      "ipa": "[ˈsərkjəˌleɪt]",
+      "pos": "v.",
+      "gloss": "(使)循环,(使)流通"
+    },
+    {
+      "i": 71,
+      "zh": "不幸",
+      "en": "disaster",
+      "ipa": "[dɪˈzæstər]",
+      "pos": "n.",
+      "gloss": "灾难，灾祸；不幸"
+    },
+    {
+      "i": 72,
+      "zh": "打破",
+      "en": "breach",
+      "ipa": "[briʧ]",
+      "pos": "v.",
+      "gloss": "违反，破坏；打破"
+    },
+    {
+      "i": 73,
+      "zh": "开始",
+      "en": "inaugurate",
+      "ipa": "[ˌɪˈnɔgjəˌreɪt]",
+      "pos": "vt.",
+      "gloss": "开始， 开展；为…举行就职典礼， 使正式就任；为…举行开幕式， 为…举行落成仪式"
+    },
+    {
+      "i": 74,
+      "zh": "唯一的",
+      "en": "sole",
+      "ipa": "[soʊl]",
+      "pos": "adj.",
+      "gloss": "单独的,唯一的"
+    },
+    {
+      "i": 75,
+      "zh": "顺从",
+      "en": "comply",
+      "ipa": "[kəmˈplaɪ]",
+      "pos": "v.",
+      "gloss": "遵守；顺从，遵从；答应"
+    },
+    {
+      "i": 76,
+      "zh": "大多数",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 77,
+      "zh": "思考",
+      "en": "consideration",
+      "ipa": "[kənˌsɪdərˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "考虑,思考；需要考虑的事；体谅,照顾"
+    },
+    {
+      "i": 78,
+      "zh": "麻烦的",
+      "en": "troublesome",
+      "ipa": "[ˈtrəbəlsəm]",
+      "pos": "adj.",
+      "gloss": "麻烦的；讨厌的；使人苦恼的"
+    },
+    {
+      "i": 79,
+      "zh": "守旧的",
+      "en": "fossil",
+      "ipa": "[ˈfɑsəl]",
+      "pos": "adj.",
+      "gloss": "化石的；陈腐的，守旧的"
+    },
+    {
+      "i": 80,
+      "zh": "塑造",
+      "en": "mold",
+      "ipa": "[moʊld]",
+      "pos": "vt.",
+      "gloss": "浇铸， 造型； 塑造， 形成"
+    },
+    {
+      "i": 81,
+      "zh": "意识形态",
+      "en": "ideology",
+      "ipa": "[ˌaɪdiˈɑləʤi]",
+      "pos": "n.",
+      "gloss": "意识形态，(政治或社会的)思想意识"
+    },
+    {
+      "i": 82,
+      "zh": "开始",
+      "en": "initiate",
+      "ipa": "[ˌɪˈnɪʃiˌeɪt]",
+      "pos": "v.",
+      "gloss": "开始，创始；发起；使初步了解"
+    },
+    {
+      "i": 83,
+      "zh": "本质",
+      "en": "entity",
+      "ipa": "[ˈɛntɪti]",
+      "pos": "n.",
+      "gloss": "实体；存在；本质"
+    },
+    {
+      "i": 84,
+      "zh": "威胁",
+      "en": "cow",
+      "ipa": "[kaʊ]",
+      "pos": "v.",
+      "gloss": "威胁，恐吓"
+    },
+    {
+      "i": 85,
+      "zh": "的事情",
+      "en": "sensation",
+      "ipa": "[sɛnˈseɪʃən]",
+      "pos": "n.",
+      "gloss": "感觉,知觉；激动,轰动,轰动一时的事情"
+    },
+    {
+      "i": 86,
+      "zh": "挑战",
+      "en": "dare",
+      "ipa": "[dɛr]",
+      "pos": "n.",
+      "gloss": "挑战；挑动"
+    },
+    {
+      "i": 87,
+      "zh": "相同的",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adj.",
+      "gloss": "相似的；相同的"
+    },
+    {
+      "i": 88,
+      "zh": "内在的",
+      "en": "inherent",
+      "ipa": "[ˌɪnˈhɛrənt]",
+      "pos": "adj.",
+      "gloss": "固有的,内在的,天生的"
+    },
+    {
+      "i": 89,
+      "zh": "往上",
+      "en": "upgrade",
+      "ipa": "[ˈəpˈgreɪd]",
+      "pos": "adv.",
+      "gloss": "往上"
+    },
+    {
+      "i": 90,
+      "zh": "吸收",
+      "en": "assimilate",
+      "ipa": "[əˈsɪməˌleɪt]",
+      "pos": "v.",
+      "gloss": "吸收，消化；被吸收；被同化"
+    },
+    {
+      "i": 91,
+      "zh": "的人",
+      "en": "bore",
+      "ipa": "[bɔr]",
+      "pos": "n.",
+      "gloss": "孔；令人讨厌的人"
+    },
+    {
+      "i": 92,
+      "zh": "不同",
+      "en": "differ",
+      "ipa": "[ˈdɪfər]",
+      "pos": "v.",
+      "gloss": "使…相异；使…不同"
+    },
+    {
+      "i": 93,
+      "zh": "冲动",
+      "en": "impulse",
+      "ipa": "[ˌɪmˈpəls]",
+      "pos": "n.",
+      "gloss": "冲动；[电子] 脉冲；刺激；神经冲动；推动力"
+    },
+    {
+      "i": 94,
+      "zh": "成绩",
+      "en": "merit",
+      "ipa": "[ˈmɛrət]",
+      "pos": "n.",
+      "gloss": "优点，成绩"
+    },
+    {
+      "i": 95,
+      "skip": true
+    },
+    {
+      "i": 96,
+      "zh": "难理解",
+      "en": "obscure",
+      "ipa": "[əbˈskjʊr]",
+      "pos": "v.",
+      "gloss": "使…模糊不清，掩盖；隐藏；使难理解"
+    },
+    {
+      "i": 97,
+      "zh": "内心",
+      "en": "bosom",
+      "ipa": "[ˈbʊzəm]",
+      "pos": "n.",
+      "gloss": "胸；胸怀；中间；胸襟；内心；乳房；内部"
+    },
+    {
+      "i": 98,
+      "zh": "怀疑",
+      "en": "dispute",
+      "ipa": "[dɪˈspjut]",
+      "pos": "v.",
+      "gloss": "辩论；怀疑；阻止；抗拒"
+    },
+    {
+      "i": 99,
+      "zh": "建立",
+      "en": "constitute",
+      "ipa": "[ˈkɑnstəˌtut]",
+      "pos": "v.",
+      "gloss": "组成，构成；建立；任命"
+    },
+    {
+      "i": 100,
+      "zh": "放弃",
+      "en": "abandon",
+      "ipa": "[əˈbændən]",
+      "pos": "v.",
+      "gloss": "离弃，丢弃；遗弃，抛弃；放弃"
+    },
+    {
+      "i": 101,
+      "zh": "意识到",
+      "en": "awake",
+      "ipa": "[əˈweɪk]",
+      "pos": "v.",
+      "gloss": "觉醒，意识到；醒来；被唤起"
+    },
+    {
+      "i": 102,
+      "zh": "追求",
+      "en": "aspire",
+      "ipa": "[əˈspaɪr]",
+      "pos": "v.",
+      "gloss": "(to，after)渴望，追求，有志于"
+    },
+    {
+      "i": 103,
+      "zh": "系统的",
+      "en": "systematic",
+      "ipa": "[ˌsɪstəˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "(al)系统的,有组织的"
+    },
+    {
+      "i": 104,
+      "zh": "审视",
+      "en": "scan",
+      "ipa": "[skæn]",
+      "pos": "n.",
+      "gloss": "扫描；浏览；审视；细看"
+    },
+    {
+      "i": 105,
+      "zh": "有用的",
+      "en": "helpful",
+      "ipa": "[ˈhɛlpfəl]",
+      "pos": "adj.",
+      "gloss": "有帮助的， 有益的， 有用的"
+    },
+    {
+      "i": 106,
+      "zh": "创始人",
+      "en": "founder",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 107,
+      "zh": "工作",
+      "en": "pursuit",
+      "ipa": "[pərˈsut]",
+      "pos": "n.",
+      "gloss": "追赶，追求；职业，工作"
+    },
+    {
+      "i": 108,
+      "zh": "需要",
+      "en": "imperative",
+      "ipa": "[ˌɪmˈpɛrətɪv]",
+      "pos": "n.",
+      "gloss": "必要的事；命令；需要；规则；[语]祈使语气"
+    },
+    {
+      "i": 109,
+      "zh": "徘徊",
+      "en": "hover",
+      "ipa": "[ˈhəvər]",
+      "pos": "v.",
+      "gloss": "盘旋，翱翔；徘徊"
+    },
+    {
+      "i": 110,
+      "zh": "求知的",
+      "en": "curious",
+      "ipa": "[ˈkjʊriəs]",
+      "pos": "adj.",
+      "gloss": "好奇的, 求知的；古怪的"
+    },
+    {
+      "i": 111,
+      "zh": "向上",
+      "en": "upward",
+      "ipa": "[ˈəpwərd]",
+      "pos": "adv.",
+      "gloss": "向上， 往上， …以上"
+    },
+    {
+      "i": 112,
+      "zh": "的东西",
+      "en": "disguise",
+      "ipa": "[dɪsˈgaɪz]",
+      "pos": "n.",
+      "gloss": "伪装；假装；用作伪装的东西"
+    },
+    {
+      "i": 113,
+      "zh": "坚持",
+      "en": "adhere",
+      "ipa": "[əˈdhɪr]",
+      "pos": "v.",
+      "gloss": "(to)粘着；坚持，遵守"
+    },
+    {
+      "i": 114,
+      "zh": "障碍",
+      "en": "barrier",
+      "ipa": "[ˈbɛriər]",
+      "pos": "n.",
+      "gloss": "障碍；栅栏,障碍(物)"
+    },
+    {
+      "i": 115,
+      "zh": "方法",
+      "en": "avenue",
+      "ipa": "[ˈævəˌnu]",
+      "pos": "n.",
+      "gloss": "大街；林荫路；途径，渠道，方法"
+    },
+    {
+      "i": 116,
+      "zh": "智慧",
+      "en": "wisdom",
+      "ipa": "[ˈwɪzdəm]",
+      "pos": "n.",
+      "gloss": "智慧，才智；明智；学识；至理名言"
+    },
+    {
+      "i": 117,
+      "zh": "解决",
+      "en": "patch",
+      "ipa": "[pæʧ]",
+      "pos": "v.",
+      "gloss": "修补；解决；掩饰"
+    },
+    {
+      "i": 118,
+      "zh": "层次",
+      "en": "layer",
+      "ipa": "[leɪər]",
+      "pos": "n.",
+      "gloss": "层，层次；膜；[植]压条；放置者，计划者"
+    },
+    {
+      "i": 119,
+      "zh": "出现",
+      "en": "arise",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 120,
+      "zh": "操作",
+      "en": "maneuver",
+      "ipa": "[məˈnuvər]",
+      "pos": "n.",
+      "gloss": "(manoeuvre)移动;运用,操作"
+    },
+    {
+      "i": 121,
+      "zh": "构成的",
+      "en": "component",
+      "ipa": "[kəmˈpoʊnənt]",
+      "pos": "adj.",
+      "gloss": "组成的，构成的"
+    },
+    {
+      "i": 122,
+      "zh": "冒犯",
+      "en": "insult",
+      "ipa": "[ˌɪnˈsəlt]",
+      "pos": "n.",
+      "gloss": "侮辱,冒犯"
+    },
+    {
+      "i": 123,
+      "zh": "混沌",
+      "en": "chaos",
+      "ipa": "[keɪɑs]",
+      "pos": "n.",
+      "gloss": "混沌，混乱"
+    },
+    {
+      "i": 124,
+      "zh": "方案",
+      "en": "formula",
+      "ipa": "[ˈfɔrmjələ]",
+      "pos": "n.",
+      "gloss": "公式；分子式；准则；方案"
+    },
+    {
+      "i": 125,
+      "zh": "到来",
+      "en": "arrival",
+      "ipa": "[ərˈaɪvəl]",
+      "pos": "n.",
+      "gloss": "到来；到达；到达者"
+    },
+    {
+      "i": 126,
+      "skip": true
+    },
+    {
+      "i": 127,
+      "zh": "获得",
+      "en": "acquisition",
+      "ipa": "[ˌækwɪˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "获得物，获得；收购"
+    },
+    {
+      "i": 128,
+      "zh": "痛苦的",
+      "en": "miserable",
+      "ipa": "[ˈmɪzərəbəl]",
+      "pos": "adj.",
+      "gloss": "悲惨的；痛苦的；卑鄙的"
+    },
+    {
+      "i": 129,
+      "zh": "完成",
+      "en": "attain",
+      "ipa": "[əˈteɪn]",
+      "pos": "v.",
+      "gloss": "完成；获得；达到"
+    },
+    {
+      "i": 130,
+      "zh": "准备",
+      "en": "formulate",
+      "ipa": "[ˈfɔːmjuleɪt]",
+      "pos": "v.",
+      "gloss": "规划；制定；准备；仔细思考并明确表达"
+    },
+    {
+      "i": 131,
+      "skip": true
+    },
+    {
+      "i": 132,
+      "zh": "部分",
+      "en": "highlight",
+      "ipa": "[ˈhaɪˌlaɪt]",
+      "pos": "n.",
+      "gloss": "最精彩的部分"
+    },
+    {
+      "i": 133,
+      "zh": "回答",
+      "en": "reply",
+      "ipa": "[rɪˈplaɪ]",
+      "pos": "v.",
+      "gloss": "回答；[法] 答辩；回击"
+    },
+    {
+      "i": 134,
+      "zh": "乏味的",
+      "en": "fade",
+      "ipa": "[feɪd]",
+      "pos": "adj.",
+      "gloss": "平淡的；乏味的"
+    },
+    {
+      "i": 135,
+      "zh": "沙子",
+      "en": "sand",
+      "ipa": "[sænd]",
+      "pos": "n.",
+      "gloss": "沙；沙地；沙洲；沙滩；沙子"
+    },
+    {
+      "i": 136,
+      "zh": "抱怨",
+      "en": "beef",
+      "ipa": "[bif]",
+      "pos": "v.",
+      "gloss": "抱怨，告发；发牢骚"
+    },
+    {
+      "i": 137,
+      "zh": "角度",
+      "en": "angle",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 138,
+      "zh": "承认",
+      "en": "acknowledge",
+      "ipa": "[ækˈnɑlɪʤ]",
+      "pos": "v.",
+      "gloss": "承认；答谢；报偿；告知已收到"
+    },
+    {
+      "i": 139,
+      "zh": "痛苦",
+      "en": "anguish",
+      "ipa": "[ˈæŋgwɪʃ]",
+      "pos": "n.",
+      "gloss": "痛苦；苦恼"
+    },
+    {
+      "i": 140,
+      "skip": true
+    },
+    {
+      "i": 141,
+      "zh": "普通的",
+      "en": "ordinary",
+      "ipa": "[ˈɔrdəˌnɛri]",
+      "pos": "adj.",
+      "gloss": "普通的,平凡的,平常的；平庸的"
+    },
+    {
+      "i": 142,
+      "skip": true
+    },
+    {
+      "i": 143,
+      "skip": true
+    },
+    {
+      "i": 144,
+      "skip": true
+    },
+    {
+      "i": 145,
+      "skip": true
+    },
+    {
+      "i": 146,
+      "skip": true
+    },
+    {
+      "i": 147,
+      "skip": true
+    },
+    {
+      "i": 148,
+      "zh": "放弃",
+      "en": "desert",
+      "ipa": "[ˈdɛzərt]",
+      "pos": "v.",
+      "gloss": "遗弃；放弃；逃跑"
+    },
+    {
+      "i": 149,
+      "zh": "人们",
+      "en": "folk",
+      "ipa": "[foʊk]",
+      "pos": "n.",
+      "gloss": "民族；人们；亲属（复数）"
+    },
+    {
+      "i": 150,
+      "skip": true
+    },
+    {
+      "i": 151,
+      "zh": "安全",
+      "en": "safeguard",
+      "ipa": "[ˈseɪfˌgɑrd]",
+      "pos": "n.",
+      "gloss": "[安全] 保护；保卫；保护措施"
+    },
+    {
+      "i": 152,
+      "zh": "遗憾",
+      "en": "pity",
+      "ipa": "[ˈpɪti]",
+      "pos": "n.",
+      "gloss": "怜悯，同情；遗憾"
+    },
+    {
+      "i": 153,
+      "zh": "描述",
+      "en": "depict",
+      "ipa": "[dɪˈpɪkt]",
+      "pos": "v.",
+      "gloss": "描述；描画"
+    },
+    {
+      "i": 154,
+      "zh": "的人",
+      "en": "bull",
+      "ipa": "[bʊl]",
+      "pos": "n.",
+      "gloss": "公牛；看好股市者；粗壮如牛的人；胡说八道；印玺"
+    },
+    {
+      "i": 155,
+      "skip": true
+    },
+    {
+      "i": 156,
+      "zh": "放弃",
+      "en": "discard",
+      "ipa": "[dɪˈskɑrd]",
+      "pos": "v.",
+      "gloss": "抛弃；放弃；丢弃"
+    },
+    {
+      "i": 157,
+      "zh": "的人",
+      "en": "butterfly",
+      "ipa": "[ˈbətərˌflaɪ]",
+      "pos": "n.",
+      "gloss": "蝴蝶；蝶泳；举止轻浮的人；追求享乐的人"
+    },
+    {
+      "i": 158,
+      "zh": "尴尬的",
+      "en": "awkward",
+      "ipa": "[ˈɔkwərd]",
+      "pos": "adj.",
+      "gloss": "尴尬的；笨拙的；棘手的；不合适的"
+    },
+    {
+      "i": 159,
+      "zh": "害怕",
+      "en": "panic",
+      "ipa": "[ˈpænɪk]",
+      "pos": "v.",
+      "gloss": "使惊慌,使害怕"
+    },
+    {
+      "i": 160,
+      "zh": "的行为",
+      "en": "sneak",
+      "ipa": "[snik]",
+      "pos": "n.",
+      "gloss": "鬼鬼祟祟的人；偷偷摸摸的行为；告密者"
+    },
+    {
+      "i": 161,
+      "zh": "保护",
+      "en": "conservation",
+      "ipa": "[ˌkɑnsərˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "保存，保持；保护"
+    },
+    {
+      "i": 162,
+      "zh": "诚实",
+      "en": "integrity",
+      "ipa": "[ˌɪnˈtɛgrəti]",
+      "pos": "n.",
+      "gloss": "完整；正直；诚实；廉正"
+    },
+    {
+      "i": 163,
+      "zh": "积极的",
+      "en": "energetic",
+      "ipa": "[ˌɛnərˈʤɛtɪk]",
+      "pos": "adj.",
+      "gloss": "精力充沛的；积极的；有力的"
+    },
+    {
+      "i": 164,
+      "skip": true
+    },
+    {
+      "i": 165,
+      "skip": true
+    },
+    {
+      "i": 166,
+      "zh": "平常的",
+      "en": "regulation",
+      "ipa": "[ˌrɛgjəˈleɪʃən]",
+      "pos": "adj.",
+      "gloss": "规定的；平常的"
+    },
+    {
+      "i": 167,
+      "zh": "描绘",
+      "en": "portray",
+      "ipa": "[pɔrˈtreɪ]",
+      "pos": "v.",
+      "gloss": "描写，描绘"
+    },
+    {
+      "i": 168,
+      "zh": "抱有",
+      "en": "hug",
+      "ipa": "[həg]",
+      "pos": "v.",
+      "gloss": "拥抱；紧抱；抱有，坚持"
+    },
+    {
+      "i": 169,
+      "zh": "的人",
+      "en": "crab",
+      "ipa": "[kræb]",
+      "pos": "n.",
+      "gloss": "螃蟹；蟹肉；脾气乖戾的人；起重机"
+    },
+    {
+      "i": 170,
+      "skip": true
+    },
+    {
+      "i": 171,
+      "zh": "开始",
+      "en": "outset",
+      "ipa": "[ˈaʊtˌsɛt]",
+      "pos": "n.",
+      "gloss": "开始；开端"
+    },
+    {
+      "i": 172,
+      "zh": "自动",
+      "en": "auto",
+      "ipa": "[ˈɔtoʊ]",
+      "pos": "n.",
+      "gloss": "汽车（等于automobile）；自动"
+    },
+    {
+      "i": 173,
+      "zh": "日志",
+      "en": "diary",
+      "ipa": "[ˈdaɪəri]",
+      "pos": "n.",
+      "gloss": "日志，日记；日记簿"
+    },
+    {
+      "i": 174,
+      "zh": "闹钟",
+      "en": "alarm",
+      "ipa": "[əˈlɑrm]",
+      "pos": "n.",
+      "gloss": "闹钟；警报，警告器；惊慌"
+    },
+    {
+      "i": 175,
+      "zh": "提醒",
+      "en": "remind",
+      "ipa": "[riˈmaɪnd]",
+      "pos": "v.",
+      "gloss": "提醒；使想起"
+    },
+    {
+      "i": 176,
+      "zh": "的事",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑；渴望；挂念；令人焦虑的事"
+    },
+    {
+      "i": 177,
+      "zh": "结论",
+      "en": "conclusion",
+      "ipa": "[kənˈkluʒən]",
+      "pos": "n.",
+      "gloss": "结论，推论；结尾；缔结，议定"
+    },
+    {
+      "i": 178,
+      "zh": "厌恶",
+      "en": "disgust",
+      "ipa": "[dɪsˈgəst]",
+      "pos": "n.",
+      "gloss": "厌恶，嫌恶"
+    },
+    {
+      "i": 179,
+      "zh": "假装",
+      "en": "pretend",
+      "ipa": "[priˈtɛnd]",
+      "pos": "v.",
+      "gloss": "假装，伪装，佯装"
+    },
+    {
+      "i": 180,
+      "zh": "渴望",
+      "en": "ache",
+      "ipa": "[eɪk]",
+      "pos": "v.",
+      "gloss": "疼痛；渴望"
+    },
+    {
+      "i": 181,
+      "skip": true
+    },
+    {
+      "i": 182,
+      "skip": true
+    },
+    {
+      "i": 183,
+      "zh": "通勤",
+      "en": "commute",
+      "ipa": "[kəmˈjut]",
+      "pos": "v.",
+      "gloss": "（搭乘车、船等）通勤；代偿"
+    },
+    {
+      "i": 184,
+      "zh": "发生",
+      "en": "generate",
+      "ipa": "[ˈʤɛnərˌeɪt]",
+      "pos": "v.",
+      "gloss": "产生,发生"
+    },
+    {
+      "i": 185,
+      "zh": "可怜的",
+      "en": "pathetic",
+      "ipa": "[pəˈθɛtɪk]",
+      "pos": "adj.",
+      "gloss": "可怜的，悲哀的；感伤的；乏味的"
+    },
+    {
+      "i": 186,
+      "zh": "个人的",
+      "en": "subjective",
+      "ipa": "[səˈbʤɛktɪv]",
+      "pos": "adj.",
+      "gloss": "主观(上)的，个人的"
+    },
+    {
+      "i": 187,
+      "zh": "实现",
+      "en": "fulfill",
+      "ipa": "[fʊlˈfɪl]",
+      "pos": "v.",
+      "gloss": "履行；实现；满足；使结束（等于fulfil）"
+    },
+    {
+      "i": 188,
+      "zh": "的人",
+      "en": "fuss",
+      "ipa": "[fəs]",
+      "pos": "n.",
+      "gloss": "大惊小怪，大惊小怪的人；小题大作；忙乱"
+    },
+    {
+      "i": 189,
+      "skip": true
+    },
+    {
+      "i": 190,
+      "zh": "现在",
+      "en": "presently",
+      "ipa": "[ˈprɛzəntli]",
+      "pos": "adv.",
+      "gloss": "一会儿,不久；现在,目前"
+    },
+    {
+      "i": 191,
+      "skip": true
+    },
+    {
+      "i": 192,
+      "zh": "真正的",
+      "en": "genuine",
+      "ipa": "[ˈʤɛnjuˌaɪn]",
+      "pos": "adj.",
+      "gloss": "真正的"
+    },
+    {
+      "i": 193,
+      "zh": "界定",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "确定，说明，界定；给…下定义，解释"
+    },
+    {
+      "i": 194,
+      "zh": "信念",
+      "en": "persuasion",
+      "ipa": "[pərsˈweɪʒən]",
+      "pos": "n.",
+      "gloss": "说服；说服力；信念；派别"
+    },
+    {
+      "i": 195,
+      "zh": "不允许",
+      "en": "forbid",
+      "ipa": "[fərˈbɪd]",
+      "pos": "v.",
+      "gloss": "禁止；不准；不允许；〈正式〉严禁"
+    },
+    {
+      "i": 196,
+      "skip": true
+    },
+    {
+      "i": 197,
+      "zh": "努力",
+      "en": "endeavor",
+      "ipa": "[ɪnˈdɛvər]",
+      "pos": "n.",
+      "gloss": "努力；尽力（等于endeavour）"
+    },
+    {
+      "i": 198,
+      "skip": true
+    },
+    {
+      "i": 199,
+      "zh": "目的",
+      "en": "sake",
+      "ipa": "[seɪk]",
+      "pos": "n.",
+      "gloss": "目的；利益；理由；日本米酒"
+    },
+    {
+      "i": 200,
+      "zh": "正确",
+      "en": "accuracy",
+      "ipa": "[ˈækjərəsi]",
+      "pos": "n.",
+      "gloss": "正确，准确；准确性；精确度"
+    },
+    {
+      "i": 201,
+      "zh": "具体的",
+      "en": "concrete",
+      "ipa": "[ˈkɑnkrit]",
+      "pos": "adj.",
+      "gloss": "混凝土的；具体的"
+    },
+    {
+      "i": 202,
+      "zh": "实现",
+      "en": "implement",
+      "ipa": "[ˈɪmpləmənt]",
+      "pos": "v.",
+      "gloss": "实施，执行；实现，使生效"
+    },
+    {
+      "i": 203,
+      "zh": "安排",
+      "en": "arrange",
+      "ipa": "[əreɪnʤ]",
+      "pos": "vt.",
+      "gloss": "整理， 排列， 布置 ；安排， 筹备"
+    },
+    {
+      "i": 204,
+      "skip": true
+    },
+    {
+      "i": 205,
+      "skip": true
+    },
+    {
+      "i": 206,
+      "zh": "一张",
+      "en": "leaf",
+      "ipa": "[lif]",
+      "pos": "n.",
+      "gloss": "叶子；（书籍等的）一张；扇页"
+    },
+    {
+      "i": 207,
+      "zh": "失败",
+      "en": "collapse",
+      "ipa": "[kəˈlæps]",
+      "pos": "n.",
+      "gloss": "倒塌；失败；衰竭"
+    },
+    {
+      "i": 208,
+      "zh": "奋斗",
+      "en": "contend",
+      "ipa": "[kənˈtɛnd]",
+      "pos": "v.",
+      "gloss": "竞争；奋斗；斗争；争论"
+    },
+    {
+      "i": 209,
+      "skip": true
+    },
+    {
+      "i": 210,
+      "skip": true
+    },
+    {
+      "i": 211,
+      "zh": "需要",
+      "en": "necessitate",
+      "ipa": "[nəˈsɛsəˌteɪt]",
+      "pos": "v.",
+      "gloss": "使成为必需，需要；迫使"
+    },
+    {
+      "i": 212,
+      "zh": "战利品",
+      "en": "conquest",
+      "ipa": "[ˈkɑŋkwɛst]",
+      "pos": "n.",
+      "gloss": "征服，战胜；战利品"
+    },
+    {
+      "i": 213,
+      "zh": "任务",
+      "en": "assignment",
+      "ipa": "[əˈsaɪnmənt]",
+      "pos": "n.",
+      "gloss": "任务；作业"
+    },
+    {
+      "i": 214,
+      "zh": "的东西",
+      "en": "fifty",
+      "ipa": "[ˈfɪfti]",
+      "pos": "n.",
+      "gloss": "五十；五十个；编号为50的东西"
+    },
+    {
+      "i": 215,
+      "zh": "创造",
+      "en": "coin",
+      "ipa": "[kɔɪn]",
+      "pos": "v.",
+      "gloss": "铸造（货币）；杜撰，创造"
+    },
+    {
+      "i": 216,
+      "zh": "属于",
+      "en": "belong",
+      "ipa": "[bɪˈlɔŋ]",
+      "pos": "v.",
+      "gloss": "属于，应归入；居住；适宜；应被放置"
+    },
+    {
+      "i": 217,
+      "zh": "无关紧要",
+      "en": "indifferent",
+      "ipa": "[ˌɪnˈdɪfərənt]",
+      "pos": "adj.",
+      "gloss": "漠不关心的；无关紧要的；中性的，中立的"
+    },
+    {
+      "i": 218,
+      "skip": true
+    },
+    {
+      "i": 219,
+      "zh": "代价",
+      "en": "toll",
+      "ipa": "[toʊl]",
+      "pos": "n.",
+      "gloss": "通行费；代价；钟声；伤亡人数"
+    },
+    {
+      "i": 220,
+      "zh": "分心",
+      "en": "distract",
+      "ipa": "[dɪˈstrækt]",
+      "pos": "v.",
+      "gloss": "分散;使分心"
+    },
+    {
+      "i": 221,
+      "skip": true
+    },
+    {
+      "i": 222,
+      "skip": true
+    }
+  ]
+}
