@@ -6,16 +6,57 @@
 (function() {
     'use strict';
 
-    // 添加单词点击交互
-    function initWordInteraction() {
-        const words = document.querySelectorAll('.english-word');
+    /**
+     * 正文内词汇释义：默认隐藏，鼠标悬停 / 键盘聚焦 / 点击英文词展开浮层；点击空白或 Esc 关闭。
+     */
+    function initWordGlossPopovers() {
+        var root = document.querySelector('.post-content');
+        if (!root) return;
 
-        words.forEach(function(word) {
-            word.addEventListener('click', function() {
-                const wordText = this.textContent.trim();
-                // 可以在这里添加更多交互，比如播放发音、显示详细释义等
-                console.log('点击单词:', wordText);
+        var blocks = root.querySelectorAll('.word-block');
+        if (!blocks.length) return;
+
+        function closeAll() {
+            blocks.forEach(function(b) {
+                b.classList.remove('word-block--open');
             });
+        }
+
+        blocks.forEach(function(block) {
+            var trigger = block.querySelector('.english-word');
+            if (!trigger) return;
+
+            trigger.setAttribute('tabindex', '0');
+            trigger.setAttribute('role', 'button');
+
+            trigger.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                var wasOpen = block.classList.contains('word-block--open');
+                closeAll();
+                if (!wasOpen) {
+                    block.classList.add('word-block--open');
+                }
+            });
+
+            trigger.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    trigger.click();
+                }
+            });
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.post-content .word-block')) {
+                closeAll();
+            }
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeAll();
+            }
         });
     }
 
@@ -24,7 +65,7 @@
         document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                var target = document.querySelector(this.getAttribute('href'));
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth'
@@ -36,28 +77,27 @@
 
     // 词汇表搜索功能
     function initVocabSearch() {
-        const vocabTable = document.querySelector('.vocab-table');
+        var vocabTable = document.querySelector('.vocab-table');
         if (!vocabTable) return;
 
-        // 创建搜索框
-        const searchContainer = document.createElement('div');
+        var searchContainer = document.createElement('div');
         searchContainer.style.cssText = 'margin: 15px 0;';
         searchContainer.innerHTML = '<input type="text" id="vocab-search" placeholder="🔍 搜索单词..." style="padding: 10px 15px; border: 2px solid #667eea; border-radius: 25px; width: 100%; max-width: 300px; font-size: 14px; outline: none;">';
 
-        const subtitle = document.querySelector('.subtitle');
+        var subtitle = document.querySelector('.subtitle');
         if (subtitle) {
             subtitle.insertAdjacentElement('afterend', searchContainer);
         }
 
-        const searchInput = document.getElementById('vocab-search');
-        const tableRows = vocabTable.querySelectorAll('tbody tr');
+        var searchInput = document.getElementById('vocab-search');
+        var tableRows = vocabTable.querySelectorAll('tbody tr');
 
         searchInput.addEventListener('input', function() {
-            const query = this.value.toLowerCase();
+            var query = this.value.toLowerCase();
 
             tableRows.forEach(function(row) {
-                const word = row.cells[0].textContent.toLowerCase();
-                const meaning = row.cells[2].textContent.toLowerCase();
+                var word = row.cells[0].textContent.toLowerCase();
+                var meaning = row.cells[2].textContent.toLowerCase();
 
                 if (word.includes(query) || meaning.includes(query)) {
                     row.style.display = '';
@@ -68,16 +108,14 @@
         });
     }
 
-    // 初始化
     function init() {
-        initWordInteraction();
+        initWordGlossPopovers();
         initSmoothScroll();
         initVocabSearch();
 
         console.log('📚 英语学习博客已加载');
     }
 
-    // DOM 加载完成后初始化
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
     } else {
