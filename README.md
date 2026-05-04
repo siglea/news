@@ -2,7 +2,7 @@
 
 **Multimedia Post in Mixed Languages** — 多语言多媒体内容平台：中英混排文章与静态站点发布（历史成稿可含词汇标注 DOM；新流水线接入前 `build` 不生成标注）。
 
-**→ 先看 [docs/README.md](docs/README.md)（文档地图：流水线 / SOP / 编辑规范 / 分步入口）。**
+**→ 先看 [docs/README.md](docs/README.md)（文档地图：入门 / TOOLING / Playbook / 编辑规范 / 分步）。**
 
 > **文档迁移**：原根目录中的长篇**版式、外源版权**等规范已迁至 **[docs/EDITORIAL.md](docs/EDITORIAL.md)**。请编辑与校对时以该文件为权威。
 
@@ -18,11 +18,11 @@ python3 workflow/mingox.py serve --port 8765
 # 浏览器打开 http://127.0.0.1:8765/
 ```
 
-环境与依赖：[docs/PREREQUISITES.md](docs/PREREQUISITES.md)（其余入口见页首文档地图链接）。
+环境与依赖：[docs/GETTING-STARTED.md](docs/GETTING-STARTED.md)（其余入口见页首文档地图链接）。
 
 ## 流水线与规范
 
-- **四步总览、目录职责、`mingox` 命令**：[docs/PIPELINE.md](docs/PIPELINE.md)
+- **四步总览、目录职责、`mingox` 命令**：[docs/TOOLING.md](docs/TOOLING.md)
 - **第 1～4 步分册索引**：[docs/steps/README.md](docs/steps/README.md)
 - **标题、列表、版权等编辑规范全文**：[docs/EDITORIAL.md](docs/EDITORIAL.md)
 - **单篇草稿目录约定**：[content/drafts/README.md](content/drafts/README.md)
@@ -44,7 +44,7 @@ python3 workflow/mingox.py serve --port 8765
 
 ```
 news/
-├── docs/           # 文档地图 README、PIPELINE、EDITORIAL、steps/
+├── docs/           # 文档地图 README、TOOLING、PLAYBOOK、GETTING-STARTED、EDITORIAL、steps/
 ├── workflow/       # mingox.py CLI（见 workflow/README.md）
 ├── content/drafts/ # 单篇草稿（见 content/drafts/README.md）
 ├── util/           # 抓取、annotate_lib、md_split（见 util/README.md）
@@ -54,7 +54,7 @@ news/
 └── _config.yml     # Gitee Pages
 ```
 
-更完整的**路径职责表**见 [docs/PIPELINE.md](docs/PIPELINE.md)「目录职责」。
+更完整的**路径职责表**见 [docs/TOOLING.md](docs/TOOLING.md)「目录职责」。
 
 ## 产品简介
 

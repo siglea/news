@@ -4,7 +4,7 @@
 1. 脚本分流逻辑(util、workflow、workflow/tests → test+validate;posts/contents → validate;
    docs only → 跳过)
 2. Makefile 入口一致性(`make ci-scope` 能跑通)
-3. 文档可执行性(PREREQUISITES.md 命令模板可复制)
+3. 文档可执行性(GETTING-STARTED.md 命令模板可复制)
 
 策略:在 tempdir 起一个干净 git 仓库,把 ci_scope.sh 拷过去跑,通过
 让 `make` 变成"只 echo 它被传入的 target 名"的 fake 来捕获脚本决策。

@@ -1,6 +1,13 @@
-# 前置环境（内容流水线）
+# 入门：环境与第一篇 walkthrough
 
-完成 [PIPELINE.md](./PIPELINE.md) / [docs/steps/](./steps/README.md) 四步前，请在本机准备：
+完成 [TOOLING.md](./TOOLING.md) 与 [steps/](./steps/README.md) 四步前，请在本机准备依赖；**协作节奏与 deploy 清单**见 [PLAYBOOK.md](./PLAYBOOK.md)。
+
+## 第一篇 walkthrough（最小闭环）
+
+1. 按下文安装 **Python** / **Playwright** / **workflow 依赖**；可选建 `.venv`，在仓库根执行 `make ci PYTHON=.venv/bin/python` 确认环境。
+2. `python3 workflow/mingox.py init ...` 生成 `content/drafts/<slug>/`（参数与命名见 [content/drafts/README.md](../content/drafts/README.md)）。
+3. `acquire` → `export-chat-bundle` → 产出 `llm_annotations.json` → `build` → `validate` 的命令与边界见 **[TOOLING.md](./TOOLING.md)** 与 **[steps/01-acquire.md](./steps/01-acquire.md)** 起的分步文档。
+4. 发布前检查与 deploy 串行约定见 **[PLAYBOOK.md](./PLAYBOOK.md)**。
 
 ## Git
 

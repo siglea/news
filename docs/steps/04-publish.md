@@ -1,5 +1,7 @@
 # 第 4 步：本地预览与多平台发布
 
+> **定位**：[TOOLING.md](../TOOLING.md) 第 4 步的展开；总览以 TOOLING 为准。
+
 **输入**：仓库根目录下的静态站点（`index.html`、`posts/*.html`、`css/`、`js/`、`images/` 等）。
 
 ---
@@ -32,7 +34,7 @@ python3 workflow/mingox.py close-loop --slug <slug> --deploy
 - 依赖：**Node** + `npx` 拉取 EdgeOne CLI；身份可用 **登录** 或 **Token**。
 - Token 可置于 **`.edgeone/.token`**（勿提交密钥；`.gitignore` 已忽略）。
 
-**环境与其它工具**：[PREREQUISITES.md](../PREREQUISITES.md)。
+**环境与其它工具**：[GETTING-STARTED.md](../GETTING-STARTED.md)。
 
 ---
 

@@ -1,9 +1,9 @@
 # workflow：四步流水线脚本
 
 - **文档地图**：[docs/README.md](../docs/README.md)  
-- **总览**：[docs/PIPELINE.md](../docs/PIPELINE.md)  
+- **总览**：[docs/TOOLING.md](../docs/TOOLING.md)  
 - **分步文档**：[docs/steps/README.md](../docs/steps/README.md)（01 取材 / 02 标注占位 / 03 HTML / 04 发布）  
-- **前置**：[docs/PREREQUISITES.md](../docs/PREREQUISITES.md)  
+- **入门 / 环境**：[docs/GETTING-STARTED.md](../docs/GETTING-STARTED.md)  
 - **编辑规范**：[docs/EDITORIAL.md](../docs/EDITORIAL.md)
 
 ## 一键入口

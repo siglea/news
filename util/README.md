@@ -1,6 +1,6 @@
 # util：抓取与成稿共享库
 
-**文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/PIPELINE.md](../docs/PIPELINE.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（第 1 步）、**`annotate_lib` / `md_split`**。
+**文档地图**：[docs/README.md](../docs/README.md)。通用编排见 **[docs/TOOLING.md](../docs/TOOLING.md)**、**[docs/steps/](../docs/steps/README.md)** 与 **`workflow/mingox.py`**。本目录侧重：**Playwright 抓取**（第 1 步）、**`annotate_lib` / `md_split`**。
 
 **边界**：成稿元数据与正文真源一律在 **`content/drafts/<slug>/`**（`meta.json`、`01-source.md`）；不再提供 `article-profiles` 捷径。
 

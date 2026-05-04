@@ -1,5 +1,7 @@
 # 第 2 步：词汇标注（四六级向）
 
+> **定位**：[TOOLING.md](../TOOLING.md) 第 2 步的展开；总览以 TOOLING 为准。
+
 本步产出 **`llm_annotations.json`**。**没有该文件则 `mingox build` 直接失败**（见 [`workflow/build_draft.py`](../../workflow/build_draft.py)）。成稿中的 `word-block` 与篇末词汇表均依赖此文件经 [`util/annotate_merge.py`](../../util/annotate_merge.py) 合并进段落 HTML。`build` 前还会执行 [`util/annotation_quality_gate.py`](../../util/annotation_quality_gate.py) 门禁，默认拦截占位符标注、重复 `en`、空 `meta_description`，并校验 **`zh/en` 一一对应的基础约束**（如 `zh` 必须落在原句正文、`en` 必须单 token、`zh` 不应是并列短语）。
 
 **为何 lex/term 等会漏进成稿、如何多道防线规避**  

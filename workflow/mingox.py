@@ -4,7 +4,7 @@ MingoX 四步流水线入口（本地执行）。
 
   python workflow/mingox.py <command> ...
 
-前置与步骤说明见 docs/PREREQUISITES.md 与 docs/PIPELINE.md。
+入门环境见 docs/GETTING-STARTED.md；编排与步骤见 docs/TOOLING.md。
 """
 from __future__ import annotations
 
@@ -592,7 +592,7 @@ def _deploy_preflight(token_path: Path, build_script: Path) -> tuple[str, bool]:
     if not npx:
         errors.append(
             "npx 不在 PATH(需要 Node.js + npm)。安装:`brew install node` "
-            "或访问 https://nodejs.org;详情见 docs/PREREQUISITES.md"
+            "或访问 https://nodejs.org;详情见 docs/GETTING-STARTED.md"
         )
 
     # 2. build_dist.sh 必须可读

@@ -32,6 +32,6 @@
 3. **`export-chat-bundle`** → 大模型产出 **`llm_annotations.json`**（四六级向提示词见 [02-annotate.md](../../docs/steps/02-annotate.md)）  
 4. **`python3 workflow/mingox.py build --slug <slug>`** → `02-annotate-tasks.json` + `posts/*.html`（无 `llm_annotations.json` 时 **build 失败**）
 
-**流水线总览**：[PIPELINE.md](../../docs/PIPELINE.md)。**标注步骤**：[docs/steps/02-annotate.md](../../docs/steps/02-annotate.md)。**HTML 成稿**：[docs/steps/03-html.md](../../docs/steps/03-html.md)。四步索引见 **[docs/steps/README.md](../../docs/steps/README.md)**。
+**流水线总览**：[TOOLING.md](../../docs/TOOLING.md)。**标注步骤**：[docs/steps/02-annotate.md](../../docs/steps/02-annotate.md)。**HTML 成稿**：[docs/steps/03-html.md](../../docs/steps/03-html.md)。四步索引见 **[docs/steps/README.md](../../docs/steps/README.md)**。
 
 **`meta.json`（微信 `url` 抓取后）**：**`title_zh` 会被更新为微信页标题**（覆盖 init 时的占位题）；`source_account` 等为抓取侧写入。英文题、`meta_description`、风险提示等常需 **人工补全** 后再 `build`。

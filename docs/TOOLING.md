@@ -1,6 +1,6 @@
-# MingoX 内容生产流水线（总览）
+# MingoX 工具与编排（TOOLING）
 
-与 **[SOP.md](./SOP.md)** 的关系：**本文**写四步流水线、目录职责与命令入口；**SOP** 写协作节奏、审发与防返工清单。若操作细节冲突，以 **SOP** 为准。
+与 **[PLAYBOOK.md](./PLAYBOOK.md)** 的关系：**本文**写 CLI、目录职责、分步入口与 harness 约定；**Playbook** 写协作节奏、审发与防返工清单。若冲突：**协作/审发/deploy 清单**以 **Playbook** 为准；**命令与路径**以 **本文** 为准。
 
 第一次阅读建议先看 **[docs/README.md](./README.md)**（文档地图）。
 
@@ -39,7 +39,7 @@ python3 workflow/mingox.py --help
 
 **分步目录索引**：[docs/steps/README.md](./steps/README.md)。**编辑规范**：[EDITORIAL.md](./EDITORIAL.md)。**草稿目录**：[content/drafts/README.md](../content/drafts/README.md)。
 
-**可选代码层解耦（IR / 拆分 build）**：[docs/steps/IR-ROADMAP.md](./steps/IR-ROADMAP.md)（未实现，待评审）。
+**可选代码层解耦（IR / 拆分 build）**：[ARCHITECTURE.md](./ARCHITECTURE.md)（未实现，待评审）。
 
 ---
 
@@ -53,13 +53,13 @@ python3 workflow/mingox.py --help
 | **`util/annotate_merge.py`** | `llm_annotations.json` 合并；bundle 的 `system_prompt` 来自 **`util/prompts/chat_annotate_system.txt`** |
 | **`util/.crawl-output/`** | 本地抓取缓存（gitignore） |
 | **`posts/`** | 成稿静态 HTML |
-| **`docs/`** | 文档地图 [README.md](./README.md)、[PIPELINE.md](./PIPELINE.md)、[EDITORIAL.md](./EDITORIAL.md)、四步分册、[PREREQUISITES.md](./PREREQUISITES.md) |
+| **`docs/`** | 文档地图 [README.md](./README.md)、[TOOLING.md](./TOOLING.md)、[PLAYBOOK.md](./PLAYBOOK.md)、[GETTING-STARTED.md](./GETTING-STARTED.md)、[ARCHITECTURE.md](./ARCHITECTURE.md)、[EDITORIAL.md](./EDITORIAL.md)、四步分册 |
 
 ---
 
 ## 环境与其它说明
 
-- **依赖安装**： [PREREQUISITES.md](./PREREQUISITES.md)
+- **依赖安装**： [GETTING-STARTED.md](./GETTING-STARTED.md)
 - **抓取与 Playwright 细节**： [util/README.md](../util/README.md)
 - **版式、版权等编辑规范全文**： [EDITORIAL.md](./EDITORIAL.md)
 - **workflow 模块表**： [workflow/README.md](../workflow/README.md)
