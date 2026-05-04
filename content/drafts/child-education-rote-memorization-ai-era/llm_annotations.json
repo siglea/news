@@ -1,0 +1,997 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "skip": true
+    },
+    {
+      "i": 1,
+      "skip": true
+    },
+    {
+      "i": 2,
+      "zh": "东西",
+      "en": "clay",
+      "ipa": "[kleɪ]",
+      "pos": "n.",
+      "gloss": "[土壤] 粘土；泥土；肉体；似黏土的东西"
+    },
+    {
+      "i": 3,
+      "zh": "通过",
+      "en": "approve",
+      "ipa": "[əˈpruv]",
+      "pos": "v.",
+      "gloss": "批准，通过；(of)赞成，赞许，同意"
+    },
+    {
+      "i": 4,
+      "skip": true
+    },
+    {
+      "i": 5,
+      "zh": "会计师",
+      "en": "accountant",
+      "ipa": "[əˈkaʊntənt]",
+      "pos": "n.",
+      "gloss": "会计人员，会计师"
+    },
+    {
+      "i": 6,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 7,
+      "zh": "一点",
+      "en": "epoch",
+      "ipa": "[ˈɛpək]",
+      "pos": "n.",
+      "gloss": "[地质] 世；新纪元；新时代；时间上的一点"
+    },
+    {
+      "i": 8,
+      "zh": "方式",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adv.",
+      "gloss": "以同样的方式；类似于"
+    },
+    {
+      "i": 9,
+      "zh": "高明的",
+      "en": "crack",
+      "ipa": "[kræk]",
+      "pos": "adj.",
+      "gloss": "最好的；高明的"
+    },
+    {
+      "i": 10,
+      "zh": "垄断",
+      "en": "monopoly",
+      "ipa": "[məˈnɑpəli]",
+      "pos": "n.",
+      "gloss": "垄断；独占；专营"
+    },
+    {
+      "i": 11,
+      "zh": "百科全书",
+      "en": "encyclopaedia",
+      "ipa": "[ɪnˌsaɪkləˈpidiə]",
+      "pos": "n.",
+      "gloss": "百科全书"
+    },
+    {
+      "i": 12,
+      "zh": "反驳",
+      "en": "contradict",
+      "ipa": "[ˌkɑntrəˈdɪkt]",
+      "pos": "v.",
+      "gloss": "反驳；同…矛盾,同…抵触"
+    },
+    {
+      "i": 13,
+      "zh": "非常",
+      "en": "deadly",
+      "ipa": "[ˈdɛdli]",
+      "pos": "adv.",
+      "gloss": "非常；如死一般地"
+    },
+    {
+      "i": 14,
+      "zh": "教育",
+      "en": "educate",
+      "ipa": "[ˈɛʤəˌkeɪt]",
+      "pos": "v.",
+      "gloss": "教育,培养,训练"
+    },
+    {
+      "i": 15,
+      "zh": "方法",
+      "en": "avenue",
+      "ipa": "[ˈævəˌnu]",
+      "pos": "n.",
+      "gloss": "大街；林荫路；途径，渠道，方法"
+    },
+    {
+      "i": 16,
+      "zh": "标准化",
+      "en": "normalization",
+      "ipa": "[ˌnɔrməlɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "正常化；标准化；正规化；常态化"
+    },
+    {
+      "i": 17,
+      "skip": true
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "zh": "级学生",
+      "en": "junior",
+      "ipa": "[ˈʤunjər]",
+      "pos": "n.",
+      "gloss": "年少者，晚辈；地位较低者；大学三年级学生"
+    },
+    {
+      "i": 20,
+      "skip": true
+    },
+    {
+      "i": 21,
+      "zh": "完成",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 22,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 23,
+      "zh": "发生",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 24,
+      "zh": "执照",
+      "en": "certificate",
+      "ipa": "[sərˈtɪfɪkət]",
+      "pos": "n.",
+      "gloss": "证(明)书,执照"
+    },
+    {
+      "i": 25,
+      "zh": "考试",
+      "en": "examine",
+      "ipa": "[ɪgˈzæmɪn]",
+      "pos": "v.",
+      "gloss": "检查；调查； 检测；考试"
+    },
+    {
+      "i": 26,
+      "skip": true
+    },
+    {
+      "i": 27,
+      "zh": "考试",
+      "en": "mock",
+      "ipa": "[mɑk]",
+      "pos": "n.",
+      "gloss": "英国模拟考试（mocks）"
+    },
+    {
+      "i": 28,
+      "zh": "容器",
+      "en": "bin",
+      "ipa": "[bɪn]",
+      "pos": "n.",
+      "gloss": "箱子，容器；二进制"
+    },
+    {
+      "i": 29,
+      "skip": true
+    },
+    {
+      "i": 30,
+      "zh": "告诉",
+      "en": "inform",
+      "ipa": "[ˌɪnˈfɔrm]",
+      "pos": "v.",
+      "gloss": "(of,about)通知,告诉,报告"
+    },
+    {
+      "i": 31,
+      "zh": "爆发",
+      "en": "burst",
+      "ipa": "[bərst]",
+      "pos": "v.",
+      "gloss": "爆发，突发；爆炸"
+    },
+    {
+      "i": 32,
+      "skip": true
+    },
+    {
+      "i": 33,
+      "zh": "作业",
+      "en": "assignment",
+      "ipa": "[əˈsaɪnmənt]",
+      "pos": "n.",
+      "gloss": "任务；作业"
+    },
+    {
+      "i": 34,
+      "zh": "超过",
+      "en": "exceed",
+      "ipa": "[ɪkˈsid]",
+      "pos": "v.",
+      "gloss": "超过,胜过；越出 (限制、规定)"
+    },
+    {
+      "i": 35,
+      "zh": "结果",
+      "en": "consequence",
+      "ipa": "[ˈkɑnsəkwəns]",
+      "pos": "n.",
+      "gloss": "结果,后果,影响"
+    },
+    {
+      "i": 36,
+      "zh": "评估",
+      "en": "appraisal",
+      "ipa": "[əˈpreɪzəl]",
+      "pos": "n.",
+      "gloss": "对...作出的评价；评价，鉴定，评估"
+    },
+    {
+      "i": 37,
+      "zh": "普及",
+      "en": "generalize",
+      "ipa": "[ˈʤɛnərəˌlaɪz]",
+      "pos": "v.",
+      "gloss": "(generalise)归纳,概括；推广,普及"
+    },
+    {
+      "i": 38,
+      "zh": "小时",
+      "en": "knot",
+      "ipa": "[nɑt]",
+      "pos": "n.",
+      "gloss": "（绳等的）结；节瘤，疙瘩；海里/小时（航速单位）"
+    },
+    {
+      "i": 39,
+      "zh": "浪费",
+      "en": "dissipate",
+      "ipa": "[ˈdɪsəˌpeɪt]",
+      "pos": "v.",
+      "gloss": "浪费；使…消散"
+    },
+    {
+      "i": 40,
+      "zh": "创造",
+      "en": "coin",
+      "ipa": "[kɔɪn]",
+      "pos": "v.",
+      "gloss": "铸造（货币）；杜撰，创造"
+    },
+    {
+      "i": 41,
+      "zh": "简洁",
+      "en": "compact",
+      "ipa": "[ˈkɑmpækt]",
+      "pos": "v.",
+      "gloss": "使简洁；使紧密结合"
+    },
+    {
+      "i": 42,
+      "zh": "陪伴",
+      "en": "accompany",
+      "ipa": "[əˈkəmpəni]",
+      "pos": "v.",
+      "gloss": "陪伴，陪同,伴随；伴奏"
+    },
+    {
+      "i": 43,
+      "zh": "选择",
+      "en": "elect",
+      "ipa": "[ɪˈlɛkt]",
+      "pos": "v.",
+      "gloss": "选举,推选；选择,作出选择"
+    },
+    {
+      "i": 44,
+      "zh": "计的",
+      "en": "centigrade",
+      "ipa": "[ˈsɛntəˌgreɪd]",
+      "pos": "adj.",
+      "gloss": "摄氏温度计的;摄氏的"
+    },
+    {
+      "i": 45,
+      "zh": "接受",
+      "en": "acceptance",
+      "ipa": "[əkˈsɛptəns]",
+      "pos": "n.",
+      "gloss": "正式接受；接纳；接受，赞同，赞成，认可"
+    },
+    {
+      "i": 46,
+      "zh": "场合",
+      "en": "occasion",
+      "ipa": "[əˈkeɪʒən]",
+      "pos": "n.",
+      "gloss": "时机，机会；场合；理由"
+    },
+    {
+      "i": 47,
+      "zh": "准备",
+      "en": "formulate",
+      "ipa": "[ˈfɔːmjuleɪt]",
+      "pos": "v.",
+      "gloss": "规划；制定；准备；仔细思考并明确表达"
+    },
+    {
+      "i": 48,
+      "zh": "丰富的",
+      "en": "abundant",
+      "ipa": "[əˈbəndənt]",
+      "pos": "adj.",
+      "gloss": "丰富的；充裕的；盛产"
+    },
+    {
+      "i": 49,
+      "zh": "鼓励",
+      "en": "arouse",
+      "ipa": "[əraʊz]",
+      "pos": "v.",
+      "gloss": "引起；唤醒；鼓励"
+    },
+    {
+      "i": 50,
+      "zh": "理解",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 51,
+      "skip": true
+    },
+    {
+      "i": 52,
+      "skip": true
+    },
+    {
+      "i": 53,
+      "zh": "可能",
+      "en": "likelihood",
+      "ipa": "[ˈlaɪkliˌhʊd]",
+      "pos": "n.",
+      "gloss": "可能性，可能"
+    },
+    {
+      "i": 54,
+      "skip": true
+    },
+    {
+      "i": 55,
+      "skip": true
+    },
+    {
+      "i": 56,
+      "zh": "替代",
+      "en": "substitute",
+      "ipa": "[ˈsəbstəˌtut]",
+      "pos": "v.",
+      "gloss": "替代"
+    },
+    {
+      "i": 57,
+      "zh": "擅长",
+      "en": "excel",
+      "ipa": "[ɪkˈsɛl]",
+      "pos": "v.",
+      "gloss": "超过；擅长"
+    },
+    {
+      "i": 58,
+      "zh": "执行",
+      "en": "administer",
+      "ipa": "[ədˈmɪnɪstər]",
+      "pos": "v.",
+      "gloss": "管理；执行；给予"
+    },
+    {
+      "i": 59,
+      "zh": "的人",
+      "en": "athlete",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 60,
+      "skip": true
+    },
+    {
+      "i": 61,
+      "zh": "地带",
+      "en": "belt",
+      "ipa": "[bɛlt]",
+      "pos": "n.",
+      "gloss": "带；腰带；地带"
+    },
+    {
+      "i": 62,
+      "zh": "培养",
+      "en": "cultivate",
+      "ipa": "[ˈkʌltɪveɪt]",
+      "pos": "vt.",
+      "gloss": "耕作， 栽培； 养殖；培养， 教养； 磨炼"
+    },
+    {
+      "i": 63,
+      "zh": "人类",
+      "en": "humanity",
+      "ipa": "[juˈmænɪti]",
+      "pos": "n.",
+      "gloss": "人类；人性,人情；(pl.)人文科学"
+    },
+    {
+      "i": 64,
+      "zh": "系统的",
+      "en": "systematic",
+      "ipa": "[ˌsɪstəˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "(al)系统的,有组织的"
+    },
+    {
+      "i": 65,
+      "skip": true
+    },
+    {
+      "i": 66,
+      "zh": "判断力",
+      "en": "judgement",
+      "ipa": "[ˈʤəʤmənt]",
+      "pos": "n.",
+      "gloss": "意见；判断力；[法] 审判；评价"
+    },
+    {
+      "i": 67,
+      "zh": "标准",
+      "en": "criterion",
+      "ipa": "[kraɪˈtɪriən]",
+      "pos": "n.",
+      "gloss": "(pl.criteria或s)标准，尺度"
+    },
+    {
+      "i": 68,
+      "zh": "下来",
+      "en": "descend",
+      "ipa": "[dɪˈsɛnd]",
+      "pos": "v.",
+      "gloss": "下降；下去；下来；遗传；屈尊"
+    },
+    {
+      "i": 69,
+      "zh": "验证",
+      "en": "validate",
+      "ipa": "[ˈvælɪdeɪt]",
+      "pos": "v.",
+      "gloss": "验证"
+    },
+    {
+      "i": 70,
+      "zh": "的事",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑；渴望；挂念；令人焦虑的事"
+    },
+    {
+      "i": 71,
+      "zh": "探索",
+      "en": "explore",
+      "ipa": "[ɪkˈsplɔr]",
+      "pos": "v.",
+      "gloss": "探索；探测；探险"
+    },
+    {
+      "i": 72,
+      "zh": "结果",
+      "en": "consequently",
+      "ipa": "[ˈkɑnsəkˌwɛntli]",
+      "pos": "adv.",
+      "gloss": "结果，因此，所以"
+    },
+    {
+      "i": 73,
+      "zh": "确定",
+      "en": "ascertain",
+      "ipa": "[ˌæsərˈteɪn]",
+      "pos": "v.",
+      "gloss": "确定，查明，弄清"
+    },
+    {
+      "i": 74,
+      "zh": "好奇心",
+      "en": "curiosity",
+      "ipa": "[ˌkjʊriˈɑsəti]",
+      "pos": "n.",
+      "gloss": "好奇心；古董,古玩"
+    },
+    {
+      "i": 75,
+      "zh": "产生",
+      "en": "breed",
+      "ipa": "[brid]",
+      "pos": "v.",
+      "gloss": "繁殖；饲养；产生"
+    },
+    {
+      "i": 76,
+      "zh": "神的",
+      "en": "sacred",
+      "ipa": "[ˈseɪkrɪd]",
+      "pos": "adj.",
+      "gloss": "神的；神圣的；宗教的；庄严的"
+    },
+    {
+      "i": 77,
+      "zh": "差异化",
+      "en": "differentiation",
+      "ipa": "[ˌdɪfərenʃiˈeɪʃn]",
+      "pos": "n.",
+      "gloss": "差异化"
+    },
+    {
+      "i": 78,
+      "zh": "差异",
+      "en": "discrepancy",
+      "ipa": "[dɪˈskrɛpənsi]",
+      "pos": "n.",
+      "gloss": "差异,不符"
+    },
+    {
+      "i": 79,
+      "zh": "更便宜",
+      "en": "cheaper",
+      "ipa": "[ˈtʃiːpə]",
+      "pos": "adj.",
+      "gloss": "更便宜"
+    },
+    {
+      "i": 80,
+      "zh": "真正的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 81,
+      "skip": true
+    },
+    {
+      "i": 82,
+      "zh": "高度",
+      "en": "altitude",
+      "ipa": "[ˈæltɪtjuːd]",
+      "pos": "n.",
+      "gloss": "高度， 海拔"
+    },
+    {
+      "i": 83,
+      "zh": "传统的",
+      "en": "classical",
+      "ipa": "[ˈklæsɪkəl]",
+      "pos": "adj.",
+      "gloss": "古典的；经典的；传统的；第一流的"
+    },
+    {
+      "i": 84,
+      "zh": "的东西",
+      "en": "disguise",
+      "ipa": "[dɪsˈgaɪz]",
+      "pos": "n.",
+      "gloss": "伪装；假装；用作伪装的东西"
+    },
+    {
+      "i": 85,
+      "zh": "放任",
+      "en": "abandon",
+      "ipa": "[əˈbændən]",
+      "pos": "n.",
+      "gloss": "放任；狂热"
+    },
+    {
+      "i": 86,
+      "zh": "方法",
+      "en": "recipe",
+      "ipa": "[ˈrɛsəpi]",
+      "pos": "n.",
+      "gloss": "烹饪法,食谱；诀窍,方法"
+    },
+    {
+      "i": 87,
+      "zh": "澄清",
+      "en": "clarify",
+      "ipa": "[ˈklɛrəˌfaɪ]",
+      "pos": "v.",
+      "gloss": "澄清；阐明"
+    },
+    {
+      "i": 88,
+      "zh": "足够的",
+      "en": "adequate",
+      "ipa": "[ˈædəkˌweɪt]",
+      "pos": "adj.",
+      "gloss": "充足的，足够的"
+    },
+    {
+      "i": 89,
+      "zh": "放任",
+      "en": "loose",
+      "ipa": "[lus]",
+      "pos": "n.",
+      "gloss": "放纵；放任；发射"
+    },
+    {
+      "i": 90,
+      "zh": "差别",
+      "en": "contrast",
+      "ipa": "[ˈkɑntræst]",
+      "pos": "n.",
+      "gloss": "对比；差别；对照物"
+    },
+    {
+      "i": 91,
+      "zh": "提供",
+      "en": "furnish",
+      "ipa": "[ˈfərnɪʃ]",
+      "pos": "v.",
+      "gloss": "供应,提供；装备,布置"
+    },
+    {
+      "i": 92,
+      "zh": "设计",
+      "en": "contrive",
+      "ipa": "[kənˈtraɪv]",
+      "pos": "v.",
+      "gloss": "设计；发明；图谋"
+    },
+    {
+      "i": 93,
+      "zh": "著名的",
+      "en": "notable",
+      "ipa": "[ˈnoʊtəbəl]",
+      "pos": "adj.",
+      "gloss": "值得注意的，显著的；著名的"
+    },
+    {
+      "i": 94,
+      "zh": "领域",
+      "en": "domain",
+      "ipa": "[dəʊˈmeɪn]",
+      "pos": "n.",
+      "gloss": "(活动,思想等)领域,范围；领地"
+    },
+    {
+      "i": 95,
+      "zh": "改进",
+      "en": "amend",
+      "ipa": "[əˈmɛnd]",
+      "pos": "v.",
+      "gloss": "修改；改善，改进"
+    },
+    {
+      "i": 96,
+      "zh": "利用",
+      "en": "harness",
+      "ipa": "[ˈhɑrnɪs]",
+      "pos": "v.",
+      "gloss": "治理；套；驾驭；披上甲胄；利用"
+    },
+    {
+      "i": 97,
+      "zh": "规划",
+      "en": "chalk",
+      "ipa": "[ʧɔk]",
+      "pos": "v.",
+      "gloss": "用粉笔写；用白垩粉擦；记录；规划"
+    },
+    {
+      "i": 98,
+      "skip": true
+    },
+    {
+      "i": 99,
+      "zh": "探索",
+      "en": "grope",
+      "ipa": "[groʊp]",
+      "pos": "v.",
+      "gloss": "摸索；探索"
+    },
+    {
+      "i": 100,
+      "skip": true
+    },
+    {
+      "i": 101,
+      "zh": "有创造力",
+      "en": "imaginative",
+      "ipa": "[ˌɪˈmæʤənətɪv]",
+      "pos": "adj.",
+      "gloss": "富于想象的；有创造力的"
+    },
+    {
+      "i": 102,
+      "zh": "能力",
+      "en": "faculty",
+      "ipa": "[ˈfækəlti]",
+      "pos": "n.",
+      "gloss": "科，系；能力；全体教员"
+    },
+    {
+      "i": 103,
+      "zh": "的人",
+      "en": "beast",
+      "ipa": "[bist]",
+      "pos": "n.",
+      "gloss": "兽， 牲畜 ；凶残的人； 举止粗鲁的人"
+    },
+    {
+      "i": 104,
+      "zh": "清楚",
+      "en": "clarity",
+      "ipa": "[ˈklærəti]",
+      "pos": "n.",
+      "gloss": "清楚，明晰；透明"
+    },
+    {
+      "i": 105,
+      "zh": "工具",
+      "en": "gear",
+      "ipa": "[gɪr]",
+      "pos": "n.",
+      "gloss": "齿轮；装置，工具；传动装置"
+    },
+    {
+      "i": 106,
+      "zh": "培养",
+      "en": "foster",
+      "ipa": "[ˈfɑstər]",
+      "pos": "v.",
+      "gloss": "培养；养育，抚育；抱（希望等）"
+    },
+    {
+      "i": 107,
+      "zh": "标准",
+      "en": "norm",
+      "ipa": "[nɔrm]",
+      "pos": "n.",
+      "gloss": "标准，规范"
+    },
+    {
+      "i": 108,
+      "skip": true
+    },
+    {
+      "i": 109,
+      "zh": "百科全书",
+      "en": "encyclopedia",
+      "ipa": "[ɪnˌsaɪkləˈpidiə]",
+      "pos": "n.",
+      "gloss": "百科全书（亦是encyclopaedia）"
+    },
+    {
+      "i": 110,
+      "zh": "正确",
+      "en": "accuracy",
+      "ipa": "[ˈækjərəsi]",
+      "pos": "n.",
+      "gloss": "正确，准确；准确性；精确度"
+    },
+    {
+      "i": 111,
+      "zh": "允许",
+      "en": "consent",
+      "ipa": "[kənˈsɛnt]",
+      "pos": "v.",
+      "gloss": "(to)同意，允许"
+    },
+    {
+      "i": 112,
+      "zh": "浪费",
+      "en": "idle",
+      "ipa": "[ˈaɪdəl]",
+      "pos": "vt.",
+      "gloss": "浪费， 虚度"
+    },
+    {
+      "i": 113,
+      "zh": "世界的",
+      "en": "universal",
+      "ipa": "[ˌjunəˈvərsəl]",
+      "pos": "adj.",
+      "gloss": "全体的,宇宙的,世界的；普遍的，通用的"
+    },
+    {
+      "i": 114,
+      "skip": true
+    },
+    {
+      "i": 115,
+      "zh": "停留",
+      "en": "abide",
+      "ipa": "[əˈbaɪd]",
+      "pos": "v.",
+      "gloss": "忍受，容忍；停留；遵守"
+    },
+    {
+      "i": 116,
+      "skip": true
+    },
+    {
+      "i": 117,
+      "zh": "打扰",
+      "en": "bother",
+      "ipa": "[ˈbɑðər]",
+      "pos": "v.",
+      "gloss": "烦扰，打扰；使……不安；使……恼怒"
+    },
+    {
+      "i": 118,
+      "zh": "任何",
+      "en": "whatsoever",
+      "ipa": "[ˌwətsoʊˈɛvər]",
+      "pos": "adv.",
+      "gloss": "任何"
+    },
+    {
+      "i": 119,
+      "zh": "保护",
+      "en": "conservation",
+      "ipa": "[ˌkɑnsərˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "保存，保持；保护"
+    },
+    {
+      "i": 120,
+      "zh": "孵化",
+      "en": "hatch",
+      "ipa": "[hæʧ]",
+      "pos": "n.",
+      "gloss": "孵化；舱口"
+    },
+    {
+      "i": 121,
+      "zh": "根本的",
+      "en": "fundamental",
+      "ipa": "[ˌfəndəˈmɛnəl]",
+      "pos": "adj.",
+      "gloss": "基本的，根本的"
+    },
+    {
+      "i": 122,
+      "zh": "记得",
+      "en": "recollect",
+      "ipa": "[ˌrɛkəˈlɛkt]",
+      "pos": "v.",
+      "gloss": "回忆,想起,记起,忆起,记得"
+    },
+    {
+      "i": 123,
+      "zh": "过剩的",
+      "en": "redundant",
+      "ipa": "[rɪˈdəndənt]",
+      "pos": "adj.",
+      "gloss": "多余的，过剩的；被解雇的，失业的；冗长的，累赘的"
+    },
+    {
+      "i": 124,
+      "zh": "标准",
+      "en": "prototype",
+      "ipa": "[ˈproʊtoʊˌtaɪp]",
+      "pos": "n.",
+      "gloss": "原型；标准，模范"
+    },
+    {
+      "i": 125,
+      "zh": "现在",
+      "en": "presently",
+      "ipa": "[ˈprɛzəntli]",
+      "pos": "adv.",
+      "gloss": "一会儿,不久；现在,目前"
+    },
+    {
+      "i": 126,
+      "zh": "的人",
+      "en": "bore",
+      "ipa": "[bɔr]",
+      "pos": "n.",
+      "gloss": "孔；令人讨厌的人"
+    },
+    {
+      "i": 127,
+      "zh": "的人",
+      "en": "bull",
+      "ipa": "[bʊl]",
+      "pos": "n.",
+      "gloss": "公牛；看好股市者；粗壮如牛的人；胡说八道；印玺"
+    },
+    {
+      "i": 128,
+      "skip": true
+    },
+    {
+      "i": 129,
+      "zh": "利用",
+      "en": "shaft",
+      "ipa": "[ʃæft]",
+      "pos": "v.",
+      "gloss": "利用；在……上装杆"
+    },
+    {
+      "i": 130,
+      "zh": "自由",
+      "en": "liberty",
+      "ipa": "[ˈlɪbərˌti]",
+      "pos": "n.",
+      "gloss": "自由；许可；冒失"
+    },
+    {
+      "i": 131,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɑʤɪk]",
+      "pos": "n.",
+      "gloss": "逻辑,逻辑学"
+    },
+    {
+      "i": 132,
+      "zh": "记忆力",
+      "en": "retention",
+      "ipa": "[riˈtɛnʃən]",
+      "pos": "n.",
+      "gloss": "保留；扣留，滞留；记忆力；闭尿"
+    },
+    {
+      "i": 133,
+      "zh": "的东西",
+      "en": "fifty",
+      "ipa": "[ˈfɪfti]",
+      "pos": "n.",
+      "gloss": "五十；五十个；编号为50的东西"
+    },
+    {
+      "i": 134,
+      "zh": "竞争",
+      "en": "compete",
+      "ipa": "[kəmˈpiːt]",
+      "pos": "v.",
+      "gloss": "竞争；争夺，竞争"
+    }
+  ]
+}

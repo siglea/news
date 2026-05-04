@@ -510,8 +510,12 @@ def build_post_html(
     source_author_display: str = "",
     footer_derivative_mp_unknown: bool = False,
     risk_blurb_secondary: str | None = None,
+    article_layout: str = "classic",
 ) -> str:
     tzh, ten = html.escape(title_zh), html.escape(title_en)
+    article_classes = "post-content"
+    if (article_layout or "").strip().lower() == "segments":
+        article_classes = "post-content post-content--segments"
     rb2 = risk_blurb_secondary
     if rb2 is None:
         rb2 = (
@@ -559,7 +563,7 @@ def build_post_html(
     <main class="main-content">
         <div class="container">
             <div class="card">
-                <article class="post-content">
+                <article class="{article_classes}">
                     <h1>{html.escape(title_emoji)} {tzh}<br><small class="title-en">{ten}</small></h1>
 {banner}{paras_html}
                 </article>

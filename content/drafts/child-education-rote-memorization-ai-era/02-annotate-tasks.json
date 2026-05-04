@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "child-education-rote-memorization-ai-era",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/001.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/001.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/002.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/002.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 2,
+      "source_text": "笔记侠（Notesman）。",
+      "html": "<p>笔记侠（Notesman）。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "你还在逼孩子背古诗、刷奥数、默写英语单词？",
+      "html": "<p>你还在逼孩子背古诗、刷奥数、默写英语单词？</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "这些东西，AI做得比孩子好一万倍。",
+      "html": "<p>这些<span class=\"word-annot\"><span class=\"word-anchor\">东西</span><span class=\"word-block\"><span class=\"english-word\">clay</span><span class=\"word-info\">[kleɪ] n. [土壤] 粘土；泥土；肉体；似黏土的东西</span></span></span>，AI做得比孩子好一万倍。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "早在2023年3月，GPT-4就以超越90%考生的成绩通过了美国律师资格考试（Bar Exam）。",
+      "html": "<p>早在2023年3月，GPT-4就以超越90%考生的成绩<span class=\"word-annot\"><span class=\"word-anchor\">通过</span><span class=\"word-block\"><span class=\"english-word\">approve</span><span class=\"word-info\">[əˈpruv] v. 批准，通过；(of)赞成，赞许，同意</span></span></span>了美国律师资格考试（Bar Exam）。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "这不叫碾压，什么叫碾压？而且，它顺便还把美国执业医师考试、沃顿商学院MBA考试、注册会计师考试……这些公认最难啃的骨头，全给啃下来了。",
+      "html": "<p>这不叫碾压，什么叫碾压？而且，它顺便还把美国执业医师考试、沃顿商学院MBA考试、注册<span class=\"word-annot\"><span class=\"word-anchor\">会计师</span><span class=\"word-block\"><span class=\"english-word\">accountant</span><span class=\"word-info\">[əˈkaʊntənt] n. 会计人员，会计师</span></span></span>考试……这些公认最难啃的骨头，全给啃下来了。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "这意味着什么？扎心一点说，你花20年让孩子死记硬背的那点知识，AI一秒钟就能检索完毕。",
+      "html": "<p>这<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">spell</span><span class=\"word-info\">[spɛl] v. 拼，拼写；意味着；招致；拼成；迷住；轮值</span></span></span>什么？扎心<span class=\"word-annot\"><span class=\"word-anchor\">一点</span><span class=\"word-block\"><span class=\"english-word\">epoch</span><span class=\"word-info\">[ˈɛpək] n. [地质] 世；新纪元；新时代；时间上的一点</span></span></span>说，你花20年让孩子死记硬背的那点知识，AI一秒钟就能检索完毕。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "当专业知识不再是稀缺资源时，我们还在用「知识囤积」的方式培养下一代，这不是勤奋，这是彻头彻尾的战略失误。",
+      "html": "<p>当专业知识不再是稀缺资源时，我们还在用「知识囤积」的<span class=\"word-annot\"><span class=\"word-anchor\">方式</span><span class=\"word-block\"><span class=\"english-word\">alike</span><span class=\"word-info\">[əˈlaɪk] adv. 以同样的方式；类似于</span></span></span>培养下一代，这不是勤奋，这是彻头彻尾的战略失误。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "在AI时代，对孩子「放养」，可能才是真正高明的打法。",
+      "html": "<p>在AI时代，对孩子「放养」，可能才是真正<span class=\"word-annot\"><span class=\"word-anchor\">高明的</span><span class=\"word-block\"><span class=\"english-word\">crack</span><span class=\"word-info\">[kræk] adj. 最好的；高明的</span></span></span>打法。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "一、知识垄断已死：",
+      "html": "<p>一、知识<span class=\"word-annot\"><span class=\"word-anchor\">垄断</span><span class=\"word-block\"><span class=\"english-word\">monopoly</span><span class=\"word-info\">[məˈnɑpəli] n. 垄断；独占；专营</span></span></span>已死：</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "AI就是那本终极“百科全书”",
+      "html": "<p>AI就是那本终极“<span class=\"word-annot\"><span class=\"word-anchor\">百科全书</span><span class=\"word-block\"><span class=\"english-word\">encyclopaedia</span><span class=\"word-info\">[ɪnˌsaɪkləˈpidiə] n. 百科全书</span></span></span>”</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "先别急着反驳，我们来正视一个事实：",
+      "html": "<p>先别急着<span class=\"word-annot\"><span class=\"word-anchor\">反驳</span><span class=\"word-block\"><span class=\"english-word\">contradict</span><span class=\"word-info\">[ˌkɑntrəˈdɪkt] v. 反驳；同…矛盾,同…抵触</span></span></span>，我们来正视一个事实：</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "在知识获取这条赛道上，人类已经输了，而且输得非常彻底。",
+      "html": "<p>在知识获取这条赛道上，人类已经输了，而且输得<span class=\"word-annot\"><span class=\"word-anchor\">非常</span><span class=\"word-block\"><span class=\"english-word\">deadly</span><span class=\"word-info\">[ˈdɛdli] adv. 非常；如死一般地</span></span></span>彻底。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "加拿大工程院院士、南方科技大学的孟庆虎教授，在一个教育大会上说了句大实话：",
+      "html": "<p>加拿大工程院院士、南方科技大学的孟庆虎教授，在一个<span class=\"word-annot\"><span class=\"word-anchor\">教育</span><span class=\"word-block\"><span class=\"english-word\">educate</span><span class=\"word-info\">[ˈɛʤəˌkeɪt] v. 教育,培养,训练</span></span></span>大会上说了句大实话：</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "“知识点死记硬背的学习方法，已经完全过时。人工智能可以高效完成所有规律化、标准化的知识处理工作。”",
+      "html": "<p>“知识点死记硬背的学习<span class=\"word-annot\"><span class=\"word-anchor\">方法</span><span class=\"word-block\"><span class=\"english-word\">avenue</span><span class=\"word-info\">[ˈævəˌnu] n. 大街；林荫路；途径，渠道，方法</span></span></span>，已经完全过时。人工智能可以高效完成所有规律化、<span class=\"word-annot\"><span class=\"word-anchor\">标准化</span><span class=\"word-block\"><span class=\"english-word\">normalization</span><span class=\"word-info\">[ˌnɔrməlɪˈzeɪʃən] n. 正常化；标准化；正规化；常态化</span></span></span>的知识处理工作。”</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "他在南科大做了件什么事儿呢？给一年级学生开了一门“不用写代码的编程课”。为什么？因为写代码这种规律性的低级劳动，AI已经能高效完成了。",
+      "html": "<p>他在南科大做了件什么事儿呢？给一年<span class=\"word-annot\"><span class=\"word-anchor\">级学生</span><span class=\"word-block\"><span class=\"english-word\">junior</span><span class=\"word-info\">[ˈʤunjər] n. 年少者，晚辈；地位较低者；大学三年级学生</span></span></span>开了一门“不用写代码的编程课”。为什么？因为写代码这种规律性的低级劳动，AI已经能高效<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>了。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "未来的教育，应该聚焦在培养学生驾驭AI、整合资源为己所用的核心能力上。",
+      "html": "<p>未来的教育，应该聚焦在培养学生驾驭AI、整合资源为己所用的核心<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>上。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/003.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/003.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 19,
+      "source_text": "这不是未来学家的预言，这是正在发生的现实：",
+      "html": "<p>这不是未来学家的预言，这是正在<span class=\"word-annot\"><span class=\"word-anchor\">发生</span><span class=\"word-block\"><span class=\"english-word\">contemporary</span><span class=\"word-info\">[kənˈtɛmpərˌɛri] adj. 现代的,当代的；发生[存在]于同一时代的</span></span></span>的现实：</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "ChatGPT-3.5就已经能通过美国医学执照考试了；",
+      "html": "<p>ChatGPT-3.5就已经能通过美国医学<span class=\"word-annot\"><span class=\"word-anchor\">执照</span><span class=\"word-block\"><span class=\"english-word\">certificate</span><span class=\"word-info\">[sərˈtɪfɪkət] n. 证(明)书,执照</span></span></span>考试了；</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "GPT-4更狠，直接拿下了公认最难的注册会计师考试。",
+      "html": "<p>GPT-4更狠，直接拿下了公认最难的注册会计师<span class=\"word-annot\"><span class=\"word-anchor\">考试</span><span class=\"word-block\"><span class=\"english-word\">examine</span><span class=\"word-info\">[ɪgˈzæmɪn] v. 检查；调查； 检测；考试</span></span></span>。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "谷歌三级软件工程师面试，年薪18.3万美元的岗位，它也一样搞定。",
+      "html": "<p>谷歌三级软件工程师面试，年薪18.3万美元的岗位，它也一样搞定。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "你看，当AI都能通过所有专业考试了，你逼孩子拼命刷题的意义在哪儿？就是为了培养出一个比AI慢一万倍、还时不时出点小错的“知识容器”吗？",
+      "html": "<p>你看，当AI都能通过所有专业<span class=\"word-annot\"><span class=\"word-anchor\">考试</span><span class=\"word-block\"><span class=\"english-word\">mock</span><span class=\"word-info\">[mɑk] n. 英国模拟考试（mocks）</span></span></span>了，你逼孩子拼命刷题的意义在哪儿？就是为了培养出一个比AI慢一万倍、还时不时出点小错的“知识<span class=\"word-annot\"><span class=\"word-anchor\">容器</span><span class=\"word-block\"><span class=\"english-word\">bin</span><span class=\"word-info\">[bɪn] n. 箱子，容器；二进制</span></span></span>”吗？</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "二、芬兰和蒙台梭利，",
+      "html": "<p>二、芬兰和蒙台梭利，</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "其实早就告诉了我们答案",
+      "html": "<p>其实早就<span class=\"word-annot\"><span class=\"word-anchor\">告诉</span><span class=\"word-block\"><span class=\"english-word\">inform</span><span class=\"word-info\">[ˌɪnˈfɔrm] v. (of,about)通知,告诉,报告</span></span></span>了我们答案</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "有意思的是，在AI还没爆发的年代，“放养式教育”就已经赢了。我给你讲两个“反内卷”的经典案例。",
+      "html": "<p>有意思的是，在AI还没<span class=\"word-annot\"><span class=\"word-anchor\">爆发</span><span class=\"word-block\"><span class=\"english-word\">burst</span><span class=\"word-info\">[bərst] v. 爆发，突发；爆炸</span></span></span>的年代，“放养式教育”就已经赢了。我给你讲两个“反内卷”的经典案例。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "案例一：芬兰——作业最少，成绩却数一数二",
+      "html": "<p>案例一：芬兰——<span class=\"word-annot\"><span class=\"word-anchor\">作业</span><span class=\"word-block\"><span class=\"english-word\">assignment</span><span class=\"word-info\">[əˈsaɪnmənt] n. 任务；作业</span></span></span>最少，成绩却数一数二</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "芬兰的孩子每天花在作业上的时间不到1小时，而在玩耍和兴趣上的时间超过3小时。",
+      "html": "<p>芬兰的孩子每天花在作业上的时间不到1小时，而在玩耍和兴趣上的时间<span class=\"word-annot\"><span class=\"word-anchor\">超过</span><span class=\"word-block\"><span class=\"english-word\">exceed</span><span class=\"word-info\">[ɪkˈsid] v. 超过,胜过；越出 (限制、规定)</span></span></span>3小时。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "结果呢？芬兰学生在PISA（国际学生评估项目）的阅读、数学、科学评比中，连续多年名列前茅，创新力和竞争力更是高居世界榜首。这个仅500多万人口的小国，大学教育普及率极高。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">consequence</span><span class=\"word-info\">[ˈkɑnsəkwəns] n. 结果,后果,影响</span></span></span>呢？芬兰学生在PISA（国际学生<span class=\"word-annot\"><span class=\"word-anchor\">评估</span><span class=\"word-block\"><span class=\"english-word\">appraisal</span><span class=\"word-info\">[əˈpreɪzəl] n. 对...作出的评价；评价，鉴定，评估</span></span></span>项目）的阅读、数学、科学评比中，连续多年名列前茅，创新力和竞争力更是高居世界榜首。这个仅500多万人口的小国，大学教育<span class=\"word-annot\"><span class=\"word-anchor\">普及</span><span class=\"word-block\"><span class=\"english-word\">generalize</span><span class=\"word-info\">[ˈʤɛnərəˌlaɪz] v. (generalise)归纳,概括；推广,普及</span></span></span>率极高。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "你看，3小时对14小时，多出来的那11个小时，芬兰孩子用来干嘛？用来“浪费时间”。",
+      "html": "<p>你看，3<span class=\"word-annot\"><span class=\"word-anchor\">小时</span><span class=\"word-block\"><span class=\"english-word\">knot</span><span class=\"word-info\">[nɑt] n. （绳等的）结；节瘤，疙瘩；海里/小时（航速单位）</span></span></span>对14小时，多出来的那11个小时，芬兰孩子用来干嘛？用来“<span class=\"word-annot\"><span class=\"word-anchor\">浪费</span><span class=\"word-block\"><span class=\"english-word\">dissipate</span><span class=\"word-info\">[ˈdɪsəˌpeɪt] v. 浪费；使…消散</span></span></span>时间”。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "而恰恰是这种看似浪费的时间，成了激发创造力和独立思考的土壤。",
+      "html": "<p>而恰恰是这种看似浪费的时间，成了激发<span class=\"word-annot\"><span class=\"word-anchor\">创造</span><span class=\"word-block\"><span class=\"english-word\">coin</span><span class=\"word-info\">[kɔɪn] v. 铸造（货币）；杜撰，创造</span></span></span>力和独立思考的土壤。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/004.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/004.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 33,
+      "source_text": "芬兰教育部长的回答简洁到令人震撼：秘诀就是没有家庭作业。孩子们应该有更多时间去成为孩子，去和朋友玩耍，去陪伴家人，去做运动，去听听音乐，读读书。",
+      "html": "<p>芬兰教育部长的回答<span class=\"word-annot\"><span class=\"word-anchor\">简洁</span><span class=\"word-block\"><span class=\"english-word\">compact</span><span class=\"word-info\">[ˈkɑmpækt] v. 使简洁；使紧密结合</span></span></span>到令人震撼：秘诀就是没有家庭作业。孩子们应该有更多时间去成为孩子，去和朋友玩耍，去<span class=\"word-annot\"><span class=\"word-anchor\">陪伴</span><span class=\"word-block\"><span class=\"english-word\">accompany</span><span class=\"word-info\">[əˈkəmpəni] v. 陪伴，陪同,伴随；伴奏</span></span></span>家人，去做运动，去听听音乐，读读书。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "案例二：蒙台梭利——自主选择，自主成长",
+      "html": "<p>案例二：蒙台梭利——自主<span class=\"word-annot\"><span class=\"word-anchor\">选择</span><span class=\"word-block\"><span class=\"english-word\">elect</span><span class=\"word-info\">[ɪˈlɛkt] v. 选举,推选；选择,作出选择</span></span></span>，自主成长</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "蒙台梭利教育的核心理念是“以儿童为中心”：不是老师灌输知识，而是给孩子一个精心设计的环境，让他们自主选择、自主探索。",
+      "html": "<p>蒙台梭利教育的核心理念是“以儿童为中心”：不是老师灌输知识，而是给孩子一个精心设<span class=\"word-annot\"><span class=\"word-anchor\">计的</span><span class=\"word-block\"><span class=\"english-word\">centigrade</span><span class=\"word-info\">[ˈsɛntəˌgreɪd] adj. 摄氏温度计的;摄氏的</span></span></span>环境，让他们自主选择、自主探索。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "研究结果很明确：和接受传统教育的孩子相比，接受蒙氏教育的孩子，在语言表达、团队合作以及后续学习方面，表现都更优越。他们在家更勤劳，在公共场合更礼貌大方。",
+      "html": "<p>研究结果很明确：和<span class=\"word-annot\"><span class=\"word-anchor\">接受</span><span class=\"word-block\"><span class=\"english-word\">acceptance</span><span class=\"word-info\">[əkˈsɛptəns] n. 正式接受；接纳；接受，赞同，赞成，认可</span></span></span>传统教育的孩子相比，接受蒙氏教育的孩子，在语言表达、团队合作以及后续学习方面，表现都更优越。他们在家更勤劳，在公共<span class=\"word-annot\"><span class=\"word-anchor\">场合</span><span class=\"word-block\"><span class=\"english-word\">occasion</span><span class=\"word-info\">[əˈkeɪʒən] n. 时机，机会；场合；理由</span></span></span>更礼貌大方。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/005.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/005.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 38,
+      "source_text": "蒙台梭利教育的精髓，不是“不管”，而是提供“有准备的环境”：",
+      "html": "<p>蒙台梭利教育的精髓，不是“不管”，而是提供“有<span class=\"word-annot\"><span class=\"word-anchor\">准备</span><span class=\"word-block\"><span class=\"english-word\">formulate</span><span class=\"word-info\">[ˈfɔːmjuleɪt] v. 规划；制定；准备；仔细思考并明确表达</span></span></span>的环境”：</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "丰富的教具、自由的节奏、加上教师的观察和引导。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">丰富的</span><span class=\"word-block\"><span class=\"english-word\">abundant</span><span class=\"word-info\">[əˈbəndənt] adj. 丰富的；充裕的；盛产</span></span></span>教具、自由的节奏、加上教师的观察和引导。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "孩子拼图卡住了，老师不是直接告诉他怎么拼，而是用一个鼓励的眼神，让他自己再试试。这种“做中学”，是让孩子在实践中理解知识，而不是单纯靠死记硬背。",
+      "html": "<p>孩子拼图卡住了，老师不是直接告诉他怎么拼，而是用一个<span class=\"word-annot\"><span class=\"word-anchor\">鼓励</span><span class=\"word-block\"><span class=\"english-word\">arouse</span><span class=\"word-info\">[əraʊz] v. 引起；唤醒；鼓励</span></span></span>的眼神，让他自己再试试。这种“做中学”，是让孩子在实践中<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>知识，而不是单纯靠死记硬背。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "三、AI时代，",
+      "html": "<p>三、AI时代，</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "“放养”为什么从“可选项”变成了“必选项”？",
+      "html": "<p>“放养”为什么从“可选项”变成了“必选项”？</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "“放养”在工业时代，可能只是教育理念的一种浪漫选择；但到了Agent时代，它会是关乎生存的必须。原因有三。",
+      "html": "<p>“放养”在工业时代，<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">likelihood</span><span class=\"word-info\">[ˈlaɪkliˌhʊd] n. 可能性，可能</span></span></span>只是教育理念的一种浪漫选择；但到了Agent时代，它会是关乎生存的必须。原因有三。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "原因一：AI替代的是“知识型人”，留下的都是“自主型人”",
+      "html": "<p>原因一：AI<span class=\"word-annot\"><span class=\"word-anchor\">替代</span><span class=\"word-block\"><span class=\"english-word\">substitute</span><span class=\"word-info\">[ˈsəbstəˌtut] v. 替代</span></span></span>的是“知识型人”，留下的都是“自主型人”</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "AI最擅长什么？回答问题、检索信息、执行标准化流程。你花十年让孩子变成一个“会回答问题的人”，但AI一秒钟能回答一百个问题。",
+      "html": "<p>AI最<span class=\"word-annot\"><span class=\"word-anchor\">擅长</span><span class=\"word-block\"><span class=\"english-word\">excel</span><span class=\"word-info\">[ɪkˈsɛl] v. 超过；擅长</span></span></span>什么？回答问题、检索信息、<span class=\"word-annot\"><span class=\"word-anchor\">执行</span><span class=\"word-block\"><span class=\"english-word\">administer</span><span class=\"word-info\">[ədˈmɪnɪstər] v. 管理；执行；给予</span></span></span>标准化流程。你花十年让孩子变成一个“会回答问题<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">athlete</span><span class=\"word-info\">[ˈæθˌlit] n. 运动员，体育家；身强力壮的人</span></span></span>”，但AI一秒钟能回答一百个问题。</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "那AI最不擅长什么？定义问题、跨界连接、感受情绪、在模糊地带做判断。",
+      "html": "<p>那AI最不擅长什么？定义问题、跨界连接、感受情绪、在模糊<span class=\"word-annot\"><span class=\"word-anchor\">地带</span><span class=\"word-block\"><span class=\"english-word\">belt</span><span class=\"word-info\">[bɛlt] n. 带；腰带；地带</span></span></span>做判断。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "这些能力的培养，恰恰需要“放养”，让孩子去自由探索、自主试错、自己去发现问题。",
+      "html": "<p>这些能力的<span class=\"word-annot\"><span class=\"word-anchor\">培养</span><span class=\"word-block\"><span class=\"english-word\">cultivate</span><span class=\"word-info\">[ˈkʌltɪveɪt] vt. 耕作， 栽培； 养殖；培养， 教养； 磨炼</span></span></span>，恰恰需要“放养”，让孩子去自由探索、自主试错、自己去发现问题。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "哈佛大学的李钧雷教授曾经问过ChatGPT一个问题：“人类学者能做的，而你永远做不到的是什么？”系统的回答是：“我没有身体，我无法感受……我们需要能感受的人类，因为我不能。”",
+      "html": "<p>哈佛大学的李钧雷教授曾经问过ChatGPT一个问题：“<span class=\"word-annot\"><span class=\"word-anchor\">人类</span><span class=\"word-block\"><span class=\"english-word\">humanity</span><span class=\"word-info\">[juˈmænɪti] n. 人类；人性,人情；(pl.)人文科学</span></span></span>学者能做的，而你永远做不到的是什么？”<span class=\"word-annot\"><span class=\"word-anchor\">系统的</span><span class=\"word-block\"><span class=\"english-word\">systematic</span><span class=\"word-info\">[ˌsɪstəˈmætɪk] adj. (al)系统的,有组织的</span></span></span>回答是：“我没有身体，我无法感受……我们需要能感受的人类，因为我不能。”</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "感受力、判断力、定义问题的能力，这些不是靠刷题刷出来的，是在自由的探索里生长出来的。",
+      "html": "<p>感受力、<span class=\"word-annot\"><span class=\"word-anchor\">判断力</span><span class=\"word-block\"><span class=\"english-word\">judgement</span><span class=\"word-info\">[ˈʤəʤmənt] n. 意见；判断力；[法] 审判；评价</span></span></span>、定义问题的能力，这些不是靠刷题刷出来的，是在自由的探索里生长出来的。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "原因二：过度管控培养的是“标准答案思维”，而AI时代没有标准答案",
+      "html": "<p>原因二：过度管控培养的是“<span class=\"word-annot\"><span class=\"word-anchor\">标准</span><span class=\"word-block\"><span class=\"english-word\">criterion</span><span class=\"word-info\">[kraɪˈtɪriən] n. (pl.criteria或s)标准，尺度</span></span></span>答案思维”，而AI时代没有标准答案</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "传统教育的底层逻辑是：所有问题都有标准答案，你背下来就行。考试无非就是验证你背得对不对。",
+      "html": "<p>传统教育的底层逻辑是：所有问题都有标准答案，你背<span class=\"word-annot\"><span class=\"word-anchor\">下来</span><span class=\"word-block\"><span class=\"english-word\">descend</span><span class=\"word-info\">[dɪˈsɛnd] v. 下降；下去；下来；遗传；屈尊</span></span></span>就行。考试无非就是<span class=\"word-annot\"><span class=\"word-anchor\">验证</span><span class=\"word-block\"><span class=\"english-word\">validate</span><span class=\"word-info\">[ˈvælɪdeɪt] v. 验证</span></span></span>你背得对不对。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/006.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/006.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 53,
+      "source_text": "但在AI时代，所有有标准答案的事，AI全包了。",
+      "html": "<p>但在AI时代，所有有标准答案<span class=\"word-annot\"><span class=\"word-anchor\">的事</span><span class=\"word-block\"><span class=\"english-word\">anxiety</span><span class=\"word-info\">[æŋˈzaɪəti] n. 焦虑；渴望；挂念；令人焦虑的事</span></span></span>，AI全包了。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "留给人类的，恰恰是那些没有标准答案的问题：这个方向值得探索吗？这个结果真的可信吗？在不确定的情况下，是该做A还是做B？",
+      "html": "<p>留给人类的，恰恰是那些没有标准答案的问题：这个方向值得<span class=\"word-annot\"><span class=\"word-anchor\">探索</span><span class=\"word-block\"><span class=\"english-word\">explore</span><span class=\"word-info\">[ɪkˈsplɔr] v. 探索；探测；探险</span></span></span>吗？这个<span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">consequently</span><span class=\"word-info\">[ˈkɑnsəkˌwɛntli] adv. 结果，因此，所以</span></span></span>真的可信吗？在不<span class=\"word-annot\"><span class=\"word-anchor\">确定</span><span class=\"word-block\"><span class=\"english-word\">ascertain</span><span class=\"word-info\">[ˌæsərˈteɪn] v. 确定，查明，弄清</span></span></span>的情况下，是该做A还是做B？</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "你看，定义问题的能力，根本上来自好奇心。",
+      "html": "<p>你看，定义问题的能力，根本上来自<span class=\"word-annot\"><span class=\"word-anchor\">好奇心</span><span class=\"word-block\"><span class=\"english-word\">curiosity</span><span class=\"word-info\">[ˌkjʊriˈɑsəti] n. 好奇心；古董,古玩</span></span></span>。</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "好奇心不是被规划出来的，是在自由的环境里自发产生的。你把孩子的时间表排得密不透风，他连发个呆、走个神的机会都没有，好奇心要从哪里长出来？",
+      "html": "<p>好奇心不是被规划出来的，是在自由的环境里自发<span class=\"word-annot\"><span class=\"word-anchor\">产生</span><span class=\"word-block\"><span class=\"english-word\">breed</span><span class=\"word-info\">[brid] v. 繁殖；饲养；产生</span></span></span>的。你把孩子的时间表排得密不透风，他连发个呆、走个<span class=\"word-annot\"><span class=\"word-anchor\">神的</span><span class=\"word-block\"><span class=\"english-word\">sacred</span><span class=\"word-info\">[ˈseɪkrɪd] adj. 神的；神圣的；宗教的；庄严的</span></span></span>机会都没有，好奇心要从哪里长出来？</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "原因三：“圈养”出来的孩子，跟AI竞争没有任何差异化优势",
+      "html": "<p>原因三：“圈养”出来的孩子，跟AI竞争没有任何<span class=\"word-annot\"><span class=\"word-anchor\">差异化</span><span class=\"word-block\"><span class=\"english-word\">differentiation</span><span class=\"word-info\">[ˌdɪfərenʃiˈeɪʃn] n. 差异化</span></span></span>优势</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "只有差异化，才能产生溢价。",
+      "html": "<p>只有<span class=\"word-annot\"><span class=\"word-anchor\">差异</span><span class=\"word-block\"><span class=\"english-word\">discrepancy</span><span class=\"word-info\">[dɪˈskrɛpənsi] n. 差异,不符</span></span></span>化，才能产生溢价。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "如果你的孩子和AI的能力高度重叠，都会答题、都懂知识、都能执行标准化任务，那对不起，你的孩子在就业市场上，就是AI的一个廉价替代品，而且还是劣势替代品，因为AI更快、更准、更便宜。",
+      "html": "<p>如果你的孩子和AI的能力高度重叠，都会答题、都懂知识、都能执行标准化任务，那对不起，你的孩子在就业市场上，就是AI的一个廉价替代品，而且还是劣势替代品，因为AI更快、更准、<span class=\"word-annot\"><span class=\"word-anchor\">更便宜</span><span class=\"word-block\"><span class=\"english-word\">cheaper</span><span class=\"word-info\">[ˈtʃiːpə] adj. 更便宜</span></span></span>。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/007.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/007.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 61,
+      "source_text": "真正的差异化优势是什么？",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>差异化优势是什么？</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "是AI做不了的那些事：",
+      "html": "<p>是AI做不了的那些事：</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "提出一个新问题、感受他人的情绪、在高度不确定中做决策、跨领域建立连接。",
+      "html": "<p>提出一个新问题、感受他人的情绪、在<span class=\"word-annot\"><span class=\"word-anchor\">高度</span><span class=\"word-block\"><span class=\"english-word\">altitude</span><span class=\"word-info\">[ˈæltɪtjuːd] n. 高度， 海拔</span></span></span>不确定中做决策、跨领域建立连接。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "这些能力的培养路径，恰恰跟传统的“圈养”式教育反着来。你需要给孩子留白，给他空间去无聊、去走点弯路、去犯点错、去发现自己真正感兴趣的东西。",
+      "html": "<p>这些能力的培养路径，恰恰跟<span class=\"word-annot\"><span class=\"word-anchor\">传统的</span><span class=\"word-block\"><span class=\"english-word\">classical</span><span class=\"word-info\">[ˈklæsɪkəl] adj. 古典的；经典的；传统的；第一流的</span></span></span>“圈养”式教育反着来。你需要给孩子留白，给他空间去无聊、去走点弯路、去犯点错、去发现自己真正感兴趣<span class=\"word-annot\"><span class=\"word-anchor\">的东西</span><span class=\"word-block\"><span class=\"english-word\">disguise</span><span class=\"word-info\">[dɪsˈgaɪz] n. 伪装；假装；用作伪装的东西</span></span></span>。</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "四、放养不是放任：",
+      "html": "<p>四、放养不是<span class=\"word-annot\"><span class=\"word-anchor\">放任</span><span class=\"word-block\"><span class=\"english-word\">abandon</span><span class=\"word-info\">[əˈbændən] n. 放任；狂热</span></span></span>：</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "给你三个可以落地的方法论",
+      "html": "<p>给你三个可以落地的<span class=\"word-annot\"><span class=\"word-anchor\">方法</span><span class=\"word-block\"><span class=\"english-word\">recipe</span><span class=\"word-info\">[ˈrɛsəpi] n. 烹饪法,食谱；诀窍,方法</span></span></span>论</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "说到这里，我必须澄清一下：放养绝不等于放任。放养，是给孩子足够的自主空间；放任，是丢给他一个手机就不管了。差别大了去了。",
+      "html": "<p>说到这里，我必须<span class=\"word-annot\"><span class=\"word-anchor\">澄清</span><span class=\"word-block\"><span class=\"english-word\">clarify</span><span class=\"word-info\">[ˈklɛrəˌfaɪ] v. 澄清；阐明</span></span></span>一下：放养绝不等于放任。放养，是给孩子<span class=\"word-annot\"><span class=\"word-anchor\">足够的</span><span class=\"word-block\"><span class=\"english-word\">adequate</span><span class=\"word-info\">[ˈædəkˌweɪt] adj. 充足的，足够的</span></span></span>自主空间；<span class=\"word-annot\"><span class=\"word-anchor\">放任</span><span class=\"word-block\"><span class=\"english-word\">loose</span><span class=\"word-info\">[lus] n. 放纵；放任；发射</span></span></span>，是丢给他一个手机就不管了。<span class=\"word-annot\"><span class=\"word-anchor\">差别</span><span class=\"word-block\"><span class=\"english-word\">contrast</span><span class=\"word-info\">[ˈkɑntræst] n. 对比；差别；对照物</span></span></span>大了去了。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "方法论一：提供有准备的环境，而不是规定必须走的路径",
+      "html": "<p>方法论一：<span class=\"word-annot\"><span class=\"word-anchor\">提供</span><span class=\"word-block\"><span class=\"english-word\">furnish</span><span class=\"word-info\">[ˈfərnɪʃ] v. 供应,提供；装备,布置</span></span></span>有准备的环境，而不是规定必须走的路径</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "蒙台梭利的核心不是“不管孩子”，而是“精心设计环境，让孩子在环境里自主探索”。",
+      "html": "<p>蒙台梭利的核心不是“不管孩子”，而是“精心<span class=\"word-annot\"><span class=\"word-anchor\">设计</span><span class=\"word-block\"><span class=\"english-word\">contrive</span><span class=\"word-info\">[kənˈtraɪv] v. 设计；发明；图谋</span></span></span>环境，让孩子在环境里自主探索”。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "谷歌那个著名的“20%时间”制度，也是一样的逻辑。",
+      "html": "<p>谷歌那个<span class=\"word-annot\"><span class=\"word-anchor\">著名的</span><span class=\"word-block\"><span class=\"english-word\">notable</span><span class=\"word-info\">[ˈnoʊtəbəl] adj. 值得注意的，显著的；著名的</span></span></span>“20%时间”制度，也是一样的逻辑。</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "不是让员工随便摸鱼，而是提供资源和空间，让他们在自己感兴趣的领域里瞎折腾。",
+      "html": "<p>不是让员工随便摸鱼，而是提供资源和空间，让他们在自己感兴趣的<span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[dəʊˈmeɪn] n. (活动,思想等)领域,范围；领地</span></span></span>里瞎折腾。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "你看，Gmail的诞生，源于一个工程师对邮件系统的改进想法。",
+      "html": "<p>你看，Gmail的诞生，源于一个工程师对邮件系统的<span class=\"word-annot\"><span class=\"word-anchor\">改进</span><span class=\"word-block\"><span class=\"english-word\">amend</span><span class=\"word-info\">[əˈmɛnd] v. 修改；改善，改进</span></span></span>想法。</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "他利用20%的业余时间，做着做着，最终做出了一个全球月活超过18亿的邮件产品。这能是上级规划出来的吗？规划不出来。这是自主探索的涌现。",
+      "html": "<p>他<span class=\"word-annot\"><span class=\"word-anchor\">利用</span><span class=\"word-block\"><span class=\"english-word\">harness</span><span class=\"word-info\">[ˈhɑrnɪs] v. 治理；套；驾驭；披上甲胄；利用</span></span></span>20%的业余时间，做着做着，最终做出了一个全球月活超过18亿的邮件产品。这能是上级<span class=\"word-annot\"><span class=\"word-anchor\">规划</span><span class=\"word-block\"><span class=\"english-word\">chalk</span><span class=\"word-info\">[ʧɔk] v. 用粉笔写；用白垩粉擦；记录；规划</span></span></span>出来的吗？规划不出来。这是自主<span class=\"word-annot\"><span class=\"word-anchor\">探索</span><span class=\"word-block\"><span class=\"english-word\">grope</span><span class=\"word-info\">[groʊp] v. 摸索；探索</span></span></span>的涌现。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "孩子的教育也一样。你规划不出一个有创造力的孩子，但你可以创造出一个能长出创造力的环境。",
+      "html": "<p>孩子的教育也一样。你规划不出一个<span class=\"word-annot\"><span class=\"word-anchor\">有创造力</span><span class=\"word-block\"><span class=\"english-word\">imaginative</span><span class=\"word-info\">[ˌɪˈmæʤənətɪv] adj. 富于想象的；有创造力的</span></span></span>的孩子，但你可以创造出一个能长出创造力的环境。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/008.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/008.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 76,
+      "source_text": "方法论二：拼命培养提问能力，而不是答题能力",
+      "html": "<p>方法论二：拼命培养提问<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">faculty</span><span class=\"word-info\">[ˈfækəlti] n. 科，系；能力；全体教员</span></span></span>，而不是答题能力</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "AI时代，会答题的人不值钱，会提问的人才值钱。",
+      "html": "<p>AI时代，会答题<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">beast</span><span class=\"word-info\">[bist] n. 兽， 牲畜 ；凶残的人； 举止粗鲁的人</span></span></span>不值钱，会提问的人才值钱。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "孟庆虎院士说得非常清楚：未来教育的核心，是培养学生“提出问题、拆解问题、梳理逻辑并逼近真相”的能力。",
+      "html": "<p>孟庆虎院士说得非常<span class=\"word-annot\"><span class=\"word-anchor\">清楚</span><span class=\"word-block\"><span class=\"english-word\">clarity</span><span class=\"word-info\">[ˈklærəti] n. 清楚，明晰；透明</span></span></span>：未来教育的核心，是培养学生“提出问题、拆解问题、梳理逻辑并逼近真相”的能力。</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "南科大开的“不用写代码的编程课”，教的不是编程语法，而是怎么用AI这个工具去解决问题。",
+      "html": "<p>南科大开的“不用写代码的编程课”，教的不是编程语法，而是怎么用AI这个<span class=\"word-annot\"><span class=\"word-anchor\">工具</span><span class=\"word-block\"><span class=\"english-word\">gear</span><span class=\"word-info\">[gɪr] n. 齿轮；装置，工具；传动装置</span></span></span>去解决问题。</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "怎么培养提问能力？很简单，少给点标准答案，多问一句“你怎么看？”。",
+      "html": "<p>怎么<span class=\"word-annot\"><span class=\"word-anchor\">培养</span><span class=\"word-block\"><span class=\"english-word\">foster</span><span class=\"word-info\">[ˈfɑstər] v. 培养；养育，抚育；抱（希望等）</span></span></span>提问能力？很简单，少给点<span class=\"word-annot\"><span class=\"word-anchor\">标准</span><span class=\"word-block\"><span class=\"english-word\">norm</span><span class=\"word-info\">[nɔrm] n. 标准，规范</span></span></span>答案，多问一句“你怎么看？”。</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "当孩子问你“为什么天是蓝的”，别急着当一个行走的百科全书，先反问他：“你觉得呢？”这个让孩子自己思考的过程，比那个正确答案重要一百倍。",
+      "html": "<p>当孩子问你“为什么天是蓝的”，别急着当一个行走的<span class=\"word-annot\"><span class=\"word-anchor\">百科全书</span><span class=\"word-block\"><span class=\"english-word\">encyclopedia</span><span class=\"word-info\">[ɪnˌsaɪkləˈpidiə] n. 百科全书（亦是encyclopaedia）</span></span></span>，先反问他：“你觉得呢？”这个让孩子自己思考的过程，比那个<span class=\"word-annot\"><span class=\"word-anchor\">正确</span><span class=\"word-block\"><span class=\"english-word\">accuracy</span><span class=\"word-info\">[ˈækjərəsi] n. 正确，准确；准确性；精确度</span></span></span>答案重要一百倍。</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "方法论三：允许孩子“浪费”时间，保护好那份“无用”的好奇心",
+      "html": "<p>方法论三：<span class=\"word-annot\"><span class=\"word-anchor\">允许</span><span class=\"word-block\"><span class=\"english-word\">consent</span><span class=\"word-info\">[kənˈsɛnt] v. (to)同意，允许</span></span></span>孩子“浪费”时间，保护好那份“无用”的好奇心</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "芬兰教育的核心智慧，我反复提，就是「允许孩子浪费时间」。那些看起来什么正事儿都没干的下午，可能恰恰是孩子在脑海里重新组合这个世界的过程。",
+      "html": "<p>芬兰教育的核心智慧，我反复提，就是「允许孩子<span class=\"word-annot\"><span class=\"word-anchor\">浪费</span><span class=\"word-block\"><span class=\"english-word\">idle</span><span class=\"word-info\">[ˈaɪdəl] vt. 浪费， 虚度</span></span></span>时间」。那些看起来什么正事儿都没干的下午，可能恰恰是孩子在脑海里重新组合这个<span class=\"word-annot\"><span class=\"word-anchor\">世界的</span><span class=\"word-block\"><span class=\"english-word\">universal</span><span class=\"word-info\">[ˌjunəˈvərsəl] adj. 全体的,宇宙的,世界的；普遍的，通用的</span></span></span>过程。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/009.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/009.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 85,
+      "source_text": "据传爱因斯坦说过这样一句话：",
+      "html": "<p>据传爱因斯坦说过这样一句话：</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "“我不是特别聪明，我只是比一般人更长久地停留在问题上。”",
+      "html": "<p>“我不是特别聪明，我只是比一般人更长久地<span class=\"word-annot\"><span class=\"word-anchor\">停留</span><span class=\"word-block\"><span class=\"english-word\">abide</span><span class=\"word-info\">[əˈbaɪd] v. 忍受，容忍；停留；遵守</span></span></span>在问题上。”</p>"
+    },
+    {
+      "index": 87,
+      "source_text": "这种“长久停留”的能力，需要大段的、不被打扰的时间。你把孩子从一个补习班赶到另一个补习班，他永远也没有机会，去“长久停留”在任何一个问题上。",
+      "html": "<p>这种“长久停留”的能力，需要大段的、不被<span class=\"word-annot\"><span class=\"word-anchor\">打扰</span><span class=\"word-block\"><span class=\"english-word\">bother</span><span class=\"word-info\">[ˈbɑðər] v. 烦扰，打扰；使……不安；使……恼怒</span></span></span>的时间。你把孩子从一个补习班赶到另一个补习班，他永远也没有机会，去“长久停留”在<span class=\"word-annot\"><span class=\"word-anchor\">任何</span><span class=\"word-block\"><span class=\"english-word\">whatsoever</span><span class=\"word-info\">[ˌwətsoʊˈɛvər] adv. 任何</span></span></span>一个问题上。</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "所以，保护孩子发呆的权利。那不是浪费时间，那是创造力的孵化器。",
+      "html": "<p>所以，<span class=\"word-annot\"><span class=\"word-anchor\">保护</span><span class=\"word-block\"><span class=\"english-word\">conservation</span><span class=\"word-info\">[ˌkɑnsərˈveɪʃən] n. 保存，保持；保护</span></span></span>孩子发呆的权利。那不是浪费时间，那是创造力的<span class=\"word-annot\"><span class=\"word-anchor\">孵化</span><span class=\"word-block\"><span class=\"english-word\">hatch</span><span class=\"word-info\">[hæʧ] n. 孵化；舱口</span></span></span>器。</p>"
+    },
+    {
+      "index": 89,
+      "source_text": "Agent时代对教育最根本的冲击，不是AI会取代什么具体工作，而是它彻底改写了“究竟什么能力才值钱”这个底层操作系统。",
+      "html": "<p>Agent时代对教育最<span class=\"word-annot\"><span class=\"word-anchor\">根本的</span><span class=\"word-block\"><span class=\"english-word\">fundamental</span><span class=\"word-info\">[ˌfəndəˈmɛnəl] adj. 基本的，根本的</span></span></span>冲击，不是AI会取代什么具体工作，而是它彻底改写了“究竟什么能力才值钱”这个底层操作系统。</p>"
+    },
+    {
+      "index": 90,
+      "source_text": "过去，知识是稀缺的，谁记得多谁就厉害。",
+      "html": "<p>过去，知识是稀缺的，谁<span class=\"word-annot\"><span class=\"word-anchor\">记得</span><span class=\"word-block\"><span class=\"english-word\">recollect</span><span class=\"word-info\">[ˌrɛkəˈlɛkt] v. 回忆,想起,记起,忆起,记得</span></span></span>多谁就厉害。</p>"
+    },
+    {
+      "index": 91,
+      "source_text": "现在，知识是过剩的，AI一秒就能检索到海量信息，记得多再也不是优势。",
+      "html": "<p>现在，知识是<span class=\"word-annot\"><span class=\"word-anchor\">过剩的</span><span class=\"word-block\"><span class=\"english-word\">redundant</span><span class=\"word-info\">[rɪˈdəndənt] adj. 多余的，过剩的；被解雇的，失业的；冗长的，累赘的</span></span></span>，AI一秒就能检索到海量信息，记得多再也不是优势。</p>"
+    },
+    {
+      "index": 92,
+      "source_text": "过去，标准答案是稀缺品，老师是答案的垄断者。",
+      "html": "<p>过去，<span class=\"word-annot\"><span class=\"word-anchor\">标准</span><span class=\"word-block\"><span class=\"english-word\">prototype</span><span class=\"word-info\">[ˈproʊtoʊˌtaɪp] n. 原型；标准，模范</span></span></span>答案是稀缺品，老师是答案的垄断者。</p>"
+    },
+    {
+      "index": 93,
+      "source_text": "现在，AI比任何一位老师都懂得多，知识从“垄断”变成了“共享”。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">presently</span><span class=\"word-info\">[ˈprɛzəntli] adv. 一会儿,不久；现在,目前</span></span></span>，AI比任何一位老师都懂得多，知识从“垄断”变成了“共享”。</p>"
+    },
+    {
+      "index": 94,
+      "source_text": "在这个新逻辑下，“圈养”式教育培养出来的人，和AI的能力高度重叠，在竞争中毫无差异化优势可言。",
+      "html": "<p>在这个新逻辑下，“圈养”式教育培养出来<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">bore</span><span class=\"word-info\">[bɔr] n. 孔；令人讨厌的人</span></span></span>，和AI的能力高度重叠，在竞争中毫无差异化优势可言。</p>"
+    },
+    {
+      "index": 95,
+      "source_text": "而“放养”式教育培养的人，有好奇心、能定义问题、敢在模糊中做判断，这些恰恰是AI无法替代的。",
+      "html": "<p>而“放养”式教育培养<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">bull</span><span class=\"word-info\">[bʊl] n. 公牛；看好股市者；粗壮如牛的人；胡说八道；印玺</span></span></span>，有好奇心、能定义问题、敢在模糊中做判断，这些恰恰是AI无法替代的。</p>"
+    },
+    {
+      "index": 96,
+      "source_text": "![](../images/posts/2026-05-04-child-education-rote-memorization-ai-era/010.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-child-education-rote-memorization-ai-era/010.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 97,
+      "source_text": "芬兰用3小时作业打败了14小时作业。蒙台梭利用自主探索打败了填鸭式灌输。谷歌用20%的自由时间，孵化出了Gmail。",
+      "html": "<p>芬兰用3小时作业打败了14小时作业。蒙台梭<span class=\"word-annot\"><span class=\"word-anchor\">利用</span><span class=\"word-block\"><span class=\"english-word\">shaft</span><span class=\"word-info\">[ʃæft] v. 利用；在……上装杆</span></span></span>自主探索打败了填鸭式灌输。谷歌用20%的<span class=\"word-annot\"><span class=\"word-anchor\">自由</span><span class=\"word-block\"><span class=\"english-word\">liberty</span><span class=\"word-info\">[ˈlɪbərˌti] n. 自由；许可；冒失</span></span></span>时间，孵化出了Gmail。</p>"
+    },
+    {
+      "index": 98,
+      "source_text": "它们的底层逻辑是相通的：给足自主空间，让好东西自己长出来。",
+      "html": "<p>它们的底层<span class=\"word-annot\"><span class=\"word-anchor\">逻辑</span><span class=\"word-block\"><span class=\"english-word\">logic</span><span class=\"word-info\">[ˈlɑʤɪk] n. 逻辑,逻辑学</span></span></span>是相通的：给足自主空间，让好东西自己长出来。</p>"
+    },
+    {
+      "index": 99,
+      "source_text": "在Agent时代，真的别再逼你的孩子去跟AI比记忆力、比答题了。",
+      "html": "<p>在Agent时代，真的别再逼你的孩子去跟AI比<span class=\"word-annot\"><span class=\"word-anchor\">记忆力</span><span class=\"word-block\"><span class=\"english-word\">retention</span><span class=\"word-info\">[riˈtɛnʃən] n. 保留；扣留，滞留；记忆力；闭尿</span></span></span>、比答题了。</p>"
+    },
+    {
+      "index": 100,
+      "source_text": "放养他们，让他们去长出一个AI没有的东西。",
+      "html": "<p>放养他们，让他们去长出一个AI没有<span class=\"word-annot\"><span class=\"word-anchor\">的东西</span><span class=\"word-block\"><span class=\"english-word\">fifty</span><span class=\"word-info\">[ˈfɪfti] n. 五十；五十个；编号为50的东西</span></span></span>。</p>"
+    },
+    {
+      "index": 101,
+      "source_text": "那，才是未来的真正竞争力。",
+      "html": "<p>那，才是未来的真正<span class=\"word-annot\"><span class=\"word-anchor\">竞争</span><span class=\"word-block\"><span class=\"english-word\">compete</span><span class=\"word-info\">[kəmˈpiːt] v. 竞争；争夺，竞争</span></span></span>力。</p>"
+    }
+  ]
+}
