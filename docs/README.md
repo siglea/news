@@ -2,6 +2,16 @@
 
 第一次 clone 仓库建议先读本页，再按角色跳转。
 
+## 📚 文档地图（职能一眼区分）
+
+| 文档 / 目录 | 职能 |
+|-------------|------|
+| **[PIPELINE.md](./PIPELINE.md)** | 四步流水线总览、`mingox` 命令、目录职责、与 harness 无关的约定 |
+| **[SOP.md](./SOP.md)** | 发稿协作与防返工执行清单（claim/审发/抽检/deploy 节奏）；与 PIPELINE 分工见 PIPELINE 文首 |
+| **[EDITORIAL.md](./EDITORIAL.md)** | 版式、首页、外源版权等**编辑规范全文** |
+| **[PREREQUISITES.md](./PREREQUISITES.md)** | 本地环境：Git、Python、Playwright、Node/EdgeOne 等 |
+| **[steps/](./steps/README.md)** | 第 1～4 步**分册**（acquire / annotate / html / publish）命令与细节 |
+
 ## 按角色
 
 | 你是谁 | 建议阅读顺序 |
@@ -16,7 +26,7 @@
 | 文档 | 内容 |
 |------|------|
 | [PIPELINE.md](./PIPELINE.md) | 四步流水线总览、`mingox.py` 入口、**目录职责速查** |
-| [SOP-v1.md](./SOP-v1.md) | 发稿提速与防返工执行清单（先审后发、抽检、回帖模板） |
+| [SOP.md](./SOP.md) | 发稿提速与防返工执行清单（先审后发、抽检、回帖模板） |
 | [steps/README.md](./steps/README.md) | 第 1～4 步文档入口（索引表） |
 | [PREREQUISITES.md](./PREREQUISITES.md) | Git、Python、Playwright、Node/EdgeOne 等 |
 | [EDITORIAL.md](./EDITORIAL.md) | 版式与版权等**编辑规范全文** |

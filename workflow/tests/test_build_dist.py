@@ -7,7 +7,7 @@ import subprocess
 import unittest
 from pathlib import Path
 
-WORKFLOW = Path(__file__).resolve().parent
+WORKFLOW = Path(__file__).resolve().parent.parent
 ROOT = WORKFLOW.parent
 DIST = ROOT / "dist"
 SCRIPT = ROOT / "tools" / "build_dist.sh"
