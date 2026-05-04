@@ -1,9 +1,10 @@
-"""微信正文 HTML 中的配图发现与下载（MVP：文末图集，落盘到 images/posts/<stem>/）。
+"""微信正文 HTML 中的配图发现与下载（落盘到 images/posts/<stem>/）。
 
-不依赖特定 harness；仅标准库。调用方传入页面 URL 作 Referer 以绕过常见防盗链。
+支持：按 DOM 中 `<img>` 出现顺序与正文交错（见 `interleaved_wechat_markdown`）或仅文末列表。
 """
 from __future__ import annotations
 
+import html as html_module
 import re
 from pathlib import Path
 
@@ -12,6 +13,7 @@ try:
 except ImportError:  # pragma: no cover
     requests = None  # type: ignore[misc, assignment]
 
+import ssl
 import urllib.error
 import urllib.request
 
@@ -51,6 +53,59 @@ def _normalize_img_url(raw: str) -> str:
     if host not in _ALLOWED_NETLOCS:
         return ""
     return u
+
+
+def img_tag_to_whitelisted_url(tag: str) -> str:
+    """从单个 `<img ...>` 标签解析 `data-src`/`src`，返回白名单内 https URL；否则空串。"""
+    data_src = src = ""
+    for am in _ATTR_RE.finditer(tag):
+        name, val = am.group(1).lower(), html_module.unescape(am.group(2))
+        if name == "data-src":
+            data_src = val
+        elif name == "src":
+            src = val
+    return _normalize_img_url(data_src) or _normalize_img_url(src)
+
+
+def split_html_on_img_tags(html: str) -> list[tuple[str, str]]:
+    """按文档顺序拆成 `('html', 片段)` 与 `('img', 完整 img 标签)` 交替列表。"""
+    parts = re.split(r"(<img\b[^>]*>)", html or "", flags=re.I)
+    out: list[tuple[str, str]] = []
+    for i, part in enumerate(parts):
+        if not part:
+            continue
+        if i % 2 == 1 and part.lower().startswith("<img"):
+            out.append(("img", part))
+        else:
+            out.append(("html", part))
+    return out
+
+
+def save_image_sequence(
+    urls: list[str],
+    *,
+    page_url: str,
+    root: Path,
+    post_stem: str,
+    max_bytes: int = 5 * 1024 * 1024,
+) -> list[str | None]:
+    """按顺序下载 URL，文件名 `001.ext` 递增（仅成功项占号）。返回与 urls 等长的相对路径或 None。"""
+    if not urls:
+        return []
+    dest_dir = root / "images" / "posts" / post_stem
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    relpaths: list[str | None] = [None] * len(urls)
+    n_ok = 0
+    for i, url in enumerate(urls):
+        data, ct = _fetch_bytes(url, referer=page_url, max_bytes=max_bytes)
+        if not data:
+            continue
+        n_ok += 1
+        ext = _ext_from_url_or_ct(url, ct)
+        fname = f"{n_ok:03d}.{ext}"
+        (dest_dir / fname).write_bytes(data)
+        relpaths[i] = f"../images/posts/{post_stem}/{fname}"
+    return relpaths
 
 
 def discover_wechat_image_urls(html: str) -> list[str]:
@@ -109,17 +164,32 @@ def _fetch_bytes(
             r.raise_for_status()
             ct = r.headers.get("Content-Type")
             data = r.content[: max_bytes + 1]
-        except OSError as e:
+        except Exception as e:
             print(f"[wechat_media] WARN skip download {url!r}: {e}", flush=True)
             return None, None
     else:
         req = urllib.request.Request(url, headers=headers, method="GET")
+        data = None
+        ct = None
         try:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 ct = resp.headers.get("Content-Type")
                 data = resp.read(max_bytes + 1)
         except (urllib.error.URLError, OSError, ValueError) as e:
-            print(f"[wechat_media] WARN skip download {url!r}: {e}", flush=True)
+            err = str(e)
+            if "CERTIFICATE_VERIFY_FAILED" in err or "certificate verify failed" in err.lower():
+                try:
+                    ctx = ssl._create_unverified_context()
+                    with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
+                        ct = resp.headers.get("Content-Type")
+                        data = resp.read(max_bytes + 1)
+                except (urllib.error.URLError, OSError, ValueError) as e2:
+                    print(f"[wechat_media] WARN skip download {url!r}: {e2}", flush=True)
+                    return None, None
+            else:
+                print(f"[wechat_media] WARN skip download {url!r}: {e}", flush=True)
+                return None, None
+        if data is None:
             return None, None
     if len(data) > max_bytes:
         print(f"[wechat_media] WARN skip {url!r}: size {len(data)} > max {max_bytes}", flush=True)

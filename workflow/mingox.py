@@ -839,7 +839,7 @@ def main() -> None:
     p_acq.add_argument(
         "--skip-wechat-images",
         action="store_true",
-        help="WeChat: 不下载配图、不追加文末 Markdown 图集（默认会尝试下载到 images/posts/<out_html stem>/）",
+        help="WeChat: 不下载配图、不写文内 Markdown 图（默认按原文 <img> 顺序交错落盘到 images/posts/<out_html stem>/）",
     )
     p_acq.set_defaults(func=cmd_acquire)
 

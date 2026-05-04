@@ -51,6 +51,58 @@ def _html_to_source_md(html: str) -> str:
     return "\n\n".join(paras)
 
 
+def _html_fragment_to_paras(fragment: str) -> list[str]:
+    """对 HTML 子片段抽段落（与 `_html_to_source_md` 规则一致，子块不打印 extract_ps 样本）。"""
+    if not (fragment or "").strip():
+        return []
+    wrapped = f"<div>{fragment}</div>"
+    paras = al.extract_ps(wrapped, warn=False)
+    total = sum(len(p) for p in paras)
+    if len(paras) < 4 or total < 600:
+        plain = al.extract_wechat_plain_paragraphs(wrapped)
+        leaf = al.extract_wechat_span_leaf_paragraphs(wrapped)
+        plain_n = sum(len(p) for p in plain)
+        leaf_n = sum(len(p) for p in leaf)
+        if plain_n >= leaf_n and plain_n > total:
+            paras = plain
+        elif leaf_n > total:
+            paras = leaf
+    return paras
+
+
+def _wechat_interleaved_markdown(html: str, *, page_url: str, post_stem: str) -> str:
+    """按 `<img>` 在 HTML 中的顺序，把正文段落与 `![](../images/posts/...)` 交错写入 Markdown。"""
+    import wechat_media as wm
+
+    chunks = wm.split_html_on_img_tags(html)
+    img_urls: list[str] = []
+    for kind, payload in chunks:
+        if kind != "img":
+            continue
+        u = wm.img_tag_to_whitelisted_url(payload)
+        if u:
+            img_urls.append(u)
+    rel_paths = wm.save_image_sequence(
+        img_urls, page_url=page_url, root=ROOT, post_stem=post_stem
+    )
+    md_parts: list[str] = []
+    ii = 0
+    for kind, payload in chunks:
+        if kind == "html":
+            ps = _html_fragment_to_paras(payload)
+            if ps:
+                md_parts.append("\n\n".join(ps))
+            continue
+        u = wm.img_tag_to_whitelisted_url(payload)
+        if not u:
+            continue
+        rp = rel_paths[ii] if ii < len(rel_paths) else None
+        ii += 1
+        if rp:
+            md_parts.append(f"![]({rp})")
+    return "\n\n".join(md_parts) + "\n" if md_parts else ""
+
+
 def acquire_paste(slug: str, body: str, *, meta_updates: dict | None = None) -> Path:
     draft = _draft_dir(slug)
     (draft / "01-source.md").write_text(body.strip() + "\n", encoding="utf-8")
@@ -116,26 +168,25 @@ def acquire_url(
             )
         html = out_html.read_text(encoding="utf-8")
         meta_ext = json.loads(out_meta.read_text(encoding="utf-8"))
-        body_md = _html_to_source_md(html)
         m0 = _load_meta(draft)
-        if not skip_wechat_images:
-            oh = (m0.get("out_html") or "").strip()
-            if oh:
-                stem = Path(oh).stem
-                try:
-                    import wechat_media as wm
-
-                    n_ok, g_lines = wm.extract_and_download_gallery(
-                        html, page_url=url, root=ROOT, post_stem=stem
-                    )
-                    if g_lines:
-                        body_md = body_md.rstrip() + "\n\n" + "\n\n".join(g_lines) + "\n"
-                        print(
-                            f"[acquire] wechat gallery: saved {n_ok} image(s) under images/posts/{stem}/",
-                            flush=True,
-                        )
-                except Exception as e:
-                    print(f"[acquire] WARN wechat gallery skipped: {e}", flush=True)
+        oh = (m0.get("out_html") or "").strip()
+        if not oh:
+            d = str(m0.get("date") or date.today().isoformat())
+            oh = f"posts/{d}-{slug}.html"
+        if not skip_wechat_images and oh:
+            stem = Path(oh).stem
+            try:
+                body_md = _wechat_interleaved_markdown(html, page_url=url, post_stem=stem)
+                n_img = sum(1 for ln in body_md.splitlines() if ln.strip().startswith("!["))
+                print(
+                    f"[acquire] wechat interleaved: {n_img} image markdown line(s) under images/posts/{stem}/",
+                    flush=True,
+                )
+            except Exception as e:
+                print(f"[acquire] WARN interleaved images failed, fallback plain text: {e}", flush=True)
+                body_md = _html_to_source_md(html)
+        else:
+            body_md = _html_to_source_md(html)
         (draft / "01-source.md").write_text(body_md + "\n", encoding="utf-8")
         m = _load_meta(draft)
         crawled_title = (meta_ext.get("title") or "").strip()

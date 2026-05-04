@@ -1,8 +1,12 @@
-一份美国全国性调查，揭开了各大旗舰大模型之间的用户画像差异。
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/001.png)
+
+【新智元导读】Epoch AI 与 Ipsos 调查显示，美国 Claude 周活用户 80% 来自年入 10 万美元以上家庭。AI 助手开始按价格、入口和工作场景分层，高收入用户率先进入更高阶的 AI 服务。
 
 过去一周用过 Claude 的美国成年人里，79.8% 来自年收入 10 万美元以上家庭。
 
 这个比例高于 Microsoft Copilot 的 63.7%、ChatGPT 的 60.3%、Grok 的 56.2%、Google Gemini 的 55.9%，更远高于 Meta AI 的 36.5%。
+
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/002.png)
 
 作为参照，Epoch AI 用美国人口普查数据估算，美国成年人里约 50% 生活在年收入 10 万美元以上家庭。
 
@@ -22,7 +26,9 @@ Meta AI 对应比例为 32.1%。
 
 它还没有成为大众默认入口，却正在成为某类人群更高频、更高强度使用的工具。
 
-收入画像容易制造误读。
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/003.png)
+
+Claude 没有赢下规模
 
 Claude 的用户更富，但 Claude 的用户规模仍然小。
 
@@ -30,7 +36,11 @@ Ipsos 这轮全国调查里，过去一周用过 ChatGPT 的美国成年人占 3
 
 另有 49% 的美国成年人表示，过去一周没有用过任何 AI 服务。
 
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/004.png)
+
 The Decoder 援引 Epoch AI 的说法补充了另一层数据，在年收入 10 万美元以上人群中，ChatGPT 的触达率仍为 37%，Gemini 为 24%，Copilot 为 14%，Claude 只有 6%；同时，44% 的高收入人群过去一周没有使用 AI 服务。
+
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/005.png)
 
 所以 Claude 的情况更像是高收入浓度高，但绝对覆盖率低。
 
@@ -43,6 +53,8 @@ The Decoder 援引 Epoch AI 的说法补充了另一层数据，在年收入 10 
 现在，用户结构开始比用户规模更重要。
 
 谁在浅尝辄止，谁在付费，谁把 AI 塞进工作流，差异开始浮出水面。
+
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/006.png)
 
 Claude 的高收入画像，很难只用价格解释。
 
@@ -76,6 +88,10 @@ Claude 需要用户主动选择。
 
 但主动选择，本身就是门槛。
 
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/007.png)
+
+Meta AI 站在另一端
+
 Meta AI 是这张表里的另一端。
 
 它的周活用户中，年收入 10 万美元以上家庭占比只有 36.5%，5 万美元以下家庭占比达到 32.1%。
@@ -83,6 +99,8 @@ Meta AI 是这张表里的另一端。
 在这组主流 AI 助手里，它最接近大众市场。
 
 Ipsos 调查显示，在用过 Meta AI 的人里，55% 通过 WhatsApp、Instagram、Facebook 或 Messenger 内置功能接触它，40% 是在 Facebook 或 Instagram 搜索时看到 AI 生成摘要或答案，只有 21% 是去 meta.ai 或 Meta AI 应用里输入问题。
+
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/008.png)
 
 Meta AI 被放进社交网络，Gemini 被放进搜索，Copilot 被放进办公软件。
 
@@ -98,19 +116,31 @@ AI 市场正在重演消费互联网和生产力软件的老故事，一边是�
 
 前者负责覆盖，后者负责收钱。
 
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/009.png)
+
 更关键的分层，不只发生在是否用过 AI 上，还发生在怎么用 AI 上。
 
 Ipsos 调查显示，在过去一周用过 AI 服务的人里，34% 只用了一天，49% 用了 2 到 5 天，16% 几乎每天都用。
 
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/010.png)
+
 使用最重度的一天里，62% 只处理一两个快速任务，32% 多次使用，只有 6% 表示当天大量使用或高度依赖 AI。
+
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/011.png)
 
 这说明美国 AI 普及率看上去已经不低，但多数使用仍然很轻度。
 
 大量用户只是把 AI 当搜索框、改写器、临时问答机；少数用户开始把它当工作界面。
 
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/012.png)
+
 在有工作的 AI 用户中，46% 主要用于个人事务，26% 主要用于工作，25% 工作和个人差不多；
 
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/013.png)
+
 在工作中使用 AI 的人里，33% 使用雇主付费或提供的服务，50% 使用个人订阅或免费服务，11% 两者都用。
+
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/014.png)
 
 这组数字放在 Claude 的收入画像旁边，会有一个更清楚的判断，AI 行业的下一轮竞争，很可能围绕高强度用户展开。
 
@@ -137,6 +167,8 @@ Anthropic 自己的 Project Deal 实验提供了一个有意思的旁证。
 谁用更强的模型，谁更早把模型放进工作流，谁就可能获得更好的结果。
 
 差距会藏在每一次小决策里。
+
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/015.png)
 
 这份调查对几家公司指向不同的问题。
 
@@ -170,6 +202,8 @@ ChatGPT 代表最大默认入口，Claude 代表更高收入和更专业的使�
 
 Epoch AI 在收入分析中说明，Claude 样本量为 201，Grok 为 221，相比 ChatGPT、Gemini 样本更小，置信区间更宽；
 
+![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/016.png)
+
 调查是横截面样本，使用情况来自自我报告，可能有回忆误差和误分类。
 
 AI 不会只按模型能力排序，也会按用户阶层、入口位置、付费意愿和工作强度重新排队。
@@ -178,37 +212,11 @@ AI 不会只按模型能力排序，也会按用户阶层、入口位置、付�
 
 接下来，更有价值的问题会变成，谁在用最强的模型，谁为它付钱，谁把它变成日常工作的一部分。
 
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/001.png)
+https://epoch.ai/data-insights/service-by-income
 
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/002.png)
+https://epoch.ai/data/polling
 
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/003.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/004.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/005.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/006.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/007.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/008.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/009.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/010.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/011.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/012.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/013.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/014.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/015.png)
-
-![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/016.png)
+https://www.ipsos.com/sites/default/files/ct/news/documents/2026-04/Topline_Epoch%20AI%20-%20Ipsos%20National%20AI%20Usage%20Survey_0.pdf
 
 ![](../images/posts/2026-05-04-claude-us-ai-users-survey-zhiyuan/017.jpg)
 
