@@ -1,0 +1,597 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "资产",
+      "en": "asset",
+      "ipa": "[ˈæˌsɛt]",
+      "pos": "n.",
+      "gloss": "资产， 财产；优点； 有用的东西"
+    },
+    {
+      "i": 1,
+      "skip": true
+    },
+    {
+      "i": 2,
+      "skip": true
+    },
+    {
+      "i": 3,
+      "zh": "流行",
+      "en": "epidemic",
+      "ipa": "[ˌɛpɪˈdɛmɪk]",
+      "pos": "n.",
+      "gloss": "传染病；流行病；风尚等的流行"
+    },
+    {
+      "i": 4,
+      "zh": "选定",
+      "en": "assign",
+      "ipa": "[əˈsaɪn]",
+      "pos": "v.",
+      "gloss": "派给，分配；选定，指定(时间、地点等)"
+    },
+    {
+      "i": 5,
+      "zh": "于是",
+      "en": "accordingly",
+      "ipa": "[əˈkɔrdɪŋli]",
+      "pos": "adv.",
+      "gloss": "因此，于是；相应地；照著"
+    },
+    {
+      "i": 6,
+      "zh": "方面",
+      "en": "angle",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 7,
+      "zh": "未成年",
+      "en": "minority",
+      "ipa": "[məˈnɔrəti]",
+      "pos": "n.",
+      "gloss": "少数民族；少数派；未成年"
+    },
+    {
+      "i": 8,
+      "zh": "提高",
+      "en": "enhance",
+      "ipa": "[ɛnˈhæns]",
+      "pos": "v.",
+      "gloss": "提高；加强；增加"
+    },
+    {
+      "i": 9,
+      "skip": true
+    },
+    {
+      "i": 10,
+      "zh": "获得",
+      "en": "acquire",
+      "ipa": "[əkˈwaɪər]",
+      "pos": "v.",
+      "gloss": "获得；取得；学到；捕获"
+    },
+    {
+      "i": 11,
+      "zh": "赠与",
+      "en": "accord",
+      "ipa": "[əˈkɔrd]",
+      "pos": "vt.",
+      "gloss": "授予， 赠与"
+    },
+    {
+      "i": 12,
+      "zh": "未成年",
+      "en": "minority2",
+      "ipa": "[məˈnɔrəti]",
+      "pos": "n.",
+      "gloss": "少数民族；少数派；未成年"
+    },
+    {
+      "i": 13,
+      "zh": "未成年人",
+      "en": "infant",
+      "ipa": "[ˈɪnfənt]",
+      "pos": "n.",
+      "gloss": "婴儿；幼儿；未成年人"
+    },
+    {
+      "i": 14,
+      "zh": "赠与",
+      "en": "accord2",
+      "ipa": "[əˈkɔrd]",
+      "pos": "vt.",
+      "gloss": "授予， 赠与"
+    },
+    {
+      "i": 15,
+      "zh": "半导体",
+      "en": "semiconductor",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 16,
+      "zh": "方面",
+      "en": "angle2",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 17,
+      "zh": "市的",
+      "en": "municipal",
+      "ipa": "[mjuˈnɪsəpəl]",
+      "pos": "adj.",
+      "gloss": "市政府的，市的，市办的"
+    },
+    {
+      "i": 18,
+      "zh": "资本主义",
+      "en": "capitalism",
+      "ipa": "[ˈkæpɪtəˌlɪzəm]",
+      "pos": "n.",
+      "gloss": "资本主义"
+    },
+    {
+      "i": 19,
+      "zh": "半导体",
+      "en": "semiconductor2",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 20,
+      "zh": "电子",
+      "en": "amplifier",
+      "ipa": "[ˈæmpləˌfaɪər]",
+      "pos": "n.",
+      "gloss": "[电子] 放大器，扩大器；扩音器"
+    },
+    {
+      "i": 21,
+      "zh": "半导体",
+      "en": "semiconductor3",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 22,
+      "zh": "目前",
+      "en": "presently",
+      "ipa": "[ˈprɛzəntli]",
+      "pos": "adv.",
+      "gloss": "一会儿,不久；现在,目前"
+    },
+    {
+      "i": 23,
+      "zh": "电子",
+      "en": "amplifier2",
+      "ipa": "[ˈæmpləˌfaɪər]",
+      "pos": "n.",
+      "gloss": "[电子] 放大器，扩大器；扩音器"
+    },
+    {
+      "i": 24,
+      "skip": true
+    },
+    {
+      "i": 25,
+      "zh": "庞大的",
+      "en": "enormous",
+      "ipa": "[ɪˈnɔrmɪs]",
+      "pos": "adj.",
+      "gloss": "庞大的，巨大的；凶暴的，极恶的"
+    },
+    {
+      "i": 26,
+      "zh": "强大的",
+      "en": "formidable",
+      "ipa": "[ˌfɔrˈmɪdəbəl]",
+      "pos": "adj.",
+      "gloss": "强大的;令人敬畏的;可怕的;艰难的"
+    },
+    {
+      "i": 27,
+      "zh": "同时",
+      "en": "meantime",
+      "ipa": "[ˈminˌtaɪm]",
+      "pos": "adv.",
+      "gloss": "同时；其间"
+    },
+    {
+      "i": 28,
+      "zh": "带宽",
+      "en": "bandwidth",
+      "ipa": "[ˈbændwɪdθ]",
+      "pos": "n.",
+      "gloss": "带宽"
+    },
+    {
+      "i": 29,
+      "zh": "达到",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 30,
+      "zh": "电子",
+      "en": "amplifier3",
+      "ipa": "[ˈæmpləˌfaɪər]",
+      "pos": "n.",
+      "gloss": "[电子] 放大器，扩大器；扩音器"
+    },
+    {
+      "i": 31,
+      "zh": "电子",
+      "en": "amplifier4",
+      "ipa": "[ˈæmpləˌfaɪər]",
+      "pos": "n.",
+      "gloss": "[电子] 放大器，扩大器；扩音器"
+    },
+    {
+      "i": 32,
+      "zh": "合并",
+      "en": "coalition",
+      "ipa": "[ˌkoʊəˈlɪʃən]",
+      "pos": "n.",
+      "gloss": "联合；结合，合并"
+    },
+    {
+      "i": 33,
+      "skip": true
+    },
+    {
+      "i": 34,
+      "zh": "系统的",
+      "en": "systematic",
+      "ipa": "[ˌsɪstəˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "(al)系统的,有组织的"
+    },
+    {
+      "i": 35,
+      "zh": "只不过",
+      "en": "mere",
+      "ipa": "[mɪr]",
+      "pos": "adj.",
+      "gloss": "仅仅,只不过"
+    },
+    {
+      "i": 36,
+      "zh": "比较",
+      "en": "compare",
+      "ipa": "[kəmˈpɛr]",
+      "pos": "v.",
+      "gloss": "比较；与…相比"
+    },
+    {
+      "i": 37,
+      "zh": "半导体",
+      "en": "semiconductor4",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 38,
+      "zh": "半导体",
+      "en": "semiconductor5",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 39,
+      "zh": "杠杆",
+      "en": "lever",
+      "ipa": "[ˈlɛvər]",
+      "pos": "n.",
+      "gloss": "杆,杠杆；手段,途径,工具"
+    },
+    {
+      "i": 40,
+      "zh": "固定",
+      "en": "anchor",
+      "ipa": "[ˈæŋkər]",
+      "pos": "v.",
+      "gloss": "抛锚；使固定；主持节目"
+    },
+    {
+      "i": 41,
+      "skip": true
+    },
+    {
+      "i": 42,
+      "zh": "投资",
+      "en": "invest",
+      "ipa": "[ɪnˈvest]",
+      "pos": "v.",
+      "gloss": "投资；覆盖；耗费；授予；包围"
+    },
+    {
+      "i": 43,
+      "zh": "也就是",
+      "en": "namely",
+      "ipa": "[ˈneɪmli]",
+      "pos": "adv.",
+      "gloss": "即,也就是"
+    },
+    {
+      "i": 44,
+      "zh": "采取",
+      "en": "adopt",
+      "ipa": "[əˈdɑpt]",
+      "pos": "v.",
+      "gloss": "采取；接受；收养；正式通过"
+    },
+    {
+      "i": 45,
+      "zh": "热情",
+      "en": "enthusiasm",
+      "ipa": "[ɪnˈθuziˌæzəm]",
+      "pos": "n.",
+      "gloss": "热心，热忱，热情"
+    },
+    {
+      "i": 46,
+      "zh": "达到",
+      "en": "accomplish2",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 47,
+      "zh": "半导体",
+      "en": "semiconductor6",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 48,
+      "zh": "表现",
+      "en": "behave",
+      "ipa": "[bɪˈheɪv]",
+      "pos": "v.",
+      "gloss": "表现；（机器等）运转；举止端正；（事物）起某种作用"
+    },
+    {
+      "i": 49,
+      "zh": "超过",
+      "en": "exceed",
+      "ipa": "[ɪkˈsid]",
+      "pos": "v.",
+      "gloss": "超过,胜过；越出 (限制、规定)"
+    },
+    {
+      "i": 50,
+      "zh": "相比",
+      "en": "beside",
+      "ipa": "[ˌbiˈsaɪd]",
+      "pos": "prep.",
+      "gloss": "在...旁边，在...附近；和...相比"
+    },
+    {
+      "i": 51,
+      "skip": true
+    },
+    {
+      "i": 52,
+      "zh": "市的",
+      "en": "municipal2",
+      "ipa": "[mjuˈnɪsəpəl]",
+      "pos": "adj.",
+      "gloss": "市政府的，市的，市办的"
+    },
+    {
+      "i": 53,
+      "zh": "半导体",
+      "en": "semiconductor7",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 54,
+      "zh": "强调",
+      "en": "accent",
+      "ipa": "[ˈækˌsɛnt]",
+      "pos": "n.",
+      "gloss": "口音；重音；强调；特点；重音符号"
+    },
+    {
+      "i": 55,
+      "zh": "半导体",
+      "en": "semiconductor8",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 56,
+      "zh": "实现",
+      "en": "accomplish3",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 57,
+      "zh": "资产",
+      "en": "asset2",
+      "ipa": "[ˈæˌsɛt]",
+      "pos": "n.",
+      "gloss": "资产， 财产；优点； 有用的东西"
+    },
+    {
+      "i": 58,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "基础设施；公共建设；下部构造"
+    },
+    {
+      "i": 59,
+      "zh": "代表",
+      "en": "ambassador",
+      "ipa": "[æmˈbæsədər]",
+      "pos": "n.",
+      "gloss": "大使；特使，(派驻国际组织的)代表"
+    },
+    {
+      "i": 60,
+      "zh": "资产",
+      "en": "asset3",
+      "ipa": "[ˈæˌsɛt]",
+      "pos": "n.",
+      "gloss": "资产， 财产；优点； 有用的东西"
+    },
+    {
+      "i": 61,
+      "zh": "管理",
+      "en": "administer",
+      "ipa": "[ədˈmɪnɪstər]",
+      "pos": "v.",
+      "gloss": "管理；执行；给予"
+    },
+    {
+      "i": 62,
+      "skip": true
+    },
+    {
+      "i": 63,
+      "zh": "世界的",
+      "en": "universal",
+      "ipa": "[ˌjunəˈvərsəl]",
+      "pos": "adj.",
+      "gloss": "全体的,宇宙的,世界的；普遍的，通用的"
+    },
+    {
+      "i": 64,
+      "zh": "供应",
+      "en": "furnish",
+      "ipa": "[ˈfərnɪʃ]",
+      "pos": "v.",
+      "gloss": "供应,提供；装备,布置"
+    },
+    {
+      "i": 65,
+      "zh": "资产",
+      "en": "asset4",
+      "ipa": "[ˈæˌsɛt]",
+      "pos": "n.",
+      "gloss": "资产， 财产；优点； 有用的东西"
+    },
+    {
+      "i": 66,
+      "zh": "分析",
+      "en": "analyze",
+      "ipa": "[ˈænəˌlaɪz]",
+      "pos": "vt.",
+      "gloss": "分析； 分解"
+    },
+    {
+      "i": 67,
+      "zh": "分析",
+      "en": "analyze2",
+      "ipa": "[ˈænəˌlaɪz]",
+      "pos": "vt.",
+      "gloss": "分析； 分解"
+    },
+    {
+      "i": 68,
+      "zh": "确定",
+      "en": "ascertain",
+      "ipa": "[ˌæsərˈteɪn]",
+      "pos": "v.",
+      "gloss": "确定，查明，弄清"
+    },
+    {
+      "i": 69,
+      "zh": "保持",
+      "en": "conservation",
+      "ipa": "[ˌkɑnsərˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "保存，保持；保护"
+    },
+    {
+      "i": 70,
+      "zh": "真正的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 71,
+      "zh": "显示",
+      "en": "exhibit",
+      "ipa": "[ɪgˈzɪbɪt]",
+      "pos": "v.",
+      "gloss": "展览；显示；提出（证据等）"
+    },
+    {
+      "i": 72,
+      "zh": "强调",
+      "en": "accent2",
+      "ipa": "[ˈækˌsɛnt]",
+      "pos": "n.",
+      "gloss": "口音；重音；强调；特点；重音符号"
+    },
+    {
+      "i": 73,
+      "skip": true
+    },
+    {
+      "i": 74,
+      "zh": "强调",
+      "en": "accent3",
+      "ipa": "[ˈækˌsɛnt]",
+      "pos": "n.",
+      "gloss": "口音；重音；强调；特点；重音符号"
+    },
+    {
+      "i": 75,
+      "zh": "认为",
+      "en": "deem",
+      "ipa": "[dim]",
+      "pos": "v.",
+      "gloss": "认为，视作；相信"
+    },
+    {
+      "i": 76,
+      "zh": "至理名言",
+      "en": "wisdom",
+      "ipa": "[ˈwɪzdəm]",
+      "pos": "n.",
+      "gloss": "智慧，才智；明智；学识；至理名言"
+    },
+    {
+      "i": 77,
+      "skip": true
+    },
+    {
+      "i": 78,
+      "zh": "稀有的",
+      "en": "scarce",
+      "ipa": "[skɛrs]",
+      "pos": "adj.",
+      "gloss": "缺乏的，不足的；稀有的"
+    }
+  ]
+}

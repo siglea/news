@@ -1,0 +1,407 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "prose-layout-segments-trial",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/001.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/001.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 2,
+      "source_text": "“全球资本正从美国的‘金融资产’向非美地区的‘实物资产’进行大规模再平衡。”",
+      "html": "<p>“全球资本正从美国的‘金融<span class=\"word-annot\"><span class=\"word-anchor\">资产</span><span class=\"word-block\"><span class=\"english-word\">asset</span><span class=\"word-info\">[ˈæˌsɛt] n. 资产， 财产；优点； 有用的东西</span></span></span>’向非美地区的‘实物资产’进行大规模再平衡。”</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "文 / 巴九灵（微信公众号：吴晓波频道）",
+      "html": "<p>文 / 巴九灵（微信公众号：吴晓波频道）</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "在韩国，一种新奇的“婴儿投资”正在年轻父母之间流行起来。",
+      "html": "<p>在韩国，一种新奇的“婴儿投资”正在年轻父母之间<span class=\"word-annot\"><span class=\"word-anchor\">流行</span><span class=\"word-block\"><span class=\"english-word\">epidemic</span><span class=\"word-info\">[ˌɛpɪˈdɛmɪk] n. 传染病；流行病；风尚等的流行</span></span></span>起来。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "父母早在孕晚期便已开始选定投资标的，待婴儿呱呱坠地那一刻，就利用手机远程开户，下单买入。",
+      "html": "<p>父母早在孕晚期便已开始<span class=\"word-annot\"><span class=\"word-anchor\">选定</span><span class=\"word-block\"><span class=\"english-word\">assign</span><span class=\"word-info\">[əˈsaɪn] v. 派给，分配；选定，指定(时间、地点等)</span></span></span>投资标的，待婴儿呱呱坠地那一刻，就利用手机远程开户，下单买入。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "于是，韩国宝宝尚在襁褓之中，就已成为韩国知名企业SK海力士与三星电子的“婴儿股东”。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">于是</span><span class=\"word-block\"><span class=\"english-word\">accordingly</span><span class=\"word-info\">[əˈkɔrdɪŋli] adv. 因此，于是；相应地；照著</span></span></span>，韩国宝宝尚在襁褓之中，就已成为韩国知名企业SK海力士与三星电子的“婴儿股东”。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "韩国父母的神操作，一方面，与韩国政府的政策有关。",
+      "html": "<p>韩国父母的神操作，一<span class=\"word-annot\"><span class=\"word-anchor\">方面</span><span class=\"word-block\"><span class=\"english-word\">angle</span><span class=\"word-info\">[ˈæŋgəl] n. 角度，角，方面</span></span></span>，与韩国政府的政策有关。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/003.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/003.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 9,
+      "source_text": "给婴儿定投半导体龙头？",
+      "html": "<h3 class=\"article-subheading\">给婴儿定投半导体龙头？</h3>"
+    },
+    {
+      "index": 10,
+      "source_text": "根据韩国现行的《继承税及赠与税法》：19岁以下未成年子女，每10年免税额度为2000万韩元。成年子女每10年免税额度提高至5000万韩元。",
+      "html": "<p>根据韩国现行的《继承税及赠与税法》：19岁以下<span class=\"word-annot\"><span class=\"word-anchor\">未成年</span><span class=\"word-block\"><span class=\"english-word\">minority</span><span class=\"word-info\">[məˈnɔrəti] n. 少数民族；少数派；未成年</span></span></span>子女，每10年免税额度为2000万韩元。成年子女每10年免税额度<span class=\"word-annot\"><span class=\"word-anchor\">提高</span><span class=\"word-block\"><span class=\"english-word\">enhance</span><span class=\"word-info\">[ɛnˈhæns] v. 提高；加强；增加</span></span></span>至5000万韩元。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/004.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/004.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 12,
+      "source_text": "图源：《中央日报》中文网",
+      "html": "<p>图源：《中央日报》中文网</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "利用上述政策，很多韩国家长从孩子出生就开始进行资产转移：孩子一出生就给他开设证券账户并且转入2000万韩元，等到10岁再转2000万韩元，20岁和30岁成年后分别转入5000万韩元，这样30岁就可以从父母处合法免税地获得1.4亿韩元，约合10万美元的资产。",
+      "html": "<p>利用上述政策，很多韩国家长从孩子出生就开始进行资产转移：孩子一出生就给他开设证券账户并且转入2000万韩元，等到10岁再转2000万韩元，20岁和30岁成年后分别转入5000万韩元，这样30岁就可以从父母处合法免税地<span class=\"word-annot\"><span class=\"word-anchor\">获得</span><span class=\"word-block\"><span class=\"english-word\">acquire</span><span class=\"word-info\">[əkˈwaɪər] v. 获得；取得；学到；捕获</span></span></span>1.4亿韩元，约合10万美元的资产。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "韩国家长之所以通过为孩子开设股票或ETF账户的形式而非现金，是因为赠与税是按赠与时的价值计税，后续资产不再额外征收，因此早早给自己孩子买入ETF，就可以免除最高50%的韩国继承税。",
+      "html": "<p>韩国家长之所以通过为孩子开设股票或ETF账户的形式而非现金，是因为<span class=\"word-annot\"><span class=\"word-anchor\">赠与</span><span class=\"word-block\"><span class=\"english-word\">accord</span><span class=\"word-info\">[əˈkɔrd] vt. 授予， 赠与</span></span></span>税是按赠与时的价值计税，后续资产不再额外征收，因此早早给自己孩子买入ETF，就可以免除最高50%的韩国继承税。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "根据韩国证券存管机构公布的数据，截至2025年底，韩国未成年股东的数量为343694人，占总股东数的8.19%，持股总价值约为2.68万亿韩元。",
+      "html": "<p>根据韩国证券存管机构公布的数据，截至2025年底，韩国<span class=\"word-annot\"><span class=\"word-anchor\">未成年</span><span class=\"word-block\"><span class=\"english-word\">minority</span><span class=\"word-info\">[məˈnɔrəti] n. 少数民族；少数派；未成年</span></span></span>股东的数量为343694人，占总股东数的8.19%，持股总价值约为2.68万亿韩元。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "2025年12月，韩国未成年人单月开户数量为34590户，是2025年1月份的近三倍。持有证券的规模表明，通过以儿童名义开立的账户进行继承和赠与的交易相当频繁。",
+      "html": "<p>2025年12月，韩国<span class=\"word-annot\"><span class=\"word-anchor\">未成年人</span><span class=\"word-block\"><span class=\"english-word\">infant</span><span class=\"word-info\">[ˈɪnfənt] n. 婴儿；幼儿；未成年人</span></span></span>单月开户数量为34590户，是2025年1月份的近三倍。持有证券的规模表明，通过以儿童名义开立的账户进行继承和<span class=\"word-annot\"><span class=\"word-anchor\">赠与</span><span class=\"word-block\"><span class=\"english-word\">accord</span><span class=\"word-info\">[əˈkɔrd] vt. 授予， 赠与</span></span></span>的交易相当频繁。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "当我们把每年亲友给孩子的红包攒起来做教育基金的时候，韩国的“孩子”已经开始定投半导体ETF基金了。",
+      "html": "<p>当我们把每年亲友给孩子的红包攒起来做教育基金的时候，韩国的“孩子”已经开始定投<span class=\"word-annot\"><span class=\"word-anchor\">半导体</span><span class=\"word-block\"><span class=\"english-word\">semiconductor</span><span class=\"word-info\">[ˌsɛmɪkənˈdəktər] n. 半导体</span></span></span>ETF基金了。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "另一方面，韩国父母们着急忙慌地“从娃娃抓起”，也和韩国当前的超级牛市脱不开干系。",
+      "html": "<p>另一<span class=\"word-annot\"><span class=\"word-anchor\">方面</span><span class=\"word-block\"><span class=\"english-word\">angle</span><span class=\"word-info\">[ˈæŋgəl] n. 角度，角，方面</span></span></span>，韩国父母们着急忙慌地“从娃娃抓起”，也和韩国当前的超级牛市脱不开干系。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/005.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/005.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 20,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/006.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/006.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 21,
+      "source_text": "这一年来，韩国股市的排名就像坐上了火箭。",
+      "html": "<p>这一年来，韩国股<span class=\"word-annot\"><span class=\"word-anchor\">市的</span><span class=\"word-block\"><span class=\"english-word\">municipal</span><span class=\"word-info\">[mjuˈnɪsəpəl] adj. 市政府的，市的，市办的</span></span></span>排名就像坐上了火箭。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "截至4月30日，韩国综合指数报收6598.87点，年涨幅高达56.59%，与此同时，韩国KOSPI指数在4月28日盘中创下历史新高，将老牌资本主义国家英国，往后压了一个身位，位列全球第八。",
+      "html": "<p>截至4月30日，韩国综合指数报收6598.87点，年涨幅高达56.59%，与此同时，韩国KOSPI指数在4月28日盘中创下历史新高，将老牌<span class=\"word-annot\"><span class=\"word-anchor\">资本主义</span><span class=\"word-block\"><span class=\"english-word\">capitalism</span><span class=\"word-info\">[ˈkæpɪtəˌlɪzəm] n. 资本主义</span></span></span>国家英国，往后压了一个身位，位列全球第八。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/007.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/007.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 24,
+      "source_text": "韩国股市暴涨的原因，在于两家世界级的半导体巨头：SK海力士和三星电子。",
+      "html": "<p>韩国股市暴涨的原因，在于两家世界级的<span class=\"word-annot\"><span class=\"word-anchor\">半导体</span><span class=\"word-block\"><span class=\"english-word\">semiconductor</span><span class=\"word-info\">[ˌsɛmɪkənˈdəktər] n. 半导体</span></span></span>巨头：SK海力士和三星电子。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "韩国KOSPI指数虽然有超过800只成分股，但40%以上的市值集中在三星电子和SK海力士这两家存储芯片巨头上。",
+      "html": "<p>韩国KOSPI指数虽然有超过800只成分股，但40%以上的市值集中在三星<span class=\"word-annot\"><span class=\"word-anchor\">电子</span><span class=\"word-block\"><span class=\"english-word\">amplifier</span><span class=\"word-info\">[ˈæmpləˌfaɪər] n. [电子] 放大器，扩大器；扩音器</span></span></span>和SK海力士这两家存储芯片巨头上。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "因此，与其说韩国股市表现出色，不如说是这两家半导体巨头的股价表现强势。",
+      "html": "<p>因此，与其说韩国股市表现出色，不如说是这两家<span class=\"word-annot\"><span class=\"word-anchor\">半导体</span><span class=\"word-block\"><span class=\"english-word\">semiconductor</span><span class=\"word-info\">[ˌsɛmɪkənˈdəktər] n. 半导体</span></span></span>巨头的股价表现强势。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "截至目前，SK海力士今年股价已上涨97.54%，一年以来累计涨幅624.51%；三星电子今年涨幅为83.90%，一年以来累计涨幅297.3%。",
+      "html": "<p>截至<span class=\"word-annot\"><span class=\"word-anchor\">目前</span><span class=\"word-block\"><span class=\"english-word\">presently</span><span class=\"word-info\">[ˈprɛzəntli] adv. 一会儿,不久；现在,目前</span></span></span>，SK海力士今年股价已上涨97.54%，一年以来累计涨幅624.51%；三星<span class=\"word-annot\"><span class=\"word-anchor\">电子</span><span class=\"word-block\"><span class=\"english-word\">amplifier</span><span class=\"word-info\">[ˈæmpləˌfaɪər] n. [电子] 放大器，扩大器；扩音器</span></span></span>今年涨幅为83.90%，一年以来累计涨幅297.3%。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/008.webp)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/008.webp\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 29,
+      "source_text": "AI行业的快速迭代是两巨头股价起飞的主要助推器。",
+      "html": "<p>AI行业的快速迭代是两巨头股价起飞的主要助推器。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "当前，AI大模型的参数已经进入万亿级别，越庞大的参数，意味着需要越多性能强大的闪存芯片用于加载大模型，业内一般将其称为“HBM高带宽内存”。",
+      "html": "<p>当前，AI大模型的参数已经进入万亿级别，越<span class=\"word-annot\"><span class=\"word-anchor\">庞大的</span><span class=\"word-block\"><span class=\"english-word\">enormous</span><span class=\"word-info\">[ɪˈnɔrmɪs] adj. 庞大的，巨大的；凶暴的，极恶的</span></span></span>参数，意味着需要越多性能强大的闪存芯片用于加载大模型，业内一般将其称为“HBM高带宽内存”。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "同时，在AI推理场景下，大规模用户请求的上下文长度不断增长，对高吞吐、低延迟存储系统的需求远超过往，因而还需要更多性能强大的“NAND闪存”用来存储数据。",
+      "html": "<p>同时，在AI推理场景下，大规模用户请求的上下文长度不断增长，对高吞吐、低延迟存储系统的需求远超过往，因而还需要更多性能<span class=\"word-annot\"><span class=\"word-anchor\">强大的</span><span class=\"word-block\"><span class=\"english-word\">formidable</span><span class=\"word-info\">[ˌfɔrˈmɪdəbəl] adj. 强大的;令人敬畏的;可怕的;艰难的</span></span></span>“NAND闪存”用来存储数据。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "而韩国股市，同时踩中了这两大风口。",
+      "html": "<p>而韩国股市，<span class=\"word-annot\"><span class=\"word-anchor\">同时</span><span class=\"word-block\"><span class=\"english-word\">meantime</span><span class=\"word-info\">[ˈminˌtaɪm] adv. 同时；其间</span></span></span>踩中了这两大风口。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "SK海力士是全球HBM（高带宽内存）的绝对领导者，截止2025年第二季度，SK海力士在HBM市场的份额高达62%。",
+      "html": "<p>SK海力士是全球HBM（高<span class=\"word-annot\"><span class=\"word-anchor\">带宽</span><span class=\"word-block\"><span class=\"english-word\">bandwidth</span><span class=\"word-info\">[ˈbændwɪdθ] n. 带宽</span></span></span>内存）的绝对领导者，截止2025年第二季度，SK海力士在HBM市场的份额高达62%。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "再看三星电子，财报显示，三星电子已经启动面向英伟达的HBM4量产产品销售，下一代HBM产品也在研发之中，产能有望继续追赶SK海力士，市场份额或达到28%左右。",
+      "html": "<p>再看三星电子，财报显示，三星电子已经启动面向英伟达的HBM4量产产品销售，下一代HBM产品也在研发之中，产能有望继续追赶SK海力士，市场份额或<span class=\"word-annot\"><span class=\"word-anchor\">达到</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>28%左右。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "除此之外，三星电子还拥有储存业务。同样是由于AI行业的庞大需求，三星电子2026年一季度储存业务销售额环比增长翻倍，同比增长也高达292%，创下有史以来单季度销售记录。整体而言，公司一季度合并营收897亿美元，环比增长43%；营业利润388.3亿美元，同比暴增756%，创下历史新高。",
+      "html": "<p>除此之外，三星<span class=\"word-annot\"><span class=\"word-anchor\">电子</span><span class=\"word-block\"><span class=\"english-word\">amplifier</span><span class=\"word-info\">[ˈæmpləˌfaɪər] n. [电子] 放大器，扩大器；扩音器</span></span></span>还拥有储存业务。同样是由于AI行业的庞大需求，三星<span class=\"word-annot\"><span class=\"word-anchor\">电子</span><span class=\"word-block\"><span class=\"english-word\">amplifier</span><span class=\"word-info\">[ˈæmpləˌfaɪər] n. [电子] 放大器，扩大器；扩音器</span></span></span>2026年一季度储存业务销售额环比增长翻倍，同比增长也高达292%，创下有史以来单季度销售记录。整体而言，公司一季度<span class=\"word-annot\"><span class=\"word-anchor\">合并</span><span class=\"word-block\"><span class=\"english-word\">coalition</span><span class=\"word-info\">[ˌkoʊəˈlɪʃən] n. 联合；结合，合并</span></span></span>营收897亿美元，环比增长43%；营业利润388.3亿美元，同比暴增756%，创下历史新高。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/009.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/009.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 37,
+      "source_text": "用于人工智能系统的高带宽存储芯片模型",
+      "html": "<p>用于人工智能<span class=\"word-annot\"><span class=\"word-anchor\">系统的</span><span class=\"word-block\"><span class=\"english-word\">systematic</span><span class=\"word-info\">[ˌsɪstəˈmætɪk] adj. (al)系统的,有组织的</span></span></span>高带宽存储芯片模型</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/010.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/010.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 39,
+      "source_text": "当疯牛遇上疯狂的投资者",
+      "html": "<h3 class=\"article-subheading\">当疯牛遇上疯狂的投资者</h3>"
+    },
+    {
+      "index": 40,
+      "source_text": "除了半导体厂商赚得盆满钵满，韩国资本市场的暴涨，也离不开韩国投资者的全情投入，给婴儿买半导体只不过是其中一个神操作。",
+      "html": "<p>除了半导体厂商赚得盆满钵满，韩国资本市场的暴涨，也离不开韩国投资者的全情投入，给婴儿买半导体<span class=\"word-annot\"><span class=\"word-anchor\">只不过</span><span class=\"word-block\"><span class=\"english-word\">mere</span><span class=\"word-info\">[mɪr] adj. 仅仅,只不过</span></span></span>是其中一个神操作。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "在中国，投资者一般全仓“All in”已经算是比较偏激的投资风格，但是在韩国投资者，买股票，上杠杆才是投资常态。",
+      "html": "<p>在中国，投资者一般全仓“All in”已经算是<span class=\"word-annot\"><span class=\"word-anchor\">比较</span><span class=\"word-block\"><span class=\"english-word\">compare</span><span class=\"word-info\">[kəmˈpɛr] v. 比较；与…相比</span></span></span>偏激的投资风格，但是在韩国投资者，买股票，上杠杆才是投资常态。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "之前韩国投资者喜欢投资包括英伟达、特斯拉等“美股巨头”，但现在，他们更愿意转向半导体基金，特别是那些带杠杆的ETF产品。",
+      "html": "<p>之前韩国投资者喜欢投资包括英伟达、特斯拉等“美股巨头”，但现在，他们更愿意转向<span class=\"word-annot\"><span class=\"word-anchor\">半导体</span><span class=\"word-block\"><span class=\"english-word\">semiconductor</span><span class=\"word-info\">[ˌsɛmɪkənˈdəktər] n. 半导体</span></span></span>基金，特别是那些带杠杆的ETF产品。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/011.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/011.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 44,
+      "source_text": "韩国证券存管机构4月6日的数据显示，3月中东战争爆发以后，追踪半导体指数、3倍杠杆率的ETF SOXL吸引了12.542亿美元的资金，位居净买入金额榜首；紧随其后的是3倍做多纳斯达克的Nasdaq 3x(TQQQ)和3倍做多韩国市场的3x(KORU)等杠杆型产品。",
+      "html": "<p>韩国证券存管机构4月6日的数据显示，3月中东战争爆发以后，追踪<span class=\"word-annot\"><span class=\"word-anchor\">半导体</span><span class=\"word-block\"><span class=\"english-word\">semiconductor</span><span class=\"word-info\">[ˌsɛmɪkənˈdəktər] n. 半导体</span></span></span>指数、3倍杠杆率的ETF SOXL吸引了12.542亿美元的资金，位居净买入金额榜首；紧随其后的是3倍做多纳斯达克的Nasdaq 3x(TQQQ)和3倍做多韩国市场的3x(KORU)等<span class=\"word-annot\"><span class=\"word-anchor\">杠杆</span><span class=\"word-block\"><span class=\"english-word\">lever</span><span class=\"word-info\">[ˈlɛvər] n. 杆,杠杆；手段,途径,工具</span></span></span>型产品。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "韩国国际金融中心的研究员申瑟薇在报告中指出：“韩国投资者以杠杆ETF等高风险资产为核心的激进投资趋势有所加剧，用于风险对冲的固定收益资产比例有所上升。”",
+      "html": "<p>韩国国际金融中心的研究员申瑟薇在报告中指出：“韩国投资者以杠杆ETF等高风险资产为核心的激进投资趋势有所加剧，用于风险对冲的<span class=\"word-annot\"><span class=\"word-anchor\">固定</span><span class=\"word-block\"><span class=\"english-word\">anchor</span><span class=\"word-info\">[ˈæŋkər] v. 抛锚；使固定；主持节目</span></span></span>收益资产比例有所上升。”</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "除了杠杆炒股之外，韩国投资者还喜欢“借钱炒股”。",
+      "html": "<p>除了杠杆炒股之外，韩国<span class=\"word-annot\"><span class=\"word-anchor\">投资</span><span class=\"word-block\"><span class=\"english-word\">invest</span><span class=\"word-info\">[ɪnˈvest] v. 投资；覆盖；耗费；授予；包围</span></span></span>者还喜欢“借钱炒股”。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "韩联社4月22日报道，韩国股市信用交易融资余额，也就是“投资者借钱炒股”的金额，首次突破34万亿韩元（230.84亿美元）。由于股市杠杆投资热情明显升温，韩国多家券商已紧急采取措施，上调保证金比例并暂停部分杠杆交易，试图抑制市场非理性扩张。",
+      "html": "<p>韩联社4月22日报道，韩国股市信用交易融资余额，<span class=\"word-annot\"><span class=\"word-anchor\">也就是</span><span class=\"word-block\"><span class=\"english-word\">namely</span><span class=\"word-info\">[ˈneɪmli] adv. 即,也就是</span></span></span>“投资者借钱炒股”的金额，首次突破34万亿韩元（230.84亿美元）。由于股市杠杆投资热情明显升温，韩国多家券商已紧急<span class=\"word-annot\"><span class=\"word-anchor\">采取</span><span class=\"word-block\"><span class=\"english-word\">adopt</span><span class=\"word-info\">[əˈdɑpt] v. 采取；接受；收养；正式通过</span></span></span>措施，上调保证金比例并暂停部分杠杆交易，试图抑制市场非理性扩张。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "尽管政策层面不断降温，但韩国投资者借钱炒股的热情根本拦不住。就在券商采取措施的第二天，韩国信用交易融资余额续创新高，截至4月28日，信用交易余额已达到35.69万亿韩元（约242.31亿美元）。",
+      "html": "<p>尽管政策层面不断降温，但韩国投资者借钱炒股的<span class=\"word-annot\"><span class=\"word-anchor\">热情</span><span class=\"word-block\"><span class=\"english-word\">enthusiasm</span><span class=\"word-info\">[ɪnˈθuziˌæzəm] n. 热心，热忱，热情</span></span></span>根本拦不住。就在券商采取措施的第二天，韩国信用交易融资余额续创新高，截至4月28日，信用交易余额已<span class=\"word-annot\"><span class=\"word-anchor\">达到</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>35.69万亿韩元（约242.31亿美元）。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "在韩国投资者看来，现在正是史无前例的半导体超级大牛市，贷的越多，买的越多，赚得越多。",
+      "html": "<p>在韩国投资者看来，现在正是史无前例的<span class=\"word-annot\"><span class=\"word-anchor\">半导体</span><span class=\"word-block\"><span class=\"english-word\">semiconductor</span><span class=\"word-info\">[ˌsɛmɪkənˈdəktər] n. 半导体</span></span></span>超级大牛市，贷的越多，买的越多，赚得越多。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/012.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/012.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 51,
+      "source_text": "全球资本拥抱“HALO”",
+      "html": "<h3 class=\"article-subheading\">全球资本拥抱“HALO”</h3>"
+    },
+    {
+      "index": 52,
+      "source_text": "与韩国股市一样，借由AI东风，中国台湾的股市最近表现也不俗。",
+      "html": "<p>与韩国股市一样，借由AI东风，中国台湾的股市最近<span class=\"word-annot\"><span class=\"word-anchor\">表现</span><span class=\"word-block\"><span class=\"english-word\">behave</span><span class=\"word-info\">[bɪˈheɪv] v. 表现；（机器等）运转；举止端正；（事物）起某种作用</span></span></span>也不俗。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "在韩国超过英国前，中国台湾的股市市值，就先超过英国，跻身全球第七大资本市场。",
+      "html": "<p>在韩国<span class=\"word-annot\"><span class=\"word-anchor\">超过</span><span class=\"word-block\"><span class=\"english-word\">exceed</span><span class=\"word-info\">[ɪkˈsid] v. 超过,胜过；越出 (限制、规定)</span></span></span>英国前，中国台湾的股市市值，就先超过英国，跻身全球第七大资本市场。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "与韩国股市的双巨头相比，台湾股市由台积电挑大梁。",
+      "html": "<p>与韩国股市的双巨头<span class=\"word-annot\"><span class=\"word-anchor\">相比</span><span class=\"word-block\"><span class=\"english-word\">beside</span><span class=\"word-info\">[ˌbiˈsaɪd] prep. 在...旁边，在...附近；和...相比</span></span></span>，台湾股市由台积电挑大梁。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "4月27日周一，台积电股价触及2330新台币大关，创下历史新高。截至5月1日，台积电今年涨幅32.21%，最近一年股价涨幅高达140.80%，市值约合1.75万亿美元，相较之下，台湾股市的总市值仅有4.47万亿美元。",
+      "html": "<p>4月27日周一，台积电股价触及2330新台币大关，创下历史新高。截至5月1日，台积电今年涨幅32.21%，最近一年股价涨幅高达140.80%，市值约合1.75万亿美元，相较之下，台湾股<span class=\"word-annot\"><span class=\"word-anchor\">市的</span><span class=\"word-block\"><span class=\"english-word\">municipal</span><span class=\"word-info\">[mjuˈnɪsəpəl] adj. 市政府的，市的，市办的</span></span></span>总市值仅有4.47万亿美元。</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/013.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/013.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 57,
+      "source_text": "台积电制造的半导体芯片",
+      "html": "<p>台积电制造的<span class=\"word-annot\"><span class=\"word-anchor\">半导体</span><span class=\"word-block\"><span class=\"english-word\">semiconductor</span><span class=\"word-info\">[ˌsɛmɪkənˈdəktər] n. 半导体</span></span></span>芯片</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "台积电在2025年年报中强调：AI市场持续快速发展，尤其是大型语言模型(LLM)的兴起极大地推动了算力需求的增长。企业级AI和主权AI应用也在同步扩展，成为支撑半导体行业长期需求的重要动力。",
+      "html": "<p>台积电在2025年年报中<span class=\"word-annot\"><span class=\"word-anchor\">强调</span><span class=\"word-block\"><span class=\"english-word\">accent</span><span class=\"word-info\">[ˈækˌsɛnt] n. 口音；重音；强调；特点；重音符号</span></span></span>：AI市场持续快速发展，尤其是大型语言模型(LLM)的兴起极大地推动了算力需求的增长。企业级AI和主权AI应用也在同步扩展，成为支撑<span class=\"word-annot\"><span class=\"word-anchor\">半导体</span><span class=\"word-block\"><span class=\"english-word\">semiconductor</span><span class=\"word-info\">[ˌsɛmɪkənˈdəktər] n. 半导体</span></span></span>行业长期需求的重要动力。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "当前，全球几乎所有AI计算的核心芯片，无论是GPU还是基于AI的专用芯片，都必须经由台积电的先进制程，才能实现物理存在。",
+      "html": "<p>当前，全球几乎所有AI计算的核心芯片，无论是GPU还是基于AI的专用芯片，都必须经由台积电的先进制程，才能<span class=\"word-annot\"><span class=\"word-anchor\">实现</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>物理存在。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "而中国台湾和韩国的股市表现强势的背后，在于它们都踩中了当下最热的市场风口——“HALO资产”。",
+      "html": "<p>而中国台湾和韩国的股市表现强势的背后，在于它们都踩中了当下最热的市场风口——“HALO<span class=\"word-annot\"><span class=\"word-anchor\">资产</span><span class=\"word-block\"><span class=\"english-word\">asset</span><span class=\"word-info\">[ˈæˌsɛt] n. 资产， 财产；优点； 有用的东西</span></span></span>”。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "2026年2月份，高盛基于全球人工智能浪潮和地缘政治的不确定性，提出要寻找那些物理上难以替代、不会被AI技术轻易颠覆的硬资产，即“HALO”，其中典型的领域，是能源与公用事业、基础资源与材料、交通基础设施和高端制造设备。",
+      "html": "<p>2026年2月份，高盛基于全球人工智能浪潮和地缘政治的不确定性，提出要寻找那些物理上难以替代、不会被AI技术轻易颠覆的硬资产，即“HALO”，其中典型的领域，是能源与公用事业、基础资源与材料、交通<span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施；公共建设；下部构造</span></span></span>和高端制造设备。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "而韩国和台湾股市，坐拥了既能代表“HALO资产”，同时又扮演AI浪潮下“卖铲人”角色的高端芯片制造产业。",
+      "html": "<p>而韩国和台湾股市，坐拥了既能<span class=\"word-annot\"><span class=\"word-anchor\">代表</span><span class=\"word-block\"><span class=\"english-word\">ambassador</span><span class=\"word-info\">[æmˈbæsədər] n. 大使；特使，(派驻国际组织的)代表</span></span></span>“HALO资产”，同时又扮演AI浪潮下“卖铲人”角色的高端芯片制造产业。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "并且，随着美伊冲突的爆发，“HALO”还成为了对冲全球系统性风险的工具——越来越多的资本试图规避过去以“美国中心化”的系统性风险，寻找更具有“稀缺性”的资产。",
+      "html": "<p>并且，随着美伊冲突的爆发，“HALO”还成为了对冲全球系统性风险的工具——越来越多的资本试图规避过去以“美国中心化”的系统性风险，寻找更具有“稀缺性”的<span class=\"word-annot\"><span class=\"word-anchor\">资产</span><span class=\"word-block\"><span class=\"english-word\">asset</span><span class=\"word-info\">[ˈæˌsɛt] n. 资产， 财产；优点； 有用的东西</span></span></span>。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "管理720亿美元资产的首鹰投资基金经理朱利安・阿尔贝蒂尼曾指出：“能源安全、国防、供应链韧性已成为各国战略自主的核心，这推动了全球资本从美国的‘金融资产’向非美地区的‘实物资产’进行大规模再平衡。”",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">管理</span><span class=\"word-block\"><span class=\"english-word\">administer</span><span class=\"word-info\">[ədˈmɪnɪstər] v. 管理；执行；给予</span></span></span>720亿美元资产的首鹰投资基金经理朱利安・阿尔贝蒂尼曾指出：“能源安全、国防、供应链韧性已成为各国战略自主的核心，这推动了全球资本从美国的‘金融资产’向非美地区的‘实物资产’进行大规模再平衡。”</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "简单来说，他认为美国主导全球、靠金融收割全世界的时代，就要结束了。现在全世界各个国家，最核心的生存目标，已经不是“跟着美国搞金融赚快钱”，而是三件关乎国家存亡的大事：能源安全、国防安全、供应链安全。",
+      "html": "<p>简单来说，他认为美国主导全球、靠金融收割全<span class=\"word-annot\"><span class=\"word-anchor\">世界的</span><span class=\"word-block\"><span class=\"english-word\">universal</span><span class=\"word-info\">[ˌjunəˈvərsəl] adj. 全体的,宇宙的,世界的；普遍的，通用的</span></span></span>时代，就要结束了。现在全世界各个国家，最核心的生存目标，已经不是“跟着美国搞金融赚快钱”，而是三件关乎国家存亡的大事：能源安全、国防安全、<span class=\"word-annot\"><span class=\"word-anchor\">供应</span><span class=\"word-block\"><span class=\"english-word\">furnish</span><span class=\"word-info\">[ˈfərnɪʃ] v. 供应,提供；装备,布置</span></span></span>链安全。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "寻找“HALO”资产的风也刮到了A股市场。",
+      "html": "<p>寻找“HALO”<span class=\"word-annot\"><span class=\"word-anchor\">资产</span><span class=\"word-block\"><span class=\"english-word\">asset</span><span class=\"word-info\">[ˈæˌsɛt] n. 资产， 财产；优点； 有用的东西</span></span></span>的风也刮到了A股市场。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "中金公司研究部宏观分析师认为：“HALO交易”是全球资金在旧秩序松动后寻找新锚点的交易热潮，而中国资产成为安全资产，则是这一热潮在中国市场的具象化与深化。",
+      "html": "<p>中金公司研究部宏观<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span>师认为：“HALO交易”是全球资金在旧秩序松动后寻找新锚点的交易热潮，而中国资产成为安全资产，则是这一热潮在中国市场的具象化与深化。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "中国银河证券首席策略分析师杨超认为：全球资本在高不确定性环境下对“确定性与稀缺性”的再定价，让中国资产被赋予“安全资产”属性。",
+      "html": "<p>中国银河证券首席策略<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span>师杨超认为：全球资本在高不确定性环境下对“确定性与稀缺性”的再定价，让中国资产被赋予“安全资产”属性。</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "值得一提的是，中国资产的“安全属性”更多源于宏观体系层面，定价基础在于经济体的产业完整性、政策空间与内需韧性，是对“系统稳定性与增长确定性”的重估。",
+      "html": "<p>值得一提的是，中国资产的“安全属性”更多源于宏观体系层面，定价基础在于经济体的产业完整性、政策空间与内需韧性，是对“系统稳定性与增长<span class=\"word-annot\"><span class=\"word-anchor\">确定</span><span class=\"word-block\"><span class=\"english-word\">ascertain</span><span class=\"word-info\">[ˌæsərˈteɪn] v. 确定，查明，弄清</span></span></span>性”的重估。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/014.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/014.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 71,
+      "source_text": "不过，无论是押注AI浪潮还是积极拥抱“HALO”，市场疯狂的背后，也有重量级人物保持了理性和清醒。",
+      "html": "<p>不过，无论是押注AI浪潮还是积极拥抱“HALO”，市场疯狂的背后，也有重量级人物<span class=\"word-annot\"><span class=\"word-anchor\">保持</span><span class=\"word-block\"><span class=\"english-word\">conservation</span><span class=\"word-info\">[ˌkɑnsərˈveɪʃən] n. 保存，保持；保护</span></span></span>了理性和清醒。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "退居幕后的股神巴菲特，在前日伯克希尔股东大会间隙就对媒体坦言：“当前的投资环境并不理想”，真正的买入时机要等到市场恐慌至“无人接听电话”之时。",
+      "html": "<p>退居幕后的股神巴菲特，在前日伯克希尔股东大会间隙就对媒体坦言：“当前的投资环境并不理想”，<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>买入时机要等到市场恐慌至“无人接听电话”之时。</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "最新财报显示，伯克希尔一季度，手握创纪录的3970亿美元现金储备。",
+      "html": "<p>最新财报<span class=\"word-annot\"><span class=\"word-anchor\">显示</span><span class=\"word-block\"><span class=\"english-word\">exhibit</span><span class=\"word-info\">[ɪgˈzɪbɪt] v. 展览；显示；提出（证据等）</span></span></span>，伯克希尔一季度，手握创纪录的3970亿美元现金储备。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "伯克希尔新掌门人阿贝尔也强调：“我们不会为了AI而AI，AI必须为业务创造实际价值。”",
+      "html": "<p>伯克希尔新掌门人阿贝尔也<span class=\"word-annot\"><span class=\"word-anchor\">强调</span><span class=\"word-block\"><span class=\"english-word\">accent</span><span class=\"word-info\">[ˈækˌsɛnt] n. 口音；重音；强调；特点；重音符号</span></span></span>：“我们不会为了AI而AI，AI必须为业务创造实际价值。”</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "他再次强调了伯克希尔的五大基石：现金与国债安全垫，财务独立，灵活配置，税务高效，杜绝傲慢、官僚和自满。",
+      "html": "<p>他再次<span class=\"word-annot\"><span class=\"word-anchor\">强调</span><span class=\"word-block\"><span class=\"english-word\">accent</span><span class=\"word-info\">[ˈækˌsɛnt] n. 口音；重音；强调；特点；重音符号</span></span></span>了伯克希尔的五大基石：现金与国债安全垫，财务独立，灵活配置，税务高效，杜绝傲慢、官僚和自满。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "或许有投资者认为，全球投资者都在拥抱“HALO”和AI，而巴菲特和他的追随者已经老了。",
+      "html": "<p>或许有投资者<span class=\"word-annot\"><span class=\"word-anchor\">认为</span><span class=\"word-block\"><span class=\"english-word\">deem</span><span class=\"word-info\">[dim] v. 认为，视作；相信</span></span></span>，全球投资者都在拥抱“HALO”和AI，而巴菲特和他的追随者已经老了。</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "但投资大师霍华德·马克斯也曾说过一句至理名言“在乐观顶峰买入好资产往往意味着灾难。”",
+      "html": "<p>但投资大师霍华德·马克斯也曾说过一句<span class=\"word-annot\"><span class=\"word-anchor\">至理名言</span><span class=\"word-block\"><span class=\"english-word\">wisdom</span><span class=\"word-info\">[ˈwɪzdəm] n. 智慧，才智；明智；学识；至理名言</span></span></span>“在乐观顶峰买入好资产往往意味着灾难。”</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "因此，在追捧“HALO”的路上，保持一丝冷静，也许才是这场所谓的稀缺性盛宴里，最稀有的品质。",
+      "html": "<p>因此，在追捧“HALO”的路上，保持一丝冷静，也许才是这场所谓的稀缺性盛宴里，最<span class=\"word-annot\"><span class=\"word-anchor\">稀有的</span><span class=\"word-block\"><span class=\"english-word\">scarce</span><span class=\"word-info\">[skɛrs] adj. 缺乏的，不足的；稀有的</span></span></span>品质。</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "![](../images/posts/2026-05-04-prose-layout-segments-trial/015.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-prose-layout-segments-trial/015.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}

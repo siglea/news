@@ -1,0 +1,26 @@
+{
+  "slug": "prose-layout-segments-trial",
+  "title_zh": "魔幻的韩国股市，父母给婴儿开户买股票",
+  "title_en": "Korea’s equity boom and baby brokerage accounts",
+  "title_emoji": "📈",
+  "date": "2026-05-04",
+  "source_url": "https://mp.weixin.qq.com/s/yOnLcsTmXALsLUh_otfAVA",
+  "source_account": "吴晓波频道",
+  "include_source_footer": true,
+  "footer_template": "verbatim",
+  "source_author_display": "",
+  "footer_derivative_mp_unknown": false,
+  "out_html": "posts/2026-05-04-prose-layout-segments-trial.html",
+  "meta_description": "韩国婴儿股东与免税赠与、KOSPI 半导体双巨头、杠杆散户与「HALO」实物资产叙事；文末对比台积电与巴菲特现金态度。吴晓波频道转载稿，分段版式试验。",
+  "omit_sections_note": "本站已按编辑流程处理正文；具体以原文为准。",
+  "risk_blurb": "本文仅供学习交流，不构成投资建议或其他专业意见。",
+  "source_mode": "url",
+  "article_layout": "segments",
+  "tags": [
+    "吴晓波频道",
+    "韩国股市",
+    "半导体",
+    "HALO",
+    "版式试验"
+  ]
+}
