@@ -1,0 +1,497 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "准备",
+      "en": "formulate",
+      "ipa": "[ˈfɔːmjuleɪt]",
+      "pos": "v.",
+      "gloss": "规划；制定；准备；仔细思考并明确表达"
+    },
+    {
+      "i": 1,
+      "zh": "焦虑",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑；渴望；挂念；令人焦虑的事"
+    },
+    {
+      "i": 2,
+      "zh": "极端的",
+      "en": "radical",
+      "ipa": "[ˈrædɪkəl]",
+      "pos": "adj.",
+      "gloss": "基本的， 重要的， 根本的；激进的， 极端的"
+    },
+    {
+      "i": 3,
+      "zh": "认为",
+      "en": "deem",
+      "ipa": "[dim]",
+      "pos": "v.",
+      "gloss": "认为，视作；相信"
+    },
+    {
+      "i": 4,
+      "zh": "大多数",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 5,
+      "zh": "解决",
+      "en": "patch",
+      "ipa": "[pæʧ]",
+      "pos": "v.",
+      "gloss": "修补；解决；掩饰"
+    },
+    {
+      "i": 6,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 7,
+      "zh": "分析",
+      "en": "analyze",
+      "ipa": "[ˈænəˌlaɪz]",
+      "pos": "vt.",
+      "gloss": "分析； 分解"
+    },
+    {
+      "i": 8,
+      "zh": "看不见的",
+      "en": "invisible",
+      "ipa": "[ˌɪnˈvɪzəbəl]",
+      "pos": "adj.",
+      "gloss": "看不见的；无形的"
+    },
+    {
+      "i": 9,
+      "zh": "替代",
+      "en": "substitute",
+      "ipa": "[ˈsəbstəˌtut]",
+      "pos": "v.",
+      "gloss": "替代"
+    },
+    {
+      "i": 10,
+      "zh": "想象的",
+      "en": "fancy",
+      "ipa": "[ˈfænsi]",
+      "pos": "adj.",
+      "gloss": "想象的；奇特的；昂贵的；精选的"
+    },
+    {
+      "i": 11,
+      "skip": true
+    },
+    {
+      "i": 12,
+      "skip": true
+    },
+    {
+      "i": 13,
+      "zh": "需要",
+      "en": "entail",
+      "ipa": "[ɛnˈteɪl]",
+      "pos": "v.",
+      "gloss": "使需要，必需；承担；遗传给；蕴含"
+    },
+    {
+      "i": 14,
+      "zh": "评估",
+      "en": "appraisal",
+      "ipa": "[əˈpreɪzəl]",
+      "pos": "n.",
+      "gloss": "对...作出的评价；评价，鉴定，评估"
+    },
+    {
+      "i": 15,
+      "skip": true
+    },
+    {
+      "i": 16,
+      "zh": "成本",
+      "en": "costing",
+      "ipa": "[ˈkɒstɪŋ]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 17,
+      "zh": "落后于",
+      "en": "lag",
+      "ipa": "[læg]",
+      "pos": "v.",
+      "gloss": "落后于；押往监狱；加上外套"
+    },
+    {
+      "i": 18,
+      "zh": "合同",
+      "en": "bargain",
+      "ipa": "[ˈbɑrgɪn]",
+      "pos": "n.",
+      "gloss": "廉价货；交易,契约,合同"
+    },
+    {
+      "i": 19,
+      "zh": "承担",
+      "en": "assumption",
+      "ipa": "[əˈsəmpʃən]",
+      "pos": "n.",
+      "gloss": "假定，设想；采取；承担"
+    },
+    {
+      "i": 20,
+      "zh": "符合",
+      "en": "accord",
+      "ipa": "[əˈkɔrd]",
+      "pos": "n.",
+      "gloss": "一致， 符合；协议， 条约"
+    },
+    {
+      "i": 21,
+      "zh": "完整的",
+      "en": "integral",
+      "ipa": "[ˈɪnəgrəl]",
+      "pos": "adj.",
+      "gloss": "积分的；完整的，整体的；构成整体所必须的"
+    },
+    {
+      "i": 22,
+      "zh": "螃蟹",
+      "en": "crab",
+      "ipa": "[kræb]",
+      "pos": "n.",
+      "gloss": "螃蟹；蟹肉；脾气乖戾的人；起重机"
+    },
+    {
+      "i": 23,
+      "zh": "能力",
+      "en": "capability2",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 24,
+      "zh": "直觉的",
+      "en": "gut",
+      "ipa": "[gət]",
+      "pos": "adj.",
+      "gloss": "简单的；本质的，根本的；本能的，直觉的"
+    },
+    {
+      "i": 25,
+      "zh": "理解",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 26,
+      "zh": "维护",
+      "en": "assert",
+      "ipa": "[əˈsərt]",
+      "pos": "v.",
+      "gloss": "维护，坚持；断言；主张；声称"
+    },
+    {
+      "i": 27,
+      "zh": "支撑",
+      "en": "brace",
+      "ipa": "[breɪs]",
+      "pos": "vt.",
+      "gloss": "使防备， 使受锻炼；支撑； 使绷紧"
+    },
+    {
+      "i": 28,
+      "zh": "建立",
+      "en": "constitute",
+      "ipa": "[ˈkɑnstəˌtut]",
+      "pos": "v.",
+      "gloss": "组成，构成；建立；任命"
+    },
+    {
+      "i": 29,
+      "zh": "想要",
+      "en": "intend",
+      "ipa": "[ˌɪnˈtɛnd]",
+      "pos": "v.",
+      "gloss": "想要； 打算， 企图"
+    },
+    {
+      "i": 30,
+      "zh": "大部分",
+      "en": "bulk2",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 31,
+      "zh": "抵触",
+      "en": "clash",
+      "ipa": "[klæʃ]",
+      "pos": "v.",
+      "gloss": "冲突，抵触；砰地相碰撞，发出铿锵声"
+    },
+    {
+      "i": 32,
+      "zh": "赔偿金",
+      "en": "compensation",
+      "ipa": "[ˌkɑmpənˈseɪʃən]",
+      "pos": "n.",
+      "gloss": "补偿费，赔偿金"
+    },
+    {
+      "i": 33,
+      "zh": "所以",
+      "en": "consequently",
+      "ipa": "[ˈkɑnsəkˌwɛntli]",
+      "pos": "adv.",
+      "gloss": "结果，因此，所以"
+    },
+    {
+      "i": 34,
+      "zh": "协作",
+      "en": "coordinate",
+      "ipa": "[koʊˈɔrdəˌneɪt]",
+      "pos": "v.",
+      "gloss": "协作，协调"
+    },
+    {
+      "i": 35,
+      "zh": "缓冲",
+      "en": "buffer",
+      "ipa": "[ˈbʌfə]",
+      "pos": "n.",
+      "gloss": "缓冲"
+    },
+    {
+      "i": 36,
+      "zh": "失业",
+      "en": "unemployment",
+      "ipa": "[ˌənɪmˈplɔɪmənt]",
+      "pos": "n.",
+      "gloss": "失业；失业率；失业人数"
+    },
+    {
+      "i": 37,
+      "zh": "补贴",
+      "en": "allowance",
+      "ipa": "[əˈlaʊəns]",
+      "pos": "n.",
+      "gloss": "补贴，津贴；允许量；零用钱"
+    },
+    {
+      "i": 38,
+      "zh": "代的",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 39,
+      "zh": "真正的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 40,
+      "skip": true
+    },
+    {
+      "i": 41,
+      "zh": "完成",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 42,
+      "zh": "归属",
+      "en": "attribute",
+      "ipa": "[əˈtrɪˌbjut]",
+      "pos": "v.",
+      "gloss": "归属；把…归于"
+    },
+    {
+      "i": 43,
+      "zh": "标准化",
+      "en": "normalization",
+      "ipa": "[ˌnɔrməlɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "正常化；标准化；正规化；常态化"
+    },
+    {
+      "i": 44,
+      "zh": "加速",
+      "en": "accelerate",
+      "ipa": "[ækˈsɛlərˌeɪt]",
+      "pos": "v.",
+      "gloss": "使加速，使增速，促进；加速"
+    },
+    {
+      "i": 45,
+      "zh": "完成",
+      "en": "accomplish2",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 46,
+      "zh": "标准化",
+      "en": "normalization2",
+      "ipa": "[ˌnɔrməlɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "正常化；标准化；正规化；常态化"
+    },
+    {
+      "i": 47,
+      "zh": "动力",
+      "en": "choke",
+      "ipa": "[ʧoʊk]",
+      "pos": "n.",
+      "gloss": "窒息；噎；[动力] 阻气门"
+    },
+    {
+      "i": 48,
+      "zh": "真正的",
+      "en": "authentic2",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 49,
+      "zh": "整个",
+      "en": "altogether",
+      "ipa": "[ˌɔltəˈgɛðər]",
+      "pos": "n.",
+      "gloss": "整个；裸体"
+    },
+    {
+      "i": 50,
+      "zh": "不可避免",
+      "en": "imperative",
+      "ipa": "[ˌɪmˈpɛrətɪv]",
+      "pos": "adj.",
+      "gloss": "必要的，不可避免的；紧急的；命令的，专横的；势在必行的；[语]祈使的"
+    },
+    {
+      "i": 51,
+      "skip": true
+    },
+    {
+      "i": 52,
+      "zh": "准备",
+      "en": "formulate2",
+      "ipa": "[ˈfɔːmjuleɪt]",
+      "pos": "v.",
+      "gloss": "规划；制定；准备；仔细思考并明确表达"
+    },
+    {
+      "i": 53,
+      "zh": "的人",
+      "en": "athlete",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 54,
+      "zh": "所有人",
+      "en": "holder",
+      "ipa": "[ˈhoʊldər]",
+      "pos": "n.",
+      "gloss": "持有人；所有人；固定器；（台、架等）支持物"
+    },
+    {
+      "i": 55,
+      "zh": "的人",
+      "en": "athlete2",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 56,
+      "skip": true
+    },
+    {
+      "i": 57,
+      "skip": true
+    },
+    {
+      "i": 58,
+      "zh": "理解",
+      "en": "absorb2",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 59,
+      "zh": "知识的",
+      "en": "initiate",
+      "ipa": "[ˌɪˈnɪʃiˌeɪt]",
+      "pos": "adj.",
+      "gloss": "新加入的；接受初步知识的"
+    },
+    {
+      "i": 60,
+      "zh": "能力",
+      "en": "capability3",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 61,
+      "zh": "判断",
+      "en": "diagnose",
+      "ipa": "[ˌdaɪəgˈnoʊs]",
+      "pos": "v.",
+      "gloss": "诊断(疾病)；判断(问题)"
+    },
+    {
+      "i": 62,
+      "zh": "复杂的",
+      "en": "complicated",
+      "ipa": "[ˈkɑmpləˌkeɪtəd]",
+      "pos": "adj.",
+      "gloss": "难懂的，复杂的"
+    },
+    {
+      "i": 63,
+      "zh": "创造",
+      "en": "coin",
+      "ipa": "[kɔɪn]",
+      "pos": "v.",
+      "gloss": "铸造（货币）；杜撰，创造"
+    },
+    {
+      "i": 64,
+      "zh": "领域",
+      "en": "domain",
+      "ipa": "[dəʊˈmeɪn]",
+      "pos": "n.",
+      "gloss": "(活动,思想等)领域,范围；领地"
+    }
+  ]
+}
