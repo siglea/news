@@ -1,0 +1,31 @@
+{
+  "slug": "living-room-genome-sequencing-nanopore-ai",
+  "title_zh": "生物圈震撼：00后小哥在客厅完成基因组测序，27亿美金壁垒塌了！",
+  "title_en": "Living-room genome sequencing: DIY Nanopore, Evo2, AlphaGenome, and the falling $2.7B barrier",
+  "title_emoji": "📈",
+  "date": "2026-05-04",
+  "source_url": "https://mp.weixin.qq.com/s/9U7v5ZliUIGlxpUyI6bpPA",
+  "source_account": "36氪",
+  "include_source_footer": true,
+  "footer_template": "verbatim",
+  "source_author_display": "",
+  "footer_derivative_mp_unknown": false,
+  "out_html": "posts/2026-05-04-living-room-genome-sequencing-nanopore-ai.html",
+  "meta_description": "36氪：Seth Howes 在客厅用 Oxford Nanopore MinION、Evo2、AlphaGenome 与 Claude 完成全基因组测序并追溯家族自身免疫疾病线索；对比 2003 年 27 亿美元成本与千元级 DIY 路径及测序成本曲线。正文含配图 27 张。",
+  "tags": [
+    "36氪",
+    "基因组测序",
+    "Oxford Nanopore",
+    "MinION",
+    "Evo2",
+    "AlphaGenome",
+    "Claude",
+    "Arc Institute",
+    "DeepMind",
+    "DIY 生物",
+    "转载"
+  ],
+  "omit_sections_note": "本站已按编辑流程处理正文；具体以原文为准。",
+  "risk_blurb": "本文仅供学习交流，不构成投资建议或其他专业意见。",
+  "source_mode": "url"
+}

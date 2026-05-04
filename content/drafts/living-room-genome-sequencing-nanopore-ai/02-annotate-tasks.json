@@ -1,0 +1,507 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "living-room-genome-sequencing-nanopore-ai",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/001.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/001.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 2,
+      "source_text": "一台U盘大小的测序仪、几个AI模型——00后小哥Seth Howes，就这样在自家客厅里完成了基因组测序，独自破解了家族几十年未解的自身免疫疾病之谜。在2003年，完成一次人类全基因组测序的成本是27亿美元，而他只花了1100美元。",
+      "html": "<p>一台U盘大小的测序仪、几个AI模型——00后小哥Seth Howes，就这样在自家客厅里<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>了基因组测序，独自破解了家族几十年未解的自身免疫疾病之谜。在2003年，<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">attain</span><span class=\"word-info\">[əˈteɪn] v. 完成；获得；达到</span></span></span>一次人类全基因组测序的成本是27亿美元，而他只花了1100美元。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/003.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/003.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 4,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/004.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/004.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 5,
+      "source_text": "就在今天，全网都被这位00后小哥的故事刷屏了！",
+      "html": "<p>就在今天，全网都被这位00后小哥的<span class=\"word-annot\"><span class=\"word-anchor\">故事</span><span class=\"word-block\"><span class=\"english-word\">narrative</span><span class=\"word-info\">[ˈnɛrətɪv] n. 叙述；故事；讲述</span></span></span>刷屏了！</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "这位名叫Seth Howes的网友，利用便携式测序仪和Claude，在自家客厅就独立完成了完整的基因组测序，而且成功追溯到家族多代自身免疫疾病的致病机制。",
+      "html": "<p>这位名叫Seth Howes的网友，利用便携式测序仪和Claude，在自家客厅就独立完成了<span class=\"word-annot\"><span class=\"word-anchor\">完整的</span><span class=\"word-block\"><span class=\"english-word\">integral</span><span class=\"word-info\">[ˈɪnəgrəl] adj. 积分的；完整的，整体的；构成整体所必须的</span></span></span>基因组测序，而且成功追溯到家族多代自身免疫疾病的致病机制。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/005.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/005.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 8,
+      "source_text": "这些问题，曾经令无数临床医生束手无策。",
+      "html": "<p>这些问题，曾经令无数<span class=\"word-annot\"><span class=\"word-anchor\">临床</span><span class=\"word-block\"><span class=\"english-word\">clinic</span><span class=\"word-info\">[ˈklɪnɪk] n. 临床；诊所</span></span></span>医生束手无策。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "这些机制，此前没有任何一位临床医生能给出解释。看了十几年的病，换了无数家医院，答案最后是在自己客厅里找到的。",
+      "html": "<p>这些机制，此前没有任何一位临床医生能给出<span class=\"word-annot\"><span class=\"word-anchor\">解释</span><span class=\"word-block\"><span class=\"english-word\">define</span><span class=\"word-info\">[dɪˈfaɪn] v. 确定，说明，界定；给…下定义，解释</span></span></span>。看了十几年的病，换了无数家<span class=\"word-annot\"><span class=\"word-anchor\">医院</span><span class=\"word-block\"><span class=\"english-word\">ambulance</span><span class=\"word-info\">[ˈæmbjələns] n. [车辆][医] 救护车；战时流动医院</span></span></span>，答案最后是在自己客厅里找到的。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/006.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/006.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 11,
+      "source_text": "这个实验太震撼，生物技术圈现在已经炸锅了！",
+      "html": "<p>这个实验太震撼，<span class=\"word-annot\"><span class=\"word-anchor\">生物</span><span class=\"word-block\"><span class=\"english-word\">breed</span><span class=\"word-info\">[brid] n. [生物] 品种；种类，类型</span></span></span>技术圈现在已经炸锅了！</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "Claude大模型，居然让基因测序从资本密集型活动变成个人工具。",
+      "html": "<p>Claude大模型，居然让基因测序从资本密集型活动变成个人<span class=\"word-annot\"><span class=\"word-anchor\">工具</span><span class=\"word-block\"><span class=\"english-word\">gear</span><span class=\"word-info\">[gɪr] n. 齿轮；装置，工具；传动装置</span></span></span>。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "生物学研究的地点不再是哪家顶级实验室的昂贵机台，也不是什么医学院的公共平台，而是自家客厅！",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">生物学</span><span class=\"word-block\"><span class=\"english-word\">biology</span><span class=\"word-info\">[baɪˈɑləʤi] n. 生物学</span></span></span>研究的地点不再是哪家顶级实验室的昂贵机台，也不是什么医学院的公共平台，而是自家客厅！</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/007.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/007.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 15,
+      "source_text": "桌子上的实验室，包括加热模块、涡旋振荡器、迷你离心机、移液器、MinION",
+      "html": "<p>桌子上的<span class=\"word-annot\"><span class=\"word-anchor\">实验室</span><span class=\"word-block\"><span class=\"english-word\">lab</span><span class=\"word-info\">[læb] n. 实验室，研究室</span></span></span>，包括加热模块、涡旋振荡器、迷你离心机、移液器、MinION</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "现在，这个帖子已经全网刷屏了。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">presently</span><span class=\"word-info\">[ˈprɛzəntli] adv. 一会儿,不久；现在,目前</span></span></span>，这个帖子已经全网刷屏了。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "在实验室做了十年实验的人都感慨：你真是太专业了。",
+      "html": "<p>在实验室做了十年<span class=\"word-annot\"><span class=\"word-anchor\">实验的</span><span class=\"word-block\"><span class=\"english-word\">experimental</span><span class=\"word-info\">[ɪkˌspɛrɪˈmɛntəl] adj. 实验的；根据实验的；试验性的</span></span></span>人都感慨：你真是太专业了。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/008.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/008.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 19,
+      "source_text": "做遗传学研究的人都说，这个基因组测序项目正符合自己的研究范畴。",
+      "html": "<p>做<span class=\"word-annot\"><span class=\"word-anchor\">遗传学</span><span class=\"word-block\"><span class=\"english-word\">genetic</span><span class=\"word-info\">[ʤəˈnɛtɪk] n. [-s]遗传学</span></span></span>研究的人都说，这个基因组测序项目正符合自己的研究范畴。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/009.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/009.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 21,
+      "source_text": "一位患有肿瘤的患者表示，这个实验实在是意义重大。",
+      "html": "<p>一位患有肿瘤的患者<span class=\"word-annot\"><span class=\"word-anchor\">表示</span><span class=\"word-block\"><span class=\"english-word\">bid</span><span class=\"word-info\">[bɪd] v. 投标；出价；表示；吩咐</span></span></span>，这个实验实在是意义重大。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/010.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/010.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 23,
+      "source_text": "可以说，这是一个足以震撼整个生物圈的DIY实践：从此，生物学研究打破了机构垄断，彻底进入个人时代！",
+      "html": "<p>可以说，这是一个足以震撼<span class=\"word-annot\"><span class=\"word-anchor\">整个</span><span class=\"word-block\"><span class=\"english-word\">altogether</span><span class=\"word-info\">[ˌɔltəˈgɛðər] n. 整个；裸体</span></span></span>生物圈的DIY实践：从此，生物学研究打破了机构垄断，彻底进入个人时代！</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/011.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/011.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 25,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/012.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/012.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 26,
+      "source_text": "Seth Howes是一名exolabs的前工程师，并且是牛津的医学博士，和帝国理工的机器学习博士。",
+      "html": "<p>Seth Howes是一名exolabs的前工程师，并且是牛津的医学博士，和帝国理工的<span class=\"word-annot\"><span class=\"word-anchor\">机器</span><span class=\"word-block\"><span class=\"english-word\">machinery</span><span class=\"word-info\">[məˈʃinəri] n. 机械；机器；机构；机械装置</span></span></span>学习博士。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/013.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/013.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 28,
+      "source_text": "Seth的研究并非起于学术兴趣，而是源于一份沉重的家族遗传压力。",
+      "html": "<p>Seth的研究并非起于学术兴趣，而是<span class=\"word-annot\"><span class=\"word-anchor\">源于</span><span class=\"word-block\"><span class=\"english-word\">derive</span><span class=\"word-info\">[dəraɪv] v. 源于；得自；获得</span></span></span>一份沉重的家族遗传压力。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "他的家族长期面临高风险的自身免疫性疾病。",
+      "html": "<p>他的家族长期面临高风险的自身免疫性<span class=\"word-annot\"><span class=\"word-anchor\">疾病</span><span class=\"word-block\"><span class=\"english-word\">complaint</span><span class=\"word-info\">[kəmˈpleɪnt] n. 抱怨；诉苦；疾病；委屈</span></span></span>。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "就在他进行实验期间，他不到40岁的姐姐因病导致肝脏严重受损，在等待两年后才艰难获得肝源进行手术。",
+      "html": "<p>就在他<span class=\"word-annot\"><span class=\"word-anchor\">进行实验</span><span class=\"word-block\"><span class=\"english-word\">experiment</span><span class=\"word-info\">[ɪkˈspɛrəmənt] v. 尝试；进行实验</span></span></span>期间，他不到40岁的姐姐因病导致肝脏严重受损，在等待两年后才艰难获得肝源进行手术。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/014.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/014.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 32,
+      "source_text": "「我并不幻想能治愈家族的顽疾，但我确实想弄明白，为什么我们的身体会一代又一代地反噬自身？」",
+      "html": "<p>「我并不幻想能<span class=\"word-annot\"><span class=\"word-anchor\">治愈</span><span class=\"word-block\"><span class=\"english-word\">cure</span><span class=\"word-info\">[kjʊr] v. (of)治愈,医治</span></span></span>家族的顽疾，但我确实想弄明白，为什么我们的身体会一代又一代地反噬自身？」</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "正是这种对生命底层代码的好奇心，再加上对数据隐私的追求，促使他决定在客厅搭建起一个「数字药剂师」的工作台。",
+      "html": "<p>正是这种对生命底层代码的好奇心，再加上对数据隐私的追求，促使他决定在客厅搭建起一个「数字药剂师」的<span class=\"word-annot\"><span class=\"word-anchor\">工作台</span><span class=\"word-block\"><span class=\"english-word\">bench</span><span class=\"word-info\">[bɛnʧ] n. 长凳；工作台；替补队员</span></span></span>。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "毕竟，在他看来，「你最私密的数据不应该离开你的房子」。",
+      "html": "<p>毕竟，在他看来，「你最私密的数据不应该<span class=\"word-annot\"><span class=\"word-anchor\">离开</span><span class=\"word-block\"><span class=\"english-word\">depart</span><span class=\"word-info\">[dɪˈpɑrt] v. 离开,起程</span></span></span>你的房子」。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/015.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/015.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 36,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/016.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/016.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 37,
+      "source_text": "过去，全基因组测序是大型实验室的专利，动辄耗资数十万美元。",
+      "html": "<p>过去，全基因组测序是大型<span class=\"word-annot\"><span class=\"word-anchor\">实验室</span><span class=\"word-block\"><span class=\"english-word\">laboratory</span><span class=\"word-info\">[ləˈbɒrətri] n. 实验室， 研究室</span></span></span>的专利，动辄耗资数十万美元。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "而这次Seth的成功，关键在于三个要素的加持。",
+      "html": "<p>而这次Seth的成功，关键<span class=\"word-annot\"><span class=\"word-anchor\">在于</span><span class=\"word-block\"><span class=\"english-word\">consist</span><span class=\"word-info\">[kənˈsɪst] v. (in)在于；(of)由…组成,由…构成</span></span></span>三个要素的加持。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "一、硬件：口袋里的「基因读取器」",
+      "html": "<p>一、硬件：口袋里的「<span class=\"word-annot\"><span class=\"word-anchor\">基因</span><span class=\"word-block\"><span class=\"english-word\">gene</span><span class=\"word-info\">[ʤin] n. 基因</span></span></span>读取器」</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "首先，在硬件上，他使用的是 Oxford Nanopore MinION 测序仪。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">首先</span><span class=\"word-block\"><span class=\"english-word\">foremost</span><span class=\"word-info\">[ˈfɔrˌmoʊst] adv. 首先；居于首位地</span></span></span>，在硬件上，他使用的是 Oxford Nanopore MinION 测序仪。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "这东西只有U盘大小，插在电脑上就能读取DNA序列。",
+      "html": "<p>这<span class=\"word-annot\"><span class=\"word-anchor\">东西</span><span class=\"word-block\"><span class=\"english-word\">clay</span><span class=\"word-info\">[kleɪ] n. [土壤] 粘土；泥土；肉体；似黏土的东西</span></span></span>只有U盘大小，插在电脑上就能读取DNA序列。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/017.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/017.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 43,
+      "source_text": "几年前，同样的事情需要一台占满整个房间的Illumina测序仪，配上一支专业团队和一笔六位数的预算。",
+      "html": "<p>几年前，同样<span class=\"word-annot\"><span class=\"word-anchor\">的事情</span><span class=\"word-block\"><span class=\"english-word\">sensation</span><span class=\"word-info\">[sɛnˈseɪʃən] n. 感觉,知觉；激动,轰动,轰动一时的事情</span></span></span>需要一台占满整个房间的Illumina测序仪，配上一支专业团队和一笔六位数的预算。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "而现在，这个只有充电宝大小的设备，内部布满了约2000个纳米孔（直径仅1纳米），当DNA片段穿过这些孔洞时，引起的微电流变化会被记录下来并转化为遗传代码。",
+      "html": "<p>而现在，这个只有充电宝大小的设备，内部布满了约2000个纳米孔（直径仅1纳米），当DNA片段穿过这些孔洞时，<span class=\"word-annot\"><span class=\"word-anchor\">引起</span><span class=\"word-block\"><span class=\"english-word\">arouse</span><span class=\"word-info\">[əraʊz] v. 引起；唤醒；鼓励</span></span></span>的微电流变化会被记录下来并转化为遗传代码。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/018.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/018.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 46,
+      "source_text": "它将测序成本从数十万美元降到了1000美元级别，未来甚至可能降至100美元。",
+      "html": "<p>它将测序<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">costing</span><span class=\"word-info\">[ˈkɒstɪŋ] n. 成本</span></span></span>从数十万美元降到了1000美元级别，未来甚至可能降至100美元。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "可以说，MinION把「读取DNA」这件事，从一个资本密集型行为变成了一个工具型能力。",
+      "html": "<p>可以说，MinION把「读取DNA」这件事，从一个资本密集型<span class=\"word-annot\"><span class=\"word-anchor\">行为</span><span class=\"word-block\"><span class=\"english-word\">behaviour</span><span class=\"word-info\">[bɪˈheɪvjər] n. 行为， 举止；特性； 运转情况</span></span></span>变成了一个工具型能力。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "就像3D打印机把「制造」从工厂搬到了桌面，MinION把「测序」从实验室搬到了客厅。",
+      "html": "<p>就像3D打印机把「<span class=\"word-annot\"><span class=\"word-anchor\">制造</span>」<span class=\"word-block\"><span class=\"english-word\">fabricate</span><span class=\"word-info\">[ˈfæbrəˌkeɪt] v. 制造；伪造；装配</span></span></span>从工厂搬到了桌面，MinION把「测序」从实验室搬到了客厅。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/019.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/019.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 50,
+      "source_text": "二、AI模型：从「读代码」到「理解功能」",
+      "html": "<p>二、AI模型：从「读代码」到「<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>功能」</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "但是在实验中，光读出A、T、C、G四个碱基是不够的。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">但是</span><span class=\"word-block\"><span class=\"english-word\">nonetheless</span><span class=\"word-info\">[ˌnənðəˈlɛs] adv. 尽管如此，但是</span></span></span>在实验中，光读出A、T、C、G四个碱基是不够的。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "30亿个碱基对的原始数据摆在面前，如果不知道它们意味着什么，就只是一堆字母。",
+      "html": "<p>30亿个碱基对的原始数据摆在面前，如果不知道它们<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">spell</span><span class=\"word-info\">[spɛl] v. 拼，拼写；意味着；招致；拼成；迷住；轮值</span></span></span>什么，就只是一堆字母。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "这就是AI登场的地方。在实验中，用到了两个关键模型。",
+      "html": "<p>这就是AI登场的地方。在实验中，用到了两个<span class=\"word-annot\"><span class=\"word-anchor\">关键</span><span class=\"word-block\"><span class=\"english-word\">hinge</span><span class=\"word-info\">[hɪnʤ] n. 铰链，折叶；关键，转折点；枢要，中枢</span></span></span>模型。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "第一个是Evo2。这是Arc Institute开发的基因组基础模型，参数规模达到70亿，在全球超过12万个物种的基因组数据上训练。它能做的事情是：给一段DNA序列，预测这段序列在生物学上的功能。",
+      "html": "<p>第一个是Evo2。这是Arc Institute开发的基因组基础模型，参数规模达到70亿，在全球超过12万个物种的基因组数据上<span class=\"word-annot\"><span class=\"word-anchor\">训练</span><span class=\"word-block\"><span class=\"english-word\">discipline</span><span class=\"word-info\">[ˈdɪsəplən] v. 训练，训导；惩戒</span></span></span>。它能做的<span class=\"word-annot\"><span class=\"word-anchor\">事情</span><span class=\"word-block\"><span class=\"english-word\">affair</span><span class=\"word-info\">[əˈfɛr] n. 事情；事务；私事；（尤指关系不长久的）风流韵事</span></span></span>是：给一段DNA序列，预测这段序列在生物学上的功能。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/020.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/020.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 56,
+      "source_text": "你肯定反应过来了——这就是一个生物学版的GPT！",
+      "html": "<p>你<span class=\"word-annot\"><span class=\"word-anchor\">肯定</span><span class=\"word-block\"><span class=\"english-word\">affirm</span><span class=\"word-info\">[əˈfərm] v. 肯定；断言</span></span></span>反应过来了——这就是一个生物学版的GPT！</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "GPT读懂人类语言，Evo2读懂生命语言。区别是，Evo2读的那本书有30亿个字母长。",
+      "html": "<p>GPT读懂<span class=\"word-annot\"><span class=\"word-anchor\">人类</span><span class=\"word-block\"><span class=\"english-word\">humanity</span><span class=\"word-info\">[juˈmænɪti] n. 人类；人性,人情；(pl.)人文科学</span></span></span>语言，Evo2读懂生命语言。<span class=\"word-annot\"><span class=\"word-anchor\">区别</span><span class=\"word-block\"><span class=\"english-word\">differentiate</span><span class=\"word-info\">[ˌdɪfərˈɛnʧiˌeɪt] v. 区分，区别</span></span></span>是，Evo2读的那本书有30亿个字母长。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "第二个是AlphaGenome。",
+      "html": "<p>第二个是AlphaGenome。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/021.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/021.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 60,
+      "source_text": "Google DeepMind出品，专门做基因组功能预测。它不只是告诉你「这段DNA编码了什么蛋白质」，而是能预测「这个位点的突变会对基因表达和染色质结构产生什么影响」。",
+      "html": "<p>Google DeepMind出品，专门做基因组功能<span class=\"word-annot\"><span class=\"word-anchor\">预测</span><span class=\"word-block\"><span class=\"english-word\">calculate</span><span class=\"word-info\">[ˈkælkjəˌleɪt] v. 计算,推算；预测，估计</span></span></span>。它不只是告诉你「这段DNA编码了什么蛋白质」，而是能预测「这个位点的突变会对基因表达和染色质结构产生什么<span class=\"word-annot\"><span class=\"word-anchor\">影响</span><span class=\"word-block\"><span class=\"english-word\">consequence</span><span class=\"word-info\">[ˈkɑnsəkwəns] n. 结果,后果,影响</span></span></span>」。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "从「读DNA」到「理解DNA功能」，这个跨越，过去需要一整个分子生物学实验室花几个月去验证。现在，一个模型跑几个小时就出结果。",
+      "html": "<p>从「读DNA」到「理解DNA功能」，这个跨越，过去需要一整个<span class=\"word-annot\"><span class=\"word-anchor\">分子生物</span><span class=\"word-block\"><span class=\"english-word\">transition</span><span class=\"word-info\">[trænˈzɪʃən] n. 过渡；转变；[分子生物] 转换；变调</span></span></span>学实验室花几个月去验证。现在，一个模型跑几个小时就出<span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">consequently</span><span class=\"word-info\">[ˈkɑnsəkˌwɛntli] adv. 结果，因此，所以</span></span></span>。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "三、接口简化：大模型成了「实验室助理」",
+      "html": "<p>三、接口<span class=\"word-annot\"><span class=\"word-anchor\">简化</span><span class=\"word-block\"><span class=\"english-word\">simplify</span><span class=\"word-info\">[ˈsɪmpləˌfaɪ] v. 简化,使单纯</span></span></span>：大模型成了「实验室助理」</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "说到这儿，整件事里最让人意外的细节不是测序仪，也不是基因组模型，而是Claude。",
+      "html": "<p>说到这儿，整件事里最让人<span class=\"word-annot\"><span class=\"word-anchor\">意外的</span><span class=\"word-block\"><span class=\"english-word\">accidental</span><span class=\"word-info\">[ˌæksəˈdɛnəl] adj. 偶然的；意外的；无意中的</span></span></span>细节不是测序仪，也不是基因组模型，而是Claude。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "Seth在操作过程中，用Claude生成了BED文件。",
+      "html": "<p>Seth在<span class=\"word-annot\"><span class=\"word-anchor\">操作</span><span class=\"word-block\"><span class=\"english-word\">maneuver</span><span class=\"word-info\">[məˈnuvər] n. (manoeuvre)移动;运用,操作</span></span></span>过程中，用Claude生成了BED文件。</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "BED文件是基因组学的标准数据格式，记录基因组上特定区域的坐标信息。以前写这种文件需要懂生物信息学的专业人员手动编写，或者用专门的命令行工具。",
+      "html": "<p>BED文件是基因组学的标准数据格式，<span class=\"word-annot\"><span class=\"word-anchor\">记录</span><span class=\"word-block\"><span class=\"english-word\">chalk</span><span class=\"word-info\">[ʧɔk] v. 用粉笔写；用白垩粉擦；记录；规划</span></span></span>基因组上特定区域的坐标信息。以前写这种文件需要懂<span class=\"word-annot\"><span class=\"word-anchor\">生物</span><span class=\"word-block\"><span class=\"english-word\">creature</span><span class=\"word-info\">[ˈkriʧər] n. 动物;生物</span></span></span>信息学的专业人员手动编写，或者用专门的命令行工具。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "现在的做法是：用自然语言告诉Claude「帮我生成一个BED文件，覆盖这几个基因区域」，它就生成了。",
+      "html": "<p>现在的做法是：用自然语言告诉Claude「帮我生成一个BED文件，<span class=\"word-annot\"><span class=\"word-anchor\">覆盖</span><span class=\"word-block\"><span class=\"english-word\">blanket</span><span class=\"word-info\">[ˈblæŋkɪt] v. 覆盖，掩盖；用毯覆盖</span></span></span>这几个基因区域」，它就生成了。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "生物学操作，已经被语言接口接管。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">生物</span><span class=\"word-block\"><span class=\"english-word\">isolate</span><span class=\"word-info\">[ˈaɪsəˌleɪt] n. [生物] 隔离种群</span></span></span>学操作，已经被语言接口接管。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/022.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/022.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 69,
+      "source_text": "现在，硬件平民化（MinION）、AI理解力指数级提升（Evo2 + AlphaGenome）、操作门槛被语言接口抹平（Claude），直接构成了一个完整的范式转移链条。",
+      "html": "<p>现在，硬件平民化（MinION）、AI理解力指数级提升（Evo2 + AlphaGenome）、操作门槛被语言接口抹平（Claude），直接构成了一个完整的范式<span class=\"word-annot\"><span class=\"word-anchor\">转移</span><span class=\"word-block\"><span class=\"english-word\">avert</span><span class=\"word-info\">[əˈvərt] v. 防止，避免；转移(目光、注意力等)</span></span></span>链条。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "每一环单独拿出来都不算新闻。但三环同时闭合，就出事了！",
+      "html": "<p>每一环单独拿出来<span class=\"word-annot\"><span class=\"word-anchor\">都不</span><span class=\"word-block\"><span class=\"english-word\">nowhere</span><span class=\"word-info\">[ˈnoʊˌwɛr] adv. 任何地方都不， 没有地方</span></span></span>算新闻。但三环<span class=\"word-annot\"><span class=\"word-anchor\">同时</span><span class=\"word-block\"><span class=\"english-word\">meantime</span><span class=\"word-info\">[ˈminˌtaɪm] adv. 同时；其间</span></span></span>闭合，就出事了！</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "一个有好奇心的年轻人，在自家客厅解开了临床医生十几年都解不开的谜。",
+      "html": "<p>一个有<span class=\"word-annot\"><span class=\"word-anchor\">好奇心</span><span class=\"word-block\"><span class=\"english-word\">curiosity</span><span class=\"word-info\">[ˌkjʊriˈɑsəti] n. 好奇心；古董,古玩</span></span></span>的年轻人，在自家客厅解开了临床医生十几年都解不开的谜。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "这件事的冲击力，不在于Seth个人的故事有多传奇，而在于它揭示了一条正在加速的曲线。",
+      "html": "<p>这件事的冲击力，不在于Seth<span class=\"word-annot\"><span class=\"word-anchor\">个人的</span><span class=\"word-block\"><span class=\"english-word\">subjective</span><span class=\"word-info\">[səˈbʤɛktɪv] adj. 主观(上)的，个人的</span></span></span>故事有多传奇，而在于它揭示了一条正在加速的曲线。</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "测序成本的下降轨迹，比摩尔定律还狠。",
+      "html": "<p>测序成本的<span class=\"word-annot\"><span class=\"word-anchor\">下降</span><span class=\"word-block\"><span class=\"english-word\">decline</span><span class=\"word-info\">[dɪˈklaɪn] n. 下降；衰退；斜面</span></span></span>轨迹，比摩尔定律还狠。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "2003年，完成一次人类全基因组测序的成本是27亿美元。2007年降到1000万。2014年降到1000美元。2024年，部分平台已经能做到200美元以下。",
+      "html": "<p>2003年，<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">execute</span><span class=\"word-info\">[ˈeksɪkjuːt] v. 处死；实行;实施;执行;履行；完成</span></span></span>一次人类全基因组测序的成本是27亿美元。2007年降到1000万。2014年降到1000美元。2024年，<span class=\"word-annot\"><span class=\"word-anchor\">部分</span><span class=\"word-block\"><span class=\"english-word\">highlight</span><span class=\"word-info\">[ˈhaɪˌlaɪt] n. 最精彩的部分</span></span></span>平台已经能做到200美元以下。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "下一个目标，是100美元。",
+      "html": "<p>下一个<span class=\"word-annot\"><span class=\"word-anchor\">目标</span><span class=\"word-block\"><span class=\"english-word\">objective</span><span class=\"word-info\">[əˈbʤɛktɪv] n. 目标,目的</span></span></span>，是100美元。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/023.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/023.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 77,
+      "source_text": "这条曲线的斜率意味着，在不远的将来，测序你自己的基因组，成本可能比做一次全身体检还低。",
+      "html": "<p>这条曲线的斜率<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">spelling</span><span class=\"word-info\">[ˈspɛlɪŋ] v. 拼写；意味着（spell的ing形式）；迷住</span></span></span>，在不远的将来，测序你自己的基因组，成本可能比做一次全身体检还低。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "很多人第一反应是：这不就是个极客的hobby project吗？普通人谁会在家测基因组？",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">很多</span><span class=\"word-block\"><span class=\"english-word\">lump</span><span class=\"word-info\">[ləmp] n. 块，块状；肿块；瘤；很多；笨人</span></span></span>人第一反应是：这不就是个极客的hobby project吗？<span class=\"word-annot\"><span class=\"word-anchor\">普通</span><span class=\"word-block\"><span class=\"english-word\">ordinary</span><span class=\"word-info\">[ˈɔrdəˌnɛri] n. 普通；平常的人（或事）</span></span></span>人谁会在家测基因组？</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "但回想一下，2010年的时候，有多少人觉得「普通人会在家里用3D打印机」？",
+      "html": "<p>但<span class=\"word-annot\"><span class=\"word-anchor\">回想</span><span class=\"word-block\"><span class=\"english-word\">recall</span><span class=\"word-info\">[ˈriˌkɔl] v. 回忆,回想；撤消,收回</span></span></span>一下，2010年的时候，有多少人觉得「普通人会在家里用3D打印机」？</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "每一次工具链闭合之后，从极客玩具到大众应用的窗口期都在缩短。这一次的窗口期可能更短，因为背后的驱动力是刚需。",
+      "html": "<p>每一次工具链闭合之后，从极客玩具到大众应用的窗口期都在<span class=\"word-annot\"><span class=\"word-anchor\">缩短</span><span class=\"word-block\"><span class=\"english-word\">clip</span><span class=\"word-info\">[klɪp] v. 剪；剪掉；缩短；给…剪毛（或发）用别针别在某物上，用夹子夹在某物上</span></span></span>。这一次的窗口期可能更短，因为背后的<span class=\"word-annot\"><span class=\"word-anchor\">驱动</span><span class=\"word-block\"><span class=\"english-word\">activate</span><span class=\"word-info\">[ˈæktəˌveɪt] v. 启动，激活；驱动，驱使；使开始起作用</span></span></span>力是刚需。</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/024.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/024.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 82,
+      "source_text": "Seth公布的完整操作规程显示，他的实验室设备除了精密移液器外，很多都来自eBay二手或速卖通。",
+      "html": "<p>Seth<span class=\"word-annot\"><span class=\"word-anchor\">公布</span><span class=\"word-block\"><span class=\"english-word\">advertise</span><span class=\"word-info\">[ˈædvərˌtaɪz] v. 为...做广告；公告，公布</span></span></span>的完整操作规程显示，他的实验室设备除了精密移液器外，很多都来自eBay二手或速卖通。</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "在样本提取阶段，他没有采取复杂的抽血，而是用无菌口腔拭子摩擦脸颊内侧，仅用 1根拭子就获得了约5-7微克 DNA，远超实验所需的1微克。",
+      "html": "<p>在样本提取阶段，他没有采取<span class=\"word-annot\"><span class=\"word-anchor\">复杂的</span><span class=\"word-block\"><span class=\"english-word\">complicated</span><span class=\"word-info\">[ˈkɑmpləˌkeɪtəd] adj. 难懂的，复杂的</span></span></span>抽血，而是用无菌口腔拭子摩擦脸颊内侧，仅用 1根拭子就获得了约5-7微克 DNA，远超实验所需的1微克。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "自适应采样，就是MinION的杀手锏。",
+      "html": "<p>自<span class=\"word-annot\"><span class=\"word-anchor\">适应</span><span class=\"word-block\"><span class=\"english-word\">adapt</span><span class=\"word-info\">[əˈdæpt] v. 使适应；改编</span></span></span>采样，就是MinION的杀手锏。</p>"
+    },
+    {
+      "index": 85,
+      "source_text": "Seth通过软件控制，让测序仪在读取每个片段的前500个碱基时进行「初筛」：如果是他关心的免疫相关基因，就继续读；如果不是，就反转电压把DNA链「吐出来」，换下一条。",
+      "html": "<p>Seth<span class=\"word-annot\"><span class=\"word-anchor\">通过</span><span class=\"word-block\"><span class=\"english-word\">approve</span><span class=\"word-info\">[əˈpruv] v. 批准，通过；(of)赞成，赞许，同意</span></span></span>软件控制，让测序仪在读取每个片段的前500个碱基时进行「初筛」：如果是他关心的免疫相关基因，就继续读；如果不是，就反转<span class=\"word-annot\"><span class=\"word-anchor\">电压</span><span class=\"word-block\"><span class=\"english-word\">tension</span><span class=\"word-info\">[ˈtɛnʃən] n. 张力，拉力；紧张，不安；电压</span></span></span>把DNA链「吐出来」，换下一条。</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "运行开始几分钟后，MinKNOW 控制面板上的纳米孔活性状态",
+      "html": "<p>运行开始几分钟后，MinKNOW 控制面板上的纳米孔活性<span class=\"word-annot\"><span class=\"word-anchor\">状态</span><span class=\"word-block\"><span class=\"english-word\">asleep</span><span class=\"word-info\">[əsˈlip] adv. 熟睡地；进入睡眠状态</span></span></span></p>"
+    },
+    {
+      "index": 87,
+      "source_text": "这个过程中，他使用了M3 Ultra芯片的Mac Studio进行实时碱基识别，并利用英伟达的DGX Spark提升分析速度，保证了算力。",
+      "html": "<p>这个过程中，他使用了M3 Ultra芯片的Mac Studio进行实时碱基识别，并利用英伟达的DGX Spark提升<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span>速度，保证了算力。</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/025.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/025.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 89,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/026.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/026.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 90,
+      "source_text": "![](../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/027.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-04-living-room-genome-sequencing-nanopore-ai/027.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 91,
+      "source_text": "1970年代，计算机还是大型机构的专属工具，然后个人电脑出现了，然后互联网出现了。",
+      "html": "<p>1970年代，<span class=\"word-annot\"><span class=\"word-anchor\">计算机</span><span class=\"word-block\"><span class=\"english-word\">interface</span><span class=\"word-info\">[ˈɪnərˌfeɪs] v. （使通过界面或接口）接合，连接；[计算机]使联系</span></span></span>还是大型机构的专属工具，然后个人电脑出现了，然后互联网出现了。</p>"
+    },
+    {
+      "index": 92,
+      "source_text": "测序仪是个人电脑，基因组基础模型是操作系统，Claude是用户界面。当这三层同时就绪，生物学的「个人计算机时刻」就到了。",
+      "html": "<p>测序仪是个人电脑，基因组基础模型是<span class=\"word-annot\"><span class=\"word-anchor\">操作</span><span class=\"word-block\"><span class=\"english-word\">manipulate</span><span class=\"word-info\">[məˈnɪpjəˌleɪt] v. 操纵，控制；(熟练地)使用，操作；(巧妙地)处理</span></span></span>系统，Claude是用户界面。当这三层同时就绪，生物学的「个人<span class=\"word-annot\"><span class=\"word-anchor\">计算</span><span class=\"word-block\"><span class=\"english-word\">compute</span><span class=\"word-info\">[kəmˈpjut] v. 计算；估算；用计算机计算</span></span></span>机时刻」就到了。</p>"
+    },
+    {
+      "index": 93,
+      "source_text": "Seth在客厅里完成基因组测序的那个下午，可能就是这个时刻的第一帧画面。",
+      "html": "<p>Seth在客厅里完成基因组测序的那个下午，<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">likelihood</span><span class=\"word-info\">[ˈlaɪkliˌhʊd] n. 可能性，可能</span></span></span>就是这个时刻的第一帧画面。</p>"
+    },
+    {
+      "index": 94,
+      "source_text": "十年后回头看，2026年大概是一个分水岭。",
+      "html": "<p>十年后回头看，2026年大概是一个<span class=\"word-annot\"><span class=\"word-anchor\">分水岭</span><span class=\"word-block\"><span class=\"english-word\">divide</span><span class=\"word-info\">[dɪˈvaɪd] n. [地理] 分水岭，分水线</span></span></span>。</p>"
+    },
+    {
+      "index": 95,
+      "source_text": "这场实验的意义远不止于一个技术宅的胜利。它标志着生物学研究正在经历一场从机构垄断向个人DIY模式的范式转移。",
+      "html": "<p>这场实验的<span class=\"word-annot\"><span class=\"word-anchor\">意义</span><span class=\"word-block\"><span class=\"english-word\">significance</span><span class=\"word-info\">[sɪgˈnɪfɪkəns] n. 重要性; 意义</span></span></span>远不止于一个技术宅的胜利。它标志着生物学研究正在经历一场从<span class=\"word-annot\"><span class=\"word-anchor\">机构</span><span class=\"word-block\"><span class=\"english-word\">apparatus</span><span class=\"word-info\">[ˌæpərˈætəs] n. 器械，器具，仪器；机构，组织</span></span></span>垄断向个人DIY模式的范式转移。</p>"
+    },
+    {
+      "index": 96,
+      "source_text": "当复杂的生物学操作被AI简化为语言对话，当昂贵的仪器变成人人可负担，普通人就能主动解析生命的底层逻辑。",
+      "html": "<p>当复杂的生物学操作被AI简化为语言对话，当<span class=\"word-annot\"><span class=\"word-anchor\">昂贵的</span><span class=\"word-block\"><span class=\"english-word\">costly</span><span class=\"word-info\">[ˈkɔstli] adj. 昂贵的；代价高的</span></span></span>仪器变成人人可负担，普通人就能主动解析生命的底层逻辑。</p>"
+    },
+    {
+      "index": 97,
+      "source_text": "正如Seth所说，他在摆弄基因回路时找到了小时候摆弄电脑的快感，这种「极客精神」正在开启一个新的时代。",
+      "html": "<p>正如Seth所说，他在摆弄基因回路时找到了<span class=\"word-annot\"><span class=\"word-anchor\">小时</span><span class=\"word-block\"><span class=\"english-word\">knot</span><span class=\"word-info\">[nɑt] n. （绳等的）结；节瘤，疙瘩；海里/小时（航速单位）</span></span></span>候摆弄电脑的快感，这种「极客精神」正在开启一个新的时代。</p>"
+    },
+    {
+      "index": 98,
+      "source_text": "接下来，AI还会创造多少奇迹？",
+      "html": "<p>接下来，AI还会<span class=\"word-annot\"><span class=\"word-anchor\">创造</span><span class=\"word-block\"><span class=\"english-word\">coin</span><span class=\"word-info\">[kɔɪn] v. 铸造（货币）；杜撰，创造</span></span></span>多少奇迹？</p>"
+    },
+    {
+      "index": 99,
+      "source_text": "参考资料：[iwantosequencemygenomeathome.com](https://iwantosequencemygenomeathome.com/) · [X / ReyJudgementOS](https://x.com/ReyJudgementOS/status/2046201536683061374)",
+      "html": "<p>参考<span class=\"word-annot\"><span class=\"word-anchor\">资料</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfidˌbæk] n. 反馈；成果，资料；回复</span></span></span>：[iwantosequencemygenomeathome.com](https://iwantosequencemygenomeathome.com/) · [X / ReyJudgementOS](https://x.com/ReyJudgementOS/status/2046201536683061374)</p>"
+    }
+  ]
+}
