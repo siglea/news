@@ -1,6 +1,6 @@
 """测试 PR T1.3: tools/ci_scope.sh 按 git diff 路由 make target。
 
-验收点(@cursor 列):
+验收点(监督/审核侧):
 1. 脚本分流逻辑(util/workflow → test+validate;posts/contents → validate;
    docs only → 跳过)
 2. Makefile 入口一致性(`make ci-scope` 能跑通)

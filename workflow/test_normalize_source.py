@@ -1,6 +1,6 @@
 """测试 PR T-N2: `mingox normalize-source` 检测/截断 01-source.md 末尾运营段。
 
-验收点(@cursor 列):
+验收点(监督/审核侧):
 1. **误伤率**:正文中部出现"扫码"/"关注"等不应触发截断
 2. **默认 --check 零破坏**:文件不被修改
 3. **--auto-truncate 触发条件可解释**:仅在尾部 high-conf 命中时实际截断

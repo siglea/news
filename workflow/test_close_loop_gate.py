@@ -1,6 +1,6 @@
 """测试 PR-B: `close-loop` 在 build 前先跑 `validate --annotations` 作为 fail-fast gate。
 
-验收点(@cursor 列):
+验收点(监督/审核侧):
 1. annotations-gate 在 build 之前执行(顺序正确)
 2. 不影响现有 close-loop 正常路径(default 行为兼容)
 3. 失败前移场景:annotations-gate 失败应阻断 build

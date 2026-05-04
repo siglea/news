@@ -1,6 +1,6 @@
 """测试 PR-A: `init` 写入 `meta_description` 占位符,build quality gate 不会 fail。
 
-验收点(@cursor 列):
+验收点(监督/审核侧):
 1. 占位符稳定通过现有 quality gate(`meta_description` non-empty)
 2. 占位符明显含「[占位」前缀,acquire/编辑后不会漏改
 3. 不依赖任何外部 LLM 或 API key(harness/环境无关)
