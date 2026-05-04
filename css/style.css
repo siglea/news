@@ -477,7 +477,7 @@ body {
     text-underline-position: from-font;
 }
 
-/* 英语单词高亮（释义紧贴本词下方，不额外撑大行距） */
+/* 英语单词高亮（释义浮层在词上方，宽度随内容） */
 .word-block {
     display: inline;
     position: relative;
@@ -496,15 +496,16 @@ body {
     cursor: help;
 }
 
-/* 释义浮层：默认隐藏，悬停 / 键盘聚焦 / 点击展开（.word-block--open）时显示 */
+/* 释义浮层：显示在词上方；宽度 max-content 与正文一致，上限 max-width；背景不透明度 0.8 */
 .word-info {
     display: block;
     position: absolute;
-    top: calc(100% + clamp(0.12rem, 0.45vw, 0.2rem));
+    bottom: calc(100% + clamp(0.12rem, 0.45vw, 0.2rem));
+    top: auto;
     left: 50%;
     transform: translateX(-50%);
     box-sizing: border-box;
-    width: min(36rem, 92vw);
+    width: max-content;
     max-width: min(36rem, 92vw);
     max-height: min(42vh, 22rem);
     overflow-y: auto;
@@ -518,13 +519,15 @@ body {
     word-break: break-word;
     overflow-wrap: break-word;
     z-index: 100;
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(102, 126, 234, 0.18);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(102, 126, 234, 0.15);
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.98);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.18s ease, visibility 0.18s ease, transform 0.18s ease;
+    transition: opacity 0.18s ease, visibility 0.18s ease;
 }
 
 .post-content .word-block:hover .word-info,
@@ -619,13 +622,14 @@ body {
 /* —— 移动端细化（避免正文被压到 14px） —— */
 @media (max-width: 768px) {
     .word-info {
-        width: min(36rem, 94vw);
+        width: max-content;
         max-width: min(36rem, 94vw);
         font-size: clamp(0.88rem, 2.6vw + 0.55rem, 1.05rem);
         line-height: 1.5;
         padding: 0.55em 0.75em;
-        top: calc(100% + clamp(0.1rem, 0.35vw, 0.16rem));
+        bottom: calc(100% + clamp(0.1rem, 0.35vw, 0.16rem));
         max-height: min(50vh, 24rem);
+        background: rgba(255, 255, 255, 0.8);
     }
 
     .english-word {
