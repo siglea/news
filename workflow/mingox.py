@@ -9,6 +9,7 @@ MingoX 四步流水线入口（本地执行）。
 from __future__ import annotations
 
 import argparse
+import http.cookiejar
 import json
 import os
 import re
@@ -560,6 +561,49 @@ def _http_status(url: str, *, timeout_sec: float = 15.0) -> int:
         return -1
 
 
+def _http_status_edgeone_preview(
+    opener: urlrequest.OpenerDirector | None,
+    preview_url: str,
+    rel_path: str,
+    *,
+    timeout_sec: float = 15.0,
+) -> int:
+    """EdgeOne 预览：若 opener 已带 Cookie 则直接请求 rel_path；否则按 preview_url 是否含 eo_token 决定单 URL 或 seed+请求。"""
+    p = urlparse.urlsplit(preview_url)
+    q = p.query or ""
+    u1 = urlparse.urlunsplit((p.scheme, p.netloc, rel_path, "", ""))
+    if opener is not None:
+        try:
+            with opener.open(u1, timeout=timeout_sec) as resp:
+                return int(getattr(resp, "status", 200) or 200)
+        except urlerror.HTTPError as e:
+            return int(e.code)
+        except (urlerror.URLError, TimeoutError, ConnectionError):
+            return -1
+    if "eo_token=" not in q:
+        u = urlparse.urlunsplit((p.scheme, p.netloc, rel_path, q, p.fragment))
+        return _http_status(u, timeout_sec=timeout_sec)
+    jar = http.cookiejar.CookieJar()
+    one = urlrequest.build_opener(
+        urlrequest.HTTPCookieProcessor(jar),
+        urlrequest.HTTPRedirectHandler,
+    )
+    try:
+        with one.open(preview_url, timeout=timeout_sec) as r0:
+            r0.read()
+    except urlerror.HTTPError as e:
+        return int(e.code)
+    except (urlerror.URLError, TimeoutError, ConnectionError):
+        return -1
+    try:
+        with one.open(u1, timeout=timeout_sec) as resp:
+            return int(getattr(resp, "status", 200) or 200)
+    except urlerror.HTTPError as e:
+        return int(e.code)
+    except (urlerror.URLError, TimeoutError, ConnectionError):
+        return -1
+
+
 def _deploy_live_smoke_check(preview_url: str, *, post_path: str | None = None) -> None:
     """部署后线上抽检：post=200, internal=404。
 
@@ -580,10 +624,25 @@ def _deploy_live_smoke_check(preview_url: str, *, post_path: str | None = None) 
         ]
     )
 
+    p = urlparse.urlsplit(preview_url)
+    edge_opener: urlrequest.OpenerDirector | None = None
+    if "eo_token=" in (p.query or ""):
+        jar = http.cookiejar.CookieJar()
+        edge_opener = urlrequest.build_opener(
+            urlrequest.HTTPCookieProcessor(jar),
+            urlrequest.HTTPRedirectHandler,
+        )
+        try:
+            with edge_opener.open(preview_url, timeout=15.0) as r0:
+                r0.read()
+        except (urlerror.HTTPError, urlerror.URLError, TimeoutError, ConnectionError):
+            edge_opener = None
+
     issues: list[str] = []
     for rel, expected, label in targets:
-        u = _preview_url_for_path(preview_url, rel)
-        got = _http_status(u)
+        got = _http_status_edgeone_preview(
+            edge_opener, preview_url, rel, timeout_sec=15.0
+        )
         if got != expected:
             issues.append(f"{label} {rel} expect={expected} got={got}")
     if issues:

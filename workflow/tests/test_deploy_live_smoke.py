@@ -15,6 +15,28 @@ sys.path.insert(0, str(WORKFLOW))
 import mingox  # noqa: E402
 
 
+def _edgeone_seed_opener_mock():
+    """避免 deploy smoke 测试对 example.cool 发真实 HTTP（seed 阶段）。"""
+
+    class _Resp:
+        status = 200
+
+        def read(self):
+            return b""
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return None
+
+    class _Op:
+        def open(self, *a, **k):
+            return _Resp()
+
+    return _Op()
+
+
 class TestPreviewUrlForPath(unittest.TestCase):
     def test_keep_query_token(self) -> None:
         preview = "https://example.cool?eo_token=abc&eo_time=1"
@@ -29,27 +51,63 @@ class TestDeployLiveSmoke(unittest.TestCase):
     def test_warn_on_status_mismatch(self) -> None:
         preview = "https://example.cool?eo_token=abc"
         # post=200, util=404, drafts=404 才是通过；这里故意让 util=200 触发告警
-        status_map = {
-            "https://example.cool/posts/x.html?eo_token=abc": 200,
-            "https://example.cool/util/annotate_lib.py?eo_token=abc": 200,
-            "https://example.cool/content/drafts/?eo_token=abc": 404,
+        status_by_rel = {
+            "/posts/x.html": 200,
+            "/util/annotate_lib.py": 200,
+            "/content/drafts/": 404,
         }
 
-        def fake_http_status(url: str, timeout_sec: float = 15.0) -> int:
-            return status_map[url]
+        def fake_edge(
+            opener,
+            preview_url: str,
+            rel_path: str,
+            *,
+            timeout_sec: float = 15.0,
+        ) -> int:
+            return status_by_rel[rel_path]
 
         buf = io.StringIO()
-        with mock.patch("mingox._http_status", side_effect=fake_http_status), redirect_stderr(buf):
+        with (
+            mock.patch("mingox.urlrequest.build_opener", return_value=_edgeone_seed_opener_mock()),
+            mock.patch("mingox._http_status_edgeone_preview", side_effect=fake_edge),
+            redirect_stderr(buf),
+        ):
             mingox._deploy_live_smoke_check(preview, post_path="posts/x.html")
         self.assertIn("[deploy smoke] WARN:", buf.getvalue())
         self.assertIn("internal-util", buf.getvalue())
 
     def test_ok_when_all_expected(self) -> None:
         preview = "https://example.cool?eo_token=abc"
+        status_by_rel = {
+            "/index.html": 200,
+            "/util/annotate_lib.py": 404,
+            "/content/drafts/": 404,
+        }
+
+        def fake_edge(
+            opener,
+            preview_url: str,
+            rel_path: str,
+            *,
+            timeout_sec: float = 15.0,
+        ) -> int:
+            return status_by_rel[rel_path]
+
+        buf = io.StringIO()
+        with (
+            mock.patch("mingox.urlrequest.build_opener", return_value=_edgeone_seed_opener_mock()),
+            mock.patch("mingox._http_status_edgeone_preview", side_effect=fake_edge),
+            redirect_stderr(buf),
+        ):
+            mingox._deploy_live_smoke_check(preview, post_path=None)
+        self.assertIn("[deploy smoke] OK:", buf.getvalue())
+
+    def test_public_url_without_token_uses_http_status(self) -> None:
+        preview = "https://public.example/"
         status_map = {
-            "https://example.cool/index.html?eo_token=abc": 200,
-            "https://example.cool/util/annotate_lib.py?eo_token=abc": 404,
-            "https://example.cool/content/drafts/?eo_token=abc": 404,
+            "https://public.example/index.html": 200,
+            "https://public.example/util/annotate_lib.py": 404,
+            "https://public.example/content/drafts/": 404,
         }
 
         def fake_http_status(url: str, timeout_sec: float = 15.0) -> int:
