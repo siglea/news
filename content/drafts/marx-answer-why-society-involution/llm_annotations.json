@@ -1,0 +1,492 @@
+{
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "马克思",
+      "en": "Marx"
+    },
+    {
+      "i": 1,
+      "zh": "1818",
+      "en": "year1818"
+    },
+    {
+      "i": 2,
+      "zh": "资本家",
+      "en": "capitalist"
+    },
+    {
+      "i": 3,
+      "skip": true
+    },
+    {
+      "i": 4,
+      "zh": "生产力",
+      "en": "productivity"
+    },
+    {
+      "i": 5,
+      "zh": "剩余价值",
+      "en": "surplusvalue"
+    },
+    {
+      "i": 6,
+      "zh": "内卷",
+      "en": "involution"
+    },
+    {
+      "i": 7,
+      "zh": "扩张",
+      "en": "expansion"
+    },
+    {
+      "i": 8,
+      "zh": "资本论",
+      "en": "Kapital"
+    },
+    {
+      "i": 9,
+      "zh": "自由",
+      "en": "freedom"
+    },
+    {
+      "i": 10,
+      "zh": "技术",
+      "en": "technology"
+    },
+    {
+      "i": 11,
+      "zh": "工作日",
+      "en": "workday"
+    },
+    {
+      "i": 12,
+      "zh": "私有制",
+      "en": "ownership"
+    },
+    {
+      "i": 13,
+      "zh": "价值",
+      "en": "value"
+    },
+    {
+      "i": 14,
+      "zh": "雇佣",
+      "en": "employment"
+    },
+    {
+      "i": 15,
+      "zh": "消费主义",
+      "en": "consumerism"
+    },
+    {
+      "i": 16,
+      "zh": "人口",
+      "en": "population"
+    },
+    {
+      "i": 17,
+      "zh": "学历",
+      "en": "credential"
+    },
+    {
+      "i": 18,
+      "zh": "竞争",
+      "en": "competition"
+    },
+    {
+      "i": 19,
+      "zh": "脱节",
+      "en": "disconnected"
+    },
+    {
+      "i": 20,
+      "zh": "加班",
+      "en": "overtime"
+    },
+    {
+      "i": 21,
+      "zh": "从属",
+      "en": "subordination"
+    },
+    {
+      "i": 22,
+      "zh": "算法",
+      "en": "algorithm"
+    },
+    {
+      "i": 23,
+      "zh": "单价",
+      "en": "price"
+    },
+    {
+      "i": 24,
+      "zh": "剥削",
+      "en": "exploitation"
+    },
+    {
+      "i": 25,
+      "zh": "本性",
+      "en": "nature"
+    },
+    {
+      "i": 26,
+      "zh": "利润率",
+      "en": "profitrate"
+    },
+    {
+      "i": 27,
+      "zh": "需求",
+      "en": "demand"
+    },
+    {
+      "i": 28,
+      "zh": "工会",
+      "en": "union"
+    },
+    {
+      "i": 29,
+      "zh": "支配权",
+      "en": "control"
+    },
+    {
+      "i": 30,
+      "zh": "预言",
+      "en": "prophecy"
+    },
+    {
+      "i": 31,
+      "zh": "人格",
+      "en": "personality"
+    },
+    {
+      "i": 32,
+      "zh": "摆脱",
+      "en": "escape"
+    },
+    {
+      "i": 33,
+      "zh": "工人",
+      "en": "worker"
+    },
+    {
+      "i": 34,
+      "skip": true
+    },
+    {
+      "i": 35,
+      "zh": "异化",
+      "en": "alienation"
+    },
+    {
+      "i": 36,
+      "zh": "本质",
+      "en": "essence"
+    },
+    {
+      "i": 37,
+      "zh": "陷阱",
+      "en": "trap"
+    },
+    {
+      "i": 38,
+      "zh": "环境",
+      "en": "environment"
+    },
+    {
+      "i": 39,
+      "zh": "Karl",
+      "en": "Karl"
+    },
+    {
+      "i": 40,
+      "zh": "思想家",
+      "en": "thinker"
+    },
+    {
+      "i": 41,
+      "zh": "体系",
+      "en": "system"
+    },
+    {
+      "i": 42,
+      "zh": "意义",
+      "en": "significance"
+    },
+    {
+      "i": 43,
+      "skip": true
+    },
+    {
+      "i": 44,
+      "zh": "危机",
+      "en": "crisis"
+    },
+    {
+      "i": 45,
+      "zh": "差距",
+      "en": "disparity"
+    },
+    {
+      "i": 46,
+      "zh": "数字",
+      "en": "digital"
+    },
+    {
+      "i": 47,
+      "zh": "支付",
+      "en": "payment"
+    },
+    {
+      "i": 48,
+      "zh": "灵感",
+      "en": "inspiration"
+    },
+    {
+      "i": 49,
+      "zh": "ChatGPT",
+      "en": "ChatGPT"
+    },
+    {
+      "i": 50,
+      "zh": "担忧",
+      "en": "concern"
+    },
+    {
+      "i": 51,
+      "zh": "预见",
+      "en": "foresight"
+    },
+    {
+      "i": 52,
+      "zh": "繁荣",
+      "en": "prosperity"
+    },
+    {
+      "i": 53,
+      "zh": "政治",
+      "en": "politics"
+    },
+    {
+      "i": 54,
+      "zh": "著作",
+      "en": "works"
+    },
+    {
+      "i": 55,
+      "zh": "世界",
+      "en": "world"
+    },
+    {
+      "i": 56,
+      "zh": "资本论",
+      "en": "DasKapital"
+    },
+    {
+      "i": 57,
+      "skip": true
+    },
+    {
+      "i": 58,
+      "zh": "全球化",
+      "en": "globalization"
+    },
+    {
+      "i": 59,
+      "zh": "人生",
+      "en": "lifepath"
+    },
+    {
+      "i": 60,
+      "skip": true
+    },
+    {
+      "i": 61,
+      "zh": "专家",
+      "en": "expert"
+    },
+    {
+      "i": 62,
+      "zh": "重读",
+      "en": "reread"
+    },
+    {
+      "i": 63,
+      "skip": true
+    },
+    {
+      "i": 64,
+      "zh": "教授",
+      "en": "professor"
+    },
+    {
+      "i": 65,
+      "zh": "资本论",
+      "en": "Capital"
+    },
+    {
+      "i": 66,
+      "skip": true
+    },
+    {
+      "i": 67,
+      "zh": "哲学",
+      "en": "philosophy"
+    },
+    {
+      "i": 68,
+      "zh": "繁荣",
+      "en": "booming"
+    },
+    {
+      "i": 69,
+      "skip": true
+    },
+    {
+      "i": 70,
+      "zh": "助理",
+      "en": "assistant"
+    },
+    {
+      "i": 71,
+      "zh": "唯物",
+      "en": "materialism"
+    },
+    {
+      "i": 72,
+      "skip": true
+    },
+    {
+      "i": 73,
+      "zh": "清华",
+      "en": "Tsinghua"
+    },
+    {
+      "i": 74,
+      "zh": "共产主义",
+      "en": "communism"
+    },
+    {
+      "i": 75,
+      "skip": true
+    },
+    {
+      "i": 76,
+      "zh": "复旦",
+      "en": "Fudan"
+    },
+    {
+      "i": 77,
+      "zh": "高校",
+      "en": "university"
+    },
+    {
+      "i": 78,
+      "zh": "维度",
+      "en": "dimension"
+    },
+    {
+      "i": 79,
+      "zh": "经济",
+      "en": "economy"
+    },
+    {
+      "i": 80,
+      "zh": "宣言",
+      "en": "Manifesto"
+    },
+    {
+      "i": 81,
+      "zh": "生活",
+      "en": "living"
+    },
+    {
+      "i": 82,
+      "zh": "奋斗",
+      "en": "struggle"
+    },
+    {
+      "i": 83,
+      "zh": "躺平",
+      "en": "tangping"
+    },
+    {
+      "i": 84,
+      "zh": "困境",
+      "en": "dilemma"
+    },
+    {
+      "i": 85,
+      "zh": "剥削",
+      "en": "selfexploitation"
+    },
+    {
+      "i": 86,
+      "skip": true
+    },
+    {
+      "i": 87,
+      "zh": "逆全球化",
+      "en": "deglobalization"
+    },
+    {
+      "i": 88,
+      "skip": true
+    },
+    {
+      "i": 89,
+      "zh": "认知",
+      "en": "cognition"
+    },
+    {
+      "i": 90,
+      "zh": "分钟",
+      "en": "minutes"
+    },
+    {
+      "i": 91,
+      "zh": "起源",
+      "en": "origin"
+    },
+    {
+      "i": 92,
+      "zh": "历史",
+      "en": "history"
+    },
+    {
+      "i": 93,
+      "zh": "自我",
+      "en": "self"
+    },
+    {
+      "i": 94,
+      "zh": "马克思",
+      "en": "Marxist"
+    },
+    {
+      "i": 95,
+      "zh": "孩子",
+      "en": "children"
+    },
+    {
+      "i": 96,
+      "zh": "规律",
+      "en": "laws"
+    },
+    {
+      "i": 97,
+      "zh": "视角",
+      "en": "perspective"
+    },
+    {
+      "i": 98,
+      "zh": "本质",
+      "en": "quintessence"
+    },
+    {
+      "i": 99,
+      "zh": "资本论",
+      "en": "Kapitalbook"
+    }
+  ]
+}
