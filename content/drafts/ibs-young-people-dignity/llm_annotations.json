@@ -1,0 +1,1801 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "skip": true
+    },
+    {
+      "i": 1,
+      "skip": true
+    },
+    {
+      "i": 2,
+      "zh": "喊道",
+      "en": "shout",
+      "ipa": "[ʃaʊt]",
+      "pos": "v.",
+      "gloss": "喊叫"
+    },
+    {
+      "i": 3,
+      "zh": "尴尬",
+      "en": "embarrassed",
+      "ipa": "[ɪmˈbærəst]",
+      "pos": "adj.",
+      "gloss": "尴尬的"
+    },
+    {
+      "i": 4,
+      "zh": "故意",
+      "en": "deliberate",
+      "ipa": "[dɪˈlɪbərət]",
+      "pos": "adj.",
+      "gloss": "故意的"
+    },
+    {
+      "i": 5,
+      "zh": "持续",
+      "en": "persist",
+      "ipa": "[pərˈsɪst]",
+      "pos": "v.",
+      "gloss": "持续"
+    },
+    {
+      "i": 6,
+      "zh": "征兆",
+      "en": "sign",
+      "ipa": "[saɪn]",
+      "pos": "n.",
+      "gloss": "征兆"
+    },
+    {
+      "i": 7,
+      "zh": "臭味",
+      "en": "odor",
+      "ipa": "[ˈoʊdər]",
+      "pos": "n.",
+      "gloss": "臭味"
+    },
+    {
+      "i": 8,
+      "zh": "消失",
+      "en": "vanish",
+      "ipa": "[ˈvænɪʃ]",
+      "pos": "v.",
+      "gloss": "消失"
+    },
+    {
+      "i": 9,
+      "zh": "焦虑",
+      "en": "anxious",
+      "ipa": "[ˈæŋkʃəs]",
+      "pos": "adj.",
+      "gloss": "焦虑的"
+    },
+    {
+      "i": 10,
+      "zh": "频繁",
+      "en": "frequent",
+      "ipa": "[ˈfriːkwənt]",
+      "pos": "adj.",
+      "gloss": "频繁的"
+    },
+    {
+      "i": 11,
+      "zh": "担心",
+      "en": "worry",
+      "ipa": "[ˈwɜːri]",
+      "pos": "v.",
+      "gloss": "担心"
+    },
+    {
+      "i": 12,
+      "zh": "频率",
+      "en": "frequency",
+      "ipa": "[ˈfriːkwənsi]",
+      "pos": "n.",
+      "gloss": "频率"
+    },
+    {
+      "i": 13,
+      "zh": "内向",
+      "en": "introverted",
+      "ipa": "[ˌɪntrəˈvɜːrtɪd]",
+      "pos": "adj.",
+      "gloss": "内向的"
+    },
+    {
+      "i": 14,
+      "zh": "症状",
+      "en": "symptom",
+      "ipa": "[ˈsɪmptəm]",
+      "pos": "n.",
+      "gloss": "症状"
+    },
+    {
+      "i": 15,
+      "zh": "消化",
+      "en": "digestive",
+      "ipa": "[daɪˈdʒestɪv]",
+      "pos": "adj.",
+      "gloss": "消化的"
+    },
+    {
+      "i": 16,
+      "zh": "便检",
+      "en": "stool",
+      "ipa": "[stuːl]",
+      "pos": "n.",
+      "gloss": "粪便"
+    },
+    {
+      "i": 17,
+      "zh": "宣传",
+      "en": "publicity",
+      "ipa": "[pʌbˈlɪsəti]",
+      "pos": "n.",
+      "gloss": "宣传"
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "zh": "典型",
+      "en": "typical",
+      "ipa": "[ˈtɪpɪkəl]",
+      "pos": "adj.",
+      "gloss": "典型的"
+    },
+    {
+      "i": 20,
+      "zh": "一模一样",
+      "en": "identical",
+      "ipa": "[aɪˈdentɪkəl]",
+      "pos": "adj.",
+      "gloss": "完全相同的"
+    },
+    {
+      "i": 21,
+      "zh": "规律",
+      "en": "regular",
+      "ipa": "[ˈreɡjələr]",
+      "pos": "adj.",
+      "gloss": "有规律的"
+    },
+    {
+      "i": 22,
+      "skip": true
+    },
+    {
+      "i": 23,
+      "zh": "崩溃",
+      "en": "collapse",
+      "ipa": "[kəˈlæps]",
+      "pos": "v.",
+      "gloss": "崩溃"
+    },
+    {
+      "i": 24,
+      "zh": "无望",
+      "en": "hopeless",
+      "ipa": "[ˈhoʊpləs]",
+      "pos": "adj.",
+      "gloss": "无望的"
+    },
+    {
+      "i": 25,
+      "zh": "恐惧",
+      "en": "terror",
+      "ipa": "[ˈterər]",
+      "pos": "n.",
+      "gloss": "恐惧"
+    },
+    {
+      "i": 26,
+      "skip": true
+    },
+    {
+      "i": 27,
+      "zh": "常见",
+      "en": "prevalent",
+      "ipa": "[ˈprevələnt]",
+      "pos": "adj.",
+      "gloss": "普遍的"
+    },
+    {
+      "i": 28,
+      "zh": "患病率",
+      "en": "prevalence",
+      "ipa": "[ˈprevələns]",
+      "pos": "n.",
+      "gloss": "患病率"
+    },
+    {
+      "i": 29,
+      "zh": "诊疗",
+      "en": "diagnosis",
+      "ipa": "[ˌdaɪəɡˈnoʊsɪs]",
+      "pos": "n.",
+      "gloss": "诊断"
+    },
+    {
+      "i": 30,
+      "zh": "预期",
+      "en": "expectancy",
+      "ipa": "[ɪkˈspektənsi]",
+      "pos": "n.",
+      "gloss": "预期"
+    },
+    {
+      "i": 31,
+      "zh": "确诊",
+      "en": "diagnose",
+      "ipa": "[ˈdaɪəɡnoʊz]",
+      "pos": "v.",
+      "gloss": "确诊"
+    },
+    {
+      "i": 32,
+      "zh": "顺利",
+      "en": "smoothly",
+      "ipa": "[ˈsmuːðli]",
+      "pos": "adv.",
+      "gloss": "顺利地"
+    },
+    {
+      "i": 33,
+      "zh": "卷土重来",
+      "en": "resurge",
+      "ipa": "[rɪˈsɜːrdʒ]",
+      "pos": "v.",
+      "gloss": "卷土重来"
+    },
+    {
+      "i": 34,
+      "zh": "强制",
+      "en": "compulsory",
+      "ipa": "[kəmˈpʌlsəri]",
+      "pos": "adj.",
+      "gloss": "强制的"
+    },
+    {
+      "i": 35,
+      "zh": "尖锐",
+      "en": "acute",
+      "ipa": "[əˈkjuːt]",
+      "pos": "adj.",
+      "gloss": "尖锐的"
+    },
+    {
+      "i": 36,
+      "skip": true
+    },
+    {
+      "i": 37,
+      "zh": "严重",
+      "en": "severe",
+      "ipa": "[sɪˈvɪr]",
+      "pos": "adj.",
+      "gloss": "严重的"
+    },
+    {
+      "i": 38,
+      "zh": "意识",
+      "en": "realize",
+      "ipa": "[ˈriːəlaɪz]",
+      "pos": "v.",
+      "gloss": "意识到"
+    },
+    {
+      "i": 39,
+      "zh": "盯着自己",
+      "en": "stare",
+      "ipa": "[ster]",
+      "pos": "v.",
+      "gloss": "盯着看"
+    },
+    {
+      "i": 40,
+      "zh": "记忆",
+      "en": "memory",
+      "ipa": "[ˈmeməri]",
+      "pos": "n.",
+      "gloss": "记忆"
+    },
+    {
+      "i": 41,
+      "skip": true
+    },
+    {
+      "i": 42,
+      "zh": "症状",
+      "en": "manifest",
+      "ipa": "[ˈmænɪfest]",
+      "pos": "v.",
+      "gloss": "显现"
+    },
+    {
+      "i": 43,
+      "zh": "收缩",
+      "en": "contract",
+      "ipa": "[kənˈtrækt]",
+      "pos": "v.",
+      "gloss": "收缩"
+    },
+    {
+      "i": 44,
+      "zh": "明显",
+      "en": "obvious",
+      "ipa": "[ˈɑːbviəs]",
+      "pos": "adj.",
+      "gloss": "明显的"
+    },
+    {
+      "i": 45,
+      "zh": "猜测",
+      "en": "speculate",
+      "ipa": "[ˈspekjuleɪt]",
+      "pos": "v.",
+      "gloss": "猜测"
+    },
+    {
+      "i": 46,
+      "zh": "控制",
+      "en": "restrain",
+      "ipa": "[rɪˈstreɪn]",
+      "pos": "v.",
+      "gloss": "克制"
+    },
+    {
+      "i": 47,
+      "zh": "密闭",
+      "en": "enclosed",
+      "ipa": "[ɪnˈkloʊzd]",
+      "pos": "adj.",
+      "gloss": "密闭的"
+    },
+    {
+      "i": 48,
+      "zh": "捂着鼻子",
+      "en": "covering",
+      "ipa": "[ˈkʌvərɪŋ]",
+      "pos": "v.",
+      "gloss": "捂着"
+    },
+    {
+      "i": 49,
+      "zh": "影响",
+      "en": "affect",
+      "ipa": "[əˈfekt]",
+      "pos": "v.",
+      "gloss": "影响"
+    },
+    {
+      "i": 50,
+      "zh": "理解",
+      "en": "comprehend",
+      "ipa": "[ˌkɑːmprɪˈhend]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 51,
+      "zh": "不可思议",
+      "en": "incredible",
+      "ipa": "[ɪnˈkredəbl]",
+      "pos": "adj.",
+      "gloss": "不可思议的"
+    },
+    {
+      "i": 52,
+      "zh": "病",
+      "en": "disease",
+      "ipa": "[dɪˈziːz]",
+      "pos": "n.",
+      "gloss": "疾病"
+    },
+    {
+      "i": 53,
+      "zh": "三甲",
+      "en": "tertiary",
+      "ipa": "[ˈtɜːrʃieri]",
+      "pos": "adj.",
+      "gloss": "第三级的"
+    },
+    {
+      "i": 54,
+      "zh": "辅导",
+      "en": "counseling",
+      "ipa": "[ˈkaʊnsəlɪŋ]",
+      "pos": "n.",
+      "gloss": "辅导"
+    },
+    {
+      "i": 55,
+      "zh": "验证",
+      "en": "verify",
+      "ipa": "[ˈverɪfaɪ]",
+      "pos": "v.",
+      "gloss": "验证"
+    },
+    {
+      "i": 56,
+      "zh": "求医",
+      "en": "consult",
+      "ipa": "[kənˈsʌlt]",
+      "pos": "v.",
+      "gloss": "求诊"
+    },
+    {
+      "i": 57,
+      "zh": "确诊",
+      "en": "confirmed",
+      "ipa": "[kənˈfɜːrmd]",
+      "pos": "adj.",
+      "gloss": "确诊的"
+    },
+    {
+      "i": 58,
+      "zh": "原来",
+      "en": "apparently",
+      "ipa": "[əˈpærəntli]",
+      "pos": "adv.",
+      "gloss": "原来"
+    },
+    {
+      "i": 59,
+      "skip": true
+    },
+    {
+      "i": 60,
+      "zh": "异常",
+      "en": "abnormal",
+      "ipa": "[æbˈnɔːrməl]",
+      "pos": "adj.",
+      "gloss": "异常的"
+    },
+    {
+      "i": 61,
+      "zh": "确诊",
+      "en": "diagnosed",
+      "ipa": "[ˈdaɪəɡnoʊzd]",
+      "pos": "v.",
+      "gloss": "被确诊"
+    },
+    {
+      "i": 62,
+      "zh": "规律",
+      "en": "pattern",
+      "ipa": "[ˈpætərn]",
+      "pos": "n.",
+      "gloss": "模式"
+    },
+    {
+      "i": 63,
+      "zh": "幽门",
+      "en": "bacteria",
+      "ipa": "[bækˈtɪriə]",
+      "pos": "n.",
+      "gloss": "细菌"
+    },
+    {
+      "i": 64,
+      "zh": "临近",
+      "en": "approaching",
+      "ipa": "[əˈproʊtʃɪŋ]",
+      "pos": "v.",
+      "gloss": "临近"
+    },
+    {
+      "i": 65,
+      "zh": "提到",
+      "en": "mention",
+      "ipa": "[ˈmenʃən]",
+      "pos": "v.",
+      "gloss": "提到"
+    },
+    {
+      "i": 66,
+      "zh": "常规",
+      "en": "conventional",
+      "ipa": "[kənˈvenʃənəl]",
+      "pos": "adj.",
+      "gloss": "常规的"
+    },
+    {
+      "i": 67,
+      "zh": "病症",
+      "en": "disorder",
+      "ipa": "[dɪsˈɔːrdər]",
+      "pos": "n.",
+      "gloss": "失调"
+    },
+    {
+      "i": 68,
+      "zh": "功能性",
+      "en": "functional",
+      "ipa": "[ˈfʌŋkʃənəl]",
+      "pos": "adj.",
+      "gloss": "功能性的"
+    },
+    {
+      "i": 69,
+      "zh": "科室",
+      "en": "department",
+      "ipa": "[dɪˈpɑːrtmənt]",
+      "pos": "n.",
+      "gloss": "科室"
+    },
+    {
+      "i": 70,
+      "zh": "得知",
+      "en": "ascertain",
+      "ipa": "[ˌæsərˈteɪn]",
+      "pos": "v.",
+      "gloss": "得知"
+    },
+    {
+      "i": 71,
+      "zh": "准备",
+      "en": "prepare",
+      "ipa": "[prɪˈper]",
+      "pos": "v.",
+      "gloss": "准备"
+    },
+    {
+      "i": 72,
+      "zh": "频率",
+      "en": "interval",
+      "ipa": "[ˈɪntərvəl]",
+      "pos": "n.",
+      "gloss": "间隔"
+    },
+    {
+      "i": 73,
+      "zh": "心思",
+      "en": "mind",
+      "ipa": "[maɪnd]",
+      "pos": "n.",
+      "gloss": "心思"
+    },
+    {
+      "i": 74,
+      "zh": "教材",
+      "en": "textbook",
+      "ipa": "[ˈtekstbʊk]",
+      "pos": "n.",
+      "gloss": "教材"
+    },
+    {
+      "i": 75,
+      "zh": "注意力",
+      "en": "attention",
+      "ipa": "[əˈtenʃən]",
+      "pos": "n.",
+      "gloss": "注意力"
+    },
+    {
+      "i": 76,
+      "zh": "饮食",
+      "en": "dietary",
+      "ipa": "[ˈdaɪəteri]",
+      "pos": "adj.",
+      "gloss": "饮食的"
+    },
+    {
+      "i": 77,
+      "zh": "无济于事",
+      "en": "futile",
+      "ipa": "[ˈfjuːtaɪl]",
+      "pos": "adj.",
+      "gloss": "徒劳的"
+    },
+    {
+      "i": 78,
+      "zh": "肠道",
+      "en": "intestinal",
+      "ipa": "[ɪnˈtestɪnəl]",
+      "pos": "adj.",
+      "gloss": "肠道的"
+    },
+    {
+      "i": 79,
+      "zh": "胰腺",
+      "en": "pancreas",
+      "ipa": "[ˈpæŋkriəs]",
+      "pos": "n.",
+      "gloss": "胰腺"
+    },
+    {
+      "i": 80,
+      "zh": "缓解",
+      "en": "alleviate",
+      "ipa": "[əˈliːvieɪt]",
+      "pos": "v.",
+      "gloss": "缓解"
+    },
+    {
+      "i": 81,
+      "zh": "害怕",
+      "en": "fearful",
+      "ipa": "[ˈfɪrfəl]",
+      "pos": "adj.",
+      "gloss": "害怕的"
+    },
+    {
+      "i": 82,
+      "skip": true
+    },
+    {
+      "i": 83,
+      "zh": "复查",
+      "en": "reexamination",
+      "ipa": "[ˌriːɪɡˌzæmɪˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "复查"
+    },
+    {
+      "i": 84,
+      "zh": "就诊",
+      "en": "medical",
+      "ipa": "[ˈmedɪkəl]",
+      "pos": "adj.",
+      "gloss": "医疗的"
+    },
+    {
+      "i": 85,
+      "zh": "考虑",
+      "en": "consider",
+      "ipa": "[kənˈsɪdər]",
+      "pos": "v.",
+      "gloss": "考虑"
+    },
+    {
+      "i": 86,
+      "zh": "暗示",
+      "en": "suggestion",
+      "ipa": "[səˈdʒestʃən]",
+      "pos": "n.",
+      "gloss": "暗示"
+    },
+    {
+      "i": 87,
+      "skip": true
+    },
+    {
+      "i": 88,
+      "zh": "愣住",
+      "en": "stunned",
+      "ipa": "[stʌnd]",
+      "pos": "adj.",
+      "gloss": "震惊的"
+    },
+    {
+      "i": 89,
+      "zh": "概念",
+      "en": "concept",
+      "ipa": "[ˈkɑːnsept]",
+      "pos": "n.",
+      "gloss": "概念"
+    },
+    {
+      "i": 90,
+      "skip": true
+    },
+    {
+      "i": 91,
+      "zh": "依赖",
+      "en": "criteria",
+      "ipa": "[kraɪˈtɪriə]",
+      "pos": "n.",
+      "gloss": "标准"
+    },
+    {
+      "i": 92,
+      "zh": "评估",
+      "en": "evaluate",
+      "ipa": "[ɪˈvæljueɪt]",
+      "pos": "v.",
+      "gloss": "评估"
+    },
+    {
+      "i": 93,
+      "zh": "标志物",
+      "en": "biomarker",
+      "ipa": "[ˈbaɪoʊmɑːrkər]",
+      "pos": "n.",
+      "gloss": "生物标志物"
+    },
+    {
+      "i": 94,
+      "zh": "交互",
+      "en": "interact",
+      "ipa": "[ˌɪntərˈækt]",
+      "pos": "v.",
+      "gloss": "交互"
+    },
+    {
+      "i": 95,
+      "zh": "通路",
+      "en": "pathway",
+      "ipa": "[ˈpæθweɪ]",
+      "pos": "n.",
+      "gloss": "通路"
+    },
+    {
+      "i": 96,
+      "zh": "递质",
+      "en": "neurotransmitter",
+      "ipa": "[ˌnʊroʊtrænzmɪtər]",
+      "pos": "n.",
+      "gloss": "神经递质"
+    },
+    {
+      "i": 97,
+      "zh": "器官",
+      "en": "organ",
+      "ipa": "[ˈɔːrɡən]",
+      "pos": "n.",
+      "gloss": "器官"
+    },
+    {
+      "i": 98,
+      "zh": "压力",
+      "en": "pressure",
+      "ipa": "[ˈpreʃər]",
+      "pos": "n.",
+      "gloss": "压力"
+    },
+    {
+      "i": 99,
+      "zh": "波动",
+      "en": "fluctuation",
+      "ipa": "[ˌflʌktʃuˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "波动"
+    },
+    {
+      "i": 100,
+      "zh": "霸凌",
+      "en": "bullying",
+      "ipa": "[ˈbʊliɪŋ]",
+      "pos": "n.",
+      "gloss": "霸凌"
+    },
+    {
+      "i": 101,
+      "zh": "之后",
+      "en": "afterward",
+      "ipa": "[ˈæftərwərd]",
+      "pos": "adv.",
+      "gloss": "之后"
+    },
+    {
+      "i": 102,
+      "skip": true
+    },
+    {
+      "i": 103,
+      "zh": "学业",
+      "en": "academic",
+      "ipa": "[ˌækəˈdemɪk]",
+      "pos": "adj.",
+      "gloss": "学业的"
+    },
+    {
+      "i": 104,
+      "zh": "创伤",
+      "en": "trauma",
+      "ipa": "[ˈtraʊmə]",
+      "pos": "n.",
+      "gloss": "创伤"
+    },
+    {
+      "i": 105,
+      "zh": "人均",
+      "en": "average",
+      "ipa": "[ˈævərɪdʒ]",
+      "pos": "adj.",
+      "gloss": "平均的"
+    },
+    {
+      "i": 106,
+      "zh": "复盘",
+      "en": "review",
+      "ipa": "[rɪˈvjuː]",
+      "pos": "v.",
+      "gloss": "回顾"
+    },
+    {
+      "i": 107,
+      "zh": "高频",
+      "en": "peak",
+      "ipa": "[piːk]",
+      "pos": "n.",
+      "gloss": "高峰"
+    },
+    {
+      "i": 108,
+      "zh": "焦虑",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑"
+    },
+    {
+      "i": 109,
+      "zh": "女朋友",
+      "en": "girlfriend",
+      "ipa": "[ˈɡɜːrlfrend]",
+      "pos": "n.",
+      "gloss": "女朋友"
+    },
+    {
+      "i": 110,
+      "zh": "工作",
+      "en": "employment",
+      "ipa": "[ɪmˈplɔɪmənt]",
+      "pos": "n.",
+      "gloss": "就业"
+    },
+    {
+      "i": 111,
+      "zh": "一辈子",
+      "en": "lifetime",
+      "ipa": "[ˈlaɪftaɪm]",
+      "pos": "n.",
+      "gloss": "一辈子"
+    },
+    {
+      "i": 112,
+      "skip": true
+    },
+    {
+      "i": 113,
+      "zh": "日常生活",
+      "en": "routine",
+      "ipa": "[ruːˈtiːn]",
+      "pos": "n.",
+      "gloss": "日常"
+    },
+    {
+      "i": 114,
+      "zh": "欣欣向荣",
+      "en": "prosperous",
+      "ipa": "[ˈprɑːspərəs]",
+      "pos": "adj.",
+      "gloss": "繁荣的"
+    },
+    {
+      "i": 115,
+      "zh": "心动",
+      "en": "tempted",
+      "ipa": "[ˈtemptɪd]",
+      "pos": "adj.",
+      "gloss": "心动的"
+    },
+    {
+      "i": 116,
+      "zh": "稳定",
+      "en": "stable",
+      "ipa": "[ˈsteɪbl]",
+      "pos": "adj.",
+      "gloss": "稳定的"
+    },
+    {
+      "i": 117,
+      "zh": "反作用",
+      "en": "feedback",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 118,
+      "zh": "耗竭",
+      "en": "depletion",
+      "ipa": "[dɪˈpliːʃən]",
+      "pos": "n.",
+      "gloss": "耗竭"
+    },
+    {
+      "i": 119,
+      "skip": true
+    },
+    {
+      "i": 120,
+      "zh": "访问",
+      "en": "interview",
+      "ipa": "[ˈɪntərvjuː]",
+      "pos": "n.",
+      "gloss": "访谈"
+    },
+    {
+      "i": 121,
+      "zh": "确诊",
+      "en": "identified",
+      "ipa": "[aɪˈdentɪfaɪd]",
+      "pos": "v.",
+      "gloss": "被确诊"
+    },
+    {
+      "i": 122,
+      "zh": "场合",
+      "en": "occasion",
+      "ipa": "[əˈkeɪʒən]",
+      "pos": "n.",
+      "gloss": "场合"
+    },
+    {
+      "i": 123,
+      "zh": "八卦",
+      "en": "gossip",
+      "ipa": "[ˈɡɑːsɪp]",
+      "pos": "n.",
+      "gloss": "八卦"
+    },
+    {
+      "i": 124,
+      "zh": "本科",
+      "en": "undergraduate",
+      "ipa": "[ˌʌndərˈɡrædʒuət]",
+      "pos": "n.",
+      "gloss": "本科生"
+    },
+    {
+      "i": 125,
+      "zh": "心理",
+      "en": "mental",
+      "ipa": "[ˈmentəl]",
+      "pos": "adj.",
+      "gloss": "心理的"
+    },
+    {
+      "i": 126,
+      "zh": "恐慌",
+      "en": "panic",
+      "ipa": "[ˈpænɪk]",
+      "pos": "n.",
+      "gloss": "恐慌"
+    },
+    {
+      "i": 127,
+      "zh": "宅",
+      "en": "confined",
+      "ipa": "[kənˈfaɪnd]",
+      "pos": "adj.",
+      "gloss": " confined 在家"
+    },
+    {
+      "i": 128,
+      "zh": "应激",
+      "en": "reflex",
+      "ipa": "[ˈriːfleks]",
+      "pos": "n.",
+      "gloss": "反射"
+    },
+    {
+      "i": 129,
+      "zh": "暗示",
+      "en": "hint",
+      "ipa": "[hɪnt]",
+      "pos": "n.",
+      "gloss": "暗示"
+    },
+    {
+      "i": 130,
+      "zh": "倍增",
+      "en": "multiply",
+      "ipa": "[ˈmʌltɪplaɪ]",
+      "pos": "v.",
+      "gloss": "倍增"
+    },
+    {
+      "i": 131,
+      "zh": "复盘",
+      "en": "replay",
+      "ipa": "[ˌriːˈpleɪ]",
+      "pos": "v.",
+      "gloss": "回放"
+    },
+    {
+      "i": 132,
+      "zh": "干呕",
+      "en": "retch",
+      "ipa": "[retʃ]",
+      "pos": "v.",
+      "gloss": "干呕"
+    },
+    {
+      "i": 133,
+      "zh": "厌学",
+      "en": "aversion",
+      "ipa": "[əˈvɜːrʒən]",
+      "pos": "n.",
+      "gloss": "厌恶"
+    },
+    {
+      "i": 134,
+      "zh": "一落千丈",
+      "en": "plummet",
+      "ipa": "[ˈplʌmɪt]",
+      "pos": "v.",
+      "gloss": "暴跌"
+    },
+    {
+      "i": 135,
+      "zh": "放弃",
+      "en": "abandon",
+      "ipa": "[əˈbændən]",
+      "pos": "v.",
+      "gloss": "放弃"
+    },
+    {
+      "i": 136,
+      "skip": true
+    },
+    {
+      "i": 137,
+      "zh": "要强",
+      "en": "ambitious",
+      "ipa": "[æmˈbɪʃəs]",
+      "pos": "adj.",
+      "gloss": "有抱负的"
+    },
+    {
+      "i": 138,
+      "zh": "刮目相看",
+      "en": "impress",
+      "ipa": "[ɪmˈpres]",
+      "pos": "v.",
+      "gloss": "使印象深刻"
+    },
+    {
+      "i": 139,
+      "zh": "摸索",
+      "en": "explore",
+      "ipa": "[ɪkˈsplɔːr]",
+      "pos": "v.",
+      "gloss": "探索"
+    },
+    {
+      "i": 140,
+      "zh": "内耗",
+      "en": "internal",
+      "ipa": "[ɪnˈtɜːrnəl]",
+      "pos": "adj.",
+      "gloss": "内部的"
+    },
+    {
+      "i": 141,
+      "zh": "愧疚",
+      "en": "guilty",
+      "ipa": "[ˈɡɪlti]",
+      "pos": "adj.",
+      "gloss": "愧疚的"
+    },
+    {
+      "i": 142,
+      "zh": "讨好",
+      "en": "appease",
+      "ipa": "[əˈpiːz]",
+      "pos": "v.",
+      "gloss": "讨好"
+    },
+    {
+      "i": 143,
+      "zh": "拿人手短",
+      "en": "obligated",
+      "ipa": "[ˈɑːblɪɡeɪtɪd]",
+      "pos": "adj.",
+      "gloss": "有义务的"
+    },
+    {
+      "i": 144,
+      "skip": true
+    },
+    {
+      "i": 145,
+      "zh": "清净",
+      "en": "tranquil",
+      "ipa": "[ˈtræŋkwɪl]",
+      "pos": "adj.",
+      "gloss": "安静的"
+    },
+    {
+      "i": 146,
+      "zh": "恩怨",
+      "en": "conflict",
+      "ipa": "[ˈkɑːnflɪkt]",
+      "pos": "n.",
+      "gloss": "冲突"
+    },
+    {
+      "i": 147,
+      "zh": "紧绷",
+      "en": "tense",
+      "ipa": "[tens]",
+      "pos": "adj.",
+      "gloss": "紧绷的"
+    },
+    {
+      "i": 148,
+      "zh": "奇迹",
+      "en": "miracle",
+      "ipa": "[ˈmɪrəkəl]",
+      "pos": "n.",
+      "gloss": "奇迹"
+    },
+    {
+      "i": 149,
+      "zh": "引爆",
+      "en": "trigger",
+      "ipa": "[ˈtrɪɡər]",
+      "pos": "v.",
+      "gloss": "触发"
+    },
+    {
+      "i": 150,
+      "zh": "结果",
+      "en": "consequence",
+      "ipa": "[ˈkɑːnsɪkwens]",
+      "pos": "n.",
+      "gloss": "结果"
+    },
+    {
+      "i": 151,
+      "zh": "加重",
+      "en": "aggravate",
+      "ipa": "[ˈæɡrəveɪt]",
+      "pos": "v.",
+      "gloss": "加重"
+    },
+    {
+      "i": 152,
+      "zh": "评论",
+      "en": "comment",
+      "ipa": "[ˈkɑːment]",
+      "pos": "n.",
+      "gloss": "评论"
+    },
+    {
+      "i": 153,
+      "zh": "试一试",
+      "en": "attempt",
+      "ipa": "[əˈtempt]",
+      "pos": "v.",
+      "gloss": "尝试"
+    },
+    {
+      "i": 154,
+      "zh": "发酵",
+      "en": "ferment",
+      "ipa": "[fərˈment]",
+      "pos": "v.",
+      "gloss": "发酵"
+    },
+    {
+      "i": 155,
+      "zh": "息息相关",
+      "en": "correlated",
+      "ipa": "[ˈkɔːrəleɪtɪd]",
+      "pos": "adj.",
+      "gloss": "相关的"
+    },
+    {
+      "i": 156,
+      "zh": "首选",
+      "en": "preferred",
+      "ipa": "[prɪˈfɜːrd]",
+      "pos": "adj.",
+      "gloss": "首选的"
+    },
+    {
+      "i": 157,
+      "zh": "避免",
+      "en": "avoid",
+      "ipa": "[əˈvɔɪd]",
+      "pos": "v.",
+      "gloss": "避免"
+    },
+    {
+      "i": 158,
+      "zh": "逐一",
+      "en": "sequentially",
+      "ipa": "[sɪˈkwenʃəli]",
+      "pos": "adv.",
+      "gloss": "依次地"
+    },
+    {
+      "i": 159,
+      "zh": "日常",
+      "en": "daily",
+      "ipa": "[ˈdeɪli]",
+      "pos": "adj.",
+      "gloss": "日常的"
+    },
+    {
+      "i": 160,
+      "zh": "厕所",
+      "en": "restroom",
+      "ipa": "[ˈrestruːm]",
+      "pos": "n.",
+      "gloss": "厕所"
+    },
+    {
+      "i": 161,
+      "zh": "调整",
+      "en": "adjustment",
+      "ipa": "[əˈdʒʌstmənt]",
+      "pos": "n.",
+      "gloss": "调整"
+    },
+    {
+      "i": 162,
+      "zh": "秩序",
+      "en": "order",
+      "ipa": "[ˈɔːrdər]",
+      "pos": "n.",
+      "gloss": "秩序"
+    },
+    {
+      "i": 163,
+      "zh": "雷打不动",
+      "en": "unwavering",
+      "ipa": "[ʌnˈweɪvərɪŋ]",
+      "pos": "adj.",
+      "gloss": "坚定不移的"
+    },
+    {
+      "i": 164,
+      "zh": "反馈",
+      "en": "reinforcement",
+      "ipa": "[ˌriːɪnˈfɔːrsmənt]",
+      "pos": "n.",
+      "gloss": "强化"
+    },
+    {
+      "i": 165,
+      "zh": "闻到",
+      "en": "smell",
+      "ipa": "[smel]",
+      "pos": "v.",
+      "gloss": "闻到"
+    },
+    {
+      "i": 166,
+      "zh": "反应",
+      "en": "response",
+      "ipa": "[rɪˈspɑːns]",
+      "pos": "n.",
+      "gloss": "反应"
+    },
+    {
+      "i": 167,
+      "zh": "顺其自然",
+      "en": "acceptance",
+      "ipa": "[əkˈseptəns]",
+      "pos": "n.",
+      "gloss": "接受"
+    },
+    {
+      "i": 168,
+      "zh": "她说",
+      "en": "remark",
+      "ipa": "[rɪˈmɑːrk]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 169,
+      "zh": "足足",
+      "en": "fully",
+      "ipa": "[ˈfʊli]",
+      "pos": "adv.",
+      "gloss": "足足地"
+    },
+    {
+      "i": 170,
+      "zh": "歉意",
+      "en": "apologetic",
+      "ipa": "[əˌpɑːləˈdʒetɪk]",
+      "pos": "adj.",
+      "gloss": "歉意的"
+    },
+    {
+      "i": 171,
+      "zh": "复读",
+      "en": "retake",
+      "ipa": "[ˌriːˈteɪk]",
+      "pos": "v.",
+      "gloss": "重考"
+    },
+    {
+      "i": 172,
+      "zh": "崩溃",
+      "en": "breakdown",
+      "ipa": "[ˈbreɪkdaʊn]",
+      "pos": "n.",
+      "gloss": "崩溃"
+    },
+    {
+      "i": 173,
+      "zh": "气味",
+      "en": "scent",
+      "ipa": "[sent]",
+      "pos": "n.",
+      "gloss": "气味"
+    },
+    {
+      "i": 174,
+      "skip": true
+    },
+    {
+      "i": 175,
+      "zh": "声称",
+      "en": "claim",
+      "ipa": "[kleɪm]",
+      "pos": "v.",
+      "gloss": "声称"
+    },
+    {
+      "i": 176,
+      "zh": "偶然",
+      "en": "accidental",
+      "ipa": "[ˌæksɪˈdentəl]",
+      "pos": "adj.",
+      "gloss": "偶然的"
+    },
+    {
+      "i": 177,
+      "skip": true
+    },
+    {
+      "i": 178,
+      "zh": "释重负",
+      "en": "relieved",
+      "ipa": "[rɪˈliːvd]",
+      "pos": "adj.",
+      "gloss": "释然的"
+    },
+    {
+      "i": 179,
+      "zh": "白费",
+      "en": "wasted",
+      "ipa": "[ˈweɪstɪd]",
+      "pos": "adj.",
+      "gloss": "白费的"
+    },
+    {
+      "i": 180,
+      "zh": "必需品",
+      "en": "necessity",
+      "ipa": "[nəˈsesəti]",
+      "pos": "n.",
+      "gloss": "必需品"
+    },
+    {
+      "i": 181,
+      "zh": "按月",
+      "en": "monthly",
+      "ipa": "[ˈmʌnθli]",
+      "pos": "adv.",
+      "gloss": "每月地"
+    },
+    {
+      "i": 182,
+      "zh": "突然",
+      "en": "abruptly",
+      "ipa": "[əˈbrʌptli]",
+      "pos": "adv.",
+      "gloss": "突然地"
+    },
+    {
+      "i": 183,
+      "zh": "异味",
+      "en": "stench",
+      "ipa": "[stɛntʃ]",
+      "pos": "n.",
+      "gloss": "异味"
+    },
+    {
+      "i": 184,
+      "zh": "驱使",
+      "en": "compel",
+      "ipa": "[kəmˈpel]",
+      "pos": "v.",
+      "gloss": "驱使"
+    },
+    {
+      "i": 185,
+      "zh": "样本",
+      "en": "sample",
+      "ipa": "[ˈsæmpəl]",
+      "pos": "n.",
+      "gloss": "样本"
+    },
+    {
+      "i": 186,
+      "zh": "消散",
+      "en": "dissipate",
+      "ipa": "[ˈdɪsɪpeɪt]",
+      "pos": "v.",
+      "gloss": "消散"
+    },
+    {
+      "i": 187,
+      "zh": "调节",
+      "en": "regulation",
+      "ipa": "[ˌreɡjuˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "调节"
+    },
+    {
+      "i": 188,
+      "zh": "心理",
+      "en": "psychological",
+      "ipa": "[ˌsaɪkəˈlɑːdʒɪkəl]",
+      "pos": "adj.",
+      "gloss": "心理的"
+    },
+    {
+      "i": 189,
+      "zh": "天生",
+      "en": "innate",
+      "ipa": "[ɪˈneɪt]",
+      "pos": "adj.",
+      "gloss": "天生的"
+    },
+    {
+      "i": 190,
+      "skip": true
+    },
+    {
+      "i": 191,
+      "zh": "区分",
+      "en": "distinguish",
+      "ipa": "[dɪˈstɪŋɡwɪʃ]",
+      "pos": "v.",
+      "gloss": "区分"
+    },
+    {
+      "i": 192,
+      "zh": "敏感",
+      "en": "sensitive",
+      "ipa": "[ˈsensətɪv]",
+      "pos": "adj.",
+      "gloss": "敏感的"
+    },
+    {
+      "i": 193,
+      "zh": "安抚",
+      "en": "soothe",
+      "ipa": "[suːð]",
+      "pos": "v.",
+      "gloss": "安抚"
+    },
+    {
+      "i": 194,
+      "zh": "逃离",
+      "en": "escape",
+      "ipa": "[ɪˈskeɪp]",
+      "pos": "v.",
+      "gloss": "逃离"
+    },
+    {
+      "i": 195,
+      "zh": "紧绷",
+      "en": "rigid",
+      "ipa": "[ˈrɪdʒɪd]",
+      "pos": "adj.",
+      "gloss": "僵硬的"
+    },
+    {
+      "i": 196,
+      "skip": true
+    },
+    {
+      "i": 197,
+      "zh": "重担",
+      "en": "burden",
+      "ipa": "[ˈbɜːrdən]",
+      "pos": "n.",
+      "gloss": "重担"
+    },
+    {
+      "i": 198,
+      "zh": "放纵",
+      "en": "indulge",
+      "ipa": "[ɪnˈdʌldʒ]",
+      "pos": "v.",
+      "gloss": "放纵"
+    },
+    {
+      "i": 199,
+      "zh": "脱敏",
+      "en": "desensitization",
+      "ipa": "[diːˌsensɪtɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "脱敏"
+    },
+    {
+      "i": 200,
+      "zh": "强迫",
+      "en": "force",
+      "ipa": "[fɔːrs]",
+      "pos": "v.",
+      "gloss": "强迫"
+    },
+    {
+      "i": 201,
+      "zh": "突破口",
+      "en": "breakthrough",
+      "ipa": "[ˈbreɪkθruː]",
+      "pos": "n.",
+      "gloss": "突破"
+    },
+    {
+      "i": 202,
+      "skip": true
+    },
+    {
+      "i": 203,
+      "zh": "虚假",
+      "en": "illusory",
+      "ipa": "[ɪˈluːsəri]",
+      "pos": "adj.",
+      "gloss": "虚幻的"
+    },
+    {
+      "i": 204,
+      "zh": "毕业",
+      "en": "graduate",
+      "ipa": "[ˈɡrædʒuət]",
+      "pos": "v.",
+      "gloss": "毕业"
+    },
+    {
+      "i": 205,
+      "zh": "紧张",
+      "en": "nervous",
+      "ipa": "[ˈnɜːrvəs]",
+      "pos": "adj.",
+      "gloss": "紧张的"
+    },
+    {
+      "i": 206,
+      "zh": "故意",
+      "en": "intentional",
+      "ipa": "[ɪnˈtenʃənəl]",
+      "pos": "adj.",
+      "gloss": "故意的"
+    },
+    {
+      "i": 207,
+      "zh": "奔波",
+      "en": "hustle",
+      "ipa": "[ˈhʌsl]",
+      "pos": "n.",
+      "gloss": "奔波"
+    },
+    {
+      "i": 208,
+      "zh": "缓解",
+      "en": "ease",
+      "ipa": "[iːz]",
+      "pos": "v.",
+      "gloss": "缓解"
+    },
+    {
+      "i": 209,
+      "zh": "gap",
+      "en": "gap",
+      "ipa": "[ɡæp]",
+      "pos": "n.",
+      "gloss": "间隔期"
+    },
+    {
+      "i": 210,
+      "zh": "入职",
+      "en": "onboard",
+      "ipa": "[ˈɑːnbɔːrd]",
+      "pos": "v.",
+      "gloss": "入职"
+    },
+    {
+      "i": 211,
+      "zh": "遇到",
+      "en": "encounter",
+      "ipa": "[ɪnˈkaʊntər]",
+      "pos": "v.",
+      "gloss": "遇到"
+    },
+    {
+      "i": 212,
+      "zh": "告诉",
+      "en": "inform",
+      "ipa": "[ɪnˈfɔːrm]",
+      "pos": "v.",
+      "gloss": "告知"
+    },
+    {
+      "i": 213,
+      "zh": "善意",
+      "en": "kindness",
+      "ipa": "[ˈkaɪndnəs]",
+      "pos": "n.",
+      "gloss": "善意"
+    },
+    {
+      "i": 214,
+      "zh": "释然",
+      "en": "relief",
+      "ipa": "[rɪˈliːf]",
+      "pos": "n.",
+      "gloss": "释然"
+    },
+    {
+      "i": 215,
+      "zh": "无力感",
+      "en": "helpless",
+      "ipa": "[ˈhelpləs]",
+      "pos": "adj.",
+      "gloss": "无助的"
+    },
+    {
+      "i": 216,
+      "zh": "体系",
+      "en": "system",
+      "ipa": "[ˈsɪstəm]",
+      "pos": "n.",
+      "gloss": "体系"
+    },
+    {
+      "i": 217,
+      "zh": "无力",
+      "en": "powerless",
+      "ipa": "[ˈpaʊərləs]",
+      "pos": "adj.",
+      "gloss": "无力的"
+    },
+    {
+      "i": 218,
+      "zh": "健全",
+      "en": "sound",
+      "ipa": "[saʊnd]",
+      "pos": "adj.",
+      "gloss": "健全的"
+    },
+    {
+      "i": 219,
+      "zh": "权利",
+      "en": "entitlement",
+      "ipa": "[ɪnˈtaɪtlmənt]",
+      "pos": "n.",
+      "gloss": "权利"
+    },
+    {
+      "i": 220,
+      "skip": true
+    },
+    {
+      "i": 221,
+      "zh": "苛责",
+      "en": "criticism",
+      "ipa": "[ˈkrɪtɪsɪzəm]",
+      "pos": "n.",
+      "gloss": "批评"
+    },
+    {
+      "i": 222,
+      "zh": "共情",
+      "en": "empathy",
+      "ipa": "[ˈempəθi]",
+      "pos": "n.",
+      "gloss": "共情"
+    },
+    {
+      "i": 223,
+      "zh": "了解",
+      "en": "understand",
+      "ipa": "[ˌʌndərˈstænd]",
+      "pos": "v.",
+      "gloss": "了解"
+    },
+    {
+      "i": 224,
+      "zh": "治疗",
+      "en": "treatment",
+      "ipa": "[ˈtriːtmənt]",
+      "pos": "n.",
+      "gloss": "治疗"
+    },
+    {
+      "i": 225,
+      "zh": "陪伴",
+      "en": "companionship",
+      "ipa": "[kəmˈpæniənʃɪp]",
+      "pos": "n.",
+      "gloss": "陪伴"
+    },
+    {
+      "i": 226,
+      "skip": true
+    },
+    {
+      "i": 227,
+      "zh": "共性",
+      "en": "commonality",
+      "ipa": "[ˌkɑːməˈnæləti]",
+      "pos": "n.",
+      "gloss": "共性"
+    },
+    {
+      "i": 228,
+      "zh": "升学",
+      "en": "advancement",
+      "ipa": "[ədˈvænsmənt]",
+      "pos": "n.",
+      "gloss": "晋升"
+    },
+    {
+      "i": 229,
+      "zh": "认可",
+      "en": "recognition",
+      "ipa": "[ˌrekəɡˈnɪʃən]",
+      "pos": "n.",
+      "gloss": "认可"
+    },
+    {
+      "i": 230,
+      "skip": true
+    },
+    {
+      "i": 231,
+      "zh": "挣扎",
+      "en": "struggle",
+      "ipa": "[ˈstrʌɡəl]",
+      "pos": "n.",
+      "gloss": "挣扎"
+    },
+    {
+      "i": 232,
+      "zh": "轻盈",
+      "en": "lightness",
+      "ipa": "[ˈlaɪtnəs]",
+      "pos": "n.",
+      "gloss": "轻盈"
+    },
+    {
+      "i": 233,
+      "zh": "标准",
+      "en": "standard",
+      "ipa": "[ˈstændərd]",
+      "pos": "n.",
+      "gloss": "标准"
+    },
+    {
+      "i": 234,
+      "zh": "追求",
+      "en": "pursuit",
+      "ipa": "[pərˈsuːt]",
+      "pos": "n.",
+      "gloss": "追求"
+    },
+    {
+      "i": 235,
+      "zh": "支撑",
+      "en": "sustain",
+      "ipa": "[səˈsteɪn]",
+      "pos": "v.",
+      "gloss": "支撑"
+    },
+    {
+      "i": 236,
+      "skip": true
+    }
+  ]
+}
