@@ -1,3 +1,4 @@
 {
-  "framework": "other"
+  "framework": "other",
+  "needsFallback": false
 }
