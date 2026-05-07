@@ -3,162 +3,242 @@
     {
       "i": 0,
       "zh": "马克思",
-      "en": "Marx"
+      "en": "Marx",
+      "ipa": "[mɑrks]",
+      "pos": "n.",
+      "gloss": "马克思；马克思主义创始人"
     },
     {
       "i": 1,
-      "zh": "1818",
-      "en": "year1818"
+      "skip": true
     },
     {
       "i": 2,
       "zh": "生产力",
-      "en": "productivity"
+      "en": "productivity",
+      "ipa": "[ˌproʊdʌkˈtɪvəti]",
+      "pos": "n.",
+      "gloss": "生产力；生产率"
     },
     {
       "i": 3,
-      "zh": "剩余价值",
-      "en": "surplusvalue"
+      "skip": true
     },
     {
       "i": 4,
       "zh": "内卷",
-      "en": "involution"
+      "en": "involution",
+      "ipa": "[ˌɪnvəˈluʃən]",
+      "pos": "n.",
+      "gloss": "内卷；内卷化；退化"
     },
     {
       "i": 5,
       "zh": "扩张",
-      "en": "expansion"
+      "en": "expansion",
+      "ipa": "[ɪkˈspænʃən]",
+      "pos": "n.",
+      "gloss": "扩张；扩展；膨胀"
     },
     {
       "i": 6,
       "zh": "资本论",
-      "en": "Kapital"
+      "en": "Kapital",
+      "ipa": "[kɑpɪˈtɑl]",
+      "pos": "n.",
+      "gloss": "资本论；Das Kapital"
     },
     {
       "i": 7,
       "zh": "自由",
-      "en": "freedom"
+      "en": "freedom",
+      "ipa": "[ˈfridəm]",
+      "pos": "n.",
+      "gloss": "自由；自由权；自主"
     },
     {
       "i": 8,
       "zh": "技术",
-      "en": "technology"
+      "en": "technology",
+      "ipa": "[tekˈnɑlədʒi]",
+      "pos": "n.",
+      "gloss": "技术；科技；工艺"
     },
     {
       "i": 9,
       "zh": "工作日",
-      "en": "workday"
+      "en": "workday",
+      "ipa": "[ˈwɜrkdeɪ]",
+      "pos": "n.",
+      "gloss": "工作日；工作时间"
     },
     {
       "i": 10,
       "zh": "私有制",
-      "en": "ownership"
+      "en": "ownership",
+      "ipa": "[ˈoʊnərʃɪp]",
+      "pos": "n.",
+      "gloss": "私有制；所有权；所有制"
     },
     {
       "i": 11,
       "zh": "价值",
-      "en": "value"
+      "en": "value",
+      "ipa": "[ˈvælju]",
+      "pos": "n.",
+      "gloss": "价值；价值观；数值"
     },
     {
       "i": 12,
       "zh": "雇佣",
-      "en": "employment"
+      "en": "employment",
+      "ipa": "[ɪmˈplɔɪmənt]",
+      "pos": "n.",
+      "gloss": "雇佣；就业；雇用"
     },
     {
       "i": 13,
       "zh": "消费主义",
-      "en": "consumerism"
+      "en": "consumerism",
+      "ipa": "[kənˈsumərɪzəm]",
+      "pos": "n.",
+      "gloss": "消费主义；消费文化"
     },
     {
       "i": 14,
       "zh": "人口",
-      "en": "population"
+      "en": "population",
+      "ipa": "[ˌpɑpjuˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "人口；人口数量；人群"
     },
     {
       "i": 15,
       "zh": "学历",
-      "en": "credential"
+      "en": "credential",
+      "ipa": "[krɪˈdenʃəl]",
+      "pos": "n.",
+      "gloss": "学历；证书；资历"
     },
     {
       "i": 16,
       "zh": "竞争",
-      "en": "competition"
+      "en": "competition",
+      "ipa": "[ˌkɑmpəˈtɪʃən]",
+      "pos": "n.",
+      "gloss": "竞争；比赛；竞赛"
     },
     {
       "i": 17,
       "zh": "脱节",
-      "en": "disconnected"
+      "en": "disconnected",
+      "ipa": "[ˌdɪskəˈnektɪd]",
+      "pos": "adj.",
+      "gloss": "脱节的；不连贯的"
     },
     {
       "i": 18,
       "zh": "加班",
-      "en": "overtime"
+      "en": "overtime",
+      "ipa": "[ˈoʊvərˌtaɪm]",
+      "pos": "n.",
+      "gloss": "加班；超时工作"
     },
     {
       "i": 19,
       "zh": "从属",
-      "en": "subordination"
+      "en": "subordination",
+      "ipa": "[səˌbɔrdɪˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "从属；隶属；服从"
     },
     {
       "i": 20,
       "zh": "算法",
-      "en": "algorithm"
+      "en": "algorithm",
+      "ipa": "[ˈælɡəˌrɪðəm]",
+      "pos": "n.",
+      "gloss": "算法；运算法则"
     },
     {
       "i": 21,
       "zh": "单价",
-      "en": "price"
+      "en": "price",
+      "ipa": "[praɪs]",
+      "pos": "n.",
+      "gloss": "单价；价格；代价"
     },
     {
       "i": 22,
       "zh": "剥削",
-      "en": "exploitation"
+      "en": "exploitation",
+      "ipa": "[ˌeksplɔɪˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "剥削；开发；利用"
     },
     {
       "i": 23,
       "zh": "本性",
-      "en": "nature"
+      "en": "nature",
+      "ipa": "[ˈneɪtʃər]",
+      "pos": "n.",
+      "gloss": "本性；自然；本质"
     },
     {
       "i": 24,
-      "zh": "利润率",
-      "en": "profitrate"
+      "skip": true
     },
     {
       "i": 25,
       "zh": "需求",
-      "en": "demand"
+      "en": "demand",
+      "ipa": "[dɪˈmænd]",
+      "pos": "n.",
+      "gloss": "需求；要求；需要"
     },
     {
       "i": 26,
       "zh": "工会",
-      "en": "union"
+      "en": "union",
+      "ipa": "[ˈjunjən]",
+      "pos": "n.",
+      "gloss": "工会；联盟；联合"
     },
     {
       "i": 27,
-      "zh": "支配权",
-      "en": "control"
+      "skip": true
     },
     {
       "i": 28,
       "zh": "预言",
-      "en": "prophecy"
+      "en": "prophecy",
+      "ipa": "[ˈprɑfəsi]",
+      "pos": "n.",
+      "gloss": "预言；预言能力"
     },
     {
       "i": 29,
       "zh": "人格",
-      "en": "personality"
+      "en": "personality",
+      "ipa": "[ˌpɜrsəˈnæləti]",
+      "pos": "n.",
+      "gloss": "人格；个性；性格"
     },
     {
       "i": 30,
       "zh": "摆脱",
-      "en": "escape"
+      "en": "escape",
+      "ipa": "[ɪˈskeɪp]",
+      "pos": "v.",
+      "gloss": "摆脱；逃脱；逃避"
     },
     {
       "i": 31,
       "zh": "工人",
-      "en": "worker"
+      "en": "worker",
+      "ipa": "[ˈwɜrkər]",
+      "pos": "n.",
+      "gloss": "工人；劳动者；工作者"
     },
     {
       "i": 32,
@@ -167,42 +247,66 @@
     {
       "i": 33,
       "zh": "异化",
-      "en": "alienation"
+      "en": "alienation",
+      "ipa": "[ˌeɪliəˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "异化；疏远；转让"
     },
     {
       "i": 34,
       "zh": "本质",
-      "en": "essence"
+      "en": "essence",
+      "ipa": "[ˈesəns]",
+      "pos": "n.",
+      "gloss": "本质；精华；实质"
     },
     {
       "i": 35,
       "zh": "陷阱",
-      "en": "trap"
+      "en": "trap",
+      "ipa": "[træp]",
+      "pos": "n.",
+      "gloss": "陷阱；圈套；困境"
     },
     {
       "i": 36,
       "zh": "环境",
-      "en": "environment"
+      "en": "environment",
+      "ipa": "[ɪnˈvaɪrənmənt]",
+      "pos": "n.",
+      "gloss": "环境；自然环境；周围"
     },
     {
       "i": 37,
       "zh": "Karl",
-      "en": "Karl"
+      "en": "Karl",
+      "ipa": "[kɑrl]",
+      "pos": "n.",
+      "gloss": "卡尔；人名"
     },
     {
       "i": 38,
       "zh": "思想家",
-      "en": "thinker"
+      "en": "thinker",
+      "ipa": "[ˈθɪŋkər]",
+      "pos": "n.",
+      "gloss": "思想家；思考者"
     },
     {
       "i": 39,
       "zh": "体系",
-      "en": "system"
+      "en": "system",
+      "ipa": "[ˈsɪstəm]",
+      "pos": "n.",
+      "gloss": "体系；系统；制度"
     },
     {
       "i": 40,
       "zh": "意义",
-      "en": "significance"
+      "en": "significance",
+      "ipa": "[sɪɡˈnɪfɪkəns]",
+      "pos": "n.",
+      "gloss": "意义；重要性；含义"
     },
     {
       "i": 41,
@@ -211,67 +315,106 @@
     {
       "i": 42,
       "zh": "危机",
-      "en": "crisis"
+      "en": "crisis",
+      "ipa": "[ˈkraɪsɪs]",
+      "pos": "n.",
+      "gloss": "危机；紧要关头；转折点"
     },
     {
       "i": 43,
       "zh": "差距",
-      "en": "disparity"
+      "en": "disparity",
+      "ipa": "[dɪˈspærəti]",
+      "pos": "n.",
+      "gloss": "差距；不等；差异"
     },
     {
       "i": 44,
       "zh": "数字",
-      "en": "digital"
+      "en": "digital",
+      "ipa": "[ˈdɪdʒɪtəl]",
+      "pos": "adj.",
+      "gloss": "数字的；数码的"
     },
     {
       "i": 45,
       "zh": "支付",
-      "en": "payment"
+      "en": "payment",
+      "ipa": "[ˈpeɪmənt]",
+      "pos": "n.",
+      "gloss": "支付；付款；报酬"
     },
     {
       "i": 46,
       "zh": "灵感",
-      "en": "inspiration"
+      "en": "inspiration",
+      "ipa": "[ˌɪnspəˈreɪʃən]",
+      "pos": "n.",
+      "gloss": "灵感；启发；灵感来源"
     },
     {
       "i": 47,
       "zh": "ChatGPT",
-      "en": "ChatGPT"
+      "en": "ChatGPT",
+      "ipa": "[tʃæt dʒi pi ti]",
+      "pos": "n.",
+      "gloss": "ChatGPT"
     },
     {
       "i": 48,
       "zh": "担忧",
-      "en": "concern"
+      "en": "concern",
+      "ipa": "[kənˈsɜrn]",
+      "pos": "n.",
+      "gloss": "担忧；关注；关切"
     },
     {
       "i": 49,
       "zh": "预见",
-      "en": "foresight"
+      "en": "foresight",
+      "ipa": "[ˈfɔrsaɪt]",
+      "pos": "n.",
+      "gloss": "预见；先见之明；远见"
     },
     {
       "i": 50,
       "zh": "繁荣",
-      "en": "prosperity"
+      "en": "prosperity",
+      "ipa": "[prɑˈsperəti]",
+      "pos": "n.",
+      "gloss": "繁荣；兴旺；昌盛"
     },
     {
       "i": 51,
       "zh": "政治",
-      "en": "politics"
+      "en": "politics",
+      "ipa": "[ˈpɑlətɪks]",
+      "pos": "n.",
+      "gloss": "政治；政治学"
     },
     {
       "i": 52,
       "zh": "著作",
-      "en": "works"
+      "en": "works",
+      "ipa": "[wɜrks]",
+      "pos": "n.",
+      "gloss": "著作；作品；全集"
     },
     {
       "i": 53,
       "zh": "世界",
-      "en": "world"
+      "en": "world",
+      "ipa": "[wɜrld]",
+      "pos": "n.",
+      "gloss": "世界；世界范围"
     },
     {
       "i": 54,
       "zh": "资本论",
-      "en": "DasKapital"
+      "en": "DasKapital",
+      "ipa": "[kɑpɪˈtɑl]",
+      "pos": "n.",
+      "gloss": "资本论；Das Kapital"
     },
     {
       "i": 55,
@@ -280,12 +423,14 @@
     {
       "i": 56,
       "zh": "全球化",
-      "en": "globalization"
+      "en": "globalization",
+      "ipa": "[ˌɡloʊbəlɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "全球化"
     },
     {
       "i": 57,
-      "zh": "人生",
-      "en": "lifepath"
+      "skip": true
     },
     {
       "i": 58,
@@ -294,12 +439,18 @@
     {
       "i": 59,
       "zh": "专家",
-      "en": "expert"
+      "en": "expert",
+      "ipa": "[ˈekspɜrt]",
+      "pos": "n.",
+      "gloss": "专家；行家"
     },
     {
       "i": 60,
       "zh": "重读",
-      "en": "reread"
+      "en": "reread",
+      "ipa": "[ˌriˈrid]",
+      "pos": "v.",
+      "gloss": "重读；再次阅读"
     },
     {
       "i": 61,
@@ -308,12 +459,18 @@
     {
       "i": 62,
       "zh": "教授",
-      "en": "professor"
+      "en": "professor",
+      "ipa": "[prəˈfesər]",
+      "pos": "n.",
+      "gloss": "教授"
     },
     {
       "i": 63,
       "zh": "资本论",
-      "en": "Capital"
+      "en": "Capital",
+      "ipa": "[kɑpɪˈtɑl]",
+      "pos": "n.",
+      "gloss": "资本论；Das Kapital"
     },
     {
       "i": 64,
@@ -322,12 +479,18 @@
     {
       "i": 65,
       "zh": "哲学",
-      "en": "philosophy"
+      "en": "philosophy",
+      "ipa": "[fɪˈlɑsəfi]",
+      "pos": "n.",
+      "gloss": "哲学"
     },
     {
       "i": 66,
       "zh": "繁荣",
-      "en": "booming"
+      "en": "booming",
+      "ipa": "[prɑˈsperəti]",
+      "pos": "n.",
+      "gloss": "繁荣；兴旺；昌盛"
     },
     {
       "i": 67,
@@ -336,12 +499,18 @@
     {
       "i": 68,
       "zh": "助理",
-      "en": "assistant"
+      "en": "assistant",
+      "ipa": "[əˈsɪstənt]",
+      "pos": "n.",
+      "gloss": "助理；助手"
     },
     {
       "i": 69,
       "zh": "唯物",
-      "en": "materialism"
+      "en": "materialism",
+      "ipa": "[məˈtɪriəlɪzəm]",
+      "pos": "n.",
+      "gloss": "唯物主义"
     },
     {
       "i": 70,
@@ -349,13 +518,15 @@
     },
     {
       "i": 71,
-      "zh": "清华",
-      "en": "Tsinghua"
+      "skip": true
     },
     {
       "i": 72,
       "zh": "共产主义",
-      "en": "communism"
+      "en": "communism",
+      "ipa": "[ˈkɑmjunɪzəm]",
+      "pos": "n.",
+      "gloss": "共产主义"
     },
     {
       "i": 73,
@@ -363,53 +534,75 @@
     },
     {
       "i": 74,
-      "zh": "复旦",
-      "en": "Fudan"
+      "skip": true
     },
     {
       "i": 75,
       "zh": "高校",
-      "en": "university"
+      "en": "university",
+      "ipa": "[ˌjunɪˈvɜrsəti]",
+      "pos": "n.",
+      "gloss": "高校；大学"
     },
     {
       "i": 76,
       "zh": "维度",
-      "en": "dimension"
+      "en": "dimension",
+      "ipa": "[dɪˈmenʃən]",
+      "pos": "n.",
+      "gloss": "维度；尺寸"
     },
     {
       "i": 77,
       "zh": "经济",
-      "en": "economy"
+      "en": "economy",
+      "ipa": "[ɪˈkɑnəmi]",
+      "pos": "n.",
+      "gloss": "经济；经济学"
     },
     {
       "i": 78,
       "zh": "宣言",
-      "en": "Manifesto"
+      "en": "Manifesto",
+      "ipa": "[ˌmænɪˈfestoʊ]",
+      "pos": "n.",
+      "gloss": "宣言；声明"
     },
     {
       "i": 79,
       "zh": "生活",
-      "en": "living"
+      "en": "living",
+      "ipa": "[ˈlɪvɪŋ]",
+      "pos": "n.",
+      "gloss": "生活；生计"
     },
     {
       "i": 80,
       "zh": "奋斗",
-      "en": "struggle"
+      "en": "struggle",
+      "ipa": "[ˈstrʌɡəl]",
+      "pos": "n.",
+      "gloss": "奋斗；斗争"
     },
     {
       "i": 81,
-      "zh": "躺平",
-      "en": "tangping"
+      "skip": true
     },
     {
       "i": 82,
       "zh": "困境",
-      "en": "dilemma"
+      "en": "dilemma",
+      "ipa": "[dɪˈlemə]",
+      "pos": "n.",
+      "gloss": "困境；两难"
     },
     {
       "i": 83,
       "zh": "剥削",
-      "en": "selfexploitation"
+      "en": "selfexploitation",
+      "ipa": "[ˌeksplɔɪˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "剥削；开发；利用"
     },
     {
       "i": 84,
@@ -418,7 +611,10 @@
     {
       "i": 85,
       "zh": "全球化",
-      "en": "deglobalization"
+      "en": "deglobalization",
+      "ipa": "[ˌɡloʊbəlɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "全球化"
     },
     {
       "i": 86,
@@ -427,57 +623,90 @@
     {
       "i": 87,
       "zh": "认知",
-      "en": "cognition"
+      "en": "cognition",
+      "ipa": "[kɑɡˈnɪʃən]",
+      "pos": "n.",
+      "gloss": "认知；认识"
     },
     {
       "i": 88,
       "zh": "分钟",
-      "en": "minutes"
+      "en": "minutes",
+      "ipa": "[ˈmɪnɪts]",
+      "pos": "n.",
+      "gloss": "分钟"
     },
     {
       "i": 89,
       "zh": "起源",
-      "en": "origin"
+      "en": "origin",
+      "ipa": "[ˈɔrɪdʒɪn]",
+      "pos": "n.",
+      "gloss": "起源；由来"
     },
     {
       "i": 90,
       "zh": "历史",
-      "en": "history"
+      "en": "history",
+      "ipa": "[ˈhɪstəri]",
+      "pos": "n.",
+      "gloss": "历史"
     },
     {
       "i": 91,
       "zh": "自我",
-      "en": "self"
+      "en": "self",
+      "ipa": "[self]",
+      "pos": "n.",
+      "gloss": "自我；自身"
     },
     {
       "i": 92,
       "zh": "马克思",
-      "en": "Marxist"
+      "en": "Marxist",
+      "ipa": "[mɑrks]",
+      "pos": "n.",
+      "gloss": "马克思；马克思主义创始人"
     },
     {
       "i": 93,
       "zh": "孩子",
-      "en": "children"
+      "en": "children",
+      "ipa": "[ˈtʃɪldrən]",
+      "pos": "n.",
+      "gloss": "孩子；儿童"
     },
     {
       "i": 94,
       "zh": "规律",
-      "en": "laws"
+      "en": "laws",
+      "ipa": "[lɔz]",
+      "pos": "n.",
+      "gloss": "规律；法则"
     },
     {
       "i": 95,
       "zh": "视角",
-      "en": "perspective"
+      "en": "perspective",
+      "ipa": "[pərˈspektɪv]",
+      "pos": "n.",
+      "gloss": "视角；观点"
     },
     {
       "i": 96,
       "zh": "本质",
-      "en": "quintessence"
+      "en": "quintessence",
+      "ipa": "[ˈesəns]",
+      "pos": "n.",
+      "gloss": "本质；精华；实质"
     },
     {
       "i": 97,
       "zh": "资本论",
-      "en": "Kapitalbook"
+      "en": "Kapitalbook",
+      "ipa": "[kɑpɪˈtɑl]",
+      "pos": "n.",
+      "gloss": "资本论；Das Kapital"
     }
   ]
 }

@@ -11,132 +11,210 @@
     {
       "i": 2,
       "zh": "财报",
-      "en": "earnings"
+      "en": "earnings",
+      "ipa": "[ˈɜrnɪŋz]",
+      "pos": "n.",
+      "gloss": "财报；收益；利润"
     },
     {
       "i": 3,
       "zh": "营收",
-      "en": "revenue"
+      "en": "revenue",
+      "ipa": "[ˈrevənju]",
+      "pos": "n.",
+      "gloss": "营收；收入；税收"
     },
     {
       "i": 4,
       "zh": "同比增长",
-      "en": "growth"
+      "en": "growth",
+      "ipa": "[ɡroʊθ]",
+      "pos": "n.",
+      "gloss": "增长；生长；发展"
     },
     {
       "i": 5,
       "zh": "净利润",
-      "en": "profit"
+      "en": "profit",
+      "ipa": "[ˈprɑfɪt]",
+      "pos": "n.",
+      "gloss": "利润；利益；收益"
     },
     {
       "i": 6,
       "zh": "板块",
-      "en": "sector"
+      "en": "sector",
+      "ipa": "[ˈsektər]",
+      "pos": "n.",
+      "gloss": "板块；部门；区域"
     },
     {
       "i": 7,
       "zh": "混改",
-      "en": "reform"
+      "en": "reform",
+      "ipa": "[rɪˈfɔrm]",
+      "pos": "n.",
+      "gloss": "改革；改良；改造"
     },
     {
       "i": 8,
       "zh": "静默期",
-      "en": "silence"
+      "en": "silence",
+      "ipa": "[ˈsaɪləns]",
+      "pos": "n.",
+      "gloss": "沉默；寂静；静默"
     },
     {
       "i": 9,
       "zh": "官网",
-      "en": "website"
+      "en": "website",
+      "ipa": "[ˈwebsaɪt]",
+      "pos": "n.",
+      "gloss": "网站；官网"
     },
     {
       "i": 10,
       "zh": "采访",
-      "en": "interview"
+      "en": "interview",
+      "ipa": "[ˈɪntərvju]",
+      "pos": "n.",
+      "gloss": "采访；面试；访谈"
     },
     {
       "i": 11,
       "zh": "投资者",
-      "en": "investor"
+      "en": "investor",
+      "ipa": "[ɪnˈvestər]",
+      "pos": "n.",
+      "gloss": "投资者；投资人"
     },
     {
       "i": 12,
       "zh": "股价",
-      "en": "stockprice"
+      "en": "stockprice",
+      "ipa": "[stɑk praɪs]",
+      "pos": "n.",
+      "gloss": "股价；股票价格"
     },
     {
       "i": 13,
       "zh": "亏损",
-      "en": "loss"
+      "en": "loss",
+      "ipa": "[lɔs]",
+      "pos": "n.",
+      "gloss": "亏损；损失；失败"
     },
     {
       "i": 14,
       "zh": "光伏",
-      "en": "photovoltaic"
+      "en": "photovoltaic",
+      "ipa": "[ˌfoʊtoʊvɑlˈteɪɪk]",
+      "pos": "adj.",
+      "gloss": "光伏的；光电的"
     },
     {
       "i": 15,
       "zh": "退税",
-      "en": "taxrefund"
+      "en": "taxrefund",
+      "ipa": "[tæks rɪˈfʌnd]",
+      "pos": "n.",
+      "gloss": "退税；税款退还"
     },
     {
       "i": 16,
       "zh": "供需",
-      "en": "supplydemand"
+      "en": "supplydemand",
+      "ipa": "[səˈplaɪ dɪˈmænd]",
+      "pos": "n.",
+      "gloss": "供需；供求关系"
     },
     {
       "i": 17,
       "zh": "周期",
-      "en": "cycle"
+      "en": "cycle",
+      "ipa": "[ˈsaɪkəl]",
+      "pos": "n.",
+      "gloss": "周期；循环；周期律"
     },
     {
       "i": 18,
       "zh": "改造",
-      "en": "transformation"
+      "en": "transformation",
+      "ipa": "[ˌtrænsfərˈmeɪʃən]",
+      "pos": "n.",
+      "gloss": "改造；转变；变革"
     },
     {
       "i": 19,
       "zh": "一体化",
-      "en": "integration"
+      "en": "integration",
+      "ipa": "[ˌɪntɪˈɡreɪʃən]",
+      "pos": "n.",
+      "gloss": "一体化；整合；集成"
     },
     {
       "i": 20,
       "zh": "交易",
-      "en": "transaction"
+      "en": "transaction",
+      "ipa": "[trænˈzækʃən]",
+      "pos": "n.",
+      "gloss": "交易；事务；办理"
     },
     {
       "i": 21,
       "zh": "报价",
-      "en": "bid"
+      "en": "bid",
+      "ipa": "[bɪd]",
+      "pos": "n.",
+      "gloss": "报价；投标；出价"
     },
     {
       "i": 22,
       "zh": "资金链",
-      "en": "cashflow"
+      "en": "cashflow",
+      "ipa": "[kæʃ floʊ]",
+      "pos": "n.",
+      "gloss": "资金链；现金流"
     },
     {
       "i": 23,
       "zh": "估值",
-      "en": "valuation"
+      "en": "valuation",
+      "ipa": "[ˌvæljuˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "估值；估价；评价"
     },
     {
       "i": 24,
       "zh": "增资",
-      "en": "capitalincrease"
+      "en": "capitalincrease",
+      "ipa": "[ˈkæpɪtəl ɪnˈkris]",
+      "pos": "n.",
+      "gloss": "增资；增加资本"
     },
     {
       "i": 25,
       "zh": "产能",
-      "en": "capacity"
+      "en": "capacity",
+      "ipa": "[kəˈpæsəti]",
+      "pos": "n.",
+      "gloss": "产能；容量；能力"
     },
     {
       "i": 26,
       "zh": "下游",
-      "en": "downstream"
+      "en": "downstream",
+      "ipa": "[ˌdaʊnˈstrim]",
+      "pos": "adj.",
+      "gloss": "下游的；顺流的"
     },
     {
       "i": 27,
       "zh": "专利",
-      "en": "patent"
+      "en": "patent",
+      "ipa": "[ˈpætənt]",
+      "pos": "n.",
+      "gloss": "专利；专利权；专利品"
     },
     {
       "i": 28,
@@ -145,62 +223,98 @@
     {
       "i": 29,
       "zh": "死磕",
-      "en": "persist"
+      "en": "persist",
+      "ipa": "[pərˈsɪst]",
+      "pos": "v.",
+      "gloss": "坚持；持续；执意"
     },
     {
       "i": 30,
       "zh": "出货",
-      "en": "shipment"
+      "en": "shipment",
+      "ipa": "[ˈʃɪpmənt]",
+      "pos": "n.",
+      "gloss": "出货；装船；运输"
     },
     {
       "i": 31,
       "zh": "营收占比",
-      "en": "revenueshare"
+      "en": "revenueshare",
+      "ipa": "[ˈrevənju ʃer]",
+      "pos": "n.",
+      "gloss": "营收占比；收入份额"
     },
     {
       "i": 32,
       "zh": "战略",
-      "en": "strategy"
+      "en": "strategy",
+      "ipa": "[ˈstrætədʒi]",
+      "pos": "n.",
+      "gloss": "战略；策略；战略学"
     },
     {
       "i": 33,
       "zh": "淘汰赛",
-      "en": "elimination"
+      "en": "elimination",
+      "ipa": "[ɪˌlɪmɪˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "淘汰赛；消除；淘汰"
     },
     {
       "i": 34,
       "zh": "出货量",
-      "en": "shipmentvolume"
+      "en": "shipmentvolume",
+      "ipa": "[ˈʃɪpmənt ˈvɑljum]",
+      "pos": "n.",
+      "gloss": "出货量；运输量"
     },
     {
       "i": 35,
       "zh": "弯道超车",
-      "en": "overtaking"
+      "en": "overtaking",
+      "ipa": "[ˌoʊvərˈteɪkɪŋ]",
+      "pos": "n.",
+      "gloss": "弯道超车；超车；超越"
     },
     {
       "i": 36,
       "zh": "采访",
-      "en": "interviewed"
+      "en": "interviewed",
+      "ipa": "[ˈɪntərvju]",
+      "pos": "n.",
+      "gloss": "采访；面试；访谈"
     },
     {
       "i": 37,
       "zh": "流血",
-      "en": "bleeding"
+      "en": "bleeding",
+      "ipa": "[ˈblidɪŋ]",
+      "pos": "n.",
+      "gloss": "流血；出血；流失"
     },
     {
       "i": 38,
       "zh": "产能出清",
-      "en": "capacityclearing"
+      "en": "capacityclearing",
+      "ipa": "[kəˈpæsəti ˈklɪrɪŋ]",
+      "pos": "n.",
+      "gloss": "产能出清；产能清理"
     },
     {
       "i": 39,
       "zh": "前仆后继",
-      "en": "relentless"
+      "en": "relentless",
+      "ipa": "[rɪˈlentləs]",
+      "pos": "adj.",
+      "gloss": "前仆后继的；不懈的"
     },
     {
       "i": 40,
       "zh": "过度投资",
-      "en": "overinvestment"
+      "en": "overinvestment",
+      "ipa": "[ˌoʊvərɪnˈvestmənt]",
+      "pos": "n.",
+      "gloss": "过度投资；投资过剩"
     },
     {
       "i": 41,
@@ -209,72 +323,114 @@
     {
       "i": 42,
       "zh": "定调",
-      "en": "toning"
+      "en": "toning",
+      "ipa": "[ˈtoʊnɪŋ]",
+      "pos": "n.",
+      "gloss": "定调；基调；基调设定"
     },
     {
       "i": 43,
       "zh": "急不可耐",
-      "en": "impatient"
+      "en": "impatient",
+      "ipa": "[ɪmˈpeɪʃənt]",
+      "pos": "adj.",
+      "gloss": "急不可耐的；不耐烦的"
     },
     {
       "i": 44,
       "zh": "翻篇",
-      "en": "turningpage"
+      "en": "turningpage",
+      "ipa": "[ˈtɜrnɪŋ peɪdʒ]",
+      "pos": "n.",
+      "gloss": "翻篇；翻页；新的一页"
     },
     {
       "i": 45,
       "zh": "低估",
-      "en": "undervalued"
+      "en": "undervalued",
+      "ipa": "[ˌʌndərˈvæljud]",
+      "pos": "adj.",
+      "gloss": "低估的；被低估的"
     },
     {
       "i": 46,
       "zh": "半导体",
-      "en": "semiconductor"
+      "en": "semiconductor",
+      "ipa": "[ˌsemikənˈdʌktər]",
+      "pos": "n.",
+      "gloss": "半导体；半导体材料"
     },
     {
       "i": 47,
       "zh": "国产替代",
-      "en": "domesticsubstitution"
+      "en": "domesticsubstitution",
+      "ipa": "[dəˈmestɪk ˌsʌbstɪˈtuʃən]",
+      "pos": "n.",
+      "gloss": "国产替代；国内替代"
     },
     {
       "i": 48,
       "zh": "白忙活",
-      "en": "futile"
+      "en": "futile",
+      "ipa": "[ˈfjutl]",
+      "pos": "adj.",
+      "gloss": "白忙活的；徒劳的；无效的"
     },
     {
       "i": 49,
       "zh": "英雄主义",
-      "en": "heroism"
+      "en": "heroism",
+      "ipa": "[ˈheroʊɪzəm]",
+      "pos": "n.",
+      "gloss": "英雄主义；英勇行为"
     },
     {
       "i": 50,
       "zh": "工艺流程",
-      "en": "process"
+      "en": "process",
+      "ipa": "[ˈprɑses]",
+      "pos": "n.",
+      "gloss": "工艺流程；过程；程序"
     },
     {
       "i": 51,
       "zh": "单晶硅",
-      "en": "monocrystalline"
+      "en": "monocrystalline",
+      "ipa": "[ˌmɑnoʊˈkrɪstəlaɪn]",
+      "pos": "adj.",
+      "gloss": "单晶硅的；单晶的"
     },
     {
       "i": 52,
       "zh": "学术",
-      "en": "academic"
+      "en": "academic",
+      "ipa": "[ˌækəˈdemɪk]",
+      "pos": "adj.",
+      "gloss": "学术的；学院的；理论的"
     },
     {
       "i": 53,
       "zh": "威望",
-      "en": "prestige"
+      "en": "prestige",
+      "ipa": "[preˈstiʒ]",
+      "pos": "n.",
+      "gloss": "威望；声望；威信"
     },
     {
       "i": 54,
       "zh": "转向",
-      "en": "pivot"
+      "en": "pivot",
+      "ipa": "[ˈpɪvət]",
+      "pos": "n.",
+      "gloss": "转向；枢轴；转变"
     },
     {
       "i": 55,
       "zh": "做大做强",
-      "en": "scaling"
+      "en": "scaling",
+      "ipa": "[ˈskeɪlɪŋ]",
+      "pos": "n.",
+      "gloss": "做大做强；规模化；扩展"
     },
     {
       "i": 56,
@@ -283,132 +439,202 @@
     {
       "i": 57,
       "zh": "科学家",
-      "en": "scientist"
+      "en": "scientist",
+      "ipa": "[ˈsaɪəntɪst]",
+      "pos": "n.",
+      "gloss": "科学家；科研人员"
     },
     {
       "i": 58,
       "zh": "技术创新",
-      "en": "innovation"
+      "en": "innovation",
+      "ipa": "[ˌɪnəˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "技术创新；创新；革新"
     },
     {
       "i": 59,
       "zh": "双反",
-      "en": "antidumping"
+      "en": "antidumping",
+      "ipa": "[ˌæntiˈdʌmpɪŋ]",
+      "pos": "n.",
+      "gloss": "反倾销；反补贴"
     },
     {
       "i": 60,
       "zh": "市占率",
-      "en": "marketshare"
+      "en": "marketshare",
+      "ipa": "[ˈmɑrkɪt ʃer]",
+      "pos": "n.",
+      "gloss": "市占率；市场份额"
     },
     {
       "i": 61,
       "zh": "集中度",
-      "en": "concentration"
+      "en": "concentration",
+      "ipa": "[ˌkɑnsənˈtreɪʃən]",
+      "pos": "n.",
+      "gloss": "集中度；集中；浓度"
     },
     {
       "i": 62,
       "zh": "格局",
-      "en": "landscape"
+      "en": "landscape",
+      "ipa": "[ˈlændskeɪp]",
+      "pos": "n.",
+      "gloss": "格局；景观；局面"
     },
     {
       "i": 63,
       "zh": "规模",
-      "en": "scale"
+      "en": "scale",
+      "ipa": "[skeɪl]",
+      "pos": "n.",
+      "gloss": "规模；规模大小；等级"
     },
     {
       "i": 64,
       "zh": "资本",
-      "en": "capital"
+      "en": "capital",
+      "ipa": "[ˈkæpɪtəl]",
+      "pos": "n.",
+      "gloss": "资本；资金；首都"
     },
     {
       "i": 65,
       "zh": "困局",
-      "en": "predicament"
+      "en": "predicament",
+      "ipa": "[prɪˈdɪkəmənt]",
+      "pos": "n.",
+      "gloss": "困局；困境；窘境"
     },
     {
       "i": 66,
       "zh": "执念",
-      "en": "obsession"
+      "en": "obsession",
+      "ipa": "[əbˈseʃən]",
+      "pos": "n.",
+      "gloss": "执念；痴迷；执迷"
     },
     {
       "i": 67,
       "zh": "布局",
-      "en": "layout"
+      "en": "layout",
+      "ipa": "[ˈleɪaʊt]",
+      "pos": "n.",
+      "gloss": "布局；安排；设计"
     },
     {
       "i": 68,
-      "zh": "流程",
-      "en": "chain"
+      "skip": true
     },
     {
       "i": 69,
       "zh": "硅王",
-      "en": "siliconking"
+      "en": "siliconking",
+      "ipa": "[ˈsɪlɪkən kɪŋ]",
+      "pos": "n.",
+      "gloss": "硅王；硅业之王"
     },
     {
       "i": 70,
-      "zh": "稳稳当当",
-      "en": "stable"
+      "skip": true
     },
     {
       "i": 71,
       "zh": "组织融合",
-      "en": "organizational"
+      "en": "organizational",
+      "ipa": "[ˌɔrɡənəˈzeɪʃənəl]",
+      "pos": "adj.",
+      "gloss": "组织的；机构的"
     },
     {
       "i": 72,
       "zh": "毛利率",
-      "en": "grossmargin"
+      "en": "grossmargin",
+      "ipa": "[ɡroʊs ˈmɑrdʒɪn]",
+      "pos": "n.",
+      "gloss": "毛利率；毛利润"
     },
     {
       "i": 73,
       "zh": "收入来源",
-      "en": "revenuesource"
+      "en": "revenuesource",
+      "ipa": "[ˈrevənju sɔrs]",
+      "pos": "n.",
+      "gloss": "收入来源；收益来源"
     },
     {
       "i": 74,
       "zh": "预警",
-      "en": "warning"
+      "en": "warning",
+      "ipa": "[ˈwɔrnɪŋ]",
+      "pos": "n.",
+      "gloss": "预警；警告；警报"
     },
     {
       "i": 75,
       "zh": "同质化",
-      "en": "homogenization"
+      "en": "homogenization",
+      "ipa": "[həˌmɑdʒənəˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "同质化；均质化"
     },
     {
       "i": 76,
       "zh": "供需不平衡",
-      "en": "imbalance"
+      "en": "imbalance",
+      "ipa": "[ɪmˈbæləns]",
+      "pos": "n.",
+      "gloss": "不平衡；失衡；不均衡"
     },
     {
       "i": 77,
       "zh": "差异化",
-      "en": "differentiation"
+      "en": "differentiation",
+      "ipa": "[ˌdɪfəˌrenʃiˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "差异化；区别；区分"
     },
     {
       "i": 78,
       "zh": "断崖式",
-      "en": "clifflike"
+      "en": "clifflike",
+      "ipa": "[klɪf laɪk]",
+      "pos": "adj.",
+      "gloss": "断崖式的；悬崖般的"
     },
     {
       "i": 79,
       "zh": "靴子",
-      "en": "boot"
+      "en": "boot",
+      "ipa": "[but]",
+      "pos": "n.",
+      "gloss": "靴子；靴筒；启动"
     },
     {
       "i": 80,
       "zh": "同比减少",
-      "en": "decrease"
+      "en": "decrease",
+      "ipa": "[dɪˈkris]",
+      "pos": "n.",
+      "gloss": "减少；降低；减小"
     },
     {
       "i": 81,
       "zh": "净利润",
-      "en": "netprofit"
+      "en": "netprofit",
+      "ipa": "[ˈprɑfɪt]",
+      "pos": "n.",
+      "gloss": "利润；利益；收益"
     },
     {
       "i": 82,
       "zh": "季度",
-      "en": "quarter"
+      "en": "quarter",
+      "ipa": "[ˈkwɔrtər]",
+      "pos": "n.",
+      "gloss": "季度；四分之一；一刻钟"
     },
     {
       "i": 83,
@@ -425,82 +651,130 @@
     {
       "i": 86,
       "zh": "头部",
-      "en": "leading"
+      "en": "leading",
+      "ipa": "[ˈlidɪŋ]",
+      "pos": "adj.",
+      "gloss": "头部的；领先的；主要的"
     },
     {
       "i": 87,
       "zh": "优胜劣汰",
-      "en": "survival"
+      "en": "survival",
+      "ipa": "[sərˈvaɪvəl]",
+      "pos": "n.",
+      "gloss": "优胜劣汰；生存；存活"
     },
     {
       "i": 88,
       "zh": "低谷",
-      "en": "trough"
+      "en": "trough",
+      "ipa": "[trɔf]",
+      "pos": "n.",
+      "gloss": "低谷；波谷；槽"
     },
     {
       "i": 89,
       "zh": "抱有希望",
-      "en": "hopeful"
+      "en": "hopeful",
+      "ipa": "[ˈhoʊpfəl]",
+      "pos": "adj.",
+      "gloss": "抱有希望的；有希望的"
     },
     {
       "i": 90,
       "zh": "逆周期",
-      "en": "countercycle"
+      "en": "countercycle",
+      "ipa": "[ˈkaʊntərˌsaɪkəl]",
+      "pos": "n.",
+      "gloss": "逆周期；反周期"
     },
     {
       "i": 91,
       "zh": "主导权",
-      "en": "dominance"
+      "en": "dominance",
+      "ipa": "[ˈdɑmɪnəns]",
+      "pos": "n.",
+      "gloss": "主导权；支配；优势"
     },
     {
       "i": 92,
       "zh": "分歧",
-      "en": "disagreement"
+      "en": "disagreement",
+      "ipa": "[ˌdɪsəˈɡrimənt]",
+      "pos": "n.",
+      "gloss": "分歧；不一致；争论"
     },
     {
       "i": 93,
       "zh": "自主性",
-      "en": "autonomy"
+      "en": "autonomy",
+      "ipa": "[ɔˈtɑnəmi]",
+      "pos": "n.",
+      "gloss": "自主性；自治；自治权"
     },
     {
       "i": 94,
       "zh": "战略目标",
-      "en": "strategicgoal"
+      "en": "strategicgoal",
+      "ipa": "[strəˈtidʒɪk ɡoʊl]",
+      "pos": "n.",
+      "gloss": "战略目标；战略目的"
     },
     {
       "i": 95,
       "zh": "妥协",
-      "en": "compromise"
+      "en": "compromise",
+      "ipa": "[ˈkɑmprəˌmaɪz]",
+      "pos": "n.",
+      "gloss": "妥协；让步；折中"
     },
     {
       "i": 96,
       "zh": "经验主义",
-      "en": "empiricism"
+      "en": "empiricism",
+      "ipa": "[ɛmˈpɪrɪsɪzəm]",
+      "pos": "n.",
+      "gloss": "经验主义；经验论"
     },
     {
       "i": 97,
       "zh": "满产满销",
-      "en": "fullcapacity"
+      "en": "fullcapacity",
+      "ipa": "[fʊl kəˈpæsəti]",
+      "pos": "n.",
+      "gloss": "满产满销；全产能"
     },
     {
       "i": 98,
       "zh": "开工率",
-      "en": "utilizationrate"
+      "en": "utilizationrate",
+      "ipa": "[ˌjutləˈzeɪʃən reɪt]",
+      "pos": "n.",
+      "gloss": "开工率；利用率"
     },
     {
       "i": 99,
       "zh": "防守",
-      "en": "defense"
+      "en": "defense",
+      "ipa": "[dɪˈfens]",
+      "pos": "n.",
+      "gloss": "防守；防御；防卫"
     },
     {
       "i": 100,
       "zh": "价格战",
-      "en": "pricewar"
+      "en": "pricewar",
+      "ipa": "[praɪs wɔr]",
+      "pos": "n.",
+      "gloss": "价格战；降价竞争"
     },
     {
       "i": 101,
       "zh": "成本领先",
-      "en": "costleading"
+      "en": "costleading",
+      "ipa": "[kɔst ˈlidɪŋ]",
+      "pos": "adj.",
+      "gloss": "成本领先的"
     },
     {
       "i": 102,
@@ -508,8 +782,7 @@
     },
     {
       "i": 103,
-      "zh": "折旧",
-      "en": "depreciation"
+      "skip": true
     },
     {
       "i": 104,
@@ -518,77 +791,114 @@
     {
       "i": 105,
       "zh": "市占率",
-      "en": "share"
+      "en": "share",
+      "ipa": "[ˈmɑrkɪt ʃer]",
+      "pos": "n.",
+      "gloss": "市占率；市场份额"
     },
     {
       "i": 106,
-      "zh": "辞去",
-      "en": "resign"
+      "skip": true
     },
     {
       "i": 107,
       "zh": "中报",
-      "en": "interimreport"
+      "en": "interimreport",
+      "ipa": "[ˈɪntərɪm rɪˈpɔrt]",
+      "pos": "n.",
+      "gloss": "中报；中期报告"
     },
     {
       "i": 108,
       "zh": "同比下降",
-      "en": "yearonyear"
+      "en": "yearonyear",
+      "ipa": "[jɪr ɑn jɪr]",
+      "pos": "adv.",
+      "gloss": "同比；与去年同期"
     },
     {
       "i": 109,
       "zh": "刹车",
-      "en": "brake"
+      "en": "brake",
+      "ipa": "[breɪk]",
+      "pos": "n.",
+      "gloss": "刹车；制动器；制动"
     },
     {
       "i": 110,
       "zh": "老臣",
-      "en": "veteran"
+      "en": "veteran",
+      "ipa": "[ˈvetərən]",
+      "pos": "n.",
+      "gloss": "老臣；老兵；老手"
     },
     {
       "i": 111,
       "zh": "重整",
-      "en": "restructuring"
+      "en": "restructuring",
+      "ipa": "[ˌristrʌktʃərɪŋ]",
+      "pos": "n.",
+      "gloss": "重整；重组；重构"
     },
     {
       "i": 112,
       "zh": "可转债",
-      "en": "convertiblebond"
+      "en": "convertiblebond",
+      "ipa": "[kənˈvɜrtəbəl bɑnd]",
+      "pos": "n.",
+      "gloss": "可转债；可转换债券"
     },
     {
       "i": 113,
       "zh": "缩减",
-      "en": "reduce"
+      "en": "reduce",
+      "ipa": "[rɪˈdus]",
+      "pos": "v.",
+      "gloss": "缩减；减少；降低"
     },
     {
       "i": 114,
       "zh": "底子",
-      "en": "foundation"
+      "en": "foundation",
+      "ipa": "[faʊnˈdeɪʃən]",
+      "pos": "n.",
+      "gloss": "底子；基础；地基"
     },
     {
       "i": 115,
       "zh": "收购",
-      "en": "acquisition"
+      "en": "acquisition",
+      "ipa": "[ˌækwɪˈzɪʃən]",
+      "pos": "n.",
+      "gloss": "收购；收购行为；获得"
     },
     {
       "i": 116,
       "zh": "剥离",
-      "en": "divestiture"
+      "en": "divestiture",
+      "ipa": "[daɪˈvestɪtʃər]",
+      "pos": "n.",
+      "gloss": "剥离；脱手；出售"
     },
     {
       "i": 117,
       "zh": "基因",
-      "en": "gene"
+      "en": "gene",
+      "ipa": "[dʒin]",
+      "pos": "n.",
+      "gloss": "基因；遗传因子；起源"
     },
     {
       "i": 118,
       "zh": "赛道",
-      "en": "track"
+      "en": "track",
+      "ipa": "[træk]",
+      "pos": "n.",
+      "gloss": "赛道；轨道；路径"
     },
     {
       "i": 119,
-      "zh": "机会事件",
-      "en": "opportunity"
+      "skip": true
     },
     {
       "i": 120,
@@ -597,7 +907,10 @@
     {
       "i": 121,
       "zh": "认知",
-      "en": "cognition"
+      "en": "cognition",
+      "ipa": "[kɑɡˈnɪʃən]",
+      "pos": "n.",
+      "gloss": "认知；认识；认知能力"
     },
     {
       "i": 122,
@@ -610,167 +923,266 @@
     {
       "i": 124,
       "zh": "库存",
-      "en": "inventory"
+      "en": "inventory",
+      "ipa": "[ˈɪnvənˌtɔri]",
+      "pos": "n.",
+      "gloss": "库存；存货；清单"
     },
     {
       "i": 125,
       "zh": "安全垫",
-      "en": "safetynet"
+      "en": "safetynet",
+      "ipa": "[ˈseɪfti net]",
+      "pos": "n.",
+      "gloss": "安全垫；安全网；保障"
     },
     {
       "i": 126,
       "zh": "文化",
-      "en": "culture"
+      "en": "culture",
+      "ipa": "[ˈkʌltʃər]",
+      "pos": "n.",
+      "gloss": "文化；文明；培养"
     },
     {
       "i": 127,
       "zh": "对撞",
-      "en": "collision"
+      "en": "collision",
+      "ipa": "[kəˈlɪʒən]",
+      "pos": "n.",
+      "gloss": "对撞；碰撞；冲突"
     },
     {
       "i": 128,
       "zh": "商人",
-      "en": "businessman"
+      "en": "businessman",
+      "ipa": "[ˈbɪznɪsmən]",
+      "pos": "n.",
+      "gloss": "商人；企业家；生意人"
     },
     {
       "i": 129,
       "zh": "变革",
-      "en": "change"
+      "en": "change",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变革；变化；改变"
     },
     {
       "i": 130,
       "zh": "拆分",
-      "en": "split"
+      "en": "split",
+      "ipa": "[splɪt]",
+      "pos": "v.",
+      "gloss": "拆分；分裂；分割"
     },
     {
       "i": 131,
       "zh": "重组",
-      "en": "reorganization"
+      "en": "reorganization",
+      "ipa": "[ˌriɔrɡənəˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "重组；改组；重新组织"
     },
     {
       "i": 132,
       "zh": "聚焦",
-      "en": "focus"
+      "en": "focus",
+      "ipa": "[ˈfoʊkəs]",
+      "pos": "n.",
+      "gloss": "聚焦；焦点；集中"
     },
     {
       "i": 133,
       "zh": "盘活",
-      "en": "revitalize"
+      "en": "revitalize",
+      "ipa": "[riˈvɪtəlaɪz]",
+      "pos": "v.",
+      "gloss": "盘活；振兴；使恢复活力"
     },
     {
       "i": 134,
       "zh": "深耕",
-      "en": "deepcultivation"
+      "en": "deepcultivation",
+      "ipa": "[dip ˌkʌltɪˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "深耕；深入培养"
     },
     {
       "i": 135,
       "zh": "支点",
-      "en": "fulcrum"
+      "en": "fulcrum",
+      "ipa": "[ˈfʊlkrəm]",
+      "pos": "n.",
+      "gloss": "支点；杠杆支点；关键"
     },
     {
       "i": 136,
       "zh": "加码",
-      "en": "increasestake"
+      "en": "increasestake",
+      "ipa": "[ɪnˈkris steɪk]",
+      "pos": "v.",
+      "gloss": "加码；增加赌注；增持"
     },
     {
       "i": 137,
       "zh": "光彩",
-      "en": "glorious"
+      "en": "glorious",
+      "ipa": "[ˈɡlɔriəs]",
+      "pos": "adj.",
+      "gloss": "光彩的；光荣的；辉煌的"
     },
     {
       "i": 138,
       "zh": "暴跌",
-      "en": "plunge"
+      "en": "plunge",
+      "ipa": "[plʌndʒ]",
+      "pos": "v.",
+      "gloss": "暴跌；暴跌；骤降"
     },
     {
       "i": 139,
       "zh": "政策风险",
-      "en": "policyrisk"
+      "en": "policyrisk",
+      "ipa": "[ˈpɑləsi rɪsk]",
+      "pos": "n.",
+      "gloss": "政策风险；政策风险因素"
     },
     {
       "i": 140,
       "zh": "累计亏损",
-      "en": "cumulativeloss"
+      "en": "cumulativeloss",
+      "ipa": "[ˈkjuːmjələtɪv lɔs]",
+      "pos": "n.",
+      "gloss": "累计亏损；累积损失"
     },
     {
       "i": 141,
       "zh": "破产",
-      "en": "bankruptcy"
+      "en": "bankruptcy",
+      "ipa": "[ˈbæŋkrʌptsi]",
+      "pos": "n.",
+      "gloss": "破产；倒闭；破产清算"
     },
     {
       "i": 142,
       "zh": "牵扯",
-      "en": "entanglement"
+      "en": "entanglement",
+      "ipa": "[ɪnˈtæŋɡəlmənt]",
+      "pos": "n.",
+      "gloss": "牵扯；纠缠；牵连"
     },
     {
       "i": 143,
       "zh": "停滞",
-      "en": "stagnation"
+      "en": "stagnation",
+      "ipa": "[stæɡˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "停滞；停滞状态；不景气"
     },
     {
       "i": 144,
       "zh": "总投资",
-      "en": "totalinvestment"
+      "en": "totalinvestment",
+      "ipa": "[ˈtoʊtəl ɪnˈvestmənt]",
+      "pos": "n.",
+      "gloss": "总投资；投资总额"
     },
     {
       "i": 145,
       "zh": "纠结",
-      "en": "hesitation"
+      "en": "hesitation",
+      "ipa": "[ˌhezɪˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "纠结；犹豫；迟疑"
     },
     {
       "i": 146,
       "zh": "诉讼",
-      "en": "litigation"
+      "en": "litigation",
+      "ipa": "[ˌlɪtɪˈɡeɪʃən]",
+      "pos": "n.",
+      "gloss": "诉讼；起诉；诉讼程序"
     },
     {
       "i": 147,
       "zh": "和解",
-      "en": "settlement"
+      "en": "settlement",
+      "ipa": "[ˈsetəlmənt]",
+      "pos": "n.",
+      "gloss": "和解；解决；结算"
     },
     {
       "i": 148,
       "zh": "股权",
-      "en": "equity"
+      "en": "equity",
+      "ipa": "[ˈekwəti]",
+      "pos": "n.",
+      "gloss": "股权；权益；公平"
     },
     {
       "i": 149,
       "zh": "显性",
-      "en": "explicit"
+      "en": "explicit",
+      "ipa": "[ɪkˈsplɪsɪt]",
+      "pos": "adj.",
+      "gloss": "显性的；明确的；清楚的"
     },
     {
       "i": 150,
       "zh": "逆转",
-      "en": "reversal"
+      "en": "reversal",
+      "ipa": "[rɪˈvɜrsəl]",
+      "pos": "n.",
+      "gloss": "逆转；反转；倒转"
     },
     {
       "i": 151,
       "zh": "重生",
-      "en": "rebirth"
+      "en": "rebirth",
+      "ipa": "[ˈribɜrθ]",
+      "pos": "n.",
+      "gloss": "重生；再生；复兴"
     },
     {
       "i": 152,
       "zh": "励志",
-      "en": "inspirational"
+      "en": "inspirational",
+      "ipa": "[ˌɪnspəˈreɪʃənəl]",
+      "pos": "adj.",
+      "gloss": "励志的；鼓舞人心的"
     },
     {
       "i": 153,
       "zh": "寿命",
-      "en": "lifespan"
+      "en": "lifespan",
+      "ipa": "[ˈlaɪfspæn]",
+      "pos": "n.",
+      "gloss": "寿命；生命周期；使用年限"
     },
     {
       "i": 154,
       "zh": "脱落",
-      "en": "shed"
+      "en": "shed",
+      "ipa": "[ʃed]",
+      "pos": "v.",
+      "gloss": "脱落；脱落；流出"
     },
     {
       "i": 155,
       "zh": "翱翔",
-      "en": "soar"
+      "en": "soar",
+      "ipa": "[sɔr]",
+      "pos": "v.",
+      "gloss": "翱翔；高飞；猛增"
     },
     {
       "i": 156,
       "zh": "磨难",
-      "en": "hardship"
+      "en": "hardship",
+      "ipa": "[ˈhɑrdʃɪp]",
+      "pos": "n.",
+      "gloss": "磨难；艰难；困苦"
     },
     {
       "i": 157,
