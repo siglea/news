@@ -1,0 +1,800 @@
+{
+  "annotations": [
+    {
+      "i": 0,
+      "skip": true
+    },
+    {
+      "i": 1,
+      "skip": true
+    },
+    {
+      "i": 2,
+      "zh": "财报",
+      "en": "earnings"
+    },
+    {
+      "i": 3,
+      "zh": "营收",
+      "en": "revenue"
+    },
+    {
+      "i": 4,
+      "zh": "同比增长",
+      "en": "growth"
+    },
+    {
+      "i": 5,
+      "zh": "净利润",
+      "en": "profit"
+    },
+    {
+      "i": 6,
+      "zh": "板块",
+      "en": "sector"
+    },
+    {
+      "i": 7,
+      "zh": "混改",
+      "en": "reform"
+    },
+    {
+      "i": 8,
+      "zh": "静默期",
+      "en": "silence"
+    },
+    {
+      "i": 9,
+      "zh": "官网",
+      "en": "website"
+    },
+    {
+      "i": 10,
+      "zh": "采访",
+      "en": "interview"
+    },
+    {
+      "i": 11,
+      "zh": "投资者",
+      "en": "investor"
+    },
+    {
+      "i": 12,
+      "zh": "股价",
+      "en": "stockprice"
+    },
+    {
+      "i": 13,
+      "zh": "亏损",
+      "en": "loss"
+    },
+    {
+      "i": 14,
+      "zh": "光伏",
+      "en": "photovoltaic"
+    },
+    {
+      "i": 15,
+      "zh": "退税",
+      "en": "taxrefund"
+    },
+    {
+      "i": 16,
+      "zh": "供需",
+      "en": "supplydemand"
+    },
+    {
+      "i": 17,
+      "zh": "周期",
+      "en": "cycle"
+    },
+    {
+      "i": 18,
+      "zh": "改造",
+      "en": "transformation"
+    },
+    {
+      "i": 19,
+      "zh": "一体化",
+      "en": "integration"
+    },
+    {
+      "i": 20,
+      "zh": "交易",
+      "en": "transaction"
+    },
+    {
+      "i": 21,
+      "zh": "报价",
+      "en": "bid"
+    },
+    {
+      "i": 22,
+      "zh": "资金链",
+      "en": "cashflow"
+    },
+    {
+      "i": 23,
+      "zh": "估值",
+      "en": "valuation"
+    },
+    {
+      "i": 24,
+      "zh": "增资",
+      "en": "capitalincrease"
+    },
+    {
+      "i": 25,
+      "zh": "产能",
+      "en": "capacity"
+    },
+    {
+      "i": 26,
+      "zh": "下游",
+      "en": "downstream"
+    },
+    {
+      "i": 27,
+      "zh": "专利",
+      "en": "patent"
+    },
+    {
+      "i": 28,
+      "skip": true
+    },
+    {
+      "i": 29,
+      "zh": "死磕",
+      "en": "persist"
+    },
+    {
+      "i": 30,
+      "zh": "出货",
+      "en": "shipment"
+    },
+    {
+      "i": 31,
+      "zh": "营收占比",
+      "en": "revenueshare"
+    },
+    {
+      "i": 32,
+      "zh": "战略",
+      "en": "strategy"
+    },
+    {
+      "i": 33,
+      "zh": "淘汰赛",
+      "en": "elimination"
+    },
+    {
+      "i": 34,
+      "zh": "出货量",
+      "en": "shipmentvolume"
+    },
+    {
+      "i": 35,
+      "zh": "弯道超车",
+      "en": "overtaking"
+    },
+    {
+      "i": 36,
+      "zh": "采访",
+      "en": "interviewed"
+    },
+    {
+      "i": 37,
+      "zh": "流血",
+      "en": "bleeding"
+    },
+    {
+      "i": 38,
+      "zh": "产能出清",
+      "en": "capacityclearing"
+    },
+    {
+      "i": 39,
+      "zh": "前仆后继",
+      "en": "relentless"
+    },
+    {
+      "i": 40,
+      "zh": "过度投资",
+      "en": "overinvestment"
+    },
+    {
+      "i": 41,
+      "skip": true
+    },
+    {
+      "i": 42,
+      "zh": "定调",
+      "en": "toning"
+    },
+    {
+      "i": 43,
+      "zh": "急不可耐",
+      "en": "impatient"
+    },
+    {
+      "i": 44,
+      "zh": "翻篇",
+      "en": "turningpage"
+    },
+    {
+      "i": 45,
+      "zh": "低估",
+      "en": "undervalued"
+    },
+    {
+      "i": 46,
+      "zh": "半导体",
+      "en": "semiconductor"
+    },
+    {
+      "i": 47,
+      "zh": "国产替代",
+      "en": "domesticsubstitution"
+    },
+    {
+      "i": 48,
+      "zh": "白忙活",
+      "en": "futile"
+    },
+    {
+      "i": 49,
+      "zh": "英雄主义",
+      "en": "heroism"
+    },
+    {
+      "i": 50,
+      "zh": "工艺流程",
+      "en": "process"
+    },
+    {
+      "i": 51,
+      "zh": "单晶硅",
+      "en": "monocrystalline"
+    },
+    {
+      "i": 52,
+      "zh": "学术",
+      "en": "academic"
+    },
+    {
+      "i": 53,
+      "zh": "威望",
+      "en": "prestige"
+    },
+    {
+      "i": 54,
+      "zh": "转向",
+      "en": "pivot"
+    },
+    {
+      "i": 55,
+      "zh": "做大做强",
+      "en": "scaling"
+    },
+    {
+      "i": 56,
+      "skip": true
+    },
+    {
+      "i": 57,
+      "zh": "科学家",
+      "en": "scientist"
+    },
+    {
+      "i": 58,
+      "zh": "技术创新",
+      "en": "innovation"
+    },
+    {
+      "i": 59,
+      "zh": "双反",
+      "en": "antidumping"
+    },
+    {
+      "i": 60,
+      "zh": "市占率",
+      "en": "marketshare"
+    },
+    {
+      "i": 61,
+      "zh": "集中度",
+      "en": "concentration"
+    },
+    {
+      "i": 62,
+      "zh": "格局",
+      "en": "landscape"
+    },
+    {
+      "i": 63,
+      "zh": "规模",
+      "en": "scale"
+    },
+    {
+      "i": 64,
+      "zh": "资本",
+      "en": "capital"
+    },
+    {
+      "i": 65,
+      "zh": "困局",
+      "en": "predicament"
+    },
+    {
+      "i": 66,
+      "zh": "执念",
+      "en": "obsession"
+    },
+    {
+      "i": 67,
+      "zh": "布局",
+      "en": "layout"
+    },
+    {
+      "i": 68,
+      "zh": "流程",
+      "en": "chain"
+    },
+    {
+      "i": 69,
+      "zh": "硅王",
+      "en": "siliconking"
+    },
+    {
+      "i": 70,
+      "zh": "稳稳当当",
+      "en": "stable"
+    },
+    {
+      "i": 71,
+      "zh": "组织融合",
+      "en": "organizational"
+    },
+    {
+      "i": 72,
+      "zh": "毛利率",
+      "en": "grossmargin"
+    },
+    {
+      "i": 73,
+      "zh": "收入来源",
+      "en": "revenuesource"
+    },
+    {
+      "i": 74,
+      "zh": "预警",
+      "en": "warning"
+    },
+    {
+      "i": 75,
+      "zh": "同质化",
+      "en": "homogenization"
+    },
+    {
+      "i": 76,
+      "zh": "供需不平衡",
+      "en": "imbalance"
+    },
+    {
+      "i": 77,
+      "zh": "差异化",
+      "en": "differentiation"
+    },
+    {
+      "i": 78,
+      "zh": "断崖式",
+      "en": "clifflike"
+    },
+    {
+      "i": 79,
+      "zh": "靴子",
+      "en": "boot"
+    },
+    {
+      "i": 80,
+      "zh": "同比减少",
+      "en": "decrease"
+    },
+    {
+      "i": 81,
+      "zh": "净利润",
+      "en": "netprofit"
+    },
+    {
+      "i": 82,
+      "zh": "季度",
+      "en": "quarter"
+    },
+    {
+      "i": 83,
+      "skip": true
+    },
+    {
+      "i": 84,
+      "skip": true
+    },
+    {
+      "i": 85,
+      "skip": true
+    },
+    {
+      "i": 86,
+      "zh": "头部",
+      "en": "leading"
+    },
+    {
+      "i": 87,
+      "zh": "优胜劣汰",
+      "en": "survival"
+    },
+    {
+      "i": 88,
+      "zh": "低谷",
+      "en": "trough"
+    },
+    {
+      "i": 89,
+      "zh": "抱有希望",
+      "en": "hopeful"
+    },
+    {
+      "i": 90,
+      "zh": "逆周期",
+      "en": "countercycle"
+    },
+    {
+      "i": 91,
+      "zh": "主导权",
+      "en": "dominance"
+    },
+    {
+      "i": 92,
+      "zh": "分歧",
+      "en": "disagreement"
+    },
+    {
+      "i": 93,
+      "zh": "自主性",
+      "en": "autonomy"
+    },
+    {
+      "i": 94,
+      "zh": "战略目标",
+      "en": "strategicgoal"
+    },
+    {
+      "i": 95,
+      "zh": "妥协",
+      "en": "compromise"
+    },
+    {
+      "i": 96,
+      "zh": "经验主义",
+      "en": "empiricism"
+    },
+    {
+      "i": 97,
+      "zh": "满产满销",
+      "en": "fullcapacity"
+    },
+    {
+      "i": 98,
+      "zh": "开工率",
+      "en": "utilizationrate"
+    },
+    {
+      "i": 99,
+      "zh": "防守",
+      "en": "defense"
+    },
+    {
+      "i": 100,
+      "zh": "价格战",
+      "en": "pricewar"
+    },
+    {
+      "i": 101,
+      "zh": "成本领先",
+      "en": "costleading"
+    },
+    {
+      "i": 102,
+      "skip": true
+    },
+    {
+      "i": 103,
+      "zh": "折旧",
+      "en": "depreciation"
+    },
+    {
+      "i": 104,
+      "skip": true
+    },
+    {
+      "i": 105,
+      "zh": "市占率",
+      "en": "share"
+    },
+    {
+      "i": 106,
+      "zh": "辞去",
+      "en": "resign"
+    },
+    {
+      "i": 107,
+      "zh": "中报",
+      "en": "interimreport"
+    },
+    {
+      "i": 108,
+      "zh": "同比下降",
+      "en": "yearonyear"
+    },
+    {
+      "i": 109,
+      "zh": "刹车",
+      "en": "brake"
+    },
+    {
+      "i": 110,
+      "zh": "老臣",
+      "en": "veteran"
+    },
+    {
+      "i": 111,
+      "zh": "重整",
+      "en": "restructuring"
+    },
+    {
+      "i": 112,
+      "zh": "可转债",
+      "en": "convertiblebond"
+    },
+    {
+      "i": 113,
+      "zh": "缩减",
+      "en": "reduce"
+    },
+    {
+      "i": 114,
+      "zh": "底子",
+      "en": "foundation"
+    },
+    {
+      "i": 115,
+      "zh": "收购",
+      "en": "acquisition"
+    },
+    {
+      "i": 116,
+      "zh": "剥离",
+      "en": "divestiture"
+    },
+    {
+      "i": 117,
+      "zh": "基因",
+      "en": "gene"
+    },
+    {
+      "i": 118,
+      "zh": "赛道",
+      "en": "track"
+    },
+    {
+      "i": 119,
+      "zh": "机会事件",
+      "en": "opportunity"
+    },
+    {
+      "i": 120,
+      "skip": true
+    },
+    {
+      "i": 121,
+      "zh": "认知",
+      "en": "cognition"
+    },
+    {
+      "i": 122,
+      "skip": true
+    },
+    {
+      "i": 123,
+      "skip": true
+    },
+    {
+      "i": 124,
+      "zh": "库存",
+      "en": "inventory"
+    },
+    {
+      "i": 125,
+      "zh": "安全垫",
+      "en": "safetynet"
+    },
+    {
+      "i": 126,
+      "zh": "文化",
+      "en": "culture"
+    },
+    {
+      "i": 127,
+      "zh": "对撞",
+      "en": "collision"
+    },
+    {
+      "i": 128,
+      "zh": "商人",
+      "en": "businessman"
+    },
+    {
+      "i": 129,
+      "zh": "变革",
+      "en": "change"
+    },
+    {
+      "i": 130,
+      "zh": "拆分",
+      "en": "split"
+    },
+    {
+      "i": 131,
+      "zh": "重组",
+      "en": "reorganization"
+    },
+    {
+      "i": 132,
+      "zh": "聚焦",
+      "en": "focus"
+    },
+    {
+      "i": 133,
+      "zh": "盘活",
+      "en": "revitalize"
+    },
+    {
+      "i": 134,
+      "zh": "深耕",
+      "en": "deepcultivation"
+    },
+    {
+      "i": 135,
+      "zh": "支点",
+      "en": "fulcrum"
+    },
+    {
+      "i": 136,
+      "zh": "加码",
+      "en": "increasestake"
+    },
+    {
+      "i": 137,
+      "zh": "光彩",
+      "en": "glorious"
+    },
+    {
+      "i": 138,
+      "zh": "暴跌",
+      "en": "plunge"
+    },
+    {
+      "i": 139,
+      "zh": "政策风险",
+      "en": "policyrisk"
+    },
+    {
+      "i": 140,
+      "zh": "累计亏损",
+      "en": "cumulativeloss"
+    },
+    {
+      "i": 141,
+      "zh": "破产",
+      "en": "bankruptcy"
+    },
+    {
+      "i": 142,
+      "zh": "牵扯",
+      "en": "entanglement"
+    },
+    {
+      "i": 143,
+      "zh": "停滞",
+      "en": "stagnation"
+    },
+    {
+      "i": 144,
+      "zh": "总投资",
+      "en": "totalinvestment"
+    },
+    {
+      "i": 145,
+      "zh": "纠结",
+      "en": "hesitation"
+    },
+    {
+      "i": 146,
+      "zh": "诉讼",
+      "en": "litigation"
+    },
+    {
+      "i": 147,
+      "zh": "和解",
+      "en": "settlement"
+    },
+    {
+      "i": 148,
+      "zh": "股权",
+      "en": "equity"
+    },
+    {
+      "i": 149,
+      "zh": "显性",
+      "en": "explicit"
+    },
+    {
+      "i": 150,
+      "zh": "逆转",
+      "en": "reversal"
+    },
+    {
+      "i": 151,
+      "zh": "重生",
+      "en": "rebirth"
+    },
+    {
+      "i": 152,
+      "zh": "励志",
+      "en": "inspirational"
+    },
+    {
+      "i": 153,
+      "zh": "寿命",
+      "en": "lifespan"
+    },
+    {
+      "i": 154,
+      "zh": "脱落",
+      "en": "shed"
+    },
+    {
+      "i": 155,
+      "zh": "翱翔",
+      "en": "soar"
+    },
+    {
+      "i": 156,
+      "zh": "磨难",
+      "en": "hardship"
+    },
+    {
+      "i": 157,
+      "skip": true
+    },
+    {
+      "i": 158,
+      "skip": true
+    },
+    {
+      "i": 159,
+      "skip": true
+    },
+    {
+      "i": 160,
+      "skip": true
+    },
+    {
+      "i": 161,
+      "skip": true
+    },
+    {
+      "i": 162,
+      "skip": true
+    }
+  ]
+}
