@@ -1,0 +1,1192 @@
+{
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "背叛",
+      "en": "betrayal",
+      "ipa": "[bɪˈtreɪəl]",
+      "pos": "n.",
+      "gloss": "背叛；出卖"
+    },
+    {
+      "i": 1,
+      "zh": "举世瞩目",
+      "en": "worldwide",
+      "ipa": "[ˈwɜrldwaɪd]",
+      "pos": "adj.",
+      "gloss": "举世瞩目的"
+    },
+    {
+      "i": 2,
+      "zh": "首富",
+      "en": "wealthiest",
+      "ipa": "[ˈwelθiɪst]",
+      "pos": "adj.",
+      "gloss": "最富有的"
+    },
+    {
+      "i": 3,
+      "zh": "慈善",
+      "en": "charity",
+      "ipa": "[ˈtʃærəti]",
+      "pos": "n.",
+      "gloss": "慈善；慈善事业"
+    },
+    {
+      "i": 4,
+      "zh": "和解",
+      "en": "compromise",
+      "ipa": "[ˈkɑmprəˌmaɪz]",
+      "pos": "n.",
+      "gloss": "妥协；和解"
+    },
+    {
+      "i": 5,
+      "zh": "撤销",
+      "en": "dismiss",
+      "ipa": "[dɪsˈmɪs]",
+      "pos": "v.",
+      "gloss": "撤销；解散"
+    },
+    {
+      "i": 6,
+      "skip": true
+    },
+    {
+      "i": 7,
+      "skip": true
+    },
+    {
+      "i": 8,
+      "zh": "庭审",
+      "en": "trial",
+      "ipa": "[ˈtraɪəl]",
+      "pos": "n.",
+      "gloss": "庭审；审判"
+    },
+    {
+      "i": 9,
+      "zh": "愤怒",
+      "en": "anger",
+      "ipa": "[ˈæŋɡər]",
+      "pos": "n.",
+      "gloss": "愤怒；怒火"
+    },
+    {
+      "i": 10,
+      "skip": true
+    },
+    {
+      "i": 11,
+      "zh": "左翼",
+      "en": "leftist",
+      "ipa": "[ˈleftɪst]",
+      "pos": "n.",
+      "gloss": "左翼；左派"
+    },
+    {
+      "i": 12,
+      "zh": "亿万",
+      "en": "billion",
+      "ipa": "[ˈbɪljən]",
+      "pos": "n.",
+      "gloss": "亿；十亿"
+    },
+    {
+      "i": 13,
+      "skip": true
+    },
+    {
+      "i": 14,
+      "skip": true
+    },
+    {
+      "i": 15,
+      "skip": true
+    },
+    {
+      "i": 16,
+      "zh": "宣言",
+      "en": "declaration",
+      "ipa": "[ˌdekləˈreɪʃən]",
+      "pos": "n.",
+      "gloss": "宣言；声明"
+    },
+    {
+      "i": 17,
+      "zh": "聚光灯",
+      "en": "spotlight",
+      "ipa": "[ˈspɑtˌlaɪt]",
+      "pos": "n.",
+      "gloss": "聚光灯；关注"
+    },
+    {
+      "i": 18,
+      "zh": "证据",
+      "en": "proof",
+      "ipa": "[pruf]",
+      "pos": "n.",
+      "gloss": "证据；证明"
+    },
+    {
+      "i": 19,
+      "zh": "安检",
+      "en": "security",
+      "ipa": "[sɪˈkjʊrəti]",
+      "pos": "n.",
+      "gloss": "安检；安全"
+    },
+    {
+      "i": 20,
+      "zh": "法官",
+      "en": "judge",
+      "ipa": "[dʒʌdʒ]",
+      "pos": "n.",
+      "gloss": "法官；裁判"
+    },
+    {
+      "i": 21,
+      "skip": true
+    },
+    {
+      "i": 22,
+      "zh": "律师",
+      "en": "attorney",
+      "ipa": "[əˈtɜrni]",
+      "pos": "n.",
+      "gloss": "律师；代理人"
+    },
+    {
+      "i": 23,
+      "zh": "证人",
+      "en": "witness",
+      "ipa": "[ˈwɪtnəs]",
+      "pos": "n.",
+      "gloss": "证人；目击者"
+    },
+    {
+      "i": 24,
+      "zh": "媒体",
+      "en": "media",
+      "ipa": "[ˈmidiə]",
+      "pos": "n.",
+      "gloss": "媒体；传媒"
+    },
+    {
+      "i": 25,
+      "zh": "盘问",
+      "en": "interrogation",
+      "ipa": "[ɪnˌterəˈɡeɪʃən]",
+      "pos": "n.",
+      "gloss": "盘问；审问"
+    },
+    {
+      "i": 26,
+      "skip": true
+    },
+    {
+      "i": 27,
+      "skip": true
+    },
+    {
+      "i": 28,
+      "zh": "诉讼",
+      "en": "lawsuit",
+      "ipa": "[ˈlɔˌsut]",
+      "pos": "n.",
+      "gloss": "诉讼；官司"
+    },
+    {
+      "i": 29,
+      "skip": true
+    },
+    {
+      "i": 30,
+      "skip": true
+    },
+    {
+      "i": 31,
+      "skip": true
+    },
+    {
+      "i": 32,
+      "skip": true
+    },
+    {
+      "i": 33,
+      "zh": "程序",
+      "en": "procedural",
+      "ipa": "[prəˈsidʒərəl]",
+      "pos": "adj.",
+      "gloss": "程序的；手续的"
+    },
+    {
+      "i": 34,
+      "zh": "陪审团",
+      "en": "jury",
+      "ipa": "[ˈdʒʊri]",
+      "pos": "n.",
+      "gloss": "陪审团"
+    },
+    {
+      "i": 35,
+      "skip": true
+    },
+    {
+      "i": 36,
+      "zh": "禁言",
+      "en": "gag",
+      "ipa": "[ɡæɡ]",
+      "pos": "n.",
+      "gloss": "禁言；封口令"
+    },
+    {
+      "i": 37,
+      "skip": true
+    },
+    {
+      "i": 38,
+      "skip": true
+    },
+    {
+      "i": 39,
+      "zh": "局促",
+      "en": "uneasy",
+      "ipa": "[ʌnˈizi]",
+      "pos": "adj.",
+      "gloss": "局促的；不安的"
+    },
+    {
+      "i": 40,
+      "zh": "打趣",
+      "en": "joke",
+      "ipa": "[dʒoʊk]",
+      "pos": "v.",
+      "gloss": "打趣；开玩笑"
+    },
+    {
+      "i": 41,
+      "skip": true
+    },
+    {
+      "i": 42,
+      "skip": true
+    },
+    {
+      "i": 43,
+      "skip": true
+    },
+    {
+      "i": 44,
+      "skip": true
+    },
+    {
+      "i": 45,
+      "skip": true
+    },
+    {
+      "i": 46,
+      "skip": true
+    },
+    {
+      "i": 47,
+      "zh": "公民",
+      "en": "citizen",
+      "ipa": "[ˈsɪtɪzən]",
+      "pos": "n.",
+      "gloss": "公民；市民"
+    },
+    {
+      "i": 48,
+      "zh": "法律",
+      "en": "legal",
+      "ipa": "[ˈliɡəl]",
+      "pos": "adj.",
+      "gloss": "法律的"
+    },
+    {
+      "i": 49,
+      "zh": "审判",
+      "en": "judgment",
+      "ipa": "[ˈdʒʌdʒmənt]",
+      "pos": "n.",
+      "gloss": "审判；判决"
+    },
+    {
+      "i": 50,
+      "zh": "管辖",
+      "en": "jurisdiction",
+      "ipa": "[ˌdʒʊrɪsˈdɪkʃən]",
+      "pos": "n.",
+      "gloss": "管辖；管辖权"
+    },
+    {
+      "i": 51,
+      "zh": "审视",
+      "en": "scrutiny",
+      "ipa": "[ˈskrutəni]",
+      "pos": "n.",
+      "gloss": "审视；审查"
+    },
+    {
+      "i": 52,
+      "skip": true
+    },
+    {
+      "i": 53,
+      "skip": true
+    },
+    {
+      "i": 54,
+      "skip": true
+    },
+    {
+      "i": 55,
+      "skip": true
+    },
+    {
+      "i": 56,
+      "zh": "严格",
+      "en": "strict",
+      "ipa": "[strɪkt]",
+      "pos": "adj.",
+      "gloss": "严格的；严厉的"
+    },
+    {
+      "i": 57,
+      "zh": "控制",
+      "en": "control",
+      "ipa": "[kənˈtroʊl]",
+      "pos": "n.",
+      "gloss": "控制；控制权"
+    },
+    {
+      "i": 58,
+      "skip": true
+    },
+    {
+      "i": 59,
+      "zh": "剔除",
+      "en": "exclude",
+      "ipa": "[ɪkˈsklud]",
+      "pos": "v.",
+      "gloss": "剔除；排除"
+    },
+    {
+      "i": 60,
+      "skip": true
+    },
+    {
+      "i": 61,
+      "skip": true
+    },
+    {
+      "i": 62,
+      "skip": true
+    },
+    {
+      "i": 63,
+      "zh": "成见",
+      "en": "prejudice",
+      "ipa": "[ˈpredʒədɪs]",
+      "pos": "n.",
+      "gloss": "成见；偏见"
+    },
+    {
+      "i": 64,
+      "skip": true
+    },
+    {
+      "i": 65,
+      "skip": true
+    },
+    {
+      "i": 66,
+      "zh": "贪婪",
+      "en": "greed",
+      "ipa": "[ɡrid]",
+      "pos": "n.",
+      "gloss": "贪婪；贪心"
+    },
+    {
+      "i": 67,
+      "skip": true
+    },
+    {
+      "i": 68,
+      "skip": true
+    },
+    {
+      "i": 69,
+      "skip": true
+    },
+    {
+      "i": 70,
+      "skip": true
+    },
+    {
+      "i": 71,
+      "zh": "微缩",
+      "en": "miniature",
+      "ipa": "[ˈmɪnətʃər]",
+      "pos": "n.",
+      "gloss": "微缩；微型"
+    },
+    {
+      "i": 72,
+      "zh": "分歧",
+      "en": "disagreement",
+      "ipa": "[ˌdɪsəˈɡrimənt]",
+      "pos": "n.",
+      "gloss": "分歧；不一致"
+    },
+    {
+      "i": 73,
+      "zh": "措辞",
+      "en": "wording",
+      "ipa": "[ˈwɜrdɪŋ]",
+      "pos": "n.",
+      "gloss": "措辞；用语"
+    },
+    {
+      "i": 74,
+      "zh": "商业",
+      "en": "business",
+      "ipa": "[ˈbɪznəs]",
+      "pos": "n.",
+      "gloss": "商业；生意"
+    },
+    {
+      "i": 75,
+      "skip": true
+    },
+    {
+      "i": 76,
+      "skip": true
+    },
+    {
+      "i": 77,
+      "skip": true
+    },
+    {
+      "i": 78,
+      "skip": true
+    },
+    {
+      "i": 79,
+      "zh": "计算",
+      "en": "computing",
+      "ipa": "[kəmˈpjutɪŋ]",
+      "pos": "n.",
+      "gloss": "计算；算力"
+    },
+    {
+      "i": 80,
+      "zh": "教科书",
+      "en": "textbook",
+      "ipa": "[ˈtekstˌbʊk]",
+      "pos": "n.",
+      "gloss": "教科书"
+    },
+    {
+      "i": 81,
+      "skip": true
+    },
+    {
+      "i": 82,
+      "zh": "机构",
+      "en": "institution",
+      "ipa": "[ˌɪnstɪˈtuʃən]",
+      "pos": "n.",
+      "gloss": "机构；制度"
+    },
+    {
+      "i": 83,
+      "zh": "网络",
+      "en": "cybersecurity",
+      "ipa": "[ˌsaɪbərsɪˈkjʊrəti]",
+      "pos": "n.",
+      "gloss": "网络安全"
+    },
+    {
+      "i": 84,
+      "skip": true
+    },
+    {
+      "i": 85,
+      "skip": true
+    },
+    {
+      "i": 86,
+      "zh": "狂奔",
+      "en": "sprint",
+      "ipa": "[sprɪnt]",
+      "pos": "v.",
+      "gloss": "狂奔；冲刺"
+    },
+    {
+      "i": 87,
+      "skip": true
+    },
+    {
+      "i": 88,
+      "skip": true
+    },
+    {
+      "i": 89,
+      "skip": true
+    },
+    {
+      "i": 90,
+      "skip": true
+    },
+    {
+      "i": 91,
+      "skip": true
+    },
+    {
+      "i": 92,
+      "skip": true
+    },
+    {
+      "i": 93,
+      "skip": true
+    },
+    {
+      "i": 94,
+      "skip": true
+    },
+    {
+      "i": 95,
+      "skip": true
+    },
+    {
+      "i": 96,
+      "zh": "灭绝",
+      "en": "extinction",
+      "ipa": "[ɪkˈstɪŋkʃən]",
+      "pos": "n.",
+      "gloss": "灭绝；消亡"
+    },
+    {
+      "i": 97,
+      "skip": true
+    },
+    {
+      "i": 98,
+      "skip": true
+    },
+    {
+      "i": 99,
+      "skip": true
+    },
+    {
+      "i": 100,
+      "zh": "簇拥",
+      "en": "surround",
+      "ipa": "[səˈraʊnd]",
+      "pos": "v.",
+      "gloss": "簇拥；围绕"
+    },
+    {
+      "i": 101,
+      "zh": "传唤",
+      "en": "summons",
+      "ipa": "[ˈsʌmənz]",
+      "pos": "n.",
+      "gloss": "传唤；传票"
+    },
+    {
+      "i": 102,
+      "skip": true
+    },
+    {
+      "i": 103,
+      "skip": true
+    },
+    {
+      "i": 104,
+      "zh": "原告",
+      "en": "plaintiff",
+      "ipa": "[ˈpleɪntɪf]",
+      "pos": "n.",
+      "gloss": "原告；起诉方"
+    },
+    {
+      "i": 105,
+      "zh": "宣誓",
+      "en": "oath",
+      "ipa": "[oʊθ]",
+      "pos": "n.",
+      "gloss": "宣誓；誓言"
+    },
+    {
+      "i": 106,
+      "zh": "开示",
+      "en": "discovery",
+      "ipa": "[dɪsˈkʌvəri]",
+      "pos": "n.",
+      "gloss": "开示；发现"
+    },
+    {
+      "i": 107,
+      "zh": "日记",
+      "en": "diary",
+      "ipa": "[ˈdaɪəri]",
+      "pos": "n.",
+      "gloss": "日记；日志"
+    },
+    {
+      "i": 108,
+      "skip": true
+    },
+    {
+      "i": 109,
+      "zh": "股权",
+      "en": "shares",
+      "ipa": "[ʃerz]",
+      "pos": "n.",
+      "gloss": "股权；股份"
+    },
+    {
+      "i": 110,
+      "zh": "道德",
+      "en": "moral",
+      "ipa": "[ˈmɔrəl]",
+      "pos": "adj.",
+      "gloss": "道德的；伦理的"
+    },
+    {
+      "i": 111,
+      "skip": true
+    },
+    {
+      "i": 112,
+      "skip": true
+    },
+    {
+      "i": 113,
+      "skip": true
+    },
+    {
+      "i": 114,
+      "skip": true
+    },
+    {
+      "i": 115,
+      "skip": true
+    },
+    {
+      "i": 116,
+      "zh": "筹建",
+      "en": "establish",
+      "ipa": "[ɪˈstæblɪʃ]",
+      "pos": "v.",
+      "gloss": "筹建；建立"
+    },
+    {
+      "i": 117,
+      "zh": "破产",
+      "en": "bankruptcy",
+      "ipa": "[ˈbæŋkrʌptsi]",
+      "pos": "n.",
+      "gloss": "破产；倒闭"
+    },
+    {
+      "i": 118,
+      "skip": true
+    },
+    {
+      "i": 119,
+      "skip": true
+    },
+    {
+      "i": 120,
+      "skip": true
+    },
+    {
+      "i": 121,
+      "skip": true
+    },
+    {
+      "i": 122,
+      "skip": true
+    },
+    {
+      "i": 123,
+      "skip": true
+    },
+    {
+      "i": 124,
+      "skip": true
+    },
+    {
+      "i": 125,
+      "zh": "财富",
+      "en": "fortune",
+      "ipa": "[ˈfɔrtʃən]",
+      "pos": "n.",
+      "gloss": "财富；命运"
+    },
+    {
+      "i": 126,
+      "skip": true
+    },
+    {
+      "i": 127,
+      "zh": "挣扎",
+      "en": "struggle",
+      "ipa": "[ˈstrʌɡəl]",
+      "pos": "n.",
+      "gloss": "挣扎；斗争"
+    },
+    {
+      "i": 128,
+      "skip": true
+    },
+    {
+      "i": 129,
+      "skip": true
+    },
+    {
+      "i": 130,
+      "zh": "轻笑",
+      "en": "chuckle",
+      "ipa": "[ˈtʃʌkəl]",
+      "pos": "v.",
+      "gloss": "轻笑；咯咯笑"
+    },
+    {
+      "i": 131,
+      "skip": true
+    },
+    {
+      "i": 132,
+      "skip": true
+    },
+    {
+      "i": 133,
+      "skip": true
+    },
+    {
+      "i": 134,
+      "skip": true
+    },
+    {
+      "i": 135,
+      "skip": true
+    },
+    {
+      "i": 136,
+      "skip": true
+    },
+    {
+      "i": 137,
+      "skip": true
+    },
+    {
+      "i": 138,
+      "zh": "晚餐",
+      "en": "dinner",
+      "ipa": "[ˈdɪnər]",
+      "pos": "n.",
+      "gloss": "晚餐；晚宴"
+    },
+    {
+      "i": 139,
+      "zh": "命运",
+      "en": "destiny",
+      "ipa": "[ˈdestəni]",
+      "pos": "n.",
+      "gloss": "命运；天命"
+    },
+    {
+      "i": 140,
+      "skip": true
+    },
+    {
+      "i": 141,
+      "skip": true
+    },
+    {
+      "i": 142,
+      "zh": "制衡",
+      "en": "balance",
+      "ipa": "[ˈbæləns]",
+      "pos": "n.",
+      "gloss": "制衡；平衡"
+    },
+    {
+      "i": 143,
+      "zh": "营利",
+      "en": "nonprofit",
+      "ipa": "[nɑnˈprɑfɪt]",
+      "pos": "adj.",
+      "gloss": "非营利的"
+    },
+    {
+      "i": 144,
+      "zh": "声明",
+      "en": "statement",
+      "ipa": "[ˈsteɪtmənt]",
+      "pos": "n.",
+      "gloss": "声明；陈述"
+    },
+    {
+      "i": 145,
+      "skip": true
+    },
+    {
+      "i": 146,
+      "zh": "缺口",
+      "en": "shortfall",
+      "ipa": "[ˈʃɔrtˌfɔl]",
+      "pos": "n.",
+      "gloss": "缺口；不足"
+    },
+    {
+      "i": 147,
+      "skip": true
+    },
+    {
+      "i": 148,
+      "skip": true
+    },
+    {
+      "i": 149,
+      "skip": true
+    },
+    {
+      "i": 150,
+      "skip": true
+    },
+    {
+      "i": 151,
+      "skip": true
+    },
+    {
+      "i": 152,
+      "zh": "情绪",
+      "en": "emotional",
+      "ipa": "[ɪˈmoʊʃənəl]",
+      "pos": "adj.",
+      "gloss": "情绪的"
+    },
+    {
+      "i": 153,
+      "zh": "董事会",
+      "en": "board",
+      "ipa": "[bɔrd]",
+      "pos": "n.",
+      "gloss": "董事会；委员会"
+    },
+    {
+      "i": 154,
+      "zh": "巨额",
+      "en": "massive",
+      "ipa": "[ˈmæsɪv]",
+      "pos": "adj.",
+      "gloss": "巨额的；巨大的"
+    },
+    {
+      "i": 155,
+      "zh": "私利",
+      "en": "selfish",
+      "ipa": "[ˈselfɪʃ]",
+      "pos": "adj.",
+      "gloss": "私利的；自私的"
+    },
+    {
+      "i": 156,
+      "zh": "市值",
+      "en": "marketcap",
+      "ipa": "[ˈmɑrkɪt kæp]",
+      "pos": "n.",
+      "gloss": "市值；市场价值"
+    },
+    {
+      "i": 157,
+      "skip": true
+    },
+    {
+      "i": 158,
+      "skip": true
+    },
+    {
+      "i": 159,
+      "zh": "出价",
+      "en": "bid",
+      "ipa": "[bɪd]",
+      "pos": "n.",
+      "gloss": "出价；投标"
+    },
+    {
+      "i": 160,
+      "zh": "恩怨",
+      "en": "grudge",
+      "ipa": "[ɡrʌdʒ]",
+      "pos": "n.",
+      "gloss": "恩怨；积怨"
+    },
+    {
+      "i": 161,
+      "zh": "身家",
+      "en": "networth",
+      "ipa": "[net wɜrθ]",
+      "pos": "n.",
+      "gloss": "身家；净资产"
+    },
+    {
+      "i": 162,
+      "zh": "预测",
+      "en": "forecast",
+      "ipa": "[ˈfɔrˌkæst]",
+      "pos": "n.",
+      "gloss": "预测；预报"
+    },
+    {
+      "i": 163,
+      "zh": "动摇",
+      "en": "waver",
+      "ipa": "[ˈweɪvər]",
+      "pos": "v.",
+      "gloss": "动摇；摇摆"
+    },
+    {
+      "i": 164,
+      "zh": "滑落",
+      "en": "plummet",
+      "ipa": "[ˈplʌmɪt]",
+      "pos": "v.",
+      "gloss": "滑落；暴跌"
+    },
+    {
+      "i": 165,
+      "zh": "荒诞",
+      "en": "ironic",
+      "ipa": "[aɪˈrɑnɪk]",
+      "pos": "adj.",
+      "gloss": "荒诞的；讽刺的"
+    },
+    {
+      "i": 166,
+      "skip": true
+    },
+    {
+      "i": 167,
+      "zh": "亲笔",
+      "en": "personally",
+      "ipa": "[ˈpɜrsənəli]",
+      "pos": "adv.",
+      "gloss": "亲自；亲手"
+    },
+    {
+      "i": 168,
+      "zh": "信托",
+      "en": "fiduciary",
+      "ipa": "[fɪˈduʃiˌeri]",
+      "pos": "adj.",
+      "gloss": "信托的；受托的"
+    },
+    {
+      "i": 169,
+      "skip": true
+    },
+    {
+      "i": 170,
+      "skip": true
+    },
+    {
+      "i": 171,
+      "skip": true
+    },
+    {
+      "i": 172,
+      "skip": true
+    },
+    {
+      "i": 173,
+      "skip": true
+    },
+    {
+      "i": 174,
+      "skip": true
+    },
+    {
+      "i": 175,
+      "skip": true
+    },
+    {
+      "i": 176,
+      "zh": "面无表情",
+      "en": "expressionless",
+      "ipa": "[ɪkˈspreʃənləs]",
+      "pos": "adj.",
+      "gloss": "面无表情的；无表情的"
+    },
+    {
+      "i": 177,
+      "skip": true
+    },
+    {
+      "i": 178,
+      "skip": true
+    },
+    {
+      "i": 179,
+      "skip": true
+    },
+    {
+      "i": 180,
+      "skip": true
+    },
+    {
+      "i": 181,
+      "skip": true
+    },
+    {
+      "i": 182,
+      "skip": true
+    },
+    {
+      "i": 183,
+      "skip": true
+    },
+    {
+      "i": 184,
+      "skip": true
+    },
+    {
+      "i": 185,
+      "zh": "裁决",
+      "en": "verdict",
+      "ipa": "[ˈvɜrdɪkt]",
+      "pos": "n.",
+      "gloss": "裁决；判决"
+    },
+    {
+      "i": 186,
+      "zh": "违规",
+      "en": "breach",
+      "ipa": "[britʃ]",
+      "pos": "n.",
+      "gloss": "违规；违反"
+    },
+    {
+      "i": 187,
+      "zh": "救济",
+      "en": "relief",
+      "ipa": "[rɪˈlif]",
+      "pos": "n.",
+      "gloss": "救济；缓解"
+    },
+    {
+      "i": 188,
+      "zh": "上诉",
+      "en": "appellate",
+      "ipa": "[əˈpelət]",
+      "pos": "adj.",
+      "gloss": "上诉的"
+    },
+    {
+      "i": 189,
+      "skip": true
+    },
+    {
+      "i": 190,
+      "skip": true
+    },
+    {
+      "i": 191,
+      "zh": "估值",
+      "en": "valuation",
+      "ipa": "[ˌvæljuˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "估值；估价"
+    },
+    {
+      "i": 192,
+      "zh": "谈判",
+      "en": "bargaining",
+      "ipa": "[ˈbɑrɡənɪŋ]",
+      "pos": "n.",
+      "gloss": "谈判；讨价还价"
+    },
+    {
+      "i": 193,
+      "zh": "赔偿",
+      "en": "damages",
+      "ipa": "[ˈdæmɪdʒɪz]",
+      "pos": "n.",
+      "gloss": "赔偿；损害赔偿"
+    },
+    {
+      "i": 194,
+      "skip": true
+    },
+    {
+      "i": 195,
+      "skip": true
+    },
+    {
+      "i": 196,
+      "skip": true
+    },
+    {
+      "i": 197,
+      "zh": "哽咽",
+      "en": "choked",
+      "ipa": "[tʃoʊkt]",
+      "pos": "v.",
+      "gloss": "哽咽；窒息"
+    },
+    {
+      "i": 198,
+      "skip": true
+    },
+    {
+      "i": 199,
+      "zh": "表情",
+      "en": "expression",
+      "ipa": "[ɪkˈspreʃən]",
+      "pos": "n.",
+      "gloss": "表情"
+    },
+    {
+      "i": 200,
+      "zh": "艰辛",
+      "en": "hardship",
+      "ipa": "[ˈhɑrdʃɪp]",
+      "pos": "n.",
+      "gloss": "艰辛；艰难"
+    },
+    {
+      "i": 201,
+      "zh": "离开",
+      "en": "depart",
+      "ipa": "[dɪˈpɑrt]",
+      "pos": "v.",
+      "gloss": "离开；出发"
+    },
+    {
+      "i": 202,
+      "skip": true
+    },
+    {
+      "i": 203,
+      "zh": "体面",
+      "en": "dignified",
+      "ipa": "[ˈdɪɡnɪˌfaɪd]",
+      "pos": "adj.",
+      "gloss": "体面的；有尊严的"
+    },
+    {
+      "i": 204,
+      "skip": true
+    },
+    {
+      "i": 205,
+      "skip": true
+    }
+  ]
+}
