@@ -1,0 +1,277 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "jensen-huang-cmu-2026-commencement",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "这可能是近年来含金量最高、火药味最浓，但也最「反焦虑」的一场毕业演讲。",
+      "html": "<p>这可能是近年来含金量最高、火药味最浓，但也最「反<span class=\"word-annot\"><span class=\"word-anchor\">焦虑</span><span class=\"word-block\"><span class=\"english-word\">anxiety</span><span class=\"word-info\">[æŋˈzaɪəti] n. 焦虑；渴望；挂念；令人焦虑的事</span></span></span>」的一场毕业演讲。</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "就在今天，Carnegie Mellon University（CMU：卡内基梅隆大学）2026 年毕业典礼上，身价逼近 1860 亿美元的「皮衣刀客」黄仁勋站上演讲台，接过科学与技术荣誉博士学位。",
+      "html": "<p>就在今天，Carnegie Mellon University（CMU：卡内基梅隆大学）2026 年毕业典礼上，身价逼近 1860 亿美元的「皮衣刀客」黄仁勋站上演讲台，接过科学与技术荣誉<span class=\"word-annot\"><span class=\"word-anchor\">博士学位</span><span class=\"word-block\"><span class=\"english-word\">doctorate</span><span class=\"word-info\">[ˈdɑktərət] n. 博士学位;博士头衔</span></span></span>。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "台下坐着即将步入社会的 2026 届毕业生，他们面对的世界极其割裂。一边是英伟达撑起的万亿算力帝国，和狂飙突进的 AI 大牛市；另一边，应届生失业率创下新高，「AI 抢饭碗」的恐慌已经蔓延进每一个求职群。",
+      "html": "<p>台下坐着即将步入社会的 2026 届毕业生，他们<span class=\"word-annot\"><span class=\"word-anchor\">面对</span><span class=\"word-block\"><span class=\"english-word\">confront</span><span class=\"word-info\">[kənˈfrənt] v. 面对；遭遇；比较</span></span></span>的世界极其割裂。一边是英伟达撑起的万亿<span class=\"word-annot\"><span class=\"word-anchor\">算力</span><span class=\"word-block\"><span class=\"english-word\">computing</span><span class=\"word-info\">[ˈkɒmpjuːtɪŋ] n. 算力</span></span></span>帝国，和狂飙突进的 AI 大牛市；另一边，应届生<span class=\"word-annot\"><span class=\"word-anchor\">失业率</span><span class=\"word-block\"><span class=\"english-word\">unemployment</span><span class=\"word-info\">[ˌənɪmˈplɔɪmənt] n. 失业；失业率；失业人数</span></span></span>创下新高，「AI 抢饭碗」的恐慌已经蔓延进每一个求职群。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/001.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/001.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 4,
+      "source_text": "今年，十几家大厂裁员时毫不避讳地把锅甩给了 AI；Anthropic CEO Dario Amodei 警告 AI 可能消灭 50% 的白领入门岗位；马斯克则抛出「人类有 20% 灭绝概率」的惊悚预言。整个社会对 AI 的恐惧，正在以各种方式蔓延至这些刚拿到文凭的年轻人。",
+      "html": "<p>今年，十几家大厂裁员时毫不避讳地把锅甩给了 AI；Anthropic CEO Dario Amodei <span class=\"word-annot\"><span class=\"word-anchor\">警告</span><span class=\"word-block\"><span class=\"english-word\">alarm</span><span class=\"word-info\">[əˈlɑrm] v. 警告；使惊恐</span></span></span> AI 可能消灭 50% 的白领入门岗位；马斯克则抛出「人类有 20% 灭绝概率」的惊悚<span class=\"word-annot\"><span class=\"word-anchor\">预言</span><span class=\"word-block\"><span class=\"english-word\">divine</span><span class=\"word-info\">[dɪˈvaɪn] v. 占卜；预言；用占卜勘探</span></span></span>。整个社会对 AI <span class=\"word-annot\"><span class=\"word-anchor\">的恐惧</span><span class=\"word-block\"><span class=\"english-word\">nightmare</span><span class=\"word-info\">[ˈnaɪtˌmɛr] n. 恶梦；可怕的事物，无法摆脱的恐惧</span></span></span>，正在以各种方式蔓延至这些刚拿到文凭的年轻人。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "而制造这场焦虑的人里，有不少是和黄仁勋地位相当的 CEO。就在本月早些时候，他在一档播客里直接开炮，说这类预言「没有帮助」，说这些人坐上 CEO 位置之后产生了「上帝情结」，以为自己无所不知。",
+      "html": "<p>而制造这场<span class=\"word-annot\"><span class=\"word-anchor\">焦虑的</span><span class=\"word-block\"><span class=\"english-word\">anxious</span><span class=\"word-info\">[ˈæŋʃəs] adj. 焦虑的；担忧的；渴望的；急切的</span></span></span>人里，有不少是和黄仁勋地位相当的 CEO。就在本月早些时候，他在一档播客里直接开炮，说这类预言「没有<span class=\"word-annot\"><span class=\"word-anchor\">帮助</span><span class=\"word-block\"><span class=\"english-word\">assist</span><span class=\"word-info\">[əˈsɪst] v. 协助，帮助，促进</span></span></span>」，说这些人坐上 CEO 位置之后产生了「上帝情结」，以为自己无所不知。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "批评完同行，黄仁勋今天走上了 CMU 的毕业典礼台。",
+      "html": "<p>批评完同行，黄仁勋今天走上了 CMU 的毕业<span class=\"word-annot\"><span class=\"word-anchor\">典礼</span><span class=\"word-block\"><span class=\"english-word\">ceremony</span><span class=\"word-info\">[ˈsɛrəˌmoʊni] n. 典礼,仪式；礼节,礼仪</span></span></span>台。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 8,
+      "source_text": "值得一提的是，毕业典礼上，Intel CEO 陈立武亲手为黄仁勋披上荣誉博士披肩。典礼结束后，陈立武公开祝贺，顺手透露了一句：两家公司正在合作开发「令人期待的新产品」。",
+      "html": "<p>值得一提的是，毕业典礼上，Intel CEO 陈立武亲手为黄仁勋披上荣誉博士<span class=\"word-annot\"><span class=\"word-anchor\">披肩</span><span class=\"word-block\"><span class=\"english-word\">cape</span><span class=\"word-info\">[keɪp] n. 披肩，短披风；海角，岬</span></span></span>。典礼结束后，陈立武公开祝贺，顺手透露了一句：两家公司正在合作开发「令人<span class=\"word-annot\"><span class=\"word-anchor\">期待</span><span class=\"word-block\"><span class=\"english-word\">await</span><span class=\"word-info\">[əˈweɪt] v. 等候，等待；期待</span></span></span>的新产品」。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "他没有讲 AI 的宏大叙事，而是讲了自己 9 岁坐飞机去肯塔基州煤矿小镇的事，讲了凌晨 4 点被妈妈叫起来送报纸，讲了在 Denny's 洗碗，讲了向 Sega CEO 道歉、低头哀求对方不要撤资。他说，那是他做过的「最艰难的事情之一」。",
+      "html": "<p>他没有讲 AI 的宏大叙事，而是讲了自己 9 岁坐飞机去肯塔基州煤矿小镇的事，讲了凌晨 4 点被妈妈叫起来送报纸，讲了在 Denny&#x27;s 洗碗，讲了向 Sega CEO <span class=\"word-annot\"><span class=\"word-anchor\">道歉</span><span class=\"word-block\"><span class=\"english-word\">apologise</span><span class=\"word-info\">[əˈpɑləˌʤaɪz] v. (to,for)道歉，认错</span></span></span>、低头哀求对方不要撤资。他说，那是他做过的「最<span class=\"word-annot\"><span class=\"word-anchor\">艰难的</span><span class=\"word-block\"><span class=\"english-word\">formidable</span><span class=\"word-info\">[ˌfɔrˈmɪdəbəl] adj. 强大的;令人敬畏的;可怕的;艰难的</span></span></span>事情之一」。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "从洗碗工到万亿帝国掌门人，黄仁勋在台上讲这些，显然不是为了熬一锅俗套的成功学鸡汤，而是在用自己的经历，给这群被 AI 吓坏的年轻人透个底：任何新时代的开局，其实都不是准备万全的，也不需要你一开始就无所不能。",
+      "html": "<p>从洗碗工到万亿帝国掌门人，黄仁勋在台上讲这些，显然不是为了熬一锅俗套的成功学鸡汤，而是在用自己的经历，给这群被 AI 吓坏的年轻人透个底：任何<span class=\"word-annot\"><span class=\"word-anchor\">新时代</span><span class=\"word-block\"><span class=\"english-word\">epoch</span><span class=\"word-info\">[ˈɛpək] n. [地质] 世；新纪元；新时代；时间上的一点</span></span></span>的开局，其实都不是准备万全的，也不需要你一开始就无所不能。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "AI 正在推翻过去几十年的计算规则，旧的经验不再绝对管用，一切都在重新洗牌。对于刚拿到文凭、毫无包袱的年轻人来说，这其实是一件好事。因为大家不用再去死磕那些已经被前人占满的旧赛道，而是和所有人一起，又一次站在了同一条起跑线上。",
+      "html": "<p>AI 正在推翻过去几十年的<span class=\"word-annot\"><span class=\"word-anchor\">计算</span><span class=\"word-block\"><span class=\"english-word\">calculate</span><span class=\"word-info\">[ˈkælkjəˌleɪt] v. 计算,推算；预测，估计</span></span></span>规则，旧的经验不再绝对管用，一切都在重新洗牌。对于刚拿到文凭、毫无包袱的<span class=\"word-annot\"><span class=\"word-anchor\">年轻人</span><span class=\"word-block\"><span class=\"english-word\">youngster</span><span class=\"word-info\">[ˈjəŋstər] n. 年轻人；少年</span></span></span>来说，这其实是一件好事。因为大家不用再去死磕那些已经被前人占满的旧赛道，而是和<span class=\"word-annot\"><span class=\"word-anchor\">所有人</span><span class=\"word-block\"><span class=\"english-word\">holder</span><span class=\"word-info\">[ˈhoʊldər] n. 持有人；所有人；固定器；（台、架等）支持物</span></span></span>一起，又一次站在了同一条起跑线上。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "对此，他看着台下的学生表示：「把你们的心投入到工作中。去创造一些配得上你们所受教育、你们的潜力，以及那些在世界相信你们之前就已经相信你们的人的东西。」",
+      "html": "<p>对此，他看着台下的学生<span class=\"word-annot\"><span class=\"word-anchor\">表示</span><span class=\"word-block\"><span class=\"english-word\">bid</span><span class=\"word-info\">[bɪd] v. 投标；出价；表示；吩咐</span></span></span>：「把你们的心投入到工作中。去创造一些配得上你们所受教育、你们的潜力，以及那些在世界相信你们之前就已经相信你们的人<span class=\"word-annot\"><span class=\"word-anchor\">的东西</span><span class=\"word-block\"><span class=\"english-word\">disguise</span><span class=\"word-info\">[dɪsˈgaɪz] n. 伪装；假装；用作伪装的东西</span></span></span>。」</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "https://www.youtube.com/watch?v=dRaNmHmTJzs&amp;t=5783s",
+      "html": "<p>https://www.youtube.com/watch?v=dRaNmHmTJzs&amp;amp;t=5783s</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/003.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/003.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 15,
+      "source_text": "President Jehanian、董事会成员、各位老师、各位贵宾、骄傲的父母和家人们，最重要的是，Carnegie Mellon 2026 届毕业生们：",
+      "html": "<p>President Jehanian、董事会成员、各位老师、各位贵宾、骄傲的父母和家人们，<span class=\"word-annot\"><span class=\"word-anchor\">最重要的</span><span class=\"word-block\"><span class=\"english-word\">foremost</span><span class=\"word-info\">[ˈfɔrˌmoʊst] adj. 最重要的；最先的</span></span></span>是，Carnegie Mellon 2026 届毕业生们：</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "感谢你们授予我这份非凡的荣誉。能来到 Carnegie Mellon，与这所世界顶尖大学同在，我深感意义重大。这里是少数几个真正发明未来的地方之一。今天是一个充满自豪与喜悦的日子，是你们梦想成真的一天，但这一天并不只属于你们。你们的家人、老师、导师和朋友一路支持你们走到这里。",
+      "html": "<p>感谢你们授予我这份<span class=\"word-annot\"><span class=\"word-anchor\">非凡的</span><span class=\"word-block\"><span class=\"english-word\">extraordinary</span><span class=\"word-info\">[ˌɛkstrəˈɔrdəˌnɛri] adj. 异乎寻常的；令人惊奇的；非凡的，出色的</span></span></span>荣誉。能来到 Carnegie Mellon，与这所世界顶尖大学同在，我深感<span class=\"word-annot\"><span class=\"word-anchor\">意义</span><span class=\"word-block\"><span class=\"english-word\">significance</span><span class=\"word-info\">[sɪgˈnɪfɪkəns] n. 重要性; 意义</span></span></span>重大。这里是少数几个真正<span class=\"word-annot\"><span class=\"word-anchor\">发明</span><span class=\"word-block\"><span class=\"english-word\">contrive</span><span class=\"word-info\">[kənˈtraɪv] v. 设计；发明；图谋</span></span></span>未来的地方之一。今天是一个<span class=\"word-annot\"><span class=\"word-anchor\">充满</span><span class=\"word-block\"><span class=\"english-word\">abound</span><span class=\"word-info\">[əˈbaʊnd] v. 富于；充满</span></span></span>自豪与喜悦的日子，是你们梦想成真的一天，但这一天并不只属于你们。你们的家人、老师、导师和朋友一路<span class=\"word-annot\"><span class=\"word-anchor\">支持</span><span class=\"word-block\"><span class=\"english-word\">encourage</span><span class=\"word-info\">[ɪnˈkərəʤ] v. 鼓励，怂恿；激励；支持</span></span></span>你们走到这里。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "在我们谈论未来之前，请先感谢他们。这一天也属于他们。毕业生们，请站起来，和我一起站起来。来吧，各位。尤其请转向你们的母亲，祝她们母亲节快乐。",
+      "html": "<p>在我们谈论未来之前，请先<span class=\"word-annot\"><span class=\"word-anchor\">感谢</span><span class=\"word-block\"><span class=\"english-word\">gratitude</span><span class=\"word-info\">[ˈgrætəˌtud] n. 感激,感谢</span></span></span>他们。这一天也<span class=\"word-annot\"><span class=\"word-anchor\">属于</span><span class=\"word-block\"><span class=\"english-word\">belong</span><span class=\"word-info\">[bɪˈlɔŋ] v. 属于，应归入；居住；适宜；应被放置</span></span></span>他们。毕业生们，请站起来，和我一起站起来。来吧，各位。尤其请转向你们的母亲，祝她们母亲节<span class=\"word-annot\"><span class=\"word-anchor\">快乐</span><span class=\"word-block\"><span class=\"english-word\">delight</span><span class=\"word-info\">[dɪˈlaɪt] n. 快乐,高兴</span></span></span>。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "对你们来说，这是人生中的又一步。但对她来说，这是一个梦想成真的时刻。请记住这一点。",
+      "html": "<p>对你们来说，这是人生中的又<span class=\"word-annot\"><span class=\"word-anchor\">一步</span><span class=\"word-block\"><span class=\"english-word\">pace</span><span class=\"word-info\">[peɪs] n. 一步；步速；步伐；速度</span></span></span>。但对她来说，这是一个梦想成真的时刻。请记住这一点。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/004.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/004.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 20,
+      "source_text": "CMU 的学生就像机器人一样，一次只执行一条指令。看到你们毕业，看到你们。好了，大家集中注意力。我有件重要的事要告诉你们：看到你们从世界顶尖学府之一毕业，这也是她的时刻。我的父母也为我深感骄傲。我的旅程也是他们的旅程，我是他们梦想成真的结果，和在座许多人一样，我是第一代移民。",
+      "html": "<p>CMU 的学生就像<span class=\"word-annot\"><span class=\"word-anchor\">机器人</span><span class=\"word-block\"><span class=\"english-word\">robot</span><span class=\"word-info\">[ˈrəʊbɒt] n. 机器人；遥控设备，自动机械；机械般工作的人</span></span></span>一样，一次只执行一条指令。看到你们毕业，看到你们。好了，大家<span class=\"word-annot\"><span class=\"word-anchor\">集中</span><span class=\"word-block\"><span class=\"english-word\">concentrate</span><span class=\"word-info\">[ˈkɑnsənˌtreɪt] v. 集中；浓缩；全神贯注；聚集</span></span></span>注意力。我有件<span class=\"word-annot\"><span class=\"word-anchor\">重要的</span><span class=\"word-block\"><span class=\"english-word\">crucial</span><span class=\"word-info\">[ˈkruːʃl] adj. 重要的；决定性的；定局的；决断的</span></span></span>事要告诉你们：看到你们从世界顶尖学府之一毕业，这也是她的时刻。我的父母也为我深感<span class=\"word-annot\"><span class=\"word-anchor\">骄傲</span><span class=\"word-block\"><span class=\"english-word\">glory</span><span class=\"word-info\">[ˈglɔri] v. 自豪，骄傲；狂喜</span></span></span>。我的旅程也是他们的旅程，我是他们梦想成真<span class=\"word-annot\"><span class=\"word-anchor\">的结果</span><span class=\"word-block\"><span class=\"english-word\">haul</span><span class=\"word-info\">[hɔl] n. 拖，拉；用力拖拉；努力得到的结果；捕获物；一网捕获的鱼量；拖运距离</span></span></span>，和在座许多人一样，我是第一代移民。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "我父亲有一个梦想，就是在美国养育他的家庭。我 9 岁那年，他把我哥哥和我送到美国。我们最后去了肯塔基州奥奈达的一所 Baptist 寄宿学校，那里是煤矿区，一个只有几百人的小镇。两年后，我的父母放下一切来到美国和我们团聚。他们几乎一无所有地来到这里。",
+      "html": "<p>我父亲有一个梦想，就是在美国<span class=\"word-annot\"><span class=\"word-anchor\">养育</span><span class=\"word-block\"><span class=\"english-word\">foster</span><span class=\"word-info\">[ˈfɑstər] v. 培养；养育，抚育；抱（希望等）</span></span></span>他的家庭。我 9 岁那年，他把我哥哥和我送到美国。我们最后去了肯塔基州奥奈达的一所 Baptist 寄宿学校，那里是煤矿区，一个只有几百人的小镇。两年后，我的父母放下一切来到美国和我们团聚。他们<span class=\"word-annot\"><span class=\"word-anchor\">几乎</span><span class=\"word-block\"><span class=\"english-word\">practically</span><span class=\"word-info\">[ˈpræktɪkəli] adv. 实际地；几乎；事实上</span></span></span>一无所有地来到这里。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "我父亲是一名化学工程师。我母亲在一所天主教学校做女佣。她每天凌晨 4 点叫醒我去送报纸。我哥哥帮我在 Denny's找了一份洗碗工的工作，在当时我觉得那简直是一次重大的职业晋升。",
+      "html": "<p>我父亲是一名<span class=\"word-annot\"><span class=\"word-anchor\">化学</span><span class=\"word-block\"><span class=\"english-word\">chemistry</span><span class=\"word-info\">[ˈkɛmɪstri] n. 化学；化学过程</span></span></span>工程师。我母亲在一所天主教学校做女佣。她每天凌晨 4 点叫醒我去送报纸。我哥哥帮我在 Denny&#x27;s找了一份洗碗工的工作，在当时我觉得那简直是一次<span class=\"word-annot\"><span class=\"word-anchor\">重大的</span><span class=\"word-block\"><span class=\"english-word\">fatal</span><span class=\"word-info\">[ˈfeɪtəl] adj. 致命的；重大的；毁灭性的；命中注定的</span></span></span>职业晋升。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "我去了 Oregon State University（俄勒冈州立大学）。17 岁那年，我遇到了我的妻子 Lori。我是学校里年龄最小的孩子。我们当时是大二学生，也是实验课搭档。她 19 岁。",
+      "html": "<p>我去了 Oregon State University（俄勒冈州立大学）。17 岁那年，我<span class=\"word-annot\"><span class=\"word-anchor\">遇到</span><span class=\"word-block\"><span class=\"english-word\">encounter</span><span class=\"word-info\">[ɪnˈkaʊnər] v. 遇到,遭遇</span></span></span>了我的妻子 Lori。我是学校里年龄最<span class=\"word-annot\"><span class=\"word-anchor\">小的</span><span class=\"word-block\"><span class=\"english-word\">petty</span><span class=\"word-info\">[ˈpɛˌti] adj. 小(器、规模)的,不重要的,细微的</span></span></span>孩子。我们当时是大二学生，也是<span class=\"word-annot\"><span class=\"word-anchor\">实验</span><span class=\"word-block\"><span class=\"english-word\">experiment</span><span class=\"word-info\">[ɪkˈspɛrəmənt] n. 实验，试验；尝试</span></span></span>课搭档。她 19 岁。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "一个年长的女人？我击败了班上其他 250 个男生，赢得了她的心。",
+      "html": "<p>一个<span class=\"word-annot\"><span class=\"word-anchor\">年长的</span><span class=\"word-block\"><span class=\"english-word\">elder</span><span class=\"word-info\">[ˈɛldər] adj. 年长的；年龄较大的；资格老的</span></span></span>女人？我击败了班上其他 250 个男生，赢得了她的心。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/005.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/005.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 26,
+      "source_text": "我们现在已经结婚 40 年了。我们有两个很棒的孩子，他们都在英伟达工作。我 30 岁时，和 Chris Malachowsky、Curtis Priem 一起创办了英伟达，他们是两位出色的计算机科学家。",
+      "html": "<p>我们现在已经<span class=\"word-annot\"><span class=\"word-anchor\">结婚</span><span class=\"word-block\"><span class=\"english-word\">marry</span><span class=\"word-info\">[ˈmɛri] v. 结婚,嫁,娶</span></span></span> 40 年了。我们有两个很棒的孩子，他们都在英伟达<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">occupation</span><span class=\"word-info\">[ˌɑkjəˈpeɪʃən] n. 职业,工作；占领,占据</span></span></span>。我 30 岁时，和 Chris Malachowsky、Curtis Priem 一起创办了英伟达，他们是两位出色的<span class=\"word-annot\"><span class=\"word-anchor\">计算机</span><span class=\"word-block\"><span class=\"english-word\">interface</span><span class=\"word-info\">[ˈɪnərˌfeɪs] v. （使通过界面或接口）接合，连接；[计算机]使联系</span></span></span>科学家。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "我们想打造一种新型计算机，一种能够解决普通计算机无法解决的问题的计算机。我们完全不知道该如何创办公司、融资，或者经营英伟达。我只是想，这能有多难？结果证明，这真的超级难。",
+      "html": "<p>我们想打造一种新型<span class=\"word-annot\"><span class=\"word-anchor\">计算</span><span class=\"word-block\"><span class=\"english-word\">compute</span><span class=\"word-info\">[kəmˈpjut] v. 计算；估算；用计算机计算</span></span></span>机，一种能够解决普通计算机无法解决的问题的计算机。我们完全不<span class=\"word-annot\"><span class=\"word-anchor\">知道</span><span class=\"word-block\"><span class=\"english-word\">acquaintance</span><span class=\"word-info\">[əkˈweɪntəns] n. 熟人；相识；了解；知道</span></span></span>该如何创办公司、融资，或者经营英伟达。我只是想，这能有多难？结果<span class=\"word-annot\"><span class=\"word-anchor\">证明</span><span class=\"word-block\"><span class=\"english-word\">certify</span><span class=\"word-info\">[ˈsərtəˌfaɪ] v. 证明，证实；发证书(或执照)给</span></span></span>，这真的超级难。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "我们的第一项技术根本行不通，钱也快用完了。有一次，我不得不飞到日本，向 Sega 的 CEO 解释，他们委托我们开发的技术无法实现，请求解除我们无法完成的合同，然后还请求他们继续付款。没有这笔钱，英伟达就会瞬间消失。那非常尴尬、非常屈辱，也是我做过的最艰难的事情之一。",
+      "html": "<p>我们的第一项<span class=\"word-annot\"><span class=\"word-anchor\">技术</span><span class=\"word-block\"><span class=\"english-word\">technique</span><span class=\"word-info\">[tɛkˈnik] n. 技巧，手艺，工艺；技能，技术</span></span></span>根本行不通，钱也快用完了。有一次，我不得不飞到日本，向 Sega 的 CEO 解释，他们委托我们开发的技术无法实现，请求解除我们无法<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>的合同，然后还请求他们继续付款。没有这笔钱，英伟达就会瞬间<span class=\"word-annot\"><span class=\"word-anchor\">消失</span><span class=\"word-block\"><span class=\"english-word\">disappear</span><span class=\"word-info\">[ˌdɪsəˈpɪr] v. 消失；失踪；不复存在</span></span></span>。那非常尴尬、非常屈辱，也是我做过的最艰难<span class=\"word-annot\"><span class=\"word-anchor\">的事情</span><span class=\"word-block\"><span class=\"english-word\">sensation</span><span class=\"word-info\">[sɛnˈseɪʃən] n. 感觉,知觉；激动,轰动,轰动一时的事情</span></span></span>之一。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "而 Sega 的 CEO Irimajiri-san 说，可以。我很早就明白，做 CEO 不是关于权力，而是关于让公司活下去所承担的责任；也明白了诚实和谦逊有时会得到慷慨与善意的回应，即便是在商业世界里。我们用那笔钱重新调整了公司，并在绝境中发明了新的芯片和计算机设计方法，而这些方法直到今天仍在使用。",
+      "html": "<p>而 Sega 的 CEO Irimajiri-san 说，可以。我很早就明白，做 CEO 不是关于权力，而是关于让公司活下去所<span class=\"word-annot\"><span class=\"word-anchor\">承担</span><span class=\"word-block\"><span class=\"english-word\">assumption</span><span class=\"word-info\">[əˈsəmpʃən] n. 假定，设想；采取；承担</span></span></span>的责任；也明白了诚实和谦逊有时会得到慷慨与善意的回应，即便是在<span class=\"word-annot\"><span class=\"word-anchor\">商业</span><span class=\"word-block\"><span class=\"english-word\">commerce</span><span class=\"word-info\">[ˈkɑmərs] n. 买卖，贸易；商务；商业</span></span></span>世界里。我们用那笔钱重新<span class=\"word-annot\"><span class=\"word-anchor\">调整</span><span class=\"word-block\"><span class=\"english-word\">adjust</span><span class=\"word-info\">[əˈʤəst] v. 调整，使…适合；校准</span></span></span>了公司，并在绝境中发明了新的芯片和计算机设计方法，而这些方法直到今天仍在使用。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "33 年来，英伟达一次又一次地重塑自己。每一次，我们都会问：这能有多难？每一次，我们又都会发现，它比我们想象的更难。但正是通过这些经历，我们学会了永远不要把失败看作成功的反面。每一次失败都只是一次学习的时刻，一次保持谦逊的时刻，一次锤炼品格的时刻。挫折中锻造出的韧性，才会给你再次出发的力量。今天，我是科技行业任职时间最长的 CEO 之一。",
+      "html": "<p>33 年来，英伟达一次又一次地重塑自己。每一次，我们都会问：这能有多难？每一次，我们又都会发现，它比我们<span class=\"word-annot\"><span class=\"word-anchor\">想象的</span><span class=\"word-block\"><span class=\"english-word\">fancy</span><span class=\"word-info\">[ˈfænsi] adj. 想象的；奇特的；昂贵的；精选的</span></span></span>更难。但正是<span class=\"word-annot\"><span class=\"word-anchor\">通过</span><span class=\"word-block\"><span class=\"english-word\">approve</span><span class=\"word-info\">[əˈpruv] v. 批准，通过；(of)赞成，赞许，同意</span></span></span>这些经历，我们学会了永远不要把失败看作成功的反面。每一次失败都只是一次学习的时刻，一次保持<span class=\"word-annot\"><span class=\"word-anchor\">谦逊的</span><span class=\"word-block\"><span class=\"english-word\">humble</span><span class=\"word-info\">[ˈhəmbəl] adj. 谦逊的；简陋的；（级别或地位）低下的；不大的</span></span></span>时刻，一次锤炼品格的时刻。挫折中锻造出的韧性，才会给你再次出发的<span class=\"word-annot\"><span class=\"word-anchor\">力量</span><span class=\"word-block\"><span class=\"english-word\">muscle</span><span class=\"word-info\">[ˈməsəl] n. 肌肉；力量</span></span></span>。今天，我是科技行业任职时间最长的 CEO 之一。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/006.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/006.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 32,
+      "source_text": "英伟达是我与 45000 位杰出同事共同完成的事业，也是我的毕生事业。现在，轮到你们去实现自己的梦想了，而这个时机再完美不过。我的职业生涯开始于 PC 革命的开端。你们的职业生涯开始于 AI 革命的开端。我想象不出还有比现在更令人兴奋的工作时代，更适合开启你们毕生事业的时代。AI 正是从卡内基梅隆大学起步的。",
+      "html": "<p>英伟达是我与 45000 位杰出<span class=\"word-annot\"><span class=\"word-anchor\">同事</span><span class=\"word-block\"><span class=\"english-word\">associate</span><span class=\"word-info\">[əˈsoʊʃiˌeɪt] n. 同事，伙伴；关联的事物</span></span></span>共同完成的事业，也是我的毕生事业。现在，轮到你们去<span class=\"word-annot\"><span class=\"word-anchor\">实现</span><span class=\"word-block\"><span class=\"english-word\">fulfill</span><span class=\"word-info\">[fʊlˈfɪl] v. 履行；实现；满足；使结束（等于fulfil）</span></span></span>自己的梦想了，而这个时机再完美不过。我的职业生涯开始于 PC <span class=\"word-annot\"><span class=\"word-anchor\">革命的</span><span class=\"word-block\"><span class=\"english-word\">revolutionary</span><span class=\"word-info\">[ˌrɛvəˈluʃəˌnɛri] adj. 革命的；革新的</span></span></span>开端。你们的职业生涯<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">commence</span><span class=\"word-info\">[kəˈmɛns] v. 开始</span></span></span>于 AI 革命的开端。我想象不出还有比现在更<span class=\"word-annot\"><span class=\"word-anchor\">令人兴奋</span><span class=\"word-block\"><span class=\"english-word\">excitement</span><span class=\"word-info\">[ɪkˈsaɪtmənt] n. 兴奋；刺激；令人兴奋的事物</span></span></span>的工作时代，更适合开启你们毕生事业的时代。AI 正是从卡内基梅隆大学起步的。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "过去 24 小时里，我在这里听到了无数关于 AI 的笑话。卡内基梅隆大学是 AI 和机器人技术真正的发源地之一。20 世纪 50 年代，这里的研究人员创造了 Logic Theorist，它被广泛认为是第一个 AI 计算机程序。1979 年，卡内基梅隆大学成立了 Robotics Institute。今天上午我去参观了。今天上午，我参观了 Robo Club，也参观了第一个完全致力于机器人技术的学术机构。",
+      "html": "<p>过去 24 小时里，我在这里听到了无数<span class=\"word-annot\"><span class=\"word-anchor\">关于</span><span class=\"word-block\"><span class=\"english-word\">concerning</span><span class=\"word-info\">[kənˈsərnɪŋ] prep. 关于；就…而言</span></span></span> AI 的笑话。卡内基梅隆大学是 AI 和机器人技术<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>发源地之一。20 世纪 50 年代，这里的研究人员<span class=\"word-annot\"><span class=\"word-anchor\">创造</span><span class=\"word-block\"><span class=\"english-word\">coin</span><span class=\"word-info\">[kɔɪn] v. 铸造（货币）；杜撰，创造</span></span></span>了 Logic Theorist，它被广泛认为是第一个 AI 计算机程序。1979 年，卡内基梅隆大学<span class=\"word-annot\"><span class=\"word-anchor\">成立</span><span class=\"word-block\"><span class=\"english-word\">mount</span><span class=\"word-info\">[maʊnt] v. 增加；爬上；使骑上马；安装，架置；镶嵌，嵌入；准备上演；成立（军队等）</span></span></span>了 Robotics Institute。今天上午我去参观了。今天上午，我参观了 Robo Club，也参观了第一个完全致力于机器人技术的学术<span class=\"word-annot\"><span class=\"word-anchor\">机构</span><span class=\"word-block\"><span class=\"english-word\">apparatus</span><span class=\"word-info\">[ˌæpərˈætəs] n. 器械，器具，仪器；机构，组织</span></span></span>。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "AI 如今已经彻底重塑了计算。我经历过每一次重大的计算平台变革：大型机、PC、互联网、移动和云。每一波浪潮都建立在上一波之上，每一波都扩大了技术的可及性，每一波都改变了产业和社会。但现在即将发生的变化，比以往任何一次都更大。计算正在经历一次彻底重置。自现代计算被发明以来，还从未发生过这样的变化。",
+      "html": "<p>AI 如今已经彻底重塑了<span class=\"word-annot\"><span class=\"word-anchor\">计算</span><span class=\"word-block\"><span class=\"english-word\">reckon</span><span class=\"word-info\">[ˈrɛkən] v. 测算，估计；认为；计算</span></span></span>。我经历过每一次<span class=\"word-annot\"><span class=\"word-anchor\">重大的</span><span class=\"word-block\"><span class=\"english-word\">grave</span><span class=\"word-info\">[greɪv] adj. 重大的；严肃的；黯淡的</span></span></span>计算平台变革：大型机、PC、互联网、移动和云。每一波浪潮都建立<span class=\"word-annot\"><span class=\"word-anchor\">在上</span><span class=\"word-block\"><span class=\"english-word\">aboard</span><span class=\"word-info\">[əˈbɔrd] prep. 在…上</span></span></span>一波之上，每一波都扩大了技术的可及性，每一波都改变了产业和社会。但现在即将<span class=\"word-annot\"><span class=\"word-anchor\">发生</span><span class=\"word-block\"><span class=\"english-word\">contemporary</span><span class=\"word-info\">[kənˈtɛmpərˌɛri] adj. 现代的,当代的；发生[存在]于同一时代的</span></span></span>的变化，比以往任何一次都更大。计算正在<span class=\"word-annot\"><span class=\"word-anchor\">经历</span><span class=\"word-block\"><span class=\"english-word\">suffer</span><span class=\"word-info\">[ˈsəfər] v. 遭受；忍受；经历</span></span></span>一次彻底重置。自现代计算被<span class=\"word-annot\"><span class=\"word-anchor\">发明</span><span class=\"word-block\"><span class=\"english-word\">devise</span><span class=\"word-info\">[dɪˈvaɪz] v. 设计;发明;图谋;作出(计划);想出(办法)</span></span></span>以来，还从未发生过这样的变化。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "60 年来，计算的工作方式一直相同：人类编写软件，计算机执行指令。这个范式已经结束。AI 已经重塑了计算：从人类编码变成机器学习，从运行在 CPU 上的软件变成运行在 GPU 上的神经网络，从执行指令变成理解、推理、规划和使用工具。一个全新的产业已经出现，它的使命是大规模制造智能。",
+      "html": "<p>60 年来，计算的工作方式一直相同：人类编写软件，计算机<span class=\"word-annot\"><span class=\"word-anchor\">执行</span><span class=\"word-block\"><span class=\"english-word\">administer</span><span class=\"word-info\">[ədˈmɪnɪstər] v. 管理；执行；给予</span></span></span>指令。这个范式已经<span class=\"word-annot\"><span class=\"word-anchor\">结束</span><span class=\"word-block\"><span class=\"english-word\">conclude</span><span class=\"word-info\">[kənˈklud] v. 结束,终止；断定,下结论</span></span></span>。AI 已经重塑了计算：从人类编码变成机器学习，从运行在 CPU 上的软件变成运行在 GPU 上的神经网络，从执行指令变成<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>、推理、规划和使用工具。一个全新的产业已经<span class=\"word-annot\"><span class=\"word-anchor\">出现</span><span class=\"word-block\"><span class=\"english-word\">arise</span><span class=\"word-info\">[əraɪz] v. 出现；上升；起立</span></span></span>，它的使命是大规模制造智能。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "因为智能是每个行业的基础，所以每个行业都会发生变化。对许多人来说，AI 带来了不确定性。人们看到 AI 编写软件、生成图像、驾驶汽车，自然会想：接下来会发生什么？工作会消失吗？人们会被抛在后面吗？这项技术会不会变得过于强大？",
+      "html": "<p>因为智能是每个行业的基础，<span class=\"word-annot\"><span class=\"word-anchor\">所以</span><span class=\"word-block\"><span class=\"english-word\">consequently</span><span class=\"word-info\">[ˈkɑnsəkˌwɛntli] adv. 结果，因此，所以</span></span></span>每个行业都会发生变化。对许多人来说，AI 带来了不<span class=\"word-annot\"><span class=\"word-anchor\">确定</span><span class=\"word-block\"><span class=\"english-word\">ascertain</span><span class=\"word-info\">[ˌæsərˈteɪn] v. 确定，查明，弄清</span></span></span>性。人们看到 AI 编写软件、生成图像、驾驶<span class=\"word-annot\"><span class=\"word-anchor\">汽车</span><span class=\"word-block\"><span class=\"english-word\">auto</span><span class=\"word-info\">[ˈɔtoʊ] n. 汽车（等于automobile）；自动</span></span></span>，自然会想：接下来会发生什么？工作会<span class=\"word-annot\"><span class=\"word-anchor\">消失</span><span class=\"word-block\"><span class=\"english-word\">flee</span><span class=\"word-info\">[fli] v. 逃走；消失，消散</span></span></span>吗？人们会被抛<span class=\"word-annot\"><span class=\"word-anchor\">在后面</span><span class=\"word-block\"><span class=\"english-word\">rear</span><span class=\"word-info\">[rɪr] adv. 向后；在后面</span></span></span>吗？这项技术会不会变得过于强大？</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/007.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/007.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 38,
+      "source_text": "历史上每一次重大的技术革命，都会在带来机会的同时带来恐惧。当社会以开放、负责任、乐观的态度拥抱技术时，我们扩展人类潜能的程度，远远超过我们削弱它的程度。所以首先，也是最重要的是，我们必须清楚地认识到：",
+      "html": "<p>历史上每一次<span class=\"word-annot\"><span class=\"word-anchor\">重大的</span><span class=\"word-block\"><span class=\"english-word\">vital</span><span class=\"word-info\">[ˈvaɪtəl] adj. 生死攸关的,重大的；生命的,生机的</span></span></span>技术革命，都会在带来机会的同时带来恐惧。当社会以开放、负责任、<span class=\"word-annot\"><span class=\"word-anchor\">乐观的</span><span class=\"word-block\"><span class=\"english-word\">optimistic</span><span class=\"word-info\">[ˌɒptɪˈmɪstɪk] adj. 乐观的；乐观主义的</span></span></span>态度拥抱技术时，我们扩展人类潜能的程度，远远超过我们削弱它的程度。所以首先，也是最<span class=\"word-annot\"><span class=\"word-anchor\">重要的</span><span class=\"word-block\"><span class=\"english-word\">earnest</span><span class=\"word-info\">[ˈərnɪst] adj. 认真的，热心的；重要的</span></span></span>是，我们必须清楚地认识到：</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "AI 也就是对理解、推理和解决问题的自动化，是人类有史以来创造的最强大技术之一。和此前每一项变革性技术一样，它既会带来巨大的希望，也会带来真实的风险。我们这一代人的责任，不只是推进 AI，更是要明智地推进 AI。科学家和工程师肩负着深刻责任，要同时推进 AI 能力和 AI 安全；政策制定者也是如此。",
+      "html": "<p>AI 也就是对理解、推理和解决问题的<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automation</span><span class=\"word-info\">[ɔtəˈmeɪʃən] n. 自动化；自动操作</span></span></span>，是人类有史以来创造的最强大技术之一。和此前每一项变革性技术一样，它既会带来<span class=\"word-annot\"><span class=\"word-anchor\">巨大的</span><span class=\"word-block\"><span class=\"english-word\">enormous</span><span class=\"word-info\">[ɪˈnɔrmɪs] adj. 庞大的，巨大的；凶暴的，极恶的</span></span></span>希望，也会带来真实的风险。我们这一代人的<span class=\"word-annot\"><span class=\"word-anchor\">责任</span><span class=\"word-block\"><span class=\"english-word\">burden</span><span class=\"word-info\">[ˈbərdən] n. 负担；责任；船的载货量</span></span></span>，不只是推进 AI，更是要明智地推进 AI。<span class=\"word-annot\"><span class=\"word-anchor\">科学家</span><span class=\"word-block\"><span class=\"english-word\">scientist</span><span class=\"word-info\">[ˈsaɪəntɪst] n. 科学家</span></span></span>和工程师肩负着深刻责任，要同时推进 AI 能力和 AI 安全；政策<span class=\"word-annot\"><span class=\"word-anchor\">制定</span><span class=\"word-block\"><span class=\"english-word\">establishment</span><span class=\"word-info\">[ɪˈstæblɪʃmənt] n. 确立，制定；公司；设施</span></span></span>者也是如此。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "政策制定者有责任建立周全的护栏，在保护社会的同时，仍然让创新、发现和进步继续向前。历史表明，选择逃避技术的社会并不能阻止进步，它们只是放弃了塑造进步并从中受益的机会。",
+      "html": "<p>政策制定者有责任建立周全的护栏，在<span class=\"word-annot\"><span class=\"word-anchor\">保护</span><span class=\"word-block\"><span class=\"english-word\">conservation</span><span class=\"word-info\">[ˌkɑnsərˈveɪʃən] n. 保存，保持；保护</span></span></span>社会的同时，仍然让创新、发现和进步继续向前。历史表明，选择逃避技术的社会并不能阻止进步，它们只是<span class=\"word-annot\"><span class=\"word-anchor\">放弃</span><span class=\"word-block\"><span class=\"english-word\">abandon</span><span class=\"word-info\">[əˈbændən] v. 离弃，丢弃；遗弃，抛弃；放弃</span></span></span>了塑造进步并从中受益的机会。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "所以答案不是恐惧未来，而是明智地引导未来，负责任地建设未来，并确保它带来的好处能够惠及尽可能多的人。我们不应该教人们害怕未来。我们应该以乐观、责任感和雄心去参与未来。",
+      "html": "<p>所以答案不是恐惧未来，而是明智地引导未来，负责任地建设未来，并确保它带来的好处能够惠及尽可能多<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">athlete</span><span class=\"word-info\">[ˈæθˌlit] n. 运动员，体育家；身强力壮的人</span></span></span>。我们不应该教<span class=\"word-annot\"><span class=\"word-anchor\">人们</span><span class=\"word-block\"><span class=\"english-word\">folk</span><span class=\"word-info\">[foʊk] n. 民族；人们；亲属（复数）</span></span></span>害怕未来。我们应该以乐观、责任感和<span class=\"word-annot\"><span class=\"word-anchor\">雄心</span><span class=\"word-block\"><span class=\"english-word\">ambition</span><span class=\"word-info\">[æmˈbɪʃən] n. 野心，雄心；抱负，志向</span></span></span>去参与未来。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "现在，全世界只有一小部分人知道如何编写软件。而如今，任何人都可以让 AI 帮自己做出有用的东西。一个店主可以创建网站并发展业务；一个木匠可以设计厨房，并向客户提供新服务。AI 会编写代码。第一次，每个人都成了程序员。计算和智能的力量第一次真正能够触达每个人，并弥合技术鸿沟。就像电力和互联网一样，AI 将需要数万亿美元的基础设施投资。",
+      "html": "<p>现在，全世界只有一<span class=\"word-annot\"><span class=\"word-anchor\">小部分</span><span class=\"word-block\"><span class=\"english-word\">fraction</span><span class=\"word-info\">[ˈfrækʃən] n. 小部分,一点儿；分数</span></span></span>人知道如何编写软件。而如今，任何人都可以让 AI 帮自己做出<span class=\"word-annot\"><span class=\"word-anchor\">有用的东</span><span class=\"word-block\"><span class=\"english-word\">asset</span><span class=\"word-info\">[ˈæˌsɛt] n. 资产， 财产；优点； 有用的东西</span></span></span>西。一个店主可以创建网站并<span class=\"word-annot\"><span class=\"word-anchor\">发展</span><span class=\"word-block\"><span class=\"english-word\">evolution</span><span class=\"word-info\">[ˌɛvəˈluʃən] n. 进化,演变；发展,进展</span></span></span>业务；一个<span class=\"word-annot\"><span class=\"word-anchor\">木匠</span><span class=\"word-block\"><span class=\"english-word\">carpenter</span><span class=\"word-info\">[ˈkɑrpəntər] n. 木工,木匠</span></span></span>可以设计厨房，并向客户提供新服务。AI 会编写代码。第一次，每个人都成了<span class=\"word-annot\"><span class=\"word-anchor\">程序</span><span class=\"word-block\"><span class=\"english-word\">procedure</span><span class=\"word-info\">[prəˈsiʤər] n. 程序,手续,步骤</span></span></span>员。计算和智能的力量第一次真正<span class=\"word-annot\"><span class=\"word-anchor\">能够</span><span class=\"word-block\"><span class=\"english-word\">enable</span><span class=\"word-info\">[ɪˈneɪbl] v. 使能够，使成为可能；授予权利或方法</span></span></span>触达每个人，并弥合技术鸿沟。就像电力和互联网一样，AI 将需要数万亿美元的<span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施；公共建设；下部构造</span></span></span>投资。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "这是人类历史上规模最大的技术基础设施建设，也是一代人只有一次的机会，让美国重新工业化，恢复国家的建造能力。为了支持 AI，美国将在全国各地建设芯片工厂、计算机工厂、数据中心和先进制造设施。AI 给了美国再次建设的机会。电工、管道工、钢铁工人、技术员、建筑工人，这是你们的时代。",
+      "html": "<p>这是人类历史上规模最大的技术基础设施建设，也是一代人只有一次的机会，让美国重新<span class=\"word-annot\"><span class=\"word-anchor\">工业化</span><span class=\"word-block\"><span class=\"english-word\">industrialize</span><span class=\"word-info\">[ˌɪnˈdəstriəˌlaɪz] v. 使工业化</span></span></span>，恢复国家的建造能力。为了支持 AI，美国将在全国各地建设芯片工厂、计算机工厂、<span class=\"word-annot\"><span class=\"word-anchor\">数据中心</span><span class=\"word-block\"><span class=\"english-word\">datacenter</span><span class=\"word-info\">[ˈdeɪtəsentə] n. 数据中心</span></span></span>和先进制造设施。AI 给了美国再次建设的<span class=\"word-annot\"><span class=\"word-anchor\">机会</span><span class=\"word-block\"><span class=\"english-word\">occasion</span><span class=\"word-info\">[əˈkeɪʒən] n. 时机，机会；场合；理由</span></span></span>。电工、管道工、钢铁工人、<span class=\"word-annot\"><span class=\"word-anchor\">技术员</span><span class=\"word-block\"><span class=\"english-word\">technician</span><span class=\"word-info\">[tɛkˈnɪʃən] n. 技术员,技师,技工</span></span></span>、建筑工人，这是你们的时代。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "AI 不只是在创造一个新的计算产业，它正在创造一个新的工业时代。支撑这些新基础设施需要巨大的能源，但它也在推动几代人以来规模最大的能源基础设施投资之一，推动电网现代化、扩大电力生产，并加速可持续能源发展。是的，AI 会改变每一份工作，但一份工作的任务和目的并不是一回事。许多任务会被自动化。一些工作会消失，但许多新的工作和全新的行业也会被创造出来。",
+      "html": "<p>AI 不只是在<span class=\"word-annot\"><span class=\"word-anchor\">创造</span><span class=\"word-block\"><span class=\"english-word\">invent</span><span class=\"word-info\">[ˌɪnˈvɛnt] v. 发明,创造；捏造,虚构</span></span></span>一个新的计算产业，它正在创造一个新的工业时代。支撑这些新基础设施需要<span class=\"word-annot\"><span class=\"word-anchor\">巨大的</span><span class=\"word-block\"><span class=\"english-word\">gigantic</span><span class=\"word-info\">[ʤaɪˈgænɪk] adj. 巨大的，庞大的</span></span></span>能源，但它也在推动几代人以来规模最大的能源基础设施投资之一，推动电网现代化、扩大电力生产，并加速可持续能源发展。是的，AI 会<span class=\"word-annot\"><span class=\"word-anchor\">改变</span><span class=\"word-block\"><span class=\"english-word\">alter</span><span class=\"word-info\">[ˈɔltər] v. 改变，更改</span></span></span>每一份工作，但一份工作的任务和目的并不是一回事。许多<span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">assignment</span><span class=\"word-info\">[əˈsaɪnmənt] n. 任务；作业</span></span></span>会被自动化。一些工作会消失，但<span class=\"word-annot\"><span class=\"word-anchor\">许多</span><span class=\"word-block\"><span class=\"english-word\">heap</span><span class=\"word-info\">[hip] n. 堆；许多；累积</span></span></span>新的工作和全新的行业也会被创造出来。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/008.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/008.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 46,
+      "source_text": "软件编码任务正越来越多地被自动化，但借助 AI，软件工程师可以扩大解决方案的搜索范围，从而应对更宏大的挑战。放射影像分析正越来越多地被自动化，但借助 AI，放射科医生会被提升到更高水平，更好地诊断疾病、照护患者。",
+      "html": "<p>软件编码任务正越来越多地被自动化，但借助 AI，软件工程师可以<span class=\"word-annot\"><span class=\"word-anchor\">扩大</span><span class=\"word-block\"><span class=\"english-word\">amplify</span><span class=\"word-info\">[ˈæmpləˌfaɪ] v. 放大，扩大；增强；详述</span></span></span>解决方案的搜索范围，从而应对更宏大的挑战。放射影像<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span>正越来越多地被自动化，但借助 AI，放射科医生会被提升到更高水平，更好地诊断疾病、照护患者。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "AI 不会取代人的目标，它会放大人的能力。这就是为什么即使 AI 编写了更多代码、分析了更多影像，对软件工程师和放射科医生的需求仍在继续增长。AI 不太可能取代你，但更会使用 AI 的人可能会取代你。所以一个很好的思维实验是：",
+      "html": "<p>AI 不会取代人的目标，它会放大人的<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>。这就是为什么即使 AI 编写了更多代码、分析了更多影像，对软件工程师和<span class=\"word-annot\"><span class=\"word-anchor\">放射</span><span class=\"word-block\"><span class=\"english-word\">emit</span><span class=\"word-info\">[ɪˈmɪt] v. 发出，放射；发行；发表</span></span></span>科医生的需求仍在继续增长。AI 不太可能取代你，但更会使用 AI <span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">beast</span><span class=\"word-info\">[bist] n. 兽， 牲畜 ；凶残的人； 举止粗鲁的人</span></span></span>可能会取代你。所以一个很好的思维实验是：</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "我们希望自己的孩子被 AI 增强，还是被那些被 AI 增强的人甩在后面？没有父母希望自己的孩子被落下。所以，让我们安全地建设 AI。同时，也让我们想象一个乐观的未来，一个让我们的孩子愿意参与其中、并受到鼓舞去帮助建设的未来。因此，我们可以也必须同时做好四件事：安全地推进 AI，制定周全的政策，让 AI 被广泛使用，并鼓励每个人参与其中。每个人都应该拥有 AI。",
+      "html": "<p>我们希望自己的孩子被 AI 增强，还是被那些被 AI 增强<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">bore</span><span class=\"word-info\">[bɔr] n. 孔；令人讨厌的人</span></span></span>甩在后面？没有父母希望自己的孩子被<span class=\"word-annot\"><span class=\"word-anchor\">落下</span><span class=\"word-block\"><span class=\"english-word\">hail</span><span class=\"word-info\">[heɪl] v. 致敬；招呼；向欢呼；猛发；使像下雹样落下（过去式hailed，过去分词hailed，现在分词hailing，第三人称单数hails） int. 万岁；欢迎</span></span></span>。所以，让我们<span class=\"word-annot\"><span class=\"word-anchor\">安全</span><span class=\"word-block\"><span class=\"english-word\">safeguard</span><span class=\"word-info\">[ˈseɪfˌgɑrd] n. [安全] 保护；保卫；保护措施</span></span></span>地建设 AI。同时，也让我们想象一个乐观的未来，一个让我们的孩子愿意参与其中、并受到鼓舞去<span class=\"word-annot\"><span class=\"word-anchor\">帮助</span><span class=\"word-block\"><span class=\"english-word\">boost</span><span class=\"word-info\">[bust] n. 推动；帮助；宣扬</span></span></span>建设的未来。<span class=\"word-annot\"><span class=\"word-anchor\">因此</span><span class=\"word-block\"><span class=\"english-word\">accordingly</span><span class=\"word-info\">[əˈkɔrdɪŋli] adv. 因此，于是；相应地；照著</span></span></span>，我们可以也必须同时做好四件事：安全地推进 AI，制定周全的政策，让 AI 被广泛使用，并鼓励每个人参与其中。每个人都应该<span class=\"word-annot\"><span class=\"word-anchor\">拥有</span><span class=\"word-block\"><span class=\"english-word\">possess</span><span class=\"word-info\">[pəˈzes] v. 拥有</span></span></span> AI。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "机会不应该只属于会写代码的人。",
+      "html": "<p>机会不应该只属于会写代码<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">bull</span><span class=\"word-info\">[bʊl] n. 公牛；看好股市者；粗壮如牛的人；胡说八道；印玺</span></span></span>。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "2026 届毕业生们，你们正进入一个非凡的时代。一个新的产业正在诞生，一个科学与发现的新时代正在开启。AI 将加速人类知识的扩展，帮助我们解决曾经无法触及的问题。我们有机会弥合技术鸿沟，第一次把计算和智能的力量带给数十亿人；有机会让美国重新工业化，恢复我们的建造能力；也有机会帮助创造一个比你们所继承的世界更富足、更有能力、更充满希望的未来。",
+      "html": "<p>2026 届毕业生们，你们正进入一个<span class=\"word-annot\"><span class=\"word-anchor\">非凡的</span><span class=\"word-block\"><span class=\"english-word\">remarkable</span><span class=\"word-info\">[rɪˈmɑrkəbəl] adj. 值得注意的;显著的,异常的,非凡的</span></span></span>时代。一个新的产业正在诞生，一个科学与<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discover</span><span class=\"word-info\">[dɪˈskəvər] v. 发现</span></span></span>的新时代正在开启。AI 将加速人类<span class=\"word-annot\"><span class=\"word-anchor\">知识的</span><span class=\"word-block\"><span class=\"english-word\">initiate</span><span class=\"word-info\">[ˌɪˈnɪʃiˌeɪt] adj. 新加入的；接受初步知识的</span></span></span>扩展，帮助我们解决曾经无法触及的问题。我们有机会弥合技术鸿沟，第一次把计算和智能的力量带给数十亿人；有机会让美国重新工业化，恢复我们的<span class=\"word-annot\"><span class=\"word-anchor\">建造</span><span class=\"word-block\"><span class=\"english-word\">construct</span><span class=\"word-info\">[ˈkɑnstrəkt] v. 建造，构造；创立</span></span></span>能力；也有机会帮助创造一个比你们所继承的世界更富足、更有能力、更<span class=\"word-annot\"><span class=\"word-anchor\">充满</span><span class=\"word-block\"><span class=\"english-word\">drip</span><span class=\"word-info\">[drɪp] v. 滴下；充满；漏下</span></span></span>希望的未来。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "没有任何一代人像你们这样，在进入世界时拥有如此强大的工具和如此巨大的机会。我们都站在同一条起跑线上。这是你们帮助塑造未来的时刻。所以，要奔跑，不要慢走。卡内基梅隆大学有一句我很喜欢的校训：我全身心投入工作。",
+      "html": "<p>没有任何一代人像你们这样，在进入世界时拥有如此强大的工具和如此<span class=\"word-annot\"><span class=\"word-anchor\">巨大的</span><span class=\"word-block\"><span class=\"english-word\">immense</span><span class=\"word-info\">[ˌɪˈmɛns] adj. 巨大的，广大的；无边无际的；非常好的</span></span></span>机会。我们都站在同一条起跑线上。这是你们<span class=\"word-annot\"><span class=\"word-anchor\">帮助</span><span class=\"word-block\"><span class=\"english-word\">facilitate</span><span class=\"word-info\">[fəˈsɪləˌteɪt] v. 促进；帮助；使容易</span></span></span>塑造未来的时刻。所以，要奔跑，不要慢走。卡内基梅隆大学有一句我很<span class=\"word-annot\"><span class=\"word-anchor\">喜欢的</span><span class=\"word-block\"><span class=\"english-word\">fond</span><span class=\"word-info\">[fɑnd] adj. 喜欢的；温柔的；宠爱的</span></span></span>校训：我全身心投入工作。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "所以，把你们的心投入到工作中。去创造一些配得上你们所受教育、你们的潜力，以及那些在世界相信你们之前就已经相信你们的人的东西。祝贺你们，卡内基梅隆大学 2026 届毕业生。",
+      "html": "<p>所以，把你们的心<span class=\"word-annot\"><span class=\"word-anchor\">投入</span><span class=\"word-block\"><span class=\"english-word\">input</span><span class=\"word-info\">[ˈɪnˌpʊt] n. 投入；输入电路</span></span></span>到工作中。去创造一些配得上你们所受教育、你们的潜力，以及那些在世界相信你们之前就已经相信你们的人<span class=\"word-annot\"><span class=\"word-anchor\">的东西</span><span class=\"word-block\"><span class=\"english-word\">fifty</span><span class=\"word-info\">[ˈfɪfti] n. 五十；五十个；编号为50的东西</span></span></span>。<span class=\"word-annot\"><span class=\"word-anchor\">祝贺</span><span class=\"word-block\"><span class=\"english-word\">congratulate</span><span class=\"word-info\">[kənˈgræʧəˌleɪt] v. (on)祝贺,向…致贺词</span></span></span>你们，卡内基梅隆大学 2026 届毕业生。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/009.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/009.png\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}
