@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "企业盈利",
+      "en": "earnings",
+      "ipa": "[\u02c8\u025c\u02d0rn\u026a\u014bz]",
+      "pos": "n.",
+      "gloss": "企业盈利"
+    },
+    {
+      "i": 1,
+      "zh": "抛物线式",
+      "en": "parabolic",
+      "ipa": "[\u02ccp\u00e6r\u0259\u02c8b\u0251\u02d0l\u026ak]",
+      "pos": "adj.",
+      "gloss": "抛物线式的"
+    },
+    {
+      "i": 2,
+      "zh": "预测",
+      "en": "forecast",
+      "ipa": "[\u02c8f\u0254\u02d0rk\u00e6st]",
+      "pos": "n.",
+      "gloss": "预测"
+    },
+    {
+      "i": 3,
+      "zh": "基准",
+      "en": "benchmark",
+      "ipa": "[\u02c8bent\u0283m\u0251\u02d0rk]",
+      "pos": "n.",
+      "gloss": "基准"
+    },
+    {
+      "i": 4,
+      "zh": "潜力",
+      "en": "potential",
+      "ipa": "[p\u0259\u02c8ten\u0283l]",
+      "pos": "n.",
+      "gloss": "潜力"
+    },
+    {
+      "i": 5,
+      "zh": "基本面",
+      "en": "fundamentals",
+      "ipa": "[\u02ccf\u028cnd\u0259\u02c8mentlz]",
+      "pos": "n.",
+      "gloss": "基本面"
+    },
+    {
+      "i": 6,
+      "zh": "做多",
+      "en": "long",
+      "ipa": "[l\u0254\u02d0\u014b]",
+      "pos": "v.",
+      "gloss": "做多；看涨买入"
+    },
+    {
+      "i": 7,
+      "zh": "累计",
+      "en": "accumulate",
+      "ipa": "[\u0259\u02c8kju\u02d0mj\u0259le\u026at]",
+      "pos": "v.",
+      "gloss": "累计"
+    },
+    {
+      "i": 8,
+      "zh": "隐含",
+      "en": "implied",
+      "ipa": "[\u026am\u02c8pla\u026ad]",
+      "pos": "adj.",
+      "gloss": "隐含的"
+    },
+    {
+      "i": 9,
+      "zh": "见证",
+      "en": "witness",
+      "ipa": "[\u02c8w\u026atn\u0259s]",
+      "pos": "v.",
+      "gloss": "见证"
+    },
+    {
+      "i": 10,
+      "zh": "血腥",
+      "en": "bloody",
+      "ipa": "[\u02c8bl\u028cdi]",
+      "pos": "adj.",
+      "gloss": "血腥的"
+    },
+    {
+      "i": 11,
+      "zh": "偏离",
+      "en": "deviate",
+      "ipa": "[\u02c8di\u02d0vie\u026at]",
+      "pos": "v.",
+      "gloss": "偏离"
+    },
+    {
+      "i": 12,
+      "zh": "做空",
+      "en": "short",
+      "ipa": "[\u0283\u0254\u02d0rt]",
+      "pos": "v.",
+      "gloss": "做空"
+    },
+    {
+      "i": 13,
+      "zh": "减持",
+      "en": "trim",
+      "ipa": "[tr\u026am]",
+      "pos": "v.",
+      "gloss": "减持"
+    },
+    {
+      "i": 14,
+      "zh": "敞口",
+      "en": "exposure",
+      "ipa": "[\u026ak\u02c8spo\u028a\u0292\u0259r]",
+      "pos": "n.",
+      "gloss": "风险敞口"
+    },
+    {
+      "i": 15,
+      "zh": "离场",
+      "en": "exit",
+      "ipa": "[\u02c8eks\u026at]",
+      "pos": "v.",
+      "gloss": "离场"
+    },
+    {
+      "i": 16,
+      "zh": "持续",
+      "en": "persist",
+      "ipa": "[p\u0259r\u02c8s\u026ast]",
+      "pos": "v.",
+      "gloss": "持续"
+    },
+    {
+      "i": 17,
+      "zh": "无可避免",
+      "en": "inevitable",
+      "ipa": "[\u026an\u02c8ev\u026at\u0259bl]",
+      "pos": "adj.",
+      "gloss": "无可避免的"
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "zh": "动力",
+      "en": "driver",
+      "ipa": "[\u02c8dra\u026av\u0259r]",
+      "pos": "n.",
+      "gloss": "动力；驱动因素"
+    },
+    {
+      "i": 20,
+      "zh": "惊喜",
+      "en": "surprise",
+      "ipa": "[s\u0259r\u02c8pra\u026az]",
+      "pos": "n.",
+      "gloss": "意外好于预期"
+    },
+    {
+      "i": 21,
+      "zh": "幅度",
+      "en": "magnitude",
+      "ipa": "[\u02c8m\u00e6\u0261n\u026atu\u02d0d]",
+      "pos": "n.",
+      "gloss": "幅度"
+    },
+    {
+      "i": 22,
+      "zh": "每股收益",
+      "en": "EPS",
+      "ipa": "[\u02cci\u02d0pi\u02d0\u02c8es]",
+      "pos": "n.",
+      "gloss": "每股收益"
+    },
+    {
+      "i": 23,
+      "zh": "共识",
+      "en": "consensus",
+      "ipa": "[k\u0259n\u02c8sens\u0259s]",
+      "pos": "n.",
+      "gloss": "共识"
+    },
+    {
+      "i": 24,
+      "zh": "前所未见",
+      "en": "unprecedented",
+      "ipa": "[\u028cn\u02c8pres\u026adent\u026ad]",
+      "pos": "adj.",
+      "gloss": "前所未见的"
+    },
+    {
+      "i": 25,
+      "zh": "高点",
+      "en": "peak",
+      "ipa": "[pi\u02d0k]",
+      "pos": "n.",
+      "gloss": "高点"
+    },
+    {
+      "i": 26,
+      "zh": "实现",
+      "en": "realize",
+      "ipa": "[\u02c8ri\u02d0\u0259la\u026az]",
+      "pos": "v.",
+      "gloss": "实现"
+    },
+    {
+      "i": 27,
+      "zh": "刺破",
+      "en": "puncture",
+      "ipa": "[\u02c8p\u028c\u014bkt\u0283\u0259r]",
+      "pos": "v.",
+      "gloss": "刺破"
+    },
+    {
+      "i": 28,
+      "zh": "需求",
+      "en": "demand",
+      "ipa": "[d\u026a\u02c8m\u00e6nd]",
+      "pos": "n.",
+      "gloss": "需求"
+    },
+    {
+      "i": 29,
+      "zh": "敏感",
+      "en": "sensitive",
+      "ipa": "[\u02c8sens\u0259t\u026av]",
+      "pos": "adj.",
+      "gloss": "敏感的"
+    },
+    {
+      "i": 30,
+      "zh": "迁移",
+      "en": "migrate",
+      "ipa": "[\u02c8ma\u026a\u0261re\u026at]",
+      "pos": "v.",
+      "gloss": "迁移"
+    },
+    {
+      "i": 31,
+      "zh": "惯性",
+      "en": "inertia",
+      "ipa": "[\u026a\u02c8n\u025c\u02d0r\u0283\u0259]",
+      "pos": "n.",
+      "gloss": "惯性"
+    },
+    {
+      "i": 32,
+      "zh": "怀疑论者",
+      "en": "skeptic",
+      "ipa": "[\u02c8skept\u026ak]",
+      "pos": "n.",
+      "gloss": "怀疑论者"
+    },
+    {
+      "i": 33,
+      "zh": "超买",
+      "en": "overbought",
+      "ipa": "[\u02cco\u028av\u0259r\u02c8b\u0254\u02d0t]",
+      "pos": "adj.",
+      "gloss": "超买的"
+    },
+    {
+      "i": 34,
+      "zh": "喘息",
+      "en": "respite",
+      "ipa": "[\u02c8resp\u026at]",
+      "pos": "n.",
+      "gloss": "喘息；短暂休整"
+    },
+    {
+      "i": 35,
+      "zh": "过热",
+      "en": "overheating",
+      "ipa": "[\u02cco\u028av\u0259r\u02c8hi\u02d0t\u026a\u014b]",
+      "pos": "n.",
+      "gloss": "过热"
+    },
+    {
+      "i": 36,
+      "zh": "通信",
+      "en": "communication",
+      "ipa": "[k\u0259\u02ccmju\u02d0n\u026a\u02c8ke\u026a\u0283n]",
+      "pos": "n.",
+      "gloss": "通信"
+    },
+    {
+      "i": 37,
+      "zh": "子行业",
+      "en": "subsector",
+      "ipa": "[\u02c8s\u028cbsekt\u0259r]",
+      "pos": "n.",
+      "gloss": "子行业"
+    },
+    {
+      "i": 38,
+      "zh": "回调",
+      "en": "correction",
+      "ipa": "[k\u0259\u02c8rek\u0283n]",
+      "pos": "n.",
+      "gloss": "回调"
+    },
+    {
+      "i": 39,
+      "zh": "地缘政治",
+      "en": "geopolitical",
+      "ipa": "[\u02ccd\u0292i\u02d0o\u028ap\u0259\u02c8l\u026at\u026akl]",
+      "pos": "adj.",
+      "gloss": "地缘政治的"
+    },
+    {
+      "i": 40,
+      "zh": "消化",
+      "en": "digest",
+      "ipa": "[da\u026a\u02c8d\u0292est]",
+      "pos": "v.",
+      "gloss": "消化；吸收"
+    },
+    {
+      "i": 41,
+      "zh": "敌对行动",
+      "en": "hostilities",
+      "ipa": "[h\u0251\u02d0\u02c8st\u026al\u0259tiz]",
+      "pos": "n.",
+      "gloss": "敌对行动"
+    },
+    {
+      "i": 42,
+      "zh": "脆弱",
+      "en": "fragile",
+      "ipa": "[\u02c8fr\u00e6d\u0292l]",
+      "pos": "adj.",
+      "gloss": "脆弱的"
+    },
+    {
+      "i": 43,
+      "zh": "滞胀",
+      "en": "stagflation",
+      "ipa": "[st\u00e6\u0261\u02c8fle\u026a\u0283n]",
+      "pos": "n.",
+      "gloss": "滞胀"
+    }
+  ]
+}
