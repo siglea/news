@@ -1,0 +1,417 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "打断",
+      "en": "interrupt",
+      "ipa": "[ˌɪntərˈəpt]",
+      "pos": "v.",
+      "gloss": "中断；打断；插嘴；妨碍"
+    },
+    {
+      "i": 1,
+      "zh": "蒸发",
+      "en": "evaporate",
+      "ipa": "[ɪˈvæpərˌeɪt]",
+      "pos": "v.",
+      "gloss": "蒸发,挥发"
+    },
+    {
+      "i": 2,
+      "zh": "红利",
+      "en": "bonus",
+      "ipa": "[ˈboʊnəs]",
+      "pos": "n.",
+      "gloss": "奖金；红利；额外津贴"
+    },
+    {
+      "i": 3,
+      "zh": "调整",
+      "en": "adjust",
+      "ipa": "[əˈʤəst]",
+      "pos": "v.",
+      "gloss": "调整，使…适合；校准"
+    },
+    {
+      "i": 4,
+      "zh": "真正的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 5,
+      "skip": true
+    },
+    {
+      "i": 6,
+      "zh": "触发",
+      "en": "trigger",
+      "ipa": "[ˈtrɪgər]",
+      "pos": "v.",
+      "gloss": "引发，引起；触发"
+    },
+    {
+      "i": 7,
+      "zh": "继续",
+      "en": "pursue",
+      "ipa": "[pərˈsu]",
+      "pos": "v.",
+      "gloss": "继续；从事；追赶；纠缠"
+    },
+    {
+      "i": 8,
+      "zh": "出现",
+      "en": "arise",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 9,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "基础设施；公共建设；下部构造"
+    },
+    {
+      "i": 10,
+      "zh": "红利",
+      "en": "dividend",
+      "ipa": "[ˈdɪvɪˌdɛnd]",
+      "pos": "n.",
+      "gloss": "红利，股息"
+    },
+    {
+      "i": 11,
+      "skip": true
+    },
+    {
+      "i": 12,
+      "zh": "公司",
+      "en": "establishment",
+      "ipa": "[ɪˈstæblɪʃmənt]",
+      "pos": "n.",
+      "gloss": "确立，制定；公司；设施"
+    },
+    {
+      "i": 13,
+      "skip": true
+    },
+    {
+      "i": 14,
+      "zh": "任何",
+      "en": "whatsoever",
+      "ipa": "[ˌwətsoʊˈɛvər]",
+      "pos": "adv.",
+      "gloss": "任何"
+    },
+    {
+      "i": 15,
+      "zh": "超过",
+      "en": "exceed",
+      "ipa": "[ɪkˈsid]",
+      "pos": "v.",
+      "gloss": "超过,胜过；越出 (限制、规定)"
+    },
+    {
+      "i": 16,
+      "zh": "关键",
+      "en": "hinge",
+      "ipa": "[hɪnʤ]",
+      "pos": "n.",
+      "gloss": "铰链，折叶；关键，转折点；枢要，中枢"
+    },
+    {
+      "i": 17,
+      "zh": "繁荣",
+      "en": "boom",
+      "ipa": "[bum]",
+      "pos": "n.",
+      "gloss": "繁荣；吊杆；隆隆声"
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "zh": "交易",
+      "en": "bargain",
+      "ipa": "[ˈbɑrgɪn]",
+      "pos": "n.",
+      "gloss": "廉价货；交易,契约,合同"
+    },
+    {
+      "i": 20,
+      "zh": "不同的",
+      "en": "diverse",
+      "ipa": "[dɪˈvərs]",
+      "pos": "adj.",
+      "gloss": "多种多样的,不同的"
+    },
+    {
+      "i": 21,
+      "zh": "补贴",
+      "en": "allowance",
+      "ipa": "[əˈlaʊəns]",
+      "pos": "n.",
+      "gloss": "补贴，津贴；允许量；零用钱"
+    },
+    {
+      "i": 22,
+      "zh": "类似",
+      "en": "analogy",
+      "ipa": "[əˈnæləʤi]",
+      "pos": "n.",
+      "gloss": "类似，相似，类比，类推"
+    },
+    {
+      "i": 23,
+      "zh": "排除",
+      "en": "bracket",
+      "ipa": "[ˈbrækɪt]",
+      "pos": "v.",
+      "gloss": "括在一起；把…归入同一类；排除"
+    },
+    {
+      "i": 24,
+      "zh": "空间",
+      "en": "void",
+      "ipa": "[vɔɪd]",
+      "pos": "n.",
+      "gloss": "空虚；空间；空隙"
+    },
+    {
+      "i": 25,
+      "zh": "相信",
+      "en": "belief",
+      "ipa": "[bɪˈliːf]",
+      "pos": "n.",
+      "gloss": "相信，信赖；信仰；教义"
+    },
+    {
+      "i": 26,
+      "zh": "放大器",
+      "en": "amplifier",
+      "ipa": "[ˈæmpləˌfaɪər]",
+      "pos": "n.",
+      "gloss": "[电子] 放大器，扩大器；扩音器"
+    },
+    {
+      "i": 27,
+      "zh": "幅度",
+      "en": "breadth",
+      "ipa": "[brɛdθ]",
+      "pos": "n.",
+      "gloss": "宽度，幅度；宽宏"
+    },
+    {
+      "i": 28,
+      "zh": "整个",
+      "en": "altogether",
+      "ipa": "[ˌɔltəˈgɛðər]",
+      "pos": "n.",
+      "gloss": "整个；裸体"
+    },
+    {
+      "i": 29,
+      "zh": "考虑",
+      "en": "consideration",
+      "ipa": "[kənˌsɪdərˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "考虑,思考；需要考虑的事；体谅,照顾"
+    },
+    {
+      "i": 30,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 31,
+      "zh": "放大",
+      "en": "amplify",
+      "ipa": "[ˈæmpləˌfaɪ]",
+      "pos": "v.",
+      "gloss": "放大，扩大；增强；详述"
+    },
+    {
+      "i": 32,
+      "zh": "集中",
+      "en": "concentrate",
+      "ipa": "[ˈkɑnsənˌtreɪt]",
+      "pos": "v.",
+      "gloss": "集中；浓缩；全神贯注；聚集"
+    },
+    {
+      "i": 33,
+      "zh": "记录",
+      "en": "chalk",
+      "ipa": "[ʧɔk]",
+      "pos": "v.",
+      "gloss": "用粉笔写；用白垩粉擦；记录；规划"
+    },
+    {
+      "i": 34,
+      "zh": "理解",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 35,
+      "zh": "执行",
+      "en": "administer",
+      "ipa": "[ədˈmɪnɪstər]",
+      "pos": "v.",
+      "gloss": "管理；执行；给予"
+    },
+    {
+      "i": 36,
+      "zh": "连贯的",
+      "en": "consecutive",
+      "ipa": "[kənˈsɛkjətɪv]",
+      "pos": "adj.",
+      "gloss": "连续的；连贯的；顺序的"
+    },
+    {
+      "i": 37,
+      "zh": "年轻人",
+      "en": "youngster",
+      "ipa": "[ˈjəŋstər]",
+      "pos": "n.",
+      "gloss": "年轻人；少年"
+    },
+    {
+      "i": 38,
+      "zh": "覆盖",
+      "en": "blanket",
+      "ipa": "[ˈblæŋkɪt]",
+      "pos": "v.",
+      "gloss": "覆盖，掩盖；用毯覆盖"
+    },
+    {
+      "i": 39,
+      "zh": "批准",
+      "en": "approve",
+      "ipa": "[əˈpruv]",
+      "pos": "v.",
+      "gloss": "批准，通过；(of)赞成，赞许，同意"
+    },
+    {
+      "i": 40,
+      "zh": "选择",
+      "en": "elect",
+      "ipa": "[ɪˈlɛkt]",
+      "pos": "v.",
+      "gloss": "选举,推选；选择,作出选择"
+    },
+    {
+      "i": 41,
+      "zh": "情绪",
+      "en": "emotion",
+      "ipa": "[ˈiˌmoʊʃən]",
+      "pos": "n.",
+      "gloss": "情绪,情感,感情"
+    },
+    {
+      "i": 42,
+      "zh": "澄清",
+      "en": "clarify",
+      "ipa": "[ˈklɛrəˌfaɪ]",
+      "pos": "v.",
+      "gloss": "澄清；阐明"
+    },
+    {
+      "i": 43,
+      "zh": "边界",
+      "en": "boundary",
+      "ipa": "[ˈbaʊndəri]",
+      "pos": "n.",
+      "gloss": "边界；范围；分界线"
+    },
+    {
+      "i": 44,
+      "zh": "裂缝",
+      "en": "crack",
+      "ipa": "[kræk]",
+      "pos": "n.",
+      "gloss": "裂缝；声变；噼啪声"
+    },
+    {
+      "i": 45,
+      "zh": "目标",
+      "en": "objective",
+      "ipa": "[əˈbʤɛktɪv]",
+      "pos": "n.",
+      "gloss": "目标,目的"
+    },
+    {
+      "i": 46,
+      "zh": "建立",
+      "en": "constitute",
+      "ipa": "[ˈkɑnstəˌtut]",
+      "pos": "v.",
+      "gloss": "组成，构成；建立；任命"
+    },
+    {
+      "i": 47,
+      "zh": "假设",
+      "en": "hypothesis",
+      "ipa": "[haɪˈpɑθəsəs]",
+      "pos": "n.",
+      "gloss": "假设"
+    },
+    {
+      "i": 48,
+      "zh": "空白的",
+      "en": "blank",
+      "ipa": "[blæŋk]",
+      "pos": "adj.",
+      "gloss": "空白的， 空着的；失色的， 无表情的"
+    },
+    {
+      "i": 49,
+      "zh": "季度的",
+      "en": "quarterly",
+      "ipa": "[kˈwɔrtərli]",
+      "pos": "adj.",
+      "gloss": "季度的，按季度的；一年四次的"
+    },
+    {
+      "i": 50,
+      "zh": "扩大",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "v.",
+      "gloss": "使扩大，使形成大量；使显得重要"
+    },
+    {
+      "i": 51,
+      "skip": true
+    },
+    {
+      "i": 52,
+      "zh": "真正的",
+      "en": "genuine",
+      "ipa": "[ˈʤɛnjuˌaɪn]",
+      "pos": "adj.",
+      "gloss": "真正的"
+    },
+    {
+      "i": 53,
+      "zh": "建议",
+      "en": "advise",
+      "ipa": "[ədˈvaɪz]",
+      "pos": "v.",
+      "gloss": "忠告，劝告，建议；通知，告知"
+    }
+  ]
+}
