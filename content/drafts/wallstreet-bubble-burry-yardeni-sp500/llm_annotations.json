@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "争论",
+      "en": "argue",
+      "ipa": "[ˈɑrgju]",
+      "pos": "v.",
+      "gloss": "争论，辩论；提出理由"
+    },
+    {
+      "i": 1,
+      "zh": "高度",
+      "en": "altitude",
+      "ipa": "[ˈæltɪtjuːd]",
+      "pos": "n.",
+      "gloss": "高度， 海拔"
+    },
+    {
+      "i": 2,
+      "zh": "乐观的",
+      "en": "optimistic",
+      "ipa": "[ˌɒptɪˈmɪstɪk]",
+      "pos": "adj.",
+      "gloss": "乐观的；乐观主义的"
+    },
+    {
+      "i": 3,
+      "zh": "目标",
+      "en": "objective",
+      "ipa": "[əˈbʤɛktɪv]",
+      "pos": "n.",
+      "gloss": "目标,目的"
+    },
+    {
+      "i": 4,
+      "zh": "理由",
+      "en": "allege",
+      "ipa": "[əˈlɛʤ]",
+      "pos": "v.",
+      "gloss": "宣称，断言；提出…作为理由"
+    },
+    {
+      "i": 5,
+      "zh": "客户",
+      "en": "correspondent",
+      "ipa": "[ˌkɔrəˈspɑndənt]",
+      "pos": "n.",
+      "gloss": "通讯记者；客户；通信者；代理商行"
+    },
+    {
+      "i": 6,
+      "zh": "泡沫",
+      "en": "bubble",
+      "ipa": "[ˈbəbəl]",
+      "pos": "n.",
+      "gloss": "气泡，泡沫，泡状物；透明圆形罩，圆形顶"
+    },
+    {
+      "i": 7,
+      "zh": "半导体",
+      "en": "semiconductor",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 8,
+      "zh": "在于",
+      "en": "consist",
+      "ipa": "[kənˈsɪst]",
+      "pos": "v.",
+      "gloss": "(in)在于；(of)由…组成,由…构成"
+    },
+    {
+      "i": 9,
+      "skip": true
+    },
+    {
+      "i": 10,
+      "zh": "发生",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 11,
+      "zh": "出现",
+      "en": "arise",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 12,
+      "zh": "详细说明",
+      "en": "specify",
+      "ipa": "[ˈspɛsəˌfaɪ]",
+      "pos": "v.",
+      "gloss": "指定,详细说明"
+    },
+    {
+      "i": 13,
+      "zh": "符合",
+      "en": "accord",
+      "ipa": "[əˈkɔrd]",
+      "pos": "n.",
+      "gloss": "一致， 符合；协议， 条约"
+    },
+    {
+      "i": 14,
+      "zh": "建议",
+      "en": "advise",
+      "ipa": "[ədˈvaɪz]",
+      "pos": "v.",
+      "gloss": "忠告，劝告，建议；通知，告知"
+    },
+    {
+      "i": 15,
+      "zh": "接近",
+      "en": "approximate",
+      "ipa": "[əˈprɑksəˌmeɪt]",
+      "pos": "v.",
+      "gloss": "(to)接近"
+    },
+    {
+      "i": 16,
+      "zh": "的结果",
+      "en": "haul",
+      "ipa": "[hɔl]",
+      "pos": "n.",
+      "gloss": "拖，拉；用力拖拉；努力得到的结果；捕获物；一网捕获的鱼量；拖运距离"
+    },
+    {
+      "i": 17,
+      "zh": "罕见的",
+      "en": "peculiar",
+      "ipa": "[pɪˈkjuljər]",
+      "pos": "adj.",
+      "gloss": "特殊的；独特的；奇怪的；罕见的"
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "zh": "表现",
+      "en": "behave",
+      "ipa": "[bɪˈheɪv]",
+      "pos": "v.",
+      "gloss": "表现；（机器等）运转；举止端正；（事物）起某种作用"
+    },
+    {
+      "i": 20,
+      "zh": "幅度",
+      "en": "breadth",
+      "ipa": "[brɛdθ]",
+      "pos": "n.",
+      "gloss": "宽度，幅度；宽宏"
+    },
+    {
+      "i": 21,
+      "zh": "指数",
+      "en": "exponential",
+      "ipa": "[ˌekspəˈnenʃl]",
+      "pos": "adj.",
+      "gloss": "指数"
+    },
+    {
+      "i": 22,
+      "zh": "预测",
+      "en": "calculate",
+      "ipa": "[ˈkælkjəˌleɪt]",
+      "pos": "v.",
+      "gloss": "计算,推算；预测，估计"
+    },
+    {
+      "i": 23,
+      "zh": "共识",
+      "en": "consensus",
+      "ipa": "[kənˈsɛnsəs]",
+      "pos": "n.",
+      "gloss": "(意见等的)一致，一致同意，共识"
+    },
+    {
+      "i": 24,
+      "zh": "上升",
+      "en": "ascend",
+      "ipa": "[əˈsɛnd]",
+      "pos": "v.",
+      "gloss": "上升；登高；追溯"
+    },
+    {
+      "i": 25,
+      "zh": "充满",
+      "en": "abound",
+      "ipa": "[əˈbaʊnd]",
+      "pos": "v.",
+      "gloss": "富于；充满"
+    },
+    {
+      "i": 26,
+      "zh": "实现",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 27,
+      "zh": "警告",
+      "en": "alarm",
+      "ipa": "[əˈlɑrm]",
+      "pos": "v.",
+      "gloss": "警告；使惊恐"
+    },
+    {
+      "i": 28,
+      "zh": "表示",
+      "en": "bid",
+      "ipa": "[bɪd]",
+      "pos": "v.",
+      "gloss": "投标；出价；表示；吩咐"
+    },
+    {
+      "i": 29,
+      "zh": "明显的",
+      "en": "conspicuous",
+      "ipa": "[kənˈspɪkjuəs]",
+      "pos": "adj.",
+      "gloss": "显眼的,明显的"
+    },
+    {
+      "i": 30,
+      "zh": "压缩",
+      "en": "capsule",
+      "ipa": "[ˈkæpsəl]",
+      "pos": "v.",
+      "gloss": "压缩；简述"
+    },
+    {
+      "i": 31,
+      "zh": "尽管如此",
+      "en": "nonetheless",
+      "ipa": "[ˌnənðəˈlɛs]",
+      "pos": "adv.",
+      "gloss": "尽管如此，但是"
+    },
+    {
+      "i": 32,
+      "zh": "承认",
+      "en": "acknowledge",
+      "ipa": "[ækˈnɑlɪʤ]",
+      "pos": "v.",
+      "gloss": "承认；答谢；报偿；告知已收到"
+    },
+    {
+      "i": 33,
+      "zh": "临界值",
+      "en": "threshold",
+      "ipa": "[ˈθreʃhəʊld]",
+      "pos": "n.",
+      "gloss": "入口；门槛；开始；极限；临界值"
+    },
+    {
+      "i": 34,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 35,
+      "skip": true
+    },
+    {
+      "i": 36,
+      "zh": "信服",
+      "en": "convince",
+      "ipa": "[kənˈvɪns]",
+      "pos": "v.",
+      "gloss": "说服；使确信，使信服"
+    },
+    {
+      "i": 37,
+      "zh": "广泛的",
+      "en": "comprehensive",
+      "ipa": "[ˌkɑmpriˈhɛnsɪv]",
+      "pos": "adj.",
+      "gloss": "综合的；广泛的；有理解力的"
+    },
+    {
+      "i": 38,
+      "zh": "看法",
+      "en": "judgment",
+      "ipa": "[ˈdʒʌdʒmənt]",
+      "pos": "n.",
+      "gloss": "审判， 判决；判断力， 识别力； 看法， 意见"
+    },
+    {
+      "i": 39,
+      "zh": "改善",
+      "en": "amend",
+      "ipa": "[əˈmɛnd]",
+      "pos": "v.",
+      "gloss": "修改；改善，改进"
+    },
+    {
+      "i": 40,
+      "zh": "消化",
+      "en": "assimilate",
+      "ipa": "[əˈsɪməˌleɪt]",
+      "pos": "v.",
+      "gloss": "吸收，消化；被吸收；被同化"
+    },
+    {
+      "i": 41,
+      "zh": "持续的",
+      "en": "continuous",
+      "ipa": "[kənˈtɪnjuəs]",
+      "pos": "adj.",
+      "gloss": "连续的,持续的"
+    },
+    {
+      "i": 42,
+      "zh": "一致",
+      "en": "accordance",
+      "ipa": "[əˈkɔrdəns]",
+      "pos": "n.",
+      "gloss": "一致；和谐"
+    },
+    {
+      "i": 43,
+      "zh": "警告",
+      "en": "alert",
+      "ipa": "[əˈlərt]",
+      "pos": "v.",
+      "gloss": "警告；使警觉，使意识到"
+    },
+    {
+      "i": 44,
+      "zh": "代表",
+      "en": "ambassador",
+      "ipa": "[æmˈbæsədər]",
+      "pos": "n.",
+      "gloss": "大使；特使，(派驻国际组织的)代表"
+    }
+  ]
+}
