@@ -1,0 +1,715 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "skip": true
+    },
+    {
+      "i": 1,
+      "zh": "结果",
+      "en": "consequence",
+      "ipa": "[ˈkɑnsəkwəns]",
+      "pos": "n.",
+      "gloss": "结果,后果,影响"
+    },
+    {
+      "i": 2,
+      "zh": "结束",
+      "en": "conclude",
+      "ipa": "[kənˈklud]",
+      "pos": "v.",
+      "gloss": "结束,终止；断定,下结论"
+    },
+    {
+      "i": 3,
+      "zh": "一大批",
+      "en": "flood",
+      "ipa": "[fləd]",
+      "pos": "n.",
+      "gloss": "洪水；泛滥；一大批"
+    },
+    {
+      "i": 4,
+      "zh": "计算机",
+      "en": "interface",
+      "ipa": "[ˈɪnərˌfeɪs]",
+      "pos": "v.",
+      "gloss": "（使通过界面或接口）接合，连接；[计算机]使联系"
+    },
+    {
+      "i": 5,
+      "zh": "资产",
+      "en": "asset",
+      "ipa": "[ˈæˌsɛt]",
+      "pos": "n.",
+      "gloss": "资产， 财产；优点； 有用的东西"
+    },
+    {
+      "i": 6,
+      "zh": "预期的",
+      "en": "prospective",
+      "ipa": "[prəˈspɛktɪv]",
+      "pos": "adj.",
+      "gloss": "预期的"
+    },
+    {
+      "i": 7,
+      "zh": "海外",
+      "en": "abroad",
+      "ipa": "[əˈbrɔd]",
+      "pos": "n.",
+      "gloss": "海外；异国"
+    },
+    {
+      "i": 8,
+      "zh": "半导体",
+      "en": "semiconductor",
+      "ipa": "[ˌsɛmɪkənˈdəktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 9,
+      "zh": "汽车",
+      "en": "auto",
+      "ipa": "[ˈɔtoʊ]",
+      "pos": "n.",
+      "gloss": "汽车（等于automobile）；自动"
+    },
+    {
+      "i": 10,
+      "zh": "接近",
+      "en": "approximate",
+      "ipa": "[əˈprɑksəˌmeɪt]",
+      "pos": "v.",
+      "gloss": "(to)接近"
+    },
+    {
+      "i": 11,
+      "zh": "总数",
+      "en": "gross",
+      "ipa": "[groʊs]",
+      "pos": "n.",
+      "gloss": "总额，总数"
+    },
+    {
+      "i": 12,
+      "skip": true
+    },
+    {
+      "i": 13,
+      "zh": "交易",
+      "en": "bargain",
+      "ipa": "[ˈbɑrgɪn]",
+      "pos": "n.",
+      "gloss": "廉价货；交易,契约,合同"
+    },
+    {
+      "i": 14,
+      "zh": "投资",
+      "en": "invest",
+      "ipa": "[ɪnˈvest]",
+      "pos": "v.",
+      "gloss": "投资；覆盖；耗费；授予；包围"
+    },
+    {
+      "i": 15,
+      "zh": "实现",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 16,
+      "zh": "显示",
+      "en": "exhibit",
+      "ipa": "[ɪgˈzɪbɪt]",
+      "pos": "v.",
+      "gloss": "展览；显示；提出（证据等）"
+    },
+    {
+      "i": 17,
+      "skip": true
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "zh": "显现",
+      "en": "emerge",
+      "ipa": "[ˈimərʤ]",
+      "pos": "v.",
+      "gloss": "显现,浮现；暴露"
+    },
+    {
+      "i": 20,
+      "zh": "电子",
+      "en": "amplifier",
+      "ipa": "[ˈæmpləˌfaɪər]",
+      "pos": "n.",
+      "gloss": "[电子] 放大器，扩大器；扩音器"
+    },
+    {
+      "i": 21,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 22,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "基础设施；公共建设；下部构造"
+    },
+    {
+      "i": 23,
+      "zh": "设备",
+      "en": "bite",
+      "ipa": "[baɪt]",
+      "pos": "n.",
+      "gloss": "咬；一口；咬伤；刺痛 abbr. 机内测试设备（Built-In Test Equipment）"
+    },
+    {
+      "i": 24,
+      "zh": "加速",
+      "en": "accelerate",
+      "ipa": "[ækˈsɛlərˌeɪt]",
+      "pos": "v.",
+      "gloss": "使加速，使增速，促进；加速"
+    },
+    {
+      "i": 25,
+      "zh": "表现",
+      "en": "behave",
+      "ipa": "[bɪˈheɪv]",
+      "pos": "v.",
+      "gloss": "表现；（机器等）运转；举止端正；（事物）起某种作用"
+    },
+    {
+      "i": 26,
+      "zh": "航天",
+      "en": "aerospace",
+      "ipa": "[ˈeərəʊspeɪs]",
+      "pos": "n.",
+      "gloss": "航天"
+    },
+    {
+      "i": 27,
+      "zh": "表现突出",
+      "en": "distinguish",
+      "ipa": "[dɪˈstɪŋgwɪʃ]",
+      "pos": "v.",
+      "gloss": "区分；辨别；使杰出，使表现突出"
+    },
+    {
+      "i": 28,
+      "zh": "公司",
+      "en": "establishment",
+      "ipa": "[ɪˈstæblɪʃmənt]",
+      "pos": "n.",
+      "gloss": "确立，制定；公司；设施"
+    },
+    {
+      "i": 29,
+      "zh": "超过",
+      "en": "exceed",
+      "ipa": "[ɪkˈsid]",
+      "pos": "v.",
+      "gloss": "超过,胜过；越出 (限制、规定)"
+    },
+    {
+      "i": 30,
+      "zh": "上涨",
+      "en": "pyramid",
+      "ipa": "[ˈpɪrəmɪd]",
+      "pos": "v.",
+      "gloss": "渐增；上涨；成金字塔状"
+    },
+    {
+      "i": 31,
+      "zh": "表现突出",
+      "en": "shine",
+      "ipa": "[ʃaɪn]",
+      "pos": "v.",
+      "gloss": "发出光；反射光，闪耀；出类拔萃，表现突出；露出；照耀；显露；出众"
+    },
+    {
+      "i": 32,
+      "zh": "逻辑的",
+      "en": "logic",
+      "ipa": "[ˈlɑʤɪk]",
+      "pos": "adj.",
+      "gloss": "逻辑的"
+    },
+    {
+      "i": 33,
+      "zh": "根据",
+      "en": "seed",
+      "ipa": "[sid]",
+      "pos": "n.",
+      "gloss": "种子；根据；精液；萌芽；子孙；原由"
+    },
+    {
+      "i": 34,
+      "zh": "设备",
+      "en": "fixture",
+      "ipa": "[ˈfɪksʧər]",
+      "pos": "n.",
+      "gloss": "设备；固定装置；固定于某处不大可能移动之物"
+    },
+    {
+      "i": 35,
+      "zh": "汽车",
+      "en": "automobile",
+      "ipa": "[ˌɔtəmoʊˈbil]",
+      "pos": "n.",
+      "gloss": "汽车"
+    },
+    {
+      "i": 36,
+      "zh": "导体",
+      "en": "conductor",
+      "ipa": "[kənˈdəktər]",
+      "pos": "n.",
+      "gloss": "指挥；售票员；导体"
+    },
+    {
+      "i": 37,
+      "skip": true
+    },
+    {
+      "i": 38,
+      "zh": "方式",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adv.",
+      "gloss": "以同样的方式；类似于"
+    },
+    {
+      "i": 39,
+      "zh": "计算",
+      "en": "calculate",
+      "ipa": "[ˈkælkjəˌleɪt]",
+      "pos": "v.",
+      "gloss": "计算,推算；预测，估计"
+    },
+    {
+      "i": 40,
+      "zh": "集中于",
+      "en": "fasten",
+      "ipa": "[ˈfæsən]",
+      "pos": "v.",
+      "gloss": "使固定；集中于；扎牢；强加于"
+    },
+    {
+      "i": 41,
+      "zh": "竞争",
+      "en": "compete",
+      "ipa": "[kəmˈpiːt]",
+      "pos": "v.",
+      "gloss": "竞争；争夺，竞争"
+    },
+    {
+      "i": 42,
+      "zh": "组织",
+      "en": "apparatus",
+      "ipa": "[ˌæpərˈætəs]",
+      "pos": "n.",
+      "gloss": "器械，器具，仪器；机构，组织"
+    },
+    {
+      "i": 43,
+      "skip": true
+    },
+    {
+      "i": 44,
+      "zh": "投入",
+      "en": "input",
+      "ipa": "[ˈɪnˌpʊt]",
+      "pos": "n.",
+      "gloss": "投入；输入电路"
+    },
+    {
+      "i": 45,
+      "zh": "竞争",
+      "en": "contend",
+      "ipa": "[kənˈtɛnd]",
+      "pos": "v.",
+      "gloss": "竞争；奋斗；斗争；争论"
+    },
+    {
+      "i": 46,
+      "zh": "化学",
+      "en": "chemistry",
+      "ipa": "[ˈkɛmɪstri]",
+      "pos": "n.",
+      "gloss": "化学；化学过程"
+    },
+    {
+      "i": 47,
+      "zh": "结合",
+      "en": "bind",
+      "ipa": "[baɪnd]",
+      "pos": "v.",
+      "gloss": "结合；装订；有约束力；过紧"
+    },
+    {
+      "i": 48,
+      "zh": "达到",
+      "en": "attain",
+      "ipa": "[əˈteɪn]",
+      "pos": "v.",
+      "gloss": "完成；获得；达到"
+    },
+    {
+      "i": 49,
+      "zh": "生物",
+      "en": "breed",
+      "ipa": "[brid]",
+      "pos": "n.",
+      "gloss": "[生物] 品种；种类，类型"
+    },
+    {
+      "i": 50,
+      "zh": "化学",
+      "en": "compound",
+      "ipa": "[ˈkɑmpaʊnd]",
+      "pos": "n.",
+      "gloss": "[化学] 化合物；混合物；复合词"
+    },
+    {
+      "i": 51,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 52,
+      "zh": "经济学",
+      "en": "economics",
+      "ipa": "[ˌɛkəˈnɑmɪks]",
+      "pos": "n.",
+      "gloss": "经济学"
+    },
+    {
+      "i": 53,
+      "zh": "体现",
+      "en": "embodied",
+      "ipa": "[ɪmˈbɒdid]",
+      "pos": "adj.",
+      "gloss": "体现"
+    },
+    {
+      "i": 54,
+      "zh": "结果",
+      "en": "consequently",
+      "ipa": "[ˈkɑnsəkˌwɛntli]",
+      "pos": "adv.",
+      "gloss": "结果，因此，所以"
+    },
+    {
+      "i": 55,
+      "zh": "也就是",
+      "en": "namely",
+      "ipa": "[ˈneɪmli]",
+      "pos": "adv.",
+      "gloss": "即,也就是"
+    },
+    {
+      "i": 56,
+      "zh": "不足",
+      "en": "defect",
+      "ipa": "[ˈdifɛkt]",
+      "pos": "n.",
+      "gloss": "过失;缺点;不足"
+    },
+    {
+      "i": 57,
+      "zh": "建立",
+      "en": "constitute",
+      "ipa": "[ˈkɑnstəˌtut]",
+      "pos": "v.",
+      "gloss": "组成，构成；建立；任命"
+    },
+    {
+      "i": 58,
+      "zh": "贡献",
+      "en": "contribute",
+      "ipa": "[kənˈtrɪbjut]",
+      "pos": "v.",
+      "gloss": "贡献，出力；投稿；捐献"
+    },
+    {
+      "i": 59,
+      "zh": "超过",
+      "en": "excel",
+      "ipa": "[ɪkˈsɛl]",
+      "pos": "v.",
+      "gloss": "超过；擅长"
+    },
+    {
+      "i": 60,
+      "zh": "电子",
+      "en": "chip",
+      "ipa": "[ʧɪp]",
+      "pos": "n.",
+      "gloss": "[电子] 芯片；筹码；碎片；(食物的) 小片; 薄片"
+    },
+    {
+      "i": 61,
+      "zh": "电子",
+      "en": "component",
+      "ipa": "[kəmˈpoʊnənt]",
+      "pos": "n.",
+      "gloss": "成分；组件；[电子] 元件"
+    },
+    {
+      "i": 62,
+      "zh": "构成",
+      "en": "compose",
+      "ipa": "[kəmˈpoʊz]",
+      "pos": "v.",
+      "gloss": "组成,构成;(of)由…组成；作曲",
+      "skip": true
+    },
+    {
+      "i": 63,
+      "zh": "及服务",
+      "en": "cater",
+      "ipa": "[ˈkeɪtər]",
+      "pos": "v.",
+      "gloss": "(for)提供饮食及服务；(for/to)满足,迎合",
+      "skip": true
+    },
+    {
+      "i": 64,
+      "zh": "算力",
+      "en": "computing",
+      "ipa": "[ˈkɒmpjuːtɪŋ]",
+      "pos": "n.",
+      "gloss": "算力"
+    },
+    {
+      "i": 65,
+      "zh": "此外",
+      "en": "farther",
+      "ipa": "[ˈfɑrðər]",
+      "pos": "adv.",
+      "gloss": "更远地；此外；更进一步地"
+    },
+    {
+      "i": 66,
+      "zh": "包括",
+      "en": "comprise",
+      "ipa": "[kəmˈpraɪz]",
+      "pos": "v.",
+      "gloss": "包含，包括，由...组成；构成，组成"
+    },
+    {
+      "i": 67,
+      "zh": "管理",
+      "en": "administer",
+      "ipa": "[ədˈmɪnɪstər]",
+      "pos": "v.",
+      "gloss": "管理；执行；给予"
+    },
+    {
+      "i": 68,
+      "skip": true
+    },
+    {
+      "i": 69,
+      "zh": "传递",
+      "en": "transmission",
+      "ipa": "[trænzˈmɪʃn]",
+      "pos": "n.",
+      "gloss": "传动装置，[机] 变速器；传递；传送；播送"
+    },
+    {
+      "i": 70,
+      "zh": "总数",
+      "en": "sum",
+      "ipa": "[səm]",
+      "pos": "n.",
+      "gloss": "总数， 和；金额；算术题"
+    },
+    {
+      "i": 71,
+      "zh": "的人",
+      "en": "athlete",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 72,
+      "zh": "消费",
+      "en": "consume",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 73,
+      "zh": "幅度",
+      "en": "breadth",
+      "ipa": "[brɛdθ]",
+      "pos": "n.",
+      "gloss": "宽度，幅度；宽宏"
+    },
+    {
+      "i": 74,
+      "zh": "电子",
+      "en": "disc",
+      "ipa": "[dɪsk]",
+      "pos": "n.",
+      "gloss": "圆盘，[电子] 唱片（等于disk）"
+    },
+    {
+      "i": 75,
+      "skip": true
+    },
+    {
+      "i": 76,
+      "skip": true
+    },
+    {
+      "i": 77,
+      "zh": "驱动",
+      "en": "activate",
+      "ipa": "[ˈæktəˌveɪt]",
+      "pos": "v.",
+      "gloss": "启动，激活；驱动，驱使；使开始起作用"
+    },
+    {
+      "i": 78,
+      "zh": "集中",
+      "en": "concentrate",
+      "ipa": "[ˈkɑnsənˌtreɪt]",
+      "pos": "v.",
+      "gloss": "集中；浓缩；全神贯注；聚集"
+    },
+    {
+      "i": 79,
+      "zh": "通信",
+      "en": "correspond",
+      "ipa": "[ˌkɔrəˈspɑnd]",
+      "pos": "vi.",
+      "gloss": "通信；符合， 一致；相当于， 对应"
+    },
+    {
+      "i": 80,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "预期；期望,指望"
+    },
+    {
+      "i": 81,
+      "zh": "结果",
+      "en": "harvest",
+      "ipa": "[ˈhɑrvəst]",
+      "pos": "n.",
+      "gloss": "收获；产量；结果"
+    },
+    {
+      "i": 82,
+      "zh": "超过",
+      "en": "overhaul",
+      "ipa": "[ˈoʊvərˌhɔl]",
+      "pos": "vt.",
+      "gloss": "彻底检修；赶上， 超过"
+    },
+    {
+      "i": 83,
+      "skip": true
+    },
+    {
+      "i": 84,
+      "zh": "发展",
+      "en": "evolution",
+      "ipa": "[ˌɛvəˈluʃən]",
+      "pos": "n.",
+      "gloss": "进化,演变；发展,进展"
+    },
+    {
+      "i": 85,
+      "zh": "制造业",
+      "en": "manufacture",
+      "ipa": "[ˌmænjʊˈfæktʃə]",
+      "pos": "n.",
+      "gloss": "制造,制造业"
+    },
+    {
+      "i": 86,
+      "zh": "趋势",
+      "en": "drift",
+      "ipa": "[drɪft]",
+      "pos": "n.",
+      "gloss": "漂流，漂移；趋势；漂流物"
+    },
+    {
+      "i": 87,
+      "zh": "公开的",
+      "en": "outward",
+      "ipa": "[ˈaʊtwərd]",
+      "pos": "adj.",
+      "gloss": "向外的；外面的；公开的；外服的；肉体的"
+    },
+    {
+      "i": 88,
+      "zh": "集中",
+      "en": "concentration",
+      "ipa": "[ˌkɑnsənˈtreɪʃən]",
+      "pos": "n.",
+      "gloss": "浓度；集中；浓缩；专心；集合"
+    },
+    {
+      "i": 89,
+      "zh": "申报",
+      "en": "declaration",
+      "ipa": "[ˌdɛklərˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "（纳税品等的）申报；宣布；公告；申诉书"
+    },
+    {
+      "i": 90,
+      "zh": "确定",
+      "en": "ascertain",
+      "ipa": "[ˌæsərˈteɪn]",
+      "pos": "v.",
+      "gloss": "确定，查明，弄清"
+    },
+    {
+      "i": 91,
+      "zh": "坐标",
+      "en": "coordinate",
+      "ipa": "[koʊˈɔrdəˌneɪt]",
+      "pos": "n.",
+      "gloss": "坐标；同等的人或物"
+    },
+    {
+      "i": 92,
+      "skip": true
+    },
+    {
+      "i": 93,
+      "zh": "财富",
+      "en": "fortune",
+      "ipa": "[ˈfɔrʧən]",
+      "pos": "n.",
+      "gloss": "财富；命运；运气"
+    }
+  ]
+}
