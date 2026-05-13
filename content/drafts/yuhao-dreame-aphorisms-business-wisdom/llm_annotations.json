@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "传播",
+      "en": "convey",
+      "ipa": "[kənˈveɪ]",
+      "pos": "vt.",
+      "gloss": "运送， 搬运， 转运；表达； 传播"
+    },
+    {
+      "i": 1,
+      "zh": "商业",
+      "en": "commerce",
+      "ipa": "[ˈkɑmərs]",
+      "pos": "n.",
+      "gloss": "买卖，贸易；商务；商业"
+    },
+    {
+      "i": 2,
+      "zh": "重要",
+      "en": "magnitude",
+      "ipa": "[ˈmægnəˌtud]",
+      "pos": "n.",
+      "gloss": "大小；量级；[地震] 震级；重要；光度"
+    },
+    {
+      "i": 3,
+      "zh": "管理",
+      "en": "administer",
+      "ipa": "[ədˈmɪnɪstər]",
+      "pos": "v.",
+      "gloss": "管理；执行；给予"
+    },
+    {
+      "i": 4,
+      "zh": "管理",
+      "en": "govern",
+      "ipa": "[ˈgəvərn]",
+      "pos": "v.",
+      "gloss": "管理；支配；统治；控制"
+    },
+    {
+      "i": 5,
+      "zh": "成功",
+      "en": "prosper",
+      "ipa": "[ˈprɑspər]",
+      "pos": "v.",
+      "gloss": "成功,兴隆,昌盛,使成功,使昌隆,繁荣"
+    },
+    {
+      "i": 6,
+      "zh": "必然",
+      "en": "certainty",
+      "ipa": "[ˈsərtənti]",
+      "pos": "n.",
+      "gloss": "必然,肯定;必然的事"
+    },
+    {
+      "i": 7,
+      "zh": "生命的",
+      "en": "vital",
+      "ipa": "[ˈvaɪtəl]",
+      "pos": "adj.",
+      "gloss": "生死攸关的,重大的；生命的,生机的"
+    },
+    {
+      "i": 8,
+      "zh": "创始人",
+      "en": "founder",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 9,
+      "skip": true
+    },
+    {
+      "i": 10,
+      "zh": "真实的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 11,
+      "skip": true
+    },
+    {
+      "i": 12,
+      "skip": true
+    },
+    {
+      "i": 13,
+      "zh": "整个",
+      "en": "altogether",
+      "ipa": "[ˌɔltəˈgɛðər]",
+      "pos": "n.",
+      "gloss": "整个；裸体"
+    },
+    {
+      "i": 14,
+      "zh": "大多数",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 15,
+      "zh": "进入",
+      "en": "entrance",
+      "ipa": "[ˈɛntrəns]",
+      "pos": "n.",
+      "gloss": "入口；进入"
+    },
+    {
+      "i": 16,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 17,
+      "zh": "需要",
+      "en": "entail",
+      "ipa": "[ɛnˈteɪl]",
+      "pos": "v.",
+      "gloss": "使需要，必需；承担；遗传给；蕴含"
+    },
+    {
+      "i": 18,
+      "zh": "满足",
+      "en": "cater",
+      "ipa": "[ˈkeɪtər]",
+      "pos": "v.",
+      "gloss": "(for)提供饮食及服务；(for/to)满足,迎合"
+    },
+    {
+      "i": 19,
+      "zh": "世界的",
+      "en": "universal",
+      "ipa": "[ˌjunəˈvərsəl]",
+      "pos": "adj.",
+      "gloss": "全体的,宇宙的,世界的；普遍的，通用的"
+    },
+    {
+      "i": 20,
+      "zh": "容易",
+      "en": "facilitate",
+      "ipa": "[fəˈsɪləˌteɪt]",
+      "pos": "v.",
+      "gloss": "促进；帮助；使容易"
+    },
+    {
+      "i": 21,
+      "skip": true
+    },
+    {
+      "i": 22,
+      "zh": "位置",
+      "en": "slot",
+      "ipa": "[slɑt]",
+      "pos": "n.",
+      "gloss": "位置；狭槽；水沟；硬币投币口"
+    },
+    {
+      "i": 23,
+      "zh": "刹车",
+      "en": "brake",
+      "ipa": "[breɪk]",
+      "pos": "v.",
+      "gloss": "刹车"
+    },
+    {
+      "i": 24,
+      "zh": "发表",
+      "en": "announce",
+      "ipa": "[əˈnaʊns]",
+      "pos": "v.",
+      "gloss": "正式宣布,发表"
+    },
+    {
+      "i": 25,
+      "zh": "重点",
+      "en": "emphasis",
+      "ipa": "[ˈɛmfəsɪs]",
+      "pos": "n.",
+      "gloss": "重点；强调；加强语气"
+    },
+    {
+      "i": 26,
+      "zh": "所以",
+      "en": "consequently",
+      "ipa": "[ˈkɑnsəkˌwɛntli]",
+      "pos": "adv.",
+      "gloss": "结果，因此，所以"
+    },
+    {
+      "i": 27,
+      "zh": "判断",
+      "en": "diagnose",
+      "ipa": "[ˌdaɪəgˈnoʊs]",
+      "pos": "v.",
+      "gloss": "诊断(疾病)；判断(问题)"
+    },
+    {
+      "i": 28,
+      "zh": "在于",
+      "en": "consist",
+      "ipa": "[kənˈsɪst]",
+      "pos": "v.",
+      "gloss": "(in)在于；(of)由…组成,由…构成"
+    },
+    {
+      "i": 29,
+      "zh": "决策",
+      "en": "counsel",
+      "ipa": "[ˈkaʊnsəl]",
+      "pos": "n.",
+      "gloss": "法律顾问；忠告；商议；讨论；决策"
+    },
+    {
+      "i": 30,
+      "zh": "幻觉",
+      "en": "illusion",
+      "ipa": "[ˌɪˈluʒən]",
+      "pos": "n.",
+      "gloss": "幻想，错误的观；错觉，幻觉，假象"
+    },
+    {
+      "i": 31,
+      "zh": "分配",
+      "en": "allocate",
+      "ipa": "[ˈæləˌkeɪt]",
+      "pos": "v.",
+      "gloss": "分配，分派；拨给"
+    },
+    {
+      "i": 32,
+      "zh": "部分",
+      "en": "highlight",
+      "ipa": "[ˈhaɪˌlaɪt]",
+      "pos": "n.",
+      "gloss": "最精彩的部分"
+    },
+    {
+      "i": 33,
+      "zh": "创新",
+      "en": "innovation",
+      "ipa": "[ˌɪnəˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "创新，革新；新方法"
+    },
+    {
+      "i": 34,
+      "zh": "结合",
+      "en": "bind",
+      "ipa": "[baɪnd]",
+      "pos": "v.",
+      "gloss": "结合；装订；有约束力；过紧"
+    },
+    {
+      "i": 35,
+      "zh": "成功",
+      "en": "succeed",
+      "ipa": "[səkˈsid]",
+      "pos": "v.",
+      "gloss": "成功；接替；继…之后"
+    },
+    {
+      "i": 36,
+      "zh": "失败",
+      "en": "collapse",
+      "ipa": "[kəˈlæps]",
+      "pos": "n.",
+      "gloss": "倒塌；失败；衰竭"
+    },
+    {
+      "i": 37,
+      "zh": "避开",
+      "en": "evade",
+      "ipa": "[ɪˈveɪd]",
+      "pos": "v.",
+      "gloss": "逃避，回避；避开，躲避；回避"
+    },
+    {
+      "i": 38,
+      "zh": "最好的",
+      "en": "crack",
+      "ipa": "[kræk]",
+      "pos": "adj.",
+      "gloss": "最好的；高明的"
+    },
+    {
+      "i": 39,
+      "zh": "消费",
+      "en": "consume",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 40,
+      "zh": "全球化",
+      "en": "globalization",
+      "ipa": "[ˌɡləʊbəlaɪˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "全球化"
+    },
+    {
+      "i": 41,
+      "zh": "成本",
+      "en": "costing",
+      "ipa": "[ˈkɒstɪŋ]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 42,
+      "zh": "差异",
+      "en": "discrepancy",
+      "ipa": "[dɪˈskrɛpənsi]",
+      "pos": "n.",
+      "gloss": "差异,不符"
+    },
+    {
+      "i": 43,
+      "zh": "清楚",
+      "en": "clarity",
+      "ipa": "[ˈklærəti]",
+      "pos": "n.",
+      "gloss": "清楚，明晰；透明"
+    },
+    {
+      "i": 44,
+      "zh": "满足",
+      "en": "fulfill",
+      "ipa": "[fʊlˈfɪl]",
+      "pos": "v.",
+      "gloss": "履行；实现；满足；使结束（等于fulfil）"
+    },
+    {
+      "i": 45,
+      "zh": "电子",
+      "en": "amplifier",
+      "ipa": "[ˈæmpləˌfaɪər]",
+      "pos": "n.",
+      "gloss": "[电子] 放大器，扩大器；扩音器"
+    },
+    {
+      "i": 46,
+      "zh": "层级",
+      "en": "hierarchy",
+      "ipa": "[ˈhaɪˌrɑrki]",
+      "pos": "n.",
+      "gloss": "层级；等级制度"
+    },
+    {
+      "i": 47,
+      "zh": "的位置",
+      "en": "shell",
+      "ipa": "[ʃɛl]",
+      "pos": "v.",
+      "gloss": "剥落；设定命令行解释器的位置"
+    },
+    {
+      "i": 48,
+      "skip": true
+    },
+    {
+      "i": 49,
+      "zh": "对手",
+      "en": "comparative",
+      "ipa": "[kəmˈpærətɪv]",
+      "pos": "n.",
+      "gloss": "比较级；对手"
+    },
+    {
+      "i": 50,
+      "zh": "更好的",
+      "en": "preferable",
+      "ipa": "[ˈprɛfərəbəl]",
+      "pos": "adj.",
+      "gloss": "更好的，更可取的；更合意的"
+    },
+    {
+      "i": 51,
+      "skip": true
+    },
+    {
+      "i": 52,
+      "zh": "循环",
+      "en": "circulate",
+      "ipa": "[ˈsərkjəˌleɪt]",
+      "pos": "v.",
+      "gloss": "(使)循环,(使)流通"
+    },
+    {
+      "i": 53,
+      "zh": "资源",
+      "en": "resource",
+      "ipa": "[rɪˈsɔːs]",
+      "pos": "n.",
+      "gloss": "资源，财力；办法；智谋"
+    },
+    {
+      "i": 54,
+      "zh": "渠道",
+      "en": "avenue",
+      "ipa": "[ˈævəˌnu]",
+      "pos": "n.",
+      "gloss": "大街；林荫路；途径，渠道，方法"
+    },
+    {
+      "i": 55,
+      "zh": "追求",
+      "en": "ambition",
+      "ipa": "[æmˈbɪʃən]",
+      "pos": "v.",
+      "gloss": "追求；有…野心"
+    },
+    {
+      "i": 56,
+      "zh": "人类",
+      "en": "humanity",
+      "ipa": "[juˈmænɪti]",
+      "pos": "n.",
+      "gloss": "人类；人性,人情；(pl.)人文科学"
+    },
+    {
+      "i": 57,
+      "zh": "加速",
+      "en": "accelerate",
+      "ipa": "[ækˈsɛlərˌeɪt]",
+      "pos": "v.",
+      "gloss": "使加速，使增速，促进；加速"
+    },
+    {
+      "i": 58,
+      "zh": "关键",
+      "en": "hinge",
+      "ipa": "[hɪnʤ]",
+      "pos": "n.",
+      "gloss": "铰链，折叶；关键，转折点；枢要，中枢"
+    },
+    {
+      "i": 59,
+      "zh": "制造业",
+      "en": "manufacture",
+      "ipa": "[ˌmænjʊˈfæktʃə]",
+      "pos": "n.",
+      "gloss": "制造,制造业"
+    },
+    {
+      "i": 60,
+      "zh": "投入",
+      "en": "input",
+      "ipa": "[ˈɪnˌpʊt]",
+      "pos": "n.",
+      "gloss": "投入；输入电路"
+    },
+    {
+      "i": 61,
+      "skip": true
+    },
+    {
+      "i": 62,
+      "zh": "情况",
+      "en": "circumstance",
+      "ipa": "[ˈsərkəmˌstæns]",
+      "pos": "n.",
+      "gloss": "情况，情形"
+    },
+    {
+      "i": 63,
+      "zh": "很多",
+      "en": "lump",
+      "ipa": "[ləmp]",
+      "pos": "n.",
+      "gloss": "块，块状；肿块；瘤；很多；笨人"
+    },
+    {
+      "i": 64,
+      "zh": "领导",
+      "en": "guidance",
+      "ipa": "[ˈgaɪdəns]",
+      "pos": "n.",
+      "gloss": "指导，引导；领导"
+    },
+    {
+      "i": 65,
+      "zh": "的事",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑；渴望；挂念；令人焦虑的事"
+    },
+    {
+      "i": 66,
+      "zh": "假定",
+      "en": "assumption",
+      "ipa": "[əˈsəmpʃən]",
+      "pos": "n.",
+      "gloss": "假定，设想；采取；承担"
+    },
+    {
+      "i": 67,
+      "zh": "确定",
+      "en": "ascertain",
+      "ipa": "[ˌæsərˈteɪn]",
+      "pos": "v.",
+      "gloss": "确定，查明，弄清"
+    },
+    {
+      "i": 68,
+      "zh": "本质",
+      "en": "entity",
+      "ipa": "[ˈɛntɪti]",
+      "pos": "n.",
+      "gloss": "实体；存在；本质"
+    },
+    {
+      "i": 69,
+      "zh": "总结",
+      "en": "summarize",
+      "ipa": "[ˈsəmərˌaɪz]",
+      "pos": "v.",
+      "gloss": "(summarise)概括,总结"
+    },
+    {
+      "i": 70,
+      "zh": "假设",
+      "en": "hypothesis",
+      "ipa": "[haɪˈpɑθəsəs]",
+      "pos": "n.",
+      "gloss": "假设"
+    },
+    {
+      "i": 71,
+      "zh": "反馈",
+      "en": "feedback",
+      "ipa": "[ˈfidˌbæk]",
+      "pos": "n.",
+      "gloss": "反馈；成果，资料；回复"
+    },
+    {
+      "i": 72,
+      "skip": true
+    },
+    {
+      "i": 73,
+      "skip": true
+    },
+    {
+      "i": 74,
+      "zh": "不喜欢",
+      "en": "dislike",
+      "ipa": "[dɪsˈlaɪk]",
+      "pos": "v.",
+      "gloss": "不喜欢，厌恶"
+    },
+    {
+      "i": 75,
+      "zh": "理解",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 76,
+      "zh": "神话",
+      "en": "myth",
+      "ipa": "[mɪθ]",
+      "pos": "n.",
+      "gloss": "神话；虚构的人，虚构的事"
+    },
+    {
+      "i": 77,
+      "skip": true
+    },
+    {
+      "i": 78,
+      "zh": "后面",
+      "en": "rear",
+      "ipa": "[rɪr]",
+      "pos": "n.",
+      "gloss": "后面；屁股；后方部队"
+    },
+    {
+      "i": 79,
+      "skip": true
+    },
+    {
+      "i": 80,
+      "zh": "传播",
+      "en": "diffuse",
+      "ipa": "[dɪfˈjuz]",
+      "pos": "v.",
+      "gloss": "扩散；传播"
+    },
+    {
+      "i": 81,
+      "zh": "部分",
+      "en": "installment",
+      "ipa": "[ˌɪnˈstɔlmənt]",
+      "pos": "n.",
+      "gloss": "安装；分期付款；部分；就职"
+    },
+    {
+      "i": 82,
+      "zh": "厌恶",
+      "en": "disgust",
+      "ipa": "[dɪsˈgəst]",
+      "pos": "n.",
+      "gloss": "厌恶，嫌恶"
+    },
+    {
+      "i": 83,
+      "zh": "同时",
+      "en": "meantime",
+      "ipa": "[ˈminˌtaɪm]",
+      "pos": "adv.",
+      "gloss": "同时；其间"
+    },
+    {
+      "i": 84,
+      "skip": true
+    },
+    {
+      "i": 85,
+      "zh": "汽车",
+      "en": "auto",
+      "ipa": "[ˈɔtoʊ]",
+      "pos": "n.",
+      "gloss": "汽车（等于automobile）；自动"
+    },
+    {
+      "i": 86,
+      "zh": "溢价",
+      "en": "premium",
+      "ipa": "[ˈpriːmiəm]",
+      "pos": "n.",
+      "gloss": "额外费用；奖金；保险费;(商)溢价"
+    },
+    {
+      "i": 87,
+      "zh": "一点",
+      "en": "epoch",
+      "ipa": "[ˈɛpək]",
+      "pos": "n.",
+      "gloss": "[地质] 世；新纪元；新时代；时间上的一点"
+    },
+    {
+      "i": 88,
+      "zh": "实现",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 89,
+      "zh": "培养",
+      "en": "cultivate",
+      "ipa": "[ˈkʌltɪveɪt]",
+      "pos": "vt.",
+      "gloss": "耕作， 栽培； 养殖；培养， 教养； 磨炼"
+    },
+    {
+      "i": 90,
+      "zh": "培养",
+      "en": "educate",
+      "ipa": "[ˈɛʤəˌkeɪt]",
+      "pos": "v.",
+      "gloss": "教育,培养,训练"
+    },
+    {
+      "i": 91,
+      "skip": true
+    },
+    {
+      "i": 92,
+      "zh": "复制的",
+      "en": "duplicate",
+      "ipa": "[ˈdupləˌkeɪt]",
+      "pos": "adj.",
+      "gloss": "复制的；二重的"
+    },
+    {
+      "i": 93,
+      "zh": "高度",
+      "en": "altitude",
+      "ipa": "[ˈæltɪtjuːd]",
+      "pos": "n.",
+      "gloss": "高度， 海拔"
+    },
+    {
+      "i": 94,
+      "zh": "复制",
+      "en": "clone",
+      "ipa": "[kloʊn]",
+      "pos": "v.",
+      "gloss": "无性繁殖，复制"
+    },
+    {
+      "i": 95,
+      "zh": "相当于",
+      "en": "correspond",
+      "ipa": "[ˌkɔrəˈspɑnd]",
+      "pos": "vi.",
+      "gloss": "通信；符合， 一致；相当于， 对应"
+    },
+    {
+      "i": 96,
+      "zh": "边界",
+      "en": "boundary",
+      "ipa": "[ˈbaʊndəri]",
+      "pos": "n.",
+      "gloss": "边界；范围；分界线"
+    },
+    {
+      "i": 97,
+      "zh": "最重要的",
+      "en": "foremost",
+      "ipa": "[ˈfɔrˌmoʊst]",
+      "pos": "adj.",
+      "gloss": "最重要的；最先的"
+    },
+    {
+      "i": 98,
+      "skip": true
+    },
+    {
+      "i": 99,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 100,
+      "zh": "方向",
+      "en": "orientation",
+      "ipa": "[ˌɔriɛnˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "方向；定向；适应；情况介绍；向东方"
+    },
+    {
+      "i": 101,
+      "zh": "下去",
+      "en": "descend",
+      "ipa": "[dɪˈsɛnd]",
+      "pos": "v.",
+      "gloss": "下降；下去；下来；遗传；屈尊"
+    },
+    {
+      "i": 102,
+      "zh": "环境",
+      "en": "surroundings",
+      "ipa": "[sərˈaʊndɪŋz]",
+      "pos": "n.",
+      "gloss": "环境；周围的事物"
+    },
+    {
+      "i": 103,
+      "zh": "模仿",
+      "en": "ape",
+      "ipa": "[eɪp]",
+      "pos": "vt.",
+      "gloss": "模仿"
+    },
+    {
+      "i": 104,
+      "zh": "公司",
+      "en": "establishment",
+      "ipa": "[ɪˈstæblɪʃmənt]",
+      "pos": "n.",
+      "gloss": "确立，制定；公司；设施"
+    },
+    {
+      "i": 105,
+      "zh": "优势",
+      "en": "superiority",
+      "ipa": "[ˌsupɪriˈɔrɪti]",
+      "pos": "n.",
+      "gloss": "优越，优势；优越性"
+    },
+    {
+      "i": 106,
+      "zh": "对话",
+      "en": "dialog",
+      "ipa": "[ˈdaɪəlɔg]",
+      "pos": "n.",
+      "gloss": "(dialogue)对话,对白"
+    }
+  ]
+}
