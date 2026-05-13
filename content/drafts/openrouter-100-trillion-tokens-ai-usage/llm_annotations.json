@@ -1,0 +1,1013 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "简单",
+      "en": "simplicity",
+      "ipa": "[sɪmˈplɪsɪti]",
+      "pos": "n.",
+      "gloss": "简单,简易;朴素;直率,单纯"
+    },
+    {
+      "i": 1,
+      "zh": "输入",
+      "en": "import",
+      "ipa": "[ˌɪmˈpɔrt]",
+      "pos": "v.",
+      "gloss": "进口,输入"
+    },
+    {
+      "i": 2,
+      "zh": "整个",
+      "en": "altogether",
+      "ipa": "[ˌɔltəˈgɛðər]",
+      "pos": "n.",
+      "gloss": "整个；裸体"
+    },
+    {
+      "i": 3,
+      "zh": "完成",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 4,
+      "zh": "巨大的",
+      "en": "enormous",
+      "ipa": "[ɪˈnɔrmɪs]",
+      "pos": "adj.",
+      "gloss": "庞大的，巨大的；凶暴的，极恶的"
+    },
+    {
+      "i": 5,
+      "zh": "报告",
+      "en": "inform",
+      "ipa": "[ˌɪnˈfɔrm]",
+      "pos": "v.",
+      "gloss": "(of,about)通知,告诉,报告"
+    },
+    {
+      "i": 6,
+      "zh": "提供商",
+      "en": "provider",
+      "ipa": "[prəˈvaɪdə]",
+      "pos": "n.",
+      "gloss": "提供商"
+    },
+    {
+      "i": 7,
+      "zh": "不同的",
+      "en": "diverse",
+      "ipa": "[dɪˈvərs]",
+      "pos": "adj.",
+      "gloss": "多种多样的,不同的"
+    },
+    {
+      "i": 8,
+      "zh": "占据",
+      "en": "inhabit",
+      "ipa": "[ˌɪnˈhæbət]",
+      "pos": "v.",
+      "gloss": "栖息；居住于；占据"
+    },
+    {
+      "i": 9,
+      "zh": "增速",
+      "en": "accelerate",
+      "ipa": "[ækˈsɛlərˌeɪt]",
+      "pos": "v.",
+      "gloss": "使加速，使增速，促进；加速"
+    },
+    {
+      "i": 10,
+      "zh": "真正的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 11,
+      "zh": "意外的",
+      "en": "accidental",
+      "ipa": "[ˌæksəˈdɛnəl]",
+      "pos": "adj.",
+      "gloss": "偶然的；意外的；无意中的"
+    },
+    {
+      "i": 12,
+      "zh": "娱乐",
+      "en": "amuse",
+      "ipa": "[əmˈjuz]",
+      "pos": "v.",
+      "gloss": "娱乐；消遣；使发笑；使愉快"
+    },
+    {
+      "i": 13,
+      "zh": "推理",
+      "en": "inference",
+      "ipa": "[ˈɪnfərəns]",
+      "pos": "n.",
+      "gloss": "推理；推论；推断"
+    },
+    {
+      "i": 14,
+      "zh": "大多数",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 15,
+      "zh": "简单的",
+      "en": "gut",
+      "ipa": "[gət]",
+      "pos": "adj.",
+      "gloss": "简单的；本质的，根本的；本能的，直觉的"
+    },
+    {
+      "i": 16,
+      "zh": "关于",
+      "en": "concerning",
+      "ipa": "[kənˈsərnɪŋ]",
+      "pos": "prep.",
+      "gloss": "关于；就…而言"
+    },
+    {
+      "i": 17,
+      "skip": true
+    },
+    {
+      "i": 18,
+      "zh": "微乎其微",
+      "en": "remote",
+      "ipa": "[rɪˈmoʊt]",
+      "pos": "adj.",
+      "gloss": "偏僻的；远的,遥远的；疏远的；渺茫的，微乎其微的"
+    },
+    {
+      "i": 19,
+      "zh": "接近",
+      "en": "approximate",
+      "ipa": "[əˈprɑksəˌmeɪt]",
+      "pos": "v.",
+      "gloss": "(to)接近"
+    },
+    {
+      "i": 20,
+      "zh": "转折点",
+      "en": "hinge",
+      "ipa": "[hɪnʤ]",
+      "pos": "n.",
+      "gloss": "铰链，折叶；关键，转折点；枢要，中枢"
+    },
+    {
+      "i": 21,
+      "zh": "明显的",
+      "en": "conspicuous",
+      "ipa": "[kənˈspɪkjuəs]",
+      "pos": "adj.",
+      "gloss": "显眼的,明显的"
+    },
+    {
+      "i": 22,
+      "zh": "重要的",
+      "en": "crucial",
+      "ipa": "[ˈkruːʃl]",
+      "pos": "adj.",
+      "gloss": "重要的；决定性的；定局的；决断的"
+    },
+    {
+      "i": 23,
+      "zh": "内部的",
+      "en": "inner",
+      "ipa": "[ˈɪnər]",
+      "pos": "adj.",
+      "gloss": "内部的， 里面的；内心的"
+    },
+    {
+      "i": 24,
+      "zh": "占据",
+      "en": "occupation",
+      "ipa": "[ˌɑkjəˈpeɪʃən]",
+      "pos": "n.",
+      "gloss": "职业,工作；占领,占据"
+    },
+    {
+      "i": 25,
+      "zh": "超过",
+      "en": "exceed",
+      "ipa": "[ɪkˈsid]",
+      "pos": "v.",
+      "gloss": "超过,胜过；越出 (限制、规定)"
+    },
+    {
+      "i": 26,
+      "zh": "不同",
+      "en": "differ",
+      "ipa": "[ˈdɪfər]",
+      "pos": "v.",
+      "gloss": "使…相异；使…不同"
+    },
+    {
+      "i": 27,
+      "zh": "挑战",
+      "en": "dare",
+      "ipa": "[dɛr]",
+      "pos": "n.",
+      "gloss": "挑战；挑动"
+    },
+    {
+      "i": 28,
+      "zh": "获得",
+      "en": "acquire",
+      "ipa": "[əkˈwaɪər]",
+      "pos": "v.",
+      "gloss": "获得；取得；学到；捕获"
+    },
+    {
+      "i": 29,
+      "zh": "停止",
+      "en": "cease",
+      "ipa": "[sis]",
+      "pos": "v.",
+      "gloss": "停止；终了"
+    },
+    {
+      "i": 30,
+      "zh": "超过",
+      "en": "excel",
+      "ipa": "[ɪkˈsɛl]",
+      "pos": "v.",
+      "gloss": "超过；擅长"
+    },
+    {
+      "i": 31,
+      "zh": "出乎意料",
+      "en": "revelation",
+      "ipa": "[ˌrɛvəˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "启示；揭露；出乎意料的事；被揭露的真相"
+    },
+    {
+      "i": 32,
+      "zh": "任务",
+      "en": "assignment",
+      "ipa": "[əˈsaɪnmənt]",
+      "pos": "n.",
+      "gloss": "任务；作业"
+    },
+    {
+      "i": 33,
+      "zh": "比例",
+      "en": "proportion",
+      "ipa": "[prəˈpɔrʃən]",
+      "pos": "n.",
+      "gloss": "部分；比例；均衡,相称"
+    },
+    {
+      "i": 34,
+      "zh": "模拟",
+      "en": "analog",
+      "ipa": "[ˈænəˌlɔg]",
+      "pos": "n.",
+      "gloss": "类似物； 模拟"
+    },
+    {
+      "i": 35,
+      "zh": "伙伴",
+      "en": "ally",
+      "ipa": "[ˈælaɪ]",
+      "pos": "n.",
+      "gloss": "同盟国；伙伴；同盟者；助手"
+    },
+    {
+      "i": 36,
+      "zh": "明显的",
+      "en": "distinct",
+      "ipa": "[dɪˈstɪŋkt]",
+      "pos": "adj.",
+      "gloss": "明显的；独特的；清楚的；有区别的"
+    },
+    {
+      "i": 37,
+      "zh": "欢迎",
+      "en": "greeting",
+      "ipa": "[ˈɡriːtɪŋ]",
+      "pos": "v.",
+      "gloss": "致敬，欢迎（greet的现在分词）"
+    },
+    {
+      "i": 38,
+      "zh": "严格的",
+      "en": "rigid",
+      "ipa": "[ˈrɪdʒɪd]",
+      "pos": "adj.",
+      "gloss": "严格的；僵硬的，死板的；坚硬的；精确的"
+    },
+    {
+      "i": 39,
+      "zh": "部署",
+      "en": "array",
+      "ipa": "[əreɪ]",
+      "pos": "v.",
+      "gloss": "排列，部署；打扮"
+    },
+    {
+      "i": 40,
+      "zh": "有吸引力",
+      "en": "magnetic",
+      "ipa": "[mægˈnɛtɪk]",
+      "pos": "adj.",
+      "gloss": "地磁的；有磁性的；有吸引力的"
+    },
+    {
+      "i": 41,
+      "zh": "快的",
+      "en": "swift",
+      "ipa": "[swɪft]",
+      "pos": "adj.",
+      "gloss": "快的；迅速的；敏捷的；立刻的"
+    },
+    {
+      "i": 42,
+      "skip": true
+    },
+    {
+      "i": 43,
+      "zh": "超过",
+      "en": "overhaul",
+      "ipa": "[ˈoʊvərˌhɔl]",
+      "pos": "vt.",
+      "gloss": "彻底检修；赶上， 超过"
+    },
+    {
+      "i": 44,
+      "zh": "方式",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adv.",
+      "gloss": "以同样的方式；类似于"
+    },
+    {
+      "i": 45,
+      "zh": "日常工作",
+      "en": "harness",
+      "ipa": "[ˈhɑrnɪs]",
+      "pos": "n.",
+      "gloss": "马具；甲胄；挽具状带子；降落伞背带；日常工作"
+    },
+    {
+      "i": 46,
+      "zh": "占据",
+      "en": "occupy",
+      "ipa": "[ˈɑkjəˌpaɪ]",
+      "pos": "v.",
+      "gloss": "占,占用；占据,占领；使忙碌,使从事"
+    },
+    {
+      "i": 47,
+      "zh": "间里",
+      "en": "closet",
+      "ipa": "[ˈklɑzət]",
+      "pos": "v.",
+      "gloss": "把…引进密室会谈；把…关在小房间里"
+    },
+    {
+      "i": 48,
+      "zh": "上升",
+      "en": "arise",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 49,
+      "zh": "竞争",
+      "en": "compete",
+      "ipa": "[kəmˈpiːt]",
+      "pos": "v.",
+      "gloss": "竞争；争夺，竞争"
+    },
+    {
+      "i": 50,
+      "zh": "一批",
+      "en": "batch",
+      "ipa": "[bæʧ]",
+      "pos": "n.",
+      "gloss": "一批,一组,一群"
+    },
+    {
+      "i": 51,
+      "zh": "包含",
+      "en": "comprehend",
+      "ipa": "[ˌkɑmpriˈhɛnd]",
+      "pos": "v.",
+      "gloss": "理解；包含；由…组成"
+    },
+    {
+      "i": 52,
+      "zh": "输入",
+      "en": "input",
+      "ipa": "[ˈɪnˌpʊt]",
+      "pos": "v.",
+      "gloss": "[自][电子] 输入；将…输入电脑"
+    },
+    {
+      "i": 53,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 54,
+      "zh": "意识到",
+      "en": "alert",
+      "ipa": "[əˈlərt]",
+      "pos": "v.",
+      "gloss": "警告；使警觉，使意识到"
+    },
+    {
+      "i": 55,
+      "zh": "区别",
+      "en": "differentiate",
+      "ipa": "[ˌdɪfərˈɛnʧiˌeɪt]",
+      "pos": "v.",
+      "gloss": "区分，区别"
+    },
+    {
+      "i": 56,
+      "zh": "内部",
+      "en": "bosom",
+      "ipa": "[ˈbʊzəm]",
+      "pos": "n.",
+      "gloss": "胸；胸怀；中间；胸襟；内心；乳房；内部"
+    },
+    {
+      "i": 57,
+      "zh": "认可",
+      "en": "acceptance",
+      "ipa": "[əkˈsɛptəns]",
+      "pos": "n.",
+      "gloss": "正式接受；接纳；接受，赞同，赞成，认可"
+    },
+    {
+      "i": 58,
+      "skip": true
+    },
+    {
+      "i": 59,
+      "zh": "趋势",
+      "en": "drift",
+      "ipa": "[drɪft]",
+      "pos": "n.",
+      "gloss": "漂流，漂移；趋势；漂流物"
+    },
+    {
+      "i": 60,
+      "zh": "数据库",
+      "en": "database",
+      "ipa": "[ˈdætəˌbeɪs]",
+      "pos": "n.",
+      "gloss": "数据库"
+    },
+    {
+      "i": 61,
+      "zh": "稳定的",
+      "en": "stable",
+      "ipa": "[ˈsteɪbəl]",
+      "pos": "adj.",
+      "gloss": "稳定的；牢固的；坚定的"
+    },
+    {
+      "i": 62,
+      "zh": "表现突出",
+      "en": "distinguish",
+      "ipa": "[dɪˈstɪŋgwɪʃ]",
+      "pos": "v.",
+      "gloss": "区分；辨别；使杰出，使表现突出"
+    },
+    {
+      "i": 63,
+      "zh": "下降",
+      "en": "decline",
+      "ipa": "[dɪˈklaɪn]",
+      "pos": "n.",
+      "gloss": "下降；衰退；斜面"
+    },
+    {
+      "i": 64,
+      "zh": "有趣的",
+      "en": "comic",
+      "ipa": "[ˈkɑmɪk]",
+      "pos": "adj.",
+      "gloss": "喜剧的；滑稽的；有趣的"
+    },
+    {
+      "i": 65,
+      "zh": "喜爱",
+      "en": "adore",
+      "ipa": "[əˈdɔr]",
+      "pos": "v.",
+      "gloss": "崇拜；爱慕；喜爱；极喜欢"
+    },
+    {
+      "i": 66,
+      "zh": "研究",
+      "en": "enquiry",
+      "ipa": "[ɪnkˈwaɪˌri]",
+      "pos": "n.",
+      "gloss": "打听， 询问；调查， 研究"
+    },
+    {
+      "i": 67,
+      "zh": "上升",
+      "en": "ascend",
+      "ipa": "[əˈsɛnd]",
+      "pos": "v.",
+      "gloss": "上升；登高；追溯"
+    },
+    {
+      "i": 68,
+      "zh": "趋势",
+      "en": "tendency",
+      "ipa": "[ˈtɛndənsi]",
+      "pos": "n.",
+      "gloss": "倾向，趋势；癖好"
+    },
+    {
+      "i": 69,
+      "zh": "可能",
+      "en": "likelihood",
+      "ipa": "[ˈlaɪkliˌhʊd]",
+      "pos": "n.",
+      "gloss": "可能性，可能"
+    },
+    {
+      "i": 70,
+      "zh": "追求",
+      "en": "ambition",
+      "ipa": "[æmˈbɪʃən]",
+      "pos": "v.",
+      "gloss": "追求；有…野心"
+    },
+    {
+      "i": 71,
+      "zh": "甜蜜",
+      "en": "honey",
+      "ipa": "[ˈhəni]",
+      "pos": "n.",
+      "gloss": "蜂蜜；宝贝；甜蜜"
+    },
+    {
+      "i": 72,
+      "zh": "更便宜",
+      "en": "cheaper",
+      "ipa": "[ˈtʃiːpə]",
+      "pos": "adj.",
+      "gloss": "更便宜"
+    },
+    {
+      "i": 73,
+      "zh": "获得",
+      "en": "acquisition",
+      "ipa": "[ˌækwɪˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "获得物，获得；收购"
+    },
+    {
+      "i": 74,
+      "zh": "格局",
+      "en": "landscape",
+      "ipa": "[ˈlændskeɪp]",
+      "pos": "n.",
+      "gloss": "格局"
+    },
+    {
+      "i": 75,
+      "zh": "各自的",
+      "en": "respective",
+      "ipa": "[rɪˈspɛktɪv]",
+      "pos": "adj.",
+      "gloss": "各自的,各个的"
+    },
+    {
+      "i": 76,
+      "zh": "选择",
+      "en": "elect",
+      "ipa": "[ɪˈlɛkt]",
+      "pos": "v.",
+      "gloss": "选举,推选；选择,作出选择"
+    },
+    {
+      "i": 77,
+      "zh": "提供",
+      "en": "furnish",
+      "ipa": "[ˈfərnɪʃ]",
+      "pos": "v.",
+      "gloss": "供应,提供；装备,布置"
+    },
+    {
+      "i": 78,
+      "zh": "几乎",
+      "en": "practically",
+      "ipa": "[ˈpræktɪkəli]",
+      "pos": "adv.",
+      "gloss": "实际地；几乎；事实上"
+    },
+    {
+      "i": 79,
+      "zh": "忽略",
+      "en": "neglect",
+      "ipa": "[nɪˈglɛkt]",
+      "pos": "v.",
+      "gloss": "忽视，忽略"
+    },
+    {
+      "i": 80,
+      "skip": true
+    },
+    {
+      "i": 81,
+      "zh": "研究",
+      "en": "investigate",
+      "ipa": "[ˌɪnˈvɛstəˌgeɪt]",
+      "pos": "v.",
+      "gloss": "调查；研究"
+    },
+    {
+      "i": 82,
+      "zh": "认知",
+      "en": "cognition",
+      "ipa": "[kɒɡˈnɪʃn]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 83,
+      "zh": "关系",
+      "en": "bearing",
+      "ipa": "[ˈbɛrɪŋ]",
+      "pos": "n.",
+      "gloss": "[机] 轴承；关系；方位；举止"
+    },
+    {
+      "i": 84,
+      "zh": "对话",
+      "en": "dialog",
+      "ipa": "[ˈdaɪəlɔg]",
+      "pos": "n.",
+      "gloss": "(dialogue)对话,对白"
+    },
+    {
+      "i": 85,
+      "zh": "说明",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "确定，说明，界定；给…下定义，解释"
+    },
+    {
+      "i": 86,
+      "zh": "优势",
+      "en": "superiority",
+      "ipa": "[ˌsupɪriˈɔrɪti]",
+      "pos": "n.",
+      "gloss": "优越，优势；优越性"
+    },
+    {
+      "i": 87,
+      "skip": true
+    },
+    {
+      "i": 88,
+      "zh": "忠诚的",
+      "en": "loyal",
+      "ipa": "[lɔɪəl]",
+      "pos": "adj.",
+      "gloss": "(to)忠诚的,忠贞的"
+    },
+    {
+      "i": 89,
+      "skip": true
+    },
+    {
+      "i": 90,
+      "zh": "保持",
+      "en": "conservation",
+      "ipa": "[ˌkɑnsərˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "保存，保持；保护"
+    },
+    {
+      "i": 91,
+      "zh": "后来",
+      "en": "afterward",
+      "ipa": "[ˈæftərwərd]",
+      "pos": "adv.",
+      "gloss": "以后，后来"
+    },
+    {
+      "i": 92,
+      "zh": "类似的",
+      "en": "analogue",
+      "ipa": "[ˈænəˌlɔg]",
+      "pos": "adj.",
+      "gloss": "类似的；相似物的；模拟计算机的"
+    },
+    {
+      "i": 93,
+      "zh": "姑娘",
+      "en": "bride",
+      "ipa": "[braɪd]",
+      "pos": "n.",
+      "gloss": "新娘；姑娘，女朋友"
+    },
+    {
+      "i": 94,
+      "zh": "满足",
+      "en": "cater",
+      "ipa": "[ˈkeɪtər]",
+      "pos": "v.",
+      "gloss": "(for)提供饮食及服务；(for/to)满足,迎合"
+    },
+    {
+      "i": 95,
+      "zh": "强烈的",
+      "en": "fierce",
+      "ipa": "[fɪrs]",
+      "pos": "adj.",
+      "gloss": "凶猛的,残忍的；狂热的,强烈的"
+    },
+    {
+      "i": 96,
+      "zh": "建立",
+      "en": "constitute",
+      "ipa": "[ˈkɑnstəˌtut]",
+      "pos": "v.",
+      "gloss": "组成，构成；建立；任命"
+    },
+    {
+      "i": 97,
+      "zh": "稳定的",
+      "en": "steady",
+      "ipa": "[ˈstɛdi]",
+      "pos": "adj.",
+      "gloss": "稳定的；不变的；沉着的"
+    },
+    {
+      "i": 98,
+      "zh": "曲线",
+      "en": "curve",
+      "ipa": "[kərv]",
+      "pos": "n.",
+      "gloss": "曲线,弯曲(物)"
+    },
+    {
+      "i": 99,
+      "zh": "意味着",
+      "en": "spelling",
+      "ipa": "[ˈspɛlɪŋ]",
+      "pos": "v.",
+      "gloss": "拼写；意味着（spell的ing形式）；迷住"
+    },
+    {
+      "i": 100,
+      "zh": "抓住",
+      "en": "collar",
+      "ipa": "[ˈkɑlər]",
+      "pos": "v.",
+      "gloss": "抓住；给…上领子；给…套上颈圈"
+    },
+    {
+      "i": 101,
+      "zh": "复杂",
+      "en": "complication",
+      "ipa": "[ˌkɑmpləˈkeɪʃən]",
+      "pos": "n.",
+      "gloss": "并发症；复杂；复杂化；混乱"
+    },
+    {
+      "i": 102,
+      "zh": "提示",
+      "en": "cue",
+      "ipa": "[kju]",
+      "pos": "n.",
+      "gloss": "提示，暗示；线索"
+    },
+    {
+      "i": 103,
+      "zh": "现在",
+      "en": "presently",
+      "ipa": "[ˈprɛzəntli]",
+      "pos": "adv.",
+      "gloss": "一会儿,不久；现在,目前"
+    },
+    {
+      "i": 104,
+      "zh": "类似的",
+      "en": "comparable",
+      "ipa": "[ˈkɑmprəbəl]",
+      "pos": "adj.",
+      "gloss": "类似的，相当的；可相比的"
+    },
+    {
+      "i": 105,
+      "zh": "复杂化",
+      "en": "perplex",
+      "ipa": "[pərˈplɛks]",
+      "pos": "v.",
+      "gloss": "使困惑，使为难；使复杂化"
+    },
+    {
+      "i": 106,
+      "zh": "变复杂",
+      "en": "complicate",
+      "ipa": "[ˈkɑmpləˌkeɪt]",
+      "pos": "v.",
+      "gloss": "变复杂"
+    },
+    {
+      "i": 107,
+      "zh": "大量的",
+      "en": "extensive",
+      "ipa": "[ɪkˈstensɪv]",
+      "pos": "adj.",
+      "gloss": "广泛的；大量的；广阔的"
+    },
+    {
+      "i": 108,
+      "zh": "分析",
+      "en": "analyze",
+      "ipa": "[ˈænəˌlaɪz]",
+      "pos": "vt.",
+      "gloss": "分析； 分解"
+    },
+    {
+      "i": 109,
+      "zh": "成本",
+      "en": "costing",
+      "ipa": "[ˈkɒstɪŋ]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 110,
+      "zh": "发现",
+      "en": "discover",
+      "ipa": "[dɪˈskəvər]",
+      "pos": "v.",
+      "gloss": "发现"
+    },
+    {
+      "i": 111,
+      "zh": "几乎没有",
+      "en": "scarce",
+      "ipa": "[skɛrs]",
+      "pos": "adv.",
+      "gloss": "仅仅；几乎不；几乎没有"
+    },
+    {
+      "i": 112,
+      "zh": "发现",
+      "en": "discovery",
+      "ipa": "[dɪˈskʌvəri]",
+      "pos": "n.",
+      "gloss": "被发现的事物；发现"
+    },
+    {
+      "i": 113,
+      "skip": true
+    },
+    {
+      "i": 114,
+      "zh": "上升",
+      "en": "climb",
+      "ipa": "[klaɪm]",
+      "pos": "v.",
+      "gloss": "爬；攀登；上升"
+    },
+    {
+      "i": 115,
+      "zh": "纯粹的",
+      "en": "sheer",
+      "ipa": "[ʃɪr]",
+      "pos": "adj.",
+      "gloss": "绝对的；透明的；峻峭的；纯粹的"
+    },
+    {
+      "i": 116,
+      "zh": "可靠性",
+      "en": "reliability",
+      "ipa": "[rɪˌlaɪəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "可靠性"
+    },
+    {
+      "i": 117,
+      "zh": "非常",
+      "en": "deadly",
+      "ipa": "[ˈdɛdli]",
+      "pos": "adv.",
+      "gloss": "非常；如死一般地"
+    },
+    {
+      "i": 118,
+      "zh": "更好的",
+      "en": "preferable",
+      "ipa": "[ˈprɛfərəbəl]",
+      "pos": "adj.",
+      "gloss": "更好的，更可取的；更合意的"
+    },
+    {
+      "i": 119,
+      "zh": "倾向",
+      "en": "disposition",
+      "ipa": "[ˌdɪspəˈzɪʃən]",
+      "pos": "n.",
+      "gloss": "性格；排列,部署；倾向,意向"
+    },
+    {
+      "i": 120,
+      "zh": "形成",
+      "en": "formation",
+      "ipa": "[fɔrˈmeɪʃən]",
+      "pos": "n.",
+      "gloss": "形成;构成;组织;构造;编制;塑造"
+    },
+    {
+      "i": 121,
+      "zh": "互相影响",
+      "en": "interact",
+      "ipa": "[ˌɪnərˈækt]",
+      "pos": "v.",
+      "gloss": "互相作用,互相影响"
+    },
+    {
+      "i": 122,
+      "zh": "一下",
+      "en": "stroke",
+      "ipa": "[stroʊk]",
+      "pos": "n.",
+      "gloss": "（游泳或划船的）划；中风；（打、击等的）一下；冲程；（成功的）举动；尝试；轻抚"
+    },
+    {
+      "i": 123,
+      "zh": "传统的",
+      "en": "classical",
+      "ipa": "[ˈklæsɪkəl]",
+      "pos": "adj.",
+      "gloss": "古典的；经典的；传统的；第一流的"
+    },
+    {
+      "i": 124,
+      "zh": "清晰的",
+      "en": "plain",
+      "ipa": "[pleɪn]",
+      "pos": "adj.",
+      "gloss": "平的；简单的；朴素的；清晰的"
+    },
+    {
+      "i": 125,
+      "zh": "重要",
+      "en": "magnitude",
+      "ipa": "[ˈmægnəˌtud]",
+      "pos": "n.",
+      "gloss": "大小；量级；[地震] 震级；重要；光度"
+    },
+    {
+      "i": 126,
+      "zh": "追求",
+      "en": "aspire",
+      "ipa": "[əˈspaɪr]",
+      "pos": "v.",
+      "gloss": "(to，after)渴望，追求，有志于"
+    },
+    {
+      "i": 127,
+      "skip": true
+    },
+    {
+      "i": 128,
+      "zh": "提醒",
+      "en": "remind",
+      "ipa": "[riˈmaɪnd]",
+      "pos": "v.",
+      "gloss": "提醒；使想起"
+    },
+    {
+      "i": 129,
+      "zh": "明智的",
+      "en": "advisable",
+      "ipa": "[ədˈvaɪzəbəl]",
+      "pos": "adj.",
+      "gloss": "可取的，适当的，明智的"
+    }
+  ]
+}

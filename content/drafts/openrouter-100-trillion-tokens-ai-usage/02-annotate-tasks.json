@@ -1,0 +1,532 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "openrouter-100-trillion-tokens-ai-usage",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/001.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/001.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "2024 年，大模型的玩法很简单：你问，它答。一句输入，一段输出，仅此而已。",
+      "html": "<p>2024 年，大模型的玩法很<span class=\"word-annot\"><span class=\"word-anchor\">简单</span><span class=\"word-block\"><span class=\"english-word\">simplicity</span><span class=\"word-info\">[sɪmˈplɪsɪti] n. 简单,简易;朴素;直率,单纯</span></span></span>：你问，它答。一句<span class=\"word-annot\"><span class=\"word-anchor\">输入</span><span class=\"word-block\"><span class=\"english-word\">import</span><span class=\"word-info\">[ˌɪmˈpɔrt] v. 进口,输入</span></span></span>，一段输出，仅此而已。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "但整个 2025 年，一切都变了。推理模型成为主流，开源阵营快速跟进，用户开始让 AI 写代码、扮演虚拟角色、甚至调用工具完成复杂任务。",
+      "html": "<p>但<span class=\"word-annot\"><span class=\"word-anchor\">整个</span><span class=\"word-block\"><span class=\"english-word\">altogether</span><span class=\"word-info\">[ˌɔltəˈgɛðər] n. 整个；裸体</span></span></span> 2025 年，一切都变了。推理模型成为主流，开源阵营快速跟进，用户开始让 AI 写代码、扮演虚拟角色、甚至调用工具<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>复杂任务。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "大模型的使用方式正在经历一场巨大的变化。",
+      "html": "<p>大模型的使用方式正在经历一场<span class=\"word-annot\"><span class=\"word-anchor\">巨大的</span><span class=\"word-block\"><span class=\"english-word\">enormous</span><span class=\"word-info\">[ɪˈnɔrmɪs] adj. 庞大的，巨大的；凶暴的，极恶的</span></span></span>变化。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "a16z 上个月发布了一份报告，基于 OpenRouter 平台的 100 万亿 token 使用数据。OpenRouter 是一个连接数百个大模型的推理平台，这份数据覆盖了 60 多个模型提供商、300 多个活跃模型。",
+      "html": "<p>a16z 上个月发布了一份<span class=\"word-annot\"><span class=\"word-anchor\">报告</span><span class=\"word-block\"><span class=\"english-word\">inform</span><span class=\"word-info\">[ˌɪnˈfɔrm] v. (of,about)通知,告诉,报告</span></span></span>，基于 OpenRouter 平台的 100 万亿 token 使用数据。OpenRouter 是一个连接数百个大模型的推理平台，这份数据覆盖了 60 多个模型<span class=\"word-annot\"><span class=\"word-anchor\">提供商</span><span class=\"word-block\"><span class=\"english-word\">provider</span><span class=\"word-info\">[prəˈvaɪdə] n. 提供商</span></span></span>、300 多个活跃模型。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 6,
+      "source_text": "从这些数据里，我们能看到一些和直觉完全不同的发现：",
+      "html": "<p>从这些数据里，我们能看到一些和直觉完全<span class=\"word-annot\"><span class=\"word-anchor\">不同的</span><span class=\"word-block\"><span class=\"english-word\">diverse</span><span class=\"word-info\">[dɪˈvərs] adj. 多种多样的,不同的</span></span></span>发现：</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "1. 开源模型的份额在过去一年稳步攀升，目前已经占据了约 30%的市场。这个数字看起来不大，但考虑到一年前开源模型还在边缘位置，这个增速值得关注。DeepSeek、Qwen、Llama 等开源模型不再只是「便宜的替代品」，它们正在成为真正的生产力工具。",
+      "html": "<p>1. 开源模型的份额在过去一年稳步攀升，目前已经<span class=\"word-annot\"><span class=\"word-anchor\">占据</span><span class=\"word-block\"><span class=\"english-word\">inhabit</span><span class=\"word-info\">[ˌɪnˈhæbət] v. 栖息；居住于；占据</span></span></span>了约 30%的市场。这个数字看起来不大，但考虑到一年前开源模型还在边缘位置，这个<span class=\"word-annot\"><span class=\"word-anchor\">增速</span><span class=\"word-block\"><span class=\"english-word\">accelerate</span><span class=\"word-info\">[ækˈsɛlərˌeɪt] v. 使加速，使增速，促进；加速</span></span></span>值得关注。DeepSeek、Qwen、Llama 等开源模型不再只是「便宜的替代品」，它们正在成为<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>生产力工具。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "2. 让人意外的发现是：开源模型的第一大使用场景，并不是写代码或者回答问题，而是角色扮演。超过一半的开源模型 token 都被用在了虚拟角色对话、互动叙事、游戏场景这类娱乐性质的任务上。",
+      "html": "<p>2. 让人<span class=\"word-annot\"><span class=\"word-anchor\">意外的</span><span class=\"word-block\"><span class=\"english-word\">accidental</span><span class=\"word-info\">[ˌæksəˈdɛnəl] adj. 偶然的；意外的；无意中的</span></span></span>发现是：开源模型的第一大使用场景，并不是写代码或者回答问题，而是角色扮演。超过一半的开源模型 token 都被用在了虚拟角色对话、互动叙事、游戏场景这类<span class=\"word-annot\"><span class=\"word-anchor\">娱乐</span><span class=\"word-block\"><span class=\"english-word\">amuse</span><span class=\"word-info\">[əmˈjuz] v. 娱乐；消遣；使发笑；使愉快</span></span></span>性质的任务上。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "3. 与此同时，推理模型的份额在 2025 年突破了 50%。这意味着，大多数用户已经不满足于让 AI 回答问题，而是希望 AI 能够「处理问题」。从简单的文本生成到多步推理、工具调用、任务规划，AI 的使用方式正在从「对话」转向「执行」。",
+      "html": "<p>3. 与此同时，<span class=\"word-annot\"><span class=\"word-anchor\">推理</span><span class=\"word-block\"><span class=\"english-word\">inference</span><span class=\"word-info\">[ˈɪnfərəns] n. 推理；推论；推断</span></span></span>模型的份额在 2025 年突破了 50%。这意味着，<span class=\"word-annot\"><span class=\"word-anchor\">大多数</span><span class=\"word-block\"><span class=\"english-word\">bulk</span><span class=\"word-info\">[bəlk] n. 体积，容量；大多数，大部分；大块</span></span></span>用户已经不满足于让 AI 回答问题，而是希望 AI 能够「处理问题」。从<span class=\"word-annot\"><span class=\"word-anchor\">简单的</span><span class=\"word-block\"><span class=\"english-word\">gut</span><span class=\"word-info\">[gət] adj. 简单的；本质的，根本的；本能的，直觉的</span></span></span>文本生成到多步推理、工具调用、任务规划，AI 的使用方式正在从「对话」转向「执行」。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/003.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/003.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 11,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/004.webp)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/004.webp\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 12,
+      "source_text": "以下是关于报告精华的总结：",
+      "html": "<p>以下是<span class=\"word-annot\"><span class=\"word-anchor\">关于</span><span class=\"word-block\"><span class=\"english-word\">concerning</span><span class=\"word-info\">[kənˈsərnɪŋ] prep. 关于；就…而言</span></span></span>报告精华的总结：</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "1. 中国开源模型逆袭，份额攀升至 30%",
+      "html": "<p>1. 中国开源模型逆袭，份额攀升至 30%</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "2024 年底，中国开源模型在整体市场中的占比微乎其微，周度占比最低仅1.2%。但到 2025 年下半年，这一比例迎来大幅增长，部分甚至接近 30%。",
+      "html": "<p>2024 年底，中国开源模型在整体市场中的占比<span class=\"word-annot\"><span class=\"word-anchor\">微乎其微</span><span class=\"word-block\"><span class=\"english-word\">remote</span><span class=\"word-info\">[rɪˈmoʊt] adj. 偏僻的；远的,遥远的；疏远的；渺茫的，微乎其微的</span></span></span>，周度占比最低仅1.2%。但到 2025 年下半年，这一比例迎来大幅增长，部分甚至<span class=\"word-annot\"><span class=\"word-anchor\">接近</span><span class=\"word-block\"><span class=\"english-word\">approximate</span><span class=\"word-info\">[əˈprɑksəˌmeɪt] v. (to)接近</span></span></span> 30%。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "这个变化的转折点是 2024 年 12 月。DeepSeek V3 的发布引发了第一波开源模型的使用高潮，随后 DeepSeek R1、Qwen 3、Kimi K2 等模型接连上线，每一次发布都带来了明显的使用量跃升。更重要的是，这些使用量并没有在发布热度过后回落，而是持续留存了下来。",
+      "html": "<p>这个变化的<span class=\"word-annot\"><span class=\"word-anchor\">转折点</span><span class=\"word-block\"><span class=\"english-word\">hinge</span><span class=\"word-info\">[hɪnʤ] n. 铰链，折叶；关键，转折点；枢要，中枢</span></span></span>是 2024 年 12 月。DeepSeek V3 的发布引发了第一波开源模型的使用高潮，随后 DeepSeek R1、Qwen 3、Kimi K2 等模型接连上线，每一次发布都带来了<span class=\"word-annot\"><span class=\"word-anchor\">明显的</span><span class=\"word-block\"><span class=\"english-word\">conspicuous</span><span class=\"word-info\">[kənˈspɪkjuəs] adj. 显眼的,明显的</span></span></span>使用量跃升。更<span class=\"word-annot\"><span class=\"word-anchor\">重要的</span><span class=\"word-block\"><span class=\"english-word\">crucial</span><span class=\"word-info\">[ˈkruːʃl] adj. 重要的；决定性的；定局的；决断的</span></span></span>是，这些使用量并没有在发布热度过后回落，而是持续留存了下来。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/005.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/005.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 17,
+      "source_text": "开源阵营内部的竞争格局也在发生变化。",
+      "html": "<p>开源阵营<span class=\"word-annot\"><span class=\"word-anchor\">内部的</span><span class=\"word-block\"><span class=\"english-word\">inner</span><span class=\"word-info\">[ˈɪnər] adj. 内部的， 里面的；内心的</span></span></span>竞争格局也在发生变化。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "一年前，DeepSeek 几乎占据了开源市场的半壁江山。到了 2025 年底，没有任何单一模型的份额超过 25%。市场从「Deepseek 一家独大」变成了「群雄并起」，用户有了更多选择，也更愿意在不同模型之间切换。",
+      "html": "<p>一年前，DeepSeek 几乎<span class=\"word-annot\"><span class=\"word-anchor\">占据</span><span class=\"word-block\"><span class=\"english-word\">occupation</span><span class=\"word-info\">[ˌɑkjəˈpeɪʃən] n. 职业,工作；占领,占据</span></span></span>了开源市场的半壁江山。到了 2025 年底，没有任何单一模型的份额<span class=\"word-annot\"><span class=\"word-anchor\">超过</span><span class=\"word-block\"><span class=\"english-word\">exceed</span><span class=\"word-info\">[ɪkˈsid] v. 超过,胜过；越出 (限制、规定)</span></span></span> 25%。市场从「Deepseek 一家独大」变成了「群雄并起」，用户有了更多选择，也更愿意在<span class=\"word-annot\"><span class=\"word-anchor\">不同</span><span class=\"word-block\"><span class=\"english-word\">differ</span><span class=\"word-info\">[ˈdɪfər] v. 使…相异；使…不同</span></span></span>模型之间切换。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/006.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/006.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 20,
+      "source_text": "这对开源模型开发者来说是个好消息，也是个挑战。",
+      "html": "<p>这对开源模型开发者来说是个好消息，也是个<span class=\"word-annot\"><span class=\"word-anchor\">挑战</span><span class=\"word-block\"><span class=\"english-word\">dare</span><span class=\"word-info\">[dɛr] n. 挑战；挑动</span></span></span>。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "好消息是，一个有竞争力的开源模型可以在几周内获得大量用户。挑战是，如果停止迭代，用户会很快流向更新更强的竞争对手。",
+      "html": "<p>好消息是，一个有竞争力的开源模型可以在几周内<span class=\"word-annot\"><span class=\"word-anchor\">获得</span><span class=\"word-block\"><span class=\"english-word\">acquire</span><span class=\"word-info\">[əkˈwaɪər] v. 获得；取得；学到；捕获</span></span></span>大量用户。挑战是，如果<span class=\"word-annot\"><span class=\"word-anchor\">停止</span><span class=\"word-block\"><span class=\"english-word\">cease</span><span class=\"word-info\">[sis] v. 停止；终了</span></span></span>迭代，用户会很快流向更新更强的竞争对手。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "2. 角色扮演是开源模型的第一大场景，使用超过 50%",
+      "html": "<p>2. 角色扮演是开源模型的第一大场景，使用<span class=\"word-annot\"><span class=\"word-anchor\">超过</span><span class=\"word-block\"><span class=\"english-word\">excel</span><span class=\"word-info\">[ɪkˈsɛl] v. 超过；擅长</span></span></span> 50%</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "在所有使用场景中，角色扮演的占比高得出乎意料。在开源模型的使用中，超过 52% 的 token 被用在了角色扮演相关的任务上。这个比例远超编程、翻译、问答等其他场景。",
+      "html": "<p>在所有使用场景中，角色扮演的占比高得<span class=\"word-annot\"><span class=\"word-anchor\">出乎意料</span><span class=\"word-block\"><span class=\"english-word\">revelation</span><span class=\"word-info\">[ˌrɛvəˈleɪʃən] n. 启示；揭露；出乎意料的事；被揭露的真相</span></span></span>。在开源模型的使用中，超过 52% 的 token 被用在了角色扮演相关的<span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">assignment</span><span class=\"word-info\">[əˈsaɪnmənt] n. 任务；作业</span></span></span>上。这个<span class=\"word-annot\"><span class=\"word-anchor\">比例</span><span class=\"word-block\"><span class=\"english-word\">proportion</span><span class=\"word-info\">[prəˈpɔrʃən] n. 部分；比例；均衡,相称</span></span></span>远超编程、翻译、问答等其他场景。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/007.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/007.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 25,
+      "source_text": "角色扮演的具体内容包括互动小说、虚拟角色对话、桌游场景模拟、粉丝创作等。用户把大模型当作一个可以无限展开对话的虚拟伙伴，让它扮演小说里的角色、游戏里的 NPC，或者干脆创造一个全新的虚构人物。",
+      "html": "<p>角色扮演的具体内容包括互动小说、虚拟角色对话、桌游场景<span class=\"word-annot\"><span class=\"word-anchor\">模拟</span><span class=\"word-block\"><span class=\"english-word\">analog</span><span class=\"word-info\">[ˈænəˌlɔg] n. 类似物； 模拟</span></span></span>、粉丝创作等。用户把大模型当作一个可以无限展开对话的虚拟<span class=\"word-annot\"><span class=\"word-anchor\">伙伴</span><span class=\"word-block\"><span class=\"english-word\">ally</span><span class=\"word-info\">[ˈælaɪ] n. 同盟国；伙伴；同盟者；助手</span></span></span>，让它扮演小说里的角色、游戏里的 NPC，或者干脆创造一个全新的虚构人物。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "从时间趋势来看，角色扮演的份额在 2025 年全年保持稳定，没有出现明显的下滑。",
+      "html": "<p>从时间趋势来看，角色扮演的份额在 2025 年全年保持稳定，没有出现<span class=\"word-annot\"><span class=\"word-anchor\">明显的</span><span class=\"word-block\"><span class=\"english-word\">distinct</span><span class=\"word-info\">[dɪˈstɪŋkt] adj. 明显的；独特的；清楚的；有区别的</span></span></span>下滑。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "开源模型在这个场景中特别受欢迎，原因很直接。商业模型通常有严格的内容审核机制，对涉及暴力、成人内容、敏感话题的对话会进行限制。开源模型则可以被用户自行部署和微调，在内容尺度上有更大的自由度。这种灵活性对创意写作和虚拟角色扮演的用户来说非常有吸引力。",
+      "html": "<p>开源模型在这个场景中特别受<span class=\"word-annot\"><span class=\"word-anchor\">欢迎</span><span class=\"word-block\"><span class=\"english-word\">greeting</span><span class=\"word-info\">[ˈɡriːtɪŋ] v. 致敬，欢迎（greet的现在分词）</span></span></span>，原因很直接。商业模型通常有<span class=\"word-annot\"><span class=\"word-anchor\">严格的</span><span class=\"word-block\"><span class=\"english-word\">rigid</span><span class=\"word-info\">[ˈrɪdʒɪd] adj. 严格的；僵硬的，死板的；坚硬的；精确的</span></span></span>内容审核机制，对涉及暴力、成人内容、敏感话题的对话会进行限制。开源模型则可以被用户自行<span class=\"word-annot\"><span class=\"word-anchor\">部署</span><span class=\"word-block\"><span class=\"english-word\">array</span><span class=\"word-info\">[əreɪ] v. 排列，部署；打扮</span></span></span>和微调，在内容尺度上有更大的自由度。这种灵活性对创意写作和虚拟角色扮演的用户来说非常<span class=\"word-annot\"><span class=\"word-anchor\">有吸引力</span><span class=\"word-block\"><span class=\"english-word\">magnetic</span><span class=\"word-info\">[mægˈnɛtɪk] adj. 地磁的；有磁性的；有吸引力的</span></span></span>。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "如果说角色扮演是开源模型的主场，那编程就是整个大模型市场增长最快的战场。",
+      "html": "<p>如果说角色扮演是开源模型的主场，那编程就是整个大模型市场增长最<span class=\"word-annot\"><span class=\"word-anchor\">快的</span><span class=\"word-block\"><span class=\"english-word\">swift</span><span class=\"word-info\">[swɪft] adj. 快的；迅速的；敏捷的；立刻的</span></span></span>战场。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "2025 年初，编程相关任务在所有大模型使用中的占比约为 11%。到了年底，这个数字已经超过 50%。编程从一个细分场景变成了最主流的使用方式。",
+      "html": "<p>2025 年初，编程相关任务在所有大模型使用中的占比约为 11%。到了年底，这个数字已经<span class=\"word-annot\"><span class=\"word-anchor\">超过</span><span class=\"word-block\"><span class=\"english-word\">overhaul</span><span class=\"word-info\">[ˈoʊvərˌhɔl] vt. 彻底检修；赶上， 超过</span></span></span> 50%。编程从一个细分场景变成了最主流的使用<span class=\"word-annot\"><span class=\"word-anchor\">方式</span><span class=\"word-block\"><span class=\"english-word\">alike</span><span class=\"word-info\">[əˈlaɪk] adv. 以同样的方式；类似于</span></span></span>。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/008.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/008.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 31,
+      "source_text": "这个变化背后，是越来越多开发者开始把大模型融入日常工作：越来越多的程序员开始在日常工作中依赖大模型进行代码生成、调试、文档编写。",
+      "html": "<p>这个变化背后，是越来越多开发者开始把大模型融入<span class=\"word-annot\"><span class=\"word-anchor\">日常工作</span><span class=\"word-block\"><span class=\"english-word\">harness</span><span class=\"word-info\">[ˈhɑrnɪs] n. 马具；甲胄；挽具状带子；降落伞背带；日常工作</span></span></span>：越来越多的程序员开始在日常工作中依赖大模型进行代码生成、调试、文档编写。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "在编程这个场景中，Anthropic 的 Claude 系列占据了绝对优势。在相当长的时间里，Claude 在编程任务中的份额超过 60%。但这个格局正在松动，2025 年下半年，OpenAI 和 Google 的份额都有所上升，一些新兴的开源模型也开始切走一部分市场。",
+      "html": "<p>在编程这个场景中，Anthropic 的 Claude 系列<span class=\"word-annot\"><span class=\"word-anchor\">占据</span><span class=\"word-block\"><span class=\"english-word\">occupy</span><span class=\"word-info\">[ˈɑkjəˌpaɪ] v. 占,占用；占据,占领；使忙碌,使从事</span></span></span>了绝对优势。在相当长的时<span class=\"word-annot\"><span class=\"word-anchor\">间里</span><span class=\"word-block\"><span class=\"english-word\">closet</span><span class=\"word-info\">[ˈklɑzət] v. 把…引进密室会谈；把…关在小房间里</span></span></span>，Claude 在编程任务中的份额超过 60%。但这个格局正在松动，2025 年下半年，OpenAI 和 Google 的份额都有所<span class=\"word-annot\"><span class=\"word-anchor\">上升</span><span class=\"word-block\"><span class=\"english-word\">arise</span><span class=\"word-info\">[əraɪz] v. 出现；上升；起立</span></span></span>，一些新兴的开源模型也开始切走一部分市场。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/009.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/009.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 34,
+      "source_text": "编程场景的竞争之所以激烈，是因为这是一个高价值、高频次的使用场景。谁能在编程场景中占据优势，谁就能锁定一批高价值的付费用户：开发者每天都要写代码，对模型质量的要求也很高。",
+      "html": "<p>编程场景的<span class=\"word-annot\"><span class=\"word-anchor\">竞争</span><span class=\"word-block\"><span class=\"english-word\">compete</span><span class=\"word-info\">[kəmˈpiːt] v. 竞争；争夺，竞争</span></span></span>之所以激烈，是因为这是一个高价值、高频次的使用场景。谁能在编程场景中占据优势，谁就能锁定<span class=\"word-annot\"><span class=\"word-anchor\">一批</span><span class=\"word-block\"><span class=\"english-word\">batch</span><span class=\"word-info\">[bæʧ] n. 一批,一组,一群</span></span></span>高价值的付费用户：开发者每天都要写代码，对模型质量的要求也很高。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "数据还显示，编程相关的请求通常包含更长的上下文。平均而言，编程任务的输入 token 数是其他任务的 3 到 4 倍。这意味着编程用户往往需要把整个代码库或者长段的文档喂给模型，对模型的长上下文能力提出了更高的要求。",
+      "html": "<p>数据还显示，编程相关的请求通常<span class=\"word-annot\"><span class=\"word-anchor\">包含</span><span class=\"word-block\"><span class=\"english-word\">comprehend</span><span class=\"word-info\">[ˌkɑmpriˈhɛnd] v. 理解；包含；由…组成</span></span></span>更长的上下文。平均而言，编程任务的<span class=\"word-annot\"><span class=\"word-anchor\">输入</span><span class=\"word-block\"><span class=\"english-word\">input</span><span class=\"word-info\">[ˈɪnˌpʊt] v. [自][电子] 输入；将…输入电脑</span></span></span> token 数是其他任务的 3 到 4 倍。这<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">spell</span><span class=\"word-info\">[spɛl] v. 拼，拼写；意味着；招致；拼成；迷住；轮值</span></span></span>编程用户往往需要把整个代码库或者长段的文档喂给模型，对模型的长上下文能力提出了更高的要求。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/010.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/010.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 37,
+      "source_text": "4、推理模型成为主流，份额超过 50%大模型市场有一个分水岭时刻，很多人可能没意识到它有多重要。",
+      "html": "<p>4、推理模型成为主流，份额超过 50%大模型市场有一个分水岭时刻，很多人可能没<span class=\"word-annot\"><span class=\"word-anchor\">意识到</span><span class=\"word-block\"><span class=\"english-word\">alert</span><span class=\"word-info\">[əˈlərt] v. 警告；使警觉，使意识到</span></span></span>它有多重要。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "2024 年 9 月，OpenAI 发布了 o1 推理模型 preview 版本，而 o1 和之前的模型有本质区别。它不是简单地根据输入生成输出，而是在内部进行多步推理、规划和验证，然后才给出最终答案。",
+      "html": "<p>2024 年 9 月，OpenAI 发布了 o1 推理模型 preview 版本，而 o1 和之前的模型有本质<span class=\"word-annot\"><span class=\"word-anchor\">区别</span><span class=\"word-block\"><span class=\"english-word\">differentiate</span><span class=\"word-info\">[ˌdɪfərˈɛnʧiˌeɪt] v. 区分，区别</span></span></span>。它不是简单地根据输入生成输出，而是在<span class=\"word-annot\"><span class=\"word-anchor\">内部</span><span class=\"word-block\"><span class=\"english-word\">bosom</span><span class=\"word-info\">[ˈbʊzəm] n. 胸；胸怀；中间；胸襟；内心；乳房；内部</span></span></span>进行多步推理、规划和验证，然后才给出最终答案。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "这种「思考后再回答」的模式很快获得了用户的认可。到 2025 年底，推理模型在所有大模型使用中的份额已经超过 50%。",
+      "html": "<p>这种「思考后再回答」的模式很快获得了用户的<span class=\"word-annot\"><span class=\"word-anchor\">认可</span><span class=\"word-block\"><span class=\"english-word\">acceptance</span><span class=\"word-info\">[əkˈsɛptəns] n. 正式接受；接纳；接受，赞同，赞成，认可</span></span></span>。到 2025 年底，推理模型在所有大模型使用中的份额已经超过 50%。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/011.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/011.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 41,
+      "source_text": "推理模型的兴起带动了另一个趋势： 工具调用的普及。",
+      "html": "<p>推理模型的兴起带动了另一个<span class=\"word-annot\"><span class=\"word-anchor\">趋势</span><span class=\"word-block\"><span class=\"english-word\">drift</span><span class=\"word-info\">[drɪft] n. 漂流，漂移；趋势；漂流物</span></span></span>： 工具调用的普及。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "越来越多的请求涉及到让模型调用外部工具、访问数据库、执行 API 请求，模型变成了一个可以执行任务的智能体。",
+      "html": "<p>越来越多的请求涉及到让模型调用外部工具、访问<span class=\"word-annot\"><span class=\"word-anchor\">数据库</span><span class=\"word-block\"><span class=\"english-word\">database</span><span class=\"word-info\">[ˈdætəˌbeɪs] n. 数据库</span></span></span>、执行 API 请求，模型变成了一个可以执行任务的智能体。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "数据显示，工具调用相关的请求在 2025 年全年保持了稳定的增长趋势。Claude 和 Gemini 系列在工具调用场景中表现突出，是这个赛道的主要玩家。",
+      "html": "<p>数据显示，工具调用相关的请求在 2025 年全年保持了<span class=\"word-annot\"><span class=\"word-anchor\">稳定的</span><span class=\"word-block\"><span class=\"english-word\">stable</span><span class=\"word-info\">[ˈsteɪbəl] adj. 稳定的；牢固的；坚定的</span></span></span>增长趋势。Claude 和 Gemini 系列在工具调用场景中<span class=\"word-annot\"><span class=\"word-anchor\">表现突出</span><span class=\"word-block\"><span class=\"english-word\">distinguish</span><span class=\"word-info\">[dɪˈstɪŋgwɪʃ] v. 区分；辨别；使杰出，使表现突出</span></span></span>，是这个赛道的主要玩家。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/012.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/012.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 45,
+      "source_text": "5、中型模型成为最爱，小模型份额下降",
+      "html": "<p>5、中型模型成为最爱，小模型份额<span class=\"word-annot\"><span class=\"word-anchor\">下降</span><span class=\"word-block\"><span class=\"english-word\">decline</span><span class=\"word-info\">[dɪˈklaɪn] n. 下降；衰退；斜面</span></span></span></p>"
+    },
+    {
+      "index": 46,
+      "source_text": "过去一年，大模型市场出现了一个有趣的现象：",
+      "html": "<p>过去一年，大模型市场出现了一个<span class=\"word-annot\"><span class=\"word-anchor\">有趣的</span><span class=\"word-block\"><span class=\"english-word\">comic</span><span class=\"word-info\">[ˈkɑmɪk] adj. 喜剧的；滑稽的；有趣的</span></span></span>现象：</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "中型模型成了最受欢迎的选择，而小型模型不再受用户喜爱。",
+      "html": "<p>中型模型成了最受欢迎的选择，而小型模型不再受用户<span class=\"word-annot\"><span class=\"word-anchor\">喜爱</span><span class=\"word-block\"><span class=\"english-word\">adore</span><span class=\"word-info\">[əˈdɔr] v. 崇拜；爱慕；喜爱；极喜欢</span></span></span>。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "研究团队把模型按参数量分成了三档：小型（150 亿参数以下）、中型（150 亿到 700 亿参数）、大型（700 亿参数以上）。数据显示，中型和大型模型的使用份额都在持续上升，而小型模型份额则在下滑。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">研究</span><span class=\"word-block\"><span class=\"english-word\">enquiry</span><span class=\"word-info\">[ɪnkˈwaɪˌri] n. 打听， 询问；调查， 研究</span></span></span>团队把模型按参数量分成了三档：小型（150 亿参数以下）、中型（150 亿到 700 亿参数）、大型（700 亿参数以上）。数据显示，中型和大型模型的使用份额都在持续<span class=\"word-annot\"><span class=\"word-anchor\">上升</span><span class=\"word-block\"><span class=\"english-word\">ascend</span><span class=\"word-info\">[əˈsɛnd] v. 上升；登高；追溯</span></span></span>，而小型模型份额则在下滑。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/013.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/013.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 50,
+      "source_text": "这个趋势的背后是用户需求的升级。早期用户可能只是想试试 AI 能做什么，用小型模型就够了。但当 AI 真正嵌入工作流程之后，用户开始追求更高的输出质量和更强的推理能力，这些是小型模型难以提供的。",
+      "html": "<p>这个<span class=\"word-annot\"><span class=\"word-anchor\">趋势</span><span class=\"word-block\"><span class=\"english-word\">tendency</span><span class=\"word-info\">[ˈtɛndənsi] n. 倾向，趋势；癖好</span></span></span>的背后是用户需求的升级。早期用户<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">likelihood</span><span class=\"word-info\">[ˈlaɪkliˌhʊd] n. 可能性，可能</span></span></span>只是想试试 AI 能做什么，用小型模型就够了。但当 AI 真正嵌入工作流程之后，用户开始<span class=\"word-annot\"><span class=\"word-anchor\">追求</span><span class=\"word-block\"><span class=\"english-word\">ambition</span><span class=\"word-info\">[æmˈbɪʃən] v. 追求；有…野心</span></span></span>更高的输出质量和更强的推理能力，这些是小型模型难以提供的。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "中型模型成了一个甜蜜点。它既比小型模型更强大，又比大型模型更便宜、更快。Qwen2.5 Coder 32B、Mistral Small 3 这类中型模型在过去一年获得了快速增长，填补了市场中间地带的空白。",
+      "html": "<p>中型模型成了一个<span class=\"word-annot\"><span class=\"word-anchor\">甜蜜</span><span class=\"word-block\"><span class=\"english-word\">honey</span><span class=\"word-info\">[ˈhəni] n. 蜂蜜；宝贝；甜蜜</span></span></span>点。它既比小型模型更强大，又比大型模型<span class=\"word-annot\"><span class=\"word-anchor\">更便宜</span><span class=\"word-block\"><span class=\"english-word\">cheaper</span><span class=\"word-info\">[ˈtʃiːpə] adj. 更便宜</span></span></span>、更快。Qwen2.5 Coder 32B、Mistral Small 3 这类中型模型在过去一年<span class=\"word-annot\"><span class=\"word-anchor\">获得</span><span class=\"word-block\"><span class=\"english-word\">acquisition</span><span class=\"word-info\">[ˌækwɪˈzɪʃn] n. 获得物，获得；收购</span></span></span>了快速增长，填补了市场中间地带的空白。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "大型模型市场则呈现出多元化的格局。没有哪个单一的大型模型占据绝对主导地位，Qwen3 235B、GLM 4.5、GPT-OSS-120B 等模型都有各自的用户群体。用户会根据不同任务选择不同的大型模型，而不是只认准一家。",
+      "html": "<p>大型模型市场则呈现出多元化的<span class=\"word-annot\"><span class=\"word-anchor\">格局</span><span class=\"word-block\"><span class=\"english-word\">landscape</span><span class=\"word-info\">[ˈlændskeɪp] n. 格局</span></span></span>。没有哪个单一的大型模型占据绝对主导地位，Qwen3 235B、GLM 4.5、GPT-OSS-120B 等模型都有<span class=\"word-annot\"><span class=\"word-anchor\">各自的</span><span class=\"word-block\"><span class=\"english-word\">respective</span><span class=\"word-info\">[rɪˈspɛktɪv] adj. 各自的,各个的</span></span></span>用户群体。用户会根据不同任务<span class=\"word-annot\"><span class=\"word-anchor\">选择</span><span class=\"word-block\"><span class=\"english-word\">elect</span><span class=\"word-info\">[ɪˈlɛkt] v. 选举,推选；选择,作出选择</span></span></span>不同的大型模型，而不是只认准一家。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "6、不同模型提供商使用画像不同有意思的是，不同模型提供商的用户在使用场景上呈现出截然不同的画像。",
+      "html": "<p>6、不同模型<span class=\"word-annot\"><span class=\"word-anchor\">提供</span><span class=\"word-block\"><span class=\"english-word\">furnish</span><span class=\"word-info\">[ˈfərnɪʃ] v. 供应,提供；装备,布置</span></span></span>商使用画像不同有意思的是，不同模型提供商的用户在使用场景上呈现出截然不同的画像。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "Anthropic 的 Claude 用户几乎都是程序员。编程和技术类任务占了 Claude 使用量的 80%以上，角色扮演几乎可以忽略不计。",
+      "html": "<p>Anthropic 的 Claude 用户<span class=\"word-annot\"><span class=\"word-anchor\">几乎</span><span class=\"word-block\"><span class=\"english-word\">practically</span><span class=\"word-info\">[ˈpræktɪkəli] adv. 实际地；几乎；事实上</span></span></span>都是程序员。编程和技术类任务占了 Claude 使用量的 80%以上，角色扮演几乎可以<span class=\"word-annot\"><span class=\"word-anchor\">忽略</span><span class=\"word-block\"><span class=\"english-word\">neglect</span><span class=\"word-info\">[nɪˈglɛkt] v. 忽视，忽略</span></span></span>不计。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/014.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/014.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 56,
+      "source_text": "Google 的模型用户则更加多元。翻译、科学研究、技术问答都有一定比例，没有哪个场景占据绝对主导。",
+      "html": "<p>Google 的模型用户则更加多元。翻译、科学<span class=\"word-annot\"><span class=\"word-anchor\">研究</span><span class=\"word-block\"><span class=\"english-word\">investigate</span><span class=\"word-info\">[ˌɪnˈvɛstəˌgeɪt] v. 调查；研究</span></span></span>、技术问答都有一定比例，没有哪个场景占据绝对主导。</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/015.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/015.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 58,
+      "source_text": "DeepSeek 在消费者市场的品牌认知显然比在开发者市场更强。DeepSeek 的用户画像和 Claude 几乎是镜像关系。角色扮演和休闲对话占了 DeepSeek 使用量的大部分，编程和技术任务的占比相对较低。",
+      "html": "<p>DeepSeek 在消费者市场的品牌<span class=\"word-annot\"><span class=\"word-anchor\">认知</span><span class=\"word-block\"><span class=\"english-word\">cognition</span><span class=\"word-info\">[kɒɡˈnɪʃn] n. 认知</span></span></span>显然比在开发者市场更强。DeepSeek 的用户画像和 Claude 几乎是镜像<span class=\"word-annot\"><span class=\"word-anchor\">关系</span><span class=\"word-block\"><span class=\"english-word\">bearing</span><span class=\"word-info\">[ˈbɛrɪŋ] n. [机] 轴承；关系；方位；举止</span></span></span>。角色扮演和休闲<span class=\"word-annot\"><span class=\"word-anchor\">对话</span><span class=\"word-block\"><span class=\"english-word\">dialog</span><span class=\"word-info\">[ˈdaɪəlɔg] n. (dialogue)对话,对白</span></span></span>占了 DeepSeek 使用量的大部分，编程和技术任务的占比相对较低。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/016.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/016.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 60,
+      "source_text": "这些差异说明，大模型市场并不是一个同质化的市场。",
+      "html": "<p>这些差异<span class=\"word-annot\"><span class=\"word-anchor\">说明</span><span class=\"word-block\"><span class=\"english-word\">define</span><span class=\"word-info\">[dɪˈfaɪn] v. 确定，说明，界定；给…下定义，解释</span></span></span>，大模型市场并不是一个同质化的市场。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "不同用户有不同的需求，不同模型在不同场景中各有优势。",
+      "html": "<p>不同用户有不同的需求，不同模型在不同场景中各有<span class=\"word-annot\"><span class=\"word-anchor\">优势</span><span class=\"word-block\"><span class=\"english-word\">superiority</span><span class=\"word-info\">[ˌsupɪriˈɔrɪti] n. 优越，优势；优越性</span></span></span>。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "7、模型的早期用户具备：黏性效应",
+      "html": "<p>7、模型的早期用户具备：黏性效应</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "研究团队发现了一个有趣的现象：模型的早期用户往往会成为最忠诚的用户。",
+      "html": "<p>研究团队发现了一个有趣的现象：模型的早期用户往往会成为最<span class=\"word-annot\"><span class=\"word-anchor\">忠诚的</span><span class=\"word-block\"><span class=\"english-word\">loyal</span><span class=\"word-info\">[lɔɪəl] adj. (to)忠诚的,忠贞的</span></span></span>用户。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "以 Claude 4 Sonnet 为例，",
+      "html": "<p>以 Claude 4 Sonnet 为例，</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "2025 年 5 月的早期用户群体在 5 个月后仍然保持了约 40%的留存率。",
+      "html": "<p>2025 年 5 月的早期用户群体在 5 个月后仍然<span class=\"word-annot\"><span class=\"word-anchor\">保持</span><span class=\"word-block\"><span class=\"english-word\">conservation</span><span class=\"word-info\">[ˌkɑnsərˈveɪʃən] n. 保存，保持；保护</span></span></span>了约 40%的留存率。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "而后来加入的用户群体，留存率则明显更低。类似的模式也出现在 Gemini 2.5 Pro 等模型上。",
+      "html": "<p>而<span class=\"word-annot\"><span class=\"word-anchor\">后来</span><span class=\"word-block\"><span class=\"english-word\">afterward</span><span class=\"word-info\">[ˈæftərwərd] adv. 以后，后来</span></span></span>加入的用户群体，留存率则明显更低。<span class=\"word-annot\"><span class=\"word-anchor\">类似的</span><span class=\"word-block\"><span class=\"english-word\">analogue</span><span class=\"word-info\">[ˈænəˌlɔg] adj. 类似的；相似物的；模拟计算机的</span></span></span>模式也出现在 Gemini 2.5 Pro 等模型上。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/017.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/017.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 68,
+      "source_text": "研究团队把这种现象称为「灰姑娘玻璃鞋效应」。",
+      "html": "<p>研究团队把这种现象称为「灰<span class=\"word-annot\"><span class=\"word-anchor\">姑娘</span><span class=\"word-block\"><span class=\"english-word\">bride</span><span class=\"word-info\">[braɪd] n. 新娘；姑娘，女朋友</span></span></span>玻璃鞋效应」。</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "在一个快速迭代的市场中，总有一些用户的需求长期得不到满足。当一个新模型恰好解决了这些需求时，这些用户就会形成强烈的依赖，把自己的工作流程、数据管道、使用习惯都建立在这个模型之上。一旦建立了这种依赖，切换成本就变得很高，用户也就不愿意离开了。",
+      "html": "<p>在一个快速迭代的市场中，总有一些用户的需求长期得不到<span class=\"word-annot\"><span class=\"word-anchor\">满足</span><span class=\"word-block\"><span class=\"english-word\">cater</span><span class=\"word-info\">[ˈkeɪtər] v. (for)提供饮食及服务；(for/to)满足,迎合</span></span></span>。当一个新模型恰好解决了这些需求时，这些用户就会形成<span class=\"word-annot\"><span class=\"word-anchor\">强烈的</span><span class=\"word-block\"><span class=\"english-word\">fierce</span><span class=\"word-info\">[fɪrs] adj. 凶猛的,残忍的；狂热的,强烈的</span></span></span>依赖，把自己的工作流程、数据管道、使用习惯都建立在这个模型之上。一旦<span class=\"word-annot\"><span class=\"word-anchor\">建立</span><span class=\"word-block\"><span class=\"english-word\">constitute</span><span class=\"word-info\">[ˈkɑnstəˌtut] v. 组成，构成；建立；任命</span></span></span>了这种依赖，切换成本就变得很高，用户也就不愿意离开了。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "这个效应的另一面是：如果一个模型在发布时没能抓住这批「刚需用户」，后面就很难再建立起稳定的用户群体。Gemini 2.0 Flash 和 Llama 4 Maverick 的数据就呈现出这种模式，所有用户群体的留存曲线都很低，没有形成任何高黏性的核心用户群。",
+      "html": "<p>这个效应的另一面是：如果一个模型在发布时没能抓住这批「刚需用户」，后面就很难再建立起<span class=\"word-annot\"><span class=\"word-anchor\">稳定的</span><span class=\"word-block\"><span class=\"english-word\">steady</span><span class=\"word-info\">[ˈstɛdi] adj. 稳定的；不变的；沉着的</span></span></span>用户群体。Gemini 2.0 Flash 和 Llama 4 Maverick 的数据就呈现出这种模式，所有用户群体的留存<span class=\"word-annot\"><span class=\"word-anchor\">曲线</span><span class=\"word-block\"><span class=\"english-word\">curve</span><span class=\"word-info\">[kərv] n. 曲线,弯曲(物)</span></span></span>都很低，没有形成任何高黏性的核心用户群。</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/018.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/018.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 72,
+      "source_text": "对模型开发者来说，这意味着发布时机和初始产品力至关重要：",
+      "html": "<p>对模型开发者来说，这<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">spelling</span><span class=\"word-info\">[ˈspɛlɪŋ] v. 拼写；意味着（spell的ing形式）；迷住</span></span></span>发布时机和初始产品力至关重要：</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "能够在发布窗口期抓住一批核心用户，就能为后续的增长打下基础。",
+      "html": "<p>能够在发布窗口期<span class=\"word-annot\"><span class=\"word-anchor\">抓住</span><span class=\"word-block\"><span class=\"english-word\">collar</span><span class=\"word-info\">[ˈkɑlər] v. 抓住；给…上领子；给…套上颈圈</span></span></span>一批核心用户，就能为后续的增长打下基础。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "8、用户输入的 Prompt 越来越复杂",
+      "html": "<p>8、用户输入的 Prompt 越来越<span class=\"word-annot\"><span class=\"word-anchor\">复杂</span><span class=\"word-block\"><span class=\"english-word\">complication</span><span class=\"word-info\">[ˌkɑmpləˈkeɪʃən] n. 并发症；复杂；复杂化；混乱</span></span></span></p>"
+    },
+    {
+      "index": 75,
+      "source_text": "过去一年，用户给模型的提示词输入变得越来越长。",
+      "html": "<p>过去一年，用户给模型的<span class=\"word-annot\"><span class=\"word-anchor\">提示</span><span class=\"word-block\"><span class=\"english-word\">cue</span><span class=\"word-info\">[kju] n. 提示，暗示；线索</span></span></span>词输入变得越来越长。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "平均输入 token 数从一年前的约 1500 个增长到了现在的超过 6000 个。",
+      "html": "<p>平均输入 token 数从一年前的约 1500 个增长到了<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">presently</span><span class=\"word-info\">[ˈprɛzəntli] adv. 一会儿,不久；现在,目前</span></span></span>的超过 6000 个。</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/019.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/019.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 78,
+      "source_text": "输出 token 数也有类似的增长趋势，从约 150 个增长到了约 400 个。",
+      "html": "<p>输出 token 数也有<span class=\"word-annot\"><span class=\"word-anchor\">类似的</span><span class=\"word-block\"><span class=\"english-word\">comparable</span><span class=\"word-info\">[ˈkɑmprəbəl] adj. 类似的，相当的；可相比的</span></span></span>增长趋势，从约 150 个增长到了约 400 个。</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/020.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/020.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 80,
+      "source_text": "这个变化反映的是使用场景的复杂化：",
+      "html": "<p>这个变化反映的是使用场景的<span class=\"word-annot\"><span class=\"word-anchor\">复杂化</span><span class=\"word-block\"><span class=\"english-word\">perplex</span><span class=\"word-info\">[pərˈplɛks] v. 使困惑，使为难；使复杂化</span></span></span>：</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "输入变长，通常意味着任务本身也变复杂了。",
+      "html": "<p>输入变长，通常意味着任务本身也<span class=\"word-annot\"><span class=\"word-anchor\">变复杂</span><span class=\"word-block\"><span class=\"english-word\">complicate</span><span class=\"word-info\">[ˈkɑmpləˌkeɪt] v. 变复杂</span></span></span>了。</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "编程任务是推动这个趋势的主要力量，用户或者编程 IDE 不再只是问一个简单的问题，而是会提供大量的背景资料、代码片段、文档内容，然后要求模型在这",
+      "html": "<p>编程任务是推动这个趋势的主要力量，用户或者编程 IDE 不再只是问一个简单的问题，而是会提供<span class=\"word-annot\"><span class=\"word-anchor\">大量的</span><span class=\"word-block\"><span class=\"english-word\">extensive</span><span class=\"word-info\">[ɪkˈstensɪv] adj. 广泛的；大量的；广阔的</span></span></span>背景资料、代码片段、文档内容，然后要求模型在这</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "些上下文的基础上进行分析和推理，这对模型的长上下文处理能力是个考验。",
+      "html": "<p>些上下文的基础上进行<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span>和推理，这对模型的长上下文处理能力是个考验。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "9、模型价格和成本几乎无关",
+      "html": "<p>9、模型价格和<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">costing</span><span class=\"word-info\">[ˈkɒstɪŋ] n. 成本</span></span></span>几乎无关</p>"
+    },
+    {
+      "index": 85,
+      "source_text": "最后一个发现可能会让很多人意外：",
+      "html": "<p>最后一个<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discover</span><span class=\"word-info\">[dɪˈskəvər] v. 发现</span></span></span>可能会让很多人意外：</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "大模型的价格和使用量之间几乎没有相关性。",
+      "html": "<p>大模型的价格和使用量之间<span class=\"word-annot\"><span class=\"word-anchor\">几乎没有</span><span class=\"word-block\"><span class=\"english-word\">scarce</span><span class=\"word-info\">[skɛrs] adv. 仅仅；几乎不；几乎没有</span></span></span>相关性。</p>"
+    },
+    {
+      "index": 87,
+      "source_text": "研究团队把所有模型按价格和使用量画成了一张散点图，发现趋势线几乎是平的。便宜的模型不一定使用量大，贵的模型也不一定使用量小。",
+      "html": "<p>研究团队把所有模型按价格和使用量画成了一张散点图，<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discovery</span><span class=\"word-info\">[dɪˈskʌvəri] n. 被发现的事物；发现</span></span></span>趋势线几乎是平的。便宜的模型不一定使用量大，贵的模型也不一定使用量小。</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "价格下降 10%，使用量只上升 0.5% 到 0.7%。",
+      "html": "<p>价格下降 10%，使用量只<span class=\"word-annot\"><span class=\"word-anchor\">上升</span><span class=\"word-block\"><span class=\"english-word\">climb</span><span class=\"word-info\">[klaɪm] v. 爬；攀登；上升</span></span></span> 0.5% 到 0.7%。</p>"
+    },
+    {
+      "index": 89,
+      "source_text": "这说明大模型市场还没有变成一个纯粹的价格竞争市场。用户选择模型时考虑的是能力、可靠性、响应速度等多个维度，价格只是其中一个因素。",
+      "html": "<p>这说明大模型市场还没有变成一个<span class=\"word-annot\"><span class=\"word-anchor\">纯粹的</span><span class=\"word-block\"><span class=\"english-word\">sheer</span><span class=\"word-info\">[ʃɪr] adj. 绝对的；透明的；峻峭的；纯粹的</span></span></span>价格竞争市场。用户选择模型时考虑的是能力、<span class=\"word-annot\"><span class=\"word-anchor\">可靠性</span><span class=\"word-block\"><span class=\"english-word\">reliability</span><span class=\"word-info\">[rɪˌlaɪəˈbɪləti] n. 可靠性</span></span></span>、响应速度等多个维度，价格只是其中一个因素。</p>"
+    },
+    {
+      "index": 90,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/021.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/021.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 91,
+      "source_text": "但有意思的是，价格和使用场景之间的关系非常明显。编程和技术类任务的用户愿意为更好的模型付更高的价格。角色扮演和娱乐类任务的用户则对价格更敏感，更倾向于选择便宜的开源模型。",
+      "html": "<p>但有意思的是，价格和使用场景之间的关系<span class=\"word-annot\"><span class=\"word-anchor\">非常</span><span class=\"word-block\"><span class=\"english-word\">deadly</span><span class=\"word-info\">[ˈdɛdli] adv. 非常；如死一般地</span></span></span>明显。编程和技术类任务的用户愿意为<span class=\"word-annot\"><span class=\"word-anchor\">更好的</span><span class=\"word-block\"><span class=\"english-word\">preferable</span><span class=\"word-info\">[ˈprɛfərəbəl] adj. 更好的，更可取的；更合意的</span></span></span>模型付更高的价格。角色扮演和娱乐类任务的用户则对价格更敏感，更<span class=\"word-annot\"><span class=\"word-anchor\">倾向</span><span class=\"word-block\"><span class=\"english-word\">disposition</span><span class=\"word-info\">[ˌdɪspəˈzɪʃən] n. 性格；排列,部署；倾向,意向</span></span></span>于选择便宜的开源模型。</p>"
+    },
+    {
+      "index": 92,
+      "source_text": "这形成了一种市场分层：高价值任务由高价模型服务，高频低价任务由便宜模型服务。",
+      "html": "<p>这<span class=\"word-annot\"><span class=\"word-anchor\">形成</span><span class=\"word-block\"><span class=\"english-word\">formation</span><span class=\"word-info\">[fɔrˈmeɪʃən] n. 形成;构成;组织;构造;编制;塑造</span></span></span>了一种市场分层：高价值任务由高价模型服务，高频低价任务由便宜模型服务。</p>"
+    },
+    {
+      "index": 93,
+      "source_text": "两个市场各有各的逻辑，并不会简单地因为价格战而互相影响对方。",
+      "html": "<p>两个市场各有各的逻辑，并不会简单地因为价格战而<span class=\"word-annot\"><span class=\"word-anchor\">互相影响</span><span class=\"word-block\"><span class=\"english-word\">interact</span><span class=\"word-info\">[ˌɪnərˈækt] v. 互相作用,互相影响</span></span></span>对方。</p>"
+    },
+    {
+      "index": 94,
+      "source_text": "最后，再简单总结一下：",
+      "html": "<p>最后，再简单总结<span class=\"word-annot\"><span class=\"word-anchor\">一下</span><span class=\"word-block\"><span class=\"english-word\">stroke</span><span class=\"word-info\">[stroʊk] n. （游泳或划船的）划；中风；（打、击等的）一下；冲程；（成功的）举动；尝试；轻抚</span></span></span>：</p>"
+    },
+    {
+      "index": 95,
+      "source_text": "开源模型正在逼近 30% 的市场份额，角色扮演和娱乐需求的规模远超预期，编程正在成为最核心的使用场景，推理模型正在取代传统的文本生成模型。",
+      "html": "<p>开源模型正在逼近 30% 的市场份额，角色扮演和娱乐需求的规模远超预期，编程正在成为最核心的使用场景，推理模型正在取代<span class=\"word-annot\"><span class=\"word-anchor\">传统的</span><span class=\"word-block\"><span class=\"english-word\">classical</span><span class=\"word-info\">[ˈklæsɪkəl] adj. 古典的；经典的；传统的；第一流的</span></span></span>文本生成模型。</p>"
+    },
+    {
+      "index": 96,
+      "source_text": "对于大模型的开发者来说，这些数据提供了一些清晰的信号：",
+      "html": "<p>对于大模型的开发者来说，这些数据提供了一些<span class=\"word-annot\"><span class=\"word-anchor\">清晰的</span><span class=\"word-block\"><span class=\"english-word\">plain</span><span class=\"word-info\">[pleɪn] adj. 平的；简单的；朴素的；清晰的</span></span></span>信号：</p>"
+    },
+    {
+      "index": 97,
+      "source_text": "持续迭代比一次性发布更重要",
+      "html": "<p>持续迭代比一次性发布更<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">magnitude</span><span class=\"word-info\">[ˈmægnəˌtud] n. 大小；量级；[地震] 震级；重要；光度</span></span></span></p>"
+    },
+    {
+      "index": 98,
+      "source_text": "与其追求通用能力，不如先在一个场景打透",
+      "html": "<p>与其<span class=\"word-annot\"><span class=\"word-anchor\">追求</span><span class=\"word-block\"><span class=\"english-word\">aspire</span><span class=\"word-info\">[əˈspaɪr] v. (to，after)渴望，追求，有志于</span></span></span>通用能力，不如先在一个场景打透</p>"
+    },
+    {
+      "index": 99,
+      "source_text": "早期用户的黏性，可能比初期规模更有价值",
+      "html": "<p>早期用户的黏性，可能比初期规模更有价值</p>"
+    },
+    {
+      "index": 100,
+      "source_text": "对于大模型的使用者来说，这份报告也是一个提醒：",
+      "html": "<p>对于大模型的使用者来说，这份报告也是一个<span class=\"word-annot\"><span class=\"word-anchor\">提醒</span><span class=\"word-block\"><span class=\"english-word\">remind</span><span class=\"word-info\">[riˈmaɪnd] v. 提醒；使想起</span></span></span>：</p>"
+    },
+    {
+      "index": 101,
+      "source_text": "我们正处在一个多模型并存的时代，没有哪个模型是万能的，根据不同任务选择不同工具，可能是更明智的策略。",
+      "html": "<p>我们正处在一个多模型并存的时代，没有哪个模型是万能的，根据不同任务选择不同工具，可能是更<span class=\"word-annot\"><span class=\"word-anchor\">明智的</span><span class=\"word-block\"><span class=\"english-word\">advisable</span><span class=\"word-info\">[ədˈvaɪzəbəl] adj. 可取的，适当的，明智的</span></span></span>策略。</p>"
+    },
+    {
+      "index": 102,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/022.webp)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/022.webp\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 103,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/023.webp)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/023.webp\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 104,
+      "source_text": "![](../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/024.webp)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openrouter-100-trillion-tokens-ai-usage/024.webp\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}
