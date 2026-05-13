@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "曝光",
+      "en": "impression",
+      "ipa": "[ˌɪmˈprɛʃən]",
+      "pos": "n.",
+      "gloss": "印象；效果，影响；压痕，印记；感想；曝光（衡量广告被显示的次数。打开一个带有该广告的网页，则该广告的impression 次数增加一次）"
+    },
+    {
+      "i": 1,
+      "zh": "机构",
+      "en": "apparatus",
+      "ipa": "[ˌæpərˈætəs]",
+      "pos": "n.",
+      "gloss": "器械，器具，仪器；机构，组织"
+    },
+    {
+      "i": 2,
+      "zh": "达到",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 3,
+      "zh": "明确的",
+      "en": "definite",
+      "ipa": "[ˈdɛfənət]",
+      "pos": "adj.",
+      "gloss": "明确的;一定的"
+    },
+    {
+      "i": 4,
+      "zh": "狂热",
+      "en": "abandon",
+      "ipa": "[əˈbændən]",
+      "pos": "n.",
+      "gloss": "放任；狂热"
+    },
+    {
+      "i": 5,
+      "zh": "开始",
+      "en": "commence",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 6,
+      "zh": "算力",
+      "en": "computing",
+      "ipa": "[ˈkɒmpjuːtɪŋ]",
+      "pos": "n.",
+      "gloss": "算力"
+    },
+    {
+      "i": 7,
+      "zh": "表示",
+      "en": "bid",
+      "ipa": "[bɪd]",
+      "pos": "v.",
+      "gloss": "投标；出价；表示；吩咐"
+    },
+    {
+      "i": 8,
+      "zh": "可怕的",
+      "en": "awful",
+      "ipa": "[ˈɔfəl]",
+      "pos": "adj.",
+      "gloss": "可怕的；极坏的；使人敬畏的"
+    },
+    {
+      "i": 9,
+      "skip": true
+    },
+    {
+      "i": 10,
+      "zh": "警告",
+      "en": "alarm",
+      "ipa": "[əˈlɑrm]",
+      "pos": "v.",
+      "gloss": "警告；使惊恐"
+    },
+    {
+      "i": 11,
+      "skip": true
+    },
+    {
+      "i": 12,
+      "zh": "一步",
+      "en": "pace",
+      "ipa": "[peɪs]",
+      "pos": "n.",
+      "gloss": "一步；步速；步伐；速度"
+    },
+    {
+      "i": 13,
+      "zh": "实验室",
+      "en": "lab",
+      "ipa": "[læb]",
+      "pos": "n.",
+      "gloss": "实验室，研究室"
+    },
+    {
+      "i": 14,
+      "zh": "恐怖",
+      "en": "appall",
+      "ipa": "[əˈpɔl]",
+      "pos": "vt.",
+      "gloss": "使惊骇， 使恐怖"
+    },
+    {
+      "i": 15,
+      "zh": "变化",
+      "en": "variation",
+      "ipa": "[ˌvɛriˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "变化；[生物] 变异，变种"
+    },
+    {
+      "i": 16,
+      "zh": "方面",
+      "en": "angle",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 17,
+      "zh": "竞争",
+      "en": "compete",
+      "ipa": "[kəmˈpiːt]",
+      "pos": "v.",
+      "gloss": "竞争；争夺，竞争"
+    },
+    {
+      "i": 18,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 19,
+      "zh": "强大的",
+      "en": "formidable",
+      "ipa": "[ˌfɔrˈmɪdəbəl]",
+      "pos": "adj.",
+      "gloss": "强大的;令人敬畏的;可怕的;艰难的"
+    }
+  ]
+}

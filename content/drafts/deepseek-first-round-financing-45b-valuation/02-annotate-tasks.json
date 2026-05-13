@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "deepseek-first-round-financing-45b-valuation",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "DeepSeek首轮融资曝光，估值450亿美元",
+      "html": "<p>DeepSeek首轮融资<span class=\"word-annot\"><span class=\"word-anchor\">曝光</span><span class=\"word-block\"><span class=\"english-word\">impression</span><span class=\"word-info\">[ˌɪmˈprɛʃən] n. 印象；效果，影响；压痕，印记；感想；曝光（衡量广告被显示的次数。打开一个带有该广告的网页，则该广告的impression 次数增加一次）</span></span></span>，估值450亿美元</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "据金融时报的最新消息，多家机构目前正寻求领投 DeepSeek 的首轮融资。",
+      "html": "<p>据金融时报的最新消息，多家<span class=\"word-annot\"><span class=\"word-anchor\">机构</span><span class=\"word-block\"><span class=\"english-word\">apparatus</span><span class=\"word-info\">[ˌæpərˈætəs] n. 器械，器具，仪器；机构，组织</span></span></span>目前正寻求领投 DeepSeek 的首轮融资。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "如果谈判顺利，DeepSeek 在本轮的估值将达到约 450 亿美元。",
+      "html": "<p>如果谈判顺利，DeepSeek 在本轮的估值将<span class=\"word-annot\"><span class=\"word-anchor\">达到</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>约 450 亿美元。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "此前报道提到，拥有 DeepSeek 约 89.5% 控制权的创始人梁文锋，起初仅仅想象征性地融一笔钱，为公司的期权定个明确的价格，借此防止自家的核心研究员被竞争对手用天价薪酬包挖走。",
+      "html": "<p>此前报道提到，拥有 DeepSeek 约 89.5% 控制权的创始人梁文锋，起初仅仅想象征性地融一笔钱，为公司的期权定个<span class=\"word-annot\"><span class=\"word-anchor\">明确的</span><span class=\"word-block\"><span class=\"english-word\">definite</span><span class=\"word-info\">[ˈdɛfənət] adj. 明确的;一定的</span></span></span>价格，借此防止自家的核心研究员被竞争对手用天价薪酬包挖走。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "没想到资本市场反响极度狂热，尽管 DeepSeek 现阶段并没有把重心放在商业化变现上，但投资人们依然在疯狂押注其底层潜力。",
+      "html": "<p>没想到资本市场反响极度<span class=\"word-annot\"><span class=\"word-anchor\">狂热</span><span class=\"word-block\"><span class=\"english-word\">abandon</span><span class=\"word-info\">[əˈbændən] n. 放任；狂热</span></span></span>，尽管 DeepSeek 现阶段并没有把重心放在商业化变现上，但投资人们依然在疯狂押注其底层潜力。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "短短几周内，DeepSeek 的估值就从刚开始被爆料的 200 亿美元一路狂飙翻倍。",
+      "html": "<p>短短几周内，DeepSeek 的估值就从刚<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">commence</span><span class=\"word-info\">[kəˈmɛns] v. 开始</span></span></span>被爆料的 200 亿美元一路狂飙翻倍。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "自从去年 1 月凭借以极低算力成本训练出的开源大模型 R1 一举成名后，DeepSeek 就一直是国产大模型的焦点。",
+      "html": "<p>自从去年 1 月凭借以极低<span class=\"word-annot\"><span class=\"word-anchor\">算力</span><span class=\"word-block\"><span class=\"english-word\">computing</span><span class=\"word-info\">[ˈkɒmpjuːtɪŋ] n. 算力</span></span></span>成本训练出的开源大模型 R1 一举成名后，DeepSeek 就一直是国产大模型的焦点。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "在近期的 V4 模型发布时，DeepSeek 更是明确表示，该模型已经针对国产芯片进行了专门的推理优化。",
+      "html": "<p>在近期的 V4 模型发布时，DeepSeek 更是明确<span class=\"word-annot\"><span class=\"word-anchor\">表示</span><span class=\"word-block\"><span class=\"english-word\">bid</span><span class=\"word-info\">[bɪd] v. 投标；出价；表示；吩咐</span></span></span>，该模型已经针对国产芯片进行了专门的推理优化。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "黄仁勋上周在接受播客采访时说：「如果有一天 DeepSeek 优先在中国产芯片上发布，那将是一个可怕的结果。」",
+      "html": "<p>黄仁勋上周在接受播客采访时说：「如果有一天 DeepSeek 优先在中国产芯片上发布，那将是一个<span class=\"word-annot\"><span class=\"word-anchor\">可怕的</span><span class=\"word-block\"><span class=\"english-word\">awful</span><span class=\"word-info\">[ˈɔfəl] adj. 可怕的；极坏的；使人敬畏的</span></span></span>结果。」</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "他警告，顺着这一趋势发展，「未来全球开发出来的人工智能模型，最终都在非美国产的硬件上运行得最好。」",
+      "html": "<p>他<span class=\"word-annot\"><span class=\"word-anchor\">警告</span><span class=\"word-block\"><span class=\"english-word\">alarm</span><span class=\"word-info\">[əˈlɑrm] v. 警告；使惊恐</span></span></span>，顺着这一趋势发展，「未来全球开发出来的人工智能模型，最终都在非美国产的硬件上运行得最好。」</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "现在这件事正在一步步变成现实。",
+      "html": "<p>现在这件事正在<span class=\"word-annot\"><span class=\"word-anchor\">一步</span><span class=\"word-block\"><span class=\"english-word\">pace</span><span class=\"word-info\">[peɪs] n. 一步；步速；步伐；速度</span></span></span>步变成现实。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "如果这轮基于 450 亿美元估值的巨额融资顺利交割，DeepSeek 将从极客实验室，变成一个拥有充沛战略资源的巨型独角兽。",
+      "html": "<p>如果这轮基于 450 亿美元估值的巨额融资顺利交割，DeepSeek 将从极客<span class=\"word-annot\"><span class=\"word-anchor\">实验室</span><span class=\"word-block\"><span class=\"english-word\">lab</span><span class=\"word-info\">[læb] n. 实验室，研究室</span></span></span>，变成一个拥有充沛战略资源的巨型独角兽。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "无论是前沿的 R1 还是 V4 模型，其背后都是恐怖的算力消耗。拿到钱，最大的变化就是 DeepSeek 可以购买更多算力集群。",
+      "html": "<p>无论是前沿的 R1 还是 V4 模型，其背后都是<span class=\"word-annot\"><span class=\"word-anchor\">恐怖</span><span class=\"word-block\"><span class=\"english-word\">appall</span><span class=\"word-info\">[əˈpɔl] vt. 使惊骇， 使恐怖</span></span></span>的算力消耗。拿到钱，最大的<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">variation</span><span class=\"word-info\">[ˌvɛriˈeɪʃən] n. 变化；[生物] 变异，变种</span></span></span>就是 DeepSeek 可以购买更多算力集群。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "另一方面，梁文峰最初融资的初衷就是为了给员工期权定价以防挖角。",
+      "html": "<p>另一<span class=\"word-annot\"><span class=\"word-anchor\">方面</span><span class=\"word-block\"><span class=\"english-word\">angle</span><span class=\"word-info\">[ˈæŋgəl] n. 角度，角，方面</span></span></span>，梁文峰最初融资的初衷就是为了给员工期权定价以防挖角。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "现在估值暴涨，不仅能稳住现有的核心研发团队，或许还能开出同样竞争力的条件，进行人才反向虹吸。",
+      "html": "<p>现在估值暴涨，不仅能稳住现有的核心研发团队，或许还能开出同样<span class=\"word-annot\"><span class=\"word-anchor\">竞争</span><span class=\"word-block\"><span class=\"english-word\">compete</span><span class=\"word-info\">[kəmˈpiːt] v. 竞争；争夺，竞争</span></span></span>力的条件，进行人才反向虹吸。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "对普通用户来说，资金充裕意味着 DeepSeek 有能力且有意愿继续贯彻其开源路线。",
+      "html": "<p>对普通用户来说，资金充裕<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">spell</span><span class=\"word-info\">[spɛl] v. 拼，拼写；意味着；招致；拼成；迷住；轮值</span></span></span> DeepSeek 有能力且有意愿继续贯彻其开源路线。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "我们可以期待 R2、V5 等后续模型在多模态（视觉、语音）、长文本处理、代码生成等能力上更强大的更新，并且依然保持对开发者友好的开源协议。",
+      "html": "<p>我们可以期待 R2、V5 等后续模型在多模态（视觉、语音）、长文本处理、代码生成等能力上更<span class=\"word-annot\"><span class=\"word-anchor\">强大的</span><span class=\"word-block\"><span class=\"english-word\">formidable</span><span class=\"word-info\">[ˌfɔrˈmɪdəbəl] adj. 强大的;令人敬畏的;可怕的;艰难的</span></span></span>更新，并且依然保持对开发者友好的开源协议。</p>"
+    }
+  ]
+}
