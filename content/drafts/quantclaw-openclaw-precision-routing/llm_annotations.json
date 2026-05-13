@@ -1,0 +1,513 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "覆盖",
+      "en": "blanket",
+      "ipa": "[ˈblæŋkɪt]",
+      "pos": "v.",
+      "gloss": "覆盖，掩盖；用毯覆盖"
+    },
+    {
+      "i": 1,
+      "zh": "爱好者",
+      "en": "amateur",
+      "ipa": "[ˈæməˌʧər]",
+      "pos": "n.",
+      "gloss": "爱好者；业余爱好者；外行"
+    },
+    {
+      "i": 2,
+      "zh": "联合",
+      "en": "alliance",
+      "ipa": "[əˈlaɪəns]",
+      "pos": "n.",
+      "gloss": "联盟，联合；联姻"
+    },
+    {
+      "i": 3,
+      "zh": "降低的",
+      "en": "depressed",
+      "ipa": "[dɪˈprɛst]",
+      "pos": "adj.",
+      "gloss": "沮丧的； 降低的"
+    },
+    {
+      "i": 4,
+      "skip": true
+    },
+    {
+      "i": 5,
+      "zh": "仓库",
+      "en": "barn",
+      "ipa": "[bɑrn]",
+      "pos": "n.",
+      "gloss": "谷仓,仓库"
+    },
+    {
+      "i": 6,
+      "zh": "论文",
+      "en": "thesis",
+      "ipa": "[ˈθiˌsɪs]",
+      "pos": "n.",
+      "gloss": "论文；论点"
+    },
+    {
+      "i": 7,
+      "zh": "框架",
+      "en": "framework",
+      "ipa": "[ˈfreɪmˌwərk]",
+      "pos": "n.",
+      "gloss": "框架，骨架；结构，构架"
+    },
+    {
+      "i": 8,
+      "zh": "记忆的",
+      "en": "memorial",
+      "ipa": "[məˈmɔriəl]",
+      "pos": "adj.",
+      "gloss": "记忆的,纪念的"
+    },
+    {
+      "i": 9,
+      "zh": "知道",
+      "en": "acquaintance",
+      "ipa": "[əkˈweɪntəns]",
+      "pos": "n.",
+      "gloss": "熟人；相识；了解；知道"
+    },
+    {
+      "i": 10,
+      "zh": "简单的",
+      "en": "gut",
+      "ipa": "[gət]",
+      "pos": "adj.",
+      "gloss": "简单的；本质的，根本的；本能的，直觉的"
+    },
+    {
+      "i": 11,
+      "zh": "固定",
+      "en": "anchor",
+      "ipa": "[ˈæŋkər]",
+      "pos": "v.",
+      "gloss": "抛锚；使固定；主持节目"
+    },
+    {
+      "i": 12,
+      "zh": "缺乏",
+      "en": "absence",
+      "ipa": "[ˈæbsəns]",
+      "pos": "n.",
+      "gloss": "缺席，不在；缺乏，不存在"
+    },
+    {
+      "i": 13,
+      "zh": "不必要的",
+      "en": "superfluous",
+      "ipa": "[ˈsupərflˌwəs]",
+      "pos": "adj.",
+      "gloss": "多余的；不必要的；奢侈的"
+    },
+    {
+      "i": 14,
+      "zh": "常用的",
+      "en": "staple",
+      "ipa": "[ˈsteɪpəl]",
+      "pos": "adj.",
+      "gloss": "主要的，大宗生产的；常用的；纺织纤维的"
+    },
+    {
+      "i": 15,
+      "zh": "计算",
+      "en": "calculate",
+      "ipa": "[ˈkælkjəˌleɪt]",
+      "pos": "v.",
+      "gloss": "计算,推算；预测，估计"
+    },
+    {
+      "i": 16,
+      "zh": "任务",
+      "en": "assignment",
+      "ipa": "[əˈsaɪnmənt]",
+      "pos": "n.",
+      "gloss": "任务；作业"
+    },
+    {
+      "i": 17,
+      "zh": "适合",
+      "en": "adjust",
+      "ipa": "[əˈʤəst]",
+      "pos": "v.",
+      "gloss": "调整，使…适合；校准"
+    },
+    {
+      "i": 18,
+      "zh": "缺乏",
+      "en": "deficiency",
+      "ipa": "[dɪˈfɪʃənsi]",
+      "pos": "n.",
+      "gloss": "缺乏,不足；缺点,缺陷"
+    },
+    {
+      "i": 19,
+      "zh": "联合",
+      "en": "ally",
+      "ipa": "[ˈælaɪ]",
+      "pos": "v.",
+      "gloss": "使联盟；使联合"
+    },
+    {
+      "i": 20,
+      "zh": "容忍",
+      "en": "abide",
+      "ipa": "[əˈbaɪd]",
+      "pos": "v.",
+      "gloss": "忍受，容忍；停留；遵守"
+    },
+    {
+      "i": 21,
+      "zh": "清晰的",
+      "en": "plain",
+      "ipa": "[pleɪn]",
+      "pos": "adj.",
+      "gloss": "平的；简单的；朴素的；清晰的"
+    },
+    {
+      "i": 22,
+      "zh": "下降",
+      "en": "decline",
+      "ipa": "[dɪˈklaɪn]",
+      "pos": "n.",
+      "gloss": "下降；衰退；斜面"
+    },
+    {
+      "i": 23,
+      "zh": "下降",
+      "en": "descend",
+      "ipa": "[dɪˈsɛnd]",
+      "pos": "v.",
+      "gloss": "下降；下去；下来；遗传；屈尊"
+    },
+    {
+      "i": 24,
+      "zh": "下降",
+      "en": "descent",
+      "ipa": "[dɪˈsɛnt]",
+      "pos": "n.",
+      "gloss": "下降；血统；袭击"
+    },
+    {
+      "i": 25,
+      "zh": "数量的",
+      "en": "quantitative",
+      "ipa": "[kˈwɑntɪˌteɪtɪv]",
+      "pos": "adj.",
+      "gloss": "定量的；量的，数量的"
+    },
+    {
+      "i": 26,
+      "zh": "类型",
+      "en": "breed",
+      "ipa": "[brid]",
+      "pos": "n.",
+      "gloss": "[生物] 品种；种类，类型"
+    },
+    {
+      "i": 27,
+      "zh": "的结果",
+      "en": "haul",
+      "ipa": "[hɔl]",
+      "pos": "n.",
+      "gloss": "拖，拉；用力拖拉；努力得到的结果；捕获物；一网捕获的鱼量；拖运距离"
+    },
+    {
+      "i": 28,
+      "zh": "高度",
+      "en": "altitude",
+      "ipa": "[ˈæltɪtjuːd]",
+      "pos": "n.",
+      "gloss": "高度， 海拔"
+    },
+    {
+      "i": 29,
+      "zh": "错误的",
+      "en": "erroneous",
+      "ipa": "[ɛˈroʊniəs]",
+      "pos": "adj.",
+      "gloss": "错误的；不正确的"
+    },
+    {
+      "i": 30,
+      "zh": "分析",
+      "en": "analyze",
+      "ipa": "[ˈænəˌlaɪz]",
+      "pos": "vt.",
+      "gloss": "分析； 分解"
+    },
+    {
+      "i": 31,
+      "zh": "促进",
+      "en": "accelerate",
+      "ipa": "[ækˈsɛlərˌeɪt]",
+      "pos": "v.",
+      "gloss": "使加速，使增速，促进；加速"
+    },
+    {
+      "i": 32,
+      "zh": "实现",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 33,
+      "zh": "成本",
+      "en": "costing",
+      "ipa": "[ˈkɒstɪŋ]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 34,
+      "zh": "研究",
+      "en": "enquiry",
+      "ipa": "[ɪnkˈwaɪˌri]",
+      "pos": "n.",
+      "gloss": "打听， 询问；调查， 研究"
+    },
+    {
+      "i": 35,
+      "zh": "降低",
+      "en": "decrease",
+      "ipa": "[ˈdiˌkris]",
+      "pos": "v.",
+      "gloss": "减少,变少,降低"
+    },
+    {
+      "i": 36,
+      "zh": "更便宜",
+      "en": "cheaper",
+      "ipa": "[ˈtʃiːpə]",
+      "pos": "adj.",
+      "gloss": "更便宜"
+    },
+    {
+      "i": 37,
+      "zh": "计的",
+      "en": "centigrade",
+      "ipa": "[ˈsɛntəˌgreɪd]",
+      "pos": "adj.",
+      "gloss": "摄氏温度计的;摄氏的"
+    },
+    {
+      "i": 38,
+      "zh": "非常",
+      "en": "deadly",
+      "ipa": "[ˈdɛdli]",
+      "pos": "adv.",
+      "gloss": "非常；如死一般地"
+    },
+    {
+      "i": 39,
+      "zh": "属于",
+      "en": "belong",
+      "ipa": "[bɪˈlɔŋ]",
+      "pos": "v.",
+      "gloss": "属于，应归入；居住；适宜；应被放置"
+    },
+    {
+      "i": 40,
+      "zh": "分配",
+      "en": "allocate",
+      "ipa": "[ˈæləˌkeɪt]",
+      "pos": "v.",
+      "gloss": "分配，分派；拨给"
+    },
+    {
+      "i": 41,
+      "zh": "执行",
+      "en": "administer",
+      "ipa": "[ədˈmɪnɪstər]",
+      "pos": "v.",
+      "gloss": "管理；执行；给予"
+    },
+    {
+      "i": 42,
+      "zh": "设计",
+      "en": "contrive",
+      "ipa": "[kənˈtraɪv]",
+      "pos": "v.",
+      "gloss": "设计；发明；图谋"
+    },
+    {
+      "i": 43,
+      "zh": "结合",
+      "en": "bind",
+      "ipa": "[baɪnd]",
+      "pos": "v.",
+      "gloss": "结合；装订；有约束力；过紧"
+    },
+    {
+      "i": 44,
+      "zh": "对应",
+      "en": "correspond",
+      "ipa": "[ˌkɔrəˈspɑnd]",
+      "pos": "vi.",
+      "gloss": "通信；符合， 一致；相当于， 对应"
+    },
+    {
+      "i": 45,
+      "zh": "类型",
+      "en": "genre",
+      "ipa": "[ˈʒɑnrə]",
+      "pos": "n.",
+      "gloss": "体载， 类型"
+    },
+    {
+      "i": 46,
+      "zh": "消耗",
+      "en": "consume",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 47,
+      "zh": "分数",
+      "en": "fraction",
+      "ipa": "[ˈfrækʃən]",
+      "pos": "n.",
+      "gloss": "小部分,一点儿；分数"
+    },
+    {
+      "i": 48,
+      "zh": "评估",
+      "en": "appraisal",
+      "ipa": "[əˈpreɪzəl]",
+      "pos": "n.",
+      "gloss": "对...作出的评价；评价，鉴定，评估"
+    },
+    {
+      "i": 49,
+      "zh": "完成",
+      "en": "attain",
+      "ipa": "[əˈteɪn]",
+      "pos": "v.",
+      "gloss": "完成；获得；达到"
+    },
+    {
+      "i": 50,
+      "zh": "更好的",
+      "en": "preferable",
+      "ipa": "[ˈprɛfərəbəl]",
+      "pos": "adj.",
+      "gloss": "更好的，更可取的；更合意的"
+    },
+    {
+      "i": 51,
+      "zh": "相比",
+      "en": "beside",
+      "ipa": "[ˌbiˈsaɪd]",
+      "pos": "prep.",
+      "gloss": "在...旁边，在...附近；和...相比"
+    },
+    {
+      "i": 52,
+      "zh": "延迟",
+      "en": "latency",
+      "ipa": "[ˈleɪtənsi]",
+      "pos": "n.",
+      "gloss": "延迟"
+    },
+    {
+      "i": 53,
+      "zh": "算力",
+      "en": "computing",
+      "ipa": "[ˈkɒmpjuːtɪŋ]",
+      "pos": "n.",
+      "gloss": "算力"
+    },
+    {
+      "i": 54,
+      "zh": "保留",
+      "en": "reservation",
+      "ipa": "[ˌrɛzərˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "预约，预订；保留"
+    },
+    {
+      "i": 55,
+      "zh": "演示",
+      "en": "demo",
+      "ipa": "[ˈdeməʊ]",
+      "pos": "n.",
+      "gloss": "演示"
+    },
+    {
+      "i": 56,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 57,
+      "zh": "向的",
+      "en": "clockwise",
+      "ipa": "[ˈklɑkˌwaɪz]",
+      "pos": "adj.",
+      "gloss": "顺时针方向的"
+    },
+    {
+      "i": 58,
+      "zh": "公司",
+      "en": "establishment",
+      "ipa": "[ɪˈstæblɪʃmənt]",
+      "pos": "n.",
+      "gloss": "确立，制定；公司；设施"
+    },
+    {
+      "i": 59,
+      "zh": "对话",
+      "en": "dialog",
+      "ipa": "[ˈdaɪəlɔg]",
+      "pos": "n.",
+      "gloss": "(dialogue)对话,对白"
+    },
+    {
+      "i": 60,
+      "zh": "处理",
+      "en": "cope",
+      "ipa": "[koʊp]",
+      "pos": "v.",
+      "gloss": "处理；对付；竞争"
+    },
+    {
+      "i": 61,
+      "zh": "爱好者",
+      "en": "lover",
+      "ipa": "[ˈləvər]",
+      "pos": "n.",
+      "gloss": "爱人，恋人；爱好者"
+    },
+    {
+      "i": 62,
+      "zh": "从业者",
+      "en": "practitioner",
+      "ipa": "[prækˈtɪʃənər]",
+      "pos": "n.",
+      "gloss": "开业者，从业者，执业医生"
+    },
+    {
+      "i": 63,
+      "zh": "加入",
+      "en": "enroll",
+      "ipa": "[ɪnˈroʊl]",
+      "pos": "v.",
+      "gloss": "登记；使加入；把记入名册；使入伍"
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "quantclaw-openclaw-precision-routing",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/001.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/001.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "社区是国内外知名的机器学习与自然语言处理社区，受众覆盖国内外NLP硕博生、高校老师以及企业研究人员。",
+      "html": "<p>社区是国内外知名的机器学习与自然语言处理社区，受众<span class=\"word-annot\"><span class=\"word-anchor\">覆盖</span><span class=\"word-block\"><span class=\"english-word\">blanket</span><span class=\"word-info\">[ˈblæŋkɪt] v. 覆盖，掩盖；用毯覆盖</span></span></span>国内外NLP硕博生、高校老师以及企业研究人员。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "是促进国内外自然语言处理，机器学习学术界、产业界和广大爱好者之间的交流和进步，特别是初学者同学们的进步。",
+      "html": "<p>是促进国内外自然语言处理，机器学习学术界、产业界和广大<span class=\"word-annot\"><span class=\"word-anchor\">爱好者</span><span class=\"word-block\"><span class=\"english-word\">amateur</span><span class=\"word-info\">[ˈæməˌʧər] n. 爱好者；业余爱好者；外行</span></span></span>之间的交流和进步，特别是初学者同学们的进步。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "华为联合新加坡国立大学和中国科学技术大学研究人员提出 QuantClaw。",
+      "html": "<p>华为<span class=\"word-annot\"><span class=\"word-anchor\">联合</span><span class=\"word-block\"><span class=\"english-word\">alliance</span><span class=\"word-info\">[əˈlaɪəns] n. 联盟，联合；联姻</span></span></span>新加坡国立大学和中国科学技术大学研究人员提出 QuantClaw。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "这是一款面向 OpenClaw 的即插即用动态模型精度路由插件，基于大规模低精度量化实证研究，让模型精度成为可动态分配的资源，实现服务质量不降反升、成本下降、延迟降低的三重收益。",
+      "html": "<p>这是一款面向 OpenClaw 的即插即用动态模型精度路由插件，基于大规模低精度量化实证研究，让模型精度成为可动态分配的资源，实现服务质量不降反升、成本下降、延迟<span class=\"word-annot\"><span class=\"word-anchor\">降低的</span><span class=\"word-block\"><span class=\"english-word\">depressed</span><span class=\"word-info\">[dɪˈprɛst] adj. 沮丧的； 降低的</span></span></span>三重收益。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 6,
+      "source_text": "🔗 项目主页：https://sparkengineai.github.io/QuantClaw/",
+      "html": "<p>🔗 项目主页：https://sparkengineai.github.io/QuantClaw/</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "🔗 GitHub 仓库：https://github.com/SparkEngineAI/QuantClaw-plugin",
+      "html": "<p>🔗 GitHub <span class=\"word-annot\"><span class=\"word-anchor\">仓库</span><span class=\"word-block\"><span class=\"english-word\">barn</span><span class=\"word-info\">[bɑrn] n. 谷仓,仓库</span></span></span>：https://github.com/SparkEngineAI/QuantClaw-plugin</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "🔗 arXiv 论文：https://arxiv.org/abs/2604.22577",
+      "html": "<p>🔗 arXiv <span class=\"word-annot\"><span class=\"word-anchor\">论文</span><span class=\"word-block\"><span class=\"english-word\">thesis</span><span class=\"word-info\">[ˈθiˌsɪs] n. 论文；论点</span></span></span>：https://arxiv.org/abs/2604.22577</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "2026 年，OpenClaw 已经成长为最火爆的开源 AI Agent 框架之一。它不只是「聊天机器人」，而是能操控浏览器、执行 Shell 命令、读写文件、管理记忆的全功能数字助手。但真正用过 OpenClaw 的开发者和用户都知道一个痛点：Token 消耗太猛了。",
+      "html": "<p>2026 年，OpenClaw 已经成长为最火爆的开源 AI Agent <span class=\"word-annot\"><span class=\"word-anchor\">框架</span><span class=\"word-block\"><span class=\"english-word\">framework</span><span class=\"word-info\">[ˈfreɪmˌwərk] n. 框架，骨架；结构，构架</span></span></span>之一。它不只是「聊天机器人」，而是能操控浏览器、执行 Shell 命令、读写文件、管理<span class=\"word-annot\"><span class=\"word-anchor\">记忆的</span><span class=\"word-block\"><span class=\"english-word\">memorial</span><span class=\"word-info\">[məˈmɔriəl] adj. 记忆的,纪念的</span></span></span>全功能数字助手。但真正用过 OpenClaw 的开发者和用户都<span class=\"word-annot\"><span class=\"word-anchor\">知道</span><span class=\"word-block\"><span class=\"english-word\">acquaintance</span><span class=\"word-info\">[əkˈweɪntəns] n. 熟人；相识；了解；知道</span></span></span>一个痛点：Token 消耗太猛了。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "一个看似简单的查询，可累积消耗超 23 万 Token，你付的钱不只是为了那个最终答案，而是在为整个 Agent 系统的「运行开销」买单。更糟的是，目前这些系统通常以固定精度运行。无论任务是简单查个资料，还是写一段复杂代码，模型都在全力输出，导致不同任务复杂度与计算资源之间缺乏匹配机制。该策略同时带来不必要的计算开销、推理延迟增加以及整体成本上升。",
+      "html": "<p>一个看似<span class=\"word-annot\"><span class=\"word-anchor\">简单的</span><span class=\"word-block\"><span class=\"english-word\">gut</span><span class=\"word-info\">[gət] adj. 简单的；本质的，根本的；本能的，直觉的</span></span></span>查询，可累积消耗超 23 万 Token，你付的钱不只是为了那个最终答案，而是在为整个 Agent 系统的「运行开销」买单。更糟的是，目前这些系统通常以<span class=\"word-annot\"><span class=\"word-anchor\">固定</span><span class=\"word-block\"><span class=\"english-word\">anchor</span><span class=\"word-info\">[ˈæŋkər] v. 抛锚；使固定；主持节目</span></span></span>精度运行。无论任务是简单查个资料，还是写一段复杂代码，模型都在全力输出，导致不同任务复杂度与计算资源之间<span class=\"word-annot\"><span class=\"word-anchor\">缺乏</span><span class=\"word-block\"><span class=\"english-word\">absence</span><span class=\"word-info\">[ˈæbsəns] n. 缺席，不在；缺乏，不存在</span></span></span>匹配机制。该策略同时带来<span class=\"word-annot\"><span class=\"word-anchor\">不必要的</span><span class=\"word-block\"><span class=\"english-word\">superfluous</span><span class=\"word-info\">[ˈsupərflˌwəs] adj. 多余的；不必要的；奢侈的</span></span></span>计算开销、推理延迟增加以及整体成本上升。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "量化（Quantization）是业界常用的降本手段。把模型的数值精度从 32 位浮点压缩到 4 位甚至 2 位，能显著减少内存占用和计算量。但问题是：量化对复杂 Agent 任务的影响到底有多大？所有任务都适合压低精度吗？目前仍缺乏系统性的研究来回答这一问题。",
+      "html": "<p>量化（Quantization）是业界<span class=\"word-annot\"><span class=\"word-anchor\">常用的</span><span class=\"word-block\"><span class=\"english-word\">staple</span><span class=\"word-info\">[ˈsteɪpəl] adj. 主要的，大宗生产的；常用的；纺织纤维的</span></span></span>降本手段。把模型的数值精度从 32 位浮点压缩到 4 位甚至 2 位，能显著减少内存占用和<span class=\"word-annot\"><span class=\"word-anchor\">计算</span><span class=\"word-block\"><span class=\"english-word\">calculate</span><span class=\"word-info\">[ˈkælkjəˌleɪt] v. 计算,推算；预测，估计</span></span></span>量。但问题是：量化对复杂 Agent <span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">assignment</span><span class=\"word-info\">[əˈsaɪnmənt] n. 任务；作业</span></span></span>的影响到底有多大？所有任务都<span class=\"word-annot\"><span class=\"word-anchor\">适合</span><span class=\"word-block\"><span class=\"english-word\">adjust</span><span class=\"word-info\">[əˈʤəst] v. 调整，使…适合；校准</span></span></span>压低精度吗？目前仍<span class=\"word-annot\"><span class=\"word-anchor\">缺乏</span><span class=\"word-block\"><span class=\"english-word\">deficiency</span><span class=\"word-info\">[dɪˈfɪʃənsi] n. 缺乏,不足；缺点,缺陷</span></span></span>系统性的研究来回答这一问题。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "华为联合新加坡国立大学、中国科学技术大学，对 OpenClaw 工作负载进行了系统性的量化研究，基于 ClawEval 评测集（release v0.0.0），覆盖 24 类任务、104 个实例、6 个主流大模型（9B–744B），系统揭示了 OpenClaw 框架下 Agent 量化的核心规律：",
+      "html": "<p>华为<span class=\"word-annot\"><span class=\"word-anchor\">联合</span><span class=\"word-block\"><span class=\"english-word\">ally</span><span class=\"word-info\">[ˈælaɪ] v. 使联盟；使联合</span></span></span>新加坡国立大学、中国科学技术大学，对 OpenClaw 工作负载进行了系统性的量化研究，基于 ClawEval 评测集（release v0.0.0），覆盖 24 类任务、104 个实例、6 个主流大模型（9B–744B），系统揭示了 OpenClaw 框架下 Agent 量化的核心规律：</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "（1）Scaling Effect：模型越大，量化容忍度越高",
+      "html": "<p>（1）Scaling Effect：模型越大，量化<span class=\"word-annot\"><span class=\"word-anchor\">容忍</span><span class=\"word-block\"><span class=\"english-word\">abide</span><span class=\"word-info\">[əˈbaɪd] v. 忍受，容忍；停留；遵守</span></span></span>度越高</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/003.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/003.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 15,
+      "source_text": "在 OpenClaw 量化评测结果上，研究团队发现了一个清晰的模型规模和性能下降之间的关系：",
+      "html": "<p>在 OpenClaw 量化评测结果上，研究团队发现了一个<span class=\"word-annot\"><span class=\"word-anchor\">清晰的</span><span class=\"word-block\"><span class=\"english-word\">plain</span><span class=\"word-info\">[pleɪn] adj. 平的；简单的；朴素的；清晰的</span></span></span>模型规模和性能下降之间的关系：</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "小模型（<30B）：量化后性能下降 3-5%。",
+      "html": "<p>小模型（&lt;30B）：量化后性能<span class=\"word-annot\"><span class=\"word-anchor\">下降</span><span class=\"word-block\"><span class=\"english-word\">decline</span><span class=\"word-info\">[dɪˈklaɪn] n. 下降；衰退；斜面</span></span></span> 3-5%。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "中等模型（30B-70B）：下降通常在 2% 以内。",
+      "html": "<p>中等模型（30B-70B）：<span class=\"word-annot\"><span class=\"word-anchor\">下降</span><span class=\"word-block\"><span class=\"english-word\">descend</span><span class=\"word-info\">[dɪˈsɛnd] v. 下降；下去；下来；遗传；屈尊</span></span></span>通常在 2% 以内。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "大模型（200B+）：下降不到 2%，部分模型（如 GLM-5、MiniMax-M2.5）量化后反而有轻微性能提升（+0.9% 到 +1.4%）。",
+      "html": "<p>大模型（200B+）：<span class=\"word-annot\"><span class=\"word-anchor\">下降</span><span class=\"word-block\"><span class=\"english-word\">descent</span><span class=\"word-info\">[dɪˈsɛnt] n. 下降；血统；袭击</span></span></span>不到 2%，部分模型（如 GLM-5、MiniMax-M2.5）量化后反而有轻微性能提升（+0.9% 到 +1.4%）。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "实验结果显示，模型规模与量化误差容忍度呈正相关，这可能源于更大参数量的模型拥有更高的表征冗余，从而削弱了量化噪声的影响。",
+      "html": "<p>实验结果显示，模型规模与量化误差容忍度呈正相关，这可能源于更大参<span class=\"word-annot\"><span class=\"word-anchor\">数量的</span><span class=\"word-block\"><span class=\"english-word\">quantitative</span><span class=\"word-info\">[kˈwɑntɪˌteɪtɪv] adj. 定量的；量的，数量的</span></span></span>模型拥有更高的表征冗余，从而削弱了量化噪声的影响。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "（2）量化对 Agent 的影响，显著依赖任务类型",
+      "html": "<p>（2）量化对 Agent 的影响，显著依赖任务<span class=\"word-annot\"><span class=\"word-anchor\">类型</span><span class=\"word-block\"><span class=\"english-word\">breed</span><span class=\"word-info\">[brid] n. [生物] 品种；种类，类型</span></span></span></p>"
+    },
+    {
+      "index": 21,
+      "source_text": "研究团队对所有测试模型的结果取平均值并进行任务敏感度分析，根据敏感度将 OpenClaw 任务分为三类：高、中、低。",
+      "html": "<p>研究团队对所有测试模型<span class=\"word-annot\"><span class=\"word-anchor\">的结果</span><span class=\"word-block\"><span class=\"english-word\">haul</span><span class=\"word-info\">[hɔl] n. 拖，拉；用力拖拉；努力得到的结果；捕获物；一网捕获的鱼量；拖运距离</span></span></span>取平均值并进行任务敏感度分析，根据敏感度将 OpenClaw 任务分为三类：高、中、低。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/004.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/004.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 23,
+      "source_text": "高精度敏感区（推荐 16bit/8bit）：涉及代码生成、安全关键决策和复杂操作工作流的任务对量化高度敏感。这些领域的共同特征是需要精确的边界判断，模型输出的微小扰动都可能导致性质完全错误的行为，例如错误的工具调用、策略违规或代码逻辑错误。",
+      "html": "<p>高精度敏感区（推荐 16bit/8bit）：涉及代码生成、安全关键决策和复杂操作工作流的任务对量化<span class=\"word-annot\"><span class=\"word-anchor\">高度</span><span class=\"word-block\"><span class=\"english-word\">altitude</span><span class=\"word-info\">[ˈæltɪtjuːd] n. 高度， 海拔</span></span></span>敏感。这些领域的共同特征是需要精确的边界判断，模型输出的微小扰动都可能导致性质完全<span class=\"word-annot\"><span class=\"word-anchor\">错误的</span><span class=\"word-block\"><span class=\"english-word\">erroneous</span><span class=\"word-info\">[ɛˈroʊniəs] adj. 错误的；不正确的</span></span></span>行为，例如错误的工具调用、策略违规或代码逻辑错误。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "低精度友好区（推荐 4bit）：知识检索、分析类与问答类任务对量化具有较强容忍度，有的甚至还能小幅提升。这可能是因为量化充当了隐式正则化器的角色，从而促进更具泛化性的表示。",
+      "html": "<p>低精度友好区（推荐 4bit）：知识检索、<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span>类与问答类任务对量化具有较强容忍度，有的甚至还能小幅提升。这可能是因为量化充当了隐式正则化器的角色，从而<span class=\"word-annot\"><span class=\"word-anchor\">促进</span><span class=\"word-block\"><span class=\"english-word\">accelerate</span><span class=\"word-info\">[ækˈsɛlərˌeɪt] v. 使加速，使增速，促进；加速</span></span></span>更具泛化性的表示。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "（3）如何实现得分、速度与成本的平衡？",
+      "html": "<p>（3）如何<span class=\"word-annot\"><span class=\"word-anchor\">实现</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>得分、速度与成本的平衡？</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/005.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/005.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 27,
+      "source_text": "真正决定是否应该对某个任务使用低精度，不能只看分数变化，必须把速度和成本一起纳入考量。基于任务敏感性分析，研究团队给出了两种实用的优化视角：",
+      "html": "<p>真正决定是否应该对某个任务使用低精度，不能只看分数变化，必须把速度和<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">costing</span><span class=\"word-info\">[ˈkɒstɪŋ] n. 成本</span></span></span>一起纳入考量。基于任务敏感性分析，<span class=\"word-annot\"><span class=\"word-anchor\">研究</span><span class=\"word-block\"><span class=\"english-word\">enquiry</span><span class=\"word-info\">[ɪnkˈwaɪˌri] n. 打听， 询问；调查， 研究</span></span></span>团队给出了两种实用的优化视角：</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "得分 vs 速度（更快）：在不牺牲质量的前提下降低推理时延，优先选择速度收益大于分数边际变化的任务。",
+      "html": "<p>得分 vs 速度（更快）：在不牺牲质量的前提下<span class=\"word-annot\"><span class=\"word-anchor\">降低</span><span class=\"word-block\"><span class=\"english-word\">decrease</span><span class=\"word-info\">[ˈdiˌkris] v. 减少,变少,降低</span></span></span>推理时延，优先选择速度收益大于分数边际变化的任务。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "得分 vs 成本（更便宜）：在质量基本持平的情况下压低推理成本，重点关注成本降低时仍能保持或提升质量的任务。",
+      "html": "<p>得分 vs 成本（<span class=\"word-annot\"><span class=\"word-anchor\">更便宜</span><span class=\"word-block\"><span class=\"english-word\">cheaper</span><span class=\"word-info\">[ˈtʃiːpə] adj. 更便宜</span></span></span>）：在质量基本持平的情况下压低推理成本，重点关注成本降低时仍能保持或提升质量的任务。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "QuantClaw：开箱即用的精度调度引擎基于以上发现，研究团队推出了 QuantClaw，一个为 OpenClaw 设计的即插即用的任务路由量化插件。",
+      "html": "<p>QuantClaw：开箱即用的精度调度引擎基于以上发现，研究团队推出了 QuantClaw，一个为 OpenClaw 设<span class=\"word-annot\"><span class=\"word-anchor\">计的</span><span class=\"word-block\"><span class=\"english-word\">centigrade</span><span class=\"word-info\">[ˈsɛntəˌgreɪd] adj. 摄氏温度计的;摄氏的</span></span></span>即插即用的任务路由量化插件。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/006.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/006.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 32,
+      "source_text": "（1）QuantClaw 的工作逻辑非常清晰：",
+      "html": "<p>（1）QuantClaw 的工作逻辑<span class=\"word-annot\"><span class=\"word-anchor\">非常</span><span class=\"word-block\"><span class=\"english-word\">deadly</span><span class=\"word-info\">[ˈdɛdli] adv. 非常；如死一般地</span></span></span>清晰：</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "任务识别：用户发来请求，QuantClaw 首先判断它属于哪种任务类型。",
+      "html": "<p>任务识别：用户发来请求，QuantClaw 首先判断它<span class=\"word-annot\"><span class=\"word-anchor\">属于</span><span class=\"word-block\"><span class=\"english-word\">belong</span><span class=\"word-info\">[bɪˈlɔŋ] v. 属于，应归入；居住；适宜；应被放置</span></span></span>哪种任务类型。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "精度路由：根据预设的「任务-精度敏感度档案」，自动将请求分配给 4bit、8bit 或 16bit 的模型实例。",
+      "html": "<p>精度路由：根据预设的「任务-精度敏感度档案」，自动将请求<span class=\"word-annot\"><span class=\"word-anchor\">分配</span><span class=\"word-block\"><span class=\"english-word\">allocate</span><span class=\"word-info\">[ˈæləˌkeɪt] v. 分配，分派；拨给</span></span></span>给 4bit、8bit 或 16bit 的模型实例。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "透明执行：用户无感知，不用手动选择精度，系统在后台完成一切。",
+      "html": "<p>透明<span class=\"word-annot\"><span class=\"word-anchor\">执行</span><span class=\"word-block\"><span class=\"english-word\">administer</span><span class=\"word-info\">[ədˈmɪnɪstər] v. 管理；执行；给予</span></span></span>：用户无感知，不用手动选择精度，系统在后台完成一切。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "（2）QuantClaw 的架构设计兼顾了实用性和灵活性：",
+      "html": "<p>（2）QuantClaw 的架构<span class=\"word-annot\"><span class=\"word-anchor\">设计</span><span class=\"word-block\"><span class=\"english-word\">contrive</span><span class=\"word-info\">[kənˈtraɪv] v. 设计；发明；图谋</span></span></span>兼顾了实用性和灵活性：</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/007.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/007.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 38,
+      "source_text": "结合规则和判别模型检测，对用户请求进行任务类型分类，无需用户参与",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">结合</span><span class=\"word-block\"><span class=\"english-word\">bind</span><span class=\"word-info\">[baɪnd] v. 结合；装订；有约束力；过紧</span></span></span>规则和判别模型检测，对用户请求进行任务类型分类，无需用户参与</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "每个请求映射到预定义的精度层级（如4-bit、8-bit或16-bit），并路由到对应精度的模型",
+      "html": "<p>每个请求映射到预定义的精度层级（如4-bit、8-bit或16-bit），并路由到<span class=\"word-annot\"><span class=\"word-anchor\">对应</span><span class=\"word-block\"><span class=\"english-word\">correspond</span><span class=\"word-info\">[ˌkɔrəˈspɑnd] vi. 通信；符合， 一致；相当于， 对应</span></span></span>精度的模型</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "任务类型、关键词、正则模式、目标模型、价格策略均可自定义",
+      "html": "<p>任务<span class=\"word-annot\"><span class=\"word-anchor\">类型</span><span class=\"word-block\"><span class=\"english-word\">genre</span><span class=\"word-info\">[ˈʒɑnrə] n. 体载， 类型</span></span></span>、关键词、正则模式、目标模型、价格策略均可自定义</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "实时Dashboard展示路由决策、token消耗、成本、会话和配置等核心指标",
+      "html": "<p>实时Dashboard展示路由决策、token<span class=\"word-annot\"><span class=\"word-anchor\">消耗</span><span class=\"word-block\"><span class=\"english-word\">consume</span><span class=\"word-info\">[kənˈsum] v. 消耗；消费；吃；喝</span></span></span>、成本、会话和配置等核心指标</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "实测效果：省钱、提速、分数还涨了",
+      "html": "<p>实测效果：省钱、提速、<span class=\"word-annot\"><span class=\"word-anchor\">分数</span><span class=\"word-block\"><span class=\"english-word\">fraction</span><span class=\"word-info\">[ˈfrækʃən] n. 小部分,一点儿；分数</span></span></span>还涨了</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "研究团队在 PinchBench 上进行端到端评估。结果表明，QuantClaw 在省钱提速的同时，任务完成质量反而更高。低敏感任务用低精度高效执行，高敏感任务保留高精度确保可靠，实现整体上更好的质量、成本和时延平衡。",
+      "html": "<p>研究团队在 PinchBench 上进行端到端<span class=\"word-annot\"><span class=\"word-anchor\">评估</span><span class=\"word-block\"><span class=\"english-word\">appraisal</span><span class=\"word-info\">[əˈpreɪzəl] n. 对...作出的评价；评价，鉴定，评估</span></span></span>。结果表明，QuantClaw 在省钱提速的同时，任务<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">attain</span><span class=\"word-info\">[əˈteɪn] v. 完成；获得；达到</span></span></span>质量反而更高。低敏感任务用低精度高效执行，高敏感任务保留高精度确保可靠，实现整体上<span class=\"word-annot\"><span class=\"word-anchor\">更好的</span><span class=\"word-block\"><span class=\"english-word\">preferable</span><span class=\"word-info\">[ˈprɛfərəbəl] adj. 更好的，更可取的；更合意的</span></span></span>质量、成本和时延平衡。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "（1）GLM-4.7-Flash（PinchBench v1.2.0）：相比 BF16 基线，得分 +2.85，成本 -21.6%，延迟 -8.4%",
+      "html": "<p>（1）GLM-4.7-Flash（PinchBench v1.2.0）：<span class=\"word-annot\"><span class=\"word-anchor\">相比</span><span class=\"word-block\"><span class=\"english-word\">beside</span><span class=\"word-info\">[ˌbiˈsaɪd] prep. 在...旁边，在...附近；和...相比</span></span></span> BF16 基线，得分 +2.85，成本 -21.6%，延迟 -8.4%</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/008.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/008.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 46,
+      "source_text": "（2）GLM-5（PinchBench v2.0.0）：相比 FP8 基线，得分 +2.09，成本 -21.4%，延迟 -15.7%",
+      "html": "<p>（2）GLM-5（PinchBench v2.0.0）：相比 FP8 基线，得分 +2.09，成本 -21.4%，<span class=\"word-annot\"><span class=\"word-anchor\">延迟</span><span class=\"word-block\"><span class=\"english-word\">latency</span><span class=\"word-info\">[ˈleɪtənsi] n. 延迟</span></span></span> -15.7%</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/009.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/009.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 48,
+      "source_text": "展望QuantClaw 不止是一个插件，更提供了一种将精度纳入系统调度的实现路径：把精度当作像算力、内存一样的动态调度资源；轻任务跑低成本配置，重任务保留高精度。",
+      "html": "<p>展望QuantClaw 不止是一个插件，更提供了一种将精度纳入系统调度的实现路径：把精度当作像<span class=\"word-annot\"><span class=\"word-anchor\">算力</span><span class=\"word-block\"><span class=\"english-word\">computing</span><span class=\"word-info\">[ˈkɒmpjuːtɪŋ] n. 算力</span></span></span>、内存一样的动态调度资源；轻任务跑低成本配置，重任务<span class=\"word-annot\"><span class=\"word-anchor\">保留</span><span class=\"word-block\"><span class=\"english-word\">reservation</span><span class=\"word-info\">[ˌrɛzərˈveɪʃən] n. 预约，预订；保留</span></span></span>高精度。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "当精度成为可动态调配的资源，Agent 系统才能真正从演示场景走向生产级应用。未来，个人 AI 助手不再是「单模型满负荷跑」，而是多精度、多能力协同的智能系统。QuantClaw 正是这一方向的关键一步。",
+      "html": "<p>当精度成为可动态调配的资源，Agent 系统才能真正从<span class=\"word-annot\"><span class=\"word-anchor\">演示</span><span class=\"word-block\"><span class=\"english-word\">demo</span><span class=\"word-info\">[ˈdeməʊ] n. 演示</span></span></span>场景走向生产级应用。未来，个人 AI 助手不再是「单模型满负荷跑」，而是多精度、多<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>协同的智能系统。QuantClaw 正是这一方<span class=\"word-annot\"><span class=\"word-anchor\">向的</span><span class=\"word-block\"><span class=\"english-word\">clockwise</span><span class=\"word-info\">[ˈklɑkˌwaɪz] adj. 顺时针方向的</span></span></span>关键一步。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/010.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/010.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 51,
+      "source_text": "姓名-学校/公司-研究方向",
+      "html": "<p>姓名-学校/<span class=\"word-annot\"><span class=\"word-anchor\">公司</span><span class=\"word-block\"><span class=\"english-word\">establishment</span><span class=\"word-info\">[ɪˈstæblɪʃmənt] n. 确立，制定；公司；设施</span></span></span>-研究方向</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "（如：小张-哈工大-对话系统）",
+      "html": "<p>（如：小张-哈工大-<span class=\"word-annot\"><span class=\"word-anchor\">对话</span><span class=\"word-block\"><span class=\"english-word\">dialog</span><span class=\"word-info\">[ˈdaɪəlɔg] n. (dialogue)对话,对白</span></span></span>系统）</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "自然语言处理/Pytorch",
+      "html": "<p>自然语言<span class=\"word-annot\"><span class=\"word-anchor\">处理</span><span class=\"word-block\"><span class=\"english-word\">cope</span><span class=\"word-info\">[koʊp] v. 处理；对付；竞争</span></span></span>/Pytorch</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "是由国内外机器学习与自然语言处理学者联合构建的民间学术社区，目前已经发展为国内外知名的机器学习与自然语言处理社区，旨在促进机器学习，自然语言处理学术界、产业界和广大爱好者之间的进步。",
+      "html": "<p>是由国内外机器学习与自然语言处理学者联合构建的民间学术社区，目前已经发展为国内外知名的机器学习与自然语言处理社区，旨在促进机器学习，自然语言处理学术界、产业界和广大<span class=\"word-annot\"><span class=\"word-anchor\">爱好者</span><span class=\"word-block\"><span class=\"english-word\">lover</span><span class=\"word-info\">[ˈləvər] n. 爱人，恋人；爱好者</span></span></span>之间的进步。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "社区可以为相关从业者的深造、就业及研究等方面提供开放交流平台。欢迎大家关注和加入我们。",
+      "html": "<p>社区可以为相关<span class=\"word-annot\"><span class=\"word-anchor\">从业者</span><span class=\"word-block\"><span class=\"english-word\">practitioner</span><span class=\"word-info\">[prækˈtɪʃənər] n. 开业者，从业者，执业医生</span></span></span>的深造、就业及研究等方面提供开放交流平台。欢迎大家关注和<span class=\"word-annot\"><span class=\"word-anchor\">加入</span><span class=\"word-block\"><span class=\"english-word\">enroll</span><span class=\"word-info\">[ɪnˈroʊl] v. 登记；使加入；把记入名册；使入伍</span></span></span>我们。</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "![](../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/011.webp)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-quantclaw-openclaw-precision-routing/011.webp\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}
