@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "openai-exec-ai-logic-attention-interns",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "OpenAI高管用9分钟讲完了AI的底层逻辑:",
+      "html": "<p>OpenAI高管用9分钟讲完了AI的底层<span class=\"word-annot\"><span class=\"word-anchor\">逻辑</span><span class=\"word-block\"><span class=\"english-word\">logic</span><span class=\"word-info\">[ˈlɑʤɪk] n. 逻辑,逻辑学</span></span></span>:</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "AI是一群注意力极短的实习生",
+      "html": "<p>AI是<span class=\"word-annot\"><span class=\"word-anchor\">一群</span><span class=\"word-block\"><span class=\"english-word\">batch</span><span class=\"word-info\">[bæʧ] n. 一批,一组,一群</span></span></span>注意力极短的实习生</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "OpenAI的高管用不到10分钟时间，把他对AI的核心判断讲了个透。",
+      "html": "<p>OpenAI的高管用不到10分钟时间，把他对AI的核心<span class=\"word-annot\"><span class=\"word-anchor\">判断</span><span class=\"word-block\"><span class=\"english-word\">diagnose</span><span class=\"word-info\">[ˌdaɪəgˈnoʊs] v. 诊断(疾病)；判断(问题)</span></span></span>讲了个透。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "不是关于\"AI将改变世界\"的空话，而是",
+      "html": "<p>不是关于&quot;AI将<span class=\"word-annot\"><span class=\"word-anchor\">改变</span><span class=\"word-block\"><span class=\"english-word\">alter</span><span class=\"word-info\">[ˈɔltər] v. 改变，更改</span></span></span>世界&quot;的空话，而是</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "从神经网络原理到商业应用的完整链条",
+      "html": "<p>从神经网络原理到<span class=\"word-annot\"><span class=\"word-anchor\">商业</span><span class=\"word-block\"><span class=\"english-word\">commerce</span><span class=\"word-info\">[ˈkɑmərs] n. 买卖，贸易；商务；商业</span></span></span>应用的完整链条</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "听完我觉得，这可能是我今年听到过的、对AI最清晰的一次解释。",
+      "html": "<p>听完我觉得，这可能是我今年听到过的、对AI最<span class=\"word-annot\"><span class=\"word-anchor\">清晰的</span><span class=\"word-block\"><span class=\"english-word\">plain</span><span class=\"word-info\">[pleɪn] adj. 平的；简单的；朴素的；清晰的</span></span></span>一次解释。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "下面的5点，是我从整个讲解中，梳理出的最关键内容。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">下面的</span><span class=\"word-block\"><span class=\"english-word\">underneath</span><span class=\"word-info\">[ˌəndərˈniθ] adj. 下面的；底层的</span></span></span>5点，是我从整个讲解中，梳理出的最关键内容。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "AI就是一群注意力极短的实习生",
+      "html": "<p>AI就是一群<span class=\"word-annot\"><span class=\"word-anchor\">注意</span><span class=\"word-block\"><span class=\"english-word\">publicity</span><span class=\"word-info\">[pəˈblɪsɪti] n. 宣传，宣扬；公开；广告；注意</span></span></span>力极短的实习生</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "他用了一个比喻，特别精准：AI就像你拥有了无数个注意力极其短暂的",
+      "html": "<p>他用了一个比喻，特别精准：AI就像你拥有了无数个注意力极其<span class=\"word-annot\"><span class=\"word-anchor\">短暂的</span><span class=\"word-block\"><span class=\"english-word\">transient</span><span class=\"word-info\">[ˈtrænʒənt] adj. 短暂的；路过的</span></span></span></p>"
+    },
+    {
+      "index": 9,
+      "source_text": "GPT-3的时候，这些实习生相当于高中生——能帮你干点简单的活，但你得盯着，不然就跑偏了。",
+      "html": "<p>GPT-3的时候，这些实习生<span class=\"word-annot\"><span class=\"word-anchor\">相当于</span><span class=\"word-block\"><span class=\"english-word\">correspond</span><span class=\"word-info\">[ˌkɔrəˈspɑnd] vi. 通信；符合， 一致；相当于， 对应</span></span></span>高中生——能帮你干点简单的活，但你得盯着，不然就跑偏了。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "GPT-4，大概是大三学生——能处理更复杂的任务，偶尔还能给你惊喜，但关键决策你还是不敢交给他。",
+      "html": "<p>GPT-4，大概是大三学生——能处理更<span class=\"word-annot\"><span class=\"word-anchor\">复杂的</span><span class=\"word-block\"><span class=\"english-word\">complicated</span><span class=\"word-info\">[ˈkɑmpləˌkeɪtəd] adj. 难懂的，复杂的</span></span></span>任务，偶尔还能给你惊喜，但关键决策你还是不敢交给他。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "GPT-5呢？是\"完全不同的存在\"。",
+      "html": "<p>GPT-5呢？是&quot;完全<span class=\"word-annot\"><span class=\"word-anchor\">不同的</span><span class=\"word-block\"><span class=\"english-word\">diverse</span><span class=\"word-info\">[dɪˈvərs] adj. 多种多样的,不同的</span></span></span>存在&quot;。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "![](../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/001.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/001.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 13,
+      "source_text": "这个类比直接告诉你应该怎么思考AI的商业价值：如果你突然有了无限量的、免费的实习生，你会用他们做什么？",
+      "html": "<p>这个<span class=\"word-annot\"><span class=\"word-anchor\">类比</span><span class=\"word-block\"><span class=\"english-word\">analogy</span><span class=\"word-info\">[əˈnæləʤi] n. 类似，相似，类比，类推</span></span></span>直接告诉你应该怎么思考AI的商业价值：如果你突然有了无限量的、免费的实习生，你会用他们做什么？</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "不是替代你的核心团队，而是把那些需要大量人力、重复性高、但对判断力要求没那么高的任务全部覆盖掉。",
+      "html": "<p>不是替代你的核心团队，而是把那些需要大量人力、重复性高、但对<span class=\"word-annot\"><span class=\"word-anchor\">判断力</span><span class=\"word-block\"><span class=\"english-word\">judgement</span><span class=\"word-info\">[ˈʤəʤmənt] n. 意见；判断力；[法] 审判；评价</span></span></span>要求没那么高的任务全部覆盖掉。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "客服、数据整理、初稿写作、代码审查、信息摘要——这些就是实习生干的活。",
+      "html": "<p>客服、数据整理、初稿写作、代码审查、信息<span class=\"word-annot\"><span class=\"word-anchor\">摘要</span><span class=\"word-block\"><span class=\"english-word\">abstract</span><span class=\"word-info\">[ˈæbˌstrækt] n. 摘要，梗概</span></span></span>——这些就是实习生干的活。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "AI的应用层价值就在这里。",
+      "html": "<p>AI的应用层价值就在这里。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "这段对话里最让我觉得有价值的，是他把Transformer架构讲得特别直觉化。",
+      "html": "<p>这段对话里最让我觉得<span class=\"word-annot\"><span class=\"word-anchor\">有价值的</span><span class=\"word-block\"><span class=\"english-word\">worthy</span><span class=\"word-info\">[ˈwərði] adj. 值得的；有价值的；配得上的，相称的；可尊敬的；应…的</span></span></span>，是他把Transformer架构讲得特别直觉化。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "在Transformer之前，神经网络处理语言的方式靠的是\"记忆\"。",
+      "html": "<p>在Transformer之前，神经网络处理<span class=\"word-annot\"><span class=\"word-anchor\">语言的</span><span class=\"word-block\"><span class=\"english-word\">linguistic</span><span class=\"word-info\">[lɪŋgˈwɪstɪk] adj. 语言的；语言学的</span></span></span>方式靠的是&quot;记忆&quot;。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "——你给它一段文字，它只能记住前面十个词左右。就像一个人读书，每读一句就忘了前面说了什么。",
+      "html": "<p>——你给它一段文字，它只能记住前面十个词左右。就像一个人读书，每读一句就忘了前面说了什么。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "2017年Google提出Transformer，核心突破就一个词：注意力。",
+      "html": "<p>2017年Google<span class=\"word-annot\"><span class=\"word-anchor\">提出</span><span class=\"word-block\"><span class=\"english-word\">exhibit</span><span class=\"word-info\">[ɪgˈzɪbɪt] v. 展览；显示；提出（证据等）</span></span></span>Transformer，核心突破就一个词：注意力。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "什么意思？以前的模型要靠记忆，记不住就没办法。",
+      "html": "<p>什么意思？<span class=\"word-annot\"><span class=\"word-anchor\">以前的</span><span class=\"word-block\"><span class=\"english-word\">fore</span><span class=\"word-info\">[fɔr] adj. 以前的；在前部的</span></span></span>模型要靠记忆，记不住就没办法。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "Transformer的做法是——我不记了，我直接\"看\"。它可以同时关注整个文档里的所有词，去理解上下文关系。",
+      "html": "<p>Transformer的做法是——我不记了，我直接&quot;看&quot;。它可以同时关注整个文档里的所有词，去<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>上下文关系。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "他打了个比方：以前的架构连理解前十个词都很吃力，Transformer出来之后，模型能真正理解前三四页的内容。",
+      "html": "<p>他打了个比方：<span class=\"word-annot\"><span class=\"word-anchor\">以前的</span><span class=\"word-block\"><span class=\"english-word\">sometime</span><span class=\"word-info\">[ˈsəmˌtaɪm] adj. 以前的</span></span></span>架构连理解前十个词都很吃力，Transformer出来之后，模型能真正理解前三四页的内容。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "![](../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/002.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/002.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 25,
+      "source_text": "这个跨越有多大呢？就像从近视800度突然变成正常视力。你能看见的信息量完全不是一个量级。",
+      "html": "<p>这个<span class=\"word-annot\"><span class=\"word-anchor\">跨越</span><span class=\"word-block\"><span class=\"english-word\">span</span><span class=\"word-info\">[spæn] v. 跨越；持续；以手指测量</span></span></span>有多大呢？就像从近视800度突然变成正常<span class=\"word-annot\"><span class=\"word-anchor\">视力</span><span class=\"word-block\"><span class=\"english-word\">eyesight</span><span class=\"word-info\">[ˈaɪˌsaɪt] n. 视力</span></span></span>。你能看见的信息量完全不是一个<span class=\"word-annot\"><span class=\"word-anchor\">量级</span><span class=\"word-block\"><span class=\"english-word\">magnitude</span><span class=\"word-info\">[ˈmægnəˌtud] n. 大小；量级；[地震] 震级；重要；光度</span></span></span>。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "这也是为什么ChatGPT能做到\"读完一篇论文然后跟你讨论\"——因为它真的能\"看到\"全文。",
+      "html": "<p>这也是为什么ChatGPT能做到&quot;读完一篇论文然后跟你<span class=\"word-annot\"><span class=\"word-anchor\">讨论</span><span class=\"word-block\"><span class=\"english-word\">counsel</span><span class=\"word-info\">[ˈkaʊnsəl] n. 法律顾问；忠告；商议；讨论；决策</span></span></span>&quot;——因为它真的能&quot;看到&quot;全文。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "预测下一个字：AI学习的真实方式",
+      "html": "<p>预测下一个字：AI学习的真实<span class=\"word-annot\"><span class=\"word-anchor\">方式</span><span class=\"word-block\"><span class=\"english-word\">alike</span><span class=\"word-info\">[əˈlaɪk] adv. 以同样的方式；类似于</span></span></span></p>"
+    },
+    {
+      "index": 28,
+      "source_text": "另一段让我觉得值得分享的是他对模型训练的解释。",
+      "html": "<p>另一段让我觉得值得分享的是他对模型训练的<span class=\"word-annot\"><span class=\"word-anchor\">解释</span><span class=\"word-block\"><span class=\"english-word\">define</span><span class=\"word-info\">[dɪˈfaɪn] v. 确定，说明，界定；给…下定义，解释</span></span></span>。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "GPT-4这样的模型，训练方式其实荒谬地简单：",
+      "html": "<p>GPT-4这样的模型，<span class=\"word-annot\"><span class=\"word-anchor\">训练</span><span class=\"word-block\"><span class=\"english-word\">discipline</span><span class=\"word-info\">[ˈdɪsəplən] v. 训练，训导；惩戒</span></span></span>方式其实荒谬地简单：</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "抓取网上所有能找到的文本，然后让模型一个字一个字地猜下一个字",
+      "html": "<p>抓取网上所有能找到的文本，然后让模型一个字一个字地猜下一个字</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "\"西班牙的雨主要下在……\"——模型猜\"平原\"。猜对了，奖励；猜错了，调整。",
+      "html": "<p>&quot;西班<span class=\"word-annot\"><span class=\"word-anchor\">牙的</span><span class=\"word-block\"><span class=\"english-word\">dental</span><span class=\"word-info\">[ˈdɛntəl] adj. 牙科的；牙齿的，牙的</span></span></span>雨主要下在……&quot;——模型猜&quot;平原&quot;。猜对了，<span class=\"word-annot\"><span class=\"word-anchor\">奖励</span><span class=\"word-block\"><span class=\"english-word\">reward</span><span class=\"word-info\">[rɪˈwɔrd] v. [劳经] 奖励；奖赏</span></span></span>；猜错了，<span class=\"word-annot\"><span class=\"word-anchor\">调整</span><span class=\"word-block\"><span class=\"english-word\">adjust</span><span class=\"word-info\">[əˈʤəst] v. 调整，使…适合；校准</span></span></span>。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "就这么一个动作，重复数万亿次。",
+      "html": "<p>就这么一个<span class=\"word-annot\"><span class=\"word-anchor\">动作</span><span class=\"word-block\"><span class=\"english-word\">chin</span><span class=\"word-info\">[ʧɪn] n. 下巴；聊天；引体向上动作</span></span></span>，重复数万亿次。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "你听起来觉得这能行？一个只会\"猜下一个字\"的系统，怎么可能理解物理学、写诗、做数学推理？",
+      "html": "<p>你听起来觉得这能行？一个只会&quot;猜下一个字&quot;的系统，怎么可能<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">comprehend</span><span class=\"word-info\">[ˌkɑmpriˈhɛnd] v. 理解；包含；由…组成</span></span></span>物理学、写诗、做数学推理？</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "这里面有一个很深的启示：当数据量和计算量达到某个临界点之后，\"预测下一个字\"这么简单的任务，竟然能涌现出",
+      "html": "<p>这里面有一个很深的启示：当数据量和计算量达到某个临界点之后，&quot;预测下一个字&quot;这么<span class=\"word-annot\"><span class=\"word-anchor\">简单的</span><span class=\"word-block\"><span class=\"english-word\">gut</span><span class=\"word-info\">[gət] adj. 简单的；本质的，根本的；本能的，直觉的</span></span></span>任务，竟然能涌现出</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "这也是为什么OpenAI早期的核心论点是——神经网络作为架构就够了，关键是",
+      "html": "<p>这也是为什么OpenAI<span class=\"word-annot\"><span class=\"word-anchor\">早期的</span><span class=\"word-block\"><span class=\"english-word\">primitive</span><span class=\"word-info\">[ˈprɪmɪtɪv] adj. 原始的,远古的,早期的；简陋的; 旧式的</span></span></span>核心论点是——神经网络作为架构就够了，关键是</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "给它足够的数据、足够的算力，它自己会变聪明。",
+      "html": "<p>给它<span class=\"word-annot\"><span class=\"word-anchor\">足够的</span><span class=\"word-block\"><span class=\"english-word\">adequate</span><span class=\"word-info\">[ˈædəkˌweɪt] adj. 充足的，足够的</span></span></span>数据、足够的算力，它自己会变聪明。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "![](../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/003.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/003.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 38,
+      "source_text": "现在回头看，这个判断对了。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">presently</span><span class=\"word-info\">[ˈprɛzəntli] adv. 一会儿,不久；现在,目前</span></span></span>回头看，这个判断对了。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "对话里有一段关于投资的讨论特别值得听。",
+      "html": "<p>对话里有一段<span class=\"word-annot\"><span class=\"word-anchor\">关于</span><span class=\"word-block\"><span class=\"english-word\">concerning</span><span class=\"word-info\">[kənˈsərnɪŋ] prep. 关于；就…而言</span></span></span>投资的讨论特别值得听。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "主持人说，很多人现在拿着数十亿美元在做AI基础设施——新芯片、新数据中心、新训练框架。",
+      "html": "<p>主持人说，很多人现在拿着数十亿美元在做AI基础设施——新芯片、新<span class=\"word-annot\"><span class=\"word-anchor\">数据中心</span><span class=\"word-block\"><span class=\"english-word\">datacenter</span><span class=\"word-info\">[ˈdeɪtəsentə] n. 数据中心</span></span></span>、新训练框架。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "但OpenAI高管的态度很谨慎。",
+      "html": "<p>但OpenAI高管的态度很<span class=\"word-annot\"><span class=\"word-anchor\">谨慎</span><span class=\"word-block\"><span class=\"english-word\">caution</span><span class=\"word-info\">[ˈkɔʃən] n. 小心，谨慎；警告，警示</span></span></span>。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "他的原话大意是：很多人都试过做新芯片，但NVIDIA有庞大的市场规模和资本投入，初创公司成功的概率极低。",
+      "html": "<p>他的原话大意是：很多人都试过做新芯片，但NVIDIA有<span class=\"word-annot\"><span class=\"word-anchor\">庞大的</span><span class=\"word-block\"><span class=\"english-word\">enormous</span><span class=\"word-info\">[ɪˈnɔrmɪs] adj. 庞大的，巨大的；凶暴的，极恶的</span></span></span>市场规模和资本投入，初创公司成功的概率极低。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "反过来，他真正兴奋的是应用层。",
+      "html": "<p>反过来，他真正<span class=\"word-annot\"><span class=\"word-anchor\">兴奋的</span><span class=\"word-block\"><span class=\"english-word\">cordial</span><span class=\"word-info\">[ˈkɔrʤəl] adj. 热忱的，诚恳的；兴奋的</span></span></span>是应用层。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "用他的逻辑来理解：基础设施赌的是\"我能比NVIDIA做得更好\"，这个赌注太大了。",
+      "html": "<p>用他的逻辑来理解：<span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施；公共建设；下部构造</span></span></span>赌的是&quot;我能比NVIDIA做得更好&quot;，这个赌注太大了。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "应用层赌的是\"有了这些免费实习生，我能解决什么新问题\"，这个赌注的赔率好得多。",
+      "html": "<p>应用层赌的是&quot;有了这些免费实习生，我能<span class=\"word-annot\"><span class=\"word-anchor\">解决</span><span class=\"word-block\"><span class=\"english-word\">patch</span><span class=\"word-info\">[pæʧ] v. 修补；解决；掩饰</span></span></span>什么新问题&quot;，这个赌注的赔率好得多。</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "我自己做产品也是这个感受。",
+      "html": "<p>我自己做产品也是这个感受。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "你不需要比OpenAI更懂AI，你需要比他们更懂某个行业的痛点。然后用他们的模型去解决。",
+      "html": "<p>你不<span class=\"word-annot\"><span class=\"word-anchor\">需要</span><span class=\"word-block\"><span class=\"english-word\">entail</span><span class=\"word-info\">[ɛnˈteɪl] v. 使需要，必需；承担；遗传给；蕴含</span></span></span>比OpenAI更懂AI，你需要比他们更懂某个行业的痛点。然后用他们的模型去<span class=\"word-annot\"><span class=\"word-anchor\">解决</span><span class=\"word-block\"><span class=\"english-word\">settle</span><span class=\"word-info\">[ˈsɛtəl] v. 解决；定居；沉淀；下陷</span></span></span>。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "这也是为什么最近AI领域最赚钱的公司，反而是做垂直应用的——法律AI、医疗AI、教育AI。",
+      "html": "<p>这也是为什么最近AI<span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[dəʊˈmeɪn] n. (活动,思想等)领域,范围；领地</span></span></span>最赚钱的公司，反而是做垂直应用的——法律AI、医疗AI、教育AI。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "他们的护城河不是技术，是对行业的理解。",
+      "html": "<p>他们的护城河不是技术，是对行业的<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">comprehension</span><span class=\"word-info\">[ˌkɑmpriˈhɛnʃən] n. 理解， 领悟</span></span></span>。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "对话的开头聊到了AI投资泡沫。一家法律科技公司，估值突然涨到上一轮的八倍。",
+      "html": "<p>对话的开头聊到了AI投资<span class=\"word-annot\"><span class=\"word-anchor\">泡沫</span><span class=\"word-block\"><span class=\"english-word\">bubble</span><span class=\"word-info\">[ˈbəbəl] n. 气泡，泡沫，泡状物；透明圆形罩，圆形顶</span></span></span>。一家法律科技公司，估值突然涨到上一轮的<span class=\"word-annot\"><span class=\"word-anchor\">八倍</span><span class=\"word-block\"><span class=\"english-word\">eightfold</span><span class=\"word-info\">[ˈeɪtfəʊld] adj. 八倍</span></span></span>。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "SaaS公司拿着上亿融资到处路演，好像2021年又回来了。",
+      "html": "<p>SaaS<span class=\"word-annot\"><span class=\"word-anchor\">公司</span><span class=\"word-block\"><span class=\"english-word\">establishment</span><span class=\"word-info\">[ɪˈstæblɪʃmənt] n. 确立，制定；公司；设施</span></span></span>拿着上亿融资到处路演，好像2021年又回来了。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "主持人说他对这种炒作\"有点担心\"。",
+      "html": "<p>主持人说他对这种炒作&quot;有点<span class=\"word-annot\"><span class=\"word-anchor\">担心</span><span class=\"word-block\"><span class=\"english-word\">dread</span><span class=\"word-info\">[drɛd] v. 惧怕；担心</span></span></span>&quot;。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "但听完整段对话之后，我觉得这里面有一个关键的区分：泡沫存在于\"把AI当标签贴\"的公司——那些本质没变、只是加了个AI噱头的企业。",
+      "html": "<p>但听完整段对话之后，我觉得这里面有一个关键的区分：泡沫<span class=\"word-annot\"><span class=\"word-anchor\">存在于</span><span class=\"word-block\"><span class=\"english-word\">dwell</span><span class=\"word-info\">[dwɛl] v. 居住；存在于；细想某事</span></span></span>&quot;把AI当标签贴&quot;的公司——那些本质没变、只是加了个AI噱头的企业。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "![](../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/004.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/004.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 55,
+      "source_text": "而真正的价值正在应用层积累——那些用AI去解决以前解决不了的问题的团队。",
+      "html": "<p>而<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>价值正在应用层积累——那些用AI去解决以前解决不了的问题的团队。</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "区分方法其实很简单：问一句\"如果没有AI，这个问题能不能解决？\"",
+      "html": "<p>区分<span class=\"word-annot\"><span class=\"word-anchor\">方法</span><span class=\"word-block\"><span class=\"english-word\">avenue</span><span class=\"word-info\">[ˈævəˌnu] n. 大街；林荫路；途径，渠道，方法</span></span></span>其实很简单：问一句&quot;如果没有AI，这个问题能不能解决？&quot;</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "如果答案是\"能，只是慢一点\"，大概率是伪需求。",
+      "html": "<p>如果答案是&quot;能，只是慢<span class=\"word-annot\"><span class=\"word-anchor\">一点</span><span class=\"word-block\"><span class=\"english-word\">epoch</span><span class=\"word-info\">[ˈɛpək] n. [地质] 世；新纪元；新时代；时间上的一点</span></span></span>&quot;，大概率是伪需求。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "如果答案是\"完全不行\"，那才是真机会。",
+      "html": "<p>如果答案是&quot;完全不行&quot;，那才是真<span class=\"word-annot\"><span class=\"word-anchor\">机会</span><span class=\"word-block\"><span class=\"english-word\">occasion</span><span class=\"word-info\">[əˈkeɪʒən] n. 时机，机会；场合；理由</span></span></span>。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "这期对话让我印象最深的是一种思考框架的转变。",
+      "html": "<p>这期对话让我印象最深的是一种<span class=\"word-annot\"><span class=\"word-anchor\">思考</span><span class=\"word-block\"><span class=\"english-word\">consideration</span><span class=\"word-info\">[kənˌsɪdərˈeɪʃən] n. 考虑,思考；需要考虑的事；体谅,照顾</span></span></span>框架的转变。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "不要从\"AI能做什么\"出发去找应用。要从\"我有什么问题\"出发，然后问——现在有一群免费的实习生了，这个问题能不能解？",
+      "html": "<p>不要从&quot;AI能做什么&quot;出发去找应用。要从&quot;我有什么问题&quot;出发，然后问——现在有一群免费的实习生了，这个问题能不能解？</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "GPT-3是高中生，GPT-4是大三生，GPT-5是另一个物种。",
+      "html": "<p>GPT-3是高中生，GPT-4是大三生，GPT-5是另一个物种。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "![](../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/005.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-openai-exec-ai-logic-attention-interns/005.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 63,
+      "source_text": "模型在快速进化，但你对自己行业痛点的理解，才是真正稀缺的东西。",
+      "html": "<p>模型在快速进化，但你对自己行业痛点的理解，才是真正稀缺<span class=\"word-annot\"><span class=\"word-anchor\">的东西</span><span class=\"word-block\"><span class=\"english-word\">disguise</span><span class=\"word-info\">[dɪsˈgaɪz] n. 伪装；假装；用作伪装的东西</span></span></span>。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "AI创业进入深水区：真正的护城河藏在不起眼的笨活里",
+      "html": "<p>AI创业进入深水区：<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">genuine</span><span class=\"word-info\">[ˈʤɛnjuˌaɪn] adj. 真正的</span></span></span>护城河藏在不起眼的笨活里</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "在MIT上AI课，发现世界真的是草台班子...",
+      "html": "<p>在MIT上AI课，<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discover</span><span class=\"word-info\">[dɪˈskəvər] v. 发现</span></span></span>世界真的是草台班子...</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "2026红杉资本AI闭门会，真正会发生的只有这三件事：1、编程是第一个被吃透的垂类，紧随其后是法律、医疗；2、基础设施是下一个隐形护城河",
+      "html": "<p>2026红杉资本AI闭门会，真正会<span class=\"word-annot\"><span class=\"word-anchor\">发生</span><span class=\"word-block\"><span class=\"english-word\">contemporary</span><span class=\"word-info\">[kənˈtɛmpərˌɛri] adj. 现代的,当代的；发生[存在]于同一时代的</span></span></span>的只有这三件事：1、编程是第一个被吃透的垂类，紧随其后是法律、医疗；2、基础设施是下一个隐形护城河</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "接下来5-10年的AI时代，精干型公司会跑赢一切。",
+      "html": "<p>接<span class=\"word-annot\"><span class=\"word-anchor\">下来</span><span class=\"word-block\"><span class=\"english-word\">descend</span><span class=\"word-info\">[dɪˈsɛnd] v. 下降；下去；下来；遗传；屈尊</span></span></span>5-10年的AI时代，精干型公司会跑赢一切。</p>"
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɑʤɪk]",
+      "pos": "n.",
+      "gloss": "逻辑,逻辑学"
+    },
+    {
+      "i": 1,
+      "zh": "一群",
+      "en": "batch",
+      "ipa": "[bæʧ]",
+      "pos": "n.",
+      "gloss": "一批,一组,一群"
+    },
+    {
+      "i": 2,
+      "zh": "判断",
+      "en": "diagnose",
+      "ipa": "[ˌdaɪəgˈnoʊs]",
+      "pos": "v.",
+      "gloss": "诊断(疾病)；判断(问题)"
+    },
+    {
+      "i": 3,
+      "zh": "改变",
+      "en": "alter",
+      "ipa": "[ˈɔltər]",
+      "pos": "v.",
+      "gloss": "改变，更改"
+    },
+    {
+      "i": 4,
+      "zh": "商业",
+      "en": "commerce",
+      "ipa": "[ˈkɑmərs]",
+      "pos": "n.",
+      "gloss": "买卖，贸易；商务；商业"
+    },
+    {
+      "i": 5,
+      "zh": "清晰的",
+      "en": "plain",
+      "ipa": "[pleɪn]",
+      "pos": "adj.",
+      "gloss": "平的；简单的；朴素的；清晰的"
+    },
+    {
+      "i": 6,
+      "zh": "下面的",
+      "en": "underneath",
+      "ipa": "[ˌəndərˈniθ]",
+      "pos": "adj.",
+      "gloss": "下面的；底层的"
+    },
+    {
+      "i": 7,
+      "zh": "注意",
+      "en": "publicity",
+      "ipa": "[pəˈblɪsɪti]",
+      "pos": "n.",
+      "gloss": "宣传，宣扬；公开；广告；注意"
+    },
+    {
+      "i": 8,
+      "zh": "短暂的",
+      "en": "transient",
+      "ipa": "[ˈtrænʒənt]",
+      "pos": "adj.",
+      "gloss": "短暂的；路过的"
+    },
+    {
+      "i": 9,
+      "zh": "相当于",
+      "en": "correspond",
+      "ipa": "[ˌkɔrəˈspɑnd]",
+      "pos": "vi.",
+      "gloss": "通信；符合， 一致；相当于， 对应"
+    },
+    {
+      "i": 10,
+      "zh": "复杂的",
+      "en": "complicated",
+      "ipa": "[ˈkɑmpləˌkeɪtəd]",
+      "pos": "adj.",
+      "gloss": "难懂的，复杂的"
+    },
+    {
+      "i": 11,
+      "skip": true
+    },
+    {
+      "i": 12,
+      "zh": "不同的",
+      "en": "diverse",
+      "ipa": "[dɪˈvərs]",
+      "pos": "adj.",
+      "gloss": "多种多样的,不同的"
+    },
+    {
+      "i": 13,
+      "zh": "类比",
+      "en": "analogy",
+      "ipa": "[əˈnæləʤi]",
+      "pos": "n.",
+      "gloss": "类似，相似，类比，类推"
+    },
+    {
+      "i": 14,
+      "zh": "判断力",
+      "en": "judgement",
+      "ipa": "[ˈʤəʤmənt]",
+      "pos": "n.",
+      "gloss": "意见；判断力；[法] 审判；评价"
+    },
+    {
+      "i": 15,
+      "zh": "摘要",
+      "en": "abstract",
+      "ipa": "[ˈæbˌstrækt]",
+      "pos": "n.",
+      "gloss": "摘要，梗概"
+    },
+    {
+      "i": 16,
+      "skip": true
+    },
+    {
+      "i": 17,
+      "zh": "有价值的",
+      "en": "worthy",
+      "ipa": "[ˈwərði]",
+      "pos": "adj.",
+      "gloss": "值得的；有价值的；配得上的，相称的；可尊敬的；应…的"
+    },
+    {
+      "i": 18,
+      "zh": "语言的",
+      "en": "linguistic",
+      "ipa": "[lɪŋgˈwɪstɪk]",
+      "pos": "adj.",
+      "gloss": "语言的；语言学的"
+    },
+    {
+      "i": 19,
+      "skip": true
+    },
+    {
+      "i": 20,
+      "skip": true
+    },
+    {
+      "i": 21,
+      "zh": "提出",
+      "en": "exhibit",
+      "ipa": "[ɪgˈzɪbɪt]",
+      "pos": "v.",
+      "gloss": "展览；显示；提出（证据等）"
+    },
+    {
+      "i": 22,
+      "skip": true
+    },
+    {
+      "i": 23,
+      "zh": "以前的",
+      "en": "fore",
+      "ipa": "[fɔr]",
+      "pos": "adj.",
+      "gloss": "以前的；在前部的"
+    },
+    {
+      "i": 24,
+      "skip": true
+    },
+    {
+      "i": 25,
+      "zh": "理解",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 26,
+      "zh": "以前的",
+      "en": "sometime",
+      "ipa": "[ˈsəmˌtaɪm]",
+      "pos": "adj.",
+      "gloss": "以前的"
+    },
+    {
+      "i": 27,
+      "zh": "跨越",
+      "en": "span",
+      "ipa": "[spæn]",
+      "pos": "v.",
+      "gloss": "跨越；持续；以手指测量"
+    },
+    {
+      "i": 28,
+      "zh": "视力",
+      "en": "eyesight",
+      "ipa": "[ˈaɪˌsaɪt]",
+      "pos": "n.",
+      "gloss": "视力"
+    },
+    {
+      "i": 29,
+      "zh": "量级",
+      "en": "magnitude",
+      "ipa": "[ˈmægnəˌtud]",
+      "pos": "n.",
+      "gloss": "大小；量级；[地震] 震级；重要；光度"
+    },
+    {
+      "i": 30,
+      "zh": "讨论",
+      "en": "counsel",
+      "ipa": "[ˈkaʊnsəl]",
+      "pos": "n.",
+      "gloss": "法律顾问；忠告；商议；讨论；决策"
+    },
+    {
+      "i": 31,
+      "zh": "方式",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adv.",
+      "gloss": "以同样的方式；类似于"
+    },
+    {
+      "i": 32,
+      "zh": "解释",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "确定，说明，界定；给…下定义，解释"
+    },
+    {
+      "i": 33,
+      "zh": "训练",
+      "en": "discipline",
+      "ipa": "[ˈdɪsəplən]",
+      "pos": "v.",
+      "gloss": "训练，训导；惩戒"
+    },
+    {
+      "i": 34,
+      "skip": true
+    },
+    {
+      "i": 35,
+      "zh": "牙的",
+      "en": "dental",
+      "ipa": "[ˈdɛntəl]",
+      "pos": "adj.",
+      "gloss": "牙科的；牙齿的，牙的"
+    },
+    {
+      "i": 36,
+      "zh": "奖励",
+      "en": "reward",
+      "ipa": "[rɪˈwɔrd]",
+      "pos": "v.",
+      "gloss": "[劳经] 奖励；奖赏"
+    },
+    {
+      "i": 37,
+      "zh": "调整",
+      "en": "adjust",
+      "ipa": "[əˈʤəst]",
+      "pos": "v.",
+      "gloss": "调整，使…适合；校准"
+    },
+    {
+      "i": 38,
+      "zh": "动作",
+      "en": "chin",
+      "ipa": "[ʧɪn]",
+      "pos": "n.",
+      "gloss": "下巴；聊天；引体向上动作"
+    },
+    {
+      "i": 39,
+      "skip": true
+    },
+    {
+      "i": 40,
+      "zh": "理解",
+      "en": "comprehend",
+      "ipa": "[ˌkɑmpriˈhɛnd]",
+      "pos": "v.",
+      "gloss": "理解；包含；由…组成"
+    },
+    {
+      "i": 41,
+      "zh": "简单的",
+      "en": "gut",
+      "ipa": "[gət]",
+      "pos": "adj.",
+      "gloss": "简单的；本质的，根本的；本能的，直觉的"
+    },
+    {
+      "i": 42,
+      "zh": "早期的",
+      "en": "primitive",
+      "ipa": "[ˈprɪmɪtɪv]",
+      "pos": "adj.",
+      "gloss": "原始的,远古的,早期的；简陋的; 旧式的"
+    },
+    {
+      "i": 43,
+      "zh": "足够的",
+      "en": "adequate",
+      "ipa": "[ˈædəkˌweɪt]",
+      "pos": "adj.",
+      "gloss": "充足的，足够的"
+    },
+    {
+      "i": 44,
+      "zh": "现在",
+      "en": "presently",
+      "ipa": "[ˈprɛzəntli]",
+      "pos": "adv.",
+      "gloss": "一会儿,不久；现在,目前"
+    },
+    {
+      "i": 45,
+      "zh": "关于",
+      "en": "concerning",
+      "ipa": "[kənˈsərnɪŋ]",
+      "pos": "prep.",
+      "gloss": "关于；就…而言"
+    },
+    {
+      "i": 46,
+      "zh": "数据中心",
+      "en": "datacenter",
+      "ipa": "[ˈdeɪtəsentə]",
+      "pos": "n.",
+      "gloss": "数据中心"
+    },
+    {
+      "i": 47,
+      "zh": "谨慎",
+      "en": "caution",
+      "ipa": "[ˈkɔʃən]",
+      "pos": "n.",
+      "gloss": "小心，谨慎；警告，警示"
+    },
+    {
+      "i": 48,
+      "zh": "庞大的",
+      "en": "enormous",
+      "ipa": "[ɪˈnɔrmɪs]",
+      "pos": "adj.",
+      "gloss": "庞大的，巨大的；凶暴的，极恶的"
+    },
+    {
+      "i": 49,
+      "zh": "兴奋的",
+      "en": "cordial",
+      "ipa": "[ˈkɔrʤəl]",
+      "pos": "adj.",
+      "gloss": "热忱的，诚恳的；兴奋的"
+    },
+    {
+      "i": 50,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "基础设施；公共建设；下部构造"
+    },
+    {
+      "i": 51,
+      "zh": "解决",
+      "en": "patch",
+      "ipa": "[pæʧ]",
+      "pos": "v.",
+      "gloss": "修补；解决；掩饰"
+    },
+    {
+      "i": 52,
+      "skip": true
+    },
+    {
+      "i": 53,
+      "zh": "需要",
+      "en": "entail",
+      "ipa": "[ɛnˈteɪl]",
+      "pos": "v.",
+      "gloss": "使需要，必需；承担；遗传给；蕴含"
+    },
+    {
+      "i": 54,
+      "zh": "解决",
+      "en": "settle",
+      "ipa": "[ˈsɛtəl]",
+      "pos": "v.",
+      "gloss": "解决；定居；沉淀；下陷"
+    },
+    {
+      "i": 55,
+      "zh": "领域",
+      "en": "domain",
+      "ipa": "[dəʊˈmeɪn]",
+      "pos": "n.",
+      "gloss": "(活动,思想等)领域,范围；领地"
+    },
+    {
+      "i": 56,
+      "zh": "理解",
+      "en": "comprehension",
+      "ipa": "[ˌkɑmpriˈhɛnʃən]",
+      "pos": "n.",
+      "gloss": "理解， 领悟"
+    },
+    {
+      "i": 57,
+      "zh": "泡沫",
+      "en": "bubble",
+      "ipa": "[ˈbəbəl]",
+      "pos": "n.",
+      "gloss": "气泡，泡沫，泡状物；透明圆形罩，圆形顶"
+    },
+    {
+      "i": 58,
+      "zh": "八倍",
+      "en": "eightfold",
+      "ipa": "[ˈeɪtfəʊld]",
+      "pos": "adj.",
+      "gloss": "八倍"
+    },
+    {
+      "i": 59,
+      "zh": "公司",
+      "en": "establishment",
+      "ipa": "[ɪˈstæblɪʃmənt]",
+      "pos": "n.",
+      "gloss": "确立，制定；公司；设施"
+    },
+    {
+      "i": 60,
+      "zh": "担心",
+      "en": "dread",
+      "ipa": "[drɛd]",
+      "pos": "v.",
+      "gloss": "惧怕；担心"
+    },
+    {
+      "i": 61,
+      "zh": "存在于",
+      "en": "dwell",
+      "ipa": "[dwɛl]",
+      "pos": "v.",
+      "gloss": "居住；存在于；细想某事"
+    },
+    {
+      "i": 62,
+      "zh": "真正的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 63,
+      "zh": "方法",
+      "en": "avenue",
+      "ipa": "[ˈævəˌnu]",
+      "pos": "n.",
+      "gloss": "大街；林荫路；途径，渠道，方法"
+    },
+    {
+      "i": 64,
+      "skip": true
+    },
+    {
+      "i": 65,
+      "zh": "一点",
+      "en": "epoch",
+      "ipa": "[ˈɛpək]",
+      "pos": "n.",
+      "gloss": "[地质] 世；新纪元；新时代；时间上的一点"
+    },
+    {
+      "i": 66,
+      "zh": "机会",
+      "en": "occasion",
+      "ipa": "[əˈkeɪʒən]",
+      "pos": "n.",
+      "gloss": "时机，机会；场合；理由"
+    },
+    {
+      "i": 67,
+      "zh": "思考",
+      "en": "consideration",
+      "ipa": "[kənˌsɪdərˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "考虑,思考；需要考虑的事；体谅,照顾"
+    },
+    {
+      "i": 68,
+      "skip": true
+    },
+    {
+      "i": 69,
+      "skip": true
+    },
+    {
+      "i": 70,
+      "skip": true
+    },
+    {
+      "i": 71,
+      "zh": "的东西",
+      "en": "disguise",
+      "ipa": "[dɪsˈgaɪz]",
+      "pos": "n.",
+      "gloss": "伪装；假装；用作伪装的东西"
+    },
+    {
+      "i": 72,
+      "zh": "真正的",
+      "en": "genuine",
+      "ipa": "[ˈʤɛnjuˌaɪn]",
+      "pos": "adj.",
+      "gloss": "真正的"
+    },
+    {
+      "i": 73,
+      "zh": "发现",
+      "en": "discover",
+      "ipa": "[dɪˈskəvər]",
+      "pos": "v.",
+      "gloss": "发现"
+    },
+    {
+      "i": 74,
+      "zh": "发生",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 75,
+      "skip": true
+    },
+    {
+      "i": 76,
+      "zh": "下来",
+      "en": "descend",
+      "ipa": "[dɪˈsɛnd]",
+      "pos": "v.",
+      "gloss": "下降；下去；下来；遗传；屈尊"
+    }
+  ]
+}
