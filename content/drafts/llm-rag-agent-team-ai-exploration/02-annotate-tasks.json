@@ -1,0 +1,582 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "llm-rag-agent-team-ai-exploration",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/001.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/001.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "现在大部分公司谈AI落地，还停在\"哪个业务能嵌一个模型进去\"。我们25年也是这么做的。",
+      "html": "<p>现在大部<span class=\"word-annot\"><span class=\"word-anchor\">分公司</span><span class=\"word-block\"><span class=\"english-word\">affiliate</span><span class=\"word-info\">[əˈfɪliˌeɪt] n. 附属机构， 分公司</span></span></span>谈AI落地，还停在&quot;哪个业务能嵌一个模型进去&quot;。我们25年也是这么做的。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "那时候做AI的主流玩法就是LLM+RAG+Workflow——把模型能力嵌进业务的某个点，外面再套一个工程化的工作流去编排。我们ToC端做了直播AI助手、活动个性化、内容理解、文案生成；内部做了代码审查、AIGO开发助手、测试用例生成平台。一年下来，十几个AI项目，每一个单看都跑通了。",
+      "html": "<p>那时候做AI的主流玩法就是LLM+RAG+Workflow——把模型<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>嵌进业务的某个点，外面再套一个工程化的工作流去编排。我们ToC端做了直播AI助手、活动个性化、内容<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">absorb</span><span class=\"word-info\">[əbˈzɔrb] v. 吸收；吸引；承受；理解；使…全神贯注</span></span></span>、文案生成；内部做了代码审查、AIGO开发<span class=\"word-annot\"><span class=\"word-anchor\">助手</span><span class=\"word-block\"><span class=\"english-word\">ally</span><span class=\"word-info\">[ˈælaɪ] n. 同盟国；伙伴；同盟者；助手</span></span></span>、测试用例生成平台。一年<span class=\"word-annot\"><span class=\"word-anchor\">下来</span><span class=\"word-block\"><span class=\"english-word\">descend</span><span class=\"word-info\">[dɪˈsɛnd] v. 下降；下去；下来；遗传；屈尊</span></span></span>，十几个AI项目，每一个单看都跑通了。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 4,
+      "source_text": "但我们越做越发现一件事：AI真正的难点，从来不在\"能不能用上\"，而在能不能跑通整条工作流。",
+      "html": "<p>但我们越做越发现一件事：AI<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">authentic</span><span class=\"word-info\">[əˈθɛnɪk] adj. 真正的，真实的；可信的</span></span></span>难点，从来不在&quot;能不能用上&quot;，而在能不能跑通整条工作流。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "转折点出现在24年底到25年。Anthropic在24年11月发布MCP，把\"模型怎么调用外部工具\"这件事从各家自己写一套，统一成了一个开放协议；25年下半年，Anthropic的Agent Skills又把\"模型怎么调用一段固化流程\"标准化了；同期，业界对Agent Harness的讨论也在收敛——大家越来越意识到，Agent的真正能力，不光取决于底层模型，更取决于外面那一层\"模型 + 工具 + 上下文 + 控制流\"的工程框架。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">转折点</span><span class=\"word-block\"><span class=\"english-word\">hinge</span><span class=\"word-info\">[hɪnʤ] n. 铰链，折叶；关键，转折点；枢要，中枢</span></span></span>出现在24年底到25年。Anthropic在24年11月发布MCP，把&quot;模型怎么调用外部工具&quot;这件事从各家自己写一套，统一成了一个开放<span class=\"word-annot\"><span class=\"word-anchor\">协议</span><span class=\"word-block\"><span class=\"english-word\">accord</span><span class=\"word-info\">[əˈkɔrd] n. 一致， 符合；协议， 条约</span></span></span>；25年下半年，Anthropic的Agent Skills又把&quot;模型怎么调用一段固化流程&quot;<span class=\"word-annot\"><span class=\"word-anchor\">标准化</span><span class=\"word-block\"><span class=\"english-word\">normalization</span><span class=\"word-info\">[ˌnɔrməlɪˈzeɪʃən] n. 正常化；标准化；正规化；常态化</span></span></span>了；同期，业界对Agent Harness的讨论也在收敛——大家越来越<span class=\"word-annot\"><span class=\"word-anchor\">意识到</span><span class=\"word-block\"><span class=\"english-word\">alert</span><span class=\"word-info\">[əˈlərt] v. 警告；使警觉，使意识到</span></span></span>，Agent的真正能力，不光取决于底层模型，更取决于外面那一层&quot;模型 + 工具 + 上下文 + 控制流&quot;的工程框架。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "这套东西凑齐之后，路就变了。AI从\"调一次模型解决一个问题\"，变成可以\"作为一整套体系化的工作流去运转\"。技术迭代到这里，我们也跟着变。",
+      "html": "<p>这套<span class=\"word-annot\"><span class=\"word-anchor\">东西</span><span class=\"word-block\"><span class=\"english-word\">clay</span><span class=\"word-info\">[kleɪ] n. [土壤] 粘土；泥土；肉体；似黏土的东西</span></span></span>凑齐之后，路就变了。AI从&quot;调一次模型解决一个问题&quot;，变成可以&quot;作为一整套体系化的工作流去<span class=\"word-annot\"><span class=\"word-anchor\">运转</span><span class=\"word-block\"><span class=\"english-word\">behave</span><span class=\"word-info\">[bɪˈheɪv] v. 表现；（机器等）运转；举止端正；（事物）起某种作用</span></span></span>&quot;。<span class=\"word-annot\"><span class=\"word-anchor\">技术</span><span class=\"word-block\"><span class=\"english-word\">technique</span><span class=\"word-info\">[tɛkˈnik] n. 技巧，手艺，工艺；技能，技术</span></span></span>迭代到这里，我们也跟着变。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/003.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/003.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 8,
+      "source_text": "但真正改路之后才发现：要改的东西，比想象的多得多。不是把RAG替换成Agent这么简单，整个研发组织的协作方式、产品形态、甚至公司内部\"人怎么找技术干活\"的范式，都要跟着重做。",
+      "html": "<p>但真正改路之后才发现：要改<span class=\"word-annot\"><span class=\"word-anchor\">的东西</span><span class=\"word-block\"><span class=\"english-word\">disguise</span><span class=\"word-info\">[dɪsˈgaɪz] n. 伪装；假装；用作伪装的东西</span></span></span>，比想象的多得多。不是把RAG替换成Agent这么简单，整个研发<span class=\"word-annot\"><span class=\"word-anchor\">组织的</span><span class=\"word-block\"><span class=\"english-word\">organic</span><span class=\"word-info\">[ɔrˈgænɪk] adj. [有化] 有机的；组织的；器官的；根本的</span></span></span>协作方式、产品形态、甚至公司内部&quot;人怎么找技术干活&quot;的范式，都要跟着重做。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "市面上现在都在喊\"AI全栈\"。但大部分人理解的\"全栈\"是技术栈意义上的全——前端、后端、数据、模型一把梭。我理解的AI全栈完全不是这个意思。AI全栈是把技术周围所有上下游环节，全部变成AI可协作的形态。代码要AI可读，PRD要AI可解析，运营SOP要Skill化，产品入口要CLI化——任何一环没AI化，整条链路就断在那一环。",
+      "html": "<p>市面上<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">presently</span><span class=\"word-info\">[ˈprɛzəntli] adv. 一会儿,不久；现在,目前</span></span></span>都在喊&quot;AI全栈&quot;。但<span class=\"word-annot\"><span class=\"word-anchor\">大部分</span><span class=\"word-block\"><span class=\"english-word\">bulk</span><span class=\"word-info\">[bəlk] n. 体积，容量；大多数，大部分；大块</span></span></span>人理解的&quot;全栈&quot;是技术栈意义上的全——前端、后端、数据、模型一把梭。我<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">comprehend</span><span class=\"word-info\">[ˌkɑmpriˈhɛnd] v. 理解；包含；由…组成</span></span></span>的AI全栈完全不是这个意思。AI全栈是把技术<span class=\"word-annot\"><span class=\"word-anchor\">周围</span><span class=\"word-block\"><span class=\"english-word\">circumference</span><span class=\"word-info\">[ˌsərˈkəmfrəns] n. 圆周,周围</span></span></span>所有上下游环节，全部变成AI可协作的形态。代码要AI可读，PRD要AI可解析，运营SOP要Skill化，产品<span class=\"word-annot\"><span class=\"word-anchor\">入口</span><span class=\"word-block\"><span class=\"english-word\">entrance</span><span class=\"word-info\">[ˈɛntrəns] n. 入口；进入</span></span></span>要CLI化——任何一环没AI化，整条链路就断在那一环。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "这也是为什么\"AI全栈\"这个词，现在只有博主和卖焦虑的人在喊，但大公司、企业里真正落地反而\"特别难\"——不是技术难，是要改的不只是技术，是上下游每一个角色的工作方式。这中间巨大的信息差，才是真正的门槛。",
+      "html": "<p>这也是为什么&quot;AI全栈&quot;这个词，现在只有博主和卖<span class=\"word-annot\"><span class=\"word-anchor\">焦虑的</span><span class=\"word-block\"><span class=\"english-word\">anxious</span><span class=\"word-info\">[ˈæŋʃəs] adj. 焦虑的；担忧的；渴望的；急切的</span></span></span>人在喊，但大公司、企业里真正落地反而&quot;特别难&quot;——不是技术难，是要改的不只是技术，是上下游每一个角色的工作方式。这中间<span class=\"word-annot\"><span class=\"word-anchor\">巨大的</span><span class=\"word-block\"><span class=\"english-word\">enormous</span><span class=\"word-info\">[ɪˈnɔrmɪs] adj. 庞大的，巨大的；凶暴的，极恶的</span></span></span>信息差，才是真正的门槛。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "这一年的认知变化，和接下来要做的几件事，今天一次讲清楚。",
+      "html": "<p>这一年的认知变化，和接下来要做的几件事，今天一次讲<span class=\"word-annot\"><span class=\"word-anchor\">清楚</span><span class=\"word-block\"><span class=\"english-word\">clarity</span><span class=\"word-info\">[ˈklærəti] n. 清楚，明晰；透明</span></span></span>。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "这是我们去年投入最大的一块，也是今年认知迭代最多的一块。",
+      "html": "<p>这是我们去年投入最大的一块，也是今年<span class=\"word-annot\"><span class=\"word-anchor\">认知</span><span class=\"word-block\"><span class=\"english-word\">cognition</span><span class=\"word-info\">[kɒɡˈnɪʃn] n. 认知</span></span></span>迭代最多的一块。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "去年我们把AI Coding推到了每个技术组：前端、服务端、安卓、iOS、PC、测试。Cursor、Codex、Copilot都在用，每个工程师都有自己的偏好，每个组也都跑出了自己的\"用法\"。一轮下来再看数据，每个组单独看都提效了，但整体没提效。",
+      "html": "<p>去年我们把AI Coding推到了每个技术组：前端、服务端、安卓、iOS、PC、测试。Cursor、Codex、Copilot都在用，每个工程师都有自己的偏好，每个组也都跑出了自己的&quot;<span class=\"word-annot\"><span class=\"word-anchor\">用法</span><span class=\"word-block\"><span class=\"english-word\">usage</span><span class=\"word-info\">[ˈjusɪʤ] n. 使用；用法；惯例</span></span></span>&quot;。一轮下来再看数据，每个组单独看都提效了，但整体没提效。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "这个结论一开始我自己都不信。复盘几轮之后才看清楚，问题不在工具，而在工程基础设施和工作流。",
+      "html": "<p>这个结论一<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">commence</span><span class=\"word-info\">[kəˈmɛns] v. 开始</span></span></span>我自己都不信。复盘几轮之后才看清楚，问题不在工具，而在工程<span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施；公共建设；下部构造</span></span></span>和工作流。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "第一个问题：每个人对AI Coding的边界认知不一样",
+      "html": "<p>第一个问题：每个人对AI Coding的<span class=\"word-annot\"><span class=\"word-anchor\">边界</span><span class=\"word-block\"><span class=\"english-word\">boundary</span><span class=\"word-info\">[ˈbaʊndəri] n. 边界；范围；分界线</span></span></span>认知不一样</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "同一个组里，有人只用AI做代码补全，有人用它写小工具脚本，有人敢把整个新模块整块交给它。",
+      "html": "<p>同一个组里，有人只用AI做代码补全，有人用它写小工具脚本，有人敢把<span class=\"word-annot\"><span class=\"word-anchor\">整个</span><span class=\"word-block\"><span class=\"english-word\">altogether</span><span class=\"word-info\">[ˌɔltəˈgɛðər] n. 整个；裸体</span></span></span>新模块整块交给它。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "这背后是没有一个团队统一的\"AI使用分级\"——什么场景下AI是辅助、什么场景下AI是主力、什么场景下必须人工把关。每个工程师靠自己的经验摸索，产出质量参差不齐，也没有任何沉淀可以传给后来的人。Token花得多不多、生成代码的Bug率高不高、和原有代码的风格一致不一致——这些数据没人统一收，也没人统一看。",
+      "html": "<p>这背后是没有一个团队统一的&quot;AI使用<span class=\"word-annot\"><span class=\"word-anchor\">分级</span><span class=\"word-block\"><span class=\"english-word\">classification</span><span class=\"word-info\">[ˌklæsəfəˈkeɪʃən] n. 分类,分级</span></span></span>&quot;——什么场景下AI是辅助、什么场景下AI是主力、什么场景下必须人工把关。每个工程师靠自己的经验摸索，产出质量参差不齐，也没有任何沉淀可以传给<span class=\"word-annot\"><span class=\"word-anchor\">后来的</span><span class=\"word-block\"><span class=\"english-word\">subsequent</span><span class=\"word-info\">[ˈsəbsəkwənt] adj. 随后的,后来的</span></span></span>人。Token花得多不多、生成代码的Bug率高不高、和原有代码的风格一致<span class=\"word-annot\"><span class=\"word-anchor\">不一致</span><span class=\"word-block\"><span class=\"english-word\">contradiction</span><span class=\"word-info\">[ˌkɑntrəˈdɪkʃən] n. 矛盾，不一致；反驳，否认</span></span></span>——这些数据没人统一收，也没人统一看。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "工具铺下去了，但用法没有形成团队级的工程规范。",
+      "html": "<p>工具铺下去了，但用法没有<span class=\"word-annot\"><span class=\"word-anchor\">形成</span><span class=\"word-block\"><span class=\"english-word\">formation</span><span class=\"word-info\">[fɔrˈmeɪʃən] n. 形成;构成;组织;构造;编制;塑造</span></span></span>团队级的工程规范。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "第二个问题：老项目对AI根本不友好",
+      "html": "<p>第二个问题：老项目对AI根本<span class=\"word-annot\"><span class=\"word-anchor\">不友好</span><span class=\"word-block\"><span class=\"english-word\">alienate</span><span class=\"word-info\">[ˈeɪljəˌneɪt] vt. 使疏远， 使格格不入；使不友好； 离间</span></span></span></p>"
+    },
+    {
+      "index": 20,
+      "source_text": "我们有些线上服务是一个文件就2万行以上的老代码，没文档、命名随意、目录结构是十年沉淀下来的\"屎山代码\"。AI一上来先猜半天，光是建立项目认知就要烧掉上百万Token，结果给出的修改还经常踩到隐式约定。",
+      "html": "<p>我们有些线上服务是一个文件就2万行以上的老代码，没文档、命名随意、<span class=\"word-annot\"><span class=\"word-anchor\">目录</span><span class=\"word-block\"><span class=\"english-word\">catalog</span><span class=\"word-info\">[ˈkætəlɔg] n. （ue）目录(册)</span></span></span>结构是十年沉淀下来的&quot;屎山代码&quot;。AI一上来先猜半天，光是建立项目认知就要烧掉上百万Token，结果给出的<span class=\"word-annot\"><span class=\"word-anchor\">修改</span><span class=\"word-block\"><span class=\"english-word\">amend</span><span class=\"word-info\">[əˈmɛnd] v. 修改；改善，改进</span></span></span>还经常踩到隐式约定。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "这不是模型能力的问题，是代码本身就不是给AI读的。",
+      "html": "<p>这不是模型<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">faculty</span><span class=\"word-info\">[ˈfækəlti] n. 科，系；能力；全体教员</span></span></span>的问题，是代码本身就不是给AI读的。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "人读代码是局部的、有经验补全的——一个老工程师扫一眼变量名就知道这是哪个业务的；AI读代码是全局的、需要明确上下文的——它要靠注释、文档、目录结构、模块边界来定位。这两种\"读法\"完全不一样，对代码组织的要求也不一样。",
+      "html": "<p>人读代码是局部的、有经验补全的——一个老工程师扫一眼变量名就<span class=\"word-annot\"><span class=\"word-anchor\">知道</span><span class=\"word-block\"><span class=\"english-word\">acquaintance</span><span class=\"word-info\">[əkˈweɪntəns] n. 熟人；相识；了解；知道</span></span></span>这是哪个业务的；AI读代码是全局的、需要明确上下文的——它要靠注释、文档、<span class=\"word-annot\"><span class=\"word-anchor\">目录</span><span class=\"word-block\"><span class=\"english-word\">catalogue</span><span class=\"word-info\">[ˈkætəˌlɔg] n. 目录</span></span></span>结构、模块边界来定位。这两种&quot;读法&quot;完全不一样，对代码<span class=\"word-annot\"><span class=\"word-anchor\">组织</span><span class=\"word-block\"><span class=\"english-word\">apparatus</span><span class=\"word-info\">[ˌæpərˈætəs] n. 器械，器具，仪器；机构，组织</span></span></span>的要求也不一样。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "国外这两年开始流行一个工程概念叫\"Agent Harness\"——大意是Agent的能力 = 模型能力 + 工程框架。同样的Claude，跑在Claude Code里、跑在Cursor里、跑在通用ReAct框架里，能力差异巨大，差异的来源就是Harness。这个概念延伸到代码本身就是：代码也要为Agent调用而设计，不是只为人阅读而设计。",
+      "html": "<p>国外这两年开始流行一个工程<span class=\"word-annot\"><span class=\"word-anchor\">概念</span><span class=\"word-block\"><span class=\"english-word\">conception</span><span class=\"word-info\">[kənˈsɛpʃən] n. 概念， 观念；设想， 构想</span></span></span>叫&quot;Agent Harness&quot;——大意是Agent的能力 = 模型能力 + 工程框架。同样的Claude，跑在Claude Code里、跑在Cursor里、跑在通用ReAct框架里，能力<span class=\"word-annot\"><span class=\"word-anchor\">差异</span><span class=\"word-block\"><span class=\"english-word\">discrepancy</span><span class=\"word-info\">[dɪˈskrɛpənsi] n. 差异,不符</span></span></span>巨大，差异的来源就是Harness。这个<span class=\"word-annot\"><span class=\"word-anchor\">概念</span><span class=\"word-block\"><span class=\"english-word\">construct</span><span class=\"word-info\">[ˈkɑnstrəkt] n. 构想，概念</span></span></span>延伸到代码本身就是：代码也要为Agent调用而设计，不是只为人阅读而设计。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "老代码要重构、要补文档、要拆模块，不是为了\"代码更优雅\"，是为了让AI能高效地参与进来。",
+      "html": "<p>老代码要重构、要补文档、要拆<span class=\"word-annot\"><span class=\"word-anchor\">模块</span><span class=\"word-block\"><span class=\"english-word\">module</span><span class=\"word-info\">[ˈmɒdjuːl] n. 单元；组件,模块,模件；(航天器的)舱</span></span></span>，不是为了&quot;代码更优雅&quot;，是为了让AI能高效地参与进来。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "第三个问题：开发只是工作流的一环",
+      "html": "<p>第三个问题：<span class=\"word-annot\"><span class=\"word-anchor\">开发</span><span class=\"word-block\"><span class=\"english-word\">exploit</span><span class=\"word-info\">[ˌɛkˈsplɔɪt] v. 开发，开拓；剥削；开采</span></span></span>只是工作流的一环</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "开发再快，前后端联调还是瓶颈，测试介入还是瓶颈，发布还是瓶颈。团队也没有统一的SOP——怎么写接口、怎么定pb、单测覆盖率底线是多少、提测前要做哪些自检——每个人心里一把尺子，AI就更对不齐了。",
+      "html": "<p>开发再快，前后端联调还是<span class=\"word-annot\"><span class=\"word-anchor\">瓶颈</span><span class=\"word-block\"><span class=\"english-word\">bottleneck</span><span class=\"word-info\">[ˈbɒtlnek] n. 瓶颈</span></span></span>，测试介入还是瓶颈，发布还是瓶颈。团队也没有统一的SOP——怎么写接口、怎么定pb、单测<span class=\"word-annot\"><span class=\"word-anchor\">覆盖</span><span class=\"word-block\"><span class=\"english-word\">blanket</span><span class=\"word-info\">[ˈblæŋkɪt] v. 覆盖，掩盖；用毯覆盖</span></span></span>率底线是多少、提测前要做哪些自检——每个人心里一把尺子，AI就更对不齐了。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "工程效能的瓶颈一旦从\"开发速度\"转移到\"协作摩擦\"，AI Coding单点提效就触顶了。",
+      "html": "<p>工程效能的瓶颈一旦从&quot;开发速度&quot;<span class=\"word-annot\"><span class=\"word-anchor\">转移</span><span class=\"word-block\"><span class=\"english-word\">avert</span><span class=\"word-info\">[əˈvərt] v. 防止，避免；转移(目光、注意力等)</span></span></span>到&quot;协作摩擦&quot;，AI Coding单点提效就触顶了。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "AI Coding完整形态：三层规范同时立起来",
+      "html": "<p>AI Coding<span class=\"word-annot\"><span class=\"word-anchor\">完整</span><span class=\"word-block\"><span class=\"english-word\">integral</span><span class=\"word-info\">[ˈɪnəgrəl] n. 积分；部分；完整</span></span></span>形态：三层规范同时立起来</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "这三个问题逼着我们重新定义AI Coding。它不是\"让每个工程师用上Cursor\"，而是一整套覆盖代码、组内、组间的工程基础设施重建：",
+      "html": "<p>这三个问题逼着我们重新定义AI Coding。它不是&quot;让每个工程师用上Cursor&quot;，而是一整套<span class=\"word-annot\"><span class=\"word-anchor\">覆盖</span><span class=\"word-block\"><span class=\"english-word\">clothing</span><span class=\"word-info\">[ˈkloʊðɪŋ] v. 覆盖（clothe的ing形式）；给…穿衣</span></span></span>代码、组内、组间的工程基础设施重建：</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "第一层，代码本身要AI可读。老项目重构、清晰的架构分层、每个目录和模块都要有给Agent定位用的元文档。这层文档不是写给人看的README，是给Agent建立项目上下文的索引。",
+      "html": "<p>第一层，代码本身要AI可读。老项目重构、<span class=\"word-annot\"><span class=\"word-anchor\">清晰的</span><span class=\"word-block\"><span class=\"english-word\">plain</span><span class=\"word-info\">[pleɪn] adj. 平的；简单的；朴素的；清晰的</span></span></span>架构分层、每个目录和模块都要有给Agent定位用的元文档。这层文档不是写给人看的README，是给Agent<span class=\"word-annot\"><span class=\"word-anchor\">建立</span><span class=\"word-block\"><span class=\"english-word\">constitute</span><span class=\"word-info\">[ˈkɑnstəˌtut] v. 组成，构成；建立；任命</span></span></span>项目上下文的索引。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "第二层，组内要有沉淀成Skills的SOP。怎么开发、怎么做配置、单测怎么写、提测流程是什么、Code Review的检查清单是什么——这些以前靠老员工带新人的\"口头规矩\"，全部要固化成Skills，让AI调用时有约束、有标准、有可复用的最佳实践。",
+      "html": "<p>第二层，组内要有<span class=\"word-annot\"><span class=\"word-anchor\">沉淀</span><span class=\"word-block\"><span class=\"english-word\">deposit</span><span class=\"word-info\">[dɪˈpɑzət] v. 存放；使沉淀</span></span></span>成Skills的SOP。怎么开发、怎么做配置、单测怎么写、提测流程是什么、Code Review的检查清单是什么——这些以前靠老员工带新人的&quot;口头规矩&quot;，全部要固化成Skills，让AI调用时有<span class=\"word-annot\"><span class=\"word-anchor\">约束</span><span class=\"word-block\"><span class=\"english-word\">constraint</span><span class=\"word-info\">[kənˈstreɪnt] n. 约束</span></span></span>、有标准、有可复用的最佳实践。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "第三层，组间要有清晰的接口约定。立项阶段就要定好前后端接口规范、pb定义、测试介入点、用例规范。这些以前是流程文档，现在要变成Agent可以识别、可以校验、可以串联调用的结构化规范。",
+      "html": "<p>第三层，组间要有清晰的接口<span class=\"word-annot\"><span class=\"word-anchor\">约定</span><span class=\"word-block\"><span class=\"english-word\">appoint</span><span class=\"word-info\">[əˈpɔɪnt] v. 任命；指定；约定</span></span></span>。立项阶段就要定好前后端接口规范、pb定义、测试<span class=\"word-annot\"><span class=\"word-anchor\">介入</span><span class=\"word-block\"><span class=\"english-word\">intervene</span><span class=\"word-info\">[ˌɪntərˈvin] v. (in)干涉,干预;插入,介入</span></span></span>点、用例规范。这些以前是流程文档，现在要变成Agent可以<span class=\"word-annot\"><span class=\"word-anchor\">识别</span><span class=\"word-block\"><span class=\"english-word\">discern</span><span class=\"word-info\">[dɪˈsərn] v. 识别；领悟，认识</span></span></span>、可以校验、可以串联调用的结构化规范。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "三层做齐，AI才真正在团队里\"流动\"起来。整体提效不是靠单点工具叠加，是靠工程基础设施的重建。",
+      "html": "<p>三层做齐，AI才真正在团队里&quot;<span class=\"word-annot\"><span class=\"word-anchor\">流动</span><span class=\"word-block\"><span class=\"english-word\">foam</span><span class=\"word-info\">[foʊm] v. 起泡沫；吐白沫；起着泡沫流动</span></span></span>&quot;起来。整体提效不是靠单点工具叠加，是靠工程基础<span class=\"word-annot\"><span class=\"word-anchor\">设施</span><span class=\"word-block\"><span class=\"english-word\">establishment</span><span class=\"word-info\">[ɪˈstæblɪʃmənt] n. 确立，制定；公司；设施</span></span></span>的重建。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/004.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/004.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 35,
+      "source_text": "这套基础设施目前只完成了一部分：代码层的元文档体系还在补齐，组内Skills化的覆盖率不到三成，组间结构化接口约定刚立项。AI Coding的下一阶段，不再是工具采纳率，而是工程基础设施的成熟度。",
+      "html": "<p>这套基础设施目前只<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">accomplish</span><span class=\"word-info\">[əˈkɑmplɪʃ] v. 完成；实现；达到</span></span></span>了一部分：代码层的元文档体系还在补齐，组内Skills化的覆盖率不到三成，组间结构化接口约定刚立项。AI Coding的下一阶段，不再是<span class=\"word-annot\"><span class=\"word-anchor\">工具</span><span class=\"word-block\"><span class=\"english-word\">gear</span><span class=\"word-info\">[gɪr] n. 齿轮；装置，工具；传动装置</span></span></span>采纳率，而是工程基础设施的成熟度。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "AI Coding的三层规范还在落地，第二堵墙已经摆在面前——技术团队的AI化只是起点，整个公司没办法跟上同样的节奏。",
+      "html": "<p>AI Coding的三层<span class=\"word-annot\"><span class=\"word-anchor\">规范</span><span class=\"word-block\"><span class=\"english-word\">norm</span><span class=\"word-info\">[nɔrm] n. 标准，规范</span></span></span>还在落地，第二堵墙已经摆在面前——技术团队的AI化只是起点，整个公司没办法跟上同样的节奏。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "这两件事必须同步推进，不能等AI Coding做完再启动组织改造。技术这端把代码、Skills、接口规范一层层立起来的同时，前置链路上的断点也在持续放大：PRD写出来，AI得靠人解读一遍才能用；设计稿交付，还是要人肉翻译成开发语言；运营每次问AI分析数据，都得重新讲一遍项目背景。技术这端再快，前置链路全是断点，整体效率依旧被卡在最慢的那一环。",
+      "html": "<p>这两件事必须同步推进，不能等AI Coding做完再<span class=\"word-annot\"><span class=\"word-anchor\">启动</span><span class=\"word-block\"><span class=\"english-word\">activate</span><span class=\"word-info\">[ˈæktəˌveɪt] v. 启动，激活；驱动，驱使；使开始起作用</span></span></span>组织改造。技术这端把代码、Skills、接口规范一层层立起来的同时，前置链路上的断点也在持续<span class=\"word-annot\"><span class=\"word-anchor\">放大</span><span class=\"word-block\"><span class=\"english-word\">amplify</span><span class=\"word-info\">[ˈæmpləˌfaɪ] v. 放大，扩大；增强；详述</span></span></span>：PRD写出来，AI得靠人解读一遍才能用；<span class=\"word-annot\"><span class=\"word-anchor\">设计</span><span class=\"word-block\"><span class=\"english-word\">contrive</span><span class=\"word-info\">[kənˈtraɪv] v. 设计；发明；图谋</span></span></span>稿交付，还是要人肉翻译成开发语言；运营每次问AI<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəˌlaɪz] vt. 分析； 分解</span></span></span>数据，都得重新讲一遍项目背景。技术这端再快，前置链路全是断点，整体<span class=\"word-annot\"><span class=\"word-anchor\">效率</span><span class=\"word-block\"><span class=\"english-word\">efficiency</span><span class=\"word-info\">[ɪˈfɪʃnsi] n. 效率；功效</span></span></span>依旧被卡在最慢的那一环。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "为什么不能复制技术团队的做法？",
+      "html": "<p>为什么不能<span class=\"word-annot\"><span class=\"word-anchor\">复制</span><span class=\"word-block\"><span class=\"english-word\">clone</span><span class=\"word-info\">[kloʊn] v. 无性繁殖，复制</span></span></span>技术团队的做法？</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "技术人用AI有个天然优势——我们能装Cursor、Codex、Claude Code，懂什么是MCP、什么是RAG、什么是Skills、什么是上下文窗口。装完工具读完文档，两天就上手了。",
+      "html": "<p>技术人用AI有个天然<span class=\"word-annot\"><span class=\"word-anchor\">优势</span><span class=\"word-block\"><span class=\"english-word\">superiority</span><span class=\"word-info\">[ˌsupɪriˈɔrɪti] n. 优越，优势；优越性</span></span></span>——我们能装Cursor、Codex、Claude Code，懂什么是MCP、什么是RAG、什么是Skills、什么是上下文窗口。装完<span class=\"word-annot\"><span class=\"word-anchor\">工具</span><span class=\"word-block\"><span class=\"english-word\">implement</span><span class=\"word-info\">[ˈɪmpləmənt] n. 工具，器具；手段</span></span></span>读完文档，两天就上手了。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "但公司里大部分人不是技术背景。让产品经理理解什么是MCP、让运营搞懂Skills怎么写、让设计师配置RAG向量库——这不是教学问题，是门槛问题。即使你愿意手把手教，业务方也没有动机花一周时间去学一套和他工作日常完全脱节的技术栈。",
+      "html": "<p>但公司里大<span class=\"word-annot\"><span class=\"word-anchor\">部分</span><span class=\"word-block\"><span class=\"english-word\">highlight</span><span class=\"word-info\">[ˈhaɪˌlaɪt] n. 最精彩的部分</span></span></span>人不是技术背景。让产品经理理解什么是MCP、让运营搞懂Skills怎么写、让<span class=\"word-annot\"><span class=\"word-anchor\">设计师</span><span class=\"word-block\"><span class=\"english-word\">architect</span><span class=\"word-info\">[ˈɑrkəˌtɛkt] n. 建筑师；设计师；缔造者；创造者</span></span></span>配置RAG向量库——这不是教学问题，是门槛问题。即使你愿意手把手教，业务方也没有动机花一周时间去学一套和他<span class=\"word-annot\"><span class=\"word-anchor\">工作日</span><span class=\"word-block\"><span class=\"english-word\">weekday</span><span class=\"word-info\">[ˈwikˌdeɪ] n. 平日，普通日；工作日</span></span></span>常完全脱节的技术栈。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "技术团队的做法没法直接复制到组织。我们需要的不是让所有人变成\"懂AI的人\"，而是让AI变成\"所有人都能用的工具\"。",
+      "html": "<p>技术团队的做法没法直接<span class=\"word-annot\"><span class=\"word-anchor\">复制</span><span class=\"word-block\"><span class=\"english-word\">duplicate</span><span class=\"word-info\">[ˈdupləˌkeɪt] v. 复制；使加倍</span></span></span>到组织。我们需要的不是让<span class=\"word-annot\"><span class=\"word-anchor\">所有人</span><span class=\"word-block\"><span class=\"english-word\">holder</span><span class=\"word-info\">[ˈhoʊldər] n. 持有人；所有人；固定器；（台、架等）支持物</span></span></span>变成&quot;懂AI的人&quot;，而是让AI变成&quot;所有人都能用的工具&quot;。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "我们今年的主线是构建一个公司级的Agent平台——技术团队把所有AI工程化能力全部收口、抽象、封装，业务方在这个平台上只用\"业务语言\"配置自己的Agent。",
+      "html": "<p>我们今年的主线是构建一个公司级的Agent平台——技术团队把所有AI工程化能力全部收口、抽象、<span class=\"word-annot\"><span class=\"word-anchor\">封装</span><span class=\"word-block\"><span class=\"english-word\">encapsulate</span><span class=\"word-info\">[ɪnˈkæpsjuleɪt] v. 封装</span></span></span>，业务方在这个平台上只用&quot;业务语言&quot;配置自己的Agent。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "平台底层屏蔽掉的部分：",
+      "html": "<p>平台底层屏蔽掉的<span class=\"word-annot\"><span class=\"word-anchor\">部分</span><span class=\"word-block\"><span class=\"english-word\">installment</span><span class=\"word-info\">[ˌɪnˈstɔlmənt] n. 安装；分期付款；部分；就职</span></span></span>：</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "模型层：LLM调用、模型选型、Token成本控制、响应缓存、降级策略",
+      "html": "<p>模型层：LLM调用、模型选型、Token成本<span class=\"word-annot\"><span class=\"word-anchor\">控制</span><span class=\"word-block\"><span class=\"english-word\">clutch</span><span class=\"word-info\">[kləʧ] n. 离合器；控制；手；紧急关头</span></span></span>、响应缓存、降级策略</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "会话层：会话管理、上下文管理、长期记忆、用户画像注入",
+      "html": "<p>会话层：会话<span class=\"word-annot\"><span class=\"word-anchor\">管理</span><span class=\"word-block\"><span class=\"english-word\">administer</span><span class=\"word-info\">[ədˈmɪnɪstər] v. 管理；执行；给予</span></span></span>、上下文管理、长期记忆、用户画像注入</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "能力层：Skills管理、MCP工具管理、RAG知识库管理",
+      "html": "<p>能力层：Skills<span class=\"word-annot\"><span class=\"word-anchor\">管理</span><span class=\"word-block\"><span class=\"english-word\">govern</span><span class=\"word-info\">[ˈgəvərn] v. 管理；支配；统治；控制</span></span></span>、MCP工具管理、RAG知识库管理</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "基础设施层：授权认证、权限控制、审计日志、调用追踪、灰度发布",
+      "html": "<p>基础设施层：授权认证、权限控制、<span class=\"word-annot\"><span class=\"word-anchor\">审计</span><span class=\"word-block\"><span class=\"english-word\">audit</span><span class=\"word-info\">[ˈɔdɪt] v. 审计；[审计] 查账</span></span></span>日志、调用追踪、灰度发布</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "业务方在平台上看到和操作的部分：",
+      "html": "<p>业务方在平台上看到和<span class=\"word-annot\"><span class=\"word-anchor\">操作的</span><span class=\"word-block\"><span class=\"english-word\">operational</span><span class=\"word-info\">[ˌɑpərˈeɪʃənəl] adj. 操作的；运作的</span></span></span>部分：</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "一个可视化的Agent配置界面，所见即所得",
+      "html": "<p>一个可视化的Agent配置<span class=\"word-annot\"><span class=\"word-anchor\">界面</span><span class=\"word-block\"><span class=\"english-word\">interface</span><span class=\"word-info\">[ˈɪnərˌfeɪs] n. 界面；计接口；交界面</span></span></span>，所见即所得</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "按自己部门原有的业务SOP，把流程拆成Skills、配置触发条件",
+      "html": "<p>按自己部门原有的业务SOP，把流程拆成Skills、配置触发<span class=\"word-annot\"><span class=\"word-anchor\">条件</span><span class=\"word-block\"><span class=\"english-word\">qualification</span><span class=\"word-info\">[kˌwɑləfəˈkeɪʃən] n. 资格；条件；限制；赋予资格</span></span></span></p>"
+    },
+    {
+      "index": 51,
+      "source_text": "调用平台已经封装好的工具集，不需要写代码",
+      "html": "<p>调用平台已经封装好的工具集，不<span class=\"word-annot\"><span class=\"word-anchor\">需要</span><span class=\"word-block\"><span class=\"english-word\">entail</span><span class=\"word-info\">[ɛnˈteɪl] v. 使需要，必需；承担；遗传给；蕴含</span></span></span>写代码</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "把搭好的Agent固化成部门的标准流程，团队内统一调用",
+      "html": "<p>把搭好的Agent固化成部门的<span class=\"word-annot\"><span class=\"word-anchor\">标准</span><span class=\"word-block\"><span class=\"english-word\">criterion</span><span class=\"word-info\">[kraɪˈtɪriən] n. (pl.criteria或s)标准，尺度</span></span></span>流程，团队内统一调用</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/005.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/005.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 54,
+      "source_text": "平台搭起来之后，各角色的AI化路径就清晰了：",
+      "html": "<p>平台搭起来之后，各角色的AI化路径就清晰了：</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "产品：PRD结构化输出（md + 产品约束词表 + 功能矩阵），AI可以直接读、直接解析、直接生成测试用例草稿、直接派发给后端Agent去做接口设计",
+      "html": "<p>产品：PRD结构化输出（md + 产品<span class=\"word-annot\"><span class=\"word-anchor\">约束</span><span class=\"word-block\"><span class=\"english-word\">curb</span><span class=\"word-info\">[kərb] n. 路边；控制，约束</span></span></span>词表 + 功能矩阵），AI可以直接读、直接解析、直接生成测试用例草稿、直接派发给后端Agent去做接口设计</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "设计：原型图带层级标注和组件语义，AI可以识别页面结构，驱动UI自动初版生成",
+      "html": "<p>设计：原型图带层级标注和组件语义，AI可以识别页面结构，驱动UI<span class=\"word-annot\"><span class=\"word-anchor\">自动</span><span class=\"word-block\"><span class=\"english-word\">auto</span><span class=\"word-info\">[ˈɔtoʊ] n. 汽车（等于automobile）；自动</span></span></span>初版生成</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "运营：基于已结构化的PRD和实时数据，AI直接做归因分析和趋势判断，不需要每次重新解释项目背景",
+      "html": "<p>运营：基于已结构化的PRD和实时数据，AI直接做归因分析和趋势判断，不需要每次重新<span class=\"word-annot\"><span class=\"word-anchor\">解释</span><span class=\"word-block\"><span class=\"english-word\">define</span><span class=\"word-info\">[dɪˈfaɪn] v. 确定，说明，界定；给…下定义，解释</span></span></span>项目背景</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "客服、审核、内容运营：各自原有的SOP直接Skill化，变成Agent的固定工作流，业务方调整流程不再依赖技术排期",
+      "html": "<p>客服、审核、内容运营：各自原有的SOP直接Skill化，变成Agent的固定工作流，业务方<span class=\"word-annot\"><span class=\"word-anchor\">调整</span><span class=\"word-block\"><span class=\"english-word\">adjust</span><span class=\"word-info\">[əˈʤəst] v. 调整，使…适合；校准</span></span></span>流程不再依赖技术排期</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "技术团队的角色从\"自己用AI\"，转向搭建整个公司用的AI基础设施。这是一个非常底层的视角转换：技术不再是\"用AI的人之一\"，而是让所有人能用AI的那个团队。",
+      "html": "<p>技术团队的角色从&quot;自己用AI&quot;，<span class=\"word-annot\"><span class=\"word-anchor\">转向</span><span class=\"word-block\"><span class=\"english-word\">diversion</span><span class=\"word-info\">[dɪˈvərʒən] n. 转向,转移</span></span></span>搭建整个公司用的AI基础设施。这是一个非常<span class=\"word-annot\"><span class=\"word-anchor\">底层的</span><span class=\"word-block\"><span class=\"english-word\">underneath</span><span class=\"word-info\">[ˌəndərˈniθ] adj. 下面的；底层的</span></span></span>视角转换：技术不再是&quot;用AI的人之一&quot;，而是让所有人能用AI的那个团队。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "Agent平台的本质是把AI工程能力做成面向全公司的中台——把模型层、会话层、能力层、基础设施层全部下沉收口，让业务方在零代码门槛上完成Agent的配置、调试、上线。这是组织级AI化的关键基础设施。",
+      "html": "<p>Agent平台的本质是把AI工程能力做成面向全公司的中台——把模型层、会话层、能力层、基础设施层全部下沉收口，让业务方在零代码门槛上<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">attain</span><span class=\"word-info\">[əˈteɪn] v. 完成；获得；达到</span></span></span>Agent的配置、调试、上线。这是<span class=\"word-annot\"><span class=\"word-anchor\">组织</span><span class=\"word-block\"><span class=\"english-word\">fabric</span><span class=\"word-info\">[ˈfæbrɪk] n. 织物；布；组织；构造；建筑物</span></span></span>级AI化的关键基础设施。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "内外部都AI化了，还剩一个问题——我们给用户用的产品，还是老样子。",
+      "html": "<p>内外部都AI化了，还剩一个问题——我们给用户用的产品，还是老<span class=\"word-annot\"><span class=\"word-anchor\">样子</span><span class=\"word-block\"><span class=\"english-word\">aspect</span><span class=\"word-info\">[ˈæspekt] n. (问题等的)方面；样子, 外表, 面貌</span></span></span>。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "这件事在25到26年特别明显。25年豆包推出AI手机，26年初千问APP联手淘宝闪购，字节、阿里这些巨头已经在下注一件事：未来产品的入口，就是AI。",
+      "html": "<p>这件事在25到26年特别明显。25年豆包推出AI手机，26年初千问APP联手淘宝闪购，字节、阿里这些巨头已经在下注一件事：未来产品的<span class=\"word-annot\"><span class=\"word-anchor\">入口</span><span class=\"word-block\"><span class=\"english-word\">inlet</span><span class=\"word-info\">[ˈɪnˌlɛt] n. 入口，进口；插入物；水湾</span></span></span>，就是AI。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/006.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/006.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 64,
+      "source_text": "判断：APP这个形态，可能走到尽头了",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">判断</span><span class=\"word-block\"><span class=\"english-word\">diagnose</span><span class=\"word-info\">[ˌdaɪəgˈnoʊs] v. 诊断(疾病)；判断(问题)</span></span></span>：APP这个形态，可能走到尽头了</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "不是说APP明天就没了，但方向已经在变。以前用户要什么——打开手机、找APP、点按钮、搜索、选结果，入口是APP。未来用户要什么——对着AI说一句\"我想看唱歌主播\"，入口是AI。",
+      "html": "<p>不是说APP明天就没了，但<span class=\"word-annot\"><span class=\"word-anchor\">方向</span><span class=\"word-block\"><span class=\"english-word\">orientation</span><span class=\"word-info\">[ˌɔriɛnˈteɪʃən] n. 方向；定向；适应；情况介绍；向东方</span></span></span>已经在变。以前用户要什么——打开手机、找APP、点按钮、搜索、选<span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">consequence</span><span class=\"word-info\">[ˈkɑnsəkwəns] n. 结果,后果,影响</span></span></span>，入口是APP。未来用户要什么——对着AI说一句&quot;我想看唱歌<span class=\"word-annot\"><span class=\"word-anchor\">主播</span><span class=\"word-block\"><span class=\"english-word\">anchor</span><span class=\"word-info\">[ˈæŋkər] n. 锚；抛锚停泊；靠山；新闻节目主播</span></span></span>&quot;，入口是AI。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "这个变化的本质是端侧能力的重新分配。以前每个APP都要自己做完整的UI、完整的搜索、完整的推荐、完整的支付，每个APP都是用户的一个\"独立入口\"；未来用户只装一个AI（或者AI Agent），所有的服务都通过这个AI调用。APP不会消失，但它会从\"独立入口\"变成\"被调用的能力提供方\"。",
+      "html": "<p>这个变化的本质是端侧能力的重新<span class=\"word-annot\"><span class=\"word-anchor\">分配</span><span class=\"word-block\"><span class=\"english-word\">allocate</span><span class=\"word-info\">[ˈæləˌkeɪt] v. 分配，分派；拨给</span></span></span>。以前每个APP都要自己做完整的UI、完整的搜索、完整的<span class=\"word-annot\"><span class=\"word-anchor\">推荐</span><span class=\"word-block\"><span class=\"english-word\">commend</span><span class=\"word-info\">[kəˈmɛnd] v. 推荐；称赞；把…委托</span></span></span>、完整的支付，每个APP都是用户的一个&quot;独立入口&quot;；未来用户只装一个AI（或者AI Agent），所有的服务都<span class=\"word-annot\"><span class=\"word-anchor\">通过</span><span class=\"word-block\"><span class=\"english-word\">approve</span><span class=\"word-info\">[əˈpruv] v. 批准，通过；(of)赞成，赞许，同意</span></span></span>这个AI调用。APP不会<span class=\"word-annot\"><span class=\"word-anchor\">消失</span><span class=\"word-block\"><span class=\"english-word\">disappear</span><span class=\"word-info\">[ˌdɪsəˈpɪr] v. 消失；失踪；不复存在</span></span></span>，但它会从&quot;独立入口&quot;变成&quot;被调用的能力提供方&quot;。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "这件事对我们这种做ToC产品的公司，冲击非常大。因为这意味着：产品要为AI可调用而设计，不是为用户手动点击而设计。两套设计哲学完全不一样——一套是\"怎么让用户在我的界面里多停留\"，一套是\"怎么让AI最快地从我这里取到结果\"。",
+      "html": "<p>这件事对我们这种做ToC产品的公司，冲击<span class=\"word-annot\"><span class=\"word-anchor\">非常</span><span class=\"word-block\"><span class=\"english-word\">deadly</span><span class=\"word-info\">[ˈdɛdli] adv. 非常；如死一般地</span></span></span>大。因为这<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">spell</span><span class=\"word-info\">[spɛl] v. 拼，拼写；意味着；招致；拼成；迷住；轮值</span></span></span>：产品要为AI可调用而设计，不是为用户手动点击而设计。两套设计哲学完全不一样——一套是&quot;怎么让用户在我的界面里多<span class=\"word-annot\"><span class=\"word-anchor\">停留</span><span class=\"word-block\"><span class=\"english-word\">abide</span><span class=\"word-info\">[əˈbaɪd] v. 忍受，容忍；停留；遵守</span></span></span>&quot;，一套是&quot;怎么让AI最快地从我这里取到结果&quot;。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "CLI是现阶段最合理的答案",
+      "html": "<p>CLI是现阶段最<span class=\"word-annot\"><span class=\"word-anchor\">合理的</span><span class=\"word-block\"><span class=\"english-word\">legitimate</span><span class=\"word-info\">[ləˈʤɪtəmət] adj. 合理的，合乎逻辑的；合法的</span></span></span>答案</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "AI怎么调用我们的服务？答案是CLI（命令行接口）——把产品能力抽象成一组AI可以理解、可以调用、可以组合的命令。",
+      "html": "<p>AI怎么调用我们的服务？答案是CLI（命令行接口）——把产品能力抽象成<span class=\"word-annot\"><span class=\"word-anchor\">一组</span><span class=\"word-block\"><span class=\"english-word\">batch</span><span class=\"word-info\">[bæʧ] n. 一批,一组,一群</span></span></span>AI可以理解、可以调用、可以组合的命令。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "CLI不是一个新概念，但在AI时代，它的角色变了。它不再是给开发者用的低级工具，而是产品对外的\"AI调用面\"——AI拿到用户意图后，通过CLI拉数据、做操作、回写状态，整个交互闭环不再需要图形界面。",
+      "html": "<p>CLI不是一个新<span class=\"word-annot\"><span class=\"word-anchor\">概念</span><span class=\"word-block\"><span class=\"english-word\">notion</span><span class=\"word-info\">[ˈnoʊʃən] n. 概念；见解；打算</span></span></span>，但在AI时代，它的角色变了。它不再是给开发者用的低级工具，而是产品对外的&quot;AI调用面&quot;——AI拿到用户意图后，通过CLI拉数据、做操作、回写<span class=\"word-annot\"><span class=\"word-anchor\">状态</span><span class=\"word-block\"><span class=\"english-word\">asleep</span><span class=\"word-info\">[əsˈlip] adv. 熟睡地；进入睡眠状态</span></span></span>，整个交互闭环不再需要图形界面。</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "还是拿我们某个直播场景举例。用户跟AI说：\"我想看唱歌主播。\" 如果直播产品做了CLI，并且用户设备里装了这个CLI，AI解析出意图后，就能直接调用CLI拿到当前在播的唱歌主播列表，在AI对话窗口里展示。用户看上一个，说\"进去看看\"，AI再调一次CLI进入直播间——整条交互链路在AI对话里闭环，不再需要打开APP。",
+      "html": "<p>还是拿我们某个直播场景举例。用户跟AI说：&quot;我想看唱歌主播。&quot; 如果直播产品做了CLI，并且用户<span class=\"word-annot\"><span class=\"word-anchor\">设备</span><span class=\"word-block\"><span class=\"english-word\">bite</span><span class=\"word-info\">[baɪt] n. 咬；一口；咬伤；刺痛 abbr. 机内测试设备（Built-In Test Equipment）</span></span></span>里装了这个CLI，AI解析出意图后，就能直接调用CLI拿到当前在播的唱歌主播列表，在AI对话窗口里展示。用户看上一个，说&quot;进去看看&quot;，AI再调一次CLI进入直播间——整条交互链路在AI对话里闭环，不再需要<span class=\"word-annot\"><span class=\"word-anchor\">打开</span><span class=\"word-block\"><span class=\"english-word\">crack</span><span class=\"word-info\">[kræk] v. 使破裂；打开；变声</span></span></span>APP。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/007.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/007.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 73,
+      "source_text": "这里有个当前的技术限制：主流AI客户端还没法直接播放任意来源的实时音视频流。但这个限制正在被打破——",
+      "html": "<p>这里有个当前的技术限制：主流AI客户端还没法直接播<span class=\"word-annot\"><span class=\"word-anchor\">放任</span><span class=\"word-block\"><span class=\"english-word\">abandon</span><span class=\"word-info\">[əˈbændən] n. 放任；狂热</span></span></span>意来源的实时音视频流。但这个限制正在被<span class=\"word-annot\"><span class=\"word-anchor\">打破</span><span class=\"word-block\"><span class=\"english-word\">breach</span><span class=\"word-info\">[briʧ] v. 违反，破坏；打破</span></span></span>——</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/008.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/008.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 75,
+      "source_text": "ChatGPT已经和几个视频平台做了约定，可以在对话里直接播视频。这说明AI播实时流的能力，不是技术做不到，是等行业标准。等这个口子打开，直播平台要不要接入，就是必答题。",
+      "html": "<p>ChatGPT已经和几个视频平台做了<span class=\"word-annot\"><span class=\"word-anchor\">约定</span><span class=\"word-block\"><span class=\"english-word\">appointment</span><span class=\"word-info\">[əˈpɔɪntmənt] n. 任命；约定；任命的职位</span></span></span>，可以在对话里直接播视频。这<span class=\"word-annot\"><span class=\"word-anchor\">说明</span><span class=\"word-block\"><span class=\"english-word\">demonstrate</span><span class=\"word-info\">[ˈdɛmənˌstreɪt] v. 论证,证实；演示,说明</span></span></span>AI播实时流的能力，不是技术做不到，是等行业标准。等这个口子<span class=\"word-annot\"><span class=\"word-anchor\">打开</span><span class=\"word-block\"><span class=\"english-word\">unfold</span><span class=\"word-info\">[ənˈfoʊld] v. 打开；呈现</span></span></span>，直播平台要不要接入，就是必答题。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "CLI这一层做好之后，看直播、发弹幕、充值、送礼，全部用自然语言完成；主播下播后跟AI说一句\"看下今天的数据\"，AI调CLI拿数据、做归因、给下一场的优化建议。用户侧和创作者侧的闭环，都被搬到了AI对话窗口里。",
+      "html": "<p>CLI这一层做好之后，看直播、发弹幕、充值、送礼，全部用自然语言<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">execute</span><span class=\"word-info\">[ˈeksɪkjuːt] v. 处死；实行;实施;执行;履行；完成</span></span></span>；主播下播后跟AI说一句&quot;看下今天的数据&quot;，AI调CLI拿数据、做归因、给下一场的优化<span class=\"word-annot\"><span class=\"word-anchor\">建议</span><span class=\"word-block\"><span class=\"english-word\">advise</span><span class=\"word-info\">[ədˈvaɪz] v. 忠告，劝告，建议；通知，告知</span></span></span>。用户侧和创作者侧的闭环，都被搬到了AI<span class=\"word-annot\"><span class=\"word-anchor\">对话</span><span class=\"word-block\"><span class=\"english-word\">dialog</span><span class=\"word-info\">[ˈdaɪəlɔg] n. (dialogue)对话,对白</span></span></span>窗口里。</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "这件事我们才刚开始做技术储备，离落地还远。但产品形态的迁徙不会等任何人——今天不在CLI上做投资，明天就只能做被调用方里那个最弱的。CLI层的命令设计、权限模型、状态回写协议，都需要在端侧AI能力成熟之前先一步收敛，否则产品会在AI入口的重新分配中失去话语权。",
+      "html": "<p>这件事我们才刚<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">inaugurate</span><span class=\"word-info\">[ˌɪˈnɔgjəˌreɪt] vt. 开始， 开展；为…举行就职典礼， 使正式就任；为…举行开幕式， 为…举行落成仪式</span></span></span>做技术储备，离落地还远。但产品形态的迁徙不会等任何人——今天<span class=\"word-annot\"><span class=\"word-anchor\">不在</span><span class=\"word-block\"><span class=\"english-word\">absence</span><span class=\"word-info\">[ˈæbsəns] n. 缺席，不在；缺乏，不存在</span></span></span>CLI上做投资，明天就只能做被调用方里那个最弱的。CLI层的命令设计、权限模型、状态回写协议，都需要在端侧AI能力成熟之前先一步收敛，否则产品会在AI入口的重新<span class=\"word-annot\"><span class=\"word-anchor\">分配</span><span class=\"word-block\"><span class=\"english-word\">assign</span><span class=\"word-info\">[əˈsaɪn] v. 派给，分配；选定，指定(时间、地点等)</span></span></span>中失去话语权。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "前三层把代码、组织、产品形态都梳理过了，还剩最关键的一块——公司内部，产运和技术的协作链路。",
+      "html": "<p>前三层把代码、组织、产品形态都梳理过了，还剩最关键的一块——公司<span class=\"word-annot\"><span class=\"word-anchor\">内部</span><span class=\"word-block\"><span class=\"english-word\">bosom</span><span class=\"word-info\">[ˈbʊzəm] n. 胸；胸怀；中间；胸襟；内心；乳房；内部</span></span></span>，产运和技术的协作链路。</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "这块最早想叫\"后台消失\"，但格局窄了。后台消失只是表层结果，真正变的是产运与技术之间的协作范式。",
+      "html": "<p>这块最早想叫&quot;后台<span class=\"word-annot\"><span class=\"word-anchor\">消失</span><span class=\"word-block\"><span class=\"english-word\">flee</span><span class=\"word-info\">[fli] v. 逃走；消失，消散</span></span></span>&quot;，但格局窄了。后台消失只是表层<span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">consequently</span><span class=\"word-info\">[ˈkɑnsəkˌwɛntli] adv. 结果，因此，所以</span></span></span>，真正变的是产运与技术之间的协作范式。</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "互联网范式下的产运 × 技术",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">互联</span><span class=\"word-block\"><span class=\"english-word\">interconnect</span><span class=\"word-info\">[ˌɪntəkəˈnekt] v. 互联</span></span></span>网范式下的产运 × 技术</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "过去十几年，互联网公司里产运和技术的配合是这样的：",
+      "html": "<p>过去十几年，互联网公司里产运和技术的<span class=\"word-annot\"><span class=\"word-anchor\">配合</span><span class=\"word-block\"><span class=\"english-word\">cooperate</span><span class=\"word-info\">[kˈwɑpərˌeɪt] v. 合作，配合；协力</span></span></span>是这样的：</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "产运发现一个需求或者想看一组数据，先提需求单；技术评估、排期、开发后台页面；上线之后运营在后台里点点点；数据看完了想换个维度，再提一单，等下一次排期。每加一个功能，都是一次完整的\"需求 → 开发 → 上线\"循环。",
+      "html": "<p>产运<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discover</span><span class=\"word-info\">[dɪˈskəvər] v. 发现</span></span></span>一个需求或者想看一组数据，先提需求单；技术<span class=\"word-annot\"><span class=\"word-anchor\">评估</span><span class=\"word-block\"><span class=\"english-word\">appraisal</span><span class=\"word-info\">[əˈpreɪzəl] n. 对...作出的评价；评价，鉴定，评估</span></span></span>、排期、开发后台页面；上线之后运营在后台里点点点；数据看完了想换个维度，再提一单，等下一次排期。每加一个功能，都是一次完整的&quot;需求 → 开发 → 上线&quot;<span class=\"word-annot\"><span class=\"word-anchor\">循环</span><span class=\"word-block\"><span class=\"english-word\">circulate</span><span class=\"word-info\">[ˈsərkjəˌleɪt] v. (使)循环,(使)流通</span></span></span>。</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "结果就是两件事：产运的想象力被技术排期卡住——\"这个想法得下季度了，先做现有需求\"；技术的精力被无穷的后台需求消耗——做不完的报表页、配置页、管理页，技术团队很大一部分人力都在写这种\"今天写完明天就改\"的胶水代码。",
+      "html": "<p>结果就是两件事：产运的<span class=\"word-annot\"><span class=\"word-anchor\">想象力</span><span class=\"word-block\"><span class=\"english-word\">fancy</span><span class=\"word-info\">[ˈfænsi] n. 幻想；想象力；爱好</span></span></span>被技术排期卡住——&quot;这个想法得下季度了，先做现有需求&quot;；技术的精力被<span class=\"word-annot\"><span class=\"word-anchor\">无穷的</span><span class=\"word-block\"><span class=\"english-word\">infinite</span><span class=\"word-info\">[ˈɪnfənət] adj. 无限的,无穷的</span></span></span>后台需求消耗——做不完的报表页、配置页、管理页，技术团队很大一部分人力都在写这种&quot;今天写完明天就改&quot;的胶水代码。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "AI范式下的产运 × 技术：从\"做页面\"到\"做能力\"",
+      "html": "<p>AI范式下的产运 × 技术：从&quot;做页面&quot;到&quot;做能力&quot;</p>"
+    },
+    {
+      "index": 85,
+      "source_text": "AI时代，这个范式应该彻底重做。但重做的关键，不是\"把数据库开放给AI\"这么简单——那只是表层。真正要做两层：",
+      "html": "<p>AI时代，这个范式应该彻底重做。但重做的关键，不是&quot;把<span class=\"word-annot\"><span class=\"word-anchor\">数据库</span><span class=\"word-block\"><span class=\"english-word\">database</span><span class=\"word-info\">[ˈdætəˌbeɪs] n. 数据库</span></span></span>开放给AI&quot;这么简单——那只是表层。真正要做两层：</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "第一层：技术把公司里的所有能力，做成\"AI可调用的积木\"。",
+      "html": "<p>第一层：技术把公司里的所有能力，做成&quot;AI可调<span class=\"word-annot\"><span class=\"word-anchor\">用的</span><span class=\"word-block\"><span class=\"english-word\">verb</span><span class=\"word-info\">[vərb] adj. 动词的；有动词性质的；起动词作用的</span></span></span>积木&quot;。</p>"
+    },
+    {
+      "index": 87,
+      "source_text": "数据开放只是其中一种能力。完整的做法是把公司里所有能力全部封装成MCP和Skills——",
+      "html": "<p>数据开放只是其中一种能力。<span class=\"word-annot\"><span class=\"word-anchor\">完整</span><span class=\"word-block\"><span class=\"english-word\">integrate</span><span class=\"word-info\">[ˈɪnəˌgreɪt] v. 使…完整；使…成整体；求…的积分；表示…的总和</span></span></span>的做法是把公司里所有能力全部封装成MCP和Skills——</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "数据类：读数据、聚合数据、订阅数据变更",
+      "html": "<p>数据类：读数据、聚合数据、<span class=\"word-annot\"><span class=\"word-anchor\">订阅</span><span class=\"word-block\"><span class=\"english-word\">subscribe</span><span class=\"word-info\">[səbˈskraɪb] v. (to)订阅，订购</span></span></span>数据变更</p>"
+    },
+    {
+      "index": 89,
+      "source_text": "配置类：改业务配置、调整算法参数、灰度开关",
+      "html": "<p>配置类：改业务配置、调整算法<span class=\"word-annot\"><span class=\"word-anchor\">参数</span><span class=\"word-block\"><span class=\"english-word\">parameter</span><span class=\"word-info\">[pərˈæmətər] n. 参数; 界限</span></span></span>、灰度开关</p>"
+    },
+    {
+      "index": 90,
+      "source_text": "触达类：推送消息、发送通知、给用户发券",
+      "html": "<p>触达类：推送消息、<span class=\"word-annot\"><span class=\"word-anchor\">发送</span><span class=\"word-block\"><span class=\"english-word\">beam</span><span class=\"word-info\">[bim] v. 发送；以梁支撑；用…照射；流露</span></span></span>通知、给用户发券</p>"
+    },
+    {
+      "index": 91,
+      "source_text": "流程类：调度任务、改用户权限、审核内容",
+      "html": "<p>流程类：调度<span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">assignment</span><span class=\"word-info\">[əˈsaɪnmənt] n. 任务；作业</span></span></span>、改用户权限、审核内容</p>"
+    },
+    {
+      "index": 92,
+      "source_text": "决策类：固化的业务SOP，比如\"新用户首充优惠流程\"\"主播违规处理流程\"",
+      "html": "<p>决策类：固化的业务SOP，比如&quot;新用户首充优惠流程&quot;&quot;主播违规<span class=\"word-annot\"><span class=\"word-anchor\">处理</span><span class=\"word-block\"><span class=\"english-word\">cope</span><span class=\"word-info\">[koʊp] v. 处理；对付；竞争</span></span></span>流程&quot;</p>"
+    },
+    {
+      "index": 93,
+      "source_text": "每个MCP是一个原子能力入口，每个Skill是一段固化的业务流程。挂到Agent平台上，形成一个公司级的能力池。",
+      "html": "<p>每个MCP是一个<span class=\"word-annot\"><span class=\"word-anchor\">原子</span><span class=\"word-block\"><span class=\"english-word\">atom</span><span class=\"word-info\">[ˈætəm] n. 原子</span></span></span>能力入口，每个Skill是一段固化的业务流程。挂到Agent平台上，<span class=\"word-annot\"><span class=\"word-anchor\">形成</span><span class=\"word-block\"><span class=\"english-word\">mold</span><span class=\"word-info\">[moʊld] vt. 浇铸， 造型； 塑造， 形成</span></span></span>一个公司级的能力池。</p>"
+    },
+    {
+      "index": 94,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/009.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/009.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 95,
+      "source_text": "这个抽象一旦做好，技术的产出物就从\"一个个具体的后台页面\"变成\"一个个可组合的能力单元\"。",
+      "html": "<p>这个抽象一旦做好，技术的产出物就从&quot;一个个<span class=\"word-annot\"><span class=\"word-anchor\">具体的</span><span class=\"word-block\"><span class=\"english-word\">concrete</span><span class=\"word-info\">[ˈkɑnkrit] adj. 混凝土的；具体的</span></span></span>后台页面&quot;变成&quot;一个个可组合的能力单元&quot;。</p>"
+    },
+    {
+      "index": 96,
+      "source_text": "第二层：产运直接和Agent对话。",
+      "html": "<p>第二层：产运直接和Agent对话。</p>"
+    },
+    {
+      "index": 97,
+      "source_text": "产运不需要知道底下有多少MCP、多少Skill、哪个能力是怎么实现的。他们只用自然语言提需求。Agent拿到需求后，自己拆任务、调MCP、串Skill、拿数据、给答案——甚至直接执行动作。",
+      "html": "<p>产运不需要知道底下有多少MCP、多少Skill、哪个能力是怎么<span class=\"word-annot\"><span class=\"word-anchor\">实现</span><span class=\"word-block\"><span class=\"english-word\">fulfill</span><span class=\"word-info\">[fʊlˈfɪl] v. 履行；实现；满足；使结束（等于fulfil）</span></span></span>的。他们只用自然<span class=\"word-annot\"><span class=\"word-anchor\">语言</span><span class=\"word-block\"><span class=\"english-word\">tongue</span><span class=\"word-info\">[təŋ] n. 舌头；语言</span></span></span>提需求。Agent拿到需求后，自己拆任务、调MCP、串Skill、拿数据、给答案——甚至直接执行<span class=\"word-annot\"><span class=\"word-anchor\">动作</span><span class=\"word-block\"><span class=\"english-word\">chin</span><span class=\"word-info\">[ʧɪn] n. 下巴；聊天；引体向上动作</span></span></span>。</p>"
+    },
+    {
+      "index": 98,
+      "source_text": "举个例子。运营想看\"昨天22点到23点北京区域唱歌品类主播的礼物收入分布\"。以前的做法：提单，等技术排期做个报表页，两周后上线，运营自己去后台筛选；筛完发现口径不对，再提一单。新做法：运营直接问Agent。Agent拆任务、调数据MCP、做地域过滤、做时段聚合，30秒给答案。口径不对？运营直接说\"把虚拟礼物去掉，只看真实付费的\"——Agent再跑一次，不再是一次性的\"做一张报表\"，而是持续的对话式协作。",
+      "html": "<p>举个例子。运营想看&quot;昨天22点到23点北京区域唱歌品类主播的礼物<span class=\"word-annot\"><span class=\"word-anchor\">收入</span><span class=\"word-block\"><span class=\"english-word\">proceed</span><span class=\"word-info\">[pərˈsid] n. 收入，获利</span></span></span>分布&quot;。<span class=\"word-annot\"><span class=\"word-anchor\">以前的</span><span class=\"word-block\"><span class=\"english-word\">fore</span><span class=\"word-info\">[fɔr] adj. 以前的；在前部的</span></span></span>做法：提单，等技术排期做个报表页，两周后上线，运营自己去后台筛选；筛完<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discovery</span><span class=\"word-info\">[dɪˈskʌvəri] n. 被发现的事物；发现</span></span></span>口径不对，再提一单。新做法：运营直接问Agent。Agent拆任务、调数据MCP、做地域过滤、做时段聚合，30秒给答案。口径不对？运营直接说&quot;把虚拟礼物去掉，只看真实付费的&quot;——Agent再跑一次，不再是一次性的&quot;做一张报表&quot;，而是<span class=\"word-annot\"><span class=\"word-anchor\">持续的</span><span class=\"word-block\"><span class=\"english-word\">continuous</span><span class=\"word-info\">[kənˈtɪnjuəs] adj. 连续的,持续的</span></span></span>对话式协作。</p>"
+    },
+    {
+      "index": 99,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/010.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/010.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 100,
+      "source_text": "以前要打开后台、找入口、点几十下才能完成的任务——主播提醒、数据查询、活动配置、用户处置——现在一句话就让Agent干完。运营在家\"躺着\"也能把活儿干了，效率不是10%、20%的提升，是数量级的跃迁。",
+      "html": "<p>以前要打开后台、找入口、点几十下才能完成的任务——主播提醒、数据查询、活动配置、用户<span class=\"word-annot\"><span class=\"word-anchor\">处置</span><span class=\"word-block\"><span class=\"english-word\">dispose</span><span class=\"word-info\">[dɪˈspoʊz] v. (for)布置,安排；(of)处理,处置</span></span></span>——现在一句话就让Agent干完。运营在家&quot;<span class=\"word-annot\"><span class=\"word-anchor\">躺着</span><span class=\"word-block\"><span class=\"english-word\">couch</span><span class=\"word-info\">[kaʊʧ] v. 蹲伏，埋伏；躺着</span></span></span>&quot;也能把活儿干了，效率不是10%、20%的提升，是数量级的跃迁。</p>"
+    },
+    {
+      "index": 101,
+      "source_text": "技术从\"做后台页面\"转向\"做能力积木\"——产出物是API化、Skill化的可组合单元，可扩展性指数级",
+      "html": "<p>技术从&quot;做后台页面&quot;<span class=\"word-annot\"><span class=\"word-anchor\">转向</span><span class=\"word-block\"><span class=\"english-word\">divert</span><span class=\"word-info\">[dɪˈvərt] v. 使转向，使改道；转移(注意力)；使娱乐</span></span></span>&quot;做能力积木&quot;——产出物是API化、Skill化的可组合单元，可扩展性指数级</p>"
+    },
+    {
+      "index": 102,
+      "source_text": "产运从\"提单等开发\"转向\"对话式协作\"——需求和数据消费在同一个对话里完成，没有交付物等待时间",
+      "html": "<p>产运从&quot;提单等开发&quot;转向&quot;对话式协作&quot;——需求和数据消费在同一个对话里完成，没有交付物<span class=\"word-annot\"><span class=\"word-anchor\">等待</span><span class=\"word-block\"><span class=\"english-word\">await</span><span class=\"word-info\">[əˈweɪt] v. 等候，等待；期待</span></span></span>时间</p>"
+    },
+    {
+      "index": 103,
+      "source_text": "每多一个MCP/Skill，所有产运的能力都跟着扩一圈——以前一次开发服务一个具体功能，现在一次开发，所有人受益",
+      "html": "<p>每多一个MCP/Skill，所有产运的能力都跟着扩<span class=\"word-annot\"><span class=\"word-anchor\">一圈</span><span class=\"word-block\"><span class=\"english-word\">lap</span><span class=\"word-info\">[læp] n. 一圈；膝盖；下摆；山坳</span></span></span>——以前一次开发服务一个具体功能，现在一次开发，所有人受益</p>"
+    },
+    {
+      "index": 104,
+      "source_text": "后台会不会消失？会，但那只是结果。真正改变的是技术的产出形态，和产运找技术的方式。这件事一旦走通，公司组织内部的协作摩擦会大幅下降——技术不再是瓶颈，AI也不再是\"装饰品\"，整个组织开始以自然语言 + 能力调用的方式跑起来。",
+      "html": "<p>后台会不会<span class=\"word-annot\"><span class=\"word-anchor\">消失</span><span class=\"word-block\"><span class=\"english-word\">vanish</span><span class=\"word-info\">[ˈvænɪʃ] v. 突然不见;消失</span></span></span>？会，但那只是<span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">harvest</span><span class=\"word-info\">[ˈhɑrvəst] n. 收获；产量；结果</span></span></span>。真正改变的是技术的产出形态，和产运找技术的<span class=\"word-annot\"><span class=\"word-anchor\">方式</span><span class=\"word-block\"><span class=\"english-word\">alike</span><span class=\"word-info\">[əˈlaɪk] adv. 以同样的方式；类似于</span></span></span>。这件事一旦走通，公司组织<span class=\"word-annot\"><span class=\"word-anchor\">内部的</span><span class=\"word-block\"><span class=\"english-word\">inner</span><span class=\"word-info\">[ˈɪnər] adj. 内部的， 里面的；内心的</span></span></span>协作摩擦会大幅下降——技术不再是瓶颈，AI也不再是&quot;装饰品&quot;，整个组织开始以自然语言 + 能力调用的方式跑起来。</p>"
+    },
+    {
+      "index": 105,
+      "source_text": "能力积木化之后，技术团队的KPI、组织分工、招聘画像都要重做：能力建设 vs 业务交付的占比要重新平衡，懂业务建模和能力抽象的工程师权重要往上提，纯粹写后台胶水代码的岗位会快速收敛。这是技术组织从\"项目驱动\"转向\"能力驱动\"的一次彻底重构。",
+      "html": "<p>能力积木化之后，技术团队的KPI、组织分工、招聘画像都要重做：能力建设 vs 业务交付的占比要重新平衡，懂业务建模和能力<span class=\"word-annot\"><span class=\"word-anchor\">抽象的</span><span class=\"word-block\"><span class=\"english-word\">abstract</span><span class=\"word-info\">[ˈæbˌstrækt] adj. 抽象的</span></span></span>工程师权重要往上提，纯粹写后台胶水代码的岗位会快速收敛。这是技术<span class=\"word-annot\"><span class=\"word-anchor\">组织</span><span class=\"word-block\"><span class=\"english-word\">organisation</span><span class=\"word-info\">[ˌɔrgənɪˈzeɪʃən] n. 组织， 机构； 体制， 结构</span></span></span>从&quot;项目驱动&quot;转向&quot;能力驱动&quot;的一次彻底重构。</p>"
+    },
+    {
+      "index": 106,
+      "source_text": "25年我们做的是单点能力嵌入——LLM+RAG+Workflow，把AI塞进业务的每个具体点位。这是25年初这个时间点能做、最该做、也最成熟的事。",
+      "html": "<p>25年我们做的是单点能力<span class=\"word-annot\"><span class=\"word-anchor\">嵌入</span><span class=\"word-block\"><span class=\"english-word\">embed</span><span class=\"word-info\">[ɪmˈbɛd] v. 栽种；使嵌入，使插入；使深留脑中</span></span></span>——LLM+RAG+Workflow，把AI塞进业务的每个具体点位。这是25年初这个时间点能做、最该做、也最<span class=\"word-annot\"><span class=\"word-anchor\">成熟的</span><span class=\"word-block\"><span class=\"english-word\">mature</span><span class=\"word-info\">[məˈʧʊr] adj. 成熟的；充分考虑的；到期的；成年人的</span></span></span>事。</p>"
+    },
+    {
+      "index": 107,
+      "source_text": "25年底到26年，MCP、Skills、Agent Harness这些工程基础逐步成熟之后，AI从\"调一次模型\"变成可以\"作为体系化工作流运转\"。我们今年的主线也跟着升级——从AI Coding的工作流流动，到Agent平台的组织级基础设施，到CLI的未来产品形态，到产运 × 技术的新协作范式。",
+      "html": "<p>25年底到26年，MCP、Skills、Agent Harness这些工程基础逐步成熟之后，AI从&quot;调一次模型&quot;变成可以&quot;作为体系<span class=\"word-annot\"><span class=\"word-anchor\">化工</span><span class=\"word-block\"><span class=\"english-word\">filter</span><span class=\"word-info\">[ˈfɪltər] n. 滤波器；[化工] 过滤器；筛选；滤光器</span></span></span>作流运转&quot;。我们今年的主线也跟着升级——从AI Coding的工作流流动，到Agent平台的组织级基础设施，到CLI的未来产品形态，到产运 × 技术的新<span class=\"word-annot\"><span class=\"word-anchor\">协作</span><span class=\"word-block\"><span class=\"english-word\">coordinate</span><span class=\"word-info\">[koʊˈɔrdəˌneɪt] v. 协作，协调</span></span></span>范式。</p>"
+    },
+    {
+      "index": 108,
+      "source_text": "这不是25年做错了。25年的做法是那个时间点最成熟的玩法，每家公司都得这么走一遍。是MCP、Skills、Harness这些新东西成熟之后，路才有条件变宽。技术迭代太快，每家公司都要跟着改，这是趋势，不是反思。",
+      "html": "<p>这不是25年做错了。25年的做法是那个时间点最<span class=\"word-annot\"><span class=\"word-anchor\">成熟的</span><span class=\"word-block\"><span class=\"english-word\">ripe</span><span class=\"word-info\">[raɪp] adj. 熟的，成熟的；时机成熟的</span></span></span>玩法，每家公司都得这么走一遍。是MCP、Skills、Harness这些新<span class=\"word-annot\"><span class=\"word-anchor\">东西</span><span class=\"word-block\"><span class=\"english-word\">contemporary</span><span class=\"word-info\">[kənˈtɛmpərˌɛri] n. 同时代的人；同时期的东西</span></span></span>成熟之后，路才有条件变宽。技术迭代太快，每家公司都要跟着改，这是<span class=\"word-annot\"><span class=\"word-anchor\">趋势</span><span class=\"word-block\"><span class=\"english-word\">drift</span><span class=\"word-info\">[drɪft] n. 漂流，漂移；趋势；漂流物</span></span></span>，不是反思。</p>"
+    },
+    {
+      "index": 109,
+      "source_text": "最后还想多说一句——前阵子参加一个行业会议，有个观点我特别认同：AI化的终极目标，不是缩减HC。这是个非常片面、也非常危险的理解。如果一个公司做AI转型只想着\"能不能少招几个人\"\"能不能裁掉一批人\"，那这个转型大概率是失败的——因为AI带来的能力溢出，远远不是\"省成本\"三个字能装下的。",
+      "html": "<p>最后还想多说一句——前阵子<span class=\"word-annot\"><span class=\"word-anchor\">参加</span><span class=\"word-block\"><span class=\"english-word\">engage</span><span class=\"word-info\">[ɪnˈgeɪʤ] v. 吸引，占用；使参加；雇佣；使订婚；预定</span></span></span>一个行业会议，有个观点我特别认同：AI化的终极目标，不是缩减HC。这是个非常片面、也非常危险的<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">comprehension</span><span class=\"word-info\">[ˌkɑmpriˈhɛnʃən] n. 理解， 领悟</span></span></span>。如果一个公司做AI转型只想着&quot;能不能少招几个人&quot;&quot;能不能裁掉一批人&quot;，那这个转型大概率是失败的——因为AI带来的能力<span class=\"word-annot\"><span class=\"word-anchor\">溢出</span><span class=\"word-block\"><span class=\"english-word\">brim</span><span class=\"word-info\">[brɪm] v. 满溢；溢出</span></span></span>，远远不是&quot;省成本&quot;三个字能装下的。</p>"
+    },
+    {
+      "index": 110,
+      "source_text": "AI化真正的价值，是让组织敢干以前不敢干的事、能干以前干不了的事。以前一个想法因为开发周期太长不做、因为信息不对等没法判断不做、因为没有相关经验不敢试不做——这些\"不敢干\"和\"干不了\"的事，在有了Agent之后，可以极低成本地快速试错。一个产品想法，原来要排期两个月才能验证，现在Agent + 能力积木一周就能跑出第一版；一个新市场进入决策，原来缺数据缺经验不敢拍板，现在AI能瞬间把全网信息聚合分析。",
+      "html": "<p>AI化<span class=\"word-annot\"><span class=\"word-anchor\">真正的</span><span class=\"word-block\"><span class=\"english-word\">genuine</span><span class=\"word-info\">[ˈʤɛnjuˌaɪn] adj. 真正的</span></span></span>价值，是让组织敢干以前不敢干的事、能干以前干不了的事。以前一个想法因为开发周期太长不做、因为信息不对等没法判断不做、因为没有相关经验不敢试不做——这些&quot;不敢干&quot;和&quot;干不了&quot;<span class=\"word-annot\"><span class=\"word-anchor\">的事</span><span class=\"word-block\"><span class=\"english-word\">anxiety</span><span class=\"word-info\">[æŋˈzaɪəti] n. 焦虑；渴望；挂念；令人焦虑的事</span></span></span>，在有了Agent之后，可以极低成本地快速试错。一个产品想法，原来要排期两个月才能<span class=\"word-annot\"><span class=\"word-anchor\">验证</span><span class=\"word-block\"><span class=\"english-word\">validate</span><span class=\"word-info\">[ˈvælɪdeɪt] v. 验证</span></span></span>，现在Agent + 能力积木一周就能跑出第一版；一个新市场进入<span class=\"word-annot\"><span class=\"word-anchor\">决策</span><span class=\"word-block\"><span class=\"english-word\">counsel</span><span class=\"word-info\">[ˈkaʊnsəl] n. 法律顾问；忠告；商议；讨论；决策</span></span></span>，原来缺数据缺经验不敢拍板，现在AI能瞬间把全网信息聚合分析。</p>"
+    },
+    {
+      "index": 111,
+      "source_text": "省下来的人力不该回收，该投到这些\"以前不敢干的事\"上。这才是AI转型应该有的思想——不是做减法，是开放更大的可能性空间。",
+      "html": "<p>省下来<span class=\"word-annot\"><span class=\"word-anchor\">的人</span><span class=\"word-block\"><span class=\"english-word\">athlete</span><span class=\"word-info\">[ˈæθˌlit] n. 运动员，体育家；身强力壮的人</span></span></span>力不该回收，该投到这些&quot;以前不敢干的事&quot;上。这才是AI转型应该有的思想——不是做减法，是开放更大的<span class=\"word-annot\"><span class=\"word-anchor\">可能性</span><span class=\"word-block\"><span class=\"english-word\">liability</span><span class=\"word-info\">[ˌlaɪəˈbɪlɪti] n. 责任；债务；倾向；可能性；不利因素</span></span></span>空间。</p>"
+    },
+    {
+      "index": 112,
+      "source_text": "上面这四层——AI Coding三层规范的具体落地、Agent平台的能力池怎么搭、CLI在直播场景的命令设计、产运 × 技术的能力积木怎么封装——每一块都才刚起步，每一块也都能拆成一整篇深讲的文章，后面会一篇一篇展开。",
+      "html": "<p>上面这四层——AI Coding三层规范的具体落地、Agent平台的能力池怎么搭、CLI在直播场景的命令设计、产运 × 技术的能力积木怎么封装——每一块都才刚起步，每一块也都能拆成一整篇深讲的<span class=\"word-annot\"><span class=\"word-anchor\">文章</span><span class=\"word-block\"><span class=\"english-word\">criticism</span><span class=\"word-info\">[ˈkrɪtɪsɪzəm] n. 批评，指责，非难；评论性的文章，评论</span></span></span>，后面会一篇一篇展开。</p>"
+    },
+    {
+      "index": 113,
+      "source_text": "这一篇先把这一年的认知和接下来要做的事，完整地交代清楚。想一起聊的话，扫下面的码加我",
+      "html": "<p>这一篇先把这一年的认知和接下来要做<span class=\"word-annot\"><span class=\"word-anchor\">的事</span><span class=\"word-block\"><span class=\"english-word\">breeze</span><span class=\"word-info\">[briz] n. 微风；轻而易举的事；煤屑；焦炭渣；小风波</span></span></span>，完整地交代清楚。想一起聊的话，扫下面的码加我</p>"
+    },
+    {
+      "index": 114,
+      "source_text": "![](../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/011.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-13-llm-rag-agent-team-ai-exploration/011.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}
