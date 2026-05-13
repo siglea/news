@@ -1,0 +1,777 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "史诗",
+      "en": "heroic",
+      "ipa": "[hɪˈroʊɪk]",
+      "pos": "n.",
+      "gloss": "史诗；英勇行为"
+    },
+    {
+      "i": 1,
+      "skip": true
+    },
+    {
+      "i": 2,
+      "zh": "明确的",
+      "en": "definite",
+      "ipa": "[ˈdɛfənət]",
+      "pos": "adj.",
+      "gloss": "明确的;一定的"
+    },
+    {
+      "i": 3,
+      "zh": "重要的",
+      "en": "crucial",
+      "ipa": "[ˈkruːʃl]",
+      "pos": "adj.",
+      "gloss": "重要的；决定性的；定局的；决断的"
+    },
+    {
+      "i": 4,
+      "zh": "习惯的",
+      "en": "accustomed",
+      "ipa": "[əˈkəstəmd]",
+      "pos": "adj.",
+      "gloss": "习惯的，适应的(一般作表语)；惯常的"
+    },
+    {
+      "i": 5,
+      "zh": "出现",
+      "en": "arise",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 6,
+      "zh": "能够",
+      "en": "enable",
+      "ipa": "[ɪˈneɪbl]",
+      "pos": "v.",
+      "gloss": "使能够，使成为可能；授予权利或方法"
+    },
+    {
+      "i": 7,
+      "zh": "保持",
+      "en": "conservation",
+      "ipa": "[ˌkɑnsərˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "保存，保持；保护"
+    },
+    {
+      "i": 8,
+      "zh": "产生",
+      "en": "breed",
+      "ipa": "[brid]",
+      "pos": "v.",
+      "gloss": "繁殖；饲养；产生"
+    },
+    {
+      "i": 9,
+      "zh": "唯一的",
+      "en": "sole",
+      "ipa": "[soʊl]",
+      "pos": "adj.",
+      "gloss": "单独的,唯一的"
+    },
+    {
+      "i": 10,
+      "zh": "相同的",
+      "en": "alike",
+      "ipa": "[əˈlaɪk]",
+      "pos": "adj.",
+      "gloss": "相似的；相同的"
+    },
+    {
+      "i": 11,
+      "zh": "也就是",
+      "en": "namely",
+      "ipa": "[ˈneɪmli]",
+      "pos": "adv.",
+      "gloss": "即,也就是"
+    },
+    {
+      "i": 12,
+      "zh": "提高",
+      "en": "enhance",
+      "ipa": "[ɛnˈhæns]",
+      "pos": "v.",
+      "gloss": "提高；加强；增加"
+    },
+    {
+      "i": 13,
+      "zh": "因此",
+      "en": "accordingly",
+      "ipa": "[əˈkɔrdɪŋli]",
+      "pos": "adv.",
+      "gloss": "因此，于是；相应地；照著"
+    },
+    {
+      "i": 14,
+      "zh": "创造",
+      "en": "coin",
+      "ipa": "[kɔɪn]",
+      "pos": "v.",
+      "gloss": "铸造（货币）；杜撰，创造"
+    },
+    {
+      "i": 15,
+      "zh": "达到",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 16,
+      "zh": "值得",
+      "en": "merit",
+      "ipa": "[ˈmɛrət]",
+      "pos": "v.",
+      "gloss": "值得"
+    },
+    {
+      "i": 17,
+      "zh": "合作",
+      "en": "collaborate",
+      "ipa": "[kəˈlæbərˌeɪt]",
+      "pos": "v.",
+      "gloss": "合作；勾结，通敌"
+    },
+    {
+      "i": 18,
+      "zh": "十分",
+      "en": "bully",
+      "ipa": "[ˈbʊli]",
+      "pos": "adv.",
+      "gloss": "很；十分 int. 好；妙"
+    },
+    {
+      "i": 19,
+      "zh": "科学家",
+      "en": "scientist",
+      "ipa": "[ˈsaɪəntɪst]",
+      "pos": "n.",
+      "gloss": "科学家"
+    },
+    {
+      "i": 20,
+      "zh": "知道",
+      "en": "acquaintance",
+      "ipa": "[əkˈweɪntəns]",
+      "pos": "n.",
+      "gloss": "熟人；相识；了解；知道"
+    },
+    {
+      "i": 21,
+      "zh": "进入",
+      "en": "entrance",
+      "ipa": "[ˈɛntrəns]",
+      "pos": "n.",
+      "gloss": "入口；进入"
+    },
+    {
+      "i": 22,
+      "zh": "世界的",
+      "en": "universal",
+      "ipa": "[ˌjunəˈvərsəl]",
+      "pos": "adj.",
+      "gloss": "全体的,宇宙的,世界的；普遍的，通用的"
+    },
+    {
+      "i": 23,
+      "zh": "大部分",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 24,
+      "zh": "分解",
+      "en": "analyze",
+      "ipa": "[ˈænəˌlaɪz]",
+      "pos": "vt.",
+      "gloss": "分析； 分解"
+    },
+    {
+      "i": 25,
+      "zh": "复杂的",
+      "en": "complicated",
+      "ipa": "[ˈkɑmpləˌkeɪtəd]",
+      "pos": "adj.",
+      "gloss": "难懂的，复杂的"
+    },
+    {
+      "i": 26,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "基础设施；公共建设；下部构造"
+    },
+    {
+      "i": 27,
+      "zh": "开发",
+      "en": "exploit",
+      "ipa": "[ˌɛkˈsplɔɪt]",
+      "pos": "v.",
+      "gloss": "开发，开拓；剥削；开采"
+    },
+    {
+      "i": 28,
+      "zh": "适合",
+      "en": "adjust",
+      "ipa": "[əˈʤəst]",
+      "pos": "v.",
+      "gloss": "调整，使…适合；校准"
+    },
+    {
+      "i": 29,
+      "zh": "经典的",
+      "en": "classical",
+      "ipa": "[ˈklæsɪkəl]",
+      "pos": "adj.",
+      "gloss": "古典的；经典的；传统的；第一流的"
+    },
+    {
+      "i": 30,
+      "zh": "稳定地",
+      "en": "steady",
+      "ipa": "[ˈstɛdi]",
+      "pos": "adv.",
+      "gloss": "稳定地；稳固地"
+    },
+    {
+      "i": 31,
+      "zh": "庞大的",
+      "en": "enormous",
+      "ipa": "[ɪˈnɔrmɪs]",
+      "pos": "adj.",
+      "gloss": "庞大的，巨大的；凶暴的，极恶的"
+    },
+    {
+      "i": 32,
+      "zh": "杂志",
+      "en": "periodical",
+      "ipa": "[ˌpɪriˈɑdɪkəl]",
+      "pos": "n.",
+      "gloss": "期刊；杂志"
+    },
+    {
+      "i": 33,
+      "zh": "完成",
+      "en": "attain",
+      "ipa": "[əˈteɪn]",
+      "pos": "v.",
+      "gloss": "完成；获得；达到"
+    },
+    {
+      "i": 34,
+      "skip": true
+    },
+    {
+      "i": 35,
+      "zh": "仅仅",
+      "en": "mere",
+      "ipa": "[mɪr]",
+      "pos": "adj.",
+      "gloss": "仅仅,只不过"
+    },
+    {
+      "i": 36,
+      "zh": "变化",
+      "en": "variation",
+      "ipa": "[ˌvɛriˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "变化；[生物] 变异，变种"
+    },
+    {
+      "i": 37,
+      "zh": "实验室",
+      "en": "lab",
+      "ipa": "[læb]",
+      "pos": "n.",
+      "gloss": "实验室，研究室"
+    },
+    {
+      "i": 38,
+      "zh": "方面",
+      "en": "angle",
+      "ipa": "[ˈæŋgəl]",
+      "pos": "n.",
+      "gloss": "角度，角，方面"
+    },
+    {
+      "i": 39,
+      "zh": "出口",
+      "en": "exit",
+      "ipa": "[ˈɛksət]",
+      "pos": "n.",
+      "gloss": "出口，通道；退场"
+    },
+    {
+      "i": 40,
+      "zh": "方面",
+      "en": "aspect",
+      "ipa": "[ˈæspekt]",
+      "pos": "n.",
+      "gloss": "(问题等的)方面；样子, 外表, 面貌"
+    },
+    {
+      "i": 41,
+      "zh": "一点",
+      "en": "epoch",
+      "ipa": "[ˈɛpək]",
+      "pos": "n.",
+      "gloss": "[地质] 世；新纪元；新时代；时间上的一点"
+    },
+    {
+      "i": 42,
+      "zh": "合作",
+      "en": "cooperate",
+      "ipa": "[kˈwɑpərˌeɪt]",
+      "pos": "v.",
+      "gloss": "合作，配合；协力"
+    },
+    {
+      "i": 43,
+      "zh": "代表",
+      "en": "ambassador",
+      "ipa": "[æmˈbæsədər]",
+      "pos": "n.",
+      "gloss": "大使；特使，(派驻国际组织的)代表"
+    },
+    {
+      "i": 44,
+      "zh": "发生",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 45,
+      "zh": "浓厚的",
+      "en": "dense",
+      "ipa": "[dɛns]",
+      "pos": "adj.",
+      "gloss": "稠密的；浓厚的；愚钝的"
+    },
+    {
+      "i": 46,
+      "zh": "的收入",
+      "en": "skim",
+      "ipa": "[skɪm]",
+      "pos": "n.",
+      "gloss": "撇；撇去的东西；表层物；瞒报所得的收入"
+    },
+    {
+      "i": 47,
+      "skip": true
+    },
+    {
+      "i": 48,
+      "zh": "事业",
+      "en": "enterprise",
+      "ipa": "[ˈentəpraɪz]",
+      "pos": "n.",
+      "gloss": "事业,企(事)业单位；事业心,进取心"
+    },
+    {
+      "i": 49,
+      "skip": true
+    },
+    {
+      "i": 50,
+      "zh": "实验室",
+      "en": "laboratory",
+      "ipa": "[ləˈbɒrətri]",
+      "pos": "n.",
+      "gloss": "实验室， 研究室"
+    },
+    {
+      "i": 51,
+      "zh": "体重减轻",
+      "en": "slim",
+      "ipa": "[slɪm]",
+      "pos": "v.",
+      "gloss": "使…体重减轻；使…苗条"
+    },
+    {
+      "i": 52,
+      "zh": "合作",
+      "en": "cooperation",
+      "ipa": "[kəʊˌɒpəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "合作"
+    },
+    {
+      "i": 53,
+      "zh": "机构",
+      "en": "apparatus",
+      "ipa": "[ˌæpərˈætəs]",
+      "pos": "n.",
+      "gloss": "器械，器具，仪器；机构，组织"
+    },
+    {
+      "i": 54,
+      "zh": "创始人",
+      "en": "founder",
+      "ipa": "[ˈfaʊndə]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 55,
+      "zh": "医药",
+      "en": "pharma",
+      "ipa": "[ˈfɑːmə]",
+      "pos": "n.",
+      "gloss": "医药"
+    },
+    {
+      "i": 56,
+      "zh": "获得",
+      "en": "acquire",
+      "ipa": "[əkˈwaɪər]",
+      "pos": "v.",
+      "gloss": "获得；取得；学到；捕获"
+    },
+    {
+      "i": 57,
+      "zh": "投资",
+      "en": "invest",
+      "ipa": "[ɪnˈvest]",
+      "pos": "v.",
+      "gloss": "投资；覆盖；耗费；授予；包围"
+    },
+    {
+      "i": 58,
+      "zh": "协议",
+      "en": "accord",
+      "ipa": "[əˈkɔrd]",
+      "pos": "n.",
+      "gloss": "一致， 符合；协议， 条约"
+    },
+    {
+      "i": 59,
+      "zh": "获得",
+      "en": "acquisition",
+      "ipa": "[ˌækwɪˈzɪʃn]",
+      "pos": "n.",
+      "gloss": "获得物，获得；收购"
+    },
+    {
+      "i": 60,
+      "zh": "生物",
+      "en": "creature",
+      "ipa": "[ˈkriʧər]",
+      "pos": "n.",
+      "gloss": "动物;生物"
+    },
+    {
+      "i": 61,
+      "zh": "显示",
+      "en": "exhibit",
+      "ipa": "[ɪgˈzɪbɪt]",
+      "pos": "v.",
+      "gloss": "展览；显示；提出（证据等）"
+    },
+    {
+      "i": 62,
+      "zh": "创造",
+      "en": "invent",
+      "ipa": "[ˌɪnˈvɛnt]",
+      "pos": "v.",
+      "gloss": "发明,创造；捏造,虚构"
+    },
+    {
+      "i": 63,
+      "zh": "日常的",
+      "en": "everyday",
+      "ipa": "[ˈɛvriˈdeɪ]",
+      "pos": "adj.",
+      "gloss": "每天的，日常的"
+    },
+    {
+      "i": 64,
+      "zh": "主要的",
+      "en": "arch",
+      "ipa": "[ɑrʧ]",
+      "pos": "adj.",
+      "gloss": "主要的"
+    },
+    {
+      "i": 65,
+      "zh": "公布",
+      "en": "advertise",
+      "ipa": "[ˈædvərˌtaɪz]",
+      "pos": "v.",
+      "gloss": "为...做广告；公告，公布"
+    },
+    {
+      "i": 66,
+      "zh": "接受",
+      "en": "acceptance",
+      "ipa": "[əkˈsɛptəns]",
+      "pos": "n.",
+      "gloss": "正式接受；接纳；接受，赞同，赞成，认可"
+    },
+    {
+      "i": 67,
+      "zh": "治疗",
+      "en": "cure",
+      "ipa": "[kjʊr]",
+      "pos": "n.",
+      "gloss": "治愈，治疗"
+    },
+    {
+      "i": 68,
+      "zh": "只不过",
+      "en": "merely",
+      "ipa": "[ˈmɪrli]",
+      "pos": "adv.",
+      "gloss": "仅仅，只不过"
+    },
+    {
+      "i": 69,
+      "zh": "发生率",
+      "en": "incidence",
+      "ipa": "[ˈɪnsɪdəns]",
+      "pos": "n.",
+      "gloss": "发生率"
+    },
+    {
+      "i": 70,
+      "zh": "相信",
+      "en": "belief",
+      "ipa": "[bɪˈliːf]",
+      "pos": "n.",
+      "gloss": "相信，信赖；信仰；教义"
+    },
+    {
+      "i": 71,
+      "skip": true
+    },
+    {
+      "i": 72,
+      "zh": "值得注意",
+      "en": "notable",
+      "ipa": "[ˈnoʊtəbəl]",
+      "pos": "adj.",
+      "gloss": "值得注意的，显著的；著名的"
+    },
+    {
+      "i": 73,
+      "zh": "包括",
+      "en": "comprise",
+      "ipa": "[kəmˈpraɪz]",
+      "pos": "v.",
+      "gloss": "包含，包括，由...组成；构成，组成"
+    },
+    {
+      "i": 74,
+      "zh": "欢迎",
+      "en": "greeting",
+      "ipa": "[ˈɡriːtɪŋ]",
+      "pos": "v.",
+      "gloss": "致敬，欢迎（greet的现在分词）"
+    },
+    {
+      "i": 75,
+      "zh": "所有人",
+      "en": "holder",
+      "ipa": "[ˈhoʊldər]",
+      "pos": "n.",
+      "gloss": "持有人；所有人；固定器；（台、架等）支持物"
+    },
+    {
+      "i": 76,
+      "zh": "几乎不",
+      "en": "barely",
+      "ipa": "[ˈbɛrli]",
+      "pos": "adv.",
+      "gloss": "勉强才能；几乎不"
+    },
+    {
+      "i": 77,
+      "zh": "非常",
+      "en": "deadly",
+      "ipa": "[ˈdɛdli]",
+      "pos": "adv.",
+      "gloss": "非常；如死一般地"
+    },
+    {
+      "i": 78,
+      "zh": "通过",
+      "en": "approve",
+      "ipa": "[əˈpruv]",
+      "pos": "v.",
+      "gloss": "批准，通过；(of)赞成，赞许，同意"
+    },
+    {
+      "i": 79,
+      "skip": true
+    },
+    {
+      "i": 80,
+      "zh": "竞争",
+      "en": "compete",
+      "ipa": "[kəmˈpiːt]",
+      "pos": "v.",
+      "gloss": "竞争；争夺，竞争"
+    },
+    {
+      "i": 81,
+      "zh": "执行",
+      "en": "administer",
+      "ipa": "[ədˈmɪnɪstər]",
+      "pos": "v.",
+      "gloss": "管理；执行；给予"
+    },
+    {
+      "i": 82,
+      "zh": "发出",
+      "en": "emit",
+      "ipa": "[ɪˈmɪt]",
+      "pos": "v.",
+      "gloss": "发出，放射；发行；发表"
+    },
+    {
+      "i": 83,
+      "zh": "最好的",
+      "en": "crack",
+      "ipa": "[kræk]",
+      "pos": "adj.",
+      "gloss": "最好的；高明的"
+    },
+    {
+      "i": 84,
+      "zh": "执行",
+      "en": "enforce",
+      "ipa": "[ɛnˈfɔrs]",
+      "pos": "v.",
+      "gloss": "实施，执行；强迫，强制"
+    },
+    {
+      "i": 85,
+      "zh": "事实上",
+      "en": "practically",
+      "ipa": "[ˈpræktɪkəli]",
+      "pos": "adv.",
+      "gloss": "实际地；几乎；事实上"
+    },
+    {
+      "i": 86,
+      "zh": "激烈的",
+      "en": "acute",
+      "ipa": "[əˈkjut]",
+      "pos": "adj.",
+      "gloss": "严重的，[医] 急性的；敏锐的；激烈的；尖声的"
+    },
+    {
+      "i": 87,
+      "zh": "东西",
+      "en": "clay",
+      "ipa": "[kleɪ]",
+      "pos": "n.",
+      "gloss": "[土壤] 粘土；泥土；肉体；似黏土的东西"
+    },
+    {
+      "i": 88,
+      "skip": true
+    },
+    {
+      "i": 89,
+      "zh": "的状态",
+      "en": "shatter",
+      "ipa": "[ˈʃætər]",
+      "pos": "n.",
+      "gloss": "碎片；乱七八糟的状态"
+    },
+    {
+      "i": 90,
+      "zh": "出现",
+      "en": "dawn",
+      "ipa": "[dɔːn]",
+      "pos": "v.",
+      "gloss": "破晓；出现；被领悟"
+    },
+    {
+      "i": 91,
+      "skip": true
+    },
+    {
+      "i": 92,
+      "zh": "无限的",
+      "en": "infinite",
+      "ipa": "[ˈɪnfənət]",
+      "pos": "adj.",
+      "gloss": "无限的,无穷的"
+    },
+    {
+      "i": 93,
+      "zh": "唯一的",
+      "en": "solitary",
+      "ipa": "[ˈsɑləˌtɛri]",
+      "pos": "adj.",
+      "gloss": "单一的，唯一的；单独的，无伴的；喜欢独处的，不喜与人接触的"
+    },
+    {
+      "i": 94,
+      "zh": "不友好的",
+      "en": "distant",
+      "ipa": "[ˈdɪstənt]",
+      "pos": "adj.",
+      "gloss": "遥远的；冷漠的；远隔的；不友好的，冷淡的"
+    },
+    {
+      "i": 95,
+      "zh": "威胁",
+      "en": "cow",
+      "ipa": "[kaʊ]",
+      "pos": "v.",
+      "gloss": "威胁，恐吓"
+    },
+    {
+      "i": 96,
+      "zh": "表示",
+      "en": "bid",
+      "ipa": "[bɪd]",
+      "pos": "v.",
+      "gloss": "投标；出价；表示；吩咐"
+    },
+    {
+      "i": 97,
+      "zh": "可能",
+      "en": "likelihood",
+      "ipa": "[ˈlaɪkliˌhʊd]",
+      "pos": "n.",
+      "gloss": "可能性，可能"
+    },
+    {
+      "i": 98,
+      "zh": "维持",
+      "en": "preserve",
+      "ipa": "[prɪˈzərv]",
+      "pos": "v.",
+      "gloss": "保存；保护；维持；腌；禁猎"
+    },
+    {
+      "i": 99,
+      "zh": "联系",
+      "en": "connexion",
+      "ipa": "[kəˈnɛkʃən]",
+      "pos": "n.",
+      "gloss": "联系， 连接"
+    },
+    {
+      "i": 100,
+      "skip": true
+    }
+  ]
+}
