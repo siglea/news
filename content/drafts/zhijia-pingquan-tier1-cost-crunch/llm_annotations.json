@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "承担",
+      "en": "assumption",
+      "ipa": "[əˈsəmpʃən]",
+      "pos": "n.",
+      "gloss": "假定，设想；采取；承担"
+    },
+    {
+      "i": 1,
+      "zh": "激光",
+      "en": "laser",
+      "ipa": "[ˈleɪzə]",
+      "pos": "n.",
+      "gloss": "激光"
+    },
+    {
+      "i": 2,
+      "zh": "时钟",
+      "en": "clock",
+      "ipa": "[klɑk]",
+      "pos": "n.",
+      "gloss": "时钟；计时器"
+    },
+    {
+      "i": 3,
+      "zh": "超过",
+      "en": "exceed",
+      "ipa": "[ɪkˈsid]",
+      "pos": "v.",
+      "gloss": "超过,胜过；越出 (限制、规定)"
+    },
+    {
+      "i": 4,
+      "zh": "完成",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 5,
+      "zh": "消费",
+      "en": "consume",
+      "ipa": "[kənˈsum]",
+      "pos": "v.",
+      "gloss": "消耗；消费；吃；喝"
+    },
+    {
+      "i": 6,
+      "zh": "雷达",
+      "en": "radar",
+      "ipa": "[ˈreɪˌdɑr]",
+      "pos": "n.",
+      "gloss": "[雷达] 雷达，无线电探测器"
+    },
+    {
+      "i": 7,
+      "zh": "承担",
+      "en": "entail",
+      "ipa": "[ɛnˈteɪl]",
+      "pos": "v.",
+      "gloss": "使需要，必需；承担；遗传给；蕴含"
+    },
+    {
+      "i": 8,
+      "zh": "压缩",
+      "en": "capsule",
+      "ipa": "[ˈkæpsəl]",
+      "pos": "v.",
+      "gloss": "压缩；简述"
+    },
+    {
+      "i": 9,
+      "zh": "芯片",
+      "en": "chip",
+      "ipa": "[ʧɪp]",
+      "pos": "n.",
+      "gloss": "[电子] 芯片；筹码；碎片；(食物的) 小片; 薄片"
+    },
+    {
+      "i": 10,
+      "zh": "地平线",
+      "en": "horizon",
+      "ipa": "[həˈraɪzn]",
+      "pos": "n.",
+      "gloss": "[天] 地平线；视野；眼界；范围"
+    },
+    {
+      "i": 11,
+      "zh": "龙头",
+      "en": "cock",
+      "ipa": "[kɑk]",
+      "pos": "n.",
+      "gloss": "公鸡；龙头；雄鸟；头目"
+    },
+    {
+      "i": 12,
+      "zh": "地平线的",
+      "en": "horizontal",
+      "ipa": "[ˌhɔrəˈzɑntəl]",
+      "pos": "adj.",
+      "gloss": "水平的；地平线的；同一阶层的"
+    },
+    {
+      "i": 13,
+      "zh": "紧随",
+      "en": "tag",
+      "ipa": "[tæg]",
+      "pos": "v.",
+      "gloss": "尾随，紧随；连接；起浑名；添饰"
+    },
+    {
+      "i": 14,
+      "zh": "成本",
+      "en": "costing",
+      "ipa": "[ˈkɒstɪŋ]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 15,
+      "zh": "搭载",
+      "en": "payload",
+      "ipa": "[ˈpeɪləʊd]",
+      "pos": "n.",
+      "gloss": "搭载"
+    },
+    {
+      "i": 16,
+      "zh": "关系",
+      "en": "bearing",
+      "ipa": "[ˈbɛrɪŋ]",
+      "pos": "n.",
+      "gloss": "[机] 轴承；关系；方位；举止"
+    },
+    {
+      "i": 17,
+      "zh": "变革",
+      "en": "transformation",
+      "ipa": "[ˌtrænsfəˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "变革"
+    },
+    {
+      "i": 18,
+      "zh": "保证",
+      "en": "assurance",
+      "ipa": "[əˈʃʊrəns]",
+      "pos": "n.",
+      "gloss": "保证，担保；（人寿）保险；确信；断言；厚脸皮，无耻"
+    },
+    {
+      "i": 19,
+      "zh": "方案",
+      "en": "formula",
+      "ipa": "[ˈfɔrmjələ]",
+      "pos": "n.",
+      "gloss": "公式；分子式；准则；方案"
+    },
+    {
+      "i": 20,
+      "zh": "控制",
+      "en": "clutch",
+      "ipa": "[kləʧ]",
+      "pos": "n.",
+      "gloss": "离合器；控制；手；紧急关头"
+    },
+    {
+      "i": 21,
+      "zh": "出现",
+      "en": "arise",
+      "ipa": "[əraɪz]",
+      "pos": "v.",
+      "gloss": "出现；上升；起立"
+    },
+    {
+      "i": 22,
+      "skip": true
+    },
+    {
+      "i": 23,
+      "zh": "中间",
+      "en": "bosom",
+      "ipa": "[ˈbʊzəm]",
+      "pos": "n.",
+      "gloss": "胸；胸怀；中间；胸襟；内心；乳房；内部"
+    },
+    {
+      "i": 24,
+      "zh": "标本",
+      "en": "specimen",
+      "ipa": "[ˈspɛsəmən]",
+      "pos": "n.",
+      "gloss": "标本,样本"
+    },
+    {
+      "i": 25,
+      "zh": "自动",
+      "en": "auto",
+      "ipa": "[ˈɔtoʊ]",
+      "pos": "n.",
+      "gloss": "汽车（等于automobile）；自动"
+    },
+    {
+      "i": 26,
+      "skip": true
+    },
+    {
+      "i": 27,
+      "zh": "公司",
+      "en": "establishment",
+      "ipa": "[ɪˈstæblɪʃmənt]",
+      "pos": "n.",
+      "gloss": "确立，制定；公司；设施"
+    },
+    {
+      "i": 28,
+      "zh": "破产",
+      "en": "bankrupt",
+      "ipa": "[ˈbæŋkrəpt]",
+      "pos": "v.",
+      "gloss": "使破产"
+    },
+    {
+      "i": 29,
+      "zh": "不在",
+      "en": "absence",
+      "ipa": "[ˈæbsəns]",
+      "pos": "n.",
+      "gloss": "缺席，不在；缺乏，不存在"
+    },
+    {
+      "i": 30,
+      "zh": "控制",
+      "en": "curb",
+      "ipa": "[kərb]",
+      "pos": "n.",
+      "gloss": "路边；控制，约束"
+    },
+    {
+      "i": 31,
+      "zh": "所有人",
+      "en": "holder",
+      "ipa": "[ˈhoʊldər]",
+      "pos": "n.",
+      "gloss": "持有人；所有人；固定器；（台、架等）支持物"
+    },
+    {
+      "i": 32,
+      "zh": "完成",
+      "en": "attain",
+      "ipa": "[əˈteɪn]",
+      "pos": "v.",
+      "gloss": "完成；获得；达到"
+    },
+    {
+      "i": 33,
+      "skip": true
+    },
+    {
+      "i": 34,
+      "zh": "宣布",
+      "en": "declaration",
+      "ipa": "[ˌdɛklərˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "（纳税品等的）申报；宣布；公告；申诉书"
+    },
+    {
+      "i": 35,
+      "zh": "加速",
+      "en": "accelerate",
+      "ipa": "[ækˈsɛlərˌeɪt]",
+      "pos": "v.",
+      "gloss": "使加速，使增速，促进；加速"
+    },
+    {
+      "i": 36,
+      "skip": true
+    },
+    {
+      "i": 37,
+      "zh": "实现",
+      "en": "fulfill",
+      "ipa": "[fʊlˈfɪl]",
+      "pos": "v.",
+      "gloss": "履行；实现；满足；使结束（等于fulfil）"
+    },
+    {
+      "i": 38,
+      "zh": "调整",
+      "en": "adjust",
+      "ipa": "[əˈʤəst]",
+      "pos": "v.",
+      "gloss": "调整，使…适合；校准"
+    },
+    {
+      "i": 39,
+      "zh": "投入",
+      "en": "input",
+      "ipa": "[ˈɪnˌpʊt]",
+      "pos": "n.",
+      "gloss": "投入；输入电路"
+    },
+    {
+      "i": 40,
+      "zh": "淘汰",
+      "en": "obsolete",
+      "ipa": "[ˌɑbsəˈlit]",
+      "pos": "vt.",
+      "gloss": "淘汰；废弃"
+    },
+    {
+      "i": 41,
+      "zh": "地带",
+      "en": "belt",
+      "ipa": "[bɛlt]",
+      "pos": "n.",
+      "gloss": "带；腰带；地带"
+    },
+    {
+      "i": 42,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "预期；期望,指望"
+    },
+    {
+      "i": 43,
+      "zh": "占据",
+      "en": "inhabit",
+      "ipa": "[ˌɪnˈhæbət]",
+      "pos": "v.",
+      "gloss": "栖息；居住于；占据"
+    },
+    {
+      "i": 44,
+      "zh": "意味着",
+      "en": "spell",
+      "ipa": "[spɛl]",
+      "pos": "v.",
+      "gloss": "拼，拼写；意味着；招致；拼成；迷住；轮值"
+    },
+    {
+      "i": 45,
+      "zh": "说明",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "确定，说明，界定；给…下定义，解释"
+    },
+    {
+      "i": 46,
+      "zh": "本土",
+      "en": "mainland",
+      "ipa": "[ˈmeɪnˌlænd]",
+      "pos": "n.",
+      "gloss": "大陆；本土"
+    },
+    {
+      "i": 47,
+      "zh": "的事情",
+      "en": "sensation",
+      "ipa": "[sɛnˈseɪʃən]",
+      "pos": "n.",
+      "gloss": "感觉,知觉；激动,轰动,轰动一时的事情"
+    },
+    {
+      "i": 48,
+      "zh": "训练",
+      "en": "discipline",
+      "ipa": "[ˈdɪsəplən]",
+      "pos": "v.",
+      "gloss": "训练，训导；惩戒"
+    },
+    {
+      "i": 49,
+      "zh": "技术",
+      "en": "technique",
+      "ipa": "[tɛkˈnik]",
+      "pos": "n.",
+      "gloss": "技巧，手艺，工艺；技能，技术"
+    },
+    {
+      "i": 50,
+      "zh": "领域",
+      "en": "domain",
+      "ipa": "[dəʊˈmeɪn]",
+      "pos": "n.",
+      "gloss": "(活动,思想等)领域,范围；领地"
+    },
+    {
+      "i": 51,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 52,
+      "zh": "汽车",
+      "en": "automobile",
+      "ipa": "[ˌɔtəmoʊˈbil]",
+      "pos": "n.",
+      "gloss": "汽车"
+    },
+    {
+      "i": 53,
+      "zh": "不同",
+      "en": "differ",
+      "ipa": "[ˈdɪfər]",
+      "pos": "v.",
+      "gloss": "使…相异；使…不同"
+    },
+    {
+      "i": 54,
+      "skip": true
+    },
+    {
+      "i": 55,
+      "zh": "力的",
+      "en": "pedestrian",
+      "ipa": "[pəˈdɛstriən]",
+      "pos": "adj.",
+      "gloss": "徒步的；缺乏想像力的"
+    },
+    {
+      "i": 56,
+      "skip": true
+    },
+    {
+      "i": 57,
+      "skip": true
+    },
+    {
+      "i": 58,
+      "zh": "合作",
+      "en": "collaborate",
+      "ipa": "[kəˈlæbərˌeɪt]",
+      "pos": "v.",
+      "gloss": "合作；勾结，通敌"
+    },
+    {
+      "i": 59,
+      "zh": "浩瀚",
+      "en": "vast",
+      "ipa": "[vɑːst]",
+      "pos": "n.",
+      "gloss": "浩瀚；广阔无垠的空间"
+    },
+    {
+      "i": 60,
+      "zh": "宣称",
+      "en": "allege",
+      "ipa": "[əˈlɛʤ]",
+      "pos": "v.",
+      "gloss": "宣称，断言；提出…作为理由"
+    },
+    {
+      "i": 61,
+      "zh": "议价",
+      "en": "bargain",
+      "ipa": "[ˈbɑrgɪn]",
+      "pos": "v.",
+      "gloss": "议价"
+    },
+    {
+      "i": 62,
+      "zh": "消费",
+      "en": "consumption",
+      "ipa": "[kənˈsʌmpʃn]",
+      "pos": "n.",
+      "gloss": "消费(量),消耗"
+    },
+    {
+      "i": 63,
+      "skip": true
+    },
+    {
+      "i": 64,
+      "skip": true
+    },
+    {
+      "i": 65,
+      "zh": "渗透",
+      "en": "permeate",
+      "ipa": "[ˈpərmiˌeɪt]",
+      "pos": "v.",
+      "gloss": "渗透，透过；弥漫"
+    },
+    {
+      "i": 66,
+      "zh": "供应",
+      "en": "furnish",
+      "ipa": "[ˈfərnɪʃ]",
+      "pos": "v.",
+      "gloss": "供应,提供；装备,布置"
+    },
+    {
+      "i": 67,
+      "zh": "能力",
+      "en": "faculty",
+      "ipa": "[ˈfækəlti]",
+      "pos": "n.",
+      "gloss": "科，系；能力；全体教员"
+    },
+    {
+      "i": 68,
+      "skip": true
+    },
+    {
+      "i": 69,
+      "zh": "持续",
+      "en": "persist",
+      "ipa": "[pərˈsɪst]",
+      "pos": "v.",
+      "gloss": "坚持；执意；继续存在[发生]；持续"
+    },
+    {
+      "i": 70,
+      "skip": true
+    },
+    {
+      "i": 71,
+      "zh": "真正的",
+      "en": "authentic",
+      "ipa": "[əˈθɛnɪk]",
+      "pos": "adj.",
+      "gloss": "真正的，真实的；可信的"
+    },
+    {
+      "i": 72,
+      "zh": "在于",
+      "en": "consist",
+      "ipa": "[kənˈsɪst]",
+      "pos": "v.",
+      "gloss": "(in)在于；(of)由…组成,由…构成"
+    },
+    {
+      "i": 73,
+      "zh": "算力",
+      "en": "computing",
+      "ipa": "[ˈkɒmpjuːtɪŋ]",
+      "pos": "n.",
+      "gloss": "算力"
+    },
+    {
+      "i": 74,
+      "zh": "选择",
+      "en": "elect",
+      "ipa": "[ɪˈlɛkt]",
+      "pos": "v.",
+      "gloss": "选举,推选；选择,作出选择"
+    },
+    {
+      "i": 75,
+      "zh": "合作",
+      "en": "cooperate",
+      "ipa": "[kˈwɑpərˌeɪt]",
+      "pos": "v.",
+      "gloss": "合作，配合；协力"
+    },
+    {
+      "i": 76,
+      "zh": "加速",
+      "en": "soup",
+      "ipa": "[sup]",
+      "pos": "v.",
+      "gloss": "加速；增加马力"
+    },
+    {
+      "i": 77,
+      "zh": "大多数",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 78,
+      "skip": true
+    },
+    {
+      "i": 79,
+      "zh": "一批",
+      "en": "batch",
+      "ipa": "[bæʧ]",
+      "pos": "n.",
+      "gloss": "一批,一组,一群"
+    },
+    {
+      "i": 80,
+      "zh": "标准",
+      "en": "criterion",
+      "ipa": "[kraɪˈtɪriən]",
+      "pos": "n.",
+      "gloss": "(pl.criteria或s)标准，尺度"
+    },
+    {
+      "i": 81,
+      "skip": true
+    }
+  ]
+}
