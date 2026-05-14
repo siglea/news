@@ -1,0 +1,895 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "skip": true
+    },
+    {
+      "i": 1,
+      "skip": true
+    },
+    {
+      "i": 2,
+      "skip": true
+    },
+    {
+      "i": 3,
+      "skip": true
+    },
+    {
+      "i": 4,
+      "skip": true
+    },
+    {
+      "i": 5,
+      "zh": "皇帝",
+      "en": "emperor",
+      "ipa": "[ˈɛmpərər]",
+      "pos": "n.",
+      "gloss": "皇帝，君主"
+    },
+    {
+      "i": 6,
+      "zh": "回音",
+      "en": "echo",
+      "ipa": "[ˈɛkoʊ]",
+      "pos": "n.",
+      "gloss": "回音；效仿"
+    },
+    {
+      "i": 7,
+      "zh": "阳光",
+      "en": "sunshine",
+      "ipa": "[ˈsənˌʃaɪn]",
+      "pos": "n.",
+      "gloss": "阳光；愉快；晴天；快活"
+    },
+    {
+      "i": 8,
+      "zh": "握手",
+      "en": "clasp",
+      "ipa": "[klæsp]",
+      "pos": "n.",
+      "gloss": "扣子，钩子；握手"
+    },
+    {
+      "i": 9,
+      "zh": "值得",
+      "en": "merit",
+      "ipa": "[ˈmɛrət]",
+      "pos": "v.",
+      "gloss": "值得"
+    },
+    {
+      "i": 10,
+      "zh": "精密的",
+      "en": "narrow",
+      "ipa": "[ˈnɛroʊ]",
+      "pos": "adj.",
+      "gloss": "狭窄的，有限的；勉强的；精密的；度量小的"
+    },
+    {
+      "i": 11,
+      "skip": true
+    },
+    {
+      "i": 12,
+      "skip": true
+    },
+    {
+      "i": 13,
+      "zh": "帝王",
+      "en": "monarch",
+      "ipa": "[ˈmɑˌnɑrk]",
+      "pos": "n.",
+      "gloss": "帝王，君主，最高统治者"
+    },
+    {
+      "i": 14,
+      "skip": true
+    },
+    {
+      "i": 15,
+      "zh": "姿态",
+      "en": "gesture",
+      "ipa": "[ˈʤɛsʧər]",
+      "pos": "n.",
+      "gloss": "姿态；手势"
+    },
+    {
+      "i": 16,
+      "skip": true
+    },
+    {
+      "i": 17,
+      "zh": "关系",
+      "en": "bearing",
+      "ipa": "[ˈbɛrɪŋ]",
+      "pos": "n.",
+      "gloss": "[机] 轴承；关系；方位；举止"
+    },
+    {
+      "i": 18,
+      "zh": "核心",
+      "en": "nucleus",
+      "ipa": "[ˈnukliəs]",
+      "pos": "n.",
+      "gloss": "核，核心；原子核"
+    },
+    {
+      "i": 19,
+      "zh": "合作的",
+      "en": "cooperative",
+      "ipa": "[koʊˈɑpərˌeɪtɪv]",
+      "pos": "adj.",
+      "gloss": "合作的；合作社的"
+    },
+    {
+      "i": 20,
+      "skip": true
+    },
+    {
+      "i": 21,
+      "skip": true
+    },
+    {
+      "i": 22,
+      "skip": true
+    },
+    {
+      "i": 23,
+      "zh": "夫人",
+      "en": "madame",
+      "ipa": "[ˈmædəm]",
+      "pos": "n.",
+      "gloss": "（法语）夫人；太太"
+    },
+    {
+      "i": 24,
+      "skip": true
+    },
+    {
+      "i": 25,
+      "zh": "安排",
+      "en": "arrange",
+      "ipa": "[əreɪnʤ]",
+      "pos": "vt.",
+      "gloss": "整理， 排列， 布置 ；安排， 筹备"
+    },
+    {
+      "i": 26,
+      "skip": true
+    },
+    {
+      "i": 27,
+      "skip": true
+    },
+    {
+      "i": 28,
+      "zh": "普通的",
+      "en": "ordinary",
+      "ipa": "[ˈɔrdəˌnɛri]",
+      "pos": "adj.",
+      "gloss": "普通的,平凡的,平常的；平庸的"
+    },
+    {
+      "i": 29,
+      "zh": "大多数",
+      "en": "bulk",
+      "ipa": "[bəlk]",
+      "pos": "n.",
+      "gloss": "体积，容量；大多数，大部分；大块"
+    },
+    {
+      "i": 30,
+      "skip": true
+    },
+    {
+      "i": 31,
+      "zh": "常去",
+      "en": "frequent",
+      "ipa": "[ˈfrikˌwɛnt]",
+      "pos": "v.",
+      "gloss": "常到，常去；时常出入于"
+    },
+    {
+      "i": 32,
+      "skip": true
+    },
+    {
+      "i": 33,
+      "skip": true
+    },
+    {
+      "i": 34,
+      "zh": "合唱",
+      "en": "chorus",
+      "ipa": "[ˈkɔrəs]",
+      "pos": "v.",
+      "gloss": "合唱；异口同声地说"
+    },
+    {
+      "i": 35,
+      "zh": "歌词",
+      "en": "lyric",
+      "ipa": "[ˈlɪrɪk]",
+      "pos": "n.",
+      "gloss": "抒情诗；歌词"
+    },
+    {
+      "i": 36,
+      "skip": true
+    },
+    {
+      "i": 37,
+      "zh": "理解",
+      "en": "absorb",
+      "ipa": "[əbˈzɔrb]",
+      "pos": "v.",
+      "gloss": "吸收；吸引；承受；理解；使…全神贯注"
+    },
+    {
+      "i": 38,
+      "zh": "装饰",
+      "en": "deck",
+      "ipa": "[dɛk]",
+      "pos": "v.",
+      "gloss": "装饰；装甲板；打扮"
+    },
+    {
+      "i": 39,
+      "zh": "政治家",
+      "en": "politician",
+      "ipa": "[ˌpɑləˈtɪʃən]",
+      "pos": "n.",
+      "gloss": "政治家,政客"
+    },
+    {
+      "i": 40,
+      "zh": "安排",
+      "en": "dispose",
+      "ipa": "[dɪˈspoʊz]",
+      "pos": "v.",
+      "gloss": "(for)布置,安排；(of)处理,处置"
+    },
+    {
+      "i": 41,
+      "zh": "总是",
+      "en": "invariably",
+      "ipa": "[ˌɪnˈvɛriəbli]",
+      "pos": "adv.",
+      "gloss": "总是；不变地；一定地"
+    },
+    {
+      "i": 42,
+      "skip": true
+    },
+    {
+      "i": 43,
+      "zh": "复制",
+      "en": "clone",
+      "ipa": "[kloʊn]",
+      "pos": "v.",
+      "gloss": "无性繁殖，复制"
+    },
+    {
+      "i": 44,
+      "skip": true
+    },
+    {
+      "i": 45,
+      "zh": "超过",
+      "en": "exceed",
+      "ipa": "[ɪkˈsid]",
+      "pos": "v.",
+      "gloss": "超过,胜过；越出 (限制、规定)"
+    },
+    {
+      "i": 46,
+      "zh": "古老的",
+      "en": "antique",
+      "ipa": "[ænˈtik]",
+      "pos": "adj.",
+      "gloss": "古老的，年代久远的；过时的，古董的；古风的，古式的"
+    },
+    {
+      "i": 47,
+      "zh": "洞察",
+      "en": "penetrate",
+      "ipa": "[ˈpɛnəˌtreɪt]",
+      "pos": "v.",
+      "gloss": "穿过， 渗入；看穿， 洞察"
+    },
+    {
+      "i": 48,
+      "zh": "仿造",
+      "en": "imitate",
+      "ipa": "[ˈɪməˌteɪt]",
+      "pos": "v.",
+      "gloss": "模仿，仿效；仿造，仿制"
+    },
+    {
+      "i": 49,
+      "zh": "复制",
+      "en": "duplicate",
+      "ipa": "[ˈdupləˌkeɪt]",
+      "pos": "v.",
+      "gloss": "复制；使加倍"
+    },
+    {
+      "i": 50,
+      "zh": "捷径",
+      "en": "highway",
+      "ipa": "[ˈhaɪˌweɪ]",
+      "pos": "n.",
+      "gloss": "公路，大路；捷径"
+    },
+    {
+      "i": 51,
+      "zh": "土壤",
+      "en": "clay",
+      "ipa": "[kleɪ]",
+      "pos": "n.",
+      "gloss": "[土壤] 粘土；泥土；肉体；似黏土的东西"
+    },
+    {
+      "i": 52,
+      "zh": "文化",
+      "en": "civilization",
+      "ipa": "[ˌsɪvəlaɪˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "文明；文化"
+    },
+    {
+      "i": 53,
+      "zh": "文明",
+      "en": "civilize",
+      "ipa": "[ˈsɪvəˌlaɪz]",
+      "pos": "v.",
+      "gloss": "使文明；教化；使开化"
+    },
+    {
+      "i": 54,
+      "zh": "的事",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑；渴望；挂念；令人焦虑的事"
+    },
+    {
+      "i": 55,
+      "zh": "的人",
+      "en": "athlete",
+      "ipa": "[ˈæθˌlit]",
+      "pos": "n.",
+      "gloss": "运动员，体育家；身强力壮的人"
+    },
+    {
+      "i": 56,
+      "skip": true
+    },
+    {
+      "i": 57,
+      "zh": "联系",
+      "en": "connexion",
+      "ipa": "[kəˈnɛkʃən]",
+      "pos": "n.",
+      "gloss": "联系， 连接"
+    },
+    {
+      "i": 58,
+      "skip": true
+    },
+    {
+      "i": 59,
+      "zh": "后来",
+      "en": "afterward",
+      "ipa": "[ˈæftərwərd]",
+      "pos": "adv.",
+      "gloss": "以后，后来"
+    },
+    {
+      "i": 60,
+      "zh": "至今",
+      "en": "hitherto",
+      "ipa": "[ˈhɪˌðərˈtu]",
+      "pos": "adv.",
+      "gloss": "迄今；至今"
+    },
+    {
+      "i": 61,
+      "zh": "分歧",
+      "en": "gap",
+      "ipa": "[ɡæp]",
+      "pos": "n.",
+      "gloss": "间隙；缺口；差距；分歧"
+    },
+    {
+      "i": 62,
+      "zh": "选择",
+      "en": "elect",
+      "ipa": "[ɪˈlɛkt]",
+      "pos": "v.",
+      "gloss": "选举,推选；选择,作出选择"
+    },
+    {
+      "i": 63,
+      "zh": "清楚地",
+      "en": "plain",
+      "ipa": "[pleɪn]",
+      "pos": "adv.",
+      "gloss": "清楚地；平易地"
+    },
+    {
+      "i": 64,
+      "zh": "实现",
+      "en": "accomplish",
+      "ipa": "[əˈkɑmplɪʃ]",
+      "pos": "v.",
+      "gloss": "完成；实现；达到"
+    },
+    {
+      "i": 65,
+      "zh": "校准",
+      "en": "adjust",
+      "ipa": "[əˈʤəst]",
+      "pos": "v.",
+      "gloss": "调整，使…适合；校准"
+    },
+    {
+      "i": 66,
+      "zh": "最重要的",
+      "en": "foremost",
+      "ipa": "[ˈfɔrˌmoʊst]",
+      "pos": "adj.",
+      "gloss": "最重要的；最先的"
+    },
+    {
+      "i": 67,
+      "zh": "彼此的",
+      "en": "mutual",
+      "ipa": "[mˈjuʧuəl]",
+      "pos": "adj.",
+      "gloss": "共同的；相互的，彼此的"
+    },
+    {
+      "i": 68,
+      "zh": "代的",
+      "en": "contemporary",
+      "ipa": "[kənˈtɛmpərˌɛri]",
+      "pos": "adj.",
+      "gloss": "现代的,当代的；发生[存在]于同一时代的"
+    },
+    {
+      "i": 69,
+      "zh": "接近",
+      "en": "approximate",
+      "ipa": "[əˈprɑksəˌmeɪt]",
+      "pos": "v.",
+      "gloss": "(to)接近"
+    },
+    {
+      "i": 70,
+      "zh": "轴线",
+      "en": "axis",
+      "ipa": "[ˈæksəs]",
+      "pos": "n.",
+      "gloss": "轴；轴线；轴心国"
+    },
+    {
+      "i": 71,
+      "zh": "结构",
+      "en": "framework",
+      "ipa": "[ˈfreɪmˌwərk]",
+      "pos": "n.",
+      "gloss": "框架，骨架；结构，构架",
+      "skip": false
+    },
+    {
+      "i": 72,
+      "zh": "温和的",
+      "en": "mild",
+      "ipa": "[maɪld]",
+      "pos": "adj.",
+      "gloss": "温和的；轻微的；淡味的；文雅的；不含有害物质的的",
+      "skip": true
+    },
+    {
+      "i": 73,
+      "zh": "十八",
+      "en": "eighteen",
+      "ipa": "[ˈeɪˈtin]",
+      "pos": "n.",
+      "gloss": "十八，十八个"
+    },
+    {
+      "i": 74,
+      "zh": "不过",
+      "en": "nevertheless",
+      "ipa": "[ˌnɛvərðəˈlɛs]",
+      "pos": "adv.",
+      "gloss": "仍然， 不过"
+    },
+    {
+      "i": 75,
+      "zh": "深厚的",
+      "en": "profound",
+      "ipa": "[proʊˈfaʊnd]",
+      "pos": "adj.",
+      "gloss": "深厚的；意义深远的；渊博的"
+    },
+    {
+      "i": 76,
+      "skip": true
+    },
+    {
+      "i": 77,
+      "zh": "方向",
+      "en": "orientation",
+      "ipa": "[ˌɔriɛnˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "方向；定向；适应；情况介绍；向东方"
+    },
+    {
+      "i": 78,
+      "zh": "民族",
+      "en": "folk",
+      "ipa": "[foʊk]",
+      "pos": "n.",
+      "gloss": "民族；人们；亲属（复数）"
+    },
+    {
+      "i": 79,
+      "skip": true
+    },
+    {
+      "i": 80,
+      "zh": "冲突",
+      "en": "clash",
+      "ipa": "[klæʃ]",
+      "pos": "n.",
+      "gloss": "冲突，不协调；碰撞声，铿锵声"
+    },
+    {
+      "i": 81,
+      "zh": "需要",
+      "en": "entail",
+      "ipa": "[ɛnˈteɪl]",
+      "pos": "v.",
+      "gloss": "使需要，必需；承担；遗传给；蕴含"
+    },
+    {
+      "i": 82,
+      "zh": "确定",
+      "en": "ascertain",
+      "ipa": "[ˌæsərˈteɪn]",
+      "pos": "v.",
+      "gloss": "确定，查明，弄清"
+    },
+    {
+      "i": 83,
+      "zh": "竞争",
+      "en": "compete",
+      "ipa": "[kəmˈpiːt]",
+      "pos": "v.",
+      "gloss": "竞争；争夺，竞争"
+    },
+    {
+      "i": 84,
+      "skip": true
+    },
+    {
+      "i": 85,
+      "zh": "合作",
+      "en": "collaborate",
+      "ipa": "[kəˈlæbərˌeɪt]",
+      "pos": "v.",
+      "gloss": "合作；勾结，通敌"
+    },
+    {
+      "i": 86,
+      "zh": "选民",
+      "en": "constituent",
+      "ipa": "[kənˈstɪʧuənt]",
+      "pos": "n.",
+      "gloss": "成分；选民；委托人"
+    },
+    {
+      "i": 87,
+      "zh": "赞同",
+      "en": "acceptance",
+      "ipa": "[əkˈsɛptəns]",
+      "pos": "n.",
+      "gloss": "正式接受；接纳；接受，赞同，赞成，认可"
+    },
+    {
+      "i": 88,
+      "zh": "竞争",
+      "en": "contend",
+      "ipa": "[kənˈtɛnd]",
+      "pos": "v.",
+      "gloss": "竞争；奋斗；斗争；争论"
+    },
+    {
+      "i": 89,
+      "zh": "强调",
+      "en": "accent",
+      "ipa": "[ˈækˌsɛnt]",
+      "pos": "n.",
+      "gloss": "口音；重音；强调；特点；重音符号"
+    },
+    {
+      "i": 90,
+      "zh": "计算",
+      "en": "calculate",
+      "ipa": "[ˈkælkjəˌleɪt]",
+      "pos": "v.",
+      "gloss": "计算,推算；预测，估计"
+    },
+    {
+      "i": 91,
+      "zh": "不同的",
+      "en": "diverse",
+      "ipa": "[dɪˈvərs]",
+      "pos": "adj.",
+      "gloss": "多种多样的,不同的"
+    },
+    {
+      "i": 92,
+      "zh": "经历",
+      "en": "encounter",
+      "ipa": "[ɪnˈkaʊnər]",
+      "pos": "n.",
+      "gloss": "遭遇；经历"
+    },
+    {
+      "i": 93,
+      "zh": "过多",
+      "en": "excess",
+      "ipa": "[ˈɛkˌsɛs]",
+      "pos": "n.",
+      "gloss": "过多，过量"
+    },
+    {
+      "i": 94,
+      "zh": "的事",
+      "en": "breeze",
+      "ipa": "[briz]",
+      "pos": "n.",
+      "gloss": "微风；轻而易举的事；煤屑；焦炭渣；小风波"
+    },
+    {
+      "i": 95,
+      "zh": "对话",
+      "en": "dialog",
+      "ipa": "[ˈdaɪəlɔg]",
+      "pos": "n.",
+      "gloss": "(dialogue)对话,对白"
+    },
+    {
+      "i": 96,
+      "zh": "受到",
+      "en": "expose",
+      "ipa": "[ɪkˈspoʊz]",
+      "pos": "v.",
+      "gloss": "(to)使暴露,受到；揭露，揭发"
+    },
+    {
+      "i": 97,
+      "zh": "承认",
+      "en": "acknowledge",
+      "ipa": "[ækˈnɑlɪʤ]",
+      "pos": "v.",
+      "gloss": "承认；答谢；报偿；告知已收到"
+    },
+    {
+      "i": 98,
+      "skip": true
+    },
+    {
+      "i": 99,
+      "skip": true
+    },
+    {
+      "i": 100,
+      "zh": "选择",
+      "en": "opt",
+      "ipa": "[ɑpt]",
+      "pos": "v.",
+      "gloss": "选择"
+    },
+    {
+      "i": 101,
+      "zh": "提出",
+      "en": "exhibit",
+      "ipa": "[ɪgˈzɪbɪt]",
+      "pos": "v.",
+      "gloss": "展览；显示；提出（证据等）"
+    },
+    {
+      "i": 102,
+      "zh": "自信的",
+      "en": "confident",
+      "ipa": "[ˈkɑnfədənt]",
+      "pos": "adj.",
+      "gloss": "确信的， 自信的"
+    },
+    {
+      "i": 103,
+      "zh": "证明",
+      "en": "certify",
+      "ipa": "[ˈsərtəˌfaɪ]",
+      "pos": "v.",
+      "gloss": "证明，证实；发证书(或执照)给"
+    },
+    {
+      "i": 104,
+      "zh": "企业家",
+      "en": "entrepreneur",
+      "ipa": "[ˌɒntrəprəˈnɜː]",
+      "pos": "n.",
+      "gloss": "企业家；承包人；主办者"
+    },
+    {
+      "i": 105,
+      "zh": "商业",
+      "en": "commerce",
+      "ipa": "[ˈkɑmərs]",
+      "pos": "n.",
+      "gloss": "买卖，贸易；商务；商业"
+    },
+    {
+      "i": 106,
+      "zh": "全球化",
+      "en": "globalization",
+      "ipa": "[ˌɡləʊbəlaɪˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "全球化"
+    },
+    {
+      "i": 107,
+      "zh": "决策",
+      "en": "counsel",
+      "ipa": "[ˈkaʊnsəl]",
+      "pos": "n.",
+      "gloss": "法律顾问；忠告；商议；讨论；决策"
+    },
+    {
+      "i": 108,
+      "zh": "世界的",
+      "en": "universal",
+      "ipa": "[ˌjunəˈvərsəl]",
+      "pos": "adj.",
+      "gloss": "全体的,宇宙的,世界的；普遍的，通用的"
+    },
+    {
+      "i": 109,
+      "zh": "经济学",
+      "en": "economics",
+      "ipa": "[ˌɛkəˈnɑmɪks]",
+      "pos": "n.",
+      "gloss": "经济学"
+    },
+    {
+      "i": 110,
+      "zh": "理解",
+      "en": "comprehend",
+      "ipa": "[ˌkɑmpriˈhɛnd]",
+      "pos": "v.",
+      "gloss": "理解；包含；由…组成"
+    },
+    {
+      "i": 111,
+      "zh": "治理",
+      "en": "harness",
+      "ipa": "[ˈhɑrnɪs]",
+      "pos": "v.",
+      "gloss": "治理；套；驾驭；披上甲胄；利用"
+    },
+    {
+      "i": 112,
+      "zh": "商业的",
+      "en": "merchant",
+      "ipa": "[ˈmərʧənt]",
+      "pos": "adj.",
+      "gloss": "商业的，商人的"
+    },
+    {
+      "i": 113,
+      "zh": "完整的",
+      "en": "integral",
+      "ipa": "[ˈɪnəgrəl]",
+      "pos": "adj.",
+      "gloss": "积分的；完整的，整体的；构成整体所必须的"
+    },
+    {
+      "i": 114,
+      "zh": "属于",
+      "en": "belong",
+      "ipa": "[bɪˈlɔŋ]",
+      "pos": "v.",
+      "gloss": "属于，应归入；居住；适宜；应被放置"
+    },
+    {
+      "i": 115,
+      "zh": "开始",
+      "en": "commence",
+      "ipa": "[kəˈmɛns]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 116,
+      "zh": "课程",
+      "en": "curriculum",
+      "ipa": "[kərˈɪkjələm]",
+      "pos": "n.",
+      "gloss": "课程,(学校等的)全部课程"
+    },
+    {
+      "i": 117,
+      "skip": true
+    },
+    {
+      "i": 118,
+      "skip": true
+    },
+    {
+      "i": 119,
+      "skip": true
+    },
+    {
+      "i": 120,
+      "skip": true
+    },
+    {
+      "i": 121,
+      "zh": "知道",
+      "en": "acquaintance",
+      "ipa": "[əkˈweɪntəns]",
+      "pos": "n.",
+      "gloss": "熟人；相识；了解；知道"
+    },
+    {
+      "i": 122,
+      "zh": "交往",
+      "en": "associate",
+      "ipa": "[əˈsoʊʃiˌeɪt]",
+      "pos": "v.",
+      "gloss": "交往；结交"
+    },
+    {
+      "i": 123,
+      "zh": "理解",
+      "en": "comprehension",
+      "ipa": "[ˌkɑmpriˈhɛnʃən]",
+      "pos": "n.",
+      "gloss": "理解， 领悟"
+    },
+    {
+      "i": 124,
+      "zh": "手腕",
+      "en": "wrist",
+      "ipa": "[rɪst]",
+      "pos": "n.",
+      "gloss": "手腕；腕关节"
+    },
+    {
+      "i": 125,
+      "zh": "演讲",
+      "en": "lecture",
+      "ipa": "[ˈlɛkʧər]",
+      "pos": "n.",
+      "gloss": "演讲,讲课"
+    },
+    {
+      "i": 126,
+      "skip": true
+    },
+    {
+      "i": 127,
+      "skip": true
+    }
+  ]
+}
