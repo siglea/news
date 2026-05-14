@@ -20,13 +20,13 @@
     },
     {
       "index": 3,
-      "source_text": "&nbsp;| 柒 &nbsp;",
-      "html": "<p>&amp;nbsp;| 柒 &amp;nbsp;</p>"
+      "source_text": "| 柒 |",
+      "html": "<p>| 柒 |</p>"
     },
     {
       "index": 4,
-      "source_text": "篇深度好文：6568&nbsp;",
-      "html": "<p>篇深度好文：6568&amp;nbsp;</p>"
+      "source_text": "篇深度好文：6568",
+      "html": "<p>篇深度好文：6568</p>"
     },
     {
       "index": 5,

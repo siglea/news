@@ -15,8 +15,8 @@
     },
     {
       "index": 2,
-      "source_text": "&nbsp; &nbsp;肠易激，",
-      "html": "<p>&amp;nbsp; &amp;nbsp;肠易激，</p>"
+      "source_text": "肠易激，",
+      "html": "<p>肠易激，</p>"
     },
     {
       "index": 3,

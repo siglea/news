@@ -215,8 +215,8 @@
     },
     {
       "index": 42,
-      "source_text": "《马克思，请回答——如何用&lt;资本论&gt;看透今天的世界？》",
-      "html": "<p>《马克思，请回答——如何用&amp;lt;<span class=\"word-annot\"><span class=\"word-anchor\">资本论</span><span class=\"word-block\"><span class=\"english-word\">DasKapital</span><span class=\"word-info\">[kɑpɪˈtɑl] n. 资本论；Das Kapital</span></span></span>&amp;gt;看透今天的世界？》</p>"
+      "source_text": "《马克思，请回答——如何用《资本论》看透今天的世界？》",
+      "html": "<p>《马克思，请回答——如何用《<span class=\"word-annot\"><span class=\"word-anchor\">资本论</span><span class=\"word-block\"><span class=\"english-word\">DasKapital</span><span class=\"word-info\">[kɑpɪˈtɑl] n. 资本论；Das Kapital</span></span></span>》看透今天的世界？》</p>"
     },
     {
       "index": 43,

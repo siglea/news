@@ -390,8 +390,8 @@
     },
     {
       "index": 77,
-      "source_text": "&nbsp; · &nbsp; END &nbsp; · &nbsp;",
-      "html": "<p>&amp;nbsp; · &amp;nbsp; END &amp;nbsp; · &amp;nbsp;</p>"
+      "source_text": "· END ·",
+      "html": "<p>· END ·</p>"
     },
     {
       "index": 78,

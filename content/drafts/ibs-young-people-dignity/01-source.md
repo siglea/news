@@ -2,7 +2,7 @@
 
 ![](../images/posts/2026-05-06-ibs-young-people-dignity/002.png)
 
-&nbsp; &nbsp;肠易激，
+肠易激，
 
 ![](../images/posts/2026-05-06-ibs-young-people-dignity/003.png)
 

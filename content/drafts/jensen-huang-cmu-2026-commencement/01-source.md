@@ -24,7 +24,7 @@ AI 正在推翻过去几十年的计算规则，旧的经验不再绝对管用�
 
 对此，他看着台下的学生表示：「把你们的心投入到工作中。去创造一些配得上你们所受教育、你们的潜力，以及那些在世界相信你们之前就已经相信你们的人的东西。」
 
-https://www.youtube.com/watch?v=dRaNmHmTJzs&amp;t=5783s
+https://www.youtube.com/watch?v=dRaNmHmTJzs&t=5783s
 
 ![](../images/posts/2026-05-11-jensen-huang-cmu-2026-commencement/003.jpg)
 

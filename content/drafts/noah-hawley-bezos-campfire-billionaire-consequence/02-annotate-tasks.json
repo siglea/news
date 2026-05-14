@@ -215,8 +215,8 @@
     },
     {
       "index": 42,
-      "source_text": "《血色将至》剧照。©&nbsp;",
-      "html": "<p>《血色将至》剧照。©&amp;nbsp;</p>"
+      "source_text": "《血色将至》剧照。©",
+      "html": "<p>《血色将至》剧照。©</p>"
     },
     {
       "index": 43,

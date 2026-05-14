@@ -82,7 +82,7 @@
 
 ![](../images/posts/2026-05-06-noah-hawley-bezos-campfire-billionaire-consequence/008.png)
 
-《血色将至》剧照。©&nbsp;
+《血色将至》剧照。©
 
 The Good Films
 

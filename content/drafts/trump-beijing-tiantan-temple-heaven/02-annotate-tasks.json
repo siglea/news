@@ -20,18 +20,18 @@
     },
     {
       "index": 3,
-      "source_text": "&nbsp;| 贾宁 &nbsp;",
-      "html": "<p>&amp;nbsp;| 贾宁 &amp;nbsp;</p>"
+      "source_text": "| 贾宁 |",
+      "html": "<p>| 贾宁 |</p>"
     },
     {
       "index": 4,
-      "source_text": "篇深度好文：3924&nbsp;",
-      "html": "<p>篇深度好文：3924&amp;nbsp;</p>"
+      "source_text": "篇深度好文：3924",
+      "html": "<p>篇深度好文：3924</p>"
     },
     {
       "index": 5,
-      "source_text": "字 | &nbsp;10 分钟",
-      "html": "<p>字 | &amp;nbsp;10 分钟</p>"
+      "source_text": "字 | 10 分钟",
+      "html": "<p>字 | 10 分钟</p>"
     },
     {
       "index": 6,

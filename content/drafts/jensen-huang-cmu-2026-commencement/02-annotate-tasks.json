@@ -70,8 +70,8 @@
     },
     {
       "index": 13,
-      "source_text": "https://www.youtube.com/watch?v=dRaNmHmTJzs&amp;t=5783s",
-      "html": "<p>https://www.youtube.com/watch?v=dRaNmHmTJzs&amp;amp;t=5783s</p>"
+      "source_text": "https://www.youtube.com/watch?v=dRaNmHmTJzs&t=5783s",
+      "html": "<p>https://www.youtube.com/watch?v=dRaNmHmTJzs&amp;t=5783s</p>"
     },
     {
       "index": 14,
