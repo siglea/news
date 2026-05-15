@@ -1,0 +1,385 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "回调",
+      "en": "pullback",
+      "ipa": "[ˈpʊlˌbæk]",
+      "pos": "n.",
+      "gloss": "回调；价格回跌"
+    },
+    {
+      "i": 1,
+      "zh": "高位",
+      "en": "peak",
+      "ipa": "[piːk]",
+      "pos": "n.",
+      "gloss": "最高点；高峰"
+    },
+    {
+      "i": 2,
+      "zh": "回购",
+      "en": "buyback",
+      "ipa": "[ˈbaɪˌbæk]",
+      "pos": "n.",
+      "gloss": "股票回购"
+    },
+    {
+      "i": 3,
+      "zh": "钢索",
+      "en": "tightrope",
+      "ipa": "[ˈtaɪtˌroʊp]",
+      "pos": "n.",
+      "gloss": "钢索；钢丝"
+    },
+    {
+      "i": 4,
+      "zh": "回购",
+      "en": "repurchase",
+      "ipa": "[riːˈpɜːrtʃɪs]",
+      "pos": "n.",
+      "gloss": "回购；购回"
+    },
+    {
+      "i": 5,
+      "zh": "财报",
+      "en": "earnings",
+      "ipa": "[ˈɜːrnɪŋz]",
+      "pos": "n.",
+      "gloss": "财报；收益"
+    },
+    {
+      "i": 6,
+      "zh": "估值",
+      "en": "valuation",
+      "ipa": "[ˌvæljuˈeɪʃn]",
+      "pos": "n.",
+      "gloss": "估值；估价"
+    },
+    {
+      "i": 7,
+      "zh": "营收",
+      "en": "revenue",
+      "ipa": "[ˈrevənjuː]",
+      "pos": "n.",
+      "gloss": "营业收入"
+    },
+    {
+      "i": 8,
+      "zh": "下调",
+      "en": "downgrade",
+      "ipa": "[ˈdaʊnˌɡreɪd]",
+      "pos": "v.",
+      "gloss": "下调；降低"
+    },
+    {
+      "i": 9,
+      "zh": "起色",
+      "en": "recovery",
+      "ipa": "[rɪˈkʌvəri]",
+      "pos": "n.",
+      "gloss": "起色；好转"
+    },
+    {
+      "i": 10,
+      "zh": "召开",
+      "en": "convene",
+      "ipa": "[kənˈviːn]",
+      "pos": "v.",
+      "gloss": "召开；召集"
+    },
+    {
+      "i": 11,
+      "zh": "透明度",
+      "en": "transparency",
+      "ipa": "[trænsˈpærənsi]",
+      "pos": "n.",
+      "gloss": "透明度；透明性"
+    },
+    {
+      "i": 12,
+      "zh": "预期",
+      "en": "forecast",
+      "ipa": "[ˈfɔːrkæst]",
+      "pos": "n.",
+      "gloss": "预期；预测"
+    },
+    {
+      "i": 13,
+      "zh": "放缓",
+      "en": "slowdown",
+      "ipa": "[ˈsloʊˌdaʊn]",
+      "pos": "n.",
+      "gloss": "放缓；减速"
+    },
+    {
+      "i": 14,
+      "zh": "暴涨",
+      "en": "surge",
+      "ipa": "[sɜːrdʒ]",
+      "pos": "n.",
+      "gloss": "暴涨；激增"
+    },
+    {
+      "i": 15,
+      "zh": "低迷",
+      "en": "sluggish",
+      "ipa": "[ˈslʌɡɪʃ]",
+      "pos": "adj.",
+      "gloss": "低迷的； sluggish"
+    },
+    {
+      "i": 16,
+      "zh": "猜测",
+      "en": "speculate",
+      "ipa": "[ˈspekjuleɪt]",
+      "pos": "v.",
+      "gloss": "猜测；推测"
+    },
+    {
+      "i": 17,
+      "zh": "归因",
+      "en": "attribute",
+      "ipa": "[əˈtrɪbjuːt]",
+      "pos": "v.",
+      "gloss": "归因于；归功于"
+    },
+    {
+      "i": 18,
+      "zh": "运营",
+      "en": "operations",
+      "ipa": "[ˌɑːpəˈreɪʃnz]",
+      "pos": "n.",
+      "gloss": "运营；经营"
+    },
+    {
+      "i": 19,
+      "zh": "基建",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃər]",
+      "pos": "n.",
+      "gloss": "基建；基础设施"
+    },
+    {
+      "i": 20,
+      "zh": "涌入",
+      "en": "influx",
+      "ipa": "[ˈɪnflʌks]",
+      "pos": "n.",
+      "gloss": "涌入；大量流入"
+    },
+    {
+      "i": 21,
+      "zh": "铺垫",
+      "en": "groundwork",
+      "ipa": "[ˈɡraʊndwɜːrk]",
+      "pos": "n.",
+      "gloss": "铺垫；基础工作"
+    },
+    {
+      "i": 22,
+      "zh": "复制",
+      "en": "replicate",
+      "ipa": "[ˈreplɪkeɪt]",
+      "pos": "v.",
+      "gloss": "复制；复现"
+    },
+    {
+      "i": 23,
+      "zh": "差异",
+      "en": "disparity",
+      "ipa": "[dɪˈspærəti]",
+      "pos": "n.",
+      "gloss": "差异；不同"
+    },
+    {
+      "i": 24,
+      "zh": "平衡",
+      "en": "equilibrium",
+      "ipa": "[ˌiːkwɪˈlɪbriəm]",
+      "pos": "n.",
+      "gloss": "平衡；均衡"
+    },
+    {
+      "i": 25,
+      "zh": "摸索",
+      "en": "navigate",
+      "ipa": "[ˈnævɪɡeɪt]",
+      "pos": "v.",
+      "gloss": "摸索；找到方向"
+    },
+    {
+      "i": 26,
+      "zh": "深究",
+      "en": "probe",
+      "ipa": "[proʊb]",
+      "pos": "v.",
+      "gloss": "深究；探究"
+    },
+    {
+      "i": 27,
+      "zh": "重构",
+      "en": "overhaul",
+      "ipa": "[ˈoʊvərhɔːl]",
+      "pos": "n.",
+      "gloss": "重构；彻底检修"
+    },
+    {
+      "i": 28,
+      "zh": "积累",
+      "en": "accumulate",
+      "ipa": "[əˈkjuːmjəleɪt]",
+      "pos": "v.",
+      "gloss": "积累"
+    },
+    {
+      "i": 29,
+      "zh": "收益",
+      "en": "return",
+      "ipa": "[rɪˈtɜːrn]",
+      "pos": "n.",
+      "gloss": "收益；回报"
+    },
+    {
+      "i": 30,
+      "zh": "缩影",
+      "en": "microcosm",
+      "ipa": "[ˈmaɪkrəʊkɒzəm]",
+      "pos": "n.",
+      "gloss": "缩影"
+    },
+    {
+      "i": 31,
+      "zh": "直言",
+      "en": "blunt",
+      "ipa": "[blʌnt]",
+      "pos": "adj.",
+      "gloss": "直率的；直言不讳的"
+    },
+    {
+      "i": 32,
+      "zh": "转变",
+      "en": "turnaround",
+      "ipa": "[ˈtɜːrnəraʊnd]",
+      "pos": "n.",
+      "gloss": "转变；转向"
+    },
+    {
+      "i": 33,
+      "zh": "清仓",
+      "en": "liquidate",
+      "ipa": "[ˈlɪkwɪdeɪt]",
+      "pos": "v.",
+      "gloss": "清仓；清算"
+    },
+    {
+      "i": 34,
+      "zh": "耐心",
+      "en": "patience",
+      "ipa": "[ˈpeɪʃns]",
+      "pos": "n.",
+      "gloss": "耐心；耐性"
+    },
+    {
+      "i": 35,
+      "zh": "攀升",
+      "en": "soar",
+      "ipa": "[sɔːr]",
+      "pos": "v.",
+      "gloss": "攀升；飞涨"
+    },
+    {
+      "i": 36,
+      "zh": "可持续",
+      "en": "sustainable",
+      "ipa": "[səˈsteɪnəbl]",
+      "pos": "adj.",
+      "gloss": "可持续的"
+    },
+    {
+      "i": 37,
+      "zh": "克制",
+      "en": "restraint",
+      "ipa": "[rɪˈstreɪnt]",
+      "pos": "n.",
+      "gloss": "克制；节制"
+    },
+    {
+      "i": 38,
+      "zh": "矩阵",
+      "en": "matrix",
+      "ipa": "[ˈmeɪtrɪks]",
+      "pos": "n.",
+      "gloss": "矩阵"
+    },
+    {
+      "i": 39,
+      "zh": "亢奋",
+      "en": "euphoria",
+      "ipa": "[juːˈfɔːriə]",
+      "pos": "n.",
+      "gloss": "亢奋；极度兴奋"
+    },
+    {
+      "i": 40,
+      "zh": "前景",
+      "en": "outlook",
+      "ipa": "[ˈaʊtlʊk]",
+      "pos": "n.",
+      "gloss": "前景；展望"
+    },
+    {
+      "i": 41,
+      "zh": "推出",
+      "en": "launch",
+      "ipa": "[lɔːntʃ]",
+      "pos": "v.",
+      "gloss": "推出；发布"
+    },
+    {
+      "i": 42,
+      "zh": "利好",
+      "en": "catalyst",
+      "ipa": "[ˈkætəlɪst]",
+      "pos": "n.",
+      "gloss": "利好因素；催化剂"
+    },
+    {
+      "i": 43,
+      "zh": "冰箱",
+      "en": "refrigerator",
+      "ipa": "[rɪˈfrɪdʒəreɪtər]",
+      "pos": "n.",
+      "gloss": "冰箱（收藏品）"
+    },
+    {
+      "i": 44,
+      "zh": "溢价",
+      "en": "premium",
+      "ipa": "[ˈpriːmiəm]",
+      "pos": "n.",
+      "gloss": "溢价"
+    },
+    {
+      "i": 45,
+      "zh": "热度",
+      "en": "hype",
+      "ipa": "[haɪp]",
+      "pos": "n.",
+      "gloss": "热度；炒作"
+    },
+    {
+      "i": 46,
+      "zh": "回落",
+      "en": "subside",
+      "ipa": "[səbˈsaɪd]",
+      "pos": "v.",
+      "gloss": "回落；消退"
+    },
+    {
+      "i": 47,
+      "skip": true
+    }
+  ]
+}
