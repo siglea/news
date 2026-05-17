@@ -1,0 +1,422 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "cerebras-titanium-analysis",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/001.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/001.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 2,
+      "source_text": "作者｜硅谷Tech news",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">作者</span><span class=\"word-block\"><span class=\"english-word\">author</span><span class=\"word-info\">[ˈɔːθər] n. 作者</span></span></span>｜硅谷Tech news</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "Cerebras 的纳斯达克上市大戏刚刚落幕，但其引发的连锁反应仍在持续发酵。",
+      "html": "<p>Cerebras 的纳斯达克上市大戏刚刚落幕，但其引发的连锁反应仍在持续<span class=\"word-annot\"><span class=\"word-anchor\">发酵</span><span class=\"word-block\"><span class=\"english-word\">ferment</span><span class=\"word-info\">[fərˈment] v. 发酵；酝酿</span></span></span>。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "5 月 14 日上市首日，该股强势冲高，盘中全稀释市值一度冲破千亿美元关口（收盘约 670 亿美元），创下近年美股科技圈罕见的 IPO 盛况。如今行情逐步回归理性，大众也开始静下心来审视这家特殊的算力企业。",
+      "html": "<p>5 月 14 日上市首日，该股强势<span class=\"word-annot\"><span class=\"word-anchor\">冲高</span><span class=\"word-block\"><span class=\"english-word\">surge</span><span class=\"word-info\">[sɜːrdʒ] v. 冲高；猛涨</span></span></span>，盘中全稀释市值一度冲破千亿美元关口（收盘约 670 亿美元），创下近年美股科技圈罕见的 IPO 盛况。如今行情逐步回归理性，大众也开始静下心来<span class=\"word-annot\"><span class=\"word-anchor\">审视</span><span class=\"word-block\"><span class=\"english-word\">scrutinize</span><span class=\"word-info\">[ˈskruːtənaɪz] v. 仔细审视</span></span></span>这家特殊的算力企业。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "谁也不曾想到，这家常年处于亏损状态、早年还因合规问题一度叫停上市的企业，能在资本市场迎来如此亮眼的逆袭。纵观其发展历程，它既没有走主流GPU的研发路线，也没能在大模型训练赛道站稳脚跟，却靠着独特的晶圆级芯片技术，拿下OpenAI百亿级重磅订单，顺利撬动资本市场信心，彻底搅动原本由英伟达牢牢把控的AI算力市场格局。",
+      "html": "<p>谁也不曾想到，这家常年处于亏损状态、早年还因<span class=\"word-annot\"><span class=\"word-anchor\">合规</span><span class=\"word-block\"><span class=\"english-word\">compliance</span><span class=\"word-info\">[kəmˈplaɪəns] n. 合规；遵从</span></span></span>问题一度叫停上市的企业，能在资本市场迎来如此亮眼的逆袭。纵观其发展历程，它既没有走主流GPU的研发路线，也没能在大模型训练赛道站稳脚跟，却靠着独特的晶圆级芯片技术，拿下OpenAI百亿级重磅订单，顺利<span class=\"word-annot\"><span class=\"word-anchor\">撬动</span><span class=\"word-block\"><span class=\"english-word\">leverage</span><span class=\"word-info\">[ˈlevərɪdʒ] v. 撬动；利用</span></span></span>资本市场信心，彻底搅动原本由英伟达牢牢把控的AI算力市场格局。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "褪去狂热的资本滤镜，诸多现实问题也随之浮出水面。",
+      "html": "<p>褪去狂热的资本<span class=\"word-annot\"><span class=\"word-anchor\">滤镜</span><span class=\"word-block\"><span class=\"english-word\">filter</span><span class=\"word-info\">[ˈfɪltər] n. 滤镜；过滤器</span></span></span>，诸多现实问题也随之浮出水面。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "一边是爆发式增长的营收、巨额积压订单与全新技术路线带来的行业想象空间，另一边是居高不下的估值、客户集中隐患、盈利根基不稳等现实难题。抛开上市首日的行情喧嚣，Cerebras究竟是能真正撼动行业格局的硬核黑马，还是一场被热度推高的资本泡沫？",
+      "html": "<p>一边是爆发式增长的<span class=\"word-annot\"><span class=\"word-anchor\">营收</span><span class=\"word-block\"><span class=\"english-word\">revenue</span><span class=\"word-info\">[ˈrevənjuː] n. 营收；收入</span></span></span>、巨额积压订单与全新技术路线带来的行业想象空间，另一边是居高不下的估值、客户集中隐患、盈利根基不稳等现实难题。抛开上市首日的行情喧嚣，Cerebras究竟是能真正撼动行业<span class=\"word-annot\"><span class=\"word-anchor\">格局</span><span class=\"word-block\"><span class=\"english-word\">landscape</span><span class=\"word-info\">[ˈlændskeɪp] n. 格局；局面</span></span></span>的硬核黑马，还是一场被热度推高的资本泡沫？</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "答案无关一家公司，而是「AI推理赛道迎来首个公开市场定价锚」——200亿美元OpenAI合同、晶圆级芯片的架构突破、英伟达垄断裂缝的首次资本化定价，三股力量交汇，将这家成立十年的创企推上了历史坐标。英伟达的垄断壁垒，正被撕开一道裂缝。",
+      "html": "<p>答案无关一家公司，而是「AI<span class=\"word-annot\"><span class=\"word-anchor\">推理</span><span class=\"word-block\"><span class=\"english-word\">inference</span><span class=\"word-info\">[ˈɪnfərəns] n. 推理</span></span></span>赛道迎来首个公开市场定价锚」——200亿美元OpenAI合同、晶圆级芯片的架构突破、英伟达垄断裂缝的首次资本化定价，三股力量交汇，将这家成立十年的创企推上了历史坐标。英伟达的<span class=\"word-annot\"><span class=\"word-anchor\">垄断</span><span class=\"word-block\"><span class=\"english-word\">monopoly</span><span class=\"word-info\">[məˈnɑːpəli] n. 垄断</span></span></span>壁垒，正被撕开一道裂缝。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "1. Cerebras的IPO不是一家公司上市的故事，而是AI推理赛道获得公开市场定价的里程碑事件。",
+      "html": "<p>1. Cerebras的IPO不是一家公司上市的故事，而是AI推理赛道获得公开市场定价的<span class=\"word-annot\"><span class=\"word-anchor\">里程碑</span><span class=\"word-block\"><span class=\"english-word\">milestone</span><span class=\"word-info\">[ˈmaɪlstoʊn] n. 里程碑</span></span></span>事件。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "2. 客户结构从G42一家独大转向OpenAI + AWS多元格局，是其IPO翻盘的关键叙事转变。",
+      "html": "<p>2. 客户结构从G42一家独大转向OpenAI + AWS<span class=\"word-annot\"><span class=\"word-anchor\">多元</span><span class=\"word-block\"><span class=\"english-word\">diverse</span><span class=\"word-info\">[daɪˈvɜːrs] adj. 多元的；多样化的</span></span></span>格局，是其IPO翻盘的关键叙事转变。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "3. WSE-3晶圆级芯片在推理场景的性能优势真实存在，但生态护城河与供应链风险同样不容忽视。",
+      "html": "<p>3. WSE-3晶圆级芯片在推理场景的性能优势真实存在，但<span class=\"word-annot\"><span class=\"word-anchor\">生态</span><span class=\"word-block\"><span class=\"english-word\">ecosystem</span><span class=\"word-info\">[ˈiːkoʊsɪstəm] n. 生态系统</span></span></span>护城河与供应链风险同样不容忽视。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "4. 200亿美元OpenAI合同重塑了「客户即股东」的商业模式，对OpenAI自身估值和上市进程产生复杂的双向影响。",
+      "html": "<p>4. 200亿美元OpenAI合同重塑了「客户即<span class=\"word-annot\"><span class=\"word-anchor\">股东</span><span class=\"word-block\"><span class=\"english-word\">shareholder</span><span class=\"word-info\">[ˈʃerhoʊldər] n. 股东</span></span></span>」的商业模式，对OpenAI自身估值和上市进程产生复杂的双向影响。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "5. AI芯片行业正式进入「推理细分时代」——巨头垄断格局正被缝隙创新者撕裂。",
+      "html": "<p>5. AI芯片行业正式进入「推理细分时代」——巨头垄断格局正被<span class=\"word-annot\"><span class=\"word-anchor\">缝隙</span><span class=\"word-block\"><span class=\"english-word\">niche</span><span class=\"word-info\">[niːʃ] n. 缝隙市场；利基</span></span></span>创新者撕裂。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "从撤回到重启：一场合规破局",
+      "html": "<p>从<span class=\"word-annot\"><span class=\"word-anchor\">撤回</span><span class=\"word-block\"><span class=\"english-word\">withdrawal</span><span class=\"word-info\">[wɪðˈdrɔːəl] n. 撤回；撤销</span></span></span>到重启：一场合规破局</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "Cerebras的上市之路远非一帆风顺。2024年首次递交S-1文件后，因最大客户G42（阿联酋人工智能公司）贡献超85%收入，且阿联酋主权资本间接持有美国AI基础设施股权，触发CFIUS（美国外资投资委员会）国家安全审查，于2025年10月撤回申请。",
+      "html": "<p>Cerebras的上市之路远非<span class=\"word-annot\"><span class=\"word-anchor\">一帆风顺</span><span class=\"word-block\"><span class=\"english-word\">smoothly</span><span class=\"word-info\">[ˈsmuːðli] adv. 顺利地</span></span></span>。2024年首次递交S-1文件后，因最大客户G42（阿联酋人工智能公司）贡献超85%收入，且阿联酋主权资本间接<span class=\"word-annot\"><span class=\"word-anchor\">持有</span><span class=\"word-block\"><span class=\"english-word\">hold</span><span class=\"word-info\">[hoʊld] v. 持有</span></span></span>美国AI基础设施股权，触发CFIUS（美国外资投资委员会）国家安全审查，于2025年10月撤回申请。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "G42曾与华为和中国基因测序公司BGI集团有过业务往来——在AI芯片这一地缘政治敏感领域，「单一客户依赖 + 中东资本」的组合几乎必然触发审查。",
+      "html": "<p>G42曾与华为和中国基因测序公司BGI集团有过业务往来——在AI芯片这一地缘政治敏感领域，「单一客户<span class=\"word-annot\"><span class=\"word-anchor\">依赖</span><span class=\"word-block\"><span class=\"english-word\">reliance</span><span class=\"word-info\">[rɪˈlaɪəns] n. 依赖；依靠</span></span></span> + 中东资本」的组合几乎必然触发审查。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "2025年3月31日，CFIUS正式放行：G42将持股转换为非投票权股份，并签署美国国家安全协议。合规扫清了上市最大障碍。",
+      "html": "<p>2025年3月31日，CFIUS正式<span class=\"word-annot\"><span class=\"word-anchor\">放行</span><span class=\"word-block\"><span class=\"english-word\">approve</span><span class=\"word-info\">[əˈpruːv] v. 批准放行</span></span></span>：G42将持股转换为非投票权股份，并签署美国国家安全协议。合规扫清了上市最大<span class=\"word-annot\"><span class=\"word-anchor\">障碍</span><span class=\"word-block\"><span class=\"english-word\">obstacle</span><span class=\"word-info\">[ˈɑːbstəkl] n. 障碍</span></span></span>。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "此后，Cerebras加速客户多元化：OpenAI于2026年1月签署超200亿美元推理算力合同，AWS于同年3月宣布战略合作。客户结构的根本性改善与合规承诺的落地，共同为重新上市铺平了道路。",
+      "html": "<p>此后，Cerebras<span class=\"word-annot\"><span class=\"word-anchor\">加速</span><span class=\"word-block\"><span class=\"english-word\">accelerate</span><span class=\"word-info\">[əkˈseləreɪt] v. 加速</span></span></span>客户多元化：OpenAI于2026年1月签署超200亿美元推理算力合同，AWS于同年3月宣布战略合作。客户结构的根本性改善与合规承诺的落地，共同为重新上市<span class=\"word-annot\"><span class=\"word-anchor\">铺平</span><span class=\"word-block\"><span class=\"english-word\">pave</span><span class=\"word-info\">[peɪv] v. 铺平</span></span></span>了道路。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "2026年2月，Cerebras完成10亿美元Series H轮融资，Tiger Global领投，AMD和Fidelity跟投，投后估值约230亿美元。4月17日重新递交S-1，定价区间从115—125美元「10天内三次上调」至最终185美元，IPO超额认购倍数超20倍，映射出市场需求的异常强劲。5月14日正式挂牌，募资55.5亿美元，创下2019年Uber以来美国科技公司最大规模IPO。",
+      "html": "<p>2026年2月，Cerebras完成10亿美元Series H轮<span class=\"word-annot\"><span class=\"word-anchor\">融资</span><span class=\"word-block\"><span class=\"english-word\">funding</span><span class=\"word-info\">[ˈfʌndɪŋ] n. 融资；资金</span></span></span>，Tiger Global领投，AMD和Fidelity跟投，投后估值约230亿美元。4月17日重新递交S-1，定价<span class=\"word-annot\"><span class=\"word-anchor\">区间</span><span class=\"word-block\"><span class=\"english-word\">range</span><span class=\"word-info\">[reɪndʒ] n. 区间；范围</span></span></span>从115—125美元「10天内三次上调」至最终185美元，IPO超额认购倍数超20倍，映射出市场需求的异常强劲。5月14日正式<span class=\"word-annot\"><span class=\"word-anchor\">挂牌</span><span class=\"word-block\"><span class=\"english-word\">list</span><span class=\"word-info\">[lɪst] v. 挂牌上市</span></span></span>，募资55.5亿美元，创下2019年Uber以来美国科技公司最大规模IPO。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "上市窗口同样关键。市场窗口：美联储降息预期升温，美股IPO市场经历近三年低迷后回暖。叙事红利：DeepSeek事件引发全球对AI推理效率的再思考。竞品真空：AI推理赛道尚无其他纯芯片上市公司，Groq融资75亿美元但未启动IPO，SambaNova在探索出售而非上市。Cerebras享受了推理芯片第一股的稀缺溢价。",
+      "html": "<p>上市<span class=\"word-annot\"><span class=\"word-anchor\">窗口</span><span class=\"word-block\"><span class=\"english-word\">window</span><span class=\"word-info\">[ˈwɪndoʊ] n. 窗口期</span></span></span>同样关键。市场窗口：美联储降息预期升温，美股IPO市场经历近三年低迷后<span class=\"word-annot\"><span class=\"word-anchor\">回暖</span><span class=\"word-block\"><span class=\"english-word\">rebound</span><span class=\"word-info\">[rɪˈbaʊnd] n. 回暖；反弹</span></span></span>。<span class=\"word-annot\"><span class=\"word-anchor\">叙事</span><span class=\"word-block\"><span class=\"english-word\">narrative</span><span class=\"word-info\">[ˈnærətɪv] n. 叙事</span></span></span>红利：DeepSeek事件引发全球对AI推理效率的再思考。竞品<span class=\"word-annot\"><span class=\"word-anchor\">真空</span><span class=\"word-block\"><span class=\"english-word\">vacuum</span><span class=\"word-info\">[ˈvækjuːm] n. 真空；空白</span></span></span>：AI推理赛道尚无其他纯芯片上市公司，Groq融资75亿美元但未启动IPO，SambaNova在探索出售而非上市。Cerebras享受了推理芯片第一股的稀缺<span class=\"word-annot\"><span class=\"word-anchor\">溢价</span><span class=\"word-block\"><span class=\"english-word\">premium</span><span class=\"word-info\">[ˈpriːmiəm] n. 溢价</span></span></span>。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "这一经历具有行业示范意义——想要在美国资本市场获得认可，不仅需要技术领先和财务增长，还需要在客户结构和资本来源上满足监管合规要求。",
+      "html": "<p>这一经历具有行业示范意义——想要在美国资本市场获得认可，不仅需要技术领先和财务增长，还需要在客户结构和资本来源上满足<span class=\"word-annot\"><span class=\"word-anchor\">监管</span><span class=\"word-block\"><span class=\"english-word\">regulatory</span><span class=\"word-info\">[ˈreɡjələtɔːri] adj. 监管的</span></span></span>合规要求。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "晶圆级芯片：推理场景的结构性优势",
+      "html": "<p>晶圆级芯片：推理场景的<span class=\"word-annot\"><span class=\"word-anchor\">结构性</span><span class=\"word-block\"><span class=\"english-word\">structural</span><span class=\"word-info\">[ˈstrʌktʃərəl] adj. 结构性的</span></span></span>优势</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "Cerebras成立于2015年，创始人Andrew Feldman和Sean Lie此前创办的服务器公司被AMD收购。再度创业的核心理念极为激进：GPU本质上不适合深度学习，应从零设计AI专用芯片。Benchmark累计投入约2.7亿美元持有IPO前9.5%股权，按首日收盘价计算价值超40亿美元，回报超15倍。",
+      "html": "<p>Cerebras成立于2015年，<span class=\"word-annot\"><span class=\"word-anchor\">创始人</span><span class=\"word-block\"><span class=\"english-word\">founder</span><span class=\"word-info\">[ˈfaʊndər] n. 创始人</span></span></span>Andrew Feldman和Sean Lie此前创办的服务器公司被AMD收购。再度创业的核心理念极为<span class=\"word-annot\"><span class=\"word-anchor\">激进</span><span class=\"word-block\"><span class=\"english-word\">radical</span><span class=\"word-info\">[ˈrædɪkl] adj. 激进的</span></span></span>：GPU本质上不适合深度学习，应从零设计AI专用芯片。Benchmark<span class=\"word-annot\"><span class=\"word-anchor\">累计</span><span class=\"word-block\"><span class=\"english-word\">cumulative</span><span class=\"word-info\">[ˈkjuːmjəleɪtɪv] adj. 累计的</span></span></span>投入约2.7亿美元持有IPO前9.5%股权，按首日收盘价计算价值超40亿美元，回报超15倍。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "理解Cerebras，必须理解「晶圆级」三个字。传统芯片制造将一片300毫米硅晶圆切割成数百颗独立Die，分别封装。Cerebras反其道而行——「不切割，直接将整片晶圆封装为单颗芯片」，即WSE（Wafer-Scale Engine，晶圆级引擎）。工程难度极高，Cerebras通过预留约10%备用核心规避缺陷风险，历经多次流片失败，到第三代WSE-3才实现量产级可靠性。",
+      "html": "<p>理解Cerebras，必须理解「<span class=\"word-annot\"><span class=\"word-anchor\">晶圆级</span>」<span class=\"word-block\"><span class=\"english-word\">wafer</span><span class=\"word-info\">[ˈweɪfər] n. 晶圆</span></span></span>三个字。传统芯片制造将一片300毫米硅晶圆<span class=\"word-annot\"><span class=\"word-anchor\">切割</span><span class=\"word-block\"><span class=\"english-word\">slice</span><span class=\"word-info\">[slaɪs] v. 切割</span></span></span>成数百颗独立Die，分别封装。Cerebras反其道而行——「不切割，直接将整片晶圆<span class=\"word-annot\"><span class=\"word-anchor\">封装</span><span class=\"word-block\"><span class=\"english-word\">package</span><span class=\"word-info\">[ˈpækɪdʒ] v. 封装</span></span></span>为单颗芯片」，即WSE（Wafer-Scale Engine，晶圆级引擎）。工程难度极高，Cerebras通过预留约10%备用核心规避<span class=\"word-annot\"><span class=\"word-anchor\">缺陷</span><span class=\"word-block\"><span class=\"english-word\">defect</span><span class=\"word-info\">[ˈdiːfekt] n. 缺陷</span></span></span>风险，历经多次流片失败，到第三代WSE-3才实现量产级可靠性。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "WSE-3的核心优势在于消除了GPU集群中最大的性能瓶颈——「内存墙」。GPU的运算单元与显存（HBM，高带宽显存）物理分离，数据搬运消耗大量时间和能耗。WSE-3将44GB片上SRAM直接集成，模型权重可完整载入，推理时无需频繁读写外部存储。",
+      "html": "<p>WSE-3的核心优势在于消除了GPU集群中最大的性能<span class=\"word-annot\"><span class=\"word-anchor\">瓶颈</span><span class=\"word-block\"><span class=\"english-word\">bottleneck</span><span class=\"word-info\">[ˈbɑːtlnek] n. 瓶颈</span></span></span>——「内存墙」。GPU的运算单元与显存（HBM，高带宽显存）物理<span class=\"word-annot\"><span class=\"word-anchor\">分离</span><span class=\"word-block\"><span class=\"english-word\">separate</span><span class=\"word-info\">[ˈsepəreɪt] v. 分离</span></span></span>，数据搬运消耗大量时间和能耗。WSE-3将44GB片上SRAM直接<span class=\"word-annot\"><span class=\"word-anchor\">集成</span><span class=\"word-block\"><span class=\"english-word\">integrate</span><span class=\"word-info\">[ˈɪntɪɡreɪt] v. 集成</span></span></span>，模型权重可完整载入，推理时无需频繁读写外部存储。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/003.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/003.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 27,
+      "source_text": "图1：WSE-3与英伟达H100/B200芯片面积对比（数据来源：Cerebras S-1，Nvidia官网）",
+      "html": "<p>图1：WSE-3与英伟达H100/B200芯片面积<span class=\"word-annot\"><span class=\"word-anchor\">对比</span><span class=\"word-block\"><span class=\"english-word\">comparison</span><span class=\"word-info\">[kəmˈpærɪsn] n. 对比</span></span></span>（数据来源：Cerebras S-1，Nvidia官网）</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/004.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/004.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 29,
+      "source_text": "WSE-3与英伟达主力芯片关键参数对比",
+      "html": "<p>WSE-3与英伟达主力芯片关键<span class=\"word-annot\"><span class=\"word-anchor\">参数</span><span class=\"word-block\"><span class=\"english-word\">parameter</span><span class=\"word-info\">[pəˈræmɪtər] n. 参数</span></span></span>对比</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "据Cerebras在特定测试环境下的公开数据，WSE-3可实现约50ms的超低响应时间，而GPU方案约为800ms——延迟差距达16倍；推理吞吐量约1,200至2,000 tokens/秒，约为单张H100（100至150 tokens/秒）的10至15倍。与AWS合作的Trainium3 + CS-3组合，预计可实现5倍的token吞吐量提升。",
+      "html": "<p>据Cerebras在特定测试环境下的公开数据，WSE-3可实现约50ms的超低响应时间，而GPU方案约为800ms——<span class=\"word-annot\"><span class=\"word-anchor\">延迟</span><span class=\"word-block\"><span class=\"english-word\">latency</span><span class=\"word-info\">[ˈleɪtənsi] n. 延迟</span></span></span>差距达16倍；推理<span class=\"word-annot\"><span class=\"word-anchor\">吞吐量</span><span class=\"word-block\"><span class=\"english-word\">throughput</span><span class=\"word-info\">[ˈθruːpʊt] n. 吞吐量</span></span></span>约1,200至2,000 tokens/秒，约为单张H100（100至150 tokens/秒）的10至15倍。与AWS合作的Trainium3 + CS-3<span class=\"word-annot\"><span class=\"word-anchor\">组合</span><span class=\"word-block\"><span class=\"english-word\">combination</span><span class=\"word-info\">[ˌkɑːmbɪˈneɪʃn] n. 组合</span></span></span>，预计可实现5倍的token吞吐量提升。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "但WSE-3并非万能方案。作为单片架构，它「无法通过NVLink（英伟达高速互连技术）扩展到千卡集群」，在分布式训练场景中完全无法与英伟达GPU集群竞争。Cerebras的定位严格限定在推理这一细分场景。",
+      "html": "<p>但WSE-3并非<span class=\"word-annot\"><span class=\"word-anchor\">万能</span><span class=\"word-block\"><span class=\"english-word\">panacea</span><span class=\"word-info\">[ˌpænəˈsiːə] n. 万能方案</span></span></span>方案。作为单片架构，它「无法通过NVLink（英伟达高速互连技术）<span class=\"word-annot\"><span class=\"word-anchor\">扩展</span><span class=\"word-block\"><span class=\"english-word\">expand</span><span class=\"word-info\">[ɪkˈspænd] v. 扩展</span></span></span>到千卡集群」，在分布式训练场景中完全无法与英伟达GPU集群竞争。Cerebras的<span class=\"word-annot\"><span class=\"word-anchor\">定位</span><span class=\"word-block\"><span class=\"english-word\">positioning</span><span class=\"word-info\">[pəˈzɪʃənɪŋ] n. 定位</span></span></span>严格限定在推理这一细分场景。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "Cerebras与英伟达的关系，更接近当年SSD对HDD的冲击——SSD并未取代HDD，但在关键性能场景中逐步蚕食市场份额。正如Atlas Peak Research在其分析报告中所指出的：「Cerebras不是英伟达的全面替代者，而是在延迟敏感型推理这一经济意义重大的细分市场，拥有可信的架构优势。」",
+      "html": "<p>Cerebras与英伟达的关系，更接近当年SSD对HDD的<span class=\"word-annot\"><span class=\"word-anchor\">冲击</span><span class=\"word-block\"><span class=\"english-word\">impact</span><span class=\"word-info\">[ˈɪmpækt] n. 冲击</span></span></span>——SSD并未取代HDD，但在关键性能场景中逐步蚕食市场份额。正如Atlas Peak Research在其分析报告中所指出的：「Cerebras不是英伟达的全面<span class=\"word-annot\"><span class=\"word-anchor\">替代者</span><span class=\"word-block\"><span class=\"english-word\">substitute</span><span class=\"word-info\">[ˈsʌbstɪtuːt] n. 替代者</span></span></span>，而是在延迟敏感型推理这一经济意义重大的细分市场，拥有可信的架构优势。」</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "WSE-3在推理场景的结构性优势，开始转化为真实的商业成果。",
+      "html": "<p>WSE-3在推理场景的结构性优势，开始<span class=\"word-annot\"><span class=\"word-anchor\">转化</span><span class=\"word-block\"><span class=\"english-word\">convert</span><span class=\"word-info\">[kənˈvɜːrt] v. 转化</span></span></span>为真实的商业成果。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "财报拆解：增长之下，风险暗涌",
+      "html": "<p>财报<span class=\"word-annot\"><span class=\"word-anchor\">拆解</span><span class=\"word-block\"><span class=\"english-word\">unpack</span><span class=\"word-info\">[ʌnˈpæk] v. 拆解；剖析</span></span></span>：增长之下，风险暗涌</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "从2022年的2460万美元到2025年的5.1亿美元，Cerebras的营收增长曲线陡峭。2024年跃升至2.9亿美元（同比+268%），但净亏损高达4.816亿美元。2025年的变化是根本性的：「GAAP口径净利润首次转正，达2.378亿美元」，实现扭亏为盈；非GAAP净亏损为7,570万美元（剔除一次性项目影响）。积压订单高达246亿美元，其中OpenAI合同超200亿美元。",
+      "html": "<p>从2022年的2460万美元到2025年的5.1亿美元，Cerebras的营收增长曲线<span class=\"word-annot\"><span class=\"word-anchor\">陡峭</span><span class=\"word-block\"><span class=\"english-word\">steep</span><span class=\"word-info\">[stiːp] adj. 陡峭的</span></span></span>。2024年<span class=\"word-annot\"><span class=\"word-anchor\">跃升</span><span class=\"word-block\"><span class=\"english-word\">jump</span><span class=\"word-info\">[dʒʌmp] v. 跃升</span></span></span>至2.9亿美元（同比+268%），但净亏损高达4.816亿美元。2025年的变化是根本性的：「GAAP口径净利润首次转正，达2.378亿美元」，实现<span class=\"word-annot\"><span class=\"word-anchor\">扭亏为盈</span><span class=\"word-block\"><span class=\"english-word\">profitable</span><span class=\"word-info\">[ˈprɑːfɪtəbl] adj. 盈利的</span></span></span>；非GAAP净亏损为7,570万美元（<span class=\"word-annot\"><span class=\"word-anchor\">剔除</span><span class=\"word-block\"><span class=\"english-word\">exclude</span><span class=\"word-info\">[ɪkˈskluːd] v. 剔除；排除</span></span></span>一次性项目影响）。<span class=\"word-annot\"><span class=\"word-anchor\">积压</span><span class=\"word-block\"><span class=\"english-word\">backlog</span><span class=\"word-info\">[ˈbæklɔːɡ] n. 积压订单</span></span></span>订单高达246亿美元，其中OpenAI合同超200亿美元。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/005.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/005.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 37,
+      "source_text": "图2：Cerebras 2022—2025年营收与利润趋势（数据来源：Cerebras S-1/A招股书）",
+      "html": "<p>图2：Cerebras 2022—2025年营收与利润<span class=\"word-annot\"><span class=\"word-anchor\">趋势</span><span class=\"word-block\"><span class=\"english-word\">trend</span><span class=\"word-info\">[trend] n. 趋势</span></span></span>（数据来源：Cerebras S-1/A招股书）</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "但营收增长的光环之下，风险同样清晰——而且可能被低估。",
+      "html": "<p>但营收增长的<span class=\"word-annot\"><span class=\"word-anchor\">光环</span><span class=\"word-block\"><span class=\"english-word\">halo</span><span class=\"word-info\">[ˈheɪloʊ] n. 光环</span></span></span>之下，风险同样清晰——而且可能被低估。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "客户集中度风险：2025年前两大客户MBZUAI（62%）和G42（24%）合计贡献86%营收，非关联方独立收入仅占14%。OpenAI的200亿美元合同尚未贡献实质收入，其执行进度直接决定未来三年营收走势。",
+      "html": "<p>客户<span class=\"word-annot\"><span class=\"word-anchor\">集中度</span><span class=\"word-block\"><span class=\"english-word\">concentration</span><span class=\"word-info\">[ˌkɑːnsnˈtreɪʃn] n. 集中度</span></span></span>风险：2025年前两大客户MBZUAI（62%）和G42（24%）合计贡献86%营收，非关联方独立收入仅占14%。OpenAI的200亿美元合同尚未贡献实质收入，其<span class=\"word-annot\"><span class=\"word-anchor\">执行</span><span class=\"word-block\"><span class=\"english-word\">execute</span><span class=\"word-info\">[ˈeksɪkjuːt] v. 执行</span></span></span>进度直接决定未来三年营收走势。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/006.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/006.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 41,
+      "source_text": "图3：Cerebras客户收入结构变化（2024 vs 2025，数据来源：Cerebras S-1。注：OpenAI合同截至2025年尚未贡献实质收入）",
+      "html": "<p>图3：Cerebras客户收入<span class=\"word-annot\"><span class=\"word-anchor\">结构</span><span class=\"word-block\"><span class=\"english-word\">structure</span><span class=\"word-info\">[ˈstrʌktʃər] n. 结构</span></span></span>变化（2024 vs 2025，数据来源：Cerebras S-1。注：OpenAI合同截至2025年尚未贡献<span class=\"word-annot\"><span class=\"word-anchor\">实质</span><span class=\"word-block\"><span class=\"english-word\">substantial</span><span class=\"word-info\">[səbˈstænʃl] adj. 实质性的</span></span></span>收入）</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "毛利率持续下滑：从2024年的42.3%降至2025年的39.0%。主因为大客户数量折扣增加，以及晶圆级芯片封装测试的高成本。对于一家需要持续投入基础设施的公司而言，毛利率若不能止跌回升，盈利可持续性将面临考验。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">毛利率</span><span class=\"word-block\"><span class=\"english-word\">margin</span><span class=\"word-info\">[ˈmɑːrdʒɪn] n. 毛利率</span></span></span>持续下滑：从2024年的42.3%降至2025年的39.0%。主因为大客户数量<span class=\"word-annot\"><span class=\"word-anchor\">折扣</span><span class=\"word-block\"><span class=\"english-word\">discount</span><span class=\"word-info\">[ˈdɪskaʊnt] n. 折扣</span></span></span>增加，以及晶圆级芯片封装测试的高成本。对于一家需要持续投入基础设施的公司而言，毛利率若不能止跌回升，盈利<span class=\"word-annot\"><span class=\"word-anchor\">可持续性</span><span class=\"word-block\"><span class=\"english-word\">sustainability</span><span class=\"word-info\">[səˌsteɪnəˈbɪləti] n. 可持续性</span></span></span>将面临考验。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/007.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/007.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 44,
+      "source_text": "图4：Cerebras盈利能力变化趋势",
+      "html": "<p>图4：Cerebras<span class=\"word-annot\"><span class=\"word-anchor\">盈利能力</span><span class=\"word-block\"><span class=\"english-word\">profitability</span><span class=\"word-info\">[ˌprɑːfɪtəˈbɪləti] n. 盈利能力</span></span></span>变化趋势</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "（数据来源：Cerebras S-1/A招股书）",
+      "html": "<p>（数据<span class=\"word-annot\"><span class=\"word-anchor\">来源</span><span class=\"word-block\"><span class=\"english-word\">source</span><span class=\"word-info\">[sɔːrs] n. 来源</span></span></span>：Cerebras S-1/A招股书）</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "造血能力尚未验证：2025年经营性现金流约-1,010万美元，虽然GAAP口径已实现盈利，但大规模基础设施资本支出仍在拖累实际造血能力。",
+      "html": "<p>造血能力尚未<span class=\"word-annot\"><span class=\"word-anchor\">验证</span><span class=\"word-block\"><span class=\"english-word\">verify</span><span class=\"word-info\">[ˈverɪfaɪ] v. 验证</span></span></span>：2025年经营性现金流约-1,010万美元，虽然GAAP口径已实现盈利，但大规模基础设施资本支出仍在拖累实际造血能力。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "更值得关注的是股权结构。Cerebras设计了A、B、N三类股权，创始人通过双重股权结构维持控制权。OpenAI持有3,340万股认股权证（行权价仅0.00001美元），若2吉瓦部署门槛达标将持股约10%，同时提供10亿美元营运资金贷款（年利率6%）。这种「客户 + 股东 + 贷款方」三重身份叠加的模式，既是深度绑定，也构成治理风险。",
+      "html": "<p>更值得关注的是<span class=\"word-annot\"><span class=\"word-anchor\">股权</span><span class=\"word-block\"><span class=\"english-word\">equity</span><span class=\"word-info\">[ˈekwəti] n. 股权</span></span></span>结构。Cerebras设计了A、B、N三类股权，创始人通过<span class=\"word-annot\"><span class=\"word-anchor\">双重</span><span class=\"word-block\"><span class=\"english-word\">dual</span><span class=\"word-info\">[ˈduːəl] adj. 双重的</span></span></span>股权结构维持控制权。OpenAI持有3,340万股<span class=\"word-annot\"><span class=\"word-anchor\">认股权证</span><span class=\"word-block\"><span class=\"english-word\">warrant</span><span class=\"word-info\">[ˈwɔːrənt] n. 认股权证</span></span></span>（行权价仅0.00001美元），若2吉瓦部署门槛达标将持股约10%，同时提供10亿美元营运资金贷款（年利率6%）。这种「客户 + 股东 + 贷款方」三重身份叠加的模式，既是深度绑定，也构成<span class=\"word-annot\"><span class=\"word-anchor\">治理</span><span class=\"word-block\"><span class=\"english-word\">governance</span><span class=\"word-info\">[ˈɡʌvərnəns] n. 治理</span></span></span>风险。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "作为参照，同样专注推理芯片的Groq尚未盈利，市销率约30倍。反衬之下，Cerebras 186倍市销率的定价是否合理，更值得冷静审视。",
+      "html": "<p>作为<span class=\"word-annot\"><span class=\"word-anchor\">参照</span><span class=\"word-block\"><span class=\"english-word\">benchmark</span><span class=\"word-info\">[ˈbentʃmɑːrk] n. 参照基准</span></span></span>，同样专注推理芯片的Groq尚未盈利，市销率约30倍。反衬之下，Cerebras 186倍<span class=\"word-annot\"><span class=\"word-anchor\">市销率</span><span class=\"word-block\"><span class=\"english-word\">multiple</span><span class=\"word-info\">[ˈmʌltɪpl] n. 市销率倍数</span></span></span>的定价是否合理，更值得冷静审视。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "OpenAI赌局：双向绑定的连锁效应",
+      "html": "<p>OpenAI<span class=\"word-annot\"><span class=\"word-anchor\">赌局</span><span class=\"word-block\"><span class=\"english-word\">gamble</span><span class=\"word-info\">[ˈɡæmbl] n. 赌博；赌局</span></span></span>：双向绑定的连锁效应</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "Cerebras招股书中最引人注目的数字，不是55.5亿美元募资额，而是那份超200亿美元的OpenAI采购合同。2026年1月签署，分阶段部署至2028年，为OpenAI提供总计750兆瓦低延迟AI推理算力，可选扩展至2030年1.25吉瓦——全球迄今最大规模的AI推理部署项目。",
+      "html": "<p>Cerebras招股书中最<span class=\"word-annot\"><span class=\"word-anchor\">引人注目</span><span class=\"word-block\"><span class=\"english-word\">striking</span><span class=\"word-info\">[ˈstraɪkɪŋ] adj. 引人注目的</span></span></span>的数字，不是55.5亿美元募资额，而是那份超200亿美元的OpenAI采购合同。2026年1月签署，分阶段<span class=\"word-annot\"><span class=\"word-anchor\">部署</span><span class=\"word-block\"><span class=\"english-word\">deploy</span><span class=\"word-info\">[dɪˈplɔɪ] v. 部署</span></span></span>至2028年，为OpenAI提供总计750兆瓦低延迟AI推理算力，可选扩展至2030年1.25吉瓦——全球迄今最大规模的AI推理部署项目。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "合作背后的「三重绑定」结构值得细读：「商业合同」使OpenAI成为Cerebras最大收入来源；「股权纽带」通过3,340万股认股权证将二者利益深度挂钩；「债务关系」以10亿美元贷款和部署里程碑挂钩，形成财务杠杆。三重绑定意味着，这已不是一笔普通采购，而是一场命运共同体式的豪赌。",
+      "html": "<p>合作背后的「三重<span class=\"word-annot\"><span class=\"word-anchor\">绑定</span><span class=\"word-block\"><span class=\"english-word\">binding</span><span class=\"word-info\">[ˈbaɪndɪŋ] n. 绑定；捆绑</span></span></span>」结构值得细读：「商业合同」使OpenAI成为Cerebras最大收入来源；「股权纽带」通过3,340万股认股权证将二者利益深度<span class=\"word-annot\"><span class=\"word-anchor\">挂钩</span><span class=\"word-block\"><span class=\"english-word\">link</span><span class=\"word-info\">[lɪŋk] v. 挂钩；关联</span></span></span>；「债务关系」以10亿美元贷款和部署里程碑挂钩，形成财务<span class=\"word-annot\"><span class=\"word-anchor\">杠杆</span><span class=\"word-block\"><span class=\"english-word\">lever</span><span class=\"word-info\">[ˈlevər] n. 杠杆</span></span></span>。三重绑定意味着，这已不是一笔普通采购，而是一场命运共同体式的<span class=\"word-annot\"><span class=\"word-anchor\">豪赌</span><span class=\"word-block\"><span class=\"english-word\">wager</span><span class=\"word-info\">[ˈweɪdʒər] n. 赌注；豪赌</span></span></span>。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "对OpenAI而言，战略逻辑清晰：降低对英伟达GPU的单一依赖，增强供应链议价能力，同时显著降低推理成本以改善毛利率。更重要的是，Cerebras上市后认股权证价值水涨船高——按首日收盘价311美元计算，账面浮盈已超100亿美元。",
+      "html": "<p>对OpenAI而言，战略逻辑清晰：降低对英伟达GPU的单一依赖，增强供应链<span class=\"word-annot\"><span class=\"word-anchor\">议价</span><span class=\"word-block\"><span class=\"english-word\">bargain</span><span class=\"word-info\">[ˈbɑːrɡən] v. 议价；讨价还价</span></span></span>能力，同时显著降低推理成本以改善毛利率。更重要的是，Cerebras上市后认股权证价值水涨船高——按首日收盘价311美元计算，账面<span class=\"word-annot\"><span class=\"word-anchor\">浮盈</span><span class=\"word-block\"><span class=\"english-word\">appreciation</span><span class=\"word-info\">[əˌpriːʃiˈeɪʃn] n. 账面浮盈；增值</span></span></span>已超100亿美元。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "但风险是双向的。对Cerebras而言，「若OpenAI后续自研推理芯片，或合同执行不及预期，将面临最大客户流失的系统性危机」——一个贡献未来数年绝大部分收入的客户，同时也是命运共同体，这种深度绑定既是护城河也是枷锁。对OpenAI而言，200亿美元合同对利润表和现金流构成长期压力；当OpenAI自身启动IPO时，客户、股东、贷款方三重身份叠加，投资者必然审视是否存在利益输送风险，这将直接影响其估值模型。",
+      "html": "<p>但风险是<span class=\"word-annot\"><span class=\"word-anchor\">双向</span><span class=\"word-block\"><span class=\"english-word\">reciprocal</span><span class=\"word-info\">[rɪˈsɪprəkl] adj. 双向的；相互的</span></span></span>的。对Cerebras而言，「若OpenAI后续自研推理芯片，或合同执行不及预期，将面临最大客户<span class=\"word-annot\"><span class=\"word-anchor\">流失</span><span class=\"word-block\"><span class=\"english-word\">churn</span><span class=\"word-info\">[tʃɜːrn] n. 客户流失</span></span></span>的系统性危机」——一个贡献未来数年绝大部分收入的客户，同时也是命运共同体，这种深度绑定既是护城河也是枷锁。对OpenAI而言，200亿美元合同对利润表和现金流构成长期<span class=\"word-annot\"><span class=\"word-anchor\">压力</span><span class=\"word-block\"><span class=\"english-word\">pressure</span><span class=\"word-info\">[ˈpreʃər] n. 压力</span></span></span>；当OpenAI自身启动IPO时，客户、股东、贷款方三重身份叠加，投资者必然审视是否存在利益<span class=\"word-annot\"><span class=\"word-anchor\">输送</span><span class=\"word-block\"><span class=\"english-word\">transfer</span><span class=\"word-info\">[trænsˈfɜːr] n. 输送；转移</span></span></span>风险，这将直接影响其估值模型。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "OpenAI选择Cerebras，释放了一个明确信号：AI行业的核心竞争力正从「谁能训练出最大模型」转向「谁能以最低成本、最快速度提供推理服务」。推理不再是训练的附庸，而是独立的价值创造环节。Grand View Research估计，全球AI推理市场将从2024年约970亿美元增长至2030年约2,540亿美元（CAGR 17.5%）；MarketsandMarkets的预测显示，到2030年市场可达约2,550亿美元。两个独立来源指向同一趋势：推理经济正在崛起。",
+      "html": "<p>OpenAI选择Cerebras，释放了一个明确<span class=\"word-annot\"><span class=\"word-anchor\">信号</span><span class=\"word-block\"><span class=\"english-word\">signal</span><span class=\"word-info\">[ˈsɪɡnəl] n. 信号</span></span></span>：AI行业的核心竞争力正从「谁能训练出最大模型」转向「谁能以最低成本、最快速度提供推理服务」。推理不再是训练的<span class=\"word-annot\"><span class=\"word-anchor\">附庸</span><span class=\"word-block\"><span class=\"english-word\">appendage</span><span class=\"word-info\">[əˈpendɪdʒ] n. 附庸；附属物</span></span></span>，而是独立的价值创造环节。Grand View Research<span class=\"word-annot\"><span class=\"word-anchor\">估计</span><span class=\"word-block\"><span class=\"english-word\">estimate</span><span class=\"word-info\">[ˈestɪmeɪt] v. 估计</span></span></span>，全球AI推理市场将从2024年约970亿美元增长至2030年约2,540亿美元（CAGR 17.5%）；MarketsandMarkets的<span class=\"word-annot\"><span class=\"word-anchor\">预测</span><span class=\"word-block\"><span class=\"english-word\">forecast</span><span class=\"word-info\">[ˈfɔːrkæst] n. 预测</span></span></span>显示，到2030年市场可达约2,550亿美元。两个独立来源指向同一趋势：推理经济正在<span class=\"word-annot\"><span class=\"word-anchor\">崛起</span><span class=\"word-block\"><span class=\"english-word\">rise</span><span class=\"word-info\">[raɪz] n. 崛起</span></span></span>。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "英伟达的裂缝与多极化竞争",
+      "html": "<p>英伟达的<span class=\"word-annot\"><span class=\"word-anchor\">裂缝</span><span class=\"word-block\"><span class=\"english-word\">crack</span><span class=\"word-info\">[kræk] n. 裂缝</span></span></span>与多极化竞争</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "Cerebras不是英伟达的终结者，而是细分赛道的颠覆者。",
+      "html": "<p>Cerebras不是英伟达的<span class=\"word-annot\"><span class=\"word-anchor\">终结者</span><span class=\"word-block\"><span class=\"english-word\">terminator</span><span class=\"word-info\">[ˈtɜːrmɪneɪtər] n. 终结者</span></span></span>，而是细分赛道的颠覆者。</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "短期来看，影响有限。英伟达市值超5万亿美元（2026年5月盘中突破5.5万亿美元），数据中心GPU市场份额超80%。更何况英伟达已于2025年底以约200亿美元收购Groq，在推理赛道完成「GPU + LPU（语言处理单元）」双线布局。「CUDA生态」拥有全球数百万AI开发者，迁移成本极高；NVLink和InfiniBand互连方案从8卡到万卡形成完整生态；Blackwell B200架构正在快速缩小推理性能差距。",
+      "html": "<p>短期来看，影响<span class=\"word-annot\"><span class=\"word-anchor\">有限</span><span class=\"word-block\"><span class=\"english-word\">limited</span><span class=\"word-info\">[ˈlɪmɪtɪd] adj. 有限的</span></span></span>。英伟达市值超5万亿美元（2026年5月盘中突破5.5万亿美元），数据中心GPU市场<span class=\"word-annot\"><span class=\"word-anchor\">份额</span><span class=\"word-block\"><span class=\"english-word\">share</span><span class=\"word-info\">[ʃer] n. 份额</span></span></span>超80%。更何况英伟达已于2025年底以约200亿美元<span class=\"word-annot\"><span class=\"word-anchor\">收购</span><span class=\"word-block\"><span class=\"english-word\">acquire</span><span class=\"word-info\">[əˈkwaɪər] v. 收购</span></span></span>Groq，在推理赛道完成「GPU + LPU（语言处理单元）」双线布局。「CUDA生态」拥有全球数百万AI开发者，<span class=\"word-annot\"><span class=\"word-anchor\">迁移</span><span class=\"word-block\"><span class=\"english-word\">migrate</span><span class=\"word-info\">[ˈmaɪɡreɪt] v. 迁移</span></span></span>成本极高；NVLink和InfiniBand<span class=\"word-annot\"><span class=\"word-anchor\">互连</span><span class=\"word-block\"><span class=\"english-word\">interconnect</span><span class=\"word-info\">[ˌɪntərkəˈnekt] v. 互连</span></span></span>方案从8卡到万卡形成完整生态；Blackwell B200<span class=\"word-annot\"><span class=\"word-anchor\">架构</span><span class=\"word-block\"><span class=\"english-word\">architecture</span><span class=\"word-info\">[ˈɑːrkɪtektʃər] n. 架构</span></span></span>正在快速缩小推理性能差距。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "但中长期影响值得重视。Cerebras上市验证了一个命题：非英伟达架构也能在AI芯片市场获得商业成功和资本认可。推理市场正从GPU主导的单一格局，向GPU、ASIC（专用芯片）、晶圆级芯片等多架构并存的方向演化。行业研究数据显示，预计2026年云服务商定制ASIC出货量增长约45%，增速显著高于GPU的约16%。",
+      "html": "<p>但中长期影响值得<span class=\"word-annot\"><span class=\"word-anchor\">重视</span><span class=\"word-block\"><span class=\"english-word\">noteworthy</span><span class=\"word-info\">[ˈnoʊtwɜːrði] adj. 值得关注的</span></span></span>。Cerebras上市验证了一个<span class=\"word-annot\"><span class=\"word-anchor\">命题</span><span class=\"word-block\"><span class=\"english-word\">thesis</span><span class=\"word-info\">[ˈθiːsɪs] n. 命题；论点</span></span></span>：非英伟达架构也能在AI芯片市场获得商业成功和资本认可。推理市场正从GPU主导的单一格局，向GPU、ASIC（专用芯片）、晶圆级芯片等多架构并存的方向<span class=\"word-annot\"><span class=\"word-anchor\">演化</span><span class=\"word-block\"><span class=\"english-word\">evolve</span><span class=\"word-info\">[iˈvɑːlv] v. 演化；进化</span></span></span>。行业研究数据显示，预计2026年云服务商定制ASIC出货量增长约45%，<span class=\"word-annot\"><span class=\"word-anchor\">增速</span><span class=\"word-block\"><span class=\"english-word\">growth</span><span class=\"word-info\">[ɡroʊθ] n. 增速；增长</span></span></span>显著高于GPU的约16%。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "更值得警惕的是英伟达的下一步。「Rubin架构预计2027年量产，主打推理场景，性能可能超越WSE-3。」一旦英伟达将推理性能差距压缩到临界点以下，Cerebras的架构优势空间将被大幅压缩。",
+      "html": "<p>更值得<span class=\"word-annot\"><span class=\"word-anchor\">警惕</span><span class=\"word-block\"><span class=\"english-word\">vigilant</span><span class=\"word-info\">[ˈvɪdʒɪlənt] adj. 警惕的</span></span></span>的是英伟达的下一步。「Rubin架构预计2027年<span class=\"word-annot\"><span class=\"word-anchor\">量产</span><span class=\"word-block\"><span class=\"english-word\">volume</span><span class=\"word-info\">[ˈvɑːljuːm] n. 量产</span></span></span>，主打推理场景，性能可能超越WSE-3。」一旦英伟达将推理性能差距<span class=\"word-annot\"><span class=\"word-anchor\">压缩</span><span class=\"word-block\"><span class=\"english-word\">compress</span><span class=\"word-info\">[kəmˈpres] v. 压缩</span></span></span>到临界点以下，Cerebras的架构优势空间将被大幅压缩。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/008.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/008.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 61,
+      "source_text": "图5：AI芯片市场竞争格局图谱",
+      "html": "<p>图5：AI芯片市场竞争格局<span class=\"word-annot\"><span class=\"word-anchor\">图谱</span><span class=\"word-block\"><span class=\"english-word\">matrix</span><span class=\"word-info\">[ˈmeɪtrɪks] n. 图谱；矩阵</span></span></span></p>"
+    },
+    {
+      "index": 62,
+      "source_text": "更广阔的版图还包括：Google TPU已迭代至第八代（2026年4月发布TPU 8t/8i），Anthropic于2025年10月签署协议计划部署百万颗前代Ironwood TPU芯片；Amazon已部署超50万颗Trainium2芯片；Tenstorrent由传奇芯片架构师Jim Keller领导，走RISC-V开放路线。超大规模云厂商「自研 + 外采」双轨策略已得到验证——AWS与Cerebras的合作模式可能被其他云厂商复制。整个行业正走向「多供应商、多架构、多场景」的多元化生态。",
+      "html": "<p>更广阔的版图还包括：Google TPU已<span class=\"word-annot\"><span class=\"word-anchor\">迭代</span><span class=\"word-block\"><span class=\"english-word\">iterate</span><span class=\"word-info\">[ˈɪtəreɪt] v. 迭代</span></span></span>至第八代（2026年4月发布TPU 8t/8i），Anthropic于2025年10月签署协议计划部署百万颗前代Ironwood TPU芯片；Amazon已部署超50万颗Trainium2<span class=\"word-annot\"><span class=\"word-anchor\">芯片</span><span class=\"word-block\"><span class=\"english-word\">chip</span><span class=\"word-info\">[tʃɪp] n. 芯片</span></span></span>；Tenstorrent由<span class=\"word-annot\"><span class=\"word-anchor\">传奇</span><span class=\"word-block\"><span class=\"english-word\">legend</span><span class=\"word-info\">[ˈledʒənd] n. 传奇</span></span></span>芯片架构师Jim Keller领导，走RISC-V开放路线。超大规模云厂商「自研 + 外采」双轨策略已得到验证——AWS与Cerebras的合作模式可能被其他云厂商<span class=\"word-annot\"><span class=\"word-anchor\">复制</span><span class=\"word-block\"><span class=\"english-word\">replicate</span><span class=\"word-info\">[ˈreplɪkeɪt] v. 复制</span></span></span>。整个行业正走向「多供应商、多架构、多场景」的<span class=\"word-annot\"><span class=\"word-anchor\">多元化</span><span class=\"word-block\"><span class=\"english-word\">diversification</span><span class=\"word-info\">[daɪˌvɜːrsɪfɪˈkeɪʃn] n. 多元化</span></span></span>生态。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "推理市场「一超多强」的格局已成定局。英伟达短期难撼动，但其在每个细分领域都将面临「最优解」竞争者的蚕食。",
+      "html": "<p>推理市场「一超多强」的格局已成<span class=\"word-annot\"><span class=\"word-anchor\">定局</span><span class=\"word-block\"><span class=\"english-word\">settle</span><span class=\"word-info\">[ˈsetl] v. 确定；定局</span></span></span>。英伟达短期难撼动，但其在每个细分领域都将面临「最优解」竞争者的<span class=\"word-annot\"><span class=\"word-anchor\">蚕食</span><span class=\"word-block\"><span class=\"english-word\">erode</span><span class=\"word-info\">[ɪˈroʊd] v. 蚕食；侵蚀</span></span></span>。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "186倍市销率：信仰还是泡沫？",
+      "html": "<p>186倍市销率：<span class=\"word-annot\"><span class=\"word-anchor\">信仰</span><span class=\"word-block\"><span class=\"english-word\">faith</span><span class=\"word-info\">[feɪθ] n. 信仰</span></span></span>还是泡沫？</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "按2025年营收5.1亿美元计算，Cerebras首日收盘后市销率（P/S）达186倍。这一数字是英伟达（约24倍）的7.8倍，博通（约31倍）的6倍，AMD（约9倍）的20倍。按IPO定价185美元计算，市销率约110倍。",
+      "html": "<p>按2025年营收5.1亿美元计算，Cerebras首日<span class=\"word-annot\"><span class=\"word-anchor\">收盘后</span><span class=\"word-block\"><span class=\"english-word\">close</span><span class=\"word-info\">[kloʊz] n. 收盘</span></span></span>市销率（P/S）达186倍。这一<span class=\"word-annot\"><span class=\"word-anchor\">数字</span><span class=\"word-block\"><span class=\"english-word\">figure</span><span class=\"word-info\">[ˈfɪɡjər] n. 数字</span></span></span>是英伟达（约24倍）的7.8倍，博通（约31倍）的6倍，AMD（约9倍）的20倍。按IPO<span class=\"word-annot\"><span class=\"word-anchor\">定价</span><span class=\"word-block\"><span class=\"english-word\">price</span><span class=\"word-info\">[praɪs] n. 定价</span></span></span>185美元计算，市销率约110倍。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/009.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/009.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 67,
+      "source_text": "图6：Cerebras IPO首日（2026.5.14）股价走势",
+      "html": "<p>图6：Cerebras IPO<span class=\"word-annot\"><span class=\"word-anchor\">首日</span><span class=\"word-block\"><span class=\"english-word\">debut</span><span class=\"word-info\">[deɪˈbjuː] n. 首日；首次亮相</span></span></span>（2026.5.14）股价走势</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "数据来源：NASDAQ，CNBC",
+      "html": "<p>数据<span class=\"word-annot\"><span class=\"word-anchor\">来源</span><span class=\"word-block\"><span class=\"english-word\">origin</span><span class=\"word-info\">[ˈɔːrɪdʒɪn] n. 来源；出处</span></span></span>：NASDAQ，CNBC</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "![](../images/posts/2026-05-17-cerebras-titanium-analysis/010.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-05-17-cerebras-titanium-analysis/010.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 70,
+      "source_text": "图7：Cerebras与主要芯片公司市销率对比（数据来源：各公司财报及IPO文件，截至2026.5.14）",
+      "html": "<p>图7：Cerebras与主要芯片公司市销率对比（数据来源：各公司财报及IPO<span class=\"word-annot\"><span class=\"word-anchor\">文件</span><span class=\"word-block\"><span class=\"english-word\">filing</span><span class=\"word-info\">[ˈfaɪlɪŋ] n. 文件；备案</span></span></span>，截至2026.5.14）</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "如此悬殊的估值差异，需要对两个方向做压力测试。",
+      "html": "<p>如此<span class=\"word-annot\"><span class=\"word-anchor\">悬殊</span><span class=\"word-block\"><span class=\"english-word\">disparity</span><span class=\"word-info\">[dɪˈspærəti] n. 悬殊；差异</span></span></span>的估值差异，需要对两个方向做压力测试。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "乐观情景下：OpenAI合同如期执行，推理部署顺利推进，2028年前收入CAGR维持50%以上；AWS合作转化为实质收入，形成三大客户支柱；毛利率随良率提升恢复至45%以上，经营性现金流转正；Cerebras持续享受「推理基础设施第一股」的稀缺溢价。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">乐观</span><span class=\"word-block\"><span class=\"english-word\">optimistic</span><span class=\"word-info\">[ˌɑːptɪˈmɪstɪk] adj. 乐观的</span></span></span>情景下：OpenAI合同如期执行，推理部署顺利推进，2028年前收入CAGR维持50%以上；AWS合作转化为实质收入，形成三大<span class=\"word-annot\"><span class=\"word-anchor\">客户</span><span class=\"word-block\"><span class=\"english-word\">client</span><span class=\"word-info\">[ˈklaɪənt] n. 客户</span></span></span>支柱；毛利率随<span class=\"word-annot\"><span class=\"word-anchor\">良率</span><span class=\"word-block\"><span class=\"english-word\">yield</span><span class=\"word-info\">[jiːld] n. 良率；产出率</span></span></span>提升恢复至45%以上，经营性现金流转正；Cerebras持续享受「推理基础设施第一股」的<span class=\"word-annot\"><span class=\"word-anchor\">稀缺</span><span class=\"word-block\"><span class=\"english-word\">scarcity</span><span class=\"word-info\">[ˈskersəti] n. 稀缺</span></span></span>溢价。</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "悲观情景下，风险更为严峻——",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">悲观</span><span class=\"word-block\"><span class=\"english-word\">pessimistic</span><span class=\"word-info\">[ˌpesɪˈmɪstɪk] adj. 悲观的</span></span></span>情景下，风险更为严峻——</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "合同执行风险：OpenAI合同金额巨大但收入确认节奏取决于部署里程碑，存在时间错配风险。若OpenAI后续自研推理芯片或转向其他供应商，Cerebras将面临最大客户流失的系统性危机。",
+      "html": "<p>合同执行风险：OpenAI合同金额巨大但收入确认<span class=\"word-annot\"><span class=\"word-anchor\">节奏</span><span class=\"word-block\"><span class=\"english-word\">pace</span><span class=\"word-info\">[peɪs] n. 节奏；进度</span></span></span>取决于部署里程碑，存在时间错配风险。若OpenAI后续自研推理芯片或<span class=\"word-annot\"><span class=\"word-anchor\">转向</span><span class=\"word-block\"><span class=\"english-word\">switch</span><span class=\"word-info\">[swɪtʃ] v. 转向；切换</span></span></span>其他供应商，Cerebras将面临最大客户流失的系统性危机。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "技术替代风险：英伟达Rubin架构（预计2027年量产）主打推理场景，可能进一步压缩专用推理芯片的性能优势空间。",
+      "html": "<p>技术替代风险：英伟达Rubin架构（预计2027年量产）主打推理场景，可能进一步压缩专用推理芯片的<span class=\"word-annot\"><span class=\"word-anchor\">性能</span><span class=\"word-block\"><span class=\"english-word\">performance</span><span class=\"word-info\">[pərˈfɔːrməns] n. 性能</span></span></span>优势空间。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "需求不及预期：若大语言模型应用落地不及预期，推理需求增速放缓，186倍市销率将成为空中楼阁。",
+      "html": "<p>需求不及预期：若大语言模型应用落地不及预期，推理需求增速<span class=\"word-annot\"><span class=\"word-anchor\">放缓</span><span class=\"word-block\"><span class=\"english-word\">slowdown</span><span class=\"word-info\">[ˈsloʊdaʊn] n. 放缓；减速</span></span></span>，186倍市销率将成为空中楼阁。</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "治理争议：三类股权结构和大量认股权证稀释可能引发机构投资者回避。",
+      "html": "<p>治理争议：三类股权结构和大量认股权证稀释可能引发机构投资者<span class=\"word-annot\"><span class=\"word-anchor\">回避</span><span class=\"word-block\"><span class=\"english-word\">avoid</span><span class=\"word-info\">[əˈvɔɪd] v. 回避</span></span></span>。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "对投资者而言，有几个关键监控指标值得持续跟踪：OpenAI算力部署里程碑进度及收入确认节奏、季度毛利率能否止跌回升、独立客户收入占比变化、经营性现金流拐点何时出现，以及英伟达Rubin芯片的推理性能发布数据。首日68%的涨幅固然令人瞩目，但真正的考验在第一个财报季。",
+      "html": "<p>对投资者而言，有几个关键监控指标值得持续<span class=\"word-annot\"><span class=\"word-anchor\">跟踪</span><span class=\"word-block\"><span class=\"english-word\">track</span><span class=\"word-info\">[træk] v. 跟踪；追踪</span></span></span>：OpenAI算力部署里程碑进度及收入确认节奏、季度毛利率能否止跌回升、独立客户收入占比变化、经营性现金流拐点何时出现，以及英伟达Rubin芯片的推理性能发布数据。首日68%的<span class=\"word-annot\"><span class=\"word-anchor\">涨幅</span><span class=\"word-block\"><span class=\"english-word\">rally</span><span class=\"word-info\">[ˈræli] n. 涨幅；反弹</span></span></span>固然令人瞩目，但真正的考验在第一个财报季。</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "Cerebras的千亿市值，不是一家公司的胜利，而是AI算力从「训练为王」到「推理制胜」的时代宣言。这家公司用十年时间证明了一件事：在GPU统治一切的格局中，缝隙创新者仍能找到结构性的生存空间。",
+      "html": "<p>Cerebras的千亿市值，不是一家公司的胜利，而是AI算力从「训练为王」到「推理制胜」的时代<span class=\"word-annot\"><span class=\"word-anchor\">宣言</span><span class=\"word-block\"><span class=\"english-word\">manifesto</span><span class=\"word-info\">[ˌmænɪˈfestoʊ] n. 宣言</span></span></span>。这家公司用十年时间证明了一件事：在GPU统治一切的格局中，缝隙创新者仍能找到结构性的<span class=\"word-annot\"><span class=\"word-anchor\">生存</span><span class=\"word-block\"><span class=\"english-word\">survive</span><span class=\"word-info\">[sərˈvaɪv] v. 生存</span></span></span>空间。</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "但资本狂欢终需业绩兑现。186倍市销率的信仰，终将被季度财报的硬数据检验。当一家公司的积压订单中超80%来自两个关联客户时，所有的乐观叙事都需要用合同执行、毛利率修复和现金流拐点来回答。",
+      "html": "<p>但资本狂欢终需业绩<span class=\"word-annot\"><span class=\"word-anchor\">兑现</span><span class=\"word-block\"><span class=\"english-word\">deliver</span><span class=\"word-info\">[dɪˈlɪvər] v. 兑现；交付</span></span></span>。186倍市销率的信仰，终将被季度财报的硬数据<span class=\"word-annot\"><span class=\"word-anchor\">检验</span><span class=\"word-block\"><span class=\"english-word\">test</span><span class=\"word-info\">[test] v. 检验</span></span></span>。当一家公司的积压订单中超80%来自两个<span class=\"word-annot\"><span class=\"word-anchor\">关联</span><span class=\"word-block\"><span class=\"english-word\">affiliate</span><span class=\"word-info\">[əˈfɪlieɪt] v. 关联</span></span></span>客户时，所有的乐观叙事都需要用合同执行、毛利率修复和现金流拐点来回答。</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "Cerebras上市只是AI芯片多极化竞争的序幕。接下来的12个月，Groq、Tenstorrent、SambaNova是否跟进上市？超大规模云厂商自研芯片将走到哪一步？英伟达Rubin架构能否进一步压缩专用推理芯片的生存空间？AI应用落地能否支撑推理算力的指数级增长？这些问题的答案，将决定AI算力格局的最终走向。",
+      "html": "<p>Cerebras上市只是AI芯片多极化竞争的<span class=\"word-annot\"><span class=\"word-anchor\">序幕</span><span class=\"word-block\"><span class=\"english-word\">prologue</span><span class=\"word-info\">[ˈproʊlɔːɡ] n. 序幕</span></span></span>。接下来的12个月，Groq、Tenstorrent、SambaNova是否<span class=\"word-annot\"><span class=\"word-anchor\">跟进</span><span class=\"word-block\"><span class=\"english-word\">follow</span><span class=\"word-info\">[ˈfɑːloʊ] v. 跟进</span></span></span>上市？超大规模云厂商自研芯片将<span class=\"word-annot\"><span class=\"word-anchor\">走到哪一步</span><span class=\"word-block\"><span class=\"english-word\">progress</span><span class=\"word-info\">[ˈprɑːɡres] n. 进展</span></span></span>？英伟达Rubin架构能否进一步压缩专用推理芯片的生存<span class=\"word-annot\"><span class=\"word-anchor\">空间</span><span class=\"word-block\"><span class=\"english-word\">room</span><span class=\"word-info\">[ruːm] n. 空间；余地</span></span></span>？AI应用落地能否支撑推理算力的<span class=\"word-annot\"><span class=\"word-anchor\">指数级</span><span class=\"word-block\"><span class=\"english-word\">exponential</span><span class=\"word-info\">[ˌekspəˈnenʃl] adj. 指数级的</span></span></span>增长？这些问题的答案，将决定AI算力格局的最终<span class=\"word-annot\"><span class=\"word-anchor\">走向</span><span class=\"word-block\"><span class=\"english-word\">direction</span><span class=\"word-info\">[dəˈrekʃn] n. 方向；走向</span></span></span>。</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "推理时代的大幕，已然拉开。（本文首发钛媒体APP）",
+      "html": "<p>推理时代的大幕，已然<span class=\"word-annot\"><span class=\"word-anchor\">拉开</span><span class=\"word-block\"><span class=\"english-word\">unfold</span><span class=\"word-info\">[ʌnˈfoʊld] v. 拉开；展开</span></span></span>。（本文<span class=\"word-annot\"><span class=\"word-anchor\">首发</span><span class=\"word-block\"><span class=\"english-word\">publish</span><span class=\"word-info\">[ˈpʌblɪʃ] v. 首发；发布</span></span></span>钛媒体APP）</p>"
+    }
+  ]
+}
