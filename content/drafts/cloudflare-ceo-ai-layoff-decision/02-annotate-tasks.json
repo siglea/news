@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "cloudflare-ceo-ai-layoff-decision",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "Cloudflare CEO Matthew Prince 在《华尔街日报》发了一篇专栏，标题是：《我是如何决定用 AI 取代哪些 Cloudflare 员工的》",
+      "html": "<p>Cloudflare CEO Matthew Prince 在《华尔街日报》发了一篇<span class=\"word-annot\"><span class=\"word-anchor\">专栏</span><span class=\"word-block\"><span class=\"english-word\">column</span><span class=\"word-info\">[ˈkɒləm] n. 专栏</span></span></span>，标题是：《我是如何决定用 AI 取代哪些 Cloudflare 员工的》</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "Cloudflare 刚裁掉约 1100 人，占全员五分之一，是这家公司 16 年来第一次大规模裁员。然后 Cloudflare 今年招了 1111 名实习生，基本上和裁员的人数相当，等于是腾笼换鸟了。",
+      "html": "<p>Cloudflare 刚裁掉约 1100 人，占全员五分之一，是这家公司 16 年来第一次大规模<span class=\"word-annot\"><span class=\"word-anchor\">裁员</span><span class=\"word-block\"><span class=\"english-word\">layoff</span><span class=\"word-info\">[ˈleɪɒf] n. 裁员</span></span></span>。然后 Cloudflare 今年招了 1111 名<span class=\"word-annot\"><span class=\"word-anchor\">实习生</span><span class=\"word-block\"><span class=\"english-word\">intern</span><span class=\"word-info\">[ˈɪntɜːn] n. 实习生</span></span></span>，基本上和裁员的人数相当，等于是腾笼换鸟了。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "而且夸张的是，Cloudflare 今年收到了将近 100 万份实习申请，录取率只有千分之一，就业环境可见一斑，也难怪毕业典礼上 CEO 们吹 AI 下面嘘声一片！",
+      "html": "<p>而且夸张的是，Cloudflare 今年收到了将近 100 万份实习<span class=\"word-annot\"><span class=\"word-anchor\">申请</span><span class=\"word-block\"><span class=\"english-word\">application</span><span class=\"word-info\">[ˌæplɪˈkeɪʃn] n. 申请</span></span></span>，录取率只有千分之一，就业环境可见一斑，也难怪毕业典礼上 CEO 们吹 AI 下面嘘声一片！</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "为了说清楚裁员的理由，Prince 搬出了管理学家彼得·德鲁克 1954 年的《管理的实践》，把公司里的人分成三类：",
+      "html": "<p>为了说清楚裁员的<span class=\"word-annot\"><span class=\"word-anchor\">理由</span><span class=\"word-block\"><span class=\"english-word\">rationale</span><span class=\"word-info\">[ˌræʃəˈnɑːl] n. 理由；依据</span></span></span>，Prince 搬出了管理学家彼得·德鲁克 1954 年的《管理的实践》，把公司里的人分成三类：</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "3. 以及“度量者”（measurer），负责其余一切，包括财务、审计、法务、合规、中层管理、运营、市场。",
+      "html": "<p>3. 以及“度量者”（measurer），负责其余一切，包括财务、审计、法务、<span class=\"word-annot\"><span class=\"word-anchor\">合规</span><span class=\"word-block\"><span class=\"english-word\">compliance</span><span class=\"word-info\">[kəmˈplaɪəns] n. 合规；遵守法规</span></span></span>、中层管理、运营、市场。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "![](../images/posts/cloudflare-ceo-ai-layoff-decision/001.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/cloudflare-ceo-ai-layoff-decision/001.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 6,
+      "source_text": "AI 不动前两类。工程师效率翻十倍，他说有多少招多少；销售也安全，因为掏钱的是人，人愿意跟懂自己需求的人打交道。",
+      "html": "<p>AI 不动前两类。<span class=\"word-annot\"><span class=\"word-anchor\">工程师</span><span class=\"word-block\"><span class=\"english-word\">engineer</span><span class=\"word-info\">[ˌendʒɪˈnɪə(r)] n. 工程师</span></span></span>效率翻十倍，他说有多少招多少；销售也安全，因为掏钱的是人，人愿意跟懂自己<span class=\"word-annot\"><span class=\"word-anchor\">需求</span><span class=\"word-block\"><span class=\"english-word\">demand</span><span class=\"word-info\">[dɪˈmɑːnd] n. 需求</span></span></span>的人打交道。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "会被 AI 顶掉的是第三类“度量者”，因为他们做的统计业绩、出报表、跑审计，正是结构化、可重复、AI 最擅长的活。这次裁的，绝大多数就是这批人。",
+      "html": "<p>会被 AI 顶掉的是第三类“度量者”，因为他们做的统计业绩、出报表、跑审计，正是<span class=\"word-annot\"><span class=\"word-anchor\">结构化</span><span class=\"word-block\"><span class=\"english-word\">structured</span><span class=\"word-info\">[ˈstrʌktʃəd] adj. 结构化的</span></span></span>、可重复、AI 最擅长的活。这次裁的，<span class=\"word-annot\"><span class=\"word-anchor\">绝大多数</span><span class=\"word-block\"><span class=\"english-word\">majority</span><span class=\"word-info\">[məˈdʒɒrəti] n. 大多数</span></span></span>就是这批人。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "他举了几个具体例子：Cloudflare 的内部审计以前每个季度只能抽查几个业务风险领域，现在转向全业务持续审计；财务关账更快了，错误更少了；中层管理者被大幅裁减，因为 AI 让每个经理可以直接管更多人。",
+      "html": "<p>他举了几个具体例子：Cloudflare 的内部审计以前每个季度只能抽查几个业务风险领域，现在转向全业务<span class=\"word-annot\"><span class=\"word-anchor\">持续</span><span class=\"word-block\"><span class=\"english-word\">continuous</span><span class=\"word-info\">[kənˈtɪnjuəs] adj. 持续的</span></span></span>审计；财务关账更快了，<span class=\"word-annot\"><span class=\"word-anchor\">错误</span><span class=\"word-block\"><span class=\"english-word\">error</span><span class=\"word-info\">[ˈerə(r)] n. 错误</span></span></span>更少了；中层<span class=\"word-annot\"><span class=\"word-anchor\">管理者</span><span class=\"word-block\"><span class=\"english-word\">manager</span><span class=\"word-info\">[ˈmænɪdʒə(r)] n. 管理者</span></span></span>被大幅裁减，因为 AI 让每个经理可以直接管更多人。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "而且用来替代这些人的实习生，Matthew Prince 的话来说：是天生的 AI 原生代。他们无一例外，全都是“建造者”或者“销售者”。",
+      "html": "<p>而且用来<span class=\"word-annot\"><span class=\"word-anchor\">替代</span><span class=\"word-block\"><span class=\"english-word\">substitute</span><span class=\"word-info\">[ˈsʌbstɪtjuːt] v. 替代；取代</span></span></span>这些人的实习生，Matthew Prince 的话来说：是天生的 AI 原生代。他们无一例外，全都是“<span class=\"word-annot\"><span class=\"word-anchor\">建造者</span><span class=\"word-block\"><span class=\"english-word\">builder</span><span class=\"word-info\">[ˈbɪldə(r)] n. 建造者</span></span></span>”或者“销售者”。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "财报和裁员一起公布后，Cloudflare 股价一度跌掉二十多个百分点；公司这一季其实还亏了 6200 万美元，光遣散和重组就要花 1.4 到 1.5 亿美元。一边说不是省钱，一边背着上亿重组开支，投资人显然没全买账。",
+      "html": "<p>财报和裁员一起公布后，Cloudflare <span class=\"word-annot\"><span class=\"word-anchor\">股价</span><span class=\"word-block\"><span class=\"english-word\">stock</span><span class=\"word-info\">[stɒk] n. 股票；股价</span></span></span>一度跌掉二十多个百分点；公司这一季其实还亏了 6200 万美元，光遣散和<span class=\"word-annot\"><span class=\"word-anchor\">重组</span><span class=\"word-block\"><span class=\"english-word\">restructuring</span><span class=\"word-info\">[ˌriːˈstrʌktʃərɪŋ] n. 重组</span></span></span>就要花 1.4 到 1.5 亿美元。一边说不是省钱，一边背着上亿重组开支，<span class=\"word-annot\"><span class=\"word-anchor\">投资人</span><span class=\"word-block\"><span class=\"english-word\">investor</span><span class=\"word-info\">[ɪnˈvestə(r)] n. 投资者</span></span></span>显然没全买账。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "![](../images/posts/cloudflare-ceo-ai-layoff-decision/002.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/cloudflare-ceo-ai-layoff-decision/002.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 12,
+      "source_text": "-----以下为原文翻译------",
+      "html": "<p>-----以下为原文翻译------</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "《我是如何决定用 AI 取代哪些 Cloudflare 员工的》",
+      "html": "<p>《我是如何决定用 AI <span class=\"word-annot\"><span class=\"word-anchor\">取代</span><span class=\"word-block\"><span class=\"english-word\">displace</span><span class=\"word-info\">[dɪsˈpleɪs] v. 取代</span></span></span>哪些 Cloudflare 员工的》</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "两周前，我裁掉了公司超过 20% 的员工。我这么做并不是因为 Cloudflare 陷入了困境。恰恰相反，我们的营收增长创下了历史新高，现金流十分充裕，而且我们在全球范围内新增客户的数量也达到了前所未有的水平。我做出这个决定，是因为商业环境正在发生剧变；而为了赢下未来，Cloudflare 必须顺势而为。",
+      "html": "<p>两周前，我裁掉了公司超过 20% 的<span class=\"word-annot\"><span class=\"word-anchor\">员工</span><span class=\"word-block\"><span class=\"english-word\">employee</span><span class=\"word-info\">[ɪmˈplɔɪiː] n. 员工</span></span></span>。我这么做并不是因为 Cloudflare 陷入了<span class=\"word-annot\"><span class=\"word-anchor\">困境</span><span class=\"word-block\"><span class=\"english-word\">plight</span><span class=\"word-info\">[plaɪt] n. 困境；艰难处境</span></span></span>。恰恰相反，我们的营收增长创下了历史新高，现金流十分充裕，而且我们在全球范围内新增客户的数量也达到了<span class=\"word-annot\"><span class=\"word-anchor\">前所未有</span><span class=\"word-block\"><span class=\"english-word\">unprecedented</span><span class=\"word-info\">[ʌnˈpresɪdentɪd] adj. 前所未有的</span></span></span>的水平。我做出这个决定，是因为商业环境正在发生<span class=\"word-annot\"><span class=\"word-anchor\">剧变</span><span class=\"word-block\"><span class=\"english-word\">upheaval</span><span class=\"word-info\">[ʌpˈhiːvl] n. 剧变；动荡</span></span></span>；而为了赢下未来，Cloudflare 必须<span class=\"word-annot\"><span class=\"word-anchor\">顺势而为</span><span class=\"word-block\"><span class=\"english-word\">adapt</span><span class=\"word-info\">[əˈdæpt] v. 适应；顺应形势</span></span></span>。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "翻遍美国商业史，你可能都找不到第二家像我们一样、在保持 30% 以上高增长的同时还裁员 20% 的上市公司。然而，我们在过去两周的做法，很可能在未来一年里变成整个行业的常态。这是一个关于人工智能（AI）如何重塑一切的故事，但遗憾的是，许多高管和评论员都误解了 AI 到底会如何颠覆商业规则，以及究竟谁会受到冲击。",
+      "html": "<p>翻遍美国商业史，你可能都找不到第二家像我们一样、在保持 30% 以上高<span class=\"word-annot\"><span class=\"word-anchor\">增长</span><span class=\"word-block\"><span class=\"english-word\">growth</span><span class=\"word-info\">[ɡrəʊθ] n. 增长</span></span></span>的同时还裁员 20% 的上市公司。然而，我们在过去两周的做法，很可能在未来一年里变成整个行业的<span class=\"word-annot\"><span class=\"word-anchor\">常态</span><span class=\"word-block\"><span class=\"english-word\">norm</span><span class=\"word-info\">[nɔːm] n. 常态；标准</span></span></span>。这是一个关于人工智能（AI）如何<span class=\"word-annot\"><span class=\"word-anchor\">重塑</span><span class=\"word-block\"><span class=\"english-word\">reshape</span><span class=\"word-info\">[ˌriːˈʃeɪp] v. 重塑</span></span></span>一切的故事，但遗憾的是，许多高管和评论员都误解了 AI 到底会如何颠覆商业规则，以及究竟谁会受到冲击。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "为了搞清楚这个问题，我重新翻开了一本 1954 年出版的老书（这书比我还要大 20 岁）：彼得·德鲁克 (Peter Drucker，被誉为“现代管理学之父”) 的《管理的实践》。在这本书里，德鲁克深入剖析了企业内部形形色色的岗位角色。我把这些角色归纳为三类：建造者（builders）、销售者（sellers）和衡量者（measurers）。",
+      "html": "<p>为了搞清楚这个问题，我重新翻开了一本 1954 年出版的老书（这书比我还要大 20 岁）：彼得·德鲁克 (Peter Drucker，被誉为“现代<span class=\"word-annot\"><span class=\"word-anchor\">管理学</span><span class=\"word-block\"><span class=\"english-word\">management</span><span class=\"word-info\">[ˈmænɪdʒmənt] n. 管理学</span></span></span>之父”) 的《管理的实践》。在这本书里，德鲁克深入<span class=\"word-annot\"><span class=\"word-anchor\">剖析</span><span class=\"word-block\"><span class=\"english-word\">dissect</span><span class=\"word-info\">[dɪˈsekt] v. 剖析；仔细分析</span></span></span>了企业内部形形色色的岗位角色。我把这些角色<span class=\"word-annot\"><span class=\"word-anchor\">归纳</span><span class=\"word-block\"><span class=\"english-word\">categorize</span><span class=\"word-info\">[ˈkætəɡəraɪz] v. 归类</span></span></span>为三类：建造者（builders）、销售者（sellers）和衡量者（measurers）。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "顾名思义，“建造者”负责打造产品，“销售者”负责把产品卖出去。而“衡量者”则包揽了剩下的一切：内部审计、收入确认 (revenue recognition，财务术语，指根据会计准则确认一笔销售何时能正式计入公司账面收入的流程)、财务、法务、合规、中层管理、日常运营等等，不胜枚举。",
+      "html": "<p>顾名思义，“建造者”负责打造<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>，“销售者”负责把产品卖出去。而“衡量者”则包揽了剩下的一切：内部审计、收入确认 (revenue recognition，财务术语，指根据会计准则确认一笔销售何时能正式计入公司账面收入的流程)、财务、法务、合规、中层管理、<span class=\"word-annot\"><span class=\"word-anchor\">日常运营</span><span class=\"word-block\"><span class=\"english-word\">operations</span><span class=\"word-info\">[ˌɒpəˈreɪʃnz] n. 运营</span></span></span>等等，不胜枚举。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "与一些分析师的悲观预测恰恰相反，“建造者”们的饭碗稳得很，哪里也不会去。如果我团队里的某个工程师现在的生产力能借由 AI 翻上十倍，那我绝对会把市面上能找到的这种人才全都招进公司。",
+      "html": "<p>与一些分析师的<span class=\"word-annot\"><span class=\"word-anchor\">悲观</span><span class=\"word-block\"><span class=\"english-word\">pessimistic</span><span class=\"word-info\">[ˌpesɪˈmɪstɪk] adj. 悲观的</span></span></span>预测恰恰相反，“建造者”们的饭碗稳得很，哪里也不会去。如果我团队里的某个工程师现在的<span class=\"word-annot\"><span class=\"word-anchor\">生产力</span><span class=\"word-block\"><span class=\"english-word\">productivity</span><span class=\"word-info\">[ˌprɒdʌkˈtɪvəti] n. 生产力</span></span></span>能借由 AI 翻上十倍，那我绝对会把市面上能找到的这种人才全都招进公司。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "“销售者”同样不用担心被淘汰。因为掌握预算的依然是活生生的人类，他们更愿意从那些愿意花时间倾听需求、能建立信任、并且能在出问题时帮忙兜底的人手里买东西。",
+      "html": "<p>“销售者”同样不用担心被<span class=\"word-annot\"><span class=\"word-anchor\">淘汰</span><span class=\"word-block\"><span class=\"english-word\">eliminate</span><span class=\"word-info\">[ɪˈlɪmɪneɪt] v. 淘汰</span></span></span>。因为掌握<span class=\"word-annot\"><span class=\"word-anchor\">预算</span><span class=\"word-block\"><span class=\"english-word\">budget</span><span class=\"word-info\">[ˈbʌdʒɪt] n. 预算</span></span></span>的依然是活生生的人类，他们更愿意从那些愿意花时间倾听需求、能建立信任、并且能在出问题时帮忙兜底的人手里买东西。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "“衡量者”对企业同样至关重要，但他们与前两者截然不同。顶尖的“衡量者”往往千金难求。他们在幕后不知疲倦地默默耕耘，不追求台前角色 (front-of-house role，就像餐厅里直接面对顾客的大堂服务员一样，指容易受到外界瞩目和表扬的岗位) 的鲜花与掌声；最理想的情况是，他们还能保持独立于公司其他部门的客观视角。德鲁克指出，衡量业务表现固然重要，但客户终究是靠“建造”和“销售”争取来的。一家真正顶级的公司，应该把最多的资源投资在这两个核心职能上。",
+      "html": "<p>“衡量者”对企业同样<span class=\"word-annot\"><span class=\"word-anchor\">至关重要</span><span class=\"word-block\"><span class=\"english-word\">crucial</span><span class=\"word-info\">[ˈkruːʃl] adj. 至关重要的</span></span></span>，但他们与前两者截然不同。<span class=\"word-annot\"><span class=\"word-anchor\">顶尖</span><span class=\"word-block\"><span class=\"english-word\">elite</span><span class=\"word-info\">[ɪˈliːt] adj. 顶尖的；精英</span></span></span>的“衡量者”往往千金难求。他们在<span class=\"word-annot\"><span class=\"word-anchor\">幕后</span><span class=\"word-block\"><span class=\"english-word\">backstage</span><span class=\"word-info\">[ˌbækˈsteɪdʒ] n. 幕后</span></span></span>不知疲倦地默默耕耘，不追求台前角色 (front-of-house role，就像餐厅里直接面对顾客的大堂服务员一样，指容易受到外界瞩目和表扬的岗位) 的鲜花与掌声；最理想的情况是，他们还能保持独立于公司其他部门的<span class=\"word-annot\"><span class=\"word-anchor\">客观</span><span class=\"word-block\"><span class=\"english-word\">objective</span><span class=\"word-info\">[əbˈdʒektɪv] adj. 客观的</span></span></span>视角。德鲁克指出，衡量业务表现固然重要，但<span class=\"word-annot\"><span class=\"word-anchor\">客户</span><span class=\"word-block\"><span class=\"english-word\">customer</span><span class=\"word-info\">[ˈkʌstəmə(r)] n. 客户</span></span></span>终究是靠“建造”和“销售”争取来的。一家真正顶级的公司，应该把最多的资源投资在这两个<span class=\"word-annot\"><span class=\"word-anchor\">核心</span><span class=\"word-block\"><span class=\"english-word\">core</span><span class=\"word-info\">[kɔː(r)] adj. 核心的</span></span></span>职能上。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "AI 的浪潮并不是冲着“建造者”或“销售者”来的，它真正瞄准的是“衡量者”。不知疲倦、绝对独立、极其高效且随时在线——如今的 AI 系统在衡量和审视一家公司时，其客观入微的细节和精准度，是过去哪怕最拔尖的员工也望尘莫及的。",
+      "html": "<p>AI 的浪潮并不是冲着“建造者”或“销售者”来的，它真正<span class=\"word-annot\"><span class=\"word-anchor\">瞄准</span><span class=\"word-block\"><span class=\"english-word\">target</span><span class=\"word-info\">[ˈtɑːɡɪt] v. 瞄准；针对</span></span></span>的是“衡量者”。<span class=\"word-annot\"><span class=\"word-anchor\">不知疲倦</span><span class=\"word-block\"><span class=\"english-word\">tireless</span><span class=\"word-info\">[ˈtaɪələs] adj. 不知疲倦的</span></span></span>、绝对独立、极其高效且随时在线——如今的 AI 系统在衡量和审视一家公司时，其客观入微的细节和精准度，是过去哪怕最拔尖的员工也望尘莫及的。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "拿 Cloudflare 来说，过去我们的内部审计团队每季度只能挑出几个业务风险点进行抽查。而现在，我们正在全面启用一套新系统，对每一个业务风险点进行全天候的持续审计。我们财务结账 (closing our books，指企业在月末或年末结清账目、出具财务报表的常规流程) 的速度变得更快了。我们犯的错越来越少，即便偶有纰漏，也能被更精准可靠地揪出来。作为 CEO，我现在拥有了前所未有的绝佳工具，不仅能精确衡量公司的整体运营状况，还能帮我精准发掘团队里冉冉升起的明日之星。",
+      "html": "<p>拿 Cloudflare 来说，过去我们的内部审计团队每季度只能挑出几个业务<span class=\"word-annot\"><span class=\"word-anchor\">风险</span><span class=\"word-block\"><span class=\"english-word\">risk</span><span class=\"word-info\">[rɪsk] n. 风险</span></span></span>点进行抽查。而现在，我们正在全面启用一套新<span class=\"word-annot\"><span class=\"word-anchor\">系统</span><span class=\"word-block\"><span class=\"english-word\">system</span><span class=\"word-info\">[ˈsɪstəm] n. 系统</span></span></span>，对每一个业务风险点进行全天候的持续审计。我们<span class=\"word-annot\"><span class=\"word-anchor\">财务</span><span class=\"word-block\"><span class=\"english-word\">accounting</span><span class=\"word-info\">[əˈkaʊntɪŋ] n. 会计；财务</span></span></span>结账 (closing our books，指企业在月末或年末结清账目、出具财务报表的常规流程) 的速度变得更快了。我们犯的错越来越少，即便偶有<span class=\"word-annot\"><span class=\"word-anchor\">纰漏</span><span class=\"word-block\"><span class=\"english-word\">oversight</span><span class=\"word-info\">[ˈəʊvəsaɪt] n. 疏忽；纰漏</span></span></span>，也能被更精准可靠地揪出来。作为 CEO，我现在拥有了前所未有的绝佳工具，不仅能精确衡量公司的整体运营状况，还能帮我精准<span class=\"word-annot\"><span class=\"word-anchor\">发掘</span><span class=\"word-block\"><span class=\"english-word\">identify</span><span class=\"word-info\">[aɪˈdentɪfaɪ] v. 识别；发掘</span></span></span>团队里冉冉升起的明日之星。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "我们上周裁掉的员工中，绝大多数正是“衡量者”。我们精简了整个公司的中层管理人员，因为在 AI 的辅助下，主管们现在可以管理更多的直接下属，同时依然能对团队进行精准的绩效评估和有效指导。我们将分散的运营岗位整合进了一个统一的业务支持小组，遇到需要特定专业知识的场景，就让 AI 来填补空缺。我们还大幅裁减了市场营销团队——和大多数公司一样，那里曾经是“衡量者”扎堆的重灾区。此外，在整个财务团队中，我们也找到了大量合并岗位和实现自动化的空间。",
+      "html": "<p>我们上周裁掉的<span class=\"word-annot\"><span class=\"word-anchor\">员工</span><span class=\"word-block\"><span class=\"english-word\">personnel</span><span class=\"word-info\">[ˌpɜːsəˈnel] n. 人员；员工</span></span></span>中，绝大多数正是“衡量者”。我们<span class=\"word-annot\"><span class=\"word-anchor\">精简</span><span class=\"word-block\"><span class=\"english-word\">streamline</span><span class=\"word-info\">[ˈstriːmlaɪn] v. 精简</span></span></span>了整个公司的中层管理人员，因为在 AI 的辅助下，主管们现在可以管理更多的直接下属，同时依然能对团队进行精准的绩效评估和有效指导。我们将分散的运营岗位<span class=\"word-annot\"><span class=\"word-anchor\">整合</span><span class=\"word-block\"><span class=\"english-word\">integrate</span><span class=\"word-info\">[ˈɪntɪɡreɪt] v. 整合</span></span></span>进了一个统一的业务支持小组，遇到需要特定专业知识的场景，就让 AI 来填补空缺。我们还大幅裁减了<span class=\"word-annot\"><span class=\"word-anchor\">市场营销</span><span class=\"word-block\"><span class=\"english-word\">marketing</span><span class=\"word-info\">[ˈmɑːkɪtɪŋ] n. 市场营销</span></span></span>团队——和大多数公司一样，那里曾经是“衡量者”扎堆的重灾区。此外，在整个财务团队中，我们也找到了大量合并岗位和实现<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automation</span><span class=\"word-info\">[ˌɔːtəˈmeɪʃn] n. 自动化</span></span></span>的空间。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "但是，这次裁员的根本目的绝不是为了单纯地缩减人头。事实上，我们目前开放招聘的岗位数量创下了历史新高。我预计在未来几年里，我们的员工总数将持续增长。正是因为“衡量”这项工作不再需要那么多人力，我们现在才能腾出手来，将重金砸向那些真正能驱动公司增长的人才。",
+      "html": "<p>但是，这次裁员的根本目的绝不是为了<span class=\"word-annot\"><span class=\"word-anchor\">单纯</span><span class=\"word-block\"><span class=\"english-word\">merely</span><span class=\"word-info\">[ˈmɪəli] adv. 仅仅；单纯地</span></span></span>地缩减人头。事实上，我们目前开放招聘的<span class=\"word-annot\"><span class=\"word-anchor\">岗位</span><span class=\"word-block\"><span class=\"english-word\">position</span><span class=\"word-info\">[pəˈzɪʃn] n. 职位；岗位</span></span></span>数量创下了历史新高。我<span class=\"word-annot\"><span class=\"word-anchor\">预计</span><span class=\"word-block\"><span class=\"english-word\">anticipate</span><span class=\"word-info\">[ænˈtɪsɪpeɪt] v. 预期；预计</span></span></span>在未来几年里，我们的员工总数将持续增长。正是因为“衡量”这项工作不再需要那么多人力，我们现在才能腾出手来，将重金砸向那些真正能<span class=\"word-annot\"><span class=\"word-anchor\">驱动</span><span class=\"word-block\"><span class=\"english-word\">drive</span><span class=\"word-info\">[draɪv] v. 驱动</span></span></span>公司增长的人才。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "今年夏天，我们收到了将近 100 万份简历，争夺 1,111 个带薪实习岗位。我们最终录用的这批实习生不仅极其优秀，更是天生的 AI 原生代 (AI-native，指伴随 AI 时代成长，天然适应并将 AI 视为思维方式和基础工具的新一代群体)。他们无一例外，全都是“建造者”或者“销售者”，我们预计这其中的绝大多数人最终都会拿到全职 Offer。",
+      "html": "<p>今年夏天，我们收到了将近 100 万份<span class=\"word-annot\"><span class=\"word-anchor\">简历</span><span class=\"word-block\"><span class=\"english-word\">resume</span><span class=\"word-info\">[ˈrezəmeɪ] n. 简历</span></span></span>，争夺 1,111 个带薪实习岗位。我们最终<span class=\"word-annot\"><span class=\"word-anchor\">录用</span><span class=\"word-block\"><span class=\"english-word\">hire</span><span class=\"word-info\">[ˈhaɪə(r)] v. 录用</span></span></span>的这批实习生不仅极其优秀，更是天生的 AI 原生代 (AI-native，指伴随 AI 时代成长，天然适应并将 AI 视为思维方式和基础工具的新一代群体)。他们无一例外，全都是“建造者”或者“销售者”，我们<span class=\"word-annot\"><span class=\"word-anchor\">预计</span><span class=\"word-block\"><span class=\"english-word\">expect</span><span class=\"word-info\">[ɪkˈspekt] v. 预期；预计</span></span></span>这其中的绝大多数人最终都会拿到全职 Offer。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "他们是属于未来的新一代，将发明出全新的方式为我们的业务注入动力。得益于 AI，我们现在能更精准地衡量他们的贡献，并准确无误地找出那些未来的领袖人物。AI 绝不是导致年轻人惨淡失业的灾难前兆——情况恰恰相反。",
+      "html": "<p>他们是属于未来的新一代，将发明出全新的方式为我们的业务注入<span class=\"word-annot\"><span class=\"word-anchor\">动力</span><span class=\"word-block\"><span class=\"english-word\">momentum</span><span class=\"word-info\">[məˈmentəm] n. 动力；势头</span></span></span>。得益于 AI，我们现在能更精准地衡量他们的贡献，并准确无误地找出那些未来的<span class=\"word-annot\"><span class=\"word-anchor\">领袖</span><span class=\"word-block\"><span class=\"english-word\">leader</span><span class=\"word-info\">[ˈliːdə(r)] n. 领导者</span></span></span>人物。AI 绝不是导致年轻人惨淡失业的灾难<span class=\"word-annot\"><span class=\"word-anchor\">前兆</span><span class=\"word-block\"><span class=\"english-word\">harbinger</span><span class=\"word-info\">[ˈhɑːbɪndʒə(r)] n. 前兆</span></span></span>——情况恰恰相反。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "AI 不会终结所有工作岗位，但它必定会重塑每一家企业。归根结底，时间会证明德鲁克是对的。AI 将极大地提升我们衡量组织的能力，这样一来，我们团队里活生生的人类，就能把全部精力倾注到他们真正能创造和捕获价值的地方：去建造，去销售。",
+      "html": "<p>AI 不会<span class=\"word-annot\"><span class=\"word-anchor\">终结</span><span class=\"word-block\"><span class=\"english-word\">terminate</span><span class=\"word-info\">[ˈtɜːmɪneɪt] v. 终结；终止</span></span></span>所有工作岗位，但它必定会重塑每一家企业。<span class=\"word-annot\"><span class=\"word-anchor\">归根结底</span><span class=\"word-block\"><span class=\"english-word\">ultimately</span><span class=\"word-info\">[ˈʌltɪmətli] adv. 归根结底；最终</span></span></span>，时间会证明德鲁克是对的。AI 将极大地提升我们衡量组织的能力，这样一来，我们团队里活生生的人类，就能把全部精力倾注到他们真正能创造和<span class=\"word-annot\"><span class=\"word-anchor\">捕获</span><span class=\"word-block\"><span class=\"english-word\">capture</span><span class=\"word-info\">[ˈkæptʃə(r)] v. 捕获</span></span></span>价值的地方：去建造，去销售。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "![](../images/posts/cloudflare-ceo-ai-layoff-decision/003.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/cloudflare-ceo-ai-layoff-decision/003.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 29,
+      "source_text": "https://apple.news/A9PjCwSfHTXiMDSF-Hj27_Q",
+      "html": "<p>https://apple.news/A9PjCwSfHTXiMDSF-Hj27_Q</p>"
+    }
+  ]
+}
