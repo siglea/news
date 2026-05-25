@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>英伟达科学家的20分钟演讲：机器人终局，2040 预言 | NVIDIA Scientist 20-Min Speech: Robot Endgame 2040 | MingoX</title>
+    <meta name="description" content="英伟达科学家20分钟演讲：机器人终局2040预言——从具身智能到通用机器人，AI与物理世界的融合时间表。机器人数量将超越人类？">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../" class="logo">🎙️ MingoX</a>
+            <div class="nav-links">
+                <a href="../">首页</a>
+                <a href="../about.html">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="card">
+                <article class="post-content">
+                    <h1>🤖 英伟达科学家的20分钟演讲：机器人终局，2040 预言<br><small class="title-en">NVIDIA Scientist 20-Min Speech: Robot Endgame 2040</small></h1>
+<p>“我有 95% 的把握，我们将在 2040 年到达机器人<span class="word-annot"><span class="word-anchor">终局</span><span class="word-block"><span class="english-word">endgame</span><span class="word-info">[ˈendˌɡeɪm] n. 终局；结局</span></span></span>的终点”。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/001.jpg" loading="lazy" alt=""></figure>
+
+<p>👩 作者: Shirley</p>
+
+<p>🧑‍🎨 排版: NCon</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/002.png" loading="lazy" alt=""></figure>
+
+<p>2026 年这几个月，具身智能领域有一个清晰<span class="word-annot"><span class="word-anchor">叙事</span><span class="word-block"><span class="english-word">narrative</span><span class="word-info">[ˈnærətɪv] n. 叙事；叙述</span></span></span>正在成形。这场在红杉资本 AI ascent 活动上的 20 分钟演讲，目前是我们所看过的最清晰的行业<span class="word-annot"><span class="word-anchor">全景图</span><span class="word-block"><span class="english-word">panorama</span><span class="word-info">[ˌpænəˈræmə] n. 全景；全貌</span></span></span>。</p>
+
+<p>Jim Fan 没有展示某款产品的性能曲线，而是用一条推理链把三件事串在了一起：过去十四年的历史脉络、当下模型与数据的整体<span class="word-annot"><span class="word-anchor">格局</span><span class="word-block"><span class="english-word">landscape</span><span class="word-info">[ˈlændskeɪp] n. 格局；整体布局</span></span></span>，以及 2040 年的终局预测。</p>
+
+<p>对任何试图理解具身智能全局走向的人来说，这是一份有时间坐标的思维<span class="word-annot"><span class="word-anchor">框架</span><span class="word-block"><span class="english-word">framework</span><span class="word-info">[ˈfreɪmˌwɜrk] n. 框架；结构</span></span></span>。</p>
+
+<p>范麟熙（Jim Fan）现任英伟达 AI 资深研究科学家，并共同领导通用具身智能体研究组（GEAR），被广泛视为具身智能领域的<span class="word-annot"><span class="word-anchor">领军人物</span><span class="word-block"><span class="english-word">pioneer</span><span class="word-info">[ˌpaɪəˈnɪr] n. 领军人物；先驱</span></span></span>之一。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/003.jpg" loading="lazy" alt=""></figure>
+
+<p>他曾亲历 Jensen Huang 将世界第一台 DGX-1 交付给 OpenAI 团队，如今他的工作是将英伟达的算力优势转化为机器人领域的系统性<span class="word-annot"><span class="word-anchor">突破</span><span class="word-block"><span class="english-word">breakthrough</span><span class="word-info">[ˈbreɪkˌθruː] n. 突破；重大进展</span></span></span>。</p>
+
+<p>Jim Fan 将 LLM 过去几年的成功<span class="word-annot"><span class="word-anchor">路径</span><span class="word-block"><span class="english-word">pathway</span><span class="word-info">[ˈpæθˌweɪ] n. 路径；途径</span></span></span>概括为三步：大规模预训练 → 监督微调对齐 → 强化学习推理与自动研究。</p>
+
+<p>他认为机器人正延续相同的路径，并将这套复制<span class="word-annot"><span class="word-anchor">策略</span><span class="word-block"><span class="english-word">strategy</span><span class="word-info">[ˈstrætədʒi] n. 策略；战略</span></span></span>命名为 &quot;Great Parallel&quot;（大平行）：用世界模型预训练预测下一个物理世界状态，用动作微调对齐到真实机器人关心的仿真空间，用强化学习跑完最后一英里。</p>
+
+<p>过去三年，主流的视觉语言动作模型（VLA）本质上是在视觉语言模型（VLM）顶部嫁接动作头，绝大多数<span class="word-annot"><span class="word-anchor">参数</span><span class="word-block"><span class="english-word">parameter</span><span class="word-info">[pəˈræmɪtər] n. 参数</span></span></span>在服务语言，视觉与动作排在最后，导致模型擅长名词却在物理规律和动词执行上严重不足，Jim Fan 称之为&quot;在错误的地方头重脚轻&quot;。</p>
+
+<p>真正的突破反而来自视频世界模型，即仅凭预测下一帧像素，模型自发<span class="word-annot"><span class="word-anchor">涌现</span><span class="word-block"><span class="english-word">emerge</span><span class="word-info">[ɪˈmɜrdʒ] v. 涌现；出现</span></span></span>出对重力、浮力、光照的理解，无需任何手工编码的物理方程。</p>
+
+<p>由此诞生新<span class="word-annot"><span class="word-anchor">范式</span><span class="word-block"><span class="english-word">paradigm</span><span class="word-info">[ˈpærədaɪm] n. 范式；典范</span></span></span> WAM（世界动作模型），英伟达提出的代表性 WAM 研究模型 DreamZero 联合解码下一个世界状态与下一步动作，实现了对训练中从未出现任务的零样本泛化。</p>
+
+<p>Teleop（遥操作数据采集）每台机器人每天有效产出约 3 小时，昂贵且<span class="word-annot"><span class="word-anchor">侵入性</span><span class="word-block"><span class="english-word">invasive</span><span class="word-info">[ɪnˈveɪsɪv] adj. 侵入性的</span></span></span>强，难以支撑规模化扩展。</p>
+
+<p>Jim Fan 认为机器人数据采集需要走向类似特斯拉 FSD 的后台数据飞轮模式，以带手部追踪和密集语言<span class="word-annot"><span class="word-anchor">标注</span><span class="word-block"><span class="english-word">annotation</span><span class="word-info">[ˌænəˈteɪʃən] n. 标注；注释</span></span></span>的人类第一视角视频为核心，可扩展至千万小时，他称之为 Sensorized Human Data（传感器化人类数据）。</p>
+
+<p>英伟达 EgoScale 已验证用 21,000 小时野外第一视角数据预训练（零机器人数据），再用 50 小时高<span class="word-annot"><span class="word-anchor">精度</span><span class="word-block"><span class="english-word">precision</span><span class="word-info">[prɪˈsɪʒən] n. 精度；精确度</span></span></span>动作捕捉手套数据和 4 小时 Teleop 进行动作微调，即可实现 22 自由度机器人手的端到端控制。</p>
+
+<p>最关键的发现是，<span class="word-annot"><span class="word-anchor">灵巧度</span><span class="word-block"><span class="english-word">dexterity</span><span class="word-info">[dɛkˈstɛrɪti] n. 灵巧；灵活性</span></span></span>也有缩放律，预训练数据量与验证损失呈清晰对数线性关系。</p>
+
+<p><span class="word-annot"><span class="word-anchor">前沿</span><span class="word-block"><span class="english-word">frontier</span><span class="word-info">[frʌnˈtɪr] n. 前沿；最前沿</span></span></span> LLM 实验室用于强化学习的编程环境已达百万级，机器人需要同等规模的训练环境。</p>
+
+<p>英伟达的<span class="word-annot"><span class="word-anchor">解法</span><span class="word-block"><span class="english-word">solution</span><span class="word-info">[səˈluːʃən] n. 解法；解决方案</span></span></span>分为两步：</p>
+
+<p>第一步是 Real-to-Sim-to-Real，用 iPhone 拍摄场景，3D 扫描提取物体，在物理仿真器中重建并无限生成形态相近但属性<span class="word-annot"><span class="word-anchor">随机化</span><span class="word-block"><span class="english-word">randomize</span><span class="word-info">[ˈrændəmaɪz] v. 随机化</span></span></span>的变体（digital cousins），iPhone 就此变成一台口袋世界扫描仪。</p>
+
+<p>第二步是 Dream Dojo，不依赖传统物理方程和图形引擎，转为纯数据驱动的神经<span class="word-annot"><span class="word-anchor">模拟器</span><span class="word-block"><span class="english-word">simulator</span><span class="word-info">[ˈsɪmjəˌleɪtər] n. 模拟器</span></span></span>：输入连续动作信号，实时输出下一帧 RGB 画面和传感器状态，画面像素由神经网络实时生成，机器人力学通过数据自动学习。</p>
+
+<p>两步合在一起，形成一套战略<span class="word-annot"><span class="word-anchor">方程式</span><span class="word-block"><span class="english-word">equation</span><span class="word-info">[ɪˈkweɪʒən] n. 方程式；公式</span></span></span>：算力 = 环境 = 数据。</p>
+
+<p>Jim Fan 将机器人终局<span class="word-annot"><span class="word-anchor">定义</span><span class="word-block"><span class="english-word">define</span><span class="word-info">[dɪˈfaɪn] v. 定义</span></span></span>为三关：</p>
+
+<p>物理图灵测试（按他的判断约 2-3 年内达到，即人类无法<span class="word-annot"><span class="word-anchor">区分</span><span class="word-block"><span class="english-word">distinguish</span><span class="word-info">[dɪˈstɪŋɡwɪʃ] v. 区分；辨别</span></span></span>任务由机器人还是人类完成）。</p>
+
+<p>Physical API（整个机器人机群可被 API <span class="word-annot"><span class="word-anchor">编排</span><span class="word-block"><span class="english-word">orchestrate</span><span class="word-info">[ˈɔrkəˌstreɪt] v. 编排；协调</span></span></span>，实现类似&quot;原子打印机&quot;的无人工厂）</p>
+
+<p>Physical Auto-Research（机器人<span class="word-annot"><span class="word-anchor">自主</span><span class="word-block"><span class="english-word">autonomous</span><span class="word-info">[ɔːˈtɑnəməs] adj. 自主的；自治的</span></span></span>设计下一代自己）。从 2012 年 AlexNet 到 2026 年 AI Ascent 用了 14 年，他有 95% 的<span class="word-annot"><span class="word-anchor">把握</span><span class="word-block"><span class="english-word">confidence</span><span class="word-info">[ˈkɑnfɪdəns] n. 把握；信心</span></span></span>将在 2040 年抵达这场终局的终点。</p>
+
+<p>2016 年的一个夏天，就在我们现在坐的这栋楼里，一个穿着闪亮皮夹克、肌肉发达的人<span class="word-annot"><span class="word-anchor">扛</span><span class="word-block"><span class="english-word">shoulder</span><span class="word-info">[ˈʃoʊldər] v. 扛；肩负</span></span></span>着一块巨大的金属托盘走了进来。</p>
+
+<p>托盘上<span class="word-annot"><span class="word-anchor">刻</span><span class="word-block"><span class="english-word">engrave</span><span class="word-info">[ɪnˈɡreɪv] v. 雕刻；刻写</span></span></span>着字：&quot;献给 Elon 和 OpenAI 团队，为计算和人类的未来，我送上全球第一台 DGX-1。&quot; 那是我第一次<span class="word-annot"><span class="word-anchor">见到</span><span class="word-block"><span class="english-word">encounter</span><span class="word-info">[ɪnˈkaʊntər] v. 遇见；碰见</span></span></span> Jensen Huang。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/004.png" loading="lazy" alt=""></figure>
+
+<p>和所有<span class="word-annot"><span class="word-anchor">实习生</span><span class="word-block"><span class="english-word">intern</span><span class="word-info">[ˈɪntɜrn] n. 实习生</span></span></span>一样，我赶紧排队在上面签下了自己的名字。能认出来吗？我的名字在这里。你还能<span class="word-annot"><span class="word-anchor">认出</span><span class="word-block"><span class="english-word">recognize</span><span class="word-info">[ˈrɛkəɡnaɪz] v. 认出；识别</span></span></span>另一个名字吗？Andrej 也在这里。看来我们都快进计算机历史博物馆了，我感觉自己像个老<span class="word-annot"><span class="word-anchor">古董</span><span class="word-block"><span class="english-word">relic</span><span class="word-info">[ˈrɛlɪk] n. 古董；老古董</span></span></span>。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/005.png" loading="lazy" alt=""></figure>
+
+<p>那个时候，我完全不知道自己在<span class="word-annot"><span class="word-anchor">参与</span><span class="word-block"><span class="english-word">participate</span><span class="word-info">[pɑrˈtɪsəˌpeɪt] v. 参与；参加</span></span></span>什么。但没有人比 Ilya 本人更能<span class="word-annot"><span class="word-anchor">描述</span><span class="word-block"><span class="english-word">describe</span><span class="word-info">[dɪˈskraɪb] v. 描述；形容</span></span></span>接下来发生的事：&quot;如果你相信深度学习，深度学习也会相信你。&quot;&amp;nbsp;</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/006.png" loading="lazy" alt=""></figure>
+
+<p>深度学习真的狠狠回馈了我们，远远超出任何人的<span class="word-annot"><span class="word-anchor">预期</span><span class="word-block"><span class="english-word">expectation</span><span class="word-info">[ˌɛkspɛkˈteɪʃən] n. 预期；期望</span></span></span>。从 2020 年到 2026 年，只用了三步、六年，LLM 走完了一段被后人称为&quot;奔向终局&quot;的<span class="word-annot"><span class="word-anchor">旅程</span><span class="word-block"><span class="english-word">journey</span><span class="word-info">[ˈdʒɜrni] n. 旅程；旅途</span></span></span>：</p>
+
+<p>GPT-3 的 next-token prediction 教会了模型语言的<span class="word-annot"><span class="word-anchor">形态</span><span class="word-block"><span class="english-word">morphology</span><span class="word-info">[mɔrˈfɑlədʒi] n. 形态；词法</span></span></span>；InstructGPT 的监督微调让这个仿真引擎<span class="word-annot"><span class="word-anchor">对齐</span><span class="word-block"><span class="english-word">alignment</span><span class="word-info">[əˈlaɪnmənt] n. 对齐；校准</span></span></span>到有用的工作中；o1 式推理用强化学习<span class="word-annot"><span class="word-anchor">超越</span><span class="word-block"><span class="english-word">surpass</span><span class="word-info">[sərˈpæs] v. 超越；超过</span></span></span>模仿学习，自动研究则进一步把整个循环加速到超越人类能力的边界。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/007.png" loading="lazy" alt=""></figure>
+
+<p>就像 Andrej 说的，所有实验室都在逼近<span class="word-annot"><span class="word-anchor">终极</span><span class="word-block"><span class="english-word">ultimate</span><span class="word-info">[ˈʌltəmɪt] adj. 终极的；最终的</span></span></span> Boss。搞 LLM 的人正在经历他们人生中最精彩的派对，骑着一只叫做 Mythos 的“<span class="word-annot"><span class="word-anchor">神话</span><span class="word-block"><span class="english-word">mythical</span><span class="word-info">[ˈmɪθɪkəl] adj. 神话的；虚构的</span></span></span>生物”疯狂跑通 AGI。老实说，我非常<span class="word-annot"><span class="word-anchor">嫉妒</span><span class="word-block"><span class="english-word">envy</span><span class="word-info">[ˈɛnvi] n. 嫉妒；羡慕</span></span></span>。</p>
+
+<p>那么，机器人为什么不能分得一杯羹呢？</p>
+
+<p>Great Parallel：机器人要走同一条路</p>
+
+<p>作为一个有自尊心的科学家，我<span class="word-annot"><span class="word-anchor">抄</span><span class="word-block"><span class="english-word">copy</span><span class="word-info">[ˈkɑpi] v. 抄袭；复制</span></span></span>了作业，然后给它换了个名字，我叫它&quot;Great Parallel&quot;（大平行）：</p>
+
+<p>我们不再<span class="word-annot"><span class="word-anchor">模拟</span><span class="word-block"><span class="english-word">simulate</span><span class="word-info">[ˈsɪmjəˌleɪt] v. 模拟；仿真</span></span></span>字符串，而是模拟下一个物理世界状态；然后通过动作微调对齐到真实机器人<span class="word-annot"><span class="word-anchor">关心</span><span class="word-block"><span class="english-word">concern</span><span class="word-info">[kənˈsɜrn] v. 关心；关注</span></span></span>的那一小片仿真空间；最后让<span class="word-annot"><span class="word-anchor">强化</span><span class="word-block"><span class="english-word">reinforce</span><span class="word-info">[ˌriːɪnˈfɔrs] v. 强化；加强</span></span></span>学习跑完最后一英里。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/008.png" loading="lazy" alt=""></figure>
+
+<p>就这样，Great Parallel，<span class="word-annot"><span class="word-anchor">复制</span><span class="word-block"><span class="english-word">replicate</span><span class="word-info">[ˈrɛplɪˌkeɪt] v. 复制；重复</span></span></span> LLM 的成功路径，打不过他们，就加入他们。</p>
+
+<p>终局如何打？<span class="word-annot"><span class="word-anchor">归结</span><span class="word-block"><span class="english-word">reduce</span><span class="word-info">[rɪˈdus] v. 归结；归纳</span></span></span>为两件事：模型策略和数据策略，先看模型。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/009.png" loading="lazy" alt=""></figure>
+
+<p>VLA 的根本错误与视频世界模型的<span class="word-annot"><span class="word-anchor">崛起</span><span class="word-block"><span class="english-word">ascend</span><span class="word-info">[əˈsɛnd] v. 崛起；上升</span></span></span></p>
+
+<p>过去三年由 VLA（视觉语言动作模型）<span class="word-annot"><span class="word-anchor">主导</span><span class="word-block"><span class="english-word">dominate</span><span class="word-info">[ˈdɑməˌneɪt] v. 主导；支配</span></span></span>，π0 和 GR00T 都属于这一类。VLA 的基本<span class="word-annot"><span class="word-anchor">逻辑</span><span class="word-block"><span class="english-word">logic</span><span class="word-info">[ˈlɑdʒɪk] n. 逻辑</span></span></span>是：VLM 的预训练已经做得足够强，直接在上面嫁接一个动作头（action head）就行了。</p>
+
+<p>但仔细想想，这些模型其实应该叫 LVA（Language-Vision-Action），因为绝大部分参数都<span class="word-annot"><span class="word-anchor">分配</span><span class="word-block"><span class="english-word">allocate</span><span class="word-info">[ˈæləˌkeɪt] v. 分配；分派</span></span></span>给了语言处理，语言是第一优先级，其次才是视觉和动作。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/010.png" loading="lazy" alt=""></figure>
+
+<p>其结果就是 VLA 极其擅长<span class="word-annot"><span class="word-anchor">编码</span><span class="word-block"><span class="english-word">encode</span><span class="word-info">[ɪnˈkoʊd] v. 编码</span></span></span>知识和理解名词，但在物理规律和执行动词方面就差远了，可以说是在错误的地方头重脚轻。</p>
+
+<p>比如说，把可乐罐移动到 Taylor Swift 的照片旁边，模型在机器人训练任务中此前没有见过 Taylor Swift 这个目标，却仍然完成了泛化，但这种泛化依赖的是语言概念的<span class="word-annot"><span class="word-anchor">迁移</span><span class="word-block"><span class="english-word">transfer</span><span class="word-info">[trænsˈfɜr] n. 迁移；转移</span></span></span>，而不是真正的物理理解能力。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/011.png" loading="lazy" alt=""></figure>
+
+<p>那么，第二种预训练范式是什么？拜托，我一直以为它会是某种<span class="word-annot"><span class="word-anchor">宏大</span><span class="word-block"><span class="english-word">grand</span><span class="word-info">[ɡrænd] adj. 宏大的；壮丽的</span></span></span>的东西。结果，它是我们口中的&quot;AI 视频<span class="word-annot"><span class="word-anchor">垃圾</span><span class="word-block"><span class="english-word">garbage</span><span class="word-info">[ˈɡɑrbɪdʒ] n. 垃圾</span></span></span>&quot;。比如<span class="word-annot"><span class="word-anchor">安防</span><span class="word-block"><span class="english-word">surveillance</span><span class="word-info">[sərˈveɪləns] n. 安防；监控</span></span></span>摄像头里猫在弹班卓琴，我能看一整天，这大概就是互联网的巅峰吧。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/012.png" loading="lazy" alt=""></figure>
+
+<p>但认真看，没有人能一开始认真对待这些，直到我们<span class="word-annot"><span class="word-anchor">意识到</span><span class="word-block"><span class="english-word">realize</span><span class="word-info">[ˈriːəˌlaɪz] v. 意识到；认识到</span></span></span>，这些视频模型正在内部学习模拟下一个世界状态。</p>
+
+<p>这是 Veo 3 <span class="word-annot"><span class="word-anchor">生成</span><span class="word-block"><span class="english-word">generate</span><span class="word-info">[ˈdʒɛnəˌreɪt] v. 生成；产生</span></span></span>的一些画面。你可以看到，模型自己<span class="word-annot"><span class="word-anchor">捕捉</span><span class="word-block"><span class="english-word">capture</span><span class="word-info">[ˈkæptʃər] v. 捕捉；捕获</span></span></span>到了重力、浮力、光照、反射、折射，没有预编码进去，物理规律是通过大规模预测下一个像素块而自发涌现的。</p>
+
+<p>甚至视觉<span class="word-annot"><span class="word-anchor">规划</span><span class="word-block"><span class="english-word">planning</span><span class="word-info">[ˈplænɪŋ] n. 规划</span></span></span>也随之涌现。注意看 Veo 3 是怎么解<span class="word-annot"><span class="word-anchor">迷宫</span><span class="word-block"><span class="english-word">labyrinth</span><span class="word-info">[ˈlæbərɪnθ] n. 迷宫</span></span></span>的，它通过在像素空间里向前推演模拟来求解，特别注意右下角那个例子，不要眨眼。它真的非常聪明，Veo 3 发现如果你不看，几何形状是<span class="word-annot"><span class="word-anchor">可选</span><span class="word-block"><span class="english-word">optional</span><span class="word-info">[ˈɑpʃənəl] adj. 可选的</span></span></span>的，我把这称之为物理垃圾（Physics Slop）。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/013.gif" loading="lazy" alt=""></figure>
+
+<p>WAM 范式的<span class="word-annot"><span class="word-anchor">代表性</span><span class="word-block"><span class="english-word">representative</span><span class="word-info">[ˌrɛprɪˈzɛntətɪv] adj. 有代表性的</span></span></span>研究模型</p>
+
+<p>那么，如何让这些世界模型变得有用？我们做动作微调，对所有可能未来状态的<span class="word-annot"><span class="word-anchor">叠加</span><span class="word-block"><span class="english-word">superposition</span><span class="word-info">[ˌsupərpəˈzɪʃən] n. 叠加；超位置</span></span></span>态进行对齐，然后把它压缩到一个薄薄的切片上，也就是真实机器人真正需要的部分。</p>
+
+<p>DreamZero，这是一种能对未来几秒进行模拟、并据此<span class="word-annot"><span class="word-anchor">采取</span><span class="word-block"><span class="english-word">adopt</span><span class="word-info">[əˈdɑpt] v. 采取；采纳</span></span></span>行动的新型策略模型。</p>
+
+<p>要知道，电机动作信号是高维连续信号，数值形式上看起来就像像素，我们可以在<span class="word-annot"><span class="word-anchor">渲染</span><span class="word-block"><span class="english-word">render</span><span class="word-info">[ˈrɛndər] v. 渲染</span></span></span>视频的同时渲染它。因此，DreamZero 能够联合<span class="word-annot"><span class="word-anchor">解码</span><span class="word-block"><span class="english-word">decode</span><span class="word-info">[diːˈkoʊd] v. 解码</span></span></span>下一个世界状态和下一步动作，最终它能零样本解决训练中从未出现过的任务和动词类别。</p>
+
+<p>当机器人在执行任务时，我们可以可视化它在&quot;梦到&quot;的内容，并且这种<span class="word-annot"><span class="word-anchor">相关性</span><span class="word-block"><span class="english-word">correlation</span><span class="word-info">[ˌkɔrəˈleɪʃən] n. 相关性；关联</span></span></span>非常紧密：</p>
+
+<p>如果视频预测成功，动作也就<span class="word-annot"><span class="word-anchor">有效</span><span class="word-block"><span class="english-word">effective</span><span class="word-info">[ɪˈfɛktɪv] adj. 有效的</span></span></span>；如果视频产生<span class="word-annot"><span class="word-anchor">幻觉</span><span class="word-block"><span class="english-word">hallucination</span><span class="word-info">[həˌluːsɪˈneɪʃən] n. 幻觉</span></span></span>，动作就会失败。</p>
+
+<p>于是，视觉和动作重新成为了一等<span class="word-annot"><span class="word-anchor">公民</span><span class="word-block"><span class="english-word">citizen</span><span class="word-info">[ˈsɪtɪzən] n. 公民</span></span></span>。</p>
+
+<p>我们用 DreamZero 玩了很多花样，比如推着机器人在实验室里到处跑，然后输入<span class="word-annot"><span class="word-anchor">随机</span><span class="word-block"><span class="english-word">random</span><span class="word-info">[ˈrændəm] adj. 随机的</span></span></span> prompt。当然 DreamZero 无法百分百<span class="word-annot"><span class="word-anchor">稳健</span><span class="word-block"><span class="english-word">robust</span><span class="word-info">[roʊˈbʌst] adj. 稳健的；鲁棒的</span></span></span>地完成所有任务，但它就像 GPT-2，试图在每个案例中捕捉运动的正确形态。</p>
+
+<p>因此，DreamZero 是我们迈向机器人领域开放词汇<span class="word-annot"><span class="word-anchor">提示</span><span class="word-block"><span class="english-word">prompt</span><span class="word-info">[prɑmpt] n. 提示</span></span></span>的第一步。我们把这种新型模型叫做</p>
+
+<p>世界动作模型（World Action Models，WAM）</p>
+
+<p>让我们为老朋友 VLA <span class="word-annot"><span class="word-anchor">默哀</span><span class="word-block"><span class="english-word">mourn</span><span class="word-info">[mɔrn] v. 默哀；哀悼</span></span></span>片刻，你很好地服务过我们，安息吧，WAM 万岁！</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/014.png" loading="lazy" alt=""></figure>
+
+<p>数据<span class="word-annot"><span class="word-anchor">战争</span><span class="word-block"><span class="english-word">warfare</span><span class="word-info">[ˈwɔrˌfɛr] n. 战争；斗争</span></span></span>：从 Teleop 到 Sensorized Human Data</p>
+
+<p>模型策略讲完，接下来看数据策略。</p>
+
+<p>这是英伟达<span class="word-annot"><span class="word-anchor">首席</span><span class="word-block"><span class="english-word">chief</span><span class="word-info">[tʃiːf] adj. 首席的；主要的</span></span></span>科学家 Bill Dally 在我们实验室进行遥操作。考虑到他的<span class="word-annot"><span class="word-anchor">薪水</span><span class="word-block"><span class="english-word">salary</span><span class="word-info">[ˈsæləri] n. 薪水；工资</span></span></span>，这条遥操作轨迹可能是我们数据集里迄今为止最贵的一条。</p>
+
+<p>过去三年一直是遥操作的黄金时代，VR 头显、超低<span class="word-annot"><span class="word-anchor">延迟</span><span class="word-block"><span class="english-word">latency</span><span class="word-info">[ˈleɪtənsi] n. 延迟；潜伏期</span></span></span>的串流系统，以及形如中世纪刑具的复杂装置，行业投入巨大，过程也十分痛苦。</p>
+
+<p>然而，Teleop 的物理<span class="word-annot"><span class="word-anchor">上限</span><span class="word-block"><span class="english-word">ceiling</span><span class="word-info">[ˈsiːlɪŋ] n. 上限；天花板</span></span></span>是每台机器人每天 24 小时，说实话更像是每天 3 小时，还得看机器人心情好不好，因为它们经常&quot;发脾气&quot;。</p>
+
+<p>那我们该如何做才更好呢？答案是：直接把<span class="word-annot"><span class="word-anchor">机械</span><span class="word-block"><span class="english-word">mechanical</span><span class="word-info">[mɪˈkænɪkəl] adj. 机械的</span></span></span>手戴在自己手上。</p>
+
+<p>这叫 UMI（通用操控接口），看似<span class="word-annot"><span class="word-anchor">平淡</span><span class="word-block"><span class="english-word">mundane</span><span class="word-info">[mʌnˈdeɪn] adj. 平淡的；平凡的</span></span></span>，实则深刻。把机器人执行器戴在手上，直接由人来采集数据，同时将机器人身体其余部位<span class="word-annot"><span class="word-anchor">排除</span><span class="word-block"><span class="english-word">exclude</span><span class="word-info">[ɪkˈskluːd] v. 排除</span></span></span>在操作循环之外。</p>
+
+<p>UMI 可能是机器人数据领域有史以来最伟大的论文之一，它直接<span class="word-annot"><span class="word-anchor">催生</span><span class="word-block"><span class="english-word">spawn</span><span class="word-info">[spɔːn] v. 催生；催发</span></span></span>了两家独角兽公司——左边是 Generalist（改进了夹爪设计），右边是 Sunday（制作了三指数据手套）。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/015.png" loading="lazy" alt=""></figure>
+
+<p>去年，我们在此基础上更进一步，设计了能与五指灵巧机械手形成 1:1 <span class="word-annot"><span class="word-anchor">映射</span><span class="word-block"><span class="english-word">mapping</span><span class="word-info">[ˈmæpɪŋ] n. 映射</span></span></span>的外骨骼 DexUMI。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/016.png" loading="lazy" alt=""></figure>
+
+<p>让我们看看它的实际<span class="word-annot"><span class="word-anchor">运作</span><span class="word-block"><span class="english-word">operation</span><span class="word-info">[ˌɑpəˈreɪʃən] n. 运作；运行</span></span></span>：画面最左侧是人直接采集数据，速度最快；最右侧是传统遥操作，即便是最<span class="word-annot"><span class="word-anchor">熟练</span><span class="word-block"><span class="english-word">proficient</span><span class="word-info">[prəˈfɪʃənt] adj. 熟练的；精通的</span></span></span>的博士生也需要非常仔细地对齐，速度很慢，成功率也低；中间是直接<span class="word-annot"><span class="word-anchor">穿戴</span><span class="word-block"><span class="english-word">wearable</span><span class="word-info">[ˈwɛrəbəl] adj. 可穿戴的</span></span></span>外骨骼采集。</p>
+
+<p>接着我们用这套数据训练了机器人策略，这里你看到的，是一个用零遥操作数据训练出来的策略在完全自主<span class="word-annot"><span class="word-anchor">运行</span><span class="word-block"><span class="english-word">operate</span><span class="word-info">[ˈɑpəˌreɪt] v. 运行；操作</span></span></span>。我们打破了每台机器人每天 24 小时数据采集上限，看看这些机器人有多高兴，它们再也不用被<span class="word-annot"><span class="word-anchor">绑</span><span class="word-block"><span class="english-word">bind</span><span class="word-info">[baɪnd] v. 绑；束缚</span></span></span>在数据采集循环里了。</p>
+
+<p>那么，问题解决了吗？机器人的<span class="word-annot"><span class="word-anchor">规模化</span><span class="word-block"><span class="english-word">scaling</span><span class="word-info">[ˈskeɪlɪŋ] n. 规模化；扩展</span></span></span>已经被搞定了吗？</p>
+
+<p>在座有没有人开特斯拉或 Waymo 的？你们知道吗，当你开车时，你实际上正在为最大的物理数据飞轮做<span class="word-annot"><span class="word-anchor">贡献</span><span class="word-block"><span class="english-word">contribute</span><span class="word-info">[kənˈtrɪbjuːt] v. 贡献</span></span></span>。而且你完全<span class="word-annot"><span class="word-anchor">感知</span><span class="word-block"><span class="english-word">perceive</span><span class="word-info">[pərˈsiːv] v. 感知；察觉</span></span></span>不到，在全自动驾驶（FSD）期间，数据上传是一个后台运行的过程。</p>
+
+<p>然而，穿戴 UMI 依然很麻烦、很有<span class="word-annot"><span class="word-anchor">侵入</span><span class="word-block"><span class="english-word">intrusive</span><span class="word-info">[ɪnˈtruːsɪv] adj. 侵入的</span></span></span>感，不像开车上班那样无缝自然。我们需要一个类似 FSD 的<span class="word-annot"><span class="word-anchor">等价物</span><span class="word-block"><span class="english-word">equivalent</span><span class="word-info">[ɪˈkwɪvələnt] n. 等价物；对等物</span></span></span>，数据采集必须退居幕后。</p>
+
+<p>所以，我们全面押注带有手部位置追踪和密集语言标注的</p>
+
+<p>EgoScale：零机器人数据的灵巧度<span class="word-annot"><span class="word-anchor">预训练</span><span class="word-block"><span class="english-word">pretraining</span><span class="word-info">[priːˈtreɪnɪŋ] n. 预训练</span></span></span></p>
+
+<p>EgoScale 就是这条押注的第一个落地<span class="word-annot"><span class="word-anchor">成果</span><span class="word-block"><span class="english-word">achievement</span><span class="word-info">[əˈtʃiːvmənt] n. 成果；成就</span></span></span>。</p>
+
+<p>我们用 21,000 小时的野外第一视角人类数据预训练 EgoScale，其中 99.9% 的训练数据基于人类第一视角视频，从摄像头像素直接映射到 22 自由度的高<span class="word-annot"><span class="word-anchor">灵巧</span><span class="word-block"><span class="english-word">agile</span><span class="word-info">[ˈædʒaɪl] adj. 灵巧的；敏捷的</span></span></span>机器人手，最终形成端到端策略，全程完全自主。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/017.png" loading="lazy" alt=""></figure>
+
+<p>在预训练阶段，我们预测手部关节和腕部<span class="word-annot"><span class="word-anchor">姿态</span><span class="word-block"><span class="english-word">posture</span><span class="word-info">[ˈpɑstʃər] n. 姿态；姿势</span></span></span>；<span class="word-annot"><span class="word-anchor">随后</span><span class="word-block"><span class="english-word">subsequent</span><span class="word-info">[ˈsʌbsɪkwənt] adj. 随后的；后来的</span></span></span>的动作微调阶段，我们只收集了 50 小时高精度动作捕捉手套数据，加上 4 小时遥操作（不到训练总量的 0.1%）。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/018.png" loading="lazy" alt=""></figure>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/019.png" loading="lazy" alt=""></figure>
+
+<p>凭借这一点，EgoScale 能泛化到非常<span class="word-annot"><span class="word-anchor">精细</span><span class="word-block"><span class="english-word">meticulous</span><span class="word-info">[məˈtɪkjələs] adj. 精细的；细致的</span></span></span>的任务中去，如拣选扑克牌、操作注射器转移液体，以及在测试时只需一次示范就能学会不同的衬衫折叠方式。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/020.png" loading="lazy" alt=""></figure>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/021.png" loading="lazy" alt=""></figure>
+
+<p>论文中最有意思的发现是关于灵巧操作的神经缩放律，我们在预训练中投入的小时数与最优验证损失之间存在着非常清晰的关系，实际上就是一个<span class="word-annot"><span class="word-anchor">简洁</span><span class="word-block"><span class="english-word">concise</span><span class="word-info">[kənˈsaɪs] adj. 简洁的</span></span></span>的对数线性数学方程。</p>
+
+<p>距离最初针对语言模型的神经缩放律提出已整整过去了六年，如果我们把所有数据策略放到一张图上，横轴 X 轴是与机器人硬件的对齐程度，纵轴 Y 轴是可<span class="word-annot"><span class="word-anchor">扩展性</span><span class="word-block"><span class="english-word">scalability</span><span class="word-info">[ˌskeɪləˈbɪlɪti] n. 可扩展性</span></span></span>，可以看出：</p>
+
+<p>遥操作的可扩展性最差，可穿戴的数据采集设备可达到数十万小时，而第一视角视频如果能转动 FSD 飞轮，未来一年内<span class="word-annot"><span class="word-anchor">轻松</span><span class="word-block"><span class="english-word">effortless</span><span class="word-info">[ˈɛfərtlɪs] adj. 轻松的；不费力的</span></span></span>达到 1,000 万小时。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/022.png" loading="lazy" alt=""></figure>
+
+<p>图中<span class="word-annot"><span class="word-anchor">虚线</span><span class="word-block"><span class="english-word">dashed</span><span class="word-info">[dæʃt] adj. 虚线的；点线的</span></span></span>的左边都属于新范式，即 Sensorized Human Data（传感器化的人类数据）。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/023.png" loading="lazy" alt=""></figure>
+
+<p>未来一两年内，遥操作比例会不断下降，降至几乎可以<span class="word-annot"><span class="word-anchor">忽略不计</span><span class="word-block"><span class="english-word">negligible</span><span class="word-info">[ˈnɛɡlɪdʒəbəl] adj. 可忽略的</span></span></span>的水平；随后会出现一批为不同硬件和使用场景<span class="word-annot"><span class="word-anchor">定制</span><span class="word-block"><span class="english-word">customize</span><span class="word-info">[ˈkʌstəmaɪz] v. 定制；按需定制</span></span></span>的数据穿戴设备；最终，机器人训练的主要<span class="word-annot"><span class="word-anchor">数据源</span><span class="word-block"><span class="english-word">datasource</span><span class="word-info">[ˈdeɪtəˌsɔrs] n. 数据源</span></span></span>，将是第一视角视频。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/024.png" loading="lazy" alt=""></figure>
+
+<p>让我们为老朋友 Teleop 默哀吧，你<span class="word-annot"><span class="word-anchor">服务</span><span class="word-block"><span class="english-word">serve</span><span class="word-info">[sɜrv] v. 服务；为…服务</span></span></span>了我们，但 Sensorized Human Data 万岁！</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/025.png" loading="lazy" alt=""></figure>
+
+<p>仿真<span class="word-annot"><span class="word-anchor">环境</span><span class="word-block"><span class="english-word">environment</span><span class="word-info">[ɪnˈvaɪrənmənt] n. 环境</span></span></span>的军备竞赛：从 iPhone 到 Dream Dojo</p>
+
+<p>数据策略讲完了吗？注意我在数据策略上画了两个<span class="word-annot"><span class="word-anchor">圈</span><span class="word-block"><span class="english-word">circle</span><span class="word-info">[ˈsɜrkəl] n. 圈；圆圈</span></span></span>，那么外圈是什么？</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/026.png" loading="lazy" alt=""></figure>
+
+<p>所有前沿 LLM 实验室现在都在花大<span class="word-annot"><span class="word-anchor">预算</span><span class="word-block"><span class="english-word">budget</span><span class="word-info">[ˈbʌdʒɪt] n. 预算</span></span></span>购置数以百万计的编码环境来做强化学习，机器人领域同样如此，我们迫切需要扩大训练环境的规模。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/027.png" loading="lazy" alt=""></figure>
+
+<p>当然，你可以直接在真实机器人上做强化学习，我们实验室用 RL 把某些任务的成功率推到接近 100%，机器人可以<span class="word-annot"><span class="word-anchor">连续</span><span class="word-block"><span class="english-word">continuous</span><span class="word-info">[kənˈtɪnjuəs] adj. 连续的</span></span></span>执行数小时。但要<span class="word-annot"><span class="word-anchor">达到</span><span class="word-block"><span class="english-word">attain</span><span class="word-info">[əˈteɪn] v. 达到；获得</span></span></span> 100 万个环境规模，按照之前的方式就需要 100 万台机器人，我们需要更好的解法。</p>
+
+<p>这里，你用 iPhone 拍一张照片，通过 3D 世界扫描流程来<span class="word-annot"><span class="word-anchor">提取</span><span class="word-block"><span class="english-word">extract</span><span class="word-info">[ɪkˈstrækt] v. 提取；抽取</span></span></span>所有物体，然后在经典物理仿真器中自动重构它们，因此，所有对象在扫描后都是可交互的。接着，再用我们称为 digital cousins 的变体，在仿真中对这些对象进行无限<span class="word-annot"><span class="word-anchor">扩增</span><span class="word-block"><span class="english-word">augment</span><span class="word-info">[ɔːɡˈmɛnt] v. 扩增；增强</span></span></span>，iPhone 因此变成了一台可装进口袋里的世界扫描仪。</p>
+
+<p>我们把这个过程叫做&amp;nbsp;</p>
+
+<p>Real-to-Sim-to-Real，即以可扩展的方式将物理世界<span class="word-annot"><span class="word-anchor">数字化</span><span class="word-block"><span class="english-word">digitize</span><span class="word-info">[ˈdɪdʒɪˌtaɪz] v. 数字化</span></span></span>重建。</p>
+
+<p>但这个方法仍然<span class="word-annot"><span class="word-anchor">依赖</span><span class="word-block"><span class="english-word">dependence</span><span class="word-info">[dɪˈpɛndəns] n. 依赖；依存</span></span></span>于传统的图形引擎，我们能不能做得更好？答案是 Dream Dojo。</p>
+
+<p>Dream Dojo 将视频世界模型升级为完整的神经模拟器，通过接收连续动作信号，实时<span class="word-annot"><span class="word-anchor">输出</span><span class="word-block"><span class="english-word">output</span><span class="word-info">[ˈaʊtˌpʊt] n. 输出</span></span></span>下一帧的 RGB 画面和传感器状态。</p>
+
+<p>你在这里看到的每一个像素都不是真实的，Dream Dojo 通过纯数据驱动的方式，捕捉并学习不同机器人的运动<span class="word-annot"><span class="word-anchor">机制</span><span class="word-block"><span class="english-word">mechanism</span><span class="word-info">[ˈmɛkəˌnɪzəm] n. 机制</span></span></span>，整个过程没有涉及任何物理方程或图形引擎。</p>
+
+<p>因此，机器人领域新的后训练范式是一套大规模并行的强化学习系统，它运行在少数真实机器人工作站之上，同时由大量 GPU 图形核心负责世界扫描，并由高强度<span class="word-annot"><span class="word-anchor">推理</span><span class="word-block"><span class="english-word">inference</span><span class="word-info">[ˈɪnfərəns] n. 推理；推断</span></span></span>计算运行世界模型。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/028.png" loading="lazy" alt=""></figure>
+
+<p><span class="word-annot"><span class="word-anchor">整合</span><span class="word-block"><span class="english-word">integrate</span><span class="word-info">[ˈɪntɪˌɡreɪt] v. 整合；集成</span></span></span>在一起，就是机器人将走的 Great Parallel。而这正在发生，我们正在<span class="word-annot"><span class="word-anchor">目睹</span><span class="word-block"><span class="english-word">witness</span><span class="word-info">[ˈwɪtnɪs] v. 目睹；见证</span></span></span>终局的开端。</p>
+
+<p>大家玩过《文明》这款游戏吗？还是我最喜欢的游戏，我把我的研究想象成在文明科技树上<span class="word-annot"><span class="word-anchor">解锁</span><span class="word-block"><span class="english-word">unlock</span><span class="word-info">[ʌnˈlɑk] v. 解锁</span></span></span>成就。</p>
+
+<p>在机器人领域，还有三项成就等待解锁，解锁完成我就<span class="word-annot"><span class="word-anchor">退休</span><span class="word-block"><span class="english-word">retire</span><span class="word-info">[rɪˈtaɪər] v. 退休</span></span></span>，老实说我有点等不及了。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/029.png" loading="lazy" alt=""></figure>
+
+<p>在<span class="word-annot"><span class="word-anchor">广泛</span><span class="word-block"><span class="english-word">extensive</span><span class="word-info">[ɪkˈstɛnsɪv] adj. 广泛的；广阔的</span></span></span>的日常活动中，你无法区分是人类还是机器人在执行任务。物理图灵测试<span class="word-annot"><span class="word-anchor">衡量</span><span class="word-block"><span class="english-word">measure</span><span class="word-info">[ˈmɛʒər] v. 衡量；测量</span></span></span>的是单位能量输入对应的单位劳动产出。看看这台机器人<span class="word-annot"><span class="word-anchor">销魂</span><span class="word-block"><span class="english-word">enchanting</span><span class="word-info">[ɪnˈtʃæntɪŋ] adj. 销魂的；迷人的</span></span></span>的姿势，我们还有很多工作要做，大概还需要 2-3 年。</p>
+
+<p>你拥有一整个机器人机群，它们可以像任何软件一样用 API 和命令行进行<span class="word-annot"><span class="word-anchor">配置</span><span class="word-block"><span class="english-word">configure</span><span class="word-info">[kənˈfɪɡjər] v. 配置；设置</span></span></span>，将来由某个版本的 Opus 9.0 来统筹编排。</p>
+
+<p>有了物理 API，我们就能实现熄灯工厂/无人工厂，这些<span class="word-annot"><span class="word-anchor">本质上</span><span class="word-block"><span class="english-word">essentially</span><span class="word-info">[ɪˈsɛnʃəli] adv. 本质上；实质上</span></span></span>就是“原子打印机”，它们以 Markdown 文件中的设计为输入，输出完全组装好的产品，整个过程完全自主运行；或者实现能<span class="word-annot"><span class="word-anchor">自动化</span><span class="word-block"><span class="english-word">automate</span><span class="word-info">[ˈɔːtəˌmeɪt] v. 自动化</span></span></span>化学、生物和医学领域科学发现的湿实验室。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/030.png" loading="lazy" alt=""></figure>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/031.png" loading="lazy" alt=""></figure>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/032.png" loading="lazy" alt=""></figure>
+
+<p>当机器人开始自主设计、改进并<span class="word-annot"><span class="word-anchor">构建</span><span class="word-block"><span class="english-word">construct</span><span class="word-info">[kənˈstrʌkt] v. 构建；建设</span></span></span>下一代自己时，将远超人类能力的边界。你可能会问：这是不是太科幻了？我们有生之年能看到吗？</p>
+
+<p>AI 社区从 2012 年 AlexNet 的第一个前向传播（一个勉强能区分猫和狗的模型）到 2026 年的 AI Ascent（我们已在<span class="word-annot"><span class="word-anchor">探讨</span><span class="word-block"><span class="english-word">explore</span><span class="word-info">[ɪkˈsplɔr] v. 探讨；探索</span></span></span>智能体自动研究），用了整整 14 年。现在再加 14 年怎么样？</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/033.png" loading="lazy" alt=""></figure>
+
+<p>2026 年恰好在 2012 和 2040 的正中间，而技术的发展并非线性推进的，而是<span class="word-annot"><span class="word-anchor">指数</span><span class="word-block"><span class="english-word">exponential</span><span class="word-info">[ˌɛkspəˈnɛnʃəl] adj. 指数的</span></span></span>级增长。所以</p>
+
+<p>我有 95% 的把握，我们将在 2040 年到达这场终局的终点，文明科技树的<span class="word-annot"><span class="word-anchor">末端</span><span class="word-block"><span class="english-word">terminal</span><span class="word-info">[ˈtɜrmɪnəl] n. 末端；终端</span></span></span>。</p>
+
+<p>如果你<span class="word-annot"><span class="word-anchor">笃信</span><span class="word-block"><span class="english-word">conviction</span><span class="word-info">[kənˈvɪkʃən] n. 笃信；确信</span></span></span>机器人学，机器人学亦将回馈于你。</p>
+
+<p>致在座的各位，我想我们这一代人，生不逢时，既错过了探索地球的黄金时代，又未能赶上<span class="word-annot"><span class="word-anchor">遨游</span><span class="word-block"><span class="english-word">roam</span><span class="word-info">[roʊm] v. 遨游；漫游</span></span></span>星辰的浩瀚征途，但我们又生逢其时，恰好处在解决机器人技术的这个时刻。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-nvidia-scientist-2040-robot-prediction/034.png" loading="lazy" alt=""></figure>
+
+<p>十字路口正在寻找独立<span class="word-annot"><span class="word-anchor">撰稿人</span><span class="word-block"><span class="english-word">contributor</span><span class="word-info">[kənˈtrɪbjətər] n. 撰稿人</span></span></span>，撰写 AI 产品和模型评测。如果你写过类似文章：《实测 PixVerse C1》、《实测 LibTV》，请<span class="word-annot"><span class="word-anchor">联系</span><span class="word-block"><span class="english-word">contact</span><span class="word-info">[ˈkɑntækt] v. 联系</span></span></span> zeo0811@gmail.com</p>
+
+<p>&amp;nbsp;，邮件内容请<span class="word-annot"><span class="word-anchor">包括</span><span class="word-block"><span class="english-word">include</span><span class="word-info">[ɪnˈkluːd] v. 包括</span></span></span>：① 个人介绍、② 你写过的 AI 评测文章。我们会提供有竞争力的<span class="word-annot"><span class="word-anchor">稿酬</span><span class="word-block"><span class="english-word">remuneration</span><span class="word-info">[rɪˌmjuːnəˈreɪʃən] n. 稿酬；报酬</span></span></span>。期待与你一起<span class="word-annot"><span class="word-anchor">观察</span><span class="word-block"><span class="english-word">observe</span><span class="word-info">[əbˈzɜrv] v. 观察</span></span></span>与记录 AI 时代 🎪</p>
+                </article>
+
+                <div class="subtitle">📖 重点词汇</div>
+                <div class="vocab-table-wrap">
+                <table class="vocab-table">
+                    <thead>
+                        <tr><th>词汇</th><th>音标</th><th>词性</th><th>释义</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>endgame</td><td>[ˈendˌɡeɪm]</td><td>n.</td><td>终局；结局</td></tr>
+                        <tr><td>narrative</td><td>[ˈnærətɪv]</td><td>n.</td><td>叙事；叙述</td></tr>
+                        <tr><td>panorama</td><td>[ˌpænəˈræmə]</td><td>n.</td><td>全景；全貌</td></tr>
+                        <tr><td>landscape</td><td>[ˈlændskeɪp]</td><td>n.</td><td>格局；整体布局</td></tr>
+                        <tr><td>framework</td><td>[ˈfreɪmˌwɜrk]</td><td>n.</td><td>框架；结构</td></tr>
+                        <tr><td>pioneer</td><td>[ˌpaɪəˈnɪr]</td><td>n.</td><td>领军人物；先驱</td></tr>
+                        <tr><td>breakthrough</td><td>[ˈbreɪkˌθruː]</td><td>n.</td><td>突破；重大进展</td></tr>
+                        <tr><td>pathway</td><td>[ˈpæθˌweɪ]</td><td>n.</td><td>路径；途径</td></tr>
+                        <tr><td>strategy</td><td>[ˈstrætədʒi]</td><td>n.</td><td>策略；战略</td></tr>
+                        <tr><td>parameter</td><td>[pəˈræmɪtər]</td><td>n.</td><td>参数</td></tr>
+                        <tr><td>emerge</td><td>[ɪˈmɜrdʒ]</td><td>v.</td><td>涌现；出现</td></tr>
+                        <tr><td>paradigm</td><td>[ˈpærədaɪm]</td><td>n.</td><td>范式；典范</td></tr>
+                        <tr><td>invasive</td><td>[ɪnˈveɪsɪv]</td><td>adj.</td><td>侵入性的</td></tr>
+                        <tr><td>annotation</td><td>[ˌænəˈteɪʃən]</td><td>n.</td><td>标注；注释</td></tr>
+                        <tr><td>precision</td><td>[prɪˈsɪʒən]</td><td>n.</td><td>精度；精确度</td></tr>
+                        <tr><td>dexterity</td><td>[dɛkˈstɛrɪti]</td><td>n.</td><td>灵巧；灵活性</td></tr>
+                        <tr><td>frontier</td><td>[frʌnˈtɪr]</td><td>n.</td><td>前沿；最前沿</td></tr>
+                        <tr><td>solution</td><td>[səˈluːʃən]</td><td>n.</td><td>解法；解决方案</td></tr>
+                        <tr><td>randomize</td><td>[ˈrændəmaɪz]</td><td>v.</td><td>随机化</td></tr>
+                        <tr><td>simulator</td><td>[ˈsɪmjəˌleɪtər]</td><td>n.</td><td>模拟器</td></tr>
+                        <tr><td>equation</td><td>[ɪˈkweɪʒən]</td><td>n.</td><td>方程式；公式</td></tr>
+                        <tr><td>define</td><td>[dɪˈfaɪn]</td><td>v.</td><td>定义</td></tr>
+                        <tr><td>distinguish</td><td>[dɪˈstɪŋɡwɪʃ]</td><td>v.</td><td>区分；辨别</td></tr>
+                        <tr><td>orchestrate</td><td>[ˈɔrkəˌstreɪt]</td><td>v.</td><td>编排；协调</td></tr>
+                        <tr><td>autonomous</td><td>[ɔːˈtɑnəməs]</td><td>adj.</td><td>自主的；自治的</td></tr>
+                        <tr><td>confidence</td><td>[ˈkɑnfɪdəns]</td><td>n.</td><td>把握；信心</td></tr>
+                        <tr><td>shoulder</td><td>[ˈʃoʊldər]</td><td>v.</td><td>扛；肩负</td></tr>
+                        <tr><td>engrave</td><td>[ɪnˈɡreɪv]</td><td>v.</td><td>雕刻；刻写</td></tr>
+                        <tr><td>encounter</td><td>[ɪnˈkaʊntər]</td><td>v.</td><td>遇见；碰见</td></tr>
+                        <tr><td>intern</td><td>[ˈɪntɜrn]</td><td>n.</td><td>实习生</td></tr>
+                        <tr><td>recognize</td><td>[ˈrɛkəɡnaɪz]</td><td>v.</td><td>认出；识别</td></tr>
+                        <tr><td>relic</td><td>[ˈrɛlɪk]</td><td>n.</td><td>古董；老古董</td></tr>
+                        <tr><td>participate</td><td>[pɑrˈtɪsəˌpeɪt]</td><td>v.</td><td>参与；参加</td></tr>
+                        <tr><td>describe</td><td>[dɪˈskraɪb]</td><td>v.</td><td>描述；形容</td></tr>
+                        <tr><td>expectation</td><td>[ˌɛkspɛkˈteɪʃən]</td><td>n.</td><td>预期；期望</td></tr>
+                        <tr><td>journey</td><td>[ˈdʒɜrni]</td><td>n.</td><td>旅程；旅途</td></tr>
+                        <tr><td>morphology</td><td>[mɔrˈfɑlədʒi]</td><td>n.</td><td>形态；词法</td></tr>
+                        <tr><td>alignment</td><td>[əˈlaɪnmənt]</td><td>n.</td><td>对齐；校准</td></tr>
+                        <tr><td>surpass</td><td>[sərˈpæs]</td><td>v.</td><td>超越；超过</td></tr>
+                        <tr><td>ultimate</td><td>[ˈʌltəmɪt]</td><td>adj.</td><td>终极的；最终的</td></tr>
+                        <tr><td>mythical</td><td>[ˈmɪθɪkəl]</td><td>adj.</td><td>神话的；虚构的</td></tr>
+                        <tr><td>envy</td><td>[ˈɛnvi]</td><td>n.</td><td>嫉妒；羡慕</td></tr>
+                        <tr><td>copy</td><td>[ˈkɑpi]</td><td>v.</td><td>抄袭；复制</td></tr>
+                        <tr><td>simulate</td><td>[ˈsɪmjəˌleɪt]</td><td>v.</td><td>模拟；仿真</td></tr>
+                        <tr><td>concern</td><td>[kənˈsɜrn]</td><td>v.</td><td>关心；关注</td></tr>
+                        <tr><td>reinforce</td><td>[ˌriːɪnˈfɔrs]</td><td>v.</td><td>强化；加强</td></tr>
+                        <tr><td>replicate</td><td>[ˈrɛplɪˌkeɪt]</td><td>v.</td><td>复制；重复</td></tr>
+                        <tr><td>reduce</td><td>[rɪˈdus]</td><td>v.</td><td>归结；归纳</td></tr>
+                        <tr><td>ascend</td><td>[əˈsɛnd]</td><td>v.</td><td>崛起；上升</td></tr>
+                        <tr><td>dominate</td><td>[ˈdɑməˌneɪt]</td><td>v.</td><td>主导；支配</td></tr>
+                        <tr><td>logic</td><td>[ˈlɑdʒɪk]</td><td>n.</td><td>逻辑</td></tr>
+                        <tr><td>allocate</td><td>[ˈæləˌkeɪt]</td><td>v.</td><td>分配；分派</td></tr>
+                        <tr><td>encode</td><td>[ɪnˈkoʊd]</td><td>v.</td><td>编码</td></tr>
+                        <tr><td>transfer</td><td>[trænsˈfɜr]</td><td>n.</td><td>迁移；转移</td></tr>
+                        <tr><td>grand</td><td>[ɡrænd]</td><td>adj.</td><td>宏大的；壮丽的</td></tr>
+                        <tr><td>garbage</td><td>[ˈɡɑrbɪdʒ]</td><td>n.</td><td>垃圾</td></tr>
+                        <tr><td>surveillance</td><td>[sərˈveɪləns]</td><td>n.</td><td>安防；监控</td></tr>
+                        <tr><td>realize</td><td>[ˈriːəˌlaɪz]</td><td>v.</td><td>意识到；认识到</td></tr>
+                        <tr><td>generate</td><td>[ˈdʒɛnəˌreɪt]</td><td>v.</td><td>生成；产生</td></tr>
+                        <tr><td>capture</td><td>[ˈkæptʃər]</td><td>v.</td><td>捕捉；捕获</td></tr>
+                        <tr><td>planning</td><td>[ˈplænɪŋ]</td><td>n.</td><td>规划</td></tr>
+                        <tr><td>labyrinth</td><td>[ˈlæbərɪnθ]</td><td>n.</td><td>迷宫</td></tr>
+                        <tr><td>optional</td><td>[ˈɑpʃənəl]</td><td>adj.</td><td>可选的</td></tr>
+                        <tr><td>representative</td><td>[ˌrɛprɪˈzɛntətɪv]</td><td>adj.</td><td>有代表性的</td></tr>
+                        <tr><td>superposition</td><td>[ˌsupərpəˈzɪʃən]</td><td>n.</td><td>叠加；超位置</td></tr>
+                        <tr><td>adopt</td><td>[əˈdɑpt]</td><td>v.</td><td>采取；采纳</td></tr>
+                        <tr><td>render</td><td>[ˈrɛndər]</td><td>v.</td><td>渲染</td></tr>
+                        <tr><td>decode</td><td>[diːˈkoʊd]</td><td>v.</td><td>解码</td></tr>
+                        <tr><td>correlation</td><td>[ˌkɔrəˈleɪʃən]</td><td>n.</td><td>相关性；关联</td></tr>
+                        <tr><td>effective</td><td>[ɪˈfɛktɪv]</td><td>adj.</td><td>有效的</td></tr>
+                        <tr><td>hallucination</td><td>[həˌluːsɪˈneɪʃən]</td><td>n.</td><td>幻觉</td></tr>
+                        <tr><td>citizen</td><td>[ˈsɪtɪzən]</td><td>n.</td><td>公民</td></tr>
+                        <tr><td>random</td><td>[ˈrændəm]</td><td>adj.</td><td>随机的</td></tr>
+                        <tr><td>robust</td><td>[roʊˈbʌst]</td><td>adj.</td><td>稳健的；鲁棒的</td></tr>
+                        <tr><td>prompt</td><td>[prɑmpt]</td><td>n.</td><td>提示</td></tr>
+                        <tr><td>mourn</td><td>[mɔrn]</td><td>v.</td><td>默哀；哀悼</td></tr>
+                        <tr><td>warfare</td><td>[ˈwɔrˌfɛr]</td><td>n.</td><td>战争；斗争</td></tr>
+                        <tr><td>chief</td><td>[tʃiːf]</td><td>adj.</td><td>首席的；主要的</td></tr>
+                        <tr><td>salary</td><td>[ˈsæləri]</td><td>n.</td><td>薪水；工资</td></tr>
+                        <tr><td>latency</td><td>[ˈleɪtənsi]</td><td>n.</td><td>延迟；潜伏期</td></tr>
+                        <tr><td>ceiling</td><td>[ˈsiːlɪŋ]</td><td>n.</td><td>上限；天花板</td></tr>
+                        <tr><td>mechanical</td><td>[mɪˈkænɪkəl]</td><td>adj.</td><td>机械的</td></tr>
+                        <tr><td>mundane</td><td>[mʌnˈdeɪn]</td><td>adj.</td><td>平淡的；平凡的</td></tr>
+                        <tr><td>exclude</td><td>[ɪkˈskluːd]</td><td>v.</td><td>排除</td></tr>
+                        <tr><td>spawn</td><td>[spɔːn]</td><td>v.</td><td>催生；催发</td></tr>
+                        <tr><td>mapping</td><td>[ˈmæpɪŋ]</td><td>n.</td><td>映射</td></tr>
+                        <tr><td>operation</td><td>[ˌɑpəˈreɪʃən]</td><td>n.</td><td>运作；运行</td></tr>
+                        <tr><td>proficient</td><td>[prəˈfɪʃənt]</td><td>adj.</td><td>熟练的；精通的</td></tr>
+                        <tr><td>wearable</td><td>[ˈwɛrəbəl]</td><td>adj.</td><td>可穿戴的</td></tr>
+                        <tr><td>operate</td><td>[ˈɑpəˌreɪt]</td><td>v.</td><td>运行；操作</td></tr>
+                        <tr><td>bind</td><td>[baɪnd]</td><td>v.</td><td>绑；束缚</td></tr>
+                        <tr><td>scaling</td><td>[ˈskeɪlɪŋ]</td><td>n.</td><td>规模化；扩展</td></tr>
+                        <tr><td>contribute</td><td>[kənˈtrɪbjuːt]</td><td>v.</td><td>贡献</td></tr>
+                        <tr><td>perceive</td><td>[pərˈsiːv]</td><td>v.</td><td>感知；察觉</td></tr>
+                        <tr><td>intrusive</td><td>[ɪnˈtruːsɪv]</td><td>adj.</td><td>侵入的</td></tr>
+                        <tr><td>equivalent</td><td>[ɪˈkwɪvələnt]</td><td>n.</td><td>等价物；对等物</td></tr>
+                        <tr><td>pretraining</td><td>[priːˈtreɪnɪŋ]</td><td>n.</td><td>预训练</td></tr>
+                        <tr><td>achievement</td><td>[əˈtʃiːvmənt]</td><td>n.</td><td>成果；成就</td></tr>
+                        <tr><td>agile</td><td>[ˈædʒaɪl]</td><td>adj.</td><td>灵巧的；敏捷的</td></tr>
+                        <tr><td>posture</td><td>[ˈpɑstʃər]</td><td>n.</td><td>姿态；姿势</td></tr>
+                        <tr><td>subsequent</td><td>[ˈsʌbsɪkwənt]</td><td>adj.</td><td>随后的；后来的</td></tr>
+                        <tr><td>meticulous</td><td>[məˈtɪkjələs]</td><td>adj.</td><td>精细的；细致的</td></tr>
+                        <tr><td>concise</td><td>[kənˈsaɪs]</td><td>adj.</td><td>简洁的</td></tr>
+                        <tr><td>scalability</td><td>[ˌskeɪləˈbɪlɪti]</td><td>n.</td><td>可扩展性</td></tr>
+                        <tr><td>effortless</td><td>[ˈɛfərtlɪs]</td><td>adj.</td><td>轻松的；不费力的</td></tr>
+                        <tr><td>dashed</td><td>[dæʃt]</td><td>adj.</td><td>虚线的；点线的</td></tr>
+                        <tr><td>negligible</td><td>[ˈnɛɡlɪdʒəbəl]</td><td>adj.</td><td>可忽略的</td></tr>
+                        <tr><td>customize</td><td>[ˈkʌstəmaɪz]</td><td>v.</td><td>定制；按需定制</td></tr>
+                        <tr><td>datasource</td><td>[ˈdeɪtəˌsɔrs]</td><td>n.</td><td>数据源</td></tr>
+                        <tr><td>serve</td><td>[sɜrv]</td><td>v.</td><td>服务；为…服务</td></tr>
+                        <tr><td>environment</td><td>[ɪnˈvaɪrənmənt]</td><td>n.</td><td>环境</td></tr>
+                        <tr><td>circle</td><td>[ˈsɜrkəl]</td><td>n.</td><td>圈；圆圈</td></tr>
+                        <tr><td>budget</td><td>[ˈbʌdʒɪt]</td><td>n.</td><td>预算</td></tr>
+                        <tr><td>continuous</td><td>[kənˈtɪnjuəs]</td><td>adj.</td><td>连续的</td></tr>
+                        <tr><td>attain</td><td>[əˈteɪn]</td><td>v.</td><td>达到；获得</td></tr>
+                        <tr><td>extract</td><td>[ɪkˈstrækt]</td><td>v.</td><td>提取；抽取</td></tr>
+                        <tr><td>augment</td><td>[ɔːɡˈmɛnt]</td><td>v.</td><td>扩增；增强</td></tr>
+                        <tr><td>digitize</td><td>[ˈdɪdʒɪˌtaɪz]</td><td>v.</td><td>数字化</td></tr>
+                        <tr><td>dependence</td><td>[dɪˈpɛndəns]</td><td>n.</td><td>依赖；依存</td></tr>
+                        <tr><td>output</td><td>[ˈaʊtˌpʊt]</td><td>n.</td><td>输出</td></tr>
+                        <tr><td>mechanism</td><td>[ˈmɛkəˌnɪzəm]</td><td>n.</td><td>机制</td></tr>
+                        <tr><td>inference</td><td>[ˈɪnfərəns]</td><td>n.</td><td>推理；推断</td></tr>
+                        <tr><td>integrate</td><td>[ˈɪntɪˌɡreɪt]</td><td>v.</td><td>整合；集成</td></tr>
+                        <tr><td>witness</td><td>[ˈwɪtnɪs]</td><td>v.</td><td>目睹；见证</td></tr>
+                        <tr><td>unlock</td><td>[ʌnˈlɑk]</td><td>v.</td><td>解锁</td></tr>
+                        <tr><td>retire</td><td>[rɪˈtaɪər]</td><td>v.</td><td>退休</td></tr>
+                        <tr><td>extensive</td><td>[ɪkˈstɛnsɪv]</td><td>adj.</td><td>广泛的；广阔的</td></tr>
+                        <tr><td>measure</td><td>[ˈmɛʒər]</td><td>v.</td><td>衡量；测量</td></tr>
+                        <tr><td>enchanting</td><td>[ɪnˈtʃæntɪŋ]</td><td>adj.</td><td>销魂的；迷人的</td></tr>
+                        <tr><td>configure</td><td>[kənˈfɪɡjər]</td><td>v.</td><td>配置；设置</td></tr>
+                        <tr><td>essentially</td><td>[ɪˈsɛnʃəli]</td><td>adv.</td><td>本质上；实质上</td></tr>
+                        <tr><td>automate</td><td>[ˈɔːtəˌmeɪt]</td><td>v.</td><td>自动化</td></tr>
+                        <tr><td>construct</td><td>[kənˈstrʌkt]</td><td>v.</td><td>构建；建设</td></tr>
+                        <tr><td>explore</td><td>[ɪkˈsplɔr]</td><td>v.</td><td>探讨；探索</td></tr>
+                        <tr><td>exponential</td><td>[ˌɛkspəˈnɛnʃəl]</td><td>adj.</td><td>指数的</td></tr>
+                        <tr><td>terminal</td><td>[ˈtɜrmɪnəl]</td><td>n.</td><td>末端；终端</td></tr>
+                        <tr><td>conviction</td><td>[kənˈvɪkʃən]</td><td>n.</td><td>笃信；确信</td></tr>
+                        <tr><td>roam</td><td>[roʊm]</td><td>v.</td><td>遨游；漫游</td></tr>
+                        <tr><td>contributor</td><td>[kənˈtrɪbjətər]</td><td>n.</td><td>撰稿人</td></tr>
+                        <tr><td>contact</td><td>[ˈkɑntækt]</td><td>v.</td><td>联系</td></tr>
+                        <tr><td>include</td><td>[ɪnˈkluːd]</td><td>v.</td><td>包括</td></tr>
+                        <tr><td>remuneration</td><td>[rɪˌmjuːnəˈreɪʃən]</td><td>n.</td><td>稿酬；报酬</td></tr>
+                        <tr><td>observe</td><td>[əbˈzɜrv]</td><td>v.</td><td>观察</td></tr>
+                    </tbody>
+                </table>
+                </div>
+
+                <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+                    <a href="../" style="color: #667eea; text-decoration: none;">← 返回首页</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MingoX | Multimedia Post in Mixed Languages | Powered by Gitee Pages</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

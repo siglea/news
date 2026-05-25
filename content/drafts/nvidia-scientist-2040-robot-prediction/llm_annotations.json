@@ -1,0 +1,1253 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "终局",
+      "en": "endgame",
+      "ipa": "[ˈendˌɡeɪm]",
+      "pos": "n.",
+      "gloss": "终局；结局"
+    },
+    {
+      "i": 1,
+      "skip": true
+    },
+    {
+      "i": 2,
+      "skip": true
+    },
+    {
+      "i": 3,
+      "zh": "叙事",
+      "en": "narrative",
+      "ipa": "[ˈnærətɪv]",
+      "pos": "n.",
+      "gloss": "叙事；叙述"
+    },
+    {
+      "i": 4,
+      "zh": "全景图",
+      "en": "panorama",
+      "ipa": "[ˌpænəˈræmə]",
+      "pos": "n.",
+      "gloss": "全景；全貌"
+    },
+    {
+      "i": 5,
+      "zh": "格局",
+      "en": "landscape",
+      "ipa": "[ˈlændskeɪp]",
+      "pos": "n.",
+      "gloss": "格局；整体布局"
+    },
+    {
+      "i": 6,
+      "zh": "框架",
+      "en": "framework",
+      "ipa": "[ˈfreɪmˌwɜrk]",
+      "pos": "n.",
+      "gloss": "框架；结构"
+    },
+    {
+      "i": 7,
+      "zh": "领军人物",
+      "en": "pioneer",
+      "ipa": "[ˌpaɪəˈnɪr]",
+      "pos": "n.",
+      "gloss": "领军人物；先驱"
+    },
+    {
+      "i": 8,
+      "zh": "突破",
+      "en": "breakthrough",
+      "ipa": "[ˈbreɪkˌθruː]",
+      "pos": "n.",
+      "gloss": "突破；重大进展"
+    },
+    {
+      "i": 9,
+      "zh": "路径",
+      "en": "pathway",
+      "ipa": "[ˈpæθˌweɪ]",
+      "pos": "n.",
+      "gloss": "路径；途径"
+    },
+    {
+      "i": 10,
+      "zh": "策略",
+      "en": "strategy",
+      "ipa": "[ˈstrætədʒi]",
+      "pos": "n.",
+      "gloss": "策略；战略"
+    },
+    {
+      "i": 11,
+      "zh": "参数",
+      "en": "parameter",
+      "ipa": "[pəˈræmɪtər]",
+      "pos": "n.",
+      "gloss": "参数"
+    },
+    {
+      "i": 12,
+      "zh": "涌现",
+      "en": "emerge",
+      "ipa": "[ɪˈmɜrdʒ]",
+      "pos": "v.",
+      "gloss": "涌现；出现"
+    },
+    {
+      "i": 13,
+      "zh": "范式",
+      "en": "paradigm",
+      "ipa": "[ˈpærədaɪm]",
+      "pos": "n.",
+      "gloss": "范式；典范"
+    },
+    {
+      "i": 14,
+      "zh": "侵入性",
+      "en": "invasive",
+      "ipa": "[ɪnˈveɪsɪv]",
+      "pos": "adj.",
+      "gloss": "侵入性的"
+    },
+    {
+      "i": 15,
+      "zh": "标注",
+      "en": "annotation",
+      "ipa": "[ˌænəˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "标注；注释"
+    },
+    {
+      "i": 16,
+      "zh": "精度",
+      "en": "precision",
+      "ipa": "[prɪˈsɪʒən]",
+      "pos": "n.",
+      "gloss": "精度；精确度"
+    },
+    {
+      "i": 17,
+      "zh": "灵巧度",
+      "en": "dexterity",
+      "ipa": "[dɛkˈstɛrɪti]",
+      "pos": "n.",
+      "gloss": "灵巧；灵活性"
+    },
+    {
+      "i": 18,
+      "zh": "前沿",
+      "en": "frontier",
+      "ipa": "[frʌnˈtɪr]",
+      "pos": "n.",
+      "gloss": "前沿；最前沿"
+    },
+    {
+      "i": 19,
+      "zh": "解法",
+      "en": "solution",
+      "ipa": "[səˈluːʃən]",
+      "pos": "n.",
+      "gloss": "解法；解决方案"
+    },
+    {
+      "i": 20,
+      "zh": "随机化",
+      "en": "randomize",
+      "ipa": "[ˈrændəmaɪz]",
+      "pos": "v.",
+      "gloss": "随机化"
+    },
+    {
+      "i": 21,
+      "zh": "模拟器",
+      "en": "simulator",
+      "ipa": "[ˈsɪmjəˌleɪtər]",
+      "pos": "n.",
+      "gloss": "模拟器"
+    },
+    {
+      "i": 22,
+      "zh": "方程式",
+      "en": "equation",
+      "ipa": "[ɪˈkweɪʒən]",
+      "pos": "n.",
+      "gloss": "方程式；公式"
+    },
+    {
+      "i": 23,
+      "zh": "定义",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "定义"
+    },
+    {
+      "i": 24,
+      "zh": "区分",
+      "en": "distinguish",
+      "ipa": "[dɪˈstɪŋɡwɪʃ]",
+      "pos": "v.",
+      "gloss": "区分；辨别"
+    },
+    {
+      "i": 25,
+      "zh": "编排",
+      "en": "orchestrate",
+      "ipa": "[ˈɔrkəˌstreɪt]",
+      "pos": "v.",
+      "gloss": "编排；协调"
+    },
+    {
+      "i": 26,
+      "zh": "自主",
+      "en": "autonomous",
+      "ipa": "[ɔːˈtɑnəməs]",
+      "pos": "adj.",
+      "gloss": "自主的；自治的"
+    },
+    {
+      "i": 27,
+      "zh": "把握",
+      "en": "confidence",
+      "ipa": "[ˈkɑnfɪdəns]",
+      "pos": "n.",
+      "gloss": "把握；信心"
+    },
+    {
+      "i": 28,
+      "zh": "扛",
+      "en": "shoulder",
+      "ipa": "[ˈʃoʊldər]",
+      "pos": "v.",
+      "gloss": "扛；肩负"
+    },
+    {
+      "i": 29,
+      "zh": "刻",
+      "en": "engrave",
+      "ipa": "[ɪnˈɡreɪv]",
+      "pos": "v.",
+      "gloss": "雕刻；刻写"
+    },
+    {
+      "i": 30,
+      "zh": "见到",
+      "en": "encounter",
+      "ipa": "[ɪnˈkaʊntər]",
+      "pos": "v.",
+      "gloss": "遇见；碰见"
+    },
+    {
+      "i": 31,
+      "zh": "实习生",
+      "en": "intern",
+      "ipa": "[ˈɪntɜrn]",
+      "pos": "n.",
+      "gloss": "实习生"
+    },
+    {
+      "i": 32,
+      "skip": true
+    },
+    {
+      "i": 33,
+      "skip": true
+    },
+    {
+      "i": 34,
+      "zh": "认出",
+      "en": "recognize",
+      "ipa": "[ˈrɛkəɡnaɪz]",
+      "pos": "v.",
+      "gloss": "认出；识别"
+    },
+    {
+      "i": 35,
+      "skip": true
+    },
+    {
+      "i": 36,
+      "zh": "古董",
+      "en": "relic",
+      "ipa": "[ˈrɛlɪk]",
+      "pos": "n.",
+      "gloss": "古董；老古董"
+    },
+    {
+      "i": 37,
+      "zh": "参与",
+      "en": "participate",
+      "ipa": "[pɑrˈtɪsəˌpeɪt]",
+      "pos": "v.",
+      "gloss": "参与；参加"
+    },
+    {
+      "i": 38,
+      "zh": "描述",
+      "en": "describe",
+      "ipa": "[dɪˈskraɪb]",
+      "pos": "v.",
+      "gloss": "描述；形容"
+    },
+    {
+      "i": 39,
+      "skip": true
+    },
+    {
+      "i": 40,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌɛkspɛkˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "预期；期望"
+    },
+    {
+      "i": 41,
+      "zh": "旅程",
+      "en": "journey",
+      "ipa": "[ˈdʒɜrni]",
+      "pos": "n.",
+      "gloss": "旅程；旅途"
+    },
+    {
+      "i": 42,
+      "zh": "形态",
+      "en": "morphology",
+      "ipa": "[mɔrˈfɑlədʒi]",
+      "pos": "n.",
+      "gloss": "形态；词法"
+    },
+    {
+      "i": 43,
+      "zh": "对齐",
+      "en": "alignment",
+      "ipa": "[əˈlaɪnmənt]",
+      "pos": "n.",
+      "gloss": "对齐；校准"
+    },
+    {
+      "i": 44,
+      "zh": "超越",
+      "en": "surpass",
+      "ipa": "[sərˈpæs]",
+      "pos": "v.",
+      "gloss": "超越；超过"
+    },
+    {
+      "i": 45,
+      "zh": "终极",
+      "en": "ultimate",
+      "ipa": "[ˈʌltəmɪt]",
+      "pos": "adj.",
+      "gloss": "终极的；最终的"
+    },
+    {
+      "i": 46,
+      "zh": "神话",
+      "en": "mythical",
+      "ipa": "[ˈmɪθɪkəl]",
+      "pos": "adj.",
+      "gloss": "神话的；虚构的"
+    },
+    {
+      "i": 47,
+      "zh": "嫉妒",
+      "en": "envy",
+      "ipa": "[ˈɛnvi]",
+      "pos": "n.",
+      "gloss": "嫉妒；羡慕"
+    },
+    {
+      "i": 48,
+      "skip": true
+    },
+    {
+      "i": 49,
+      "skip": true
+    },
+    {
+      "i": 50,
+      "zh": "抄",
+      "en": "copy",
+      "ipa": "[ˈkɑpi]",
+      "pos": "v.",
+      "gloss": "抄袭；复制"
+    },
+    {
+      "i": 51,
+      "zh": "模拟",
+      "en": "simulate",
+      "ipa": "[ˈsɪmjəˌleɪt]",
+      "pos": "v.",
+      "gloss": "模拟；仿真"
+    },
+    {
+      "i": 52,
+      "zh": "关心",
+      "en": "concern",
+      "ipa": "[kənˈsɜrn]",
+      "pos": "v.",
+      "gloss": "关心；关注"
+    },
+    {
+      "i": 53,
+      "zh": "强化",
+      "en": "reinforce",
+      "ipa": "[ˌriːɪnˈfɔrs]",
+      "pos": "v.",
+      "gloss": "强化；加强"
+    },
+    {
+      "i": 54,
+      "zh": "复制",
+      "en": "replicate",
+      "ipa": "[ˈrɛplɪˌkeɪt]",
+      "pos": "v.",
+      "gloss": "复制；重复"
+    },
+    {
+      "i": 55,
+      "skip": true
+    },
+    {
+      "i": 56,
+      "zh": "归结",
+      "en": "reduce",
+      "ipa": "[rɪˈdus]",
+      "pos": "v.",
+      "gloss": "归结；归纳"
+    },
+    {
+      "i": 57,
+      "zh": "崛起",
+      "en": "ascend",
+      "ipa": "[əˈsɛnd]",
+      "pos": "v.",
+      "gloss": "崛起；上升"
+    },
+    {
+      "i": 58,
+      "zh": "主导",
+      "en": "dominate",
+      "ipa": "[ˈdɑməˌneɪt]",
+      "pos": "v.",
+      "gloss": "主导；支配"
+    },
+    {
+      "i": 59,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɑdʒɪk]",
+      "pos": "n.",
+      "gloss": "逻辑"
+    },
+    {
+      "i": 60,
+      "zh": "分配",
+      "en": "allocate",
+      "ipa": "[ˈæləˌkeɪt]",
+      "pos": "v.",
+      "gloss": "分配；分派"
+    },
+    {
+      "i": 61,
+      "zh": "编码",
+      "en": "encode",
+      "ipa": "[ɪnˈkoʊd]",
+      "pos": "v.",
+      "gloss": "编码"
+    },
+    {
+      "i": 62,
+      "zh": "迁移",
+      "en": "transfer",
+      "ipa": "[trænsˈfɜr]",
+      "pos": "n.",
+      "gloss": "迁移；转移"
+    },
+    {
+      "i": 63,
+      "skip": true
+    },
+    {
+      "i": 64,
+      "zh": "宏大",
+      "en": "grand",
+      "ipa": "[ɡrænd]",
+      "pos": "adj.",
+      "gloss": "宏大的；壮丽的"
+    },
+    {
+      "i": 65,
+      "zh": "垃圾",
+      "en": "garbage",
+      "ipa": "[ˈɡɑrbɪdʒ]",
+      "pos": "n.",
+      "gloss": "垃圾"
+    },
+    {
+      "i": 66,
+      "zh": "安防",
+      "en": "surveillance",
+      "ipa": "[sərˈveɪləns]",
+      "pos": "n.",
+      "gloss": "安防；监控"
+    },
+    {
+      "i": 67,
+      "zh": "意识到",
+      "en": "realize",
+      "ipa": "[ˈriːəˌlaɪz]",
+      "pos": "v.",
+      "gloss": "意识到；认识到"
+    },
+    {
+      "i": 68,
+      "zh": "生成",
+      "en": "generate",
+      "ipa": "[ˈdʒɛnəˌreɪt]",
+      "pos": "v.",
+      "gloss": "生成；产生"
+    },
+    {
+      "i": 69,
+      "zh": "捕捉",
+      "en": "capture",
+      "ipa": "[ˈkæptʃər]",
+      "pos": "v.",
+      "gloss": "捕捉；捕获"
+    },
+    {
+      "i": 70,
+      "zh": "规划",
+      "en": "planning",
+      "ipa": "[ˈplænɪŋ]",
+      "pos": "n.",
+      "gloss": "规划"
+    },
+    {
+      "i": 71,
+      "zh": "迷宫",
+      "en": "labyrinth",
+      "ipa": "[ˈlæbərɪnθ]",
+      "pos": "n.",
+      "gloss": "迷宫"
+    },
+    {
+      "i": 72,
+      "zh": "可选",
+      "en": "optional",
+      "ipa": "[ˈɑpʃənəl]",
+      "pos": "adj.",
+      "gloss": "可选的"
+    },
+    {
+      "i": 73,
+      "zh": "代表性",
+      "en": "representative",
+      "ipa": "[ˌrɛprɪˈzɛntətɪv]",
+      "pos": "adj.",
+      "gloss": "有代表性的"
+    },
+    {
+      "i": 74,
+      "skip": true
+    },
+    {
+      "i": 75,
+      "zh": "叠加",
+      "en": "superposition",
+      "ipa": "[ˌsupərpəˈzɪʃən]",
+      "pos": "n.",
+      "gloss": "叠加；超位置"
+    },
+    {
+      "i": 76,
+      "zh": "采取",
+      "en": "adopt",
+      "ipa": "[əˈdɑpt]",
+      "pos": "v.",
+      "gloss": "采取；采纳"
+    },
+    {
+      "i": 77,
+      "zh": "渲染",
+      "en": "render",
+      "ipa": "[ˈrɛndər]",
+      "pos": "v.",
+      "gloss": "渲染"
+    },
+    {
+      "i": 78,
+      "zh": "解码",
+      "en": "decode",
+      "ipa": "[diːˈkoʊd]",
+      "pos": "v.",
+      "gloss": "解码"
+    },
+    {
+      "i": 79,
+      "zh": "相关性",
+      "en": "correlation",
+      "ipa": "[ˌkɔrəˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "相关性；关联"
+    },
+    {
+      "i": 80,
+      "zh": "有效",
+      "en": "effective",
+      "ipa": "[ɪˈfɛktɪv]",
+      "pos": "adj.",
+      "gloss": "有效的"
+    },
+    {
+      "i": 81,
+      "zh": "幻觉",
+      "en": "hallucination",
+      "ipa": "[həˌluːsɪˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "幻觉"
+    },
+    {
+      "i": 82,
+      "zh": "公民",
+      "en": "citizen",
+      "ipa": "[ˈsɪtɪzən]",
+      "pos": "n.",
+      "gloss": "公民"
+    },
+    {
+      "i": 83,
+      "zh": "随机",
+      "en": "random",
+      "ipa": "[ˈrændəm]",
+      "pos": "adj.",
+      "gloss": "随机的"
+    },
+    {
+      "i": 84,
+      "zh": "稳健",
+      "en": "robust",
+      "ipa": "[roʊˈbʌst]",
+      "pos": "adj.",
+      "gloss": "稳健的；鲁棒的"
+    },
+    {
+      "i": 85,
+      "zh": "提示",
+      "en": "prompt",
+      "ipa": "[prɑmpt]",
+      "pos": "n.",
+      "gloss": "提示"
+    },
+    {
+      "i": 86,
+      "skip": true
+    },
+    {
+      "i": 87,
+      "skip": true
+    },
+    {
+      "i": 88,
+      "zh": "默哀",
+      "en": "mourn",
+      "ipa": "[mɔrn]",
+      "pos": "v.",
+      "gloss": "默哀；哀悼"
+    },
+    {
+      "i": 89,
+      "zh": "战争",
+      "en": "warfare",
+      "ipa": "[ˈwɔrˌfɛr]",
+      "pos": "n.",
+      "gloss": "战争；斗争"
+    },
+    {
+      "i": 90,
+      "skip": true
+    },
+    {
+      "i": 91,
+      "zh": "首席",
+      "en": "chief",
+      "ipa": "[tʃiːf]",
+      "pos": "adj.",
+      "gloss": "首席的；主要的"
+    },
+    {
+      "i": 92,
+      "zh": "薪水",
+      "en": "salary",
+      "ipa": "[ˈsæləri]",
+      "pos": "n.",
+      "gloss": "薪水；工资"
+    },
+    {
+      "i": 93,
+      "zh": "延迟",
+      "en": "latency",
+      "ipa": "[ˈleɪtənsi]",
+      "pos": "n.",
+      "gloss": "延迟；潜伏期"
+    },
+    {
+      "i": 94,
+      "zh": "上限",
+      "en": "ceiling",
+      "ipa": "[ˈsiːlɪŋ]",
+      "pos": "n.",
+      "gloss": "上限；天花板"
+    },
+    {
+      "i": 95,
+      "skip": true
+    },
+    {
+      "i": 96,
+      "zh": "机械",
+      "en": "mechanical",
+      "ipa": "[mɪˈkænɪkəl]",
+      "pos": "adj.",
+      "gloss": "机械的"
+    },
+    {
+      "i": 97,
+      "zh": "平淡",
+      "en": "mundane",
+      "ipa": "[mʌnˈdeɪn]",
+      "pos": "adj.",
+      "gloss": "平淡的；平凡的"
+    },
+    {
+      "i": 98,
+      "zh": "排除",
+      "en": "exclude",
+      "ipa": "[ɪkˈskluːd]",
+      "pos": "v.",
+      "gloss": "排除"
+    },
+    {
+      "i": 99,
+      "zh": "催生",
+      "en": "spawn",
+      "ipa": "[spɔːn]",
+      "pos": "v.",
+      "gloss": "催生；催发"
+    },
+    {
+      "i": 100,
+      "zh": "映射",
+      "en": "mapping",
+      "ipa": "[ˈmæpɪŋ]",
+      "pos": "n.",
+      "gloss": "映射"
+    },
+    {
+      "i": 101,
+      "zh": "运作",
+      "en": "operation",
+      "ipa": "[ˌɑpəˈreɪʃən]",
+      "pos": "n.",
+      "gloss": "运作；运行"
+    },
+    {
+      "i": 102,
+      "zh": "熟练",
+      "en": "proficient",
+      "ipa": "[prəˈfɪʃənt]",
+      "pos": "adj.",
+      "gloss": "熟练的；精通的"
+    },
+    {
+      "i": 103,
+      "zh": "穿戴",
+      "en": "wearable",
+      "ipa": "[ˈwɛrəbəl]",
+      "pos": "adj.",
+      "gloss": "可穿戴的"
+    },
+    {
+      "i": 104,
+      "zh": "运行",
+      "en": "operate",
+      "ipa": "[ˈɑpəˌreɪt]",
+      "pos": "v.",
+      "gloss": "运行；操作"
+    },
+    {
+      "i": 105,
+      "zh": "绑",
+      "en": "bind",
+      "ipa": "[baɪnd]",
+      "pos": "v.",
+      "gloss": "绑；束缚"
+    },
+    {
+      "i": 106,
+      "skip": true
+    },
+    {
+      "i": 107,
+      "zh": "规模化",
+      "en": "scaling",
+      "ipa": "[ˈskeɪlɪŋ]",
+      "pos": "n.",
+      "gloss": "规模化；扩展"
+    },
+    {
+      "i": 108,
+      "skip": true
+    },
+    {
+      "i": 109,
+      "zh": "贡献",
+      "en": "contribute",
+      "ipa": "[kənˈtrɪbjuːt]",
+      "pos": "v.",
+      "gloss": "贡献"
+    },
+    {
+      "i": 110,
+      "zh": "感知",
+      "en": "perceive",
+      "ipa": "[pərˈsiːv]",
+      "pos": "v.",
+      "gloss": "感知；察觉"
+    },
+    {
+      "i": 111,
+      "zh": "侵入",
+      "en": "intrusive",
+      "ipa": "[ɪnˈtruːsɪv]",
+      "pos": "adj.",
+      "gloss": "侵入的"
+    },
+    {
+      "i": 112,
+      "zh": "等价物",
+      "en": "equivalent",
+      "ipa": "[ɪˈkwɪvələnt]",
+      "pos": "n.",
+      "gloss": "等价物；对等物"
+    },
+    {
+      "i": 113,
+      "skip": true
+    },
+    {
+      "i": 114,
+      "zh": "预训练",
+      "en": "pretraining",
+      "ipa": "[priːˈtreɪnɪŋ]",
+      "pos": "n.",
+      "gloss": "预训练"
+    },
+    {
+      "i": 115,
+      "zh": "成果",
+      "en": "achievement",
+      "ipa": "[əˈtʃiːvmənt]",
+      "pos": "n.",
+      "gloss": "成果；成就"
+    },
+    {
+      "i": 116,
+      "zh": "灵巧",
+      "en": "agile",
+      "ipa": "[ˈædʒaɪl]",
+      "pos": "adj.",
+      "gloss": "灵巧的；敏捷的"
+    },
+    {
+      "i": 117,
+      "zh": "姿态",
+      "en": "posture",
+      "ipa": "[ˈpɑstʃər]",
+      "pos": "n.",
+      "gloss": "姿态；姿势"
+    },
+    {
+      "i": 118,
+      "zh": "随后",
+      "en": "subsequent",
+      "ipa": "[ˈsʌbsɪkwənt]",
+      "pos": "adj.",
+      "gloss": "随后的；后来的"
+    },
+    {
+      "i": 119,
+      "zh": "精细",
+      "en": "meticulous",
+      "ipa": "[məˈtɪkjələs]",
+      "pos": "adj.",
+      "gloss": "精细的；细致的"
+    },
+    {
+      "i": 120,
+      "zh": "简洁",
+      "en": "concise",
+      "ipa": "[kənˈsaɪs]",
+      "pos": "adj.",
+      "gloss": "简洁的"
+    },
+    {
+      "i": 121,
+      "zh": "扩展性",
+      "en": "scalability",
+      "ipa": "[ˌskeɪləˈbɪlɪti]",
+      "pos": "n.",
+      "gloss": "可扩展性"
+    },
+    {
+      "i": 122,
+      "zh": "轻松",
+      "en": "effortless",
+      "ipa": "[ˈɛfərtlɪs]",
+      "pos": "adj.",
+      "gloss": "轻松的；不费力的"
+    },
+    {
+      "i": 123,
+      "zh": "虚线",
+      "en": "dashed",
+      "ipa": "[dæʃt]",
+      "pos": "adj.",
+      "gloss": "虚线的；点线的"
+    },
+    {
+      "i": 124,
+      "zh": "忽略不计",
+      "en": "negligible",
+      "ipa": "[ˈnɛɡlɪdʒəbəl]",
+      "pos": "adj.",
+      "gloss": "可忽略的"
+    },
+    {
+      "i": 125,
+      "zh": "定制",
+      "en": "customize",
+      "ipa": "[ˈkʌstəmaɪz]",
+      "pos": "v.",
+      "gloss": "定制；按需定制"
+    },
+    {
+      "i": 126,
+      "zh": "数据源",
+      "en": "datasource",
+      "ipa": "[ˈdeɪtəˌsɔrs]",
+      "pos": "n.",
+      "gloss": "数据源"
+    },
+    {
+      "i": 127,
+      "zh": "服务",
+      "en": "serve",
+      "ipa": "[sɜrv]",
+      "pos": "v.",
+      "gloss": "服务；为…服务"
+    },
+    {
+      "i": 128,
+      "zh": "环境",
+      "en": "environment",
+      "ipa": "[ɪnˈvaɪrənmənt]",
+      "pos": "n.",
+      "gloss": "环境"
+    },
+    {
+      "i": 129,
+      "skip": true
+    },
+    {
+      "i": 130,
+      "zh": "圈",
+      "en": "circle",
+      "ipa": "[ˈsɜrkəl]",
+      "pos": "n.",
+      "gloss": "圈；圆圈"
+    },
+    {
+      "i": 131,
+      "zh": "预算",
+      "en": "budget",
+      "ipa": "[ˈbʌdʒɪt]",
+      "pos": "n.",
+      "gloss": "预算"
+    },
+    {
+      "i": 132,
+      "zh": "连续",
+      "en": "continuous",
+      "ipa": "[kənˈtɪnjuəs]",
+      "pos": "adj.",
+      "gloss": "连续的"
+    },
+    {
+      "i": 133,
+      "zh": "达到",
+      "en": "attain",
+      "ipa": "[əˈteɪn]",
+      "pos": "v.",
+      "gloss": "达到；获得"
+    },
+    {
+      "i": 134,
+      "zh": "提取",
+      "en": "extract",
+      "ipa": "[ɪkˈstrækt]",
+      "pos": "v.",
+      "gloss": "提取；抽取"
+    },
+    {
+      "i": 135,
+      "zh": "扩增",
+      "en": "augment",
+      "ipa": "[ɔːɡˈmɛnt]",
+      "pos": "v.",
+      "gloss": "扩增；增强"
+    },
+    {
+      "i": 136,
+      "skip": true
+    },
+    {
+      "i": 137,
+      "zh": "数字化",
+      "en": "digitize",
+      "ipa": "[ˈdɪdʒɪˌtaɪz]",
+      "pos": "v.",
+      "gloss": "数字化"
+    },
+    {
+      "i": 138,
+      "zh": "依赖",
+      "en": "dependence",
+      "ipa": "[dɪˈpɛndəns]",
+      "pos": "n.",
+      "gloss": "依赖；依存"
+    },
+    {
+      "i": 139,
+      "skip": true
+    },
+    {
+      "i": 140,
+      "zh": "输出",
+      "en": "output",
+      "ipa": "[ˈaʊtˌpʊt]",
+      "pos": "n.",
+      "gloss": "输出"
+    },
+    {
+      "i": 141,
+      "zh": "机制",
+      "en": "mechanism",
+      "ipa": "[ˈmɛkəˌnɪzəm]",
+      "pos": "n.",
+      "gloss": "机制"
+    },
+    {
+      "i": 142,
+      "zh": "推理",
+      "en": "inference",
+      "ipa": "[ˈɪnfərəns]",
+      "pos": "n.",
+      "gloss": "推理；推断"
+    },
+    {
+      "i": 143,
+      "zh": "整合",
+      "en": "integrate",
+      "ipa": "[ˈɪntɪˌɡreɪt]",
+      "pos": "v.",
+      "gloss": "整合；集成"
+    },
+    {
+      "i": 144,
+      "zh": "目睹",
+      "en": "witness",
+      "ipa": "[ˈwɪtnɪs]",
+      "pos": "v.",
+      "gloss": "目睹；见证"
+    },
+    {
+      "i": 145,
+      "skip": true
+    },
+    {
+      "i": 146,
+      "zh": "解锁",
+      "en": "unlock",
+      "ipa": "[ʌnˈlɑk]",
+      "pos": "v.",
+      "gloss": "解锁"
+    },
+    {
+      "i": 147,
+      "zh": "退休",
+      "en": "retire",
+      "ipa": "[rɪˈtaɪər]",
+      "pos": "v.",
+      "gloss": "退休"
+    },
+    {
+      "i": 148,
+      "zh": "广泛",
+      "en": "extensive",
+      "ipa": "[ɪkˈstɛnsɪv]",
+      "pos": "adj.",
+      "gloss": "广泛的；广阔的"
+    },
+    {
+      "i": 149,
+      "zh": "衡量",
+      "en": "measure",
+      "ipa": "[ˈmɛʒər]",
+      "pos": "v.",
+      "gloss": "衡量；测量"
+    },
+    {
+      "i": 150,
+      "zh": "销魂",
+      "en": "enchanting",
+      "ipa": "[ɪnˈtʃæntɪŋ]",
+      "pos": "adj.",
+      "gloss": "销魂的；迷人的"
+    },
+    {
+      "i": 151,
+      "zh": "配置",
+      "en": "configure",
+      "ipa": "[kənˈfɪɡjər]",
+      "pos": "v.",
+      "gloss": "配置；设置"
+    },
+    {
+      "i": 152,
+      "zh": "本质上",
+      "en": "essentially",
+      "ipa": "[ɪˈsɛnʃəli]",
+      "pos": "adv.",
+      "gloss": "本质上；实质上"
+    },
+    {
+      "i": 153,
+      "zh": "自动化",
+      "en": "automate",
+      "ipa": "[ˈɔːtəˌmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 154,
+      "zh": "构建",
+      "en": "construct",
+      "ipa": "[kənˈstrʌkt]",
+      "pos": "v.",
+      "gloss": "构建；建设"
+    },
+    {
+      "i": 155,
+      "skip": true
+    },
+    {
+      "i": 156,
+      "skip": true
+    },
+    {
+      "i": 157,
+      "zh": "探讨",
+      "en": "explore",
+      "ipa": "[ɪkˈsplɔr]",
+      "pos": "v.",
+      "gloss": "探讨；探索"
+    },
+    {
+      "i": 158,
+      "skip": true
+    },
+    {
+      "i": 159,
+      "zh": "指数",
+      "en": "exponential",
+      "ipa": "[ˌɛkspəˈnɛnʃəl]",
+      "pos": "adj.",
+      "gloss": "指数的"
+    },
+    {
+      "i": 160,
+      "skip": true
+    },
+    {
+      "i": 161,
+      "zh": "末端",
+      "en": "terminal",
+      "ipa": "[ˈtɜrmɪnəl]",
+      "pos": "n.",
+      "gloss": "末端；终端"
+    },
+    {
+      "i": 162,
+      "zh": "笃信",
+      "en": "conviction",
+      "ipa": "[kənˈvɪkʃən]",
+      "pos": "n.",
+      "gloss": "笃信；确信"
+    },
+    {
+      "i": 163,
+      "zh": "遨游",
+      "en": "roam",
+      "ipa": "[roʊm]",
+      "pos": "v.",
+      "gloss": "遨游；漫游"
+    },
+    {
+      "i": 164,
+      "zh": "撰稿人",
+      "en": "contributor",
+      "ipa": "[kənˈtrɪbjətər]",
+      "pos": "n.",
+      "gloss": "撰稿人"
+    },
+    {
+      "i": 165,
+      "zh": "联系",
+      "en": "contact",
+      "ipa": "[ˈkɑntækt]",
+      "pos": "v.",
+      "gloss": "联系"
+    },
+    {
+      "i": 166,
+      "zh": "包括",
+      "en": "include",
+      "ipa": "[ɪnˈkluːd]",
+      "pos": "v.",
+      "gloss": "包括"
+    },
+    {
+      "i": 167,
+      "zh": "稿酬",
+      "en": "remuneration",
+      "ipa": "[rɪˌmjuːnəˈreɪʃən]",
+      "pos": "n.",
+      "gloss": "稿酬；报酬"
+    },
+    {
+      "i": 168,
+      "zh": "观察",
+      "en": "observe",
+      "ipa": "[əbˈzɜrv]",
+      "pos": "v.",
+      "gloss": "观察"
+    }
+  ]
+}

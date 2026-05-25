@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>黄仁勋刚走，苏妈就来了 | 附演讲全文 | Jensen Huang and Lisa Su Speeches Full Text | MingoX</title>
+    <meta name="description" content="黄仁勋刚走苏妈就来了——英伟达与AMD两位CEO的演讲全文。GPU芯片竞争格局、AI算力未来趋势与产业影响。">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../" class="logo">🎙️ MingoX</a>
+            <div class="nav-links">
+                <a href="../">首页</a>
+                <a href="../about.html">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="card">
+                <article class="post-content">
+                    <h1>📈 黄仁勋刚走，苏妈就来了 | 附演讲全文<br><small class="title-en">Jensen Huang and Lisa Su Speeches Full Text</small></h1>
+<p>这是 AMD 第一次把 AI <span class="word-annot"><span class="word-anchor">开发者</span><span class="word-block"><span class="english-word">developer</span><span class="word-info">[dɪˈveləpər] n. 开发者</span></span></span>大会搬到中国。苏姿丰没穿皮衣，开场第一句话是冲着全场喊：「你们<span class="word-annot"><span class="word-anchor">兴奋</span><span class="word-block"><span class="english-word">excited</span><span class="word-info">[ɪkˈsaɪtɪd] adj. 兴奋的</span></span></span>吗？」台下站满了人，连<span class="word-annot"><span class="word-anchor">过道</span><span class="word-block"><span class="english-word">aisle</span><span class="word-info">[aɪl] n. 过道；通道</span></span></span>都挤不动。</p>
+
+<p>AMD 在中国卖了三十多年<span class="word-annot"><span class="word-anchor">芯片</span><span class="word-block"><span class="english-word">chip</span><span class="word-info">[tʃɪp] n. 芯片</span></span></span>，但这次不太一样。苏妈带着 ROCm、八大实操工作坊、还有一整个开源<span class="word-annot"><span class="word-anchor">生态</span><span class="word-block"><span class="english-word">ecosystem</span><span class="word-info">[ˈiːkoʊsɪstəm] n. 生态系统</span></span></span>来，还顺手把上海研发中心的家底亮了出来：它是 AMD 全球最大的研发中心之一。</p>
+
+<p>她给了一个数字：未来几年，全球 AI <span class="word-annot"><span class="word-anchor">活跃</span><span class="word-block"><span class="english-word">active</span><span class="word-info">[ˈæktɪv] adj. 活跃的</span></span></span>用户将超过五十亿。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-jensen-huang-su-lisa-speech-full-text/001.jpg" loading="lazy" alt=""></figure>
+
+<p>苏妈在现场花了大段篇幅讲一件事：大语言模型「问一个问题、得一个答案」的<span class="word-annot"><span class="word-anchor">时代</span><span class="word-block"><span class="english-word">era</span><span class="word-info">[ˈɪrə] n. 时代；纪元</span></span></span>正在翻篇。</p>
+
+<p>「我们每个人可以拥有 5 个<span class="word-annot"><span class="word-anchor">智能体</span><span class="word-block"><span class="english-word">agent</span><span class="word-info">[ˈeɪdʒənt] n. 智能体；代理</span></span></span>、10 个智能体，或者 100 个智能体。想想你能多做多少事情。」</p>
+
+<p>要撑住这些智能体，光有大模型不够，还得有<span class="word-annot"><span class="word-anchor">推理</span><span class="word-block"><span class="english-word">reasoning</span><span class="word-info">[ˈriːzənɪŋ] n. 推理</span></span></span>能力、学习能力和数据流能力。不出意外，可见 AMD 也正在<span class="word-annot"><span class="word-anchor">押注</span><span class="word-block"><span class="english-word">bet</span><span class="word-info">[bet] v. 押注；下注</span></span></span> Agent。</p>
+
+<p>苏妈也没忘了夸夸台下的中国开发者 ，甚至把中国市场抬到了<span class="word-annot"><span class="word-anchor">驱动</span><span class="word-block"><span class="english-word">drive</span><span class="word-info">[draɪv] v. 驱动</span></span></span> AMD 路线图的核心位置。</p>
+
+<p>以下是 APPSO 在现场整理的苏姿丰<span class="word-annot"><span class="word-anchor">主题</span><span class="word-block"><span class="english-word">theme</span><span class="word-info">[θiːm] n. 主题</span></span></span>演讲全文，enjoy~</p>
+
+<p>大家好！我想先问大家一个问题：你们兴奋吗？</p>
+
+<p>很<span class="word-annot"><span class="word-anchor">高兴</span><span class="word-block"><span class="english-word">delighted</span><span class="word-info">[dɪˈlaɪtɪd] adj. 高兴的；欣喜的</span></span></span>来到这里，很高兴见到你们中的这么多人。我可以说——掌声好<span class="word-annot"><span class="word-anchor">热烈</span><span class="word-block"><span class="english-word">enthusiastic</span><span class="word-info">[ɪnˌθuːziˈæstɪk] adj. 热烈的；热情的</span></span></span>！今天的活动<span class="word-annot"><span class="word-anchor">现场</span><span class="word-block"><span class="english-word">venue</span><span class="word-info">[ˈvenjuː] n. 现场；场地</span></span></span>座无虚席，甚至站满了人。我非常<span class="word-annot"><span class="word-anchor">自豪</span><span class="word-block"><span class="english-word">proud</span><span class="word-info">[praʊd] adj. 自豪的</span></span></span>今天能来到上海。</p>
+
+<p>这场活动是为你们准备的——为我们的开发者、我们的建设者，以及更多的合作<span class="word-annot"><span class="word-anchor">伙伴</span><span class="word-block"><span class="english-word">partner</span><span class="word-info">[ˈpɑːrtnər] n. 伙伴；合作伙伴</span></span></span>。这真是一个让我们共同<span class="word-annot"><span class="word-anchor">创新</span><span class="word-block"><span class="english-word">innovation</span><span class="word-info">[ˌɪnəˈveɪʃən] n. 创新</span></span></span>的机会。而这一点，正是当下最<span class="word-annot"><span class="word-anchor">特别</span><span class="word-block"><span class="english-word">special</span><span class="word-info">[ˈspeʃəl] adj. 特别的</span></span></span>的地方。</p>
+
+<p>AI 正以真正<span class="word-annot"><span class="word-anchor">前所未有</span><span class="word-block"><span class="english-word">unprecedented</span><span class="word-info">[ʌnˈpresɪdentɪd] adj. 前所未有的</span></span></span>的速度创新。正因为如此，聪明人更<span class="word-annot"><span class="word-anchor">频繁</span><span class="word-block"><span class="english-word">frequently</span><span class="word-info">[ˈfriːkwəntli] adv. 频繁地</span></span></span>地聚在一起讨论最新的创新，这一点变得前所未有的重要。</p>
+
+<p>在 AMD，你们都非常<span class="word-annot"><span class="word-anchor">了解</span><span class="word-block"><span class="english-word">understand</span><span class="word-info">[ˌʌndərˈstænd] v. 了解；理解</span></span></span>我们。我们的<span class="word-annot"><span class="word-anchor">使命</span><span class="word-block"><span class="english-word">mission</span><span class="word-info">[ˈmɪʃən] n. 使命</span></span></span>，是真正推动高性能计算和 AI 的边界。&amp;nbsp;因为我们坚信，高性能计算与 AI 是一种向善的<span class="word-annot"><span class="word-anchor">技术</span><span class="word-block"><span class="english-word">technology</span><span class="word-info">[tekˈnɑːlədʒi] n. 技术</span></span></span>。凭借它，我们能够解决世界上最有趣的问题，也能应对世界上最重要的<span class="word-annot"><span class="word-anchor">挑战</span><span class="word-block"><span class="english-word">challenge</span><span class="word-info">[ˈtʃælɪndʒ] n. 挑战</span></span></span>。</p>
+
+<p>我们正在共同为下一代 AI 计算构建<span class="word-annot"><span class="word-anchor">基础</span><span class="word-block"><span class="english-word">foundation</span><span class="word-info">[faʊnˈdeɪʃən] n. 基础</span></span></span>。</p>
+
+<p>当我们思考这一切时，有一点我们非常自豪：AMD 的技术每天触达<span class="word-annot"><span class="word-anchor">数十亿</span><span class="word-block"><span class="english-word">billion</span><span class="word-info">[ˈbɪljən] n. 数十亿</span></span></span>人。无论你是谈论数据中心、PC，还是<span class="word-annot"><span class="word-anchor">边缘</span><span class="word-block"><span class="english-word">edge</span><span class="word-info">[edʒ] n. 边缘</span></span></span>设备，AI 实际上正在重新定义计算的每一层。</p>
+
+<p>我们的<span class="word-annot"><span class="word-anchor">理念</span><span class="word-block"><span class="english-word">concept</span><span class="word-info">[ˈkɑːnsept] n. 理念；概念</span></span></span>是：AI 应该无处不在。</p>
+
+<p>AI 为每个人服务，为每个<span class="word-annot"><span class="word-anchor">工作负载</span><span class="word-block"><span class="english-word">workload</span><span class="word-info">[ˈwɜːrkloʊd] n. 工作负载</span></span></span>服务，为每种形态服务。这意味着，我们需要真正地在整个技术栈的每一<span class="word-annot"><span class="word-anchor">层</span><span class="word-block"><span class="english-word">layer</span><span class="word-info">[ˈleɪər] n. 层；层级</span></span></span>都进行创新。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-jensen-huang-su-lisa-speech-full-text/002.jpg" loading="lazy" alt=""></figure>
+
+<p>AMD 对中国市场的承诺是<span class="word-annot"><span class="word-anchor">非凡</span><span class="word-block"><span class="english-word">extraordinary</span><span class="word-info">[ɪkˈstrɔːrdəneri] adj. 非凡的；卓越的</span></span></span>的。中国是全球最活跃的 AI 生态系统，而 AMD 已经在这里<span class="word-annot"><span class="word-anchor">深耕</span><span class="word-block"><span class="english-word">cultivate</span><span class="word-info">[ˈkʌltɪveɪt] v. 深耕；培育</span></span></span>超过三十年。</p>
+
+<p>我们将中国<span class="word-annot"><span class="word-anchor">视为</span><span class="word-block"><span class="english-word">regard</span><span class="word-info">[rɪˈɡɑːrd] v. 视为；认为</span></span></span>驱动我们路线图的核心部分——这包括芯片、AI、软件和平台工程。<span class="word-annot"><span class="word-anchor">实际上</span><span class="word-block"><span class="english-word">actually</span><span class="word-info">[ˈæktʃuəli] adv. 实际上</span></span></span>，我们的上海研发中心和中国研发中心，是全球最大的研发中心之一。</p>
+
+<p>我们之所以这样做，是因为我们坚信：我们需要在这里，与世界上最聪明的 AI <span class="word-annot"><span class="word-anchor">从业者</span><span class="word-block"><span class="english-word">practitioner</span><span class="word-info">[prækˈtɪʃənər] n. 从业者</span></span></span>互动。</p>
+
+<p>从 AMD 的角度来看，我们的投资远不止于研发，而是真正<span class="word-annot"><span class="word-anchor">聚焦</span><span class="word-block"><span class="english-word">focus</span><span class="word-info">[ˈfoʊkəs] v. 聚焦；专注</span></span></span>于整个技术栈的每一层——从芯片、软件到系统。这就是为什么我们在中国多个领域投资了 AI <span class="word-annot"><span class="word-anchor">卓越</span><span class="word-block"><span class="english-word">excellence</span><span class="word-info">[ˈeksələns] n. 卓越</span></span></span>中心；</p>
+
+<p>这就是为什么我们与中国最大、最具<span class="word-annot"><span class="word-anchor">影响力</span><span class="word-block"><span class="english-word">influence</span><span class="word-info">[ˈɪnfluəns] n. 影响力</span></span></span>的云和企业公司建立合作；这就是为什么我们对这里的生态系统有着<span class="word-annot"><span class="word-anchor">不可思议</span><span class="word-block"><span class="english-word">incredible</span><span class="word-info">[ɪnˈkredəbəl] adj. 不可思议的</span></span></span>的投入。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-jensen-huang-su-lisa-speech-full-text/003.jpg" loading="lazy" alt=""></figure>
+
+<p>中国生态系统真正令人兴奋的地方在于，你们正引领着智能体 AI（Agentic AI）和<span class="word-annot"><span class="word-anchor">企业级</span><span class="word-block"><span class="english-word">enterprise</span><span class="word-info">[ˈentərpraɪz] n. 企业级；企业</span></span></span> AI 的发展。这是一种非常特别的力量，它实际上是我们 AMD 所坚信的、<span class="word-annot"><span class="word-anchor">推动</span><span class="word-block"><span class="english-word">promote</span><span class="word-info">[prəˈmoʊt] v. 推动；促进</span></span></span> AI 系统尽可能向前发展的基础。</p>
+
+<p>当我们真正思考 AI 时，我们今天所看到的<span class="word-annot"><span class="word-anchor">进展</span><span class="word-block"><span class="english-word">progress</span><span class="word-info">[ˈprɑːɡres] n. 进展</span></span></span>量是不可思议的。目前，全球已有超过十亿活跃<span class="word-annot"><span class="word-anchor">用户</span><span class="word-block"><span class="english-word">user</span><span class="word-info">[ˈjuːzər] n. 用户</span></span></span>。但更令人兴奋的是我们的<span class="word-annot"><span class="word-anchor">预测</span><span class="word-block"><span class="english-word">prediction</span><span class="word-info">[prɪˈdɪkʃən] n. 预测</span></span></span>：未来几年内，全球活跃用户将超过五十亿。</p>
+
+<p>而支撑这一切用户<span class="word-annot"><span class="word-anchor">增长</span><span class="word-block"><span class="english-word">growth</span><span class="word-info">[ɡroʊθ] n. 增长</span></span></span>的最关键故事，是拥有正确的应用。没有单一的应用，没有单一的<span class="word-annot"><span class="word-anchor">工作流</span><span class="word-block"><span class="english-word">workflow</span><span class="word-info">[ˈwɜːrkfloʊ] n. 工作流</span></span></span>。实际上，你需要<span class="word-annot"><span class="word-anchor">各种各样</span><span class="word-block"><span class="english-word">various</span><span class="word-info">[ˈveriəs] adj. 各种各样的</span></span></span>的模型，你需要各种各样的工作流。</p>
+
+<p>我们拥有构建模块，去用 AI 彻底改变我们在生活、在<span class="word-annot"><span class="word-anchor">商业</span><span class="word-block"><span class="english-word">commerce</span><span class="word-info">[ˈkɑːmɜːrs] n. 商业</span></span></span>中、在互动方式上的一切。这就是当下作为一个<span class="word-annot"><span class="word-anchor">技术</span><span class="word-block"><span class="english-word">technical</span><span class="word-info">[ˈteknɪkəl] adj. 技术的</span></span></span>人如此令人兴奋的原因。</p>
+
+<p>实际上，你们都非常清楚，过去几年我们已经看到了 AI 的<span class="word-annot"><span class="word-anchor">加速</span><span class="word-block"><span class="english-word">accelerate</span><span class="word-info">[əkˈseləreɪt] v. 加速</span></span></span>发展。但就在最近几个月，我们看到了 AI 的<span class="word-annot"><span class="word-anchor">诸多</span><span class="word-block"><span class="english-word">numerous</span><span class="word-info">[ˈnuːmərəs] adj. 诸多的；许多的</span></span></span>成功。我们不仅看到了开源模型，我们真正看到智能体 AI（Agentic AI）正变得无比<span class="word-annot"><span class="word-anchor">普及</span><span class="word-block"><span class="english-word">prevalent</span><span class="word-info">[ˈprevələnt] adj. 普及的；流行的</span></span></span>。</p>
+
+<p>你可以看到企业真正在谈论如何<span class="word-annot"><span class="word-anchor">利用</span><span class="word-block"><span class="english-word">utilize</span><span class="word-info">[ˈjuːtəlaɪz] v. 利用</span></span></span> AI。我可以告诉你，每个国家的每一位 CEO，无论是大型企业、媒体企业还是小型企业，每个人都在谈论如何用 AI 更<span class="word-annot"><span class="word-anchor">有效</span><span class="word-block"><span class="english-word">effective</span><span class="word-info">[ɪˈfektɪv] adj. 有效的</span></span></span>地影响他们的业务。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-jensen-huang-su-lisa-speech-full-text/004.jpg" loading="lazy" alt=""></figure>
+
+<p>同样真实的是，AI 如今正在生态系统的每个角落<span class="word-annot"><span class="word-anchor">运行</span><span class="word-block"><span class="english-word">operate</span><span class="word-info">[ˈɑːpəreɪt] v. 运行；操作</span></span></span>——从云端到 PC，到边缘，再到物理系统和机器人。我们看到了如此多的创新正在发生，而<span class="word-annot"><span class="word-anchor">开放性</span><span class="word-block"><span class="english-word">openness</span><span class="word-info">[ˈoʊpənnəs] n. 开放性</span></span></span>至关重要。</p>
+
+<p>当我们展望未来，这是最近四个月里真正发生的事情：我们发现，传统的大语言模型——我们都知道它们很酷，你可以问一个问题，得到一个答案，这很酷——但当下真正<span class="word-annot"><span class="word-anchor">压倒性</span><span class="word-block"><span class="english-word">overwhelming</span><span class="word-info">[ˌoʊvərˈwelmɪŋ] adj. 压倒性的</span></span></span>的是，随着开源和围绕智能体的诸多新创新，我们看到智能体 AI 正在彻底改变我们使用 AI 的方式。</p>
+
+<p>我希望有机会看到我们更多合作伙伴在外场<span class="word-annot"><span class="word-anchor">展示</span><span class="word-block"><span class="english-word">demonstrate</span><span class="word-info">[ˈdemənstreɪt] v. 展示；演示</span></span></span>的 Demo，那些 Demo 向你展示了真正的可能性：当你思考的不只是你向模型提出多个问题，而是我们如何用 AI 真正拥有多个智能体时，会发生什么。</p>
+
+<p>我们每个人可以<span class="word-annot"><span class="word-anchor">拥有</span><span class="word-block"><span class="english-word">possess</span><span class="word-info">[pəˈzes] v. 拥有</span></span></span> 5 个智能体、10 个智能体，或者 100 个智能体。想想你能多做多少事情。</p>
+
+<p>而<span class="word-annot"><span class="word-anchor">伴随</span><span class="word-block"><span class="english-word">accompany</span><span class="word-info">[əˈkʌmpəni] v. 伴随；陪同</span></span></span>着这一点，技术本身也在改变。技术正在以一种方式改变：你不仅需要在中心拥有大语言模型，你真正需要的是推理能力、<span class="word-annot"><span class="word-anchor">学习</span><span class="word-block"><span class="english-word">learning</span><span class="word-info">[ˈlɜːrnɪŋ] n. 学习</span></span></span>能力，以及数据流能力。这样你才能<span class="word-annot"><span class="word-anchor">持续</span><span class="word-block"><span class="english-word">continuous</span><span class="word-info">[kənˈtɪnjuəs] adj. 持续的</span></span></span>推理、处理更多数据，然后回来继续学习——而智能体正好需要这一切。</p>
+
+<p>这意味着什么呢？<span class="word-annot"><span class="word-anchor">当然</span><span class="word-block"><span class="english-word">certainly</span><span class="word-info">[ˈsɜːrtnli] adv. 当然</span></span></span>，每个人都爱 GPU。你们爱 GPU 吗？是的！你们想要更多 GPU 吗？是的！<span class="word-annot"><span class="word-anchor">未来</span><span class="word-block"><span class="english-word">future</span><span class="word-info">[ˈfjuːtʃər] n. 未来</span></span></span>会有更多 GPU。</p>
+
+<p>但 GPU 将无处不在，不仅在云端，而是<span class="word-annot"><span class="word-anchor">横跨</span><span class="word-block"><span class="english-word">span</span><span class="word-info">[spæn] v. 横跨；跨越</span></span></span>整个生态系统。除了 GPU，你还需要大量的 CPU 处理能力，才能真正具备作为一个<span class="word-annot"><span class="word-anchor">完整</span><span class="word-block"><span class="english-word">integral</span><span class="word-info">[ˈɪntɪɡrəl] adj. 完整的；必需的</span></span></span>智能体运行的能力。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-jensen-huang-su-lisa-speech-full-text/005.jpg" loading="lazy" alt=""></figure>
+
+<p>所以你需要完整的端到端计算<span class="word-annot"><span class="word-anchor">谱系</span><span class="word-block"><span class="english-word">spectrum</span><span class="word-info">[ˈspektrəm] n. 谱系；范围</span></span></span>。而这就是 AMD 的关注点：<span class="word-annot"><span class="word-anchor">提供</span><span class="word-block"><span class="english-word">provide</span><span class="word-info">[prəˈvaɪd] v. 提供</span></span></span>完整的端到端计算能力。</p>
+
+<p>如果你看我们的承诺，我们的承诺是真正<span class="word-annot"><span class="word-anchor">构建</span><span class="word-block"><span class="english-word">construct</span><span class="word-info">[kənˈstrʌkt] v. 构建；建造</span></span></span> AI 时代的计算基础。这意味着在云端和边缘拥有最佳、最具<span class="word-annot"><span class="word-anchor">领导力</span><span class="word-block"><span class="english-word">leadership</span><span class="word-info">[ˈliːdərʃɪp] n. 领导力</span></span></span>的路线图。我特别要在这里说：在中国，目前在智能体 AI 和<span class="word-annot"><span class="word-anchor">本地</span><span class="word-block"><span class="english-word">local</span><span class="word-info">[ˈloʊkəl] adj. 本地的；当地的</span></span></span> AI 领域正发生着如此多的创新，你们在这里做着世界上最好的工作之一。</p>
+
+<p>我们的目标也是与生态系统合作，与中国这里所有的开源项目合作，与模型合作，并真正实现与 AMD 硬件的深度<span class="word-annot"><span class="word-anchor">集成</span><span class="word-block"><span class="english-word">integration</span><span class="word-info">[ˌɪntɪˈɡreɪʃən] n. 集成</span></span></span>。有了这些，客户才真正有机会为他们的每一个应用，选择<span class="word-annot"><span class="word-anchor">合适</span><span class="word-block"><span class="english-word">appropriate</span><span class="word-info">[əˈproʊpriət] adj. 合适的</span></span></span>的计算、合适的模型、合适的能力。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-jensen-huang-su-lisa-speech-full-text/006.jpg" loading="lazy" alt=""></figure>
+
+<p>今天我们会谈论很多不同的事情，但你们需要理解的一个<span class="word-annot"><span class="word-anchor">关键</span><span class="word-block"><span class="english-word">key</span><span class="word-info">[kiː] n. 关键</span></span></span>点是：</p>
+
+<p>AMD 的关注点纯粹聚焦于为 AI <span class="word-annot"><span class="word-anchor">交付</span><span class="word-block"><span class="english-word">deliver</span><span class="word-info">[dɪˈlɪvər] v. 交付；交付</span></span></span>最佳计算，延伸我们的计算技术领导力，真正围绕生态系统展开。关键是，我们想与你们合作，与</p>
+
+<p>所有的开发者、<span class="word-annot"><span class="word-anchor">软件</span><span class="word-block"><span class="english-word">software</span><span class="word-info">[ˈsɔːftwer] n. 软件</span></span></span>开发者，</p>
+
+<p>与我们的 ROCm 和开发者生态<span class="word-annot"><span class="word-anchor">合作</span><span class="word-block"><span class="english-word">cooperate</span><span class="word-info">[koʊˈɑːpəreɪt] v. 合作</span></span></span>。</p>
+
+<p>然后，我们希望将 AI 带到生态系统的每个<span class="word-annot"><span class="word-anchor">角落</span><span class="word-block"><span class="english-word">corner</span><span class="word-info">[ˈkɔːrnər] n. 角落</span></span></span>。这就是为合适的应用提供合适的<span class="word-annot"><span class="word-anchor">计算</span><span class="word-block"><span class="english-word">compute</span><span class="word-info">[kəmˈpjuːt] v. 计算</span></span></span>的理念。</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-jensen-huang-su-lisa-speech-full-text/007.jpg" loading="lazy" alt=""></figure>
+
+<p>「姓名+岗位名称」（请随<span class="word-annot"><span class="word-anchor">简历</span><span class="word-block"><span class="english-word">resume</span><span class="word-info">[rɪˈzjuːm] n. 简历</span></span></span>附上项目/作品或相关链接）</p>
+
+<figure class="article-figure"><img src="../images/posts/2026-05-25-jensen-huang-su-lisa-speech-full-text/008.webp" loading="lazy" alt=""></figure>
+                </article>
+
+                <div class="subtitle">📖 重点词汇</div>
+                <div class="vocab-table-wrap">
+                <table class="vocab-table">
+                    <thead>
+                        <tr><th>词汇</th><th>音标</th><th>词性</th><th>释义</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>developer</td><td>[dɪˈveləpər]</td><td>n.</td><td>开发者</td></tr>
+                        <tr><td>excited</td><td>[ɪkˈsaɪtɪd]</td><td>adj.</td><td>兴奋的</td></tr>
+                        <tr><td>aisle</td><td>[aɪl]</td><td>n.</td><td>过道；通道</td></tr>
+                        <tr><td>chip</td><td>[tʃɪp]</td><td>n.</td><td>芯片</td></tr>
+                        <tr><td>ecosystem</td><td>[ˈiːkoʊsɪstəm]</td><td>n.</td><td>生态系统</td></tr>
+                        <tr><td>active</td><td>[ˈæktɪv]</td><td>adj.</td><td>活跃的</td></tr>
+                        <tr><td>era</td><td>[ˈɪrə]</td><td>n.</td><td>时代；纪元</td></tr>
+                        <tr><td>agent</td><td>[ˈeɪdʒənt]</td><td>n.</td><td>智能体；代理</td></tr>
+                        <tr><td>reasoning</td><td>[ˈriːzənɪŋ]</td><td>n.</td><td>推理</td></tr>
+                        <tr><td>bet</td><td>[bet]</td><td>v.</td><td>押注；下注</td></tr>
+                        <tr><td>drive</td><td>[draɪv]</td><td>v.</td><td>驱动</td></tr>
+                        <tr><td>theme</td><td>[θiːm]</td><td>n.</td><td>主题</td></tr>
+                        <tr><td>delighted</td><td>[dɪˈlaɪtɪd]</td><td>adj.</td><td>高兴的；欣喜的</td></tr>
+                        <tr><td>enthusiastic</td><td>[ɪnˌθuːziˈæstɪk]</td><td>adj.</td><td>热烈的；热情的</td></tr>
+                        <tr><td>venue</td><td>[ˈvenjuː]</td><td>n.</td><td>现场；场地</td></tr>
+                        <tr><td>proud</td><td>[praʊd]</td><td>adj.</td><td>自豪的</td></tr>
+                        <tr><td>partner</td><td>[ˈpɑːrtnər]</td><td>n.</td><td>伙伴；合作伙伴</td></tr>
+                        <tr><td>innovation</td><td>[ˌɪnəˈveɪʃən]</td><td>n.</td><td>创新</td></tr>
+                        <tr><td>special</td><td>[ˈspeʃəl]</td><td>adj.</td><td>特别的</td></tr>
+                        <tr><td>unprecedented</td><td>[ʌnˈpresɪdentɪd]</td><td>adj.</td><td>前所未有的</td></tr>
+                        <tr><td>frequently</td><td>[ˈfriːkwəntli]</td><td>adv.</td><td>频繁地</td></tr>
+                        <tr><td>understand</td><td>[ˌʌndərˈstænd]</td><td>v.</td><td>了解；理解</td></tr>
+                        <tr><td>mission</td><td>[ˈmɪʃən]</td><td>n.</td><td>使命</td></tr>
+                        <tr><td>technology</td><td>[tekˈnɑːlədʒi]</td><td>n.</td><td>技术</td></tr>
+                        <tr><td>challenge</td><td>[ˈtʃælɪndʒ]</td><td>n.</td><td>挑战</td></tr>
+                        <tr><td>foundation</td><td>[faʊnˈdeɪʃən]</td><td>n.</td><td>基础</td></tr>
+                        <tr><td>billion</td><td>[ˈbɪljən]</td><td>n.</td><td>数十亿</td></tr>
+                        <tr><td>edge</td><td>[edʒ]</td><td>n.</td><td>边缘</td></tr>
+                        <tr><td>concept</td><td>[ˈkɑːnsept]</td><td>n.</td><td>理念；概念</td></tr>
+                        <tr><td>workload</td><td>[ˈwɜːrkloʊd]</td><td>n.</td><td>工作负载</td></tr>
+                        <tr><td>layer</td><td>[ˈleɪər]</td><td>n.</td><td>层；层级</td></tr>
+                        <tr><td>extraordinary</td><td>[ɪkˈstrɔːrdəneri]</td><td>adj.</td><td>非凡的；卓越的</td></tr>
+                        <tr><td>cultivate</td><td>[ˈkʌltɪveɪt]</td><td>v.</td><td>深耕；培育</td></tr>
+                        <tr><td>regard</td><td>[rɪˈɡɑːrd]</td><td>v.</td><td>视为；认为</td></tr>
+                        <tr><td>actually</td><td>[ˈæktʃuəli]</td><td>adv.</td><td>实际上</td></tr>
+                        <tr><td>practitioner</td><td>[prækˈtɪʃənər]</td><td>n.</td><td>从业者</td></tr>
+                        <tr><td>focus</td><td>[ˈfoʊkəs]</td><td>v.</td><td>聚焦；专注</td></tr>
+                        <tr><td>excellence</td><td>[ˈeksələns]</td><td>n.</td><td>卓越</td></tr>
+                        <tr><td>influence</td><td>[ˈɪnfluəns]</td><td>n.</td><td>影响力</td></tr>
+                        <tr><td>incredible</td><td>[ɪnˈkredəbəl]</td><td>adj.</td><td>不可思议的</td></tr>
+                        <tr><td>enterprise</td><td>[ˈentərpraɪz]</td><td>n.</td><td>企业级；企业</td></tr>
+                        <tr><td>promote</td><td>[prəˈmoʊt]</td><td>v.</td><td>推动；促进</td></tr>
+                        <tr><td>progress</td><td>[ˈprɑːɡres]</td><td>n.</td><td>进展</td></tr>
+                        <tr><td>user</td><td>[ˈjuːzər]</td><td>n.</td><td>用户</td></tr>
+                        <tr><td>prediction</td><td>[prɪˈdɪkʃən]</td><td>n.</td><td>预测</td></tr>
+                        <tr><td>growth</td><td>[ɡroʊθ]</td><td>n.</td><td>增长</td></tr>
+                        <tr><td>workflow</td><td>[ˈwɜːrkfloʊ]</td><td>n.</td><td>工作流</td></tr>
+                        <tr><td>various</td><td>[ˈveriəs]</td><td>adj.</td><td>各种各样的</td></tr>
+                        <tr><td>commerce</td><td>[ˈkɑːmɜːrs]</td><td>n.</td><td>商业</td></tr>
+                        <tr><td>technical</td><td>[ˈteknɪkəl]</td><td>adj.</td><td>技术的</td></tr>
+                        <tr><td>accelerate</td><td>[əkˈseləreɪt]</td><td>v.</td><td>加速</td></tr>
+                        <tr><td>numerous</td><td>[ˈnuːmərəs]</td><td>adj.</td><td>诸多的；许多的</td></tr>
+                        <tr><td>prevalent</td><td>[ˈprevələnt]</td><td>adj.</td><td>普及的；流行的</td></tr>
+                        <tr><td>utilize</td><td>[ˈjuːtəlaɪz]</td><td>v.</td><td>利用</td></tr>
+                        <tr><td>effective</td><td>[ɪˈfektɪv]</td><td>adj.</td><td>有效的</td></tr>
+                        <tr><td>operate</td><td>[ˈɑːpəreɪt]</td><td>v.</td><td>运行；操作</td></tr>
+                        <tr><td>openness</td><td>[ˈoʊpənnəs]</td><td>n.</td><td>开放性</td></tr>
+                        <tr><td>overwhelming</td><td>[ˌoʊvərˈwelmɪŋ]</td><td>adj.</td><td>压倒性的</td></tr>
+                        <tr><td>demonstrate</td><td>[ˈdemənstreɪt]</td><td>v.</td><td>展示；演示</td></tr>
+                        <tr><td>possess</td><td>[pəˈzes]</td><td>v.</td><td>拥有</td></tr>
+                        <tr><td>accompany</td><td>[əˈkʌmpəni]</td><td>v.</td><td>伴随；陪同</td></tr>
+                        <tr><td>learning</td><td>[ˈlɜːrnɪŋ]</td><td>n.</td><td>学习</td></tr>
+                        <tr><td>continuous</td><td>[kənˈtɪnjuəs]</td><td>adj.</td><td>持续的</td></tr>
+                        <tr><td>certainly</td><td>[ˈsɜːrtnli]</td><td>adv.</td><td>当然</td></tr>
+                        <tr><td>future</td><td>[ˈfjuːtʃər]</td><td>n.</td><td>未来</td></tr>
+                        <tr><td>span</td><td>[spæn]</td><td>v.</td><td>横跨；跨越</td></tr>
+                        <tr><td>integral</td><td>[ˈɪntɪɡrəl]</td><td>adj.</td><td>完整的；必需的</td></tr>
+                        <tr><td>spectrum</td><td>[ˈspektrəm]</td><td>n.</td><td>谱系；范围</td></tr>
+                        <tr><td>provide</td><td>[prəˈvaɪd]</td><td>v.</td><td>提供</td></tr>
+                        <tr><td>construct</td><td>[kənˈstrʌkt]</td><td>v.</td><td>构建；建造</td></tr>
+                        <tr><td>leadership</td><td>[ˈliːdərʃɪp]</td><td>n.</td><td>领导力</td></tr>
+                        <tr><td>local</td><td>[ˈloʊkəl]</td><td>adj.</td><td>本地的；当地的</td></tr>
+                        <tr><td>integration</td><td>[ˌɪntɪˈɡreɪʃən]</td><td>n.</td><td>集成</td></tr>
+                        <tr><td>appropriate</td><td>[əˈproʊpriət]</td><td>adj.</td><td>合适的</td></tr>
+                        <tr><td>key</td><td>[kiː]</td><td>n.</td><td>关键</td></tr>
+                        <tr><td>deliver</td><td>[dɪˈlɪvər]</td><td>v.</td><td>交付；交付</td></tr>
+                        <tr><td>software</td><td>[ˈsɔːftwer]</td><td>n.</td><td>软件</td></tr>
+                        <tr><td>cooperate</td><td>[koʊˈɑːpəreɪt]</td><td>v.</td><td>合作</td></tr>
+                        <tr><td>corner</td><td>[ˈkɔːrnər]</td><td>n.</td><td>角落</td></tr>
+                        <tr><td>compute</td><td>[kəmˈpjuːt]</td><td>v.</td><td>计算</td></tr>
+                        <tr><td>resume</td><td>[rɪˈzjuːm]</td><td>n.</td><td>简历</td></tr>
+                    </tbody>
+                </table>
+                </div>
+
+                <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+                    <a href="../" style="color: #667eea; text-decoration: none;">← 返回首页</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MingoX | Multimedia Post in Mixed Languages | Powered by Gitee Pages</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
