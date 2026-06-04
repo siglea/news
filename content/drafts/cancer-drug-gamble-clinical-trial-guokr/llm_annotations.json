@@ -1,0 +1,921 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "日程",
+      "en": "schedule",
+      "ipa": "[ˈʃedjuːl]",
+      "pos": "n.",
+      "gloss": "日程"
+    },
+    {
+      "i": 1,
+      "zh": "活力",
+      "en": "vitality",
+      "ipa": "[vaɪˈtæləti]",
+      "pos": "n.",
+      "gloss": "活力"
+    },
+    {
+      "i": 2,
+      "zh": "丈夫",
+      "en": "husband",
+      "ipa": "[ˈhʌzbənd]",
+      "pos": "n.",
+      "gloss": "丈夫"
+    },
+    {
+      "i": 3,
+      "zh": "晚期",
+      "en": "advanced",
+      "ipa": "[ədˈvænst]",
+      "pos": "adj.",
+      "gloss": "晚期的"
+    },
+    {
+      "i": 4,
+      "zh": "症状",
+      "en": "symptom",
+      "ipa": "[ˈsɪmptəm]",
+      "pos": "n.",
+      "gloss": "症状"
+    },
+    {
+      "i": 5,
+      "zh": "肿瘤",
+      "en": "tumor",
+      "ipa": "[ˈtjuːmə]",
+      "pos": "n.",
+      "gloss": "肿瘤"
+    },
+    {
+      "i": 6,
+      "zh": "化疗",
+      "en": "chemotherapy",
+      "ipa": "[ˌkiːmoʊˈθerəpi]",
+      "pos": "n.",
+      "gloss": "化疗"
+    },
+    {
+      "i": 7,
+      "zh": "口服",
+      "en": "oral",
+      "ipa": "[ˈɔːrəl]",
+      "pos": "adj.",
+      "gloss": "口服的"
+    },
+    {
+      "i": 8,
+      "zh": "延长",
+      "en": "prolong",
+      "ipa": "[prəˈlɒŋ]",
+      "pos": "v.",
+      "gloss": "延长"
+    },
+    {
+      "i": 9,
+      "zh": "新药",
+      "en": "drug",
+      "ipa": "[drʌɡ]",
+      "pos": "n.",
+      "gloss": "新药"
+    },
+    {
+      "i": 10,
+      "zh": "癌症",
+      "en": "cancer",
+      "ipa": "[ˈkænsə]",
+      "pos": "n.",
+      "gloss": "癌症"
+    },
+    {
+      "i": 11,
+      "zh": "机会",
+      "en": "opportunity",
+      "ipa": "[ˌɒpəˈtjuːnəti]",
+      "pos": "n.",
+      "gloss": "机会"
+    },
+    {
+      "i": 12,
+      "zh": "扩散",
+      "en": "metastasize",
+      "ipa": "[məˈtæstəsaɪz]",
+      "pos": "v.",
+      "gloss": "扩散"
+    },
+    {
+      "i": 13,
+      "zh": "转移性",
+      "en": "metastatic",
+      "ipa": "[ˌmetəˈstætɪk]",
+      "pos": "adj.",
+      "gloss": "转移性的"
+    },
+    {
+      "i": 14,
+      "zh": "恶化",
+      "en": "deteriorate",
+      "ipa": "[dɪˈtɪəriəreɪt]",
+      "pos": "v.",
+      "gloss": "恶化"
+    },
+    {
+      "i": 15,
+      "zh": "疗效",
+      "en": "efficacy",
+      "ipa": "[ˈefɪkəsi]",
+      "pos": "n.",
+      "gloss": "疗效"
+    },
+    {
+      "i": 16,
+      "zh": "家属",
+      "en": "relative",
+      "ipa": "[ˈrelətɪv]",
+      "pos": "n.",
+      "gloss": "家属"
+    },
+    {
+      "i": 17,
+      "skip": true
+    },
+    {
+      "i": 18,
+      "zh": "科学家",
+      "en": "scientist",
+      "ipa": "[ˈsaɪəntɪst]",
+      "pos": "n.",
+      "gloss": "科学家"
+    },
+    {
+      "i": 19,
+      "zh": "突变",
+      "en": "mutation",
+      "ipa": "[mjuːˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "突变"
+    },
+    {
+      "i": 20,
+      "zh": "蛋白质",
+      "en": "protein",
+      "ipa": "[ˈproʊtiːn]",
+      "pos": "n.",
+      "gloss": "蛋白质"
+    },
+    {
+      "i": 21,
+      "zh": "分裂",
+      "en": "divide",
+      "ipa": "[dɪˈvaɪd]",
+      "pos": "v.",
+      "gloss": "分裂"
+    },
+    {
+      "i": 22,
+      "zh": "致癌",
+      "en": "oncogenic",
+      "ipa": "[ˌɒnkəˈdʒenɪk]",
+      "pos": "adj.",
+      "gloss": "致癌的"
+    },
+    {
+      "i": 23,
+      "zh": "攻克",
+      "en": "conquer",
+      "ipa": "[ˈkɒŋkə]",
+      "pos": "v.",
+      "gloss": "攻克"
+    },
+    {
+      "i": 24,
+      "zh": "靶点",
+      "en": "target",
+      "ipa": "[ˈtɑːɡɪt]",
+      "pos": "n.",
+      "gloss": "靶点"
+    },
+    {
+      "i": 25,
+      "zh": "依赖",
+      "en": "rely",
+      "ipa": "[rɪˈlaɪ]",
+      "pos": "v.",
+      "gloss": "依赖"
+    },
+    {
+      "i": 26,
+      "zh": "坑",
+      "en": "pit",
+      "ipa": "[pɪt]",
+      "pos": "n.",
+      "gloss": "坑"
+    },
+    {
+      "i": 27,
+      "zh": "结构",
+      "en": "structure",
+      "ipa": "[ˈstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "结构"
+    },
+    {
+      "i": 28,
+      "zh": "巨头",
+      "en": "giant",
+      "ipa": "[ˈdʒaɪənt]",
+      "pos": "n.",
+      "gloss": "巨头"
+    },
+    {
+      "i": 29,
+      "zh": "不可成药",
+      "en": "undruggable",
+      "ipa": "[ʌnˈdrʌɡəbəl]",
+      "pos": "adj.",
+      "gloss": "不可成药的"
+    },
+    {
+      "i": 30,
+      "zh": "一致",
+      "en": "identical",
+      "ipa": "[aɪˈdentɪkəl]",
+      "pos": "adj.",
+      "gloss": "一致的"
+    },
+    {
+      "i": 31,
+      "skip": true
+    },
+    {
+      "i": 32,
+      "zh": "思路",
+      "en": "approach",
+      "ipa": "[əˈproʊtʃ]",
+      "pos": "n.",
+      "gloss": "思路"
+    },
+    {
+      "i": 33,
+      "zh": "抑制剂",
+      "en": "inhibitor",
+      "ipa": "[ɪnˈhɪbɪtə]",
+      "pos": "n.",
+      "gloss": "抑制剂"
+    },
+    {
+      "i": 34,
+      "zh": "机制",
+      "en": "mechanism",
+      "ipa": "[ˈmekənɪzəm]",
+      "pos": "n.",
+      "gloss": "机制"
+    },
+    {
+      "i": 35,
+      "zh": "常见",
+      "en": "common",
+      "ipa": "[ˈkɒmən]",
+      "pos": "adj.",
+      "gloss": "常见的"
+    },
+    {
+      "i": 36,
+      "zh": "结合",
+      "en": "binding",
+      "ipa": "[ˈbaɪndɪŋ]",
+      "pos": "n.",
+      "gloss": "结合"
+    },
+    {
+      "i": 37,
+      "zh": "定制",
+      "en": "customize",
+      "ipa": "[ˈkʌstəmaɪz]",
+      "pos": "v.",
+      "gloss": "定制"
+    },
+    {
+      "i": 38,
+      "zh": "组合",
+      "en": "combination",
+      "ipa": "[ˌkɒmbɪˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "组合"
+    },
+    {
+      "i": 39,
+      "zh": "互补",
+      "en": "complementary",
+      "ipa": "[ˌkɒmplɪˈmentəri]",
+      "pos": "adj.",
+      "gloss": "互补的"
+    },
+    {
+      "i": 40,
+      "zh": "封锁",
+      "en": "block",
+      "ipa": "[blɒk]",
+      "pos": "v.",
+      "gloss": "封锁"
+    },
+    {
+      "i": 41,
+      "zh": "临床",
+      "en": "clinical",
+      "ipa": "[ˈklɪnɪkəl]",
+      "pos": "adj.",
+      "gloss": "临床的"
+    },
+    {
+      "i": 42,
+      "zh": "招募",
+      "en": "recruit",
+      "ipa": "[rɪˈkruːt]",
+      "pos": "v.",
+      "gloss": "招募"
+    },
+    {
+      "i": 43,
+      "zh": "绝境",
+      "en": "desperation",
+      "ipa": "[ˌdespəˈreɪʃən]",
+      "pos": "n.",
+      "gloss": "绝境"
+    },
+    {
+      "i": 44,
+      "zh": "携带",
+      "en": "carry",
+      "ipa": "[ˈkæri]",
+      "pos": "v.",
+      "gloss": "携带"
+    },
+    {
+      "i": 45,
+      "zh": "随机",
+      "en": "random",
+      "ipa": "[ˈrændəm]",
+      "pos": "adj.",
+      "gloss": "随机的"
+    },
+    {
+      "i": 46,
+      "zh": "主治",
+      "en": "attending",
+      "ipa": "[əˈtendɪŋ]",
+      "pos": "adj.",
+      "gloss": "主治的"
+    },
+    {
+      "i": 47,
+      "zh": "对决",
+      "en": "showdown",
+      "ipa": "[ˈʃoʊdaʊn]",
+      "pos": "n.",
+      "gloss": "对决"
+    },
+    {
+      "i": 48,
+      "zh": "开放",
+      "en": "open",
+      "ipa": "[ˈoʊpən]",
+      "pos": "adj.",
+      "gloss": "开放的"
+    },
+    {
+      "i": 49,
+      "zh": "影像",
+      "en": "imaging",
+      "ipa": "[ˈɪmɪdʒɪŋ]",
+      "pos": "n.",
+      "gloss": "影像学"
+    },
+    {
+      "i": 50,
+      "zh": "年会",
+      "en": "conference",
+      "ipa": "[ˈkɒnfərəns]",
+      "pos": "n.",
+      "gloss": "年会"
+    },
+    {
+      "i": 51,
+      "zh": "面孔",
+      "en": "face",
+      "ipa": "[feɪs]",
+      "pos": "n.",
+      "gloss": "面孔"
+    },
+    {
+      "i": 52,
+      "zh": "主持",
+      "en": "lead",
+      "ipa": "[liːd]",
+      "pos": "v.",
+      "gloss": "主持"
+    },
+    {
+      "i": 53,
+      "zh": "宁可",
+      "en": "prefer",
+      "ipa": "[prɪˈfɜː]",
+      "pos": "v.",
+      "gloss": "宁可"
+    },
+    {
+      "i": 54,
+      "zh": "分组",
+      "en": "assign",
+      "ipa": "[əˈsaɪn]",
+      "pos": "v.",
+      "gloss": "分组"
+    },
+    {
+      "i": 55,
+      "zh": "情绪",
+      "en": "emotion",
+      "ipa": "[ɪˈmoʊʃən]",
+      "pos": "n.",
+      "gloss": "情绪"
+    },
+    {
+      "i": 56,
+      "skip": true
+    },
+    {
+      "i": 57,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "预期"
+    },
+    {
+      "i": 58,
+      "zh": "中位",
+      "en": "median",
+      "ipa": "[ˈmiːdiən]",
+      "pos": "adj.",
+      "gloss": "中位的"
+    },
+    {
+      "i": 59,
+      "zh": "风险",
+      "en": "risk",
+      "ipa": "[rɪsk]",
+      "pos": "n.",
+      "gloss": "风险"
+    },
+    {
+      "i": 60,
+      "zh": "直观",
+      "en": "intuitive",
+      "ipa": "[ɪnˈtjuːɪtɪv]",
+      "pos": "adj.",
+      "gloss": "直观的"
+    },
+    {
+      "i": 61,
+      "zh": "暂停",
+      "en": "pause",
+      "ipa": "[pɔːz]",
+      "pos": "v.",
+      "gloss": "暂停"
+    },
+    {
+      "i": 62,
+      "zh": "生存期",
+      "en": "survival",
+      "ipa": "[sərˈvaɪvəl]",
+      "pos": "n.",
+      "gloss": "生存期"
+    },
+    {
+      "i": 63,
+      "zh": "缩小",
+      "en": "shrink",
+      "ipa": "[ʃrɪŋk]",
+      "pos": "v.",
+      "gloss": "缩小"
+    },
+    {
+      "i": 64,
+      "zh": "缓解",
+      "en": "remission",
+      "ipa": "[rɪˈmɪʃən]",
+      "pos": "n.",
+      "gloss": "缓解"
+    },
+    {
+      "i": 65,
+      "zh": "影像学",
+      "en": "radiologic",
+      "ipa": "[ˌreɪdioʊˈlɒdʒɪk]",
+      "pos": "adj.",
+      "gloss": "影像学的"
+    },
+    {
+      "i": 66,
+      "zh": "推迟",
+      "en": "delay",
+      "ipa": "[dɪˈleɪ]",
+      "pos": "v.",
+      "gloss": "推迟"
+    },
+    {
+      "i": 67,
+      "zh": "摧毁",
+      "en": "destroy",
+      "ipa": "[dɪˈstrɔɪ]",
+      "pos": "v.",
+      "gloss": "摧毁"
+    },
+    {
+      "i": 68,
+      "zh": "加剧",
+      "en": "exacerbate",
+      "ipa": "[ɪɡˈzæsəbeɪt]",
+      "pos": "v.",
+      "gloss": "加剧"
+    },
+    {
+      "i": 69,
+      "zh": "耐受",
+      "en": "tolerate",
+      "ipa": "[ˈtɒləreɪt]",
+      "pos": "v.",
+      "gloss": "耐受"
+    },
+    {
+      "i": 70,
+      "zh": "皮疹",
+      "en": "rash",
+      "ipa": "[ræʃ]",
+      "pos": "n.",
+      "gloss": "皮疹"
+    },
+    {
+      "i": 71,
+      "zh": "腹泻",
+      "en": "diarrhea",
+      "ipa": "[ˌdaɪəˈriːə]",
+      "pos": "n.",
+      "gloss": "腹泻"
+    },
+    {
+      "i": 72,
+      "zh": "剂量",
+      "en": "dose",
+      "ipa": "[doʊs]",
+      "pos": "n.",
+      "gloss": "剂量"
+    },
+    {
+      "i": 73,
+      "zh": "中止",
+      "en": "terminate",
+      "ipa": "[ˈtɜːmɪneɪt]",
+      "pos": "v.",
+      "gloss": "中止"
+    },
+    {
+      "i": 74,
+      "zh": "弃疗",
+      "en": "dropout",
+      "ipa": "[ˈdrɒpaʊt]",
+      "pos": "n.",
+      "gloss": "弃疗率"
+    },
+    {
+      "i": 75,
+      "zh": "对比",
+      "en": "comparison",
+      "ipa": "[kəmˈpærɪsən]",
+      "pos": "n.",
+      "gloss": "对比"
+    },
+    {
+      "i": 76,
+      "zh": "中性粒细胞",
+      "en": "neutrophil",
+      "ipa": "[ˈnjuːtrəfɪl]",
+      "pos": "n.",
+      "gloss": "中性粒细胞"
+    },
+    {
+      "i": 77,
+      "skip": true
+    },
+    {
+      "i": 78,
+      "zh": "神经病变",
+      "en": "neuropathy",
+      "ipa": "[njʊˈrɒpəθi]",
+      "pos": "n.",
+      "gloss": "神经病变"
+    },
+    {
+      "i": 79,
+      "skip": true
+    },
+    {
+      "i": 80,
+      "zh": "脱发",
+      "en": "alopecia",
+      "ipa": "[ˌæləˈpiːʃə]",
+      "pos": "n.",
+      "gloss": "脱发"
+    },
+    {
+      "i": 81,
+      "skip": true
+    },
+    {
+      "i": 82,
+      "zh": "人群",
+      "en": "population",
+      "ipa": "[ˌpɒpjuˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "人群"
+    },
+    {
+      "i": 83,
+      "zh": "论文",
+      "en": "journal",
+      "ipa": "[ˈdʒɜːnəl]",
+      "pos": "n.",
+      "gloss": "论文"
+    },
+    {
+      "i": 84,
+      "zh": "数据",
+      "en": "data",
+      "ipa": "[ˈdeɪtə]",
+      "pos": "n.",
+      "gloss": "数据"
+    },
+    {
+      "i": 85,
+      "skip": true
+    },
+    {
+      "i": 86,
+      "zh": "曲线",
+      "en": "curve",
+      "ipa": "[kɜːv]",
+      "pos": "n.",
+      "gloss": "曲线"
+    },
+    {
+      "i": 87,
+      "zh": "初步",
+      "en": "preliminary",
+      "ipa": "[prɪˈlɪmɪnəri]",
+      "pos": "adj.",
+      "gloss": "初步的"
+    },
+    {
+      "i": 88,
+      "skip": true
+    },
+    {
+      "i": 89,
+      "zh": "进展",
+      "en": "progress",
+      "ipa": "[ˈproʊɡres]",
+      "pos": "n.",
+      "gloss": "进展"
+    },
+    {
+      "i": 90,
+      "zh": "句号",
+      "en": "period",
+      "ipa": "[ˈpɪəriəd]",
+      "pos": "n.",
+      "gloss": "句号"
+    },
+    {
+      "i": 91,
+      "skip": true
+    },
+    {
+      "i": 92,
+      "zh": "驱动",
+      "en": "drive",
+      "ipa": "[draɪv]",
+      "pos": "v.",
+      "gloss": "驱动"
+    },
+    {
+      "i": 93,
+      "zh": "战场",
+      "en": "battlefield",
+      "ipa": "[ˈbætəlfiːld]",
+      "pos": "n.",
+      "gloss": "战场"
+    },
+    {
+      "i": 94,
+      "zh": "大门",
+      "en": "door",
+      "ipa": "[dɔː]",
+      "pos": "n.",
+      "gloss": "大门"
+    },
+    {
+      "i": 95,
+      "skip": true
+    },
+    {
+      "i": 96,
+      "zh": "转移灶",
+      "en": "metastasis",
+      "ipa": "[məˈtæstəsɪs]",
+      "pos": "n.",
+      "gloss": "转移灶"
+    },
+    {
+      "i": 97,
+      "zh": "原发",
+      "en": "primary",
+      "ipa": "[ˈpraɪməri]",
+      "pos": "adj.",
+      "gloss": "原发的"
+    },
+    {
+      "i": 98,
+      "zh": "溃疡",
+      "en": "ulcer",
+      "ipa": "[ˈʌlsə]",
+      "pos": "n.",
+      "gloss": "溃疡"
+    },
+    {
+      "i": 99,
+      "zh": "抱怨",
+      "en": "complain",
+      "ipa": "[kəmˈpleɪn]",
+      "pos": "v.",
+      "gloss": "抱怨"
+    },
+    {
+      "i": 100,
+      "skip": true
+    },
+    {
+      "i": 101,
+      "zh": "感觉",
+      "en": "sense",
+      "ipa": "[sens]",
+      "pos": "n.",
+      "gloss": "感觉"
+    },
+    {
+      "i": 102,
+      "zh": "坚持",
+      "en": "persist",
+      "ipa": "[pəˈsɪst]",
+      "pos": "v.",
+      "gloss": "坚持"
+    },
+    {
+      "i": 103,
+      "zh": "珍惜",
+      "en": "cherish",
+      "ipa": "[ˈtʃerɪʃ]",
+      "pos": "v.",
+      "gloss": "珍惜"
+    },
+    {
+      "i": 104,
+      "skip": true
+    },
+    {
+      "i": 105,
+      "zh": "药瓶",
+      "en": "vial",
+      "ipa": "[ˈvaɪəl]",
+      "pos": "n.",
+      "gloss": "药瓶"
+    },
+    {
+      "i": 106,
+      "zh": "类似",
+      "en": "similar",
+      "ipa": "[ˈsɪmɪlə]",
+      "pos": "adj.",
+      "gloss": "类似的"
+    },
+    {
+      "i": 107,
+      "zh": "扫描",
+      "en": "scan",
+      "ipa": "[skæn]",
+      "pos": "v.",
+      "gloss": "扫描"
+    },
+    {
+      "i": 108,
+      "zh": "标准",
+      "en": "standard",
+      "ipa": "[ˈstændəd]",
+      "pos": "adj.",
+      "gloss": "标准的"
+    },
+    {
+      "i": 109,
+      "zh": "精力",
+      "en": "energy",
+      "ipa": "[ˈenədʒi]",
+      "pos": "n.",
+      "gloss": "精力"
+    },
+    {
+      "i": 110,
+      "zh": "虚弱",
+      "en": "weak",
+      "ipa": "[wiːk]",
+      "pos": "adj.",
+      "gloss": "虚弱的"
+    },
+    {
+      "i": 111,
+      "skip": true
+    },
+    {
+      "i": 112,
+      "zh": "完美",
+      "en": "perfect",
+      "ipa": "[ˈpɜːfɪkt]",
+      "pos": "adj.",
+      "gloss": "完美的"
+    },
+    {
+      "i": 113,
+      "zh": "耐药性",
+      "en": "resistance",
+      "ipa": "[rɪˈzɪstəns]",
+      "pos": "n.",
+      "gloss": "耐药性"
+    },
+    {
+      "i": 114,
+      "zh": "推进",
+      "en": "advance",
+      "ipa": "[ədˈvɑːns]",
+      "pos": "v.",
+      "gloss": "推进"
+    },
+    {
+      "i": 115,
+      "zh": "基础",
+      "en": "foundation",
+      "ipa": "[faʊnˈdeɪʃən]",
+      "pos": "n.",
+      "gloss": "基础"
+    },
+    {
+      "i": 116,
+      "skip": true
+    },
+    {
+      "i": 117,
+      "zh": "平常",
+      "en": "ordinary",
+      "ipa": "[ˈɔːdɪnəri]",
+      "pos": "adj.",
+      "gloss": "平常的"
+    },
+    {
+      "i": 118,
+      "zh": "尊严",
+      "en": "dignity",
+      "ipa": "[ˈdɪɡnəti]",
+      "pos": "n.",
+      "gloss": "尊严"
+    },
+    {
+      "i": 119,
+      "skip": true
+    },
+    {
+      "i": 120,
+      "skip": true
+    },
+    {
+      "i": 121,
+      "skip": true
+    },
+    {
+      "i": 122,
+      "skip": true
+    },
+    {
+      "i": 123,
+      "skip": true
+    }
+  ]
+}
