@@ -1,0 +1,1293 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "对话",
+      "en": "dialogue",
+      "ipa": "[ˈdaɪəlɒɡ]",
+      "pos": "n.",
+      "gloss": "对话"
+    },
+    {
+      "i": 1,
+      "zh": "客户",
+      "en": "client",
+      "ipa": "[ˈklaɪənt]",
+      "pos": "n.",
+      "gloss": "客户"
+    },
+    {
+      "i": 2,
+      "zh": "前沿",
+      "en": "frontier",
+      "ipa": "[ˈfrʌntɪə]",
+      "pos": "n.",
+      "gloss": "前沿"
+    },
+    {
+      "i": 3,
+      "zh": "关键",
+      "en": "critical",
+      "ipa": "[ˈkrɪtɪkəl]",
+      "pos": "adj.",
+      "gloss": "关键的"
+    },
+    {
+      "i": 4,
+      "zh": "行业",
+      "en": "industry",
+      "ipa": "[ˈɪndəstri]",
+      "pos": "n.",
+      "gloss": "行业"
+    },
+    {
+      "i": 5,
+      "zh": "意义",
+      "en": "significance",
+      "ipa": "[sɪɡˈnɪfɪkəns]",
+      "pos": "n.",
+      "gloss": "意义"
+    },
+    {
+      "i": 6,
+      "zh": "反馈",
+      "en": "feedback",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 7,
+      "zh": "重构",
+      "en": "restructuring",
+      "ipa": "[riːˈstrʌktʃərɪŋ]",
+      "pos": "n.",
+      "gloss": "重构"
+    },
+    {
+      "i": 8,
+      "zh": "效率",
+      "en": "efficiency",
+      "ipa": "[ɪˈfɪʃənsi]",
+      "pos": "n.",
+      "gloss": "效率"
+    },
+    {
+      "i": 9,
+      "zh": "方法论",
+      "en": "methodology",
+      "ipa": "[ˌmeθəˈdɒlədʒi]",
+      "pos": "n.",
+      "gloss": "方法论"
+    },
+    {
+      "i": 10,
+      "zh": "实践",
+      "en": "practice",
+      "ipa": "[ˈpræktɪs]",
+      "pos": "n.",
+      "gloss": "实践"
+    },
+    {
+      "i": 11,
+      "zh": "拆解",
+      "en": "deconstruction",
+      "ipa": "[ˌdiːkənˈstrʌkʃən]",
+      "pos": "n.",
+      "gloss": "拆解"
+    },
+    {
+      "i": 12,
+      "zh": "继续",
+      "en": "continue",
+      "ipa": "[kənˈtɪnjuː]",
+      "pos": "v.",
+      "gloss": "继续"
+    },
+    {
+      "i": 13,
+      "zh": "获取",
+      "en": "obtain",
+      "ipa": "[əbˈteɪn]",
+      "pos": "v.",
+      "gloss": "获取"
+    },
+    {
+      "i": 14,
+      "zh": "原理",
+      "en": "principle",
+      "ipa": "[ˈprɪnsəpəl]",
+      "pos": "n.",
+      "gloss": "原理"
+    },
+    {
+      "i": 15,
+      "zh": "选择",
+      "en": "select",
+      "ipa": "[sɪˈlekt]",
+      "pos": "v.",
+      "gloss": "选择"
+    },
+    {
+      "i": 16,
+      "zh": "重要",
+      "en": "crucial",
+      "ipa": "[ˈkruːʃəl]",
+      "pos": "adj.",
+      "gloss": "至关重要的"
+    },
+    {
+      "i": 17,
+      "zh": "滥用",
+      "en": "overuse",
+      "ipa": "[ˌəʊvəˈjuːs]",
+      "pos": "n.",
+      "gloss": "滥用"
+    },
+    {
+      "i": 18,
+      "zh": "困难",
+      "en": "difficult",
+      "ipa": "[ˈdɪfɪkəlt]",
+      "pos": "adj.",
+      "gloss": "困难的"
+    },
+    {
+      "i": 19,
+      "zh": "发明",
+      "en": "invent",
+      "ipa": "[ɪnˈvent]",
+      "pos": "v.",
+      "gloss": "发明"
+    },
+    {
+      "i": 20,
+      "zh": "翻译",
+      "en": "translation",
+      "ipa": "[trænsˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "翻译"
+    },
+    {
+      "i": 21,
+      "zh": "万能",
+      "en": "versatile",
+      "ipa": "[ˈvɜːsətaɪl]",
+      "pos": "adj.",
+      "gloss": "万能的"
+    },
+    {
+      "i": 22,
+      "zh": "加入",
+      "en": "join",
+      "ipa": "[dʒɔɪn]",
+      "pos": "v.",
+      "gloss": "加入"
+    },
+    {
+      "i": 23,
+      "zh": "应用",
+      "en": "apply",
+      "ipa": "[əˈplaɪ]",
+      "pos": "v.",
+      "gloss": "应用"
+    },
+    {
+      "i": 24,
+      "zh": "复杂",
+      "en": "complex",
+      "ipa": "[ˈkɒmpleks]",
+      "pos": "adj.",
+      "gloss": "复杂的"
+    },
+    {
+      "i": 25,
+      "zh": "文化",
+      "en": "culture",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 26,
+      "zh": "运转",
+      "en": "operate",
+      "ipa": "[ˈɒpəreɪt]",
+      "pos": "v.",
+      "gloss": "运转"
+    },
+    {
+      "i": 27,
+      "zh": "建立",
+      "en": "establish",
+      "ipa": "[ɪˈstæblɪʃ]",
+      "pos": "v.",
+      "gloss": "建立"
+    },
+    {
+      "i": 28,
+      "zh": "基础",
+      "en": "fundamental",
+      "ipa": "[ˌfʌndəˈmentəl]",
+      "pos": "adj.",
+      "gloss": "基础的"
+    },
+    {
+      "i": 29,
+      "zh": "社会",
+      "en": "society",
+      "ipa": "[səˈsaɪəti]",
+      "pos": "n.",
+      "gloss": "社会"
+    },
+    {
+      "i": 30,
+      "zh": "探索",
+      "en": "explore",
+      "ipa": "[ɪkˈsplɔː]",
+      "pos": "v.",
+      "gloss": "探索"
+    },
+    {
+      "i": 31,
+      "zh": "均衡",
+      "en": "balanced",
+      "ipa": "[ˈbælənst]",
+      "pos": "adj.",
+      "gloss": "均衡的"
+    },
+    {
+      "i": 32,
+      "skip": true
+    },
+    {
+      "i": 33,
+      "zh": "充足",
+      "en": "sufficient",
+      "ipa": "[səˈfɪʃənt]",
+      "pos": "adj.",
+      "gloss": "充足的"
+    },
+    {
+      "i": 34,
+      "zh": "方式",
+      "en": "approach",
+      "ipa": "[əˈprəʊtʃ]",
+      "pos": "n.",
+      "gloss": "方式"
+    },
+    {
+      "i": 35,
+      "zh": "至关重要",
+      "en": "vital",
+      "ipa": "[ˈvaɪtəl]",
+      "pos": "adj.",
+      "gloss": "至关重要的"
+    },
+    {
+      "i": 36,
+      "zh": "注入",
+      "en": "inject",
+      "ipa": "[ɪnˈdʒekt]",
+      "pos": "v.",
+      "gloss": "注入"
+    },
+    {
+      "i": 37,
+      "zh": "务实",
+      "en": "pragmatic",
+      "ipa": "[præɡˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "务实的"
+    },
+    {
+      "i": 38,
+      "zh": "部署",
+      "en": "deploy",
+      "ipa": "[dɪˈplɔɪ]",
+      "pos": "v.",
+      "gloss": "部署"
+    },
+    {
+      "i": 39,
+      "zh": "前提",
+      "en": "prerequisite",
+      "ipa": "[priːˈrɛkwɪzɪt]",
+      "pos": "n.",
+      "gloss": "前提"
+    },
+    {
+      "i": 40,
+      "zh": "泛化",
+      "en": "generalization",
+      "ipa": "[ˌdʒenərəlaɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "泛化"
+    },
+    {
+      "i": 41,
+      "zh": "倾向",
+      "en": "tendency",
+      "ipa": "[ˈtendənsi]",
+      "pos": "n.",
+      "gloss": "倾向"
+    },
+    {
+      "i": 42,
+      "zh": "信任",
+      "en": "trust",
+      "ipa": "[trʌst]",
+      "pos": "n.",
+      "gloss": "信任"
+    },
+    {
+      "i": 43,
+      "zh": "本质",
+      "en": "essence",
+      "ipa": "[ˈesəns]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 44,
+      "zh": "程序",
+      "en": "program",
+      "ipa": "[ˈprəʊɡræm]",
+      "pos": "n.",
+      "gloss": "程序"
+    },
+    {
+      "i": 45,
+      "zh": "推理",
+      "en": "reasoning",
+      "ipa": "[ˈriːzənɪŋ]",
+      "pos": "n.",
+      "gloss": "推理"
+    },
+    {
+      "i": 46,
+      "zh": "迁移",
+      "en": "transfer",
+      "ipa": "[trænsˈfɜː]",
+      "pos": "v.",
+      "gloss": "迁移"
+    },
+    {
+      "i": 47,
+      "zh": "外部",
+      "en": "external",
+      "ipa": "[ɪkˈstɜːnəl]",
+      "pos": "adj.",
+      "gloss": "外部的"
+    },
+    {
+      "i": 48,
+      "zh": "价值",
+      "en": "value",
+      "ipa": "[ˈvæljuː]",
+      "pos": "n.",
+      "gloss": "价值"
+    },
+    {
+      "i": 49,
+      "zh": "改进",
+      "en": "improvement",
+      "ipa": "[ɪmˈpruːvmənt]",
+      "pos": "n.",
+      "gloss": "改进"
+    },
+    {
+      "i": 50,
+      "zh": "了解",
+      "en": "understanding",
+      "ipa": "[ˌʌndəˈstændɪŋ]",
+      "pos": "n.",
+      "gloss": "了解"
+    },
+    {
+      "i": 51,
+      "zh": "模糊",
+      "en": "vague",
+      "ipa": "[veɪɡ]",
+      "pos": "adj.",
+      "gloss": "模糊的"
+    },
+    {
+      "i": 52,
+      "zh": "灵感",
+      "en": "inspiration",
+      "ipa": "[ˌɪnspəˈreɪʃən]",
+      "pos": "n.",
+      "gloss": "灵感"
+    },
+    {
+      "i": 53,
+      "zh": "成就",
+      "en": "accomplish",
+      "ipa": "[əˈkʌmplɪʃ]",
+      "pos": "v.",
+      "gloss": "成就"
+    },
+    {
+      "i": 54,
+      "zh": "迭代",
+      "en": "iterate",
+      "ipa": "[ˈɪtəreɪt]",
+      "pos": "v.",
+      "gloss": "迭代"
+    },
+    {
+      "i": 55,
+      "zh": "问题",
+      "en": "question",
+      "ipa": "[ˈkwestʃən]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 56,
+      "zh": "经历",
+      "en": "experience",
+      "ipa": "[ɪkˈspɪəriəns]",
+      "pos": "n.",
+      "gloss": "经历"
+    },
+    {
+      "i": 57,
+      "zh": "各种各样",
+      "en": "various",
+      "ipa": "[ˈveəriəs]",
+      "pos": "adj.",
+      "gloss": "各种各样的"
+    },
+    {
+      "i": 58,
+      "zh": "好奇",
+      "en": "curious",
+      "ipa": "[ˈkjʊəriəs]",
+      "pos": "adj.",
+      "gloss": "好奇的"
+    },
+    {
+      "i": 59,
+      "zh": "变",
+      "en": "shift",
+      "ipa": "[ʃɪft]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 60,
+      "zh": "创造",
+      "en": "create",
+      "ipa": "[kriˈeɪt]",
+      "pos": "v.",
+      "gloss": "创造"
+    },
+    {
+      "i": 61,
+      "zh": "行业",
+      "en": "sector",
+      "ipa": "[ˈsektə]",
+      "pos": "n.",
+      "gloss": "行业"
+    },
+    {
+      "i": 62,
+      "zh": "尝试",
+      "en": "attempt",
+      "ipa": "[əˈtempt]",
+      "pos": "v.",
+      "gloss": "尝试"
+    },
+    {
+      "i": 63,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɒdʒɪk]",
+      "pos": "n.",
+      "gloss": "逻辑"
+    },
+    {
+      "i": 64,
+      "zh": "移动",
+      "en": "mobile",
+      "ipa": "[ˈməʊbaɪl]",
+      "pos": "adj.",
+      "gloss": "移动的"
+    },
+    {
+      "i": 65,
+      "zh": "范式",
+      "en": "paradigm",
+      "ipa": "[ˈpærədaɪm]",
+      "pos": "n.",
+      "gloss": "范式"
+    },
+    {
+      "i": 66,
+      "zh": "交互",
+      "en": "interaction",
+      "ipa": "[ˌɪntərˈækʃən]",
+      "pos": "n.",
+      "gloss": "交互"
+    },
+    {
+      "i": 67,
+      "zh": "应对",
+      "en": "handle",
+      "ipa": "[ˈhændəl]",
+      "pos": "v.",
+      "gloss": "应对"
+    },
+    {
+      "i": 68,
+      "zh": "清晰",
+      "en": "clear",
+      "ipa": "[klɪə]",
+      "pos": "adj.",
+      "gloss": "清晰的"
+    },
+    {
+      "i": 69,
+      "zh": "架构",
+      "en": "architecture",
+      "ipa": "[ˈɑːkɪtektʃə]",
+      "pos": "n.",
+      "gloss": "架构"
+    },
+    {
+      "i": 70,
+      "zh": "全面",
+      "en": "comprehensive",
+      "ipa": "[ˌkɒmprɪˈhensɪv]",
+      "pos": "adj.",
+      "gloss": "全面的"
+    },
+    {
+      "i": 71,
+      "skip": true
+    },
+    {
+      "i": 72,
+      "zh": "首秀",
+      "en": "debut",
+      "ipa": "[ˈdeɪbjuː]",
+      "pos": "n.",
+      "gloss": "首秀"
+    },
+    {
+      "i": 73,
+      "zh": "算法",
+      "en": "algorithm",
+      "ipa": "[ˈælɡərɪðəm]",
+      "pos": "n.",
+      "gloss": "算法"
+    },
+    {
+      "i": 74,
+      "zh": "主要",
+      "en": "primary",
+      "ipa": "[ˈpraɪməri]",
+      "pos": "adj.",
+      "gloss": "主要的"
+    },
+    {
+      "i": 75,
+      "zh": "重建",
+      "en": "rebuild",
+      "ipa": "[ˌriːˈbɪld]",
+      "pos": "v.",
+      "gloss": "重建"
+    },
+    {
+      "i": 76,
+      "zh": "质量",
+      "en": "quality",
+      "ipa": "[ˈkwɒləti]",
+      "pos": "n.",
+      "gloss": "质量"
+    },
+    {
+      "i": 77,
+      "zh": "决策",
+      "en": "decision",
+      "ipa": "[dɪˈsɪʒən]",
+      "pos": "n.",
+      "gloss": "决策"
+    },
+    {
+      "i": 78,
+      "zh": "讨论",
+      "en": "discuss",
+      "ipa": "[dɪˈskʌs]",
+      "pos": "v.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 79,
+      "zh": "市场",
+      "en": "market",
+      "ipa": "[ˈmɑːkɪt]",
+      "pos": "n.",
+      "gloss": "市场"
+    },
+    {
+      "i": 80,
+      "zh": "颗粒度",
+      "en": "granularity",
+      "ipa": "[ˌɡrænjʊˈlærəti]",
+      "pos": "n.",
+      "gloss": "颗粒度"
+    },
+    {
+      "i": 81,
+      "zh": "评测",
+      "en": "evaluation",
+      "ipa": "[ɪˌvæljuˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "评测"
+    },
+    {
+      "i": 82,
+      "zh": "预测",
+      "en": "predict",
+      "ipa": "[prɪˈdɪkt]",
+      "pos": "v.",
+      "gloss": "预测"
+    },
+    {
+      "i": 83,
+      "zh": "混淆",
+      "en": "confuse",
+      "ipa": "[kənˈfjuːz]",
+      "pos": "v.",
+      "gloss": "混淆"
+    },
+    {
+      "i": 84,
+      "zh": "感受",
+      "en": "feeling",
+      "ipa": "[ˈfiːlɪŋ]",
+      "pos": "n.",
+      "gloss": "感受"
+    },
+    {
+      "i": 85,
+      "zh": "觉得",
+      "en": "reckon",
+      "ipa": "[ˈrekən]",
+      "pos": "v.",
+      "gloss": "认为"
+    },
+    {
+      "i": 86,
+      "zh": "同理心",
+      "en": "empathy",
+      "ipa": "[ˈempəθi]",
+      "pos": "n.",
+      "gloss": "同理心"
+    },
+    {
+      "i": 87,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 88,
+      "zh": "换位",
+      "en": "transposition",
+      "ipa": "[ˌtrænspəˈzɪʃən]",
+      "pos": "n.",
+      "gloss": "换位"
+    },
+    {
+      "i": 89,
+      "zh": "骨干",
+      "en": "backbone",
+      "ipa": "[ˈbækbəʊn]",
+      "pos": "n.",
+      "gloss": "骨干"
+    },
+    {
+      "i": 90,
+      "zh": "维护",
+      "en": "maintain",
+      "ipa": "[meɪnˈteɪn]",
+      "pos": "v.",
+      "gloss": "维护"
+    },
+    {
+      "i": 91,
+      "zh": "解释",
+      "en": "explain",
+      "ipa": "[ɪkˈspleɪn]",
+      "pos": "v.",
+      "gloss": "解释"
+    },
+    {
+      "i": 92,
+      "zh": "探讨",
+      "en": "deliberate",
+      "ipa": "[dɪˈlɪbəreɪt]",
+      "pos": "v.",
+      "gloss": "探讨"
+    },
+    {
+      "i": 93,
+      "zh": "认同",
+      "en": "agree",
+      "ipa": "[əˈɡriː]",
+      "pos": "v.",
+      "gloss": "认同"
+    },
+    {
+      "i": 94,
+      "zh": "兑现",
+      "en": "fulfill",
+      "ipa": "[fʊlˈfɪl]",
+      "pos": "v.",
+      "gloss": "兑现"
+    },
+    {
+      "i": 95,
+      "zh": "比如",
+      "en": "instance",
+      "ipa": "[ˈɪnstəns]",
+      "pos": "n.",
+      "gloss": "实例"
+    },
+    {
+      "i": 96,
+      "zh": "论文",
+      "en": "thesis",
+      "ipa": "[ˈθiːsɪs]",
+      "pos": "n.",
+      "gloss": "论文"
+    },
+    {
+      "i": 97,
+      "zh": "想象",
+      "en": "imagine",
+      "ipa": "[ɪˈmædʒɪn]",
+      "pos": "v.",
+      "gloss": "想象"
+    },
+    {
+      "i": 98,
+      "zh": "狂野",
+      "en": "wild",
+      "ipa": "[waɪld]",
+      "pos": "adj.",
+      "gloss": "狂野的"
+    },
+    {
+      "i": 99,
+      "zh": "自动化",
+      "en": "automation",
+      "ipa": "[ˌɔːtəˈmeɪʃən]",
+      "pos": "n.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 100,
+      "zh": "微弱",
+      "en": "faint",
+      "ipa": "[feɪnt]",
+      "pos": "adj.",
+      "gloss": "微弱的"
+    },
+    {
+      "i": 101,
+      "zh": "巨大",
+      "en": "tremendous",
+      "ipa": "[trɪˈmendəs]",
+      "pos": "adj.",
+      "gloss": "巨大的"
+    },
+    {
+      "i": 102,
+      "zh": "定义",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "定义"
+    },
+    {
+      "i": 103,
+      "zh": "部分",
+      "en": "segment",
+      "ipa": "[ˈseɡmənt]",
+      "pos": "n.",
+      "gloss": "部分"
+    },
+    {
+      "i": 104,
+      "zh": "幸运",
+      "en": "fortunate",
+      "ipa": "[ˈfɔːtʃənət]",
+      "pos": "adj.",
+      "gloss": "幸运的"
+    },
+    {
+      "i": 105,
+      "zh": "厉害",
+      "en": "impressive",
+      "ipa": "[ɪmˈpresɪv]",
+      "pos": "adj.",
+      "gloss": "令人印象深刻的"
+    },
+    {
+      "i": 106,
+      "zh": "不够",
+      "en": "insufficient",
+      "ipa": "[ˌɪnsəˈfɪʃənt]",
+      "pos": "adj.",
+      "gloss": "不够的"
+    },
+    {
+      "i": 107,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "预期"
+    },
+    {
+      "i": 108,
+      "zh": "消耗",
+      "en": "consume",
+      "ipa": "[kənˈsjuːm]",
+      "pos": "v.",
+      "gloss": "消耗"
+    },
+    {
+      "i": 109,
+      "zh": "毫无疑问",
+      "en": "undoubtedly",
+      "ipa": "[ʌnˈdaʊtɪdli]",
+      "pos": "adv.",
+      "gloss": "毫无疑问地"
+    },
+    {
+      "i": 110,
+      "zh": "原因",
+      "en": "reason",
+      "ipa": "[ˈriːzən]",
+      "pos": "n.",
+      "gloss": "原因"
+    },
+    {
+      "i": 111,
+      "zh": "完备",
+      "en": "complete",
+      "ipa": "[kəmˈpliːt]",
+      "pos": "adj.",
+      "gloss": "完备的"
+    },
+    {
+      "i": 112,
+      "zh": "体系",
+      "en": "system",
+      "ipa": "[ˈsɪstəm]",
+      "pos": "n.",
+      "gloss": "体系"
+    },
+    {
+      "i": 113,
+      "zh": "厂商",
+      "en": "vendor",
+      "ipa": "[ˈvendə]",
+      "pos": "n.",
+      "gloss": "厂商"
+    },
+    {
+      "i": 114,
+      "zh": "积累",
+      "en": "accumulate",
+      "ipa": "[əˈkjuːmjʊleɪt]",
+      "pos": "v.",
+      "gloss": "积累"
+    },
+    {
+      "i": 115,
+      "zh": "演进",
+      "en": "evolution",
+      "ipa": "[ˌiːvəˈluːʃən]",
+      "pos": "n.",
+      "gloss": "演进"
+    },
+    {
+      "i": 116,
+      "zh": "焦虑",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑"
+    },
+    {
+      "i": 117,
+      "zh": "精力",
+      "en": "energy",
+      "ipa": "[ˈenədʒi]",
+      "pos": "n.",
+      "gloss": "精力"
+    },
+    {
+      "i": 118,
+      "zh": "简单",
+      "en": "simple",
+      "ipa": "[ˈsɪmpəl]",
+      "pos": "adj.",
+      "gloss": "简单的"
+    },
+    {
+      "i": 119,
+      "zh": "性能",
+      "en": "performance",
+      "ipa": "[pəˈfɔːməns]",
+      "pos": "n.",
+      "gloss": "性能"
+    },
+    {
+      "i": 120,
+      "zh": "优化",
+      "en": "optimize",
+      "ipa": "[ˈɒptɪmaɪz]",
+      "pos": "v.",
+      "gloss": "优化"
+    },
+    {
+      "i": 121,
+      "zh": "比肩",
+      "en": "rival",
+      "ipa": "[ˈraɪvəl]",
+      "pos": "v.",
+      "gloss": "比肩"
+    },
+    {
+      "i": 122,
+      "zh": "认知",
+      "en": "cognition",
+      "ipa": "[kɒɡˈnɪʃən]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 123,
+      "zh": "习惯",
+      "en": "habit",
+      "ipa": "[ˈhæbɪt]",
+      "pos": "n.",
+      "gloss": "习惯"
+    },
+    {
+      "i": 124,
+      "zh": "配合",
+      "en": "coordinate",
+      "ipa": "[kəʊˈɔːdɪneɪt]",
+      "pos": "v.",
+      "gloss": "配合"
+    },
+    {
+      "i": 125,
+      "zh": "口碑",
+      "en": "reputation",
+      "ipa": "[ˌrepjʊˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "口碑"
+    },
+    {
+      "i": 126,
+      "zh": "扁平化",
+      "en": "flat",
+      "ipa": "[flæt]",
+      "pos": "adj.",
+      "gloss": "扁平化的"
+    },
+    {
+      "i": 127,
+      "zh": "融合",
+      "en": "integration",
+      "ipa": "[ˌɪntɪˈɡreɪʃən]",
+      "pos": "n.",
+      "gloss": "融合"
+    },
+    {
+      "i": 128,
+      "zh": "保证",
+      "en": "assurance",
+      "ipa": "[əˈʃʊərəns]",
+      "pos": "n.",
+      "gloss": "保证"
+    },
+    {
+      "i": 129,
+      "zh": "研判",
+      "en": "assessment",
+      "ipa": "[əˈsesmənt]",
+      "pos": "n.",
+      "gloss": "研判"
+    },
+    {
+      "i": 130,
+      "zh": "抓住",
+      "en": "seize",
+      "ipa": "[siːz]",
+      "pos": "v.",
+      "gloss": "抓住"
+    },
+    {
+      "i": 131,
+      "zh": "到底",
+      "en": "ultimately",
+      "ipa": "[ˈʌltɪmətli]",
+      "pos": "adv.",
+      "gloss": "到底"
+    },
+    {
+      "i": 132,
+      "zh": "多",
+      "en": "further",
+      "ipa": "[ˈfɜːðə]",
+      "pos": "adv.",
+      "gloss": "进一步"
+    },
+    {
+      "i": 133,
+      "zh": "感觉",
+      "en": "sense",
+      "ipa": "[sens]",
+      "pos": "n.",
+      "gloss": "感觉"
+    },
+    {
+      "i": 134,
+      "zh": "判断",
+      "en": "judgment",
+      "ipa": "[ˈdʒʌdʒmənt]",
+      "pos": "n.",
+      "gloss": "判断"
+    },
+    {
+      "i": 135,
+      "zh": "情绪",
+      "en": "sentiment",
+      "ipa": "[ˈsentɪmənt]",
+      "pos": "n.",
+      "gloss": "情绪"
+    },
+    {
+      "i": 136,
+      "zh": "灰暗",
+      "en": "gloomy",
+      "ipa": "[ˈɡluːmi]",
+      "pos": "adj.",
+      "gloss": "灰暗的"
+    },
+    {
+      "i": 137,
+      "zh": "产生",
+      "en": "emerge",
+      "ipa": "[ɪˈmɜːdʒ]",
+      "pos": "v.",
+      "gloss": "产生"
+    },
+    {
+      "i": 138,
+      "zh": "多元",
+      "en": "diverse",
+      "ipa": "[daɪˈvɜːs]",
+      "pos": "adj.",
+      "gloss": "多元的"
+    },
+    {
+      "i": 139,
+      "zh": "主线",
+      "en": "thread",
+      "ipa": "[θred]",
+      "pos": "n.",
+      "gloss": "主线"
+    },
+    {
+      "i": 140,
+      "zh": "单一",
+      "en": "uniform",
+      "ipa": "[ˈjuːnɪfɔːm]",
+      "pos": "adj.",
+      "gloss": "单一的"
+    },
+    {
+      "i": 141,
+      "zh": "具身",
+      "en": "embodied",
+      "ipa": "[ɪmˈbɒdid]",
+      "pos": "adj.",
+      "gloss": "具身的"
+    },
+    {
+      "i": 142,
+      "zh": "曲折",
+      "en": "twist",
+      "ipa": "[twɪst]",
+      "pos": "n.",
+      "gloss": "曲折"
+    },
+    {
+      "i": 143,
+      "zh": "批评",
+      "en": "criticize",
+      "ipa": "[ˈkrɪtɪsaɪz]",
+      "pos": "v.",
+      "gloss": "批评"
+    },
+    {
+      "i": 144,
+      "zh": "业态",
+      "en": "format",
+      "ipa": "[ˈfɔːmæt]",
+      "pos": "n.",
+      "gloss": "业态"
+    },
+    {
+      "i": 145,
+      "zh": "复杂",
+      "en": "intricate",
+      "ipa": "[ˈɪntrɪkət]",
+      "pos": "adj.",
+      "gloss": "复杂的"
+    },
+    {
+      "i": 146,
+      "zh": "马拉松",
+      "en": "marathon",
+      "ipa": "[ˈmærəθən]",
+      "pos": "n.",
+      "gloss": "马拉松"
+    },
+    {
+      "i": 147,
+      "zh": "赛道",
+      "en": "track",
+      "ipa": "[træk]",
+      "pos": "n.",
+      "gloss": "赛道"
+    },
+    {
+      "i": 148,
+      "zh": "热潮",
+      "en": "boom",
+      "ipa": "[buːm]",
+      "pos": "n.",
+      "gloss": "热潮"
+    },
+    {
+      "i": 149,
+      "zh": "程序员",
+      "en": "programmer",
+      "ipa": "[ˈprəʊɡræmə]",
+      "pos": "n.",
+      "gloss": "程序员"
+    },
+    {
+      "i": 150,
+      "zh": "正向",
+      "en": "positive",
+      "ipa": "[ˈpɒzətɪv]",
+      "pos": "adj.",
+      "gloss": "正向的"
+    },
+    {
+      "i": 151,
+      "zh": "困惑",
+      "en": "confusion",
+      "ipa": "[kənˈfjuːʒən]",
+      "pos": "n.",
+      "gloss": "困惑"
+    },
+    {
+      "i": 152,
+      "zh": "普及",
+      "en": "popularize",
+      "ipa": "[ˈpɒpjʊləraɪz]",
+      "pos": "v.",
+      "gloss": "普及"
+    },
+    {
+      "i": 153,
+      "zh": "高效",
+      "en": "efficient",
+      "ipa": "[ɪˈfɪʃənt]",
+      "pos": "adj.",
+      "gloss": "高效的"
+    },
+    {
+      "i": 154,
+      "zh": "核心",
+      "en": "core",
+      "ipa": "[kɔː]",
+      "pos": "adj.",
+      "gloss": "核心的"
+    },
+    {
+      "i": 155,
+      "zh": "触点",
+      "en": "touchpoint",
+      "ipa": "[ˈtʌtʃpɔɪnt]",
+      "pos": "n.",
+      "gloss": "触点"
+    },
+    {
+      "i": 156,
+      "zh": "驾驭",
+      "en": "navigate",
+      "ipa": "[ˈnævɪɡeɪt]",
+      "pos": "v.",
+      "gloss": "驾驭"
+    },
+    {
+      "i": 157,
+      "zh": "驱动力",
+      "en": "drive",
+      "ipa": "[draɪv]",
+      "pos": "n.",
+      "gloss": "驱动力"
+    },
+    {
+      "i": 158,
+      "zh": "标杆",
+      "en": "benchmark",
+      "ipa": "[ˈbentʃmɑːk]",
+      "pos": "n.",
+      "gloss": "标杆"
+    },
+    {
+      "i": 159,
+      "zh": "环节",
+      "en": "phase",
+      "ipa": "[feɪz]",
+      "pos": "n.",
+      "gloss": "环节"
+    },
+    {
+      "i": 160,
+      "zh": "平行",
+      "en": "parallel",
+      "ipa": "[ˈpærəlel]",
+      "pos": "adj.",
+      "gloss": "平行的"
+    },
+    {
+      "i": 161,
+      "zh": "感谢",
+      "en": "gratitude",
+      "ipa": "[ˈɡrætɪtjuːd]",
+      "pos": "n.",
+      "gloss": "感谢"
+    }
+  ]
+}
