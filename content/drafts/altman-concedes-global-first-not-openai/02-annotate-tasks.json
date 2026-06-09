@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "altman-concedes-global-first-not-openai",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/001.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/001.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 2,
+      "source_text": "奥特曼亲口承认，OpenAI内部token消费冠军月烧1000亿个，还不是全球第一。",
+      "html": "<p>奥特曼亲口承认，OpenAI内部token<span class=\"word-annot\"><span class=\"word-anchor\">消费</span><span class=\"word-block\"><span class=\"english-word\">consume</span><span class=\"word-info\">[kənˈsjuːm] v. 消费</span></span></span>冠军月烧1000亿个，还不是全球第一。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "硅谷最近流行一种新的炫富。",
+      "html": "<p>硅谷最近流行一种新的<span class=\"word-annot\"><span class=\"word-anchor\">炫富</span><span class=\"word-block\"><span class=\"english-word\">flaunt</span><span class=\"word-info\">[flɔːnt] v. 炫富；炫耀财富</span></span></span>。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "不比房，不比车，比谁把AI的token烧得多。烧得越狠越光荣，活脱脱一场全员烧钱大赛。",
+      "html": "<p>不<span class=\"word-annot\"><span class=\"word-anchor\">比</span><span class=\"word-block\"><span class=\"english-word\">compete</span><span class=\"word-info\">[kəmˈpiːt] v. 比；竞争</span></span></span>房，不比车，比谁把AI的token烧得多。烧得越狠越<span class=\"word-annot\"><span class=\"word-anchor\">光荣</span><span class=\"word-block\"><span class=\"english-word\">glory</span><span class=\"word-info\">[ˈɡlɔːri] n. 光荣</span></span></span>，活脱脱一场全员烧钱大赛。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "按理说，最有资格炫的候选是OpenAI。token它自己造，成本价随便烧。",
+      "html": "<p>按理说，最有资格炫的<span class=\"word-annot\"><span class=\"word-anchor\">候选</span><span class=\"word-block\"><span class=\"english-word\">candidate</span><span class=\"word-info\">[ˈkændɪdət] n. 候选者</span></span></span>是OpenAI。token它自己造，<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">cost</span><span class=\"word-info\">[kɒst] n. 成本</span></span></span>价随便烧。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "可前两天一场直播，CEO奥特曼自己拆了自己的台。",
+      "html": "<p>可前两天一场<span class=\"word-annot\"><span class=\"word-anchor\">直播</span><span class=\"word-block\"><span class=\"english-word\">broadcast</span><span class=\"word-info\">[ˈbrɔːdkɑːst] n. 直播</span></span></span>，CEO奥特曼自己拆了自己的台。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "OpenAI内部的token消费冠军，每月消耗1000亿个token。",
+      "html": "<p>OpenAI内部的token消费冠军，每月<span class=\"word-annot\"><span class=\"word-anchor\">消耗</span><span class=\"word-block\"><span class=\"english-word\">consumption</span><span class=\"word-info\">[kənˈsʌmpʃn] n. 消耗</span></span></span>1000亿个token。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/003.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/003.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 9,
+      "source_text": "然后他补了一句话，让整个画风突变。",
+      "html": "<p>然后他补了一句话，让整个画风<span class=\"word-annot\"><span class=\"word-anchor\">突变</span><span class=\"word-block\"><span class=\"english-word\">mutate</span><span class=\"word-info\">[mjuːˈteɪt] v. 突变</span></span></span>。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "说来惭愧，这还不是世界第一。我们发现有人比这更多。",
+      "html": "<p>说来<span class=\"word-annot\"><span class=\"word-anchor\">惭愧</span><span class=\"word-block\"><span class=\"english-word\">ashamed</span><span class=\"word-info\">[əˈʃeɪmd] adj. 惭愧的</span></span></span>，这还不是世界第一。我们<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discover</span><span class=\"word-info\">[dɪˈskʌvə] v. 发现</span></span></span>有人比这更多。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "万万没想到，一个造token的竟然没干过买token的。",
+      "html": "<p>万万没想到，一个<span class=\"word-annot\"><span class=\"word-anchor\">造</span><span class=\"word-block\"><span class=\"english-word\">manufacture</span><span class=\"word-info\">[ˌmænjuˈfæktʃə] v. 制造；生产</span></span></span>token的竟然没干过买token的。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/004.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/004.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 13,
+      "source_text": "这个1000亿有多夸张。",
+      "html": "<p>这个1000亿有多<span class=\"word-annot\"><span class=\"word-anchor\">夸张</span><span class=\"word-block\"><span class=\"english-word\">exaggerate</span><span class=\"word-info\">[ɪɡˈzædʒəreɪt] v. 夸张</span></span></span>。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "六年多前，全公司烧得最猛的人，一个月也就10万。",
+      "html": "<p>六年多前，全公司烧得最<span class=\"word-annot\"><span class=\"word-anchor\">猛</span><span class=\"word-block\"><span class=\"english-word\">intense</span><span class=\"word-info\">[ɪnˈtens] adj. 激烈的；猛烈的</span></span></span>的人，一个月也就10万。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "从10万到1000亿，整整一百万倍。当年那个全球第一的10万，放今天只是地球上一个普通人的人均水平。",
+      "html": "<p>从10万到1000亿，整整一百万倍。当年那个<span class=\"word-annot\"><span class=\"word-anchor\">全球</span><span class=\"word-block\"><span class=\"english-word\">global</span><span class=\"word-info\">[ˈɡləʊbl] adj. 全球的</span></span></span>第一的10万，放今天只是地球上一个普通人的人均水平。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "烧到这个量级还守不住第一，OpenAI不是没努力。",
+      "html": "<p>烧到这个<span class=\"word-annot\"><span class=\"word-anchor\">量级</span><span class=\"word-block\"><span class=\"english-word\">magnitude</span><span class=\"word-info\">[ˈmæɡnɪtjuːd] n. 量级；规模</span></span></span>还守不住第一，OpenAI不是没努力。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "token它有，自己产的，成本价造。烧token也早早卷成了一种荣耀，有排行榜，谁烧得多谁脸上有光。",
+      "html": "<p>token它有，自己<span class=\"word-annot\"><span class=\"word-anchor\">产</span><span class=\"word-block\"><span class=\"english-word\">produce</span><span class=\"word-info\">[prəˈdjuːs] v. 生产；制造</span></span></span>的，成本价造。烧token也早早卷成了一种荣耀，有<span class=\"word-annot\"><span class=\"word-anchor\">排行榜</span><span class=\"word-block\"><span class=\"english-word\">leaderboard</span><span class=\"word-info\">[ˈliːdəbɔːd] n. 排行榜</span></span></span>，谁烧得多谁脸上有光。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "它甚至给客户发实体奖牌，叫「Tokens of Appreciation」，10亿、1000亿、1万亿，三档明码标价，烧到了就给你寄一块。麦肯锡刚集齐1000亿那一块。",
+      "html": "<p>它甚至给客户发<span class=\"word-annot\"><span class=\"word-anchor\">实体</span><span class=\"word-block\"><span class=\"english-word\">physical</span><span class=\"word-info\">[ˈfɪzɪkl] adj. 实体的</span></span></span>奖牌，叫「Tokens of Appreciation」，10亿、1000亿、1万亿，三档明码标价，烧到了就给你寄一块。麦肯锡刚<span class=\"word-annot\"><span class=\"word-anchor\">集齐</span><span class=\"word-block\"><span class=\"english-word\">amass</span><span class=\"word-info\">[əˈmæs] v. 积累；聚集</span></span></span>1000亿那一块。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "YC那一批创业公司，奥特曼大手一挥，每家白送200万美元的token，就为了看他们能烧出点什么花样。",
+      "html": "<p>YC那一批<span class=\"word-annot\"><span class=\"word-anchor\">创业</span><span class=\"word-block\"><span class=\"english-word\">startup</span><span class=\"word-info\">[ˈstɑːtʌp] n. 初创企业</span></span></span>公司，奥特曼大手一挥，每家白送200万美元的token，就为了看他们能烧出点什么花样。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "如今，token这东西在OpenAI已经快变成发给员工的工资了。但还是没卷过那个「神秘人」。",
+      "html": "<p>如今，token这东西在OpenAI已经快变成发给员工的<span class=\"word-annot\"><span class=\"word-anchor\">工资</span><span class=\"word-block\"><span class=\"english-word\">salary</span><span class=\"word-info\">[ˈsæləri] n. 工资；薪水</span></span></span>了。但还是没卷过那个「<span class=\"word-annot\"><span class=\"word-anchor\">神秘</span><span class=\"word-block\"><span class=\"english-word\">mysterious</span><span class=\"word-info\">[mɪˈstɪəriəs] adj. 神秘的</span></span></span>人」。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/005.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/005.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 22,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/006.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/006.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 23,
+      "source_text": "不过，先别急着膜拜这些数字。",
+      "html": "<p>不过，先别急着<span class=\"word-annot\"><span class=\"word-anchor\">膜拜</span><span class=\"word-block\"><span class=\"english-word\">worship</span><span class=\"word-info\">[ˈwɜːʃɪp] v. 崇拜；膜拜</span></span></span>这些数字。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "Linear的COO Cristina Cordova在𝕏上开火，按token花费给工程师排名，跟她按谁花钱最多给市场团队排名有啥区别。别把高烧钱率当成高成功率。",
+      "html": "<p>Linear的COO Cristina Cordova在𝕏上开火，按token花费给工程师<span class=\"word-annot\"><span class=\"word-anchor\">排名</span><span class=\"word-block\"><span class=\"english-word\">rank</span><span class=\"word-info\">[ræŋk] v. 排名</span></span></span>，跟她按谁花钱最多给市场团队排名有啥区别。别把高烧钱<span class=\"word-annot\"><span class=\"word-anchor\">率</span><span class=\"word-block\"><span class=\"english-word\">rate</span><span class=\"word-info\">[reɪt] n. 率；比率</span></span></span>当成高成功率。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "开发者Maxwell Maher说得更绝，这可能是有史以来最烂的生产力指标。任谁都能让200个Agent整夜空转，烧出一大堆「啥也没干成」。",
+      "html": "<p>开发者Maxwell Maher说得更绝，这可能是有史以来最烂的<span class=\"word-annot\"><span class=\"word-anchor\">生产力</span><span class=\"word-block\"><span class=\"english-word\">productivity</span><span class=\"word-info\">[ˌprɒdʌkˈtɪvəti] n. 生产力</span></span></span>指标。任谁都能让200个Agent整夜<span class=\"word-annot\"><span class=\"word-anchor\">空转</span><span class=\"word-block\"><span class=\"english-word\">idle</span><span class=\"word-info\">[ˈaɪdl] v. 空转；闲置</span></span></span>，烧出一大堆「啥也没干成」。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/007.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/007.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 27,
+      "source_text": "过去两个月，整个硅谷为这事吵翻了天。",
+      "html": "<p>过去两个月，整个硅谷为这事<span class=\"word-annot\"><span class=\"word-anchor\">吵</span><span class=\"word-block\"><span class=\"english-word\">quarrel</span><span class=\"word-info\">[ˈkwɒrəl] v. 争吵</span></span></span>翻了天。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "4月，Meta内网冒出一个员工私建的排行榜，名字叫「Claudeonomics」，专按token消耗量给同事排座次。烧得多的，还能领「Token Legend」「Cache Wizard」这种花里胡哨的称号。",
+      "html": "<p>4月，Meta<span class=\"word-annot\"><span class=\"word-anchor\">内网</span><span class=\"word-block\"><span class=\"english-word\">intranet</span><span class=\"word-info\">[ˈɪntrənet] n. 内网；内部网络</span></span></span>冒出一个员工私建的排行榜，名字叫「Claudeonomics」，专按token消耗量给同事排座次。烧得多的，还能领「Token Legend」「Cache Wizard」这种花里胡哨的<span class=\"word-annot\"><span class=\"word-anchor\">称号</span><span class=\"word-block\"><span class=\"english-word\">title</span><span class=\"word-info\">[ˈtaɪtl] n. 称号；头衔</span></span></span>。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "于是，一个月后，整个Meta烧掉了60万亿token。",
+      "html": "<p>于是，一个月后，整个Meta烧掉了60<span class=\"word-annot\"><span class=\"word-anchor\">万亿</span><span class=\"word-block\"><span class=\"english-word\">trillion</span><span class=\"word-info\">[ˈtrɪljən] n. 万亿</span></span></span>token。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "「卧龙」既出，必有「凤雏」。",
+      "html": "<p>「卧龙」既出，必有「凤雏」。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "栽进同一个坑里的，还有亚马逊。他们的员工为了冲榜，把prompt写得又臭又长，挂一堆Agent并行刷，token数蹭蹭涨，活没多干一点。",
+      "html": "<p>栽进同一个<span class=\"word-annot\"><span class=\"word-anchor\">坑</span><span class=\"word-block\"><span class=\"english-word\">pitfall</span><span class=\"word-info\">[ˈpɪtfɔːl] n. 陷阱；坑</span></span></span>里的，还有亚马逊。他们的员工为了冲榜，把prompt写得又臭又长，挂一堆Agent<span class=\"word-annot\"><span class=\"word-anchor\">并行</span><span class=\"word-block\"><span class=\"english-word\">concurrent</span><span class=\"word-info\">[kənˈkʌrənt] adj. 并行的；同时发生的</span></span></span>刷，token数蹭蹭涨，活没多干一点。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/008.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/008.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 33,
+      "source_text": "这事被端上台面之后，得了个名字「tokenmaxxing」。后面那个「maxxing」，意思就是往死里堆。",
+      "html": "<p>这事被端上<span class=\"word-annot\"><span class=\"word-anchor\">台面</span><span class=\"word-block\"><span class=\"english-word\">surface</span><span class=\"word-info\">[ˈsɜːfɪs] n. 表面；台面</span></span></span>之后，得了个名字「tokenmaxxing」。后面那个「maxxing」，意思就是往死里<span class=\"word-annot\"><span class=\"word-anchor\">堆</span><span class=\"word-block\"><span class=\"english-word\">pile</span><span class=\"word-info\">[paɪl] v. 堆；堆积</span></span></span>。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "那么问题来了，用这么多token堆出来的，到底是生产力，还是一地鸡毛？",
+      "html": "<p>那么问题来了，用这么多token堆出来的，<span class=\"word-annot\"><span class=\"word-anchor\">到底</span><span class=\"word-block\"><span class=\"english-word\">ultimately</span><span class=\"word-info\">[ˈʌltɪmətli] adv. 到底；最终</span></span></span>是生产力，还是一地鸡毛？</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/009.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/009.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 36,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/010.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/010.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 37,
+      "source_text": "OpenAI：把会花钱的人买下来",
+      "html": "<p>OpenAI：把会花钱的人<span class=\"word-annot\"><span class=\"word-anchor\">买</span><span class=\"word-block\"><span class=\"english-word\">acquire</span><span class=\"word-info\">[əˈkwaɪə] v. 收购；获取</span></span></span>下来</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "想知道答案，镜头需要先切到这个人身上。",
+      "html": "<p>想知道答案，<span class=\"word-annot\"><span class=\"word-anchor\">镜头</span><span class=\"word-block\"><span class=\"english-word\">focus</span><span class=\"word-info\">[ˈfəʊkəs] v. 聚焦；镜头对准</span></span></span>需要先切到这个人身上。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "5月15日，Peter Steinberger往𝕏上甩了一张截图。",
+      "html": "<p>5月15日，Peter Steinberger往𝕏上甩了一张<span class=\"word-annot\"><span class=\"word-anchor\">截图</span><span class=\"word-block\"><span class=\"english-word\">screenshot</span><span class=\"word-info\">[ˈskriːnʃɒt] n. 截图</span></span></span>。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "他的OpenAI后台，过去30天，账单停在$1,305,088.81。6030亿token，760万次请求，背后100个Codex实例昼夜不停。",
+      "html": "<p>他的OpenAI后台，过去30天，<span class=\"word-annot\"><span class=\"word-anchor\">账单</span><span class=\"word-block\"><span class=\"english-word\">invoice</span><span class=\"word-info\">[ˈɪnvɔɪs] n. 账单</span></span></span>停在$1,305,088.81。6030亿token，760万次<span class=\"word-annot\"><span class=\"word-anchor\">请求</span><span class=\"word-block\"><span class=\"english-word\">request</span><span class=\"word-info\">[rɪˈkwest] n. 请求</span></span></span>，背后100个Codex实例昼夜不停。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "这130万，他一分钱没掏。今年2月他进了OpenAI，从那以后，烧多少都是公司的钱。",
+      "html": "<p>这130万，他一分钱没<span class=\"word-annot\"><span class=\"word-anchor\">掏</span><span class=\"word-block\"><span class=\"english-word\">disburse</span><span class=\"word-info\">[dɪsˈbɜːs] v. 支付；掏钱</span></span></span>。今年2月他进了OpenAI，从那以后，<span class=\"word-annot\"><span class=\"word-anchor\">烧</span><span class=\"word-block\"><span class=\"english-word\">expend</span><span class=\"word-info\">[ɪkˈspend] v. 花费；消耗</span></span></span>多少都是公司的钱。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/011.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/011.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 43,
+      "source_text": "一边把烧token玩成了KPI游戏，一边把它烧成了真东西。",
+      "html": "<p>一边把烧token玩成了KPI<span class=\"word-annot\"><span class=\"word-anchor\">游戏</span><span class=\"word-block\"><span class=\"english-word\">game</span><span class=\"word-info\">[ɡeɪm] n. 游戏</span></span></span>，一边把它烧成了真东西。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "对于OpenAI来说，token他们自己产，从来不缺。缺的是会用token的脑子。",
+      "html": "<p>对于OpenAI来说，token他们自己产，从来不<span class=\"word-annot\"><span class=\"word-anchor\">缺</span><span class=\"word-block\"><span class=\"english-word\">lack</span><span class=\"word-info\">[læk] v. 缺乏</span></span></span>。缺的是会用token的<span class=\"word-annot\"><span class=\"word-anchor\">脑子</span><span class=\"word-block\"><span class=\"english-word\">intellect</span><span class=\"word-info\">[ˈɪntəlekt] n. 智力；头脑</span></span></span>。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "这事儿，用Peter自己的话解释得最清楚：",
+      "html": "<p>这事儿，用Peter自己的话<span class=\"word-annot\"><span class=\"word-anchor\">解释</span><span class=\"word-block\"><span class=\"english-word\">explain</span><span class=\"word-info\">[ɪkˈspleɪn] v. 解释</span></span></span>得最清楚：</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "大家都在为我的账单抓狂。但没人看到的是，真正让我兴奋的问题是，如果token成本不再是限制，未来的软件该怎么造？",
+      "html": "<p>大家都在为我的账单<span class=\"word-annot\"><span class=\"word-anchor\">抓狂</span><span class=\"word-block\"><span class=\"english-word\">frantic</span><span class=\"word-info\">[ˈfræntɪk] adj. 疯狂的；抓狂的</span></span></span>。但没人看到的是，真正让我兴奋的问题是，如果token成本不再是<span class=\"word-annot\"><span class=\"word-anchor\">限制</span><span class=\"word-block\"><span class=\"english-word\">constraint</span><span class=\"word-info\">[kənˈstreɪnt] n. 限制；约束</span></span></span>，未来的软件该怎么造？</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "他那100个Codex不是挂着空转刷排名的。扫安全漏洞、审PR、去重issue、写修复，全天候在干活。这不是tokenmaxxing，这是一台吞token的机器在替他造东西。",
+      "html": "<p>他那100个Codex不是挂着空转<span class=\"word-annot\"><span class=\"word-anchor\">刷</span><span class=\"word-block\"><span class=\"english-word\">grind</span><span class=\"word-info\">[ɡraɪnd] v. 刷；苦干</span></span></span>排名的。扫安全<span class=\"word-annot\"><span class=\"word-anchor\">漏洞</span><span class=\"word-block\"><span class=\"english-word\">vulnerability</span><span class=\"word-info\">[ˌvʌlnərəˈbɪləti] n. 漏洞；脆弱性</span></span></span>、审PR、去重issue、写修复，全天候在干活。这不是tokenmaxxing，这是一台<span class=\"word-annot\"><span class=\"word-anchor\">吞</span><span class=\"word-block\"><span class=\"english-word\">devour</span><span class=\"word-info\">[dɪˈvaʊə] v. 吞；吞噬</span></span></span>token的机器在替他造东西。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/012.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/012.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 49,
+      "source_text": "这种人有多稀缺，看个细节。",
+      "html": "<p>这种人有多<span class=\"word-annot\"><span class=\"word-anchor\">稀缺</span><span class=\"word-block\"><span class=\"english-word\">scarce</span><span class=\"word-info\">[skeəs] adj. 稀缺的</span></span></span>，看个细节。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "Peter那130万，跑的是Codex「Fast Mode」的价，关掉快速模式，同样的活只要30万。",
+      "html": "<p>Peter那130万，跑的是Codex「Fast Mode」的价，关掉快速<span class=\"word-annot\"><span class=\"word-anchor\">模式</span><span class=\"word-block\"><span class=\"english-word\">mode</span><span class=\"word-info\">[məʊd] n. 模式</span></span></span>，同样的活只要30万。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "哪怕按30万算，平均一个Agent一个月也得3000美元。",
+      "html": "<p>哪怕按30万算，<span class=\"word-annot\"><span class=\"word-anchor\">平均</span><span class=\"word-block\"><span class=\"english-word\">average</span><span class=\"word-info\">[ˈævərɪdʒ] adj. 平均的</span></span></span>一个Agent一个月也得3000美元。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "对比一下，一份200美元的Codex Pro订阅，一个月也就值五六千美元的API额度。",
+      "html": "<p>对比一下，一份200美元的Codex Pro<span class=\"word-annot\"><span class=\"word-anchor\">订阅</span><span class=\"word-block\"><span class=\"english-word\">subscription</span><span class=\"word-info\">[səbˈskrɪpʃn] n. 订阅</span></span></span>，一个月也就值五六千美元的API额度。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "Peter光非快速模式那部分，就顶得上六十份顶配订阅。",
+      "html": "<p>Peter光非快速模式那部分，就顶得上六十份<span class=\"word-annot\"><span class=\"word-anchor\">顶配</span><span class=\"word-block\"><span class=\"english-word\">premium</span><span class=\"word-info\">[ˈpriːmiəm] adj. 顶配的；高级的</span></span></span>订阅。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "OpenAI把这种人买进来，还高调替他付钱，本身就是一条广告，告诉外面所有开发者，未来的工作流是要烧海量算力的，不是省着用。",
+      "html": "<p>OpenAI把这种人买进来，还高调替他付钱，本身就是一条广告，告诉外面所有开发者，未来的<span class=\"word-annot\"><span class=\"word-anchor\">工作流</span><span class=\"word-block\"><span class=\"english-word\">workflow</span><span class=\"word-info\">[ˈwɜːkfləʊ] n. 工作流</span></span></span>是要烧海量算力的，不是省着用。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/013.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/013.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 56,
+      "source_text": "说回最初那个问题。一家公司未来的能力，到底押在什么上。",
+      "html": "<p>说回<span class=\"word-annot\"><span class=\"word-anchor\">最初</span><span class=\"word-block\"><span class=\"english-word\">initial</span><span class=\"word-info\">[ɪˈnɪʃl] adj. 最初的</span></span></span>那个问题。一家公司未来的<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>，到底押在什么上。</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "这不是虚题。再过两年，每家公司都得做同一道选择题，钱是砸在更多token上，还是砸在更会花token的人和系统上。",
+      "html": "<p>这不是<span class=\"word-annot\"><span class=\"word-anchor\">虚</span><span class=\"word-block\"><span class=\"english-word\">hollow</span><span class=\"word-info\">[ˈhɒləʊ] adj. 空的；虚的</span></span></span>题。再过两年，每家公司都得做同一道<span class=\"word-annot\"><span class=\"word-anchor\">选择</span><span class=\"word-block\"><span class=\"english-word\">option</span><span class=\"word-info\">[ˈɒpʃn] n. 选择</span></span></span>题，钱是砸在更多token上，还是砸在更会花token的人和系统上。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "直觉答案是，押在token上。谁算力多、token便宜，谁就强。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">直觉</span><span class=\"word-block\"><span class=\"english-word\">intuition</span><span class=\"word-info\">[ˌɪntjuˈɪʃn] n. 直觉</span></span></span>答案是，押在token上。谁<span class=\"word-annot\"><span class=\"word-anchor\">算力</span><span class=\"word-block\"><span class=\"english-word\">compute</span><span class=\"word-info\">[kəmˈpjuːt] n. 算力；计算能力</span></span></span>多、token便宜，谁就强。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "英伟达CEO黄仁勋就是这么想的。他在播客上放话，一个年薪50万美元的工程师，一年要是没烧掉至少25万美元的token，他会「深感不安」。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">英伟达</span><span class=\"word-block\"><span class=\"english-word\">nvidia</span><span class=\"word-info\">[ɪnˈvɪdiə] n. 英伟达（NVIDIA）</span></span></span>CEO黄仁勋就是这么想的。他在<span class=\"word-annot\"><span class=\"word-anchor\">播客</span><span class=\"word-block\"><span class=\"english-word\">podcast</span><span class=\"word-info\">[ˈpɒdkɑːst] n. 播客</span></span></span>上放话，一个年薪50万美元的工程师，一年要是没烧掉至少25万美元的token，他会「深感不安」。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "LinkedIn创始人Reid Hoffman、YC CEO Garry Tan都站这队，Tan的原话是「我们tokenmaxxing比大多数人都早」。连谷歌CEO Sundar Pichai都在Google I/O上把这词拎出来讲。",
+      "html": "<p>LinkedIn<span class=\"word-annot\"><span class=\"word-anchor\">创始人</span><span class=\"word-block\"><span class=\"english-word\">founder</span><span class=\"word-info\">[ˈfaʊndə] n. 创始人</span></span></span>Reid Hoffman、YC CEO Garry Tan都站这队，Tan的原话是「我们tokenmaxxing比大多数人都早」。连<span class=\"word-annot\"><span class=\"word-anchor\">谷歌</span><span class=\"word-block\"><span class=\"english-word\">google</span><span class=\"word-info\">[ˈɡuːɡl] n. 谷歌（Google）</span></span></span>CEO Sundar Pichai都在Google I/O上把这词拎出来讲。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/014.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/014.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 62,
+      "source_text": "可两边都只说对了一半。",
+      "html": "<p>可两边都只说对了一半。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "烧得多的人不一定强，这是质疑派对的。但能把海量token花出价值的人确实强，这是老黄们对的。",
+      "html": "<p>烧得多的人不一定强，这是<span class=\"word-annot\"><span class=\"word-anchor\">质疑</span><span class=\"word-block\"><span class=\"english-word\">question</span><span class=\"word-info\">[ˈkwestʃən] v. 质疑；怀疑</span></span></span>派对的。但能把海量token花出<span class=\"word-annot\"><span class=\"word-anchor\">价值</span><span class=\"word-block\"><span class=\"english-word\">value</span><span class=\"word-info\">[ˈvæljuː] n. 价值</span></span></span>的人确实强，这是老黄们对的。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "把这两半拼起来，答案就清楚了。",
+      "html": "<p>把这两半<span class=\"word-annot\"><span class=\"word-anchor\">拼</span><span class=\"word-block\"><span class=\"english-word\">combine</span><span class=\"word-info\">[kəmˈbaɪn] v. 拼合；组合</span></span></span>起来，答案就清楚了。</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "决定能力的，从来不是你能拿到多少token，是你有没有一套把token花出去的系统。",
+      "html": "<p>决定能力的，从来不是你能拿到多少token，是你有没有一套把token花出去的<span class=\"word-annot\"><span class=\"word-anchor\">系统</span><span class=\"word-block\"><span class=\"english-word\">system</span><span class=\"word-info\">[ˈsɪstəm] n. 系统</span></span></span>。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "Peter值钱，不在于他烧得起，在于他造了龙虾这台能吞6000多亿token的机器。",
+      "html": "<p>Peter值钱，不在于他烧得起，在于他造了龙虾这台能吞6000多亿token的<span class=\"word-annot\"><span class=\"word-anchor\">机器</span><span class=\"word-block\"><span class=\"english-word\">machine</span><span class=\"word-info\">[məˈʃiːn] n. 机器</span></span></span>。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/015.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/015.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 68,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/016.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/016.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 69,
+      "source_text": "便宜的是智能，贵的是会花钱的人",
+      "html": "<p>便宜的是<span class=\"word-annot\"><span class=\"word-anchor\">智能</span><span class=\"word-block\"><span class=\"english-word\">intelligence</span><span class=\"word-info\">[ɪnˈtelɪdʒəns] n. 智能</span></span></span>，贵的是会花钱的人</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "而烧钱这事，才刚开始提速。",
+      "html": "<p>而烧钱这事，才刚开始<span class=\"word-annot\"><span class=\"word-anchor\">提速</span><span class=\"word-block\"><span class=\"english-word\">accelerate</span><span class=\"word-info\">[əkˈseləreɪt] v. 加速</span></span></span>。</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "奥特曼在同一场直播里放了话，下一站是「常驻、主动运行的AI」，不用你开口，它自己在后台跑。",
+      "html": "<p>奥特曼在同一场直播里放了话，下一站是「<span class=\"word-annot\"><span class=\"word-anchor\">常驻</span><span class=\"word-block\"><span class=\"english-word\">persistent</span><span class=\"word-info\">[pəˈsɪstənt] adj. 常驻的；持久运行的</span></span></span>、主动运行的AI」，不用你开口，它自己在后台跑。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "当一个人能指挥上百个Agent昼夜连轴转，烧token这件事就跟公司大小彻底脱钩了。",
+      "html": "<p>当一个人能指挥上百个Agent昼夜连轴转，烧token这件事就跟公司大小彻底<span class=\"word-annot\"><span class=\"word-anchor\">脱钩</span><span class=\"word-block\"><span class=\"english-word\">decouple</span><span class=\"word-info\">[diːˈkʌpl] v. 脱钩；解耦</span></span></span>了。</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "一个铁了心的个人，能轻松烧过一整间实验室。Peter已经当众证明过一次。",
+      "html": "<p>一个铁了心的个人，能轻松烧过一整间<span class=\"word-annot\"><span class=\"word-anchor\">实验室</span><span class=\"word-block\"><span class=\"english-word\">laboratory</span><span class=\"word-info\">[ləˈbɒrətri] n. 实验室</span></span></span>。Peter已经当众<span class=\"word-annot\"><span class=\"word-anchor\">证明</span><span class=\"word-block\"><span class=\"english-word\">prove</span><span class=\"word-info\">[pruːv] v. 证明</span></span></span>过一次。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "对企业来说，这才是真正头疼的地方。",
+      "html": "<p>对企业来说，这才是真正<span class=\"word-annot\"><span class=\"word-anchor\">头疼</span><span class=\"word-block\"><span class=\"english-word\">headache</span><span class=\"word-info\">[ˈhedeɪk] n. 头疼；令人头疼的事</span></span></span>的地方。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "AI开始不用提示自己跑之后，成本不再是你点一下花一点。你睡着了，它还在花。",
+      "html": "<p>AI开始不用<span class=\"word-annot\"><span class=\"word-anchor\">提示</span><span class=\"word-block\"><span class=\"english-word\">prompt</span><span class=\"word-info\">[prɒmpt] n. 提示；提示词</span></span></span>自己跑之后，成本不再是你点一下花一点。你睡着了，它还在花。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "能把这种永不停机的智能管出价值，而不只是一张吓死人的账单，成了新的分水岭。",
+      "html": "<p>能把这种永不停机的智能管出价值，而不只是一张吓死人的账单，成了新的<span class=\"word-annot\"><span class=\"word-anchor\">分水岭</span><span class=\"word-block\"><span class=\"english-word\">watershed</span><span class=\"word-info\">[ˈwɔːtəʃed] n. 分水岭；转折点</span></span></span>。</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "到那天，会花钱的人值多少，只会比现在更离谱。",
+      "html": "<p>到那天，会花钱的人值多少，只会比现在更<span class=\"word-annot\"><span class=\"word-anchor\">离谱</span><span class=\"word-block\"><span class=\"english-word\">absurd</span><span class=\"word-info\">[əbˈsɜːd] adj. 离谱的；荒谬的</span></span></span>。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "https://www.businessinsider.com/sam-altman-openai-top-token-spender-ai-costs-issue-2026-6",
+      "html": "<p>https://www.businessinsider.com/sam-altman-openai-top-token-spender-ai-costs-issue-2026-6</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/017.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/017.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 80,
+      "source_text": "![](../images/posts/2026-06-09-altman-concedes-global-first-not-openai/018.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-09-altman-concedes-global-first-not-openai/018.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}
