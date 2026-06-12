@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "tencent-yuanbao-workbuddy-ai-pivot",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/001.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/001.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "提到腾讯的 AI 大模型产品，如今大家第一反应早已不是元宝，而是热度一路飙升的 WorkBuddy。",
+      "html": "<p>提到腾讯的 AI 大模型产品，如今大家第一反应早已不是元宝，而是热度一路<span class=\"word-annot\"><span class=\"word-anchor\">飙升</span><span class=\"word-block\"><span class=\"english-word\">soaring</span><span class=\"word-info\">[ˈsɔːrɪŋ] v. 快速上升</span></span></span>的 WorkBuddy。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "它究竟凭什么迅速火出圈？",
+      "html": "<p>它<span class=\"word-annot\"><span class=\"word-anchor\">究竟</span><span class=\"word-block\"><span class=\"english-word\">ultimately</span><span class=\"word-info\">[ˈʌltɪmətli] adv. 究竟；到底</span></span></span>凭什么迅速火出圈？</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "推荐你看这篇文章，看看腾讯为何全力押注 WorkBuddy。",
+      "html": "<p>推荐你看这篇文章，看看腾讯为何全力<span class=\"word-annot\"><span class=\"word-anchor\">押注</span><span class=\"word-block\"><span class=\"english-word\">betting</span><span class=\"word-info\">[ˈbetɪŋ] v. 押注；下注</span></span></span> WorkBuddy。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "腾讯在大模型赛道终于派出了一位能打的种子选手。",
+      "html": "<p>腾讯在大模型<span class=\"word-annot\"><span class=\"word-anchor\">赛道</span><span class=\"word-block\"><span class=\"english-word\">racetrack</span><span class=\"word-info\">[ˈreɪsˌtræk] n. 赛道；竞争领域</span></span></span>终于派出了一位能打的种子选手。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "今年年初，伴随着OpenClaw的爆火，腾讯顺势推出了一系列类龙虾产品，其中最火爆的便是主打办公场景的AI Agent  WorkBuddy。",
+      "html": "<p>今年年初，伴随着OpenClaw的爆火，腾讯顺势<span class=\"word-annot\"><span class=\"word-anchor\">推出</span><span class=\"word-block\"><span class=\"english-word\">launch</span><span class=\"word-info\">[lɔːntʃ] v. 推出；发布</span></span></span>了一系列类龙虾产品，其中最火爆的便是主打办公场景的AI Agent  WorkBuddy。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "如果说Claude Code类的代码生成类大模型，更多是针对拥有一定编程背景的小众极客，那么WorkBuddy对更广泛的打工人明显技术友好。WorkBuddy在产品设计上加入通用办公的产品功能需求，砍掉复杂代码配置步骤，支持单句指令发起任务，模型自动拆解规划并直接输出完整可用成果，这些正是非技术人员所需的。",
+      "html": "<p>如果说Claude Code类的代码生成类大模型，更多是针对拥有一定编程背景的小众极客，那么WorkBuddy对更<span class=\"word-annot\"><span class=\"word-anchor\">广泛</span><span class=\"word-block\"><span class=\"english-word\">extensive</span><span class=\"word-info\">[ɪkˈstensɪv] adj. 广泛的；大规模的</span></span></span>的打工人明显技术友好。WorkBuddy在产品设计上加入通用办公的产品功能需求，砍掉复杂代码配置步骤，支持单句指令发起任务，模型自动<span class=\"word-annot\"><span class=\"word-anchor\">拆解</span><span class=\"word-block\"><span class=\"english-word\">disassemble</span><span class=\"word-info\">[ˌdɪsəˈsembl] v. 拆解；分解</span></span></span>规划并直接输出完整可用成果，这些正是非技术人员所需的。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "更低的使用门槛，也是WorkBuddy能够快速出圈的原因之一。",
+      "html": "<p>更低的使用<span class=\"word-annot\"><span class=\"word-anchor\">门槛</span><span class=\"word-block\"><span class=\"english-word\">threshold</span><span class=\"word-info\">[ˈθreʃhoʊld] n. 门槛；入门条件</span></span></span>，也是WorkBuddy能够快速出圈的原因之一。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "据《中国办公智能体平台市场研发报告2026》显示，今年3月，WorkBuddy月访问量达到885万，是第二名的两倍还要多，环比增速更是达到了831%，按日活跃用户数量计已是国内最受欢迎的效率智能体工具之一。对比之下，面向开发者、由Open AI推出的桌面办公智能体Codex，自2026年2月上线以来，其周月活用户已经突破500万。",
+      "html": "<p>据《中国办公智能体平台市场研发报告2026》显示，今年3月，WorkBuddy月访问量达到885万，是第二名的两倍还要多，环比<span class=\"word-annot\"><span class=\"word-anchor\">增速</span><span class=\"word-block\"><span class=\"english-word\">growth</span><span class=\"word-info\">[ɡroʊθ] n. 增速；增长</span></span></span>更是达到了831%，按日活跃用户数量计已是国内最受欢迎的效率智能体工具之一。对比之下，面向开发者、由Open AI推出的桌面办公智能体Codex，自2026年2月上线以来，其周月活用户已经<span class=\"word-annot\"><span class=\"word-anchor\">突破</span><span class=\"word-block\"><span class=\"english-word\">surpass</span><span class=\"word-info\">[sərˈpæs] v. 突破；超越</span></span></span>500万。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "WorkBuddy排名也在迅速攀升。七麦数据显示，WorkBuddy App，自5月23日上线后，3日内便从工具免费应用榜的300名开外，飙升到100名以内目前稳定在60名左右。但在iOS总榜上，WorkBuddy在400名徘徊。",
+      "html": "<p>WorkBuddy排名也在迅速<span class=\"word-annot\"><span class=\"word-anchor\">攀升</span><span class=\"word-block\"><span class=\"english-word\">climb</span><span class=\"word-info\">[klaɪm] v. 攀升；上升</span></span></span>。七麦数据显示，WorkBuddy App，自5月23日上线后，3日内便从工具免费应用榜的300名开外，飙升到100名以内目前<span class=\"word-annot\"><span class=\"word-anchor\">稳定</span><span class=\"word-block\"><span class=\"english-word\">stabilize</span><span class=\"word-info\">[ˈsteɪbəlaɪz] v. 稳定；稳固</span></span></span>在60名左右。但在iOS总榜上，WorkBuddy在400名<span class=\"word-annot\"><span class=\"word-anchor\">徘徊</span><span class=\"word-block\"><span class=\"english-word\">linger</span><span class=\"word-info\">[ˈlɪŋɡər] v. 徘徊；停滞</span></span></span>。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "长期以来，腾讯一直坚持后发制人，从移动支付到短视频的战役无不证明，在技术较为成熟时，凭借庞大的社交网络攻城略地的正确性。然而，尴尬的是，快速迭代的通用人工智能（AGI）战场上，腾讯在基础模型上的“慢半拍”，让其成为AI军备竞赛的外围看客。",
+      "html": "<p>长期以来，腾讯一直坚持后发制人，从移动支付到短视频的战役无不证明，在技术较为成熟时，凭借<span class=\"word-annot\"><span class=\"word-anchor\">庞大</span><span class=\"word-block\"><span class=\"english-word\">immense</span><span class=\"word-info\">[ɪˈmens] adj. 巨大的；庞大的</span></span></span>的社交网络攻城略地的正确性。然而，尴尬的是，快速<span class=\"word-annot\"><span class=\"word-anchor\">迭代</span><span class=\"word-block\"><span class=\"english-word\">iteration</span><span class=\"word-info\">[ˌɪtəˈreɪʃn] n. 迭代；反复</span></span></span>的通用人工智能（AGI）战场上，腾讯在基础模型上的“慢半拍”，让其成为AI军备竞赛的外围看客。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "WorkBuddy的出圈，算是腾讯向外界证明自己对大模型赛道的战斗力，也再次证明了其强大的产品基因，但并非一张一线的入场券——在一场最终由自研芯片、底层算法和万亿参数组成的复杂博弈中，腾讯所需要补齐的短板还有很多。",
+      "html": "<p>WorkBuddy的出圈，算是腾讯向外界证明自己对大模型赛道的战斗力，也再次证明了其强大的产品基因，但并非一张一线的入场券——在一场最终由自研芯片、底层算法和万亿参数组成的复杂博弈中，腾讯所需要补齐的<span class=\"word-annot\"><span class=\"word-anchor\">短板</span><span class=\"word-block\"><span class=\"english-word\">weakness</span><span class=\"word-info\">[ˈwiːknəs] n. 短板；弱点</span></span></span>还有很多。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "![](../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/002.webp)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/002.webp\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 13,
+      "source_text": "团队从10人紧急扩至100多人",
+      "html": "<p>团队从10人<span class=\"word-annot\"><span class=\"word-anchor\">紧急</span><span class=\"word-block\"><span class=\"english-word\">urgent</span><span class=\"word-info\">[ˈɜːrdʒənt] adj. 紧急的；急迫的</span></span></span>扩至100多人</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "WorkBuddy最初源于一个约10人的AI代码助手团队，它的产品原型是由腾讯云开发者AI产品负责人、CodeBuddy首席产品经理汪晟杰和一位运营，在2026年1月的一个周末用两个通宵赶出来的。",
+      "html": "<p>WorkBuddy最初源于一个约10人的AI代码助手团队，它的产品<span class=\"word-annot\"><span class=\"word-anchor\">原型</span><span class=\"word-block\"><span class=\"english-word\">prototype</span><span class=\"word-info\">[ˈproʊtətaɪp] n. 原型；雏形</span></span></span>是由腾讯云开发者AI产品负责人、CodeBuddy首席产品经理汪晟杰和一位运营，在2026年1月的一个周末用两个通宵赶出来的。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "彼时，面向技术岗位的AI Coding工具已经有很多，但非技术岗位的员工也有强烈的AI提效需求，却苦于没有合适的工具。WorkBuddy就是在这样的背景下诞生的，今年3月9日正式上线，用户访问量远超预期，导致核心服务瞬时压力过大，团队紧急扩容了10倍。",
+      "html": "<p>彼时，面向技术岗位的AI Coding工具已经有很多，但非技术岗位的员工也有<span class=\"word-annot\"><span class=\"word-anchor\">强烈</span><span class=\"word-block\"><span class=\"english-word\">intense</span><span class=\"word-info\">[ɪnˈtens] adj. 强烈的；剧烈的</span></span></span>的AI提效需求，却苦于没有合适的工具。WorkBuddy就是在这样的背景下诞生的，今年3月9日正式上线，用户访问量远超预期，导致核心服务瞬时压力过大，团队紧急<span class=\"word-annot\"><span class=\"word-anchor\">扩容</span><span class=\"word-block\"><span class=\"english-word\">expand</span><span class=\"word-info\">[ɪkˈspænd] v. 扩容；扩展</span></span></span>了10倍。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "有职场人实测后向我们表示，WorkBuddy不用研究函数、不用写指令模板，口语化直白描述需求就能拿到完整成品。譬如，整理跨部门零散聊天记录能自动拆分会议决议、责任人与截止时间。策划活动方案时，给出预算、目标人群两个关键信息，就能直接产出两套可修改的完整执行方案，省去大量重复手工劳作。即便零基础新人，摸索十几分钟就能熟练日常办公全套用法。",
+      "html": "<p>有职场人实测后向我们表示，WorkBuddy不用研究函数、不用写指令模板，口语化直白<span class=\"word-annot\"><span class=\"word-anchor\">描述</span><span class=\"word-block\"><span class=\"english-word\">describe</span><span class=\"word-info\">[dɪˈskraɪb] v. 描述；叙述</span></span></span>需求就能拿到完整成品。譬如，整理跨部门零散聊天记录能自动拆分会议决议、责任人与<span class=\"word-annot\"><span class=\"word-anchor\">截止</span><span class=\"word-block\"><span class=\"english-word\">deadline</span><span class=\"word-info\">[ˈdedlaɪn] n. 截止日期；期限</span></span></span>时间。策划活动方案时，给出<span class=\"word-annot\"><span class=\"word-anchor\">预算</span><span class=\"word-block\"><span class=\"english-word\">budget</span><span class=\"word-info\">[ˈbʌdʒɪt] n. 预算</span></span></span>、目标人群两个关键信息，就能直接产出两套可修改的完整执行方案，省去大量重复手工劳作。即便零基础新人，<span class=\"word-annot\"><span class=\"word-anchor\">摸索</span><span class=\"word-block\"><span class=\"english-word\">fumble</span><span class=\"word-info\">[ˈfʌmbl] v. 摸索；探索</span></span></span>十几分钟就能熟练日常办公全套用法。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "还有图文创作者也给出了反馈。譬如，把零散的选题思路、几段素材草稿粘贴到WorkBuddy，一句简单指令，它就能梳理出完整推文大纲，自动拆分标题、导语、正文分段结构，还能配套生成适配公众号、小红书两种不同平台的排版文案，配图文字说明、话题标签一并整理妥当，不用反复拆分修改，大幅压缩内容初稿的创作耗时。",
+      "html": "<p>还有图文创作者也给出了<span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈；回复</span></span></span>。譬如，把零散的选题思路、几段素材草稿粘贴到WorkBuddy，一句简单指令，它就能梳理出完整推文<span class=\"word-annot\"><span class=\"word-anchor\">大纲</span><span class=\"word-block\"><span class=\"english-word\">outline</span><span class=\"word-info\">[ˈaʊtlaɪn] n. 大纲；概要</span></span></span>，自动拆分标题、导语、正文分段结构，还能配套生成适配公众号、小红书两种不同平台的排版文案，配图文字说明、话题标签一并整理妥当，不用反复拆分修改，大幅压缩内容初稿的创作耗时。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "为了满足更多用户需求，我们了解到，WorkBuddy已经从最初的10多人规模拓展到100多人。一位WorkBuddy员工称，最近内部招了很多人。",
+      "html": "<p>为了满足更多用户需求，我们了解到，WorkBuddy已经从最初的10多人规模<span class=\"word-annot\"><span class=\"word-anchor\">拓展</span><span class=\"word-block\"><span class=\"english-word\">broaden</span><span class=\"word-info\">[ˈbrɔːdn] v. 拓展；扩展</span></span></span>到100多人。一位WorkBuddy员工称，最近<span class=\"word-annot\"><span class=\"word-anchor\">内部</span><span class=\"word-block\"><span class=\"english-word\">internal</span><span class=\"word-info\">[ɪnˈtɜːrnl] adj. 内部的；内在的</span></span></span>招了很多人。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "WorkBuddy的更新节奏一开始就非常频繁，产品有不少需要修复的地方，一天一次是常态，有时候甚至一天有三四次，连“五一”假期都在更新，“那段时间可能11点都下不了班”。在6月5日腾讯云AI产业应用大会上，官方称，AI智能体桌面工作台WorkBuddy个人版发布3个月以来，累计迭代43个版本。",
+      "html": "<p>WorkBuddy的更新节奏一开始就非常<span class=\"word-annot\"><span class=\"word-anchor\">频繁</span><span class=\"word-block\"><span class=\"english-word\">frequent</span><span class=\"word-info\">[ˈfriːkwənt] adj. 频繁的</span></span></span>，产品有不少需要修复的地方，一天一次是常态，有时候甚至一天有三四次，连“五一”假期都在更新，“那段时间可能11点都下不了班”。在6月5日腾讯云AI产业应用大会上，官方称，AI智能体桌面工作台WorkBuddy个人版发布3个月以来，<span class=\"word-annot\"><span class=\"word-anchor\">累计</span><span class=\"word-block\"><span class=\"english-word\">accumulate</span><span class=\"word-info\">[əˈkjuːmjəleɪt] v. 累计；累积</span></span></span>迭代43个版本。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "但现在节奏开始逐步恢复正常，一位WorkBuddy产品侧的员工告诉Tech星球，现在基本上晚上9点可以下班了。",
+      "html": "<p>但现在节奏开始<span class=\"word-annot\"><span class=\"word-anchor\">逐步</span><span class=\"word-block\"><span class=\"english-word\">gradual</span><span class=\"word-info\">[ˈɡrædʒuəl] adj. 逐步的；渐进的</span></span></span>恢复正常，一位WorkBuddy产品侧的员工告诉Tech星球，现在基本上晚上9点可以下班了。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "腾讯正在铺天盖地给WorkBuddy做广告，在深圳福田区车公庙地铁站甚至设置了打卡点，而车公庙是深圳地铁顶级四线换乘综合枢纽。从投放力度来看，腾讯旗下另一个AI产品元宝，除了在今年春节期间大撒红包外，并没有出现像WorkBuddy这样的线下投放力度。一位WorkBuddy员工用“宣传上花了很多钱”，来形容当下的情况。",
+      "html": "<p>腾讯正在铺天盖地给WorkBuddy做广告，在深圳福田区车公庙地铁站甚至设置了打卡点，而车公庙是深圳地铁顶级四线换乘综合<span class=\"word-annot\"><span class=\"word-anchor\">枢纽</span><span class=\"word-block\"><span class=\"english-word\">hub</span><span class=\"word-info\">[hʌb] n. 枢纽；中心</span></span></span>。从投放<span class=\"word-annot\"><span class=\"word-anchor\">力度</span><span class=\"word-block\"><span class=\"english-word\">intensity</span><span class=\"word-info\">[ɪnˈtensəti] n. 力度；强度</span></span></span>来看，腾讯旗下另一个AI产品元宝，除了在今年春节期间大撒红包外，并没有出现像WorkBuddy这样的线下投放力度。一位WorkBuddy员工用“<span class=\"word-annot\"><span class=\"word-anchor\">宣传</span><span class=\"word-block\"><span class=\"english-word\">publicity</span><span class=\"word-info\">[pʌbˈlɪsəti] n. 宣传；推广</span></span></span>上花了很多钱”，来形容当下的情况。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "![](../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/003.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/003.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 23,
+      "source_text": "图注：WorkBuddy在深圳车公庙地铁站的打卡点。（Tech星球 拍摄）",
+      "html": "<p>图注：WorkBuddy在深圳车公庙地铁站的<span class=\"word-annot\"><span class=\"word-anchor\">打卡</span><span class=\"word-block\"><span class=\"english-word\">checkin</span><span class=\"word-info\">[ˈtʃekɪn] n. 打卡；签到</span></span></span>点。（Tech星球 <span class=\"word-annot\"><span class=\"word-anchor\">拍摄</span><span class=\"word-block\"><span class=\"english-word\">photography</span><span class=\"word-info\">[fəˈtɒɡrəfi] n. 摄影；拍摄</span></span></span>）</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "Tech星球还了解到，WorkBuddy正测试打通微信支付，用户可以直接在WorkBuddy内购买商品，并通过微信支付。此外，腾讯自选股也接入到WorkBuddy的专家中心，用户可以通过腾讯自选股股票投研专家团完成炒股需求。这某种层面意味着腾讯内部给了WorkBuddy足够多的支持，打通了一些部门墙。",
+      "html": "<p>Tech星球还了解到，WorkBuddy正测试打通微信支付，用户可以直接在WorkBuddy内<span class=\"word-annot\"><span class=\"word-anchor\">购买</span><span class=\"word-block\"><span class=\"english-word\">purchase</span><span class=\"word-info\">[ˈpɜːrtʃəs] v. 购买；采购</span></span></span>商品，并通过微信支付。此外，腾讯自选股也<span class=\"word-annot\"><span class=\"word-anchor\">接入</span><span class=\"word-block\"><span class=\"english-word\">integrate</span><span class=\"word-info\">[ˈɪntɪɡreɪt] v. 接入；整合</span></span></span>到WorkBuddy的专家中心，用户可以通过腾讯自选股股票投研专家团完成炒股需求。这某种层面<span class=\"word-annot\"><span class=\"word-anchor\">意味着</span><span class=\"word-block\"><span class=\"english-word\">signify</span><span class=\"word-info\">[ˈsɪɡnɪfaɪ] v. 意味着；表明</span></span></span>腾讯内部给了WorkBuddy足够多的支持，打通了一些部门墙。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "![](../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/004.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/004.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 26,
+      "source_text": "Tech星球获得的一份调研报告显示，WorkBuddy是腾讯当前所有“混元”系列产品中战略优先级最高的产品，资源投入优先级排序为“WorkBuddy &gt; DataBuddy &gt; 其他”。",
+      "html": "<p>Tech星球获得的一份调研报告显示，WorkBuddy是腾讯当前所有“混元”系列产品中战略<span class=\"word-annot\"><span class=\"word-anchor\">优先级</span><span class=\"word-block\"><span class=\"english-word\">priority</span><span class=\"word-info\">[praɪˈɒrəti] n. 优先级；优先</span></span></span>最高的产品，资源投入优先级排序为“WorkBuddy &amp;gt; DataBuddy &amp;gt; 其他”。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "一位内部员工称，其重要性应该是超过了元宝的。",
+      "html": "<p>一位内部员工称，其<span class=\"word-annot\"><span class=\"word-anchor\">重要性</span><span class=\"word-block\"><span class=\"english-word\">significance</span><span class=\"word-info\">[sɪɡˈnɪfɪkəns] n. 重要性；意义</span></span></span>应该是超过了元宝的。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "在今年Q1的财报中，WorkBuddy被反复提及，腾讯总裁刘炽平在回答小程序",
+      "html": "<p>在今年Q1的财报中，WorkBuddy被反复<span class=\"word-annot\"><span class=\"word-anchor\">提及</span><span class=\"word-block\"><span class=\"english-word\">mention</span><span class=\"word-info\">[ˈmenʃn] v. 提及；谈到</span></span></span>，腾讯总裁刘炽平在回答小程序</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "生态问题时，三次点名WorkBuddy，而同一场电话会上，元宝仅被提及一次，并且是和ima、QQ浏览器等产品一起被提及。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">生态</span><span class=\"word-block\"><span class=\"english-word\">ecosystem</span><span class=\"word-info\">[ˈiːkoʊsɪstəm] n. 生态系统</span></span></span>问题时，三次点名WorkBuddy，而同一场电话会上，元宝仅被提及一次，并且是和ima、QQ浏览器等产品一起被提及。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "这也从侧面证明了WorkBud",
+      "html": "<p>这也从侧面<span class=\"word-annot\"><span class=\"word-anchor\">证明</span><span class=\"word-block\"><span class=\"english-word\">prove</span><span class=\"word-info\">[pruːv] v. 证明；证实</span></span></span>了WorkBud</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "dy在腾讯AI类产品中的重要性。",
+      "html": "<p>dy在腾讯AI类<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>中的重要性。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "![](../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/005.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/005.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 33,
+      "source_text": "一直以来，腾讯擅长对产品的深刻洞悉而获得商业上的成功。WorkBuddy的出圈是一次腾讯式产品哲学的胜利。",
+      "html": "<p>一直以来，腾讯擅长对产品的深刻<span class=\"word-annot\"><span class=\"word-anchor\">洞悉</span><span class=\"word-block\"><span class=\"english-word\">insight</span><span class=\"word-info\">[ˈɪnsaɪt] n. 洞悉；洞察</span></span></span>而获得商业上的成功。WorkBuddy的出圈是一次腾讯式产品<span class=\"word-annot\"><span class=\"word-anchor\">哲学</span><span class=\"word-block\"><span class=\"english-word\">philosophy</span><span class=\"word-info\">[fɪˈlɒsəfi] n. 哲学</span></span></span>的胜利。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "一位AI行业人士认为，像WorkBuddy这样的桌面办公助手，未来会象office一样装在每个人的电脑上。“最终装的不一定是鹅厂的，但一定会装。其他家虽然会跟进，但腾讯的生态优势，是阿里和字节没法比拟的”，他向我们分析道。",
+      "html": "<p>一位AI<span class=\"word-annot\"><span class=\"word-anchor\">行业</span><span class=\"word-block\"><span class=\"english-word\">industry</span><span class=\"word-info\">[ˈɪndəstri] n. 行业；产业</span></span></span>人士认为，像WorkBuddy这样的桌面办公助手，未来会象office一样装在每个人的电脑上。“<span class=\"word-annot\"><span class=\"word-anchor\">最终</span><span class=\"word-block\"><span class=\"english-word\">eventual</span><span class=\"word-info\">[ɪˈventʃuəl] adj. 最终的；最后的</span></span></span>装的不一定是鹅厂的，但一定会装。其他家虽然会跟进，但腾讯的生态<span class=\"word-annot\"><span class=\"word-anchor\">优势</span><span class=\"word-block\"><span class=\"english-word\">advantage</span><span class=\"word-info\">[ədˈvɑːntɪdʒ] n. 优势；有利条件</span></span></span>，是阿里和字节没法比拟的”，他向我们分析道。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "除去办公领域，腾讯也希望通过AI渗入到每个人的生活。6月8日，腾讯手中最大的王牌微信，低调发布了《关于开发者接入微信AI生态的指引》，指引称，微信正式面向全量小程序开发者开放AI生态接入能力。",
+      "html": "<p>除去办公领域，腾讯也希望通过AI<span class=\"word-annot\"><span class=\"word-anchor\">渗入</span><span class=\"word-block\"><span class=\"english-word\">penetrate</span><span class=\"word-info\">[ˈpenətreɪt] v. 渗入；渗透</span></span></span>到每个人的生活。6月8日，腾讯手中最大的王牌微信，低调<span class=\"word-annot\"><span class=\"word-anchor\">发布</span><span class=\"word-block\"><span class=\"english-word\">release</span><span class=\"word-info\">[rɪˈliːs] v. 发布；发行</span></span></span>了《关于开发者接入微信AI生态的指引》，指引称，微信正式面向全量小程序开发者开放AI生态接入能力。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "里昂证券的报告一针见血地指出：腾讯拥有超过400万个小程序和10亿用户的庞大微信生态系统，在AI Agent领域具备最强的竞争优势，甚至优于苹果iOS生态。竞争对手要复制这样的生态系统，“至少需要10年以上时间”。",
+      "html": "<p>里昂证券的报告一针见血地指出：腾讯拥有超过400万个小程序和10亿用户的庞大微信生态系统，在AI Agent领域<span class=\"word-annot\"><span class=\"word-anchor\">具备</span><span class=\"word-block\"><span class=\"english-word\">possess</span><span class=\"word-info\">[pəˈzes] v. 具备；拥有</span></span></span>最强的竞争优势，甚至优于苹果iOS生态。竞争对手要<span class=\"word-annot\"><span class=\"word-anchor\">复制</span><span class=\"word-block\"><span class=\"english-word\">replicate</span><span class=\"word-info\">[ˈreplɪkeɪt] v. 复制；仿制</span></span></span>这样的生态系统，“至少需要10年以上时间”。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "一位腾讯员工认为，微信手握十亿级活跃用户与数百万小程序构成的完整场景网络，微信AI不用向外从零开拓流量入口，能够逐个打通线下商户、线上工具、私域运营等细分场景，把智能能力嵌入用户日常点开小程序、完成下单、客服咨询、表单填报等每一次操作里，生态自带的流转闭环，能让AI能力规模化落地的节奏稳步提速。",
+      "html": "<p>一位腾讯员工认为，微信手握十亿级活跃用户与数百万小程序构成的完整场景网络，微信AI不用向外从零开拓流量入口，能够逐个打通线下商户、线上工具、私域运营等细分场景，把智能能力嵌入用户日常点开小程序、完成下单、客服咨询、表单填报等每一次操作里，生态自带的流转<span class=\"word-annot\"><span class=\"word-anchor\">闭环</span><span class=\"word-block\"><span class=\"english-word\">loop</span><span class=\"word-info\">[luːp] n. 闭环；循环</span></span></span>，能让AI能力规模化落地的节奏稳步提速。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "倘若400万个小程序接入AI智能体，背后每一个调用、每一次任务执行、每一笔交易，都要消耗大模型的算力和算法能力。接入的小程序越多，对底层模型的依赖就越深。",
+      "html": "<p>倘若400万个小程序接入AI智能体，背后每一个调用、每一次任务执行、每一笔交易，都要<span class=\"word-annot\"><span class=\"word-anchor\">消耗</span><span class=\"word-block\"><span class=\"english-word\">consume</span><span class=\"word-info\">[kənˈsjuːm] v. 消耗；耗费</span></span></span>大模型的算力和算法能力。接入的小程序越多，对底层模型的<span class=\"word-annot\"><span class=\"word-anchor\">依赖</span><span class=\"word-block\"><span class=\"english-word\">dependence</span><span class=\"word-info\">[dɪˈpendəns] n. 依赖；依靠</span></span></span>就越深。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "如果腾讯不能在自研模型上持续缩小跟其他头部玩家的差距，就会面临一个被动局面：生态越繁荣，对外部模型的依赖越重，议价空间会越来越小。更极端的情况下，一旦底层模型供应商提价、断供或更改合作条件，整个生态都可能受到冲击。不仅是微信AI，这是所有AI产品都将面临的挑战。",
+      "html": "<p>如果腾讯不能在自研模型上持续缩小跟其他头部玩家的差距，就会面临一个被动局面：生态越<span class=\"word-annot\"><span class=\"word-anchor\">繁荣</span><span class=\"word-block\"><span class=\"english-word\">prosperous</span><span class=\"word-info\">[ˈprɒspərəs] adj. 繁荣的；兴旺的</span></span></span>，对外部模型的依赖越重，议价空间会越来越小。更极端的情况下，一旦底层模型供应商提价、断供或更改合作条件，整个生态都可能受到<span class=\"word-annot\"><span class=\"word-anchor\">冲击</span><span class=\"word-block\"><span class=\"english-word\">impact</span><span class=\"word-info\">[ˈɪmpækt] n. 冲击；影响</span></span></span>。不仅是微信AI，这是所有AI产品都将面临的<span class=\"word-annot\"><span class=\"word-anchor\">挑战</span><span class=\"word-block\"><span class=\"english-word\">challenge</span><span class=\"word-info\">[ˈtʃælɪndʒ] n. 挑战</span></span></span>。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "因此，腾讯必须在基础模型上有所作为。腾讯挖来了OpenAI 研究科学家姚顺雨，希望在基础模型追赶对手。",
+      "html": "<p>因此，腾讯必须在<span class=\"word-annot\"><span class=\"word-anchor\">基础</span><span class=\"word-block\"><span class=\"english-word\">foundation</span><span class=\"word-info\">[faʊnˈdeɪʃn] n. 基础；根基</span></span></span>模型上有所作为。腾讯挖来了OpenAI 研究科学家姚顺雨，希望在基础模型<span class=\"word-annot\"><span class=\"word-anchor\">追赶</span><span class=\"word-block\"><span class=\"english-word\">chase</span><span class=\"word-info\">[tʃeɪs] v. 追赶；追逐</span></span></span>对手。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "姚顺雨在OpenAI期间，是首批Agent的核心贡献者，主导了Computer-Using Agent（CUA）和Deep Research两个重要产品。他提出的ReAct框架已成为全球构建语言智能体的最主流方法。",
+      "html": "<p>姚顺雨在OpenAI期间，是首批Agent的核心贡献者，<span class=\"word-annot\"><span class=\"word-anchor\">主导</span><span class=\"word-block\"><span class=\"english-word\">lead</span><span class=\"word-info\">[liːd] v. 主导；领导</span></span></span>了Computer-Using Agent（CUA）和Deep Research两个重要产品。他提出的ReAct<span class=\"word-annot\"><span class=\"word-anchor\">框架</span><span class=\"word-block\"><span class=\"english-word\">framework</span><span class=\"word-info\">[ˈfreɪmwɜːrk] n. 框架；架构</span></span></span>已成为全球构建语言智能体的最主流方法。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "2026年4月23日正式发布的Hy3 preview（混元3.0预览版），相较前代Hy2在几乎所有关键指标上都实现了质的飞跃。凭借在“强推理+256K超长上下文”的能力，Hy3 preview曾连续登顶OpenRouter全球周榜。市场份额升至12.8%，位列行业第三。",
+      "html": "<p>2026年4月23日正式发布的Hy3 preview（混元3.0预览版），相较前代Hy2在几乎所有关键指标上都实现了质的<span class=\"word-annot\"><span class=\"word-anchor\">飞跃</span><span class=\"word-block\"><span class=\"english-word\">leap</span><span class=\"word-info\">[liːp] n. 飞跃；跳跃</span></span></span>。凭借在“强推理+256K超长上下文”的能力，Hy3 preview曾连续<span class=\"word-annot\"><span class=\"word-anchor\">登顶</span><span class=\"word-block\"><span class=\"english-word\">summit</span><span class=\"word-info\">[ˈsʌmɪt] v. 登顶；达到顶峰</span></span></span>OpenRouter全球周榜。市场<span class=\"word-annot\"><span class=\"word-anchor\">份额</span><span class=\"word-block\"><span class=\"english-word\">share</span><span class=\"word-info\">[ʃeər] n. 份额；股份</span></span></span>升至12.8%，位列行业第三。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "但整体能力上，尤其复杂任务时，Hy3 和DeepSeek V4 Flash、Claude Sonnet 4.6等模型依然存在差距。",
+      "html": "<p>但整体能力上，尤其复杂任务时，Hy3 和DeepSeek V4 Flash、Claude Sonnet 4.6等模型依然存在<span class=\"word-annot\"><span class=\"word-anchor\">差距</span><span class=\"word-block\"><span class=\"english-word\">disparity</span><span class=\"word-info\">[dɪˈspærəti] n. 差距；差异</span></span></span>。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "一位腾讯内部员工坦言，过去半年公司AI业务走出了反复试错的迷茫期，目前已经稳住了发展方向。现阶段像Qclaw、WorkBuddy等应用端落地初见成效，但底层能力打磨、生态AI化改造整体推进节奏偏保守。",
+      "html": "<p>一位腾讯内部员工<span class=\"word-annot\"><span class=\"word-anchor\">坦言</span><span class=\"word-block\"><span class=\"english-word\">admit</span><span class=\"word-info\">[ədˈmɪt] v. 坦言；承认</span></span></span>，过去半年公司AI业务走出了反复试错的迷茫期，目前已经稳住了发展方向。现阶段像Qclaw、WorkBuddy等应用端落地初见成效，但底层能力打磨、生态AI化改造整体推进节奏偏<span class=\"word-annot\"><span class=\"word-anchor\">保守</span><span class=\"word-block\"><span class=\"english-word\">conservative</span><span class=\"word-info\">[kənˈsɜːrvətɪv] adj. 保守的；守旧的</span></span></span>。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "2026年5月股东大会上，马化腾用一个直白的比喻概括了腾讯AI的心路历程：原来一年前我们以为上了船，后来发现那个船漏水了。又开始换一艘船，现在感觉站上去了，还坐不下去，还是希望船速能快一点。",
+      "html": "<p>2026年5月股东大会上，马化腾用一个直白的<span class=\"word-annot\"><span class=\"word-anchor\">比喻</span><span class=\"word-block\"><span class=\"english-word\">metaphor</span><span class=\"word-info\">[ˈmetəfər] n. 比喻；隐喻</span></span></span>概括了腾讯AI的心路历程：原来一年前我们以为上了船，后来发现那个船漏水了。又开始换一艘船，现在感觉站上去了，还坐不下去，还是<span class=\"word-annot\"><span class=\"word-anchor\">希望</span><span class=\"word-block\"><span class=\"english-word\">desire</span><span class=\"word-info\">[dɪˈzaɪər] n. 希望；愿望</span></span></span>船速能快一点。</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "对腾讯来说，换船之后，唯有实现底层技术的真正超越，才能在AGI时代真正安稳地坐下去。",
+      "html": "<p>对腾讯来说，换船之后，唯有实现底层技术的真正<span class=\"word-annot\"><span class=\"word-anchor\">超越</span><span class=\"word-block\"><span class=\"english-word\">transcend</span><span class=\"word-info\">[trænˈsend] v. 超越；超过</span></span></span>，才能在AGI时代真正安稳地坐下去。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "![](../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/006.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/006.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 48,
+      "source_text": "你觉得元宝和workbuddy哪个更好用？",
+      "html": "<p>你觉得元宝和workbuddy哪个更好用？</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "欢迎在评论区留下你的看法～",
+      "html": "<p>欢迎在<span class=\"word-annot\"><span class=\"word-anchor\">评论</span><span class=\"word-block\"><span class=\"english-word\">comment</span><span class=\"word-info\">[ˈkɒment] n. 评论；点评</span></span></span>区留下你的看法～</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "🔥【三节课6大AI学习营】免费报名：",
+      "html": "<p>🔥【三节课6大AI学习营】免费<span class=\"word-annot\"><span class=\"word-anchor\">报名</span><span class=\"word-block\"><span class=\"english-word\">enroll</span><span class=\"word-info\">[ɪnˈroʊl] v. 报名；注册</span></span></span>：</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "0基础想玩转workbuddy？",
+      "html": "<p>0基础想<span class=\"word-annot\"><span class=\"word-anchor\">玩转</span><span class=\"word-block\"><span class=\"english-word\">master</span><span class=\"word-info\">[ˈmæstər] v. 玩转；掌握</span></span></span>workbuddy？</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "来免费参加三节课【WorkBuddy实战营】：学会AI自动化工作流，批量做图、批量处理任务，彻底解放双手！",
+      "html": "<p>来免费参加三节课【WorkBuddy实战营】：学会AI<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automation</span><span class=\"word-info\">[ˌɔːtəˈmeɪʃn] n. 自动化</span></span></span>工作流，批量做图、批量处理任务，彻底解放双手！</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "🔥除了Work Buddy实战营，三节课还有5大免费AI学习营正在报名中！帮你从入门到实操一站式吃透AI。",
+      "html": "<p>🔥<span class=\"word-annot\"><span class=\"word-anchor\">除了</span><span class=\"word-block\"><span class=\"english-word\">besides</span><span class=\"word-info\">[bɪˈsaɪdz] prep. 除…之外</span></span></span>Work Buddy实战营，三节课还有5大免费AI学习营正在报名中！帮你从入门到<span class=\"word-annot\"><span class=\"word-anchor\">实操</span><span class=\"word-block\"><span class=\"english-word\">practice</span><span class=\"word-info\">[ˈpræktɪs] n. 实操；实践</span></span></span>一站式吃透AI。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "👇扫码即可0元领取学习👇",
+      "html": "<p>👇扫码即可0元<span class=\"word-annot\"><span class=\"word-anchor\">领取</span><span class=\"word-block\"><span class=\"english-word\">receive</span><span class=\"word-info\">[rɪˈsiːv] v. 领取；接收</span></span></span>学习👇</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "![](../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/007.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/007.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 56,
+      "source_text": "![](../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/008.webp)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/008.webp\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 57,
+      "source_text": "![](../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/009.webp)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-12-tencent-yuanbao-workbuddy-ai-pivot/009.webp\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}
