@@ -1,0 +1,477 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "bull-market-stocks-confusion",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/001.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/001.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/002.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/002.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 2,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/003.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/003.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 3,
+      "source_text": "翻倍牛股接二连三，股民却愣在原地，遍地找不到可安心买入买的资产",
+      "html": "<p>翻倍牛股接二连三，股民却愣在原地，遍地找不到可安心买入买的<span class=\"word-annot\"><span class=\"word-anchor\">资产</span><span class=\"word-block\"><span class=\"english-word\">asset</span><span class=\"word-info\">[ˈæset] n. 资产</span></span></span></p>"
+    },
+    {
+      "index": 4,
+      "source_text": "&nbsp;文 /巴九灵（微信公众号：吴晓波频道）",
+      "html": "<p>&amp;nbsp;文 /巴九灵（微信公众号：吴晓波频道）</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "A股股民的烦恼，可以总结为五件事。",
+      "html": "<p>A股股民的烦恼，可以<span class=\"word-annot\"><span class=\"word-anchor\">总结</span><span class=\"word-block\"><span class=\"english-word\">summarize</span><span class=\"word-info\">[ˈsʌməraɪz] v. 总结、概括</span></span></span>为五件事。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "重仓科技的，担心科技股砸盘；",
+      "html": "<p>重仓科技的，<span class=\"word-annot\"><span class=\"word-anchor\">担心</span><span class=\"word-block\"><span class=\"english-word\">worry</span><span class=\"word-info\">[ˈwɜri] v. 担心、担忧</span></span></span>科技股砸盘；</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "没买科技的，怕自己高位接盘；",
+      "html": "<p>没买科技的，怕自己<span class=\"word-annot\"><span class=\"word-anchor\">高位</span><span class=\"word-block\"><span class=\"english-word\">peak</span><span class=\"word-info\">[piːk] n. 高位、最高点</span></span></span>接盘；</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "抄底了消费，结果越跌越便宜；",
+      "html": "<p>抄底了<span class=\"word-annot\"><span class=\"word-anchor\">消费</span><span class=\"word-block\"><span class=\"english-word\">consumption</span><span class=\"word-info\">[kənˈsʌmpʃən] n. 消费</span></span></span>，结果越跌越便宜；</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "想埋伏“老登”，又怕便宜没好货；",
+      "html": "<p>想<span class=\"word-annot\"><span class=\"word-anchor\">埋伏</span><span class=\"word-block\"><span class=\"english-word\">ambush</span><span class=\"word-info\">[ˈæmbʊʃ] v. 埋伏、提前布局</span></span></span>“老登”，又怕便宜没好货；</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "美股一路新高，A股越来越跌宕起伏。",
+      "html": "<p>美股一路新高，A股越来越跌宕<span class=\"word-annot\"><span class=\"word-anchor\">起伏</span><span class=\"word-block\"><span class=\"english-word\">fluctuation</span><span class=\"word-info\">[ˌflʌktʃuˈeɪʃən] n. 起伏、波动</span></span></span>。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "：科技股，现在该买还是该卖？",
+      "html": "<p>：<span class=\"word-annot\"><span class=\"word-anchor\">科技</span><span class=\"word-block\"><span class=\"english-word\">technology</span><span class=\"word-info\">[tekˈnɒlədʒi] n. 科技、技术</span></span></span>股，现在该买还是该卖？</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/004.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/004.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 13,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/005.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/005.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 14,
+      "source_text": "在科技股上赚钱变难了？",
+      "html": "<p>在科技股上<span class=\"word-annot\"><span class=\"word-anchor\">赚钱</span><span class=\"word-block\"><span class=\"english-word\">earn</span><span class=\"word-info\">[ɜːrn] v. 赚钱、挣得</span></span></span>变难了？</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "过去一个月，A股“只剩下”一条主线。",
+      "html": "<p>过去一个月，A股“只剩下”一条<span class=\"word-annot\"><span class=\"word-anchor\">主线</span><span class=\"word-block\"><span class=\"english-word\">theme</span><span class=\"word-info\">[θiːm] n. 主线、主题</span></span></span>。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "5月，31个申万一级行业里有26个行业下跌，通信和电子两个行业双双大涨了近20%，也充分印证了什么叫人的悲欢并不相通：除了重仓科技的，大部分人上个月都没赚钱。",
+      "html": "<p>5月，31个申万一级行业里有26个行业下跌，通信和电子两个行业双双大涨了近20%，也充分<span class=\"word-annot\"><span class=\"word-anchor\">印证</span><span class=\"word-block\"><span class=\"english-word\">verify</span><span class=\"word-info\">[ˈverɪfaɪ] v. 印证、证实</span></span></span>了什么叫人的悲欢并不相通：除了重仓科技的，大部分人上个月都没赚钱。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "市场一度弥漫着一股AI狂热，只要跟AI沾上边，再八竿子打不着的股票都能飞上风口。比如，一家主业做瓷砖的地产链企业，靠“AI+半导体陶瓷基板”的概念，收获了6个涨停板；另一家做家装的企业，靠“数据中心”概念收获15天11板。",
+      "html": "<p>市场一度<span class=\"word-annot\"><span class=\"word-anchor\">弥漫</span><span class=\"word-block\"><span class=\"english-word\">permeate</span><span class=\"word-info\">[ˈpɜːrmieɪt] v. 弥漫、充满</span></span></span>着一股AI狂热，只要跟AI沾上边，再八竿子打不着的股票都能飞上风口。比如，一家主业做瓷砖的地产链企业，靠“AI+半导体陶瓷基板”的<span class=\"word-annot\"><span class=\"word-anchor\">概念</span><span class=\"word-block\"><span class=\"english-word\">concept</span><span class=\"word-info\">[ˈkɒnsept] n. 概念</span></span></span>，收获了6个涨停板；另一家做家装的<span class=\"word-annot\"><span class=\"word-anchor\">企业</span><span class=\"word-block\"><span class=\"english-word\">enterprise</span><span class=\"word-info\">[ˈentərpraɪz] n. 企业</span></span></span>，靠“数据中心”概念收获15天11板。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "但进入6月，风向开始改变。",
+      "html": "<p>但进入6月，<span class=\"word-annot\"><span class=\"word-anchor\">风向</span><span class=\"word-block\"><span class=\"english-word\">trend</span><span class=\"word-info\">[trend] n. 风向、趋势</span></span></span>开始改变。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "在科技股上赚钱的难度直线上升。五月底、六月初，科创50指数连续两个交易日大跌5%，重仓的股民短短两天就亏掉了一个跌停板。出逃的资金涌进“老登股”，煤炭板块大涨5%，电力、白酒、地产、传媒等已经跌到无人问津的板块反倒是迎来了久违的大涨。",
+      "html": "<p>在科技股上赚钱的<span class=\"word-annot\"><span class=\"word-anchor\">难度</span><span class=\"word-block\"><span class=\"english-word\">difficulty</span><span class=\"word-info\">[ˈdɪfɪkəlti] n. 难度、困难</span></span></span>直线上升。五月底、六月初，科创50指数<span class=\"word-annot\"><span class=\"word-anchor\">连续</span><span class=\"word-block\"><span class=\"english-word\">consecutive</span><span class=\"word-info\">[kənˈsekjətɪv] adj. 连续的</span></span></span>两个交易日大跌5%，重仓的股民短短两天就亏掉了一个跌停板。<span class=\"word-annot\"><span class=\"word-anchor\">出逃</span><span class=\"word-block\"><span class=\"english-word\">flee</span><span class=\"word-info\">[fliː] v. 出逃、逃离</span></span></span>的资金涌进“老登股”，煤炭板块大涨5%，电力、白酒、地产、传媒等已经跌到无人问津的板块反倒是迎来了久违的大涨。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/006.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/006.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 21,
+      "source_text": "这种行情在A股被形象地称为“高切低”，即资金从涨幅较大的热门板块撤出来，转向那些长期低迷的便宜板块。它未必意味着这一波行情的结束，但往往意味着市场开始重新审视风险和收益的关系。",
+      "html": "<p>这种行情在A股被<span class=\"word-annot\"><span class=\"word-anchor\">形象地</span><span class=\"word-block\"><span class=\"english-word\">vividly</span><span class=\"word-info\">[ˈvɪvɪdli] adv. 形象地、生动地</span></span></span>称为“高切低”，即资金从涨幅较大的热门板块撤出来，转向那些长期低迷的便宜板块。它未必意味着这一波行情的结束，但往往意味着市场开始重新<span class=\"word-annot\"><span class=\"word-anchor\">审视</span><span class=\"word-block\"><span class=\"english-word\">scrutinize</span><span class=\"word-info\">[ˈskruːtənaɪz] v. 审视、仔细检查</span></span></span>风险和收益的关系。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "另外，拥挤度指标也开始提示过热风险。",
+      "html": "<p>另外，拥挤度<span class=\"word-annot\"><span class=\"word-anchor\">指标</span><span class=\"word-block\"><span class=\"english-word\">indicator</span><span class=\"word-info\">[ˈɪndɪkeɪtər] n. 指标</span></span></span>也开始提示过热风险。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "到今天为止，A股大盘拥挤度达到了49%，也就是全市场成交额排名前5%的约270只股票吸走了全市场近一半的资金。",
+      "html": "<p>到今天为止，A股大盘拥挤度<span class=\"word-annot\"><span class=\"word-anchor\">达到</span><span class=\"word-block\"><span class=\"english-word\">achieve</span><span class=\"word-info\">[əˈtʃiːv] v. 达到、实现</span></span></span>了49%，也就是全市场成交额排名前5%的约270只股票吸走了全市场近一半的资金。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "在A股历史上，类似情形出现过5次，其中有2次市场发生了风格切换，另外3次出现了牛转熊。",
+      "html": "<p>在A股历史上，类似<span class=\"word-annot\"><span class=\"word-anchor\">情形</span><span class=\"word-block\"><span class=\"english-word\">circumstance</span><span class=\"word-info\">[ˈsɜːrkəmstæns] n. 情形、情况</span></span></span>出现过5次，其中有2次市场发生了风格切换，另外3次出现了牛转熊。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "各种消息也开始冲击大家的信心，其中最刺激心态的是大资金减持。",
+      "html": "<p>各种消息也开始<span class=\"word-annot\"><span class=\"word-anchor\">冲击</span><span class=\"word-block\"><span class=\"english-word\">impact</span><span class=\"word-info\">[ˈɪmpækt] n. 冲击、影响</span></span></span>大家的信心，其中最刺激心态的是大资金减持。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "过去两个月，数百家科技企业被大股东减持。有的减持新闻引起了争议，比如一家机器人板块龙头公司，上个月被董事长和多名高管减持，其中董事长本人大举减持了4.2亿元，理由是用于子女教育和生活需求。在很多投资者看来，这不仅是高位套现，还很不真诚，刺伤了股民的信任，很快引发了股价连日下跌。",
+      "html": "<p>过去两个月，数百家科技企业被大<span class=\"word-annot\"><span class=\"word-anchor\">股东</span><span class=\"word-block\"><span class=\"english-word\">shareholder</span><span class=\"word-info\">[ˈʃerhoʊldər] n. 股东</span></span></span>减持。有的减持新闻引起了<span class=\"word-annot\"><span class=\"word-anchor\">争议</span><span class=\"word-block\"><span class=\"english-word\">controversy</span><span class=\"word-info\">[ˈkɑːntrəvɜːrsi] n. 争议、争论</span></span></span>，比如一家机器人板块龙头公司，上个月被董事长和多名高管减持，其中董事长本人大举减持了4.2亿元，理由是用于子女教育和生活需求。在很多投资者看来，这不仅是高位套现，还很不<span class=\"word-annot\"><span class=\"word-anchor\">真诚</span><span class=\"word-block\"><span class=\"english-word\">sincere</span><span class=\"word-info\">[sɪnˈsɪr] adj. 真诚的、诚恳的</span></span></span>，刺伤了股民的信任，很快引发了股价连日下跌。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "总的来说，虽然大资金退出和股价高位没有必然联系，但减持潮确实历来被视作一个并不温馨的温馨提示。",
+      "html": "<p>总的来说，虽然大资金退出和股价高位没有必然联系，但减持潮确实历来被视作一个并不<span class=\"word-annot\"><span class=\"word-anchor\">温馨</span><span class=\"word-block\"><span class=\"english-word\">warm</span><span class=\"word-info\">[wɔːrm] adj. 温馨的、温暖的</span></span></span>的温馨提示。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/007.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/007.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 29,
+      "source_text": "而且，与高歌猛进的海外股市相比，从基本面看，人们开始担心部分科技股估值偏高。",
+      "html": "<p>而且，与高歌猛进的海外股市相比，从基本面看，人们开始担心部分科技股<span class=\"word-annot\"><span class=\"word-anchor\">估值</span><span class=\"word-block\"><span class=\"english-word\">valuation</span><span class=\"word-info\">[ˌvæljuˈeɪʃən] n. 估值、估价</span></span></span>偏高。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "从财务分析看，股票并不是涨得越多，泡沫越大。衡量一家公司的股价贵不贵，不能只看它涨了多少，更要看它的盈利能力能否支撑涨幅。",
+      "html": "<p>从财务分析看，股票并不是涨得越多，<span class=\"word-annot\"><span class=\"word-anchor\">泡沫</span><span class=\"word-block\"><span class=\"english-word\">bubble</span><span class=\"word-info\">[ˈbʌbəl] n. 泡沫</span></span></span>越大。<span class=\"word-annot\"><span class=\"word-anchor\">衡量</span><span class=\"word-block\"><span class=\"english-word\">evaluate</span><span class=\"word-info\">[ɪˈvæljueɪt] v. 衡量、评估</span></span></span>一家公司的股价贵不贵，不能只看它涨了多少，更要看它的盈利能力能否支撑涨幅。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "一个较常用的衡量指标是市盈率，计算方式是公司股价除以利润水平。简单而言，市盈率越高，越被高估；反之则是被低估。",
+      "html": "<p>一个较常用的衡量指标是市盈率，<span class=\"word-annot\"><span class=\"word-anchor\">计算</span><span class=\"word-block\"><span class=\"english-word\">calculate</span><span class=\"word-info\">[ˈkælkjuleɪt] v. 计算</span></span></span>方式是公司股价除以利润水平。<span class=\"word-annot\"><span class=\"word-anchor\">简单</span><span class=\"word-block\"><span class=\"english-word\">simple</span><span class=\"word-info\">[ˈsɪmpəl] adj. 简单的</span></span></span>而言，市盈率越高，越被高估；<span class=\"word-annot\"><span class=\"word-anchor\">反之</span><span class=\"word-block\"><span class=\"english-word\">conversely</span><span class=\"word-info\">[ˈkɑːnvɜːrsli] adv. 反之、相反地</span></span></span>则是被低估。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "比如，纳斯达克指数2024年底到现在涨了40%，但市盈率一直稳定在33倍左右，因为科技公司们的盈利能力同样在快速增长。",
+      "html": "<p>比如，纳斯达克指数2024年底到现在涨了40%，但市盈率一直<span class=\"word-annot\"><span class=\"word-anchor\">稳定</span><span class=\"word-block\"><span class=\"english-word\">stable</span><span class=\"word-info\">[ˈsteɪbəl] adj. 稳定的</span></span></span>在33倍左右，因为科技公司们的盈利能力同样在快速增长。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "再比如，三星的股价今年以来已经涨了将近200%，但公司一季度的净利润暴涨了近500%。有机构基于三星未来的盈利预期测算了市盈率，不到6倍。所以金融机构们依然在疯狂地上调这家公司的目标价，股民们则调侃“越涨越便宜”。",
+      "html": "<p>再比如，三星的股价今年以来已经涨了将近200%，但公司一季度的净利润<span class=\"word-annot\"><span class=\"word-anchor\">暴涨</span><span class=\"word-block\"><span class=\"english-word\">surge</span><span class=\"word-info\">[sɜːrdʒ] v. 暴涨、激增</span></span></span>了近500%。有机构基于三星未来的盈利<span class=\"word-annot\"><span class=\"word-anchor\">预期</span><span class=\"word-block\"><span class=\"english-word\">forecast</span><span class=\"word-info\">[ˈfɔːrkæst] n. 预期、预测</span></span></span>测算了市盈率，不到6倍。所以金融机构们依然在疯狂地上调这家公司的目标价，股民们则<span class=\"word-annot\"><span class=\"word-anchor\">调侃</span><span class=\"word-block\"><span class=\"english-word\">tease</span><span class=\"word-info\">[tiːz] v. 调侃、开玩笑</span></span></span>“越涨越便宜”。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/008.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/008.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 35,
+      "source_text": "5月27日，韩国股市开盘创下历史新高",
+      "html": "<p>5月27日，韩国股市开盘创下<span class=\"word-annot\"><span class=\"word-anchor\">历史</span><span class=\"word-block\"><span class=\"english-word\">history</span><span class=\"word-info\">[ˈhɪstəri] n. 历史</span></span></span>新高</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "从这个角度来评估A股市场上的一些科技股，就显得有些贵了。目前科创50指数市盈率已经达到了166倍左右，中证半导体指数的市盈率中位数达到了181倍左右。最主要的原因就是，虽行业整体经营业绩在持续改善，但没能跟上股价飙涨的速度。",
+      "html": "<p>从这个<span class=\"word-annot\"><span class=\"word-anchor\">角度</span><span class=\"word-block\"><span class=\"english-word\">perspective</span><span class=\"word-info\">[pərˈspektɪv] n. 角度、视角</span></span></span>来评估A股市场上的一些科技股，就显得有些贵了。目前科创50指数市盈率已经达到了166倍左右，中证半导体指数的市盈率<span class=\"word-annot\"><span class=\"word-anchor\">中位数</span><span class=\"word-block\"><span class=\"english-word\">median</span><span class=\"word-info\">[ˈmiːdiən] n. 中位数</span></span></span>达到了181倍左右。最主要的原因就是，虽行业整体经营业绩在<span class=\"word-annot\"><span class=\"word-anchor\">持续</span><span class=\"word-block\"><span class=\"english-word\">sustain</span><span class=\"word-info\">[səˈsteɪn] v. 持续、维持</span></span></span>改善，但没能跟上股价飙涨的速度。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "种种因素下，科技股也就让人越来越买不下手了。但另一个尴尬的事实是，“便宜”的其他股，也一样买不下手。",
+      "html": "<p>种种<span class=\"word-annot\"><span class=\"word-anchor\">因素</span><span class=\"word-block\"><span class=\"english-word\">factor</span><span class=\"word-info\">[ˈfæktər] n. 因素</span></span></span>下，科技股也就让人越来越买不下手了。但另一个<span class=\"word-annot\"><span class=\"word-anchor\">尴尬</span><span class=\"word-block\"><span class=\"english-word\">awkward</span><span class=\"word-info\">[ˈɔːkwərd] adj. 尴尬的</span></span></span>的事实是，“便宜”的其他股，也一样买不下手。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "比如，昔日的股王茅台，如今最大的存在感是沦为AI牛股的参照系，从股价到市值都被不断超越。目前茅台的股价跌至1280元，已经掉到A股第五，被联讯仪器、源杰科技、寒武纪、中际旭创四只诞生于本轮牛市的科技股甩在身后。",
+      "html": "<p>比如，昔日的股王茅台，如今最大的存在感是沦为AI牛股的参照系，从股价到市值都被不断<span class=\"word-annot\"><span class=\"word-anchor\">超越</span><span class=\"word-block\"><span class=\"english-word\">surpass</span><span class=\"word-info\">[sərˈpæs] v. 超越、超过</span></span></span>。目前茅台的股价跌至1280元，已经掉到A股第五，被联讯仪器、源杰科技、寒武纪、中际旭创四只<span class=\"word-annot\"><span class=\"word-anchor\">诞生</span><span class=\"word-block\"><span class=\"english-word\">emerge</span><span class=\"word-info\">[iˈmɜːrdʒ] v. 诞生、出现</span></span></span>于本轮牛市的科技股甩在身后。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/009.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/009.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 40,
+      "source_text": "“优等生”茅台都如此，其他的恐怕更难脱颖而出。",
+      "html": "<p>“优等生”茅台都如此，其他的恐怕更难<span class=\"word-annot\"><span class=\"word-anchor\">脱颖</span><span class=\"word-block\"><span class=\"english-word\">excel</span><span class=\"word-info\">[ɪkˈsel] v. 脱颖而出、表现优异</span></span></span>而出。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "虽然一大批非AI资产已经显得非常便宜，是大家心照不宣的事实，但真的要“别人恐惧我贪婪”，似乎也不容易。",
+      "html": "<p>虽然一大批非AI资产已经显得非常便宜，是大家心照不宣的事实，但真的要“别人恐惧我<span class=\"word-annot\"><span class=\"word-anchor\">贪婪</span><span class=\"word-block\"><span class=\"english-word\">greedy</span><span class=\"word-info\">[ˈɡriːdi] adj. 贪婪的</span></span></span>”，似乎也不容易。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "这个过程中，甚至出现了一个荒诞却又很合情境的谣言：一批管理着消费主题基金的基金经理为了获取更好的业绩回报，开始暗中重仓科技，形成所谓的风格漂移。而到了6月初，网传这批基金经理为了避监管风头，把资金紧急转回“老登股”，就此带崩了科技股。",
+      "html": "<p>这个过程中，甚至出现了一个<span class=\"word-annot\"><span class=\"word-anchor\">荒诞</span><span class=\"word-block\"><span class=\"english-word\">absurd</span><span class=\"word-info\">[əbˈsɜːrd] adj. 荒诞的、荒谬的</span></span></span>却又很合情境的谣言：一批管理着消费主题基金的基金经理为了获取更好的业绩回报，开始暗中重仓科技，形成所谓的风格漂移。而到了6月初，网传这批基金经理为了避监管风头，把资金<span class=\"word-annot\"><span class=\"word-anchor\">紧急</span><span class=\"word-block\"><span class=\"english-word\">urgent</span><span class=\"word-info\">[ˈɜːrdʒənt] adj. 紧急的</span></span></span>转回“老登股”，就此带崩了科技股。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "最终带崩的逻辑被证伪，但情绪并没有被完全压制：翻倍牛股接二连三，股民却愣在原地，遍地找不到可安心买入的资产。",
+      "html": "<p>最终带崩的<span class=\"word-annot\"><span class=\"word-anchor\">逻辑</span><span class=\"word-block\"><span class=\"english-word\">logic</span><span class=\"word-info\">[ˈlɒdʒɪk] n. 逻辑</span></span></span>被证伪，但情绪并没有被完全压制：翻倍牛股接二连三，股民却愣在原地，遍地找不到可安心买入的资产。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "不过，虽然担忧的叙事暂时稍占上风，但看好的声音依然很多。",
+      "html": "<p>不过，虽然担忧的<span class=\"word-annot\"><span class=\"word-anchor\">叙事</span><span class=\"word-block\"><span class=\"english-word\">narrative</span><span class=\"word-info\">[ˈnærətɪv] n. 叙事、叙述</span></span></span>暂时稍占上风，但看好的声音依然很多。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "其中一个信号，是就在昨天晚上，A股登上了新闻联播。据其报道，外资正在积极加码中国股市，境外投资者已持有A股流通市值4万亿元，成为中国资本市场的重要参与者。",
+      "html": "<p>其中一个<span class=\"word-annot\"><span class=\"word-anchor\">信号</span><span class=\"word-block\"><span class=\"english-word\">signal</span><span class=\"word-info\">[ˈsɪɡnəl] n. 信号</span></span></span>，是就在昨天晚上，A股登上了新闻联播。据其报道，外资正在<span class=\"word-annot\"><span class=\"word-anchor\">积极</span><span class=\"word-block\"><span class=\"english-word\">active</span><span class=\"word-info\">[ˈæktɪv] adj. 积极的、活跃的</span></span></span>加码中国股市，境外投资者已持有A股流通市值4万亿元，成为中国资本市场的重要参与者。</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "值得一提的是，这也是继2024年9月30日之后，A股再次登上新闻联播，彼时，是本轮牛市的起点。",
+      "html": "<p>值得一提的是，这也是继2024年9月30日之后，A股再次登上新闻联播，彼时，是本轮牛市的<span class=\"word-annot\"><span class=\"word-anchor\">起点</span><span class=\"word-block\"><span class=\"english-word\">origin</span><span class=\"word-info\">[ˈɔːrɪdʒɪn] n. 起点、起源</span></span></span>。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/010.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/010.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 48,
+      "source_text": "此外，我们咨询的多位专家也一致认为，短期分歧不会改变这轮科技牛市的长期趋势。",
+      "html": "<p>此外，我们<span class=\"word-annot\"><span class=\"word-anchor\">咨询</span><span class=\"word-block\"><span class=\"english-word\">consult</span><span class=\"word-info\">[kənˈsʌlt] v. 咨询、请教</span></span></span>的多位专家也一致认为，短期分歧不会改变这轮科技牛市的长期趋势。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "财经评论员刘晓博提到，历史上，一轮超级行情出现趋势性掉头，往往需要有多重先兆和信号，至少有估值极端分化、成交拥挤度爆表、资金结构拐点、宏观或监管政策催化、抱团松动这五类信号共振，不会仅凭单一信号就切换。",
+      "html": "<p>财经评论员刘晓博提到，历史上，一轮超级行情出现趋势性掉头，往往需要有多重<span class=\"word-annot\"><span class=\"word-anchor\">先兆</span><span class=\"word-block\"><span class=\"english-word\">precursor</span><span class=\"word-info\">[priːˈkɜːrsər] n. 先兆、前兆</span></span></span>和信号，至少有估值极端分化、成交拥挤度爆表、资金结构拐点、宏观或监管政策催化、抱团松动这五类信号共振，不会仅凭单一信号就切换。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "从这些维度来看，牛市的基本面并没有出现变化。",
+      "html": "<p>从这些<span class=\"word-annot\"><span class=\"word-anchor\">维度</span><span class=\"word-block\"><span class=\"english-word\">dimension</span><span class=\"word-info\">[daɪˈmenʃən] n. 维度、方面</span></span></span>来看，牛市的基本面并没有出现变化。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "另一方面，盈添财富创始人赵启欣提到，市场整体并没有出现明显的估值泡沫，而是结构性的冷热不均。因此，下半年会出现两个趋势：一是各板块之间更加均衡，二是科技股缩圈，持续上涨越来越依靠业绩支撑。",
+      "html": "<p>另一方面，盈添财富创始人赵启欣提到，市场整体并没有出现明显的估值泡沫，而是<span class=\"word-annot\"><span class=\"word-anchor\">结构性</span><span class=\"word-block\"><span class=\"english-word\">structural</span><span class=\"word-info\">[ˈstrʌktʃərəl] adj. 结构性的</span></span></span>的冷热不均。因此，下半年会出现两个趋势：一是各板块之间更加<span class=\"word-annot\"><span class=\"word-anchor\">均衡</span><span class=\"word-block\"><span class=\"english-word\">equilibrium</span><span class=\"word-info\">[ˌiːkwɪˈlɪbriəm] n. 均衡、平衡</span></span></span>，二是科技股缩圈，持续上涨越来越依靠业绩支撑。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "对于投资者当前阶段的困惑，我们也咨询了4位理财专家的看法，一起来看看吧~",
+      "html": "<p>对于投资者当前阶段的<span class=\"word-annot\"><span class=\"word-anchor\">困惑</span><span class=\"word-block\"><span class=\"english-word\">confusion</span><span class=\"word-info\">[kənˈfjuːʒən] n. 困惑、迷茫</span></span></span>，我们也咨询了4位理财专家的看法，一起来看看吧~</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/011.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/011.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 54,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/012.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/012.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 55,
+      "source_text": "■ 吴晓波频道首席财富顾问",
+      "html": "<p>■ 吴晓波频道首席财富顾问</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/013.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/013.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 57,
+      "source_text": "如果科技牛市到顶了，那么整个市场也就快完了。现在的情况其实是科技板块之前已经分化到了极致，从最初的科技与非科技分化，变成了现在的AI与非AI的区别，风格特别集中且撕裂。",
+      "html": "<p>如果科技牛市到顶了，那么<span class=\"word-annot\"><span class=\"word-anchor\">整个</span><span class=\"word-block\"><span class=\"english-word\">entire</span><span class=\"word-info\">[ɪnˈtaɪər] adj. 整个的、全部的</span></span></span>市场也就快完了。现在的情况其实是科技板块之前已经分化到了<span class=\"word-annot\"><span class=\"word-anchor\">极致</span><span class=\"word-block\"><span class=\"english-word\">extreme</span><span class=\"word-info\">[ɪkˈstriːm] n. 极致、极端</span></span></span>，从最初的科技与非科技分化，变成了现在的AI与非AI的区别，风格特别集中且撕裂。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "因此，肯定会有阶段性的反扑或风格转换。但从中长期来看，芯片、科技以及AI这一波在经历一定的调整后，后面科技依然会占据主线位置。",
+      "html": "<p>因此，肯定会有阶段性的反扑或风格<span class=\"word-annot\"><span class=\"word-anchor\">转换</span><span class=\"word-block\"><span class=\"english-word\">transition</span><span class=\"word-info\">[trænˈzɪʃən] n. 转换、转变</span></span></span>。但从中长期来看，芯片、科技以及AI这一波在经历一定的<span class=\"word-annot\"><span class=\"word-anchor\">调整</span><span class=\"word-block\"><span class=\"english-word\">adjustment</span><span class=\"word-info\">[əˈdʒʌstmənt] n. 调整</span></span></span>后，后面科技依然会占据主线位置。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "传统板块的牛市可能还没开始，而科技板块已进入中场阶段，单靠拉估值推动的行情接近尾声，后续上涨需要业绩的支撑。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">传统</span><span class=\"word-block\"><span class=\"english-word\">traditional</span><span class=\"word-info\">[trəˈdɪʃənəl] adj. 传统的</span></span></span>板块的牛市可能还没开始，而科技板块已进入中场阶段，单靠拉估值推动的行情接近尾声，后续上涨需要业绩的支撑。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "短期风险较大的，其实是前期涨幅过大的板块。这有点像去年12月的商业航天或去年3月的人形机器人板块，市场后续表现可能不错，但在未来三个月或半年内，前面特别热的板块可能需要休息一段时间。",
+      "html": "<p>短期<span class=\"word-annot\"><span class=\"word-anchor\">风险</span><span class=\"word-block\"><span class=\"english-word\">risk</span><span class=\"word-info\">[rɪsk] n. 风险</span></span></span>较大的，其实是前期涨幅过大的板块。这有点像去年12月的商业航天或去年3月的人形机器人板块，市场后续<span class=\"word-annot\"><span class=\"word-anchor\">表现</span><span class=\"word-block\"><span class=\"english-word\">performance</span><span class=\"word-info\">[pərˈfɔːrməns] n. 表现、性能</span></span></span>可能不错，但在未来三个月或半年内，前面特别热的板块可能需要休息一段时间。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "老登板块里，一方面是增长性不错且估值便宜的，比如券商，从投资安全性上没问题。",
+      "html": "<p>老登板块里，一方面是<span class=\"word-annot\"><span class=\"word-anchor\">增长</span><span class=\"word-block\"><span class=\"english-word\">growth</span><span class=\"word-info\">[ɡroʊθ] n. 增长</span></span></span>性不错且估值便宜的，比如券商，从投资安全性上没问题。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "另一类是所谓的景气反转型，比如创新药、锂电。锂电这样景气反转后迎来新周期的板块，可能比上一个周期更厉害。下半年光伏也可能看到基本面的拐点。",
+      "html": "<p>另一类是所谓的<span class=\"word-annot\"><span class=\"word-anchor\">景气</span><span class=\"word-block\"><span class=\"english-word\">prosperity</span><span class=\"word-info\">[prɑːˈsperəti] n. 景气、繁荣</span></span></span>反转型，比如创新药、锂电。锂电这样景气反转后迎来新<span class=\"word-annot\"><span class=\"word-anchor\">周期</span><span class=\"word-block\"><span class=\"english-word\">cycle</span><span class=\"word-info\">[ˈsaɪkəl] n. 周期</span></span></span>的板块，可能比上一个周期更厉害。下半年光伏也可能看到基本面的<span class=\"word-annot\"><span class=\"word-anchor\">拐点</span><span class=\"word-block\"><span class=\"english-word\">inflection</span><span class=\"word-info\">[ɪnˈflekʃən] n. 拐点、转折点</span></span></span>。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "房地产和白酒，我个人倾向于都是战术型机会，不是战略型机会。房地产今年很难看到拐点，虽然最差的时候可能过去了，但这个行业很难回到高歌猛进的状态，淘金难度很大，我们不建议。",
+      "html": "<p>房地产和白酒，我个人倾向于都是<span class=\"word-annot\"><span class=\"word-anchor\">战术</span><span class=\"word-block\"><span class=\"english-word\">tactical</span><span class=\"word-info\">[ˈtæktɪkəl] adj. 战术的</span></span></span>型机会，不是战略型机会。房地产今年很难看到拐点，虽然最差的时候可能过去了，但这个行业很难回到高歌猛进的<span class=\"word-annot\"><span class=\"word-anchor\">状态</span><span class=\"word-block\"><span class=\"english-word\">status</span><span class=\"word-info\">[ˈsteɪtəs] n. 状态、状况</span></span></span>，淘金难度很大，我们不建议。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "白酒属于晚周期品种。这意味着其他行业景气拐点都见到之后，才可能见到白酒的景气拐点。所以从反转角度，白酒应该在其他行业后面，如果是长期价值投资者觉得价格合适买点问题不大，但不要重仓。",
+      "html": "<p>白酒属于晚周期<span class=\"word-annot\"><span class=\"word-anchor\">品种</span><span class=\"word-block\"><span class=\"english-word\">variety</span><span class=\"word-info\">[vəˈraɪəti] n. 品种、类别</span></span></span>。这<span class=\"word-annot\"><span class=\"word-anchor\">意味</span><span class=\"word-block\"><span class=\"english-word\">imply</span><span class=\"word-info\">[ɪmˈplaɪ] v. 意味、暗示</span></span></span>着其他行业景气拐点都见到之后，才可能见到白酒的景气拐点。所以从反转角度，白酒应该在其他行业后面，如果是长期价值投资者觉得价格<span class=\"word-annot\"><span class=\"word-anchor\">合适</span><span class=\"word-block\"><span class=\"english-word\">suitable</span><span class=\"word-info\">[ˈsuːtəbəl] adj. 合适的</span></span></span>买点问题不大，但不要重仓。</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "科技股方面，如果之前在科技上配置不足，我建议分批去买，大跌大买，小跌少买，不要一次性买入。如果本身科技配置就比较多，建议规律性兑现利润。",
+      "html": "<p>科技股方面，如果之前在科技上配置不足，我<span class=\"word-annot\"><span class=\"word-anchor\">建议</span><span class=\"word-block\"><span class=\"english-word\">recommend</span><span class=\"word-info\">[ˌrekəˈmend] v. 建议、推荐</span></span></span>分批去买，大跌大买，小跌少买，不要一次性买入。如果本身科技配置就比较多，建议规律性兑现<span class=\"word-annot\"><span class=\"word-anchor\">利润</span><span class=\"word-block\"><span class=\"english-word\">profit</span><span class=\"word-info\">[ˈprɒfɪt] n. 利润</span></span></span>。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "我们一直强调相对均衡的配置，要拥抱科技，也要尊重老登。贪便宜全买老登资产不对；老登一个不买全买科创，这两天就是挨揍的时候。前面想调整时它天天涨不敢下手，现在给机会了又害怕，那到底想怎样？每一次风格切换都是重新把配置调整合理的机会。",
+      "html": "<p>我们一直<span class=\"word-annot\"><span class=\"word-anchor\">强调</span><span class=\"word-block\"><span class=\"english-word\">emphasize</span><span class=\"word-info\">[ˈemfəsaɪz] v. 强调</span></span></span>相对均衡的配置，要拥抱科技，也要尊重老登。<span class=\"word-annot\"><span class=\"word-anchor\">贪</span><span class=\"word-block\"><span class=\"english-word\">covet</span><span class=\"word-info\">[ˈkʌvət] v. 贪图、觊觎</span></span></span>便宜全买老登资产不对；老登一个不买全买科创，这两天就是<span class=\"word-annot\"><span class=\"word-anchor\">挨揍</span><span class=\"word-block\"><span class=\"english-word\">suffer</span><span class=\"word-info\">[ˈsʌfər] v. 遭受、忍受</span></span></span>的时候。前面想调整时它天天涨不敢下手，现在给机会了又<span class=\"word-annot\"><span class=\"word-anchor\">害怕</span><span class=\"word-block\"><span class=\"english-word\">fear</span><span class=\"word-info\">[fɪr] v. 害怕、恐惧</span></span></span>，那到底想怎样？每一次风格切换都是重新把配置调整<span class=\"word-annot\"><span class=\"word-anchor\">合理</span><span class=\"word-block\"><span class=\"english-word\">rational</span><span class=\"word-info\">[ˈræʃənəl] adj. 合理的、理性的</span></span></span>的机会。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/014.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/014.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 68,
+      "source_text": "&nbsp;公众号“刘晓博说财经”",
+      "html": "<p>&amp;nbsp;公众号“刘晓博说财经”</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/015.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/015.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 70,
+      "source_text": "这轮高低切是由多个因素造成的，一是之前科技赛道的确涨幅过多，获利筹码太丰厚；二是监管整治基金风格漂移，6月初和6月底都是重要的时间节点，的确有一批基金需要调仓；即将到来的世界杯和几个超级IPO，也对投资者带来了负面的心理暗示。",
+      "html": "<p>这轮高低切是由多个因素造成的，一是之前科技赛道的确涨幅过多，获利筹码太<span class=\"word-annot\"><span class=\"word-anchor\">丰厚</span><span class=\"word-block\"><span class=\"english-word\">generous</span><span class=\"word-info\">[ˈdʒenərəs] adj. 丰厚的、大量的</span></span></span>；二是<span class=\"word-annot\"><span class=\"word-anchor\">监管</span><span class=\"word-block\"><span class=\"english-word\">regulate</span><span class=\"word-info\">[ˈreɡjuleɪt] v. 监管、管理</span></span></span>整治基金风格漂移，6月初和6月底都是重要的时间节点，的确有一批基金需要调仓；即将到来的世界杯和几个超级IPO，也对投资者带来了<span class=\"word-annot\"><span class=\"word-anchor\">负面</span><span class=\"word-block\"><span class=\"english-word\">negative</span><span class=\"word-info\">[ˈneɡətɪv] adj. 负面的、消极的</span></span></span>的心理暗示。</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "从历史经验看，世界杯期间A股的下跌概率是2/3，美股一半对一半，欧洲股市则是涨多跌少。所以在国际市场上世界杯魔咒现象并不明显。",
+      "html": "<p>从历史<span class=\"word-annot\"><span class=\"word-anchor\">经验</span><span class=\"word-block\"><span class=\"english-word\">experience</span><span class=\"word-info\">[ɪkˈspɪriəns] n. 经验</span></span></span>看，世界杯期间A股的下跌概率是2/3，美股一半对一半，欧洲股市则是涨多跌少。所以在国际市场上世界杯魔咒<span class=\"word-annot\"><span class=\"word-anchor\">现象</span><span class=\"word-block\"><span class=\"english-word\">phenomenon</span><span class=\"word-info\">[fɪˈnɒmɪnən] n. 现象</span></span></span>并不明显。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "科技主线的行情还没有结束。主要原因是接下来要进入中报季，真正在今年上半年出现业绩大幅增长的主要还是科技赛道，尤其是半导体相关的产业。",
+      "html": "<p>科技<span class=\"word-annot\"><span class=\"word-anchor\">主线</span><span class=\"word-block\"><span class=\"english-word\">mainstay</span><span class=\"word-info\">[ˈmeɪnsteɪ] n. 主线、支柱</span></span></span>的行情还没有结束。主要原因是接下来要进入中报季，真正在今年上半年出现业绩大幅增长的主要还是科技赛道，<span class=\"word-annot\"><span class=\"word-anchor\">尤其</span><span class=\"word-block\"><span class=\"english-word\">particularly</span><span class=\"word-info\">[pərˈtɪkjələrli] adv. 尤其、特别是</span></span></span>是半导体相关的产业。</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "接下来，科技股将接受中报的检验。业绩大幅提升的个股会继续走强，缺少业绩支撑的个股则会继续下跌。半导体芯片产业的行业牛市仍在持续，还继续向上游产业链扩散，外围市场的牛市短期内不会结束，这会支撑 A 股的科技股再走一段。",
+      "html": "<p>接下来，科技股将接受中报的<span class=\"word-annot\"><span class=\"word-anchor\">检验</span><span class=\"word-block\"><span class=\"english-word\">inspect</span><span class=\"word-info\">[ɪnˈspekt] v. 检验、检查</span></span></span>。业绩大幅<span class=\"word-annot\"><span class=\"word-anchor\">提升</span><span class=\"word-block\"><span class=\"english-word\">enhance</span><span class=\"word-info\">[ɪnˈhæns] v. 提升、提高</span></span></span>的个股会继续走强，缺少业绩支撑的个股则会继续下跌。半导体芯片产业的行业牛市仍在持续，还继续向上游产业链<span class=\"word-annot\"><span class=\"word-anchor\">扩散</span><span class=\"word-block\"><span class=\"english-word\">diffuse</span><span class=\"word-info\">[dɪˈfjuːs] v. 扩散、传播</span></span></span>，外围市场的牛市短期内不会结束，这会支撑 A 股的科技股再走一段。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "能源领域上半年业绩也不错，所以煤炭和油气板块的行情可能会持续一段。电力、煤炭、算力金属、算力化工，这些板块后市有一定机会。其他的传统板块很难持续，还需要等待时机。",
+      "html": "<p>能源<span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[doʊˈmeɪn] n. 领域、范围</span></span></span>上半年业绩也不错，所以煤炭和油气板块的行情可能会持续一段。电力、煤炭、算力金属、算力化工，这些板块后市有一定<span class=\"word-annot\"><span class=\"word-anchor\">机会</span><span class=\"word-block\"><span class=\"english-word\">opportunity</span><span class=\"word-info\">[ˌɒpərˈtuːnəti] n. 机会</span></span></span>。其他的传统板块很难持续，还需要<span class=\"word-annot\"><span class=\"word-anchor\">等待</span><span class=\"word-block\"><span class=\"english-word\">await</span><span class=\"word-info\">[əˈweɪt] v. 等待、等候</span></span></span>时机。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "对于投资者来说，6月行情的机会很难抓。不建议满仓，不建议All In任何一个赛道。如果科技仓位比较轻，可以在比较看好的赛道上逢低补仓。否则建议观望。",
+      "html": "<p>对于<span class=\"word-annot\"><span class=\"word-anchor\">投资者</span><span class=\"word-block\"><span class=\"english-word\">investor</span><span class=\"word-info\">[ɪnˈvestər] n. 投资者</span></span></span>来说，6月行情的机会很难抓。不建议满仓，不建议All In任何一个<span class=\"word-annot\"><span class=\"word-anchor\">赛道</span><span class=\"word-block\"><span class=\"english-word\">sector</span><span class=\"word-info\">[ˈsektər] n. 赛道、领域</span></span></span>。如果科技<span class=\"word-annot\"><span class=\"word-anchor\">仓位</span><span class=\"word-block\"><span class=\"english-word\">position</span><span class=\"word-info\">[pəˈzɪʃən] n. 仓位、持仓</span></span></span>比较轻，可以在比较看好的赛道上逢低补仓。否则建议<span class=\"word-annot\"><span class=\"word-anchor\">观望</span><span class=\"word-block\"><span class=\"english-word\">hesitate</span><span class=\"word-info\">[ˈhezɪteɪt] v. 观望、犹豫</span></span></span>。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/016.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/016.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 77,
+      "source_text": "■ 前海开源基金首席经济学家",
+      "html": "<p>■ 前海开源基金首席经济学家</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/017.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/017.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 79,
+      "source_text": "近期前5%的股票成交量占全市场成交量的近50%，从历史看，当赛道交易集中度过高时，大概率会伴随较大调整。",
+      "html": "<p>近期前5%的股票成交量占全市场成交量的近50%，从历史看，当赛道交易集中度过高时，大概率会<span class=\"word-annot\"><span class=\"word-anchor\">伴随</span><span class=\"word-block\"><span class=\"english-word\">accompany</span><span class=\"word-info\">[əˈkʌmpəni] v. 伴随、跟随</span></span></span>较大调整。</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "例如2021年对新能源以及白酒等消费板块的投资，都出现过交易集中度超过45%的情况，随后均出现较大幅度调整。",
+      "html": "<p>例如2021年对新能源以及白酒等消费板块的投资，都出现过交易集中度超过45%的情况，随后均出现较大<span class=\"word-annot\"><span class=\"word-anchor\">幅度</span><span class=\"word-block\"><span class=\"english-word\">magnitude</span><span class=\"word-info\">[ˈmæɡnɪtuːd] n. 幅度、程度</span></span></span>调整。</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "过去一段时间A股呈现出美股化的特征，美股交易集中度更为集中，前5%股票的交易占比甚至超过60%。",
+      "html": "<p>过去一段时间A股呈现出美股化的<span class=\"word-annot\"><span class=\"word-anchor\">特征</span><span class=\"word-block\"><span class=\"english-word\">characteristic</span><span class=\"word-info\">[ˌkɛrəktəˈrɪstɪk] n. 特征、特点</span></span></span>，美股交易集中度更为集中，前5%股票的交易占比甚至超过60%。</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "本轮AI科技革命始于美股，投资者可以每天早上关注隔夜美股，若隔夜纳指安好，便是晴天；若隔夜纳指暴跌，则可能是泡沫破裂迹象，开盘时可选择调整仓位。目前美股科技股依然强势，因此本次调整不能视为AI科技行情走完的标志，而是短期过快上涨后的修正。",
+      "html": "<p>本轮AI科技<span class=\"word-annot\"><span class=\"word-anchor\">革命</span><span class=\"word-block\"><span class=\"english-word\">revolution</span><span class=\"word-info\">[ˌrevəˈluːʃən] n. 革命</span></span></span>始于美股，投资者可以每天早上关注隔夜美股，若隔夜纳指安好，便是晴天；若隔夜纳指暴跌，则可能是泡沫破裂<span class=\"word-annot\"><span class=\"word-anchor\">迹象</span><span class=\"word-block\"><span class=\"english-word\">indication</span><span class=\"word-info\">[ˌɪndɪˈkeɪʃən] n. 迹象、征兆</span></span></span>，开盘时可选择调整仓位。目前美股科技股依然强势，因此本次调整不能<span class=\"word-annot\"><span class=\"word-anchor\">视为</span><span class=\"word-block\"><span class=\"english-word\">deem</span><span class=\"word-info\">[diːm] v. 视为、认为</span></span></span>AI科技行情走完的标志，而是短期过快上涨后的修正。</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "从去年年初，我就提出本轮行情应重点关注六大赛道，经过一年半时间已得到较好验证，六大赛道轮番上涨，包括芯片半导体、算力算法基础设施、人形机器人、商业航天、固态电池、生物医药。后续仍可继续关注这六大赛道。",
+      "html": "<p>从去年年初，我就提出本轮行情应重点关注六大赛道，经过一年半时间已得到较好<span class=\"word-annot\"><span class=\"word-anchor\">验证</span><span class=\"word-block\"><span class=\"english-word\">validate</span><span class=\"word-info\">[ˈvælɪdeɪt] v. 验证、证实</span></span></span>，六大赛道轮番上涨，包括芯片半导体、算力算法基础设施、人形机器人、商业航天、固态电池、生物医药。后续仍可继续<span class=\"word-annot\"><span class=\"word-anchor\">关注</span><span class=\"word-block\"><span class=\"english-word\">focus</span><span class=\"word-info\">[ˈfoʊkəs] v. 关注、聚焦</span></span></span>这六大赛道。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/018.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/018.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 85,
+      "source_text": "■ 渐近投资研究院院长",
+      "html": "<p>■ 渐近投资研究院院长</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/019.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/019.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 87,
+      "source_text": "科技股虽然估值已经偏贵，但盈利周期还在上行趋势中，还有进一步泡沫化的空间。重仓者可以适当降仓位。低位板块确实很便宜，但宏观基本面偏弱的背景下依然缺少催化剂。",
+      "html": "<p>科技股虽然估值已经偏贵，但盈利周期还在上行趋势中，还有进一步泡沫化的<span class=\"word-annot\"><span class=\"word-anchor\">空间</span><span class=\"word-block\"><span class=\"english-word\">space</span><span class=\"word-info\">[speɪs] n. 空间</span></span></span>。重仓者可以<span class=\"word-annot\"><span class=\"word-anchor\">适当</span><span class=\"word-block\"><span class=\"english-word\">moderate</span><span class=\"word-info\">[ˈmɑːdərət] adj. 适当的、适度的</span></span></span>降仓位。低位板块确实很便宜，但宏观基本面偏弱的<span class=\"word-annot\"><span class=\"word-anchor\">背景</span><span class=\"word-block\"><span class=\"english-word\">context</span><span class=\"word-info\">[ˈkɑːntekst] n. 背景、语境</span></span></span>下依然缺少催化剂。</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "*以上建议仅供参考，股市有风险，决策需谨慎。",
+      "html": "<p>*以上建议仅供参考，股市有风险，决策需<span class=\"word-annot\"><span class=\"word-anchor\">谨慎</span><span class=\"word-block\"><span class=\"english-word\">cautious</span><span class=\"word-info\">[ˈkɔːʃəs] adj. 谨慎的</span></span></span>。</p>"
+    },
+    {
+      "index": 89,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/020.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/020.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 90,
+      "source_text": "&nbsp;责任编辑&nbsp;",
+      "html": "<p>&amp;nbsp;责任编辑&amp;nbsp;</p>"
+    },
+    {
+      "index": 91,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/021.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/021.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 92,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/022.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/022.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 93,
+      "source_text": "![](../images/posts/2026-06-14-bull-market-stocks-confusion/023.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-bull-market-stocks-confusion/023.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}

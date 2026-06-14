@@ -1,0 +1,1425 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "内耗",
+      "en": "depletion",
+      "ipa": "[dɪˈpliːʃən]",
+      "pos": "n.",
+      "gloss": "内耗"
+    },
+    {
+      "i": 1,
+      "zh": "答案",
+      "en": "answer",
+      "ipa": "[ˈænsər]",
+      "pos": "n.",
+      "gloss": "答案"
+    },
+    {
+      "i": 2,
+      "zh": "外部",
+      "en": "exterior",
+      "ipa": "[ɪkˈstɪriər]",
+      "pos": "n.",
+      "gloss": "外部"
+    },
+    {
+      "i": 3,
+      "zh": "磨难",
+      "en": "hardship",
+      "ipa": "[ˈhɑːrdʃɪp]",
+      "pos": "n.",
+      "gloss": "磨难"
+    },
+    {
+      "i": 4,
+      "zh": "怀疑",
+      "en": "suspect",
+      "ipa": "[səˈspekt]",
+      "pos": "v.",
+      "gloss": "怀疑"
+    },
+    {
+      "i": 5,
+      "zh": "继母",
+      "en": "stepmother",
+      "ipa": "[ˈstepmʌðər]",
+      "pos": "n.",
+      "gloss": "继母"
+    },
+    {
+      "i": 6,
+      "zh": "落榜",
+      "en": "flunk",
+      "ipa": "[flʌŋk]",
+      "pos": "v.",
+      "gloss": "落榜"
+    },
+    {
+      "i": 7,
+      "zh": "深渊",
+      "en": "abyss",
+      "ipa": "[əˈbɪs]",
+      "pos": "n.",
+      "gloss": "深渊"
+    },
+    {
+      "i": 8,
+      "zh": "弹劾",
+      "en": "impeach",
+      "ipa": "[ɪmˈpiːtʃ]",
+      "pos": "v.",
+      "gloss": "弹劾"
+    },
+    {
+      "i": 9,
+      "zh": "廷杖",
+      "en": "bastinado",
+      "ipa": "[ˌbæstɪˈneɪdoʊ]",
+      "pos": "n.",
+      "gloss": "廷杖"
+    },
+    {
+      "i": 10,
+      "zh": "贬",
+      "en": "demote",
+      "ipa": "[dɪˈmoʊt]",
+      "pos": "v.",
+      "gloss": "贬谪"
+    },
+    {
+      "i": 11,
+      "zh": "死去",
+      "en": "perish",
+      "ipa": "[ˈperɪʃ]",
+      "pos": "v.",
+      "gloss": "死去"
+    },
+    {
+      "i": 12,
+      "zh": "绝望",
+      "en": "despair",
+      "ipa": "[dɪˈsper]",
+      "pos": "n.",
+      "gloss": "绝望"
+    },
+    {
+      "i": 13,
+      "zh": "绝境",
+      "en": "predicament",
+      "ipa": "[prɪˈdɪkəmənt]",
+      "pos": "n.",
+      "gloss": "绝境"
+    },
+    {
+      "i": 14,
+      "zh": "长啸",
+      "en": "howl",
+      "ipa": "[haʊl]",
+      "pos": "v.",
+      "gloss": "长啸"
+    },
+    {
+      "i": 15,
+      "zh": "自足",
+      "en": "sufficiency",
+      "ipa": "[səˈfɪʃənsi]",
+      "pos": "n.",
+      "gloss": "自足"
+    },
+    {
+      "i": 16,
+      "skip": true
+    },
+    {
+      "i": 17,
+      "zh": "惊天动地",
+      "en": "earthshaking",
+      "ipa": "[ˈɜːrθʃeɪkɪŋ]",
+      "pos": "adj.",
+      "gloss": "惊天动地的"
+    },
+    {
+      "i": 18,
+      "zh": "威力",
+      "en": "impact",
+      "ipa": "[ˈɪmpækt]",
+      "pos": "n.",
+      "gloss": "威力"
+    },
+    {
+      "i": 19,
+      "zh": "认知",
+      "en": "cognition",
+      "ipa": "[kɒɡˈnɪʃən]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 20,
+      "zh": "渺小",
+      "en": "insignificant",
+      "ipa": "[ˌɪnsɪɡˈnɪfɪkənt]",
+      "pos": "adj.",
+      "gloss": "渺小的"
+    },
+    {
+      "i": 21,
+      "zh": "尺度",
+      "en": "yardstick",
+      "ipa": "[ˈjɑːrdstɪk]",
+      "pos": "n.",
+      "gloss": "尺度"
+    },
+    {
+      "i": 22,
+      "zh": "书生",
+      "en": "scholar",
+      "ipa": "[ˈskɒlər]",
+      "pos": "n.",
+      "gloss": "书生"
+    },
+    {
+      "i": 23,
+      "zh": "平定",
+      "en": "suppress",
+      "ipa": "[səˈpres]",
+      "pos": "v.",
+      "gloss": "平定"
+    },
+    {
+      "i": 24,
+      "zh": "不朽",
+      "en": "immortal",
+      "ipa": "[ɪˈmɔːrtl]",
+      "pos": "adj.",
+      "gloss": "不朽的"
+    },
+    {
+      "i": 25,
+      "zh": "狂风",
+      "en": "gale",
+      "ipa": "[ɡeɪl]",
+      "pos": "n.",
+      "gloss": "狂风"
+    },
+    {
+      "i": 26,
+      "zh": "首辅",
+      "en": "chancellor",
+      "ipa": "[ˈtʃænsələr]",
+      "pos": "n.",
+      "gloss": "首辅"
+    },
+    {
+      "i": 27,
+      "zh": "启蒙",
+      "en": "enlightenment",
+      "ipa": "[ɪnˈlaɪtənmənt]",
+      "pos": "n.",
+      "gloss": "启蒙"
+    },
+    {
+      "i": 28,
+      "zh": "印章",
+      "en": "seal",
+      "ipa": "[siːl]",
+      "pos": "n.",
+      "gloss": "印章"
+    },
+    {
+      "i": 29,
+      "zh": "崇拜",
+      "en": "admire",
+      "ipa": "[ədˈmaɪər]",
+      "pos": "v.",
+      "gloss": "崇拜"
+    },
+    {
+      "i": 30,
+      "zh": "金句",
+      "en": "aphorism",
+      "ipa": "[ˈæfərɪzəm]",
+      "pos": "n.",
+      "gloss": "金句"
+    },
+    {
+      "i": 31,
+      "zh": "良知",
+      "en": "conscience",
+      "ipa": "[ˈkɑːnʃəns]",
+      "pos": "n.",
+      "gloss": "良知"
+    },
+    {
+      "i": 32,
+      "zh": "炼",
+      "en": "refine",
+      "ipa": "[rɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "炼"
+    },
+    {
+      "i": 33,
+      "zh": "讽刺",
+      "en": "irony",
+      "ipa": "[ˈaɪrəni]",
+      "pos": "n.",
+      "gloss": "讽刺"
+    },
+    {
+      "i": 34,
+      "zh": "颠覆",
+      "en": "subvert",
+      "ipa": "[səbˈvɜːrt]",
+      "pos": "v.",
+      "gloss": "颠覆"
+    },
+    {
+      "i": 35,
+      "zh": "神化",
+      "en": "deify",
+      "ipa": "[ˈdeɪɪfaɪ]",
+      "pos": "v.",
+      "gloss": "神化"
+    },
+    {
+      "i": 36,
+      "zh": "吹",
+      "en": "brag",
+      "ipa": "[bræɡ]",
+      "pos": "v.",
+      "gloss": "吹嘘"
+    },
+    {
+      "i": 37,
+      "zh": "泥潭",
+      "en": "mire",
+      "ipa": "[maɪər]",
+      "pos": "n.",
+      "gloss": "泥潭"
+    },
+    {
+      "i": 38,
+      "zh": "斗",
+      "en": "contend",
+      "ipa": "[kənˈtend]",
+      "pos": "v.",
+      "gloss": "争斗"
+    },
+    {
+      "i": 39,
+      "skip": true
+    },
+    {
+      "i": 40,
+      "zh": "脱胎换骨",
+      "en": "regenerate",
+      "ipa": "[rɪˈdʒenəreɪt]",
+      "pos": "v.",
+      "gloss": "脱胎换骨"
+    },
+    {
+      "i": 41,
+      "zh": "解读",
+      "en": "interpret",
+      "ipa": "[ɪnˈtɜːrprɪt]",
+      "pos": "v.",
+      "gloss": "解读"
+    },
+    {
+      "i": 42,
+      "zh": "晦涩",
+      "en": "obscure",
+      "ipa": "[əbˈskjʊr]",
+      "pos": "adj.",
+      "gloss": "晦涩的"
+    },
+    {
+      "i": 43,
+      "zh": "玄学",
+      "en": "metaphysics",
+      "ipa": "[ˌmetəˈfɪzɪks]",
+      "pos": "n.",
+      "gloss": "玄学"
+    },
+    {
+      "i": 44,
+      "zh": "推荐",
+      "en": "recommend",
+      "ipa": "[ˌrekəˈmend]",
+      "pos": "v.",
+      "gloss": "推荐"
+    },
+    {
+      "i": 45,
+      "zh": "心法",
+      "en": "mindset",
+      "ipa": "[ˈmaɪndset]",
+      "pos": "n.",
+      "gloss": "心法"
+    },
+    {
+      "i": 46,
+      "zh": "焦虑",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑"
+    },
+    {
+      "i": 47,
+      "zh": "认知",
+      "en": "perception",
+      "ipa": "[pərˈsepʃən]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 48,
+      "zh": "神秘",
+      "en": "enigmatic",
+      "ipa": "[ˌenɪɡˈmætɪk]",
+      "pos": "adj.",
+      "gloss": "神秘的"
+    },
+    {
+      "i": 49,
+      "zh": "低调",
+      "en": "modest",
+      "ipa": "[ˈmɒdɪst]",
+      "pos": "adj.",
+      "gloss": "低调的"
+    },
+    {
+      "i": 50,
+      "zh": "知识分子",
+      "en": "intellectual",
+      "ipa": "[ˌɪntəˈlektʃuəl]",
+      "pos": "n.",
+      "gloss": "知识分子"
+    },
+    {
+      "i": 51,
+      "zh": "天赋",
+      "en": "talent",
+      "ipa": "[ˈtælənt]",
+      "pos": "n.",
+      "gloss": "天赋"
+    },
+    {
+      "i": 52,
+      "zh": "赞叹",
+      "en": "acclaim",
+      "ipa": "[əˈkleɪm]",
+      "pos": "n.",
+      "gloss": "赞叹"
+    },
+    {
+      "i": 53,
+      "zh": "吹捧",
+      "en": "adulation",
+      "ipa": "[ˌædʒəˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "吹捧"
+    },
+    {
+      "i": 54,
+      "zh": "审视",
+      "en": "examine",
+      "ipa": "[ɪɡˈzæmɪn]",
+      "pos": "v.",
+      "gloss": "审视"
+    },
+    {
+      "i": 55,
+      "zh": "翻翻",
+      "en": "browse",
+      "ipa": "[braʊz]",
+      "pos": "v.",
+      "gloss": "翻阅"
+    },
+    {
+      "i": 56,
+      "zh": "深刻",
+      "en": "profound",
+      "ipa": "[prəˈfaʊnd]",
+      "pos": "adj.",
+      "gloss": "深刻的"
+    },
+    {
+      "i": 57,
+      "zh": "读错",
+      "en": "misread",
+      "ipa": "[ˌmɪsˈriːd]",
+      "pos": "v.",
+      "gloss": "读错"
+    },
+    {
+      "i": 58,
+      "zh": "索取",
+      "en": "solicit",
+      "ipa": "[səˈlɪsɪt]",
+      "pos": "v.",
+      "gloss": "索取"
+    },
+    {
+      "i": 59,
+      "zh": "认可",
+      "en": "recognition",
+      "ipa": "[ˌrekəɡˈnɪʃən]",
+      "pos": "n.",
+      "gloss": "认可"
+    },
+    {
+      "i": 60,
+      "zh": "认可",
+      "en": "approval",
+      "ipa": "[əˈpruːvl]",
+      "pos": "n.",
+      "gloss": "认可"
+    },
+    {
+      "i": 61,
+      "zh": "废话",
+      "en": "nonsense",
+      "ipa": "[ˈnɒnsens]",
+      "pos": "n.",
+      "gloss": "废话"
+    },
+    {
+      "i": 62,
+      "zh": "真知",
+      "en": "verity",
+      "ipa": "[ˈverəti]",
+      "pos": "n.",
+      "gloss": "真知"
+    },
+    {
+      "i": 63,
+      "zh": "代价",
+      "en": "expense",
+      "ipa": "[ɪkˈspens]",
+      "pos": "n.",
+      "gloss": "代价"
+    },
+    {
+      "i": 64,
+      "zh": "拖延",
+      "en": "procrastinate",
+      "ipa": "[proʊˈkræstɪneɪt]",
+      "pos": "v.",
+      "gloss": "拖延"
+    },
+    {
+      "i": 65,
+      "zh": "烦恼",
+      "en": "vexation",
+      "ipa": "[vekˈseɪʃən]",
+      "pos": "n.",
+      "gloss": "烦恼"
+    },
+    {
+      "i": 66,
+      "zh": "浅薄",
+      "en": "shallow",
+      "ipa": "[ˈʃæloʊ]",
+      "pos": "adj.",
+      "gloss": "浅薄的"
+    },
+    {
+      "i": 67,
+      "zh": "噪音",
+      "en": "noise",
+      "ipa": "[nɔɪz]",
+      "pos": "n.",
+      "gloss": "噪音"
+    },
+    {
+      "i": 68,
+      "zh": "声音",
+      "en": "sound",
+      "ipa": "[saʊnd]",
+      "pos": "n.",
+      "gloss": "声音"
+    },
+    {
+      "i": 69,
+      "zh": "教条",
+      "en": "dogma",
+      "ipa": "[ˈdɒɡmə]",
+      "pos": "n.",
+      "gloss": "教条"
+    },
+    {
+      "i": 70,
+      "zh": "麻",
+      "en": "numb",
+      "ipa": "[nʌm]",
+      "pos": "adj.",
+      "gloss": "麻木的"
+    },
+    {
+      "i": 71,
+      "zh": "低估",
+      "en": "underrate",
+      "ipa": "[ˌʌndəˈreɪt]",
+      "pos": "v.",
+      "gloss": "低估"
+    },
+    {
+      "i": 72,
+      "zh": "神坛",
+      "en": "shrine",
+      "ipa": "[ʃraɪn]",
+      "pos": "n.",
+      "gloss": "神坛"
+    },
+    {
+      "i": 73,
+      "zh": "迷茫",
+      "en": "confusion",
+      "ipa": "[kənˈfjuːʒən]",
+      "pos": "n.",
+      "gloss": "迷茫"
+    },
+    {
+      "i": 74,
+      "zh": "临终",
+      "en": "deathbed",
+      "ipa": "[ˈdeθbed]",
+      "pos": "n.",
+      "gloss": "临终"
+    },
+    {
+      "i": 75,
+      "zh": "光明",
+      "en": "radiance",
+      "ipa": "[ˈreɪdiəns]",
+      "pos": "n.",
+      "gloss": "光明"
+    },
+    {
+      "i": 76,
+      "zh": "外在",
+      "en": "outward",
+      "ipa": "[ˈaʊtwərd]",
+      "pos": "adj.",
+      "gloss": "外在的"
+    },
+    {
+      "i": 77,
+      "zh": "心智",
+      "en": "mentality",
+      "ipa": "[menˈtæləti]",
+      "pos": "n.",
+      "gloss": "心智"
+    },
+    {
+      "i": 78,
+      "zh": "定制",
+      "en": "customize",
+      "ipa": "[ˈkʌstəmaɪz]",
+      "pos": "v.",
+      "gloss": "定制"
+    },
+    {
+      "i": 79,
+      "zh": "优惠",
+      "en": "discount",
+      "ipa": "[ˈdɪskaʊnt]",
+      "pos": "n.",
+      "gloss": "优惠"
+    },
+    {
+      "i": 80,
+      "zh": "裹挟",
+      "en": "overwhelm",
+      "ipa": "[ˌoʊvərˈwelm]",
+      "pos": "v.",
+      "gloss": "裹挟"
+    },
+    {
+      "i": 81,
+      "zh": "投资",
+      "en": "investment",
+      "ipa": "[ɪnˈvestmənt]",
+      "pos": "n.",
+      "gloss": "投资"
+    },
+    {
+      "i": 82,
+      "zh": "社恐",
+      "en": "phobia",
+      "ipa": "[ˈfoʊbiə]",
+      "pos": "n.",
+      "gloss": "社恐"
+    },
+    {
+      "i": 83,
+      "zh": "解药",
+      "en": "antidote",
+      "ipa": "[ˈæntɪdoʊt]",
+      "pos": "n.",
+      "gloss": "解药"
+    },
+    {
+      "i": 84,
+      "zh": "时代",
+      "en": "era",
+      "ipa": "[ˈɪrə]",
+      "pos": "n.",
+      "gloss": "时代"
+    },
+    {
+      "i": 85,
+      "zh": "定力",
+      "en": "poise",
+      "ipa": "[pɔɪz]",
+      "pos": "n.",
+      "gloss": "定力"
+    },
+    {
+      "i": 86,
+      "zh": "碎片化",
+      "en": "fragment",
+      "ipa": "[ˈfræɡmənt]",
+      "pos": "n.",
+      "gloss": "碎片化"
+    },
+    {
+      "i": 87,
+      "zh": "撕扯",
+      "en": "rend",
+      "ipa": "[rend]",
+      "pos": "v.",
+      "gloss": "撕扯"
+    },
+    {
+      "i": 88,
+      "zh": "退缩",
+      "en": "retreat",
+      "ipa": "[rɪˈtriːt]",
+      "pos": "v.",
+      "gloss": "退缩"
+    },
+    {
+      "i": 89,
+      "zh": "欲望",
+      "en": "desire",
+      "ipa": "[dɪˈzaɪər]",
+      "pos": "n.",
+      "gloss": "欲望"
+    },
+    {
+      "i": 90,
+      "zh": "诱惑",
+      "en": "temptation",
+      "ipa": "[tempˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "诱惑"
+    },
+    {
+      "i": 91,
+      "zh": "困顿",
+      "en": "distress",
+      "ipa": "[dɪˈstres]",
+      "pos": "n.",
+      "gloss": "困顿"
+    },
+    {
+      "i": 92,
+      "zh": "地狱",
+      "en": "inferno",
+      "ipa": "[ɪnˈfɜːrnoʊ]",
+      "pos": "n.",
+      "gloss": "地狱"
+    },
+    {
+      "i": 93,
+      "zh": "修养",
+      "en": "cultivation",
+      "ipa": "[ˌkʌltɪˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "修养"
+    },
+    {
+      "i": 94,
+      "zh": "觉醒",
+      "en": "awaken",
+      "ipa": "[əˈweɪkən]",
+      "pos": "v.",
+      "gloss": "觉醒"
+    },
+    {
+      "i": 95,
+      "zh": "泥泞",
+      "en": "quagmire",
+      "ipa": "[ˈkwæɡmaɪər]",
+      "pos": "n.",
+      "gloss": "泥泞"
+    },
+    {
+      "i": 96,
+      "zh": "焦虑",
+      "en": "worry",
+      "ipa": "[ˈwʌri]",
+      "pos": "v.",
+      "gloss": "焦虑"
+    },
+    {
+      "i": 97,
+      "zh": "益",
+      "en": "benefit",
+      "ipa": "[ˈbenɪfɪt]",
+      "pos": "n.",
+      "gloss": "益处"
+    },
+    {
+      "i": 98,
+      "zh": "放心",
+      "en": "distract",
+      "ipa": "[dɪˈstrækt]",
+      "pos": "v.",
+      "gloss": "分心"
+    },
+    {
+      "i": 99,
+      "skip": true
+    },
+    {
+      "i": 100,
+      "zh": "发生",
+      "en": "occur",
+      "ipa": "[əˈkɜːr]",
+      "pos": "v.",
+      "gloss": "发生"
+    },
+    {
+      "i": 101,
+      "zh": "修行",
+      "en": "discipline",
+      "ipa": "[ˈdɪsəplɪn]",
+      "pos": "n.",
+      "gloss": "修行"
+    },
+    {
+      "i": 102,
+      "zh": "看法",
+      "en": "opinion",
+      "ipa": "[əˈpɪnjən]",
+      "pos": "n.",
+      "gloss": "看法"
+    },
+    {
+      "i": 103,
+      "zh": "喜",
+      "en": "delight",
+      "ipa": "[dɪˈlaɪt]",
+      "pos": "n.",
+      "gloss": "喜悦"
+    },
+    {
+      "i": 104,
+      "zh": "怒",
+      "en": "anger",
+      "ipa": "[ˈæŋɡər]",
+      "pos": "n.",
+      "gloss": "愤怒"
+    },
+    {
+      "i": 105,
+      "skip": true
+    },
+    {
+      "i": 106,
+      "zh": "问题",
+      "en": "concern",
+      "ipa": "[kənˈsɜːrn]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 107,
+      "zh": "在意",
+      "en": "mind",
+      "ipa": "[maɪnd]",
+      "pos": "v.",
+      "gloss": "在意"
+    },
+    {
+      "i": 108,
+      "zh": "意义",
+      "en": "meaning",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意义"
+    },
+    {
+      "i": 109,
+      "zh": "寂",
+      "en": "stillness",
+      "ipa": "[ˈstɪlnɪs]",
+      "pos": "n.",
+      "gloss": "寂静"
+    },
+    {
+      "i": 110,
+      "skip": true
+    },
+    {
+      "i": 111,
+      "zh": "赋予",
+      "en": "endow",
+      "ipa": "[ɪnˈdaʊ]",
+      "pos": "v.",
+      "gloss": "赋予"
+    },
+    {
+      "i": 112,
+      "zh": "关系",
+      "en": "relationship",
+      "ipa": "[rɪˈleɪʃənʃɪp]",
+      "pos": "n.",
+      "gloss": "关系"
+    },
+    {
+      "i": 113,
+      "zh": "重装",
+      "en": "reboot",
+      "ipa": "[riːˈbuːt]",
+      "pos": "v.",
+      "gloss": "重装"
+    },
+    {
+      "i": 114,
+      "skip": true
+    },
+    {
+      "i": 115,
+      "zh": "心魔",
+      "en": "demon",
+      "ipa": "[ˈdiːmən]",
+      "pos": "n.",
+      "gloss": "心魔"
+    },
+    {
+      "i": 116,
+      "zh": "纠结",
+      "en": "dilemma",
+      "ipa": "[daɪˈlemə]",
+      "pos": "n.",
+      "gloss": "纠结"
+    },
+    {
+      "i": 117,
+      "zh": "点破",
+      "en": "pierce",
+      "ipa": "[pɪrs]",
+      "pos": "v.",
+      "gloss": "点破"
+    },
+    {
+      "i": 118,
+      "zh": "心中",
+      "en": "within",
+      "ipa": "[wɪˈðɪn]",
+      "pos": "adv.",
+      "gloss": "心中"
+    },
+    {
+      "i": 119,
+      "zh": "破局",
+      "en": "breakthrough",
+      "ipa": "[ˈbreɪkθruː]",
+      "pos": "n.",
+      "gloss": "破局"
+    },
+    {
+      "i": 120,
+      "zh": "独家",
+      "en": "exclusive",
+      "ipa": "[ɪkˈskluːsɪv]",
+      "pos": "adj.",
+      "gloss": "独特的"
+    },
+    {
+      "i": 121,
+      "zh": "手册",
+      "en": "manual",
+      "ipa": "[ˈmænjuəl]",
+      "pos": "n.",
+      "gloss": "手册"
+    },
+    {
+      "i": 122,
+      "zh": "真正",
+      "en": "genuine",
+      "ipa": "[ˈdʒenjuɪn]",
+      "pos": "adj.",
+      "gloss": "真正的"
+    },
+    {
+      "i": 123,
+      "zh": "可惜",
+      "en": "regret",
+      "ipa": "[rɪˈɡret]",
+      "pos": "n.",
+      "gloss": "可惜"
+    },
+    {
+      "i": 124,
+      "zh": "过瘾",
+      "en": "satisfy",
+      "ipa": "[ˈsætɪsfaɪ]",
+      "pos": "v.",
+      "gloss": "过瘾"
+    },
+    {
+      "i": 125,
+      "zh": "局限",
+      "en": "limit",
+      "ipa": "[ˈlɪmɪt]",
+      "pos": "n.",
+      "gloss": "局限"
+    },
+    {
+      "i": 126,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɒdʒɪk]",
+      "pos": "n.",
+      "gloss": "逻辑"
+    },
+    {
+      "i": 127,
+      "zh": "祛魅",
+      "en": "disenchant",
+      "ipa": "[ˌdɪsɪnˈtʃænt]",
+      "pos": "v.",
+      "gloss": "祛魅"
+    },
+    {
+      "i": 128,
+      "zh": "滤镜",
+      "en": "filter",
+      "ipa": "[ˈfɪltər]",
+      "pos": "n.",
+      "gloss": "滤镜"
+    },
+    {
+      "i": 129,
+      "zh": "真谛",
+      "en": "gist",
+      "ipa": "[dʒɪst]",
+      "pos": "n.",
+      "gloss": "真谛"
+    },
+    {
+      "i": 130,
+      "zh": "空谈",
+      "en": "rhetoric",
+      "ipa": "[ˈretərɪk]",
+      "pos": "n.",
+      "gloss": "空谈"
+    },
+    {
+      "i": 131,
+      "zh": "门槛",
+      "en": "threshold",
+      "ipa": "[ˈθreʃhoʊld]",
+      "pos": "n.",
+      "gloss": "门槛"
+    },
+    {
+      "i": 132,
+      "zh": "术语",
+      "en": "jargon",
+      "ipa": "[ˈdʒɑːrɡən]",
+      "pos": "n.",
+      "gloss": "术语"
+    },
+    {
+      "i": 133,
+      "zh": "外求",
+      "en": "externality",
+      "ipa": "[ˌekstɜːrˈnæləti]",
+      "pos": "n.",
+      "gloss": "外求"
+    },
+    {
+      "i": 134,
+      "zh": "自洽",
+      "en": "coherent",
+      "ipa": "[koʊˈhɪrənt]",
+      "pos": "adj.",
+      "gloss": "自洽的"
+    },
+    {
+      "i": 135,
+      "zh": "挫折",
+      "en": "setback",
+      "ipa": "[ˈsetbæk]",
+      "pos": "n.",
+      "gloss": "挫折"
+    },
+    {
+      "i": 136,
+      "zh": "喧嚣",
+      "en": "tumult",
+      "ipa": "[ˈtjuːmʌlt]",
+      "pos": "n.",
+      "gloss": "喧嚣"
+    },
+    {
+      "i": 137,
+      "zh": "事上磨",
+      "en": "hone",
+      "ipa": "[hoʊn]",
+      "pos": "v.",
+      "gloss": "事上磨炼"
+    },
+    {
+      "i": 138,
+      "zh": "硬扛",
+      "en": "endure",
+      "ipa": "[ɪnˈdjʊr]",
+      "pos": "v.",
+      "gloss": "硬扛"
+    },
+    {
+      "i": 139,
+      "zh": "判断力",
+      "en": "judgment",
+      "ipa": "[ˈdʒʌdʒmənt]",
+      "pos": "n.",
+      "gloss": "判断力"
+    },
+    {
+      "i": 140,
+      "zh": "悟道",
+      "en": "illumination",
+      "ipa": "[ɪˌluːmɪˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "悟道"
+    },
+    {
+      "i": 141,
+      "zh": "文弱",
+      "en": "frail",
+      "ipa": "[freɪl]",
+      "pos": "adj.",
+      "gloss": "文弱的"
+    },
+    {
+      "i": 142,
+      "zh": "摩擦",
+      "en": "friction",
+      "ipa": "[ˈfrɪkʃən]",
+      "pos": "n.",
+      "gloss": "摩擦"
+    },
+    {
+      "i": 143,
+      "zh": "老虎",
+      "en": "tiger",
+      "ipa": "[ˈtaɪɡər]",
+      "pos": "n.",
+      "gloss": "老虎"
+    },
+    {
+      "i": 144,
+      "zh": "思考",
+      "en": "ponder",
+      "ipa": "[ˈpɒndər]",
+      "pos": "v.",
+      "gloss": "思考"
+    },
+    {
+      "i": 145,
+      "zh": "念头",
+      "en": "impulse",
+      "ipa": "[ˈɪmpʌls]",
+      "pos": "n.",
+      "gloss": "念头"
+    },
+    {
+      "i": 146,
+      "zh": "镇定",
+      "en": "composure",
+      "ipa": "[kəmˈpoʊʒər]",
+      "pos": "n.",
+      "gloss": "镇定"
+    },
+    {
+      "i": 147,
+      "skip": true
+    },
+    {
+      "i": 148,
+      "zh": "贪婪",
+      "en": "greed",
+      "ipa": "[ɡriːd]",
+      "pos": "n.",
+      "gloss": "贪婪"
+    },
+    {
+      "i": 149,
+      "zh": "打击",
+      "en": "strike",
+      "ipa": "[straɪk]",
+      "pos": "n.",
+      "gloss": "打击"
+    },
+    {
+      "i": 150,
+      "zh": "启示",
+      "en": "revelation",
+      "ipa": "[ˌrevəˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "启示"
+    },
+    {
+      "i": 151,
+      "zh": "匮乏",
+      "en": "scarcity",
+      "ipa": "[ˈskersəti]",
+      "pos": "n.",
+      "gloss": "匮乏"
+    },
+    {
+      "i": 152,
+      "zh": "空洞",
+      "en": "void",
+      "ipa": "[vɔɪd]",
+      "pos": "n.",
+      "gloss": "空洞"
+    },
+    {
+      "i": 153,
+      "zh": "权威",
+      "en": "authority",
+      "ipa": "[əˈθɒrəti]",
+      "pos": "n.",
+      "gloss": "权威"
+    },
+    {
+      "i": 154,
+      "zh": "宇宙",
+      "en": "cosmos",
+      "ipa": "[ˈkɒzmɒs]",
+      "pos": "n.",
+      "gloss": "宇宙"
+    },
+    {
+      "i": 155,
+      "zh": "审判",
+      "en": "verdict",
+      "ipa": "[ˈvɜːrdɪkt]",
+      "pos": "n.",
+      "gloss": "审判"
+    },
+    {
+      "i": 156,
+      "zh": "道理",
+      "en": "principle",
+      "ipa": "[ˈprɪnsəpl]",
+      "pos": "n.",
+      "gloss": "道理"
+    },
+    {
+      "i": 157,
+      "zh": "牢笼",
+      "en": "shackle",
+      "ipa": "[ˈʃækl]",
+      "pos": "n.",
+      "gloss": "牢笼"
+    },
+    {
+      "i": 158,
+      "zh": "通透",
+      "en": "insightful",
+      "ipa": "[ˈɪnsaɪtfʊl]",
+      "pos": "adj.",
+      "gloss": "通透的"
+    },
+    {
+      "i": 159,
+      "zh": "反复",
+      "en": "recur",
+      "ipa": "[rɪˈkɜːr]",
+      "pos": "v.",
+      "gloss": "反复"
+    },
+    {
+      "i": 160,
+      "zh": "精髓",
+      "en": "essence",
+      "ipa": "[ˈesəns]",
+      "pos": "n.",
+      "gloss": "精髓"
+    },
+    {
+      "i": 161,
+      "zh": "白话文",
+      "en": "vernacular",
+      "ipa": "[vərˈnækjələr]",
+      "pos": "n.",
+      "gloss": "白话文"
+    },
+    {
+      "i": 162,
+      "zh": "冲动",
+      "en": "urge",
+      "ipa": "[ɜːrdʒ]",
+      "pos": "n.",
+      "gloss": "冲动"
+    },
+    {
+      "i": 163,
+      "zh": "古典",
+      "en": "classical",
+      "ipa": "[ˈklæsɪkl]",
+      "pos": "adj.",
+      "gloss": "古典的"
+    },
+    {
+      "i": 164,
+      "zh": "体验",
+      "en": "experience",
+      "ipa": "[ɪkˈspɪriəns]",
+      "pos": "n.",
+      "gloss": "体验"
+    },
+    {
+      "i": 165,
+      "zh": "创业者",
+      "en": "entrepreneur",
+      "ipa": "[ˌɑːntrəprəˈnɜːr]",
+      "pos": "n.",
+      "gloss": "创业者"
+    },
+    {
+      "i": 166,
+      "zh": "职场",
+      "en": "workplace",
+      "ipa": "[ˈwɜːrkpleɪs]",
+      "pos": "n.",
+      "gloss": "职场"
+    },
+    {
+      "i": 167,
+      "zh": "渴望",
+      "en": "yearn",
+      "ipa": "[jɜːrn]",
+      "pos": "v.",
+      "gloss": "渴望"
+    },
+    {
+      "i": 168,
+      "zh": "特惠",
+      "en": "bargain",
+      "ipa": "[ˈbɑːrɡən]",
+      "pos": "n.",
+      "gloss": "特惠"
+    },
+    {
+      "i": 169,
+      "zh": "智慧",
+      "en": "wisdom",
+      "ipa": "[ˈwɪzdəm]",
+      "pos": "n.",
+      "gloss": "智慧"
+    },
+    {
+      "i": 170,
+      "zh": "热泪盈眶",
+      "en": "teary",
+      "ipa": "[ˈtɪri]",
+      "pos": "adj.",
+      "gloss": "热泪盈眶的"
+    },
+    {
+      "i": 171,
+      "zh": "临终",
+      "en": "mortal",
+      "ipa": "[ˈmɔːrtl]",
+      "pos": "adj.",
+      "gloss": "临终的"
+    },
+    {
+      "i": 172,
+      "skip": true
+    },
+    {
+      "i": 173,
+      "zh": "坦荡",
+      "en": "candid",
+      "ipa": "[ˈkændɪd]",
+      "pos": "adj.",
+      "gloss": "坦荡的"
+    },
+    {
+      "i": 174,
+      "zh": "路",
+      "en": "pathway",
+      "ipa": "[ˈpæθweɪ]",
+      "pos": "n.",
+      "gloss": "路"
+    },
+    {
+      "i": 175,
+      "zh": "惧",
+      "en": "fear",
+      "ipa": "[fɪr]",
+      "pos": "n.",
+      "gloss": "恐惧"
+    },
+    {
+      "i": 176,
+      "zh": "获得",
+      "en": "obtain",
+      "ipa": "[əbˈteɪn]",
+      "pos": "v.",
+      "gloss": "获得"
+    },
+    {
+      "i": 177,
+      "zh": "好书",
+      "en": "classic",
+      "ipa": "[ˈklæsɪk]",
+      "pos": "n.",
+      "gloss": "经典好书"
+    },
+    {
+      "i": 178,
+      "zh": "立减",
+      "en": "reduce",
+      "ipa": "[rɪˈduːs]",
+      "pos": "v.",
+      "gloss": "立减"
+    },
+    {
+      "i": 179,
+      "zh": "原价",
+      "en": "original",
+      "ipa": "[əˈrɪdʒənl]",
+      "pos": "n.",
+      "gloss": "原价"
+    },
+    {
+      "i": 180,
+      "skip": true
+    },
+    {
+      "i": 181,
+      "zh": "哲学",
+      "en": "philosophy",
+      "ipa": "[fɪˈlɒsəfi]",
+      "pos": "n.",
+      "gloss": "哲学"
+    }
+  ]
+}

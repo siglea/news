@@ -1,0 +1,1361 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "系统",
+      "en": "system",
+      "ipa": "[ˈsɪstəm]",
+      "pos": "n.",
+      "gloss": "系统"
+    },
+    {
+      "i": 1,
+      "zh": "岗位",
+      "en": "post",
+      "ipa": "[poʊst]",
+      "pos": "n.",
+      "gloss": "职位"
+    },
+    {
+      "i": 2,
+      "zh": "岗位",
+      "en": "role",
+      "ipa": "[roʊl]",
+      "pos": "n.",
+      "gloss": "角色；职位"
+    },
+    {
+      "i": 3,
+      "zh": "招聘",
+      "en": "recruit",
+      "ipa": "[rɪˈkruːt]",
+      "pos": "v.",
+      "gloss": "招聘"
+    },
+    {
+      "i": 4,
+      "zh": "职位",
+      "en": "vacancy",
+      "ipa": "[ˈveɪkənsi]",
+      "pos": "n.",
+      "gloss": "职位空缺"
+    },
+    {
+      "i": 5,
+      "zh": "创业",
+      "en": "venture",
+      "ipa": "[ˈventʃər]",
+      "pos": "n.",
+      "gloss": "创业"
+    },
+    {
+      "i": 6,
+      "zh": "资深",
+      "en": "senior",
+      "ipa": "[ˈsiːniər]",
+      "pos": "adj.",
+      "gloss": "资深的"
+    },
+    {
+      "i": 7,
+      "zh": "具体",
+      "en": "specific",
+      "ipa": "[spɪˈsɪfɪk]",
+      "pos": "adj.",
+      "gloss": "具体的"
+    },
+    {
+      "i": 8,
+      "zh": "收购",
+      "en": "acquire",
+      "ipa": "[əˈkwaɪər]",
+      "pos": "v.",
+      "gloss": "收购"
+    },
+    {
+      "i": 9,
+      "zh": "落地",
+      "en": "implement",
+      "ipa": "[ˈɪmplɪmənt]",
+      "pos": "v.",
+      "gloss": "实施；落地"
+    },
+    {
+      "i": 10,
+      "zh": "大规模",
+      "en": "massive",
+      "ipa": "[ˈmæsɪv]",
+      "pos": "adj.",
+      "gloss": "大规模的"
+    },
+    {
+      "i": 11,
+      "zh": "招",
+      "en": "hire",
+      "ipa": "[ˈhaɪər]",
+      "pos": "v.",
+      "gloss": "招聘"
+    },
+    {
+      "i": 12,
+      "zh": "咨询",
+      "en": "consulting",
+      "ipa": "[kənˈsʌltɪŋ]",
+      "pos": "n.",
+      "gloss": "咨询"
+    },
+    {
+      "i": 13,
+      "skip": true
+    },
+    {
+      "i": 14,
+      "zh": "业务",
+      "en": "business",
+      "ipa": "[ˈbɪznɪs]",
+      "pos": "n.",
+      "gloss": "业务"
+    },
+    {
+      "i": 15,
+      "zh": "最早",
+      "en": "origin",
+      "ipa": "[ˈɔːrɪdʒɪn]",
+      "pos": "n.",
+      "gloss": "起源"
+    },
+    {
+      "i": 16,
+      "zh": "故障",
+      "en": "outage",
+      "ipa": "[ˈaʊtɪdʒ]",
+      "pos": "n.",
+      "gloss": "故障"
+    },
+    {
+      "i": 17,
+      "zh": "保证",
+      "en": "ensure",
+      "ipa": "[ɪnˈʃʊr]",
+      "pos": "v.",
+      "gloss": "保证"
+    },
+    {
+      "i": 18,
+      "zh": "衡量",
+      "en": "evaluate",
+      "ipa": "[ɪˈvæljueɪt]",
+      "pos": "v.",
+      "gloss": "评估；衡量"
+    },
+    {
+      "i": 19,
+      "zh": "发明",
+      "en": "invent",
+      "ipa": "[ɪnˈvent]",
+      "pos": "v.",
+      "gloss": "发明"
+    },
+    {
+      "i": 20,
+      "zh": "情报",
+      "en": "intelligence",
+      "ipa": "[ɪnˈtelɪdʒəns]",
+      "pos": "n.",
+      "gloss": "情报"
+    },
+    {
+      "i": 21,
+      "skip": true
+    },
+    {
+      "i": 22,
+      "zh": "出现",
+      "en": "emerge",
+      "ipa": "[ɪˈmɜːrdʒ]",
+      "pos": "v.",
+      "gloss": "出现"
+    },
+    {
+      "i": 23,
+      "zh": "分工",
+      "en": "division",
+      "ipa": "[dɪˈvɪʒən]",
+      "pos": "n.",
+      "gloss": "分工"
+    },
+    {
+      "i": 24,
+      "zh": "班子",
+      "en": "cadre",
+      "ipa": "[ˈkædreɪ]",
+      "pos": "n.",
+      "gloss": "班子；核心团队"
+    },
+    {
+      "i": 25,
+      "zh": "收入",
+      "en": "revenue",
+      "ipa": "[ˈrevənjuː]",
+      "pos": "n.",
+      "gloss": "收入"
+    },
+    {
+      "i": 26,
+      "zh": "内部",
+      "en": "internal",
+      "ipa": "[ɪnˈtɜːrnəl]",
+      "pos": "adj.",
+      "gloss": "内部的"
+    },
+    {
+      "i": 27,
+      "zh": "毛利率",
+      "en": "margin",
+      "ipa": "[ˈmɑːrdʒɪn]",
+      "pos": "n.",
+      "gloss": "利润率"
+    },
+    {
+      "i": 28,
+      "zh": "辅助",
+      "en": "auxiliary",
+      "ipa": "[ɔːɡˈzɪliəri]",
+      "pos": "adj.",
+      "gloss": "辅助的"
+    },
+    {
+      "i": 29,
+      "zh": "顶尖",
+      "en": "elite",
+      "ipa": "[ɪˈliːt]",
+      "pos": "n.",
+      "gloss": "精英；顶尖"
+    },
+    {
+      "i": 30,
+      "zh": "背景",
+      "en": "background",
+      "ipa": "[ˈbækɡraʊnd]",
+      "pos": "n.",
+      "gloss": "背景"
+    },
+    {
+      "i": 31,
+      "zh": "门槛",
+      "en": "barrier",
+      "ipa": "[ˈbæriər]",
+      "pos": "n.",
+      "gloss": "门槛；障碍"
+    },
+    {
+      "i": 32,
+      "skip": true
+    },
+    {
+      "i": 33,
+      "zh": "特例",
+      "en": "exception",
+      "ipa": "[ɪkˈsepʃən]",
+      "pos": "n.",
+      "gloss": "特例"
+    },
+    {
+      "i": 34,
+      "zh": "企业",
+      "en": "enterprise",
+      "ipa": "[ˈentərpraɪz]",
+      "pos": "n.",
+      "gloss": "企业"
+    },
+    {
+      "i": 35,
+      "zh": "利润",
+      "en": "profit",
+      "ipa": "[ˈprɑːfɪt]",
+      "pos": "n.",
+      "gloss": "利润"
+    },
+    {
+      "i": 36,
+      "zh": "合规",
+      "en": "compliance",
+      "ipa": "[kəmˈplaɪəns]",
+      "pos": "n.",
+      "gloss": "合规"
+    },
+    {
+      "i": 37,
+      "skip": true
+    },
+    {
+      "i": 38,
+      "zh": "传统",
+      "en": "traditional",
+      "ipa": "[trəˈdɪʃənl]",
+      "pos": "adj.",
+      "gloss": "传统的"
+    },
+    {
+      "i": 39,
+      "zh": "集成",
+      "en": "integrate",
+      "ipa": "[ˈɪntɪɡreɪt]",
+      "pos": "v.",
+      "gloss": "集成"
+    },
+    {
+      "i": 40,
+      "zh": "退化",
+      "en": "degrade",
+      "ipa": "[dɪˈɡreɪd]",
+      "pos": "v.",
+      "gloss": "退化"
+    },
+    {
+      "i": 41,
+      "zh": "交付",
+      "en": "deliver",
+      "ipa": "[dɪˈlɪvər]",
+      "pos": "v.",
+      "gloss": "交付"
+    },
+    {
+      "i": 42,
+      "skip": true
+    },
+    {
+      "i": 43,
+      "zh": "现场",
+      "en": "field",
+      "ipa": "[fiːld]",
+      "pos": "n.",
+      "gloss": "现场；实地"
+    },
+    {
+      "i": 44,
+      "zh": "首席",
+      "en": "chief",
+      "ipa": "[tʃiːf]",
+      "pos": "adj.",
+      "gloss": "首席的"
+    },
+    {
+      "i": 45,
+      "zh": "现成",
+      "en": "ready",
+      "ipa": "[ˈredi]",
+      "pos": "adj.",
+      "gloss": "现成的"
+    },
+    {
+      "i": 46,
+      "zh": "市场",
+      "en": "market",
+      "ipa": "[ˈmɑːrkɪt]",
+      "pos": "n.",
+      "gloss": "市场"
+    },
+    {
+      "i": 47,
+      "zh": "销售",
+      "en": "sales",
+      "ipa": "[seɪlz]",
+      "pos": "n.",
+      "gloss": "销售"
+    },
+    {
+      "i": 48,
+      "zh": "结论",
+      "en": "conclusion",
+      "ipa": "[kənˈkluːʒn]",
+      "pos": "n.",
+      "gloss": "结论"
+    },
+    {
+      "i": 49,
+      "zh": "巨头",
+      "en": "giant",
+      "ipa": "[ˈdʒaɪənt]",
+      "pos": "n.",
+      "gloss": "巨头"
+    },
+    {
+      "i": 50,
+      "zh": "办法",
+      "en": "approach",
+      "ipa": "[əˈproʊtʃ]",
+      "pos": "n.",
+      "gloss": "方法；办法"
+    },
+    {
+      "i": 51,
+      "skip": true
+    },
+    {
+      "i": 52,
+      "zh": "工程师",
+      "en": "engineer",
+      "ipa": "[ˌendʒɪˈnɪr]",
+      "pos": "n.",
+      "gloss": "工程师"
+    },
+    {
+      "i": 53,
+      "zh": "摸透",
+      "en": "fathom",
+      "ipa": "[ˈfæðəm]",
+      "pos": "v.",
+      "gloss": "彻底理解"
+    },
+    {
+      "i": 54,
+      "zh": "直接",
+      "en": "direct",
+      "ipa": "[dəˈrekt]",
+      "pos": "adj.",
+      "gloss": "直接的"
+    },
+    {
+      "i": 55,
+      "zh": "创业者",
+      "en": "founder",
+      "ipa": "[ˈfaʊndər]",
+      "pos": "n.",
+      "gloss": "创始人"
+    },
+    {
+      "i": 56,
+      "zh": "外包",
+      "en": "outsource",
+      "ipa": "[ˈaʊtsɔːrs]",
+      "pos": "v.",
+      "gloss": "外包"
+    },
+    {
+      "i": 57,
+      "zh": "唯一",
+      "en": "unique",
+      "ipa": "[juːˈniːk]",
+      "pos": "adj.",
+      "gloss": "唯一的"
+    },
+    {
+      "i": 58,
+      "skip": true
+    },
+    {
+      "i": 59,
+      "zh": "组合",
+      "en": "combination",
+      "ipa": "[ˌkɑːmbɪˈneɪʃn]",
+      "pos": "n.",
+      "gloss": "组合"
+    },
+    {
+      "i": 60,
+      "zh": "规模",
+      "en": "scale",
+      "ipa": "[skeɪl]",
+      "pos": "n.",
+      "gloss": "规模"
+    },
+    {
+      "i": 61,
+      "zh": "绑定",
+      "en": "bind",
+      "ipa": "[baɪnd]",
+      "pos": "v.",
+      "gloss": "绑定"
+    },
+    {
+      "i": 62,
+      "skip": true
+    },
+    {
+      "i": 63,
+      "zh": "团队",
+      "en": "squad",
+      "ipa": "[skwɑːd]",
+      "pos": "n.",
+      "gloss": "团队；小组"
+    },
+    {
+      "i": 64,
+      "zh": "续费",
+      "en": "renew",
+      "ipa": "[rɪˈnuː]",
+      "pos": "v.",
+      "gloss": "续费"
+    },
+    {
+      "i": 65,
+      "zh": "事实",
+      "en": "fact",
+      "ipa": "[fækt]",
+      "pos": "n.",
+      "gloss": "事实"
+    },
+    {
+      "i": 66,
+      "zh": "硬件",
+      "en": "hardware",
+      "ipa": "[ˈhɑːrdwer]",
+      "pos": "n.",
+      "gloss": "硬件"
+    },
+    {
+      "i": 67,
+      "zh": "产品",
+      "en": "product",
+      "ipa": "[ˈprɑːdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 68,
+      "zh": "哲学",
+      "en": "philosophy",
+      "ipa": "[fɪˈlɑːsəfi]",
+      "pos": "n.",
+      "gloss": "哲学"
+    },
+    {
+      "i": 69,
+      "zh": "负责人",
+      "en": "director",
+      "ipa": "[dɪˈrektər]",
+      "pos": "n.",
+      "gloss": "负责人"
+    },
+    {
+      "i": 70,
+      "zh": "意外",
+      "en": "surprise",
+      "ipa": "[sərˈpraɪz]",
+      "pos": "n.",
+      "gloss": "意外"
+    },
+    {
+      "i": 71,
+      "zh": "稀缺",
+      "en": "scarce",
+      "ipa": "[skers]",
+      "pos": "adj.",
+      "gloss": "稀缺的"
+    },
+    {
+      "i": 72,
+      "zh": "反叛者",
+      "en": "rebel",
+      "ipa": "[ˈrebəl]",
+      "pos": "n.",
+      "gloss": "反叛者"
+    },
+    {
+      "i": 73,
+      "zh": "核心",
+      "en": "core",
+      "ipa": "[kɔːr]",
+      "pos": "n.",
+      "gloss": "核心"
+    },
+    {
+      "i": 74,
+      "skip": true
+    },
+    {
+      "i": 75,
+      "zh": "撬动",
+      "en": "leverage",
+      "ipa": "[ˈlevərɪdʒ]",
+      "pos": "v.",
+      "gloss": "撬动"
+    },
+    {
+      "i": 76,
+      "zh": "算法",
+      "en": "algorithm",
+      "ipa": "[ˈælɡərɪðəm]",
+      "pos": "n.",
+      "gloss": "算法"
+    },
+    {
+      "i": 77,
+      "skip": true
+    },
+    {
+      "i": 78,
+      "zh": "赚钱",
+      "en": "earn",
+      "ipa": "[ɜːrn]",
+      "pos": "v.",
+      "gloss": "赚钱"
+    },
+    {
+      "i": 79,
+      "zh": "交付",
+      "en": "handover",
+      "ipa": "[ˈhændoʊvər]",
+      "pos": "n.",
+      "gloss": "交接；交付"
+    },
+    {
+      "i": 80,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɑːdʒɪk]",
+      "pos": "n.",
+      "gloss": "逻辑"
+    },
+    {
+      "i": 81,
+      "zh": "结果",
+      "en": "outcome",
+      "ipa": "[ˈaʊtkʌm]",
+      "pos": "n.",
+      "gloss": "结果"
+    },
+    {
+      "i": 82,
+      "zh": "问题",
+      "en": "problem",
+      "ipa": "[ˈprɑːbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 83,
+      "zh": "质疑",
+      "en": "challenge",
+      "ipa": "[ˈtʃælɪndʒ]",
+      "pos": "v.",
+      "gloss": "质疑；挑战"
+    },
+    {
+      "i": 84,
+      "zh": "质量",
+      "en": "quality",
+      "ipa": "[ˈkwɑːləti]",
+      "pos": "n.",
+      "gloss": "质量"
+    },
+    {
+      "i": 85,
+      "zh": "专家",
+      "en": "expert",
+      "ipa": "[ˈekspɜːrt]",
+      "pos": "n.",
+      "gloss": "专家"
+    },
+    {
+      "i": 86,
+      "zh": "业务",
+      "en": "operation",
+      "ipa": "[ˌɑːpəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "业务；运营"
+    },
+    {
+      "i": 87,
+      "zh": "配合",
+      "en": "coordinate",
+      "ipa": "[koʊˈɔːrdɪneɪt]",
+      "pos": "v.",
+      "gloss": "配合；协调"
+    },
+    {
+      "i": 88,
+      "zh": "全部",
+      "en": "entire",
+      "ipa": "[ɪnˈtaɪər]",
+      "pos": "adj.",
+      "gloss": "全部的"
+    },
+    {
+      "i": 89,
+      "zh": "反应",
+      "en": "reaction",
+      "ipa": "[riˈækʃn]",
+      "pos": "n.",
+      "gloss": "反应"
+    },
+    {
+      "i": 90,
+      "zh": "方向",
+      "en": "direction",
+      "ipa": "[dɪˈrekʃn]",
+      "pos": "n.",
+      "gloss": "方向"
+    },
+    {
+      "i": 91,
+      "zh": "定义",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "定义"
+    },
+    {
+      "i": 92,
+      "zh": "本身",
+      "en": "itself",
+      "ipa": "[ɪtˈself]",
+      "pos": "pron.",
+      "gloss": "本身"
+    },
+    {
+      "i": 93,
+      "skip": true
+    },
+    {
+      "i": 94,
+      "zh": "赚钱",
+      "en": "monetize",
+      "ipa": "[ˈmɑːnɪtaɪz]",
+      "pos": "v.",
+      "gloss": "赚钱；变现"
+    },
+    {
+      "i": 95,
+      "zh": "阶段",
+      "en": "phase",
+      "ipa": "[feɪz]",
+      "pos": "n.",
+      "gloss": "阶段"
+    },
+    {
+      "i": 96,
+      "zh": "转化",
+      "en": "convert",
+      "ipa": "[kənˈvɜːrt]",
+      "pos": "v.",
+      "gloss": "转化"
+    },
+    {
+      "i": 97,
+      "zh": "离职",
+      "en": "resign",
+      "ipa": "[rɪˈzaɪn]",
+      "pos": "v.",
+      "gloss": "离职"
+    },
+    {
+      "i": 98,
+      "zh": "软件",
+      "en": "software",
+      "ipa": "[ˈsɔːftwer]",
+      "pos": "n.",
+      "gloss": "软件"
+    },
+    {
+      "i": 99,
+      "skip": true
+    },
+    {
+      "i": 100,
+      "skip": true
+    },
+    {
+      "i": 101,
+      "zh": "经验",
+      "en": "experience",
+      "ipa": "[ɪkˈspɪriəns]",
+      "pos": "n.",
+      "gloss": "经验"
+    },
+    {
+      "i": 102,
+      "zh": "工程",
+      "en": "engineering",
+      "ipa": "[ˌendʒɪˈnɪrɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 103,
+      "zh": "守护",
+      "en": "guard",
+      "ipa": "[ɡɑːrd]",
+      "pos": "v.",
+      "gloss": "守护"
+    },
+    {
+      "i": 104,
+      "zh": "测试",
+      "en": "test",
+      "ipa": "[test]",
+      "pos": "n.",
+      "gloss": "测试"
+    },
+    {
+      "i": 105,
+      "zh": "自动",
+      "en": "auto",
+      "ipa": "[ˈɔːtoʊ]",
+      "pos": "adj.",
+      "gloss": "自动的"
+    },
+    {
+      "i": 106,
+      "zh": "沉淀",
+      "en": "accumulate",
+      "ipa": "[əˈkjuːmjəleɪt]",
+      "pos": "v.",
+      "gloss": "积累；沉淀"
+    },
+    {
+      "i": 107,
+      "zh": "流程",
+      "en": "process",
+      "ipa": "[ˈprɑːses]",
+      "pos": "n.",
+      "gloss": "流程"
+    },
+    {
+      "i": 108,
+      "zh": "证明",
+      "en": "prove",
+      "ipa": "[pruːv]",
+      "pos": "v.",
+      "gloss": "证明"
+    },
+    {
+      "i": 109,
+      "zh": "对照",
+      "en": "contrast",
+      "ipa": "[kənˈtræst]",
+      "pos": "v.",
+      "gloss": "对照"
+    },
+    {
+      "i": 110,
+      "zh": "响应",
+      "en": "respond",
+      "ipa": "[rɪˈspɑːnd]",
+      "pos": "v.",
+      "gloss": "响应"
+    },
+    {
+      "i": 111,
+      "zh": "增量",
+      "en": "increment",
+      "ipa": "[ˈɪŋkrɪmənt]",
+      "pos": "n.",
+      "gloss": "增量"
+    },
+    {
+      "i": 112,
+      "zh": "收费",
+      "en": "charge",
+      "ipa": "[tʃɑːrdʒ]",
+      "pos": "v.",
+      "gloss": "收费"
+    },
+    {
+      "i": 113,
+      "zh": "工具",
+      "en": "tool",
+      "ipa": "[tuːl]",
+      "pos": "n.",
+      "gloss": "工具"
+    },
+    {
+      "i": 114,
+      "zh": "代码",
+      "en": "code",
+      "ipa": "[koʊd]",
+      "pos": "n.",
+      "gloss": "代码"
+    },
+    {
+      "i": 115,
+      "zh": "方式",
+      "en": "method",
+      "ipa": "[ˈmeθəd]",
+      "pos": "n.",
+      "gloss": "方式；方法"
+    },
+    {
+      "i": 116,
+      "zh": "主流",
+      "en": "mainstream",
+      "ipa": "[ˈmeɪnstriːm]",
+      "pos": "n.",
+      "gloss": "主流"
+    },
+    {
+      "i": 117,
+      "zh": "区别",
+      "en": "distinguish",
+      "ipa": "[dɪˈstɪŋɡwɪʃ]",
+      "pos": "v.",
+      "gloss": "区分"
+    },
+    {
+      "i": 118,
+      "zh": "不对称",
+      "en": "asymmetric",
+      "ipa": "[ˌeɪsɪˈmetrɪk]",
+      "pos": "adj.",
+      "gloss": "不对称的"
+    },
+    {
+      "i": 119,
+      "zh": "风险",
+      "en": "risk",
+      "ipa": "[rɪsk]",
+      "pos": "n.",
+      "gloss": "风险"
+    },
+    {
+      "i": 120,
+      "zh": "合同",
+      "en": "contract",
+      "ipa": "[ˈkɑːntrækt]",
+      "pos": "n.",
+      "gloss": "合同"
+    },
+    {
+      "i": 121,
+      "zh": "产出",
+      "en": "output",
+      "ipa": "[ˈaʊtpʊt]",
+      "pos": "n.",
+      "gloss": "产出"
+    },
+    {
+      "i": 122,
+      "zh": "涨幅",
+      "en": "increase",
+      "ipa": "[ˈɪnkriːs]",
+      "pos": "n.",
+      "gloss": "涨幅"
+    },
+    {
+      "i": 123,
+      "zh": "提升",
+      "en": "boost",
+      "ipa": "[buːst]",
+      "pos": "n.",
+      "gloss": "提升"
+    },
+    {
+      "i": 124,
+      "zh": "基建",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃər]",
+      "pos": "n.",
+      "gloss": "基础设施"
+    },
+    {
+      "i": 125,
+      "zh": "协作",
+      "en": "collaborate",
+      "ipa": "[kəˈlæbəreɪt]",
+      "pos": "v.",
+      "gloss": "协作"
+    },
+    {
+      "i": 126,
+      "zh": "知识",
+      "en": "knowledge",
+      "ipa": "[ˈnɑːlɪdʒ]",
+      "pos": "n.",
+      "gloss": "知识"
+    },
+    {
+      "i": 127,
+      "zh": "墙",
+      "en": "wall",
+      "ipa": "[wɔːl]",
+      "pos": "n.",
+      "gloss": "墙（比喻瓶颈）"
+    },
+    {
+      "i": 128,
+      "zh": "老系统",
+      "en": "legacy",
+      "ipa": "[ˈleɡəsi]",
+      "pos": "n.",
+      "gloss": "遗留系统"
+    },
+    {
+      "i": 129,
+      "zh": "坑",
+      "en": "pitfall",
+      "ipa": "[ˈpɪtfɔːl]",
+      "pos": "n.",
+      "gloss": "陷阱；坑"
+    },
+    {
+      "i": 130,
+      "skip": true
+    },
+    {
+      "i": 131,
+      "zh": "贯穿",
+      "en": "penetrate",
+      "ipa": "[ˈpenətreɪt]",
+      "pos": "v.",
+      "gloss": "贯穿；渗透"
+    },
+    {
+      "i": 132,
+      "zh": "行业",
+      "en": "industry",
+      "ipa": "[ˈɪndəstri]",
+      "pos": "n.",
+      "gloss": "行业"
+    },
+    {
+      "i": 133,
+      "zh": "运气",
+      "en": "luck",
+      "ipa": "[lʌk]",
+      "pos": "n.",
+      "gloss": "运气"
+    },
+    {
+      "i": 134,
+      "zh": "场景",
+      "en": "scenario",
+      "ipa": "[sɪˈnærioʊ]",
+      "pos": "n.",
+      "gloss": "场景"
+    },
+    {
+      "i": 135,
+      "zh": "复制",
+      "en": "replicate",
+      "ipa": "[ˈreplɪkeɪt]",
+      "pos": "v.",
+      "gloss": "复制"
+    },
+    {
+      "i": 136,
+      "zh": "金融",
+      "en": "finance",
+      "ipa": "[ˈfaɪnæns]",
+      "pos": "n.",
+      "gloss": "金融"
+    },
+    {
+      "i": 137,
+      "zh": "效果",
+      "en": "effect",
+      "ipa": "[ɪˈfekt]",
+      "pos": "n.",
+      "gloss": "效果"
+    },
+    {
+      "i": 138,
+      "zh": "角色",
+      "en": "character",
+      "ipa": "[ˈkærəktər]",
+      "pos": "n.",
+      "gloss": "角色"
+    },
+    {
+      "i": 139,
+      "zh": "问题",
+      "en": "issue",
+      "ipa": "[ˈɪʃuː]",
+      "pos": "n.",
+      "gloss": "问题；议题"
+    },
+    {
+      "i": 140,
+      "zh": "机密",
+      "en": "classified",
+      "ipa": "[ˈklæsɪfaɪd]",
+      "pos": "adj.",
+      "gloss": "机密的"
+    },
+    {
+      "i": 141,
+      "zh": "复杂",
+      "en": "complex",
+      "ipa": "[kəmˈpleks]",
+      "pos": "adj.",
+      "gloss": "复杂的"
+    },
+    {
+      "i": 142,
+      "zh": "观察",
+      "en": "observe",
+      "ipa": "[əbˈzɜːrv]",
+      "pos": "v.",
+      "gloss": "观察"
+    },
+    {
+      "i": 143,
+      "zh": "模式",
+      "en": "mode",
+      "ipa": "[moʊd]",
+      "pos": "n.",
+      "gloss": "模式"
+    },
+    {
+      "i": 144,
+      "zh": "成果",
+      "en": "achievement",
+      "ipa": "[əˈtʃiːvmənt]",
+      "pos": "n.",
+      "gloss": "成果"
+    },
+    {
+      "i": 145,
+      "zh": "任务",
+      "en": "mission",
+      "ipa": "[ˈmɪʃn]",
+      "pos": "n.",
+      "gloss": "任务"
+    },
+    {
+      "i": 146,
+      "zh": "营收",
+      "en": "turnover",
+      "ipa": "[ˈtɜːrnoʊvər]",
+      "pos": "n.",
+      "gloss": "营收；营业额"
+    },
+    {
+      "i": 147,
+      "zh": "大部分",
+      "en": "majority",
+      "ipa": "[məˈdʒɔːrəti]",
+      "pos": "n.",
+      "gloss": "大部分"
+    },
+    {
+      "i": 148,
+      "zh": "一点",
+      "en": "point",
+      "ipa": "[pɔɪnt]",
+      "pos": "n.",
+      "gloss": "一点；方面"
+    },
+    {
+      "i": 149,
+      "zh": "门槛",
+      "en": "threshold",
+      "ipa": "[ˈθreʃhoʊld]",
+      "pos": "n.",
+      "gloss": "门槛"
+    },
+    {
+      "i": 150,
+      "zh": "平均",
+      "en": "average",
+      "ipa": "[ˈævərɪdʒ]",
+      "pos": "adj.",
+      "gloss": "平均的"
+    },
+    {
+      "i": 151,
+      "zh": "原住民",
+      "en": "native",
+      "ipa": "[ˈneɪtɪv]",
+      "pos": "n.",
+      "gloss": "原住民"
+    },
+    {
+      "i": 152,
+      "zh": "设计",
+      "en": "design",
+      "ipa": "[dɪˈzaɪn]",
+      "pos": "v.",
+      "gloss": "设计"
+    },
+    {
+      "i": 153,
+      "zh": "平台",
+      "en": "platform",
+      "ipa": "[ˈplætfɔːrm]",
+      "pos": "n.",
+      "gloss": "平台"
+    },
+    {
+      "i": 154,
+      "zh": "流量",
+      "en": "traffic",
+      "ipa": "[ˈtræfɪk]",
+      "pos": "n.",
+      "gloss": "流量"
+    },
+    {
+      "i": 155,
+      "zh": "翻倍",
+      "en": "double",
+      "ipa": "[ˈdʌbəl]",
+      "pos": "v.",
+      "gloss": "翻倍"
+    },
+    {
+      "i": 156,
+      "skip": true
+    },
+    {
+      "i": 157,
+      "zh": "线索",
+      "en": "lead",
+      "ipa": "[liːd]",
+      "pos": "n.",
+      "gloss": "线索"
+    },
+    {
+      "i": 158,
+      "zh": "市场",
+      "en": "marketplace",
+      "ipa": "[ˈmɑːrkɪtpleɪs]",
+      "pos": "n.",
+      "gloss": "市场"
+    },
+    {
+      "i": 159,
+      "zh": "幅度",
+      "en": "magnitude",
+      "ipa": "[ˈmæɡnɪtuːd]",
+      "pos": "n.",
+      "gloss": "幅度"
+    },
+    {
+      "i": 160,
+      "zh": "差距",
+      "en": "gap",
+      "ipa": "[ɡæp]",
+      "pos": "n.",
+      "gloss": "差距"
+    },
+    {
+      "i": 161,
+      "zh": "画像",
+      "en": "profile",
+      "ipa": "[ˈproʊfaɪl]",
+      "pos": "n.",
+      "gloss": "画像；轮廓"
+    },
+    {
+      "i": 162,
+      "zh": "踏实",
+      "en": "steady",
+      "ipa": "[ˈstedi]",
+      "pos": "adj.",
+      "gloss": "踏实的；稳重的"
+    },
+    {
+      "i": 163,
+      "skip": true
+    },
+    {
+      "i": 164,
+      "zh": "同行",
+      "en": "peer",
+      "ipa": "[pɪr]",
+      "pos": "n.",
+      "gloss": "同行"
+    },
+    {
+      "i": 165,
+      "zh": "过程",
+      "en": "procedure",
+      "ipa": "[prəˈsiːdʒər]",
+      "pos": "n.",
+      "gloss": "过程；程序"
+    },
+    {
+      "i": 166,
+      "zh": "陌生",
+      "en": "novel",
+      "ipa": "[ˈnɑːvəl]",
+      "pos": "adj.",
+      "gloss": "新奇的；陌生的"
+    },
+    {
+      "i": 167,
+      "skip": true
+    },
+    {
+      "i": 168,
+      "skip": true
+    },
+    {
+      "i": 169,
+      "zh": "最顶尖",
+      "en": "foremost",
+      "ipa": "[ˈfɔːrmoʊst]",
+      "pos": "adj.",
+      "gloss": "最顶尖的"
+    },
+    {
+      "i": 170,
+      "zh": "创业",
+      "en": "entrepreneur",
+      "ipa": "[ˌɑːntrəprəˈnɜːr]",
+      "pos": "n.",
+      "gloss": "创业者"
+    },
+    {
+      "i": 171,
+      "zh": "肌肉",
+      "en": "muscle",
+      "ipa": "[ˈmʌsəl]",
+      "pos": "n.",
+      "gloss": "肌肉（比喻能力）"
+    },
+    {
+      "i": 172,
+      "zh": "反复",
+      "en": "repeated",
+      "ipa": "[rɪˈpiːtɪd]",
+      "pos": "adj.",
+      "gloss": "反复的"
+    },
+    {
+      "i": 173,
+      "zh": "国内",
+      "en": "domestic",
+      "ipa": "[dəˈmestɪk]",
+      "pos": "adj.",
+      "gloss": "国内的"
+    },
+    {
+      "i": 174,
+      "zh": "生产力",
+      "en": "productivity",
+      "ipa": "[ˌprɑːdʌkˈtɪvəti]",
+      "pos": "n.",
+      "gloss": "生产力"
+    },
+    {
+      "i": 175,
+      "zh": "验证",
+      "en": "verify",
+      "ipa": "[ˈverɪfaɪ]",
+      "pos": "v.",
+      "gloss": "验证"
+    },
+    {
+      "i": 176,
+      "zh": "扎进去",
+      "en": "immerse",
+      "ipa": "[ɪˈmɜːrs]",
+      "pos": "v.",
+      "gloss": "沉浸；深入"
+    },
+    {
+      "i": 177,
+      "skip": true
+    },
+    {
+      "i": 178,
+      "zh": "价值",
+      "en": "value",
+      "ipa": "[ˈvæljuː]",
+      "pos": "n.",
+      "gloss": "价值"
+    }
+  ]
+}
