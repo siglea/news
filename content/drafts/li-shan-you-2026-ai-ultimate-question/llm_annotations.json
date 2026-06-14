@@ -1,0 +1,3537 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "第一性原理",
+      "en": "firstprinciple",
+      "ipa": "[ˈfɜːrst ˈprɪnsəpəl]",
+      "pos": "n.",
+      "gloss": "第一性原理"
+    },
+    {
+      "i": 1,
+      "zh": "地基",
+      "en": "foundation",
+      "ipa": "[faʊnˈdeɪʃən]",
+      "pos": "n.",
+      "gloss": "基础"
+    },
+    {
+      "i": 2,
+      "zh": "陪伴",
+      "en": "accompany",
+      "ipa": "[əˈkʌmpəni]",
+      "pos": "v.",
+      "gloss": "陪伴"
+    },
+    {
+      "i": 3,
+      "skip": true
+    },
+    {
+      "i": 4,
+      "zh": "人之为人",
+      "en": "humanbeing",
+      "ipa": "[ˈhjuːmən ˈbiːɪŋ]",
+      "pos": "n.",
+      "gloss": "人之为人"
+    },
+    {
+      "i": 5,
+      "skip": true
+    },
+    {
+      "i": 6,
+      "zh": "混沌",
+      "en": "chaos",
+      "ipa": "[ˈkeɪɒs]",
+      "pos": "n.",
+      "gloss": "混沌"
+    },
+    {
+      "i": 7,
+      "zh": "一体性宇宙观",
+      "en": "monisticcosmos",
+      "ipa": "[mɒˈnɪstɪk ˈkɒzmɒs]",
+      "pos": "n.",
+      "gloss": "一体性宇宙观"
+    },
+    {
+      "i": 8,
+      "zh": "是什么",
+      "en": "what",
+      "ipa": "[wɒt]",
+      "pos": "pron.",
+      "gloss": "是什么"
+    },
+    {
+      "i": 9,
+      "zh": "第一性原理",
+      "en": "firstprinciples",
+      "ipa": "[fɜːrst ˈprɪnsəpəlz]",
+      "pos": "n.",
+      "gloss": "第一性原理"
+    },
+    {
+      "i": 10,
+      "zh": "认知",
+      "en": "cognition",
+      "ipa": "[kɒɡˈnɪʃən]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 11,
+      "zh": "本体论",
+      "en": "ontology",
+      "ipa": "[ɒnˈtɒlədʒi]",
+      "pos": "n.",
+      "gloss": "本体论"
+    },
+    {
+      "i": 12,
+      "zh": "推导",
+      "en": "deduce",
+      "ipa": "[dɪˈdjuːs]",
+      "pos": "v.",
+      "gloss": "推导"
+    },
+    {
+      "i": 13,
+      "skip": true
+    },
+    {
+      "i": 14,
+      "zh": "深度",
+      "en": "depth",
+      "ipa": "[depθ]",
+      "pos": "n.",
+      "gloss": "深度"
+    },
+    {
+      "i": 15,
+      "zh": "内容",
+      "en": "content",
+      "ipa": "[ˈkɒntent]",
+      "pos": "n.",
+      "gloss": "内容"
+    },
+    {
+      "i": 16,
+      "zh": "猜想",
+      "en": "conjecture",
+      "ipa": "[kənˈdʒektʃər]",
+      "pos": "n.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 17,
+      "zh": "认知",
+      "en": "recognize",
+      "ipa": "[ˈrekəɡnaɪz]",
+      "pos": "v.",
+      "gloss": "认知"
+    },
+    {
+      "i": 18,
+      "skip": true
+    },
+    {
+      "i": 19,
+      "zh": "同学",
+      "en": "classmate",
+      "ipa": "[ˈklɑːsmeɪt]",
+      "pos": "n.",
+      "gloss": "同学"
+    },
+    {
+      "i": 20,
+      "zh": "讲台",
+      "en": "podium",
+      "ipa": "[ˈpoʊdiəm]",
+      "pos": "n.",
+      "gloss": "讲台"
+    },
+    {
+      "i": 21,
+      "zh": "本质",
+      "en": "essence",
+      "ipa": "[ˈesəns]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 22,
+      "zh": "破晓",
+      "en": "daybreak",
+      "ipa": "[ˈdeɪbreɪk]",
+      "pos": "n.",
+      "gloss": "破晓"
+    },
+    {
+      "i": 23,
+      "zh": "时代",
+      "en": "era",
+      "ipa": "[ˈɪərə]",
+      "pos": "n.",
+      "gloss": "时代"
+    },
+    {
+      "i": 24,
+      "zh": "愈演愈烈",
+      "en": "intensify",
+      "ipa": "[ɪnˈtensɪfaɪ]",
+      "pos": "v.",
+      "gloss": "加剧"
+    },
+    {
+      "i": 25,
+      "zh": "行业",
+      "en": "industry",
+      "ipa": "[ˈɪndəstri]",
+      "pos": "n.",
+      "gloss": "行业"
+    },
+    {
+      "i": 26,
+      "zh": "汽车",
+      "en": "automobile",
+      "ipa": "[ˈɔːtəməbiːl]",
+      "pos": "n.",
+      "gloss": "汽车"
+    },
+    {
+      "i": 27,
+      "skip": true
+    },
+    {
+      "i": 28,
+      "zh": "抛弃",
+      "en": "abandon",
+      "ipa": "[əˈbændən]",
+      "pos": "v.",
+      "gloss": "抛弃"
+    },
+    {
+      "i": 29,
+      "zh": "分化",
+      "en": "differentiate",
+      "ipa": "[ˌdɪfəˈrenʃieɪt]",
+      "pos": "v.",
+      "gloss": "分化"
+    },
+    {
+      "i": 30,
+      "zh": "焦虑",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑"
+    },
+    {
+      "i": 31,
+      "zh": "投身",
+      "en": "devote2",
+      "ipa": "[dɪˈvoʊt]",
+      "pos": "v.",
+      "gloss": "投身"
+    },
+    {
+      "i": 32,
+      "zh": "浪潮",
+      "en": "tide",
+      "ipa": "[taɪd]",
+      "pos": "n.",
+      "gloss": "浪潮"
+    },
+    {
+      "i": 33,
+      "zh": "抑郁",
+      "en": "depression",
+      "ipa": "[dɪˈpreʃən]",
+      "pos": "n.",
+      "gloss": "抑郁"
+    },
+    {
+      "i": 34,
+      "zh": "追逐",
+      "en": "chase",
+      "ipa": "[tʃeɪs]",
+      "pos": "v.",
+      "gloss": "追逐"
+    },
+    {
+      "i": 35,
+      "zh": "今天",
+      "en": "today",
+      "ipa": "[təˈdeɪ]",
+      "pos": "adv.",
+      "gloss": "今天"
+    },
+    {
+      "i": 36,
+      "zh": "真正的",
+      "en": "true",
+      "ipa": "[truː]",
+      "pos": "adj.",
+      "gloss": "真正的"
+    },
+    {
+      "i": 37,
+      "zh": "捕捉",
+      "en": "capture",
+      "ipa": "[ˈkæptʃər]",
+      "pos": "v.",
+      "gloss": "捕捉"
+    },
+    {
+      "i": 38,
+      "zh": "剖析",
+      "en": "analyze",
+      "ipa": "[ˈænəlaɪz]",
+      "pos": "v.",
+      "gloss": "剖析"
+    },
+    {
+      "i": 39,
+      "zh": "未来",
+      "en": "future2",
+      "ipa": "[ˈfjuːtʃər]",
+      "pos": "n.",
+      "gloss": "未来"
+    },
+    {
+      "i": 40,
+      "zh": "不变",
+      "en": "unchanged",
+      "ipa": "[ʌnˈtʃeɪndʒd]",
+      "pos": "adj.",
+      "gloss": "不变"
+    },
+    {
+      "i": 41,
+      "zh": "战略",
+      "en": "strategy",
+      "ipa": "[ˈstrætədʒi]",
+      "pos": "n.",
+      "gloss": "战略"
+    },
+    {
+      "i": 42,
+      "zh": "变化",
+      "en": "variation",
+      "ipa": "[ˌveəriˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 43,
+      "zh": "追问",
+      "en": "inquire",
+      "ipa": "[ɪnˈkwaɪər]",
+      "pos": "v.",
+      "gloss": "追问"
+    },
+    {
+      "i": 44,
+      "zh": "尝试",
+      "en": "attempt",
+      "ipa": "[əˈtempt]",
+      "pos": "v.",
+      "gloss": "尝试"
+    },
+    {
+      "i": 45,
+      "zh": "狂奔",
+      "en": "sprint",
+      "ipa": "[sprɪnt]",
+      "pos": "v.",
+      "gloss": "狂奔"
+    },
+    {
+      "i": 46,
+      "zh": "最大的",
+      "en": "biggest",
+      "ipa": "[ˈbɪɡɪst]",
+      "pos": "adj.",
+      "gloss": "最大的"
+    },
+    {
+      "i": 47,
+      "zh": "定海神针",
+      "en": "pillar",
+      "ipa": "[ˈpɪlər]",
+      "pos": "n.",
+      "gloss": "支柱"
+    },
+    {
+      "i": 48,
+      "zh": "深意",
+      "en": "implication2",
+      "ipa": "[ˌɪmplɪˈkeɪʃən]",
+      "pos": "n.",
+      "gloss": "深意"
+    },
+    {
+      "i": 49,
+      "zh": "为什么",
+      "en": "why",
+      "ipa": "[waɪ]",
+      "pos": "adv.",
+      "gloss": "为什么"
+    },
+    {
+      "i": 50,
+      "zh": "确定性",
+      "en": "certainty",
+      "ipa": "[ˈsɜːrtənti]",
+      "pos": "n.",
+      "gloss": "确定性"
+    },
+    {
+      "i": 51,
+      "zh": "终极问题",
+      "en": "ultimatequestion",
+      "ipa": "[ˈʌltɪmət ˈkwestʃən]",
+      "pos": "n.",
+      "gloss": "终极问题"
+    },
+    {
+      "i": 52,
+      "zh": "是什么",
+      "en": "whatis",
+      "ipa": "[wɒt ɪz]",
+      "pos": "phrase",
+      "gloss": "是什么"
+    },
+    {
+      "i": 53,
+      "zh": "问题",
+      "en": "problem",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 54,
+      "zh": "禁锢",
+      "en": "confine",
+      "ipa": "[kənˈfaɪn]",
+      "pos": "v.",
+      "gloss": "禁锢"
+    },
+    {
+      "i": 55,
+      "zh": "息息相关",
+      "en": "interrelate",
+      "ipa": "[ˌɪntərɪˈleɪt]",
+      "pos": "v.",
+      "gloss": "相互关联"
+    },
+    {
+      "i": 56,
+      "zh": "创业者",
+      "en": "entrepreneur2",
+      "ipa": "[ˌɒntrəprəˈnɜːr]",
+      "pos": "n.",
+      "gloss": "创业者"
+    },
+    {
+      "i": 57,
+      "zh": "理解",
+      "en": "grasp",
+      "ipa": "[ɡræsp]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 58,
+      "zh": "是什么",
+      "en": "whatis2",
+      "ipa": "[wɒt ɪz]",
+      "pos": "phrase",
+      "gloss": "是什么"
+    },
+    {
+      "i": 59,
+      "zh": "是什么",
+      "en": "whatis3",
+      "ipa": "[wɒt ɪz]",
+      "pos": "phrase",
+      "gloss": "是什么"
+    },
+    {
+      "i": 60,
+      "zh": "追问",
+      "en": "query",
+      "ipa": "[ˈkwɪri]",
+      "pos": "v.",
+      "gloss": "追问"
+    },
+    {
+      "i": 61,
+      "zh": "追问",
+      "en": "probe",
+      "ipa": "[proʊb]",
+      "pos": "v.",
+      "gloss": "追问"
+    },
+    {
+      "i": 62,
+      "zh": "追问",
+      "en": "interrogate",
+      "ipa": "[ɪnˈterəɡeɪt]",
+      "pos": "v.",
+      "gloss": "追问"
+    },
+    {
+      "i": 63,
+      "zh": "边界",
+      "en": "boundary",
+      "ipa": "[ˈbaʊndri]",
+      "pos": "n.",
+      "gloss": "边界"
+    },
+    {
+      "i": 64,
+      "zh": "雄心",
+      "en": "ambition",
+      "ipa": "[æmˈbɪʃən]",
+      "pos": "n.",
+      "gloss": "雄心"
+    },
+    {
+      "i": 65,
+      "zh": "意识",
+      "en": "consciousness",
+      "ipa": "[ˈkɒnʃəsnəs]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 66,
+      "zh": "假设",
+      "en": "hypothesis",
+      "ipa": "[haɪˈpɒθəsɪs]",
+      "pos": "n.",
+      "gloss": "假设"
+    },
+    {
+      "i": 67,
+      "zh": "追问",
+      "en": "interrogate2",
+      "ipa": "[ɪnˈterəɡeɪt]",
+      "pos": "v.",
+      "gloss": "追问"
+    },
+    {
+      "i": 68,
+      "zh": "最大的",
+      "en": "maximum2",
+      "ipa": "[ˈmæksɪməm]",
+      "pos": "adj.",
+      "gloss": "最大的"
+    },
+    {
+      "i": 69,
+      "zh": "追问",
+      "en": "ask",
+      "ipa": "[æsk]",
+      "pos": "v.",
+      "gloss": "追问"
+    },
+    {
+      "i": 70,
+      "zh": "是什么",
+      "en": "whatis4",
+      "ipa": "[wɒt ɪz]",
+      "pos": "phrase",
+      "gloss": "是什么"
+    },
+    {
+      "i": 71,
+      "zh": "是什么",
+      "en": "whatis5",
+      "ipa": "[wɒt ɪz]",
+      "pos": "phrase",
+      "gloss": "是什么"
+    },
+    {
+      "i": 72,
+      "zh": "追问",
+      "en": "demand2",
+      "ipa": "[dɪˈmænd]",
+      "pos": "v.",
+      "gloss": "追问"
+    },
+    {
+      "i": 73,
+      "zh": "是什么",
+      "en": "whatis6",
+      "ipa": "[wɒt ɪz]",
+      "pos": "phrase",
+      "gloss": "是什么"
+    },
+    {
+      "i": 74,
+      "zh": "人类",
+      "en": "human",
+      "ipa": "[ˈhjuːmən]",
+      "pos": "n.",
+      "gloss": "人类"
+    },
+    {
+      "i": 75,
+      "zh": "创业",
+      "en": "startup",
+      "ipa": "[ˈstɑːrtʌp]",
+      "pos": "n.",
+      "gloss": "创业"
+    },
+    {
+      "i": 76,
+      "zh": "是什么",
+      "en": "whatis7",
+      "ipa": "[wɒt ɪz]",
+      "pos": "phrase",
+      "gloss": "是什么"
+    },
+    {
+      "i": 77,
+      "zh": "发散",
+      "en": "diverge",
+      "ipa": "[daɪˈvɜːrdʒ]",
+      "pos": "v.",
+      "gloss": "发散"
+    },
+    {
+      "i": 78,
+      "zh": "展望",
+      "en": "outlook",
+      "ipa": "[ˈaʊtlʊk]",
+      "pos": "n.",
+      "gloss": "展望"
+    },
+    {
+      "i": 79,
+      "zh": "创业",
+      "en": "entrepreneurship",
+      "ipa": "[ˌɒntrəprəˈnɜːrʃɪp]",
+      "pos": "n.",
+      "gloss": "创业"
+    },
+    {
+      "i": 80,
+      "zh": "认识论",
+      "en": "epistemology",
+      "ipa": "[ɪˌpɪstɪˈmɒlədʒi]",
+      "pos": "n.",
+      "gloss": "认识论"
+    },
+    {
+      "i": 81,
+      "zh": "认知",
+      "en": "recognition2",
+      "ipa": "[ˌrekəɡˈnɪʃən]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 82,
+      "zh": "本体论",
+      "en": "ontological2",
+      "ipa": "[ˌɒntəˈlɒdʒɪkəl]",
+      "pos": "adj.",
+      "gloss": "本体论的"
+    },
+    {
+      "i": 83,
+      "zh": "推导",
+      "en": "derivation",
+      "ipa": "[ˌderɪˈveɪʃən]",
+      "pos": "n.",
+      "gloss": "推导"
+    },
+    {
+      "i": 84,
+      "zh": "问题",
+      "en": "question",
+      "ipa": "[ˈkwestʃən]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 85,
+      "zh": "人之为人",
+      "en": "humanity3",
+      "ipa": "[hjuːˈmænɪti]",
+      "pos": "n.",
+      "gloss": "人之为人"
+    },
+    {
+      "i": 86,
+      "zh": "宏大",
+      "en": "grand",
+      "ipa": "[ɡrænd]",
+      "pos": "adj.",
+      "gloss": "宏大"
+    },
+    {
+      "i": 87,
+      "zh": "马斯克",
+      "en": "musk",
+      "ipa": "[mʌsk]",
+      "pos": "n.",
+      "gloss": "马斯克"
+    },
+    {
+      "i": 88,
+      "zh": "假设",
+      "en": "suppose",
+      "ipa": "[səˈpoʊz]",
+      "pos": "v.",
+      "gloss": "假设"
+    },
+    {
+      "i": 89,
+      "zh": "存在",
+      "en": "existence",
+      "ipa": "[ɪɡˈzɪstəns]",
+      "pos": "n.",
+      "gloss": "存在"
+    },
+    {
+      "i": 90,
+      "zh": "压抑",
+      "en": "oppress",
+      "ipa": "[əˈpres]",
+      "pos": "v.",
+      "gloss": "压抑"
+    },
+    {
+      "i": 91,
+      "zh": "科幻",
+      "en": "scifi",
+      "ipa": "[ˈsaɪ faɪ]",
+      "pos": "n.",
+      "gloss": "科幻"
+    },
+    {
+      "i": 92,
+      "zh": "银河系漫游指南",
+      "en": "galaxyguide",
+      "ipa": "[ˈɡæləksi ɡaɪd]",
+      "pos": "n.",
+      "gloss": "银河系漫游指南"
+    },
+    {
+      "i": 93,
+      "zh": "问题",
+      "en": "issue",
+      "ipa": "[ˈɪʃuː]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 94,
+      "zh": "问题",
+      "en": "puzzle",
+      "ipa": "[ˈpʌzəl]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 95,
+      "zh": "意义",
+      "en": "meaning",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意义"
+    },
+    {
+      "i": 96,
+      "zh": "激发",
+      "en": "stimulate",
+      "ipa": "[ˈstɪmjuleɪt]",
+      "pos": "v.",
+      "gloss": "激发"
+    },
+    {
+      "i": 97,
+      "zh": "终极",
+      "en": "ultimate",
+      "ipa": "[ˈʌltɪmət]",
+      "pos": "adj.",
+      "gloss": "终极"
+    },
+    {
+      "i": 98,
+      "zh": "真的",
+      "en": "real",
+      "ipa": "[rɪəl]",
+      "pos": "adj.",
+      "gloss": "真的"
+    },
+    {
+      "i": 99,
+      "zh": "超级电脑",
+      "en": "supercomputer",
+      "ipa": "[ˈsuːpərkəmpjuːtər]",
+      "pos": "n.",
+      "gloss": "超级电脑"
+    },
+    {
+      "i": 100,
+      "zh": "是什么",
+      "en": "whatis8",
+      "ipa": "[wɒt ɪz]",
+      "pos": "phrase",
+      "gloss": "是什么"
+    },
+    {
+      "i": 101,
+      "zh": "地球",
+      "en": "earth",
+      "ipa": "[ɜːrθ]",
+      "pos": "n.",
+      "gloss": "地球"
+    },
+    {
+      "i": 102,
+      "zh": "认知",
+      "en": "cognition2",
+      "ipa": "[kɒɡˈnɪʃən]",
+      "pos": "n.",
+      "gloss": "认知"
+    },
+    {
+      "i": 103,
+      "zh": "智能",
+      "en": "intelligence",
+      "ipa": "[ɪnˈtelɪdʒəns]",
+      "pos": "n.",
+      "gloss": "智能"
+    },
+    {
+      "i": 104,
+      "zh": "惊异",
+      "en": "astonish",
+      "ipa": "[əˈstɒnɪʃ]",
+      "pos": "v.",
+      "gloss": "惊异"
+    },
+    {
+      "i": 105,
+      "zh": "世界观",
+      "en": "worldview",
+      "ipa": "[ˈwɜːrldvjuː]",
+      "pos": "n.",
+      "gloss": "世界观"
+    },
+    {
+      "i": 106,
+      "zh": "虚拟现实",
+      "en": "virtualreality",
+      "ipa": "[ˈvɜːrtʃuəl riˈæləti]",
+      "pos": "n.",
+      "gloss": "虚拟现实"
+    },
+    {
+      "i": 107,
+      "zh": "宇宙观",
+      "en": "cosmology",
+      "ipa": "[kɒzˈmɒlədʒi]",
+      "pos": "n.",
+      "gloss": "宇宙观"
+    },
+    {
+      "i": 108,
+      "zh": "亿万富翁",
+      "en": "billionaire",
+      "ipa": "[ˌbɪljəˈneər]",
+      "pos": "n.",
+      "gloss": "亿万富翁"
+    },
+    {
+      "i": 109,
+      "zh": "物种",
+      "en": "species",
+      "ipa": "[ˈspiːʃiːz]",
+      "pos": "n.",
+      "gloss": "物种"
+    },
+    {
+      "i": 110,
+      "skip": true
+    },
+    {
+      "i": 111,
+      "zh": "保护",
+      "en": "protect",
+      "ipa": "[prəˈtekt]",
+      "pos": "v.",
+      "gloss": "保护"
+    },
+    {
+      "i": 112,
+      "zh": "外星人",
+      "en": "alien",
+      "ipa": "[ˈeɪliən]",
+      "pos": "n.",
+      "gloss": "外星人"
+    },
+    {
+      "i": 113,
+      "zh": "存在",
+      "en": "being",
+      "ipa": "[ˈbiːɪŋ]",
+      "pos": "n.",
+      "gloss": "存在"
+    },
+    {
+      "i": 114,
+      "zh": "意识",
+      "en": "awareness",
+      "ipa": "[əˈweərnəs]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 115,
+      "zh": "意识",
+      "en": "sentience",
+      "ipa": "[ˈsenʃəns]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 116,
+      "zh": "意识",
+      "en": "mentality",
+      "ipa": "[menˈtælɪti]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 117,
+      "zh": "意识",
+      "en": "mind",
+      "ipa": "[maɪnd]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 118,
+      "zh": "创立",
+      "en": "found",
+      "ipa": "[faʊnd]",
+      "pos": "v.",
+      "gloss": "创立"
+    },
+    {
+      "i": 119,
+      "zh": "使命",
+      "en": "mission",
+      "ipa": "[ˈmɪʃən]",
+      "pos": "n.",
+      "gloss": "使命"
+    },
+    {
+      "i": 120,
+      "zh": "意识",
+      "en": "psyche",
+      "ipa": "[ˈsaɪki]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 121,
+      "zh": "根基",
+      "en": "root",
+      "ipa": "[ruːt]",
+      "pos": "n.",
+      "gloss": "根基"
+    },
+    {
+      "i": 122,
+      "zh": "意识",
+      "en": "mind2",
+      "ipa": "[maɪnd]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 123,
+      "zh": "描绘",
+      "en": "depict",
+      "ipa": "[dɪˈpɪkt]",
+      "pos": "v.",
+      "gloss": "描绘"
+    },
+    {
+      "i": 124,
+      "zh": "理念",
+      "en": "idea",
+      "ipa": "[aɪˈdɪə]",
+      "pos": "n.",
+      "gloss": "理念"
+    },
+    {
+      "i": 125,
+      "zh": "最大的",
+      "en": "utmost",
+      "ipa": "[ˈʌtmoʊst]",
+      "pos": "adj.",
+      "gloss": "最大的"
+    },
+    {
+      "i": 126,
+      "zh": "建立",
+      "en": "establish",
+      "ipa": "[ɪˈstæblɪʃ]",
+      "pos": "v.",
+      "gloss": "建立"
+    },
+    {
+      "i": 127,
+      "zh": "本质",
+      "en": "quintessence",
+      "ipa": "[kwɪnˈtesəns]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 128,
+      "zh": "理念",
+      "en": "ideal",
+      "ipa": "[aɪˈdiːl]",
+      "pos": "n.",
+      "gloss": "理念"
+    },
+    {
+      "i": 129,
+      "zh": "副产品",
+      "en": "byproduct",
+      "ipa": "[ˈbaɪˌprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "副产品"
+    },
+    {
+      "i": 130,
+      "zh": "力量",
+      "en": "strength",
+      "ipa": "[streŋθ]",
+      "pos": "n.",
+      "gloss": "力量"
+    },
+    {
+      "i": 131,
+      "zh": "琐事",
+      "en": "trivia",
+      "ipa": "[ˈtrɪviə]",
+      "pos": "n.",
+      "gloss": "琐事"
+    },
+    {
+      "i": 132,
+      "zh": "问题",
+      "en": "doubt",
+      "ipa": "[daʊt]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 133,
+      "zh": "意识",
+      "en": "mindfulness",
+      "ipa": "[ˈmaɪndfəlnəs]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 134,
+      "zh": "论证",
+      "en": "demonstrate",
+      "ipa": "[ˈdemənstreɪt]",
+      "pos": "v.",
+      "gloss": "论证"
+    },
+    {
+      "i": 135,
+      "zh": "物理学",
+      "en": "physics",
+      "ipa": "[ˈfɪzɪks]",
+      "pos": "n.",
+      "gloss": "物理学"
+    },
+    {
+      "i": 136,
+      "zh": "理解",
+      "en": "comprehend",
+      "ipa": "[ˌkɒmprɪˈhend]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 137,
+      "zh": "讨论",
+      "en": "discussion",
+      "ipa": "[dɪˈskʌʃən]",
+      "pos": "n.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 138,
+      "zh": "假设",
+      "en": "assume",
+      "ipa": "[əˈsjuːm]",
+      "pos": "v.",
+      "gloss": "假设"
+    },
+    {
+      "i": 139,
+      "zh": "影响",
+      "en": "impact",
+      "ipa": "[ˈɪmpækt]",
+      "pos": "n.",
+      "gloss": "影响"
+    },
+    {
+      "i": 140,
+      "zh": "领悟",
+      "en": "enlightenment",
+      "ipa": "[ɪnˈlaɪtənmənt]",
+      "pos": "n.",
+      "gloss": "领悟"
+    },
+    {
+      "i": 141,
+      "zh": "认识论",
+      "en": "epistemic",
+      "ipa": "[ˌepɪˈstiːmɪk]",
+      "pos": "adj.",
+      "gloss": "认识论的"
+    },
+    {
+      "i": 142,
+      "zh": "本体论",
+      "en": "metaphysical",
+      "ipa": "[ˌmetəˈfɪzɪkəl]",
+      "pos": "adj.",
+      "gloss": "本体论的"
+    },
+    {
+      "i": 143,
+      "zh": "归根结底",
+      "en": "ultimately",
+      "ipa": "[ˈʌltɪmətli]",
+      "pos": "adv.",
+      "gloss": "归根结底"
+    },
+    {
+      "i": 144,
+      "zh": "真正",
+      "en": "genuine",
+      "ipa": "[ˈdʒenjuɪn]",
+      "pos": "adj.",
+      "gloss": "真正"
+    },
+    {
+      "i": 145,
+      "zh": "剥离",
+      "en": "strip",
+      "ipa": "[strɪp]",
+      "pos": "v.",
+      "gloss": "剥离"
+    },
+    {
+      "i": 146,
+      "zh": "绝对时间",
+      "en": "absolutetime",
+      "ipa": "[ˈæbsəluːt taɪm]",
+      "pos": "n.",
+      "gloss": "绝对时间"
+    },
+    {
+      "i": 147,
+      "zh": "广义相对论",
+      "en": "relativity",
+      "ipa": "[ˌreləˈtɪvɪti]",
+      "pos": "n.",
+      "gloss": "相对论"
+    },
+    {
+      "i": 148,
+      "zh": "量子力学",
+      "en": "quantum2",
+      "ipa": "[ˈkwɒntəm]",
+      "pos": "n.",
+      "gloss": "量子力学"
+    },
+    {
+      "i": 149,
+      "zh": "超弦理论",
+      "en": "superstring",
+      "ipa": "[ˈsuːpərstrɪŋ]",
+      "pos": "n.",
+      "gloss": "超弦理论"
+    },
+    {
+      "i": 150,
+      "zh": "弦理论",
+      "en": "stringtheory",
+      "ipa": "[strɪŋ ˈθɪəri]",
+      "pos": "n.",
+      "gloss": "弦理论"
+    },
+    {
+      "i": 151,
+      "zh": "真的",
+      "en": "genuine2",
+      "ipa": "[ˈdʒenjuɪn]",
+      "pos": "adj.",
+      "gloss": "真的"
+    },
+    {
+      "i": 152,
+      "zh": "理论",
+      "en": "theory",
+      "ipa": "[ˈθɪəri]",
+      "pos": "n.",
+      "gloss": "理论"
+    },
+    {
+      "i": 153,
+      "zh": "我猜想",
+      "en": "iconjecture",
+      "ipa": "[aɪ kənˈdʒektʃər]",
+      "pos": "phrase",
+      "gloss": "我猜想"
+    },
+    {
+      "i": 154,
+      "zh": "本身",
+      "en": "itself",
+      "ipa": "[ɪtˈself]",
+      "pos": "pron.",
+      "gloss": "本身"
+    },
+    {
+      "i": 155,
+      "zh": "宇宙",
+      "en": "cosmos",
+      "ipa": "[ˈkɒzmɒs]",
+      "pos": "n.",
+      "gloss": "宇宙"
+    },
+    {
+      "i": 156,
+      "zh": "宇宙",
+      "en": "universe",
+      "ipa": "[ˈjuːnɪvɜːrs]",
+      "pos": "n.",
+      "gloss": "宇宙"
+    },
+    {
+      "i": 157,
+      "zh": "多元宇宙",
+      "en": "multiverse",
+      "ipa": "[ˈmʌltiˌvɜːrs]",
+      "pos": "n.",
+      "gloss": "多元宇宙"
+    },
+    {
+      "i": 158,
+      "zh": "维度",
+      "en": "dimension",
+      "ipa": "[daɪˈmenʃən]",
+      "pos": "n.",
+      "gloss": "维度"
+    },
+    {
+      "i": 159,
+      "zh": "设想",
+      "en": "conceive",
+      "ipa": "[kənˈsiːv]",
+      "pos": "v.",
+      "gloss": "设想"
+    },
+    {
+      "i": 160,
+      "zh": "大爆炸",
+      "en": "bigbang",
+      "ipa": "[bɪɡ bæŋ]",
+      "pos": "n.",
+      "gloss": "大爆炸"
+    },
+    {
+      "i": 161,
+      "zh": "奇点",
+      "en": "singularity",
+      "ipa": "[ˌsɪŋɡjʊˈlærɪti]",
+      "pos": "n.",
+      "gloss": "奇点"
+    },
+    {
+      "i": 162,
+      "zh": "我猜想",
+      "en": "iguess",
+      "ipa": "[aɪ ɡes]",
+      "pos": "phrase",
+      "gloss": "我猜想"
+    },
+    {
+      "i": 163,
+      "zh": "维度",
+      "en": "dimensionality",
+      "ipa": "[daɪˌmenʃəˈnælɪti]",
+      "pos": "n.",
+      "gloss": "维度"
+    },
+    {
+      "i": 164,
+      "zh": "物理",
+      "en": "physical",
+      "ipa": "[ˈfɪzɪkəl]",
+      "pos": "adj.",
+      "gloss": "物理"
+    },
+    {
+      "i": 165,
+      "zh": "一维",
+      "en": "onedim",
+      "ipa": "[ˈwʌn daɪm]",
+      "pos": "adj.",
+      "gloss": "一维"
+    },
+    {
+      "i": 166,
+      "zh": "维度",
+      "en": "dimension2",
+      "ipa": "[daɪˈmenʃən]",
+      "pos": "n.",
+      "gloss": "维度"
+    },
+    {
+      "i": 167,
+      "zh": "边界",
+      "en": "limit2",
+      "ipa": "[ˈlɪmɪt]",
+      "pos": "n.",
+      "gloss": "边界"
+    },
+    {
+      "i": 168,
+      "zh": "猜想",
+      "en": "guess",
+      "ipa": "[ɡes]",
+      "pos": "v.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 169,
+      "zh": "无限维",
+      "en": "infinitedim",
+      "ipa": "[ˈɪnfɪnɪt dɪm]",
+      "pos": "n.",
+      "gloss": "无限维"
+    },
+    {
+      "i": 170,
+      "zh": "无限维",
+      "en": "infinitedimensional",
+      "ipa": "[ˈɪnfɪnɪt daɪˈmenʃənəl]",
+      "pos": "adj.",
+      "gloss": "无限维"
+    },
+    {
+      "i": 171,
+      "zh": "平行宇宙",
+      "en": "paralleluniv",
+      "ipa": "[ˈpærəlel ˈjuːnɪvɜːrs]",
+      "pos": "n.",
+      "gloss": "平行宇宙"
+    },
+    {
+      "i": 172,
+      "zh": "推演",
+      "en": "deduction2",
+      "ipa": "[dɪˈdʌkʃən]",
+      "pos": "n.",
+      "gloss": "推演"
+    },
+    {
+      "i": 173,
+      "zh": "建立",
+      "en": "build",
+      "ipa": "[bɪld]",
+      "pos": "v.",
+      "gloss": "建立"
+    },
+    {
+      "i": 174,
+      "zh": "膨胀",
+      "en": "expand",
+      "ipa": "[ɪkˈspænd]",
+      "pos": "v.",
+      "gloss": "膨胀"
+    },
+    {
+      "i": 175,
+      "zh": "终局",
+      "en": "outcome",
+      "ipa": "[ˈaʊtkʌm]",
+      "pos": "n.",
+      "gloss": "终局"
+    },
+    {
+      "i": 176,
+      "zh": "宇宙",
+      "en": "macrocosm",
+      "ipa": "[ˈmækrəʊkɒzəm]",
+      "pos": "n.",
+      "gloss": "宇宙"
+    },
+    {
+      "i": 177,
+      "zh": "宇宙学",
+      "en": "cosmology2",
+      "ipa": "[kɒzˈmɒlədʒi]",
+      "pos": "n.",
+      "gloss": "宇宙学"
+    },
+    {
+      "i": 178,
+      "zh": "循环",
+      "en": "cycle",
+      "ipa": "[ˈsaɪkəl]",
+      "pos": "n.",
+      "gloss": "循环"
+    },
+    {
+      "i": 179,
+      "zh": "本体",
+      "en": "noumenon",
+      "ipa": "[ˈnuːmɪnɒn]",
+      "pos": "n.",
+      "gloss": "本体"
+    },
+    {
+      "i": 180,
+      "zh": "哪里",
+      "en": "where",
+      "ipa": "[weər]",
+      "pos": "adv.",
+      "gloss": "哪里"
+    },
+    {
+      "i": 181,
+      "zh": "猜想",
+      "en": "speculation",
+      "ipa": "[ˌspekjʊˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 182,
+      "zh": "基础",
+      "en": "basis",
+      "ipa": "[ˈbeɪsɪs]",
+      "pos": "n.",
+      "gloss": "基础"
+    },
+    {
+      "i": 183,
+      "zh": "柏拉图",
+      "en": "plato",
+      "ipa": "[ˈpleɪtoʊ]",
+      "pos": "n.",
+      "gloss": "柏拉图"
+    },
+    {
+      "i": 184,
+      "zh": "意识",
+      "en": "cognizance",
+      "ipa": "[ˈkɒɡnɪzəns]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 185,
+      "zh": "本体",
+      "en": "thinginitself",
+      "ipa": "[θɪŋ ɪn ɪtˈself]",
+      "pos": "n.",
+      "gloss": "自在之物"
+    },
+    {
+      "i": 186,
+      "zh": "翻阅",
+      "en": "browse",
+      "ipa": "[braʊz]",
+      "pos": "v.",
+      "gloss": "翻阅"
+    },
+    {
+      "i": 187,
+      "zh": "本体",
+      "en": "substantive",
+      "ipa": "[ˈsʌbstəntɪv]",
+      "pos": "n.",
+      "gloss": "本体"
+    },
+    {
+      "i": 188,
+      "zh": "尝试性",
+      "en": "tentative",
+      "ipa": "[ˈtentətɪv]",
+      "pos": "adj.",
+      "gloss": "尝试性"
+    },
+    {
+      "i": 189,
+      "zh": "猜想",
+      "en": "speculation2",
+      "ipa": "[ˌspekjʊˈleɪʃən]",
+      "pos": "n.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 190,
+      "zh": "叠加态",
+      "en": "superposestate",
+      "ipa": "[ˌsuːpərˈpoʊz steɪt]",
+      "pos": "n.",
+      "gloss": "叠加态"
+    },
+    {
+      "i": 191,
+      "skip": true
+    },
+    {
+      "i": 192,
+      "zh": "尺度",
+      "en": "scale",
+      "ipa": "[skeɪl]",
+      "pos": "n.",
+      "gloss": "尺度"
+    },
+    {
+      "i": 193,
+      "zh": "量子",
+      "en": "quantum",
+      "ipa": "[ˈkwɒntəm]",
+      "pos": "n.",
+      "gloss": "量子"
+    },
+    {
+      "i": 194,
+      "zh": "粒子",
+      "en": "particle",
+      "ipa": "[ˈpɑːrtɪkəl]",
+      "pos": "n.",
+      "gloss": "粒子"
+    },
+    {
+      "i": 195,
+      "zh": "状态",
+      "en": "state",
+      "ipa": "[steɪt]",
+      "pos": "n.",
+      "gloss": "状态"
+    },
+    {
+      "i": 196,
+      "zh": "薛定谔",
+      "en": "schrodinger",
+      "ipa": "[ˈʃroʊdɪŋər]",
+      "pos": "n.",
+      "gloss": "薛定谔"
+    },
+    {
+      "i": 197,
+      "zh": "关键",
+      "en": "crucial",
+      "ipa": "[ˈkruːʃəl]",
+      "pos": "adj.",
+      "gloss": "关键的"
+    },
+    {
+      "i": 198,
+      "skip": true
+    },
+    {
+      "i": 199,
+      "zh": "观测",
+      "en": "observe",
+      "ipa": "[əbˈzɜːrv]",
+      "pos": "v.",
+      "gloss": "观测"
+    },
+    {
+      "i": 200,
+      "zh": "基石",
+      "en": "cornerstone",
+      "ipa": "[ˈkɔːrnərstoʊn]",
+      "pos": "n.",
+      "gloss": "基石"
+    },
+    {
+      "i": 201,
+      "zh": "主体",
+      "en": "subject",
+      "ipa": "[ˈsʌbdʒɪkt]",
+      "pos": "n.",
+      "gloss": "主体"
+    },
+    {
+      "i": 202,
+      "zh": "确定态",
+      "en": "definitestate",
+      "ipa": "[dɪˈfɪnɪt steɪt]",
+      "pos": "n.",
+      "gloss": "确定态"
+    },
+    {
+      "i": 203,
+      "zh": "格局",
+      "en": "vision",
+      "ipa": "[ˈvɪʒən]",
+      "pos": "n.",
+      "gloss": "格局"
+    },
+    {
+      "i": 204,
+      "zh": "宇宙",
+      "en": "cosmic2",
+      "ipa": "[ˈkɒzmɪk]",
+      "pos": "adj.",
+      "gloss": "宇宙"
+    },
+    {
+      "i": 205,
+      "zh": "类比",
+      "en": "analogy",
+      "ipa": "[əˈnælədʒi]",
+      "pos": "n.",
+      "gloss": "类比"
+    },
+    {
+      "i": 206,
+      "zh": "坍缩",
+      "en": "collapse",
+      "ipa": "[kəˈlæps]",
+      "pos": "v.",
+      "gloss": "坍缩"
+    },
+    {
+      "i": 207,
+      "zh": "确定态",
+      "en": "determinatestate",
+      "ipa": "[dɪˈtɜːrmɪnət steɪt]",
+      "pos": "n.",
+      "gloss": "确定态"
+    },
+    {
+      "i": 208,
+      "zh": "问题",
+      "en": "enquiry",
+      "ipa": "[ɪnˈkwaɪəri]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 209,
+      "zh": "背后还有",
+      "en": "beyond2",
+      "ipa": "[bɪˈjɒnd]",
+      "pos": "prep.",
+      "gloss": "背后还有"
+    },
+    {
+      "i": 210,
+      "zh": "本体",
+      "en": "substance2",
+      "ipa": "[ˈsʌbstəns]",
+      "pos": "n.",
+      "gloss": "本体"
+    },
+    {
+      "i": 211,
+      "zh": "本体",
+      "en": "ontological",
+      "ipa": "[ˌɒntəˈlɒdʒɪkəl]",
+      "pos": "adj.",
+      "gloss": "本体的"
+    },
+    {
+      "i": 212,
+      "zh": "空无一物",
+      "en": "void",
+      "ipa": "[vɔɪd]",
+      "pos": "n.",
+      "gloss": "虚空"
+    },
+    {
+      "i": 213,
+      "zh": "猜想",
+      "en": "speculate2",
+      "ipa": "[ˈspekjuleɪt]",
+      "pos": "v.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 214,
+      "zh": "尺度",
+      "en": "magnitude",
+      "ipa": "[ˈmæɡnɪtjuːd]",
+      "pos": "n.",
+      "gloss": "尺度"
+    },
+    {
+      "i": 215,
+      "zh": "尺度",
+      "en": "measure",
+      "ipa": "[ˈmeʒər]",
+      "pos": "n.",
+      "gloss": "尺度"
+    },
+    {
+      "i": 216,
+      "zh": "本体",
+      "en": "essence2",
+      "ipa": "[ˈesəns]",
+      "pos": "n.",
+      "gloss": "本体"
+    },
+    {
+      "i": 217,
+      "zh": "确定态",
+      "en": "determinatestate2",
+      "ipa": "[dɪˈtɜːrmɪnət steɪt]",
+      "pos": "n.",
+      "gloss": "确定态"
+    },
+    {
+      "i": 218,
+      "zh": "自指性",
+      "en": "selfref",
+      "ipa": "[ˌself ˈref]",
+      "pos": "n.",
+      "gloss": "自指性"
+    },
+    {
+      "i": 219,
+      "zh": "理解",
+      "en": "comprehend2",
+      "ipa": "[ˌkɒmprɪˈhend]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 220,
+      "zh": "最小单元",
+      "en": "smallestunit",
+      "ipa": "[ˈsmɔːlɪst ˈjuːnɪt]",
+      "pos": "n.",
+      "gloss": "最小单元"
+    },
+    {
+      "i": 221,
+      "zh": "尺度",
+      "en": "yardstick",
+      "ipa": "[ˈjɑːrdstɪk]",
+      "pos": "n.",
+      "gloss": "尺度"
+    },
+    {
+      "i": 222,
+      "zh": "普朗克",
+      "en": "planck",
+      "ipa": "[plæŋk]",
+      "pos": "n.",
+      "gloss": "普朗克"
+    },
+    {
+      "i": 223,
+      "zh": "普朗克",
+      "en": "planck2",
+      "ipa": "[plæŋk]",
+      "pos": "n.",
+      "gloss": "普朗克"
+    },
+    {
+      "i": 224,
+      "zh": "普朗克",
+      "en": "planckpoint",
+      "ipa": "[plæŋk pɔɪnt]",
+      "pos": "n.",
+      "gloss": "普朗克点"
+    },
+    {
+      "i": 225,
+      "zh": "合称",
+      "en": "collectively",
+      "ipa": "[kəˈlektɪvli]",
+      "pos": "adv.",
+      "gloss": "合称"
+    },
+    {
+      "i": 226,
+      "zh": "理性",
+      "en": "rationality",
+      "ipa": "[ˌræʃəˈnæləti]",
+      "pos": "n.",
+      "gloss": "理性"
+    },
+    {
+      "i": 227,
+      "zh": "假设",
+      "en": "postulate",
+      "ipa": "[ˈpɒstjuleɪt]",
+      "pos": "v.",
+      "gloss": "假设"
+    },
+    {
+      "i": 228,
+      "zh": "猜想",
+      "en": "speculate3",
+      "ipa": "[ˈspekjuleɪt]",
+      "pos": "v.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 229,
+      "zh": "振动",
+      "en": "vibration",
+      "ipa": "[vaɪˈbreɪʃən]",
+      "pos": "n.",
+      "gloss": "振动"
+    },
+    {
+      "i": 230,
+      "zh": "猜想",
+      "en": "divination",
+      "ipa": "[ˌdɪvɪˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 231,
+      "zh": "阐释",
+      "en": "elaborate",
+      "ipa": "[ɪˈlæbəreɪt]",
+      "pos": "v.",
+      "gloss": "阐释"
+    },
+    {
+      "i": 232,
+      "zh": "变成",
+      "en": "become2",
+      "ipa": "[bɪˈkʌm]",
+      "pos": "v.",
+      "gloss": "变成"
+    },
+    {
+      "i": 233,
+      "zh": "波粒二象性",
+      "en": "duality",
+      "ipa": "[djuːˈælɪti]",
+      "pos": "n.",
+      "gloss": "二象性"
+    },
+    {
+      "i": 234,
+      "skip": true
+    },
+    {
+      "i": 235,
+      "zh": "引力波",
+      "en": "gravwave",
+      "ipa": "[ˈɡrævɪtɪ weɪv]",
+      "pos": "n.",
+      "gloss": "引力波"
+    },
+    {
+      "i": 236,
+      "zh": "纵波",
+      "en": "longwave",
+      "ipa": "[lɒŋ weɪv]",
+      "pos": "n.",
+      "gloss": "纵波"
+    },
+    {
+      "i": 237,
+      "zh": "振幅",
+      "en": "amplitude",
+      "ipa": "[ˈæmplɪtjuːd]",
+      "pos": "n.",
+      "gloss": "振幅"
+    },
+    {
+      "i": 238,
+      "zh": "想象",
+      "en": "imagine",
+      "ipa": "[ɪˈmædʒɪn]",
+      "pos": "v.",
+      "gloss": "想象"
+    },
+    {
+      "i": 239,
+      "zh": "能观",
+      "en": "observing",
+      "ipa": "[əbˈzɜːrvɪŋ]",
+      "pos": "n.",
+      "gloss": "能观"
+    },
+    {
+      "i": 240,
+      "zh": "意识",
+      "en": "soul",
+      "ipa": "[soʊl]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 241,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɒdʒɪk]",
+      "pos": "n.",
+      "gloss": "逻辑"
+    },
+    {
+      "i": 242,
+      "zh": "颤抖",
+      "en": "tremble",
+      "ipa": "[ˈtrembəl]",
+      "pos": "v.",
+      "gloss": "颤抖"
+    },
+    {
+      "i": 243,
+      "zh": "意识",
+      "en": "soul2",
+      "ipa": "[soʊl]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 244,
+      "zh": "意识",
+      "en": "wisdom",
+      "ipa": "[ˈwɪzdəm]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 245,
+      "zh": "意识",
+      "en": "noetic",
+      "ipa": "[noʊˈetɪk]",
+      "pos": "adj.",
+      "gloss": "意识的"
+    },
+    {
+      "i": 246,
+      "zh": "意识",
+      "en": "soulful",
+      "ipa": "[ˈsoʊlfəl]",
+      "pos": "adj.",
+      "gloss": "有意识的"
+    },
+    {
+      "i": 247,
+      "zh": "涌现",
+      "en": "emerge",
+      "ipa": "[ɪˈmɜːrdʒ]",
+      "pos": "v.",
+      "gloss": "涌现"
+    },
+    {
+      "i": 248,
+      "zh": "没有",
+      "en": "nothing",
+      "ipa": "[ˈnʌθɪŋ]",
+      "pos": "pron.",
+      "gloss": "没有"
+    },
+    {
+      "i": 249,
+      "zh": "意识",
+      "en": "animation",
+      "ipa": "[ˌænɪˈmeɪʃən]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 250,
+      "zh": "同步",
+      "en": "sync",
+      "ipa": "[sɪŋk]",
+      "pos": "n.",
+      "gloss": "同步"
+    },
+    {
+      "i": 251,
+      "zh": "同步",
+      "en": "synchronize",
+      "ipa": "[ˈsɪŋkrənaɪz]",
+      "pos": "v.",
+      "gloss": "同步"
+    },
+    {
+      "i": 252,
+      "zh": "实验",
+      "en": "experiment",
+      "ipa": "[ɪkˈsperɪmənt]",
+      "pos": "n.",
+      "gloss": "实验"
+    },
+    {
+      "i": 253,
+      "zh": "生命",
+      "en": "life",
+      "ipa": "[laɪf]",
+      "pos": "n.",
+      "gloss": "生命"
+    },
+    {
+      "i": 254,
+      "zh": "生物学家",
+      "en": "biologist",
+      "ipa": "[baɪˈɒlədʒɪst]",
+      "pos": "n.",
+      "gloss": "生物学家"
+    },
+    {
+      "i": 255,
+      "zh": "潮汐",
+      "en": "tide2",
+      "ipa": "[taɪd]",
+      "pos": "n.",
+      "gloss": "潮汐"
+    },
+    {
+      "i": 256,
+      "zh": "机制",
+      "en": "mechanism",
+      "ipa": "[ˈmekənɪzəm]",
+      "pos": "n.",
+      "gloss": "机制"
+    },
+    {
+      "i": 257,
+      "zh": "猜想",
+      "en": "presume2",
+      "ipa": "[prɪˈzjuːm]",
+      "pos": "v.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 258,
+      "zh": "神经",
+      "en": "neural",
+      "ipa": "[ˈnjʊərəl]",
+      "pos": "adj.",
+      "gloss": "神经"
+    },
+    {
+      "i": 259,
+      "zh": "强大",
+      "en": "powerful",
+      "ipa": "[ˈpaʊərfəl]",
+      "pos": "adj.",
+      "gloss": "强大"
+    },
+    {
+      "i": 260,
+      "zh": "猜想",
+      "en": "fancy",
+      "ipa": "[ˈfænsi]",
+      "pos": "v.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 261,
+      "zh": "意识",
+      "en": "spirit",
+      "ipa": "[ˈspɪrɪt]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 262,
+      "zh": "路径",
+      "en": "path",
+      "ipa": "[pæθ]",
+      "pos": "n.",
+      "gloss": "路径"
+    },
+    {
+      "i": 263,
+      "zh": "意识",
+      "en": "wit",
+      "ipa": "[wɪt]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 264,
+      "zh": "频率",
+      "en": "frequency",
+      "ipa": "[ˈfriːkwənsi]",
+      "pos": "n.",
+      "gloss": "频率"
+    },
+    {
+      "i": 265,
+      "zh": "过程",
+      "en": "process",
+      "ipa": "[ˈprɒses]",
+      "pos": "n.",
+      "gloss": "过程"
+    },
+    {
+      "i": 266,
+      "zh": "争议",
+      "en": "controversy",
+      "ipa": "[ˈkɒntrəvɜːrsi]",
+      "pos": "n.",
+      "gloss": "争议"
+    },
+    {
+      "i": 267,
+      "zh": "媒介",
+      "en": "medium",
+      "ipa": "[ˈmiːdiəm]",
+      "pos": "n.",
+      "gloss": "媒介"
+    },
+    {
+      "i": 268,
+      "zh": "空间",
+      "en": "spatial",
+      "ipa": "[ˈspeɪʃəl]",
+      "pos": "adj.",
+      "gloss": "空间"
+    },
+    {
+      "i": 269,
+      "zh": "窥",
+      "en": "peek",
+      "ipa": "[piːk]",
+      "pos": "v.",
+      "gloss": "窥"
+    },
+    {
+      "i": 270,
+      "zh": "假设",
+      "en": "presume",
+      "ipa": "[prɪˈzjuːm]",
+      "pos": "v.",
+      "gloss": "假设"
+    },
+    {
+      "i": 271,
+      "zh": "回到",
+      "en": "return",
+      "ipa": "[rɪˈtɜːrn]",
+      "pos": "v.",
+      "gloss": "返回"
+    },
+    {
+      "i": 272,
+      "zh": "经常",
+      "en": "often",
+      "ipa": "[ˈɒfən]",
+      "pos": "adv.",
+      "gloss": "经常"
+    },
+    {
+      "i": 273,
+      "zh": "创业",
+      "en": "entrepreneurship2",
+      "ipa": "[ˌɒntrəprəˈnɜːrʃɪp]",
+      "pos": "n.",
+      "gloss": "创业"
+    },
+    {
+      "i": 274,
+      "zh": "工业文明",
+      "en": "industry2",
+      "ipa": "[ˈɪndəstri]",
+      "pos": "n.",
+      "gloss": "工业文明"
+    },
+    {
+      "i": 275,
+      "zh": "嗅到",
+      "en": "sense2",
+      "ipa": "[sens]",
+      "pos": "v.",
+      "gloss": "嗅到"
+    },
+    {
+      "i": 276,
+      "zh": "文明",
+      "en": "civilization",
+      "ipa": "[ˌsɪvɪlaɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "文明"
+    },
+    {
+      "i": 277,
+      "zh": "文明",
+      "en": "culture",
+      "ipa": "[ˈkʌltʃər]",
+      "pos": "n.",
+      "gloss": "文明"
+    },
+    {
+      "i": 278,
+      "zh": "文明",
+      "en": "civilization2",
+      "ipa": "[ˌsɪvɪlaɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "文明"
+    },
+    {
+      "i": 279,
+      "zh": "工业文明",
+      "en": "industrialciv",
+      "ipa": "[ɪnˈdʌstriəl ˈsɪvɪlaɪz]",
+      "pos": "n.",
+      "gloss": "工业文明"
+    },
+    {
+      "i": 280,
+      "zh": "结构",
+      "en": "architecture",
+      "ipa": "[ˈɑːrkɪtektʃər]",
+      "pos": "n.",
+      "gloss": "架构"
+    },
+    {
+      "i": 281,
+      "zh": "视角",
+      "en": "angle",
+      "ipa": "[ˈæŋɡəl]",
+      "pos": "n.",
+      "gloss": "视角"
+    },
+    {
+      "i": 282,
+      "zh": "秘密",
+      "en": "secret",
+      "ipa": "[ˈsiːkrɪt]",
+      "pos": "n.",
+      "gloss": "秘密"
+    },
+    {
+      "i": 283,
+      "zh": "知识",
+      "en": "knowledge",
+      "ipa": "[ˈnɒlɪdʒ]",
+      "pos": "n.",
+      "gloss": "知识"
+    },
+    {
+      "i": 284,
+      "zh": "力量",
+      "en": "power",
+      "ipa": "[ˈpaʊər]",
+      "pos": "n.",
+      "gloss": "力量"
+    },
+    {
+      "i": 285,
+      "zh": "关键词",
+      "en": "keyword",
+      "ipa": "[ˈkiːwɜːrd]",
+      "pos": "n.",
+      "gloss": "关键词"
+    },
+    {
+      "i": 286,
+      "zh": "升级",
+      "en": "upgrade",
+      "ipa": "[ʌpˈɡreɪd]",
+      "pos": "n.",
+      "gloss": "升级"
+    },
+    {
+      "i": 287,
+      "zh": "文明",
+      "en": "civ",
+      "ipa": "[sɪv]",
+      "pos": "n.",
+      "gloss": "文明"
+    },
+    {
+      "i": 288,
+      "zh": "跃迁",
+      "en": "transition",
+      "ipa": "[trænˈzɪʃən]",
+      "pos": "n.",
+      "gloss": "跃迁"
+    },
+    {
+      "i": 289,
+      "zh": "连续性",
+      "en": "continuity",
+      "ipa": "[ˌkɒntɪˈnjuːɪti]",
+      "pos": "n.",
+      "gloss": "连续性"
+    },
+    {
+      "i": 290,
+      "zh": "假设",
+      "en": "assumption",
+      "ipa": "[əˈsʌmpʃən]",
+      "pos": "n.",
+      "gloss": "假设"
+    },
+    {
+      "i": 291,
+      "zh": "能知三阶",
+      "en": "noesisthird",
+      "ipa": "[noʊˈiːsɪs θɜːrd]",
+      "pos": "n.",
+      "gloss": "能知三阶"
+    },
+    {
+      "i": 292,
+      "zh": "第一阶",
+      "en": "firstorder",
+      "ipa": "[fɜːrst ˈɔːrdər]",
+      "pos": "n.",
+      "gloss": "第一阶"
+    },
+    {
+      "i": 293,
+      "zh": "归纳法",
+      "en": "induction",
+      "ipa": "[ɪnˈdʌkʃən]",
+      "pos": "n.",
+      "gloss": "归纳法"
+    },
+    {
+      "i": 294,
+      "zh": "农业文明",
+      "en": "agri",
+      "ipa": "[ˈæɡrɪkʌltʃər]",
+      "pos": "n.",
+      "gloss": "农业文明"
+    },
+    {
+      "i": 295,
+      "zh": "核心",
+      "en": "core",
+      "ipa": "[kɔːr]",
+      "pos": "n.",
+      "gloss": "核心"
+    },
+    {
+      "i": 296,
+      "zh": "建模",
+      "en": "modeling",
+      "ipa": "[ˈmɒdəlɪŋ]",
+      "pos": "n.",
+      "gloss": "建模"
+    },
+    {
+      "i": 297,
+      "zh": "演绎法",
+      "en": "deduction",
+      "ipa": "[dɪˈdʌkʃən]",
+      "pos": "n.",
+      "gloss": "演绎法"
+    },
+    {
+      "i": 298,
+      "zh": "工业文明",
+      "en": "industrialcivilization",
+      "ipa": "[ɪnˈdʌstriəl ˌsɪvɪlaɪˈzeɪʃən]",
+      "pos": "n.",
+      "gloss": "工业文明"
+    },
+    {
+      "i": 299,
+      "zh": "理性",
+      "en": "reasoning",
+      "ipa": "[ˈriːzənɪŋ]",
+      "pos": "n.",
+      "gloss": "理性"
+    },
+    {
+      "i": 300,
+      "zh": "能知",
+      "en": "noesis",
+      "ipa": "[noʊˈiːsɪs]",
+      "pos": "n.",
+      "gloss": "能知"
+    },
+    {
+      "i": 301,
+      "zh": "理性",
+      "en": "sensible",
+      "ipa": "[ˈsensɪbəl]",
+      "pos": "adj.",
+      "gloss": "理性"
+    },
+    {
+      "i": 302,
+      "zh": "人类",
+      "en": "humanity",
+      "ipa": "[hjuːˈmænɪti]",
+      "pos": "n.",
+      "gloss": "人类"
+    },
+    {
+      "i": 303,
+      "zh": "跃迁",
+      "en": "leap",
+      "ipa": "[liːp]",
+      "pos": "n.",
+      "gloss": "跃迁"
+    },
+    {
+      "i": 304,
+      "zh": "铺垫",
+      "en": "foreshadow",
+      "ipa": "[fɔːrˈʃædoʊ]",
+      "pos": "v.",
+      "gloss": "铺垫"
+    },
+    {
+      "i": 305,
+      "zh": "猜想",
+      "en": "infer3",
+      "ipa": "[ɪnˈfɜːr]",
+      "pos": "v.",
+      "gloss": "猜想"
+    },
+    {
+      "i": 306,
+      "zh": "智能文明",
+      "en": "intelligentciv",
+      "ipa": "[ɪnˈtelɪdʒənt ˈsɪvɪlaɪz]",
+      "pos": "n.",
+      "gloss": "智能文明"
+    },
+    {
+      "i": 307,
+      "zh": "文明",
+      "en": "cultured",
+      "ipa": "[ˈkʌltʃərd]",
+      "pos": "adj.",
+      "gloss": "文明的"
+    },
+    {
+      "i": 308,
+      "zh": "能知一阶",
+      "en": "noesisfirst",
+      "ipa": "[noʊˈiːsɪs fɜːrst]",
+      "pos": "n.",
+      "gloss": "能知一阶"
+    },
+    {
+      "i": 309,
+      "zh": "重要",
+      "en": "important",
+      "ipa": "[ɪmˈpɔːrtənt]",
+      "pos": "adj.",
+      "gloss": "重要"
+    },
+    {
+      "i": 310,
+      "zh": "眼睛",
+      "en": "eye",
+      "ipa": "[aɪ]",
+      "pos": "n.",
+      "gloss": "眼睛"
+    },
+    {
+      "i": 311,
+      "zh": "电磁波",
+      "en": "emwave",
+      "ipa": "[iː ˈem weɪv]",
+      "pos": "n.",
+      "gloss": "电磁波"
+    },
+    {
+      "i": 312,
+      "zh": "能量",
+      "en": "energy",
+      "ipa": "[ˈenərdʒi]",
+      "pos": "n.",
+      "gloss": "能量"
+    },
+    {
+      "i": 313,
+      "zh": "主观",
+      "en": "subjective",
+      "ipa": "[səbˈdʒektɪv]",
+      "pos": "adj.",
+      "gloss": "主观"
+    },
+    {
+      "i": 314,
+      "zh": "经验",
+      "en": "experience",
+      "ipa": "[ɪkˈspɪriəns]",
+      "pos": "n.",
+      "gloss": "经验"
+    },
+    {
+      "i": 315,
+      "zh": "各大洲",
+      "en": "continent",
+      "ipa": "[ˈkɒntɪnənt]",
+      "pos": "n.",
+      "gloss": "大洲"
+    },
+    {
+      "i": 316,
+      "zh": "连续性",
+      "en": "continuousness",
+      "ipa": "[kənˈtɪnjuəsnəs]",
+      "pos": "n.",
+      "gloss": "连续性"
+    },
+    {
+      "i": 317,
+      "zh": "尤其是",
+      "en": "especially",
+      "ipa": "[ɪˈspeʃəli]",
+      "pos": "adv.",
+      "gloss": "尤其是"
+    },
+    {
+      "i": 318,
+      "zh": "今天",
+      "en": "present3",
+      "ipa": "[ˈprezənt]",
+      "pos": "n.",
+      "gloss": "今天"
+    },
+    {
+      "i": 319,
+      "zh": "连续性",
+      "en": "continuum",
+      "ipa": "[kənˈtɪnjuəm]",
+      "pos": "n.",
+      "gloss": "连续性"
+    },
+    {
+      "i": 320,
+      "zh": "结构",
+      "en": "structure2",
+      "ipa": "[ˈstrʌktʃər]",
+      "pos": "n.",
+      "gloss": "结构"
+    },
+    {
+      "i": 321,
+      "zh": "框架",
+      "en": "framework",
+      "ipa": "[ˈfreɪmwɜːrk]",
+      "pos": "n.",
+      "gloss": "框架"
+    },
+    {
+      "i": 322,
+      "zh": "感性",
+      "en": "perceptual",
+      "ipa": "[pərˈseptʃuəl]",
+      "pos": "adj.",
+      "gloss": "感性"
+    },
+    {
+      "i": 323,
+      "zh": "本质",
+      "en": "substance3",
+      "ipa": "[ˈsʌbstəns]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 324,
+      "zh": "进化",
+      "en": "evolve",
+      "ipa": "[ɪˈvɒlv]",
+      "pos": "v.",
+      "gloss": "进化"
+    },
+    {
+      "i": 325,
+      "zh": "本质",
+      "en": "nature2",
+      "ipa": "[ˈneɪtʃər]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 326,
+      "zh": "解锁",
+      "en": "unlock",
+      "ipa": "[ʌnˈlɒk]",
+      "pos": "v.",
+      "gloss": "解锁"
+    },
+    {
+      "i": 327,
+      "zh": "假设",
+      "en": "presumption",
+      "ipa": "[prɪˈzʌmpʃən]",
+      "pos": "n.",
+      "gloss": "假设"
+    },
+    {
+      "i": 328,
+      "zh": "新皮层",
+      "en": "neocortex",
+      "ipa": "[ˌniːoʊˈkɔːrteks]",
+      "pos": "n.",
+      "gloss": "新皮层"
+    },
+    {
+      "i": 329,
+      "zh": "层次",
+      "en": "level",
+      "ipa": "[ˈlevəl]",
+      "pos": "n.",
+      "gloss": "层次"
+    },
+    {
+      "i": 330,
+      "zh": "谬误",
+      "en": "fallacy",
+      "ipa": "[ˈfæləsi]",
+      "pos": "n.",
+      "gloss": "谬误"
+    },
+    {
+      "i": 331,
+      "zh": "推翻",
+      "en": "refute",
+      "ipa": "[rɪˈfjuːt]",
+      "pos": "v.",
+      "gloss": "推翻"
+    },
+    {
+      "i": 332,
+      "zh": "鸿沟",
+      "en": "chasm",
+      "ipa": "[ˈkæzəm]",
+      "pos": "n.",
+      "gloss": "鸿沟"
+    },
+    {
+      "i": 333,
+      "zh": "工业文明",
+      "en": "industrialage",
+      "ipa": "[ɪnˈdʌstriəl eɪdʒ]",
+      "pos": "n.",
+      "gloss": "工业文明"
+    },
+    {
+      "i": 334,
+      "zh": "逻辑",
+      "en": "logical",
+      "ipa": "[ˈlɒdʒɪkəl]",
+      "pos": "adj.",
+      "gloss": "逻辑的"
+    },
+    {
+      "i": 335,
+      "zh": "逻辑",
+      "en": "logic2",
+      "ipa": "[ˈlɒdʒɪk]",
+      "pos": "n.",
+      "gloss": "逻辑"
+    },
+    {
+      "i": 336,
+      "zh": "对象",
+      "en": "object2",
+      "ipa": "[ˈɒbdʒɪkt]",
+      "pos": "n.",
+      "gloss": "对象"
+    },
+    {
+      "i": 337,
+      "zh": "跃迁",
+      "en": "jump",
+      "ipa": "[dʒʌmp]",
+      "pos": "v.",
+      "gloss": "跃迁"
+    },
+    {
+      "i": 338,
+      "zh": "先验",
+      "en": "transcendental",
+      "ipa": "[ˌtrænsenˈdentəl]",
+      "pos": "adj.",
+      "gloss": "先验"
+    },
+    {
+      "i": 339,
+      "zh": "结构",
+      "en": "structural",
+      "ipa": "[ˈstrʌktʃərəl]",
+      "pos": "adj.",
+      "gloss": "结构的"
+    },
+    {
+      "i": 340,
+      "zh": "鱼缸",
+      "en": "aquarium",
+      "ipa": "[əˈkweəriəm]",
+      "pos": "n.",
+      "gloss": "鱼缸"
+    },
+    {
+      "i": 341,
+      "zh": "苏格拉底",
+      "en": "socrates",
+      "ipa": "[ˈsɒkrətiːz]",
+      "pos": "n.",
+      "gloss": "苏格拉底"
+    },
+    {
+      "i": 342,
+      "zh": "前提",
+      "en": "premise",
+      "ipa": "[ˈpremɪs]",
+      "pos": "n.",
+      "gloss": "前提"
+    },
+    {
+      "i": 343,
+      "zh": "逻辑的连续性",
+      "en": "logiccontinuity",
+      "ipa": "[ˈlɒdʒɪk ˌkɒntɪˈnjuːɪti]",
+      "pos": "n.",
+      "gloss": "逻辑的连续性"
+    },
+    {
+      "i": 344,
+      "zh": "本质",
+      "en": "core2",
+      "ipa": "[kɔːr]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 345,
+      "zh": "前额叶",
+      "en": "prefrontal",
+      "ipa": "[priˈfrʌntəl]",
+      "pos": "adj.",
+      "gloss": "前额叶"
+    },
+    {
+      "i": 346,
+      "zh": "假设",
+      "en": "deduction3",
+      "ipa": "[dɪˈdʌkʃən]",
+      "pos": "n.",
+      "gloss": "假设"
+    },
+    {
+      "i": 347,
+      "zh": "迁移",
+      "en": "transfer",
+      "ipa": "[trænsˈfɜːr]",
+      "pos": "v.",
+      "gloss": "迁移"
+    },
+    {
+      "i": 348,
+      "zh": "发现",
+      "en": "discover",
+      "ipa": "[dɪˈskʌvər]",
+      "pos": "v.",
+      "gloss": "发现"
+    },
+    {
+      "i": 349,
+      "zh": "文明",
+      "en": "society2",
+      "ipa": "[səˈsaɪəti]",
+      "pos": "n.",
+      "gloss": "文明"
+    },
+    {
+      "i": 350,
+      "zh": "文明",
+      "en": "civic",
+      "ipa": "[ˈsɪvɪk]",
+      "pos": "adj.",
+      "gloss": "文明的"
+    },
+    {
+      "i": 351,
+      "zh": "文明",
+      "en": "civil",
+      "ipa": "[ˈsɪvəl]",
+      "pos": "adj.",
+      "gloss": "文明的"
+    },
+    {
+      "i": 352,
+      "zh": "跃迁",
+      "en": "jump2",
+      "ipa": "[dʒʌmp]",
+      "pos": "v.",
+      "gloss": "跃迁"
+    },
+    {
+      "i": 353,
+      "zh": "我是谁",
+      "en": "whoami",
+      "ipa": "[huː æm aɪ]",
+      "pos": "phrase",
+      "gloss": "我是谁"
+    },
+    {
+      "i": 354,
+      "zh": "副产品",
+      "en": "derivative",
+      "ipa": "[dɪˈrɪvətɪv]",
+      "pos": "n.",
+      "gloss": "副产品"
+    },
+    {
+      "i": 355,
+      "zh": "我是谁",
+      "en": "selfidentity",
+      "ipa": "[ˌself aɪˈdentɪti]",
+      "pos": "n.",
+      "gloss": "我是谁"
+    },
+    {
+      "i": 356,
+      "zh": "副产品",
+      "en": "derivative2",
+      "ipa": "[dɪˈrɪvətɪv]",
+      "pos": "n.",
+      "gloss": "副产品"
+    },
+    {
+      "i": 357,
+      "zh": "我是谁",
+      "en": "selfidentity2",
+      "ipa": "[ˌself aɪˈdentɪti]",
+      "pos": "n.",
+      "gloss": "我是谁"
+    },
+    {
+      "i": 358,
+      "zh": "能知",
+      "en": "gnosis",
+      "ipa": "[ˈnoʊsɪs]",
+      "pos": "n.",
+      "gloss": "能知"
+    },
+    {
+      "i": 359,
+      "zh": "心理测试",
+      "en": "psychology",
+      "ipa": "[saɪˈkɒlədʒi]",
+      "pos": "n.",
+      "gloss": "心理学"
+    },
+    {
+      "i": 360,
+      "zh": "我是谁",
+      "en": "myself",
+      "ipa": "[maɪˈself]",
+      "pos": "n.",
+      "gloss": "我是谁"
+    },
+    {
+      "i": 361,
+      "zh": "感官",
+      "en": "sensory",
+      "ipa": "[ˈsensəri]",
+      "pos": "adj.",
+      "gloss": "感官"
+    },
+    {
+      "i": 362,
+      "zh": "主体",
+      "en": "agent",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "主体"
+    },
+    {
+      "i": 363,
+      "zh": "主体",
+      "en": "agent2",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "主体"
+    },
+    {
+      "i": 364,
+      "zh": "我感故我在",
+      "en": "isense",
+      "ipa": "[aɪ sens]",
+      "pos": "phrase",
+      "gloss": "我感故我在"
+    },
+    {
+      "i": 365,
+      "zh": "文明",
+      "en": "civility",
+      "ipa": "[sɪˈvɪlɪti]",
+      "pos": "n.",
+      "gloss": "文明"
+    },
+    {
+      "i": 366,
+      "zh": "笛卡尔",
+      "en": "descartes",
+      "ipa": "[deɪˈkɑːrt]",
+      "pos": "n.",
+      "gloss": "笛卡尔"
+    },
+    {
+      "i": 367,
+      "zh": "思想实验",
+      "en": "thoughtexperiment",
+      "ipa": "[θɔːt ɪkˈsperɪmənt]",
+      "pos": "n.",
+      "gloss": "思想实验"
+    },
+    {
+      "i": 368,
+      "zh": "能思",
+      "en": "thinking",
+      "ipa": "[ˈθɪŋkɪŋ]",
+      "pos": "n.",
+      "gloss": "能思"
+    },
+    {
+      "i": 369,
+      "zh": "思想",
+      "en": "thought",
+      "ipa": "[θɔːt]",
+      "pos": "n.",
+      "gloss": "思想"
+    },
+    {
+      "i": 370,
+      "zh": "千古",
+      "en": "eternal",
+      "ipa": "[ɪˈtɜːrnəl]",
+      "pos": "adj.",
+      "gloss": "千古的"
+    },
+    {
+      "i": 371,
+      "zh": "我是能思主体",
+      "en": "ithinker",
+      "ipa": "[aɪ ˈθɪŋkər]",
+      "pos": "phrase",
+      "gloss": "我是能思主体"
+    },
+    {
+      "i": 372,
+      "zh": "结论",
+      "en": "conclusion2",
+      "ipa": "[kənˈkluːʒən]",
+      "pos": "n.",
+      "gloss": "结论"
+    },
+    {
+      "i": 373,
+      "zh": "我知道我在思考",
+      "en": "iknowithink",
+      "ipa": "[aɪ noʊ aɪ θɪŋk]",
+      "pos": "phrase",
+      "gloss": "我知道我在思考"
+    },
+    {
+      "i": 374,
+      "zh": "状态",
+      "en": "condition2",
+      "ipa": "[kənˈdɪʃən]",
+      "pos": "n.",
+      "gloss": "状态"
+    },
+    {
+      "i": 375,
+      "zh": "境界",
+      "en": "realm",
+      "ipa": "[relm]",
+      "pos": "n.",
+      "gloss": "境界"
+    },
+    {
+      "i": 376,
+      "zh": "能知层",
+      "en": "noesislevel",
+      "ipa": "[noʊˈiːsɪs ˈlevəl]",
+      "pos": "n.",
+      "gloss": "能知层"
+    },
+    {
+      "i": 377,
+      "zh": "所知",
+      "en": "known",
+      "ipa": "[noʊn]",
+      "pos": "n.",
+      "gloss": "所知"
+    },
+    {
+      "i": 378,
+      "zh": "理性",
+      "en": "ration",
+      "ipa": "[ˈræʃiɒ]",
+      "pos": "n.",
+      "gloss": "理性"
+    },
+    {
+      "i": 379,
+      "zh": "潜能",
+      "en": "potential2",
+      "ipa": "[pəˈtenʃəl]",
+      "pos": "n.",
+      "gloss": "潜能"
+    },
+    {
+      "i": 380,
+      "zh": "思考",
+      "en": "think",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "思考"
+    },
+    {
+      "i": 381,
+      "zh": "第三次",
+      "en": "thirdtime",
+      "ipa": "[θɜːrd taɪm]",
+      "pos": "n.",
+      "gloss": "第三次"
+    },
+    {
+      "i": 382,
+      "zh": "人类",
+      "en": "mankind",
+      "ipa": "[mænˈkaɪnd]",
+      "pos": "n.",
+      "gloss": "人类"
+    },
+    {
+      "i": 383,
+      "zh": "理念",
+      "en": "notion",
+      "ipa": "[ˈnoʊʃən]",
+      "pos": "n.",
+      "gloss": "理念"
+    },
+    {
+      "i": 384,
+      "zh": "隐喻",
+      "en": "metaphor",
+      "ipa": "[ˈmetəfɔːr]",
+      "pos": "n.",
+      "gloss": "隐喻"
+    },
+    {
+      "i": 385,
+      "zh": "理念世界",
+      "en": "idealworld",
+      "ipa": "[aɪˈdiːl wɜːrld]",
+      "pos": "n.",
+      "gloss": "理念世界"
+    },
+    {
+      "i": 386,
+      "zh": "形容词",
+      "en": "adjective",
+      "ipa": "[ˈædʒɪktɪv]",
+      "pos": "n.",
+      "gloss": "形容词"
+    },
+    {
+      "i": 387,
+      "zh": "事物",
+      "en": "thing",
+      "ipa": "[θɪŋ]",
+      "pos": "n.",
+      "gloss": "事物"
+    },
+    {
+      "i": 388,
+      "zh": "恢复",
+      "en": "recover",
+      "ipa": "[rɪˈkʌvər]",
+      "pos": "v.",
+      "gloss": "恢复"
+    },
+    {
+      "i": 389,
+      "zh": "理念",
+      "en": "notion2",
+      "ipa": "[ˈnoʊʃən]",
+      "pos": "n.",
+      "gloss": "理念"
+    },
+    {
+      "i": 390,
+      "zh": "意义",
+      "en": "significance",
+      "ipa": "[sɪɡˈnɪfɪkəns]",
+      "pos": "n.",
+      "gloss": "意义"
+    },
+    {
+      "i": 391,
+      "zh": "结构",
+      "en": "struct",
+      "ipa": "[strʌkt]",
+      "pos": "n.",
+      "gloss": "结构"
+    },
+    {
+      "i": 392,
+      "zh": "新人类",
+      "en": "newhuman",
+      "ipa": "[njuː ˈhjuːmən]",
+      "pos": "n.",
+      "gloss": "新人类"
+    },
+    {
+      "i": 393,
+      "zh": "人类",
+      "en": "humankind",
+      "ipa": "[hjuːmənˈkaɪnd]",
+      "pos": "n.",
+      "gloss": "人类"
+    },
+    {
+      "i": 394,
+      "zh": "成为",
+      "en": "become",
+      "ipa": "[bɪˈkʌm]",
+      "pos": "v.",
+      "gloss": "成为"
+    },
+    {
+      "i": 395,
+      "zh": "宇宙",
+      "en": "macrocosm2",
+      "ipa": "[ˈmækrəʊkɒzəm]",
+      "pos": "n.",
+      "gloss": "宇宙"
+    },
+    {
+      "i": 396,
+      "zh": "人类",
+      "en": "humanity2",
+      "ipa": "[hjuːˈmænɪti]",
+      "pos": "n.",
+      "gloss": "人类"
+    },
+    {
+      "i": 397,
+      "zh": "二元对立",
+      "en": "dichotomy",
+      "ipa": "[daɪˈkɒtəmi]",
+      "pos": "n.",
+      "gloss": "二元对立"
+    },
+    {
+      "i": 398,
+      "zh": "本体",
+      "en": "fundamental",
+      "ipa": "[ˌfʌndəˈmentəl]",
+      "pos": "adj.",
+      "gloss": "本体的"
+    },
+    {
+      "i": 399,
+      "zh": "人类",
+      "en": "anthropic",
+      "ipa": "[ænˈθrɒpɪk]",
+      "pos": "adj.",
+      "gloss": "人类的"
+    },
+    {
+      "i": 400,
+      "zh": "哲学转向",
+      "en": "philosophical2",
+      "ipa": "[ˌfɪləˈsɒfɪkəl]",
+      "pos": "adj.",
+      "gloss": "哲学的"
+    },
+    {
+      "i": 401,
+      "zh": "本体",
+      "en": "ontos",
+      "ipa": "[ˈɒntɒs]",
+      "pos": "n.",
+      "gloss": "本体"
+    },
+    {
+      "i": 402,
+      "zh": "宇宙",
+      "en": "cosmic3",
+      "ipa": "[ˈkɒzmɪk]",
+      "pos": "adj.",
+      "gloss": "宇宙的"
+    },
+    {
+      "i": 403,
+      "zh": "那个词叫什么",
+      "en": "whatword",
+      "ipa": "[wɒt wɜːrd]",
+      "pos": "phrase",
+      "gloss": "那个词叫什么"
+    },
+    {
+      "i": 404,
+      "skip": true
+    },
+    {
+      "i": 405,
+      "zh": "宇宙",
+      "en": "space2",
+      "ipa": "[speɪs]",
+      "pos": "n.",
+      "gloss": "宇宙"
+    },
+    {
+      "i": 406,
+      "zh": "著名",
+      "en": "famous",
+      "ipa": "[ˈfeɪməs]",
+      "pos": "adj.",
+      "gloss": "著名"
+    },
+    {
+      "i": 407,
+      "zh": "今天",
+      "en": "nowadays",
+      "ipa": "[ˈnaʊədeɪz]",
+      "pos": "adv.",
+      "gloss": "今天"
+    },
+    {
+      "i": 408,
+      "skip": true
+    },
+    {
+      "i": 409,
+      "zh": "文明",
+      "en": "cultural",
+      "ipa": "[ˈkʌltʃərəl]",
+      "pos": "adj.",
+      "gloss": "文化的"
+    },
+    {
+      "i": 410,
+      "skip": true
+    },
+    {
+      "i": 411,
+      "zh": "尺度",
+      "en": "measuring",
+      "ipa": "[ˈmeʒərɪŋ]",
+      "pos": "n.",
+      "gloss": "尺度"
+    },
+    {
+      "i": 412,
+      "zh": "一体性",
+      "en": "unity",
+      "ipa": "[ˈjuːnɪti]",
+      "pos": "n.",
+      "gloss": "一体性"
+    },
+    {
+      "i": 413,
+      "zh": "分形学",
+      "en": "fractal",
+      "ipa": "[ˈfræktəl]",
+      "pos": "n.",
+      "gloss": "分形"
+    },
+    {
+      "i": 414,
+      "zh": "本体",
+      "en": "entity2",
+      "ipa": "[ˈentɪti]",
+      "pos": "n.",
+      "gloss": "本体"
+    },
+    {
+      "i": 415,
+      "zh": "全息",
+      "en": "holographic",
+      "ipa": "[ˌhɒləˈɡræfɪk]",
+      "pos": "adj.",
+      "gloss": "全息"
+    },
+    {
+      "i": 416,
+      "zh": "框架",
+      "en": "skeleton",
+      "ipa": "[ˈskelɪtən]",
+      "pos": "n.",
+      "gloss": "框架"
+    },
+    {
+      "i": 417,
+      "zh": "一体性宇宙观",
+      "en": "monocosm",
+      "ipa": "[ˈmɒnəʊkɒzəm]",
+      "pos": "n.",
+      "gloss": "一体性宇宙观"
+    },
+    {
+      "i": 418,
+      "zh": "生命",
+      "en": "living",
+      "ipa": "[ˈlɪvɪŋ]",
+      "pos": "n.",
+      "gloss": "生命"
+    },
+    {
+      "i": 419,
+      "zh": "节点",
+      "en": "node",
+      "ipa": "[noʊd]",
+      "pos": "n.",
+      "gloss": "节点"
+    },
+    {
+      "i": 420,
+      "zh": "弥足珍贵",
+      "en": "precious",
+      "ipa": "[ˈpreʃəs]",
+      "pos": "adj.",
+      "gloss": "珍贵的"
+    },
+    {
+      "i": 421,
+      "skip": true
+    },
+    {
+      "i": 422,
+      "zh": "剧本",
+      "en": "script",
+      "ipa": "[skrɪpt]",
+      "pos": "n.",
+      "gloss": "剧本"
+    },
+    {
+      "i": 423,
+      "zh": "自由意志",
+      "en": "freewill",
+      "ipa": "[friː wɪl]",
+      "pos": "n.",
+      "gloss": "自由意志"
+    },
+    {
+      "i": 424,
+      "zh": "剧本",
+      "en": "screenplay",
+      "ipa": "[ˈskriːnpleɪ]",
+      "pos": "n.",
+      "gloss": "剧本"
+    },
+    {
+      "i": 425,
+      "zh": "选择",
+      "en": "selection",
+      "ipa": "[sɪˈlekʃən]",
+      "pos": "n.",
+      "gloss": "选择"
+    },
+    {
+      "i": 426,
+      "zh": "最大的",
+      "en": "supreme2",
+      "ipa": "[suːˈpriːm]",
+      "pos": "adj.",
+      "gloss": "最大的"
+    },
+    {
+      "i": 427,
+      "zh": "大模型",
+      "en": "llm",
+      "ipa": "[el el em]",
+      "pos": "n.",
+      "gloss": "大模型"
+    },
+    {
+      "i": 428,
+      "zh": "假设",
+      "en": "conclusion",
+      "ipa": "[kənˈkluːʒən]",
+      "pos": "n.",
+      "gloss": "假设"
+    },
+    {
+      "i": 429,
+      "zh": "问题",
+      "en": "problem2",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 430,
+      "zh": "本体",
+      "en": "supreme",
+      "ipa": "[suːˈpriːm]",
+      "pos": "adj.",
+      "gloss": "最高的"
+    },
+    {
+      "i": 431,
+      "zh": "认识",
+      "en": "understand2",
+      "ipa": "[ˌʌndərˈstænd]",
+      "pos": "v.",
+      "gloss": "认识"
+    },
+    {
+      "i": 432,
+      "zh": "本体",
+      "en": "ontic",
+      "ipa": "[ˈɒntɪk]",
+      "pos": "adj.",
+      "gloss": "本体的"
+    },
+    {
+      "i": 433,
+      "zh": "耐人寻味",
+      "en": "intriguing",
+      "ipa": "[ɪnˈtriːɡɪŋ]",
+      "pos": "adj.",
+      "gloss": "耐人寻味的"
+    },
+    {
+      "i": 434,
+      "zh": "状态",
+      "en": "modality",
+      "ipa": "[moʊˈdælɪti]",
+      "pos": "n.",
+      "gloss": "状态"
+    },
+    {
+      "i": 435,
+      "zh": "语言",
+      "en": "language",
+      "ipa": "[ˈlæŋɡwɪdʒ]",
+      "pos": "n.",
+      "gloss": "语言"
+    },
+    {
+      "i": 436,
+      "zh": "生成式",
+      "en": "generative",
+      "ipa": "[ˈdʒenərətɪv]",
+      "pos": "adj.",
+      "gloss": "生成式"
+    },
+    {
+      "i": 437,
+      "zh": "权重",
+      "en": "weight",
+      "ipa": "[weɪt]",
+      "pos": "n.",
+      "gloss": "权重"
+    },
+    {
+      "i": 438,
+      "zh": "训练",
+      "en": "training",
+      "ipa": "[ˈtreɪnɪŋ]",
+      "pos": "n.",
+      "gloss": "训练"
+    },
+    {
+      "i": 439,
+      "zh": "流动",
+      "en": "flow",
+      "ipa": "[floʊ]",
+      "pos": "v.",
+      "gloss": "流动"
+    },
+    {
+      "i": 440,
+      "zh": "回到",
+      "en": "revert",
+      "ipa": "[rɪˈvɜːrt]",
+      "pos": "v.",
+      "gloss": "回到"
+    },
+    {
+      "i": 441,
+      "zh": "本质",
+      "en": "whatness",
+      "ipa": "[ˈwɒtnəs]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 442,
+      "zh": "分形",
+      "en": "fractal2",
+      "ipa": "[ˈfræktəl]",
+      "pos": "n.",
+      "gloss": "分形"
+    },
+    {
+      "i": 443,
+      "zh": "世间",
+      "en": "world",
+      "ipa": "[wɜːrld]",
+      "pos": "n.",
+      "gloss": "世间"
+    },
+    {
+      "i": 444,
+      "zh": "力量",
+      "en": "force",
+      "ipa": "[fɔːrs]",
+      "pos": "n.",
+      "gloss": "力量"
+    },
+    {
+      "i": 445,
+      "zh": "混沌",
+      "en": "primordial",
+      "ipa": "[praɪˈmɔːrdiəl]",
+      "pos": "adj.",
+      "gloss": "混沌的"
+    },
+    {
+      "i": 446,
+      "zh": "核心",
+      "en": "nucleus",
+      "ipa": "[ˈnjuːkliəs]",
+      "pos": "n.",
+      "gloss": "核心"
+    },
+    {
+      "i": 447,
+      "zh": "现象",
+      "en": "phenomenon",
+      "ipa": "[fɪˈnɒmɪnən]",
+      "pos": "n.",
+      "gloss": "现象"
+    }
+  ]
+}
