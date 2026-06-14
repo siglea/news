@@ -52,6 +52,8 @@ def generate_post_li(meta: dict) -> str:
     title_en = meta["title_en"]
     date = meta["date"]
     href = meta["out_html"]
+    if not href.startswith("posts/") and not href.startswith("/"):
+        href = "posts/" + href
     excerpt = meta.get("meta_description", "").strip()
     tags = meta.get("tags") or ["转载"]
     if not isinstance(tags, list):
