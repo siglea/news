@@ -1,0 +1,367 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "china-large-models-locked-in-internet",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-06-14-china-large-models-locked-in-internet/001.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-china-large-models-locked-in-internet/001.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "![](../images/posts/2026-06-14-china-large-models-locked-in-internet/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-china-large-models-locked-in-internet/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 2,
+      "source_text": "中国大模型的当年事与进行时。",
+      "html": "<p>中国大模型的当年事与<span class=\"word-annot\"><span class=\"word-anchor\">进行时</span><span class=\"word-block\"><span class=\"english-word\">progressive</span><span class=\"word-info\">[prəˈɡresɪv] n. 进行时态</span></span></span>。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "从2023年的爆发元年至今狂奔三载，中国大模型已能与OpenAI的GPT、Anthropic的Claude和谷歌的Gemini站上同一舞台。不仅性能代差逐渐缩小，从数量角度考量，较成熟、有影响力的大模型甚至多于潮头之上的美国AI。",
+      "html": "<p>从2023年的<span class=\"word-annot\"><span class=\"word-anchor\">爆发</span><span class=\"word-block\"><span class=\"english-word\">boom</span><span class=\"word-info\">[buːm] n. 爆发，繁荣</span></span></span>元年至今狂奔三载，中国大模型已能与OpenAI的GPT、Anthropic的Claude和谷歌的Gemini站上同一舞台。不仅性能代差逐渐缩小，从数量角度<span class=\"word-annot\"><span class=\"word-anchor\">考量</span><span class=\"word-block\"><span class=\"english-word\">consideration</span><span class=\"word-info\">[kənˌsɪdəˈreɪʃən] n. 考量，考虑</span></span></span>，较成熟、有影响力的大模型甚至多于潮头之上的美国AI。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "不过，在有目共睹的技术进步中，仍有一条令人担忧的脉络。",
+      "html": "<p>不过，在有目共睹的技术进步中，仍有一条令人担忧的<span class=\"word-annot\"><span class=\"word-anchor\">脉络</span><span class=\"word-block\"><span class=\"english-word\">thread</span><span class=\"word-info\">[θred] n. 脉络，线索</span></span></span>。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "或许可以称之为互联网经济的惯性。",
+      "html": "<p>或许可以称之为互联网经济的<span class=\"word-annot\"><span class=\"word-anchor\">惯性</span><span class=\"word-block\"><span class=\"english-word\">inertia</span><span class=\"word-info\">[ɪˈnɜːrʃə] n. 惯性</span></span></span>。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "AI浪潮奔涌前，中国互联网产业已沸腾了二十余年。AI爆发后，那些几乎宰制了数个周期的竞争模式和思维理念，仍在寻求同化这一新事物。",
+      "html": "<p>AI浪潮奔涌前，中国互联网<span class=\"word-annot\"><span class=\"word-anchor\">产业</span><span class=\"word-block\"><span class=\"english-word\">industry</span><span class=\"word-info\">[ˈɪndəstri] n. 产业，工业</span></span></span>已沸腾了二十余年。AI爆发后，那些几乎宰制了数个周期的竞争模式和思维理念，仍在寻求<span class=\"word-annot\"><span class=\"word-anchor\">同化</span><span class=\"word-block\"><span class=\"english-word\">assimilate</span><span class=\"word-info\">[əˈsɪmɪleɪt] v. 同化</span></span></span>这一新事物。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "从批量复刻、疯狂买量、降价清场到补贴竞赛、平台为王、赢者通吃，不少中国的科技巨头与创业者们，虽然嘴上说着自我革新、时代更迭，但脑中挥之不去的念头，看起来还是让人工智能先学会互联网经济的套路。",
+      "html": "<p>从批量复刻、疯狂买量、降价清场到补贴竞赛、平台为王、赢者通吃，不少中国的科技巨头与<span class=\"word-annot\"><span class=\"word-anchor\">创业者</span><span class=\"word-block\"><span class=\"english-word\">entrepreneur</span><span class=\"word-info\">[ˌɒntrəprəˈnɜːr] n. 创业者</span></span></span>们，虽然嘴上说着自我革新、时代更迭，但脑中挥之不去的念头，看起来还是让人工智能先学会互联网经济的套路。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "虽然也有DeepSeek等看似“不在此山中”的特例，但称之为特例，就意味着主流所向已一目了然。",
+      "html": "<p>虽然也有DeepSeek等看似“不在此山中”的<span class=\"word-annot\"><span class=\"word-anchor\">特例</span><span class=\"word-block\"><span class=\"english-word\">exception</span><span class=\"word-info\">[ɪkˈsepʃən] n. 特例，例外</span></span></span>，但称之为特例，就意味着主流所向已一目了然。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "特例和主流，旧法与新潮，共同催熟了中国大模型，成就其今日的样貌。但也正是在Token经济真正爆发，AI寻求落地之刻，互联网经济的惯性思维和路径依赖，很可能会变成一种看似闭环的桎梏，将中国大模型锁在其中。",
+      "html": "<p>特例和主流，旧法与新潮，共同催熟了中国大模型，成就其今日的<span class=\"word-annot\"><span class=\"word-anchor\">样貌</span><span class=\"word-block\"><span class=\"english-word\">appearance</span><span class=\"word-info\">[əˈpɪərəns] n. 样貌，外观</span></span></span>。但也正是在Token经济真正爆发，AI寻求落地之刻，互联网经济的惯性思维和路径依赖，很可能会变成一种看似闭环的<span class=\"word-annot\"><span class=\"word-anchor\">桎梏</span><span class=\"word-block\"><span class=\"english-word\">fetters</span><span class=\"word-info\">[ˈfetərz] n. 桎梏，束缚</span></span></span>，将中国大模型锁在其中。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "互联网经济惯性从中国大模型爆发之初就未曾缺席。",
+      "html": "<p>互联网经济惯性从中国大模型爆发之初就未曾<span class=\"word-annot\"><span class=\"word-anchor\">缺席</span><span class=\"word-block\"><span class=\"english-word\">absent</span><span class=\"word-info\">[ˈæbsənt] adj. 缺席的</span></span></span>。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "2023年到2026年，三年多的三场“大战”，甚至让中国大模型的发展历程，变成了微缩版的互联网商战史。",
+      "html": "<p>2023年到2026年，三年多的三场“大战”，甚至让中国大模型的发展历程，变成了<span class=\"word-annot\"><span class=\"word-anchor\">微缩</span><span class=\"word-block\"><span class=\"english-word\">miniature</span><span class=\"word-info\">[ˈmɪnɪətʃər] n./adj. 微缩，微型</span></span></span>版的互联网商战史。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "2022年11月30日，ChatGPT横空出世。两个月后，这个AI聊天机器人的MAU（月活跃用户数）就突破了1亿，成为历史上最快达到这一目标的C端应用程序。",
+      "html": "<p>2022年11月30日，ChatGPT<span class=\"word-annot\"><span class=\"word-anchor\">横空出世</span><span class=\"word-block\"><span class=\"english-word\">emerge</span><span class=\"word-info\">[ɪˈmɜːrdʒ] v. 横空出世，涌现</span></span></span>。两个月后，这个AI聊天机器人的MAU（月<span class=\"word-annot\"><span class=\"word-anchor\">活跃</span><span class=\"word-block\"><span class=\"english-word\">active</span><span class=\"word-info\">[ˈæktɪv] adj. 活跃的</span></span></span>用户数）就突破了1亿，成为历史上最快达到这一目标的C端应用程序。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "ChatGPT在对话中体现出了近似人类的智能，其背后是OpenAI的GPT-3.5大模型。",
+      "html": "<p>ChatGPT在对话中体现出了<span class=\"word-annot\"><span class=\"word-anchor\">近似</span><span class=\"word-block\"><span class=\"english-word\">approximate</span><span class=\"word-info\">[əˈprɒksɪmɪt] adj. 近似的，大约的</span></span></span>人类的智能，其背后是OpenAI的GPT-3.5大模型。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "大模型的现象级热度很快传导至中国，于是，有了被称为爆发元年的2023年。",
+      "html": "<p>大模型的现象级热度很快<span class=\"word-annot\"><span class=\"word-anchor\">传导</span><span class=\"word-block\"><span class=\"english-word\">transmit</span><span class=\"word-info\">[trænzˈmɪt] v. 传导，传播</span></span></span>至中国，于是，有了被称为爆发元年的2023年。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "夹杂着对新技术、新业态的兴奋和历史级的FOMO（",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">夹杂</span><span class=\"word-block\"><span class=\"english-word\">mingle</span><span class=\"word-info\">[ˈmɪŋɡəl] v. 混合，夹杂</span></span></span>着对新技术、新业态的兴奋和历史级的FOMO（</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "短短半年内，中国涌现出了超过130个大模型。",
+      "html": "<p>短短半年内，中国<span class=\"word-annot\"><span class=\"word-anchor\">涌现</span><span class=\"word-block\"><span class=\"english-word\">proliferate</span><span class=\"word-info\">[prəˈlɪfəreɪt] v. 激增，涌现</span></span></span>出了超过130个大模型。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "就像互联网时代数个新业态的发轫期一样，发布会和PPT再次迎来黄金时代。无论是功成名就的互联网大厂还是名不见经传的技术创业者，无论是出身于搜狗、美团，还是传统的家电企业，都抢着加入战局。",
+      "html": "<p>就像互联网时代数个新业态的<span class=\"word-annot\"><span class=\"word-anchor\">发轫期</span><span class=\"word-block\"><span class=\"english-word\">infancy</span><span class=\"word-info\">[ˈɪnfənsi] n. 初期，发轫期</span></span></span>一样，发布会和PPT再次迎来黄金时代。无论是功成名就的互联网大厂还是名不见经传的技术创业者，无论是<span class=\"word-annot\"><span class=\"word-anchor\">出身</span><span class=\"word-block\"><span class=\"english-word\">originate</span><span class=\"word-info\">[əˈrɪdʒɪneɪt] v. 出身于；起源</span></span></span>于搜狗、美团，还是传统的家电企业，都抢着加入战局。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "而且，锚定GPT的入局者，大多执着于开发通用大模型，争做“国产OpenAI”。",
+      "html": "<p>而且，锚定GPT的入局者，大多<span class=\"word-annot\"><span class=\"word-anchor\">执着</span><span class=\"word-block\"><span class=\"english-word\">persistent</span><span class=\"word-info\">[pərˈsɪstənt] adj. 执着的，坚持的</span></span></span>于开发通用大模型，争做“国产OpenAI”。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "如今回看，那似乎更像是一场批量复刻的“模仿秀”。实际上，很多当时做私域大模型的厂商在论证自身优势时就不无心机地点出过国产大模型的“套路”，理论体系是谷歌的Transformer，训练方法借鉴OpenAI，能拼的更多是数据和算力。",
+      "html": "<p>如今回看，那似乎更像是一场批量<span class=\"word-annot\"><span class=\"word-anchor\">复刻</span><span class=\"word-block\"><span class=\"english-word\">replicate</span><span class=\"word-info\">[ˈreplɪkeɪt] v. 复制，复刻</span></span></span>的“模仿秀”。实际上，很多当时做私域大模型的厂商在论证自身优势时就不无心机地点出过国产大模型的“套路”，理论体系是谷歌的Transformer，训练方法<span class=\"word-annot\"><span class=\"word-anchor\">借鉴</span><span class=\"word-block\"><span class=\"english-word\">reference</span><span class=\"word-info\">[ˈrefərəns] n./v. 参考，借鉴</span></span></span>OpenAI，能拼的更多是数据和算力。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "不过，不同于互联网经济的种种新业态，大模型的技术门槛、投入门槛实际上更高，在GPT-3就开始闭源，此后的能力跃迁难以“照葫芦画瓢”的情况下，多数缺少技术实力和创新努力的“参赛选手”，能力在不及ChatGPT的水平线上拉齐，根本无法复刻OpenAI的成功。",
+      "html": "<p>不过，不同于互联网经济的种种新业态，大模型的技术<span class=\"word-annot\"><span class=\"word-anchor\">门槛</span><span class=\"word-block\"><span class=\"english-word\">threshold</span><span class=\"word-info\">[ˈθreʃhoʊld] n. 门槛</span></span></span>、投入门槛实际上更高，在GPT-3就开始闭源，此后的能力跃迁难以“照葫芦画瓢”的情况下，多数缺少技术实力和创新努力的“参赛选手”，能力在不及ChatGPT的水平线上拉齐，根本无法复刻OpenAI的成功。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "随着算力成本与技术门槛凸显，洗牌来得比大多数人想得更早，缺乏造血能力的玩家相继退场，赛道迅速收敛，但似乎也仍暗合了互联网经济跑步入局，跑步出局，赢者寡，败者众的模式。",
+      "html": "<p>随着算力成本与技术门槛凸显，<span class=\"word-annot\"><span class=\"word-anchor\">洗牌</span><span class=\"word-block\"><span class=\"english-word\">reshuffle</span><span class=\"word-info\">[ˌriːˈʃʌfəl] n./v. 洗牌，重组</span></span></span>来得比大多数人想得更早，缺乏造血能力的玩家相继退场，赛道迅速收敛，但似乎也仍暗合了互联网经济跑步入局，跑步出局，赢者寡，败者众的模式。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "到了2024年中，洗牌尚未尘埃落定，赛道已经急不可耐地打响了第二场战役：价格战。",
+      "html": "<p>到了2024年中，洗牌尚未尘埃落定，赛道已经急不可耐地打响了第二场<span class=\"word-annot\"><span class=\"word-anchor\">战役</span><span class=\"word-block\"><span class=\"english-word\">campaign</span><span class=\"word-info\">[kæmˈpeɪn] n. 战役，运动</span></span></span>：价格战。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "DeepSeek的V2模型被视为“始作俑者”，在其受到全球瞩目前，这也是这家公司曝光度最高的一段时间。",
+      "html": "<p>DeepSeek的V2模型被视为“始作俑者”，在其受到全球<span class=\"word-annot\"><span class=\"word-anchor\">瞩目</span><span class=\"word-block\"><span class=\"english-word\">spotlight</span><span class=\"word-info\">[ˈspɒtlaɪt] n. 瞩目，公众关注</span></span></span>前，这也是这家公司曝光度最高的一段时间。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "随后智谱、字节跳动、阿里巴巴、百度、腾讯火速跟进。短短一个月内，大模型的API调用价格从“厘”时代直接被打穿，甚至出现了大量“免费送Token”的极限操作。",
+      "html": "<p>随后智谱、字节跳动、阿里巴巴、百度、腾讯火速<span class=\"word-annot\"><span class=\"word-anchor\">跟进</span><span class=\"word-block\"><span class=\"english-word\">chase</span><span class=\"word-info\">[tʃeɪs] v. 跟进，追逐</span></span></span>。短短一个月内，大模型的API调用价格从“厘”时代直接被<span class=\"word-annot\"><span class=\"word-anchor\">打穿</span><span class=\"word-block\"><span class=\"english-word\">penetrate</span><span class=\"word-info\">[ˈpenɪtreɪt] v. 穿透，打穿</span></span></span>，甚至出现了大量“免费送Token”的极限操作。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "但实际上，大部分加入价格战的厂商，根本没法cover成本。而很多操作虽然打着技术普惠的旗号，但底层却是互联网血拼时代的清场逻辑。",
+      "html": "<p>但实际上，大部分加入价格战的厂商，根本没法cover<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">expense</span><span class=\"word-info\">[ɪkˈspens] n. 成本，费用</span></span></span>。而很多操作虽然打着技术<span class=\"word-annot\"><span class=\"word-anchor\">普惠</span><span class=\"word-block\"><span class=\"english-word\">inclusive</span><span class=\"word-info\">[ɪnˈkluːsɪv] adj. 普惠的，包容的</span></span></span>的旗号，但底层却是互联网血拼时代的清场逻辑。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "除了降价，盛行的还有投流，除了互联网大厂，月之暗面（Kimi）、",
+      "html": "<p>除了降价，<span class=\"word-annot\"><span class=\"word-anchor\">盛行</span><span class=\"word-block\"><span class=\"english-word\">prevalent</span><span class=\"word-info\">[ˈprevələnt] adj. 盛行的，流行的</span></span></span>的还有投流，除了互联网大厂，月之暗面（Kimi）、</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "这场充满互联网套路的绞杀加速了行业洗牌，一定程度上让资本厚度占据了竞争C位，也一度让低价模式“深入人心”，为此后的“涨价难”埋下伏笔。",
+      "html": "<p>这场充满互联网套路的<span class=\"word-annot\"><span class=\"word-anchor\">绞杀</span><span class=\"word-block\"><span class=\"english-word\">strangle</span><span class=\"word-info\">[ˈstræŋɡəl] v. 绞杀，扼杀</span></span></span>加速了行业洗牌，一定程度上让资本厚度占据了竞争C位，也一度让低价模式“深入人心”，为此后的“涨价难”埋下伏笔。</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "2025年堪称中国大模型之年，典型代表是冲击国际顶级性能、并且让开源生态彻底爆发的DeepSeek，和在更广泛的用户市场无往不利的",
+      "html": "<p>2025年堪称中国大模型之年，典型代表是冲击国际顶级性能、并且让开源<span class=\"word-annot\"><span class=\"word-anchor\">生态</span><span class=\"word-block\"><span class=\"english-word\">ecosystem</span><span class=\"word-info\">[ˈiːkoʊsɪstəm] n. 生态系统</span></span></span>彻底爆发的DeepSeek，和在更广泛的用户市场无往不利的</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "这一年中国大模型的性能实现整体飞跃。有人视之为财力、人力、算力投入的必然结果，也有人认为DeepSeek的MoE路线恰好押中OpenAI发布o1开启的推理时代，其性价比和开源特性又将大模型（不限于中国，但对中国大模型更为明显）的工程优化和全面爆发向前推了一步。",
+      "html": "<p>这一年中国大模型的性能实现整体<span class=\"word-annot\"><span class=\"word-anchor\">飞跃</span><span class=\"word-block\"><span class=\"english-word\">soar</span><span class=\"word-info\">[sɔːr] v. 飞跃，猛增</span></span></span>。有人视之为财力、人力、算力投入的必然结果，也有人认为DeepSeek的MoE路线恰好押中OpenAI发布o1开启的<span class=\"word-annot\"><span class=\"word-anchor\">推理</span><span class=\"word-block\"><span class=\"english-word\">reasoning</span><span class=\"word-info\">[ˈriːzənɪŋ] n. 推理</span></span></span>时代，其性价比和开源特性又将大模型（不限于中国，但对中国大模型更为明显）的工程优化和全面爆发向前推了一步。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "性能的跃升也加剧了产品落地和商业化的急迫性。",
+      "html": "<p>性能的跃升也加剧了产品落地和商业化的<span class=\"word-annot\"><span class=\"word-anchor\">急迫性</span><span class=\"word-block\"><span class=\"english-word\">urgency</span><span class=\"word-info\">[ˈɜːrdʒənsi] n. 紧迫性</span></span></span>。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "为了争夺超级入口的地位，为了抢得商业落地的客源，在2026年2月的马年春节档，腾讯、阿里、字节、百度这四家互联网大厂正面对决，发起了一场春节大战，总耗资近百亿人民币，而核心，仍是红包和补贴，他们最熟的那个剧本。",
+      "html": "<p>为了争夺超级入口的地位，为了抢得商业落地的客源，在2026年2月的马年春节档，腾讯、阿里、字节、百度这四家互联网大厂正面对决，发起了一场春节大战，总耗资近百亿人民币，而核心，仍是红包和补贴，他们最熟的那个<span class=\"word-annot\"><span class=\"word-anchor\">剧本</span><span class=\"word-block\"><span class=\"english-word\">script</span><span class=\"word-info\">[skrɪpt] n. 剧本</span></span></span>。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "不过，砸钱的收效并不理想。节后一周，各家应用的日活迅速回落，强行拉满的渗透率没能转化为忠诚用户，反而暴露了成本吃重、算力不足等经济性难题。",
+      "html": "<p>不过，砸钱的<span class=\"word-annot\"><span class=\"word-anchor\">收效</span><span class=\"word-block\"><span class=\"english-word\">outcome</span><span class=\"word-info\">[ˈaʊtkʌm] n. 收效，结果</span></span></span>并不理想。节后一周，各家应用的日活迅速回落，强行拉满的<span class=\"word-annot\"><span class=\"word-anchor\">渗透</span><span class=\"word-block\"><span class=\"english-word\">penetration</span><span class=\"word-info\">[ˌpenɪˈtreɪʃən] n. 渗透，穿透</span></span></span>率没能转化为忠诚用户，反而暴露了成本吃重、算力不足等经济性难题。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "春节大战的迅速退潮或许说明，用互联网经济的模版写大模型的故事，可能难以达到自己想要的结局，毕竟这个赛道的网络效应无法类比于微信、抖音，依托于大模型的AI应用，也根本不能以一个互联网APP的产品生命周期和回报曲线来衡量。除了高昂的前期技术研发投入，其持续的迭代成本和算力成本，也让相关模式根本算不过来账。",
+      "html": "<p>春节大战的迅速<span class=\"word-annot\"><span class=\"word-anchor\">退潮</span><span class=\"word-block\"><span class=\"english-word\">ebb</span><span class=\"word-info\">[eb] n./v. 退潮，衰退</span></span></span>或许说明，用互联网经济的模版写大模型的故事，可能难以达到自己想要的结局，毕竟这个赛道的网络效应无法类比于微信、抖音，依托于大模型的AI应用，也根本不能以一个互联网APP的产品生命周期和回报曲线来衡量。除了高昂的前期技术研发投入，其持续的<span class=\"word-annot\"><span class=\"word-anchor\">迭代</span><span class=\"word-block\"><span class=\"english-word\">iteration</span><span class=\"word-info\">[ˌɪtəˈreɪʃən] n. 迭代</span></span></span>成本和算力成本，也让相关模式根本算不过来账。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "而一味的价格战、补贴战、流量战，也很可能让“用户为智能付费”的可行商业模式变得更为艰难。",
+      "html": "<p>而一味的价格战、补贴战、流量战，也很可能让“用户为智能付费”的<span class=\"word-annot\"><span class=\"word-anchor\">可行</span><span class=\"word-block\"><span class=\"english-word\">viable</span><span class=\"word-info\">[ˈvaɪəbəl] adj. 可行的</span></span></span>商业模式变得更为艰难。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "几场大战期间，中国大模型（此处主要指通用大模型）一度成为“围城”。",
+      "html": "<p>几场大战期间，中国大模型（此处主要指通用大模型）一度成为“<span class=\"word-annot\"><span class=\"word-anchor\">围城</span><span class=\"word-block\"><span class=\"english-word\">besieged</span><span class=\"word-info\">[bɪˈsiːdʒd] adj. 被围困的</span></span></span>”。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "外面的人，依然挤破头想冲进去。",
+      "html": "<p>外面的人，依然<span class=\"word-annot\"><span class=\"word-anchor\">挤破头</span><span class=\"word-block\"><span class=\"english-word\">scramble</span><span class=\"word-info\">[ˈskræmbəl] v. 争抢，挤破头</span></span></span>想冲进去。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "自称拥有自研大模型的企业不在少数，也不乏实为垂类大模型但被包装成、暗示为通用智能的情况。毕竟，对于创业、融资、IPO或者二级市场的股价来说，AI仍是最时髦的故事，而大模型这个早已普及的概念，也仍能拿来吹票。",
+      "html": "<p>自称拥有自研大模型的企业不在少数，也不乏实为<span class=\"word-annot\"><span class=\"word-anchor\">垂类</span><span class=\"word-block\"><span class=\"english-word\">vertical</span><span class=\"word-info\">[ˈvɜːrtɪkəl] n./adj. 垂直领域，垂类</span></span></span>大模型但被包装成、暗示为通用智能的情况。毕竟，对于创业、<span class=\"word-annot\"><span class=\"word-anchor\">融资</span><span class=\"word-block\"><span class=\"english-word\">fundraising</span><span class=\"word-info\">[ˈfʌndˌreɪzɪŋ] n. 融资，筹款</span></span></span>、IPO或者二级市场的股价来说，AI仍是最时髦的故事，而大模型这个早已普及的概念，也仍能拿来吹票。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "然而，“围城”之内，也不乏想出来的人。",
+      "html": "<p>然而，“围城”之内，也<span class=\"word-annot\"><span class=\"word-anchor\">不乏</span><span class=\"word-block\"><span class=\"english-word\">ample</span><span class=\"word-info\">[ˈæmpəl] adj. 充足的，丰富的</span></span></span>想出来的人。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "类似的情况不在少数，许多曾经号称要做基础大模型、通用大模型的厂商，已悄然变成了帮企业做私有化部署的“模型施工队”。究其原因，很大程度上是因为在大模型“上道”前，互联网的“卷”式竞争已足以淘汰一大批玩家，而大模型“上道”之后，“围城中人”很可能发现这会演变成一场没有尽头的算力军备竞赛。",
+      "html": "<p>类似的情况不在少数，许多曾经号称要做基础大模型、通用大模型的厂商，已悄然变成了帮企业做私有化<span class=\"word-annot\"><span class=\"word-anchor\">部署</span><span class=\"word-block\"><span class=\"english-word\">deployment</span><span class=\"word-info\">[dɪˈplɔɪmənt] n. 部署</span></span></span>的“模型施工队”。究其原因，很大程度上是因为在大模型“上道”前，互联网的“卷”式竞争已足以<span class=\"word-annot\"><span class=\"word-anchor\">淘汰</span><span class=\"word-block\"><span class=\"english-word\">eliminate</span><span class=\"word-info\">[ɪˈlɪmɪneɪt] v. 淘汰</span></span></span>一大批玩家，而大模型“上道”之后，“围城中人”很可能发现这会演变成一场没有尽头的算力军备竞赛。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "那些留在城内，并且看起来站稳脚跟的玩家，有时也未必如外界所见那般光鲜、积极。",
+      "html": "<p>那些留在城内，并且看起来站稳脚跟的玩家，有时也未必如外界所见那般<span class=\"word-annot\"><span class=\"word-anchor\">光鲜</span><span class=\"word-block\"><span class=\"english-word\">glamorous</span><span class=\"word-info\">[ˈɡlæmərəs] adj. 光鲜的，迷人的</span></span></span>、积极。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "实际上，直到2025年末2026年初，Kimi、MiniMax等顶级明星初创大模型厂商走过的“弯路”才更多被舆论所了解。",
+      "html": "<p>实际上，直到2025年末2026年初，Kimi、MiniMax等顶级明星初创大模型厂商走过的“<span class=\"word-annot\"><span class=\"word-anchor\">弯路</span><span class=\"word-block\"><span class=\"english-word\">detour</span><span class=\"word-info\">[ˈdiːtʊr] n. 弯路，绕路</span></span></span>”才更多被舆论所了解。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "不少报道指出，这两家起步早、成名早的AI初创代表，在2024年曾深陷互联网模式陷阱，要么就在多线产品赛马中摇摆，要么就专注投流冲DAU，打消耗战，都一度让技术路线混乱不堪，团队也出现动荡。",
+      "html": "<p>不少报道指出，这两家起步早、成名早的AI初创代表，在2024年曾深陷互联网模式陷阱，要么就在多线产品赛马中摇摆，要么就专注投流冲DAU，打消耗战，都一度让技术路线混乱不堪，团队也出现<span class=\"word-annot\"><span class=\"word-anchor\">动荡</span><span class=\"word-block\"><span class=\"english-word\">turmoil</span><span class=\"word-info\">[ˈtɜːrmɔɪl] n. 动荡，混乱</span></span></span>。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "后来的故事是，2025年初DeepSeek的爆火将曾经的C位咖挤到边缘，但反而将它们从互联网模式焦虑中拯救了出来。据称，不再背负“率先成为中国OpenAI”的包袱后，两家公司再次回归技术，聚焦大模型本身的开发，数月后也都拿出了更为亮眼的成绩。",
+      "html": "<p>后来的故事是，2025年初DeepSeek的爆火将曾经的C位咖挤到边缘，但反而将它们从互联网模式焦虑中<span class=\"word-annot\"><span class=\"word-anchor\">拯救</span><span class=\"word-block\"><span class=\"english-word\">rescue</span><span class=\"word-info\">[ˈreskjuː] v. 拯救</span></span></span>了出来。据称，不再背负“率先成为中国OpenAI”的包袱后，两家公司再次回归技术，<span class=\"word-annot\"><span class=\"word-anchor\">聚焦</span><span class=\"word-block\"><span class=\"english-word\">focus</span><span class=\"word-info\">[ˈfoʊkəs] v. 聚焦，集中</span></span></span>大模型本身的开发，数月后也都拿出了更为亮眼的成绩。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "被动扮演“拯救者”角色的DeepSeek，此后愈发成为了理想主义者和特立独行者的代表。直到2026年二季度之前，这家低调、不融资、不冲量甚至不加班的公司，都被视为专注实现AGI而独立于互联网经济模式之外的那一个。",
+      "html": "<p>被动扮演“拯救者”角色的DeepSeek，此后愈发成为了理想主义者和<span class=\"word-annot\"><span class=\"word-anchor\">特立独行者</span><span class=\"word-block\"><span class=\"english-word\">maverick</span><span class=\"word-info\">[ˈmævərɪk] n. 特立独行者</span></span></span>的代表。直到2026年二季度之前，这家<span class=\"word-annot\"><span class=\"word-anchor\">低调</span><span class=\"word-block\"><span class=\"english-word\">modest</span><span class=\"word-info\">[ˈmɒdɪst] adj. 低调的，谦虚的</span></span></span>、不融资、不冲量甚至不加班的公司，都被视为专注实现AGI而独立于互联网经济模式之外的那一个。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "但在2026年初DeepSeek的V4屡屡失约后，人们似乎变得不耐烦起来。等待一个理想主义者会错失多少热闹呢？越来越多的AI应用出现，以“龙虾OpenClaw”为代表的",
+      "html": "<p>但在2026年初DeepSeek的V4<span class=\"word-annot\"><span class=\"word-anchor\">屡屡</span><span class=\"word-block\"><span class=\"english-word\">repeatedly</span><span class=\"word-info\">[rɪˈpiːtɪdli] adv. 屡次，反复</span></span></span>失约后，人们似乎变得不耐烦起来。等待一个理想主义者会<span class=\"word-annot\"><span class=\"word-anchor\">错失</span><span class=\"word-block\"><span class=\"english-word\">forfeit</span><span class=\"word-info\">[ˈfɔːrfɪt] v. 错失，丧失</span></span></span>多少热闹呢？越来越多的AI<span class=\"word-annot\"><span class=\"word-anchor\">应用</span><span class=\"word-block\"><span class=\"english-word\">application</span><span class=\"word-info\">[ˌæplɪˈkeɪʃən] n. 应用</span></span></span>出现，以“龙虾OpenClaw”为代表的</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "如今，DeepSeek开始引入外部投资，在2026年人们频频谈论AI落地、商业价值兑现的节点，这个理想主义者未来的故事也变得更加模糊。",
+      "html": "<p>如今，DeepSeek开始引入外部投资，在2026年人们频频谈论AI落地、商业价值<span class=\"word-annot\"><span class=\"word-anchor\">兑现</span><span class=\"word-block\"><span class=\"english-word\">realize</span><span class=\"word-info\">[ˈrɪəlaɪz] v. 实现，兑现</span></span></span>的节点，这个理想主义者未来的故事也变得更加模糊。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "字节仍在跳动，Token快要失控",
+      "html": "<p>字节仍在跳动，Token快要<span class=\"word-annot\"><span class=\"word-anchor\">失控</span><span class=\"word-block\"><span class=\"english-word\">runaway</span><span class=\"word-info\">[ˈrʌnəweɪ] adj. 失控的</span></span></span></p>"
+    },
+    {
+      "index": 48,
+      "source_text": "2026年，Token这个词爆火，一如三年前大模型的爆火。",
+      "html": "<p>2026年，Token这个词爆火，<span class=\"word-annot\"><span class=\"word-anchor\">一如</span><span class=\"word-block\"><span class=\"english-word\">akin</span><span class=\"word-info\">[əˈkɪn] adj. 类似的，同类的</span></span></span>三年前大模型的爆火。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "但也正是Token经济学，让大模型赛道与互联网经济模式的矛盾凸显了出来。",
+      "html": "<p>但也正是Token经济学，让大模型赛道与互联网经济模式的<span class=\"word-annot\"><span class=\"word-anchor\">矛盾</span><span class=\"word-block\"><span class=\"english-word\">contradiction</span><span class=\"word-info\">[ˌkɒntrəˈdɪkʃən] n. 矛盾</span></span></span>凸显了出来。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "互联网时代，跳动的字节本身花不了那么多钱，大笔的资金可以用来打获客的战役，堆产品、上补贴、买流量等“大力出奇迹”操作，并最终做成超级产品、大平台，形成垄断持续获利的模式是可行的。毕竟，一个产品“走起来”后，其边际成本就会大幅下降，开发一个短视频App需要几千万，但让第1个用户看视频，和让第1000万个用户看视频，增加的服务器成本微乎其微。",
+      "html": "<p>互联网时代，跳动的字节本身花不了那么多钱，大笔的资金可以用来打获客的战役，堆产品、上补贴、买流量等“大力出奇迹”操作，并最终做成超级产品、大平台，形成<span class=\"word-annot\"><span class=\"word-anchor\">垄断</span><span class=\"word-block\"><span class=\"english-word\">monopoly</span><span class=\"word-info\">[məˈnɒpəli] n. 垄断</span></span></span>持续获利的模式是可行的。毕竟，一个产品“走起来”后，其<span class=\"word-annot\"><span class=\"word-anchor\">边际</span><span class=\"word-block\"><span class=\"english-word\">margin</span><span class=\"word-info\">[ˈmɑːrdʒɪn] n. 边际，边缘</span></span></span>成本就会大幅下降，开发一个短视频App需要几千万，但让第1个用户看视频，和让第1000万个用户看视频，增加的服务器成本微乎其微。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "但这套互联网经济黄金法则却无法直接挪用于AI赛道。当Agent大举刺激推理所需的Token量，AI被推动着必须落地形成生产力的时刻，大模型每一次交互背后昂贵、需要持续投入的算力成本，也被更显著地摆在了台前。",
+      "html": "<p>但这套互联网经济黄金<span class=\"word-annot\"><span class=\"word-anchor\">法则</span><span class=\"word-block\"><span class=\"english-word\">principle</span><span class=\"word-info\">[ˈprɪnsəpəl] n. 法则，原则</span></span></span>却无法直接挪用于AI赛道。当Agent大举<span class=\"word-annot\"><span class=\"word-anchor\">刺激</span><span class=\"word-block\"><span class=\"english-word\">stimulate</span><span class=\"word-info\">[ˈstɪmjʊleɪt] v. 刺激</span></span></span>推理所需的Token量，AI被推动着必须落地形成生产力的时刻，大模型每一次交互背后昂贵、需要持续投入的算力成本，也被更显著地摆在了台前。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "如果沿用互联网的低价、补贴模式，那么就会陷入流量越大，亏损越深的陷阱。不少厂商会发现，砸钱获取的日活，在某个节点后变成了巨大的成本“债务”。而那些消耗海量Token的免费低净值提问，却无法在数据、转化上真正提供助力。",
+      "html": "<p>如果<span class=\"word-annot\"><span class=\"word-anchor\">沿用</span><span class=\"word-block\"><span class=\"english-word\">adopt</span><span class=\"word-info\">[əˈdɒpt] v. 采用，沿用</span></span></span>互联网的低价、补贴模式，那么就会陷入流量越大，亏损越深的陷阱。不少厂商会发现，砸钱获取的日活，在某个节点后变成了巨大的成本“<span class=\"word-annot\"><span class=\"word-anchor\">债务</span><span class=\"word-block\"><span class=\"english-word\">debt</span><span class=\"word-info\">[det] n. 债务</span></span></span>”。而那些<span class=\"word-annot\"><span class=\"word-anchor\">消耗</span><span class=\"word-block\"><span class=\"english-word\">consume</span><span class=\"word-info\">[kənˈsjuːm] v. 消耗</span></span></span>海量Token的免费低净值提问，却无法在数据、转化上真正提供助力。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "在这种情况下，涨价甚至降智都成为了摆上台面的选择。",
+      "html": "<p>在这种情况下，涨价甚至<span class=\"word-annot\"><span class=\"word-anchor\">降智</span><span class=\"word-block\"><span class=\"english-word\">downgrade</span><span class=\"word-info\">[ˈdaʊnɡreɪd] v. 降级，降智</span></span></span>都成为了摆上台面的选择。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "今年初，Token价格持续走高，3月“龙虾”爆火后尤甚。这一度导致OpenRouter统计的中国AI大模型周调用量在4月出现连续下滑。",
+      "html": "<p>今年初，Token价格<span class=\"word-annot\"><span class=\"word-anchor\">持续</span><span class=\"word-block\"><span class=\"english-word\">sustained</span><span class=\"word-info\">[səˈsteɪnd] adj. 持续的</span></span></span>走高，3月“龙虾”爆火后尤甚。这一度导致OpenRouter统计的中国AI大模型周调用量在4月出现连续<span class=\"word-annot\"><span class=\"word-anchor\">下滑</span><span class=\"word-block\"><span class=\"english-word\">decline</span><span class=\"word-info\">[dɪˈklaɪn] v./n. 下降，下滑</span></span></span>。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "而如上文提及的，包括DeepSeek在内，不少大模型厂商对自己的入口进行了调整，限制了用户使用，体验感实际上出现下降。与此同时，有业内人士透露，行业整体的Token质量也走出了与产业发展热度相反的曲线，目前响应速度、缓存命中率等核心指标表现不升反降，行业还出现了很多以次充好、挂羊头卖狗肉的乱象。",
+      "html": "<p>而如上文提及的，包括DeepSeek在内，不少大模型厂商对自己的入口进行了调整，<span class=\"word-annot\"><span class=\"word-anchor\">限制</span><span class=\"word-block\"><span class=\"english-word\">restrict</span><span class=\"word-info\">[rɪˈstrɪkt] v. 限制</span></span></span>了用户使用，体验感实际上出现下降。与此同时，有业内人士透露，行业整体的Token质量也走出了与产业发展热度相反的曲线，目前响应速度、缓存命中率等核心指标表现不升反降，行业还出现了很多<span class=\"word-annot\"><span class=\"word-anchor\">以次充好</span><span class=\"word-block\"><span class=\"english-word\">adulterate</span><span class=\"word-info\">[əˈdʌltəreɪt] v. 以次充好，掺假</span></span></span>、挂羊头卖狗肉的乱象。</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "更快的商业变现一度被认为能解决Token边际成本问题。",
+      "html": "<p>更快的商业<span class=\"word-annot\"><span class=\"word-anchor\">变现</span><span class=\"word-block\"><span class=\"english-word\">monetize</span><span class=\"word-info\">[ˈmʌnɪtaɪz] v. 变现</span></span></span>一度被认为能解决Token边际成本问题。</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "但从豆包探索付费模式来看，C端AI产品能否走通订阅模式，为大模型输血，还很难说。毕竟，从这波中国大模型热潮爆发之初，无论主流还是特例，都较少真正探索付费模式，培养用户付费习惯。",
+      "html": "<p>但从豆包探索付费模式来看，C端AI产品能否走通<span class=\"word-annot\"><span class=\"word-anchor\">订阅</span><span class=\"word-block\"><span class=\"english-word\">subscription</span><span class=\"word-info\">[səbˈskrɪpʃən] n. 订阅</span></span></span>模式，为大模型输血，还很难说。毕竟，从这波中国大模型热潮爆发之初，无论主流还是特例，都较少真正探索付费模式，<span class=\"word-annot\"><span class=\"word-anchor\">培养</span><span class=\"word-block\"><span class=\"english-word\">cultivate</span><span class=\"word-info\">[ˈkʌltɪveɪt] v. 培养，培育</span></span></span>用户付费习惯。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "而在海外愈发火爆的大模型To B市场，也难以直接在中国复刻。有后来居上之势的Anthropic和校准方向的OpenAI，都积极地开发靠提供标准化的SaaS订阅服务赚钱的模式。但在中国，SaaS的土壤天然贫瘠，大模型公司被迫走向了沉重的私有化定制项目。不少报道、案例称，为了拿下大客户的几百万订单，顶尖的AI算法科学家被派去给传统企业做数据清洗、做系统集成，硬生生把前沿科技做成了劳动密集型的IT外包。而最终，付费模式和习惯也没能在Token濒临失控前在B端建立起来。",
+      "html": "<p>而在海外愈发<span class=\"word-annot\"><span class=\"word-anchor\">火爆</span><span class=\"word-block\"><span class=\"english-word\">booming</span><span class=\"word-info\">[ˈbuːmɪŋ] adj. 火爆的，蓬勃的</span></span></span>的大模型To B市场，也难以直接在中国复刻。有后来居上之势的Anthropic和<span class=\"word-annot\"><span class=\"word-anchor\">校准</span><span class=\"word-block\"><span class=\"english-word\">realign</span><span class=\"word-info\">[ˌriːəˈlaɪn] v. 重新校准，调整</span></span></span>方向的OpenAI，都积极地开发靠提供标准化的SaaS订阅服务赚钱的模式。但在中国，SaaS的土壤天然<span class=\"word-annot\"><span class=\"word-anchor\">贫瘠</span><span class=\"word-block\"><span class=\"english-word\">barren</span><span class=\"word-info\">[ˈbærən] adj. 贫瘠的</span></span></span>，大模型公司被迫走向了沉重的私有化定制项目。不少报道、案例称，为了拿下大客户的几百万订单，顶尖的AI算法科学家被派去给传统企业做数据清洗、做系统集成，硬生生把前沿科技做成了劳动密集型的IT<span class=\"word-annot\"><span class=\"word-anchor\">外包</span><span class=\"word-block\"><span class=\"english-word\">outsource</span><span class=\"word-info\">[ˈaʊtsɔːrs] v. 外包</span></span></span>。而最终，付费模式和习惯也没能在Token<span class=\"word-annot\"><span class=\"word-anchor\">濒临</span><span class=\"word-block\"><span class=\"english-word\">brink</span><span class=\"word-info\">[brɪŋk] n. 边缘，濒临</span></span></span>失控前在B端建立起来。</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "互联网经济模式让新业态的发展有可参考路径，但如果迷恋曾经的成功模式，将往日套路照单全收，那无异于“画地为牢”。",
+      "html": "<p>互联网经济模式让新业态的发展有可参考路径，但如果<span class=\"word-annot\"><span class=\"word-anchor\">迷恋</span><span class=\"word-block\"><span class=\"english-word\">obsess</span><span class=\"word-info\">[əbˈses] v. 迷恋，痴迷</span></span></span>曾经的成功模式，将往日套路照单全收，那无异于“画地为牢”。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "目前，大模型的研发和产品化，与互联网业态杂糅在一起，而路径依赖在营收平衡、B端C端付费模式上均有触壁的端倪，如果无从突破，很可能被锁在自己画就的圈里。",
+      "html": "<p>目前，大模型的研发和产品化，与互联网业态<span class=\"word-annot\"><span class=\"word-anchor\">杂糅</span><span class=\"word-block\"><span class=\"english-word\">intertwine</span><span class=\"word-info\">[ˌɪntərˈtwaɪn] v. 交织，杂糅</span></span></span>在一起，而路径依赖在营收平衡、B端C端付费模式上均有触壁的端倪，如果无从突破，很可能被锁在自己画就的圈里。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "从海外引领潮流的OpenAI和Anthropic来看，虽然它们也曾在变现上有过“昏招”和难评的举措，尤其前者引入广告、打价格战等操作一度也招致争议，但从今年的情况来看，在其“搞钱”道路和前景上，编程领域的生产力突破是突破性的拐点。实际上OpenAI在看到Anthropic通过Claude code大幅提升变现能力后，也将自己的重点聚焦到了编程上。",
+      "html": "<p>从海外引领潮流的OpenAI和Anthropic来看，虽然它们也曾在变现上有过“昏招”和难评的举措，尤其前者引入广告、打价格战等操作一度也招致<span class=\"word-annot\"><span class=\"word-anchor\">争议</span><span class=\"word-block\"><span class=\"english-word\">controversy</span><span class=\"word-info\">[ˈkɒntrəvɜːrsi] n. 争议</span></span></span>，但从今年的情况来看，在其“搞钱”道路和前景上，编程领域的生产力突破是突破性的拐点。实际上OpenAI在看到Anthropic通过Claude code大幅提升变现能力后，也将自己的重点聚焦到了<span class=\"word-annot\"><span class=\"word-anchor\">编程</span><span class=\"word-block\"><span class=\"english-word\">programming</span><span class=\"word-info\">[ˈproʊɡræmɪŋ] n. 编程</span></span></span>上。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "而此后，经由Agent让大模型能力溢出到办公、PA（个人助理）等，则激活了更广泛的B端、C端市场潜力。",
+      "html": "<p>而此后，经由Agent让大模型能力溢出到办公、PA（个人助理）等，则<span class=\"word-annot\"><span class=\"word-anchor\">激活</span><span class=\"word-block\"><span class=\"english-word\">activate</span><span class=\"word-info\">[ˈæktɪveɪt] v. 激活</span></span></span>了更广泛的B端、C端市场潜力。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "对于狂飙的中国大模型来说，过往几年的低价、免费模式，形成了一定的用户价格锚定效应，客户结构也变得比较混杂，很可能已经导致盈利路径愈发不清晰，长此以往，企业自身的财务结构也会变得更加脆弱。",
+      "html": "<p>对于狂飙的中国大模型来说，过往几年的低价、免费模式，形成了一定的用户价格锚定效应，客户结构也变得比较混杂，很可能已经导致盈利路径愈发不清晰，长此以往，企业自身的财务结构也会变得更加<span class=\"word-annot\"><span class=\"word-anchor\">脆弱</span><span class=\"word-block\"><span class=\"english-word\">vulnerable</span><span class=\"word-info\">[ˈvʌlnərəbəl] adj. 脆弱的</span></span></span>。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "另一方面，中国大模型此前的发展路径更多聚焦于模型参数竞赛和应用场景拓展，这很像“做题家思维”和互联网“产品为王”理念的结合体，但总体上对推理优化和服务稳定性的工程积累仍有欠缺，在技术迭代加速，推理时代猝然迎来拐点时，大模型也被圈进了涨价难，降服务质量又怕会失去竞争力的两难境地。",
+      "html": "<p>另一方面，中国大模型此前的发展路径更多聚焦于模型参数竞赛和应用场景<span class=\"word-annot\"><span class=\"word-anchor\">拓展</span><span class=\"word-block\"><span class=\"english-word\">expand</span><span class=\"word-info\">[ɪkˈspænd] v. 拓展，扩展</span></span></span>，这很像“做题家思维”和互联网“产品为王”理念的结合体，但总体上对推理优化和服务稳定性的工程积累仍有欠缺，在技术迭代加速，推理时代猝然迎来拐点时，大模型也被圈进了涨价难，降服务质量又怕会失去竞争力的两难境地。</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "与此同时，种种因素叠加，更让大模型缺乏从“补贴期”到“盈利期”的平滑过渡，Token狂飙带来的种种困境与乱象即是表征。",
+      "html": "<p>与此同时，种种因素叠加，更让大模型缺乏从“补贴期”到“盈利期”的平滑<span class=\"word-annot\"><span class=\"word-anchor\">过渡</span><span class=\"word-block\"><span class=\"english-word\">transition</span><span class=\"word-info\">[trænˈzɪʃən] n. 过渡</span></span></span>，Token狂飙带来的种种困境与乱象即是表征。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "当然，AI仍是在不断发展的新事物，无论从技术路线还是商业模式上来说，探索的空间和机会当然仍在。好消息是，中国大模型在编程、办公、PA等领域也在集中发力，对于付费模式也开始了新的尝试。",
+      "html": "<p>当然，AI仍是在不断发展的新事物，无论从技术<span class=\"word-annot\"><span class=\"word-anchor\">路线</span><span class=\"word-block\"><span class=\"english-word\">roadmap</span><span class=\"word-info\">[ˈroʊdmæp] n. 路线图</span></span></span>还是商业模式上来说，探索的空间和机会当然仍在。好消息是，中国大模型在编程、办公、PA等领域也在集中发力，对于付费模式也开始了新的<span class=\"word-annot\"><span class=\"word-anchor\">尝试</span><span class=\"word-block\"><span class=\"english-word\">attempt</span><span class=\"word-info\">[əˈtempt] n./v. 尝试</span></span></span>。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "或许打破“闭环”，避免被锁死的路，也很快会展现出来。",
+      "html": "<p>或许打破“闭环”，避免被锁死的路，也很快会<span class=\"word-annot\"><span class=\"word-anchor\">展现</span><span class=\"word-block\"><span class=\"english-word\">unfold</span><span class=\"word-info\">[ʌnˈfoʊld] v. 展现，展开</span></span></span>出来。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "（本文首发于钛媒体APP）",
+      "html": "<p>（本文首发于钛媒体APP）</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "SK海力士计划8月在纳斯达克上市，募资高达140亿美元。",
+      "html": "<p>SK海力士计划8月在纳斯达克<span class=\"word-annot\"><span class=\"word-anchor\">上市</span><span class=\"word-block\"><span class=\"english-word\">listing</span><span class=\"word-info\">[ˈlɪstɪŋ] n. 上市</span></span></span>，募资高达140亿美元。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "![](../images/posts/2026-06-14-china-large-models-locked-in-internet/003.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-china-large-models-locked-in-internet/003.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 71,
+      "source_text": "![](../images/posts/2026-06-14-china-large-models-locked-in-internet/004.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-14-china-large-models-locked-in-internet/004.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}
