@@ -1,0 +1,2217 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "公共规则",
+      "en": "rulemaking",
+      "ipa": "[ˈruːlmeɪkɪŋ]",
+      "pos": "n.",
+      "gloss": "规则制定；公共规则"
+    },
+    {
+      "i": 1,
+      "zh": "摘要",
+      "en": "abstract",
+      "ipa": "[ˈæbstrækt]",
+      "pos": "n.",
+      "gloss": "摘要；概要"
+    },
+    {
+      "i": 2,
+      "zh": "入口",
+      "en": "portal",
+      "ipa": "[ˈpɔːrtl]",
+      "pos": "n.",
+      "gloss": "入口；门户"
+    },
+    {
+      "i": 3,
+      "zh": "三件事",
+      "en": "agenda",
+      "ipa": "[əˈdʒendə]",
+      "pos": "n.",
+      "gloss": "议程；待办事项"
+    },
+    {
+      "i": 4,
+      "zh": "变量",
+      "en": "variable",
+      "ipa": "[ˈveriəbl]",
+      "pos": "n.",
+      "gloss": "变量；可变因素"
+    },
+    {
+      "i": 5,
+      "zh": "悬念",
+      "en": "suspense",
+      "ipa": "[səˈspens]",
+      "pos": "n.",
+      "gloss": "悬念；悬疑"
+    },
+    {
+      "i": 6,
+      "zh": "保卫战",
+      "en": "defense",
+      "ipa": "[dɪˈfens]",
+      "pos": "n.",
+      "gloss": "保卫；防御"
+    },
+    {
+      "i": 7,
+      "zh": "判断",
+      "en": "judge",
+      "ipa": "[dʒʌdʒ]",
+      "pos": "v.",
+      "gloss": "判断；评判"
+    },
+    {
+      "i": 8,
+      "zh": "定位",
+      "en": "positioning",
+      "ipa": "[pəˈzɪʃənɪŋ]",
+      "pos": "n.",
+      "gloss": "定位；位置"
+    },
+    {
+      "i": 9,
+      "zh": "设备平台",
+      "en": "device",
+      "ipa": "[dɪˈvaɪs]",
+      "pos": "n.",
+      "gloss": "设备；装置"
+    },
+    {
+      "i": 10,
+      "zh": "推倒重写",
+      "en": "rewrite",
+      "ipa": "[ˌriːˈraɪt]",
+      "pos": "v.",
+      "gloss": "重写；改写"
+    },
+    {
+      "i": 11,
+      "zh": "调度中心",
+      "en": "center",
+      "ipa": "[ˈsentər]",
+      "pos": "n.",
+      "gloss": "中心"
+    },
+    {
+      "i": 12,
+      "zh": "错估",
+      "en": "misjudge",
+      "ipa": "[ˌmɪsˈdʒʌdʒ]",
+      "pos": "v.",
+      "gloss": "误判；错估"
+    },
+    {
+      "i": 13,
+      "zh": "留言区",
+      "en": "comment",
+      "ipa": "[ˈkɑːment]",
+      "pos": "n.",
+      "gloss": "评论；留言"
+    },
+    {
+      "i": 14,
+      "zh": "不通",
+      "en": "blocked",
+      "ipa": "[blɑːkt]",
+      "pos": "adj.",
+      "gloss": "阻塞的；不通的"
+    },
+    {
+      "i": 15,
+      "zh": "房间里的大象",
+      "en": "elephant",
+      "ipa": "[ˈelɪfənt]",
+      "pos": "n.",
+      "gloss": "大象；显而易见却避而不谈的事"
+    },
+    {
+      "i": 16,
+      "skip": true
+    },
+    {
+      "i": 17,
+      "skip": true
+    },
+    {
+      "i": 18,
+      "zh": "智能体入口",
+      "en": "gateway",
+      "ipa": "[ˈɡeɪtweɪ]",
+      "pos": "n.",
+      "gloss": "网关；入口"
+    },
+    {
+      "i": 19,
+      "zh": "接入",
+      "en": "connect",
+      "ipa": "[kəˈnekt]",
+      "pos": "v.",
+      "gloss": "连接；接入"
+    },
+    {
+      "i": 20,
+      "zh": "返回结构",
+      "en": "struct",
+      "ipa": "[strʌkt]",
+      "pos": "n.",
+      "gloss": "结构；返回结构"
+    },
+    {
+      "i": 21,
+      "zh": "任务链",
+      "en": "pipeline",
+      "ipa": "[ˈpaɪplaɪn]",
+      "pos": "n.",
+      "gloss": "管道；流水线"
+    },
+    {
+      "i": 22,
+      "zh": "废弃通知",
+      "en": "deprecate",
+      "ipa": "[ˈdeprəkeɪt]",
+      "pos": "v.",
+      "gloss": "弃用；不推荐"
+    },
+    {
+      "i": 23,
+      "zh": "排除在外",
+      "en": "exclude",
+      "ipa": "[ɪkˈskluːd]",
+      "pos": "v.",
+      "gloss": "排除；除外"
+    },
+    {
+      "i": 24,
+      "zh": "硬件门槛",
+      "en": "hardware",
+      "ipa": "[ˈhɑːrdwer]",
+      "pos": "n.",
+      "gloss": "硬件"
+    },
+    {
+      "i": 25,
+      "zh": "互操作性",
+      "en": "interop",
+      "ipa": "[ˈɪntərɑːp]",
+      "pos": "n.",
+      "gloss": "互操作性"
+    },
+    {
+      "i": 26,
+      "zh": "监管审批",
+      "en": "approval",
+      "ipa": "[əˈpruːvl]",
+      "pos": "n.",
+      "gloss": "审批；批准"
+    },
+    {
+      "i": 27,
+      "zh": "监管区",
+      "en": "zone",
+      "ipa": "[zoʊn]",
+      "pos": "n.",
+      "gloss": "区域；监管区"
+    },
+    {
+      "i": 28,
+      "skip": true
+    },
+    {
+      "i": 29,
+      "zh": "开发者通知",
+      "en": "notice",
+      "ipa": "[ˈnoʊtɪs]",
+      "pos": "n.",
+      "gloss": "通知；公告"
+    },
+    {
+      "i": 30,
+      "zh": "强制迁移",
+      "en": "mandate",
+      "ipa": "[ˈmændeɪt]",
+      "pos": "v.",
+      "gloss": "强制；要求"
+    },
+    {
+      "i": 31,
+      "zh": "调度逻辑",
+      "en": "scheduler",
+      "ipa": "[ˈskedʒuːlər]",
+      "pos": "n.",
+      "gloss": "调度器；调度程序"
+    },
+    {
+      "i": 32,
+      "zh": "能力供应商",
+      "en": "supplier",
+      "ipa": "[səˈplaɪər]",
+      "pos": "n.",
+      "gloss": "供应商"
+    },
+    {
+      "i": 33,
+      "zh": "执行细则",
+      "en": "clause",
+      "ipa": "[klɔːz]",
+      "pos": "n.",
+      "gloss": "条款；细则"
+    },
+    {
+      "i": 34,
+      "zh": "生死线",
+      "en": "threshold",
+      "ipa": "[ˈθreʃhoʊld]",
+      "pos": "n.",
+      "gloss": "阈值；生死线"
+    },
+    {
+      "i": 35,
+      "zh": "退化为",
+      "en": "degrade",
+      "ipa": "[dɪˈɡreɪd]",
+      "pos": "v.",
+      "gloss": "退化；降级"
+    },
+    {
+      "i": 36,
+      "zh": "预判",
+      "en": "forecast",
+      "ipa": "[ˈfɔːrkæst]",
+      "pos": "n.",
+      "gloss": "预测；预判"
+    },
+    {
+      "i": 37,
+      "zh": "底层",
+      "en": "underlying",
+      "ipa": "[ˌʌndərˈlaɪɪŋ]",
+      "pos": "adj.",
+      "gloss": "底层的；根本的"
+    },
+    {
+      "i": 38,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃər]",
+      "pos": "n.",
+      "gloss": "基础设施"
+    },
+    {
+      "i": 39,
+      "zh": "模型中立",
+      "en": "neutrality",
+      "ipa": "[nuːˈtræləti]",
+      "pos": "n.",
+      "gloss": "中立；中立性"
+    },
+    {
+      "i": 40,
+      "skip": true
+    },
+    {
+      "i": 41,
+      "zh": "开发者工具",
+      "en": "developer",
+      "ipa": "[dɪˈveləpər]",
+      "pos": "n.",
+      "gloss": "开发者"
+    },
+    {
+      "i": 42,
+      "zh": "第三方",
+      "en": "thirdparty",
+      "ipa": "[θɜːrd ˈpɑːrti]",
+      "pos": "n.",
+      "gloss": "第三方"
+    },
+    {
+      "i": 43,
+      "zh": "编码",
+      "en": "coding",
+      "ipa": "[ˈkoʊdɪŋ]",
+      "pos": "n.",
+      "gloss": "编码；编程"
+    },
+    {
+      "i": 44,
+      "zh": "说了算",
+      "en": "decisive",
+      "ipa": "[dɪˈsaɪsɪv]",
+      "pos": "adj.",
+      "gloss": "决定性的；说了算的"
+    },
+    {
+      "i": 45,
+      "zh": "端侧",
+      "en": "ondevice",
+      "ipa": "[ɑːn dɪˈvaɪs]",
+      "pos": "adj.",
+      "gloss": "端侧的；设备端的"
+    },
+    {
+      "i": 46,
+      "zh": "掌控权",
+      "en": "dominion",
+      "ipa": "[dəˈmɪniən]",
+      "pos": "n.",
+      "gloss": "掌控权；支配"
+    },
+    {
+      "i": 47,
+      "zh": "修正",
+      "en": "revise",
+      "ipa": "[rɪˈvaɪz]",
+      "pos": "v.",
+      "gloss": "修正；修订"
+    },
+    {
+      "i": 48,
+      "zh": "工具",
+      "en": "tool",
+      "ipa": "[tuːl]",
+      "pos": "n.",
+      "gloss": "工具"
+    },
+    {
+      "i": 49,
+      "zh": "用户",
+      "en": "user",
+      "ipa": "[ˈjuːzər]",
+      "pos": "n.",
+      "gloss": "用户"
+    },
+    {
+      "i": 50,
+      "zh": "核心",
+      "en": "core",
+      "ipa": "[kɔːr]",
+      "pos": "n.",
+      "gloss": "核心"
+    },
+    {
+      "i": 51,
+      "zh": "处境",
+      "en": "plight",
+      "ipa": "[plaɪt]",
+      "pos": "n.",
+      "gloss": "处境；困境"
+    },
+    {
+      "i": 52,
+      "zh": "主语",
+      "en": "subject",
+      "ipa": "[ˈsʌbdʒɪkt]",
+      "pos": "n.",
+      "gloss": "主语；主体"
+    },
+    {
+      "i": 53,
+      "zh": "前沿模型",
+      "en": "frontier",
+      "ipa": "[frʌnˈtɪr]",
+      "pos": "n.",
+      "gloss": "前沿；边界"
+    },
+    {
+      "i": 54,
+      "zh": "交易",
+      "en": "deal",
+      "ipa": "[diːl]",
+      "pos": "n.",
+      "gloss": "交易；协议"
+    },
+    {
+      "i": 55,
+      "zh": "搜索广告",
+      "en": "advert",
+      "ipa": "[ədˈvɜːrt]",
+      "pos": "n.",
+      "gloss": "广告"
+    },
+    {
+      "i": 56,
+      "zh": "房东",
+      "en": "landlord",
+      "ipa": "[ˈlændlɔːrd]",
+      "pos": "n.",
+      "gloss": "房东；业主"
+    },
+    {
+      "i": 57,
+      "skip": true
+    },
+    {
+      "i": 58,
+      "zh": "租客",
+      "en": "tenant",
+      "ipa": "[ˈtenənt]",
+      "pos": "n.",
+      "gloss": "租客；承租人"
+    },
+    {
+      "i": 59,
+      "zh": "稀缺",
+      "en": "scarce",
+      "ipa": "[skers]",
+      "pos": "adj.",
+      "gloss": "稀缺的；不足的"
+    },
+    {
+      "i": 60,
+      "zh": "少数几家",
+      "en": "minority",
+      "ipa": "[maɪˈnɔːrəti]",
+      "pos": "n.",
+      "gloss": "少数；少数派"
+    },
+    {
+      "i": 61,
+      "zh": "收租",
+      "en": "rent",
+      "ipa": "[rent]",
+      "pos": "v.",
+      "gloss": "收租；出租"
+    },
+    {
+      "i": 62,
+      "zh": "耐人寻味",
+      "en": "notable",
+      "ipa": "[ˈnoʊtəbl]",
+      "pos": "adj.",
+      "gloss": "值得注意的；显著的"
+    },
+    {
+      "i": 63,
+      "zh": "分叉",
+      "en": "fork",
+      "ipa": "[fɔːrk]",
+      "pos": "n.",
+      "gloss": "分叉；分支"
+    },
+    {
+      "i": 64,
+      "zh": "生态",
+      "en": "ecology",
+      "ipa": "[iˈkɑːlədʒi]",
+      "pos": "n.",
+      "gloss": "生态；生态学"
+    },
+    {
+      "i": 65,
+      "zh": "墓碑",
+      "en": "tombstone",
+      "ipa": "[ˈtuːmstoʊn]",
+      "pos": "n.",
+      "gloss": "墓碑；教训"
+    },
+    {
+      "i": 66,
+      "zh": "开放底座",
+      "en": "openbase",
+      "ipa": "[ˈoʊpən beɪs]",
+      "pos": "n.",
+      "gloss": "开放底座；公共底座"
+    },
+    {
+      "i": 67,
+      "zh": "说明",
+      "en": "illustrate",
+      "ipa": "[ˈɪləstreɪt]",
+      "pos": "v.",
+      "gloss": "说明；阐明"
+    },
+    {
+      "i": 68,
+      "zh": "底座",
+      "en": "base",
+      "ipa": "[beɪs]",
+      "pos": "n.",
+      "gloss": "底座；基础"
+    },
+    {
+      "i": 69,
+      "zh": "地基",
+      "en": "groundwork",
+      "ipa": "[ˈɡraʊndwɜːrk]",
+      "pos": "n.",
+      "gloss": "地基；基础"
+    },
+    {
+      "i": 70,
+      "zh": "外国公司",
+      "en": "foreign",
+      "ipa": "[ˈfɔːrən]",
+      "pos": "adj.",
+      "gloss": "外国的；对外的"
+    },
+    {
+      "i": 71,
+      "zh": "盖楼",
+      "en": "construct",
+      "ipa": "[kənˈstrʌkt]",
+      "pos": "v.",
+      "gloss": "建设；建造"
+    },
+    {
+      "i": 72,
+      "zh": "移动底座",
+      "en": "mobile",
+      "ipa": "[ˈmoʊbl]",
+      "pos": "adj.",
+      "gloss": "移动的；可移动的"
+    },
+    {
+      "i": 73,
+      "zh": "后来者",
+      "en": "latecomer",
+      "ipa": "[ˈleɪtkʌmər]",
+      "pos": "n.",
+      "gloss": "后来者；后进者"
+    },
+    {
+      "i": 74,
+      "skip": true
+    },
+    {
+      "i": 75,
+      "zh": "隐姓埋名",
+      "en": "anonymous",
+      "ipa": "[əˈnɑːnɪməs]",
+      "pos": "adj.",
+      "gloss": "匿名的；隐名的"
+    },
+    {
+      "i": 76,
+      "zh": "系统级",
+      "en": "systemic",
+      "ipa": "[sɪˈstemɪk]",
+      "pos": "adj.",
+      "gloss": "系统级的；全局的"
+    },
+    {
+      "i": 77,
+      "zh": "主动跟进",
+      "en": "proactive",
+      "ipa": "[proʊˈæktɪv]",
+      "pos": "adj.",
+      "gloss": "主动的；前瞻的"
+    },
+    {
+      "i": 78,
+      "zh": "万亿",
+      "en": "trillion",
+      "ipa": "[ˈtrɪljən]",
+      "pos": "n.",
+      "gloss": "万亿；兆"
+    },
+    {
+      "i": 79,
+      "zh": "两条路",
+      "en": "pathway",
+      "ipa": "[ˈpæθweɪ]",
+      "pos": "n.",
+      "gloss": "路径；通道"
+    },
+    {
+      "i": 80,
+      "zh": "功能注册",
+      "en": "register",
+      "ipa": "[ˈredʒɪstər]",
+      "pos": "v.",
+      "gloss": "注册；登记"
+    },
+    {
+      "i": 81,
+      "zh": "实时画面",
+      "en": "realtime",
+      "ipa": "[riːl taɪm]",
+      "pos": "adj.",
+      "gloss": "实时的"
+    },
+    {
+      "i": 82,
+      "zh": "自动化",
+      "en": "automation",
+      "ipa": "[ˌɔːtəˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 83,
+      "zh": "中长尾",
+      "en": "longtail",
+      "ipa": "[lɔːŋ teɪl]",
+      "pos": "n.",
+      "gloss": "长尾；长尾效应"
+    },
+    {
+      "i": 84,
+      "zh": "平台博弈",
+      "en": "rivalry",
+      "ipa": "[ˈraɪvəlri]",
+      "pos": "n.",
+      "gloss": "竞争；对抗"
+    },
+    {
+      "i": 85,
+      "zh": "实验预览",
+      "en": "preview",
+      "ipa": "[ˈpriːvjuː]",
+      "pos": "n.",
+      "gloss": "预览；预展"
+    },
+    {
+      "i": 86,
+      "zh": "控制面",
+      "en": "controlplane",
+      "ipa": "[kənˈtroʊl pleɪn]",
+      "pos": "n.",
+      "gloss": "控制面；控制层"
+    },
+    {
+      "i": 87,
+      "zh": "剪刀差",
+      "en": "divergence",
+      "ipa": "[daɪˈvɜːrdʒəns]",
+      "pos": "n.",
+      "gloss": "分歧；剪刀差"
+    },
+    {
+      "i": 88,
+      "zh": "开放",
+      "en": "open",
+      "ipa": "[ˈoʊpən]",
+      "pos": "adj.",
+      "gloss": "开放的；公开的"
+    },
+    {
+      "i": 89,
+      "zh": "胡萝卜",
+      "en": "carrot",
+      "ipa": "[ˈkærət]",
+      "pos": "n.",
+      "gloss": "胡萝卜；激励"
+    },
+    {
+      "i": 90,
+      "skip": true
+    },
+    {
+      "i": 91,
+      "zh": "根本差异",
+      "en": "fundamental",
+      "ipa": "[ˌfʌndəˈmentl]",
+      "pos": "adj.",
+      "gloss": "根本的；基本的"
+    },
+    {
+      "i": 92,
+      "zh": "起点",
+      "en": "startpoint",
+      "ipa": "[stɑːrt pɔɪnt]",
+      "pos": "n.",
+      "gloss": "起点"
+    },
+    {
+      "i": 93,
+      "zh": "真空",
+      "en": "vacuum",
+      "ipa": "[ˈvækjuːm]",
+      "pos": "n.",
+      "gloss": "真空；空白"
+    },
+    {
+      "i": 94,
+      "zh": "欧盟",
+      "en": "european",
+      "ipa": "[ˌjʊrəˈpiːən]",
+      "pos": "adj.",
+      "gloss": "欧洲的；欧盟的"
+    },
+    {
+      "i": 95,
+      "zh": "前两大",
+      "en": "major",
+      "ipa": "[ˈmeɪdʒər]",
+      "pos": "adj.",
+      "gloss": "主要的；重大的"
+    },
+    {
+      "i": 96,
+      "zh": "监管强度",
+      "en": "intensity",
+      "ipa": "[ɪnˈtensəti]",
+      "pos": "n.",
+      "gloss": "强度"
+    },
+    {
+      "i": 97,
+      "zh": "各举各的旗",
+      "en": "faction",
+      "ipa": "[ˈfækʃn]",
+      "pos": "n.",
+      "gloss": "派系；各举各的旗"
+    },
+    {
+      "i": 98,
+      "zh": "最完整",
+      "en": "complete",
+      "ipa": "[kəmˈpliːt]",
+      "pos": "adj.",
+      "gloss": "完整的；完全的"
+    },
+    {
+      "i": 99,
+      "zh": "全栈自有",
+      "en": "fullstack",
+      "ipa": "[fʊl stæk]",
+      "pos": "n.",
+      "gloss": "全栈；全端"
+    },
+    {
+      "i": 100,
+      "zh": "参数",
+      "en": "parameter",
+      "ipa": "[pəˈræmɪtər]",
+      "pos": "n.",
+      "gloss": "参数"
+    },
+    {
+      "i": 101,
+      "zh": "智能体框架",
+      "en": "framework",
+      "ipa": "[ˈfreɪmwɜːrk]",
+      "pos": "n.",
+      "gloss": "框架；架构"
+    },
+    {
+      "i": 102,
+      "zh": "交互范式",
+      "en": "paradigm",
+      "ipa": "[ˈpærədaɪm]",
+      "pos": "n.",
+      "gloss": "范式；典范"
+    },
+    {
+      "i": 103,
+      "zh": "完整度",
+      "en": "completeness",
+      "ipa": "[kəmˈpliːtnəs]",
+      "pos": "n.",
+      "gloss": "完整度；完整性"
+    },
+    {
+      "i": 104,
+      "zh": "闭环边界",
+      "en": "border",
+      "ipa": "[ˈbɔːrdər]",
+      "pos": "n.",
+      "gloss": "边界；闭环边界"
+    },
+    {
+      "i": 105,
+      "zh": "孤岛",
+      "en": "isolated",
+      "ipa": "[ˈaɪsəleɪtɪd]",
+      "pos": "adj.",
+      "gloss": "孤立的；隔离的"
+    },
+    {
+      "i": 106,
+      "skip": true
+    },
+    {
+      "i": 107,
+      "skip": true
+    },
+    {
+      "i": 108,
+      "zh": "支持",
+      "en": "support",
+      "ipa": "[səˈpɔːrt]",
+      "pos": "v.",
+      "gloss": "支持"
+    },
+    {
+      "i": 109,
+      "zh": "墙",
+      "en": "wall",
+      "ipa": "[wɔːl]",
+      "pos": "n.",
+      "gloss": "墙；屏障"
+    },
+    {
+      "i": 110,
+      "zh": "协议",
+      "en": "protocol",
+      "ipa": "[ˈproʊtəkɔːl]",
+      "pos": "n.",
+      "gloss": "协议；议定书"
+    },
+    {
+      "i": 111,
+      "skip": true
+    },
+    {
+      "i": 112,
+      "zh": "互不相认",
+      "en": "unfamiliar",
+      "ipa": "[ˌʌnfəˈmɪliər]",
+      "pos": "adj.",
+      "gloss": "不熟悉的；不相认的"
+    },
+    {
+      "i": 113,
+      "zh": "日程习惯",
+      "en": "routine",
+      "ipa": "[ruːˈtiːn]",
+      "pos": "n.",
+      "gloss": "日常；惯例"
+    },
+    {
+      "i": 114,
+      "zh": "用户数据",
+      "en": "data",
+      "ipa": "[ˈdeɪtə]",
+      "pos": "n.",
+      "gloss": "数据"
+    },
+    {
+      "i": 115,
+      "zh": "没有这个问题",
+      "en": "issue",
+      "ipa": "[ˈɪʃuː]",
+      "pos": "n.",
+      "gloss": "问题；议题"
+    },
+    {
+      "i": 116,
+      "zh": "私产",
+      "en": "asset",
+      "ipa": "[ˈæset]",
+      "pos": "n.",
+      "gloss": "资产；财产"
+    },
+    {
+      "i": 117,
+      "zh": "整机",
+      "en": "handset",
+      "ipa": "[ˈhændset]",
+      "pos": "n.",
+      "gloss": "手机；整机"
+    },
+    {
+      "i": 118,
+      "zh": "调用",
+      "en": "invoke",
+      "ipa": "[ɪnˈvoʊk]",
+      "pos": "v.",
+      "gloss": "调用；唤起"
+    },
+    {
+      "i": 119,
+      "zh": "开放平台",
+      "en": "platform",
+      "ipa": "[ˈplætfɔːrm]",
+      "pos": "n.",
+      "gloss": "平台"
+    },
+    {
+      "i": 120,
+      "zh": "生态平台",
+      "en": "ecoplatform",
+      "ipa": "[ˈiːkoʊ plætfɔːrm]",
+      "pos": "n.",
+      "gloss": "生态平台"
+    },
+    {
+      "i": 121,
+      "zh": "智能体",
+      "en": "agent",
+      "ipa": "[ˈeɪdʒənt]",
+      "pos": "n.",
+      "gloss": "智能体；代理"
+    },
+    {
+      "i": 122,
+      "zh": "各走一遍",
+      "en": "repeat",
+      "ipa": "[rɪˈpiːt]",
+      "pos": "v.",
+      "gloss": "重复；重做"
+    },
+    {
+      "i": 123,
+      "zh": "审核",
+      "en": "audit",
+      "ipa": "[ˈɔːdɪt]",
+      "pos": "n.",
+      "gloss": "审计；审核"
+    },
+    {
+      "i": 124,
+      "zh": "悖论",
+      "en": "paradox",
+      "ipa": "[ˈpærədɑːks]",
+      "pos": "n.",
+      "gloss": "悖论；矛盾"
+    },
+    {
+      "i": 125,
+      "zh": "头部",
+      "en": "tierone",
+      "ipa": "[tɪr wʌn]",
+      "pos": "n.",
+      "gloss": "头部；第一梯队"
+    },
+    {
+      "i": 126,
+      "zh": "零件",
+      "en": "component",
+      "ipa": "[kəmˈpoʊnənt]",
+      "pos": "n.",
+      "gloss": "组件；零件"
+    },
+    {
+      "i": 127,
+      "skip": true
+    },
+    {
+      "i": 128,
+      "zh": "协议之外",
+      "en": "beyond",
+      "ipa": "[bɪˈjɑːnd]",
+      "pos": "prep.",
+      "gloss": "超出；在……之外"
+    },
+    {
+      "i": 129,
+      "zh": "公共层",
+      "en": "commonlayer",
+      "ipa": "[ˈkɑːmən leɪər]",
+      "pos": "n.",
+      "gloss": "公共层"
+    },
+    {
+      "i": 130,
+      "zh": "协议管不到",
+      "en": "ungoverned",
+      "ipa": "[ʌnˈɡʌvərnd]",
+      "pos": "adj.",
+      "gloss": "不受管束的；协议管不到的"
+    },
+    {
+      "i": 131,
+      "zh": "标准化",
+      "en": "standardize",
+      "ipa": "[ˈstændərdaɪz]",
+      "pos": "v.",
+      "gloss": "标准化；规范"
+    },
+    {
+      "i": 132,
+      "zh": "四层",
+      "en": "layer",
+      "ipa": "[ˈleɪər]",
+      "pos": "n.",
+      "gloss": "层；层次"
+    },
+    {
+      "i": 133,
+      "zh": "意图",
+      "en": "intent",
+      "ipa": "[ɪnˈtent]",
+      "pos": "n.",
+      "gloss": "意图；意向"
+    },
+    {
+      "i": 134,
+      "zh": "名单",
+      "en": "roster",
+      "ipa": "[ˈrɑːstər]",
+      "pos": "n.",
+      "gloss": "名单；花名册"
+    },
+    {
+      "i": 135,
+      "zh": "业内人士",
+      "en": "insider",
+      "ipa": "[ɪnˈsaɪdər]",
+      "pos": "n.",
+      "gloss": "内部人士"
+    },
+    {
+      "i": 136,
+      "zh": "抵触",
+      "en": "resistance",
+      "ipa": "[rɪˈzɪstəns]",
+      "pos": "n.",
+      "gloss": "抵抗；抵触"
+    },
+    {
+      "i": 137,
+      "zh": "应用商店",
+      "en": "appstore",
+      "ipa": "[æp stɔːr]",
+      "pos": "n.",
+      "gloss": "应用商店"
+    },
+    {
+      "i": 138,
+      "zh": "信息流",
+      "en": "feed",
+      "ipa": "[fiːd]",
+      "pos": "n.",
+      "gloss": "信息流；推送"
+    },
+    {
+      "i": 139,
+      "zh": "让渡",
+      "en": "cede",
+      "ipa": "[siːd]",
+      "pos": "v.",
+      "gloss": "让渡；放弃"
+    },
+    {
+      "i": 140,
+      "zh": "绕路方案",
+      "en": "workaround",
+      "ipa": "[ˈwɜːrkəraʊnd]",
+      "pos": "n.",
+      "gloss": "绕路方案；变通方法"
+    },
+    {
+      "i": 141,
+      "zh": "围堵",
+      "en": "contain",
+      "ipa": "[kənˈteɪn]",
+      "pos": "v.",
+      "gloss": "遏制；围堵"
+    },
+    {
+      "i": 142,
+      "zh": "牵一发而动全身",
+      "en": "domino",
+      "ipa": "[ˈdɑːmɪnoʊ]",
+      "pos": "n.",
+      "gloss": "多米诺效应；连锁"
+    },
+    {
+      "i": 143,
+      "skip": true
+    },
+    {
+      "i": 144,
+      "zh": "全面战争",
+      "en": "allout",
+      "ipa": "[ɔːl aʊt]",
+      "pos": "adj.",
+      "gloss": "全面的；全力"
+    },
+    {
+      "i": 145,
+      "zh": "环环加固",
+      "en": "reinforce",
+      "ipa": "[ˌriːɪnˈfɔːrs]",
+      "pos": "v.",
+      "gloss": "加固；加强"
+    },
+    {
+      "i": 146,
+      "zh": "开口",
+      "en": "initiate",
+      "ipa": "[ɪˈnɪʃieɪt]",
+      "pos": "v.",
+      "gloss": "发起；开始"
+    },
+    {
+      "i": 147,
+      "zh": "分账规则",
+      "en": "splitting",
+      "ipa": "[ˈsplɪtɪŋ]",
+      "pos": "n.",
+      "gloss": "分割；分成"
+    },
+    {
+      "i": 148,
+      "zh": "分发",
+      "en": "handout",
+      "ipa": "[ˈhændaʊt]",
+      "pos": "n.",
+      "gloss": "分发"
+    },
+    {
+      "i": 149,
+      "zh": "议价地位",
+      "en": "bargain",
+      "ipa": "[ˈbɑːrɡən]",
+      "pos": "v.",
+      "gloss": "议价；讨价还价"
+    },
+    {
+      "i": 150,
+      "zh": "任务佣金",
+      "en": "commission",
+      "ipa": "[kəˈmɪʃn]",
+      "pos": "n.",
+      "gloss": "佣金；提成"
+    },
+    {
+      "i": 151,
+      "zh": "竞价排名",
+      "en": "auction",
+      "ipa": "[ˈɔːkʃn]",
+      "pos": "n.",
+      "gloss": "拍卖；竞价"
+    },
+    {
+      "i": 152,
+      "zh": "反常识",
+      "en": "counterintuitive",
+      "ipa": "[ˌkaʊntərɪnˈtuːɪtɪv]",
+      "pos": "adj.",
+      "gloss": "反直觉的"
+    },
+    {
+      "i": 153,
+      "zh": "空中楼阁",
+      "en": "illusion",
+      "ipa": "[ɪˈluːʒn]",
+      "pos": "n.",
+      "gloss": "幻象；空中楼阁"
+    },
+    {
+      "i": 154,
+      "zh": "根子",
+      "en": "rootcause",
+      "ipa": "[ruːt kɔːz]",
+      "pos": "n.",
+      "gloss": "根因；根源"
+    },
+    {
+      "i": 155,
+      "zh": "分发秩序",
+      "en": "order",
+      "ipa": "[ˈɔːrdər]",
+      "pos": "n.",
+      "gloss": "秩序；顺序"
+    },
+    {
+      "i": 156,
+      "skip": true
+    },
+    {
+      "i": 157,
+      "zh": "设备",
+      "en": "equipment",
+      "ipa": "[ɪˈkwɪpmənt]",
+      "pos": "n.",
+      "gloss": "设备"
+    },
+    {
+      "i": 158,
+      "zh": "公共调用网",
+      "en": "network",
+      "ipa": "[ˈnetwɜːrk]",
+      "pos": "n.",
+      "gloss": "网络"
+    },
+    {
+      "i": 159,
+      "zh": "卡住",
+      "en": "stuck",
+      "ipa": "[stʌk]",
+      "pos": "adj.",
+      "gloss": "卡住的；困住的"
+    },
+    {
+      "i": 160,
+      "skip": true
+    },
+    {
+      "i": 161,
+      "zh": "格局",
+      "en": "landscape",
+      "ipa": "[ˈlændskeɪp]",
+      "pos": "n.",
+      "gloss": "格局；版图"
+    },
+    {
+      "i": 162,
+      "zh": "下单",
+      "en": "placeorder",
+      "ipa": "[pleɪs ˈɔːrdər]",
+      "pos": "v.",
+      "gloss": "下单；订购"
+    },
+    {
+      "i": 163,
+      "zh": "时间表",
+      "en": "timeline",
+      "ipa": "[ˈtaɪmlaɪn]",
+      "pos": "n.",
+      "gloss": "时间表；时间线"
+    },
+    {
+      "i": 164,
+      "zh": "临时起意",
+      "en": "impulse",
+      "ipa": "[ˈɪmpʌls]",
+      "pos": "n.",
+      "gloss": "冲动；临时想法"
+    },
+    {
+      "i": 165,
+      "zh": "应声大涨",
+      "en": "surge",
+      "ipa": "[sɜːrdʒ]",
+      "pos": "v.",
+      "gloss": "猛涨；激增"
+    },
+    {
+      "i": 166,
+      "zh": "官宣",
+      "en": "official",
+      "ipa": "[əˈfɪʃl]",
+      "pos": "adj.",
+      "gloss": "官方的；正式的"
+    },
+    {
+      "i": 167,
+      "zh": "自主选择",
+      "en": "voluntary",
+      "ipa": "[ˈvɑːlənteri]",
+      "pos": "adj.",
+      "gloss": "自愿的；自主的"
+    },
+    {
+      "i": 168,
+      "zh": "开发模式",
+      "en": "manual",
+      "ipa": "[ˈmænjuəl]",
+      "pos": "adj.",
+      "gloss": "手动的；开发模式"
+    },
+    {
+      "i": 169,
+      "zh": "推荐",
+      "en": "recommend",
+      "ipa": "[ˌrekəˈmend]",
+      "pos": "v.",
+      "gloss": "推荐；建议"
+    },
+    {
+      "i": 170,
+      "skip": true
+    },
+    {
+      "i": 171,
+      "zh": "宣布",
+      "en": "announce",
+      "ipa": "[əˈnaʊns]",
+      "pos": "v.",
+      "gloss": "宣布；发布"
+    },
+    {
+      "i": 172,
+      "skip": true
+    },
+    {
+      "i": 173,
+      "skip": true
+    },
+    {
+      "i": 174,
+      "zh": "最后通牒",
+      "en": "ultimatum",
+      "ipa": "[ˌʌltɪˈmeɪtəm]",
+      "pos": "n.",
+      "gloss": "最后通牒"
+    },
+    {
+      "i": 175,
+      "zh": "选择",
+      "en": "option",
+      "ipa": "[ˈɑːpʃn]",
+      "pos": "n.",
+      "gloss": "选择；选项"
+    },
+    {
+      "i": 176,
+      "zh": "挑明",
+      "en": "clarify",
+      "ipa": "[ˈklærəfaɪ]",
+      "pos": "v.",
+      "gloss": "阐明；挑明"
+    },
+    {
+      "i": 177,
+      "zh": "门票",
+      "en": "ticket",
+      "ipa": "[ˈtɪkɪt]",
+      "pos": "n.",
+      "gloss": "门票；入场券"
+    },
+    {
+      "i": 178,
+      "skip": true
+    },
+    {
+      "i": 179,
+      "zh": "复刻",
+      "en": "replicate",
+      "ipa": "[ˈreplɪkeɪt]",
+      "pos": "v.",
+      "gloss": "复制；复刻"
+    },
+    {
+      "i": 180,
+      "zh": "自动模式",
+      "en": "automode",
+      "ipa": "[ˈɔːtoʊ moʊd]",
+      "pos": "n.",
+      "gloss": "自动模式"
+    },
+    {
+      "i": 181,
+      "zh": "不配合",
+      "en": "resist",
+      "ipa": "[rɪˈzɪst]",
+      "pos": "v.",
+      "gloss": "抵抗；抗拒"
+    },
+    {
+      "i": 182,
+      "zh": "明文",
+      "en": "explicitly",
+      "ipa": "[ɪkˈsplɪsɪtli]",
+      "pos": "adv.",
+      "gloss": "明确地；明文"
+    },
+    {
+      "i": 183,
+      "zh": "改写",
+      "en": "redefine",
+      "ipa": "[ˌriːdɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "重新定义；改写"
+    },
+    {
+      "i": 184,
+      "zh": "私有",
+      "en": "private",
+      "ipa": "[ˈpraɪvət]",
+      "pos": "adj.",
+      "gloss": "私有的；私人的"
+    },
+    {
+      "i": 185,
+      "zh": "方言",
+      "en": "dialect",
+      "ipa": "[ˈdaɪəlekt]",
+      "pos": "n.",
+      "gloss": "方言；地方话"
+    },
+    {
+      "i": 186,
+      "zh": "坐立不安",
+      "en": "uneasy",
+      "ipa": "[ʌnˈiːzi]",
+      "pos": "adj.",
+      "gloss": "不安的；担忧的"
+    },
+    {
+      "i": 187,
+      "zh": "身份",
+      "en": "identity",
+      "ipa": "[aɪˈdentəti]",
+      "pos": "n.",
+      "gloss": "身份；标识"
+    },
+    {
+      "i": 188,
+      "zh": "实名体系",
+      "en": "realname",
+      "ipa": "[riːl neɪm]",
+      "pos": "n.",
+      "gloss": "实名"
+    },
+    {
+      "i": 189,
+      "zh": "支付级",
+      "en": "payment",
+      "ipa": "[ˈpeɪmənt]",
+      "pos": "n.",
+      "gloss": "支付"
+    },
+    {
+      "i": 190,
+      "zh": "分成",
+      "en": "revenue",
+      "ipa": "[ˈrevənjuː]",
+      "pos": "n.",
+      "gloss": "收入；分成"
+    },
+    {
+      "i": 191,
+      "zh": "现成",
+      "en": "readymade",
+      "ipa": "[ˈredi meɪd]",
+      "pos": "adj.",
+      "gloss": "现成的；预制好的"
+    },
+    {
+      "i": 192,
+      "zh": "墙内",
+      "en": "enclosed",
+      "ipa": "[ɪnˈkloʊzd]",
+      "pos": "adj.",
+      "gloss": "封闭的；围墙内的"
+    },
+    {
+      "i": 193,
+      "skip": true
+    },
+    {
+      "i": 194,
+      "zh": "凑齐",
+      "en": "assemble",
+      "ipa": "[əˈsembl]",
+      "pos": "v.",
+      "gloss": "集合；凑齐"
+    },
+    {
+      "i": 195,
+      "skip": true
+    },
+    {
+      "i": 196,
+      "zh": "开闸",
+      "en": "unleash",
+      "ipa": "[ʌnˈliːʃ]",
+      "pos": "v.",
+      "gloss": "释放；放开"
+    },
+    {
+      "i": 197,
+      "zh": "心智",
+      "en": "mindshare",
+      "ipa": "[ˈmaɪndʃer]",
+      "pos": "n.",
+      "gloss": "心智份额；认知"
+    },
+    {
+      "i": 198,
+      "zh": "商业闭环",
+      "en": "closedloop",
+      "ipa": "[kloʊzd luːp]",
+      "pos": "n.",
+      "gloss": "闭环；完整链路"
+    },
+    {
+      "i": 199,
+      "zh": "货架逻辑",
+      "en": "shelf",
+      "ipa": "[ʃelf]",
+      "pos": "n.",
+      "gloss": "货架；货架逻辑"
+    },
+    {
+      "i": 200,
+      "zh": "客户沉淀",
+      "en": "loyalty",
+      "ipa": "[ˈlɔɪəlti]",
+      "pos": "n.",
+      "gloss": "忠诚度；客户沉淀"
+    },
+    {
+      "i": 201,
+      "zh": "手续费",
+      "en": "fee",
+      "ipa": "[fiː]",
+      "pos": "n.",
+      "gloss": "费用；手续费"
+    },
+    {
+      "i": 202,
+      "zh": "推理成本",
+      "en": "cost",
+      "ipa": "[kɔːst]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 203,
+      "zh": "商业支付",
+      "en": "commerce",
+      "ipa": "[ˈkɑːmɜːrs]",
+      "pos": "n.",
+      "gloss": "商业；商务"
+    },
+    {
+      "i": 204,
+      "zh": "变现路",
+      "en": "monetization",
+      "ipa": "[ˌmɑːnɪtaɪˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "变现；商业化"
+    },
+    {
+      "i": 205,
+      "skip": true
+    },
+    {
+      "i": 206,
+      "skip": true
+    },
+    {
+      "i": 207,
+      "zh": "结构性局限",
+      "en": "structural",
+      "ipa": "[ˈstrʌktʃərəl]",
+      "pos": "adj.",
+      "gloss": "结构性的"
+    },
+    {
+      "i": 208,
+      "skip": true
+    },
+    {
+      "i": 209,
+      "skip": true
+    },
+    {
+      "i": 210,
+      "zh": "默认设置",
+      "en": "default",
+      "ipa": "[dɪˈfɔːlt]",
+      "pos": "n.",
+      "gloss": "默认；缺省"
+    },
+    {
+      "i": 211,
+      "zh": "演示",
+      "en": "demonstrate",
+      "ipa": "[ˈdemənstreɪt]",
+      "pos": "v.",
+      "gloss": "演示；示范"
+    },
+    {
+      "i": 212,
+      "skip": true
+    },
+    {
+      "i": 213,
+      "zh": "双向钳制",
+      "en": "checkmate",
+      "ipa": "[ˈtʃekmeɪt]",
+      "pos": "n.",
+      "gloss": "钳制；将死"
+    },
+    {
+      "i": 214,
+      "skip": true
+    },
+    {
+      "i": 215,
+      "zh": "大陆",
+      "en": "continent",
+      "ipa": "[ˈkɑːntɪnənt]",
+      "pos": "n.",
+      "gloss": "大陆；大洲"
+    },
+    {
+      "i": 216,
+      "zh": "全球",
+      "en": "global",
+      "ipa": "[ˈɡloʊbl]",
+      "pos": "adj.",
+      "gloss": "全球的"
+    },
+    {
+      "i": 217,
+      "skip": true
+    },
+    {
+      "i": 218,
+      "zh": "守墙",
+      "en": "fortress",
+      "ipa": "[ˈfɔːrtrəs]",
+      "pos": "n.",
+      "gloss": "堡垒；要塞"
+    },
+    {
+      "i": 219,
+      "zh": "称王",
+      "en": "dominant",
+      "ipa": "[ˈdɑːmɪnənt]",
+      "pos": "adj.",
+      "gloss": "主导的；称王的"
+    },
+    {
+      "i": 220,
+      "zh": "上桌",
+      "en": "negotiation",
+      "ipa": "[nɪˌɡoʊʃiˈeɪʃn]",
+      "pos": "n.",
+      "gloss": "谈判；协商"
+    },
+    {
+      "i": 221,
+      "zh": "互斥",
+      "en": "mutual",
+      "ipa": "[ˈmjuːtʃuəl]",
+      "pos": "adj.",
+      "gloss": "相互的；互斥的"
+    },
+    {
+      "i": 222,
+      "zh": "天然",
+      "en": "natural",
+      "ipa": "[ˈnætʃərəl]",
+      "pos": "adj.",
+      "gloss": "自然的；天然的"
+    },
+    {
+      "i": 223,
+      "zh": "公共底座",
+      "en": "publicbase",
+      "ipa": "[ˈpʌblɪk beɪs]",
+      "pos": "n.",
+      "gloss": "公共底座"
+    },
+    {
+      "i": 224,
+      "zh": "合法性",
+      "en": "legitimate",
+      "ipa": "[lɪˈdʒɪtɪmət]",
+      "pos": "adj.",
+      "gloss": "合法的；正当的"
+    },
+    {
+      "i": 225,
+      "skip": true
+    },
+    {
+      "i": 226,
+      "zh": "原子能力",
+      "en": "atomic",
+      "ipa": "[əˈtɑːmɪk]",
+      "pos": "adj.",
+      "gloss": "原子的；基础的"
+    },
+    {
+      "i": 227,
+      "zh": "全渠道",
+      "en": "omni",
+      "ipa": "[ˈɑːmni]",
+      "pos": "adj.",
+      "gloss": "全渠道的；全方位的"
+    },
+    {
+      "i": 228,
+      "zh": "必然产物",
+      "en": "inevitable",
+      "ipa": "[ɪnˈevɪtəbl]",
+      "pos": "adj.",
+      "gloss": "不可避免的"
+    },
+    {
+      "i": 229,
+      "skip": true
+    },
+    {
+      "i": 230,
+      "zh": "现成答案",
+      "en": "template",
+      "ipa": "[ˈtemplɪt]",
+      "pos": "n.",
+      "gloss": "模板；现成方案"
+    },
+    {
+      "i": 231,
+      "skip": true
+    },
+    {
+      "i": 232,
+      "zh": "重复造轮子",
+      "en": "duplicate",
+      "ipa": "[ˈduːplɪkeɪt]",
+      "pos": "v.",
+      "gloss": "重复；复制"
+    },
+    {
+      "i": 233,
+      "skip": true
+    },
+    {
+      "i": 234,
+      "zh": "特殊性",
+      "en": "peculiarity",
+      "ipa": "[pɪˌkjuːliˈærəti]",
+      "pos": "n.",
+      "gloss": "特殊性；独特性"
+    },
+    {
+      "i": 235,
+      "zh": "三方混战",
+      "en": "melee",
+      "ipa": "[ˈmeɪleɪ]",
+      "pos": "n.",
+      "gloss": "混战；乱战"
+    },
+    {
+      "i": 236,
+      "zh": "控制权",
+      "en": "control",
+      "ipa": "[kənˈtroʊl]",
+      "pos": "n.",
+      "gloss": "控制权"
+    },
+    {
+      "i": 237,
+      "zh": "变数",
+      "en": "uncertainty",
+      "ipa": "[ʌnˈsɜːrtnti]",
+      "pos": "n.",
+      "gloss": "不确定性"
+    },
+    {
+      "i": 238,
+      "zh": "全量铺开",
+      "en": "rollout",
+      "ipa": "[ˈroʊlaʊt]",
+      "pos": "n.",
+      "gloss": "铺开；推广"
+    },
+    {
+      "i": 239,
+      "skip": true
+    },
+    {
+      "i": 240,
+      "zh": "推演",
+      "en": "scenario",
+      "ipa": "[sɪˈnærioʊ]",
+      "pos": "n.",
+      "gloss": "场景；推演"
+    },
+    {
+      "i": 241,
+      "zh": "近乎",
+      "en": "almost",
+      "ipa": "[ˈɔːlmoʊst]",
+      "pos": "adv.",
+      "gloss": "几乎；近乎"
+    },
+    {
+      "i": 242,
+      "zh": "互传联盟",
+      "en": "alliance",
+      "ipa": "[əˈlaɪəns]",
+      "pos": "n.",
+      "gloss": "联盟"
+    },
+    {
+      "i": 243,
+      "zh": "海内外",
+      "en": "domestic",
+      "ipa": "[dəˈmestɪk]",
+      "pos": "adj.",
+      "gloss": "国内的；海内外的"
+    },
+    {
+      "i": 244,
+      "zh": "账单",
+      "en": "bill",
+      "ipa": "[bɪl]",
+      "pos": "n.",
+      "gloss": "账单；账目"
+    },
+    {
+      "i": 245,
+      "zh": "堆料",
+      "en": "spec",
+      "ipa": "[spek]",
+      "pos": "n.",
+      "gloss": "规格；配置"
+    },
+    {
+      "i": 246,
+      "zh": "一线决策者",
+      "en": "executive",
+      "ipa": "[ɪɡˈzekjətɪv]",
+      "pos": "n.",
+      "gloss": "高管；决策者"
+    },
+    {
+      "i": 247,
+      "zh": "悲观",
+      "en": "pessimistic",
+      "ipa": "[ˌpesɪˈmɪstɪk]",
+      "pos": "adj.",
+      "gloss": "悲观的"
+    },
+    {
+      "i": 248,
+      "zh": "实现",
+      "en": "implementation",
+      "ipa": "[ˌɪmplɪmenˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "实现；实施"
+    },
+    {
+      "i": 249,
+      "skip": true
+    },
+    {
+      "i": 250,
+      "zh": "治理层",
+      "en": "governance",
+      "ipa": "[ˈɡʌvərnəns]",
+      "pos": "n.",
+      "gloss": "治理；管理"
+    },
+    {
+      "i": 251,
+      "zh": "公共通道",
+      "en": "corridor",
+      "ipa": "[ˈkɔːrɪdɔːr]",
+      "pos": "n.",
+      "gloss": "走廊；通道"
+    },
+    {
+      "i": 252,
+      "zh": "入场",
+      "en": "entry",
+      "ipa": "[ˈentri]",
+      "pos": "n.",
+      "gloss": "进入；入场"
+    },
+    {
+      "i": 253,
+      "zh": "共建",
+      "en": "cobuild",
+      "ipa": "[koʊ bɪld]",
+      "pos": "v.",
+      "gloss": "共建；协同建设"
+    },
+    {
+      "i": 254,
+      "skip": true
+    },
+    {
+      "i": 255,
+      "skip": true
+    },
+    {
+      "i": 256,
+      "zh": "起草单位",
+      "en": "drafter",
+      "ipa": "[ˈdræftər]",
+      "pos": "n.",
+      "gloss": "起草方"
+    },
+    {
+      "i": 257,
+      "zh": "信任",
+      "en": "trust",
+      "ipa": "[trʌst]",
+      "pos": "n.",
+      "gloss": "信任；信赖"
+    },
+    {
+      "i": 258,
+      "zh": "分钱分权",
+      "en": "equity",
+      "ipa": "[ˈekwəti]",
+      "pos": "n.",
+      "gloss": "公平；权益"
+    },
+    {
+      "i": 259,
+      "zh": "互通",
+      "en": "interconnect",
+      "ipa": "[ˌɪntərkəˈnekt]",
+      "pos": "v.",
+      "gloss": "互连；互通"
+    },
+    {
+      "i": 260,
+      "zh": "互不互通",
+      "en": "disconnected",
+      "ipa": "[ˌdɪskəˈnektɪd]",
+      "pos": "adj.",
+      "gloss": "断开的；不互通的"
+    },
+    {
+      "i": 261,
+      "zh": "牵头",
+      "en": "lead",
+      "ipa": "[liːd]",
+      "pos": "v.",
+      "gloss": "牵头；领导"
+    },
+    {
+      "i": 262,
+      "skip": true
+    },
+    {
+      "i": 263,
+      "skip": true
+    },
+    {
+      "i": 264,
+      "zh": "顺斜率往前延",
+      "en": "extrapolate",
+      "ipa": "[ɪkˈstræpəleɪt]",
+      "pos": "v.",
+      "gloss": "外推；延伸"
+    },
+    {
+      "i": 265,
+      "zh": "用户体验",
+      "en": "experience",
+      "ipa": "[ɪkˈspɪriəns]",
+      "pos": "n.",
+      "gloss": "体验；经验"
+    },
+    {
+      "i": 266,
+      "zh": "聊天记录",
+      "en": "chatlog",
+      "ipa": "[tʃæt lɔːɡ]",
+      "pos": "n.",
+      "gloss": "聊天记录"
+    },
+    {
+      "i": 267,
+      "zh": "接孩子",
+      "en": "pickup",
+      "ipa": "[ˈpɪkʌp]",
+      "pos": "n.",
+      "gloss": "接人；接送"
+    },
+    {
+      "i": 268,
+      "zh": "带不走",
+      "en": "portable",
+      "ipa": "[ˈpɔːrtəbl]",
+      "pos": "adj.",
+      "gloss": "可移植的；可携带的"
+    },
+    {
+      "i": 269,
+      "zh": "精神分裂",
+      "en": "split",
+      "ipa": "[splɪt]",
+      "pos": "v.",
+      "gloss": "分裂；分离"
+    },
+    {
+      "i": 270,
+      "zh": "碎",
+      "en": "fragment",
+      "ipa": "[ˈfræɡmənt]",
+      "pos": "v.",
+      "gloss": "碎裂；碎片化"
+    },
+    {
+      "i": 271,
+      "zh": "部落时代",
+      "en": "tribal",
+      "ipa": "[ˈtraɪbl]",
+      "pos": "adj.",
+      "gloss": "部落的；部落式的"
+    },
+    {
+      "i": 272,
+      "zh": "高级闹钟",
+      "en": "alarmclock",
+      "ipa": "[əˈlɑːrm klɑːk]",
+      "pos": "n.",
+      "gloss": "闹钟"
+    },
+    {
+      "i": 273,
+      "skip": true
+    },
+    {
+      "i": 274,
+      "skip": true
+    },
+    {
+      "i": 275,
+      "skip": true
+    },
+    {
+      "i": 276,
+      "zh": "壳",
+      "en": "shell",
+      "ipa": "[ʃel]",
+      "pos": "n.",
+      "gloss": "壳；外壳"
+    },
+    {
+      "i": 277,
+      "skip": true
+    },
+    {
+      "i": 278,
+      "skip": true
+    },
+    {
+      "i": 279,
+      "zh": "船票",
+      "en": "boarding",
+      "ipa": "[ˈbɔːrdɪŋ]",
+      "pos": "n.",
+      "gloss": "登船；船票"
+    },
+    {
+      "i": 280,
+      "zh": "动作",
+      "en": "action",
+      "ipa": "[ˈækʃn]",
+      "pos": "n.",
+      "gloss": "动作；行动"
+    },
+    {
+      "i": 281,
+      "zh": "交卷",
+      "en": "submit",
+      "ipa": "[səbˈmɪt]",
+      "pos": "v.",
+      "gloss": "提交；交卷"
+    },
+    {
+      "i": 282,
+      "zh": "答卷",
+      "en": "answer",
+      "ipa": "[ˈænsər]",
+      "pos": "n.",
+      "gloss": "答案；答卷"
+    },
+    {
+      "i": 283,
+      "skip": true
+    },
+    {
+      "i": 284,
+      "zh": "变成桌子",
+      "en": "convene",
+      "ipa": "[kənˈviːn]",
+      "pos": "v.",
+      "gloss": "召集；开会"
+    },
+    {
+      "i": 285,
+      "skip": true
+    },
+    {
+      "i": 286,
+      "skip": true
+    },
+    {
+      "i": 287,
+      "skip": true
+    },
+    {
+      "i": 288,
+      "zh": "续集",
+      "en": "sequel",
+      "ipa": "[ˈsiːkwəl]",
+      "pos": "n.",
+      "gloss": "续集；后续"
+    },
+    {
+      "i": 289,
+      "zh": "合纵",
+      "en": "coalition",
+      "ipa": "[ˌkoʊəˈlɪʃn]",
+      "pos": "n.",
+      "gloss": "联盟；联合"
+    },
+    {
+      "i": 290,
+      "skip": true
+    },
+    {
+      "i": 291,
+      "skip": true
+    },
+    {
+      "i": 292,
+      "zh": "同质化",
+      "en": "homogeneous",
+      "ipa": "[ˌhoʊməˈdʒiːniəs]",
+      "pos": "adj.",
+      "gloss": "同质的；同质化的"
+    },
+    {
+      "i": 293,
+      "zh": "产业结构",
+      "en": "structure",
+      "ipa": "[ˈstrʌktʃər]",
+      "pos": "n.",
+      "gloss": "结构；产业结构"
+    },
+    {
+      "i": 294,
+      "zh": "度量衡",
+      "en": "measurement",
+      "ipa": "[ˈmeʒərmənt]",
+      "pos": "n.",
+      "gloss": "度量；测量"
+    },
+    {
+      "i": 295,
+      "zh": "各自为战",
+      "en": "fragmented",
+      "ipa": "[ˈfræɡmentɪd]",
+      "pos": "adj.",
+      "gloss": "碎片化的"
+    },
+    {
+      "i": 296,
+      "skip": true
+    },
+    {
+      "i": 297,
+      "skip": true
+    },
+    {
+      "i": 298,
+      "zh": "公开报道",
+      "en": "report",
+      "ipa": "[rɪˈpɔːrt]",
+      "pos": "n.",
+      "gloss": "报道；报告"
+    },
+    {
+      "i": 299,
+      "zh": "商业条款",
+      "en": "provision",
+      "ipa": "[prəˈvɪʒn]",
+      "pos": "n.",
+      "gloss": "条款；规定"
+    },
+    {
+      "i": 300,
+      "zh": "参考资料",
+      "en": "reference",
+      "ipa": "[ˈrefrəns]",
+      "pos": "n.",
+      "gloss": "参考；参考资料"
+    },
+    {
+      "i": 301,
+      "skip": true
+    }
+  ]
+}
