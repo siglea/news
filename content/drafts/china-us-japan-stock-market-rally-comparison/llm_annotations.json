@@ -1,0 +1,1221 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "增长",
+      "en": "growth",
+      "ipa": "[ɡroʊθ]",
+      "pos": "n.",
+      "gloss": "增长"
+    },
+    {
+      "i": 1,
+      "zh": "改善",
+      "en": "improvement",
+      "ipa": "[ɪmˈpruːvmənt]",
+      "pos": "n.",
+      "gloss": "改善"
+    },
+    {
+      "i": 2,
+      "zh": "整体",
+      "en": "entire",
+      "ipa": "[ɪnˈtaɪə]",
+      "pos": "adj.",
+      "gloss": "整体的"
+    },
+    {
+      "i": 3,
+      "zh": "驱动",
+      "en": "driving",
+      "ipa": "[ˈdraɪvɪŋ]",
+      "pos": "adj.",
+      "gloss": "驱动的"
+    },
+    {
+      "i": 4,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɒdʒɪk]",
+      "pos": "n.",
+      "gloss": "逻辑"
+    },
+    {
+      "i": 5,
+      "zh": "走势",
+      "en": "trend",
+      "ipa": "[trend]",
+      "pos": "n.",
+      "gloss": "趋势"
+    },
+    {
+      "i": 6,
+      "zh": "揭示",
+      "en": "reveal",
+      "ipa": "[rɪˈviːl]",
+      "pos": "v.",
+      "gloss": "揭示"
+    },
+    {
+      "i": 7,
+      "skip": true
+    },
+    {
+      "i": 8,
+      "zh": "估值",
+      "en": "valuation",
+      "ipa": "[ˌvæljuˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "估值"
+    },
+    {
+      "i": 9,
+      "zh": "比较",
+      "en": "comparative",
+      "ipa": "[kəmˈpærətɪv]",
+      "pos": "adj.",
+      "gloss": "比较的"
+    },
+    {
+      "i": 10,
+      "zh": "向好",
+      "en": "improving",
+      "ipa": "[ɪmˈpruːvɪŋ]",
+      "pos": "adj.",
+      "gloss": "向好的"
+    },
+    {
+      "i": 11,
+      "zh": "盈利",
+      "en": "earnings",
+      "ipa": "[ˈɜːnɪŋz]",
+      "pos": "n.",
+      "gloss": "盈利"
+    },
+    {
+      "i": 12,
+      "zh": "依赖于",
+      "en": "rely",
+      "ipa": "[rɪˈlaɪ]",
+      "pos": "v.",
+      "gloss": "依赖"
+    },
+    {
+      "i": 13,
+      "zh": "得益于",
+      "en": "benefit",
+      "ipa": "[ˈbenɪfɪt]",
+      "pos": "v.",
+      "gloss": "得益于"
+    },
+    {
+      "i": 14,
+      "zh": "积聚",
+      "en": "accumulate",
+      "ipa": "[əˈkjuːmjʊleɪt]",
+      "pos": "v.",
+      "gloss": "积聚"
+    },
+    {
+      "i": 15,
+      "zh": "消费者",
+      "en": "consumer",
+      "ipa": "[kənˈsjuːmə]",
+      "pos": "n.",
+      "gloss": "消费者"
+    },
+    {
+      "i": 16,
+      "zh": "疲弱",
+      "en": "weakness",
+      "ipa": "[ˈwiːknɪs]",
+      "pos": "n.",
+      "gloss": "疲弱"
+    },
+    {
+      "i": 17,
+      "zh": "分析",
+      "en": "analyze",
+      "ipa": "[ˈænəlaɪz]",
+      "pos": "v.",
+      "gloss": "分析"
+    },
+    {
+      "i": 18,
+      "zh": "拆解",
+      "en": "decompose",
+      "ipa": "[ˌdiːkəmˈpəʊz]",
+      "pos": "v.",
+      "gloss": "拆解"
+    },
+    {
+      "i": 19,
+      "zh": "扩张",
+      "en": "expansion",
+      "ipa": "[ɪkˈspænʃən]",
+      "pos": "n.",
+      "gloss": "扩张"
+    },
+    {
+      "i": 20,
+      "zh": "充裕",
+      "en": "abundant",
+      "ipa": "[əˈbʌndənt]",
+      "pos": "adj.",
+      "gloss": "充裕的"
+    },
+    {
+      "i": 21,
+      "zh": "同时",
+      "en": "simultaneous",
+      "ipa": "[ˌsɪməlˈteɪnɪəs]",
+      "pos": "adj.",
+      "gloss": "同时的"
+    },
+    {
+      "i": 22,
+      "zh": "下跌",
+      "en": "decline",
+      "ipa": "[dɪˈklaɪn]",
+      "pos": "n.",
+      "gloss": "下跌"
+    },
+    {
+      "i": 23,
+      "zh": "累积",
+      "en": "cumulative",
+      "ipa": "[ˈkjuːmjʊlətɪv]",
+      "pos": "adj.",
+      "gloss": "累积的"
+    },
+    {
+      "i": 24,
+      "zh": "基数",
+      "en": "baseline",
+      "ipa": "[ˈbeɪslaɪn]",
+      "pos": "n.",
+      "gloss": "基数"
+    },
+    {
+      "i": 25,
+      "zh": "阶段",
+      "en": "phase",
+      "ipa": "[feɪz]",
+      "pos": "n.",
+      "gloss": "阶段"
+    },
+    {
+      "i": 26,
+      "zh": "下降",
+      "en": "decrease",
+      "ipa": "[dɪˈkriːs]",
+      "pos": "n.",
+      "gloss": "下降"
+    },
+    {
+      "i": 27,
+      "zh": "收益率",
+      "en": "yield",
+      "ipa": "[jiːld]",
+      "pos": "n.",
+      "gloss": "收益率"
+    },
+    {
+      "i": 28,
+      "zh": "结构",
+      "en": "structure",
+      "ipa": "[ˈstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "结构"
+    },
+    {
+      "i": 29,
+      "zh": "面临",
+      "en": "confront",
+      "ipa": "[kənˈfrʌnt]",
+      "pos": "v.",
+      "gloss": "面临"
+    },
+    {
+      "i": 30,
+      "zh": "传导",
+      "en": "transmit",
+      "ipa": "[trænzˈmɪt]",
+      "pos": "v.",
+      "gloss": "传导"
+    },
+    {
+      "i": 31,
+      "zh": "季度",
+      "en": "quarter",
+      "ipa": "[ˈkwɔːtə]",
+      "pos": "n.",
+      "gloss": "季度"
+    },
+    {
+      "i": 32,
+      "zh": "地产",
+      "en": "estate",
+      "ipa": "[ɪˈsteɪt]",
+      "pos": "n.",
+      "gloss": "地产"
+    },
+    {
+      "i": 33,
+      "zh": "行业",
+      "en": "sector",
+      "ipa": "[ˈsektə]",
+      "pos": "n.",
+      "gloss": "行业"
+    },
+    {
+      "i": 34,
+      "zh": "倾斜",
+      "en": "shift",
+      "ipa": "[ʃɪft]",
+      "pos": "v.",
+      "gloss": "倾斜"
+    },
+    {
+      "i": 35,
+      "zh": "浪潮",
+      "en": "wave",
+      "ipa": "[weɪv]",
+      "pos": "n.",
+      "gloss": "浪潮"
+    },
+    {
+      "i": 36,
+      "zh": "上涨",
+      "en": "surge",
+      "ipa": "[sɜːdʒ]",
+      "pos": "n.",
+      "gloss": "上涨"
+    },
+    {
+      "i": 37,
+      "zh": "本质",
+      "en": "essence",
+      "ipa": "[ˈesəns]",
+      "pos": "n.",
+      "gloss": "本质"
+    },
+    {
+      "i": 38,
+      "zh": "显著",
+      "en": "significantly",
+      "ipa": "[sɪɡˈnɪfɪkəntli]",
+      "pos": "adv.",
+      "gloss": "显著地"
+    },
+    {
+      "i": 39,
+      "zh": "预期",
+      "en": "anticipate",
+      "ipa": "[ænˈtɪsɪpeɪt]",
+      "pos": "v.",
+      "gloss": "预期"
+    },
+    {
+      "i": 40,
+      "zh": "修复",
+      "en": "recovery",
+      "ipa": "[rɪˈkʌvəri]",
+      "pos": "n.",
+      "gloss": "修复"
+    },
+    {
+      "i": 41,
+      "zh": "支撑",
+      "en": "sustain",
+      "ipa": "[səˈsteɪn]",
+      "pos": "v.",
+      "gloss": "支撑"
+    },
+    {
+      "i": 42,
+      "zh": "可持续性",
+      "en": "sustainability",
+      "ipa": "[səˌsteɪnəˈbɪlɪti]",
+      "pos": "n.",
+      "gloss": "可持续性"
+    },
+    {
+      "i": 43,
+      "zh": "冲击",
+      "en": "shock",
+      "ipa": "[ʃɒk]",
+      "pos": "n.",
+      "gloss": "冲击"
+    },
+    {
+      "i": 44,
+      "zh": "背景",
+      "en": "context",
+      "ipa": "[ˈkɒntekst]",
+      "pos": "n.",
+      "gloss": "背景"
+    },
+    {
+      "i": 45,
+      "zh": "展示",
+      "en": "display",
+      "ipa": "[dɪˈspleɪ]",
+      "pos": "v.",
+      "gloss": "展示"
+    },
+    {
+      "i": 46,
+      "zh": "总体",
+      "en": "overall",
+      "ipa": "[ˌəʊvərˈɔːl]",
+      "pos": "adj.",
+      "gloss": "总体的"
+    },
+    {
+      "i": 47,
+      "zh": "逐步",
+      "en": "gradual",
+      "ipa": "[ˈɡrædʒuəl]",
+      "pos": "adj.",
+      "gloss": "逐步的"
+    },
+    {
+      "i": 48,
+      "zh": "反映出",
+      "en": "reflect",
+      "ipa": "[rɪˈflekt]",
+      "pos": "v.",
+      "gloss": "反映"
+    },
+    {
+      "i": 49,
+      "zh": "类似",
+      "en": "similar",
+      "ipa": "[ˈsɪmɪlə]",
+      "pos": "adj.",
+      "gloss": "类似的"
+    },
+    {
+      "i": 50,
+      "zh": "维持在",
+      "en": "maintain",
+      "ipa": "[meɪnˈteɪn]",
+      "pos": "v.",
+      "gloss": "维持"
+    },
+    {
+      "i": 51,
+      "zh": "剔除",
+      "en": "exclude",
+      "ipa": "[ɪkˈskluːd]",
+      "pos": "v.",
+      "gloss": "剔除"
+    },
+    {
+      "i": 52,
+      "zh": "图表",
+      "en": "chart",
+      "ipa": "[tʃɑːt]",
+      "pos": "n.",
+      "gloss": "图表"
+    },
+    {
+      "i": 53,
+      "zh": "平淡",
+      "en": "flat",
+      "ipa": "[flæt]",
+      "pos": "adj.",
+      "gloss": "平淡的"
+    },
+    {
+      "i": 54,
+      "zh": "突破",
+      "en": "breakthrough",
+      "ipa": "[ˈbreɪkθruː]",
+      "pos": "n.",
+      "gloss": "突破"
+    },
+    {
+      "i": 55,
+      "zh": "攀升",
+      "en": "climb",
+      "ipa": "[klaɪm]",
+      "pos": "v.",
+      "gloss": "攀升"
+    },
+    {
+      "i": 56,
+      "zh": "体现出",
+      "en": "embody",
+      "ipa": "[ɪmˈbɒdi]",
+      "pos": "v.",
+      "gloss": "体现"
+    },
+    {
+      "i": 57,
+      "zh": "追捧",
+      "en": "favor",
+      "ipa": "[ˈfeɪvə]",
+      "pos": "n.",
+      "gloss": "追捧"
+    },
+    {
+      "i": 58,
+      "zh": "持续",
+      "en": "continuous",
+      "ipa": "[kənˈtɪnjuəs]",
+      "pos": "adj.",
+      "gloss": "持续的"
+    },
+    {
+      "i": 59,
+      "zh": "探索",
+      "en": "explore",
+      "ipa": "[ɪkˈsplɔː]",
+      "pos": "v.",
+      "gloss": "探索"
+    },
+    {
+      "i": 60,
+      "zh": "兑现",
+      "en": "realize",
+      "ipa": "[ˈrɪəlaɪz]",
+      "pos": "v.",
+      "gloss": "兑现"
+    },
+    {
+      "i": 61,
+      "zh": "峰值",
+      "en": "peak",
+      "ipa": "[piːk]",
+      "pos": "n.",
+      "gloss": "峰值"
+    },
+    {
+      "i": 62,
+      "zh": "平均",
+      "en": "average",
+      "ipa": "[ˈævərɪdʒ]",
+      "pos": "adj.",
+      "gloss": "平均的"
+    },
+    {
+      "i": 63,
+      "zh": "分化",
+      "en": "divergence",
+      "ipa": "[daɪˈvɜːdʒəns]",
+      "pos": "n.",
+      "gloss": "分化"
+    },
+    {
+      "i": 64,
+      "zh": "强劲",
+      "en": "robust",
+      "ipa": "[rəʊˈbʌst]",
+      "pos": "adj.",
+      "gloss": "强劲的"
+    },
+    {
+      "i": 65,
+      "zh": "位置",
+      "en": "position",
+      "ipa": "[pəˈzɪʃən]",
+      "pos": "n.",
+      "gloss": "位置"
+    },
+    {
+      "i": 66,
+      "zh": "历史",
+      "en": "historic",
+      "ipa": "[hɪˈstɒrɪk]",
+      "pos": "adj.",
+      "gloss": "有历史意义的"
+    },
+    {
+      "i": 67,
+      "zh": "经历",
+      "en": "undergo",
+      "ipa": "[ˌʌndəˈɡəʊ]",
+      "pos": "v.",
+      "gloss": "经历"
+    },
+    {
+      "i": 68,
+      "zh": "指数",
+      "en": "index",
+      "ipa": "[ˈɪndeks]",
+      "pos": "n.",
+      "gloss": "指数"
+    },
+    {
+      "i": 69,
+      "zh": "表明",
+      "en": "indicate",
+      "ipa": "[ˈɪndɪkeɪt]",
+      "pos": "v.",
+      "gloss": "表明"
+    },
+    {
+      "i": 70,
+      "zh": "吻合",
+      "en": "align",
+      "ipa": "[əˈlaɪn]",
+      "pos": "v.",
+      "gloss": "吻合"
+    },
+    {
+      "i": 71,
+      "zh": "推动",
+      "en": "propel",
+      "ipa": "[prəˈpel]",
+      "pos": "v.",
+      "gloss": "推动"
+    },
+    {
+      "i": 72,
+      "zh": "相比",
+      "en": "compare",
+      "ipa": "[kəmˈpeə]",
+      "pos": "v.",
+      "gloss": "相比"
+    },
+    {
+      "i": 73,
+      "zh": "水平",
+      "en": "level",
+      "ipa": "[ˈlevəl]",
+      "pos": "n.",
+      "gloss": "水平"
+    },
+    {
+      "i": 74,
+      "zh": "徘徊",
+      "en": "hover",
+      "ipa": "[ˈhɒvə]",
+      "pos": "v.",
+      "gloss": "徘徊"
+    },
+    {
+      "i": 75,
+      "zh": "溢价",
+      "en": "premium",
+      "ipa": "[ˈpriːmiəm]",
+      "pos": "n.",
+      "gloss": "溢价"
+    },
+    {
+      "i": 76,
+      "zh": "壁垒",
+      "en": "barrier",
+      "ipa": "[ˈbæriə]",
+      "pos": "n.",
+      "gloss": "壁垒"
+    },
+    {
+      "i": 77,
+      "zh": "流动性",
+      "en": "liquidity",
+      "ipa": "[lɪˈkwɪdɪti]",
+      "pos": "n.",
+      "gloss": "流动性"
+    },
+    {
+      "i": 78,
+      "zh": "贴现率",
+      "en": "discount",
+      "ipa": "[dɪsˈkaʊnt]",
+      "pos": "n.",
+      "gloss": "贴现率"
+    },
+    {
+      "i": 79,
+      "zh": "国债",
+      "en": "treasury",
+      "ipa": "[ˈtreʒəri]",
+      "pos": "n.",
+      "gloss": "国债"
+    },
+    {
+      "i": 80,
+      "zh": "资产",
+      "en": "asset",
+      "ipa": "[ˈæset]",
+      "pos": "n.",
+      "gloss": "资产"
+    },
+    {
+      "i": 81,
+      "zh": "经典的",
+      "en": "classic",
+      "ipa": "[ˈklæsɪk]",
+      "pos": "adj.",
+      "gloss": "经典的"
+    },
+    {
+      "i": 82,
+      "zh": "扎实",
+      "en": "solid",
+      "ipa": "[ˈsɒlɪd]",
+      "pos": "adj.",
+      "gloss": "扎实的"
+    },
+    {
+      "i": 83,
+      "zh": "收益",
+      "en": "return",
+      "ipa": "[rɪˈtɜːn]",
+      "pos": "n.",
+      "gloss": "收益"
+    },
+    {
+      "i": 84,
+      "zh": "大部分",
+      "en": "majority",
+      "ipa": "[məˈdʒɒrɪti]",
+      "pos": "n.",
+      "gloss": "大部分"
+    },
+    {
+      "i": 85,
+      "zh": "同步",
+      "en": "synchronize",
+      "ipa": "[ˈsɪŋkrənaɪz]",
+      "pos": "v.",
+      "gloss": "同步"
+    },
+    {
+      "i": 86,
+      "zh": "涨幅",
+      "en": "gain",
+      "ipa": "[ɡeɪn]",
+      "pos": "n.",
+      "gloss": "涨幅"
+    },
+    {
+      "i": 87,
+      "zh": "日经",
+      "en": "Nikkei",
+      "ipa": "[ˈnɪkeɪ]",
+      "pos": "n.",
+      "gloss": "日经指数"
+    },
+    {
+      "i": 88,
+      "zh": "阴影",
+      "en": "shadow",
+      "ipa": "[ˈʃædəʊ]",
+      "pos": "n.",
+      "gloss": "阴影"
+    },
+    {
+      "i": 89,
+      "zh": "束缚",
+      "en": "constraint",
+      "ipa": "[kənˈstreɪnt]",
+      "pos": "n.",
+      "gloss": "束缚"
+    },
+    {
+      "i": 90,
+      "zh": "通缩",
+      "en": "deflation",
+      "ipa": "[dɪˈfleɪʃən]",
+      "pos": "n.",
+      "gloss": "通缩"
+    },
+    {
+      "i": 91,
+      "zh": "竞争力",
+      "en": "competitiveness",
+      "ipa": "[kəmˈpetɪtɪvnɪs]",
+      "pos": "n.",
+      "gloss": "竞争力"
+    },
+    {
+      "i": 92,
+      "zh": "治理",
+      "en": "governance",
+      "ipa": "[ˈɡʌvənəns]",
+      "pos": "n.",
+      "gloss": "治理"
+    },
+    {
+      "i": 93,
+      "zh": "交易所",
+      "en": "exchange",
+      "ipa": "[ɪksˈtʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "交易所"
+    },
+    {
+      "i": 94,
+      "zh": "股息",
+      "en": "dividend",
+      "ipa": "[ˈdɪvɪdend]",
+      "pos": "n.",
+      "gloss": "股息"
+    },
+    {
+      "i": 95,
+      "zh": "剥离",
+      "en": "divest",
+      "ipa": "[daɪˈvest]",
+      "pos": "v.",
+      "gloss": "剥离"
+    },
+    {
+      "i": 96,
+      "zh": "基础",
+      "en": "foundation",
+      "ipa": "[faʊnˈdeɪʃən]",
+      "pos": "n.",
+      "gloss": "基础"
+    },
+    {
+      "i": 97,
+      "zh": "宏观",
+      "en": "macro",
+      "ipa": "[ˈmækrəʊ]",
+      "pos": "adj.",
+      "gloss": "宏观的"
+    },
+    {
+      "i": 98,
+      "zh": "周期",
+      "en": "cycle",
+      "ipa": "[ˈsaɪkəl]",
+      "pos": "n.",
+      "gloss": "周期"
+    },
+    {
+      "i": 99,
+      "zh": "经验",
+      "en": "experience",
+      "ipa": "[ɪkˈspɪəriəns]",
+      "pos": "n.",
+      "gloss": "经验"
+    },
+    {
+      "i": 100,
+      "zh": "根本",
+      "en": "fundamental",
+      "ipa": "[ˌfʌndəˈmentl]",
+      "pos": "adj.",
+      "gloss": "根本的"
+    },
+    {
+      "i": 101,
+      "zh": "转变",
+      "en": "transition",
+      "ipa": "[trænˈzɪʃən]",
+      "pos": "n.",
+      "gloss": "转变"
+    },
+    {
+      "i": 102,
+      "zh": "诸多",
+      "en": "numerous",
+      "ipa": "[ˈnjuːmərəs]",
+      "pos": "adj.",
+      "gloss": "诸多的"
+    },
+    {
+      "i": 103,
+      "zh": "周期",
+      "en": "cyclical",
+      "ipa": "[ˈsɪklɪkəl]",
+      "pos": "adj.",
+      "gloss": "周期的"
+    },
+    {
+      "i": 104,
+      "zh": "泡沫",
+      "en": "bubble",
+      "ipa": "[ˈbʌbəl]",
+      "pos": "n.",
+      "gloss": "泡沫"
+    },
+    {
+      "i": 105,
+      "zh": "意味着",
+      "en": "imply",
+      "ipa": "[ɪmˈplaɪ]",
+      "pos": "v.",
+      "gloss": "意味着"
+    },
+    {
+      "i": 106,
+      "zh": "回调",
+      "en": "correction",
+      "ipa": "[kəˈrekʃən]",
+      "pos": "n.",
+      "gloss": "回调"
+    },
+    {
+      "i": 107,
+      "zh": "接近",
+      "en": "approach",
+      "ipa": "[əˈprəʊtʃ]",
+      "pos": "v.",
+      "gloss": "接近"
+    },
+    {
+      "i": 108,
+      "skip": true
+    },
+    {
+      "i": 109,
+      "zh": "信心",
+      "en": "confidence",
+      "ipa": "[ˈkɒnfɪdəns]",
+      "pos": "n.",
+      "gloss": "信心"
+    },
+    {
+      "i": 110,
+      "zh": "预示",
+      "en": "foreshadow",
+      "ipa": "[fɔːˈʃædəʊ]",
+      "pos": "v.",
+      "gloss": "预示"
+    },
+    {
+      "i": 111,
+      "zh": "拖累",
+      "en": "hamper",
+      "ipa": "[ˈhæmpə]",
+      "pos": "v.",
+      "gloss": "拖累"
+    },
+    {
+      "i": 112,
+      "zh": "密歇根",
+      "en": "Michigan",
+      "ipa": "[ˈmɪʃɪɡən]",
+      "pos": "n.",
+      "gloss": "密歇根"
+    },
+    {
+      "i": 113,
+      "skip": true
+    },
+    {
+      "i": 114,
+      "skip": true
+    },
+    {
+      "i": 115,
+      "zh": "飙升",
+      "en": "spike",
+      "ipa": "[spaɪk]",
+      "pos": "v.",
+      "gloss": "飙升"
+    },
+    {
+      "i": 116,
+      "zh": "远期",
+      "en": "forward",
+      "ipa": "[ˈfɔːwəd]",
+      "pos": "adj.",
+      "gloss": "远期的"
+    },
+    {
+      "i": 117,
+      "zh": "年期",
+      "en": "tenor",
+      "ipa": "[ˈtenə]",
+      "pos": "n.",
+      "gloss": "期限"
+    },
+    {
+      "i": 118,
+      "zh": "防线",
+      "en": "threshold",
+      "ipa": "[ˈθreʃhəʊld]",
+      "pos": "n.",
+      "gloss": "防线"
+    },
+    {
+      "i": 119,
+      "zh": "比重",
+      "en": "ratio",
+      "ipa": "[ˈreɪʃiəʊ]",
+      "pos": "n.",
+      "gloss": "比重"
+    },
+    {
+      "i": 120,
+      "zh": "衡量",
+      "en": "measure",
+      "ipa": "[ˈmeʒə]",
+      "pos": "v.",
+      "gloss": "衡量"
+    },
+    {
+      "i": 121,
+      "zh": "取值",
+      "en": "register",
+      "ipa": "[ˈredʒɪstə]",
+      "pos": "v.",
+      "gloss": "记录"
+    },
+    {
+      "i": 122,
+      "zh": "巴菲特",
+      "en": "Buffett",
+      "ipa": "[ˈbʌfɪt]",
+      "pos": "n.",
+      "gloss": "巴菲特"
+    },
+    {
+      "i": 123,
+      "zh": "组合",
+      "en": "combination",
+      "ipa": "[ˌkɒmbɪˈneɪʃən]",
+      "pos": "n.",
+      "gloss": "组合"
+    },
+    {
+      "i": 124,
+      "zh": "叙事",
+      "en": "narrative",
+      "ipa": "[ˈnærətɪv]",
+      "pos": "n.",
+      "gloss": "叙事"
+    },
+    {
+      "i": 125,
+      "zh": "导火索",
+      "en": "trigger",
+      "ipa": "[ˈtrɪɡə]",
+      "pos": "n.",
+      "gloss": "导火索"
+    },
+    {
+      "i": 126,
+      "zh": "指标",
+      "en": "indicator",
+      "ipa": "[ˈɪndɪkeɪtə]",
+      "pos": "n.",
+      "gloss": "指标"
+    },
+    {
+      "i": 127,
+      "skip": true
+    },
+    {
+      "i": 128,
+      "zh": "就业",
+      "en": "employment",
+      "ipa": "[ɪmˈplɔɪmənt]",
+      "pos": "n.",
+      "gloss": "就业"
+    },
+    {
+      "i": 129,
+      "zh": "满意",
+      "en": "satisfaction",
+      "ipa": "[ˌsætɪsˈfækʃən]",
+      "pos": "n.",
+      "gloss": "满意"
+    },
+    {
+      "i": 130,
+      "zh": "趋向",
+      "en": "tendency",
+      "ipa": "[ˈtendənsi]",
+      "pos": "n.",
+      "gloss": "趋向"
+    },
+    {
+      "i": 131,
+      "zh": "制约",
+      "en": "restrict",
+      "ipa": "[rɪˈstrɪkt]",
+      "pos": "v.",
+      "gloss": "制约"
+    },
+    {
+      "i": 132,
+      "zh": "预期",
+      "en": "expectation",
+      "ipa": "[ˌekspekˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "预期"
+    },
+    {
+      "i": 133,
+      "zh": "亏损",
+      "en": "loss",
+      "ipa": "[lɒs]",
+      "pos": "n.",
+      "gloss": "亏损"
+    },
+    {
+      "i": 134,
+      "zh": "压缩",
+      "en": "compress",
+      "ipa": "[kəmˈpres]",
+      "pos": "v.",
+      "gloss": "压缩"
+    },
+    {
+      "i": 135,
+      "zh": "意愿",
+      "en": "willingness",
+      "ipa": "[ˈwɪlɪŋnɪs]",
+      "pos": "n.",
+      "gloss": "意愿"
+    },
+    {
+      "i": 136,
+      "zh": "工业",
+      "en": "industrial",
+      "ipa": "[ɪnˈdʌstriəl]",
+      "pos": "adj.",
+      "gloss": "工业的"
+    },
+    {
+      "i": 137,
+      "zh": "情况",
+      "en": "situation",
+      "ipa": "[ˌsɪtʃuˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "情况"
+    },
+    {
+      "i": 138,
+      "zh": "差额",
+      "en": "balance",
+      "ipa": "[ˈbæləns]",
+      "pos": "n.",
+      "gloss": "差额"
+    },
+    {
+      "i": 139,
+      "zh": "贸易",
+      "en": "trade",
+      "ipa": "[treɪd]",
+      "pos": "n.",
+      "gloss": "贸易"
+    },
+    {
+      "i": 140,
+      "zh": "顺差",
+      "en": "surplus",
+      "ipa": "[ˈsɜːpləs]",
+      "pos": "n.",
+      "gloss": "顺差"
+    },
+    {
+      "i": 141,
+      "zh": "警惕",
+      "en": "vigilance",
+      "ipa": "[ˈvɪdʒɪləns]",
+      "pos": "n.",
+      "gloss": "警惕"
+    },
+    {
+      "i": 142,
+      "zh": "图表",
+      "en": "graph",
+      "ipa": "[ɡræf]",
+      "pos": "n.",
+      "gloss": "图表"
+    },
+    {
+      "i": 143,
+      "zh": "不断",
+      "en": "constant",
+      "ipa": "[ˈkɒnstənt]",
+      "pos": "adj.",
+      "gloss": "不断的"
+    },
+    {
+      "i": 144,
+      "skip": true
+    },
+    {
+      "i": 145,
+      "zh": "对比",
+      "en": "contrast",
+      "ipa": "[ˈkɒntrɑːst]",
+      "pos": "n.",
+      "gloss": "对比"
+    },
+    {
+      "i": 146,
+      "zh": "层面",
+      "en": "aspect",
+      "ipa": "[ˈæspekt]",
+      "pos": "n.",
+      "gloss": "层面"
+    },
+    {
+      "i": 147,
+      "zh": "尤为",
+      "en": "especially",
+      "ipa": "[ɪˈspeʃəli]",
+      "pos": "adv.",
+      "gloss": "尤其"
+    },
+    {
+      "i": 148,
+      "zh": "企稳",
+      "en": "stabilize",
+      "ipa": "[ˈsteɪbɪlaɪz]",
+      "pos": "v.",
+      "gloss": "企稳"
+    },
+    {
+      "i": 149,
+      "zh": "情绪",
+      "en": "sentiment",
+      "ipa": "[ˈsentɪmənt]",
+      "pos": "n.",
+      "gloss": "情绪"
+    },
+    {
+      "i": 150,
+      "zh": "结构性",
+      "en": "structural",
+      "ipa": "[ˈstrʌktʃərəl]",
+      "pos": "adj.",
+      "gloss": "结构性的"
+    },
+    {
+      "i": 151,
+      "zh": "脆弱性",
+      "en": "vulnerability",
+      "ipa": "[ˌvʌlnərəˈbɪlɪti]",
+      "pos": "n.",
+      "gloss": "脆弱性"
+    },
+    {
+      "i": 152,
+      "zh": "边际",
+      "en": "margin",
+      "ipa": "[ˈmɑːdʒɪn]",
+      "pos": "n.",
+      "gloss": "边际"
+    },
+    {
+      "i": 153,
+      "zh": "盲目",
+      "en": "blindly",
+      "ipa": "[ˈblaɪndli]",
+      "pos": "adv.",
+      "gloss": "盲目地"
+    },
+    {
+      "i": 154,
+      "zh": "持久",
+      "en": "lasting",
+      "ipa": "[ˈlæstɪŋ]",
+      "pos": "adj.",
+      "gloss": "持久的"
+    }
+  ]
+}
