@@ -1,0 +1,17 @@
+{
+  "slug": "claude-code-engineer-agent-roi-cooldown",
+  "title_zh": "Claude Code 工程一号位亲自给 Agent 热潮降温：狂烧 Token 时代已过，现在该算 ROI 了",
+  "title_en": "Claude Code Lead Engineer Cools Down Agent Hype: Token Burning Era Over, ROI Now Matters",
+  "title_emoji": "💡",
+  "date": "2026-06-22",
+  "source_url": "https://mp.weixin.qq.com/s/34YV97sB5gF-7XAvXzryXw",
+  "source_account": "MingoX",
+  "include_source_footer": true,
+  "footer_template": "verbatim",
+  "source_author_display": "InfoQ",
+  "footer_derivative_mp_unknown": false,
+  "out_html": "posts/2026-06-22-claude-code-engineer-agent-roi-cooldown.html",
+  "meta_description": "Anthropic Claude Code团队负责人Fiona Fung深度对话：代码交付量被AI拉升8倍后的新瓶颈——管理异步Agent、衡量ROI而非Token消耗、工程师心流消失。InfoQ编译Lenny's Podcast完整版。",
+  "omit_sections_note": "本站已按编辑流程处理正文；具体以原文为准。",
+  "risk_blurb": "本文仅供学习交流，不构成投资建议或其他专业意见。"
+}

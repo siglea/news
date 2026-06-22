@@ -1,0 +1,1249 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "源",
+      "en": "source",
+      "ipa": "[sɔːrs]",
+      "pos": "n.",
+      "gloss": "来源"
+    },
+    {
+      "i": 1,
+      "zh": "媒体",
+      "en": "media",
+      "ipa": "[ˈmiːdiə]",
+      "pos": "n.",
+      "gloss": "媒体"
+    },
+    {
+      "i": 2,
+      "zh": "减肥",
+      "en": "diet",
+      "ipa": "[ˈdaɪət]",
+      "pos": "n.",
+      "gloss": "减肥；节食"
+    },
+    {
+      "i": 3,
+      "zh": "巨头",
+      "en": "giant",
+      "ipa": "[ˈdʒaɪənt]",
+      "pos": "n.",
+      "gloss": "巨头；巨擘"
+    },
+    {
+      "i": 4,
+      "zh": "动荡",
+      "en": "turmoil",
+      "ipa": "[ˈtɜːrmɔɪl]",
+      "pos": "n.",
+      "gloss": "动荡；混乱"
+    },
+    {
+      "i": 5,
+      "zh": "成立",
+      "en": "found",
+      "ipa": "[faʊnd]",
+      "pos": "v.",
+      "gloss": "成立；创立"
+    },
+    {
+      "i": 6,
+      "zh": "管理层",
+      "en": "management",
+      "ipa": "[ˈmænɪdʒmənt]",
+      "pos": "n.",
+      "gloss": "管理层"
+    },
+    {
+      "i": 7,
+      "zh": "人事",
+      "en": "personnel",
+      "ipa": "[ˌpɜːrsəˈnel]",
+      "pos": "n.",
+      "gloss": "人事；人员"
+    },
+    {
+      "i": 8,
+      "zh": "暴跌",
+      "en": "plunge",
+      "ipa": "[plʌndʒ]",
+      "pos": "v.",
+      "gloss": "暴跌；猛跌"
+    },
+    {
+      "i": 9,
+      "zh": "蒸发",
+      "en": "evaporate",
+      "ipa": "[ɪˈvæpəreɪt]",
+      "pos": "v.",
+      "gloss": "蒸发；消失"
+    },
+    {
+      "i": 10,
+      "zh": "宣布",
+      "en": "announce",
+      "ipa": "[əˈnaʊns]",
+      "pos": "v.",
+      "gloss": "宣布；公布"
+    },
+    {
+      "i": 11,
+      "zh": "高管",
+      "en": "executive",
+      "ipa": "[ɪɡˈzekjətɪv]",
+      "pos": "n.",
+      "gloss": "高管；行政人员"
+    },
+    {
+      "i": 12,
+      "zh": "下一个",
+      "en": "next",
+      "ipa": "[nekst]",
+      "pos": "adj.",
+      "gloss": "下一个"
+    },
+    {
+      "i": 13,
+      "zh": "专利",
+      "en": "patent",
+      "ipa": "[ˈpætnt]",
+      "pos": "n.",
+      "gloss": "专利"
+    },
+    {
+      "i": 14,
+      "zh": "制药",
+      "en": "pharmaceutical",
+      "ipa": "[ˌfɑːrməˈsuːtɪkl]",
+      "pos": "adj.",
+      "gloss": "制药的；药物的"
+    },
+    {
+      "i": 15,
+      "zh": "衰落",
+      "en": "decline",
+      "ipa": "[dɪˈklaɪn]",
+      "pos": "n.",
+      "gloss": "衰落；下降"
+    },
+    {
+      "i": 16,
+      "zh": "糖尿病",
+      "en": "diabetes",
+      "ipa": "[ˌdaɪəˈbiːtiːz]",
+      "pos": "n.",
+      "gloss": "糖尿病"
+    },
+    {
+      "i": 17,
+      "zh": "患者",
+      "en": "patient",
+      "ipa": "[ˈpeɪʃnt]",
+      "pos": "n.",
+      "gloss": "患者；病人"
+    },
+    {
+      "i": 18,
+      "zh": "奇迹",
+      "en": "miracle",
+      "ipa": "[ˈmɪrəkl]",
+      "pos": "n.",
+      "gloss": "奇迹"
+    },
+    {
+      "i": 19,
+      "zh": "提取",
+      "en": "extract",
+      "ipa": "[ɪkˈstrækt]",
+      "pos": "v.",
+      "gloss": "提取；萃取"
+    },
+    {
+      "i": 20,
+      "zh": "点燃",
+      "en": "ignite",
+      "ipa": "[ɪɡˈnaɪt]",
+      "pos": "v.",
+      "gloss": "点燃；激发"
+    },
+    {
+      "i": 21,
+      "zh": "发现",
+      "en": "discover",
+      "ipa": "[dɪˈskʌvər]",
+      "pos": "v.",
+      "gloss": "发现"
+    },
+    {
+      "i": 22,
+      "zh": "诺贝尔",
+      "en": "Nobel",
+      "ipa": "[noʊˈbel]",
+      "pos": "n.",
+      "gloss": "诺贝尔"
+    },
+    {
+      "i": 23,
+      "zh": "非营利",
+      "en": "nonprofit",
+      "ipa": "[nɑːnˈprɑːfɪt]",
+      "pos": "adj.",
+      "gloss": "非营利的"
+    },
+    {
+      "i": 24,
+      "zh": "授权",
+      "en": "license",
+      "ipa": "[ˈlaɪsns]",
+      "pos": "n.",
+      "gloss": "授权；许可"
+    },
+    {
+      "i": 25,
+      "zh": "传奇",
+      "en": "legend",
+      "ipa": "[ˈledʒənd]",
+      "pos": "n.",
+      "gloss": "传奇；传说"
+    },
+    {
+      "i": 26,
+      "zh": "循环",
+      "en": "circulation",
+      "ipa": "[ˌsɜːrkjəˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "循环"
+    },
+    {
+      "i": 27,
+      "zh": "诊断",
+      "en": "diagnose",
+      "ipa": "[ˌdaɪəɡˈnoʊs]",
+      "pos": "v.",
+      "gloss": "诊断"
+    },
+    {
+      "i": 28,
+      "zh": "接触",
+      "en": "contact",
+      "ipa": "[ˈkɑːntækt]",
+      "pos": "v.",
+      "gloss": "接触；联系"
+    },
+    {
+      "i": 29,
+      "zh": "横渡",
+      "en": "cross",
+      "ipa": "[krɔːs]",
+      "pos": "v.",
+      "gloss": "横渡；穿越"
+    },
+    {
+      "i": 30,
+      "zh": "申请",
+      "en": "apply",
+      "ipa": "[əˈplaɪ]",
+      "pos": "v.",
+      "gloss": "申请"
+    },
+    {
+      "i": 31,
+      "zh": "治愈",
+      "en": "cure",
+      "ipa": "[kjʊr]",
+      "pos": "v.",
+      "gloss": "治愈；治疗"
+    },
+    {
+      "i": 32,
+      "zh": "纯化",
+      "en": "purify",
+      "ipa": "[ˈpjʊrɪfaɪ]",
+      "pos": "v.",
+      "gloss": "纯化；提纯"
+    },
+    {
+      "i": 33,
+      "zh": "重镇",
+      "en": "stronghold",
+      "ipa": "[ˈstrɔːŋhoʊld]",
+      "pos": "n.",
+      "gloss": "重镇；要塞"
+    },
+    {
+      "i": 34,
+      "zh": "创立",
+      "en": "establish",
+      "ipa": "[ɪˈstæblɪʃ]",
+      "pos": "v.",
+      "gloss": "创立；建立"
+    },
+    {
+      "i": 35,
+      "zh": "简陋",
+      "en": "primitive",
+      "ipa": "[ˈprɪmətɪv]",
+      "pos": "adj.",
+      "gloss": "简陋的；原始的"
+    },
+    {
+      "i": 36,
+      "zh": "佳话",
+      "en": "tale",
+      "ipa": "[teɪl]",
+      "pos": "n.",
+      "gloss": "佳话；故事"
+    },
+    {
+      "i": 37,
+      "zh": "批量",
+      "en": "batch",
+      "ipa": "[bætʃ]",
+      "pos": "n.",
+      "gloss": "批量；批次"
+    },
+    {
+      "i": 38,
+      "zh": "工程师",
+      "en": "engineer",
+      "ipa": "[ˌendʒɪˈnɪr]",
+      "pos": "n.",
+      "gloss": "工程师"
+    },
+    {
+      "i": 39,
+      "zh": "天赋",
+      "en": "talent",
+      "ipa": "[ˈtælənt]",
+      "pos": "n.",
+      "gloss": "天赋；才能"
+    },
+    {
+      "i": 40,
+      "zh": "发明",
+      "en": "invent",
+      "ipa": "[ɪnˈvent]",
+      "pos": "v.",
+      "gloss": "发明；创造"
+    },
+    {
+      "i": 41,
+      "zh": "推荐",
+      "en": "recommend",
+      "ipa": "[ˌrekəˈmend]",
+      "pos": "v.",
+      "gloss": "推荐"
+    },
+    {
+      "i": 42,
+      "zh": "药剂师",
+      "en": "pharmacist",
+      "ipa": "[ˈfɑːrməsɪst]",
+      "pos": "n.",
+      "gloss": "药剂师"
+    },
+    {
+      "i": 43,
+      "zh": "制造",
+      "en": "manufacture",
+      "ipa": "[ˌmænjuˈfæktʃər]",
+      "pos": "v.",
+      "gloss": "制造；生产"
+    },
+    {
+      "i": 44,
+      "zh": "裂痕",
+      "en": "rift",
+      "ipa": "[rɪft]",
+      "pos": "n.",
+      "gloss": "裂痕；分歧"
+    },
+    {
+      "i": 45,
+      "zh": "专断",
+      "en": "arbitrary",
+      "ipa": "[ˈɑːrbɪtreri]",
+      "pos": "adj.",
+      "gloss": "专断的；任意的"
+    },
+    {
+      "i": 46,
+      "zh": "冲突",
+      "en": "conflict",
+      "ipa": "[ˈkɑːnflɪkt]",
+      "pos": "n.",
+      "gloss": "冲突"
+    },
+    {
+      "i": 47,
+      "skip": true
+    },
+    {
+      "i": 48,
+      "zh": "合作",
+      "en": "cooperate",
+      "ipa": "[koʊˈɑːpəreɪt]",
+      "pos": "v.",
+      "gloss": "合作；配合"
+    },
+    {
+      "i": 49,
+      "zh": "告别",
+      "en": "farewell",
+      "ipa": "[ˌferˈwel]",
+      "pos": "n.",
+      "gloss": "告别；辞别"
+    },
+    {
+      "i": 50,
+      "zh": "生产",
+      "en": "produce",
+      "ipa": "[prəˈduːs]",
+      "pos": "v.",
+      "gloss": "生产"
+    },
+    {
+      "i": 51,
+      "skip": true
+    },
+    {
+      "i": 52,
+      "zh": "证明",
+      "en": "prove",
+      "ipa": "[pruːv]",
+      "pos": "v.",
+      "gloss": "证明"
+    },
+    {
+      "i": 53,
+      "skip": true
+    },
+    {
+      "i": 54,
+      "zh": "地下室",
+      "en": "basement",
+      "ipa": "[ˈbeɪsmənt]",
+      "pos": "n.",
+      "gloss": "地下室"
+    },
+    {
+      "i": 55,
+      "zh": "提炼",
+      "en": "refine",
+      "ipa": "[rɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "提炼；精炼"
+    },
+    {
+      "i": 56,
+      "zh": "谈判",
+      "en": "negotiate",
+      "ipa": "[nɪˈɡoʊʃieɪt]",
+      "pos": "v.",
+      "gloss": "谈判；协商"
+    },
+    {
+      "i": 57,
+      "zh": "序幕",
+      "en": "prelude",
+      "ipa": "[ˈpreljuːd]",
+      "pos": "n.",
+      "gloss": "序幕；前奏"
+    },
+    {
+      "i": 58,
+      "zh": "片剂",
+      "en": "tablet",
+      "ipa": "[ˈtæblət]",
+      "pos": "n.",
+      "gloss": "片剂；药片"
+    },
+    {
+      "i": 59,
+      "zh": "经营",
+      "en": "operate",
+      "ipa": "[ˈɑːpəreɪt]",
+      "pos": "v.",
+      "gloss": "经营；运营"
+    },
+    {
+      "i": 60,
+      "zh": "退市",
+      "en": "delist",
+      "ipa": "[ˌdiːˈlɪst]",
+      "pos": "v.",
+      "gloss": "退市；摘牌"
+    },
+    {
+      "i": 61,
+      "zh": "延长",
+      "en": "prolong",
+      "ipa": "[prəˈlɔːŋ]",
+      "pos": "v.",
+      "gloss": "延长"
+    },
+    {
+      "i": 62,
+      "zh": "研发",
+      "en": "research",
+      "ipa": "[rɪˈsɜːrtʃ]",
+      "pos": "n.",
+      "gloss": "研发；研究"
+    },
+    {
+      "i": 63,
+      "zh": "传票",
+      "en": "summons",
+      "ipa": "[ˈsʌmənz]",
+      "pos": "n.",
+      "gloss": "传票；传唤"
+    },
+    {
+      "i": 64,
+      "zh": "怨恨",
+      "en": "resentment",
+      "ipa": "[rɪˈzentmənt]",
+      "pos": "n.",
+      "gloss": "怨恨；愤恨"
+    },
+    {
+      "i": 65,
+      "zh": "挑战",
+      "en": "challenge",
+      "ipa": "[ˈtʃælɪndʒ]",
+      "pos": "n.",
+      "gloss": "挑战"
+    },
+    {
+      "i": 66,
+      "zh": "押注",
+      "en": "bet",
+      "ipa": "[bet]",
+      "pos": "v.",
+      "gloss": "押注；下注"
+    },
+    {
+      "i": 67,
+      "zh": "占领",
+      "en": "occupy",
+      "ipa": "[ˈɑːkjupaɪ]",
+      "pos": "v.",
+      "gloss": "占领；占据"
+    },
+    {
+      "i": 68,
+      "zh": "供应商",
+      "en": "supplier",
+      "ipa": "[səˈplaɪər]",
+      "pos": "n.",
+      "gloss": "供应商"
+    },
+    {
+      "i": 69,
+      "zh": "一哥",
+      "en": "dominant",
+      "ipa": "[ˈdɑːmɪnənt]",
+      "pos": "adj.",
+      "gloss": "主导的；最主要的"
+    },
+    {
+      "i": 70,
+      "zh": "竞争",
+      "en": "competition",
+      "ipa": "[ˌkɑːmpəˈtɪʃn]",
+      "pos": "n.",
+      "gloss": "竞争"
+    },
+    {
+      "i": 71,
+      "zh": "混合",
+      "en": "blend",
+      "ipa": "[blend]",
+      "pos": "v.",
+      "gloss": "混合"
+    },
+    {
+      "i": 72,
+      "zh": "摇晃",
+      "en": "shake",
+      "ipa": "[ʃeɪk]",
+      "pos": "v.",
+      "gloss": "摇晃；摇动"
+    },
+    {
+      "i": 73,
+      "zh": "畅销",
+      "en": "popular",
+      "ipa": "[ˈpɑːpjələr]",
+      "pos": "adj.",
+      "gloss": "畅销的；受欢迎的"
+    },
+    {
+      "i": 74,
+      "zh": "碰撞",
+      "en": "collision",
+      "ipa": "[kəˈlɪʒn]",
+      "pos": "n.",
+      "gloss": "碰撞；冲突"
+    },
+    {
+      "i": 75,
+      "zh": "革命",
+      "en": "revolution",
+      "ipa": "[ˌrevəˈluːʃn]",
+      "pos": "n.",
+      "gloss": "革命"
+    },
+    {
+      "i": 76,
+      "zh": "基因",
+      "en": "gene",
+      "ipa": "[dʒiːn]",
+      "pos": "n.",
+      "gloss": "基因"
+    },
+    {
+      "i": 77,
+      "zh": "修饰",
+      "en": "modify",
+      "ipa": "[ˈmɑːdɪfaɪ]",
+      "pos": "v.",
+      "gloss": "修饰；修改"
+    },
+    {
+      "i": 78,
+      "zh": "份额",
+      "en": "share",
+      "ipa": "[ʃer]",
+      "pos": "n.",
+      "gloss": "份额；股份"
+    },
+    {
+      "i": 79,
+      "zh": "注射",
+      "en": "injection",
+      "ipa": "[ɪnˈdʒekʃn]",
+      "pos": "n.",
+      "gloss": "注射"
+    },
+    {
+      "i": 80,
+      "zh": "治疗",
+      "en": "therapy",
+      "ipa": "[ˈθerəpi]",
+      "pos": "n.",
+      "gloss": "治疗；疗法"
+    },
+    {
+      "i": 81,
+      "zh": "注射器",
+      "en": "syringe",
+      "ipa": "[sɪˈrɪndʒ]",
+      "pos": "n.",
+      "gloss": "注射器"
+    },
+    {
+      "i": 82,
+      "zh": "联姻",
+      "en": "merger",
+      "ipa": "[ˈmɜːrdʒər]",
+      "pos": "n.",
+      "gloss": "联姻；合并"
+    },
+    {
+      "i": 83,
+      "zh": "占股",
+      "en": "stake",
+      "ipa": "[steɪk]",
+      "pos": "n.",
+      "gloss": "股份；股权"
+    },
+    {
+      "i": 84,
+      "zh": "渠道",
+      "en": "channel",
+      "ipa": "[ˈtʃænl]",
+      "pos": "n.",
+      "gloss": "渠道"
+    },
+    {
+      "i": 85,
+      "zh": "缺陷",
+      "en": "flaw",
+      "ipa": "[flɔː]",
+      "pos": "n.",
+      "gloss": "缺陷；瑕疵"
+    },
+    {
+      "i": 86,
+      "zh": "菜鸟",
+      "en": "rookie",
+      "ipa": "[ˈrʊki]",
+      "pos": "n.",
+      "gloss": "菜鸟；新手"
+    },
+    {
+      "i": 87,
+      "zh": "停火",
+      "en": "ceasefire",
+      "ipa": "[ˈsiːsfaɪər]",
+      "pos": "n.",
+      "gloss": "停火"
+    },
+    {
+      "i": 88,
+      "zh": "声誉",
+      "en": "reputation",
+      "ipa": "[ˌrepjuˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "声誉；名声"
+    },
+    {
+      "i": 89,
+      "zh": "风向",
+      "en": "trend",
+      "ipa": "[trend]",
+      "pos": "n.",
+      "gloss": "风向；趋势"
+    },
+    {
+      "i": 90,
+      "zh": "转化",
+      "en": "transform",
+      "ipa": "[trænsˈfɔːrm]",
+      "pos": "v.",
+      "gloss": "转化；转变"
+    },
+    {
+      "i": 91,
+      "zh": "战略",
+      "en": "strategy",
+      "ipa": "[ˈstrætədʒi]",
+      "pos": "n.",
+      "gloss": "战略"
+    },
+    {
+      "i": 92,
+      "zh": "平衡",
+      "en": "balance",
+      "ipa": "[ˈbæləns]",
+      "pos": "v.",
+      "gloss": "平衡"
+    },
+    {
+      "i": 93,
+      "zh": "热点",
+      "en": "hotspot",
+      "ipa": "[ˈhɑːtspɑːt]",
+      "pos": "n.",
+      "gloss": "热点"
+    },
+    {
+      "i": 94,
+      "zh": "切换",
+      "en": "switch",
+      "ipa": "[swɪtʃ]",
+      "pos": "v.",
+      "gloss": "切换；转换"
+    },
+    {
+      "i": 95,
+      "zh": "命运",
+      "en": "fate",
+      "ipa": "[feɪt]",
+      "pos": "n.",
+      "gloss": "命运"
+    },
+    {
+      "i": 96,
+      "zh": "产假",
+      "en": "maternity",
+      "ipa": "[məˈtɜːrnəti]",
+      "pos": "n.",
+      "gloss": "产假；孕产"
+    },
+    {
+      "i": 97,
+      "zh": "毕业",
+      "en": "graduate",
+      "ipa": "[ˈɡrædʒueɪt]",
+      "pos": "v.",
+      "gloss": "毕业"
+    },
+    {
+      "i": 98,
+      "zh": "孤独",
+      "en": "lonely",
+      "ipa": "[ˈloʊnli]",
+      "pos": "adj.",
+      "gloss": "孤独的"
+    },
+    {
+      "i": 99,
+      "zh": "看不起",
+      "en": "despise",
+      "ipa": "[dɪˈspaɪz]",
+      "pos": "v.",
+      "gloss": "看不起；鄙视"
+    },
+    {
+      "i": 100,
+      "zh": "女性",
+      "en": "female",
+      "ipa": "[ˈfiːmeɪl]",
+      "pos": "n.",
+      "gloss": "女性"
+    },
+    {
+      "i": 101,
+      "zh": "韧性",
+      "en": "resilience",
+      "ipa": "[rɪˈzɪliəns]",
+      "pos": "n.",
+      "gloss": "韧性；弹力"
+    },
+    {
+      "i": 102,
+      "zh": "耐心",
+      "en": "patience",
+      "ipa": "[ˈpeɪʃns]",
+      "pos": "n.",
+      "gloss": "耐心"
+    },
+    {
+      "i": 103,
+      "zh": "通牒",
+      "en": "ultimatum",
+      "ipa": "[ˌʌltɪˈmeɪtəm]",
+      "pos": "n.",
+      "gloss": "通牒；最后通牒"
+    },
+    {
+      "i": 104,
+      "zh": "半衰期",
+      "en": "halflife",
+      "ipa": "[ˈhæfˌlaɪf]",
+      "pos": "n.",
+      "gloss": "半衰期"
+    },
+    {
+      "i": 105,
+      "zh": "诞生",
+      "en": "born",
+      "ipa": "[bɔːrn]",
+      "pos": "v.",
+      "gloss": "诞生；出生"
+    },
+    {
+      "i": 106,
+      "zh": "金矿",
+      "en": "goldmine",
+      "ipa": "[ˈɡoʊldmaɪn]",
+      "pos": "n.",
+      "gloss": "金矿；宝库"
+    },
+    {
+      "i": 107,
+      "zh": "领域",
+      "en": "domain",
+      "ipa": "[doʊˈmeɪn]",
+      "pos": "n.",
+      "gloss": "领域；范围"
+    },
+    {
+      "i": 108,
+      "zh": "现代",
+      "en": "modern",
+      "ipa": "[ˈmɑːdərn]",
+      "pos": "adj.",
+      "gloss": "现代的"
+    },
+    {
+      "i": 109,
+      "zh": "资源",
+      "en": "resource",
+      "ipa": "[ˈriːsɔːrs]",
+      "pos": "n.",
+      "gloss": "资源"
+    },
+    {
+      "i": 110,
+      "zh": "临床",
+      "en": "clinical",
+      "ipa": "[ˈklɪnɪkl]",
+      "pos": "adj.",
+      "gloss": "临床的"
+    },
+    {
+      "i": 111,
+      "zh": "受体",
+      "en": "receptor",
+      "ipa": "[rɪˈseptər]",
+      "pos": "n.",
+      "gloss": "受体"
+    },
+    {
+      "i": 112,
+      "zh": "投资人",
+      "en": "investor",
+      "ipa": "[ɪnˈvestər]",
+      "pos": "n.",
+      "gloss": "投资人；投资者"
+    },
+    {
+      "i": 113,
+      "zh": "销售额",
+      "en": "revenue",
+      "ipa": "[ˈrevənjuː]",
+      "pos": "n.",
+      "gloss": "销售额；收入"
+    },
+    {
+      "i": 114,
+      "zh": "销量",
+      "en": "volume",
+      "ipa": "[ˈvɑːljuːm]",
+      "pos": "n.",
+      "gloss": "销量；量"
+    },
+    {
+      "i": 115,
+      "zh": "野心",
+      "en": "ambition",
+      "ipa": "[æmˈbɪʃn]",
+      "pos": "n.",
+      "gloss": "野心；抱负"
+    },
+    {
+      "i": 116,
+      "zh": "功效",
+      "en": "efficacy",
+      "ipa": "[ˈefɪkəsi]",
+      "pos": "n.",
+      "gloss": "功效；效力"
+    },
+    {
+      "i": 117,
+      "zh": "说服",
+      "en": "persuade",
+      "ipa": "[pərˈsweɪd]",
+      "pos": "v.",
+      "gloss": "说服"
+    },
+    {
+      "i": 118,
+      "zh": "支持",
+      "en": "support",
+      "ipa": "[səˈpɔːrt]",
+      "pos": "v.",
+      "gloss": "支持"
+    },
+    {
+      "i": 119,
+      "zh": "承受",
+      "en": "endure",
+      "ipa": "[ɪnˈdʊr]",
+      "pos": "v.",
+      "gloss": "承受；忍受"
+    },
+    {
+      "i": 120,
+      "zh": "实验",
+      "en": "experiment",
+      "ipa": "[ɪkˈsperɪmənt]",
+      "pos": "n.",
+      "gloss": "实验"
+    },
+    {
+      "i": 121,
+      "zh": "批准",
+      "en": "approve",
+      "ipa": "[əˈpruːv]",
+      "pos": "v.",
+      "gloss": "批准"
+    },
+    {
+      "i": 122,
+      "zh": "纪录",
+      "en": "record",
+      "ipa": "[ˈrekərd]",
+      "pos": "n.",
+      "gloss": "纪录"
+    },
+    {
+      "i": 123,
+      "zh": "惊人",
+      "en": "stunning",
+      "ipa": "[ˈstʌnɪŋ]",
+      "pos": "adj.",
+      "gloss": "惊人的"
+    },
+    {
+      "i": 124,
+      "zh": "荣光",
+      "en": "glory",
+      "ipa": "[ˈɡlɔːri]",
+      "pos": "n.",
+      "gloss": "荣光；荣耀"
+    },
+    {
+      "i": 125,
+      "zh": "降价",
+      "en": "slash",
+      "ipa": "[slæʃ]",
+      "pos": "v.",
+      "gloss": "降价；削减"
+    },
+    {
+      "i": 126,
+      "zh": "砍价",
+      "en": "bargain",
+      "ipa": "[ˈbɑːrɡən]",
+      "pos": "v.",
+      "gloss": "砍价；讨价还价"
+    },
+    {
+      "i": 127,
+      "zh": "裁员",
+      "en": "layoff",
+      "ipa": "[ˈleɪɔːf]",
+      "pos": "n.",
+      "gloss": "裁员"
+    },
+    {
+      "i": 128,
+      "zh": "深渊",
+      "en": "abyss",
+      "ipa": "[əˈbɪs]",
+      "pos": "n.",
+      "gloss": "深渊"
+    },
+    {
+      "i": 129,
+      "zh": "英雄主义",
+      "en": "heroism",
+      "ipa": "[ˈheroʊɪzəm]",
+      "pos": "n.",
+      "gloss": "英雄主义"
+    },
+    {
+      "i": 130,
+      "zh": "设限",
+      "en": "restrict",
+      "ipa": "[rɪˈstrɪkt]",
+      "pos": "v.",
+      "gloss": "设限；限制"
+    },
+    {
+      "i": 131,
+      "zh": "供不应求",
+      "en": "demand",
+      "ipa": "[dɪˈmænd]",
+      "pos": "n.",
+      "gloss": "需求；供不应求"
+    },
+    {
+      "i": 132,
+      "zh": "讨论",
+      "en": "discuss",
+      "ipa": "[dɪˈskʌs]",
+      "pos": "v.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 133,
+      "skip": true
+    },
+    {
+      "i": 134,
+      "zh": "前景",
+      "en": "prospect",
+      "ipa": "[ˈprɑːspekt]",
+      "pos": "n.",
+      "gloss": "前景；展望"
+    },
+    {
+      "i": 135,
+      "zh": "保障",
+      "en": "guarantee",
+      "ipa": "[ˌɡærənˈtiː]",
+      "pos": "v.",
+      "gloss": "保障；保证"
+    },
+    {
+      "i": 136,
+      "zh": "仿制药",
+      "en": "generic",
+      "ipa": "[dʒəˈnerɪk]",
+      "pos": "adj.",
+      "gloss": "仿制药的；通用的"
+    },
+    {
+      "i": 137,
+      "zh": "抢占",
+      "en": "seize",
+      "ipa": "[siːz]",
+      "pos": "v.",
+      "gloss": "抢占；夺取"
+    },
+    {
+      "i": 138,
+      "zh": "仓促",
+      "en": "hasty",
+      "ipa": "[ˈheɪsti]",
+      "pos": "adj.",
+      "gloss": "仓促的；匆忙的"
+    },
+    {
+      "i": 139,
+      "zh": "逻辑",
+      "en": "logic",
+      "ipa": "[ˈlɑːdʒɪk]",
+      "pos": "n.",
+      "gloss": "逻辑"
+    },
+    {
+      "i": 140,
+      "zh": "陷阱",
+      "en": "trap",
+      "ipa": "[træp]",
+      "pos": "n.",
+      "gloss": "陷阱"
+    },
+    {
+      "i": 141,
+      "zh": "决心",
+      "en": "determination",
+      "ipa": "[dɪˌtɜːrmɪˈneɪʃn]",
+      "pos": "n.",
+      "gloss": "决心"
+    },
+    {
+      "i": 142,
+      "zh": "倒戈",
+      "en": "defect",
+      "ipa": "[dɪˈfekt]",
+      "pos": "v.",
+      "gloss": "倒戈；叛变"
+    },
+    {
+      "i": 143,
+      "zh": "低估",
+      "en": "underestimate",
+      "ipa": "[ˌʌndərˈestɪmeɪt]",
+      "pos": "v.",
+      "gloss": "低估"
+    },
+    {
+      "i": 144,
+      "zh": "翻身",
+      "en": "turnaround",
+      "ipa": "[ˈtɜːrnəraʊnd]",
+      "pos": "n.",
+      "gloss": "翻身；扭转"
+    },
+    {
+      "i": 145,
+      "zh": "体验",
+      "en": "experience",
+      "ipa": "[ɪkˈspɪriəns]",
+      "pos": "n.",
+      "gloss": "体验；经验"
+    },
+    {
+      "i": 146,
+      "zh": "敏锐",
+      "en": "keen",
+      "ipa": "[kiːn]",
+      "pos": "adj.",
+      "gloss": "敏锐的；渴望的"
+    },
+    {
+      "i": 147,
+      "zh": "对峙",
+      "en": "confrontation",
+      "ipa": "[ˌkɑːnfrʌnˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "对峙；对抗"
+    },
+    {
+      "i": 148,
+      "zh": "枷锁",
+      "en": "shackle",
+      "ipa": "[ˈʃækl]",
+      "pos": "n.",
+      "gloss": "枷锁；束缚"
+    },
+    {
+      "i": 149,
+      "zh": "盲区",
+      "en": "blindspot",
+      "ipa": "[ˈblaɪndspɑːt]",
+      "pos": "n.",
+      "gloss": "盲区；死角"
+    },
+    {
+      "i": 150,
+      "zh": "内耗",
+      "en": "friction",
+      "ipa": "[ˈfrɪkʃn]",
+      "pos": "n.",
+      "gloss": "内耗；摩擦"
+    },
+    {
+      "i": 151,
+      "zh": "王座",
+      "en": "throne",
+      "ipa": "[θroʊn]",
+      "pos": "n.",
+      "gloss": "王座；宝座"
+    },
+    {
+      "i": 152,
+      "zh": "狂妄",
+      "en": "arrogant",
+      "ipa": "[ˈærəɡənt]",
+      "pos": "adj.",
+      "gloss": "狂妄的；傲慢的"
+    },
+    {
+      "i": 153,
+      "zh": "催眠",
+      "en": "hypnotize",
+      "ipa": "[ˈhɪpnətaɪz]",
+      "pos": "v.",
+      "gloss": "催眠"
+    },
+    {
+      "i": 154,
+      "zh": "遗憾",
+      "en": "regret",
+      "ipa": "[rɪˈɡret]",
+      "pos": "n.",
+      "gloss": "遗憾；后悔"
+    },
+    {
+      "i": 155,
+      "zh": "谦卑",
+      "en": "humble",
+      "ipa": "[ˈhʌmbl]",
+      "pos": "adj.",
+      "gloss": "谦卑的；谦逊的"
+    },
+    {
+      "i": 156,
+      "zh": "敏捷",
+      "en": "agile",
+      "ipa": "[ˈædʒl]",
+      "pos": "adj.",
+      "gloss": "敏捷的"
+    },
+    {
+      "i": 157,
+      "skip": true
+    }
+  ]
+}

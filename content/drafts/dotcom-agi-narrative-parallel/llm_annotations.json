@@ -1,0 +1,713 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "估值",
+      "en": "valuation",
+      "ipa": "[ˌvæljuˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "估值"
+    },
+    {
+      "i": 1,
+      "zh": "宏大",
+      "en": "grandiose",
+      "ipa": "[ˈɡrændioʊs]",
+      "pos": "adj.",
+      "gloss": "宏大的"
+    },
+    {
+      "i": 2,
+      "zh": "奇点",
+      "en": "singularity",
+      "ipa": "[ˌsɪŋɡjuˈlærəti]",
+      "pos": "n.",
+      "gloss": "奇点（技术爆炸的临界点）"
+    },
+    {
+      "i": 3,
+      "zh": "通货膨胀",
+      "en": "inflation",
+      "ipa": "[ɪnˈfleɪʃən]",
+      "pos": "n.",
+      "gloss": "通货膨胀"
+    },
+    {
+      "i": 4,
+      "zh": "大肆挥霍",
+      "en": "squander",
+      "ipa": "[ˈskwɒndər]",
+      "pos": "v.",
+      "gloss": "挥霍；浪费"
+    },
+    {
+      "i": 5,
+      "zh": "劳动力",
+      "en": "labor",
+      "ipa": "[ˈleɪbər]",
+      "pos": "n.",
+      "gloss": "劳动力"
+    },
+    {
+      "i": 6,
+      "zh": "生产力",
+      "en": "productivity",
+      "ipa": "[ˌprɒdʌkˈtɪvəti]",
+      "pos": "n.",
+      "gloss": "生产力"
+    },
+    {
+      "i": 7,
+      "zh": "预言",
+      "en": "prophecy",
+      "ipa": "[ˈprɒfəsi]",
+      "pos": "n.",
+      "gloss": "预言"
+    },
+    {
+      "i": 8,
+      "zh": "乌托邦",
+      "en": "utopia",
+      "ipa": "[juːˈtoʊpiə]",
+      "pos": "n.",
+      "gloss": "乌托邦"
+    },
+    {
+      "i": 9,
+      "zh": "内涵",
+      "en": "connotation",
+      "ipa": "[ˌkɒnəˈteɪʃən]",
+      "pos": "n.",
+      "gloss": "内涵"
+    },
+    {
+      "i": 10,
+      "zh": "宣称",
+      "en": "assert",
+      "ipa": "[əˈsɜːrt]",
+      "pos": "v.",
+      "gloss": "宣称；断言"
+    },
+    {
+      "i": 11,
+      "zh": "设想",
+      "en": "assumption",
+      "ipa": "[əˈsʌmpʃən]",
+      "pos": "n.",
+      "gloss": "设想；假设"
+    },
+    {
+      "i": 12,
+      "zh": "佣金",
+      "en": "commission",
+      "ipa": "[kəˈmɪʃən]",
+      "pos": "n.",
+      "gloss": "佣金"
+    },
+    {
+      "i": 13,
+      "skip": true
+    },
+    {
+      "i": 14,
+      "zh": "破产",
+      "en": "bankrupt",
+      "ipa": "[ˈbæŋkrʌpt]",
+      "pos": "adj.",
+      "gloss": "破产的"
+    },
+    {
+      "i": 15,
+      "zh": "基建",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃər]",
+      "pos": "n.",
+      "gloss": "基础设施"
+    },
+    {
+      "i": 16,
+      "zh": "算力",
+      "en": "compute",
+      "ipa": "[kəmˈpjuːt]",
+      "pos": "n.",
+      "gloss": "算力；计算能力"
+    },
+    {
+      "i": 17,
+      "zh": "数字化",
+      "en": "digitize",
+      "ipa": "[ˈdɪdʒɪtaɪz]",
+      "pos": "v.",
+      "gloss": "数字化"
+    },
+    {
+      "i": 18,
+      "zh": "距离",
+      "en": "distance",
+      "ipa": "[ˈdɪstəns]",
+      "pos": "n.",
+      "gloss": "距离"
+    },
+    {
+      "i": 19,
+      "zh": "失效",
+      "en": "invalid",
+      "ipa": "[ɪnˈvælɪd]",
+      "pos": "adj.",
+      "gloss": "失效的"
+    },
+    {
+      "i": 20,
+      "zh": "资本主义",
+      "en": "capitalism",
+      "ipa": "[ˈkæpɪtəlɪzəm]",
+      "pos": "n.",
+      "gloss": "资本主义"
+    },
+    {
+      "i": 21,
+      "zh": "效率",
+      "en": "efficiency",
+      "ipa": "[ɪˈfɪʃənsi]",
+      "pos": "n.",
+      "gloss": "效率"
+    },
+    {
+      "i": 22,
+      "zh": "图腾",
+      "en": "totem",
+      "ipa": "[ˈtoʊtəm]",
+      "pos": "n.",
+      "gloss": "图腾"
+    },
+    {
+      "i": 23,
+      "zh": "有机体",
+      "en": "organism",
+      "ipa": "[ˈɔːrɡənɪzəm]",
+      "pos": "n.",
+      "gloss": "有机体"
+    },
+    {
+      "i": 24,
+      "zh": "库存",
+      "en": "inventory",
+      "ipa": "[ˈɪnvəntɔːri]",
+      "pos": "n.",
+      "gloss": "库存"
+    },
+    {
+      "i": 25,
+      "zh": "升级",
+      "en": "upgrade",
+      "ipa": "[ʌpˈɡreɪd]",
+      "pos": "n.",
+      "gloss": "升级"
+    },
+    {
+      "i": 26,
+      "zh": "升华",
+      "en": "sublimation",
+      "ipa": "[ˌsʌblɪˈmeɪʃən]",
+      "pos": "n.",
+      "gloss": "升华"
+    },
+    {
+      "i": 27,
+      "zh": "赛博空间",
+      "en": "cyberspace",
+      "ipa": "[ˈsaɪbərspeɪs]",
+      "pos": "n.",
+      "gloss": "赛博空间"
+    },
+    {
+      "i": 28,
+      "zh": "融合",
+      "en": "convergence",
+      "ipa": "[kənˈvɜːrdʒəns]",
+      "pos": "n.",
+      "gloss": "融合"
+    },
+    {
+      "i": 29,
+      "zh": "外推",
+      "en": "extrapolate",
+      "ipa": "[ɪkˈstræpəleɪt]",
+      "pos": "v.",
+      "gloss": "外推；推断"
+    },
+    {
+      "i": 30,
+      "zh": "资本开支",
+      "en": "capex",
+      "ipa": "[ˈkæpeks]",
+      "pos": "n.",
+      "gloss": "资本开支"
+    },
+    {
+      "i": 31,
+      "zh": "指数",
+      "en": "exponential",
+      "ipa": "[ˌekspəˈnenʃəl]",
+      "pos": "adj.",
+      "gloss": "指数级的"
+    },
+    {
+      "i": 32,
+      "zh": "经验",
+      "en": "empirical",
+      "ipa": "[ɪmˈpɪrɪkəl]",
+      "pos": "adj.",
+      "gloss": "经验的；实证的"
+    },
+    {
+      "i": 33,
+      "zh": "无止境",
+      "en": "insatiable",
+      "ipa": "[ɪnˈseɪʃəbəl]",
+      "pos": "adj.",
+      "gloss": "无法满足的"
+    },
+    {
+      "i": 34,
+      "zh": "定律",
+      "en": "law",
+      "ipa": "[lɔː]",
+      "pos": "n.",
+      "gloss": "定律"
+    },
+    {
+      "i": 35,
+      "zh": "一己之力",
+      "en": "singlehandedly",
+      "ipa": "[ˌsɪŋɡəlˈhændɪdli]",
+      "pos": "adv.",
+      "gloss": "以一己之力"
+    },
+    {
+      "i": 36,
+      "zh": "原型",
+      "en": "prototype",
+      "ipa": "[ˈproʊtətaɪp]",
+      "pos": "n.",
+      "gloss": "原型"
+    },
+    {
+      "i": 37,
+      "zh": "半导体",
+      "en": "semiconductor",
+      "ipa": "[ˌsemikənˈdʌktər]",
+      "pos": "n.",
+      "gloss": "半导体"
+    },
+    {
+      "i": 38,
+      "zh": "原封不动",
+      "en": "verbatim",
+      "ipa": "[vɜːrˈbeɪtɪm]",
+      "pos": "adv.",
+      "gloss": "原封不动地"
+    },
+    {
+      "i": 39,
+      "zh": "过剩",
+      "en": "surplus",
+      "ipa": "[ˈsɜːrpləs]",
+      "pos": "n.",
+      "gloss": "过剩"
+    },
+    {
+      "i": 40,
+      "zh": "晶体管",
+      "en": "transistor",
+      "ipa": "[trænˈzɪstər]",
+      "pos": "n.",
+      "gloss": "晶体管"
+    },
+    {
+      "i": 41,
+      "zh": "脚手架",
+      "en": "scaffolding",
+      "ipa": "[ˈskæfəldɪŋ]",
+      "pos": "n.",
+      "gloss": "脚手架"
+    },
+    {
+      "i": 42,
+      "zh": "弹性",
+      "en": "elasticity",
+      "ipa": "[ˌiːlæˈstɪsəti]",
+      "pos": "n.",
+      "gloss": "弹性"
+    },
+    {
+      "i": 43,
+      "zh": "迭代",
+      "en": "iteration",
+      "ipa": "[ˌɪtəˈreɪʃən]",
+      "pos": "n.",
+      "gloss": "迭代"
+    },
+    {
+      "i": 44,
+      "zh": "断点",
+      "en": "breakpoint",
+      "ipa": "[ˈbreɪkpɔɪnt]",
+      "pos": "n.",
+      "gloss": "断点"
+    },
+    {
+      "i": 45,
+      "zh": "失控",
+      "en": "unchecked",
+      "ipa": "[ʌnˈtʃekt]",
+      "pos": "adj.",
+      "gloss": "失控的"
+    },
+    {
+      "i": 46,
+      "zh": "容量",
+      "en": "capacity",
+      "ipa": "[kəˈpæsəti]",
+      "pos": "n.",
+      "gloss": "容量"
+    },
+    {
+      "i": 47,
+      "zh": "供给",
+      "en": "supply",
+      "ipa": "[səˈplaɪ]",
+      "pos": "n.",
+      "gloss": "供给"
+    },
+    {
+      "i": 48,
+      "zh": "繁殖",
+      "en": "propagate",
+      "ipa": "[ˈprɒpəɡeɪt]",
+      "pos": "v.",
+      "gloss": "繁殖；传播"
+    },
+    {
+      "i": 49,
+      "zh": "瓶颈",
+      "en": "bottleneck",
+      "ipa": "[ˈbɒtəlnek]",
+      "pos": "n.",
+      "gloss": "瓶颈"
+    },
+    {
+      "i": 50,
+      "zh": "终端",
+      "en": "terminal",
+      "ipa": "[ˈtɜːrmɪnəl]",
+      "pos": "n.",
+      "gloss": "终端"
+    },
+    {
+      "i": 51,
+      "zh": "拨号",
+      "en": "dialup",
+      "ipa": "[ˈdaɪəlʌp]",
+      "pos": "n.",
+      "gloss": "拨号"
+    },
+    {
+      "i": 52,
+      "zh": "匝道",
+      "en": "ramp",
+      "ipa": "[ræmp]",
+      "pos": "n.",
+      "gloss": "匝道"
+    },
+    {
+      "i": 53,
+      "zh": "互补品",
+      "en": "complement",
+      "ipa": "[ˈkɒmplɪmənt]",
+      "pos": "n.",
+      "gloss": "互补品"
+    },
+    {
+      "i": 54,
+      "zh": "数量级",
+      "en": "magnitude",
+      "ipa": "[ˈmæɡnɪtjuːd]",
+      "pos": "n.",
+      "gloss": "数量级"
+    },
+    {
+      "i": 55,
+      "zh": "成本",
+      "en": "cost",
+      "ipa": "[kɒst]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 56,
+      "zh": "差异化",
+      "en": "differentiation",
+      "ipa": "[ˌdɪfərenʃiˈeɪʃən]",
+      "pos": "n.",
+      "gloss": "差异化"
+    },
+    {
+      "i": 57,
+      "zh": "平行",
+      "en": "parallel",
+      "ipa": "[ˈpærəlel]",
+      "pos": "adj.",
+      "gloss": "平行的"
+    },
+    {
+      "i": 58,
+      "zh": "竞争",
+      "en": "competition",
+      "ipa": "[ˌkɒmpəˈtɪʃən]",
+      "pos": "n.",
+      "gloss": "竞争"
+    },
+    {
+      "i": 59,
+      "zh": "制程",
+      "en": "process",
+      "ipa": "[ˈproʊses]",
+      "pos": "n.",
+      "gloss": "制程"
+    },
+    {
+      "i": 60,
+      "zh": "成真",
+      "en": "materialize",
+      "ipa": "[məˈtɪriəlaɪz]",
+      "pos": "v.",
+      "gloss": "实现；成真"
+    },
+    {
+      "i": 61,
+      "zh": "流媒体",
+      "en": "streaming",
+      "ipa": "[ˈstriːmɪŋ]",
+      "pos": "n.",
+      "gloss": "流媒体"
+    },
+    {
+      "i": 62,
+      "zh": "到期",
+      "en": "mature",
+      "ipa": "[məˈtjʊər]",
+      "pos": "v.",
+      "gloss": "到期"
+    },
+    {
+      "i": 63,
+      "zh": "核能",
+      "en": "nuclear",
+      "ipa": "[ˈnjuːkliər]",
+      "pos": "adj.",
+      "gloss": "核能的"
+    },
+    {
+      "i": 64,
+      "zh": "地盘",
+      "en": "territory",
+      "ipa": "[ˈterɪtɔːri]",
+      "pos": "n.",
+      "gloss": "地盘"
+    },
+    {
+      "i": 65,
+      "zh": "信条",
+      "en": "tenet",
+      "ipa": "[ˈtiːnet]",
+      "pos": "n.",
+      "gloss": "信条"
+    },
+    {
+      "i": 66,
+      "zh": "演进",
+      "en": "evolution",
+      "ipa": "[ˌiːvəˈluːʃən]",
+      "pos": "n.",
+      "gloss": "演进"
+    },
+    {
+      "i": 67,
+      "zh": "获取",
+      "en": "acquire",
+      "ipa": "[əˈkwaɪər]",
+      "pos": "v.",
+      "gloss": "获取"
+    },
+    {
+      "i": 68,
+      "zh": "垄断",
+      "en": "monopoly",
+      "ipa": "[məˈnɒpəli]",
+      "pos": "n.",
+      "gloss": "垄断"
+    },
+    {
+      "i": 69,
+      "zh": "翻版",
+      "en": "replica",
+      "ipa": "[ˈreplɪkə]",
+      "pos": "n.",
+      "gloss": "翻版；复制品"
+    },
+    {
+      "i": 70,
+      "zh": "优势",
+      "en": "advantage",
+      "ipa": "[ədˈvɑːntɪdʒ]",
+      "pos": "n.",
+      "gloss": "优势"
+    },
+    {
+      "i": 71,
+      "zh": "圈地",
+      "en": "enclosure",
+      "ipa": "[ɪnˈkloʊʒər]",
+      "pos": "n.",
+      "gloss": "圈地"
+    },
+    {
+      "i": 72,
+      "zh": "颠覆",
+      "en": "disruption",
+      "ipa": "[dɪsˈrʌpʃən]",
+      "pos": "n.",
+      "gloss": "颠覆"
+    },
+    {
+      "i": 73,
+      "zh": "过度",
+      "en": "excessive",
+      "ipa": "[ɪkˈsesɪv]",
+      "pos": "adj.",
+      "gloss": "过度的"
+    },
+    {
+      "i": 74,
+      "zh": "正当化",
+      "en": "legitimize",
+      "ipa": "[lɪˈdʒɪtɪmaɪz]",
+      "pos": "v.",
+      "gloss": "正当化"
+    },
+    {
+      "i": 75,
+      "zh": "永恒",
+      "en": "eternal",
+      "ipa": "[ɪˈtɜːrnəl]",
+      "pos": "adj.",
+      "gloss": "永恒的"
+    },
+    {
+      "i": 76,
+      "zh": "古雅",
+      "en": "quaint",
+      "ipa": "[kweɪnt]",
+      "pos": "adj.",
+      "gloss": "古雅的"
+    },
+    {
+      "i": 77,
+      "zh": "取代",
+      "en": "replace",
+      "ipa": "[rɪˈpleɪs]",
+      "pos": "v.",
+      "gloss": "取代"
+    },
+    {
+      "i": 78,
+      "zh": "登月",
+      "en": "moonshot",
+      "ipa": "[ˈmuːnʃɒt]",
+      "pos": "n.",
+      "gloss": "登月计划"
+    },
+    {
+      "i": 79,
+      "zh": "全球",
+      "en": "global",
+      "ipa": "[ˈɡloʊbəl]",
+      "pos": "adj.",
+      "gloss": "全球的"
+    },
+    {
+      "i": 80,
+      "zh": "万亿",
+      "en": "trillion",
+      "ipa": "[ˈtrɪljən]",
+      "pos": "n.",
+      "gloss": "万亿"
+    },
+    {
+      "i": 81,
+      "zh": "存档",
+      "en": "archive",
+      "ipa": "[ˈɑːrkaɪv]",
+      "pos": "v.",
+      "gloss": "存档"
+    },
+    {
+      "i": 82,
+      "zh": "股权",
+      "en": "equity",
+      "ipa": "[ˈekwəti]",
+      "pos": "n.",
+      "gloss": "股权"
+    },
+    {
+      "i": 83,
+      "zh": "强度",
+      "en": "intensity",
+      "ipa": "[ɪnˈtensəti]",
+      "pos": "n.",
+      "gloss": "强度"
+    },
+    {
+      "i": 84,
+      "zh": "债权人",
+      "en": "creditor",
+      "ipa": "[ˈkredɪtər]",
+      "pos": "n.",
+      "gloss": "债权人"
+    },
+    {
+      "i": 85,
+      "zh": "周期",
+      "en": "cycle",
+      "ipa": "[ˈsaɪkəl]",
+      "pos": "n.",
+      "gloss": "周期"
+    },
+    {
+      "i": 86,
+      "zh": "分析师",
+      "en": "analyst",
+      "ipa": "[ˈænəlɪst]",
+      "pos": "n.",
+      "gloss": "分析师"
+    },
+    {
+      "i": 87,
+      "zh": "概念",
+      "en": "concept",
+      "ipa": "[ˈkɒnsept]",
+      "pos": "n.",
+      "gloss": "概念"
+    },
+    {
+      "i": 88,
+      "zh": "类比",
+      "en": "analogy",
+      "ipa": "[əˈnælədʒi]",
+      "pos": "n.",
+      "gloss": "类比"
+    }
+  ]
+}

@@ -1,0 +1,5529 @@
+{
+  "version": 1,
+  "annotations": [
+    {
+      "i": 0,
+      "zh": "效率",
+      "en": "efficiency",
+      "ipa": "[ɪˈfɪʃnsi]",
+      "pos": "n.",
+      "gloss": "效率"
+    },
+    {
+      "i": 1,
+      "zh": "生成",
+      "en": "generate",
+      "ipa": "[ˈdʒenəreɪt]",
+      "pos": "v.",
+      "gloss": "生成"
+    },
+    {
+      "i": 2,
+      "zh": "瓶颈",
+      "en": "bottleneck",
+      "ipa": "[ˈbɒtlnek]",
+      "pos": "n.",
+      "gloss": "瓶颈"
+    },
+    {
+      "i": 3,
+      "zh": "优先级",
+      "en": "priority",
+      "ipa": "[praɪˈɒrəti]",
+      "pos": "n.",
+      "gloss": "优先级"
+    },
+    {
+      "i": 4,
+      "zh": "监管",
+      "en": "supervise",
+      "ipa": "[ˈsuːpəvaɪz]",
+      "pos": "v.",
+      "gloss": "监管"
+    },
+    {
+      "i": 5,
+      "zh": "管理",
+      "en": "manage",
+      "ipa": "[ˈmænɪdʒ]",
+      "pos": "v.",
+      "gloss": "管理"
+    },
+    {
+      "i": 6,
+      "zh": "基础设施",
+      "en": "infrastructure",
+      "ipa": "[ˈɪnfrəstrʌktʃə]",
+      "pos": "n.",
+      "gloss": "基础设施"
+    },
+    {
+      "i": 7,
+      "zh": "发布",
+      "en": "release",
+      "ipa": "[rɪˈliːs]",
+      "pos": "v.",
+      "gloss": "发布"
+    },
+    {
+      "i": 8,
+      "zh": "反馈",
+      "en": "feedback",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 9,
+      "zh": "框架",
+      "en": "framework",
+      "ipa": "[ˈfreɪmwɜːk]",
+      "pos": "n.",
+      "gloss": "框架"
+    },
+    {
+      "i": 10,
+      "zh": "衡量",
+      "en": "measure",
+      "ipa": "[ˈmeʒə]",
+      "pos": "v.",
+      "gloss": "衡量"
+    },
+    {
+      "i": 11,
+      "zh": "隔离",
+      "en": "isolate",
+      "ipa": "[ˈaɪsəleɪt]",
+      "pos": "v.",
+      "gloss": "隔离"
+    },
+    {
+      "i": 12,
+      "zh": "架构",
+      "en": "architecture",
+      "ipa": "[ˈɑːkɪtektʃə]",
+      "pos": "n.",
+      "gloss": "架构"
+    },
+    {
+      "i": 13,
+      "zh": "设计",
+      "en": "design",
+      "ipa": "[dɪˈzaɪn]",
+      "pos": "v.",
+      "gloss": "设计"
+    },
+    {
+      "i": 14,
+      "zh": "边界",
+      "en": "boundary",
+      "ipa": "[ˈbaʊndri]",
+      "pos": "n.",
+      "gloss": "边界"
+    },
+    {
+      "i": 15,
+      "zh": "编译",
+      "en": "compilation",
+      "ipa": "[ˌkɒmpɪˈleɪʃn]",
+      "pos": "n.",
+      "gloss": "编译"
+    },
+    {
+      "i": 16,
+      "zh": "谢谢",
+      "en": "thanks",
+      "ipa": "[θæŋks]",
+      "pos": "n.",
+      "gloss": "谢谢"
+    },
+    {
+      "i": 17,
+      "zh": "演讲",
+      "en": "speech",
+      "ipa": "[spiːtʃ]",
+      "pos": "n.",
+      "gloss": "演讲"
+    },
+    {
+      "i": 18,
+      "zh": "工程",
+      "en": "engineering",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 19,
+      "zh": "做",
+      "en": "do",
+      "ipa": "[duː]",
+      "pos": "v.",
+      "gloss": "做"
+    },
+    {
+      "i": 20,
+      "zh": "世界",
+      "en": "world",
+      "ipa": "[wɜːld]",
+      "pos": "n.",
+      "gloss": "世界"
+    },
+    {
+      "i": 21,
+      "zh": "变化",
+      "en": "change",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 22,
+      "zh": "生成",
+      "en": "generation",
+      "ipa": "[ˌdʒenəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "生成"
+    },
+    {
+      "i": 23,
+      "zh": "说",
+      "en": "say",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 24,
+      "zh": "交付",
+      "en": "deliver",
+      "ipa": "[dɪˈlɪvə]",
+      "pos": "v.",
+      "gloss": "交付"
+    },
+    {
+      "i": 25,
+      "zh": "理解",
+      "en": "understand",
+      "ipa": "[ˌʌndəˈstænd]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 26,
+      "zh": "喜欢",
+      "en": "like",
+      "ipa": "[laɪk]",
+      "pos": "v.",
+      "gloss": "喜欢"
+    },
+    {
+      "i": 27,
+      "zh": "操作",
+      "en": "operation",
+      "ipa": "[ˌɒpəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "操作"
+    },
+    {
+      "i": 28,
+      "zh": "想法",
+      "en": "idea",
+      "ipa": "[aɪˈdɪə]",
+      "pos": "n.",
+      "gloss": "想法"
+    },
+    {
+      "i": 29,
+      "zh": "幸运",
+      "en": "lucky",
+      "ipa": "[ˈlʌki]",
+      "pos": "adj.",
+      "gloss": "幸运的"
+    },
+    {
+      "i": 30,
+      "zh": "来",
+      "en": "come",
+      "ipa": "[kʌm]",
+      "pos": "v.",
+      "gloss": "来"
+    },
+    {
+      "i": 31,
+      "zh": "使用",
+      "en": "use",
+      "ipa": "[juːz]",
+      "pos": "v.",
+      "gloss": "使用"
+    },
+    {
+      "i": 32,
+      "zh": "授权",
+      "en": "authorization",
+      "ipa": "[ˌɔːθəraɪˈzeɪʃn]",
+      "pos": "n.",
+      "gloss": "授权"
+    },
+    {
+      "i": 33,
+      "zh": "来",
+      "en": "come2",
+      "ipa": "[kʌm]",
+      "pos": "v.",
+      "gloss": "来"
+    },
+    {
+      "i": 34,
+      "zh": "公司",
+      "en": "company",
+      "ipa": "[ˈkʌmpəni]",
+      "pos": "n.",
+      "gloss": "公司"
+    },
+    {
+      "i": 35,
+      "zh": "团队",
+      "en": "team",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 36,
+      "zh": "软件",
+      "en": "software",
+      "ipa": "[ˈsɒftweə]",
+      "pos": "n.",
+      "gloss": "软件"
+    },
+    {
+      "i": 37,
+      "zh": "看",
+      "en": "watch",
+      "ipa": "[wɒtʃ]",
+      "pos": "v.",
+      "gloss": "看"
+    },
+    {
+      "i": 38,
+      "skip": true
+    },
+    {
+      "i": 39,
+      "zh": "重要",
+      "en": "important",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要的"
+    },
+    {
+      "i": 40,
+      "zh": "能力",
+      "en": "capability",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 41,
+      "zh": "说",
+      "en": "say2",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 42,
+      "zh": "产品",
+      "en": "product",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 43,
+      "zh": "创造",
+      "en": "create",
+      "ipa": "[kriˈeɪt]",
+      "pos": "v.",
+      "gloss": "创造"
+    },
+    {
+      "i": 44,
+      "zh": "客户",
+      "en": "customer",
+      "ipa": "[ˈkʌstəmə]",
+      "pos": "n.",
+      "gloss": "客户"
+    },
+    {
+      "i": 45,
+      "zh": "研究",
+      "en": "study",
+      "ipa": "[ˈstʌdi]",
+      "pos": "n.",
+      "gloss": "研究"
+    },
+    {
+      "i": 46,
+      "zh": "用户",
+      "en": "user",
+      "ipa": "[ˈjuːzə]",
+      "pos": "n.",
+      "gloss": "用户"
+    },
+    {
+      "i": 47,
+      "zh": "历史",
+      "en": "history",
+      "ipa": "[ˈhɪstri]",
+      "pos": "n.",
+      "gloss": "历史"
+    },
+    {
+      "i": 48,
+      "zh": "工作",
+      "en": "job",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 49,
+      "zh": "点",
+      "en": "point",
+      "ipa": "[pɔɪnt]",
+      "pos": "n.",
+      "gloss": "点"
+    },
+    {
+      "i": 50,
+      "skip": true
+    },
+    {
+      "i": 51,
+      "zh": "工作",
+      "en": "work",
+      "ipa": "[wɜːk]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 52,
+      "zh": "准备",
+      "en": "prepare",
+      "ipa": "[prɪˈpeə]",
+      "pos": "v.",
+      "gloss": "准备"
+    },
+    {
+      "i": 53,
+      "zh": "可以",
+      "en": "can",
+      "ipa": "[kæn]",
+      "pos": "v.",
+      "gloss": "可以"
+    },
+    {
+      "i": 54,
+      "zh": "稀缺",
+      "en": "scarce",
+      "ipa": "[skeəs]",
+      "pos": "adj.",
+      "gloss": "稀缺的"
+    },
+    {
+      "i": 55,
+      "zh": "现在",
+      "en": "present",
+      "ipa": "[ˈpreznt]",
+      "pos": "n.",
+      "gloss": "现在"
+    },
+    {
+      "i": 56,
+      "zh": "说",
+      "en": "say3",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 57,
+      "zh": "问题",
+      "en": "problem",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 58,
+      "zh": "代码",
+      "en": "code",
+      "ipa": "[kəʊd]",
+      "pos": "n.",
+      "gloss": "代码"
+    },
+    {
+      "i": 59,
+      "zh": "吞吐量",
+      "en": "throughput",
+      "ipa": "[ˈθruːpʊt]",
+      "pos": "n.",
+      "gloss": "吞吐量"
+    },
+    {
+      "i": 60,
+      "zh": "问题",
+      "en": "issue",
+      "ipa": "[ˈɪʃuː]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 61,
+      "zh": "质量",
+      "en": "quality",
+      "ipa": "[ˈkwɒləti]",
+      "pos": "n.",
+      "gloss": "质量"
+    },
+    {
+      "i": 62,
+      "zh": "想",
+      "en": "think",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 63,
+      "zh": "未来",
+      "en": "future",
+      "ipa": "[ˈfjuːtʃə]",
+      "pos": "n.",
+      "gloss": "未来"
+    },
+    {
+      "i": 64,
+      "zh": "现在",
+      "en": "present2",
+      "ipa": "[ˈpreznt]",
+      "pos": "n.",
+      "gloss": "现在"
+    },
+    {
+      "i": 65,
+      "zh": "需求",
+      "en": "demand",
+      "ipa": "[dɪˈmɑːnd]",
+      "pos": "n.",
+      "gloss": "需求"
+    },
+    {
+      "i": 66,
+      "zh": "问题",
+      "en": "question",
+      "ipa": "[ˈkwestʃən]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 67,
+      "zh": "角色",
+      "en": "role",
+      "ipa": "[rəʊl]",
+      "pos": "n.",
+      "gloss": "角色"
+    },
+    {
+      "i": 68,
+      "zh": "变化",
+      "en": "change2",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 69,
+      "zh": "面",
+      "en": "surface",
+      "ipa": "[ˈsɜːfɪs]",
+      "pos": "n.",
+      "gloss": "表面"
+    },
+    {
+      "i": 70,
+      "zh": "指标",
+      "en": "metric",
+      "ipa": "[ˈmetrɪk]",
+      "pos": "n.",
+      "gloss": "指标"
+    },
+    {
+      "i": 71,
+      "zh": "每个",
+      "en": "each",
+      "ipa": "[iːtʃ]",
+      "pos": "adj.",
+      "gloss": "每个"
+    },
+    {
+      "i": 72,
+      "zh": "过去",
+      "en": "past",
+      "ipa": "[pɑːst]",
+      "pos": "n.",
+      "gloss": "过去"
+    },
+    {
+      "i": 73,
+      "zh": "可能",
+      "en": "possible",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 74,
+      "zh": "方法",
+      "en": "methodology",
+      "ipa": "[ˌmeθəˈdɒlədʒi]",
+      "pos": "n.",
+      "gloss": "方法论"
+    },
+    {
+      "i": 75,
+      "zh": "影响",
+      "en": "influence",
+      "ipa": "[ˈɪnfluəns]",
+      "pos": "v.",
+      "gloss": "影响"
+    },
+    {
+      "i": 76,
+      "zh": "内容",
+      "en": "content",
+      "ipa": "[ˈkɒntent]",
+      "pos": "n.",
+      "gloss": "内容"
+    },
+    {
+      "i": 77,
+      "skip": true
+    },
+    {
+      "i": 78,
+      "zh": "去",
+      "en": "go",
+      "ipa": "[ɡəʊ]",
+      "pos": "v.",
+      "gloss": "去"
+    },
+    {
+      "i": 79,
+      "skip": true
+    },
+    {
+      "i": 80,
+      "zh": "问",
+      "en": "ask",
+      "ipa": "[ɑːsk]",
+      "pos": "v.",
+      "gloss": "问"
+    },
+    {
+      "i": 81,
+      "zh": "学习",
+      "en": "learning",
+      "ipa": "[ˈlɜːnɪŋ]",
+      "pos": "n.",
+      "gloss": "学习"
+    },
+    {
+      "i": 82,
+      "zh": "目标",
+      "en": "objective",
+      "ipa": "[əbˈdʒektɪv]",
+      "pos": "n.",
+      "gloss": "目标"
+    },
+    {
+      "i": 83,
+      "zh": "分析",
+      "en": "analyze",
+      "ipa": "[ˈænəlaɪz]",
+      "pos": "v.",
+      "gloss": "分析"
+    },
+    {
+      "i": 84,
+      "zh": "投资",
+      "en": "investment",
+      "ipa": "[ɪnˈvestmənt]",
+      "pos": "n.",
+      "gloss": "投资"
+    },
+    {
+      "i": 85,
+      "zh": "过去",
+      "en": "past2",
+      "ipa": "[pɑːst]",
+      "pos": "n.",
+      "gloss": "过去"
+    },
+    {
+      "i": 86,
+      "zh": "洞察",
+      "en": "insight",
+      "ipa": "[ˈɪnsaɪt]",
+      "pos": "n.",
+      "gloss": "洞察"
+    },
+    {
+      "i": 87,
+      "zh": "原因",
+      "en": "reason",
+      "ipa": "[ˈriːzn]",
+      "pos": "n.",
+      "gloss": "原因"
+    },
+    {
+      "i": 88,
+      "zh": "简单",
+      "en": "simple",
+      "ipa": "[ˈsɪmpl]",
+      "pos": "adj.",
+      "gloss": "简单的"
+    },
+    {
+      "i": 89,
+      "zh": "需要",
+      "en": "need",
+      "ipa": "[niːd]",
+      "pos": "v.",
+      "gloss": "需要"
+    },
+    {
+      "i": 90,
+      "zh": "意思",
+      "en": "meaning",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意思"
+    },
+    {
+      "i": 91,
+      "zh": "找",
+      "en": "find",
+      "ipa": "[faɪnd]",
+      "pos": "v.",
+      "gloss": "找"
+    },
+    {
+      "i": 92,
+      "zh": "帮助",
+      "en": "assist",
+      "ipa": "[əˈsɪst]",
+      "pos": "v.",
+      "gloss": "帮助"
+    },
+    {
+      "i": 93,
+      "zh": "反馈",
+      "en": "feedback2",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 94,
+      "zh": "拿",
+      "en": "take",
+      "ipa": "[teɪk]",
+      "pos": "v.",
+      "gloss": "拿"
+    },
+    {
+      "i": 95,
+      "zh": "明显",
+      "en": "obvious",
+      "ipa": "[ˈɒbviəs]",
+      "pos": "adj.",
+      "gloss": "明显的"
+    },
+    {
+      "i": 96,
+      "zh": "工作",
+      "en": "job2",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 97,
+      "zh": "自动化",
+      "en": "automate",
+      "ipa": "[ˈɔːtəmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 98,
+      "zh": "写",
+      "en": "write",
+      "ipa": "[raɪt]",
+      "pos": "v.",
+      "gloss": "写"
+    },
+    {
+      "i": 99,
+      "zh": "总结",
+      "en": "summary",
+      "ipa": "[ˈsʌməri]",
+      "pos": "n.",
+      "gloss": "总结"
+    },
+    {
+      "i": 100,
+      "zh": "摘要",
+      "en": "abstract",
+      "ipa": "[ˈæbstrækt]",
+      "pos": "n.",
+      "gloss": "摘要"
+    },
+    {
+      "i": 101,
+      "zh": "反馈",
+      "en": "feedback3",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 102,
+      "zh": "邮件",
+      "en": "email",
+      "ipa": "[ˈiːmeɪl]",
+      "pos": "n.",
+      "gloss": "邮件"
+    },
+    {
+      "i": 103,
+      "zh": "来源",
+      "en": "source",
+      "ipa": "[sɔːs]",
+      "pos": "n.",
+      "gloss": "来源"
+    },
+    {
+      "i": 104,
+      "zh": "反馈",
+      "en": "feedback4",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 105,
+      "zh": "个人",
+      "en": "personal",
+      "ipa": "[ˈpɜːsənl]",
+      "pos": "adj.",
+      "gloss": "个人的"
+    },
+    {
+      "i": 106,
+      "zh": "合作伙伴",
+      "en": "partner",
+      "ipa": "[ˈpɑːtnə]",
+      "pos": "n.",
+      "gloss": "合作伙伴"
+    },
+    {
+      "i": 107,
+      "zh": "信息",
+      "en": "information",
+      "ipa": "[ˌɪnfəˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "信息"
+    },
+    {
+      "i": 108,
+      "skip": true
+    },
+    {
+      "i": 109,
+      "zh": "建立",
+      "en": "build",
+      "ipa": "[bɪld]",
+      "pos": "v.",
+      "gloss": "建立"
+    },
+    {
+      "i": 110,
+      "zh": "状态",
+      "en": "status",
+      "ipa": "[ˈsteɪtəs]",
+      "pos": "n.",
+      "gloss": "状态"
+    },
+    {
+      "i": 111,
+      "zh": "合并",
+      "en": "merge",
+      "ipa": "[mɜːdʒ]",
+      "pos": "v.",
+      "gloss": "合并"
+    },
+    {
+      "i": 112,
+      "zh": "继续",
+      "en": "continue",
+      "ipa": "[kənˈtɪnjuː]",
+      "pos": "v.",
+      "gloss": "继续"
+    },
+    {
+      "i": 113,
+      "zh": "代码",
+      "en": "code2",
+      "ipa": "[kəʊd]",
+      "pos": "n.",
+      "gloss": "代码"
+    },
+    {
+      "i": 114,
+      "zh": "发现",
+      "en": "discover",
+      "ipa": "[dɪˈskʌvə]",
+      "pos": "v.",
+      "gloss": "发现"
+    },
+    {
+      "i": 115,
+      "zh": "变化",
+      "en": "change3",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 116,
+      "zh": "想",
+      "en": "think2",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 117,
+      "zh": "人类",
+      "en": "human",
+      "ipa": "[ˈhjuːmən]",
+      "pos": "n.",
+      "gloss": "人类"
+    },
+    {
+      "i": 118,
+      "zh": "专业知识",
+      "en": "expertise",
+      "ipa": "[ˌekspɜːˈtiːz]",
+      "pos": "n.",
+      "gloss": "专业知识"
+    },
+    {
+      "i": 119,
+      "zh": "自动化",
+      "en": "automation",
+      "ipa": "[ˌɔːtəˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 120,
+      "zh": "验证",
+      "en": "verify",
+      "ipa": "[ˈverɪfaɪ]",
+      "pos": "v.",
+      "gloss": "验证"
+    },
+    {
+      "i": 121,
+      "zh": "例子",
+      "en": "example",
+      "ipa": "[ɪɡˈzɑːmpl]",
+      "pos": "n.",
+      "gloss": "例子"
+    },
+    {
+      "i": 122,
+      "zh": "定义",
+      "en": "define",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "定义"
+    },
+    {
+      "i": 123,
+      "zh": "描述",
+      "en": "describe",
+      "ipa": "[dɪˈskraɪb]",
+      "pos": "v.",
+      "gloss": "描述"
+    },
+    {
+      "i": 124,
+      "zh": "标准",
+      "en": "standard",
+      "ipa": "[ˈstændəd]",
+      "pos": "n.",
+      "gloss": "标准"
+    },
+    {
+      "i": 125,
+      "zh": "测试",
+      "en": "testing",
+      "ipa": "[ˈtestɪŋ]",
+      "pos": "n.",
+      "gloss": "测试"
+    },
+    {
+      "i": 126,
+      "skip": true
+    },
+    {
+      "i": 127,
+      "skip": true
+    },
+    {
+      "i": 128,
+      "zh": "失败",
+      "en": "failure",
+      "ipa": "[ˈfeɪljə]",
+      "pos": "n.",
+      "gloss": "失败"
+    },
+    {
+      "i": 129,
+      "zh": "原则",
+      "en": "principle",
+      "ipa": "[ˈprɪnsəpl]",
+      "pos": "n.",
+      "gloss": "原则"
+    },
+    {
+      "i": 130,
+      "zh": "测试",
+      "en": "test",
+      "ipa": "[test]",
+      "pos": "n.",
+      "gloss": "测试"
+    },
+    {
+      "i": 131,
+      "zh": "做",
+      "en": "do2",
+      "ipa": "[duː]",
+      "pos": "v.",
+      "gloss": "做"
+    },
+    {
+      "i": 132,
+      "zh": "修复",
+      "en": "repair",
+      "ipa": "[rɪˈpeə]",
+      "pos": "v.",
+      "gloss": "修复"
+    },
+    {
+      "i": 133,
+      "zh": "成本",
+      "en": "cost",
+      "ipa": "[kɒst]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 134,
+      "zh": "价值",
+      "en": "value",
+      "ipa": "[ˈvæljuː]",
+      "pos": "n.",
+      "gloss": "价值"
+    },
+    {
+      "i": 135,
+      "zh": "测试",
+      "en": "testing2",
+      "ipa": "[ˈtestɪŋ]",
+      "pos": "n.",
+      "gloss": "测试"
+    },
+    {
+      "i": 136,
+      "zh": "喜欢",
+      "en": "enjoy",
+      "ipa": "[ɪnˈdʒɔɪ]",
+      "pos": "v.",
+      "gloss": "享受"
+    },
+    {
+      "i": 137,
+      "zh": "产品",
+      "en": "product2",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 138,
+      "skip": true
+    },
+    {
+      "i": 139,
+      "zh": "知识",
+      "en": "knowledge",
+      "ipa": "[ˈnɒlɪdʒ]",
+      "pos": "n.",
+      "gloss": "知识"
+    },
+    {
+      "i": 140,
+      "zh": "意识",
+      "en": "awareness",
+      "ipa": "[əˈweənəs]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 141,
+      "zh": "分布",
+      "en": "distribution",
+      "ipa": "[ˌdɪstrɪˈbjuːʃn]",
+      "pos": "n.",
+      "gloss": "分布"
+    },
+    {
+      "i": 142,
+      "skip": true
+    },
+    {
+      "i": 143,
+      "zh": "模型",
+      "en": "model",
+      "ipa": "[ˈmɒdl]",
+      "pos": "n.",
+      "gloss": "模型"
+    },
+    {
+      "i": 144,
+      "zh": "领域",
+      "en": "domain",
+      "ipa": "[dəˈmeɪn]",
+      "pos": "n.",
+      "gloss": "领域"
+    },
+    {
+      "i": 145,
+      "zh": "产品",
+      "en": "product3",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 146,
+      "zh": "迭代",
+      "en": "iteration",
+      "ipa": "[ˌɪtəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "迭代"
+    },
+    {
+      "i": 147,
+      "zh": "产品",
+      "en": "product4",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 148,
+      "zh": "能力",
+      "en": "capability2",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 149,
+      "zh": "想",
+      "en": "think3",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 150,
+      "zh": "出现",
+      "en": "appear",
+      "ipa": "[əˈpɪə]",
+      "pos": "v.",
+      "gloss": "出现"
+    },
+    {
+      "i": 151,
+      "zh": "工程",
+      "en": "engineering2",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 152,
+      "zh": "复杂",
+      "en": "complex",
+      "ipa": "[ˈkɒmpleks]",
+      "pos": "adj.",
+      "gloss": "复杂的"
+    },
+    {
+      "i": 153,
+      "zh": "现在",
+      "en": "present3",
+      "ipa": "[ˈpreznt]",
+      "pos": "n.",
+      "gloss": "现在"
+    },
+    {
+      "i": 154,
+      "zh": "整个",
+      "en": "whole",
+      "ipa": "[həʊl]",
+      "pos": "adj.",
+      "gloss": "整个的"
+    },
+    {
+      "i": 155,
+      "zh": "关键",
+      "en": "key",
+      "ipa": "[kiː]",
+      "pos": "n.",
+      "gloss": "关键"
+    },
+    {
+      "i": 156,
+      "zh": "限制",
+      "en": "restrict",
+      "ipa": "[rɪˈstrɪkt]",
+      "pos": "v.",
+      "gloss": "限制"
+    },
+    {
+      "i": 157,
+      "zh": "观察",
+      "en": "observe",
+      "ipa": "[əbˈzɜːv]",
+      "pos": "v.",
+      "gloss": "观察"
+    },
+    {
+      "i": 158,
+      "skip": true
+    },
+    {
+      "i": 159,
+      "zh": "工程",
+      "en": "engineering3",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 160,
+      "zh": "工程",
+      "en": "engineering4",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 161,
+      "zh": "可能",
+      "en": "possible2",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 162,
+      "zh": "帮助",
+      "en": "help",
+      "ipa": "[help]",
+      "pos": "v.",
+      "gloss": "帮助"
+    },
+    {
+      "i": 163,
+      "zh": "高",
+      "en": "high",
+      "ipa": "[haɪ]",
+      "pos": "adj.",
+      "gloss": "高的"
+    },
+    {
+      "i": 164,
+      "zh": "适应",
+      "en": "adapt",
+      "ipa": "[əˈdæpt]",
+      "pos": "v.",
+      "gloss": "适应"
+    },
+    {
+      "i": 165,
+      "zh": "差异",
+      "en": "difference",
+      "ipa": "[ˈdɪfrəns]",
+      "pos": "n.",
+      "gloss": "差异"
+    },
+    {
+      "i": 166,
+      "zh": "工程",
+      "en": "engineering5",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 167,
+      "zh": "重要",
+      "en": "important2",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要的"
+    },
+    {
+      "i": 168,
+      "zh": "工具",
+      "en": "tool",
+      "ipa": "[tuːl]",
+      "pos": "n.",
+      "gloss": "工具"
+    },
+    {
+      "i": 169,
+      "zh": "理解",
+      "en": "understand2",
+      "ipa": "[ˌʌndəˈstænd]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 170,
+      "zh": "阶段",
+      "en": "phase",
+      "ipa": "[feɪz]",
+      "pos": "n.",
+      "gloss": "阶段"
+    },
+    {
+      "i": 171,
+      "zh": "成功",
+      "en": "success",
+      "ipa": "[səkˈses]",
+      "pos": "n.",
+      "gloss": "成功"
+    },
+    {
+      "i": 172,
+      "zh": "告诉",
+      "en": "tell",
+      "ipa": "[tel]",
+      "pos": "v.",
+      "gloss": "告诉"
+    },
+    {
+      "i": 173,
+      "zh": "帮助",
+      "en": "assist2",
+      "ipa": "[əˈsɪst]",
+      "pos": "v.",
+      "gloss": "帮助"
+    },
+    {
+      "i": 174,
+      "zh": "好奇",
+      "en": "curious",
+      "ipa": "[ˈkjʊəriəs]",
+      "pos": "adj.",
+      "gloss": "好奇的"
+    },
+    {
+      "i": 175,
+      "zh": "恐惧",
+      "en": "fear",
+      "ipa": "[fɪə]",
+      "pos": "n.",
+      "gloss": "恐惧"
+    },
+    {
+      "i": 176,
+      "zh": "恐惧",
+      "en": "fear2",
+      "ipa": "[fɪə]",
+      "pos": "n.",
+      "gloss": "恐惧"
+    },
+    {
+      "i": 177,
+      "zh": "建议",
+      "en": "suggestion",
+      "ipa": "[səˈdʒestʃən]",
+      "pos": "n.",
+      "gloss": "建议"
+    },
+    {
+      "i": 178,
+      "zh": "范围",
+      "en": "scope",
+      "ipa": "[skəʊp]",
+      "pos": "n.",
+      "gloss": "范围"
+    },
+    {
+      "i": 179,
+      "zh": "感觉",
+      "en": "feeling",
+      "ipa": "[ˈfiːlɪŋ]",
+      "pos": "n.",
+      "gloss": "感觉"
+    },
+    {
+      "i": 180,
+      "zh": "可能",
+      "en": "possible3",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 181,
+      "zh": "计算",
+      "en": "compute",
+      "ipa": "[kəmˈpjuːt]",
+      "pos": "n.",
+      "gloss": "计算"
+    },
+    {
+      "i": 182,
+      "zh": "电脑",
+      "en": "computer",
+      "ipa": "[kəmˈpjuːtə]",
+      "pos": "n.",
+      "gloss": "电脑"
+    },
+    {
+      "i": 183,
+      "zh": "表达",
+      "en": "express",
+      "ipa": "[ɪkˈspres]",
+      "pos": "v.",
+      "gloss": "表达"
+    },
+    {
+      "i": 184,
+      "zh": "大学",
+      "en": "college",
+      "ipa": "[ˈkɒlɪdʒ]",
+      "pos": "n.",
+      "gloss": "大学"
+    },
+    {
+      "i": 185,
+      "zh": "项目",
+      "en": "project",
+      "ipa": "[ˈprɒdʒekt]",
+      "pos": "n.",
+      "gloss": "项目"
+    },
+    {
+      "i": 186,
+      "zh": "国家",
+      "en": "country",
+      "ipa": "[ˈkʌntri]",
+      "pos": "n.",
+      "gloss": "国家"
+    },
+    {
+      "i": 187,
+      "zh": "知道",
+      "en": "know",
+      "ipa": "[nəʊ]",
+      "pos": "v.",
+      "gloss": "知道"
+    },
+    {
+      "i": 188,
+      "zh": "线",
+      "en": "line",
+      "ipa": "[laɪn]",
+      "pos": "n.",
+      "gloss": "线"
+    },
+    {
+      "i": 189,
+      "zh": "收入",
+      "en": "income",
+      "ipa": "[ˈɪnkʌm]",
+      "pos": "n.",
+      "gloss": "收入"
+    },
+    {
+      "i": 190,
+      "zh": "公司",
+      "en": "company2",
+      "ipa": "[ˈkʌmpəni]",
+      "pos": "n.",
+      "gloss": "公司"
+    },
+    {
+      "i": 191,
+      "zh": "范围",
+      "en": "scope2",
+      "ipa": "[skəʊp]",
+      "pos": "n.",
+      "gloss": "范围"
+    },
+    {
+      "i": 192,
+      "zh": "焦虑",
+      "en": "anxiety",
+      "ipa": "[æŋˈzaɪəti]",
+      "pos": "n.",
+      "gloss": "焦虑"
+    },
+    {
+      "i": 193,
+      "zh": "害怕",
+      "en": "scared",
+      "ipa": "[skeəd]",
+      "pos": "adj.",
+      "gloss": "害怕的"
+    },
+    {
+      "i": 194,
+      "zh": "害怕",
+      "en": "scared2",
+      "ipa": "[skeəd]",
+      "pos": "adj.",
+      "gloss": "害怕的"
+    },
+    {
+      "i": 195,
+      "zh": "高",
+      "en": "high2",
+      "ipa": "[haɪ]",
+      "pos": "adj.",
+      "gloss": "高的"
+    },
+    {
+      "i": 196,
+      "zh": "成长",
+      "en": "growth",
+      "ipa": "[ɡrəʊθ]",
+      "pos": "n.",
+      "gloss": "成长"
+    },
+    {
+      "i": 197,
+      "zh": "能力",
+      "en": "capability3",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 198,
+      "zh": "进入",
+      "en": "enter",
+      "ipa": "[ˈentə]",
+      "pos": "v.",
+      "gloss": "进入"
+    },
+    {
+      "i": 199,
+      "zh": "喜欢",
+      "en": "like2",
+      "ipa": "[laɪk]",
+      "pos": "v.",
+      "gloss": "喜欢"
+    },
+    {
+      "i": 200,
+      "zh": "真实",
+      "en": "truth",
+      "ipa": "[truːθ]",
+      "pos": "n.",
+      "gloss": "真实"
+    },
+    {
+      "i": 201,
+      "zh": "方向",
+      "en": "direction",
+      "ipa": "[daɪˈrekʃn]",
+      "pos": "n.",
+      "gloss": "方向"
+    },
+    {
+      "i": 202,
+      "zh": "可怕",
+      "en": "terrible",
+      "ipa": "[ˈterəbl]",
+      "pos": "adj.",
+      "gloss": "可怕的"
+    },
+    {
+      "i": 203,
+      "zh": "选择",
+      "en": "choose",
+      "ipa": "[tʃuːz]",
+      "pos": "v.",
+      "gloss": "选择"
+    },
+    {
+      "i": 204,
+      "zh": "话题",
+      "en": "topic",
+      "ipa": "[ˈtɒpɪk]",
+      "pos": "n.",
+      "gloss": "话题"
+    },
+    {
+      "i": 205,
+      "zh": "部分",
+      "en": "part",
+      "ipa": "[pɑːt]",
+      "pos": "n.",
+      "gloss": "部分"
+    },
+    {
+      "i": 206,
+      "zh": "部分",
+      "en": "part2",
+      "ipa": "[pɑːt]",
+      "pos": "n.",
+      "gloss": "部分"
+    },
+    {
+      "i": 207,
+      "zh": "时代",
+      "en": "era",
+      "ipa": "[ˈɪərə]",
+      "pos": "n.",
+      "gloss": "时代"
+    },
+    {
+      "i": 208,
+      "zh": "时间",
+      "en": "time",
+      "ipa": "[taɪm]",
+      "pos": "n.",
+      "gloss": "时间"
+    },
+    {
+      "i": 209,
+      "zh": "问题",
+      "en": "problem2",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 210,
+      "zh": "帮助",
+      "en": "assist3",
+      "ipa": "[əˈsɪst]",
+      "pos": "v.",
+      "gloss": "帮助"
+    },
+    {
+      "i": 211,
+      "zh": "热情",
+      "en": "passion",
+      "ipa": "[ˈpæʃn]",
+      "pos": "n.",
+      "gloss": "热情"
+    },
+    {
+      "i": 212,
+      "zh": "小时",
+      "en": "hour",
+      "ipa": "[ˈaʊə]",
+      "pos": "n.",
+      "gloss": "小时"
+    },
+    {
+      "i": 213,
+      "zh": "英语",
+      "en": "English",
+      "ipa": "[ˈɪŋɡlɪʃ]",
+      "pos": "n.",
+      "gloss": "英语"
+    },
+    {
+      "i": 214,
+      "zh": "想",
+      "en": "think4",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 215,
+      "zh": "说",
+      "en": "say4",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 216,
+      "zh": "生活",
+      "en": "life",
+      "ipa": "[laɪf]",
+      "pos": "n.",
+      "gloss": "生活"
+    },
+    {
+      "i": 217,
+      "zh": "发现",
+      "en": "discover2",
+      "ipa": "[dɪˈskʌvə]",
+      "pos": "v.",
+      "gloss": "发现"
+    },
+    {
+      "i": 218,
+      "zh": "周",
+      "en": "week",
+      "ipa": "[wiːk]",
+      "pos": "n.",
+      "gloss": "周"
+    },
+    {
+      "i": 219,
+      "zh": "找",
+      "en": "find2",
+      "ipa": "[faɪnd]",
+      "pos": "v.",
+      "gloss": "找"
+    },
+    {
+      "i": 220,
+      "skip": true
+    },
+    {
+      "i": 221,
+      "zh": "创造",
+      "en": "create2",
+      "ipa": "[kriˈeɪt]",
+      "pos": "v.",
+      "gloss": "创造"
+    },
+    {
+      "i": 222,
+      "zh": "原因",
+      "en": "reason2",
+      "ipa": "[ˈriːzn]",
+      "pos": "n.",
+      "gloss": "原因"
+    },
+    {
+      "i": 223,
+      "zh": "商务",
+      "en": "business",
+      "ipa": "[ˈbɪznəs]",
+      "pos": "n.",
+      "gloss": "商务"
+    },
+    {
+      "i": 224,
+      "zh": "喜欢",
+      "en": "like3",
+      "ipa": "[laɪk]",
+      "pos": "v.",
+      "gloss": "喜欢"
+    },
+    {
+      "i": 225,
+      "zh": "商务",
+      "en": "business2",
+      "ipa": "[ˈbɪznəs]",
+      "pos": "n.",
+      "gloss": "商务"
+    },
+    {
+      "i": 226,
+      "zh": "低",
+      "en": "low",
+      "ipa": "[ləʊ]",
+      "pos": "adj.",
+      "gloss": "低的"
+    },
+    {
+      "i": 227,
+      "zh": "坐",
+      "en": "sit",
+      "ipa": "[sɪt]",
+      "pos": "v.",
+      "gloss": "坐"
+    },
+    {
+      "i": 228,
+      "zh": "喜欢",
+      "en": "like4",
+      "ipa": "[laɪk]",
+      "pos": "v.",
+      "gloss": "喜欢"
+    },
+    {
+      "i": 229,
+      "zh": "开始",
+      "en": "begin",
+      "ipa": "[bɪˈɡɪn]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 230,
+      "skip": true
+    },
+    {
+      "i": 231,
+      "zh": "流程",
+      "en": "process",
+      "ipa": "[ˈprəʊses]",
+      "pos": "n.",
+      "gloss": "流程"
+    },
+    {
+      "i": 232,
+      "zh": "想",
+      "en": "think5",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 233,
+      "zh": "能力",
+      "en": "capability4",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 234,
+      "zh": "文件",
+      "en": "file",
+      "ipa": "[faɪl]",
+      "pos": "n.",
+      "gloss": "文件"
+    },
+    {
+      "i": 235,
+      "zh": "访问",
+      "en": "access",
+      "ipa": "[ˈækses]",
+      "pos": "n.",
+      "gloss": "访问"
+    },
+    {
+      "i": 236,
+      "zh": "类型",
+      "en": "type",
+      "ipa": "[taɪp]",
+      "pos": "n.",
+      "gloss": "类型"
+    },
+    {
+      "i": 237,
+      "zh": "市场",
+      "en": "market",
+      "ipa": "[ˈmɑːkɪt]",
+      "pos": "n.",
+      "gloss": "市场"
+    },
+    {
+      "i": 238,
+      "zh": "看",
+      "en": "watch2",
+      "ipa": "[wɒtʃ]",
+      "pos": "v.",
+      "gloss": "看"
+    },
+    {
+      "i": 239,
+      "zh": "获得",
+      "en": "obtain",
+      "ipa": "[əbˈteɪn]",
+      "pos": "v.",
+      "gloss": "获得"
+    },
+    {
+      "i": 240,
+      "zh": "给",
+      "en": "give",
+      "ipa": "[ɡɪv]",
+      "pos": "v.",
+      "gloss": "给"
+    },
+    {
+      "i": 241,
+      "zh": "想",
+      "en": "think6",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 242,
+      "zh": "问题",
+      "en": "problem3",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 243,
+      "zh": "分享",
+      "en": "share",
+      "ipa": "[ʃeə]",
+      "pos": "v.",
+      "gloss": "分享"
+    },
+    {
+      "i": 244,
+      "zh": "深度",
+      "en": "depth",
+      "ipa": "[depθ]",
+      "pos": "n.",
+      "gloss": "深度"
+    },
+    {
+      "i": 245,
+      "zh": "开始",
+      "en": "start",
+      "ipa": "[stɑːt]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 246,
+      "zh": "工作",
+      "en": "job3",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 247,
+      "zh": "工具",
+      "en": "tool2",
+      "ipa": "[tuːl]",
+      "pos": "n.",
+      "gloss": "工具"
+    },
+    {
+      "i": 248,
+      "zh": "力量",
+      "en": "power",
+      "ipa": "[ˈpaʊə]",
+      "pos": "n.",
+      "gloss": "力量"
+    },
+    {
+      "i": 249,
+      "zh": "必须",
+      "en": "must",
+      "ipa": "[mʌst]",
+      "pos": "v.",
+      "gloss": "必须"
+    },
+    {
+      "i": 250,
+      "zh": "希望",
+      "en": "wish",
+      "ipa": "[wɪʃ]",
+      "pos": "v.",
+      "gloss": "希望"
+    },
+    {
+      "i": 251,
+      "zh": "可能",
+      "en": "possible4",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 252,
+      "zh": "朋友",
+      "en": "friend",
+      "ipa": "[frend]",
+      "pos": "n.",
+      "gloss": "朋友"
+    },
+    {
+      "i": 253,
+      "zh": "演示",
+      "en": "demo",
+      "ipa": "[ˈdeməʊ]",
+      "pos": "n.",
+      "gloss": "演示"
+    },
+    {
+      "i": 254,
+      "zh": "开心",
+      "en": "happy",
+      "ipa": "[ˈhæpi]",
+      "pos": "adj.",
+      "gloss": "开心的"
+    },
+    {
+      "i": 255,
+      "zh": "希望",
+      "en": "wish2",
+      "ipa": "[wɪʃ]",
+      "pos": "v.",
+      "gloss": "希望"
+    },
+    {
+      "i": 256,
+      "zh": "知识",
+      "en": "knowledge2",
+      "ipa": "[ˈnɒlɪdʒ]",
+      "pos": "n.",
+      "gloss": "知识"
+    },
+    {
+      "i": 257,
+      "zh": "差距",
+      "en": "disparity",
+      "ipa": "[dɪˈspærəti]",
+      "pos": "n.",
+      "gloss": "差距"
+    },
+    {
+      "i": 258,
+      "skip": true
+    },
+    {
+      "i": 259,
+      "zh": "分享",
+      "en": "share2",
+      "ipa": "[ʃeə]",
+      "pos": "v.",
+      "gloss": "分享"
+    },
+    {
+      "i": 260,
+      "zh": "表格",
+      "en": "table",
+      "ipa": "[ˈteɪbl]",
+      "pos": "n.",
+      "gloss": "表格"
+    },
+    {
+      "i": 261,
+      "zh": "人们",
+      "en": "people",
+      "ipa": "[ˈpiːpl]",
+      "pos": "n.",
+      "gloss": "人们"
+    },
+    {
+      "i": 262,
+      "zh": "机会",
+      "en": "chance",
+      "ipa": "[tʃɑːns]",
+      "pos": "n.",
+      "gloss": "机会"
+    },
+    {
+      "i": 263,
+      "zh": "市场",
+      "en": "market2",
+      "ipa": "[ˈmɑːkɪt]",
+      "pos": "n.",
+      "gloss": "市场"
+    },
+    {
+      "i": 264,
+      "zh": "历史",
+      "en": "history2",
+      "ipa": "[ˈhɪstri]",
+      "pos": "n.",
+      "gloss": "历史"
+    },
+    {
+      "i": 265,
+      "zh": "领域",
+      "en": "domain2",
+      "ipa": "[dəˈmeɪn]",
+      "pos": "n.",
+      "gloss": "领域"
+    },
+    {
+      "i": 266,
+      "zh": "感觉",
+      "en": "sense",
+      "ipa": "[sens]",
+      "pos": "n.",
+      "gloss": "感觉"
+    },
+    {
+      "i": 267,
+      "zh": "影响",
+      "en": "influence2",
+      "ipa": "[ˈɪnfluəns]",
+      "pos": "v.",
+      "gloss": "影响"
+    },
+    {
+      "i": 268,
+      "zh": "规模",
+      "en": "scale",
+      "ipa": "[skeɪl]",
+      "pos": "n.",
+      "gloss": "规模"
+    },
+    {
+      "i": 269,
+      "zh": "确定",
+      "en": "determine",
+      "ipa": "[dɪˈtɜːmɪn]",
+      "pos": "v.",
+      "gloss": "确定"
+    },
+    {
+      "i": 270,
+      "zh": "需求",
+      "en": "demand2",
+      "ipa": "[dɪˈmɑːnd]",
+      "pos": "n.",
+      "gloss": "需求"
+    },
+    {
+      "i": 271,
+      "zh": "反馈",
+      "en": "feedback5",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 272,
+      "zh": "概念",
+      "en": "concept",
+      "ipa": "[ˈkɒnsept]",
+      "pos": "n.",
+      "gloss": "概念"
+    },
+    {
+      "i": 273,
+      "zh": "程序",
+      "en": "program",
+      "ipa": "[ˈprəʊɡræm]",
+      "pos": "n.",
+      "gloss": "程序"
+    },
+    {
+      "i": 274,
+      "zh": "问",
+      "en": "ask2",
+      "ipa": "[ɑːsk]",
+      "pos": "v.",
+      "gloss": "问"
+    },
+    {
+      "i": 275,
+      "zh": "观察",
+      "en": "observe2",
+      "ipa": "[əbˈzɜːv]",
+      "pos": "v.",
+      "gloss": "观察"
+    },
+    {
+      "i": 276,
+      "zh": "来",
+      "en": "come3",
+      "ipa": "[kʌm]",
+      "pos": "v.",
+      "gloss": "来"
+    },
+    {
+      "i": 277,
+      "zh": "推动",
+      "en": "drive",
+      "ipa": "[draɪv]",
+      "pos": "v.",
+      "gloss": "推动"
+    },
+    {
+      "i": 278,
+      "zh": "产品",
+      "en": "product5",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 279,
+      "skip": true
+    },
+    {
+      "i": 280,
+      "zh": "说",
+      "en": "say5",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 281,
+      "zh": "去",
+      "en": "go2",
+      "ipa": "[ɡəʊ]",
+      "pos": "v.",
+      "gloss": "去"
+    },
+    {
+      "i": 282,
+      "zh": "能力",
+      "en": "capability5",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 283,
+      "zh": "提升",
+      "en": "enhance",
+      "ipa": "[ɪnˈhɑːns]",
+      "pos": "v.",
+      "gloss": "提升"
+    },
+    {
+      "i": 284,
+      "zh": "听",
+      "en": "listen",
+      "ipa": "[ˈlɪsn]",
+      "pos": "v.",
+      "gloss": "听"
+    },
+    {
+      "i": 285,
+      "zh": "观察",
+      "en": "observe3",
+      "ipa": "[əbˈzɜːv]",
+      "pos": "v.",
+      "gloss": "观察"
+    },
+    {
+      "i": 286,
+      "zh": "行业",
+      "en": "industry",
+      "ipa": "[ˈɪndəstri]",
+      "pos": "n.",
+      "gloss": "行业"
+    },
+    {
+      "i": 287,
+      "zh": "保持",
+      "en": "keep",
+      "ipa": "[kiːp]",
+      "pos": "v.",
+      "gloss": "保持"
+    },
+    {
+      "i": 288,
+      "zh": "东西",
+      "en": "thing",
+      "ipa": "[θɪŋ]",
+      "pos": "n.",
+      "gloss": "东西"
+    },
+    {
+      "i": 289,
+      "zh": "观察",
+      "en": "observe4",
+      "ipa": "[əbˈzɜːv]",
+      "pos": "v.",
+      "gloss": "观察"
+    },
+    {
+      "i": 290,
+      "zh": "探索",
+      "en": "explore",
+      "ipa": "[ɪkˈsplɔː]",
+      "pos": "v.",
+      "gloss": "探索"
+    },
+    {
+      "i": 291,
+      "zh": "团队",
+      "en": "team2",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 292,
+      "zh": "边界",
+      "en": "boundary2",
+      "ipa": "[ˈbaʊndri]",
+      "pos": "n.",
+      "gloss": "边界"
+    },
+    {
+      "i": 293,
+      "zh": "工程",
+      "en": "engineering6",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 294,
+      "skip": true
+    },
+    {
+      "i": 295,
+      "zh": "东西",
+      "en": "thing2",
+      "ipa": "[θɪŋ]",
+      "pos": "n.",
+      "gloss": "东西"
+    },
+    {
+      "i": 296,
+      "zh": "变化",
+      "en": "change4",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 297,
+      "zh": "工作",
+      "en": "job4",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 298,
+      "zh": "原因",
+      "en": "reason3",
+      "ipa": "[ˈriːzn]",
+      "pos": "n.",
+      "gloss": "原因"
+    },
+    {
+      "i": 299,
+      "zh": "同步",
+      "en": "synchronize",
+      "ipa": "[ˈsɪŋkrənaɪz]",
+      "pos": "v.",
+      "gloss": "同步"
+    },
+    {
+      "i": 300,
+      "zh": "可能",
+      "en": "possible5",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 301,
+      "zh": "生成",
+      "en": "generate2",
+      "ipa": "[ˈdʒenəreɪt]",
+      "pos": "v.",
+      "gloss": "生成"
+    },
+    {
+      "i": 302,
+      "skip": true
+    },
+    {
+      "i": 303,
+      "zh": "问题",
+      "en": "problem4",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 304,
+      "zh": "想",
+      "en": "think7",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 305,
+      "zh": "理解",
+      "en": "understand3",
+      "ipa": "[ˌʌndəˈstænd]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 306,
+      "zh": "同步",
+      "en": "synchronize2",
+      "ipa": "[ˈsɪŋkrənaɪz]",
+      "pos": "v.",
+      "gloss": "同步"
+    },
+    {
+      "i": 307,
+      "zh": "完成",
+      "en": "complete",
+      "ipa": "[kəmˈpliːt]",
+      "pos": "v.",
+      "gloss": "完成"
+    },
+    {
+      "i": 308,
+      "zh": "看",
+      "en": "watch3",
+      "ipa": "[wɒtʃ]",
+      "pos": "v.",
+      "gloss": "看"
+    },
+    {
+      "i": 309,
+      "zh": "现在",
+      "en": "present4",
+      "ipa": "[ˈpreznt]",
+      "pos": "n.",
+      "gloss": "现在"
+    },
+    {
+      "i": 310,
+      "zh": "代表",
+      "en": "represent",
+      "ipa": "[ˌreprɪˈzent]",
+      "pos": "v.",
+      "gloss": "代表"
+    },
+    {
+      "i": 311,
+      "zh": "自动化",
+      "en": "automate2",
+      "ipa": "[ˈɔːtəmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 312,
+      "zh": "反馈",
+      "en": "feedback6",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 313,
+      "zh": "可能",
+      "en": "possible6",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 314,
+      "zh": "不同",
+      "en": "different",
+      "ipa": "[ˈdɪfrənt]",
+      "pos": "adj.",
+      "gloss": "不同的"
+    },
+    {
+      "i": 315,
+      "zh": "生成",
+      "en": "generate3",
+      "ipa": "[ˈdʒenəreɪt]",
+      "pos": "v.",
+      "gloss": "生成"
+    },
+    {
+      "i": 316,
+      "zh": "工作",
+      "en": "job5",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 317,
+      "zh": "意思",
+      "en": "meaning2",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意思"
+    },
+    {
+      "i": 318,
+      "zh": "检查",
+      "en": "inspection",
+      "ipa": "[ɪnˈspekʃn]",
+      "pos": "n.",
+      "gloss": "检查"
+    },
+    {
+      "i": 319,
+      "zh": "执行",
+      "en": "execute",
+      "ipa": "[ˈeksɪkjuːt]",
+      "pos": "v.",
+      "gloss": "执行"
+    },
+    {
+      "i": 320,
+      "zh": "验证",
+      "en": "verify2",
+      "ipa": "[ˈverɪfaɪ]",
+      "pos": "v.",
+      "gloss": "验证"
+    },
+    {
+      "i": 321,
+      "zh": "事情",
+      "en": "matter",
+      "ipa": "[ˈmætə]",
+      "pos": "n.",
+      "gloss": "事情"
+    },
+    {
+      "i": 322,
+      "zh": "概念",
+      "en": "concept2",
+      "ipa": "[ˈkɒnsept]",
+      "pos": "n.",
+      "gloss": "概念"
+    },
+    {
+      "i": 323,
+      "zh": "演讲",
+      "en": "speech2",
+      "ipa": "[spiːtʃ]",
+      "pos": "n.",
+      "gloss": "演讲"
+    },
+    {
+      "i": 324,
+      "zh": "经济",
+      "en": "economy",
+      "ipa": "[ɪˈkɒnəmi]",
+      "pos": "n.",
+      "gloss": "经济"
+    },
+    {
+      "i": 325,
+      "zh": "世界",
+      "en": "world2",
+      "ipa": "[wɜːld]",
+      "pos": "n.",
+      "gloss": "世界"
+    },
+    {
+      "i": 326,
+      "skip": true
+    },
+    {
+      "i": 327,
+      "zh": "说",
+      "en": "say6",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 328,
+      "zh": "话题",
+      "en": "topic2",
+      "ipa": "[ˈtɒpɪk]",
+      "pos": "n.",
+      "gloss": "话题"
+    },
+    {
+      "i": 329,
+      "zh": "提升",
+      "en": "enhance2",
+      "ipa": "[ɪnˈhɑːns]",
+      "pos": "v.",
+      "gloss": "提升"
+    },
+    {
+      "i": 330,
+      "zh": "喜欢",
+      "en": "like5",
+      "ipa": "[laɪk]",
+      "pos": "v.",
+      "gloss": "喜欢"
+    },
+    {
+      "i": 331,
+      "zh": "团队",
+      "en": "team3",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 332,
+      "zh": "放",
+      "en": "put",
+      "ipa": "[pʊt]",
+      "pos": "v.",
+      "gloss": "放"
+    },
+    {
+      "i": 333,
+      "zh": "想法",
+      "en": "thought",
+      "ipa": "[θɔːt]",
+      "pos": "n.",
+      "gloss": "想法"
+    },
+    {
+      "i": 334,
+      "skip": true
+    },
+    {
+      "i": 335,
+      "zh": "说",
+      "en": "say7",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 336,
+      "zh": "尝试",
+      "en": "try",
+      "ipa": "[traɪ]",
+      "pos": "v.",
+      "gloss": "尝试"
+    },
+    {
+      "i": 337,
+      "zh": "问题",
+      "en": "problem5",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 338,
+      "zh": "假设",
+      "en": "hypothesis",
+      "ipa": "[haɪˈpɒθəsɪs]",
+      "pos": "n.",
+      "gloss": "假设"
+    },
+    {
+      "i": 339,
+      "zh": "面",
+      "en": "surface2",
+      "ipa": "[ˈsɜːfɪs]",
+      "pos": "n.",
+      "gloss": "表面"
+    },
+    {
+      "i": 340,
+      "zh": "平衡",
+      "en": "balance",
+      "ipa": "[ˈbæləns]",
+      "pos": "n.",
+      "gloss": "平衡"
+    },
+    {
+      "i": 341,
+      "zh": "重要",
+      "en": "important3",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要的"
+    },
+    {
+      "i": 342,
+      "zh": "问",
+      "en": "ask3",
+      "ipa": "[ɑːsk]",
+      "pos": "v.",
+      "gloss": "问"
+    },
+    {
+      "i": 343,
+      "zh": "变化",
+      "en": "change5",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 344,
+      "zh": "可能",
+      "en": "possible7",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 345,
+      "zh": "现在",
+      "en": "present5",
+      "ipa": "[ˈpreznt]",
+      "pos": "n.",
+      "gloss": "现在"
+    },
+    {
+      "i": 346,
+      "skip": true
+    },
+    {
+      "i": 347,
+      "skip": true
+    },
+    {
+      "i": 348,
+      "zh": "效率",
+      "en": "efficiency2",
+      "ipa": "[ɪˈfɪʃnsi]",
+      "pos": "n.",
+      "gloss": "效率"
+    },
+    {
+      "i": 349,
+      "zh": "讨论",
+      "en": "discussion",
+      "ipa": "[dɪˈskʌʃn]",
+      "pos": "n.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 350,
+      "zh": "条件",
+      "en": "condition",
+      "ipa": "[kənˈdɪʃn]",
+      "pos": "n.",
+      "gloss": "条件"
+    },
+    {
+      "i": 351,
+      "skip": true
+    },
+    {
+      "i": 352,
+      "zh": "生产力",
+      "en": "productivity",
+      "ipa": "[ˌprɒdʌkˈtɪvəti]",
+      "pos": "n.",
+      "gloss": "生产力"
+    },
+    {
+      "i": 353,
+      "zh": "生产力",
+      "en": "productivity2",
+      "ipa": "[ˌprɒdʌkˈtɪvəti]",
+      "pos": "n.",
+      "gloss": "生产力"
+    },
+    {
+      "i": 354,
+      "zh": "代码",
+      "en": "code3",
+      "ipa": "[kəʊd]",
+      "pos": "n.",
+      "gloss": "代码"
+    },
+    {
+      "i": 355,
+      "zh": "迁移",
+      "en": "migration",
+      "ipa": "[maɪˈɡreɪʃn]",
+      "pos": "n.",
+      "gloss": "迁移"
+    },
+    {
+      "i": 356,
+      "zh": "看",
+      "en": "watch4",
+      "ipa": "[wɒtʃ]",
+      "pos": "v.",
+      "gloss": "看"
+    },
+    {
+      "i": 357,
+      "zh": "更新",
+      "en": "update",
+      "ipa": "[ʌpˈdeɪt]",
+      "pos": "v.",
+      "gloss": "更新"
+    },
+    {
+      "i": 358,
+      "zh": "可能",
+      "en": "possible8",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 359,
+      "zh": "指标",
+      "en": "metric2",
+      "ipa": "[ˈmetrɪk]",
+      "pos": "n.",
+      "gloss": "指标"
+    },
+    {
+      "i": 360,
+      "zh": "结果",
+      "en": "result",
+      "ipa": "[rɪˈzʌlt]",
+      "pos": "n.",
+      "gloss": "结果"
+    },
+    {
+      "i": 361,
+      "zh": "代码",
+      "en": "code4",
+      "ipa": "[kəʊd]",
+      "pos": "n.",
+      "gloss": "代码"
+    },
+    {
+      "i": 362,
+      "zh": "指标",
+      "en": "metric3",
+      "ipa": "[ˈmetrɪk]",
+      "pos": "n.",
+      "gloss": "指标"
+    },
+    {
+      "i": 363,
+      "zh": "喜欢",
+      "en": "like6",
+      "ipa": "[laɪk]",
+      "pos": "v.",
+      "gloss": "喜欢"
+    },
+    {
+      "i": 364,
+      "zh": "衡量",
+      "en": "measure2",
+      "ipa": "[ˈmeʒə]",
+      "pos": "v.",
+      "gloss": "衡量"
+    },
+    {
+      "i": 365,
+      "zh": "结果",
+      "en": "result2",
+      "ipa": "[rɪˈzʌlt]",
+      "pos": "n.",
+      "gloss": "结果"
+    },
+    {
+      "i": 366,
+      "zh": "关键",
+      "en": "key2",
+      "ipa": "[kiː]",
+      "pos": "n.",
+      "gloss": "关键"
+    },
+    {
+      "i": 367,
+      "zh": "问题",
+      "en": "problem6",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 368,
+      "zh": "衡量",
+      "en": "measure3",
+      "ipa": "[ˈmeʒə]",
+      "pos": "v.",
+      "gloss": "衡量"
+    },
+    {
+      "i": 369,
+      "zh": "指标",
+      "en": "metric4",
+      "ipa": "[ˈmetrɪk]",
+      "pos": "n.",
+      "gloss": "指标"
+    },
+    {
+      "i": 370,
+      "zh": "领导",
+      "en": "lead",
+      "ipa": "[liːd]",
+      "pos": "v.",
+      "gloss": "领导"
+    },
+    {
+      "i": 371,
+      "zh": "反馈",
+      "en": "feedback7",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 372,
+      "zh": "经验",
+      "en": "experience",
+      "ipa": "[ɪkˈspɪriəns]",
+      "pos": "n.",
+      "gloss": "经验"
+    },
+    {
+      "i": 373,
+      "zh": "学习",
+      "en": "learning2",
+      "ipa": "[ˈlɜːnɪŋ]",
+      "pos": "n.",
+      "gloss": "学习"
+    },
+    {
+      "i": 374,
+      "zh": "指标",
+      "en": "metric5",
+      "ipa": "[ˈmetrɪk]",
+      "pos": "n.",
+      "gloss": "指标"
+    },
+    {
+      "i": 375,
+      "zh": "优化",
+      "en": "optimize",
+      "ipa": "[ˈɒptɪmaɪz]",
+      "pos": "v.",
+      "gloss": "优化"
+    },
+    {
+      "i": 376,
+      "zh": "目标",
+      "en": "goal",
+      "ipa": "[ɡəʊl]",
+      "pos": "n.",
+      "gloss": "目标"
+    },
+    {
+      "i": 377,
+      "zh": "服务",
+      "en": "service",
+      "ipa": "[ˈsɜːvɪs]",
+      "pos": "n.",
+      "gloss": "服务"
+    },
+    {
+      "i": 378,
+      "zh": "例子",
+      "en": "example2",
+      "ipa": "[ɪɡˈzɑːmpl]",
+      "pos": "n.",
+      "gloss": "例子"
+    },
+    {
+      "i": 379,
+      "zh": "产品",
+      "en": "product6",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 380,
+      "zh": "数量",
+      "en": "amount",
+      "ipa": "[əˈmaʊnt]",
+      "pos": "n.",
+      "gloss": "数量"
+    },
+    {
+      "i": 381,
+      "zh": "用户",
+      "en": "user2",
+      "ipa": "[ˈjuːzə]",
+      "pos": "n.",
+      "gloss": "用户"
+    },
+    {
+      "i": 382,
+      "zh": "目标",
+      "en": "target",
+      "ipa": "[ˈtɑːɡɪt]",
+      "pos": "n.",
+      "gloss": "目标"
+    },
+    {
+      "i": 383,
+      "zh": "能力",
+      "en": "capability6",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 384,
+      "zh": "工程",
+      "en": "engineering7",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 385,
+      "zh": "变化",
+      "en": "change6",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 386,
+      "zh": "问题",
+      "en": "problem7",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 387,
+      "zh": "完成",
+      "en": "complete2",
+      "ipa": "[kəmˈpliːt]",
+      "pos": "v.",
+      "gloss": "完成"
+    },
+    {
+      "i": 388,
+      "zh": "反馈",
+      "en": "feedback8",
+      "ipa": "[ˈfiːdbæk]",
+      "pos": "n.",
+      "gloss": "反馈"
+    },
+    {
+      "i": 389,
+      "zh": "强化",
+      "en": "strengthen",
+      "ipa": "[ˈstreŋθn]",
+      "pos": "v.",
+      "gloss": "强化"
+    },
+    {
+      "i": 390,
+      "skip": true
+    },
+    {
+      "i": 391,
+      "zh": "工程",
+      "en": "engineering8",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 392,
+      "zh": "设计",
+      "en": "design2",
+      "ipa": "[dɪˈzaɪn]",
+      "pos": "v.",
+      "gloss": "设计"
+    },
+    {
+      "i": 393,
+      "zh": "能力",
+      "en": "capability7",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 394,
+      "zh": "质量",
+      "en": "quality2",
+      "ipa": "[ˈkwɒləti]",
+      "pos": "n.",
+      "gloss": "质量"
+    },
+    {
+      "i": 395,
+      "zh": "工程",
+      "en": "engineering9",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 396,
+      "zh": "方向",
+      "en": "direction2",
+      "ipa": "[daɪˈrekʃn]",
+      "pos": "n.",
+      "gloss": "方向"
+    },
+    {
+      "i": 397,
+      "zh": "工程",
+      "en": "engineering10",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 398,
+      "zh": "边界",
+      "en": "boundary3",
+      "ipa": "[ˈbaʊndri]",
+      "pos": "n.",
+      "gloss": "边界"
+    },
+    {
+      "i": 399,
+      "zh": "角色",
+      "en": "role2",
+      "ipa": "[rəʊl]",
+      "pos": "n.",
+      "gloss": "角色"
+    },
+    {
+      "i": 400,
+      "zh": "工作",
+      "en": "job6",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 401,
+      "zh": "角色",
+      "en": "role3",
+      "ipa": "[rəʊl]",
+      "pos": "n.",
+      "gloss": "角色"
+    },
+    {
+      "i": 402,
+      "zh": "团队",
+      "en": "team4",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 403,
+      "zh": "产品",
+      "en": "product7",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 404,
+      "skip": true
+    },
+    {
+      "i": 405,
+      "zh": "团队",
+      "en": "team5",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 406,
+      "zh": "问题",
+      "en": "problem8",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 407,
+      "zh": "产品",
+      "en": "product8",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 408,
+      "zh": "产品",
+      "en": "product9",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 409,
+      "zh": "产品",
+      "en": "product10",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 410,
+      "zh": "爱",
+      "en": "love",
+      "ipa": "[lʌv]",
+      "pos": "v.",
+      "gloss": "爱"
+    },
+    {
+      "i": 411,
+      "zh": "产品",
+      "en": "product11",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 412,
+      "zh": "离开",
+      "en": "leave",
+      "ipa": "[liːv]",
+      "pos": "v.",
+      "gloss": "离开"
+    },
+    {
+      "i": 413,
+      "zh": "结果",
+      "en": "result3",
+      "ipa": "[rɪˈzʌlt]",
+      "pos": "n.",
+      "gloss": "结果"
+    },
+    {
+      "i": 414,
+      "zh": "证明",
+      "en": "prove",
+      "ipa": "[pruːv]",
+      "pos": "v.",
+      "gloss": "证明"
+    },
+    {
+      "i": 415,
+      "zh": "任何",
+      "en": "any",
+      "ipa": "[ˈeni]",
+      "pos": "adj.",
+      "gloss": "任何"
+    },
+    {
+      "i": 416,
+      "zh": "支持",
+      "en": "support",
+      "ipa": "[səˈpɔːt]",
+      "pos": "v.",
+      "gloss": "支持"
+    },
+    {
+      "i": 417,
+      "zh": "稳定",
+      "en": "stable",
+      "ipa": "[steɪbl]",
+      "pos": "adj.",
+      "gloss": "稳定的"
+    },
+    {
+      "i": 418,
+      "zh": "指标",
+      "en": "metric6",
+      "ipa": "[ˈmetrɪk]",
+      "pos": "n.",
+      "gloss": "指标"
+    },
+    {
+      "i": 419,
+      "zh": "重要",
+      "en": "important4",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要的"
+    },
+    {
+      "i": 420,
+      "zh": "数据",
+      "en": "data",
+      "ipa": "[ˈdeɪtə]",
+      "pos": "n.",
+      "gloss": "数据"
+    },
+    {
+      "i": 421,
+      "zh": "价值",
+      "en": "value2",
+      "ipa": "[ˈvæljuː]",
+      "pos": "n.",
+      "gloss": "价值"
+    },
+    {
+      "i": 422,
+      "skip": true
+    },
+    {
+      "i": 423,
+      "zh": "团队",
+      "en": "team6",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 424,
+      "zh": "操作",
+      "en": "operation2",
+      "ipa": "[ˌɒpəˈreɪʃn]",
+      "pos": "n.",
+      "gloss": "操作"
+    },
+    {
+      "i": 425,
+      "zh": "团队",
+      "en": "team7",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 426,
+      "zh": "检查",
+      "en": "check",
+      "ipa": "[tʃek]",
+      "pos": "v.",
+      "gloss": "检查"
+    },
+    {
+      "i": 427,
+      "zh": "质量",
+      "en": "quality3",
+      "ipa": "[ˈkwɒləti]",
+      "pos": "n.",
+      "gloss": "质量"
+    },
+    {
+      "i": 428,
+      "zh": "感谢",
+      "en": "appreciate",
+      "ipa": "[əˈpriːʃieɪt]",
+      "pos": "v.",
+      "gloss": "感谢"
+    },
+    {
+      "i": 429,
+      "zh": "支持",
+      "en": "support2",
+      "ipa": "[səˈpɔːt]",
+      "pos": "v.",
+      "gloss": "支持"
+    },
+    {
+      "i": 430,
+      "zh": "团队",
+      "en": "team8",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 431,
+      "zh": "工程",
+      "en": "engineering11",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 432,
+      "zh": "工程",
+      "en": "engineering12",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 433,
+      "zh": "工程",
+      "en": "engineering13",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 434,
+      "zh": "产品",
+      "en": "product12",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 435,
+      "skip": true
+    },
+    {
+      "i": 436,
+      "zh": "领导",
+      "en": "lead2",
+      "ipa": "[liːd]",
+      "pos": "v.",
+      "gloss": "领导"
+    },
+    {
+      "i": 437,
+      "zh": "用户",
+      "en": "user3",
+      "ipa": "[ˈjuːzə]",
+      "pos": "n.",
+      "gloss": "用户"
+    },
+    {
+      "i": 438,
+      "zh": "客户",
+      "en": "customer2",
+      "ipa": "[ˈkʌstəmə]",
+      "pos": "n.",
+      "gloss": "客户"
+    },
+    {
+      "i": 439,
+      "zh": "效果",
+      "en": "effect",
+      "ipa": "[ɪˈfekt]",
+      "pos": "n.",
+      "gloss": "效果"
+    },
+    {
+      "i": 440,
+      "zh": "决定",
+      "en": "decide",
+      "ipa": "[dɪˈsaɪd]",
+      "pos": "v.",
+      "gloss": "决定"
+    },
+    {
+      "i": 441,
+      "zh": "手机",
+      "en": "cellphone",
+      "ipa": "[ˈselˌfoʊn]",
+      "pos": "n.",
+      "gloss": "手机"
+    },
+    {
+      "i": 442,
+      "zh": "连接",
+      "en": "connect",
+      "ipa": "[kəˈnekt]",
+      "pos": "v.",
+      "gloss": "连接"
+    },
+    {
+      "i": 443,
+      "zh": "加载",
+      "en": "loading",
+      "ipa": "[ˈləʊdɪŋ]",
+      "pos": "n.",
+      "gloss": "加载"
+    },
+    {
+      "i": 444,
+      "zh": "加载",
+      "en": "loading2",
+      "ipa": "[ˈləʊdɪŋ]",
+      "pos": "n.",
+      "gloss": "加载"
+    },
+    {
+      "i": 445,
+      "zh": "快速",
+      "en": "quick",
+      "ipa": "[kwɪk]",
+      "pos": "adj.",
+      "gloss": "快速的"
+    },
+    {
+      "i": 446,
+      "zh": "记得",
+      "en": "remember",
+      "ipa": "[rɪˈmembə]",
+      "pos": "v.",
+      "gloss": "记得"
+    },
+    {
+      "i": 447,
+      "zh": "例子",
+      "en": "example3",
+      "ipa": "[ɪɡˈzɑːmpl]",
+      "pos": "n.",
+      "gloss": "例子"
+    },
+    {
+      "i": 448,
+      "zh": "问题",
+      "en": "problem9",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 449,
+      "zh": "问题",
+      "en": "problem10",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 450,
+      "zh": "问题",
+      "en": "problem11",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 451,
+      "zh": "自动化",
+      "en": "automate3",
+      "ipa": "[ˈɔːtəmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 452,
+      "zh": "边界",
+      "en": "boundary4",
+      "ipa": "[ˈbaʊndri]",
+      "pos": "n.",
+      "gloss": "边界"
+    },
+    {
+      "i": 453,
+      "zh": "问题",
+      "en": "problem12",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 454,
+      "zh": "问题",
+      "en": "problem13",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 455,
+      "zh": "问题",
+      "en": "problem14",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 456,
+      "zh": "专业知识",
+      "en": "expertise2",
+      "ipa": "[ˌekspɜːˈtiːz]",
+      "pos": "n.",
+      "gloss": "专业知识"
+    },
+    {
+      "i": 457,
+      "zh": "领域",
+      "en": "domain3",
+      "ipa": "[dəˈmeɪn]",
+      "pos": "n.",
+      "gloss": "领域"
+    },
+    {
+      "i": 458,
+      "zh": "平衡",
+      "en": "balance2",
+      "ipa": "[ˈbæləns]",
+      "pos": "n.",
+      "gloss": "平衡"
+    },
+    {
+      "i": 459,
+      "zh": "探索",
+      "en": "explore2",
+      "ipa": "[ɪkˈsplɔː]",
+      "pos": "v.",
+      "gloss": "探索"
+    },
+    {
+      "i": 460,
+      "zh": "自动化",
+      "en": "automate4",
+      "ipa": "[ˈɔːtəmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 461,
+      "zh": "意思",
+      "en": "meaning3",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意思"
+    },
+    {
+      "i": 462,
+      "zh": "做",
+      "en": "do3",
+      "ipa": "[duː]",
+      "pos": "v.",
+      "gloss": "做"
+    },
+    {
+      "i": 463,
+      "zh": "定义",
+      "en": "define2",
+      "ipa": "[dɪˈfaɪn]",
+      "pos": "v.",
+      "gloss": "定义"
+    },
+    {
+      "i": 464,
+      "zh": "机会",
+      "en": "chance2",
+      "ipa": "[tʃɑːns]",
+      "pos": "n.",
+      "gloss": "机会"
+    },
+    {
+      "i": 465,
+      "zh": "自动化",
+      "en": "automate5",
+      "ipa": "[ˈɔːtəmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 466,
+      "zh": "工程",
+      "en": "engineering14",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 467,
+      "zh": "内容",
+      "en": "content2",
+      "ipa": "[ˈkɒntent]",
+      "pos": "n.",
+      "gloss": "内容"
+    },
+    {
+      "i": 468,
+      "zh": "核心",
+      "en": "core",
+      "ipa": "[kɔː]",
+      "pos": "n.",
+      "gloss": "核心"
+    },
+    {
+      "i": 469,
+      "skip": true
+    },
+    {
+      "i": 470,
+      "skip": true
+    },
+    {
+      "i": 471,
+      "zh": "评估",
+      "en": "evaluate",
+      "ipa": "[ɪˈvæljueɪt]",
+      "pos": "v.",
+      "gloss": "评估"
+    },
+    {
+      "i": 472,
+      "skip": true
+    },
+    {
+      "i": 473,
+      "zh": "问题",
+      "en": "problem15",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 474,
+      "zh": "变化",
+      "en": "change7",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 475,
+      "skip": true
+    },
+    {
+      "i": 476,
+      "zh": "工作",
+      "en": "job7",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 477,
+      "zh": "任务",
+      "en": "task",
+      "ipa": "[tɑːsk]",
+      "pos": "n.",
+      "gloss": "任务"
+    },
+    {
+      "i": 478,
+      "zh": "上下文",
+      "en": "context",
+      "ipa": "[ˈkɒntekst]",
+      "pos": "n.",
+      "gloss": "上下文"
+    },
+    {
+      "i": 479,
+      "zh": "上下文",
+      "en": "context2",
+      "ipa": "[ˈkɒntekst]",
+      "pos": "n.",
+      "gloss": "上下文"
+    },
+    {
+      "i": 480,
+      "zh": "意思",
+      "en": "meaning4",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意思"
+    },
+    {
+      "i": 481,
+      "zh": "工程",
+      "en": "engineering15",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 482,
+      "zh": "现在",
+      "en": "present6",
+      "ipa": "[ˈpreznt]",
+      "pos": "n.",
+      "gloss": "现在"
+    },
+    {
+      "i": 483,
+      "zh": "容易",
+      "en": "easy",
+      "ipa": "[ˈiːzi]",
+      "pos": "adj.",
+      "gloss": "容易的"
+    },
+    {
+      "i": 484,
+      "skip": true
+    },
+    {
+      "i": 485,
+      "skip": true
+    },
+    {
+      "i": 486,
+      "zh": "上下文",
+      "en": "context3",
+      "ipa": "[ˈkɒntekst]",
+      "pos": "n.",
+      "gloss": "上下文"
+    },
+    {
+      "i": 487,
+      "zh": "现在",
+      "en": "present7",
+      "ipa": "[ˈpreznt]",
+      "pos": "n.",
+      "gloss": "现在"
+    },
+    {
+      "i": 488,
+      "zh": "解决方案",
+      "en": "solution",
+      "ipa": "[səˈluːʃn]",
+      "pos": "n.",
+      "gloss": "解决方案"
+    },
+    {
+      "i": 489,
+      "skip": true
+    },
+    {
+      "i": 490,
+      "zh": "上下文",
+      "en": "context4",
+      "ipa": "[ˈkɒntekst]",
+      "pos": "n.",
+      "gloss": "上下文"
+    },
+    {
+      "i": 491,
+      "zh": "同意",
+      "en": "agree",
+      "ipa": "[əˈɡriː]",
+      "pos": "v.",
+      "gloss": "同意"
+    },
+    {
+      "i": 492,
+      "zh": "问题",
+      "en": "problem16",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 493,
+      "zh": "问题",
+      "en": "problem17",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 494,
+      "zh": "必要",
+      "en": "necessary",
+      "ipa": "[ˈnesəsəri]",
+      "pos": "adj.",
+      "gloss": "必要的"
+    },
+    {
+      "i": 495,
+      "zh": "需求",
+      "en": "demand3",
+      "ipa": "[dɪˈmɑːnd]",
+      "pos": "n.",
+      "gloss": "需求"
+    },
+    {
+      "i": 496,
+      "zh": "发展",
+      "en": "develop",
+      "ipa": "[dɪˈveləp]",
+      "pos": "v.",
+      "gloss": "发展"
+    },
+    {
+      "i": 497,
+      "zh": "工程",
+      "en": "engineering16",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 498,
+      "zh": "问题",
+      "en": "problem18",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 499,
+      "zh": "工程",
+      "en": "engineering17",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 500,
+      "zh": "工程",
+      "en": "engineering18",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 501,
+      "zh": "学校",
+      "en": "school",
+      "ipa": "[skuːl]",
+      "pos": "n.",
+      "gloss": "学校"
+    },
+    {
+      "i": 502,
+      "zh": "依赖",
+      "en": "dependency",
+      "ipa": "[dɪˈpendənsi]",
+      "pos": "n.",
+      "gloss": "依赖"
+    },
+    {
+      "i": 503,
+      "zh": "教育",
+      "en": "education",
+      "ipa": "[ˌedʒuˈkeɪʃn]",
+      "pos": "n.",
+      "gloss": "教育"
+    },
+    {
+      "i": 504,
+      "zh": "项目",
+      "en": "project2",
+      "ipa": "[ˈprɒdʒekt]",
+      "pos": "n.",
+      "gloss": "项目"
+    },
+    {
+      "i": 505,
+      "zh": "代码",
+      "en": "code5",
+      "ipa": "[kəʊd]",
+      "pos": "n.",
+      "gloss": "代码"
+    },
+    {
+      "i": 506,
+      "zh": "分配",
+      "en": "allocate",
+      "ipa": "[ˈæləkeɪt]",
+      "pos": "v.",
+      "gloss": "分配"
+    },
+    {
+      "i": 507,
+      "zh": "能力",
+      "en": "capability8",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 508,
+      "zh": "理解",
+      "en": "understand4",
+      "ipa": "[ˌʌndəˈstænd]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 509,
+      "zh": "问题",
+      "en": "problem19",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 510,
+      "zh": "理解",
+      "en": "understand5",
+      "ipa": "[ˌʌndəˈstænd]",
+      "pos": "v.",
+      "gloss": "理解"
+    },
+    {
+      "i": 511,
+      "zh": "回来",
+      "en": "return",
+      "ipa": "[rɪˈtɜːn]",
+      "pos": "v.",
+      "gloss": "回来"
+    },
+    {
+      "i": 512,
+      "skip": true
+    },
+    {
+      "i": 513,
+      "zh": "工程",
+      "en": "engineering19",
+      "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+      "pos": "n.",
+      "gloss": "工程"
+    },
+    {
+      "i": 514,
+      "zh": "消息",
+      "en": "message",
+      "ipa": "[ˈmesɪdʒ]",
+      "pos": "n.",
+      "gloss": "消息"
+    },
+    {
+      "i": 515,
+      "skip": true
+    },
+    {
+      "i": 516,
+      "zh": "变化",
+      "en": "change8",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 517,
+      "zh": "重要",
+      "en": "important5",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要的"
+    },
+    {
+      "i": 518,
+      "zh": "能力",
+      "en": "capability9",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 519,
+      "zh": "能力",
+      "en": "capability10",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 520,
+      "zh": "听",
+      "en": "listen2",
+      "ipa": "[ˈlɪsn]",
+      "pos": "v.",
+      "gloss": "听"
+    },
+    {
+      "i": 521,
+      "zh": "语言",
+      "en": "language",
+      "ipa": "[ˈlæŋɡwɪdʒ]",
+      "pos": "n.",
+      "gloss": "语言"
+    },
+    {
+      "i": 522,
+      "zh": "代码",
+      "en": "code6",
+      "ipa": "[kəʊd]",
+      "pos": "n.",
+      "gloss": "代码"
+    },
+    {
+      "i": 523,
+      "zh": "问题",
+      "en": "problem20",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 524,
+      "skip": true
+    },
+    {
+      "i": 525,
+      "zh": "产生",
+      "en": "produce",
+      "ipa": "[prəˈdjuːs]",
+      "pos": "v.",
+      "gloss": "产生"
+    },
+    {
+      "i": 526,
+      "zh": "想",
+      "en": "think8",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 527,
+      "skip": true
+    },
+    {
+      "i": 528,
+      "zh": "架构",
+      "en": "architecture2",
+      "ipa": "[ˈɑːkɪtektʃə]",
+      "pos": "n.",
+      "gloss": "架构"
+    },
+    {
+      "i": 529,
+      "zh": "工作",
+      "en": "job8",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 530,
+      "zh": "适应",
+      "en": "adapt2",
+      "ipa": "[əˈdæpt]",
+      "pos": "v.",
+      "gloss": "适应"
+    },
+    {
+      "i": 531,
+      "zh": "速度",
+      "en": "speed",
+      "ipa": "[spiːd]",
+      "pos": "n.",
+      "gloss": "速度"
+    },
+    {
+      "i": 532,
+      "zh": "记得",
+      "en": "remember2",
+      "ipa": "[rɪˈmembə]",
+      "pos": "v.",
+      "gloss": "记得"
+    },
+    {
+      "i": 533,
+      "zh": "想",
+      "en": "think9",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 534,
+      "zh": "注意",
+      "en": "notice",
+      "ipa": "[ˈnəʊtɪs]",
+      "pos": "v.",
+      "gloss": "注意"
+    },
+    {
+      "i": 535,
+      "zh": "速度",
+      "en": "velocity",
+      "ipa": "[vəˈlɒsəti]",
+      "pos": "n.",
+      "gloss": "速度"
+    },
+    {
+      "i": 536,
+      "zh": "自动化",
+      "en": "automate6",
+      "ipa": "[ˈɔːtəmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 537,
+      "zh": "模型",
+      "en": "model2",
+      "ipa": "[ˈmɒdl]",
+      "pos": "n.",
+      "gloss": "模型"
+    },
+    {
+      "i": 538,
+      "zh": "能力",
+      "en": "capability11",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 539,
+      "zh": "能力",
+      "en": "capability12",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 540,
+      "zh": "能力",
+      "en": "capability13",
+      "ipa": "[ˌkeɪpəˈbɪləti]",
+      "pos": "n.",
+      "gloss": "能力"
+    },
+    {
+      "i": 541,
+      "zh": "问题",
+      "en": "problem21",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 542,
+      "zh": "回答",
+      "en": "reply",
+      "ipa": "[rɪˈplaɪ]",
+      "pos": "v.",
+      "gloss": "回答"
+    },
+    {
+      "i": 543,
+      "zh": "文化",
+      "en": "culture",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 544,
+      "zh": "文化",
+      "en": "culture2",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 545,
+      "zh": "团队",
+      "en": "team9",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 546,
+      "zh": "文化",
+      "en": "culture3",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 547,
+      "zh": "支持",
+      "en": "support3",
+      "ipa": "[səˈpɔːt]",
+      "pos": "v.",
+      "gloss": "支持"
+    },
+    {
+      "i": 548,
+      "zh": "文化",
+      "en": "culture4",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 549,
+      "zh": "重要",
+      "en": "important6",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要的"
+    },
+    {
+      "i": 550,
+      "zh": "视角",
+      "en": "perspective",
+      "ipa": "[pəˈspektɪv]",
+      "pos": "n.",
+      "gloss": "视角"
+    },
+    {
+      "i": 551,
+      "zh": "完成",
+      "en": "complete3",
+      "ipa": "[kəmˈpliːt]",
+      "pos": "v.",
+      "gloss": "完成"
+    },
+    {
+      "i": 552,
+      "zh": "可能",
+      "en": "possible9",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 553,
+      "zh": "挑战",
+      "en": "challenge",
+      "ipa": "[ˈtʃælɪndʒ]",
+      "pos": "n.",
+      "gloss": "挑战"
+    },
+    {
+      "i": 554,
+      "zh": "文化",
+      "en": "culture5",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 555,
+      "zh": "文化",
+      "en": "culture6",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 556,
+      "zh": "问题",
+      "en": "problem22",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 557,
+      "zh": "文化",
+      "en": "culture7",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 558,
+      "zh": "文化",
+      "en": "culture8",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 559,
+      "zh": "文化",
+      "en": "culture9",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 560,
+      "skip": true
+    },
+    {
+      "i": 561,
+      "zh": "文化",
+      "en": "culture10",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 562,
+      "zh": "会议",
+      "en": "meeting",
+      "ipa": "[ˈmiːtɪŋ]",
+      "pos": "n.",
+      "gloss": "会议"
+    },
+    {
+      "i": 563,
+      "zh": "文化",
+      "en": "culture11",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 564,
+      "zh": "记得",
+      "en": "remember3",
+      "ipa": "[rɪˈmembə]",
+      "pos": "v.",
+      "gloss": "记得"
+    },
+    {
+      "i": 565,
+      "zh": "文化",
+      "en": "culture12",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 566,
+      "zh": "建议",
+      "en": "advise",
+      "ipa": "[ədˈvaɪz]",
+      "pos": "v.",
+      "gloss": "建议"
+    },
+    {
+      "i": 567,
+      "zh": "公司",
+      "en": "company3",
+      "ipa": "[ˈkʌmpəni]",
+      "pos": "n.",
+      "gloss": "公司"
+    },
+    {
+      "i": 568,
+      "zh": "公司",
+      "en": "company4",
+      "ipa": "[ˈkʌmpəni]",
+      "pos": "n.",
+      "gloss": "公司"
+    },
+    {
+      "i": 569,
+      "zh": "挑战",
+      "en": "challenge2",
+      "ipa": "[ˈtʃælɪndʒ]",
+      "pos": "n.",
+      "gloss": "挑战"
+    },
+    {
+      "i": 570,
+      "zh": "建议",
+      "en": "recommend",
+      "ipa": "[ˌrekəˈmend]",
+      "pos": "v.",
+      "gloss": "推荐"
+    },
+    {
+      "i": 571,
+      "skip": true
+    },
+    {
+      "i": 572,
+      "zh": "讨论",
+      "en": "discussion2",
+      "ipa": "[dɪˈskʌʃn]",
+      "pos": "n.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 573,
+      "zh": "问题",
+      "en": "problem23",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 574,
+      "zh": "问",
+      "en": "ask4",
+      "ipa": "[ɑːsk]",
+      "pos": "v.",
+      "gloss": "问"
+    },
+    {
+      "i": 575,
+      "zh": "问题",
+      "en": "problem24",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 576,
+      "skip": true
+    },
+    {
+      "i": 577,
+      "zh": "坐",
+      "en": "sit2",
+      "ipa": "[sɪt]",
+      "pos": "v.",
+      "gloss": "坐"
+    },
+    {
+      "i": 578,
+      "skip": true
+    },
+    {
+      "i": 579,
+      "zh": "问题",
+      "en": "problem25",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 580,
+      "zh": "想",
+      "en": "think10",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 581,
+      "zh": "成长",
+      "en": "growth2",
+      "ipa": "[ɡrəʊθ]",
+      "pos": "n.",
+      "gloss": "成长"
+    },
+    {
+      "i": 582,
+      "zh": "环境",
+      "en": "environment",
+      "ipa": "[ɪnˈvaɪrənmənt]",
+      "pos": "n.",
+      "gloss": "环境"
+    },
+    {
+      "i": 583,
+      "zh": "进入",
+      "en": "enter2",
+      "ipa": "[ˈentə]",
+      "pos": "v.",
+      "gloss": "进入"
+    },
+    {
+      "i": 584,
+      "zh": "重要",
+      "en": "important7",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要的"
+    },
+    {
+      "i": 585,
+      "zh": "建议",
+      "en": "suggestion2",
+      "ipa": "[səˈdʒestʃən]",
+      "pos": "n.",
+      "gloss": "建议"
+    },
+    {
+      "i": 586,
+      "zh": "自动化",
+      "en": "automate7",
+      "ipa": "[ˈɔːtəmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 587,
+      "zh": "允许",
+      "en": "allow",
+      "ipa": "[əˈlaʊ]",
+      "pos": "v.",
+      "gloss": "允许"
+    },
+    {
+      "i": 588,
+      "zh": "手动",
+      "en": "manual",
+      "ipa": "[ˈmænjuəl]",
+      "pos": "adj.",
+      "gloss": "手动的"
+    },
+    {
+      "i": 589,
+      "zh": "实现",
+      "en": "implement",
+      "ipa": "[ˈɪmplɪment]",
+      "pos": "v.",
+      "gloss": "实现"
+    },
+    {
+      "i": 590,
+      "zh": "规划",
+      "en": "planning",
+      "ipa": "[ˈplænɪŋ]",
+      "pos": "n.",
+      "gloss": "规划"
+    },
+    {
+      "i": 591,
+      "zh": "文档",
+      "en": "documentation",
+      "ipa": "[ˌdɒkjumenˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "文档"
+    },
+    {
+      "i": 592,
+      "skip": true
+    },
+    {
+      "i": 593,
+      "zh": "价值",
+      "en": "value3",
+      "ipa": "[ˈvæljuː]",
+      "pos": "n.",
+      "gloss": "价值"
+    },
+    {
+      "i": 594,
+      "zh": "意识",
+      "en": "awareness2",
+      "ipa": "[əˈweənəs]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 595,
+      "zh": "变化",
+      "en": "change9",
+      "ipa": "[tʃeɪndʒ]",
+      "pos": "n.",
+      "gloss": "变化"
+    },
+    {
+      "i": 596,
+      "zh": "调整",
+      "en": "adjust",
+      "ipa": "[əˈdʒʌst]",
+      "pos": "v.",
+      "gloss": "调整"
+    },
+    {
+      "i": 597,
+      "zh": "流程",
+      "en": "process2",
+      "ipa": "[ˈprəʊses]",
+      "pos": "n.",
+      "gloss": "流程"
+    },
+    {
+      "i": 598,
+      "zh": "领域",
+      "en": "domain4",
+      "ipa": "[dəˈmeɪn]",
+      "pos": "n.",
+      "gloss": "领域"
+    },
+    {
+      "i": 599,
+      "zh": "建议",
+      "en": "suggestion3",
+      "ipa": "[səˈdʒestʃən]",
+      "pos": "n.",
+      "gloss": "建议"
+    },
+    {
+      "i": 600,
+      "zh": "规划",
+      "en": "planning2",
+      "ipa": "[ˈplænɪŋ]",
+      "pos": "n.",
+      "gloss": "规划"
+    },
+    {
+      "i": 601,
+      "zh": "规划",
+      "en": "planning3",
+      "ipa": "[ˈplænɪŋ]",
+      "pos": "n.",
+      "gloss": "规划"
+    },
+    {
+      "i": 602,
+      "zh": "做",
+      "en": "do4",
+      "ipa": "[duː]",
+      "pos": "v.",
+      "gloss": "做"
+    },
+    {
+      "i": 603,
+      "zh": "解释",
+      "en": "explain",
+      "ipa": "[ɪkˈspleɪn]",
+      "pos": "v.",
+      "gloss": "解释"
+    },
+    {
+      "i": 604,
+      "zh": "现在",
+      "en": "present8",
+      "ipa": "[ˈpreznt]",
+      "pos": "n.",
+      "gloss": "现在"
+    },
+    {
+      "i": 605,
+      "zh": "说",
+      "en": "say8",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 606,
+      "zh": "规划",
+      "en": "planning4",
+      "ipa": "[ˈplænɪŋ]",
+      "pos": "n.",
+      "gloss": "规划"
+    },
+    {
+      "i": 607,
+      "zh": "文档",
+      "en": "documentation2",
+      "ipa": "[ˌdɒkjumenˈteɪʃn]",
+      "pos": "n.",
+      "gloss": "文档"
+    },
+    {
+      "i": 608,
+      "zh": "自动化",
+      "en": "automate8",
+      "ipa": "[ˈɔːtəmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 609,
+      "zh": "优先级",
+      "en": "priority2",
+      "ipa": "[praɪˈɒrəti]",
+      "pos": "n.",
+      "gloss": "优先级"
+    },
+    {
+      "i": 610,
+      "skip": true
+    },
+    {
+      "i": 611,
+      "zh": "表格",
+      "en": "table2",
+      "ipa": "[ˈteɪbl]",
+      "pos": "n.",
+      "gloss": "表格"
+    },
+    {
+      "i": 612,
+      "zh": "确认",
+      "en": "confirmation",
+      "ipa": "[ˌkɒnfəˈmeɪʃn]",
+      "pos": "n.",
+      "gloss": "确认"
+    },
+    {
+      "i": 613,
+      "zh": "意思",
+      "en": "meaning5",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意思"
+    },
+    {
+      "i": 614,
+      "zh": "表格",
+      "en": "table3",
+      "ipa": "[ˈteɪbl]",
+      "pos": "n.",
+      "gloss": "表格"
+    },
+    {
+      "i": 615,
+      "skip": true
+    },
+    {
+      "i": 616,
+      "zh": "优先级",
+      "en": "priority3",
+      "ipa": "[praɪˈɒrəti]",
+      "pos": "n.",
+      "gloss": "优先级"
+    },
+    {
+      "i": 617,
+      "zh": "优先级",
+      "en": "priority4",
+      "ipa": "[praɪˈɒrəti]",
+      "pos": "n.",
+      "gloss": "优先级"
+    },
+    {
+      "i": 618,
+      "skip": true
+    },
+    {
+      "i": 619,
+      "zh": "未来",
+      "en": "future2",
+      "ipa": "[ˈfjuːtʃə]",
+      "pos": "n.",
+      "gloss": "未来"
+    },
+    {
+      "i": 620,
+      "zh": "看",
+      "en": "watch5",
+      "ipa": "[wɒtʃ]",
+      "pos": "v.",
+      "gloss": "看"
+    },
+    {
+      "i": 621,
+      "zh": "主题",
+      "en": "subject",
+      "ipa": "[ˈsʌbdʒɪkt]",
+      "pos": "n.",
+      "gloss": "主题"
+    },
+    {
+      "i": 622,
+      "zh": "团队",
+      "en": "team10",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 623,
+      "zh": "现实",
+      "en": "reality",
+      "ipa": "[riˈæləti]",
+      "pos": "n.",
+      "gloss": "现实"
+    },
+    {
+      "i": 624,
+      "zh": "环境",
+      "en": "environment2",
+      "ipa": "[ɪnˈvaɪrənmənt]",
+      "pos": "n.",
+      "gloss": "环境"
+    },
+    {
+      "i": 625,
+      "zh": "意思",
+      "en": "meaning6",
+      "ipa": "[ˈmiːnɪŋ]",
+      "pos": "n.",
+      "gloss": "意思"
+    },
+    {
+      "i": 626,
+      "zh": "规划",
+      "en": "planning5",
+      "ipa": "[ˈplænɪŋ]",
+      "pos": "n.",
+      "gloss": "规划"
+    },
+    {
+      "i": 627,
+      "zh": "问题",
+      "en": "problem26",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 628,
+      "zh": "问题",
+      "en": "problem27",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 629,
+      "skip": true
+    },
+    {
+      "i": 630,
+      "zh": "说",
+      "en": "say9",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 631,
+      "zh": "读",
+      "en": "read",
+      "ipa": "[riːd]",
+      "pos": "v.",
+      "gloss": "读"
+    },
+    {
+      "i": 632,
+      "zh": "可能",
+      "en": "possible10",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 633,
+      "zh": "喜欢",
+      "en": "like7",
+      "ipa": "[laɪk]",
+      "pos": "v.",
+      "gloss": "喜欢"
+    },
+    {
+      "i": 634,
+      "zh": "现实",
+      "en": "reality2",
+      "ipa": "[riˈæləti]",
+      "pos": "n.",
+      "gloss": "现实"
+    },
+    {
+      "i": 635,
+      "zh": "读",
+      "en": "read2",
+      "ipa": "[riːd]",
+      "pos": "v.",
+      "gloss": "读"
+    },
+    {
+      "i": 636,
+      "zh": "重要",
+      "en": "important8",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要的"
+    },
+    {
+      "i": 637,
+      "zh": "电影",
+      "en": "movie",
+      "ipa": "[ˈmuːvi]",
+      "pos": "n.",
+      "gloss": "电影"
+    },
+    {
+      "i": 638,
+      "zh": "看",
+      "en": "watch6",
+      "ipa": "[wɒtʃ]",
+      "pos": "v.",
+      "gloss": "看"
+    },
+    {
+      "i": 639,
+      "zh": "电影",
+      "en": "movie2",
+      "ipa": "[ˈmuːvi]",
+      "pos": "n.",
+      "gloss": "电影"
+    },
+    {
+      "i": 640,
+      "zh": "美丽",
+      "en": "beauty",
+      "ipa": "[ˈbjuːti]",
+      "pos": "n.",
+      "gloss": "美丽"
+    },
+    {
+      "i": 641,
+      "zh": "可能",
+      "en": "possible11",
+      "ipa": "[ˈpɒsəbl]",
+      "pos": "adj.",
+      "gloss": "可能的"
+    },
+    {
+      "i": 642,
+      "zh": "喜欢",
+      "en": "like8",
+      "ipa": "[laɪk]",
+      "pos": "v.",
+      "gloss": "喜欢"
+    },
+    {
+      "i": 643,
+      "zh": "视觉",
+      "en": "visual",
+      "ipa": "[ˈvɪʒuəl]",
+      "pos": "adj.",
+      "gloss": "视觉的"
+    },
+    {
+      "i": 644,
+      "zh": "爱",
+      "en": "love2",
+      "ipa": "[lʌv]",
+      "pos": "v.",
+      "gloss": "爱"
+    },
+    {
+      "i": 645,
+      "zh": "电影",
+      "en": "movie3",
+      "ipa": "[ˈmuːvi]",
+      "pos": "n.",
+      "gloss": "电影"
+    },
+    {
+      "i": 646,
+      "zh": "故事",
+      "en": "story",
+      "ipa": "[ˈstɔːri]",
+      "pos": "n.",
+      "gloss": "故事"
+    },
+    {
+      "i": 647,
+      "skip": true
+    },
+    {
+      "i": 648,
+      "zh": "领导力",
+      "en": "leadership",
+      "ipa": "[ˈliːdəʃɪp]",
+      "pos": "n.",
+      "gloss": "领导力"
+    },
+    {
+      "i": 649,
+      "zh": "影响",
+      "en": "influence3",
+      "ipa": "[ˈɪnfluəns]",
+      "pos": "v.",
+      "gloss": "影响"
+    },
+    {
+      "i": 650,
+      "zh": "管理",
+      "en": "manage2",
+      "ipa": "[ˈmænɪdʒ]",
+      "pos": "v.",
+      "gloss": "管理"
+    },
+    {
+      "i": 651,
+      "zh": "问题",
+      "en": "problem28",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 652,
+      "zh": "产品",
+      "en": "product13",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 653,
+      "zh": "任何",
+      "en": "any2",
+      "ipa": "[ˈeni]",
+      "pos": "adj.",
+      "gloss": "任何"
+    },
+    {
+      "i": 654,
+      "zh": "影响",
+      "en": "influence4",
+      "ipa": "[ˈɪnfluəns]",
+      "pos": "v.",
+      "gloss": "影响"
+    },
+    {
+      "i": 655,
+      "zh": "提供",
+      "en": "provide",
+      "ipa": "[prəˈvaɪd]",
+      "pos": "v.",
+      "gloss": "提供"
+    },
+    {
+      "i": 656,
+      "zh": "产品",
+      "en": "product14",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 657,
+      "skip": true
+    },
+    {
+      "i": 658,
+      "zh": "产品",
+      "en": "product15",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 659,
+      "zh": "开始",
+      "en": "begin2",
+      "ipa": "[bɪˈɡɪn]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 660,
+      "zh": "原因",
+      "en": "reason4",
+      "ipa": "[ˈriːzn]",
+      "pos": "n.",
+      "gloss": "原因"
+    },
+    {
+      "i": 661,
+      "skip": true
+    },
+    {
+      "i": 662,
+      "zh": "问",
+      "en": "ask5",
+      "ipa": "[ɑːsk]",
+      "pos": "v.",
+      "gloss": "问"
+    },
+    {
+      "i": 663,
+      "zh": "开始",
+      "en": "begin3",
+      "ipa": "[bɪˈɡɪn]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 664,
+      "zh": "开始",
+      "en": "begin4",
+      "ipa": "[bɪˈɡɪn]",
+      "pos": "v.",
+      "gloss": "开始"
+    },
+    {
+      "i": 665,
+      "zh": "来",
+      "en": "come4",
+      "ipa": "[kʌm]",
+      "pos": "v.",
+      "gloss": "来"
+    },
+    {
+      "i": 666,
+      "zh": "时间",
+      "en": "time2",
+      "ipa": "[taɪm]",
+      "pos": "n.",
+      "gloss": "时间"
+    },
+    {
+      "i": 667,
+      "zh": "想",
+      "en": "think11",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 668,
+      "zh": "来",
+      "en": "come5",
+      "ipa": "[kʌm]",
+      "pos": "v.",
+      "gloss": "来"
+    },
+    {
+      "i": 669,
+      "zh": "意识",
+      "en": "awareness3",
+      "ipa": "[əˈweənəs]",
+      "pos": "n.",
+      "gloss": "意识"
+    },
+    {
+      "i": 670,
+      "zh": "产品",
+      "en": "product16",
+      "ipa": "[ˈprɒdʌkt]",
+      "pos": "n.",
+      "gloss": "产品"
+    },
+    {
+      "i": 671,
+      "zh": "说",
+      "en": "say10",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 672,
+      "zh": "去",
+      "en": "go3",
+      "ipa": "[ɡəʊ]",
+      "pos": "v.",
+      "gloss": "去"
+    },
+    {
+      "i": 673,
+      "zh": "站",
+      "en": "stand",
+      "ipa": "[stænd]",
+      "pos": "v.",
+      "gloss": "站"
+    },
+    {
+      "i": 674,
+      "zh": "站",
+      "en": "stand2",
+      "ipa": "[stænd]",
+      "pos": "v.",
+      "gloss": "站"
+    },
+    {
+      "i": 675,
+      "zh": "问题",
+      "en": "problem29",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 676,
+      "zh": "工作",
+      "en": "job9",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 677,
+      "zh": "工作",
+      "en": "job10",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 678,
+      "zh": "想",
+      "en": "think12",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 679,
+      "skip": true
+    },
+    {
+      "i": 680,
+      "zh": "想",
+      "en": "think13",
+      "ipa": "[θɪŋk]",
+      "pos": "v.",
+      "gloss": "想"
+    },
+    {
+      "i": 681,
+      "zh": "生活",
+      "en": "life2",
+      "ipa": "[laɪf]",
+      "pos": "n.",
+      "gloss": "生活"
+    },
+    {
+      "i": 682,
+      "zh": "老师",
+      "en": "teacher",
+      "ipa": "[ˈtiːtʃə]",
+      "pos": "n.",
+      "gloss": "老师"
+    },
+    {
+      "i": 683,
+      "zh": "喜欢",
+      "en": "like9",
+      "ipa": "[laɪk]",
+      "pos": "v.",
+      "gloss": "喜欢"
+    },
+    {
+      "i": 684,
+      "zh": "每个",
+      "en": "each2",
+      "ipa": "[iːtʃ]",
+      "pos": "adj.",
+      "gloss": "每个"
+    },
+    {
+      "i": 685,
+      "zh": "影响",
+      "en": "influence5",
+      "ipa": "[ˈɪnfluəns]",
+      "pos": "v.",
+      "gloss": "影响"
+    },
+    {
+      "i": 686,
+      "skip": true
+    },
+    {
+      "i": 687,
+      "zh": "工作",
+      "en": "job11",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 688,
+      "zh": "讨论",
+      "en": "discussion3",
+      "ipa": "[dɪˈskʌʃn]",
+      "pos": "n.",
+      "gloss": "讨论"
+    },
+    {
+      "i": 689,
+      "zh": "拿",
+      "en": "take2",
+      "ipa": "[teɪk]",
+      "pos": "v.",
+      "gloss": "拿"
+    },
+    {
+      "i": 690,
+      "zh": "看",
+      "en": "watch7",
+      "ipa": "[wɒtʃ]",
+      "pos": "v.",
+      "gloss": "看"
+    },
+    {
+      "i": 691,
+      "zh": "确定",
+      "en": "determine2",
+      "ipa": "[dɪˈtɜːmɪn]",
+      "pos": "v.",
+      "gloss": "确定"
+    },
+    {
+      "i": 692,
+      "zh": "消息",
+      "en": "message2",
+      "ipa": "[ˈmesɪdʒ]",
+      "pos": "n.",
+      "gloss": "消息"
+    },
+    {
+      "i": 693,
+      "zh": "重要",
+      "en": "important9",
+      "ipa": "[ɪmˈpɔːtnt]",
+      "pos": "adj.",
+      "gloss": "重要的"
+    },
+    {
+      "i": 694,
+      "zh": "消息",
+      "en": "message3",
+      "ipa": "[ˈmesɪdʒ]",
+      "pos": "n.",
+      "gloss": "消息"
+    },
+    {
+      "i": 695,
+      "zh": "现在",
+      "en": "present9",
+      "ipa": "[ˈpreznt]",
+      "pos": "n.",
+      "gloss": "现在"
+    },
+    {
+      "i": 696,
+      "zh": "问题",
+      "en": "problem30",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 697,
+      "zh": "说",
+      "en": "say11",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 698,
+      "zh": "说",
+      "en": "say12",
+      "ipa": "[seɪ]",
+      "pos": "v.",
+      "gloss": "说"
+    },
+    {
+      "i": 699,
+      "zh": "问题",
+      "en": "problem31",
+      "ipa": "[ˈprɒbləm]",
+      "pos": "n.",
+      "gloss": "问题"
+    },
+    {
+      "i": 700,
+      "zh": "工作",
+      "en": "job12",
+      "ipa": "[dʒɒb]",
+      "pos": "n.",
+      "gloss": "工作"
+    },
+    {
+      "i": 701,
+      "zh": "答案",
+      "en": "answer",
+      "ipa": "[ˈɑːnsə]",
+      "pos": "n.",
+      "gloss": "答案"
+    },
+    {
+      "i": 702,
+      "zh": "创造",
+      "en": "create3",
+      "ipa": "[kriˈeɪt]",
+      "pos": "v.",
+      "gloss": "创造"
+    },
+    {
+      "i": 703,
+      "zh": "自动化",
+      "en": "automate9",
+      "ipa": "[ˈɔːtəmeɪt]",
+      "pos": "v.",
+      "gloss": "自动化"
+    },
+    {
+      "i": 704,
+      "zh": "团队",
+      "en": "team11",
+      "ipa": "[tiːm]",
+      "pos": "n.",
+      "gloss": "团队"
+    },
+    {
+      "i": 705,
+      "zh": "幸运",
+      "en": "lucky2",
+      "ipa": "[ˈlʌki]",
+      "pos": "adj.",
+      "gloss": "幸运的"
+    },
+    {
+      "i": 706,
+      "zh": "邀请",
+      "en": "invite",
+      "ipa": "[ɪnˈvaɪt]",
+      "pos": "v.",
+      "gloss": "邀请"
+    },
+    {
+      "i": 707,
+      "skip": true
+    },
+    {
+      "i": 708,
+      "zh": "平台",
+      "en": "platform",
+      "ipa": "[ˈplætfɔːm]",
+      "pos": "n.",
+      "gloss": "平台"
+    },
+    {
+      "i": 709,
+      "zh": "架构",
+      "en": "architecture3",
+      "ipa": "[ˈɑːkɪtektʃə]",
+      "pos": "n.",
+      "gloss": "架构"
+    },
+    {
+      "i": 710,
+      "zh": "文化",
+      "en": "culture13",
+      "ipa": "[ˈkʌltʃə]",
+      "pos": "n.",
+      "gloss": "文化"
+    },
+    {
+      "i": 711,
+      "zh": "网页",
+      "en": "webpage",
+      "ipa": "[ˈwebpeɪdʒ]",
+      "pos": "n.",
+      "gloss": "网页"
+    },
+    {
+      "i": 712,
+      "zh": "协作",
+      "en": "collaborate",
+      "ipa": "[kəˈlæbəreɪt]",
+      "pos": "v.",
+      "gloss": "协作"
+    },
+    {
+      "i": 713,
+      "skip": true
+    },
+    {
+      "i": 714,
+      "zh": "成本",
+      "en": "cost2",
+      "ipa": "[kɒst]",
+      "pos": "n.",
+      "gloss": "成本"
+    },
+    {
+      "i": 715,
+      "zh": "覆盖",
+      "en": "coverage",
+      "ipa": "[ˈkʌvərɪdʒ]",
+      "pos": "n.",
+      "gloss": "覆盖率"
+    },
+    {
+      "i": 716,
+      "skip": true
+    }
+  ]
+}

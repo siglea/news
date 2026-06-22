@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "dotcom-agi-narrative-parallel",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "互联网泡沫时代确实有一批和今天\"AGI\"同构的口号:它们都是抽象的、准末世论式的、用来论证估值和资本开支正当性的\"终局叙事\"：",
+      "html": "<p>互联网泡沫时代确实有一批和今天&quot;AGI&quot;同构的口号:它们都是抽象的、准末世论式的、用来论证<span class=\"word-annot\"><span class=\"word-anchor\">估值</span><span class=\"word-block\"><span class=\"english-word\">valuation</span><span class=\"word-info\">[ˌvæljuˈeɪʃən] n. 估值</span></span></span>和资本开支正当性的&quot;终局叙事&quot;：</p>"
+    },
+    {
+      "index": 1,
+      "source_text": "家族一:宏大文明终局(最像 AGI 这种\"目的地\"词)",
+      "html": "<p>家族一:<span class=\"word-annot\"><span class=\"word-anchor\">宏大</span><span class=\"word-block\"><span class=\"english-word\">grandiose</span><span class=\"word-info\">[ˈɡrændioʊs] adj. 宏大的</span></span></span>文明终局(最像 AGI 这种&quot;目的地&quot;词)</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "这一类是把 AGI 当\"奇点/新文明\"来用的直系祖先:",
+      "html": "<p>这一类是把 AGI 当&quot;<span class=\"word-annot\"><span class=\"word-anchor\">奇点</span><span class=\"word-block\"><span class=\"english-word\">singularity</span><span class=\"word-info\">[ˌsɪŋɡjuˈlærəti] n. 奇点（技术爆炸的临界点）</span></span></span>/新文明&quot;来用的直系祖先:</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "\"新经济\"(New Economy)——最核心的母叙事:旧的商业周期（如通货膨胀、商业周期、边际成本递增）、估值规律、盈利要求统统作废了，人类进入了永恒增长的“新经济”时代。\"增长压倒利润\"的心态加上\"新经济无敌\"的光环,让公司在豪华办公和员工度假上大肆挥霍;2000 年 AOL 与时代华纳的世纪合并一度被当作对\"新经济\"预期的验证——然后泡沫就破了。这是\"这次不一样\"的宏观版,对应今天\"AGI 会重写整个经济学/劳动力市场\"。",
+      "html": "<p>&quot;新经济&quot;(New Economy)——最核心的母叙事:旧的商业周期（如<span class=\"word-annot\"><span class=\"word-anchor\">通货膨胀</span><span class=\"word-block\"><span class=\"english-word\">inflation</span><span class=\"word-info\">[ɪnˈfleɪʃən] n. 通货膨胀</span></span></span>、商业周期、边际成本递增）、估值规律、盈利要求统统作废了，人类进入了永恒增长的“新经济”时代。&quot;增长压倒利润&quot;的心态加上&quot;新经济无敌&quot;的光环,让公司在豪华办公和员工度假上<span class=\"word-annot\"><span class=\"word-anchor\">大肆挥霍</span><span class=\"word-block\"><span class=\"english-word\">squander</span><span class=\"word-info\">[ˈskwɒndər] v. 挥霍；浪费</span></span></span>;2000 年 AOL 与时代华纳的世纪合并一度被当作对&quot;新经济&quot;预期的验证——然后泡沫就破了。这是&quot;这次不一样&quot;的宏观版,对应今天&quot;AGI 会重写整个经济学/<span class=\"word-annot\"><span class=\"word-anchor\">劳动力</span><span class=\"word-block\"><span class=\"english-word\">labor</span><span class=\"word-info\">[ˈleɪbər] n. 劳动力</span></span></span>市场&quot;。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "比对 AGI： 就像现在人们相信 AGI 会带来“劳动力成本归零”、“生产力无限爆发”一样，当时的人们坚信互联网会让一切商业协作的摩擦力降为零，任何谈论市盈率（P/E Ratio）和现金流的传统投资人（比如那时的巴菲特）都被嘲笑为“跟不上时代的古董”。",
+      "html": "<p>比对 AGI： 就像现在人们相信 AGI 会带来“劳动力成本归零”、“<span class=\"word-annot\"><span class=\"word-anchor\">生产力</span><span class=\"word-block\"><span class=\"english-word\">productivity</span><span class=\"word-info\">[ˌprɒdʌkˈtɪvəti] n. 生产力</span></span></span>无限爆发”一样，当时的人们坚信互联网会让一切商业协作的摩擦力降为零，任何谈论市盈率（P/E Ratio）和现金流的传统投资人（比如那时的巴菲特）都被嘲笑为“跟不上时代的古董”。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "\"漫长繁荣\"(The Long Boom)——Wired 1997 年 7 月的封面文章(Schwartz & Leyden),预言由科技驱动的 25 年全球大繁荣、贫困与冲突终结。纯乌托邦,和今天\"AGI 带来后稀缺社会/治愈所有疾病\"几乎逐句对应。",
+      "html": "<p>&quot;漫长繁荣&quot;(The Long Boom)——Wired 1997 年 7 月的封面文章(Schwartz &amp; Leyden),<span class=\"word-annot\"><span class=\"word-anchor\">预言</span><span class=\"word-block\"><span class=\"english-word\">prophecy</span><span class=\"word-info\">[ˈprɒfəsi] n. 预言</span></span></span>由科技驱动的 25 年全球大繁荣、贫困与冲突终结。纯<span class=\"word-annot\"><span class=\"word-anchor\">乌托邦</span><span class=\"word-block\"><span class=\"english-word\">utopia</span><span class=\"word-info\">[juːˈtoʊpiə] n. 乌托邦</span></span></span>,和今天&quot;AGI 带来后稀缺社会/治愈所有疾病&quot;几乎逐句对应。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "宽带无限，点击即得（Bandwidth too cheap to meter / Infinite Bandwidth）内涵： “Bandwidth too cheap to meter” 模仿了 1950 年代人们对核能的幻想（“电力便宜到不需要电表”）。他们宣称，随着 DWDM（光纤波分复用）技术的发展，带宽将变得如同空气一样无限且免费。他们的设想： 当带宽便宜到可以忽略不计的时候，全球所有的人类行为（看电影、听歌、跨国会议、银行交易、医疗诊断）都会跑到我的光纤网络上。赚钱的路径： “我不收你网费，但我收你每部电影的播放费、每笔交易的佣金、每个云端存储的月租费，以及无可估量的广告费。”",
+      "html": "<p>宽带无限，点击即得（Bandwidth too cheap to meter / Infinite Bandwidth）<span class=\"word-annot\"><span class=\"word-anchor\">内涵</span><span class=\"word-block\"><span class=\"english-word\">connotation</span><span class=\"word-info\">[ˌkɒnəˈteɪʃən] n. 内涵</span></span></span>： “Bandwidth too cheap to meter” 模仿了 1950 年代人们对核能的幻想（“电力便宜到不需要电表”）。他们<span class=\"word-annot\"><span class=\"word-anchor\">宣称</span><span class=\"word-block\"><span class=\"english-word\">assert</span><span class=\"word-info\">[əˈsɜːrt] v. 宣称；断言</span></span></span>，随着 DWDM（光纤波分复用）技术的发展，带宽将变得如同空气一样无限且免费。他们的<span class=\"word-annot\"><span class=\"word-anchor\">设想</span><span class=\"word-block\"><span class=\"english-word\">assumption</span><span class=\"word-info\">[əˈsʌmpʃən] n. 设想；假设</span></span></span>： 当带宽便宜到可以忽略不计的时候，全球所有的人类行为（看电影、听歌、跨国会议、银行交易、医疗诊断）都会跑到我的光纤网络上。赚钱的路径： “我不收你网费，但我收你每部电影的播放费、每笔交易的<span class=\"word-annot\"><span class=\"word-anchor\">佣金</span><span class=\"word-block\"><span class=\"english-word\">commission</span><span class=\"word-info\">[kəˈmɪʃən] n. 佣金</span></span></span>、每个云端存储的月租费，以及无可估量的广告费。”</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "那些在地下挖沟、债台高筑、拼命建网络的电信运营商（Level 3, Global Crossing, WorldCom），最终真的因为“带宽太便宜”而破产死绝，或者沦为了毫无议价能力的管道工（Dumb Pipe）。真正赚到盆满钵满的，是那些在泡沫破裂后、踩着电信巨头基建尸体爬起来的应用层巨头——谷歌（Google）、流媒体（Netflix）、亚马逊（AWS）、Meta（Facebook）。",
+      "html": "<p>那些在地下挖沟、债台高筑、拼命建网络的电信运营商（Level 3, Global Crossing, WorldCom），最终真的因为“带宽太便宜”而<span class=\"word-annot\"><span class=\"word-anchor\">破产</span><span class=\"word-block\"><span class=\"english-word\">bankrupt</span><span class=\"word-info\">[ˈbæŋkrʌpt] adj. 破产的</span></span></span>死绝，或者沦为了毫无议价能力的管道工（Dumb Pipe）。真正赚到盆满钵满的，是那些在泡沫破裂后、踩着电信巨头<span class=\"word-annot\"><span class=\"word-anchor\">基建</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃər] n. 基础设施</span></span></span>尸体爬起来的应用层巨头——谷歌（Google）、流媒体（Netflix）、亚马逊（AWS）、Meta（Facebook）。</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "比对 AGI： 这完美对应了今天大模型行业广为流传的口号——“Token 便宜到可以忽略不计（Tokens too cheap to meter）” 或“算力无限”。当时的人们基于这个假设，认为未来所有的人类娱乐、工作、通讯都将瞬间数字化。",
+      "html": "<p>比对 AGI： 这完美对应了今天大模型行业广为流传的口号——“Token 便宜到可以忽略不计（Tokens too cheap to meter）” 或“<span class=\"word-annot\"><span class=\"word-anchor\">算力</span><span class=\"word-block\"><span class=\"english-word\">compute</span><span class=\"word-info\">[kəmˈpjuːt] n. 算力；计算能力</span></span></span>无限”。当时的人们基于这个假设，认为未来所有的人类娱乐、工作、通讯都将瞬间<span class=\"word-annot\"><span class=\"word-anchor\">数字化</span><span class=\"word-block\"><span class=\"english-word\">digitize</span><span class=\"word-info\">[ˈdɪdʒɪtaɪz] v. 数字化</span></span></span>。</p>"
+    },
+    {
+      "index": 9,
+      "source_text": "\"距离之死\"(The Death of Distance)——Frances Cairncross,1997。地理失效。",
+      "html": "<p>&quot;<span class=\"word-annot\"><span class=\"word-anchor\">距离</span><span class=\"word-block\"><span class=\"english-word\">distance</span><span class=\"word-info\">[ˈdɪstəns] n. 距离</span></span></span>之死&quot;(The Death of Distance)——Frances Cairncross,1997。地理<span class=\"word-annot\"><span class=\"word-anchor\">失效</span><span class=\"word-block\"><span class=\"english-word\">invalid</span><span class=\"word-info\">[ɪnˈvælɪd] adj. 失效的</span></span></span>。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "\"无摩擦的资本主义\"(Friction-free Capitalism)——比尔·盖茨《未来之路》,1995。市场变得完全有效率。",
+      "html": "<p>&quot;无摩擦的<span class=\"word-annot\"><span class=\"word-anchor\">资本主义</span><span class=\"word-block\"><span class=\"english-word\">capitalism</span><span class=\"word-info\">[ˈkæpɪtəlɪzəm] n. 资本主义</span></span></span>&quot;(Friction-free Capitalism)——比尔·盖茨《未来之路》,1995。市场变得完全有<span class=\"word-annot\"><span class=\"word-anchor\">效率</span><span class=\"word-block\"><span class=\"english-word\">efficiency</span><span class=\"word-info\">[ɪˈfɪʃənsi] n. 效率</span></span></span>。</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "光速下的商务（Business at the Speed of Thought）是比尔·盖茨在 1999 年出版的畅销书标题，很快变成了整个科技界的图腾口号。口号宣称，互联网和数字神经系统（Digital Nervous System）将把全球企业连接成一个像人类大脑一样实时响应的有机体。企业不再需要层层审批和库存，所有的商业决定和交易都在“思维闪烁的一瞬间”完成。",
+      "html": "<p>光速下的商务（Business at the Speed of Thought）是比尔·盖茨在 1999 年出版的畅销书标题，很快变成了整个科技界的<span class=\"word-annot\"><span class=\"word-anchor\">图腾</span><span class=\"word-block\"><span class=\"english-word\">totem</span><span class=\"word-info\">[ˈtoʊtəm] n. 图腾</span></span></span>口号。口号宣称，互联网和数字神经系统（Digital Nervous System）将把全球企业连接成一个像人类大脑一样实时响应的<span class=\"word-annot\"><span class=\"word-anchor\">有机体</span><span class=\"word-block\"><span class=\"english-word\">organism</span><span class=\"word-info\">[ˈɔːrɡənɪzəm] n. 有机体</span></span></span>。企业不再需要层层审批和<span class=\"word-annot\"><span class=\"word-anchor\">库存</span><span class=\"word-block\"><span class=\"english-word\">inventory</span><span class=\"word-info\">[ˈɪnvəntɔːri] n. 库存</span></span></span>，所有的商业决定和交易都在“思维闪烁的一瞬间”完成。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "“Welcome to the Human Network（欢迎来到人类网络）”---思科（Cisco）：科技预言家们宣称，成千上万公里光纤的铺设和网页的链接，不仅仅是通信工具的升级，而是正在将整个地球的人类连接成一个巨大的、统一的“全球大脑”。",
+      "html": "<p>“Welcome to the Human Network（欢迎来到人类网络）”---思科（Cisco）：科技预言家们宣称，成千上万公里光纤的铺设和网页的链接，不仅仅是通信工具的<span class=\"word-annot\"><span class=\"word-anchor\">升级</span><span class=\"word-block\"><span class=\"english-word\">upgrade</span><span class=\"word-info\">[ʌpˈɡreɪd] n. 升级</span></span></span>，而是正在将整个地球的人类连接成一个巨大的、统一的“全球大脑”。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "比对 AGI： 这种带有哲学和灵性色彩的口号，正如今天部分硅谷大佬将 AGI 视为“人类文明的下一代神级进化体”、“硅基生命对碳基生命的升华”，以及企业家描绘的 “AI Agent（智能体）生态”、全自动自动化公司（Self-operating business）的愿景如出一辙，给冷冰冰的商业投资披上了一层神圣的使命感。",
+      "html": "<p>比对 AGI： 这种带有哲学和灵性色彩的口号，正如今天部分硅谷大佬将 AGI 视为“人类文明的下一代神级进化体”、“硅基生命对碳基生命的<span class=\"word-annot\"><span class=\"word-anchor\">升华</span><span class=\"word-block\"><span class=\"english-word\">sublimation</span><span class=\"word-info\">[ˌsʌblɪˈmeɪʃən] n. 升华</span></span></span>”，以及企业家描绘的 “AI Agent（智能体）生态”、全自动自动化公司（Self-operating business）的愿景如出一辙，给冷冰冰的商业投资披上了一层神圣的使命感。</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "\"数字时代大宪章\"——1994 年的 Wired 宣言,由 Esther Dyson、George Gilder、Reagan 的科学顾问 George Keyworth、以及《第三次浪潮》作者 Alvin Toffler 等人撰写,把赛博空间描述成新文明/新边疆。",
+      "html": "<p>&quot;数字时代大宪章&quot;——1994 年的 Wired 宣言,由 Esther Dyson、George Gilder、Reagan 的科学顾问 George Keyworth、以及《第三次浪潮》作者 Alvin Toffler 等人撰写,把<span class=\"word-annot\"><span class=\"word-anchor\">赛博空间</span><span class=\"word-block\"><span class=\"english-word\">cyberspace</span><span class=\"word-info\">[ˈsaɪbərspeɪs] n. 赛博空间</span></span></span>描述成新文明/新边疆。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "还有:\"信息高速公路\"(基础设施即天命)、\"融合\"(Convergence)、\"信息时代/失重经济\"。",
+      "html": "<p>还有:&quot;信息高速公路&quot;(基础设施即天命)、&quot;<span class=\"word-annot\"><span class=\"word-anchor\">融合</span><span class=\"word-block\"><span class=\"english-word\">convergence</span><span class=\"word-info\">[kənˈvɜːrdʒəns] n. 融合</span></span></span>&quot;(Convergence)、&quot;信息时代/失重经济&quot;。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "家族二:增长外推的\"伪经验律\"(最像今天\"Scaling Laws → AGI\")",
+      "html": "<p>家族二:增长<span class=\"word-annot\"><span class=\"word-anchor\">外推</span><span class=\"word-block\"><span class=\"english-word\">extrapolate</span><span class=\"word-info\">[ɪkˈstræpəleɪt] v. 外推；推断</span></span></span>的&quot;伪经验律&quot;(最像今天&quot;Scaling Laws → AGI&quot;)</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "这一族是上一轮我们聊的那个——把一条增长曲线当成可无限外推的物理定律,用来论证资本开支:",
+      "html": "<p>这一族是上一轮我们聊的那个——把一条增长曲线当成可无限外推的物理定律,用来论证<span class=\"word-annot\"><span class=\"word-anchor\">资本开支</span><span class=\"word-block\"><span class=\"english-word\">capex</span><span class=\"word-info\">[ˈkæpeks] n. 资本开支</span></span></span>:</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "\"互联网流量每 100 天翻一倍 / 每年 1000%\"——直接对应\"只要继续 scale,智能就会持续指数增长到 AGI\"。两者都是\"伪经验律\"。",
+      "html": "<p>&quot;互联网流量每 100 天翻一倍 / 每年 1000%&quot;——直接对应&quot;只要继续 scale,智能就会持续<span class=\"word-annot\"><span class=\"word-anchor\">指数</span><span class=\"word-block\"><span class=\"english-word\">exponential</span><span class=\"word-info\">[ˌekspəˈnenʃəl] adj. 指数级的</span></span></span>增长到 AGI&quot;。两者都是&quot;伪<span class=\"word-annot\"><span class=\"word-anchor\">经验</span><span class=\"word-block\"><span class=\"english-word\">empirical</span><span class=\"word-info\">[ɪmˈpɪrɪkəl] adj. 经验的；实证的</span></span></span>律&quot;。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "\"对带宽的需求是无止境的\"(insatiable demand for bandwidth)——UUNet 高管的口头禅,对应今天\"对算力/智能的需求无止境\"。",
+      "html": "<p>&quot;对带宽的需求是<span class=\"word-annot\"><span class=\"word-anchor\">无止境</span><span class=\"word-block\"><span class=\"english-word\">insatiable</span><span class=\"word-info\">[ɪnˈseɪʃəbəl] adj. 无法满足的</span></span></span>的&quot;(insatiable demand for bandwidth)——UUNet 高管的口头禅,对应今天&quot;对算力/智能的需求无止境&quot;。</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "乔治·吉尔德的\"电信宇宙\"(Telecosm):\"带宽将免费\"、Metcalfe 定律(网络价值正比于用户数平方)。吉尔德几乎以一己之力把 Global Crossing、JDSU、高通捧上天(\"Gilder effect\")。他本人就是今天那种\"AI 极大主义\"思想领袖/VC 的原型——同一个角色,同一种笔法。",
+      "html": "<p>乔治·吉尔德的&quot;电信宇宙&quot;(Telecosm):&quot;带宽将免费&quot;、Metcalfe <span class=\"word-annot\"><span class=\"word-anchor\">定律</span><span class=\"word-block\"><span class=\"english-word\">law</span><span class=\"word-info\">[lɔː] n. 定律</span></span></span>(网络价值正比于用户数平方)。吉尔德几乎以<span class=\"word-annot\"><span class=\"word-anchor\">一己之力</span><span class=\"word-block\"><span class=\"english-word\">singlehandedly</span><span class=\"word-info\">[ˌsɪŋɡəlˈhændɪdli] adv. 以一己之力</span></span></span>把 Global Crossing、JDSU、高通捧上天(&quot;Gilder effect&quot;)。他本人就是今天那种&quot;AI 极大主义&quot;思想领袖/VC 的<span class=\"word-annot\"><span class=\"word-anchor\">原型</span><span class=\"word-block\"><span class=\"english-word\">prototype</span><span class=\"word-info\">[ˈproʊtətaɪp] n. 原型</span></span></span>——同一个角色,同一种笔法。</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "\"供给创造需求\"(Say 定律的科技版)——Wired 自己当年就一针见血:\"供给创造需求\"是半导体经济的战斗口号,但对光纤来说,可惜它不成立。这句话几乎可以原封不动搬到今天:\"建好算力,用例自然会来\"——可惜对……(待验证)。",
+      "html": "<p>&quot;供给创造需求&quot;(Say 定律的科技版)——Wired 自己当年就一针见血:&quot;供给创造需求&quot;是<span class=\"word-annot\"><span class=\"word-anchor\">半导体</span><span class=\"word-block\"><span class=\"english-word\">semiconductor</span><span class=\"word-info\">[ˌsemikənˈdʌktər] n. 半导体</span></span></span>经济的战斗口号,但对光纤来说,可惜它不成立。这句话几乎可以<span class=\"word-annot\"><span class=\"word-anchor\">原封不动</span><span class=\"word-block\"><span class=\"english-word\">verbatim</span><span class=\"word-info\">[vɜːrˈbeɪtɪm] adv. 原封不动地</span></span></span>搬到今天:&quot;建好算力,用例自然会来&quot;——可惜对……(待验证)。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "乔治·吉尔德 2000 年的书就叫《电信宇宙:带宽过剩之后的世界》，副标题讲的就是\"无限带宽将如何革新世界\",而他被包装成\"带宽与连接的首席先知\",《华尔街日报》说他\"随口一句就能撼动股价\"。他的逻辑直接套用了他上一本书《微宇宙》(Microcosm)里的晶体管故事:就像我们学会了\"浪费\"廉价晶体管、于是凭空长出 PC/手机等无数新市场一样,带宽也会变得无限便宜、过剩,而过剩本身会创造它自己的需求。 他的付费通讯把 Global Crossing、Qwest、JDS Uniphase、高通这些\"电信宇宙\"标的捧上天——这就是\"供给创造需求\"那句战斗口号的思想脚手架。",
+      "html": "<p>乔治·吉尔德 2000 年的书就叫《电信宇宙:带宽<span class=\"word-annot\"><span class=\"word-anchor\">过剩</span><span class=\"word-block\"><span class=\"english-word\">surplus</span><span class=\"word-info\">[ˈsɜːrpləs] n. 过剩</span></span></span>之后的世界》，副标题讲的就是&quot;无限带宽将如何革新世界&quot;,而他被包装成&quot;带宽与连接的首席先知&quot;,《华尔街日报》说他&quot;随口一句就能撼动股价&quot;。他的逻辑直接套用了他上一本书《微宇宙》(Microcosm)里的<span class=\"word-annot\"><span class=\"word-anchor\">晶体管</span><span class=\"word-block\"><span class=\"english-word\">transistor</span><span class=\"word-info\">[trænˈzɪstər] n. 晶体管</span></span></span>故事:就像我们学会了&quot;浪费&quot;廉价晶体管、于是凭空长出 PC/手机等无数新市场一样,带宽也会变得无限便宜、过剩,而过剩本身会创造它自己的需求。他的付费通讯把 Global Crossing、Qwest、JDS Uniphase、高通这些&quot;电信宇宙&quot;标的捧上天——这就是&quot;供给创造需求&quot;那句战斗口号的思想<span class=\"word-annot\"><span class=\"word-anchor\">脚手架</span><span class=\"word-block\"><span class=\"english-word\">scaffolding</span><span class=\"word-info\">[ˈskæfəldɪŋ] n. 脚手架</span></span></span>。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "芯片那一侧:定律为什么真的成立：”半导体的\"供给创造需求\"靠三个条件咬合:成本按摩尔定律指数下滑 + 需求高度弹性(每降一个价位就解锁一整代新市场:大型机→PC→手机→云→AI 加速器)+ 一个又快又便宜的\"应用层\"把多出来的晶体管即时转化成新需求。这个应用层是软件——几百万开发者、几乎零资本、快速迭代,\"Andy 给的(更强硬件),Bill 拿走(更臃肿软件)\",于是供给被吸收的速度几乎追得上它出现的速度。",
+      "html": "<p>芯片那一侧:定律为什么真的成立：”半导体的&quot;供给创造需求&quot;靠三个条件咬合:成本按摩尔定律指数下滑 + 需求高度<span class=\"word-annot\"><span class=\"word-anchor\">弹性</span><span class=\"word-block\"><span class=\"english-word\">elasticity</span><span class=\"word-info\">[ˌiːlæˈstɪsəti] n. 弹性</span></span></span>(每降一个价位就解锁一整代新市场:大型机→PC→手机→云→AI 加速器)+ 一个又快又便宜的&quot;应用层&quot;把多出来的晶体管即时转化成新需求。这个应用层是软件——几百万开发者、几乎零资本、快速<span class=\"word-annot\"><span class=\"word-anchor\">迭代</span><span class=\"word-block\"><span class=\"english-word\">iteration</span><span class=\"word-info\">[ˌɪtəˈreɪʃən] n. 迭代</span></span></span>,&quot;Andy 给的(更强硬件),Bill 拿走(更臃肿软件)&quot;,于是供给被吸收的速度几乎追得上它出现的速度。</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "光纤那一侧:四个断点。断点一:供给不止来自挖沟,更来自电子学(DWDM),所以失控得更彻底。 波分复用让每一根已经埋在地里的光纤容量翻 10 倍、100 倍,根本不用再铺新玻璃。也就是说,即使停止施工,光每一代光器件的进步就能让存量光纤的有效供给暴涨。芯片是\"成本下降创造需求\",光纤却变成了\"供给以远超需求的速度自我繁殖\"。断点二:真正的瓶颈不在骨干,而在\"最后一公里\"。 你可以把跨洲骨干点亮到无限,但对它的需求取决于终端用户有没有粗管子、有没有吃带宽的应用。而 2000–2002 年绝大多数人还在拨号和早期 DSL 上。\"聪明的双手\"想把骨干用起来,可上匝道根本不存在。更要命的是,这个互补品(宽带入户)本身又是一轮缓慢、重资本的硬基础设施,要等十年,而不是像软件那样几个月就能长出来。芯片的互补层是软件,光纤的互补层是另一堆要重新挖的沟——时间尺度差了一个数量级。断点三:纯商品 + 平行重复建设 → 价格塌到边际成本。 一个比特就是一个比特,没有差异化、没有 IP 护城河。七家以上同时沿同样的铁路/管道路权铺平行国家级骨干,结果是巨额固定成本 + 接近零的边际成本。需求一不及预期,Bertrand 式竞争就把批发价压向零(批发长途价一度同比腰斩)。这跟英特尔靠制程领先吃高毛利恰好相反——即便有那么点真实需求,也赚不到任何回报。",
+      "html": "<p>光纤那一侧:四个<span class=\"word-annot\"><span class=\"word-anchor\">断点</span><span class=\"word-block\"><span class=\"english-word\">breakpoint</span><span class=\"word-info\">[ˈbreɪkpɔɪnt] n. 断点</span></span></span>。断点一:供给不止来自挖沟,更来自电子学(DWDM),所以<span class=\"word-annot\"><span class=\"word-anchor\">失控</span><span class=\"word-block\"><span class=\"english-word\">unchecked</span><span class=\"word-info\">[ʌnˈtʃekt] adj. 失控的</span></span></span>得更彻底。波分复用让每一根已经埋在地里的光纤<span class=\"word-annot\"><span class=\"word-anchor\">容量</span><span class=\"word-block\"><span class=\"english-word\">capacity</span><span class=\"word-info\">[kəˈpæsəti] n. 容量</span></span></span>翻 10 倍、100 倍,根本不用再铺新玻璃。也就是说,即使停止施工,光每一代光器件的进步就能让存量光纤的有效<span class=\"word-annot\"><span class=\"word-anchor\">供给</span><span class=\"word-block\"><span class=\"english-word\">supply</span><span class=\"word-info\">[səˈplaɪ] n. 供给</span></span></span>暴涨。芯片是&quot;成本下降创造需求&quot;,光纤却变成了&quot;供给以远超需求的速度自我<span class=\"word-annot\"><span class=\"word-anchor\">繁殖</span><span class=\"word-block\"><span class=\"english-word\">propagate</span><span class=\"word-info\">[ˈprɒpəɡeɪt] v. 繁殖；传播</span></span></span>&quot;。断点二:真正的<span class=\"word-annot\"><span class=\"word-anchor\">瓶颈</span><span class=\"word-block\"><span class=\"english-word\">bottleneck</span><span class=\"word-info\">[ˈbɒtəlnek] n. 瓶颈</span></span></span>不在骨干,而在&quot;最后一公里&quot;。你可以把跨洲骨干点亮到无限,但对它的需求取决于<span class=\"word-annot\"><span class=\"word-anchor\">终端</span><span class=\"word-block\"><span class=\"english-word\">terminal</span><span class=\"word-info\">[ˈtɜːrmɪnəl] n. 终端</span></span></span>用户有没有粗管子、有没有吃带宽的应用。而 2000–2002 年绝大多数人还在<span class=\"word-annot\"><span class=\"word-anchor\">拨号</span><span class=\"word-block\"><span class=\"english-word\">dialup</span><span class=\"word-info\">[ˈdaɪəlʌp] n. 拨号</span></span></span>和早期 DSL 上。&quot;聪明的双手&quot;想把骨干用起来,可上<span class=\"word-annot\"><span class=\"word-anchor\">匝道</span><span class=\"word-block\"><span class=\"english-word\">ramp</span><span class=\"word-info\">[ræmp] n. 匝道</span></span></span>根本不存在。更要命的是,这个<span class=\"word-annot\"><span class=\"word-anchor\">互补品</span><span class=\"word-block\"><span class=\"english-word\">complement</span><span class=\"word-info\">[ˈkɒmplɪmənt] n. 互补品</span></span></span>(宽带入户)本身又是一轮缓慢、重资本的硬基础设施,要等十年,而不是像软件那样几个月就能长出来。芯片的互补层是软件,光纤的互补层是另一堆要重新挖的沟——时间尺度差了一个<span class=\"word-annot\"><span class=\"word-anchor\">数量级</span><span class=\"word-block\"><span class=\"english-word\">magnitude</span><span class=\"word-info\">[ˈmæɡnɪtjuːd] n. 数量级</span></span></span>。断点三:纯商品 + 平行重复建设 → 价格塌到边际<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">cost</span><span class=\"word-info\">[kɒst] n. 成本</span></span></span>。一个比特就是一个比特,没有<span class=\"word-annot\"><span class=\"word-anchor\">差异化</span><span class=\"word-block\"><span class=\"english-word\">differentiation</span><span class=\"word-info\">[ˌdɪfərenʃiˈeɪʃən] n. 差异化</span></span></span>、没有 IP 护城河。七家以上同时沿同样的铁路/管道路权铺<span class=\"word-annot\"><span class=\"word-anchor\">平行</span><span class=\"word-block\"><span class=\"english-word\">parallel</span><span class=\"word-info\">[ˈpærəlel] adj. 平行的</span></span></span>国家级骨干,结果是巨额固定成本 + 接近零的边际成本。需求一不及预期,Bertrand 式<span class=\"word-annot\"><span class=\"word-anchor\">竞争</span><span class=\"word-block\"><span class=\"english-word\">competition</span><span class=\"word-info\">[ˌkɒmpəˈtɪʃən] n. 竞争</span></span></span>就把批发价压向零(批发长途价一度同比腰斩)。这跟英特尔靠<span class=\"word-annot\"><span class=\"word-anchor\">制程</span><span class=\"word-block\"><span class=\"english-word\">process</span><span class=\"word-info\">[ˈproʊses] n. 制程</span></span></span>领先吃高毛利恰好相反——即便有那么点真实需求,也赚不到任何回报。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "它最后其实成真了,只是晚了十到十五年。 等宽带入户、Netflix 流媒体、云、再到今天的 AI 起来,那些暗光纤被一根根点亮,如今是现代互联网的骨干——\"供给确实创造了需求\"。但这个时间差杀死了每一个原始建设者:你的债三年到期,需求十五年后才来,你就死了,而需求兑现给了那个用几分钱买走你尸体的接盘者。",
+      "html": "<p>它最后其实<span class=\"word-annot\"><span class=\"word-anchor\">成真</span><span class=\"word-block\"><span class=\"english-word\">materialize</span><span class=\"word-info\">[məˈtɪriəlaɪz] v. 实现；成真</span></span></span>了,只是晚了十到十五年。等宽带入户、Netflix <span class=\"word-annot\"><span class=\"word-anchor\">流媒体</span><span class=\"word-block\"><span class=\"english-word\">streaming</span><span class=\"word-info\">[ˈstriːmɪŋ] n. 流媒体</span></span></span>、云、再到今天的 AI 起来,那些暗光纤被一根根点亮,如今是现代互联网的骨干——&quot;供给确实创造了需求&quot;。但这个时间差杀死了每一个原始建设者:你的债三年<span class=\"word-annot\"><span class=\"word-anchor\">到期</span><span class=\"word-block\"><span class=\"english-word\">mature</span><span class=\"word-info\">[məˈtjʊər] v. 到期</span></span></span>,需求十五年后才来,你就死了,而需求兑现给了那个用几分钱买走你尸体的接盘者。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "值得注意,\"带宽将免费\"这个口号,本身又是 1950 年代核能\"电力便宜到不用计量\"的回声;而今天\"智能便宜到不用计量\"(intelligence too cheap to meter)正是同一句式的第三次轮回。",
+      "html": "<p>值得注意,&quot;带宽将免费&quot;这个口号,本身又是 1950 年代<span class=\"word-annot\"><span class=\"word-anchor\">核能</span><span class=\"word-block\"><span class=\"english-word\">nuclear</span><span class=\"word-info\">[ˈnjuːkliər] adj. 核能的</span></span></span>&quot;电力便宜到不用计量&quot;的回声;而今天&quot;智能便宜到不用计量&quot;(intelligence too cheap to meter)正是同一句式的第三次轮回。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "家族三:抢地盘 / 赢家通吃(对应\"谁先到 AGI 谁赢得一切\")",
+      "html": "<p>家族三:抢<span class=\"word-annot\"><span class=\"word-anchor\">地盘</span><span class=\"word-block\"><span class=\"english-word\">territory</span><span class=\"word-info\">[ˈterɪtɔːri] n. 地盘</span></span></span> / 赢家通吃(对应&quot;谁先到 AGI 谁赢得一切&quot;)</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "\"快速做大\"(Get Big Fast)——亚马逊的内部信条。",
+      "html": "<p>&quot;快速做大&quot;(Get Big Fast)——亚马逊的内部<span class=\"word-annot\"><span class=\"word-anchor\">信条</span><span class=\"word-block\"><span class=\"english-word\">tenet</span><span class=\"word-info\">[ˈtiːnet] n. 信条</span></span></span>。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "内涵： “互联网时间”宣称，在互联网世界里，一年的技术和商业演进相当于传统行业的七年（“狗年定律”）。因此，企业不能按部就班地盈利，必须用最快的速度烧钱、圈地、获取用户，即 “Get Big Fast”。只要你成了第一，未来就能垄断无限的生态。",
+      "html": "<p>内涵： “互联网时间”宣称，在互联网世界里，一年的技术和商业<span class=\"word-annot\"><span class=\"word-anchor\">演进</span><span class=\"word-block\"><span class=\"english-word\">evolution</span><span class=\"word-info\">[ˌiːvəˈluːʃən] n. 演进</span></span></span>相当于传统行业的七年（“狗年定律”）。因此，企业不能按部就班地盈利，必须用最快的速度烧钱、圈地、<span class=\"word-annot\"><span class=\"word-anchor\">获取</span><span class=\"word-block\"><span class=\"english-word\">acquire</span><span class=\"word-info\">[əˈkwaɪər] v. 获取</span></span></span>用户，即 “Get Big Fast”。只要你成了第一，未来就能<span class=\"word-annot\"><span class=\"word-anchor\">垄断</span><span class=\"word-block\"><span class=\"english-word\">monopoly</span><span class=\"word-info\">[məˈnɒpəli] n. 垄断</span></span></span>无限的生态。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "比对 AGI： 这简直就是今天大模型厂商“Scaling Law（规模定律）”和“AGI 军备竞赛”的翻版——“谁先跑出万亿参数/谁先实现 AGI，谁就能通吃一切，所以现在烧多少百亿美金建数据中心都是对的”。",
+      "html": "<p>比对 AGI： 这简直就是今天大模型厂商“Scaling Law（规模定律）”和“AGI 军备竞赛”的<span class=\"word-annot\"><span class=\"word-anchor\">翻版</span><span class=\"word-block\"><span class=\"english-word\">replica</span><span class=\"word-info\">[ˈreplɪkə] n. 翻版；复制品</span></span></span>——“谁先跑出万亿参数/谁先实现 AGI，谁就能通吃一切，所以现在烧多少百亿美金建数据中心都是对的”。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "\"先发优势 / 赢家通吃 / 网络效应\"——对应\"first to AGI takes all\"。",
+      "html": "<p>&quot;先发<span class=\"word-annot\"><span class=\"word-anchor\">优势</span><span class=\"word-block\"><span class=\"english-word\">advantage</span><span class=\"word-info\">[ədˈvɑːntɪdʒ] n. 优势</span></span></span> / 赢家通吃 / 网络效应&quot;——对应&quot;first to AGI takes all&quot;。</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "\"圈地\"(Land grab)。",
+      "html": "<p>&quot;<span class=\"word-annot\"><span class=\"word-anchor\">圈地</span><span class=\"word-block\"><span class=\"english-word\">enclosure</span><span class=\"word-info\">[ɪnˈkloʊʒər] n. 圈地</span></span></span>&quot;(Land grab)。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "\"被亚马逊化\"(getting Amazoned)——每个行业都怕被一家初创公司\"亚马逊化\",对应今天每家公司怕\"被 AI 颠覆/被某个 wrapper 干掉\"的生存焦虑。",
+      "html": "<p>&quot;被亚马逊化&quot;(getting Amazoned)——每个行业都怕被一家初创公司&quot;亚马逊化&quot;,对应今天每家公司怕&quot;被 AI <span class=\"word-annot\"><span class=\"word-anchor\">颠覆</span><span class=\"word-block\"><span class=\"english-word\">disruption</span><span class=\"word-info\">[dɪsˈrʌpʃən] n. 颠覆</span></span></span>/被某个 wrapper 干掉&quot;的生存焦虑。</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "\"建好它,他们就会来\"(if you build it they will come)——上一轮光纤过度建设者的核心信条。",
+      "html": "<p>&quot;建好它,他们就会来&quot;(if you build it they will come)——上一轮光纤<span class=\"word-annot\"><span class=\"word-anchor\">过度</span><span class=\"word-block\"><span class=\"english-word\">excessive</span><span class=\"word-info\">[ɪkˈsesɪv] adj. 过度的</span></span></span>建设者的核心信条。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "家族四:估值正当化 / \"这次不一样\"",
+      "html": "<p>家族四:估值<span class=\"word-annot\"><span class=\"word-anchor\">正当化</span><span class=\"word-block\"><span class=\"english-word\">legitimize</span><span class=\"word-info\">[lɪˈdʒɪtɪmaɪz] v. 正当化</span></span></span> / &quot;这次不一样&quot;</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "\"这次不一样\"(This time it's different)——泡沫永恒的那句。",
+      "html": "<p>&quot;这次不一样&quot;(This time it&#x27;s different)——泡沫<span class=\"word-annot\"><span class=\"word-anchor\">永恒</span><span class=\"word-block\"><span class=\"english-word\">eternal</span><span class=\"word-info\">[ɪˈtɜːrnəl] adj. 永恒的</span></span></span>的那句。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "\"眼球 / 点击量 / 心智份额 高于盈利\"——《华尔街日报》当年甚至建议投资者\"重新思考\"利润这个\"古雅的旧观念\"。对应今天用 ARR 增速、token 用量、MAU 取代盈利。",
+      "html": "<p>&quot;眼球 / 点击量 / 心智份额 高于盈利&quot;——《华尔街日报》当年甚至建议投资者&quot;重新思考&quot;利润这个&quot;<span class=\"word-annot\"><span class=\"word-anchor\">古雅</span><span class=\"word-block\"><span class=\"english-word\">quaint</span><span class=\"word-info\">[kweɪnt] adj. 古雅的</span></span></span>的旧观念&quot;。对应今天用 ARR 增速、token 用量、MAU <span class=\"word-annot\"><span class=\"word-anchor\">取代</span><span class=\"word-block\"><span class=\"english-word\">replace</span><span class=\"word-info\">[rɪˈpleɪs] v. 取代</span></span></span>盈利。</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "\"道指 36000\"(Dow 36,000)——Glassman & Hassett,1999 年的估值登月之书。对应今天\"AI 将给全球 GDP 增加 X 万亿 / TAM 是 Y 万亿\"那类数字。",
+      "html": "<p>&quot;道指 36000&quot;(Dow 36,000)——Glassman &amp; Hassett,1999 年的估值<span class=\"word-annot\"><span class=\"word-anchor\">登月</span><span class=\"word-block\"><span class=\"english-word\">moonshot</span><span class=\"word-info\">[ˈmuːnʃɒt] n. 登月计划</span></span></span>之书。对应今天&quot;AI 将给<span class=\"word-annot\"><span class=\"word-anchor\">全球</span><span class=\"word-block\"><span class=\"english-word\">global</span><span class=\"word-info\">[ˈɡloʊbəl] adj. 全球的</span></span></span> GDP 增加 X 万亿 / TAM 是 Y 万亿&quot;那类数字。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "\"B2B 是数万亿美元的机会\"。",
+      "html": "<p>&quot;B2B 是数<span class=\"word-annot\"><span class=\"word-anchor\">万亿</span><span class=\"word-block\"><span class=\"english-word\">trillion</span><span class=\"word-info\">[ˈtrɪljən] n. 万亿</span></span></span>美元的机会&quot;。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "把前两轮串起来,真正值得存档的不是\"这些口号是不是骗局\",而是它们事后兑现的方式分三类——这正是判断 AGI 叙事的尺子:",
+      "html": "<p>把前两轮串起来,真正值得<span class=\"word-annot\"><span class=\"word-anchor\">存档</span><span class=\"word-block\"><span class=\"english-word\">archive</span><span class=\"word-info\">[ˈɑːrkaɪv] v. 存档</span></span></span>的不是&quot;这些口号是不是骗局&quot;,而是它们事后兑现的方式分三类——这正是判断 AGI 叙事的尺子:</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "方向是真的,但被严重错时(true but mistimed):\"距离之死\"\"互联网改变一切\"——最后全对了,却依然蒸发了绝大部分股权。这是贝索斯那一课的核心:口号方向正确 ≠ 在那个价格、那个资本开支强度下可投资。",
+      "html": "<p>方向是真的,但被严重错时(true but mistimed):&quot;距离之死&quot;&quot;互联网改变一切&quot;——最后全对了,却依然蒸发了绝大部分<span class=\"word-annot\"><span class=\"word-anchor\">股权</span><span class=\"word-block\"><span class=\"english-word\">equity</span><span class=\"word-info\">[ˈekwəti] n. 股权</span></span></span>。这是贝索斯那一课的核心:口号方向正确 ≠ 在那个价格、那个资本开支<span class=\"word-annot\"><span class=\"word-anchor\">强度</span><span class=\"word-block\"><span class=\"english-word\">intensity</span><span class=\"word-info\">[ɪnˈtensəti] n. 强度</span></span></span>下可投资。</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "真的,但收益不归建设者:光纤需求最终爆发了,但兑现的是接盘者(Level 3)和最终需求方(超大规模云厂商),不是原始建网者和债权人。",
+      "html": "<p>真的,但收益不归建设者:光纤需求最终爆发了,但兑现的是接盘者(Level 3)和最终需求方(超大规模云厂商),不是原始建网者和<span class=\"word-annot\"><span class=\"word-anchor\">债权人</span><span class=\"word-block\"><span class=\"english-word\">creditor</span><span class=\"word-info\">[ˈkredɪtər] n. 债权人</span></span></span>。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "直接是假的:\"每 100 天翻倍\"\"新经济=没有周期了\"\"供给自动创造光纤需求\"\"道指 36000\"。",
+      "html": "<p>直接是假的:&quot;每 100 天翻倍&quot;&quot;新经济=没有<span class=\"word-annot\"><span class=\"word-anchor\">周期</span><span class=\"word-block\"><span class=\"english-word\">cycle</span><span class=\"word-info\">[ˈsaɪkəl] n. 周期</span></span></span>了&quot;&quot;供给自动创造光纤需求&quot;&quot;道指 36000&quot;。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "今天确实有强同构的一面——已有分析师警告当前的 AI 数据中心热潮可能重演 1990 年代的\"光纤过剩\",同样是大规模过度建设、需求不确定,Apollo 首席经济学家 Torsten Sløk 甚至认为当前 AI 泡沫可能比 1990 年代更大",
+      "html": "<p>今天确实有强同构的一面——已有<span class=\"word-annot\"><span class=\"word-anchor\">分析师</span><span class=\"word-block\"><span class=\"english-word\">analyst</span><span class=\"word-info\">[ˈænəlɪst] n. 分析师</span></span></span>警告当前的 AI 数据中心热潮可能重演 1990 年代的&quot;光纤过剩&quot;,同样是大规模过度建设、需求不确定,Apollo 首席经济学家 Torsten Sløk 甚至认为当前 AI 泡沫可能比 1990 年代更大</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "但也有关键的反同构:与 Pets.com 不同,今天领头的几家 AI 公司有真实且高速增长的收入,核心技术在规模上确实可用——这更接近\"思科/亚马逊\"(真公司、真需求、但可能估值过高)而非\"纯无收入概念股\"。所以更精确的类比也许不是\"AGI = Pets.com\",而是\"AGI 叙事 = 新经济母叙事,而具体公司散落在思科、亚马逊、Global Crossing 三种命运之间\"——你的工作就是逐家判断每一个押的是哪一种结局。",
+      "html": "<p>但也有关键的反同构:与 Pets.com 不同,今天领头的几家 AI 公司有真实且高速增长的收入,核心技术在规模上确实可用——这更接近&quot;思科/亚马逊&quot;(真公司、真需求、但可能估值过高)而非&quot;纯无收入<span class=\"word-annot\"><span class=\"word-anchor\">概念</span><span class=\"word-block\"><span class=\"english-word\">concept</span><span class=\"word-info\">[ˈkɒnsept] n. 概念</span></span></span>股&quot;。所以更精确的<span class=\"word-annot\"><span class=\"word-anchor\">类比</span><span class=\"word-block\"><span class=\"english-word\">analogy</span><span class=\"word-info\">[əˈnælədʒi] n. 类比</span></span></span>也许不是&quot;AGI = Pets.com&quot;,而是&quot;AGI 叙事 = 新经济母叙事,而具体公司散落在思科、亚马逊、Global Crossing 三种命运之间&quot;——你的工作就是逐家判断每一个押的是哪一种结局。</p>"
+    }
+  ]
+}

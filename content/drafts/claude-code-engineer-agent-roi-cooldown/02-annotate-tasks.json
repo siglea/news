@@ -1,0 +1,1052 @@
+{
+  "version": 1,
+  "kind": "annotate_result",
+  "slug": "claude-code-engineer-agent-roi-cooldown",
+  "paragraphs": [
+    {
+      "index": 0,
+      "source_text": "![](../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/001.gif)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/001.gif\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 1,
+      "source_text": "在关于 AI 编程的讨论里，外界最常关注的是模型能写多少代码、工程师效率提升了多少、AI 是否会替代程序员。但在 Anthropic Claude Code 与 Cowork 团队负责人 Fiona Fung 看来，真正的变化已经越过了“代码生成”本身。",
+      "html": "<p>在关于 AI 编程的讨论里，外界最常关注的是模型能写多少代码、工程师<span class=\"word-annot\"><span class=\"word-anchor\">效率</span><span class=\"word-block\"><span class=\"english-word\">efficiency</span><span class=\"word-info\">[ɪˈfɪʃnsi] n. 效率</span></span></span>提升了多少、AI 是否会替代程序员。但在 Anthropic Claude Code 与 Cowork 团队负责人 Fiona Fung 看来，真正的变化已经越过了“代码<span class=\"word-annot\"><span class=\"word-anchor\">生成</span><span class=\"word-block\"><span class=\"english-word\">generate</span><span class=\"word-info\">[ˈdʒenəreɪt] v. 生成</span></span></span>”本身。</p>"
+    },
+    {
+      "index": 2,
+      "source_text": "Lenny’s Podcast 这期对话提供了一个少见的内部视角：当一个工程团队的代码交付量在一年内被 AI 拉升到原来的 8 倍之后，软件工程的瓶颈并没有消失，而是转移到了别的地方。写代码不再是最稀缺的能力，验证质量、判断优先级、衡量真实产出、管理异步 agent、保持团队文化，开始成为新的难题。",
+      "html": "<p>Lenny’s Podcast 这期对话提供了一个少见的内部视角：当一个工程团队的代码交付量在一年内被 AI 拉升到原来的 8 倍之后，软件工程的<span class=\"word-annot\"><span class=\"word-anchor\">瓶颈</span><span class=\"word-block\"><span class=\"english-word\">bottleneck</span><span class=\"word-info\">[ˈbɒtlnek] n. 瓶颈</span></span></span>并没有消失，而是转移到了别的地方。写代码不再是最稀缺的能力，验证质量、判断<span class=\"word-annot\"><span class=\"word-anchor\">优先级</span><span class=\"word-block\"><span class=\"english-word\">priority</span><span class=\"word-info\">[praɪˈɒrəti] n. 优先级</span></span></span>、衡量真实产出、管理异步 agent、保持团队文化，开始成为新的难题。</p>"
+    },
+    {
+      "index": 3,
+      "source_text": "Fiona 领导 Claude Code 和 Cowork 背后的团队，并监管 Boris Cherny 以及整个工程和 PM 团队。基本上在这条业务线 / 产品线里，Fiona 是 Boris 的上级或至少是组织管理上的负责人。",
+      "html": "<p>Fiona 领导 Claude Code 和 Cowork 背后的团队，并<span class=\"word-annot\"><span class=\"word-anchor\">监管</span><span class=\"word-block\"><span class=\"english-word\">supervise</span><span class=\"word-info\">[ˈsuːpəvaɪz] v. 监管</span></span></span> Boris Cherny 以及整个工程和 PM 团队。基本上在这条业务线 / 产品线里，Fiona 是 Boris 的上级或至少是组织<span class=\"word-annot\"><span class=\"word-anchor\">管理</span><span class=\"word-block\"><span class=\"english-word\">manage</span><span class=\"word-info\">[ˈmænɪdʒ] v. 管理</span></span></span>上的负责人。</p>"
+    },
+    {
+      "index": 4,
+      "source_text": "在加入 Anthropic 之前，Fiona 曾在 Microsoft 参与 Visual Studio 和 TypeScript 相关工作，后来加入 Meta，创立 Facebook Marketplace 团队，并参与 Meta 智能眼镜、AR 眼镜以及 Instagram 基础设施、增长、安全等团队建设。超过 25 年的工程经历，让她既经历过从 Vim 到 IDE、从 CD 发版到在线发布的软件工程变迁，也正在亲身经历 AI 对工程组织的重塑。",
+      "html": "<p>在加入 Anthropic 之前，Fiona 曾在 Microsoft 参与 Visual Studio 和 TypeScript 相关工作，后来加入 Meta，创立 Facebook Marketplace 团队，并参与 Meta 智能眼镜、AR 眼镜以及 Instagram <span class=\"word-annot\"><span class=\"word-anchor\">基础设施</span><span class=\"word-block\"><span class=\"english-word\">infrastructure</span><span class=\"word-info\">[ˈɪnfrəstrʌktʃə] n. 基础设施</span></span></span>、增长、安全等团队建设。超过 25 年的工程经历，让她既经历过从 Vim 到 IDE、从 CD 发版到在线<span class=\"word-annot\"><span class=\"word-anchor\">发布</span><span class=\"word-block\"><span class=\"english-word\">release</span><span class=\"word-info\">[rɪˈliːs] v. 发布</span></span></span>的软件工程变迁，也正在亲身经历 AI 对工程组织的重塑。</p>"
+    },
+    {
+      "index": 5,
+      "source_text": "这场谈话中，Fiona 具体讲到了 Anthropic 内部如何使用 Claude 管理团队输出，如何让 routines 在每天早上自动读取反馈、启动 agent、生成 PR；如何用 bad vs. sad 框架定义产品质量，甚至通过用户脏话频率观察挫败感；如何从 token maxing 转向 ROI 衡量，避免把工具使用量误认为真实进展；以及为什么管理者必须亲自 dogfooding，甚至先从 IC 做起，才能不被 dashboard 和会议汇报隔离在真实产品之外。",
+      "html": "<p>这场谈话中，Fiona 具体讲到了 Anthropic 内部如何使用 Claude 管理团队输出，如何让 routines 在每天早上自动读取<span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈</span></span></span>、启动 agent、生成 PR；如何用 bad vs. sad <span class=\"word-annot\"><span class=\"word-anchor\">框架</span><span class=\"word-block\"><span class=\"english-word\">framework</span><span class=\"word-info\">[ˈfreɪmwɜːk] n. 框架</span></span></span>定义产品质量，甚至通过用户脏话频率观察挫败感；如何从 token maxing 转向 ROI <span class=\"word-annot\"><span class=\"word-anchor\">衡量</span><span class=\"word-block\"><span class=\"english-word\">measure</span><span class=\"word-info\">[ˈmeʒə] v. 衡量</span></span></span>，避免把工具使用量误认为真实进展；以及为什么管理者必须亲自 dogfooding，甚至先从 IC 做起，才能不被 dashboard 和会议汇报<span class=\"word-annot\"><span class=\"word-anchor\">隔离</span><span class=\"word-block\"><span class=\"english-word\">isolate</span><span class=\"word-info\">[ˈaɪsəleɪt] v. 隔离</span></span></span>在真实产品之外。</p>"
+    },
+    {
+      "index": 6,
+      "source_text": "她也谈到了 AI 编程的另一面：工程师可能失去过去写代码时的心流，团队协作可能变得孤独，新人工程师可能跳过亲手理解架构和底层系统的阶段。与此同时，PM、设计师、数据科学家等角色正在被卷入编码工作流，工程师也被要求拥有更强的产品感。岗位边界不再清晰，团队运作方式也不得不随之改变。",
+      "html": "<p>她也谈到了 AI 编程的另一面：工程师可能失去过去写代码时的心流，团队协作可能变得孤独，新人工程师可能跳过亲手理解<span class=\"word-annot\"><span class=\"word-anchor\">架构</span><span class=\"word-block\"><span class=\"english-word\">architecture</span><span class=\"word-info\">[ˈɑːkɪtektʃə] n. 架构</span></span></span>和底层系统的阶段。与此同时，PM、<span class=\"word-annot\"><span class=\"word-anchor\">设计</span><span class=\"word-block\"><span class=\"english-word\">design</span><span class=\"word-info\">[dɪˈzaɪn] v. 设计</span></span></span>师、数据科学家等角色正在被卷入编码工作流，工程师也被要求拥有更强的产品感。岗位<span class=\"word-annot\"><span class=\"word-anchor\">边界</span><span class=\"word-block\"><span class=\"english-word\">boundary</span><span class=\"word-info\">[ˈbaʊndri] n. 边界</span></span></span>不再清晰，团队运作方式也不得不随之改变。</p>"
+    },
+    {
+      "index": 7,
+      "source_text": "以下为完整版对话，经 InfoQ 编译：",
+      "html": "<p>以下为完整版对话，经 InfoQ <span class=\"word-annot\"><span class=\"word-anchor\">编译</span><span class=\"word-block\"><span class=\"english-word\">compilation</span><span class=\"word-info\">[ˌkɒmpɪˈleɪʃn] n. 编译</span></span></span>：</p>"
+    },
+    {
+      "index": 8,
+      "source_text": "![](../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/002.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/002.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 9,
+      "source_text": "Lenny：Fiona，谢谢你来参加节目。我之前在 Code with Claude 活动上听了你的演讲，当时就觉得必须把你请到节目里。你对 AI 和软件工程未来的思考已经非常超前。你做工程师已经 25 年了。我看了你的 LinkedIn，你最早是在 IBM，这和今天的软件世界已经完全不一样了。尤其是过去两年，工程师这个职业变化太剧烈了。大家可能都忘了，不久前 100% 的代码还是人写的，而现在已经越来越接近大量代码由 AI 生成。Boris 曾经说过，coding is solved。",
+      "html": "<p>Lenny：Fiona，<span class=\"word-annot\"><span class=\"word-anchor\">谢谢</span><span class=\"word-block\"><span class=\"english-word\">thanks</span><span class=\"word-info\">[θæŋks] n. 谢谢</span></span></span>你来参加节目。我之前在 Code with Claude 活动上听了你的<span class=\"word-annot\"><span class=\"word-anchor\">演讲</span><span class=\"word-block\"><span class=\"english-word\">speech</span><span class=\"word-info\">[spiːtʃ] n. 演讲</span></span></span>，当时就觉得必须把你请到节目里。你对 AI 和软件<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>未来的思考已经非常超前。你<span class=\"word-annot\"><span class=\"word-anchor\">做</span><span class=\"word-block\"><span class=\"english-word\">do</span><span class=\"word-info\">[duː] v. 做</span></span></span>工程师已经 25 年了。我看了你的 LinkedIn，你最早是在 IBM，这和今天的软件<span class=\"word-annot\"><span class=\"word-anchor\">世界</span><span class=\"word-block\"><span class=\"english-word\">world</span><span class=\"word-info\">[wɜːld] n. 世界</span></span></span>已经完全不一样了。尤其是过去两年，工程师这个职业<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">change</span><span class=\"word-info\">[tʃeɪndʒ] n. 变化</span></span></span>太剧烈了。大家可能都忘了，不久前 100% 的代码还是人写的，而现在已经越来越接近大量代码由 AI <span class=\"word-annot\"><span class=\"word-anchor\">生成</span><span class=\"word-block\"><span class=\"english-word\">generation</span><span class=\"word-info\">[ˌdʒenəˈreɪʃn] n. 生成</span></span></span>。Boris 曾经<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>过，coding is solved。</p>"
+    },
+    {
+      "index": 10,
+      "source_text": "Anthropic 最近还发了一张图，说 Anthropic 工程师平均每季度交付的代码量，相比 2025 年已经增长到 8 倍。你作为一个经历了很长工程周期的人，能不能回顾一下：在你的职业路径中，哪些关键时刻改变了你对工程工作的理解，也塑造了你今天的工作方式？",
+      "html": "<p>Anthropic 最近还发了一张图，说 Anthropic 工程师平均每季度<span class=\"word-annot\"><span class=\"word-anchor\">交付</span><span class=\"word-block\"><span class=\"english-word\">deliver</span><span class=\"word-info\">[dɪˈlɪvə] v. 交付</span></span></span>的代码量，相比 2025 年已经增长到 8 倍。你作为一个经历了很长工程周期的人，能不能回顾一下：在你的职业路径中，哪些关键时刻改变了你对工程工作的<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">understand</span><span class=\"word-info\">[ˌʌndəˈstænd] v. 理解</span></span></span>，也塑造了你今天的工作方式？</p>"
+    },
+    {
+      "index": 11,
+      "source_text": "Fiona：我很喜欢这种回顾。最早我在 IBM 做 DB2，在操作系统服务团队。当时我的想法很简单：越靠近底层、越靠近操作系统，就越“硬核”，也能学到更多东西。所以我很幸运能进入 IBM 实习。",
+      "html": "<p>Fiona：我很<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">like</span><span class=\"word-info\">[laɪk] v. 喜欢</span></span></span>这种回顾。最早我在 IBM 做 DB2，在<span class=\"word-annot\"><span class=\"word-anchor\">操作</span><span class=\"word-block\"><span class=\"english-word\">operation</span><span class=\"word-info\">[ˌɒpəˈreɪʃn] n. 操作</span></span></span>系统服务团队。当时我的<span class=\"word-annot\"><span class=\"word-anchor\">想法</span><span class=\"word-block\"><span class=\"english-word\">idea</span><span class=\"word-info\">[aɪˈdɪə] n. 想法</span></span></span>很简单：越靠近底层、越靠近操作系统，就越“硬核”，也能学到更多东西。所以我很<span class=\"word-annot\"><span class=\"word-anchor\">幸运</span><span class=\"word-block\"><span class=\"english-word\">lucky</span><span class=\"word-info\">[ˈlʌki] adj. 幸运的</span></span></span>能进入 IBM 实习。</p>"
+    },
+    {
+      "index": 12,
+      "source_text": "从 IBM 到 Microsoft，对我来说已经是一次很大的变化。在 IBM 时，我主要用 Vim，没有真正使用 IDE。可能当时有 Eclipse 授权，但我们大多数人并不用，更多是在终端里调试。",
+      "html": "<p>从 IBM 到 Microsoft，对我<span class=\"word-annot\"><span class=\"word-anchor\">来</span><span class=\"word-block\"><span class=\"english-word\">come</span><span class=\"word-info\">[kʌm] v. 来</span></span></span>说已经是一次很大的变化。在 IBM 时，我主要用 Vim，没有真正<span class=\"word-annot\"><span class=\"word-anchor\">使用</span><span class=\"word-block\"><span class=\"english-word\">use</span><span class=\"word-info\">[juːz] v. 使用</span></span></span> IDE。可能当时有 Eclipse <span class=\"word-annot\"><span class=\"word-anchor\">授权</span><span class=\"word-block\"><span class=\"english-word\">authorization</span><span class=\"word-info\">[ˌɔːθəraɪˈzeɪʃn] n. 授权</span></span></span>，但我们大多数人并不用，更多是在终端里调试。</p>"
+    },
+    {
+      "index": 13,
+      "source_text": "后来我加入 Microsoft。那是 2000 年互联网泡沫破裂之后，很多公司冻结招聘，所以我能拿到 Microsoft offer 非常幸运。当时他们告诉我会去 Visual Studio 团队，但我其实并不知道 Visual Studio 是什么。我来自一个偏 Unix 的学校，听到 Visual Studio 这个名字，我甚至以为它是不是一个更好的画图软件。我能看出经理当时脸上的表情是：“这是什么情况？”",
+      "html": "<p>后<span class=\"word-annot\"><span class=\"word-anchor\">来</span><span class=\"word-block\"><span class=\"english-word\">come</span><span class=\"word-info\">[kʌm] v. 来</span></span></span>我加入 Microsoft。那是 2000 年互联网泡沫破裂之后，很多<span class=\"word-annot\"><span class=\"word-anchor\">公司</span><span class=\"word-block\"><span class=\"english-word\">company</span><span class=\"word-info\">[ˈkʌmpəni] n. 公司</span></span></span>冻结招聘，所以我能拿到 Microsoft offer 非常幸运。当时他们告诉我会去 Visual Studio <span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>，但我其实并不知道 Visual Studio 是什么。我来自一个偏 Unix 的学校，听到 Visual Studio 这个名字，我甚至以为它是不是一个更好的画图<span class=\"word-annot\"><span class=\"word-anchor\">软件</span><span class=\"word-block\"><span class=\"english-word\">software</span><span class=\"word-info\">[ˈsɒftweə] n. 软件</span></span></span>。我能<span class=\"word-annot\"><span class=\"word-anchor\">看</span><span class=\"word-block\"><span class=\"english-word\">watch</span><span class=\"word-info\">[wɒtʃ] v. 看</span></span></span>出经理当时脸上的表情是：“这是什么情况？”</p>"
+    },
+    {
+      "index": 14,
+      "source_text": "但后来，Visual Studio 成了我职业生涯前 11 年里最重要的部分。那是我第一次真正使用 IDE，第一次看到调试器、断点、多线程调试等能力。那种体验对我来说非常震撼。",
+      "html": "<p>但后来，Visual Studio 成了我职业生涯前 11 年里最<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>的部分。那是我第一次真正使用 IDE，第一次看到调试器、断点、多线程调试等<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>。那种体验对我来<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>非常震撼。</p>"
+    },
+    {
+      "index": 15,
+      "source_text": "我在 Visual Studio 编辑器团队工作，用 Visual Studio editor 来构建 Visual Studio editor，也正是从那里开始，我真正喜欢上了 dogfooding，也就是自己深度使用自己团队做的产品。我们希望先为自己和队友创造非常好的开发体验。那个年代还没有今天这样的社交媒体反馈机制，工程师很难快速听到客户反馈。虽然会有用户研究、客户拜访，但没有今天这种即时反馈。幸运的是，在 Visual Studio 团队里，我们自己就是重度用户，因此团队内部就能形成非常快的反馈循环。",
+      "html": "<p>我在 Visual Studio 编辑器团队工作，用 Visual Studio editor 来构建 Visual Studio editor，也正是从那里开始，我真正喜欢上了 dogfooding，也就是自己深度使用自己团队做的<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>。我们希望先为自己和队友<span class=\"word-annot\"><span class=\"word-anchor\">创造</span><span class=\"word-block\"><span class=\"english-word\">create</span><span class=\"word-info\">[kriˈeɪt] v. 创造</span></span></span>非常好的开发体验。那个年代还没有今天这样的社交媒体反馈机制，工程师很难快速听到<span class=\"word-annot\"><span class=\"word-anchor\">客户</span><span class=\"word-block\"><span class=\"english-word\">customer</span><span class=\"word-info\">[ˈkʌstəmə] n. 客户</span></span></span>反馈。虽然会有用户<span class=\"word-annot\"><span class=\"word-anchor\">研究</span><span class=\"word-block\"><span class=\"english-word\">study</span><span class=\"word-info\">[ˈstʌdi] n. 研究</span></span></span>、客户拜访，但没有今天这种即时反馈。幸运的是，在 Visual Studio 团队里，我们自己就是重度<span class=\"word-annot\"><span class=\"word-anchor\">用户</span><span class=\"word-block\"><span class=\"english-word\">user</span><span class=\"word-info\">[ˈjuːzə] n. 用户</span></span></span>，因此团队内部就能形成非常快的反馈循环。</p>"
+    },
+    {
+      "index": 16,
+      "source_text": "Lenny：大家现在讨论工程师角色变化时，常常只关注最近两年 AI 带来的冲击，但其实软件工程历史上也经历过很多重要变化。比如 Visual Studio 这类 IDE 的出现，本身就大幅改变了工程师的工作方式。你提醒了我们这些历史节点。",
+      "html": "<p>Lenny：大家现在讨论工程师角色变化时，常常只关注最近两年 AI 带来的冲击，但其实软件工程<span class=\"word-annot\"><span class=\"word-anchor\">历史</span><span class=\"word-block\"><span class=\"english-word\">history</span><span class=\"word-info\">[ˈhɪstri] n. 历史</span></span></span>上也经历过很多重要变化。比如 Visual Studio 这类 IDE 的出现，本身就大幅改变了工程师的<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>方式。你提醒了我们这些历史节<span class=\"word-annot\"><span class=\"word-anchor\">点</span><span class=\"word-block\"><span class=\"english-word\">point</span><span class=\"word-info\">[pɔɪnt] n. 点</span></span></span>。</p>"
+    },
+    {
+      "index": 17,
+      "source_text": "Fiona：是的。我在 Visual Studio 工作时，我们还会把软件刻在 CD 上发布。那时有非常硬的 deadline，因为软件必须准备好交给制造环节，再刻录到 CD，最后放到货架上销售。",
+      "html": "<p>Fiona：是的。我在 Visual Studio <span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">work</span><span class=\"word-info\">[wɜːk] n. 工作</span></span></span>时，我们还会把软件刻在 CD 上发布。那时有非常硬的 deadline，因为软件必须<span class=\"word-annot\"><span class=\"word-anchor\">准备</span><span class=\"word-block\"><span class=\"english-word\">prepare</span><span class=\"word-info\">[prɪˈpeə] v. 准备</span></span></span>好交给制造环节，再刻录到 CD，最后放到货架上销售。</p>"
+    },
+    {
+      "index": 18,
+      "source_text": "后来，软件可以在线发布，这又是一次变化。过去工程时间是非常稀缺的资源，同时又有印刷 CD 这样的硬截止日期，所以大家会做大量规划，确保在有限时间里尽量把事情做好。",
+      "html": "<p>后来，软件<span class=\"word-annot\"><span class=\"word-anchor\">可以</span><span class=\"word-block\"><span class=\"english-word\">can</span><span class=\"word-info\">[kæn] v. 可以</span></span></span>在线发布，这又是一次变化。过去工程时间是非常<span class=\"word-annot\"><span class=\"word-anchor\">稀缺</span><span class=\"word-block\"><span class=\"english-word\">scarce</span><span class=\"word-info\">[skeəs] adj. 稀缺的</span></span></span>的资源，同时又有印刷 CD 这样的硬截止日期，所以大家会做大量规划，确保在有限时间里尽量把事情做好。</p>"
+    },
+    {
+      "index": 19,
+      "source_text": "现在在 Claude Code 和 Cowork 上，我们看到的是另一种变化：Coding 不再是瓶颈。你刚才提到的那张图也说明了这一点。问题变成了：瓶颈转移到了哪里？现在不只是工程师在提交代码，Claude Code 团队里的设计师、PM，几乎所有人都在 check in code。提交代码的人更多，角色更混合，吞吐量也变得非常高。因此新的问题是：我们如何做 verification？如何确认这些高速生成和提交的东西是正确的、高质量的？",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">present</span><span class=\"word-info\">[ˈpreznt] n. 现在</span></span></span>在 Claude Code 和 Cowork 上，我们看到的是另一种变化：Coding 不再是瓶颈。你刚才提到的那张图也<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>明了这一点。<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>变成了：瓶颈转移到了哪里？现在不只是工程师在提交<span class=\"word-annot\"><span class=\"word-anchor\">代码</span><span class=\"word-block\"><span class=\"english-word\">code</span><span class=\"word-info\">[kəʊd] n. 代码</span></span></span>，Claude Code 团队里的设计师、PM，几乎所有人都在 check in code。提交代码的人更多，角色更混合，<span class=\"word-annot\"><span class=\"word-anchor\">吞吐量</span><span class=\"word-block\"><span class=\"english-word\">throughput</span><span class=\"word-info\">[ˈθruːpʊt] n. 吞吐量</span></span></span>也变得非常高。因此新的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">issue</span><span class=\"word-info\">[ˈɪʃuː] n. 问题</span></span></span>是：我们如何做 verification？如何确认这些高速生成和提交的东西是正确的、高<span class=\"word-annot\"><span class=\"word-anchor\">质量</span><span class=\"word-block\"><span class=\"english-word\">quality</span><span class=\"word-info\">[ˈkwɒləti] n. 质量</span></span></span>的？</p>"
+    },
+    {
+      "index": 20,
+      "source_text": "Lenny：这正是我想展开的主线。很多人都在想，未来的软件工程、工程管理、产品团队管理到底会是什么样子。你现在其实正在亲身经历这一切。你刚才提到一个更强的 Verification 需求，也就是说，当代码量增长 8 倍时，团队必须更关注质量和正确性。那我先问一个很大的问题：到 2026 年，一个真正 AI-pilled 的软件团队会是什么样？",
+      "html": "<p>Lenny：这正是我<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>展开的主线。很多人都在想，<span class=\"word-annot\"><span class=\"word-anchor\">未来</span><span class=\"word-block\"><span class=\"english-word\">future</span><span class=\"word-info\">[ˈfjuːtʃə] n. 未来</span></span></span>的软件工程、工程管理、产品团队管理到底会是什么样子。你<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">present</span><span class=\"word-info\">[ˈpreznt] n. 现在</span></span></span>其实正在亲身经历这一切。你刚才提到一个更强的 Verification <span class=\"word-annot\"><span class=\"word-anchor\">需求</span><span class=\"word-block\"><span class=\"english-word\">demand</span><span class=\"word-info\">[dɪˈmɑːnd] n. 需求</span></span></span>，也就是说，当代码量增长 8 倍时，团队必须更关注质量和正确性。那我先问一个很大的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">question</span><span class=\"word-info\">[ˈkwestʃən] n. 问题</span></span></span>：到 2026 年，一个真正 AI-pilled 的软件团队会是什么样？</p>"
+    },
+    {
+      "index": 21,
+      "source_text": "Fiona：角色边界正在变得模糊，越来越多人会成为 builder。我最近做的一个变化是，我有一个 Claude Code remote session，会把它接入我们所有 repo。这样我可以全面看到团队正在做什么。这个实例也能访问我们的 Slack 频道，以及我们追踪的各种指标。",
+      "html": "<p>Fiona：<span class=\"word-annot\"><span class=\"word-anchor\">角色</span><span class=\"word-block\"><span class=\"english-word\">role</span><span class=\"word-info\">[rəʊl] n. 角色</span></span></span>边界正在变得模糊，越来越多人会成为 builder。我最近做的一个<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">change</span><span class=\"word-info\">[tʃeɪndʒ] n. 变化</span></span></span>是，我有一个 Claude Code remote session，会把它接入我们所有 repo。这样我可以全<span class=\"word-annot\"><span class=\"word-anchor\">面</span><span class=\"word-block\"><span class=\"english-word\">surface</span><span class=\"word-info\">[ˈsɜːfɪs] n. 表面</span></span></span>看到团队正在做什么。这个实例也能访问我们的 Slack 频道，以及我们追踪的各种<span class=\"word-annot\"><span class=\"word-anchor\">指标</span><span class=\"word-block\"><span class=\"english-word\">metric</span><span class=\"word-info\">[ˈmetrɪk] n. 指标</span></span></span>。</p>"
+    },
+    {
+      "index": 22,
+      "source_text": "每个月，我会和团队一起回顾。我们会打开 Claude Code，一起看过去一个月的重点工作、哪些产品发布了、效果如何、反馈频道里出现了什么。以前我可能只是用这些 session 来生成 PR 或修 bug，但现在我也用它来帮助我和团队成员展开对话。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">每个</span><span class=\"word-block\"><span class=\"english-word\">each</span><span class=\"word-info\">[iːtʃ] adj. 每个</span></span></span>月，我会和团队一起回顾。我们会打开 Claude Code，一起看<span class=\"word-annot\"><span class=\"word-anchor\">过去</span><span class=\"word-block\"><span class=\"english-word\">past</span><span class=\"word-info\">[pɑːst] n. 过去</span></span></span>一个月的重点工作、哪些产品发布了、效果如何、反馈频道里出现了什么。以前我<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>只是用这些 session 来生成 PR 或修 bug，但现在我也用它来帮助我和团队成员展开对话。</p>"
+    },
+    {
+      "index": 23,
+      "source_text": "Lenny：也就是说，这已经变成了一种管理方法。它不是只帮助大家 ship，而是帮助你了解大家 ship 出来的东西有没有影响、质量怎么样。你会用 Claude 跟踪团队交付的内容，然后把这些信息变成和团队成员的讨论，对吗？",
+      "html": "<p>Lenny：也就是说，这已经变成了一种管理<span class=\"word-annot\"><span class=\"word-anchor\">方法</span><span class=\"word-block\"><span class=\"english-word\">methodology</span><span class=\"word-info\">[ˌmeθəˈdɒlədʒi] n. 方法论</span></span></span>。它不是只帮助大家 ship，而是帮助你了解大家 ship 出来的东西有没有<span class=\"word-annot\"><span class=\"word-anchor\">影响</span><span class=\"word-block\"><span class=\"english-word\">influence</span><span class=\"word-info\">[ˈɪnfluəns] v. 影响</span></span></span>、质量怎么样。你会用 Claude 跟踪团队交付的<span class=\"word-annot\"><span class=\"word-anchor\">内容</span><span class=\"word-block\"><span class=\"english-word\">content</span><span class=\"word-info\">[ˈkɒntent] n. 内容</span></span></span>，然后把这些信息变成和团队成员的讨论，对吗？</p>"
+    },
+    {
+      "index": 24,
+      "source_text": "Fiona：对。重点不只是“有没有发出去”，而是它上线后的表现如何。有没有引入 bug？如果出了问题也没关系，我常说：make new mistakes。犯错可以，但要犯新的错误，这样团队才是在学习。",
+      "html": "<p>Fiona：对。重点不只是“有没有发出<span class=\"word-annot\"><span class=\"word-anchor\">去</span><span class=\"word-block\"><span class=\"english-word\">go</span><span class=\"word-info\">[ɡəʊ] v. 去</span></span></span>”，而是它上线后的表现如何。有没有引入 bug？如果出了<span class=\"word-annot\"><span class=\"word-anchor\">问</span><span class=\"word-block\"><span class=\"english-word\">ask</span><span class=\"word-info\">[ɑːsk] v. 问</span></span></span>题也没关系，我常说：make new mistakes。犯错可以，但要犯新的错误，这样团队才是在<span class=\"word-annot\"><span class=\"word-anchor\">学习</span><span class=\"word-block\"><span class=\"english-word\">learning</span><span class=\"word-info\">[ˈlɜːnɪŋ] n. 学习</span></span></span>。</p>"
+    },
+    {
+      "index": 25,
+      "source_text": "如果你的目标是完全不犯错，那可能说明你移动得不够快，或者太谨慎了。",
+      "html": "<p>如果你的<span class=\"word-annot\"><span class=\"word-anchor\">目标</span><span class=\"word-block\"><span class=\"english-word\">objective</span><span class=\"word-info\">[əbˈdʒektɪv] n. 目标</span></span></span>是完全不犯错，那可能说明你移动得不够快，或者太谨慎了。</p>"
+    },
+    {
+      "index": 26,
+      "source_text": "通过 Claude，我们可以回看一些 incident，分析它们之间是否有共同主题。比如在质量方面，是否能看出某些热点区域，是否说明下一个投资方向应该放在这里。过去这会是一个非常手工的过程。回到一年前，我不认为自己能用 Claude 获得这些洞察。",
+      "html": "<p>通过 Claude，我们可以回看一些 incident，<span class=\"word-annot\"><span class=\"word-anchor\">分析</span><span class=\"word-block\"><span class=\"english-word\">analyze</span><span class=\"word-info\">[ˈænəlaɪz] v. 分析</span></span></span>它们之间是否有共同主题。比如在质量方面，是否能看出某些热点区域，是否说明下一个<span class=\"word-annot\"><span class=\"word-anchor\">投资</span><span class=\"word-block\"><span class=\"english-word\">investment</span><span class=\"word-info\">[ɪnˈvestmənt] n. 投资</span></span></span>方向应该放在这里。<span class=\"word-annot\"><span class=\"word-anchor\">过去</span><span class=\"word-block\"><span class=\"english-word\">past</span><span class=\"word-info\">[pɑːst] n. 过去</span></span></span>这会是一个非常手工的过程。回到一年前，我不认为自己能用 Claude 获得这些<span class=\"word-annot\"><span class=\"word-anchor\">洞察</span><span class=\"word-block\"><span class=\"english-word\">insight</span><span class=\"word-info\">[ˈɪnsaɪt] n. 洞察</span></span></span>。</p>"
+    },
+    {
+      "index": 27,
+      "source_text": "Lenny：一部分原因也是以前大家没有 ship 这么多东西。过去可能简单列一下：“这个季度我做了这些 feature。”但现在交付量太大了，你需要新的方式来掌握团队成员到底在做什么。这条线索很有意思。你们的代码交付量增长了 8 倍，而你找到了一些方法来跟上这种变化。除此之外，还有什么方法能帮助你和团队保持质量、跟上所有正在发布的东西？",
+      "html": "<p>Lenny：一部分<span class=\"word-annot\"><span class=\"word-anchor\">原因</span><span class=\"word-block\"><span class=\"english-word\">reason</span><span class=\"word-info\">[ˈriːzn] n. 原因</span></span></span>也是以前大家没有 ship 这么多东西。过去可能<span class=\"word-annot\"><span class=\"word-anchor\">简单</span><span class=\"word-block\"><span class=\"english-word\">simple</span><span class=\"word-info\">[ˈsɪmpl] adj. 简单的</span></span></span>列一下：“这个季度我做了这些 feature。”但现在交付量太大了，你<span class=\"word-annot\"><span class=\"word-anchor\">需要</span><span class=\"word-block\"><span class=\"english-word\">need</span><span class=\"word-info\">[niːd] v. 需要</span></span></span>新的方式来掌握团队成员到底在做什么。这条线索很有<span class=\"word-annot\"><span class=\"word-anchor\">意思</span><span class=\"word-block\"><span class=\"english-word\">meaning</span><span class=\"word-info\">[ˈmiːnɪŋ] n. 意思</span></span></span>。你们的代码交付量增长了 8 倍，而你<span class=\"word-annot\"><span class=\"word-anchor\">找</span><span class=\"word-block\"><span class=\"english-word\">find</span><span class=\"word-info\">[faɪnd] v. 找</span></span></span>到了一些方法来跟上这种变化。除此之外，还有什么方法能<span class=\"word-annot\"><span class=\"word-anchor\">帮助</span><span class=\"word-block\"><span class=\"english-word\">assist</span><span class=\"word-info\">[əˈsɪst] v. 帮助</span></span></span>你和团队保持质量、跟上所有正在发布的东西？</p>"
+    },
+    {
+      "index": 28,
+      "source_text": "Fiona：反馈渠道对我们非常重要。以前我的早晨习惯是：拿一杯咖啡，然后看各种反馈频道，从里面找一些我能帮忙处理的点。如果我有 maker time，就会看看有哪些问题我可以直接帮忙，或者哪里存在明显 gap。",
+      "html": "<p>Fiona：<span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈</span></span></span>渠道对我们非常重要。以前我的早晨习惯是：<span class=\"word-annot\"><span class=\"word-anchor\">拿</span><span class=\"word-block\"><span class=\"english-word\">take</span><span class=\"word-info\">[teɪk] v. 拿</span></span></span>一杯咖啡，然后看各种反馈频道，从里面找一些我能帮忙处理的点。如果我有 maker time，就会看看有哪些问题我可以直接帮忙，或者哪里存在<span class=\"word-annot\"><span class=\"word-anchor\">明显</span><span class=\"word-block\"><span class=\"english-word\">obvious</span><span class=\"word-info\">[ˈɒbviəs] adj. 明显的</span></span></span> gap。</p>"
+    },
+    {
+      "index": 29,
+      "source_text": "大概一两个月前，我们推出了 routines，这彻底改变了我的工作方式。现在我会设置一个 routine，把这些事情自动化。以前我可能自己写 prompt，现在有了 routines，就像有一个 agent 帮我生成 prompt，甚至生成 PR。",
+      "html": "<p>大概一两个月前，我们推出了 routines，这彻底改变了我的<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>方式。现在我会设置一个 routine，把这些事情<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automate</span><span class=\"word-info\">[ˈɔːtəmeɪt] v. 自动化</span></span></span>。以前我可能自己<span class=\"word-annot\"><span class=\"word-anchor\">写</span><span class=\"word-block\"><span class=\"english-word\">write</span><span class=\"word-info\">[raɪt] v. 写</span></span></span> prompt，现在有了 routines，就像有一个 agent 帮我生成 prompt，甚至生成 PR。</p>"
+    },
+    {
+      "index": 30,
+      "source_text": "比如我会让它持续关注某个反馈频道，总结里面出现的主题。等我早上醒来，就能看到很好的摘要，甚至还有一些 PR 可以让我 review。",
+      "html": "<p>比如我会让它持续关注某个反馈频道，<span class=\"word-annot\"><span class=\"word-anchor\">总结</span><span class=\"word-block\"><span class=\"english-word\">summary</span><span class=\"word-info\">[ˈsʌməri] n. 总结</span></span></span>里面出现的主题。等我早上醒来，就能看到很好的<span class=\"word-annot\"><span class=\"word-anchor\">摘要</span><span class=\"word-block\"><span class=\"english-word\">abstract</span><span class=\"word-info\">[ˈæbstrækt] n. 摘要</span></span></span>，甚至还有一些 PR 可以让我 review。</p>"
+    },
+    {
+      "index": 31,
+      "source_text": "Lenny：这些反馈频道具体来自哪里？是邮件、Twitter，还是各种渠道的组合？",
+      "html": "<p>Lenny：这些<span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈</span></span></span>频道具体来自哪里？是<span class=\"word-annot\"><span class=\"word-anchor\">邮件</span><span class=\"word-block\"><span class=\"english-word\">email</span><span class=\"word-info\">[ˈiːmeɪl] n. 邮件</span></span></span>、Twitter，还是各种渠道的组合？</p>"
+    },
+    {
+      "index": 32,
+      "source_text": "Fiona：来源很多。包括内部 Anthropic 员工的反馈，也包括邮件渠道。我们每个人如果从朋友、LinkedIn 或社交平台上收到反馈，也都会发到 Slack 里。我们还有来自合作伙伴等不同渠道的反馈。因此信息量非常大，我需要 Claude 帮我跟上这些反馈。",
+      "html": "<p>Fiona：<span class=\"word-annot\"><span class=\"word-anchor\">来源</span><span class=\"word-block\"><span class=\"english-word\">source</span><span class=\"word-info\">[sɔːs] n. 来源</span></span></span>很多。包括内部 Anthropic 员工的<span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈</span></span></span>，也包括邮件渠道。我们每<span class=\"word-annot\"><span class=\"word-anchor\">个人</span><span class=\"word-block\"><span class=\"english-word\">personal</span><span class=\"word-info\">[ˈpɜːsənl] adj. 个人的</span></span></span>如果从朋友、LinkedIn 或社交平台上收到反馈，也都会发到 Slack 里。我们还有来自<span class=\"word-annot\"><span class=\"word-anchor\">合作伙伴</span><span class=\"word-block\"><span class=\"english-word\">partner</span><span class=\"word-info\">[ˈpɑːtnə] n. 合作伙伴</span></span></span>等不同渠道的反馈。因此<span class=\"word-annot\"><span class=\"word-anchor\">信息</span><span class=\"word-block\"><span class=\"english-word\">information</span><span class=\"word-info\">[ˌɪnfəˈmeɪʃn] n. 信息</span></span></span>量非常大，我需要 Claude 帮我跟上这些反馈。</p>"
+    },
+    {
+      "index": 33,
+      "source_text": "Lenny：明白了。所以这是你建立的一种新工作方式。作为管理者，你每天会看大家对 Claude Code 和 Cowork 当前状态的反馈。过去可能是看到问题后让某个人去修，现在变成 Claude 已经生成了一个 PR，告诉你它可以解决这个问题，你 review 后就可以决定是否合并。我们继续这个问题聊，显然，代码审查也是一个大问题。我想 Claude 现在也在做大量代码审查。你们最近有没有发现什么方法，可以让团队更快地交付，同时仍然相信交付出来的东西质量很好？",
+      "html": "<p>Lenny：明白了。所以这是你<span class=\"word-annot\"><span class=\"word-anchor\">建立</span><span class=\"word-block\"><span class=\"english-word\">build</span><span class=\"word-info\">[bɪld] v. 建立</span></span></span>的一种新工作方式。作为管理者，你每天会看大家对 Claude Code 和 Cowork 当前<span class=\"word-annot\"><span class=\"word-anchor\">状态</span><span class=\"word-block\"><span class=\"english-word\">status</span><span class=\"word-info\">[ˈsteɪtəs] n. 状态</span></span></span>的反馈。过去可能是看到问题后让某个人去修，现在变成 Claude 已经生成了一个 PR，告诉你它可以解决这个问题，你 review 后就可以决定是否<span class=\"word-annot\"><span class=\"word-anchor\">合并</span><span class=\"word-block\"><span class=\"english-word\">merge</span><span class=\"word-info\">[mɜːdʒ] v. 合并</span></span></span>。我们<span class=\"word-annot\"><span class=\"word-anchor\">继续</span><span class=\"word-block\"><span class=\"english-word\">continue</span><span class=\"word-info\">[kənˈtɪnjuː] v. 继续</span></span></span>这个问题聊，显然，代码审查也是一个大问题。我想 Claude 现在也在做大量<span class=\"word-annot\"><span class=\"word-anchor\">代码</span><span class=\"word-block\"><span class=\"english-word\">code</span><span class=\"word-info\">[kəʊd] n. 代码</span></span></span>审查。你们最近有没有<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discover</span><span class=\"word-info\">[dɪˈskʌvə] v. 发现</span></span></span>什么方法，可以让团队更快地交付，同时仍然相信交付出来的东西质量很好？</p>"
+    },
+    {
+      "index": 34,
+      "source_text": "Fiona：这件事变化非常大。想想看，去年我们甚至还没有 Claude Code reviews。之前人类 reviewer 是一个很大的瓶颈。",
+      "html": "<p>Fiona：这件事<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">change</span><span class=\"word-info\">[tʃeɪndʒ] n. 变化</span></span></span>非常大。<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>想看，去年我们甚至还没有 Claude Code reviews。之前<span class=\"word-annot\"><span class=\"word-anchor\">人类</span><span class=\"word-block\"><span class=\"english-word\">human</span><span class=\"word-info\">[ˈhjuːmən] n. 人类</span></span></span> reviewer 是一个很大的瓶颈。</p>"
+    },
+    {
+      "index": 35,
+      "source_text": "当然，对于需要深度专业知识的重要区域，我们仍然需要合适的人类来 review。但能帮上忙的是，我们可以尽量把“什么是好的”自动化、框架化。Claude 在你给它明确框架后，非常擅长按照这些框架做验证。",
+      "html": "<p>当然，对于需要深度<span class=\"word-annot\"><span class=\"word-anchor\">专业知识</span><span class=\"word-block\"><span class=\"english-word\">expertise</span><span class=\"word-info\">[ˌekspɜːˈtiːz] n. 专业知识</span></span></span>的重要区域，我们仍然需要合适的人类来 review。但能帮上忙的是，我们可以尽量把“什么是好的”<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automation</span><span class=\"word-info\">[ˌɔːtəˈmeɪʃn] n. 自动化</span></span></span>、框架化。Claude 在你给它明确框架后，非常擅长按照这些框架做<span class=\"word-annot\"><span class=\"word-anchor\">验证</span><span class=\"word-block\"><span class=\"english-word\">verify</span><span class=\"word-info\">[ˈverɪfaɪ] v. 验证</span></span></span>。</p>"
+    },
+    {
+      "index": 36,
+      "source_text": "举个例子，我们最近把 content design 做成一个 skill。我的建议是，如果你有 spec 或某种“什么是好的”的定义，就把它放进 repo，并且确保 spec 能跟代码一起保持更新。只要你有一个关于 good looks like 的清晰描述，就应该把它纳入 repo。这样 Claude Code review 就能检查代码是否仍然符合这些标准。",
+      "html": "<p>举个<span class=\"word-annot\"><span class=\"word-anchor\">例子</span><span class=\"word-block\"><span class=\"english-word\">example</span><span class=\"word-info\">[ɪɡˈzɑːmpl] n. 例子</span></span></span>，我们最近把 content design 做成一个 skill。我的建议是，如果你有 spec 或某种“什么是好的”的<span class=\"word-annot\"><span class=\"word-anchor\">定义</span><span class=\"word-block\"><span class=\"english-word\">define</span><span class=\"word-info\">[dɪˈfaɪn] v. 定义</span></span></span>，就把它放进 repo，并且确保 spec 能跟代码一起保持更新。只要你有一个关于 good looks like 的清晰<span class=\"word-annot\"><span class=\"word-anchor\">描述</span><span class=\"word-block\"><span class=\"english-word\">describe</span><span class=\"word-info\">[dɪˈskraɪb] v. 描述</span></span></span>，就应该把它纳入 repo。这样 Claude Code review 就能检查代码是否仍然符合这些<span class=\"word-annot\"><span class=\"word-anchor\">标准</span><span class=\"word-block\"><span class=\"english-word\">standard</span><span class=\"word-info\">[ˈstændəd] n. 标准</span></span></span>。</p>"
+    },
+    {
+      "index": 37,
+      "source_text": "Lenny：这基本上像是测试驱动开发的一种演进。对吗？",
+      "html": "<p>Lenny：这基本上像是<span class=\"word-annot\"><span class=\"word-anchor\">测试</span><span class=\"word-block\"><span class=\"english-word\">testing</span><span class=\"word-info\">[ˈtestɪŋ] n. 测试</span></span></span>驱动开发的一种演进。对吗？</p>"
+    },
+    {
+      "index": 38,
+      "source_text": "Fiona：是的。TDD 在 2000 年代曾经非常流行：先写测试，让测试失败，再写代码让它通过。原则上很好。但我自己当时也会觉得有点挣扎，因为这就像必须先吃西兰花：你得先写测试，但我真正兴奋的是 shipping 和构建产品。",
+      "html": "<p>Fiona：是的。TDD 在 2000 年代曾经非常流行：先写测试，让测试<span class=\"word-annot\"><span class=\"word-anchor\">失败</span><span class=\"word-block\"><span class=\"english-word\">failure</span><span class=\"word-info\">[ˈfeɪljə] n. 失败</span></span></span>，再写代码让它通过。<span class=\"word-annot\"><span class=\"word-anchor\">原则</span><span class=\"word-block\"><span class=\"english-word\">principle</span><span class=\"word-info\">[ˈprɪnsəpl] n. 原则</span></span></span>上很好。但我自己当时也会觉得有点挣扎，因为这就像必须先吃西兰花：你得先写<span class=\"word-annot\"><span class=\"word-anchor\">测试</span><span class=\"word-block\"><span class=\"english-word\">test</span><span class=\"word-info\">[test] n. 测试</span></span></span>，但我真正兴奋的是 shipping 和构建产品。</p>"
+    },
+    {
+      "index": 39,
+      "source_text": "我在 Claude Code 上修的第一个 bug，就让 Claude 帮我做 TDD。我对它说：帮我先写测试，确保测试失败，然后我们再修复，最后让测试通过。过去测试生成像是一种必须支付的成本，现在它可以被自动化。很多老原则现在可以重新发挥价值，因为模型能帮你完成更多执行工作。",
+      "html": "<p>我在 Claude Code 上修的第一个 bug，就让 Claude 帮我<span class=\"word-annot\"><span class=\"word-anchor\">做</span><span class=\"word-block\"><span class=\"english-word\">do</span><span class=\"word-info\">[duː] v. 做</span></span></span> TDD。我对它说：帮我先写测试，确保测试失败，然后我们再<span class=\"word-annot\"><span class=\"word-anchor\">修复</span><span class=\"word-block\"><span class=\"english-word\">repair</span><span class=\"word-info\">[rɪˈpeə] v. 修复</span></span></span>，最后让测试通过。过去测试生成像是一种必须支付的<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">cost</span><span class=\"word-info\">[kɒst] n. 成本</span></span></span>，现在它可以被自动化。很多老原则现在可以重新发挥<span class=\"word-annot\"><span class=\"word-anchor\">价值</span><span class=\"word-block\"><span class=\"english-word\">value</span><span class=\"word-info\">[ˈvæljuː] n. 价值</span></span></span>，因为模型能帮你完成更多执行工作。</p>"
+    },
+    {
+      "index": 40,
+      "source_text": "Lenny：这太不公平了，它甚至可以先替你写测试。",
+      "html": "<p>Lenny：这太不公平了，它甚至可以先替你写<span class=\"word-annot\"><span class=\"word-anchor\">测试</span><span class=\"word-block\"><span class=\"english-word\">testing</span><span class=\"word-info\">[ˈtestɪŋ] n. 测试</span></span></span>。</p>"
+    },
+    {
+      "index": 41,
+      "source_text": "Lenny：说到 builder，你演讲里有一页我特别喜欢，是关于你现在招聘时看重什么人。你提到两类画像：一类是有产品感的 creative builders，另一类是能解决 hard parts 的 deep systems experts。你能展开讲讲吗？",
+      "html": "<p>Lenny：说到 builder，你演讲里有一页我特别<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">enjoy</span><span class=\"word-info\">[ɪnˈdʒɔɪ] v. 享受</span></span></span>，是关于你现在招聘时看重什么人。你提到两类画像：一类是有<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>感的 creative builders，另一类是能解决 hard parts 的 deep systems experts。你能展开讲讲吗？</p>"
+    },
+    {
+      "index": 42,
+      "source_text": "Fiona：是的，深度专业知识仍然非常重要。比如我刚加入 Claude Code 时，团队里有很强的 product generalist，但我意识到我们缺少系统背景的人。因此，系统和分布式系统专家就是我们需要补强的方向。",
+      "html": "<p>Fiona：是的，深度专业<span class=\"word-annot\"><span class=\"word-anchor\">知识</span><span class=\"word-block\"><span class=\"english-word\">knowledge</span><span class=\"word-info\">[ˈnɒlɪdʒ] n. 知识</span></span></span>仍然非常重要。比如我刚加入 Claude Code 时，团队里有很强的 product generalist，但我<span class=\"word-annot\"><span class=\"word-anchor\">意识</span><span class=\"word-block\"><span class=\"english-word\">awareness</span><span class=\"word-info\">[əˈweənəs] n. 意识</span></span></span>到我们缺少系统背景的人。因此，系统和<span class=\"word-annot\"><span class=\"word-anchor\">分布</span><span class=\"word-block\"><span class=\"english-word\">distribution</span><span class=\"word-info\">[ˌdɪstrɪˈbjuːʃn] n. 分布</span></span></span>式系统专家就是我们需要补强的方向。</p>"
+    },
+    {
+      "index": 43,
+      "source_text": "这仍然是 trust but verify。模型已经很强，但很多地方仍然需要验证。所以，只要某个领域需要深度专业能力，这类人才仍然值得投入。",
+      "html": "<p>这仍然是 trust but verify。<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>已经很强，但很多地方仍然需要验证。所以，只要某个<span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[dəˈmeɪn] n. 领域</span></span></span>需要深度专业能力，这类人才仍然值得投入。</p>"
+    },
+    {
+      "index": 44,
+      "source_text": "另一类人是有产品感的人，或者说 dreamers。他们通常会非常热爱一个产品，有自己的想法，能把它做出来，然后持续看反馈、迭代、打磨，确保产品体验是令人愉悦的。他们会端到端拥有一个产品体验。这种能力在 Claude Code 团队里非常有用。",
+      "html": "<p>另一类人是有<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>感的人，或者说 dreamers。他们通常会非常热爱一个产品，有自己的想法，能把它做出来，然后持续看反馈、<span class=\"word-annot\"><span class=\"word-anchor\">迭代</span><span class=\"word-block\"><span class=\"english-word\">iteration</span><span class=\"word-info\">[ˌɪtəˈreɪʃn] n. 迭代</span></span></span>、打磨，确保产品体验是令人愉悦的。他们会端到端拥有一个<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>体验。这种<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>在 Claude Code 团队里非常有用。</p>"
+    },
+    {
+      "index": 45,
+      "source_text": "Lenny：你刚才讲的让我想到一个词：ambition。最近这个词在节目里和我其他工作中反复出现。我前几天和一个很强的工程师聊天。他说，过去如果有人提出一个功能，他第一反应可能是“不行，这太难了，太复杂了”。但现在他的反应变了：这完全可能，我可以让 Claude Code 去做。于是整个心态发生了变化。现在关键不再是“这件事是不是太难”，而是“你能想得多大、多有野心”。理论上很多事情都能做了，限制变成了你的想象力和野心。这和你的观察一致吗？",
+      "html": "<p>Lenny：你刚才讲的让我<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>到一个词：ambition。最近这个词在节目里和我其他工作中反复<span class=\"word-annot\"><span class=\"word-anchor\">出现</span><span class=\"word-block\"><span class=\"english-word\">appear</span><span class=\"word-info\">[əˈpɪə] v. 出现</span></span></span>。我前几天和一个很强的<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师聊天。他说，过去如果有人提出一个功能，他第一反应可能是“不行，这太难了，太<span class=\"word-annot\"><span class=\"word-anchor\">复杂</span><span class=\"word-block\"><span class=\"english-word\">complex</span><span class=\"word-info\">[ˈkɒmpleks] adj. 复杂的</span></span></span>了”。但<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">present</span><span class=\"word-info\">[ˈpreznt] n. 现在</span></span></span>他的反应变了：这完全可能，我可以让 Claude Code 去做。于是<span class=\"word-annot\"><span class=\"word-anchor\">整个</span><span class=\"word-block\"><span class=\"english-word\">whole</span><span class=\"word-info\">[həʊl] adj. 整个的</span></span></span>心态发生了变化。现在<span class=\"word-annot\"><span class=\"word-anchor\">关键</span><span class=\"word-block\"><span class=\"english-word\">key</span><span class=\"word-info\">[kiː] n. 关键</span></span></span>不再是“这件事是不是太难”，而是“你能想得多大、多有野心”。理论上很多事情都能做了，<span class=\"word-annot\"><span class=\"word-anchor\">限制</span><span class=\"word-block\"><span class=\"english-word\">restrict</span><span class=\"word-info\">[rɪˈstrɪkt] v. 限制</span></span></span>变成了你的想象力和野心。这和你的<span class=\"word-annot\"><span class=\"word-anchor\">观察</span><span class=\"word-block\"><span class=\"english-word\">observe</span><span class=\"word-info\">[əbˈzɜːv] v. 观察</span></span></span>一致吗？</p>"
+    },
+    {
+      "index": 46,
+      "source_text": "Fiona：非常一致。我昨天刚和一位工程师聊过。他本来不是移动端工程师，但我们需要把一个功能扩展到移动端。以前他可能会觉得：我不是 Android 专家，做不了这个。但现在有了 Claude，他可以有一个 partner，帮助他在移动端 surface 上推进这件事。所以这确实抬高了每个人能做事情的上限。",
+      "html": "<p>Fiona：非常一致。我昨天刚和一位<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师聊过。他本来不是移动端<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师，但我们需要把一个功能扩展到移动端。以前他<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>会觉得：我不是 Android 专家，做不了这个。但现在有了 Claude，他可以有一个 partner，<span class=\"word-annot\"><span class=\"word-anchor\">帮助</span><span class=\"word-block\"><span class=\"english-word\">help</span><span class=\"word-info\">[help] v. 帮助</span></span></span>他在移动端 surface 上推进这件事。所以这确实抬<span class=\"word-annot\"><span class=\"word-anchor\">高</span><span class=\"word-block\"><span class=\"english-word\">high</span><span class=\"word-info\">[haɪ] adj. 高的</span></span></span>了每个人能做事情的上限。</p>"
+    },
+    {
+      "index": 47,
+      "source_text": "Lenny：有些人在 AI 时代适应得很好，有些人则非常沮丧、不开心，甚至抵触、抗拒。你看到那些适应得很好、正在感到害怕的工程师，和那些很痛苦的人之间，有什么共同差异？不只是工程师，其他角色也一样。",
+      "html": "<p>Lenny：有些人在 AI 时代<span class=\"word-annot\"><span class=\"word-anchor\">适应</span><span class=\"word-block\"><span class=\"english-word\">adapt</span><span class=\"word-info\">[əˈdæpt] v. 适应</span></span></span>得很好，有些人则非常沮丧、不开心，甚至抵触、抗拒。你看到那些适应得很好、正在感到害怕的工程师，和那些很痛苦的人之间，有什么共同<span class=\"word-annot\"><span class=\"word-anchor\">差异</span><span class=\"word-block\"><span class=\"english-word\">difference</span><span class=\"word-info\">[ˈdɪfrəns] n. 差异</span></span></span>？不只是<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师，其他角色也一样。</p>"
+    },
+    {
+      "index": 48,
+      "source_text": "Fiona：我觉得 growth mindset 非常重要。其实在 AI 工具出现之前，我就已经觉得这种心态很有价值。真正让我理解 growth mindset 的，是我从 Microsoft 转到 Meta 的第一年。",
+      "html": "<p>Fiona：我觉得 growth mindset 非常<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>。其实在 AI <span class=\"word-annot\"><span class=\"word-anchor\">工具</span><span class=\"word-block\"><span class=\"english-word\">tool</span><span class=\"word-info\">[tuːl] n. 工具</span></span></span>出现之前，我就已经觉得这种心态很有价值。真正让我<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">understand</span><span class=\"word-info\">[ˌʌndəˈstænd] v. 理解</span></span></span> growth mindset 的，是我从 Microsoft 转到 Meta 的第一年。</p>"
+    },
+    {
+      "index": 49,
+      "source_text": "所谓 growth mindset，就是你要一直学习，也要意识到：过去帮助你走到今天的方式，未必还能继续帮助你走到下一阶段。这个过程很难，因为每个人都是靠某种工作方式获得过去的成功。当别人告诉你“你需要改变”时，你会自然地想：可是我过去就是靠这套方式成功的，为什么现在要改？但我觉得，growth mindset 对我帮助非常大。我也看到，适应 AI 比较好的人，通常都更愿意带着好奇心进入新变化，愿意持续学习。",
+      "html": "<p>所谓 growth mindset，就是你要一直学习，也要意识到：过去帮助你走到今天的方式，未必还能继续帮助你走到下一<span class=\"word-annot\"><span class=\"word-anchor\">阶段</span><span class=\"word-block\"><span class=\"english-word\">phase</span><span class=\"word-info\">[feɪz] n. 阶段</span></span></span>。这个过程很难，因为每个人都是靠某种工作方式获得过去的<span class=\"word-annot\"><span class=\"word-anchor\">成功</span><span class=\"word-block\"><span class=\"english-word\">success</span><span class=\"word-info\">[səkˈses] n. 成功</span></span></span>。当别人<span class=\"word-annot\"><span class=\"word-anchor\">告诉</span><span class=\"word-block\"><span class=\"english-word\">tell</span><span class=\"word-info\">[tel] v. 告诉</span></span></span>你“你需要改变”时，你会自然地想：可是我过去就是靠这套方式成功的，为什么现在要改？但我觉得，growth mindset 对我<span class=\"word-annot\"><span class=\"word-anchor\">帮助</span><span class=\"word-block\"><span class=\"english-word\">assist</span><span class=\"word-info\">[əˈsɪst] v. 帮助</span></span></span>非常大。我也看到，适应 AI 比较好的人，通常都更愿意带着<span class=\"word-annot\"><span class=\"word-anchor\">好奇</span><span class=\"word-block\"><span class=\"english-word\">curious</span><span class=\"word-info\">[ˈkjʊəriəs] adj. 好奇的</span></span></span>心进入新变化，愿意持续学习。</p>"
+    },
+    {
+      "index": 50,
+      "source_text": "至于挫败感，我有时也会看到背后其实有恐惧。恐惧本身是很自然的，人类进化过程中需要恐惧来保护自己。但如果你对某件事感到害怕，我的建议是：lean in，靠近它，然后问自己，我能做什么？什么是在我控制范围内的？很多沮丧来自一种感觉：所有变化都发生在我身上，而我无能为力。如果你能换一个角度想，不是“这件事发生在我身上”，而是“这件事是否也可能是为我而发生”，然后找出一件你可以采取的行动，情况会好很多。",
+      "html": "<p>至于挫败感，我有时也会看到背后其实有<span class=\"word-annot\"><span class=\"word-anchor\">恐惧</span><span class=\"word-block\"><span class=\"english-word\">fear</span><span class=\"word-info\">[fɪə] n. 恐惧</span></span></span>。<span class=\"word-annot\"><span class=\"word-anchor\">恐惧</span><span class=\"word-block\"><span class=\"english-word\">fear</span><span class=\"word-info\">[fɪə] n. 恐惧</span></span></span>本身是很自然的，人类进化过程中需要恐惧来保护自己。但如果你对某件事感到害怕，我的<span class=\"word-annot\"><span class=\"word-anchor\">建议</span><span class=\"word-block\"><span class=\"english-word\">suggestion</span><span class=\"word-info\">[səˈdʒestʃən] n. 建议</span></span></span>是：lean in，靠近它，然后问自己，我能做什么？什么是在我控制<span class=\"word-annot\"><span class=\"word-anchor\">范围</span><span class=\"word-block\"><span class=\"english-word\">scope</span><span class=\"word-info\">[skəʊp] n. 范围</span></span></span>内的？很多沮丧来自一种<span class=\"word-annot\"><span class=\"word-anchor\">感觉</span><span class=\"word-block\"><span class=\"english-word\">feeling</span><span class=\"word-info\">[ˈfiːlɪŋ] n. 感觉</span></span></span>：所有变化都发生在我身上，而我无能为力。如果你能换一个角度想，不是“这件事发生在我身上”，而是“这件事是否也<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>是为我而发生”，然后找出一件你可以采取的行动，情况会好很多。</p>"
+    },
+    {
+      "index": 51,
+      "source_text": "我小时候原本并不是想学计算机或工程，而是想做视觉艺术家。我第一次接触电脑是在高中九年级，那时候电脑很贵，学校甚至有专门的打字课，教学生怎么熟练使用键盘。后来我接触 HTML 编程，发现计算机和编程也能像艺术一样，把一个想法创造出来、表达出来、讲成一个故事，于是开始喜欢上编程。",
+      "html": "<p>我小时候原本并不是想学<span class=\"word-annot\"><span class=\"word-anchor\">计算</span><span class=\"word-block\"><span class=\"english-word\">compute</span><span class=\"word-info\">[kəmˈpjuːt] n. 计算</span></span></span>机或工程，而是想做视觉艺术家。我第一次接触<span class=\"word-annot\"><span class=\"word-anchor\">电脑</span><span class=\"word-block\"><span class=\"english-word\">computer</span><span class=\"word-info\">[kəmˈpjuːtə] n. 电脑</span></span></span>是在高中九年级，那时候电脑很贵，学校甚至有专门的打字课，教学生怎么熟练使用键盘。后来我接触 HTML 编程，发现计算机和编程也能像艺术一样，把一个想法创造出来、<span class=\"word-annot\"><span class=\"word-anchor\">表达</span><span class=\"word-block\"><span class=\"english-word\">express</span><span class=\"word-info\">[ɪkˈspres] v. 表达</span></span></span>出来、讲成一个故事，于是开始喜欢上编程。</p>"
+    },
+    {
+      "index": 52,
+      "source_text": "但我当时也有很大的恐惧：如果真的走工程这条路，自己能不能负担大学学费？我在加拿大安大略长大，知道有学生资助项目，但不知道能覆盖多少费用。后来我看到加拿大国家银行在高中贴招聘传单，招高中生暑期实习做银行柜员。虽然我最讨厌的高中课程就是会计，也不知道自己能不能做好，但还是报名了。",
+      "html": "<p>但我当时也有很大的恐惧：如果真的走工程这条路，自己能不能负担<span class=\"word-annot\"><span class=\"word-anchor\">大学</span><span class=\"word-block\"><span class=\"english-word\">college</span><span class=\"word-info\">[ˈkɒlɪdʒ] n. 大学</span></span></span>学费？我在加拿大安大略长大，知道有学生资助<span class=\"word-annot\"><span class=\"word-anchor\">项目</span><span class=\"word-block\"><span class=\"english-word\">project</span><span class=\"word-info\">[ˈprɒdʒekt] n. 项目</span></span></span>，但不知道能覆盖多少费用。后来我看到加拿大<span class=\"word-annot\"><span class=\"word-anchor\">国家</span><span class=\"word-block\"><span class=\"english-word\">country</span><span class=\"word-info\">[ˈkʌntri] n. 国家</span></span></span>银行在高中贴招聘传单，招高中生暑期实习做银行柜员。虽然我最讨厌的高中课程就是会计，也不<span class=\"word-annot\"><span class=\"word-anchor\">知道</span><span class=\"word-block\"><span class=\"english-word\">know</span><span class=\"word-info\">[nəʊ] v. 知道</span></span></span>自己能不能做好，但还是报名了。</p>"
+    },
+    {
+      "index": 53,
+      "source_text": "这份工作后来成了我的“生命线”。我暑假工作攒钱，后来周末也继续做银行柜员，靠这份收入支付学校开销。尤其在 2000 年互联网泡沫破裂后，很多公司不招实习生，我还继续做了两年银行柜员。这就是我当时能采取的一个、在自己控制范围内的行动，用来对抗“我可能负担不起上学”的恐惧。",
+      "html": "<p>这份工作后来成了我的“生命<span class=\"word-annot\"><span class=\"word-anchor\">线</span><span class=\"word-block\"><span class=\"english-word\">line</span><span class=\"word-info\">[laɪn] n. 线</span></span></span>”。我暑假工作攒钱，后来周末也继续做银行柜员，靠这份<span class=\"word-annot\"><span class=\"word-anchor\">收入</span><span class=\"word-block\"><span class=\"english-word\">income</span><span class=\"word-info\">[ˈɪnkʌm] n. 收入</span></span></span>支付学校开销。尤其在 2000 年互联网泡沫破裂后，很多<span class=\"word-annot\"><span class=\"word-anchor\">公司</span><span class=\"word-block\"><span class=\"english-word\">company</span><span class=\"word-info\">[ˈkʌmpəni] n. 公司</span></span></span>不招实习生，我还继续做了两年银行柜员。这就是我当时能采取的一个、在自己控制<span class=\"word-annot\"><span class=\"word-anchor\">范围</span><span class=\"word-block\"><span class=\"english-word\">scope</span><span class=\"word-info\">[skəʊp] n. 范围</span></span></span>内的行动，用来对抗“我可能负担不起上学”的恐惧。</p>"
+    },
+    {
+      "index": 54,
+      "source_text": "所以我给出的建议是：面对焦虑和恐惧时，先问有没有一个你能控制的行动。我过去很喜欢两句话：如果你不害怕，你会做什么？以及偶尔做一些让你害怕的事。因为当你已经非常擅长某件事时，往往已经处在熟练度高点。继续成长的方法，就是去做一些以前没做过、让你有点害怕的事情。这个过程一定会有能力下滑期，因为你需要重新学习，但这也是成长的方式。",
+      "html": "<p>所以我给出的建议是：面对<span class=\"word-annot\"><span class=\"word-anchor\">焦虑</span><span class=\"word-block\"><span class=\"english-word\">anxiety</span><span class=\"word-info\">[æŋˈzaɪəti] n. 焦虑</span></span></span>和恐惧时，先问有没有一个你能控制的行动。我过去很喜欢两句话：如果你不<span class=\"word-annot\"><span class=\"word-anchor\">害怕</span><span class=\"word-block\"><span class=\"english-word\">scared</span><span class=\"word-info\">[skeəd] adj. 害怕的</span></span></span>，你会做什么？以及偶尔做一些让你<span class=\"word-annot\"><span class=\"word-anchor\">害怕</span><span class=\"word-block\"><span class=\"english-word\">scared</span><span class=\"word-info\">[skeəd] adj. 害怕的</span></span></span>的事。因为当你已经非常擅长某件事时，往往已经处在熟练度<span class=\"word-annot\"><span class=\"word-anchor\">高</span><span class=\"word-block\"><span class=\"english-word\">high</span><span class=\"word-info\">[haɪ] adj. 高的</span></span></span>点。继续<span class=\"word-annot\"><span class=\"word-anchor\">成长</span><span class=\"word-block\"><span class=\"english-word\">growth</span><span class=\"word-info\">[ɡrəʊθ] n. 成长</span></span></span>的方法，就是去做一些以前没做过、让你有点害怕的事情。这个过程一定会有<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>下滑期，因为你需要重新学习，但这也是成长的方式。</p>"
+    },
+    {
+      "index": 55,
+      "source_text": "Lenny：我在节目里引用最多的一句话可能是：你害怕进入的洞穴里，藏着你寻找的宝藏。",
+      "html": "<p>Lenny：我在节目里引用最多的一句话可能是：你害怕<span class=\"word-annot\"><span class=\"word-anchor\">进入</span><span class=\"word-block\"><span class=\"english-word\">enter</span><span class=\"word-info\">[ˈentə] v. 进入</span></span></span>的洞穴里，藏着你寻找的宝藏。</p>"
+    },
+    {
+      "index": 56,
+      "source_text": "Fiona：我很喜欢这句话。",
+      "html": "<p>Fiona：我很<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">like</span><span class=\"word-info\">[laɪk] v. 喜欢</span></span></span>这句话。</p>"
+    },
+    {
+      "index": 57,
+      "source_text": "Lenny：这句话确实很真实。很多时候，最让你害怕的事情，反而像一个职业指南针，指向你最应该去做的方向。当然，不是所有可怕的事情都要做，比如不要去跳悬崖。但在职业选择上，这通常是一个不错的信号。",
+      "html": "<p>Lenny：这句话确实很<span class=\"word-annot\"><span class=\"word-anchor\">真实</span><span class=\"word-block\"><span class=\"english-word\">truth</span><span class=\"word-info\">[truːθ] n. 真实</span></span></span>。很多时候，最让你害怕的事情，反而像一个职业指南针，指向你最应该去做的<span class=\"word-annot\"><span class=\"word-anchor\">方向</span><span class=\"word-block\"><span class=\"english-word\">direction</span><span class=\"word-info\">[daɪˈrekʃn] n. 方向</span></span></span>。当然，不是所有<span class=\"word-annot\"><span class=\"word-anchor\">可怕</span><span class=\"word-block\"><span class=\"english-word\">terrible</span><span class=\"word-info\">[ˈterəbl] adj. 可怕的</span></span></span>的事情都要做，比如不要去跳悬崖。但在职业<span class=\"word-annot\"><span class=\"word-anchor\">选择</span><span class=\"word-block\"><span class=\"english-word\">choose</span><span class=\"word-info\">[tʃuːz] v. 选择</span></span></span>上，这通常是一个不错的信号。</p>"
+    },
+    {
+      "index": 58,
+      "source_text": "Lenny：沿着这个话题，我知道你很关注一个问题：现在正在形成一种差距。一部分人积极拥抱 AI，表现非常好；另一部分人没有跟上。这对很多人来说是一个很可怕的时代，他们可能会被新的世界甩在后面。我知道你花了很多时间帮助小企业使用 AI 工具，这也是你很在意的事。你怎么看这个问题？我们应该怎么帮助更多人不要掉队？",
+      "html": "<p>Lenny：沿着这个<span class=\"word-annot\"><span class=\"word-anchor\">话题</span><span class=\"word-block\"><span class=\"english-word\">topic</span><span class=\"word-info\">[ˈtɒpɪk] n. 话题</span></span></span>，我知道你很关注一个问题：现在正在形成一种差距。一<span class=\"word-annot\"><span class=\"word-anchor\">部分</span><span class=\"word-block\"><span class=\"english-word\">part</span><span class=\"word-info\">[pɑːt] n. 部分</span></span></span>人积极拥抱 AI，表现非常好；另一<span class=\"word-annot\"><span class=\"word-anchor\">部分</span><span class=\"word-block\"><span class=\"english-word\">part</span><span class=\"word-info\">[pɑːt] n. 部分</span></span></span>人没有跟上。这对很多人来说是一个很可怕的<span class=\"word-annot\"><span class=\"word-anchor\">时代</span><span class=\"word-block\"><span class=\"english-word\">era</span><span class=\"word-info\">[ˈɪərə] n. 时代</span></span></span>，他们可能会被新的世界甩在后面。我知道你花了很多<span class=\"word-annot\"><span class=\"word-anchor\">时间</span><span class=\"word-block\"><span class=\"english-word\">time</span><span class=\"word-info\">[taɪm] n. 时间</span></span></span>帮助小企业使用 AI 工具，这也是你很在意的事。你怎么看这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>？我们应该怎么<span class=\"word-annot\"><span class=\"word-anchor\">帮助</span><span class=\"word-block\"><span class=\"english-word\">assist</span><span class=\"word-info\">[əˈsɪst] v. 帮助</span></span></span>更多人不要掉队？</p>"
+    },
+    {
+      "index": 59,
+      "source_text": "Fiona：这是我非常有热情的话题。我小时候从香港出生，后来搬到加拿大。那时我不会说英语，父母又一直需要工作，所以我的奶奶和我们一起搬过去照顾我。她是我能想到的最好的奶奶。我们刚到加拿大时，我和奶奶都不会说英语。我后来可以通过上学、和同学交流学会英语，但对奶奶来说，在一个新的国家生活是很孤立的。",
+      "html": "<p>Fiona：这是我非常有<span class=\"word-annot\"><span class=\"word-anchor\">热情</span><span class=\"word-block\"><span class=\"english-word\">passion</span><span class=\"word-info\">[ˈpæʃn] n. 热情</span></span></span>的话题。我<span class=\"word-annot\"><span class=\"word-anchor\">小时</span><span class=\"word-block\"><span class=\"english-word\">hour</span><span class=\"word-info\">[ˈaʊə] n. 小时</span></span></span>候从香港出生，后来搬到加拿大。那时我不会说<span class=\"word-annot\"><span class=\"word-anchor\">英语</span><span class=\"word-block\"><span class=\"english-word\">English</span><span class=\"word-info\">[ˈɪŋɡlɪʃ] n. 英语</span></span></span>，父母又一直需要工作，所以我的奶奶和我们一起搬过去照顾我。她是我能<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>到的最好的奶奶。我们刚到加拿大时，我和奶奶都不会<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>英语。我后来可以通过上学、和同学交流学会英语，但对奶奶来说，在一个新的国家<span class=\"word-annot\"><span class=\"word-anchor\">生活</span><span class=\"word-block\"><span class=\"english-word\">life</span><span class=\"word-info\">[laɪf] n. 生活</span></span></span>是很孤立的。</p>"
+    },
+    {
+      "index": 60,
+      "source_text": "后来有一年夏天，我们偶然发现一家小毛线店，店主也会说粤语。于是那个夏天，我和奶奶每周都会去那家毛线店。奶奶在那里找到了自己的 knitting circle，也就是编织圈子。我自己也学了一些手工，比如 macramé。那家小店让我看到，一个小企业也可以创造非常好的社区感。这也是我后来喜欢小企业的原因。",
+      "html": "<p>后来有一年夏天，我们偶然<span class=\"word-annot\"><span class=\"word-anchor\">发现</span><span class=\"word-block\"><span class=\"english-word\">discover</span><span class=\"word-info\">[dɪˈskʌvə] v. 发现</span></span></span>一家小毛线店，店主也会说粤语。于是那个夏天，我和奶奶每<span class=\"word-annot\"><span class=\"word-anchor\">周</span><span class=\"word-block\"><span class=\"english-word\">week</span><span class=\"word-info\">[wiːk] n. 周</span></span></span>都会去那家毛线店。奶奶在那里<span class=\"word-annot\"><span class=\"word-anchor\">找</span><span class=\"word-block\"><span class=\"english-word\">find</span><span class=\"word-info\">[faɪnd] v. 找</span></span></span>到了自己的 knitting circle，也就是编织圈子。我自己也学了一些手工，比如 macramé。那家小店让我看到，一个小企业也可以<span class=\"word-annot\"><span class=\"word-anchor\">创造</span><span class=\"word-block\"><span class=\"english-word\">create</span><span class=\"word-info\">[kriˈeɪt] v. 创造</span></span></span>非常好的社区感。这也是我后来喜欢小企业的<span class=\"word-annot\"><span class=\"word-anchor\">原因</span><span class=\"word-block\"><span class=\"english-word\">reason</span><span class=\"word-info\">[ˈriːzn] n. 原因</span></span></span>。</p>"
+    },
+    {
+      "index": 61,
+      "source_text": "后来，我自己用 Cowork 处理商务差旅报销。我一直不喜欢做报销，但 Cowork 可以帮我做这些我不喜欢的事。于是我想到：如果 Cowork 能帮我处理这些小的商务报销，那对小企业主应该会非常有用。因为我的很多小企业朋友真的非常辛苦，他们工作很拼，利润率有时也很低。我见过朋友坐在吧台前，面前堆满账单，只是在做发票和报销。我想，没有人真的喜欢做这些事。",
+      "html": "<p>后来，我自己用 Cowork 处理<span class=\"word-annot\"><span class=\"word-anchor\">商务</span><span class=\"word-block\"><span class=\"english-word\">business</span><span class=\"word-info\">[ˈbɪznəs] n. 商务</span></span></span>差旅报销。我一直不<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">like</span><span class=\"word-info\">[laɪk] v. 喜欢</span></span></span>做报销，但 Cowork 可以帮我做这些我不喜欢的事。于是我想到：如果 Cowork 能帮我处理这些小的<span class=\"word-annot\"><span class=\"word-anchor\">商务</span><span class=\"word-block\"><span class=\"english-word\">business</span><span class=\"word-info\">[ˈbɪznəs] n. 商务</span></span></span>报销，那对小企业主应该会非常有用。因为我的很多小企业朋友真的非常辛苦，他们工作很拼，利润率有时也很<span class=\"word-annot\"><span class=\"word-anchor\">低</span><span class=\"word-block\"><span class=\"english-word\">low</span><span class=\"word-info\">[ləʊ] adj. 低的</span></span></span>。我见过朋友<span class=\"word-annot\"><span class=\"word-anchor\">坐</span><span class=\"word-block\"><span class=\"english-word\">sit</span><span class=\"word-info\">[sɪt] v. 坐</span></span></span>在吧台前，面前堆满账单，只是在做发票和报销。我想，没有人真的<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">like</span><span class=\"word-info\">[laɪk] v. 喜欢</span></span></span>做这些事。</p>"
+    },
+    {
+      "index": 62,
+      "source_text": "于是我开始帮几个朋友上手 Cowork。这个过程也让我很受触动。一方面，我看到他们在 onboarding 流程里遇到了一些很好的 bug，帮助我们发现产品问题；另一方面，我也看到他们用 Cowork 的方式超出了我原本的想象。",
+      "html": "<p>于是我<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">begin</span><span class=\"word-info\">[bɪˈɡɪn] v. 开始</span></span></span>帮几个朋友上手 Cowork。这个过程也让我很受触动。一方面，我看到他们在 onboarding <span class=\"word-annot\"><span class=\"word-anchor\">流程</span><span class=\"word-block\"><span class=\"english-word\">process</span><span class=\"word-info\">[ˈprəʊses] n. 流程</span></span></span>里遇到了一些很好的 bug，帮助我们发现产品问题；另一方面，我也看到他们用 Cowork 的方式超出了我原本的<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>象。</p>"
+    },
+    {
+      "index": 63,
+      "source_text": "比如我原本关注的是 Cowork 处理 PDF、发票这些能力。但我有一位开两家餐厅的朋友，她说自己的文件夹就像厨房里的杂物抽屉，里面堆满了各种文件和下载内容，她知道里面有几份菜单，但找不到。于是我们让 Cowork 访问目录，它帮她找到了菜单。",
+      "html": "<p>比如我原本关注的是 Cowork 处理 PDF、发票这些<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>。但我有一位开两家餐厅的朋友，她说自己的<span class=\"word-annot\"><span class=\"word-anchor\">文件</span><span class=\"word-block\"><span class=\"english-word\">file</span><span class=\"word-info\">[faɪl] n. 文件</span></span></span>夹就像厨房里的杂物抽屉，里面堆满了各种文件和下载内容，她知道里面有几份菜单，但找不到。于是我们让 Cowork <span class=\"word-annot\"><span class=\"word-anchor\">访问</span><span class=\"word-block\"><span class=\"english-word\">access</span><span class=\"word-info\">[ˈækses] n. 访问</span></span></span>目录，它帮她找到了菜单。</p>"
+    },
+    {
+      "index": 64,
+      "source_text": "然后她又提出一个很特别的问题：她想让本地居民和游客都觉得价格合理，于是让 Claude 看看当地同类型菜系的价格，她的菜单价格是否可比。Claude 给出了类似市场分析的结果，还提到了一些当地餐厅。她看到后说：“我前阵子刚去过西雅图那家餐厅，确实不错。”所以每次我都会从这些使用场景里学到东西，也获得很多反馈。",
+      "html": "<p>然后她又提出一个很特别的问题：她想让本地居民和游客都觉得价格合理，于是让 Claude 看看当地同<span class=\"word-annot\"><span class=\"word-anchor\">类型</span><span class=\"word-block\"><span class=\"english-word\">type</span><span class=\"word-info\">[taɪp] n. 类型</span></span></span>菜系的价格，她的菜单价格是否可比。Claude 给出了类似<span class=\"word-annot\"><span class=\"word-anchor\">市场</span><span class=\"word-block\"><span class=\"english-word\">market</span><span class=\"word-info\">[ˈmɑːkɪt] n. 市场</span></span></span>分析的结果，还提到了一些当地餐厅。她<span class=\"word-annot\"><span class=\"word-anchor\">看</span><span class=\"word-block\"><span class=\"english-word\">watch</span><span class=\"word-info\">[wɒtʃ] v. 看</span></span></span>到后说：“我前阵子刚去过西雅图那家餐厅，确实不错。”所以每次我都会从这些使用场景里学到东西，也<span class=\"word-annot\"><span class=\"word-anchor\">获得</span><span class=\"word-block\"><span class=\"english-word\">obtain</span><span class=\"word-info\">[əbˈteɪn] v. 获得</span></span></span>很多反馈。</p>"
+    },
+    {
+      "index": 65,
+      "source_text": "Lenny：那问题就变成了：我们怎么把这些能力传播给更多人？很多人会说“我没时间学这个”“我讨厌 AI”“我想忽略它”。解决这个问题的方法是什么？是多分享案例吗？尤其是我的听众里很多人已经非常 AI-pilled，很深度拥抱 AI。",
+      "html": "<p>Lenny：那问题就变成了：我们怎么把这些能力传播<span class=\"word-annot\"><span class=\"word-anchor\">给</span><span class=\"word-block\"><span class=\"english-word\">give</span><span class=\"word-info\">[ɡɪv] v. 给</span></span></span>更多人？很多人会说“我没时间学这个”“我讨厌 AI”“我<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>忽略它”。解决这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>的方法是什么？是多<span class=\"word-annot\"><span class=\"word-anchor\">分享</span><span class=\"word-block\"><span class=\"english-word\">share</span><span class=\"word-info\">[ʃeə] v. 分享</span></span></span>案例吗？尤其是我的听众里很多人已经非常 AI-pilled，很<span class=\"word-annot\"><span class=\"word-anchor\">深度</span><span class=\"word-block\"><span class=\"english-word\">depth</span><span class=\"word-info\">[depθ] n. 深度</span></span></span>拥抱 AI。</p>"
+    },
+    {
+      "index": 66,
+      "source_text": "Fiona：我觉得可以从你自己真实感受到的变化开始。先想想 AI 工具有没有在哪件事上真正改变了你的生活或工作，然后把它作为和身边人对话的入口。",
+      "html": "<p>Fiona：我觉得可以从你自己真实感受到的变化<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">start</span><span class=\"word-info\">[stɑːt] v. 开始</span></span></span>。先想想 AI 工具有没有在哪件事上真正改变了你的生活或<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>，然后把它作为和身边人对话的入口。</p>"
+    },
+    {
+      "index": 67,
+      "source_text": "对我来说，AI 是一种工具。我也完全理解它有令人沮丧的一面，但我一直觉得知识就是力量。你必须学会使用这些工具，因为它可能是“光明与黑暗”里面的光明部分。",
+      "html": "<p>对我来说，AI 是一种<span class=\"word-annot\"><span class=\"word-anchor\">工具</span><span class=\"word-block\"><span class=\"english-word\">tool</span><span class=\"word-info\">[tuːl] n. 工具</span></span></span>。我也完全理解它有令人沮丧的一面，但我一直觉得知识就是<span class=\"word-annot\"><span class=\"word-anchor\">力量</span><span class=\"word-block\"><span class=\"english-word\">power</span><span class=\"word-info\">[ˈpaʊə] n. 力量</span></span></span>。你<span class=\"word-annot\"><span class=\"word-anchor\">必须</span><span class=\"word-block\"><span class=\"english-word\">must</span><span class=\"word-info\">[mʌst] v. 必须</span></span></span>学会使用这些工具，因为它可能是“光明与黑暗”里面的光明部分。</p>"
+    },
+    {
+      "index": 68,
+      "source_text": "所以我很希望大家帮忙做一件事：如果你的社区里、家庭里，或者你喜欢的小企业里，有人可能还没接触 AI，你可以试着问问他们：“你有没有想过 AI 也许能帮你做这件事？”一开始可能会有点尴尬。我第一次联系朋友时也有点不自然，因为我平时不太和他们聊我的工作。我会说：“我在做 AI，能不能给你演示一下 Cowork 能做什么？”但后来我们都玩得很开心。",
+      "html": "<p>所以我很<span class=\"word-annot\"><span class=\"word-anchor\">希望</span><span class=\"word-block\"><span class=\"english-word\">wish</span><span class=\"word-info\">[wɪʃ] v. 希望</span></span></span>大家帮忙做一件事：如果你的社区里、家庭里，或者你喜欢的小企业里，有人可能还没接触 AI，你可以试着问问他们：“你有没有想过 AI 也许能帮你做这件事？”一开始<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>会有点尴尬。我第一次联系<span class=\"word-annot\"><span class=\"word-anchor\">朋友</span><span class=\"word-block\"><span class=\"english-word\">friend</span><span class=\"word-info\">[frend] n. 朋友</span></span></span>时也有点不自然，因为我平时不太和他们聊我的工作。我会说：“我在做 AI，能不能给你<span class=\"word-annot\"><span class=\"word-anchor\">演示</span><span class=\"word-block\"><span class=\"english-word\">demo</span><span class=\"word-info\">[ˈdeməʊ] n. 演示</span></span></span>一下 Cowork 能做什么？”但后来我们都玩得很<span class=\"word-annot\"><span class=\"word-anchor\">开心</span><span class=\"word-block\"><span class=\"english-word\">happy</span><span class=\"word-info\">[ˈhæpi] adj. 开心的</span></span></span>。</p>"
+    },
+    {
+      "index": 69,
+      "source_text": "我希望这种对话能更多发生。我们需要继续分享知识，让这些工具更公平地被更多人使用。否则我担心，人与人之间的差距会越来越大。",
+      "html": "<p>我<span class=\"word-annot\"><span class=\"word-anchor\">希望</span><span class=\"word-block\"><span class=\"english-word\">wish</span><span class=\"word-info\">[wɪʃ] v. 希望</span></span></span>这种对话能更多发生。我们需要继续分享<span class=\"word-annot\"><span class=\"word-anchor\">知识</span><span class=\"word-block\"><span class=\"english-word\">knowledge</span><span class=\"word-info\">[ˈnɒlɪdʒ] n. 知识</span></span></span>，让这些工具更公平地被更多人使用。否则我担心，人与人之间的<span class=\"word-annot\"><span class=\"word-anchor\">差距</span><span class=\"word-block\"><span class=\"english-word\">disparity</span><span class=\"word-info\">[dɪˈspærəti] n. 差距</span></span></span>会越来越大。</p>"
+    },
+    {
+      "index": 70,
+      "source_text": "Lenny：我也有同感。分享具体 use case 非常有力量。比如我前几天用 Cowork 帮我填写儿子的夏令营表格，然后我在 Twitter 上分享，很多人反应是：“哦，我从来没想过可以这么用。”很多时候就是这些很小的场景，人们没意识到 Cowork 和 Claude 可以帮上忙。",
+      "html": "<p>Lenny：我也有同感。<span class=\"word-annot\"><span class=\"word-anchor\">分享</span><span class=\"word-block\"><span class=\"english-word\">share</span><span class=\"word-info\">[ʃeə] v. 分享</span></span></span>具体 use case 非常有力量。比如我前几天用 Cowork 帮我填写儿子的夏令营<span class=\"word-annot\"><span class=\"word-anchor\">表格</span><span class=\"word-block\"><span class=\"english-word\">table</span><span class=\"word-info\">[ˈteɪbl] n. 表格</span></span></span>，然后我在 Twitter 上分享，很多人反应是：“哦，我从来没想过可以这么用。”很多时候就是这些很小的场景，<span class=\"word-annot\"><span class=\"word-anchor\">人们</span><span class=\"word-block\"><span class=\"english-word\">people</span><span class=\"word-info\">[ˈpiːpl] n. 人们</span></span></span>没意识到 Cowork 和 Claude 可以帮上忙。</p>"
+    },
+    {
+      "index": 71,
+      "source_text": "说到 Cowork，如果回头看，Anthropic 似乎很早就能发现一些巨大机会。比如 Coding，你们很早就意识到这是一个巨大的市场。不管最初是不是有意为之，这可能都是历史上最大的新增商业机会之一。Cowork 也是类似，你们很早就开始进入知识工作领域，像是在说：为什么不把整个知识工作都解决掉？另外，我感觉 Anthropic 也很早就重视模型的 personality。它不只是体验问题，也影响模型的智能和成功。",
+      "html": "<p>说到 Cowork，如果回头看，Anthropic 似乎很早就能发现一些巨大<span class=\"word-annot\"><span class=\"word-anchor\">机会</span><span class=\"word-block\"><span class=\"english-word\">chance</span><span class=\"word-info\">[tʃɑːns] n. 机会</span></span></span>。比如 Coding，你们很早就意识到这是一个巨大的<span class=\"word-annot\"><span class=\"word-anchor\">市场</span><span class=\"word-block\"><span class=\"english-word\">market</span><span class=\"word-info\">[ˈmɑːkɪt] n. 市场</span></span></span>。不管最初是不是有意为之，这可能都是<span class=\"word-annot\"><span class=\"word-anchor\">历史</span><span class=\"word-block\"><span class=\"english-word\">history</span><span class=\"word-info\">[ˈhɪstri] n. 历史</span></span></span>上最大的新增商业机会之一。Cowork 也是类似，你们很早就开始进入知识工作<span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[dəˈmeɪn] n. 领域</span></span></span>，像是在说：为什么不把整个知识工作都解决掉？另外，我<span class=\"word-annot\"><span class=\"word-anchor\">感觉</span><span class=\"word-block\"><span class=\"english-word\">sense</span><span class=\"word-info\">[sens] n. 感觉</span></span></span> Anthropic 也很早就重视模型的 personality。它不只是体验问题，也<span class=\"word-annot\"><span class=\"word-anchor\">影响</span><span class=\"word-block\"><span class=\"english-word\">influence</span><span class=\"word-info\">[ˈɪnfluəns] v. 影响</span></span></span>模型的智能和成功。</p>"
+    },
+    {
+      "index": 72,
+      "source_text": "你觉得 Anthropic 和你们团队做了什么不一样的事，使你们能比其他实验室更早发现这些机会，并且敢于大规模投入？",
+      "html": "<p>你觉得 Anthropic 和你们团队做了什么不一样的事，使你们能比其他实验室更早发现这些机会，并且敢于大<span class=\"word-annot\"><span class=\"word-anchor\">规模</span><span class=\"word-block\"><span class=\"english-word\">scale</span><span class=\"word-info\">[skeɪl] n. 规模</span></span></span>投入？</p>"
+    },
+    {
+      "index": 73,
+      "source_text": "Fiona：我没有在其他实验室工作过，所以不太确定其他实验室怎么运作。但我可以说，在 Claude Code 和 Cowork 团队，我们确实会关注 latent demand，也就是潜在需求。",
+      "html": "<p>Fiona：我没有在其他实验室工作过，所以不太<span class=\"word-annot\"><span class=\"word-anchor\">确定</span><span class=\"word-block\"><span class=\"english-word\">determine</span><span class=\"word-info\">[dɪˈtɜːmɪn] v. 确定</span></span></span>其他实验室怎么运作。但我可以说，在 Claude Code 和 Cowork 团队，我们确实会关注 latent demand，也就是潜在<span class=\"word-annot\"><span class=\"word-anchor\">需求</span><span class=\"word-block\"><span class=\"english-word\">demand</span><span class=\"word-info\">[dɪˈmɑːnd] n. 需求</span></span></span>。</p>"
+    },
+    {
+      "index": 74,
+      "source_text": "编码这个 use case 上，我们很幸运，因为很多 Anthropic 员工自己就是第一批用户，所以我们可以非常快地获得反馈。但 latent demand 这个概念很重要。比如 Cowork 的例子中，很多并不是程序员的人也在使用 Claude Code。那我们就会问：能不能让这种体验变得更好？这种观察方式不只在 Anthropic 对我有用，在我过去做过的其他产品里也很有帮助。你刚才提到小企业，我之前拜访了一些小企业，后来我们推出了 Claude for Small Business。这个点不是我推动出来的，所以我不是在抢功，但我也注意到了同样的现象。",
+      "html": "<p>编码这个 use case 上，我们很幸运，因为很多 Anthropic 员工自己就是第一批用户，所以我们可以非常快地获得<span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈</span></span></span>。但 latent demand 这个<span class=\"word-annot\"><span class=\"word-anchor\">概念</span><span class=\"word-block\"><span class=\"english-word\">concept</span><span class=\"word-info\">[ˈkɒnsept] n. 概念</span></span></span>很重要。比如 Cowork 的例子中，很多并不是<span class=\"word-annot\"><span class=\"word-anchor\">程序</span><span class=\"word-block\"><span class=\"english-word\">program</span><span class=\"word-info\">[ˈprəʊɡræm] n. 程序</span></span></span>员的人也在使用 Claude Code。那我们就会<span class=\"word-annot\"><span class=\"word-anchor\">问</span><span class=\"word-block\"><span class=\"english-word\">ask</span><span class=\"word-info\">[ɑːsk] v. 问</span></span></span>：能不能让这种体验变得更好？这种<span class=\"word-annot\"><span class=\"word-anchor\">观察</span><span class=\"word-block\"><span class=\"english-word\">observe</span><span class=\"word-info\">[əbˈzɜːv] v. 观察</span></span></span>方式不只在 Anthropic 对我有用，在我过去做过的其他产品里也很有帮助。你刚才提到小企业，我之前拜访了一些小企业，后<span class=\"word-annot\"><span class=\"word-anchor\">来</span><span class=\"word-block\"><span class=\"english-word\">come</span><span class=\"word-info\">[kʌm] v. 来</span></span></span>我们推出了 Claude for Small Business。这个点不是我<span class=\"word-annot\"><span class=\"word-anchor\">推动</span><span class=\"word-block\"><span class=\"english-word\">drive</span><span class=\"word-info\">[draɪv] v. 推动</span></span></span>出来的，所以我不是在抢功，但我也注意到了同样的现象。</p>"
+    },
+    {
+      "index": 75,
+      "source_text": "我和小企业主一起使用产品时，他们会问：“它有没有这个插件？有没有那个插件？”我会说：“我觉得有吧。”然后我们还要去找。后来 Claude Business 相关能力把这些都打包起来，在 Cowork 里面有一个小 toggle。另一个很棒的团队一直在和小企业做 Cowork sessions，可能他们也发现这里有提升效率和改善体验的机会。",
+      "html": "<p>我和小企业主一起使用<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>时，他们会问：“它有没有这个插件？有没有那个插件？”我会<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>：“我觉得有吧。”然后我们还要<span class=\"word-annot\"><span class=\"word-anchor\">去</span><span class=\"word-block\"><span class=\"english-word\">go</span><span class=\"word-info\">[ɡəʊ] v. 去</span></span></span>找。后来 Claude Business 相关<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>把这些都打包起来，在 Cowork 里面有一个小 toggle。另一个很棒的团队一直在和小企业做 Cowork sessions，可能他们也发现这里有<span class=\"word-annot\"><span class=\"word-anchor\">提升</span><span class=\"word-block\"><span class=\"english-word\">enhance</span><span class=\"word-info\">[ɪnˈhɑːns] v. 提升</span></span></span>效率和改善体验的机会。</p>"
+    },
+    {
+      "index": 76,
+      "source_text": "所以我觉得关键是：不只是你负责的产品本身要持续听反馈、迭代，努力做出令人愉悦、可靠、高质量的体验；同时也要观察，有没有新的使用场景正在冒出来，我们能不能让这些场景变得更好。",
+      "html": "<p>所以我觉得关键是：不只是你负责的产品本身要持续<span class=\"word-annot\"><span class=\"word-anchor\">听</span><span class=\"word-block\"><span class=\"english-word\">listen</span><span class=\"word-info\">[ˈlɪsn] v. 听</span></span></span>反馈、迭代，努力做出令人愉悦、可靠、高质量的体验；同时也要<span class=\"word-annot\"><span class=\"word-anchor\">观察</span><span class=\"word-block\"><span class=\"english-word\">observe</span><span class=\"word-info\">[əbˈzɜːv] v. 观察</span></span></span>，有没有新的使用场景正在冒出来，我们能不能让这些场景变得更好。</p>"
+    },
+    {
+      "index": 77,
+      "source_text": "在软件行业，我学到的一件事是：用户会用你没预料到的方式使用你的产品，不管这种方式是好的还是坏的。所以最好的方法就是持续迭代、持续学习，并且和反馈保持很近的距离。",
+      "html": "<p>在软件<span class=\"word-annot\"><span class=\"word-anchor\">行业</span><span class=\"word-block\"><span class=\"english-word\">industry</span><span class=\"word-info\">[ˈɪndəstri] n. 行业</span></span></span>，我学到的一件事是：用户会用你没预料到的方式使用你的产品，不管这种方式是好的还是坏的。所以最好的方法就是持续迭代、持续学习，并且和反馈<span class=\"word-annot\"><span class=\"word-anchor\">保持</span><span class=\"word-block\"><span class=\"english-word\">keep</span><span class=\"word-info\">[kiːp] v. 保持</span></span></span>很近的距离。</p>"
+    },
+    {
+      "index": 78,
+      "source_text": "Lenny：latent demand 这个词在节目里已经出现很多次了，可能里面真有东西。你说的意思是，要非常仔细地观察那些你没有预料到、但正在出现的用户行为。然后一旦看到这种行为，就投入进去，探索它，做出很棒的东西，并提出假设：当你看到用户为了让某件事可行而“绕很多弯子”时，你能不能把它变成一个更顺滑、更好的体验。",
+      "html": "<p>Lenny：latent demand 这个词在节目里已经出现很多次了，可能里面真有<span class=\"word-annot\"><span class=\"word-anchor\">东西</span><span class=\"word-block\"><span class=\"english-word\">thing</span><span class=\"word-info\">[θɪŋ] n. 东西</span></span></span>。你说的意思是，要非常仔细地<span class=\"word-annot\"><span class=\"word-anchor\">观察</span><span class=\"word-block\"><span class=\"english-word\">observe</span><span class=\"word-info\">[əbˈzɜːv] v. 观察</span></span></span>那些你没有预料到、但正在出现的用户行为。然后一旦看到这种行为，就投入进去，<span class=\"word-annot\"><span class=\"word-anchor\">探索</span><span class=\"word-block\"><span class=\"english-word\">explore</span><span class=\"word-info\">[ɪkˈsplɔː] v. 探索</span></span></span>它，做出很棒的东西，并提出假设：当你看到用户为了让某件事可行而“绕很多弯子”时，你能不能把它变成一个更顺滑、更好的体验。</p>"
+    },
+    {
+      "index": 79,
+      "source_text": "Lenny：回到你们团队的工作方式。你们处在能力边界的最前沿，而工程师这个角色也已经发生了很大变化。你觉得工程工作方式的下一个前沿是什么？是 fleets of agents，也就是大量 agent 并行吗？还是其他东西？有哪些变化是你们已经在做、正在实施，或者刚开始发生的？",
+      "html": "<p>Lenny：回到你们<span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>的工作方式。你们处在能力<span class=\"word-annot\"><span class=\"word-anchor\">边界</span><span class=\"word-block\"><span class=\"english-word\">boundary</span><span class=\"word-info\">[ˈbaʊndri] n. 边界</span></span></span>的最前沿，而工程师这个角色也已经发生了很大变化。你觉得<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>工作方式的下一个前沿是什么？是 fleets of agents，也就是大量 agent 并行吗？还是其他<span class=\"word-annot\"><span class=\"word-anchor\">东西</span><span class=\"word-block\"><span class=\"english-word\">thing</span><span class=\"word-info\">[θɪŋ] n. 东西</span></span></span>？有哪些<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">change</span><span class=\"word-info\">[tʃeɪndʒ] n. 变化</span></span></span>是你们已经在做、正在实施，或者刚开始发生的？</p>"
+    },
+    {
+      "index": 80,
+      "source_text": "Fiona：我会说，我们正在更多转向 async，也就是异步工作。你提到 fleets of agents，这也是 routines 有意思的原因。过去我可能同步写一个 prompt，等待结果；后来我可能异步启动几个 prompt。但现在，我可以设置一个 routine，让它替我生成这些 prompts。抽象层级又往上抬了一层。",
+      "html": "<p>Fiona：我会说，我们正在更多转向 async，也就是异步<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>。你提到 fleets of agents，这也是 routines 有意思的<span class=\"word-annot\"><span class=\"word-anchor\">原因</span><span class=\"word-block\"><span class=\"english-word\">reason</span><span class=\"word-info\">[ˈriːzn] n. 原因</span></span></span>。过去我可能<span class=\"word-annot\"><span class=\"word-anchor\">同步</span><span class=\"word-block\"><span class=\"english-word\">synchronize</span><span class=\"word-info\">[ˈsɪŋkrənaɪz] v. 同步</span></span></span>写一个 prompt，等待结果；后来我<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>异步启动几个 prompt。但现在，我可以设置一个 routine，让它替我<span class=\"word-annot\"><span class=\"word-anchor\">生成</span><span class=\"word-block\"><span class=\"english-word\">generate</span><span class=\"word-info\">[ˈdʒenəreɪt] v. 生成</span></span></span>这些 prompts。抽象层级又往上抬了一层。</p>"
+    },
+    {
+      "index": 81,
+      "source_text": "我没有水晶球，不知道一年后会变成什么样，但我觉得一年后我们可以再回头看这个问题，会很有意思。",
+      "html": "<p>我没有水晶球，不知道一年后会变成什么样，但我觉得一年后我们可以再回头看这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>，会很有意思。</p>"
+    },
+    {
+      "index": 82,
+      "source_text": "Lenny：我想听更多。帮我们理解一下，routines 到底是什么？你说从同步工作变成异步工作，具体是什么意思？是写一个 prompt，然后它不会立刻完成，而是之后运行吗？",
+      "html": "<p>Lenny：我<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>听更多。帮我们<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">understand</span><span class=\"word-info\">[ˌʌndəˈstænd] v. 理解</span></span></span>一下，routines 到底是什么？你说从<span class=\"word-annot\"><span class=\"word-anchor\">同步</span><span class=\"word-block\"><span class=\"english-word\">synchronize</span><span class=\"word-info\">[ˈsɪŋkrənaɪz] v. 同步</span></span></span>工作变成异步工作，具体是什么意思？是写一个 prompt，然后它不会立刻<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">complete</span><span class=\"word-info\">[kəmˈpliːt] v. 完成</span></span></span>，而是之后运行吗？</p>"
+    },
+    {
+      "index": 83,
+      "source_text": "Fiona：比如我以前每天早上会喝咖啡，然后让 Claude 帮我看某个 Slack 频道。现在我可以设置一个 routine，每天早上固定时间运行。它不只是帮我看信息，还可以代表我启动 agents。",
+      "html": "<p>Fiona：比如我以前每天早上会喝咖啡，然后让 Claude 帮我<span class=\"word-annot\"><span class=\"word-anchor\">看</span><span class=\"word-block\"><span class=\"english-word\">watch</span><span class=\"word-info\">[wɒtʃ] v. 看</span></span></span>某个 Slack 频道。<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">present</span><span class=\"word-info\">[ˈpreznt] n. 现在</span></span></span>我可以设置一个 routine，每天早上固定时间运行。它不只是帮我看信息，还可以<span class=\"word-annot\"><span class=\"word-anchor\">代表</span><span class=\"word-block\"><span class=\"english-word\">represent</span><span class=\"word-info\">[ˌreprɪˈzent] v. 代表</span></span></span>我启动 agents。</p>"
+    },
+    {
+      "index": 84,
+      "source_text": "过去如果要自动化，你可能会做一个 cron job。但现在是：它会看这些反馈，如果发现某些 bug，或者发现一些可以做的 polish fixes，它就可以启动 agent 去处理。等我醒来时，可能已经有一些 PR 可以 review。",
+      "html": "<p>过去如果要<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automate</span><span class=\"word-info\">[ˈɔːtəmeɪt] v. 自动化</span></span></span>，你可能会做一个 cron job。但现在是：它会看这些<span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈</span></span></span>，如果发现某些 bug，或者发现一些可以做的 polish fixes，它就可以启动 agent 去处理。等我醒来时，<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>已经有一些 PR 可以 review。</p>"
+    },
+    {
+      "index": 85,
+      "source_text": "以前即使我有不同的 agents，我还要自己想：拿到这些信息后，我下一步该做什么？现在是更高一层抽象：我可以写一个 routine，让它替我生成 prompts，并派生出不同 agents。所以我认为我们会越来越走向这种异步工作方式。",
+      "html": "<p>以前即使我有<span class=\"word-annot\"><span class=\"word-anchor\">不同</span><span class=\"word-block\"><span class=\"english-word\">different</span><span class=\"word-info\">[ˈdɪfrənt] adj. 不同的</span></span></span>的 agents，我还要自己想：拿到这些信息后，我下一步该做什么？现在是更高一层抽象：我可以写一个 routine，让它替我<span class=\"word-annot\"><span class=\"word-anchor\">生成</span><span class=\"word-block\"><span class=\"english-word\">generate</span><span class=\"word-info\">[ˈdʒenəreɪt] v. 生成</span></span></span> prompts，并派生出不同 agents。所以我认为我们会越来越走向这种异步<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>方式。</p>"
+    },
+    {
+      "index": 86,
+      "source_text": "Lenny：这很有意思。某种意义上，作为管理者，你每天会做很多固定动作：检查项目进展、看哪里落后、看谁被卡住、看哪些地方需要修补和改进。你现在说的是，可以把这些日常管理动作写成 prompts，让 Claude 替你执行，然后告诉你：这是我正在做的，这是你需要 review 的。",
+      "html": "<p>Lenny：这很有<span class=\"word-annot\"><span class=\"word-anchor\">意思</span><span class=\"word-block\"><span class=\"english-word\">meaning</span><span class=\"word-info\">[ˈmiːnɪŋ] n. 意思</span></span></span>。某种意义上，作为管理者，你每天会做很多固定动作：<span class=\"word-annot\"><span class=\"word-anchor\">检查</span><span class=\"word-block\"><span class=\"english-word\">inspection</span><span class=\"word-info\">[ɪnˈspekʃn] n. 检查</span></span></span>项目进展、看哪里落后、看谁被卡住、看哪些地方需要修补和改进。你现在说的是，可以把这些日常管理动作写成 prompts，让 Claude 替你<span class=\"word-annot\"><span class=\"word-anchor\">执行</span><span class=\"word-block\"><span class=\"english-word\">execute</span><span class=\"word-info\">[ˈeksɪkjuːt] v. 执行</span></span></span>，然后告诉你：这是我正在做的，这是你需要 review 的。</p>"
+    },
+    {
+      "index": 87,
+      "source_text": "甚至到某个阶段，你会给它更多自主权，比如如果验证机制足够可靠，就可以直接让它“go for it”。",
+      "html": "<p>甚至到某个阶段，你会给它更多自主权，比如如果<span class=\"word-annot\"><span class=\"word-anchor\">验证</span><span class=\"word-block\"><span class=\"english-word\">verify</span><span class=\"word-info\">[ˈverɪfaɪ] v. 验证</span></span></span>机制足够可靠，就可以直接让它“go for it”。</p>"
+    },
+    {
+      "index": 88,
+      "source_text": "Fiona：是的，可以给它一点自由，让它做更多事情。",
+      "html": "<p>Fiona：是的，可以给它一点自由，让它做更多<span class=\"word-annot\"><span class=\"word-anchor\">事情</span><span class=\"word-block\"><span class=\"english-word\">matter</span><span class=\"word-info\">[ˈmætə] n. 事情</span></span></span>。</p>"
+    },
+    {
+      "index": 89,
+      "source_text": "Lenny：这让我想到“go for it”背后的概念。我本来没打算聊这个，但我最近看了 Tyler Cowen 的一个演讲。他是经济学家，也有自己的播客。他提到，在现在这个世界里，表现最好的人往往有 initiative。另一个常用词是 agency。",
+      "html": "<p>Lenny：这让我想到“go for it”背后的<span class=\"word-annot\"><span class=\"word-anchor\">概念</span><span class=\"word-block\"><span class=\"english-word\">concept</span><span class=\"word-info\">[ˈkɒnsept] n. 概念</span></span></span>。我本来没打算聊这个，但我最近看了 Tyler Cowen 的一个<span class=\"word-annot\"><span class=\"word-anchor\">演讲</span><span class=\"word-block\"><span class=\"english-word\">speech</span><span class=\"word-info\">[spiːtʃ] n. 演讲</span></span></span>。他是<span class=\"word-annot\"><span class=\"word-anchor\">经济</span><span class=\"word-block\"><span class=\"english-word\">economy</span><span class=\"word-info\">[ɪˈkɒnəmi] n. 经济</span></span></span>学家，也有自己的播客。他提到，在现在这个<span class=\"word-annot\"><span class=\"word-anchor\">世界</span><span class=\"word-block\"><span class=\"english-word\">world</span><span class=\"word-info\">[wɜːld] n. 世界</span></span></span>里，表现最好的人往往有 initiative。另一个常用词是 agency。</p>"
+    },
+    {
+      "index": 90,
+      "source_text": "很多人都在说，表现最好的人是最主动、最 proactive、最有 agency 的人。这个话题会让你想到什么？人们需要思考或提升什么？",
+      "html": "<p>很多人都在<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>，表现最好的人是最主动、最 proactive、最有 agency 的人。这个<span class=\"word-annot\"><span class=\"word-anchor\">话题</span><span class=\"word-block\"><span class=\"english-word\">topic</span><span class=\"word-info\">[ˈtɒpɪk] n. 话题</span></span></span>会让你想到什么？人们需要思考或<span class=\"word-annot\"><span class=\"word-anchor\">提升</span><span class=\"word-block\"><span class=\"english-word\">enhance</span><span class=\"word-info\">[ɪnˈhɑːns] v. 提升</span></span></span>什么？</p>"
+    },
+    {
+      "index": 91,
+      "source_text": "Fiona：我很喜欢 agency 这个词。Claude Code 和 Cowork 团队也非常重视这一点。但有意思的是，我们通常会把它和另一个东西放在一起讲。对我们来说，重要的是：这里有一个问题，团队里的每个人都可以有自己的想法，去思考怎么解决它。这就是 high agency。",
+      "html": "<p>Fiona：我很<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">like</span><span class=\"word-info\">[laɪk] v. 喜欢</span></span></span> agency 这个词。Claude Code 和 Cowork <span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>也非常重视这一点。但有意思的是，我们通常会把它和另一个东西<span class=\"word-annot\"><span class=\"word-anchor\">放</span><span class=\"word-block\"><span class=\"english-word\">put</span><span class=\"word-info\">[pʊt] v. 放</span></span></span>在一起讲。对我们来说，重要的是：这里有一个问题，团队里的每个人都可以有自己的<span class=\"word-annot\"><span class=\"word-anchor\">想法</span><span class=\"word-block\"><span class=\"english-word\">thought</span><span class=\"word-info\">[θɔːt] n. 想法</span></span></span>，去思考怎么解决它。这就是 high agency。</p>"
+    },
+    {
+      "index": 92,
+      "source_text": "但我们也会说，high agency 必须对应 high accountability。也就是说，我们要确保大家有自由去发挥、去尝试，但同时也要问：这件事怎么负责？你要解决的问题是什么？你的假设是什么？所以 agency 和 accountability 是同一枚硬币的两面。这个平衡对我们团队很有帮助。",
+      "html": "<p>但我们也会<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>，high agency 必须对应 high accountability。也就是说，我们要确保大家有自由去发挥、去<span class=\"word-annot\"><span class=\"word-anchor\">尝试</span><span class=\"word-block\"><span class=\"english-word\">try</span><span class=\"word-info\">[traɪ] v. 尝试</span></span></span>，但同时也要问：这件事怎么负责？你要解决的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>是什么？你的<span class=\"word-annot\"><span class=\"word-anchor\">假设</span><span class=\"word-block\"><span class=\"english-word\">hypothesis</span><span class=\"word-info\">[haɪˈpɒθəsɪs] n. 假设</span></span></span>是什么？所以 agency 和 accountability 是同一枚硬币的两<span class=\"word-annot\"><span class=\"word-anchor\">面</span><span class=\"word-block\"><span class=\"english-word\">surface</span><span class=\"word-info\">[ˈsɜːfɪs] n. 表面</span></span></span>。这个<span class=\"word-annot\"><span class=\"word-anchor\">平衡</span><span class=\"word-block\"><span class=\"english-word\">balance</span><span class=\"word-info\">[ˈbæləns] n. 平衡</span></span></span>对我们团队很有帮助。</p>"
+    },
+    {
+      "index": 93,
+      "source_text": "Lenny：这确实是 agency 非常重要的一部分。大家都可以各自去做事，但最后还是要问：你到底做出了什么？最近感觉行业氛围正在变化。之前大家更像是在 token maxing：疯狂使用 token，尽可能多花，先看看能做出什么。但现在大家开始问：我们到底得到了什么？花了多少钱？ROI 是什么？有意思的是，Boris 以前在 Meta 负责 productivity，他的工作就是衡量工程效率。最近关于代码行数、代码交付量，也有很多讨论。你们在 Anthropic 有一个“不公平优势”，因为内部使用 token 的条件不一样。在这种情况下，你们学到了什么？今天要怎么衡量工程师使用 AI 工具后的 ROI 和生产力？",
+      "html": "<p>Lenny：这确实是 agency 非常<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>的一部分。大家都可以各自去做事，但最后还是要<span class=\"word-annot\"><span class=\"word-anchor\">问</span><span class=\"word-block\"><span class=\"english-word\">ask</span><span class=\"word-info\">[ɑːsk] v. 问</span></span></span>：你到底做出了什么？最近感觉行业氛围正在<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">change</span><span class=\"word-info\">[tʃeɪndʒ] n. 变化</span></span></span>。之前大家更像是在 token maxing：疯狂使用 token，尽<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>多花，先看看能做出什么。但<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">present</span><span class=\"word-info\">[ˈpreznt] n. 现在</span></span></span>大家开始问：我们到底得到了什么？花了多少钱？ROI 是什么？有意思的是，Boris 以前在 Meta 负责 productivity，他的工作就是衡量工程<span class=\"word-annot\"><span class=\"word-anchor\">效率</span><span class=\"word-block\"><span class=\"english-word\">efficiency</span><span class=\"word-info\">[ɪˈfɪʃnsi] n. 效率</span></span></span>。最近关于代码行数、代码交付量，也有很多<span class=\"word-annot\"><span class=\"word-anchor\">讨论</span><span class=\"word-block\"><span class=\"english-word\">discussion</span><span class=\"word-info\">[dɪˈskʌʃn] n. 讨论</span></span></span>。你们在 Anthropic 有一个“不公平优势”，因为内部使用 token 的<span class=\"word-annot\"><span class=\"word-anchor\">条件</span><span class=\"word-block\"><span class=\"english-word\">condition</span><span class=\"word-info\">[kənˈdɪʃn] n. 条件</span></span></span>不一样。在这种情况下，你们学到了什么？今天要怎么衡量工程师使用 AI 工具后的 ROI 和<span class=\"word-annot\"><span class=\"word-anchor\">生产力</span><span class=\"word-block\"><span class=\"english-word\">productivity</span><span class=\"word-info\">[ˌprɒdʌkˈtɪvəti] n. 生产力</span></span></span>？</p>"
+    },
+    {
+      "index": 94,
+      "source_text": "Fiona：工程生产力是一个非常有意思的话题。最开始，大家可能会看 lines of code，也就是代码行数，把它当作 throughput。但很快就会出现争论：某个工程师代码行数很多，但也许只是把一个库迁移或移植过来。那是不是应该看 significant lines of code？可是如果我们更新了框架，生成的代码变少了，但输出结果还是一样，那又怎么办？于是可能又会想，是否应该看 PR 落地时间。",
+      "html": "<p>Fiona：工程<span class=\"word-annot\"><span class=\"word-anchor\">生产力</span><span class=\"word-block\"><span class=\"english-word\">productivity</span><span class=\"word-info\">[ˌprɒdʌkˈtɪvəti] n. 生产力</span></span></span>是一个非常有意思的话题。最开始，大家可能会看 lines of code，也就是<span class=\"word-annot\"><span class=\"word-anchor\">代码</span><span class=\"word-block\"><span class=\"english-word\">code</span><span class=\"word-info\">[kəʊd] n. 代码</span></span></span>行数，把它当作 throughput。但很快就会出现争论：某个工程师代码行数很多，但也许只是把一个库<span class=\"word-annot\"><span class=\"word-anchor\">迁移</span><span class=\"word-block\"><span class=\"english-word\">migration</span><span class=\"word-info\">[maɪˈɡreɪʃn] n. 迁移</span></span></span>或移植过来。那是不是应该<span class=\"word-annot\"><span class=\"word-anchor\">看</span><span class=\"word-block\"><span class=\"english-word\">watch</span><span class=\"word-info\">[wɒtʃ] v. 看</span></span></span> significant lines of code？可是如果我们<span class=\"word-annot\"><span class=\"word-anchor\">更新</span><span class=\"word-block\"><span class=\"english-word\">update</span><span class=\"word-info\">[ʌpˈdeɪt] v. 更新</span></span></span>了框架，生成的代码变少了，但输出结果还是一样，那又怎么办？于是<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>又会想，是否应该看 PR 落地时间。</p>"
+    },
+    {
+      "index": 95,
+      "source_text": "但无论用什么指标，最重要的是：output 是否真的导向 outcome。也就是说，你产出的东西是否真的服务于最终结果。",
+      "html": "<p>但无论用什么<span class=\"word-annot\"><span class=\"word-anchor\">指标</span><span class=\"word-block\"><span class=\"english-word\">metric</span><span class=\"word-info\">[ˈmetrɪk] n. 指标</span></span></span>，最重要的是：output 是否真的导向 outcome。也就是说，你产出的东西是否真的服务于最终<span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">result</span><span class=\"word-info\">[rɪˈzʌlt] n. 结果</span></span></span>。</p>"
+    },
+    {
+      "index": 96,
+      "source_text": "token maxing 有点像过去看代码行数。它看起来是一个动作很多的指标，但我更关心的是：我们到底要解决什么问题？我很喜欢一句话：不要把 motion 当成 progress。 如果你只衡量工具使用率，那你衡量的是 action。但它是否真的让你想要的最终结果变得更好？这才是关键。",
+      "html": "<p>token maxing 有点像过去看<span class=\"word-annot\"><span class=\"word-anchor\">代码</span><span class=\"word-block\"><span class=\"english-word\">code</span><span class=\"word-info\">[kəʊd] n. 代码</span></span></span>行数。它看起来是一个动作很多的<span class=\"word-annot\"><span class=\"word-anchor\">指标</span><span class=\"word-block\"><span class=\"english-word\">metric</span><span class=\"word-info\">[ˈmetrɪk] n. 指标</span></span></span>，但我更关心的是：我们到底要解决什么问题？我很<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">like</span><span class=\"word-info\">[laɪk] v. 喜欢</span></span></span>一句话：不要把 motion 当成 progress。如果你只<span class=\"word-annot\"><span class=\"word-anchor\">衡量</span><span class=\"word-block\"><span class=\"english-word\">measure</span><span class=\"word-info\">[ˈmeʒə] v. 衡量</span></span></span>工具使用率，那你衡量的是 action。但它是否真的让你想要的最终<span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">result</span><span class=\"word-info\">[rɪˈzʌlt] n. 结果</span></span></span>变得更好？这才是<span class=\"word-annot\"><span class=\"word-anchor\">关键</span><span class=\"word-block\"><span class=\"english-word\">key</span><span class=\"word-info\">[kiː] n. 关键</span></span></span>。</p>"
+    },
+    {
+      "index": 97,
+      "source_text": "所以我会尽量 zoom out，先问：我们要解决的问题是什么？衡量这个问题有没有被解决的好方法是什么？然后围绕这个去做，而不是只盯着生产力指标本身。",
+      "html": "<p>所以我会尽量 zoom out，先问：我们要解决的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>是什么？<span class=\"word-annot\"><span class=\"word-anchor\">衡量</span><span class=\"word-block\"><span class=\"english-word\">measure</span><span class=\"word-info\">[ˈmeʒə] v. 衡量</span></span></span>这个问题有没有被解决的好方法是什么？然后围绕这个去做，而不是只盯着生产力<span class=\"word-annot\"><span class=\"word-anchor\">指标</span><span class=\"word-block\"><span class=\"english-word\">metric</span><span class=\"word-info\">[ˈmetrɪk] n. 指标</span></span></span>本身。</p>"
+    },
+    {
+      "index": 98,
+      "source_text": "除了指标之外，我还建议团队领导者，尤其是在更多人开始采用 AI 工具时，要做 listening tour。特别要去听资深工程师的反馈：哪些有效，哪些无效，怎样能变得更好。因为他们也能帮助这些经验在整个工程团队里放大和扩散。有时这些对话比 dashboard 更能激发新想法，也能带来很好的共同学习。",
+      "html": "<p>除了指标之外，我还建议团队<span class=\"word-annot\"><span class=\"word-anchor\">领导</span><span class=\"word-block\"><span class=\"english-word\">lead</span><span class=\"word-info\">[liːd] v. 领导</span></span></span>者，尤其是在更多人开始采用 AI 工具时，要做 listening tour。特别要去听资深工程师的<span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈</span></span></span>：哪些有效，哪些无效，怎样能变得更好。因为他们也能帮助这些<span class=\"word-annot\"><span class=\"word-anchor\">经验</span><span class=\"word-block\"><span class=\"english-word\">experience</span><span class=\"word-info\">[ɪkˈspɪriəns] n. 经验</span></span></span>在整个工程团队里放大和扩散。有时这些对话比 dashboard 更能激发新想法，也能带来很好的共同<span class=\"word-annot\"><span class=\"word-anchor\">学习</span><span class=\"word-block\"><span class=\"english-word\">learning</span><span class=\"word-info\">[ˈlɜːnɪŋ] n. 学习</span></span></span>。</p>"
+    },
+    {
+      "index": 99,
+      "source_text": "我也从指标中学到过很多。一个好的指标应该是你可以持续 hill climb 的，也就是可以围绕它不断优化。但你始终要问：这个指标还在服务你的目标吗？它是否仍然服务于你最初想要达成的 outcome？我在 Facebook Marketplace 早期有一个例子。当时我们按地区上线 Marketplace，希望先确保产品体验足够好，再扩展到更多地区。早期我们会看一个指标：卖家数量。上线第一个地区后，我发现某个地区卖家数量不高，但用户其实能找到自己想要的物品。而这才是我们真正的目标：帮助人们找到他们需要的东西。",
+      "html": "<p>我也从<span class=\"word-annot\"><span class=\"word-anchor\">指标</span><span class=\"word-block\"><span class=\"english-word\">metric</span><span class=\"word-info\">[ˈmetrɪk] n. 指标</span></span></span>中学到过很多。一个好的指标应该是你可以持续 hill climb 的，也就是可以围绕它不断<span class=\"word-annot\"><span class=\"word-anchor\">优化</span><span class=\"word-block\"><span class=\"english-word\">optimize</span><span class=\"word-info\">[ˈɒptɪmaɪz] v. 优化</span></span></span>。但你始终要问：这个指标还在服务你的<span class=\"word-annot\"><span class=\"word-anchor\">目标</span><span class=\"word-block\"><span class=\"english-word\">goal</span><span class=\"word-info\">[ɡəʊl] n. 目标</span></span></span>吗？它是否仍然<span class=\"word-annot\"><span class=\"word-anchor\">服务</span><span class=\"word-block\"><span class=\"english-word\">service</span><span class=\"word-info\">[ˈsɜːvɪs] n. 服务</span></span></span>于你最初想要达成的 outcome？我在 Facebook Marketplace 早期有一个<span class=\"word-annot\"><span class=\"word-anchor\">例子</span><span class=\"word-block\"><span class=\"english-word\">example</span><span class=\"word-info\">[ɪɡˈzɑːmpl] n. 例子</span></span></span>。当时我们按地区上线 Marketplace，希望先确保<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>体验足够好，再扩展到更多地区。早期我们会看一个指标：卖家<span class=\"word-annot\"><span class=\"word-anchor\">数量</span><span class=\"word-block\"><span class=\"english-word\">amount</span><span class=\"word-info\">[əˈmaʊnt] n. 数量</span></span></span>。上线第一个地区后，我发现某个地区卖家数量不高，但<span class=\"word-annot\"><span class=\"word-anchor\">用户</span><span class=\"word-block\"><span class=\"english-word\">user</span><span class=\"word-info\">[ˈjuːzə] n. 用户</span></span></span>其实能找到自己想要的物品。而这才是我们真正的<span class=\"word-annot\"><span class=\"word-anchor\">目标</span><span class=\"word-block\"><span class=\"english-word\">target</span><span class=\"word-info\">[ˈtɑːɡɪt] n. 目标</span></span></span>：帮助人们找到他们需要的东西。</p>"
+    },
+    {
+      "index": 100,
+      "source_text": "后来我意识到，那个地区虽然卖家数量不多，但有一些 power sellers，也就是高活跃、高供给能力的卖家。",
+      "html": "<p>后来我意识到，那个地区虽然卖家数量不多，但有一些 power sellers，也就是高活跃、高供给<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>的卖家。</p>"
+    },
+    {
+      "index": 101,
+      "source_text": "Lenny：除了“团队 ship 得更快”之外，现在工程经理对团队还有什么新的 baseline expectation？还有别的变化吗？",
+      "html": "<p>Lenny：除了“团队 ship 得更快”之外，现在<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>经理对团队还有什么新的 baseline expectation？还有别的<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">change</span><span class=\"word-info\">[tʃeɪndʒ] n. 变化</span></span></span>吗？</p>"
+    },
+    {
+      "index": 102,
+      "source_text": "Fiona：这是个有意思的问题。首先，我觉得现在大多数 commit 都是 Claude 辅助完成的，这是一个很大的变化。",
+      "html": "<p>Fiona：这是个有意思的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。首先，我觉得现在大多数 commit 都是 Claude 辅助<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">complete</span><span class=\"word-info\">[kəmˈpliːt] v. 完成</span></span></span>的，这是一个很大的变化。</p>"
+    },
+    {
+      "index": 103,
+      "source_text": "其次，刚才也提到过，我们有 Slack 反馈频道，也有各种 dashboard，这些都会交给 Claude 帮我们处理。我认为，工程师需要继续强化自己的产品感，也就是 product sense。这样他们会成为更有主见、更强的 product engineers。",
+      "html": "<p>其次，刚才也提到过，我们有 Slack <span class=\"word-annot\"><span class=\"word-anchor\">反馈</span><span class=\"word-block\"><span class=\"english-word\">feedback</span><span class=\"word-info\">[ˈfiːdbæk] n. 反馈</span></span></span>频道，也有各种 dashboard，这些都会交给 Claude 帮我们处理。我认为，工程师需要继续<span class=\"word-annot\"><span class=\"word-anchor\">强化</span><span class=\"word-block\"><span class=\"english-word\">strengthen</span><span class=\"word-info\">[ˈstreŋθn] v. 强化</span></span></span>自己的产品感，也就是 product sense。这样他们会成为更有主见、更强的 product engineers。</p>"
+    },
+    {
+      "index": 104,
+      "source_text": "另外，过去一些传统上不属于工程师的事情，现在工程师也能做一些。以前你可能会被卡住，因为要等某个跨职能伙伴，比如产品、设计或其他角色。但现在这种 blocker 会少一些，因为模型可以增强工程师原本不具备的一些能力。",
+      "html": "<p>另外，过去一些传统上不属于<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师的事情，现在工程师也能做一些。以前你可能会被卡住，因为要等某个跨职能伙伴，比如产品、<span class=\"word-annot\"><span class=\"word-anchor\">设计</span><span class=\"word-block\"><span class=\"english-word\">design</span><span class=\"word-info\">[dɪˈzaɪn] v. 设计</span></span></span>或其他角色。但现在这种 blocker 会少一些，因为模型可以增强工程师原本不具备的一些<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>。</p>"
+    },
+    {
+      "index": 105,
+      "source_text": "所以变化是双向的：工程师变得更有产品意识，也更直接对产品质量和产品成功负责；与此同时，其他角色也越来越像工程师。",
+      "html": "<p>所以变化是双向的：工程师变得更有产品意识，也更直接对产品<span class=\"word-annot\"><span class=\"word-anchor\">质量</span><span class=\"word-block\"><span class=\"english-word\">quality</span><span class=\"word-info\">[ˈkwɒləti] n. 质量</span></span></span>和产品成功负责；与此同时，其他角色也越来越像<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师。</p>"
+    },
+    {
+      "index": 106,
+      "source_text": "Lenny：对，两个方向都在发生。工程师变得更产品化，而所有人也都越来越工程化。",
+      "html": "<p>Lenny：对，两个<span class=\"word-annot\"><span class=\"word-anchor\">方向</span><span class=\"word-block\"><span class=\"english-word\">direction</span><span class=\"word-info\">[daɪˈrekʃn] n. 方向</span></span></span>都在发生。<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师变得更产品化，而所有人也都越来越工程化。</p>"
+    },
+    {
+      "index": 107,
+      "source_text": "Fiona：是的，边界正在模糊。",
+      "html": "<p>Fiona：是的，<span class=\"word-annot\"><span class=\"word-anchor\">边界</span><span class=\"word-block\"><span class=\"english-word\">boundary</span><span class=\"word-info\">[ˈbaʊndri] n. 边界</span></span></span>正在模糊。</p>"
+    },
+    {
+      "index": 108,
+      "source_text": "Lenny：我忘了是谁说过一句话：现在“角色”到底是什么？也许就是你日常工作里占比最高的那部分。你做什么最多，那就是什么角色。",
+      "html": "<p>Lenny：我忘了是谁说过一句话：现在“<span class=\"word-annot\"><span class=\"word-anchor\">角色</span><span class=\"word-block\"><span class=\"english-word\">role</span><span class=\"word-info\">[rəʊl] n. 角色</span></span></span>”到底是什么？也许就是你日常<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>里占比最高的那部分。你做什么最多，那就是什么<span class=\"word-annot\"><span class=\"word-anchor\">角色</span><span class=\"word-block\"><span class=\"english-word\">role</span><span class=\"word-info\">[rəʊl] n. 角色</span></span></span>。</p>"
+    },
+    {
+      "index": 109,
+      "source_text": "Lenny：我想回到你刚才提到的 dogfooding，也就是深度使用自己团队做的产品。我和一些与你共事过的人聊过，他们最常提到的一点就是：你非常执着于 living and breathing the product，持续使用自己正在构建的产品。你为什么这么重视 dogfooding？为什么也会把这件事灌输给团队和下属？",
+      "html": "<p>Lenny：我想回到你刚才提到的 dogfooding，也就是深度使用自己<span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>做的产品。我和一些与你共事过的人聊过，他们最常提到的一点就是：你非常执着于 living and breathing the product，持续使用自己正在构建的<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>。你为什么这么重视 dogfooding？为什么也会把这件事灌输给<span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>和下属？</p>"
+    },
+    {
+      "index": 110,
+      "source_text": "Fiona：我很喜欢这个问题。对我来说，dogfooding 是保持产品脉搏的一种方式。每当你做一个产品时，你背后都有一个 dream：你希望启用某种体验，或者让某种体验变得更好。亲自使用产品，能让我始终贴近这个脉搏。",
+      "html": "<p>Fiona：我很喜欢这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。对我来说，dogfooding 是保持<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>脉搏的一种方式。每当你做一个<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>时，你背后都有一个 dream：你希望启用某种体验，或者让某种体验变得更好。亲自使用<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>，能让我始终贴近这个脉搏。</p>"
+    },
+    {
+      "index": 111,
+      "source_text": "我对 dogfooding 的热爱很大程度上来自 Visual Studio。但这个习惯在后来的产品里也一直有用。比如 Facebook Marketplace，即使我离开团队之后，有一次我想卖一台 MacBook Air，就想：我已经很久没在 Marketplace 上卖东西了，试试看吧。",
+      "html": "<p>我对 dogfooding 的热<span class=\"word-annot\"><span class=\"word-anchor\">爱</span><span class=\"word-block\"><span class=\"english-word\">love</span><span class=\"word-info\">[lʌv] v. 爱</span></span></span>很大程度上来自 Visual Studio。但这个习惯在后来的<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>里也一直有用。比如 Facebook Marketplace，即使我<span class=\"word-annot\"><span class=\"word-anchor\">离开</span><span class=\"word-block\"><span class=\"english-word\">leave</span><span class=\"word-info\">[liːv] v. 离开</span></span></span>团队之后，有一次我想卖一台 MacBook Air，就想：我已经很久没在 Marketplace 上卖东西了，试试看吧。</p>"
+    },
+    {
+      "index": 112,
+      "source_text": "结果我刚一挂上去，马上就有买家或卖家试图诈骗我，而且是一种我之前没发现的新诈骗方式。这再次证明，用户会以你没想到的方式使用你的产品，不管是好的还是坏的。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">结果</span><span class=\"word-block\"><span class=\"english-word\">result</span><span class=\"word-info\">[rɪˈzʌlt] n. 结果</span></span></span>我刚一挂上去，马上就有买家或卖家试图诈骗我，而且是一种我之前没发现的新诈骗方式。这再次<span class=\"word-annot\"><span class=\"word-anchor\">证明</span><span class=\"word-block\"><span class=\"english-word\">prove</span><span class=\"word-info\">[pruːv] v. 证明</span></span></span>，用户会以你没想到的方式使用你的产品，不管是好的还是坏的。</p>"
+    },
+    {
+      "index": 113,
+      "source_text": "所以，无论是 leader，还是团队里的任何人，我们每个人都有不同的生活场景，能发现不同问题。比如我支持 VR 和 AR 团队时，不知道为什么，我用 VR 时总能复现一些奇怪的地面高度问题。后来这反而成为我的贡献方式，因为我能稳定复现某些体验问题。",
+      "html": "<p>所以，无论是 leader，还是团队里的<span class=\"word-annot\"><span class=\"word-anchor\">任何</span><span class=\"word-block\"><span class=\"english-word\">any</span><span class=\"word-info\">[ˈeni] adj. 任何</span></span></span>人，我们每个人都有不同的生活场景，能发现不同问题。比如我<span class=\"word-annot\"><span class=\"word-anchor\">支持</span><span class=\"word-block\"><span class=\"english-word\">support</span><span class=\"word-info\">[səˈpɔːt] v. 支持</span></span></span> VR 和 AR 团队时，不知道为什么，我用 VR 时总能复现一些奇怪的地面高度问题。后来这反而成为我的贡献方式，因为我能<span class=\"word-annot\"><span class=\"word-anchor\">稳定</span><span class=\"word-block\"><span class=\"english-word\">stable</span><span class=\"word-info\">[steɪbl] adj. 稳定的</span></span></span>复现某些体验问题。</p>"
+    },
+    {
+      "index": 114,
+      "source_text": "所以第一点是，dogfooding 能让你保持对产品的真实触感，不至于只迷失在指标、dashboard 或演示文稿里。",
+      "html": "<p>所以第一点是，dogfooding 能让你保持对产品的真实触感，不至于只迷失在<span class=\"word-annot\"><span class=\"word-anchor\">指标</span><span class=\"word-block\"><span class=\"english-word\">metric</span><span class=\"word-info\">[ˈmetrɪk] n. 指标</span></span></span>、dashboard 或演示文稿里。</p>"
+    },
+    {
+      "index": 115,
+      "source_text": "Lenny：我觉得这是一个很重要的点，想强调给大家听。大家经常讨论 anecdotal evidence 和 data 的关系，也就是个案和数据的关系。你这里说的是，作为产品负责人或工程负责人，你从具体个案、亲自作为用户遇到的小问题里，获得了很多有价值的信息，而不是只盯着数据。",
+      "html": "<p>Lenny：我觉得这是一个很<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>的点，想强调给大家听。大家经常讨论 anecdotal evidence 和 data 的关系，也就是个案和<span class=\"word-annot\"><span class=\"word-anchor\">数据</span><span class=\"word-block\"><span class=\"english-word\">data</span><span class=\"word-info\">[ˈdeɪtə] n. 数据</span></span></span>的关系。你这里说的是，作为产品负责人或工程负责人，你从具体个案、亲自作为用户遇到的小问题里，获得了很多有<span class=\"word-annot\"><span class=\"word-anchor\">价值</span><span class=\"word-block\"><span class=\"english-word\">value</span><span class=\"word-info\">[ˈvæljuː] n. 价值</span></span></span>的信息，而不是只盯着数据。</p>"
+    },
+    {
+      "index": 116,
+      "source_text": "Fiona：是的。有时这也是我最有效帮助团队的方式。比如我之前领导 VR 团队时，我没有往那个代码库提交代码，因为我担心自己会搞坏操作系统。但当时团队在做很多 polish fixes，也就是体验打磨。我就想，我可以把自己的 dogfooding 时间用来检查体验，看它到底是什么样子。这样我仍然可以有意义地帮助团队把住质量标准。",
+      "html": "<p>Fiona：是的。有时这也是我最有效帮助<span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>的方式。比如我之前领导 VR 团队时，我没有往那个代码库提交代码，因为我担心自己会搞坏<span class=\"word-annot\"><span class=\"word-anchor\">操作</span><span class=\"word-block\"><span class=\"english-word\">operation</span><span class=\"word-info\">[ˌɒpəˈreɪʃn] n. 操作</span></span></span>系统。但当时<span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>在做很多 polish fixes，也就是体验打磨。我就想，我可以把自己的 dogfooding 时间用来<span class=\"word-annot\"><span class=\"word-anchor\">检查</span><span class=\"word-block\"><span class=\"english-word\">check</span><span class=\"word-info\">[tʃek] v. 检查</span></span></span>体验，看它到底是什么样子。这样我仍然可以有意义地帮助团队把住<span class=\"word-annot\"><span class=\"word-anchor\">质量</span><span class=\"word-block\"><span class=\"english-word\">quality</span><span class=\"word-info\">[ˈkwɒləti] n. 质量</span></span></span>标准。</p>"
+    },
+    {
+      "index": 117,
+      "source_text": "团队成员通常也会很感谢这一点。因为作为 leader，你支持团队成员，而团队成员也希望知道，他们做的工作是重要的。如果 leader 真正在使用产品，大家会感觉 leader 是投入的，不是离团队很远。",
+      "html": "<p>团队成员通常也会很<span class=\"word-annot\"><span class=\"word-anchor\">感谢</span><span class=\"word-block\"><span class=\"english-word\">appreciate</span><span class=\"word-info\">[əˈpriːʃieɪt] v. 感谢</span></span></span>这一点。因为作为 leader，你<span class=\"word-annot\"><span class=\"word-anchor\">支持</span><span class=\"word-block\"><span class=\"english-word\">support</span><span class=\"word-info\">[səˈpɔːt] v. 支持</span></span></span>团队成员，而团队成员也希望知道，他们做的工作是重要的。如果 leader 真正在使用产品，大家会感觉 leader 是投入的，不是离<span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>很远。</p>"
+    },
+    {
+      "index": 118,
+      "source_text": "Lenny：这也和你前面说的工程师要更有产品感有关。工程师需要变得更像 PM，PM 也需要变得更像工程师。对工程师来说，培养产品感的一种方式就是持续使用产品。你作为用户使用它，就能知道产品缺什么。",
+      "html": "<p>Lenny：这也和你前面说的<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师要更有产品感有关。<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师需要变得更像 PM，PM 也需要变得更像工程师。对<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师来说，培养产品感的一种方式就是持续使用产品。你作为用户使用它，就能知道<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>缺什么。</p>"
+    },
+    {
+      "index": 119,
+      "source_text": "Fiona：对。如果你领导的团队做的产品很难被你自己使用，那就去见客户。不管是哪一种方式，你都需要建立接近用户的渠道。",
+      "html": "<p>Fiona：对。如果你<span class=\"word-annot\"><span class=\"word-anchor\">领导</span><span class=\"word-block\"><span class=\"english-word\">lead</span><span class=\"word-info\">[liːd] v. 领导</span></span></span>的团队做的产品很难被你自己使用，那就去见客户。不管是哪一种方式，你都需要建立接近<span class=\"word-annot\"><span class=\"word-anchor\">用户</span><span class=\"word-block\"><span class=\"english-word\">user</span><span class=\"word-info\">[ˈjuːzə] n. 用户</span></span></span>的渠道。</p>"
+    },
+    {
+      "index": 120,
+      "source_text": "每次我做客户拜访，都会学到新东西。比如 Facebook Marketplace 当时想进入拉美市场，我们在智利测试，但效果不如其他地区。我们尝试了很多方法，后来决定去智利做一个很小的研究行程，团队只有三个人。我们还带了一堆 Android 手机。",
+      "html": "<p>每次我做<span class=\"word-annot\"><span class=\"word-anchor\">客户</span><span class=\"word-block\"><span class=\"english-word\">customer</span><span class=\"word-info\">[ˈkʌstəmə] n. 客户</span></span></span>拜访，都会学到新东西。比如 Facebook Marketplace 当时想进入拉美市场，我们在智利测试，但<span class=\"word-annot\"><span class=\"word-anchor\">效果</span><span class=\"word-block\"><span class=\"english-word\">effect</span><span class=\"word-info\">[ɪˈfekt] n. 效果</span></span></span>不如其他地区。我们尝试了很多方法，后来<span class=\"word-annot\"><span class=\"word-anchor\">决定</span><span class=\"word-block\"><span class=\"english-word\">decide</span><span class=\"word-info\">[dɪˈsaɪd] v. 决定</span></span></span>去智利做一个很小的研究行程，团队只有三个人。我们还带了一堆 Android <span class=\"word-annot\"><span class=\"word-anchor\">手机</span><span class=\"word-block\"><span class=\"english-word\">cellphone</span><span class=\"word-info\">[ˈselˌfoʊn] n. 手机</span></span></span>。</p>"
+    },
+    {
+      "index": 121,
+      "source_text": "刚落地，我一打开这些 Android 手机，就发现当地 LTE 连接比美国慢很多。Marketplace feed 在低速 LTE 下加载得很差。这是一个非常大的增长阻碍，因为用户连 feed 都加载不出来。",
+      "html": "<p>刚落地，我一打开这些 Android 手机，就发现当地 LTE <span class=\"word-annot\"><span class=\"word-anchor\">连接</span><span class=\"word-block\"><span class=\"english-word\">connect</span><span class=\"word-info\">[kəˈnekt] v. 连接</span></span></span>比美国慢很多。Marketplace feed 在低速 LTE 下<span class=\"word-annot\"><span class=\"word-anchor\">加载</span><span class=\"word-block\"><span class=\"english-word\">loading</span><span class=\"word-info\">[ˈləʊdɪŋ] n. 加载</span></span></span>得很差。这是一个非常大的增长阻碍，因为用户连 feed 都<span class=\"word-annot\"><span class=\"word-anchor\">加载</span><span class=\"word-block\"><span class=\"english-word\">loading</span><span class=\"word-info\">[ˈləʊdɪŋ] n. 加载</span></span></span>不出来。</p>"
+    },
+    {
+      "index": 122,
+      "source_text": "这就是为什么听客户反馈、建立快速反馈循环这么重要。",
+      "html": "<p>这就是为什么听客户反馈、建立<span class=\"word-annot\"><span class=\"word-anchor\">快速</span><span class=\"word-block\"><span class=\"english-word\">quick</span><span class=\"word-info\">[kwɪk] adj. 快速的</span></span></span>反馈循环这么重要。</p>"
+    },
+    {
+      "index": 123,
+      "source_text": "Lenny：我记得好像是 Jeff Bezos 说过：如果数据和一个具体个案发生冲突，要更相信个案。这是一个很好的例子。你之前演讲结尾有一页很有意思，列了一些你现在还没想明白的问题。现在变化太快，我想知道这些问题是否依然存在，或者有没有新的问题。",
+      "html": "<p>Lenny：我<span class=\"word-annot\"><span class=\"word-anchor\">记得</span><span class=\"word-block\"><span class=\"english-word\">remember</span><span class=\"word-info\">[rɪˈmembə] v. 记得</span></span></span>好像是 Jeff Bezos 说过：如果数据和一个具体个案发生冲突，要更相信个案。这是一个很好的<span class=\"word-annot\"><span class=\"word-anchor\">例子</span><span class=\"word-block\"><span class=\"english-word\">example</span><span class=\"word-info\">[ɪɡˈzɑːmpl] n. 例子</span></span></span>。你之前演讲结尾有一页很有意思，列了一些你现在还没想明白的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。现在变化太快，我想知道这些<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>是否依然存在，或者有没有新的问题。</p>"
+    },
+    {
+      "index": 124,
+      "source_text": "你当时提到三个问题：第一，我们是否仍然需要分开的 iOS 和 Android 组织？第二，完全自动化 review 到底能推进到什么程度？第三，在角色边界越来越模糊的情况下，如何确保每个人都同样高效？这些还是你们正在思考的问题吗？还有没有其他你觉得必须解决、但还没解决的问题？",
+      "html": "<p>你当时提到三个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>：第一，我们是否仍然需要分开的 iOS 和 Android 组织？第二，完全<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automate</span><span class=\"word-info\">[ˈɔːtəmeɪt] v. 自动化</span></span></span> review 到底能推进到什么程度？第三，在角色<span class=\"word-annot\"><span class=\"word-anchor\">边界</span><span class=\"word-block\"><span class=\"english-word\">boundary</span><span class=\"word-info\">[ˈbaʊndri] n. 边界</span></span></span>越来越模糊的情况下，如何确保每个人都同样高效？这些还是你们正在思考的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>吗？还有没有其他你觉得必须解决、但还没解决的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>？</p>"
+    },
+    {
+      "index": 125,
+      "source_text": "Fiona：关于 iOS 和 Android 组织这个问题，我们还在思考。前面也提到过，深度专业知识仍然非常重要，所以我们仍然需要有 Android 和 iOS 专家。但因为大家现在可以跨领域 flex，我们可能不再需要过去那么大的、独立的移动端组织。关键是找到平衡：我们是否有正确且足够的专业能力？这个问题仍在探索中。",
+      "html": "<p>Fiona：关于 iOS 和 Android 组织这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>，我们还在思考。前面也提到过，深度<span class=\"word-annot\"><span class=\"word-anchor\">专业知识</span><span class=\"word-block\"><span class=\"english-word\">expertise</span><span class=\"word-info\">[ˌekspɜːˈtiːz] n. 专业知识</span></span></span>仍然非常重要，所以我们仍然需要有 Android 和 iOS 专家。但因为大家现在可以跨<span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[dəˈmeɪn] n. 领域</span></span></span> flex，我们可能不再需要过去那么大的、独立的移动端组织。关键是找到<span class=\"word-annot\"><span class=\"word-anchor\">平衡</span><span class=\"word-block\"><span class=\"english-word\">balance</span><span class=\"word-info\">[ˈbæləns] n. 平衡</span></span></span>：我们是否有正确且足够的专业能力？这个问题仍在<span class=\"word-annot\"><span class=\"word-anchor\">探索</span><span class=\"word-block\"><span class=\"english-word\">explore</span><span class=\"word-info\">[ɪkˈsplɔː] v. 探索</span></span></span>中。</p>"
+    },
+    {
+      "index": 126,
+      "source_text": "Lenny：第二个问题是：完全自动化 review 到底能推到多远？",
+      "html": "<p>Lenny：第二个问题是：完全<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automate</span><span class=\"word-info\">[ˈɔːtəmeɪt] v. 自动化</span></span></span> review 到底能推到多远？</p>"
+    },
+    {
+      "index": 127,
+      "source_text": "Fiona：这个很有意思。比如我们做了 content design check。更大的问题是：你怎样定义 good looks like？verification 仍然是很大的机会点。我们要判断专家经验在哪里仍然重要，同时也要不断问：能不能利用这些专家经验，把一部分事情自动化？我们需要看完整的 end-to-end experience，而不是只从工程角度看。也要思考体验、内容设计等其他领域，不能漏掉这些部分。",
+      "html": "<p>Fiona：这个很有<span class=\"word-annot\"><span class=\"word-anchor\">意思</span><span class=\"word-block\"><span class=\"english-word\">meaning</span><span class=\"word-info\">[ˈmiːnɪŋ] n. 意思</span></span></span>。比如我们<span class=\"word-annot\"><span class=\"word-anchor\">做</span><span class=\"word-block\"><span class=\"english-word\">do</span><span class=\"word-info\">[duː] v. 做</span></span></span>了 content design check。更大的问题是：你怎样<span class=\"word-annot\"><span class=\"word-anchor\">定义</span><span class=\"word-block\"><span class=\"english-word\">define</span><span class=\"word-info\">[dɪˈfaɪn] v. 定义</span></span></span> good looks like？verification 仍然是很大的<span class=\"word-annot\"><span class=\"word-anchor\">机会</span><span class=\"word-block\"><span class=\"english-word\">chance</span><span class=\"word-info\">[tʃɑːns] n. 机会</span></span></span>点。我们要判断专家经验在哪里仍然重要，同时也要不断问：能不能利用这些专家经验，把一部分事情<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automate</span><span class=\"word-info\">[ˈɔːtəmeɪt] v. 自动化</span></span></span>？我们需要看完整的 end-to-end experience，而不是只从<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>角度看。也要思考体验、<span class=\"word-annot\"><span class=\"word-anchor\">内容</span><span class=\"word-block\"><span class=\"english-word\">content</span><span class=\"word-info\">[ˈkɒntent] n. 内容</span></span></span>设计等其他领域，不能漏掉这些部分。</p>"
+    },
+    {
+      "index": 128,
+      "source_text": "Lenny：也就是说，核心问题是：怎么建立一种 verification 机制，确认最后的体验确实是你想要的体验？",
+      "html": "<p>Lenny：也就是说，<span class=\"word-annot\"><span class=\"word-anchor\">核心</span><span class=\"word-block\"><span class=\"english-word\">core</span><span class=\"word-info\">[kɔː] n. 核心</span></span></span>问题是：怎么建立一种 verification 机制，确认最后的体验确实是你想要的体验？</p>"
+    },
+    {
+      "index": 129,
+      "source_text": "Fiona：正是这样。而且这仍然很难。你前面提到 eval，评估里当然有准确性问题，但还有体验问题。体验是否令人满意、是否符合预期，这仍然是我们在思考的难题。",
+      "html": "<p>Fiona：正是这样。而且这仍然很难。你前面提到 eval，<span class=\"word-annot\"><span class=\"word-anchor\">评估</span><span class=\"word-block\"><span class=\"english-word\">evaluate</span><span class=\"word-info\">[ɪˈvæljueɪt] v. 评估</span></span></span>里当然有准确性问题，但还有体验问题。体验是否令人满意、是否符合预期，这仍然是我们在思考的难题。</p>"
+    },
+    {
+      "index": 130,
+      "source_text": "Lenny：还有其他最近出现的新问题吗？有没有什么变化让你觉得，我们必须重新思考团队运作方式？",
+      "html": "<p>Lenny：还有其他最近出现的新<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>吗？有没有什么<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">change</span><span class=\"word-info\">[tʃeɪndʒ] n. 变化</span></span></span>让你觉得，我们必须重新思考团队运作方式？</p>"
+    },
+    {
+      "index": 131,
+      "source_text": "Fiona：有。随着 routines 和更多异步工作出现，我觉得 context switching 的负担正在上升。",
+      "html": "<p>Fiona：有。随着 routines 和更多异步<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>出现，我觉得 context switching 的负担正在上升。</p>"
+    },
+    {
+      "index": 132,
+      "source_text": "我自己也有这种感受：我启动了很多异步任务，然后就需要不断检查、review，还要记得自己当时在做什么。所以无论是对团队成员，还是对用户，我们都需要思考如何改善这个体验，降低上下文切换负担。",
+      "html": "<p>我自己也有这种感受：我启动了很多异步<span class=\"word-annot\"><span class=\"word-anchor\">任务</span><span class=\"word-block\"><span class=\"english-word\">task</span><span class=\"word-info\">[tɑːsk] n. 任务</span></span></span>，然后就需要不断检查、review，还要记得自己当时在做什么。所以无论是对团队成员，还是对用户，我们都需要思考如何改善这个体验，降低<span class=\"word-annot\"><span class=\"word-anchor\">上下文</span><span class=\"word-block\"><span class=\"english-word\">context</span><span class=\"word-info\">[ˈkɒntekst] n. 上下文</span></span></span>切换负担。</p>"
+    },
+    {
+      "index": 133,
+      "source_text": "如果你同时有 20 个 agents 在运行，就会有无穷无尽的检查和 review，而且你必须记住每个任务的上下文。",
+      "html": "<p>如果你同时有 20 个 agents 在运行，就会有无穷无尽的检查和 review，而且你必须记住每个任务的<span class=\"word-annot\"><span class=\"word-anchor\">上下文</span><span class=\"word-block\"><span class=\"english-word\">context</span><span class=\"word-info\">[ˈkɒntekst] n. 上下文</span></span></span>。</p>"
+    },
+    {
+      "index": 134,
+      "source_text": "Lenny：这很有意思。前面我们聊过 flow，过去工程师可以有几个小时连续沉浸。但现在虽然这样的 flow 少了，agent 也能提醒你：你现在进行到哪里了。它让上下文切换变容易，因为你不需要重新理解整个代码库或架构，它可以告诉你：“我们正在做这个。”所以这件事既变好了，也变糟了。",
+      "html": "<p>Lenny：这很有<span class=\"word-annot\"><span class=\"word-anchor\">意思</span><span class=\"word-block\"><span class=\"english-word\">meaning</span><span class=\"word-info\">[ˈmiːnɪŋ] n. 意思</span></span></span>。前面我们聊过 flow，过去<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师可以有几个小时连续沉浸。但<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">present</span><span class=\"word-info\">[ˈpreznt] n. 现在</span></span></span>虽然这样的 flow 少了，agent 也能提醒你：你现在进行到哪里了。它让上下文切换变<span class=\"word-annot\"><span class=\"word-anchor\">容易</span><span class=\"word-block\"><span class=\"english-word\">easy</span><span class=\"word-info\">[ˈiːzi] adj. 容易的</span></span></span>，因为你不需要重新理解整个代码库或架构，它可以告诉你：“我们正在做这个。”所以这件事既变好了，也变糟了。</p>"
+    },
+    {
+      "index": 135,
+      "source_text": "Fiona：是的。过去我会专门 block focus time，用来写代码，因为 coding 需要专注，避免上下文切换。现在有趣的是，因为我同时启动了更多 agents，反而又需要重新 block focus time，用来追上我自己启动的各种异步工作。",
+      "html": "<p>Fiona：是的。过去我会专门 block focus time，用来写代码，因为 coding 需要专注，避免<span class=\"word-annot\"><span class=\"word-anchor\">上下文</span><span class=\"word-block\"><span class=\"english-word\">context</span><span class=\"word-info\">[ˈkɒntekst] n. 上下文</span></span></span>切换。<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">present</span><span class=\"word-info\">[ˈpreznt] n. 现在</span></span></span>有趣的是，因为我同时启动了更多 agents，反而又需要重新 block focus time，用来追上我自己启动的各种异步工作。</p>"
+    },
+    {
+      "index": 136,
+      "source_text": "Lenny：你有什么解决方案吗？这确实很难。大家都想做更多，但怎么避免被持续的上下文切换拖垮？",
+      "html": "<p>Lenny：你有什么<span class=\"word-annot\"><span class=\"word-anchor\">解决方案</span><span class=\"word-block\"><span class=\"english-word\">solution</span><span class=\"word-info\">[səˈluːʃn] n. 解决方案</span></span></span>吗？这确实很难。大家都想做更多，但怎么避免被持续的<span class=\"word-annot\"><span class=\"word-anchor\">上下文</span><span class=\"word-block\"><span class=\"english-word\">context</span><span class=\"word-info\">[ˈkɒntekst] n. 上下文</span></span></span>切换拖垮？</p>"
+    },
+    {
+      "index": 137,
+      "source_text": "Fiona：我同意，这很难。我还没有解决这个问题。",
+      "html": "<p>Fiona：我<span class=\"word-annot\"><span class=\"word-anchor\">同意</span><span class=\"word-block\"><span class=\"english-word\">agree</span><span class=\"word-info\">[əˈɡriː] v. 同意</span></span></span>，这很难。我还没有解决这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。</p>"
+    },
+    {
+      "index": 138,
+      "source_text": "Lenny：我刚想到一个问题，虽然原本没打算问，但现在非常重要：就业和招聘。按理说，AI 似乎会让工程师变得没那么必要。但另一方面，你们正在大量招聘工程师，OpenAI 也在疯狂招聘工程师，工程师需求仍然非常高。你觉得这件事会怎么发展？工程师角色的未来会是什么样？",
+      "html": "<p>Lenny：我刚想到一个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>，虽然原本没打算问，但现在非常重要：就业和招聘。按理说，AI 似乎会让工程师变得没那么<span class=\"word-annot\"><span class=\"word-anchor\">必要</span><span class=\"word-block\"><span class=\"english-word\">necessary</span><span class=\"word-info\">[ˈnesəsəri] adj. 必要的</span></span></span>。但另一方面，你们正在大量招聘工程师，OpenAI 也在疯狂招聘工程师，工程师<span class=\"word-annot\"><span class=\"word-anchor\">需求</span><span class=\"word-block\"><span class=\"english-word\">demand</span><span class=\"word-info\">[dɪˈmɑːnd] n. 需求</span></span></span>仍然非常高。你觉得这件事会怎么<span class=\"word-annot\"><span class=\"word-anchor\">发展</span><span class=\"word-block\"><span class=\"english-word\">develop</span><span class=\"word-info\">[dɪˈveləp] v. 发展</span></span></span>？<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师角色的未来会是什么样？</p>"
+    },
+    {
+      "index": 139,
+      "source_text": "Fiona：我可以坦诚地说，这是我心里的一个大问题。我真的在思考：我们该如何培养下一代工程师。你和我走上工程道路的方式，和现在的新人会非常不同。现在一个人从学校毕业后，可能需要被“快进”到一个更高的工作方式。但对我来说，重要的是，他仍然要理解我前面提到的 double click，也就是能深入理解自己依赖的那一层。",
+      "html": "<p>Fiona：我可以坦诚地说，这是我心里的一个大<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。我真的在思考：我们该如何培养下一代<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>师。你和我走上<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>道路的方式，和现在的新人会非常不同。现在一个人从<span class=\"word-annot\"><span class=\"word-anchor\">学校</span><span class=\"word-block\"><span class=\"english-word\">school</span><span class=\"word-info\">[skuːl] n. 学校</span></span></span>毕业后，可能需要被“快进”到一个更高的工作方式。但对我来说，重要的是，他仍然要理解我前面提到的 double click，也就是能深入理解自己<span class=\"word-annot\"><span class=\"word-anchor\">依赖</span><span class=\"word-block\"><span class=\"english-word\">dependency</span><span class=\"word-info\">[dɪˈpendənsi] n. 依赖</span></span></span>的那一层。</p>"
+    },
+    {
+      "index": 140,
+      "source_text": "我不知道答案，但我在想，软件工程教育会不会更像 fellowship 或 apprenticeship，也就是某种研究员式、学徒式项目。虽然现在也有 internship，但很多实习只是三个月的小项目。未来我们也许需要一种方式，把我们过去通过多年写代码、踩坑积累到的经验，压缩并传递给下一代 builder。",
+      "html": "<p>我不知道答案，但我在想，软件工程<span class=\"word-annot\"><span class=\"word-anchor\">教育</span><span class=\"word-block\"><span class=\"english-word\">education</span><span class=\"word-info\">[ˌedʒuˈkeɪʃn] n. 教育</span></span></span>会不会更像 fellowship 或 apprenticeship，也就是某种研究员式、学徒式项目。虽然现在也有 internship，但很多实习只是三个月的小<span class=\"word-annot\"><span class=\"word-anchor\">项目</span><span class=\"word-block\"><span class=\"english-word\">project</span><span class=\"word-info\">[ˈprɒdʒekt] n. 项目</span></span></span>。未来我们也许需要一种方式，把我们过去通过多年写<span class=\"word-annot\"><span class=\"word-anchor\">代码</span><span class=\"word-block\"><span class=\"english-word\">code</span><span class=\"word-info\">[kəʊd] n. 代码</span></span></span>、踩坑积累到的经验，压缩并传递给下一代 builder。</p>"
+    },
+    {
+      "index": 141,
+      "source_text": "如果一个年轻软件工程师根本不需要亲自看代码，那他为什么还会有动力真正理解基础设施、内存分配这些基础知识？也许模型有一天会强到这些都不再重要，但我仍然认为，double click 的能力很重要。因为真正改进产品或系统的机会，往往来自你理解了更底层的东西。问题是：如何不靠多年手写代码，也能学到这些东西？Lenny：总得有人在某个层面理解代码。否则未来可能会像 COBOL 工程师一样，还得把退休的人找回来问：“你还记得怎么写 Python 吗？”",
+      "html": "<p>如果一个年轻软件工程师根本不需要亲自看代码，那他为什么还会有动力真正理解基础设施、内存<span class=\"word-annot\"><span class=\"word-anchor\">分配</span><span class=\"word-block\"><span class=\"english-word\">allocate</span><span class=\"word-info\">[ˈæləkeɪt] v. 分配</span></span></span>这些基础知识？也许模型有一天会强到这些都不再重要，但我仍然认为，double click 的<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>很重要。因为真正改进产品或系统的机会，往往来自你<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">understand</span><span class=\"word-info\">[ˌʌndəˈstænd] v. 理解</span></span></span>了更底层的东西。<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>是：如何不靠多年手写代码，也能学到这些东西？Lenny：总得有人在某个层面<span class=\"word-annot\"><span class=\"word-anchor\">理解</span><span class=\"word-block\"><span class=\"english-word\">understand</span><span class=\"word-info\">[ˌʌndəˈstænd] v. 理解</span></span></span>代码。否则未来可能会像 COBOL 工程师一样，还得把退休的人找<span class=\"word-annot\"><span class=\"word-anchor\">回来</span><span class=\"word-block\"><span class=\"english-word\">return</span><span class=\"word-info\">[rɪˈtɜːn] v. 回来</span></span></span>问：“你还记得怎么写 Python 吗？”</p>"
+    },
+    {
+      "index": 142,
+      "source_text": "Fiona：很有意思的是，我以前有一位 manager，他开始做软件工程时用的是 punch cards。现在他一直给我发消息，展示他用 Claude Code 做了什么。我觉得这很神奇。他的职业生涯从打孔卡开始，一直看到现在这种变化。",
+      "html": "<p>Fiona：很有意思的是，我以前有一位 manager，他开始做软件<span class=\"word-annot\"><span class=\"word-anchor\">工程</span><span class=\"word-block\"><span class=\"english-word\">engineering</span><span class=\"word-info\">[ˌendʒɪˈnɪərɪŋ] n. 工程</span></span></span>时用的是 punch cards。现在他一直给我发<span class=\"word-annot\"><span class=\"word-anchor\">消息</span><span class=\"word-block\"><span class=\"english-word\">message</span><span class=\"word-info\">[ˈmesɪdʒ] n. 消息</span></span></span>，展示他用 Claude Code 做了什么。我觉得这很神奇。他的职业生涯从打孔卡开始，一直看到现在这种<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">change</span><span class=\"word-info\">[tʃeɪndʒ] n. 变化</span></span></span>。</p>"
+    },
+    {
+      "index": 143,
+      "source_text": "所以也许我们需要思考的是：哪些东西会继续重要，哪些东西的重要性会下降。也许随着时间变化，重要能力会转移。关键是，我们要学会构建那些真正重要的能力。",
+      "html": "<p>所以也许我们需要思考的是：哪些东西会继续<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>，哪些东西的重要性会下降。也许随着时间变化，重要<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>会转移。关键是，我们要学会构建那些真正重要的<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>。</p>"
+    },
+    {
+      "index": 144,
+      "source_text": "Lenny：我经常听到的说法是：这只是新的抽象层。过去从二进制到汇编，再到更高级语言，抽象层一直在往上走。现在也许我们不需要直接看代码，而是进入 prompt、Claude thinking message 这类新的抽象层。",
+      "html": "<p>Lenny：我经常<span class=\"word-annot\"><span class=\"word-anchor\">听</span><span class=\"word-block\"><span class=\"english-word\">listen</span><span class=\"word-info\">[ˈlɪsn] v. 听</span></span></span>到的说法是：这只是新的抽象层。过去从二进制到汇编，再到更高级<span class=\"word-annot\"><span class=\"word-anchor\">语言</span><span class=\"word-block\"><span class=\"english-word\">language</span><span class=\"word-info\">[ˈlæŋɡwɪdʒ] n. 语言</span></span></span>，抽象层一直在往上走。现在也许我们不需要直接看<span class=\"word-annot\"><span class=\"word-anchor\">代码</span><span class=\"word-block\"><span class=\"english-word\">code</span><span class=\"word-info\">[kəʊd] n. 代码</span></span></span>，而是进入 prompt、Claude thinking message 这类新的抽象层。</p>"
+    },
+    {
+      "index": 145,
+      "source_text": "Fiona：也许未来更重要的问题会变成：你要解决什么有意思的问题？你要优先构建什么体验？当你构建完之后，怎么知道它真的产生共鸣？它是否真的做到了你想要的事情？它是否足够好？Lenny：对，也就是说，我们到底是在构建一堆 slop，还是在构建真正能工作的架构？年轻人的优势可能在于，他们更容易直接进入这种新工作方式，而不是被旧方式束缚。像你这样有多年经验的工程师还能适应并拥抱这种变化，其实很不容易。",
+      "html": "<p>Fiona：也许未来更重要的<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>会变成：你要解决什么有意思的问题？你要优先构建什么体验？当你构建完之后，怎么知道它真的<span class=\"word-annot\"><span class=\"word-anchor\">产生</span><span class=\"word-block\"><span class=\"english-word\">produce</span><span class=\"word-info\">[prəˈdjuːs] v. 产生</span></span></span>共鸣？它是否真的做到了你<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>要的事情？它是否足够好？Lenny：对，也就是说，我们到底是在构建一堆 slop，还是在构建真正能工作的<span class=\"word-annot\"><span class=\"word-anchor\">架构</span><span class=\"word-block\"><span class=\"english-word\">architecture</span><span class=\"word-info\">[ˈɑːkɪtektʃə] n. 架构</span></span></span>？年轻人的优势可能在于，他们更容易直接进入这种新<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>方式，而不是被旧方式束缚。像你这样有多年经验的工程师还能<span class=\"word-annot\"><span class=\"word-anchor\">适应</span><span class=\"word-block\"><span class=\"english-word\">adapt</span><span class=\"word-info\">[əˈdæpt] v. 适应</span></span></span>并拥抱这种变化，其实很不容易。</p>"
+    },
+    {
+      "index": 146,
+      "source_text": "Fiona：变化速度确实非常快。我记得第一次用 Sonnet 3.5 或 3.6 做一些 side project 时，它还会犯一些错。我当时会想：你在干什么？但我注意到，一些抵触 AI 工具的工程师会说：“你看，它就是不行。”他们很难理解模型能力提升的指数速度。",
+      "html": "<p>Fiona：变化<span class=\"word-annot\"><span class=\"word-anchor\">速度</span><span class=\"word-block\"><span class=\"english-word\">speed</span><span class=\"word-info\">[spiːd] n. 速度</span></span></span>确实非常快。我<span class=\"word-annot\"><span class=\"word-anchor\">记得</span><span class=\"word-block\"><span class=\"english-word\">remember</span><span class=\"word-info\">[rɪˈmembə] v. 记得</span></span></span>第一次用 Sonnet 3.5 或 3.6 做一些 side project 时，它还会犯一些错。我当时会<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>：你在干什么？但我<span class=\"word-annot\"><span class=\"word-anchor\">注意</span><span class=\"word-block\"><span class=\"english-word\">notice</span><span class=\"word-info\">[ˈnəʊtɪs] v. 注意</span></span></span>到，一些抵触 AI 工具的工程师会说：“你看，它就是不行。”他们很难理解模型能力提升的指数<span class=\"word-annot\"><span class=\"word-anchor\">速度</span><span class=\"word-block\"><span class=\"english-word\">velocity</span><span class=\"word-info\">[vəˈlɒsəti] n. 速度</span></span></span>。</p>"
+    },
+    {
+      "index": 147,
+      "source_text": "这也是我自己正在学习的一点：有些我曾经尝试自动化的事情，Claude 当时还不够好；但到了下一个模型，突然就足够好了。所以要经常回头看那些以前没跑通的事情，因为现在可能已经变成新的能力了。",
+      "html": "<p>这也是我自己正在学习的一点：有些我曾经尝试<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automate</span><span class=\"word-info\">[ˈɔːtəmeɪt] v. 自动化</span></span></span>的事情，Claude 当时还不够好；但到了下一个<span class=\"word-annot\"><span class=\"word-anchor\">模型</span><span class=\"word-block\"><span class=\"english-word\">model</span><span class=\"word-info\">[ˈmɒdl] n. 模型</span></span></span>，突然就足够好了。所以要经常回头看那些以前没跑通的事情，因为现在可能已经变成新的<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>了。</p>"
+    },
+    {
+      "index": 148,
+      "source_text": "Lenny：这个观点在节目里也经常出现：构建那些“几乎能工作”、处在能力边缘的东西。等模型能力补上来，你就会比别人领先很多。",
+      "html": "<p>Lenny：这个观点在节目里也经常出现：构建那些“几乎能工作”、处在<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>边缘的东西。等模型<span class=\"word-annot\"><span class=\"word-anchor\">能力</span><span class=\"word-block\"><span class=\"english-word\">capability</span><span class=\"word-info\">[ˌkeɪpəˈbɪləti] n. 能力</span></span></span>补上来，你就会比别人领先很多。</p>"
+    },
+    {
+      "index": 149,
+      "source_text": "Lenny：最后一个问题。你可能已经用刚才的回答回答了一部分，但我还是想问：什么事情会让你夜里睡不着？",
+      "html": "<p>Lenny：最后一个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。你可能已经用刚才的<span class=\"word-annot\"><span class=\"word-anchor\">回答</span><span class=\"word-block\"><span class=\"english-word\">reply</span><span class=\"word-info\">[rɪˈplaɪ] v. 回答</span></span></span>回答了一部分，但我还是想问：什么事情会让你夜里睡不着？</p>"
+    },
+    {
+      "index": 150,
+      "source_text": "Fiona：最让我睡不着的，大概是我们如何保持 Claude Code 和 Cowork 团队的文化。团队文化对我非常重要。我很重视 one team mentality，也就是一个团队的心态。文化不是贴在墙上的海报，它是一个活的东西，会随着时间变化。它体现在我们如何对待彼此，如何支持彼此。",
+      "html": "<p>Fiona：最让我睡不着的，大概是我们如何保持 Claude Code 和 Cowork 团队的<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>。团队<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>对我非常重要。我很重视 one team mentality，也就是一个<span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>的心态。<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>不是贴在墙上的海报，它是一个活的东西，会随着时间变化。它体现在我们如何对待彼此，如何<span class=\"word-annot\"><span class=\"word-anchor\">支持</span><span class=\"word-block\"><span class=\"english-word\">support</span><span class=\"word-info\">[səˈpɔːt] v. 支持</span></span></span>彼此。</p>"
+    },
+    {
+      "index": 151,
+      "source_text": "我们正在增长，而文化也会在增长中变化。所以我很在意：我们能否保留那些重要的东西？比如多元视角、健康开放的争论、公开诚实的讨论，以及当你接近终点线时，是否会回头看看其他队友需不需要帮助。因为我们是一起完成事情的。",
+      "html": "<p>我们正在增长，而<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>也会在增长中变化。所以我很在意：我们能否保留那些<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>的东西？比如多元<span class=\"word-annot\"><span class=\"word-anchor\">视角</span><span class=\"word-block\"><span class=\"english-word\">perspective</span><span class=\"word-info\">[pəˈspektɪv] n. 视角</span></span></span>、健康开放的争论、公开诚实的讨论，以及当你接近终点线时，是否会回头看看其他队友需不需要帮助。因为我们是一起<span class=\"word-annot\"><span class=\"word-anchor\">完成</span><span class=\"word-block\"><span class=\"english-word\">complete</span><span class=\"word-info\">[kəmˈpliːt] v. 完成</span></span></span>事情的。</p>"
+    },
+    {
+      "index": 152,
+      "source_text": "这可能是最让我担心的事情。其他很多问题是产品或工程挑战，我们可以用 dashboard、理论或假设来处理。但文化是人的问题，它是团队的纤维。我总是担心，如果文化开始漂移，我们能不能及时发现，并且作为一个团队一起讨论，确保它朝正确方向生长。",
+      "html": "<p>这<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>是最让我担心的事情。其他很多问题是产品或工程<span class=\"word-annot\"><span class=\"word-anchor\">挑战</span><span class=\"word-block\"><span class=\"english-word\">challenge</span><span class=\"word-info\">[ˈtʃælɪndʒ] n. 挑战</span></span></span>，我们可以用 dashboard、理论或假设来处理。但<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>是人的问题，它是团队的纤维。我总是担心，如果<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>开始漂移，我们能不能及时发现，并且作为一个团队一起讨论，确保它朝正确方向生长。</p>"
+    },
+    {
+      "index": 153,
+      "source_text": "Lenny：我能想象大家都在面临这个问题。考虑到变化速度和招聘速度，尤其是 Anthropic 这样处在几乎前所未有增长轨迹上的公司，保持文化一定很难。我之前在 Airbnb 时也经历过高速增长，虽然和你们现在的增长不能比，但如何维持文化也是一个持续讨论的话题。",
+      "html": "<p>Lenny：我能想象大家都在面临这个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。考虑到变化速度和招聘速度，尤其是 Anthropic 这样处在几乎前所未有增长轨迹上的公司，保持<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>一定很难。我之前在 Airbnb 时也经历过高速增长，虽然和你们现在的增长不能比，但如何维持<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>也是一个持续讨论的话题。</p>"
+    },
+    {
+      "index": 154,
+      "source_text": "Fiona：我很好奇，你在 Airbnb 时是怎么维持文化的？Lenny：有几件事很有用。第一是创始人非常重视文化。在每次全员会、每次大型会议上，他们都会不断提醒大家文化的重要性，以及公司价值观是什么。创始人自上而下地对文化保持执着，这是很重要的一部分。",
+      "html": "<p>Fiona：我很好奇，你在 Airbnb 时是怎么维持<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>的？Lenny：有几件事很有用。第一是创始人非常重视<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>。在每次全员会、每次大型<span class=\"word-annot\"><span class=\"word-anchor\">会议</span><span class=\"word-block\"><span class=\"english-word\">meeting</span><span class=\"word-info\">[ˈmiːtɪŋ] n. 会议</span></span></span>上，他们都会不断提醒大家文化的重要性，以及公司价值观是什么。创始人自上而下地对<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>保持执着，这是很重要的一部分。</p>"
+    },
+    {
+      "index": 155,
+      "source_text": "还有一个记忆我一直记得。当时 Sheryl Sandberg 来 Airbnb 做 fireside chat，有人问她：公司快速扩张时，怎么维持文化？她的建议是，这其实是你想要拥有的问题。因为这说明公司在增长、在做得不错。相反，如果公司做得很差，增长停滞，没有疯狂招聘，也许什么都不会变，但那是更糟糕的情况。所以高速增长带来的文化挑战，是一个“好问题”。这个建议我一直记得。",
+      "html": "<p>还有一个记忆我一直<span class=\"word-annot\"><span class=\"word-anchor\">记得</span><span class=\"word-block\"><span class=\"english-word\">remember</span><span class=\"word-info\">[rɪˈmembə] v. 记得</span></span></span>。当时 Sheryl Sandberg 来 Airbnb 做 fireside chat，有人问她：公司快速扩张时，怎么维持<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>？她的<span class=\"word-annot\"><span class=\"word-anchor\">建议</span><span class=\"word-block\"><span class=\"english-word\">advise</span><span class=\"word-info\">[ədˈvaɪz] v. 建议</span></span></span>是，这其实是你想要拥有的问题。因为这说明<span class=\"word-annot\"><span class=\"word-anchor\">公司</span><span class=\"word-block\"><span class=\"english-word\">company</span><span class=\"word-info\">[ˈkʌmpəni] n. 公司</span></span></span>在增长、在做得不错。相反，如果<span class=\"word-annot\"><span class=\"word-anchor\">公司</span><span class=\"word-block\"><span class=\"english-word\">company</span><span class=\"word-info\">[ˈkʌmpəni] n. 公司</span></span></span>做得很差，增长停滞，没有疯狂招聘，也许什么都不会变，但那是更糟糕的情况。所以高速增长带来的文化<span class=\"word-annot\"><span class=\"word-anchor\">挑战</span><span class=\"word-block\"><span class=\"english-word\">challenge</span><span class=\"word-info\">[ˈtʃælɪndʒ] n. 挑战</span></span></span>，是一个“好问题”。这个<span class=\"word-annot\"><span class=\"word-anchor\">建议</span><span class=\"word-block\"><span class=\"english-word\">recommend</span><span class=\"word-info\">[ˌrekəˈmend] v. 推荐</span></span></span>我一直记得。</p>"
+    },
+    {
+      "index": 156,
+      "source_text": "Fiona：这很好。听你这么说，我想到 Claude Code 和 Cowork 团队里很重要的一点：无论是 IC 还是 manager，尤其是 manager，我们都必须公开讨论什么进展顺利，也要公开讨论什么进展不顺利。",
+      "html": "<p>Fiona：这很好。听你这么说，我想到 Claude Code 和 Cowork 团队里很重要的一点：无论是 IC 还是 manager，尤其是 manager，我们都必须公开<span class=\"word-annot\"><span class=\"word-anchor\">讨论</span><span class=\"word-block\"><span class=\"english-word\">discussion</span><span class=\"word-info\">[dɪˈskʌʃn] n. 讨论</span></span></span>什么进展顺利，也要公开讨论什么进展不顺利。</p>"
+    },
+    {
+      "index": 157,
+      "source_text": "只有当我们能谈论不顺利的地方时，才有机会解决问题。说到让我睡不着的事情，我的噩梦是：某个 manager 在我问“情况怎么样”时说，“一切都很好。”但我心里想：“天啊，不可能一切都很好，我知道这里有问题。”",
+      "html": "<p>只有当我们能谈论不顺利的地方时，才有机会解决<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。说到让我睡不着的事情，我的噩梦是：某个 manager 在我<span class=\"word-annot\"><span class=\"word-anchor\">问</span><span class=\"word-block\"><span class=\"english-word\">ask</span><span class=\"word-info\">[ɑːsk] v. 问</span></span></span>“情况怎么样”时说，“一切都很好。”但我心里想：“天啊，不可能一切都很好，我知道这里有<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。”</p>"
+    },
+    {
+      "index": 158,
+      "source_text": "这就像那个 meme：房间着火了，狗还坐着喝咖啡说“this is fine”。这就是我的噩梦。所以我会和很多团队成员，尤其是刚加入的 manager，反复讨论这件事：我们要一直保持开放对话，这样才能一起解决问题。",
+      "html": "<p>这就像那个 meme：房间着火了，狗还<span class=\"word-annot\"><span class=\"word-anchor\">坐</span><span class=\"word-block\"><span class=\"english-word\">sit</span><span class=\"word-info\">[sɪt] v. 坐</span></span></span>着喝咖啡说“this is fine”。这就是我的噩梦。所以我会和很多团队成员，尤其是刚加入的 manager，反复讨论这件事：我们要一直保持开放对话，这样才能一起解决<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。</p>"
+    },
+    {
+      "index": 159,
+      "source_text": "Lenny：我想很多人都会有这种挣扎。周围的人看起来都做得很好，表面上每个人都在赢、都在成长、都在一家很棒的公司里顺风顺水。在这种环境下，要诚实地说“我这里不太顺，我有点跟不上”，其实很难。在进入 lightning round 之前，还有什么你想留给听众的吗？有没有我们没聊到、但你觉得很重要的事情？",
+      "html": "<p>Lenny：我<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>很多人都会有这种挣扎。周围的人看起来都做得很好，表面上每个人都在赢、都在<span class=\"word-annot\"><span class=\"word-anchor\">成长</span><span class=\"word-block\"><span class=\"english-word\">growth</span><span class=\"word-info\">[ɡrəʊθ] n. 成长</span></span></span>、都在一家很棒的公司里顺风顺水。在这种<span class=\"word-annot\"><span class=\"word-anchor\">环境</span><span class=\"word-block\"><span class=\"english-word\">environment</span><span class=\"word-info\">[ɪnˈvaɪrənmənt] n. 环境</span></span></span>下，要诚实地说“我这里不太顺，我有点跟不上”，其实很难。在<span class=\"word-annot\"><span class=\"word-anchor\">进入</span><span class=\"word-block\"><span class=\"english-word\">enter</span><span class=\"word-info\">[ˈentə] v. 进入</span></span></span> lightning round 之前，还有什么你想留给听众的吗？有没有我们没聊到、但你觉得很<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>的事情？</p>"
+    },
+    {
+      "index": 160,
+      "source_text": "Fiona：我想提一个建议。我们前面聊到 Claude 可以自动化很多事情。Claude Code 和 Cowork 团队文化里还有一件很重要的事：我们明确允许自己杀掉那些已经不再服务我们的流程。",
+      "html": "<p>Fiona：我想提一个<span class=\"word-annot\"><span class=\"word-anchor\">建议</span><span class=\"word-block\"><span class=\"english-word\">suggestion</span><span class=\"word-info\">[səˈdʒestʃən] n. 建议</span></span></span>。我们前面聊到 Claude 可以<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automate</span><span class=\"word-info\">[ˈɔːtəmeɪt] v. 自动化</span></span></span>很多事情。Claude Code 和 Cowork 团队文化里还有一件很重要的事：我们明确<span class=\"word-annot\"><span class=\"word-anchor\">允许</span><span class=\"word-block\"><span class=\"english-word\">allow</span><span class=\"word-info\">[əˈlaʊ] v. 允许</span></span></span>自己杀掉那些已经不再服务我们的流程。</p>"
+    },
+    {
+      "index": 161,
+      "source_text": "所以如果你在一个团队里工作，或者你在带团队，可以挑一个流程：它可能是你很讨厌做的，可能噪音很大，可能成本很高，可能非常手动。先问一句：它还在实现原本的目的吗？比如规划这件事。我刚加入 Claude 团队时，曾经想：也许我们应该做一个六个月 roadmap 文档，而且要做得很轻量，因为我不想浪费太多时间在规划上。我当时觉得已经很轻量了。",
+      "html": "<p>所以如果你在一个团队里工作，或者你在带团队，可以挑一个流程：它可能是你很讨厌做的，可能噪音很大，可能成本很高，可能非常<span class=\"word-annot\"><span class=\"word-anchor\">手动</span><span class=\"word-block\"><span class=\"english-word\">manual</span><span class=\"word-info\">[ˈmænjuəl] adj. 手动的</span></span></span>。先问一句：它还在<span class=\"word-annot\"><span class=\"word-anchor\">实现</span><span class=\"word-block\"><span class=\"english-word\">implement</span><span class=\"word-info\">[ˈɪmplɪment] v. 实现</span></span></span>原本的目的吗？比如<span class=\"word-annot\"><span class=\"word-anchor\">规划</span><span class=\"word-block\"><span class=\"english-word\">planning</span><span class=\"word-info\">[ˈplænɪŋ] n. 规划</span></span></span>这件事。我刚加入 Claude 团队时，曾经想：也许我们应该做一个六个月 roadmap <span class=\"word-annot\"><span class=\"word-anchor\">文档</span><span class=\"word-block\"><span class=\"english-word\">documentation</span><span class=\"word-info\">[ˌdɒkjumenˈteɪʃn] n. 文档</span></span></span>，而且要做得很轻量，因为我不想浪费太多时间在规划上。我当时觉得已经很轻量了。</p>"
+    },
+    {
+      "index": 162,
+      "source_text": "这个过程确实有价值，它帮助我们开启对话、确保对齐。但三个月后，我突然意识到：我们还在参考这个东西吗？因为变化太快了。于是我也调整了这个原本由我带进来的流程。",
+      "html": "<p>这个过程确实有<span class=\"word-annot\"><span class=\"word-anchor\">价值</span><span class=\"word-block\"><span class=\"english-word\">value</span><span class=\"word-info\">[ˈvæljuː] n. 价值</span></span></span>，它帮助我们开启对话、确保对齐。但三个月后，我突然<span class=\"word-annot\"><span class=\"word-anchor\">意识</span><span class=\"word-block\"><span class=\"english-word\">awareness</span><span class=\"word-info\">[əˈweənəs] n. 意识</span></span></span>到：我们还在参考这个东西吗？因为<span class=\"word-annot\"><span class=\"word-anchor\">变化</span><span class=\"word-block\"><span class=\"english-word\">change</span><span class=\"word-info\">[tʃeɪndʒ] n. 变化</span></span></span>太快了。于是我也<span class=\"word-annot\"><span class=\"word-anchor\">调整</span><span class=\"word-block\"><span class=\"english-word\">adjust</span><span class=\"word-info\">[əˈdʒʌst] v. 调整</span></span></span>了这个原本由我带进来的流程。</p>"
+    },
+    {
+      "index": 163,
+      "source_text": "所以一定要保持开放学习，不断问自己：任何流程是否仍然服务它的目的？因为这个领域变化太快了。",
+      "html": "<p>所以一定要保持开放学习，不断问自己：任何<span class=\"word-annot\"><span class=\"word-anchor\">流程</span><span class=\"word-block\"><span class=\"english-word\">process</span><span class=\"word-info\">[ˈprəʊses] n. 流程</span></span></span>是否仍然服务它的目的？因为这个<span class=\"word-annot\"><span class=\"word-anchor\">领域</span><span class=\"word-block\"><span class=\"english-word\">domain</span><span class=\"word-info\">[dəˈmeɪn] n. 领域</span></span></span>变化太快了。</p>"
+    },
+    {
+      "index": 164,
+      "source_text": "Lenny：我很喜欢这个建议。那我想追问一下：你们现在怎么做规划？还做规划吗？是按月做 roadmap？能不能简单解释一下你们现在的方式？",
+      "html": "<p>Lenny：我很喜欢这个<span class=\"word-annot\"><span class=\"word-anchor\">建议</span><span class=\"word-block\"><span class=\"english-word\">suggestion</span><span class=\"word-info\">[səˈdʒestʃən] n. 建议</span></span></span>。那我想追问一下：你们现在怎么做<span class=\"word-annot\"><span class=\"word-anchor\">规划</span><span class=\"word-block\"><span class=\"english-word\">planning</span><span class=\"word-info\">[ˈplænɪŋ] n. 规划</span></span></span>？还做<span class=\"word-annot\"><span class=\"word-anchor\">规划</span><span class=\"word-block\"><span class=\"english-word\">planning</span><span class=\"word-info\">[ˈplænɪŋ] n. 规划</span></span></span>吗？是按月<span class=\"word-annot\"><span class=\"word-anchor\">做</span><span class=\"word-block\"><span class=\"english-word\">do</span><span class=\"word-info\">[duː] v. 做</span></span></span> roadmap？能不能简单<span class=\"word-annot\"><span class=\"word-anchor\">解释</span><span class=\"word-block\"><span class=\"english-word\">explain</span><span class=\"word-info\">[ɪkˈspleɪn] v. 解释</span></span></span>一下你们现在的方式？</p>"
+    },
+    {
+      "index": 165,
+      "source_text": "Fiona：我现在叫它 JIT planning，也就是 just-in-time planning。",
+      "html": "<p>Fiona：我<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">present</span><span class=\"word-info\">[ˈpreznt] n. 现在</span></span></span>叫它 JIT planning，也就是 just-in-time planning。</p>"
+    },
+    {
+      "index": 166,
+      "source_text": "六个月对我们来说太长了。当然，有些项目会超过一个月，但我们现在尽量做轻量的月度规划。其实甚至没有文档，只是用一个小 spreadsheet，对齐我们认为重要的事情。",
+      "html": "<p>六个月对我们来<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>太长了。当然，有些项目会超过一个月，但我们现在尽量做轻量的月度<span class=\"word-annot\"><span class=\"word-anchor\">规划</span><span class=\"word-block\"><span class=\"english-word\">planning</span><span class=\"word-info\">[ˈplænɪŋ] n. 规划</span></span></span>。其实甚至没有<span class=\"word-annot\"><span class=\"word-anchor\">文档</span><span class=\"word-block\"><span class=\"english-word\">documentation</span><span class=\"word-info\">[ˌdɒkjumenˈteɪʃn] n. 文档</span></span></span>，只是用一个小 spreadsheet，对齐我们认为重要的事情。</p>"
+    },
+    {
+      "index": 167,
+      "source_text": "即便是这个 spreadsheet，我也还在思考是否可以进一步自动化。现在我们的方式是：列出这个月的优先级，然后每周快速检查一下，这些是否仍然是本月优先级。",
+      "html": "<p>即便是这个 spreadsheet，我也还在思考是否可以进一步<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automate</span><span class=\"word-info\">[ˈɔːtəmeɪt] v. 自动化</span></span></span>。现在我们的方式是：列出这个月的<span class=\"word-annot\"><span class=\"word-anchor\">优先级</span><span class=\"word-block\"><span class=\"english-word\">priority</span><span class=\"word-info\">[praɪˈɒrəti] n. 优先级</span></span></span>，然后每周快速检查一下，这些是否仍然是本月优先级。</p>"
+    },
+    {
+      "index": 168,
+      "source_text": "所以我们已经把它缩短成 JIT monthly planning。也就是说，下个月我们准备做什么，用一个小表格列出来；每周 check-in，确认这是否仍然是下个月要做的事情。",
+      "html": "<p>所以我们已经把它缩短成 JIT monthly planning。也就是说，下个月我们准备做什么，用一个小<span class=\"word-annot\"><span class=\"word-anchor\">表格</span><span class=\"word-block\"><span class=\"english-word\">table</span><span class=\"word-info\">[ˈteɪbl] n. 表格</span></span></span>列出来；每周 check-in，<span class=\"word-annot\"><span class=\"word-anchor\">确认</span><span class=\"word-block\"><span class=\"english-word\">confirmation</span><span class=\"word-info\">[ˌkɒnfəˈmeɪʃn] n. 确认</span></span></span>这是否仍然是下个月要做的事情。</p>"
+    },
+    {
+      "index": 169,
+      "source_text": "Lenny：这很有意思。听起来你们表格里的事项也不多。",
+      "html": "<p>Lenny：这很有<span class=\"word-annot\"><span class=\"word-anchor\">意思</span><span class=\"word-block\"><span class=\"english-word\">meaning</span><span class=\"word-info\">[ˈmiːnɪŋ] n. 意思</span></span></span>。听起来你们<span class=\"word-annot\"><span class=\"word-anchor\">表格</span><span class=\"word-block\"><span class=\"english-word\">table</span><span class=\"word-info\">[ˈteɪbl] n. 表格</span></span></span>里的事项也不多。</p>"
+    },
+    {
+      "index": 170,
+      "source_text": "Fiona：是的，我们会尽量聚焦。我们会分享最高优先级是什么。然后基于这些优先级，每个人都会提出自己认为可以如何推进这些优先级的事项。这也和 agency 有关。",
+      "html": "<p>Fiona：是的，我们会尽量聚焦。我们会分享最高<span class=\"word-annot\"><span class=\"word-anchor\">优先级</span><span class=\"word-block\"><span class=\"english-word\">priority</span><span class=\"word-info\">[praɪˈɒrəti] n. 优先级</span></span></span>是什么。然后基于这些<span class=\"word-annot\"><span class=\"word-anchor\">优先级</span><span class=\"word-block\"><span class=\"english-word\">priority</span><span class=\"word-info\">[praɪˈɒrəti] n. 优先级</span></span></span>，每个人都会提出自己认为可以如何推进这些优先级的事项。这也和 agency 有关。</p>"
+    },
+    {
+      "index": 171,
+      "source_text": "Lenny：那你们会不会也有未来六个月的大方向或大赌注？还是只看一个月？",
+      "html": "<p>Lenny：那你们会不会也有<span class=\"word-annot\"><span class=\"word-anchor\">未来</span><span class=\"word-block\"><span class=\"english-word\">future</span><span class=\"word-info\">[ˈfjuːtʃə] n. 未来</span></span></span>六个月的大方向或大赌注？还是只<span class=\"word-annot\"><span class=\"word-anchor\">看</span><span class=\"word-block\"><span class=\"english-word\">watch</span><span class=\"word-info\">[wɒtʃ] v. 看</span></span></span>一个月？</p>"
+    },
+    {
+      "index": 172,
+      "source_text": "Fiona：通常我们会有一些主题。大概每六个月，我们会把整个团队聚在一起，启动一些主题。但重点仍然是保持对现实变化的感知。因为环境变化太快，即使主题也可能很快变化。",
+      "html": "<p>Fiona：通常我们会有一些<span class=\"word-annot\"><span class=\"word-anchor\">主题</span><span class=\"word-block\"><span class=\"english-word\">subject</span><span class=\"word-info\">[ˈsʌbdʒɪkt] n. 主题</span></span></span>。大概每六个月，我们会把整个<span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>聚在一起，启动一些主题。但重点仍然是保持对<span class=\"word-annot\"><span class=\"word-anchor\">现实</span><span class=\"word-block\"><span class=\"english-word\">reality</span><span class=\"word-info\">[riˈæləti] n. 现实</span></span></span>变化的感知。因为<span class=\"word-annot\"><span class=\"word-anchor\">环境</span><span class=\"word-block\"><span class=\"english-word\">environment</span><span class=\"word-info\">[ɪnˈvaɪrənmənt] n. 环境</span></span></span>变化太快，即使主题也可能很快变化。</p>"
+    },
+    {
+      "index": 173,
+      "source_text": "Lenny：这太有意思了。这个节目其实可以全程只聊你们怎么规划。",
+      "html": "<p>Lenny：这太有<span class=\"word-annot\"><span class=\"word-anchor\">意思</span><span class=\"word-block\"><span class=\"english-word\">meaning</span><span class=\"word-info\">[ˈmiːnɪŋ] n. 意思</span></span></span>了。这个节目其实可以全程只聊你们怎么<span class=\"word-annot\"><span class=\"word-anchor\">规划</span><span class=\"word-block\"><span class=\"english-word\">planning</span><span class=\"word-info\">[ˈplænɪŋ] n. 规划</span></span></span>。</p>"
+    },
+    {
+      "index": 174,
+      "source_text": "Lenny：我还有几个小问题想让你快问快答下。第一个问题。你最常向别人推荐的两三本书是什么？",
+      "html": "<p>Lenny：我还有几个小<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>想让你快问快答下。第一个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。你最常向别人推荐的两三本书是什么？</p>"
+    },
+    {
+      "index": 175,
+      "source_text": "Fiona：如果说小说，我会推荐两位作家：玛格丽特·阿特伍德和村上春树。我在加拿大长大，所以小时候读过很多阿特伍德的作品。她的书很有意思，有点像“推想小说”或者“思辨小说”：你读的时候会觉得，只要眯起眼睛想一想，这些事情好像真的有可能发生在某个社会里。我很喜欢她处理这类题材的方式。",
+      "html": "<p>Fiona：如果<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>小说，我会推荐两位作家：玛格丽特·阿特伍德和村上春树。我在加拿大长大，所以小时候<span class=\"word-annot\"><span class=\"word-anchor\">读</span><span class=\"word-block\"><span class=\"english-word\">read</span><span class=\"word-info\">[riːd] v. 读</span></span></span>过很多阿特伍德的作品。她的书很有意思，有点像“推想小说”或者“思辨小说”：你读的时候会觉得，只要眯起眼睛想一想，这些事情好像真的有<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>发生在某个社会里。我很<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">like</span><span class=\"word-info\">[laɪk] v. 喜欢</span></span></span>她处理这类题材的方式。</p>"
+    },
+    {
+      "index": 176,
+      "source_text": "至于村上春树，我喜欢他的魔幻现实主义风格。",
+      "html": "<p>至于村上春树，我喜欢他的魔幻<span class=\"word-annot\"><span class=\"word-anchor\">现实</span><span class=\"word-block\"><span class=\"english-word\">reality</span><span class=\"word-info\">[riˈæləti] n. 现实</span></span></span>主义风格。</p>"
+    },
+    {
+      "index": 177,
+      "source_text": "如果只推荐一本书，我总是会推荐大家每年至少读一次《小王子》。我想我们大多数人可能都读过这本书，但我自己至少每年都会重读一遍，因为它会提醒我去思考，什么才是真正重要的东西。",
+      "html": "<p>如果只推荐一本书，我总是会推荐大家每年至少<span class=\"word-annot\"><span class=\"word-anchor\">读</span><span class=\"word-block\"><span class=\"english-word\">read</span><span class=\"word-info\">[riːd] v. 读</span></span></span>一次《小王子》。我想我们大多数人可能都读过这本书，但我自己至少每年都会重读一遍，因为它会提醒我去思考，什么才是真正<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>的东西。</p>"
+    },
+    {
+      "index": 178,
+      "source_text": "Lenny：你最近喜欢的电影或电视剧是什么？",
+      "html": "<p>Lenny：你最近喜欢的<span class=\"word-annot\"><span class=\"word-anchor\">电影</span><span class=\"word-block\"><span class=\"english-word\">movie</span><span class=\"word-info\">[ˈmuːvi] n. 电影</span></span></span>或电视剧是什么？</p>"
+    },
+    {
+      "index": 179,
+      "source_text": "Fiona：我最近没怎么看电视剧。但我会分享三部我总是下载在手机里的电影，这样坐飞机时如果有时间就能看。",
+      "html": "<p>Fiona：我最近没怎么<span class=\"word-annot\"><span class=\"word-anchor\">看</span><span class=\"word-block\"><span class=\"english-word\">watch</span><span class=\"word-info\">[wɒtʃ] v. 看</span></span></span>电视剧。但我会分享三部我总是下载在手机里的<span class=\"word-annot\"><span class=\"word-anchor\">电影</span><span class=\"word-block\"><span class=\"english-word\">movie</span><span class=\"word-info\">[ˈmuːvi] n. 电影</span></span></span>，这样坐飞机时如果有时间就能看。</p>"
+    },
+    {
+      "index": 180,
+      "source_text": "第一部是法国电影《天使爱美丽》（Amélie）。这些电影可能都很老，算 vintage 了。但我很喜欢《天使爱美丽》，它非常 whimsical。我 16 岁时原本想成为视觉艺术家，高中时去过巴黎，那段经历留下了很多记忆。《天使爱美丽》很好地捕捉了我当时感受到的巴黎魔力。",
+      "html": "<p>第一部是法国电影《天使爱<span class=\"word-annot\"><span class=\"word-anchor\">美丽</span><span class=\"word-block\"><span class=\"english-word\">beauty</span><span class=\"word-info\">[ˈbjuːti] n. 美丽</span></span></span>》（Amélie）。这些电影<span class=\"word-annot\"><span class=\"word-anchor\">可能</span><span class=\"word-block\"><span class=\"english-word\">possible</span><span class=\"word-info\">[ˈpɒsəbl] adj. 可能的</span></span></span>都很老，算 vintage 了。但我很<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">like</span><span class=\"word-info\">[laɪk] v. 喜欢</span></span></span>《天使爱美丽》，它非常 whimsical。我 16 岁时原本想成为<span class=\"word-annot\"><span class=\"word-anchor\">视觉</span><span class=\"word-block\"><span class=\"english-word\">visual</span><span class=\"word-info\">[ˈvɪʒuəl] adj. 视觉的</span></span></span>艺术家，高中时去过巴黎，那段经历留下了很多记忆。《天使<span class=\"word-annot\"><span class=\"word-anchor\">爱</span><span class=\"word-block\"><span class=\"english-word\">love</span><span class=\"word-info\">[lʌv] v. 爱</span></span></span>美丽》很好地捕捉了我当时感受到的巴黎魔力。</p>"
+    },
+    {
+      "index": 181,
+      "source_text": "另外两部是吉卜力电影。一部是《千与千寻》（Spirited Away），我非常喜欢它的故事，几乎喜欢其中的一切，它可能是我最喜欢的吉卜力电影之一。",
+      "html": "<p>另外两部是吉卜力<span class=\"word-annot\"><span class=\"word-anchor\">电影</span><span class=\"word-block\"><span class=\"english-word\">movie</span><span class=\"word-info\">[ˈmuːvi] n. 电影</span></span></span>。一部是《千与千寻》（Spirited Away），我非常喜欢它的<span class=\"word-annot\"><span class=\"word-anchor\">故事</span><span class=\"word-block\"><span class=\"english-word\">story</span><span class=\"word-info\">[ˈstɔːri] n. 故事</span></span></span>，几乎喜欢其中的一切，它可能是我最喜欢的吉卜力电影之一。</p>"
+    },
+    {
+      "index": 182,
+      "source_text": "第三部是《风之谷》（Nausicaä of the Valley of the Wind）。如果有人问我，我的很多领导力特质来自哪里，我会想到这部电影。我大概八九岁时看过它，女主角 Nausicaä 的领导方式在我心里留下了很深的印记，也影响了我很多领导原则。",
+      "html": "<p>第三部是《风之谷》（Nausicaä of the Valley of the Wind）。如果有人问我，我的很多<span class=\"word-annot\"><span class=\"word-anchor\">领导力</span><span class=\"word-block\"><span class=\"english-word\">leadership</span><span class=\"word-info\">[ˈliːdəʃɪp] n. 领导力</span></span></span>特质来自哪里，我会想到这部电影。我大概八九岁时看过它，女主角 Nausicaä 的领导方式在我心里留下了很深的印记，也<span class=\"word-annot\"><span class=\"word-anchor\">影响</span><span class=\"word-block\"><span class=\"english-word\">influence</span><span class=\"word-info\">[ˈɪnfluəns] v. 影响</span></span></span>了我很多领导原则。</p>"
+    },
+    {
+      "index": 183,
+      "source_text": "Lenny：这像是两本顶级管理书：《High Output Management》和《风之谷》。下一个问题。你最近发现并喜欢的产品是什么？可以是 app、衣服、工具、厨房用品，任何东西。",
+      "html": "<p>Lenny：这像是两本顶级<span class=\"word-annot\"><span class=\"word-anchor\">管理</span><span class=\"word-block\"><span class=\"english-word\">manage</span><span class=\"word-info\">[ˈmænɪdʒ] v. 管理</span></span></span>书：《High Output Management》和《风之谷》。下一个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。你最近发现并喜欢的<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>是什么？可以是 app、衣服、工具、厨房用品，<span class=\"word-annot\"><span class=\"word-anchor\">任何</span><span class=\"word-block\"><span class=\"english-word\">any</span><span class=\"word-info\">[ˈeni] adj. 任何</span></span></span>东西。</p>"
+    },
+    {
+      "index": 184,
+      "source_text": "Fiona：我想分享一个最近又提醒我它对生活影响很大的产品。因为最近一直在旅行，我又喜欢轻装出行，所以通常会用酒店提供的洗发水和护发素。但这让我想起一个产品：Sweet Sisters Body Care。它是 Whidbey Island 上一家本地小企业。",
+      "html": "<p>Fiona：我想分享一个最近又提醒我它对生活<span class=\"word-annot\"><span class=\"word-anchor\">影响</span><span class=\"word-block\"><span class=\"english-word\">influence</span><span class=\"word-info\">[ˈɪnfluəns] v. 影响</span></span></span>很大的产品。因为最近一直在旅行，我又喜欢轻装出行，所以通常会用酒店<span class=\"word-annot\"><span class=\"word-anchor\">提供</span><span class=\"word-block\"><span class=\"english-word\">provide</span><span class=\"word-info\">[prəˈvaɪd] v. 提供</span></span></span>的洗发水和护发素。但这让我想起一个<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>：Sweet Sisters Body Care。它是 Whidbey Island 上一家本地小企业。</p>"
+    },
+    {
+      "index": 185,
+      "source_text": "它是一整套有机头发、身体和皮肤护理产品。几年前，我鼻子附近开始长一种很痛的皮疹，甚至会出血。我一直找不到原因。我停用了各种护肤品，还是没有好转。后来有人问我：“你用的是什么洗发水？”我说就是从十几岁开始一直用的普通洗发水。对方说，也许你的身体开始对里面的化学成分过敏了。",
+      "html": "<p>它是一整套有机头发、身体和皮肤护理<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>。几年前，我鼻子附近<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">begin</span><span class=\"word-info\">[bɪˈɡɪn] v. 开始</span></span></span>长一种很痛的皮疹，甚至会出血。我一直找不到<span class=\"word-annot\"><span class=\"word-anchor\">原因</span><span class=\"word-block\"><span class=\"english-word\">reason</span><span class=\"word-info\">[ˈriːzn] n. 原因</span></span></span>。我停用了各种护肤品，还是没有好转。后来有人<span class=\"word-annot\"><span class=\"word-anchor\">问</span><span class=\"word-block\"><span class=\"english-word\">ask</span><span class=\"word-info\">[ɑːsk] v. 问</span></span></span>我：“你用的是什么洗发水？”我说就是从十几岁<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">begin</span><span class=\"word-info\">[bɪˈɡɪn] v. 开始</span></span></span>一直用的普通洗发水。对方说，也许你的身体<span class=\"word-annot\"><span class=\"word-anchor\">开始</span><span class=\"word-block\"><span class=\"english-word\">begin</span><span class=\"word-info\">[bɪˈɡɪn] v. 开始</span></span></span>对里面的化学成分过敏了。</p>"
+    },
+    {
+      "index": 186,
+      "source_text": "后来我找到了这款有机洗发水。用了一段时间后，情况真的好转了。你平时不会想到，洗头发时洗发水会流到身体其他部位。后来我几乎把日常使用的东西都换成了 Sweet Sisters。",
+      "html": "<p>后<span class=\"word-annot\"><span class=\"word-anchor\">来</span><span class=\"word-block\"><span class=\"english-word\">come</span><span class=\"word-info\">[kʌm] v. 来</span></span></span>我找到了这款有机洗发水。用了一段<span class=\"word-annot\"><span class=\"word-anchor\">时间</span><span class=\"word-block\"><span class=\"english-word\">time</span><span class=\"word-info\">[taɪm] n. 时间</span></span></span>后，情况真的好转了。你平时不会<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>到，洗头发时洗发水会流到身体其他部位。后<span class=\"word-annot\"><span class=\"word-anchor\">来</span><span class=\"word-block\"><span class=\"english-word\">come</span><span class=\"word-info\">[kʌm] v. 来</span></span></span>我几乎把日常使用的东西都换成了 Sweet Sisters。</p>"
+    },
+    {
+      "index": 187,
+      "source_text": "最近因为旅行用了一周酒店洗发水，皮肤反应又开始出现，我才意识到，也许我应该带旅行装。",
+      "html": "<p>最近因为旅行用了一周酒店洗发水，皮肤反应又开始出现，我才<span class=\"word-annot\"><span class=\"word-anchor\">意识</span><span class=\"word-block\"><span class=\"english-word\">awareness</span><span class=\"word-info\">[əˈweənəs] n. 意识</span></span></span>到，也许我应该带旅行装。</p>"
+    },
+    {
+      "index": 188,
+      "source_text": "Lenny：我很喜欢本地小企业产品。顺便说一下，你最近在旅行，是因为 Code with Claude 活动在全球各地举办。我去了旧金山那场，伦敦也有一场，你接下来去东京。东京是最后一站吗？",
+      "html": "<p>Lenny：我很喜欢本地小企业<span class=\"word-annot\"><span class=\"word-anchor\">产品</span><span class=\"word-block\"><span class=\"english-word\">product</span><span class=\"word-info\">[ˈprɒdʌkt] n. 产品</span></span></span>。顺便<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>一下，你最近在旅行，是因为 Code with Claude 活动在全球各地举办。我<span class=\"word-annot\"><span class=\"word-anchor\">去</span><span class=\"word-block\"><span class=\"english-word\">go</span><span class=\"word-info\">[ɡəʊ] v. 去</span></span></span>了旧金山那场，伦敦也有一场，你接下来去东京。东京是最后一<span class=\"word-annot\"><span class=\"word-anchor\">站</span><span class=\"word-block\"><span class=\"english-word\">stand</span><span class=\"word-info\">[stænd] v. 站</span></span></span>吗？</p>"
+    },
+    {
+      "index": 189,
+      "source_text": "Fiona：是的，东京是下周，也是这次行程的最后一站。",
+      "html": "<p>Fiona：是的，东京是下周，也是这次行程的最后一<span class=\"word-annot\"><span class=\"word-anchor\">站</span><span class=\"word-block\"><span class=\"english-word\">stand</span><span class=\"word-info\">[stænd] v. 站</span></span></span>。</p>"
+    },
+    {
+      "index": 190,
+      "source_text": "Lenny：下一个问题。你有没有在工作或生活中经常想起的一句座右铭？",
+      "html": "<p>Lenny：下一个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。你有没有在<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>或生活中经常想起的一句座右铭？</p>"
+    },
+    {
+      "index": 191,
+      "source_text": "Fiona：工作上，我常提醒大家：keep it simple。你真正想做好的一件事是什么？聚焦在那件事上。因为我们有时会想太多，所以 keep it simple 是一个很好的提醒。",
+      "html": "<p>Fiona：<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>上，我常提醒大家：keep it simple。你真正<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>做好的一件事是什么？聚焦在那件事上。因为我们有时会<span class=\"word-annot\"><span class=\"word-anchor\">想</span><span class=\"word-block\"><span class=\"english-word\">think</span><span class=\"word-info\">[θɪŋk] v. 想</span></span></span>太多，所以 keep it simple 是一个很好的提醒。</p>"
+    },
+    {
+      "index": 192,
+      "source_text": "生活上，我喜欢一句话：in a world where you can be anything, be kind。我们参观一所修道院学校时，看到老师把这句话贴在墙上。我很喜欢。每个人生活里都有很多事情，你永远不知道别人正在经历什么。一个很小的善意行为，可能会产生非常大的影响。",
+      "html": "<p><span class=\"word-annot\"><span class=\"word-anchor\">生活</span><span class=\"word-block\"><span class=\"english-word\">life</span><span class=\"word-info\">[laɪf] n. 生活</span></span></span>上，我喜欢一句话：in a world where you can be anything, be kind。我们参观一所修道院学校时，看到<span class=\"word-annot\"><span class=\"word-anchor\">老师</span><span class=\"word-block\"><span class=\"english-word\">teacher</span><span class=\"word-info\">[ˈtiːtʃə] n. 老师</span></span></span>把这句话贴在墙上。我很<span class=\"word-annot\"><span class=\"word-anchor\">喜欢</span><span class=\"word-block\"><span class=\"english-word\">like</span><span class=\"word-info\">[laɪk] v. 喜欢</span></span></span>。<span class=\"word-annot\"><span class=\"word-anchor\">每个</span><span class=\"word-block\"><span class=\"english-word\">each</span><span class=\"word-info\">[iːtʃ] adj. 每个</span></span></span>人生活里都有很多事情，你永远不知道别人正在经历什么。一个很小的善意行为，可能会产生非常大的<span class=\"word-annot\"><span class=\"word-anchor\">影响</span><span class=\"word-block\"><span class=\"english-word\">influence</span><span class=\"word-info\">[ˈɪnfluəns] v. 影响</span></span></span>。</p>"
+    },
+    {
+      "index": 193,
+      "source_text": "我有一个亲身经历。疫情期间，我们都在家工作。我有很多 back-to-back meetings，而我一直非常重视 one-on-one，因为这段时间对对方也很重要，他们可能一直等着和你讨论一些事情。",
+      "html": "<p>我有一个亲身经历。疫情期间，我们都在家<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>。我有很多 back-to-back meetings，而我一直非常重视 one-on-one，因为这段时间对对方也很重要，他们可能一直等着和你<span class=\"word-annot\"><span class=\"word-anchor\">讨论</span><span class=\"word-block\"><span class=\"english-word\">discussion</span><span class=\"word-info\">[dɪˈskʌʃn] n. 讨论</span></span></span>一些事情。</p>"
+    },
+    {
+      "index": 194,
+      "source_text": "那时我奶奶身体不好，在加拿大的一家养老院里。因为疫情，我不能去看她，我妈妈和阿姨也不能去。偶尔如果有护理人员帮忙，我们才能 FaceTime，但时间完全不确定。",
+      "html": "<p>那时我奶奶身体不好，在加<span class=\"word-annot\"><span class=\"word-anchor\">拿</span><span class=\"word-block\"><span class=\"english-word\">take</span><span class=\"word-info\">[teɪk] v. 拿</span></span></span>大的一家养老院里。因为疫情，我不能去<span class=\"word-annot\"><span class=\"word-anchor\">看</span><span class=\"word-block\"><span class=\"english-word\">watch</span><span class=\"word-info\">[wɒtʃ] v. 看</span></span></span>她，我妈妈和阿姨也不能去。偶尔如果有护理人员帮忙，我们才能 FaceTime，但时间完全不<span class=\"word-annot\"><span class=\"word-anchor\">确定</span><span class=\"word-block\"><span class=\"english-word\">determine</span><span class=\"word-info\">[dɪˈtɜːmɪn] v. 确定</span></span></span>。</p>"
+    },
+    {
+      "index": 195,
+      "source_text": "有一天，我阿姨突然发消息说，奶奶中午 12 点可以 FaceTime。我当时正好有一个很重要、一直想进行的 one-on-one。我就给对方发消息，说非常抱歉，临时有事，能不能改一下时间。现在说起来好像不是什么大事，但对我来说，守住 one-on-one 一直很重要。对方很爽快地说，当然，完全没问题。",
+      "html": "<p>有一天，我阿姨突然发<span class=\"word-annot\"><span class=\"word-anchor\">消息</span><span class=\"word-block\"><span class=\"english-word\">message</span><span class=\"word-info\">[ˈmesɪdʒ] n. 消息</span></span></span>说，奶奶中午 12 点可以 FaceTime。我当时正好有一个很<span class=\"word-annot\"><span class=\"word-anchor\">重要</span><span class=\"word-block\"><span class=\"english-word\">important</span><span class=\"word-info\">[ɪmˈpɔːtnt] adj. 重要的</span></span></span>、一直想进行的 one-on-one。我就给对方发<span class=\"word-annot\"><span class=\"word-anchor\">消息</span><span class=\"word-block\"><span class=\"english-word\">message</span><span class=\"word-info\">[ˈmesɪdʒ] n. 消息</span></span></span>，说非常抱歉，临时有事，能不能改一下时间。<span class=\"word-annot\"><span class=\"word-anchor\">现在</span><span class=\"word-block\"><span class=\"english-word\">present</span><span class=\"word-info\">[ˈpreznt] n. 现在</span></span></span>说起来好像不是什么大事，但对我来说，守住 one-on-one 一直很重要。对方很爽快地说，当然，完全没<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。</p>"
+    },
+    {
+      "index": 196,
+      "source_text": "这对他来说只是一个很小的善意，没有把这件事变得很严重。但对我来说意义很大，因为我因此能和奶奶 FaceTime，能和她打招呼。",
+      "html": "<p>这对他来<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>只是一个很小的善意，没有把这件事变得很严重。但对我来<span class=\"word-annot\"><span class=\"word-anchor\">说</span><span class=\"word-block\"><span class=\"english-word\">say</span><span class=\"word-info\">[seɪ] v. 说</span></span></span>意义很大，因为我因此能和奶奶 FaceTime，能和她打招呼。</p>"
+    },
+    {
+      "index": 197,
+      "source_text": "Lenny：最后一个问题。之前我问 Boris，如果 AGI 到来、我们不需要工作了，他会做什么。听起来你的答案可能是继续编织，做漂亮衣服。",
+      "html": "<p>Lenny：最后一个<span class=\"word-annot\"><span class=\"word-anchor\">问题</span><span class=\"word-block\"><span class=\"english-word\">problem</span><span class=\"word-info\">[ˈprɒbləm] n. 问题</span></span></span>。之前我问 Boris，如果 AGI 到来、我们不需要<span class=\"word-annot\"><span class=\"word-anchor\">工作</span><span class=\"word-block\"><span class=\"english-word\">job</span><span class=\"word-info\">[dʒɒb] n. 工作</span></span></span>了，他会做什么。听起来你的<span class=\"word-annot\"><span class=\"word-anchor\">答案</span><span class=\"word-block\"><span class=\"english-word\">answer</span><span class=\"word-info\">[ˈɑːnsə] n. 答案</span></span></span>可能是继续编织，做漂亮衣服。</p>"
+    },
+    {
+      "index": 198,
+      "source_text": "Fiona：我的梦想其实是开一家以我奶奶名字命名的毛线店，创造一个社区。然后 Cowork 可以帮忙，把一切都自动化。我真的觉得自己很幸运，也很谦卑，能和这么棒的团队一起工作。我知道自己非常幸运，也非常感激。也谢谢你邀请我来节目，这次聊天很有意思。",
+      "html": "<p>Fiona：我的梦想其实是开一家以我奶奶名字命名的毛线店，<span class=\"word-annot\"><span class=\"word-anchor\">创造</span><span class=\"word-block\"><span class=\"english-word\">create</span><span class=\"word-info\">[kriˈeɪt] v. 创造</span></span></span>一个社区。然后 Cowork 可以帮忙，把一切都<span class=\"word-annot\"><span class=\"word-anchor\">自动化</span><span class=\"word-block\"><span class=\"english-word\">automate</span><span class=\"word-info\">[ˈɔːtəmeɪt] v. 自动化</span></span></span>。我真的觉得自己很幸运，也很谦卑，能和这么棒的<span class=\"word-annot\"><span class=\"word-anchor\">团队</span><span class=\"word-block\"><span class=\"english-word\">team</span><span class=\"word-info\">[tiːm] n. 团队</span></span></span>一起工作。我知道自己非常<span class=\"word-annot\"><span class=\"word-anchor\">幸运</span><span class=\"word-block\"><span class=\"english-word\">lucky</span><span class=\"word-info\">[ˈlʌki] adj. 幸运的</span></span></span>，也非常感激。也谢谢你<span class=\"word-annot\"><span class=\"word-anchor\">邀请</span><span class=\"word-block\"><span class=\"english-word\">invite</span><span class=\"word-info\">[ɪnˈvaɪt] v. 邀请</span></span></span>我来节目，这次聊天很有意思。</p>"
+    },
+    {
+      "index": 199,
+      "source_text": "https://www.youtube.com/watch?app=desktop&v=Ybrl4FYM57c",
+      "html": "<p>https://www.youtube.com/watch?app=desktop&amp;v=Ybrl4FYM57c</p>"
+    },
+    {
+      "index": 200,
+      "source_text": "声明：本文为 InfoQ 原创，不代表平台观点，也不构成投资建议，未经许可禁止转载。",
+      "html": "<p>声明：本文为 InfoQ 原创，不代表<span class=\"word-annot\"><span class=\"word-anchor\">平台</span><span class=\"word-block\"><span class=\"english-word\">platform</span><span class=\"word-info\">[ˈplætfɔːm] n. 平台</span></span></span>观点，也不构成投资建议，未经许可禁止转载。</p>"
+    },
+    {
+      "index": 201,
+      "source_text": "![](../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/003.png)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/003.png\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 202,
+      "source_text": "![](../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/004.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/004.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    },
+    {
+      "index": 203,
+      "source_text": "吴恩达戳破AI幻象：炒作过头了，未来公司是10人小队＋Agent重做数据架构",
+      "html": "<p>吴恩达戳破AI幻象：炒作过头了，未来公司是10人小队＋Agent重做数据<span class=\"word-annot\"><span class=\"word-anchor\">架构</span><span class=\"word-block\"><span class=\"english-word\">architecture</span><span class=\"word-info\">[ˈɑːkɪtektʃə] n. 架构</span></span></span></p>"
+    },
+    {
+      "index": 204,
+      "source_text": "Meta 几周内毁掉二十年工程文化，给所有“AI 优先”公司上了一课",
+      "html": "<p>Meta 几周内毁掉二十年工程<span class=\"word-annot\"><span class=\"word-anchor\">文化</span><span class=\"word-block\"><span class=\"english-word\">culture</span><span class=\"word-info\">[ˈkʌltʃə] n. 文化</span></span></span>，给所有“AI 优先”公司上了一课</p>"
+    },
+    {
+      "index": 205,
+      "source_text": "终端开发秒变可交互、实时网页！Claude Code 刚刚更新：AI 编程进入看板协作时代",
+      "html": "<p>终端开发秒变可交互、实时<span class=\"word-annot\"><span class=\"word-anchor\">网页</span><span class=\"word-block\"><span class=\"english-word\">webpage</span><span class=\"word-info\">[ˈwebpeɪdʒ] n. 网页</span></span></span>！Claude Code 刚刚更新：AI 编程进入看板<span class=\"word-annot\"><span class=\"word-anchor\">协作</span><span class=\"word-block\"><span class=\"english-word\">collaborate</span><span class=\"word-info\">[kəˈlæbəreɪt] v. 协作</span></span></span>时代</p>"
+    },
+    {
+      "index": 206,
+      "source_text": "狂烧 Token 却赚不到钱？这家清华系 AI Infra 独角兽已破解算力成本难题",
+      "html": "<p>狂烧 Token 却赚不到钱？这家清华系 AI Infra 独角兽已破解算力<span class=\"word-annot\"><span class=\"word-anchor\">成本</span><span class=\"word-block\"><span class=\"english-word\">cost</span><span class=\"word-info\">[kɒst] n. 成本</span></span></span>难题</p>"
+    },
+    {
+      "index": 207,
+      "source_text": "AICon 上海站 4 大核心看点：Keynote 前瞻洞见、Agent 工程化专题拆解、前沿技术 + 产业落地全覆盖，Google Cloud 专家实操带练。更多详情可扫码或联系票务经理 13269078023 进行咨询。",
+      "html": "<p>AICon 上海站 4 大核心看点：Keynote 前瞻洞见、Agent 工程化专题拆解、前沿技术 + 产业落地全<span class=\"word-annot\"><span class=\"word-anchor\">覆盖</span><span class=\"word-block\"><span class=\"english-word\">coverage</span><span class=\"word-info\">[ˈkʌvərɪdʒ] n. 覆盖率</span></span></span>，Google Cloud 专家实操带练。更多详情可扫码或联系票务经理 13269078023 进行咨询。</p>"
+    },
+    {
+      "index": 208,
+      "source_text": "![](../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/005.jpg)",
+      "html": "<figure class=\"article-figure\"><img src=\"../images/posts/2026-06-22-claude-code-engineer-agent-roi-cooldown/005.jpg\" loading=\"lazy\" alt=\"\"></figure>"
+    }
+  ]
+}
